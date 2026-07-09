@@ -1,0 +1,108 @@
+---
+description: Data-modeling rules for campaign entity files (no Markdown, no duplicated/derivable data)
+globs: src/data/**/*.ts
+alwaysApply: false
+---
+
+# Campaign data: model it, don't format it
+
+Entity files under `src/data/**` are **structured data**, not documents. Rendering
+and formatting are the UI's job (see `src/components/*` and derivations in
+`src/lib/campaign.ts`).
+
+## HARD RULE — NO Markdown in data
+
+Never put Markdown syntax inside data strings: no `#` headings, `**bold**`,
+`> quotes`, bullet `-`/`*`, or `[label](url)` links.
+
+- Links to other entities → use `refs.<kind>.<key>` tokens in a `Content`
+  array (resolved at render time), e.g.
+  `['Met ', refs.npcs.abraham, ' in the forest.']`.
+  Import `refs` from `#/data/refs.ts` — never import sibling `_index` registries
+  just to reference another entity.
+- Sections/emphasis → that's a rendering concern, not data.
+
+## HARD RULE — every fact has exactly ONE home
+
+There is **no duplicate data**. Each fact is stored once, in the single field
+that owns it, and is never restated anywhere else. If you can already read a fact
+somewhere, you may not repeat it — link to it instead.
+
+Who owns what:
+
+- **Structured fields** (`species`, `class`, `level`, `subclass`, `player`, `status`,
+  `role`, `location`, `languages`, `map`, …) own their facts. Facts that fit a
+  structured field (e.g. "speaks Common" → `languages: ['Common']`) go there, never
+  as prose in `summary`/`notes`. Human-readable strings like the
+  PC stat line are **derived** (`pcStatLine()` builds `"Human Warlock 4 · Great
+  Old One Patron"` from `species`/`class`/`level`/`subclass`). Never restate these in
+  `summary` or `notes`.
+- **Events** (`src/data/events/**`) own the play-by-play — what happened, when,
+  where, and its open threads. An event tags a `location` and mentions PCs/NPCs in
+  `parts`, so it already appears on those entities' pages under **"Referenced by"**
+  (`reverseLinks`). Never re-narrate an event inside a location/NPC/PC `notes`.
+- **Quests** own their thread synthesis (`clues` / `conclusion`).
+- **`summary`** (NPCs, PCs, organizations — locations use `description` instead) =
+  ONE line naming what the entity is (identity/flavor) — never the stat line, never
+  a play-by-play recap. It is the teaser shown on list cards and as the header
+  subtitle, so keep it a self-contained identity line. It is a single
+  `Content` value: a plain string, or an inline run mixing text and `refs.*` tokens
+  so entity mentions render as links (e.g.
+  `['A donkey belonging to ', refs.pcs.victor_the_badesh_lumberjack, '.']`). Any
+  entity named in a `summary` MUST be a `refs.*` link — never bare text.
+- **Location `description`** = the location's prose: what it is and what it looks
+  like / how it is laid out (identity + visual/structural). Locations have **no
+  `summary`** — `description` is the single home for descriptive text (both the
+  list-card teaser and the page body read from it). Use inline runs with `refs.*`
+  for entity mentions. It describes the location itself, NOT the events that
+  happened there — "the party did X here" belongs in an event. Facts already
+  carried by a linked entity (an NPC's `location`, a membership) don't belong here.
+- **`notes`** (NPCs, PCs) = only what has no other home: secrets and
+  meta/reconciliation notes (naming, source-of-truth splits, external reference
+  links). If nothing qualifies, omit `notes`. **Locations have no `notes`** — a
+  place's open questions/mysteries live in a `quest` that references the location
+  (quests are entities that link places), or in `QUESTIONS.md`; missing
+  worldbuilding detail is simply left unwritten, never recorded as a "we don't
+  know X" note.
+
+Common violations to delete on sight:
+
+- `notes[0]` that repeats the `summary`.
+- A "Confirmed from D&D Beyond: Species… Class… Level…" block that repeats structured
+  fields.
+- `notes` bullets that retell an event that already exists as an event entity —
+  drop them (they surface via "Referenced by"), or, if a curated pointer truly
+  helps, replace with a one-line `refs.events.*` link (see GOOD example).
+- Section-label strings used as scaffolding (`'What the party knows:'`,
+  `'Notable moments:'`, `'Open questions:'`, `'Titles:'`, `'Reference:'`).
+  Sectioning is a rendering concern, not data.
+- A bare entity name in a `summary` (e.g. `'A lumberjack from Badesh.'`) — make it
+  a `refs.*` link (`['A lumberjack from ', refs.locations.badesh, '.']`).
+- Event/session recap in a `summary` (`'…got lost in during session 5'`, `'…solved
+  by the party in session 12'`) — drop it; the event surfaces via "Referenced by".
+
+```ts
+// ❌ BAD — summary repeated, stat line repeated, event re-narrated, labels as data
+species: 'Human',
+class: 'Warlock',
+summary: 'Human Warlock 4, Great Old One patron. Played by Jareign.',
+notes: [
+  'Human Warlock 4, Great Old One patron.',        // repeats summary + stat line
+  'Confirmed from D&D Beyond:',                     // label-as-data
+  'Species: Human. Class: Warlock. Level: 4.',      // repeats structured fields
+  'Notable moments:',                               // label-as-data
+  'Session 12: answered the zone of truth on the mountain top.', // re-narrates an event
+],
+
+// ✅ GOOD — facts once, structured; notes hold only what has no other home
+species: 'Human',
+class: 'Warlock',
+subclass: 'Great Old One Patron',
+level: 4,
+notes: [
+  ['Session 12 (mountain top): ', refs.events.n2_e031, ' — answered the zone of truth.'],
+],
+```
+
+If a fact has nowhere structured to live, add a field to the schema in
+`src/definitions/*` rather than smuggling it into prose.

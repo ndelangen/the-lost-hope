@@ -1,0 +1,19 @@
+import { refs } from '#/data/refs.ts'
+import { create as createEvent } from '#/definitions/event.ts'
+
+export default createEvent({
+  name: 'Hunted by a small group of dinos',
+  date: new Date('2026-08-18T10:30'),
+  location: refs.locations.badesh_forest,
+  mark: { type: 'icon', name: 'gi/GiCrossedSwords' },
+  parts: [
+    'A small group of dinos spotted the party, and the party was hunted and chased.',
+    [
+      refs.npcs.abraham,
+      ' (',
+      refs.pcs.victor_the_badesh_lumberjack,
+      "'s donkey) hauled ass — the party piled into his cart and he raced them to safety.",
+    ],
+    ['Party: ', refs.pcs.jim, ', ', refs.pcs.william_greenhove, ', ', refs.pcs.devan],
+  ],
+})

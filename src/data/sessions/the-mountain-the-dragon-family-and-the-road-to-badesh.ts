@@ -1,0 +1,37 @@
+import { refs } from '#/data/refs.ts'
+import { create as createSession } from '#/definitions/session.ts'
+
+export default createSession({
+  name: 'The Mountain, the Dragon Family, and the Road to Badesh',
+  date: new Date('2026-08-10'),
+  events: [
+    refs.events.n2_e013,
+    refs.events.n2_e014,
+    refs.events.n2_e015,
+    refs.events.n2_e016,
+    refs.events.n2_e017,
+    refs.events.n2_e018,
+    refs.events.n2_e019,
+    refs.events.n2_e020,
+    refs.events.n2_e021,
+    refs.events.n2_e022,
+    refs.events.n2_e023,
+    refs.events.n2_e024,
+    refs.events.n2_e025,
+    refs.events.n2_e026,
+    refs.events.n2_e027,
+    refs.events.n2_e028,
+    refs.events.n2_e029,
+    refs.events.n2_e030,
+    refs.events.n2_e031,
+    refs.events.n2_e032,
+    refs.events.n2_e033,
+    refs.events.n2_e034,
+    refs.events.n2_e035,
+    refs.events.n2_e036,
+    refs.events.n2_e037,
+    refs.events.n2_e038,
+    refs.events.n2_e039,
+    refs.events.n2_e040,
+  ],
+})

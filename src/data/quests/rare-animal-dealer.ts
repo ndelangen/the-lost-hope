@@ -1,0 +1,29 @@
+import { refs } from '#/data/refs.ts'
+import { create as createQuest } from '#/definitions/quest.ts'
+
+export default createQuest({
+  name: 'Help the Rare-Animal Dealer',
+  description: 'Help the Rare-Animal Dealer',
+  status: 'open',
+  clues: [
+    [
+      'The ',
+      refs.npcs.rare_animal_dealer,
+      ' is an "exotic animal dealer" who was missing 3 animals.',
+    ],
+    [
+      'Animal #1 (Phoenix): party found a phoenix feather in an offshoot tunnel, then a young phoenix wrapped in a cocoon, guarded by a ',
+      refs.npcs.giant_spider,
+      '. ',
+      refs.pcs.jim,
+      ' freed the phoenix. It bonded with Jim. Returned to dealer.',
+    ],
+    [
+      'Animal #2 (Displacer Beast): party succeeded in capturing the ',
+      refs.npcs.displacer_beast,
+      ' and returning it.',
+    ],
+    'Animal #3: unidentified. The party ran out of time and did NOT bring back the third animal.',
+  ],
+  conclusion: [],
+})
