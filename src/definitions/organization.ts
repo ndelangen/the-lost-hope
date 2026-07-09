@@ -16,10 +16,7 @@ export const Organization = deriveSlug(
       .describe(
         "react-icons id for this organization's avatar, e.g. `gi/GiCrossedSwords` — see src/lib/organization-icons.tsx. Should be unique per organization; falls back to a building placeholder when omitted.",
       ),
-    summary: Content.optional().describe(
-      'One-line identity/flavor; may mix text and `refs.*` tokens',
-    ),
-    notes: z.array(Content).optional(),
+    notes: Content.optional(),
   }),
 )
 

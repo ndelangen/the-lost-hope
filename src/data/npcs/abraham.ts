@@ -6,9 +6,11 @@ export default createNPC({
   avatar: '/assets/npcs/abraham.png',
   location: refs.locations.badesh_forest,
   species: 'Donkey',
-  summary: [
-    'A donkey belonging to ',
-    refs.pcs.victor_the_badesh_lumberjack,
-    '. Age, appearance, and temperament are all unestablished.',
+  notes: [
+    [
+      'A donkey belonging to ',
+      refs.pcs.victor_the_badesh_lumberjack,
+      '. Age, appearance, and temperament are all unestablished.',
+    ],
   ],
 })

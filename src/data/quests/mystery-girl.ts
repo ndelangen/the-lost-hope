@@ -3,7 +3,7 @@ import { create as createQuest } from '#/definitions/quest.ts'
 
 export default createQuest({
   name: 'The Mystery Girl',
-  description: 'The Mystery Girl',
+  notes: [['The Mystery Girl']],
   status: 'open',
   clues: [
     [

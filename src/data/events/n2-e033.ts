@@ -6,7 +6,7 @@ export default createEvent({
   date: new Date('2026-08-17T20:00'),
   location: refs.locations.mountain_top,
   mark: { type: 'icon', name: 'hi/HiSparkles' },
-  parts: [
+  notes: [
     [
       'At the top of the mountain, the party met an ',
       refs.npcs.angel_of_the_mountain,
@@ -19,7 +19,9 @@ export default createEvent({
       refs.npcs.dragon_children,
       ').',
     ],
-    'Open: names of the angel and the dragon, or any of the children — not stated. Exact number of children — "many" only.',
+    [
+      'Open: names of the angel and the dragon, or any of the children — not stated. Exact number of children — "many" only.',
+    ],
     [
       'Party: ',
       refs.pcs.jim,

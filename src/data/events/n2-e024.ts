@@ -6,15 +6,15 @@ export default createEvent({
   date: new Date('2026-08-11T22:00'),
   location: refs.locations.fajanet,
   mark: { type: 'icon', name: 'fa/FaMapMarkerAlt' },
-  parts: [
+  notes: [
     [
       refs.pcs.mr_peace,
       "'s flower magic ruined the beautiful turf kept in absolute perfect condition by the ",
       refs.npcs.goblin_grass_keepers,
       ' who maintained the grass.',
     ],
-    'The goblins hated him for it.',
-    'At night, the goblins tried to kidnap Mr. Peace. The party stopped it from happening.',
+    ['The goblins hated him for it.'],
+    ['At night, the goblins tried to kidnap Mr. Peace. The party stopped it from happening.'],
     [
       'Party: ',
       refs.pcs.jim,

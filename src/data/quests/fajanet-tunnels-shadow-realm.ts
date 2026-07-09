@@ -3,7 +3,7 @@ import { create as createQuest } from '#/definitions/quest.ts'
 
 export default createQuest({
   name: 'Do the Fajanet Tunnels connect to the Shadow Realm?',
-  description: 'Do the Fajanet Tunnels connect to the Shadow Realm?',
+  notes: [['Do the Fajanet Tunnels connect to the Shadow Realm?']],
   status: 'open',
   clues: [
     [
@@ -31,7 +31,9 @@ export default createQuest({
       refs.locations.shadow_realm,
       '.',
     ],
-    'Both underground spaces were reached via a trapdoor; whether they are the same network is unknown.',
+    [
+      'Both underground spaces were reached via a trapdoor; whether they are the same network is unknown.',
+    ],
   ],
   conclusion: [],
 })

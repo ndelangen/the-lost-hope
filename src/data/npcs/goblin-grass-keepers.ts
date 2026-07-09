@@ -6,9 +6,11 @@ export default createNPC({
   avatar: '/assets/npcs/goblin-grass-keepers.png',
   location: refs.locations.fajanet,
   species: 'Goblin',
-  summary: [
-    'A group of friendly goblins in ',
-    refs.locations.fajanet,
-    ' who keep a patch of grass in absolutely perfect condition. Friendly to the city and to strangers, but fiercely protective of their turf. The location of their turf and whether they have a leader are unestablished.',
+  notes: [
+    [
+      'A group of friendly goblins in ',
+      refs.locations.fajanet,
+      ' who keep a patch of grass in absolutely perfect condition. Friendly to the city and to strangers, but fiercely protective of their turf. The location of their turf and whether they have a leader are unestablished.',
+    ],
   ],
 })

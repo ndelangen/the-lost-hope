@@ -3,7 +3,7 @@ import { create as createQuest } from '#/definitions/quest.ts'
 
 export default createQuest({
   name: 'Help the Rare-Animal Dealer',
-  description: 'Help the Rare-Animal Dealer',
+  notes: [['Help the Rare-Animal Dealer']],
   status: 'resolved',
   clues: [
     [
@@ -27,7 +27,7 @@ export default createQuest({
       refs.npcs.displacer_beast,
       ' and returning it.',
     ],
-    'Animal #3: unidentified. The party ran out of time and did NOT bring back the third animal.',
+    ['Animal #3: unidentified. The party ran out of time and did NOT bring back the third animal.'],
   ],
   conclusion: [],
 })

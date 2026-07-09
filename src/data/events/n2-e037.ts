@@ -6,7 +6,7 @@ export default createEvent({
   date: new Date('2026-08-18T08:00'),
   location: refs.locations.badesh_forest,
   mark: { type: 'icon', name: 'gi/GiPineTree' },
-  parts: [
+  notes: [
     [
       'In the forest, the party met a human lumberjack, ',
       refs.pcs.victor_the_badesh_lumberjack,
@@ -14,7 +14,9 @@ export default createEvent({
       refs.npcs.abraham,
       '.',
     ],
-    "Open: what was Victor's role here? Single-session ally, future recurring NPC, or PC in the longer campaign? Not stated.",
+    [
+      "Open: what was Victor's role here? Single-session ally, future recurring NPC, or PC in the longer campaign? Not stated.",
+    ],
     ['Party: ', refs.pcs.jim, ', ', refs.pcs.william_greenhove, ', ', refs.pcs.devan],
   ],
 })

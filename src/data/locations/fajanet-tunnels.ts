@@ -7,6 +7,6 @@ export default createLocation({
   type: 'dungeon',
   parent: refs.locations.fajanet,
   at: [200, 0],
-  description: [['A network of underground tunnels, reached via ', refs.locations.trapdoor, '.']],
+  notes: [['A network of underground tunnels, reached via ', refs.locations.trapdoor, '.']],
   map: { url: '/assets/locations/fajanet-tunnels.png', width: 1200, height: 700 },
 })

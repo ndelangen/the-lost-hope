@@ -6,8 +6,8 @@ export default createEvent({
   date: new Date('2026-08-18T10:30'),
   location: refs.locations.badesh_forest,
   mark: { type: 'icon', name: 'gi/GiCrossedSwords' },
-  parts: [
-    'A small group of dinos spotted the party, and the party was hunted and chased.',
+  notes: [
+    ['A small group of dinos spotted the party, and the party was hunted and chased.'],
     [
       refs.npcs.abraham,
       ' (',

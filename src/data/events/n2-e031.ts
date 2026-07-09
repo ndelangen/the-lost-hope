@@ -6,8 +6,8 @@ export default createEvent({
   date: new Date('2026-08-17T16:00'),
   location: refs.locations.holy_site,
   mark: { type: 'icon', name: 'fa/FaChurch' },
-  parts: [
-    'The party passed through a holy site and continued upwards into the mountains.',
+  notes: [
+    ['The party passed through a holy site and continued upwards into the mountains.'],
     [
       'Party: ',
       refs.pcs.jim,

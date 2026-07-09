@@ -32,7 +32,7 @@ const MAP_HEIGHT = 500
 const MAP_PADDING = 48
 
 function locationTeaser(location: Location): string {
-  return location.description ? contentToText(location.description) : ''
+  return location.notes ? contentToText(location.notes) : ''
 }
 
 function locationTypeOf(entity: LocationEntity): LocationType | undefined {

@@ -6,7 +6,7 @@ export default createNPC({
   avatar: '/assets/npcs/light.png',
   location: refs.locations.fajanet_guildhall,
   species: 'unknown',
-  summary: [
+  notes: [
     [
       'Leader of the ',
       refs.organizations.adventurers_guild,

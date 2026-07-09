@@ -7,6 +7,6 @@ export default createLocation({
   type: 'wilderness',
   parent: refs.locations.world,
   at: [400, 400],
-  description: ['A location near the mountain.'],
+  notes: [['A location near the mountain.']],
   map: { url: '/assets/locations/the-green-light.png', width: 1200, height: 700 },
 })

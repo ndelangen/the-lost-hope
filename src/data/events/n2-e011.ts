@@ -6,7 +6,7 @@ export default createEvent({
   date: new Date('2026-08-10T10:30'),
   location: refs.locations.fajanet_guildhall,
   mark: { type: 'icon', name: 'hi/HiSparkles' },
-  parts: [
+  notes: [
     ['Each PC asked a favor. The ritual was performed by ', refs.npcs.third_marshal_light, '.'],
     [
       refs.pcs.jim,

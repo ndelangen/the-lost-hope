@@ -8,5 +8,5 @@ export default createPC({
   avatar: '/assets/pcs/victor.png',
   status: 'occasional',
   species: 'Human',
-  summary: ['A lumberjack from ', refs.locations.badesh, '.'],
+  notes: [['A lumberjack from ', refs.locations.badesh, '.']],
 })

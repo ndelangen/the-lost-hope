@@ -9,32 +9,35 @@ import type { EntityRef } from './kind'
  * mixes text and entity links); an array that contains nested arrays is a list
  * of **paragraphs**, each element rendered as its own block. Nesting can repeat.
  */
-export type Content =
+export type Content = (
   | string
   | EntityRef
   | { type: 'image' | 'video' | 'audio' | 'map'; url: string }
-  | Content[]
+)[][]
 
-export const Content: z.ZodType<Content> = z.lazy(() =>
-  z.union([
-    z.string(),
-    EntityRefSchema,
-    z.object({
-      type: z.literal('image'),
-      url: z.string(),
-    }),
-    z.object({
-      type: z.literal('video'),
-      url: z.string(),
-    }),
-    z.object({
-      type: z.literal('audio'),
-      url: z.string(),
-    }),
-    z.object({
-      type: z.literal('map'),
-      url: z.string(),
-    }),
-    z.array(Content),
-  ]),
+export const Content = z.lazy(() =>
+  z.array(
+    z.array(
+      z.union([
+        z.string(),
+        EntityRefSchema,
+        z.object({
+          type: z.literal('image'),
+          url: z.string(),
+        }),
+        z.object({
+          type: z.literal('video'),
+          url: z.string(),
+        }),
+        z.object({
+          type: z.literal('audio'),
+          url: z.string(),
+        }),
+        z.object({
+          type: z.literal('map'),
+          url: z.string(),
+        }),
+      ]),
+    ),
+  ),
 )

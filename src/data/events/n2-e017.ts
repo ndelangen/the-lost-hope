@@ -6,7 +6,7 @@ export default createEvent({
   date: new Date('2026-08-10T15:00'),
   location: refs.locations.fajanet,
   mark: { type: 'icon', name: 'gi/GiFeather' },
-  parts: [
+  notes: [
     [
       'The party brought the young ',
       refs.npcs.phoenix_chick,
@@ -14,7 +14,7 @@ export default createEvent({
       refs.npcs.rare_animal_dealer,
       ' and returned it.',
     ],
-    'Recovered: 1 of 3 missing animals.',
+    ['Recovered: 1 of 3 missing animals.'],
     ['Party: ', refs.pcs.jim, ', ', refs.pcs.william_greenhove, ', ', refs.pcs.revin_grumblefist],
   ],
 })

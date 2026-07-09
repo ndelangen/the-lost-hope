@@ -22,7 +22,7 @@ export type EventMark = z.infer<typeof EventMark>
 export const EventSchema = deriveSlug(
   z.strictObject({
     name: z.string(),
-    parts: z.array(Content),
+    notes: Content,
     date: z.date(),
     location: EntityRefSchema,
     mark: EventMark,

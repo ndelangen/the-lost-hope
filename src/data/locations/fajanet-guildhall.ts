@@ -7,8 +7,8 @@ export default createLocation({
   type: 'building',
   parent: refs.locations.fajanet,
   at: [0, 0],
-  description: [
-    "The party's new home base.",
+  notes: [
+    ["The party's new home base."],
     [
       'Features a quest bulletin board, a ritual area for the ',
       refs.organizations.adventurers_guild,

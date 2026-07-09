@@ -6,7 +6,7 @@ export default createEvent({
   date: new Date('2026-08-20T12:00'),
   location: refs.locations.fairhaven_guildhall,
   mark: { type: 'icon', name: 'fa/FaLandmark' },
-  parts: [
+  notes: [
     [
       'Inside the city, the party made their way to the ',
       refs.locations.fairhaven_guildhall,

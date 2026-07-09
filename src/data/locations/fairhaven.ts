@@ -7,7 +7,7 @@ export default createLocation({
   type: 'settlement',
   parent: refs.locations.world,
   at: [400, 0],
-  description: [
+  notes: [
     [
       'A harbor city, gated against outsiders — entry requires papers at the gate. Home to a hall of the ',
       refs.organizations.adventurers_guild,

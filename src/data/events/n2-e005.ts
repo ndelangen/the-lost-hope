@@ -6,7 +6,7 @@ export default createEvent({
   date: new Date('2026-08-09T16:00'),
   location: refs.locations.the_nest,
   mark: { type: 'icon', name: 'fa/FaBeer' },
-  parts: [
+  notes: [
     [
       'The party was supposed to go straight to the ',
       refs.locations.fajanet_guildhall,

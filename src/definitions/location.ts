@@ -42,12 +42,9 @@ const locationFields = {
     .describe(
       'Other names the same place is known by (e.g. an in-world second name). The canonical `name` drives the slug; aliases are display-only and searchable.',
     ),
-  description: z
-    .array(Content)
-    .optional()
-    .describe(
-      'Prose describing what the location is and how it looks. Locations have no `summary` — card teaser and page body both read from this. Mix text and `refs.*` tokens for entity links; never narrate events here.',
-    ),
+  notes: Content.optional().describe(
+    'Prose describing what the location is and how it looks. Locations have no `notes` — card teaser and page body both read from this. Mix text and `refs.*` tokens for entity links; never narrate events here.',
+  ),
   map: z
     .strictObject({
       url: MediaUrl,

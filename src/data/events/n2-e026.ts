@@ -6,10 +6,12 @@ export default createEvent({
   date: new Date('2026-08-16T18:00'),
   location: refs.locations.fajanet,
   mark: { type: 'icon', name: 'fa/FaUserPlus' },
-  parts: [
+  notes: [
     ['On the last day in ', refs.locations.fajanet, ', two new PCs joined the party:'],
     [refs.pcs.devan, ' — Half-Orc Paladin. Session notes called him "an orc paladin."'],
     [refs.pcs.swift_starblade, ' — Half-Elf Rogue. Session notes called him "a human-elf pirate."'],
-    'Session notes used role descriptors before names were confirmed. Both are active roster PCs.',
+    [
+      'Session notes used role descriptors before names were confirmed. Both are active roster PCs.',
+    ],
   ],
 })

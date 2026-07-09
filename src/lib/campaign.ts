@@ -7,6 +7,7 @@ import organizations from '#/data/organizations/_index.ts'
 import pcs from '#/data/pcs/_index.ts'
 import quests from '#/data/quests/_index.ts'
 import sessions from '#/data/sessions/_index.ts'
+import type { Beast } from '#/definitions/beast.ts'
 import type { Event, EventMark } from '#/definitions/event.ts'
 import { isEntityRef, type EntityKind, type EntityRef } from '#/definitions/kind.ts'
 import type { Location, LocationType } from '#/definitions/location.ts'
@@ -32,6 +33,7 @@ export type {
 } from '#/data/registry-keys.ts'
 
 export type Entity =
+  | { kind: 'beast'; slug: string; data: Beast }
   | { kind: 'pc'; slug: string; data: PC }
   | { kind: 'npc'; slug: string; data: NPC }
   | { kind: 'location'; slug: string; data: Location }
@@ -227,6 +229,7 @@ export function contentToText(content: unknown): string {
 export type EntityTo =
   | '/pcs/detail/$slug'
   | '/npcs/detail/$slug'
+  | '/beasts/detail/$slug'
   | '/locations/detail/$slug'
   | '/events/detail/$slug'
   | '/sessions/detail/$slug'
@@ -241,6 +244,7 @@ export type CollectionTo =
   | '/events'
   | '/sessions'
   | '/quests'
+  | '/beasts'
   | '/organizations'
 
 const ENTITY_TO: Record<EntityKind, EntityTo> = {
@@ -250,6 +254,7 @@ const ENTITY_TO: Record<EntityKind, EntityTo> = {
   event: '/events/detail/$slug',
   session: '/sessions/detail/$slug',
   quest: '/quests/detail/$slug',
+  beast: '/beasts/detail/$slug',
   organization: '/organizations/detail/$slug',
 }
 
@@ -260,6 +265,7 @@ const COLLECTION_TO: Record<EntityKind, CollectionTo> = {
   event: '/events',
   session: '/sessions',
   quest: '/quests',
+  beast: '/beasts',
   organization: '/organizations',
 }
 
@@ -396,7 +402,7 @@ export function sessionPcs(session: Session): PC[] {
   const seen = new Set<string>()
   const result: PC[] = []
   for (const event of sessionEvents(session)) {
-    for (const ref of collectReferences(event.parts)) {
+    for (const ref of collectReferences(event.notes)) {
       if (ref.ref !== 'pc' || seen.has(ref.key)) continue
       seen.add(ref.key)
       const entity = resolveRef(ref)

@@ -3,11 +3,11 @@ import { create as createQuest } from '#/definitions/quest.ts'
 
 export default createQuest({
   name: 'The Dinosaur Migration',
-  description: 'The Dinosaur Migration',
+  notes: [['The Dinosaur Migration']],
   status: 'open',
   clues: [
     ['A large group of dinosaurs (with riders) was moving toward ', refs.locations.fairhaven, '.'],
-    'A small group of dinosaurs spotted the party and hunted them.',
+    ['A small group of dinosaurs spotted the party and hunted them.'],
     [
       'The party escaped thanks to ',
       refs.npcs.abraham,
@@ -15,7 +15,7 @@ export default createQuest({
       refs.pcs.victor_the_badesh_lumberjack,
       "'s donkey). The dinosaurs lost interest.",
     ],
-    'It is unclear if the dinosaurs were even hostile, or just heading somewhere.',
+    ['It is unclear if the dinosaurs were even hostile, or just heading somewhere.'],
     [
       'Why are they heading to ',
       refs.locations.fairhaven,

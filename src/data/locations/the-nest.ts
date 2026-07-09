@@ -7,9 +7,9 @@ export default createLocation({
   type: 'building',
   parent: refs.locations.fajanet,
   at: [0, 400],
-  description: [
-    'A working-class tavern.',
-    'A ground-floor common room with second-floor rooms for travelers.',
+  notes: [
+    ['A working-class tavern.'],
+    ['A ground-floor common room with second-floor rooms for travelers.'],
   ],
   map: { url: '/assets/locations/the-tavern.png', width: 1200, height: 700 },
 })

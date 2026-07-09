@@ -3,8 +3,8 @@ import { ArrowLeft, Calendar } from 'lucide-react'
 
 import { ContentBlocks, ContentRenderer, EntityChip, Portrait } from '#/components/content-renderer'
 import { LocationReference } from '#/components/location-reference'
-import { OrganizationReference } from '#/components/organization-reference'
 import { LocationMapImage } from '#/components/map-placeholder'
+import { OrganizationReference } from '#/components/organization-reference'
 import { SessionTimeline } from '#/components/session-timeline'
 import { Badge } from '#/components/ui/badge'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '#/components/ui/card'
@@ -64,25 +64,25 @@ export function CollectionPage({ kind }: { kind: EntityKind }) {
 
 function cardTeaser(entity: Entity): string {
   const data = entity.data
-  if ('summary' in data && data.summary) return contentToText(data.summary)
+  if ('notes' in data && data.notes) return contentToText(data.notes)
   if (entity.kind === 'pc') return pcStatLine(data as PC)
   if (entity.kind === 'location') {
-    const description = (data as Location).description
+    const description = (data as Location).notes
     return description ? contentToText(description) : ''
   }
-  if (entity.kind === 'quest') return (data as Quest).description
+  if (entity.kind === 'quest') return contentToText((data as Quest).notes)
   return ''
 }
 
 export function EntityCard({ entity }: { entity: Entity }) {
-  const summary = cardTeaser(entity)
+  const notes = cardTeaser(entity)
 
   return (
     <Link {...entityLink(entity.kind, entity.slug)}>
       <Card className="hover:border-primary/40 hover:bg-accent/20 h-full transition-colors">
         <CardHeader className="pb-6">
           <CardTitle className="text-base">{entity.data.name}</CardTitle>
-          {summary ? <CardDescription className="line-clamp-2">{summary}</CardDescription> : null}
+          {notes ? <CardDescription className="line-clamp-2">{notes}</CardDescription> : null}
         </CardHeader>
       </Card>
     </Link>
@@ -199,8 +199,8 @@ function renderHeader(entity: Entity) {
                 <span className="font-medium">Languages:</span> {npc.languages.join(', ')}
               </p>
             ) : null}
-            {npc.summary ? (
-              <ContentBlocks content={npc.summary} className="text-muted-foreground" />
+            {npc.notes ? (
+              <ContentBlocks content={npc.notes} className="text-muted-foreground" />
             ) : null}
           </div>
         </header>
@@ -297,7 +297,7 @@ function renderHeader(entity: Entity) {
           </p>
           <h1 className="text-4xl font-bold tracking-tight">{quest.name}</h1>
           <Badge variant={quest.status === 'open' ? 'warning' : 'success'}>{quest.status}</Badge>
-          <p className="text-muted-foreground">{quest.description}</p>
+          <p className="text-muted-foreground">{contentToText(quest.notes)}</p>
         </header>
       )
     }
@@ -312,9 +312,9 @@ function renderHeader(entity: Entity) {
             <OrganizationAvatar icon={organization.icon} />
             <div className="space-y-2">
               <h1 className="text-4xl font-bold tracking-tight">{organization.name}</h1>
-              {organization.summary ? (
+              {organization.notes ? (
                 <ContentBlocks
-                  content={organization.summary}
+                  content={organization.notes}
                   className="text-muted-foreground text-lg"
                 />
               ) : null}
@@ -415,6 +415,7 @@ function SessionParty({ session }: { session: Session }) {
 function renderBody(entity: Entity) {
   switch (entity.kind) {
     case 'pc':
+    case 'beast':
     case 'npc': {
       const character = entity.data as PC | NPC
       const notes = 'notes' in character ? character.notes : undefined
@@ -447,7 +448,7 @@ function renderBody(entity: Entity) {
               </ul>
             </section>
           ) : null}
-          {location.description ? <ContentRenderer content={location.description} /> : null}
+          {location.notes ? <ContentRenderer content={location.notes} /> : null}
         </div>
       )
     }
@@ -465,7 +466,7 @@ function renderBody(entity: Entity) {
       return (
         <section className="space-y-4">
           <h2 className="text-lg font-semibold">What happened</h2>
-          <ContentRenderer content={event.parts} />
+          <ContentRenderer content={event.notes} />
         </section>
       )
     }

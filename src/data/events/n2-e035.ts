@@ -6,7 +6,7 @@ export default createEvent({
   date: new Date('2026-08-17T21:00'),
   location: refs.locations.mountain_top,
   mark: { type: 'icon', name: 'gi/GiFeather' },
-  parts: [
+  notes: [
     [
       'The pirate PC (',
       refs.pcs.swift_starblade,
@@ -14,8 +14,10 @@ export default createEvent({
       refs.npcs.dragon_children,
       ' might fly the party down the mountain.',
     ],
-    'On a natural 20, all party members got to fly a dragon down.',
-    'Note (improbable outcome): a natural-20 outcome for 5 PCs is strong DM fiat — recorded as stated.',
+    ['On a natural 20, all party members got to fly a dragon down.'],
+    [
+      'Note (improbable outcome): a natural-20 outcome for 5 PCs is strong DM fiat — recorded as stated.',
+    ],
     [
       'Party: ',
       refs.pcs.jim,

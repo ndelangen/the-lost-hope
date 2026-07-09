@@ -6,10 +6,14 @@ export default createEvent({
   date: new Date('2026-08-17T18:00'),
   location: refs.locations.puzzle_room,
   mark: { type: 'icon', name: 'gi/GiPuzzle' },
-  parts: [
-    'The party reached a puzzle room with 5 elements chasing each other. The party solved the puzzle.',
-    'Open: what 5 elements? Not stated. (Likely a classical element set: water, fire, earth, air, aether — but the user did not name them.)',
-    'Open: how was it solved? Not stated.',
+  notes: [
+    [
+      'The party reached a puzzle room with 5 elements chasing each other. The party solved the puzzle.',
+    ],
+    [
+      'Open: what 5 elements? Not stated. (Likely a classical element set: water, fire, earth, air, aether — but the user did not name them.)',
+    ],
+    ['Open: how was it solved? Not stated.'],
     [
       'Party: ',
       refs.pcs.jim,

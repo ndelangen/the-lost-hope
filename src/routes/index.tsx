@@ -44,7 +44,7 @@ function HomePage() {
           {campaign.name}
         </h1>
         <ContentRenderer
-          content={campaign.description}
+          content={campaign.notes}
           className="text-muted-foreground max-w-3xl text-lg"
         />
       </section>

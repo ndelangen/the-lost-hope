@@ -6,7 +6,7 @@ export default createEvent({
   date: new Date('2026-08-10T11:00'),
   location: refs.locations.fajanet_guildhall,
   mark: { type: 'icon', name: 'fa/FaScroll' },
-  parts: [
+  notes: [
     [
       'The party browsed the ',
       refs.locations.fajanet_guildhall,
@@ -14,7 +14,9 @@ export default createEvent({
       refs.npcs.rare_animal_dealer,
       '.',
     ],
-    'Details of the trainer, the animal, and the actual problem are TBD. The party has accepted the job.',
+    [
+      'Details of the trainer, the animal, and the actual problem are TBD. The party has accepted the job.',
+    ],
     ['Party: ', refs.pcs.jim, ', ', refs.pcs.william_greenhove, ', ', refs.pcs.revin_grumblefist],
   ],
 })

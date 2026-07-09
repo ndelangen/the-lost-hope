@@ -7,7 +7,7 @@ export default createLocation({
   type: 'landmark',
   parent: refs.locations.world,
   at: [200, 200],
-  description: [
+  notes: [
     [
       'A holy site between ',
       refs.locations.mountain_cliff,

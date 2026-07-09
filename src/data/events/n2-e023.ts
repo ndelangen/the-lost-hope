@@ -6,7 +6,7 @@ export default createEvent({
   date: new Date('2026-08-11T09:00'),
   location: refs.locations.fajanet,
   mark: { type: 'avatar', url: '/assets/pcs/mr-peace.png' },
-  parts: [
+  notes: [
     [
       refs.pcs.mr_peace,
       ' joined the party for one day only — arranged by the guild / Light. Everyone knew his visit was temporary.',

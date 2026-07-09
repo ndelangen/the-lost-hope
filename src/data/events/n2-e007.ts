@@ -6,7 +6,7 @@ export default createEvent({
   date: new Date('2026-08-09T23:00'),
   location: refs.locations.the_nest,
   mark: { type: 'icon', name: 'gi/GiWaveCrest' },
-  parts: [
+  notes: [
     [
       'The party got rooms at ',
       refs.locations.the_nest,
@@ -14,8 +14,8 @@ export default createEvent({
       refs.pcs.revin_grumblefist,
       ' opened the window of his room — voices compelled him — and shadowy tentacles grabbed him, trying to drag him out.',
     ],
-    'The party woke up, rushed to help, prevented the abduction, and closed the window.',
-    'Evil laughter sounded outside afterward. The PCs went back to their rooms to sleep.',
+    ['The party woke up, rushed to help, prevented the abduction, and closed the window.'],
+    ['Evil laughter sounded outside afterward. The PCs went back to their rooms to sleep.'],
     ['Party: ', refs.pcs.jim, ', ', refs.pcs.william_greenhove, ', ', refs.pcs.revin_grumblefist],
   ],
 })

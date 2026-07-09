@@ -6,10 +6,12 @@ export default createNPC({
   avatar: '/assets/npcs/tavern-owner.png',
   location: refs.locations.the_nest,
   species: 'unknown',
-  summary: [
-    'Proprietor of ',
-    refs.locations.the_nest,
-    ', trading in illegal and semi-illegal substances.',
+  notes: [
+    [
+      'Proprietor of ',
+      refs.locations.the_nest,
+      ', trading in illegal and semi-illegal substances.',
+    ],
   ],
   memberships: [
     {

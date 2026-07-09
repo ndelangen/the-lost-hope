@@ -12,7 +12,7 @@ export const Beast = deriveSlug(
     avatar: MediaUrl.default(DEFAULT_AVATAR).describe('The avatar of the Beast'),
     location: EntityRefSchema.optional().describe('The home location of the Beast'),
     species: z.string().optional(),
-    summary: Content.optional().describe(
+    notes: Content.optional().describe(
       'One-line identity/flavor; may mix text and `refs.*` tokens',
     ),
   }),

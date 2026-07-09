@@ -7,5 +7,5 @@ export default createLocation({
   type: 'realm',
   parent: refs.locations.world,
   at: [0, 400],
-  description: ['A disorienting realm of shadow where travelers lose their way.'],
+  notes: [['A disorienting realm of shadow where travelers lose their way.']],
 })

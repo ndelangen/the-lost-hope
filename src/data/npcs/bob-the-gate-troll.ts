@@ -6,9 +6,11 @@ export default createNPC({
   avatar: '/assets/npcs/bob.png',
   location: refs.locations.fajanet,
   species: 'Troll',
-  summary: [
-    'A friendly troll stationed at the main gate of ',
-    refs.locations.fajanet,
-    '. Big, green, and smiling; recognises everyone who passes through by sight, even when he forgets their names.',
+  notes: [
+    [
+      'A friendly troll stationed at the main gate of ',
+      refs.locations.fajanet,
+      '. Big, green, and smiling; recognises everyone who passes through by sight, even when he forgets their names.',
+    ],
   ],
 })

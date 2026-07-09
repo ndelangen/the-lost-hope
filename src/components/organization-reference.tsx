@@ -7,7 +7,7 @@ import { cn } from '#/lib/utils'
 /**
  * The single, canonical way to reference an organization anywhere in the UI: its
  * icon plus name, linking to the detail page, with a hover/focus popover showing
- * the organization's summary. Mirrors {@link LocationReference} so entity
+ * the organization's notes. Mirrors {@link LocationReference} so entity
  * mentions stay visually consistent across kinds.
  */
 export function OrganizationReference({
@@ -23,7 +23,7 @@ export function OrganizationReference({
 }) {
   const organization = getEntity('organization', slug)?.data
   const name = label ?? organization?.name ?? slug
-  const summary = organization?.summary ? contentToText(organization.summary) : undefined
+  const notes = organization?.notes ? contentToText(organization.notes) : undefined
 
   return (
     <span className="group/orgref relative inline-flex align-baseline">
@@ -46,7 +46,7 @@ export function OrganizationReference({
           <OrganizationIcon icon={organization?.icon} className="size-3.5" />
           Organization
         </span>
-        {summary ? <span className="text-muted-foreground">{summary}</span> : null}
+        {notes ? <span className="text-muted-foreground">{notes}</span> : null}
       </span>
     </span>
   )

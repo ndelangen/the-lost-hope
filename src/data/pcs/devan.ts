@@ -10,7 +10,9 @@ export default createPC({
   class: 'Paladin',
   level: 4,
   notes: [
-    'Identified from the D&D Beyond roster (player Balenorblighthammer, Half-Orc Paladin 4); the session-4 notes\' "orc paladin" is almost certainly him.',
-    'Paladin oath/subclass not yet established.',
+    [
+      'Identified from the D&D Beyond roster (player Balenorblighthammer, Half-Orc Paladin 4); the session-4 notes\' "orc paladin" is almost certainly him.',
+    ],
+    ['Paladin oath/subclass not yet established.'],
   ],
 })

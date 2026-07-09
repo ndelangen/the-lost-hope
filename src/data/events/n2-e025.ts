@@ -6,9 +6,11 @@ export default createEvent({
   date: new Date('2026-08-12T00:00'),
   location: refs.locations.fajanet,
   mark: { type: 'icon', name: 'fa/FaGlassCheers' },
-  parts: [
+  notes: [
     ['A 5-day festival was happening in ', refs.locations.fajanet, '.'],
-    'During the festival nights: the tentacle phenomenon that hit on night 1 did not occur. The party was able to be out at night. The festival continued after nightfall. The festival seemed to ensure the night was safe.',
+    [
+      'During the festival nights: the tentacle phenomenon that hit on night 1 did not occur. The party was able to be out at night. The festival continued after nightfall. The festival seemed to ensure the night was safe.',
+    ],
     [
       'The party asked ',
       refs.npcs.third_marshal_light,

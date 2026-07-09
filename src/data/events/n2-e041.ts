@@ -6,7 +6,7 @@ export default createEvent({
   date: new Date('2026-08-19T08:00'),
   location: refs.locations.the_boat_to_fairhaven,
   mark: { type: 'icon', name: 'gi/GiSailboat' },
-  parts: [
+  notes: [
     [
       'After a night in ',
       refs.locations.badesh,

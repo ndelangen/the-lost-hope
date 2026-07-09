@@ -12,7 +12,9 @@ export default createPC({
   subclass: 'Great Old One Patron',
   level: 4,
   notes: [
-    'Stub — needs player input: personality, appearance, and any in-fiction secrets once more session notes come in.',
+    [
+      'Stub — needs player input: personality, appearance, and any in-fiction secrets once more session notes come in.',
+    ],
     [
       'Session 4 (mountain top): ',
       refs.events.n2_e031,

@@ -7,8 +7,8 @@ import { Session } from './session'
 
 export const Campaign = z.strictObject({
   name: z.string().describe('The name of the campaign'),
-  description: z.array(Content).describe('The description of the campaign'),
-  pitch: z.array(Content).optional(),
+  notes: Content.describe('The description of the campaign'),
+  pitch: Content.optional(),
   quests: z.array(Quest),
   sessions: z.array(Session),
 })

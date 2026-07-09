@@ -6,7 +6,7 @@ export default createEvent({
   date: new Date('2026-08-17T09:00'),
   location: refs.locations.fajanet,
   mark: { type: 'icon', name: 'fa/FaDoorOpen' },
-  parts: [
+  notes: [
     [
       refs.npcs.third_marshal_light,
       ' instructed the party to take the ',

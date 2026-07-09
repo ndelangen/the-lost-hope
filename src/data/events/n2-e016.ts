@@ -6,7 +6,7 @@ export default createEvent({
   date: new Date('2026-08-10T14:00'),
   location: refs.locations.fajanet_tunnels,
   mark: { type: 'icon', name: 'gi/GiCrossedSwords' },
-  parts: [
+  notes: [
     [
       'Deeper in the tunnel, the party found a young phoenix wrapped in a cocoon, guarded by a ',
       refs.npcs.giant_spider,
@@ -18,7 +18,7 @@ export default createEvent({
       refs.npcs.phoenix_chick,
       ' bonded with Jim narratively (DM was vague on mechanics).',
     ],
-    'The party killed the giant spider.',
+    ['The party killed the giant spider.'],
     [
       'Phoenix returned to the ',
       refs.npcs.rare_animal_dealer,

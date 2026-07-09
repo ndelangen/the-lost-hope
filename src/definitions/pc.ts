@@ -24,12 +24,7 @@ export const PC = deriveSlug(
       .array(z.string())
       .optional()
       .describe("Languages the character speaks, e.g. ['Common', 'Elvish']"),
-    // Narrative only — no restated stats, no Markdown. May mix text and `refs.*` tokens.
-    summary: Content.optional().describe('Short narrative flavor — NOT the stat line'),
-    notes: z
-      .array(Content)
-      .optional()
-      .describe('Genuine narrative: secrets, open questions, notable moments'),
+    notes: Content.optional().describe('Short narrative flavor — NOT the stat line'),
     memberships: z.array(Membership).optional(),
   }),
 )

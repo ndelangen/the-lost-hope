@@ -138,7 +138,7 @@ function InlineRun({ items }: { items: Content[] }) {
 /**
  * Renders a single Content value as block-level prose: an inline run becomes one
  * paragraph and a paragraph list becomes stacked paragraphs. Use for fields that
- * hold a single Content value (e.g. `summary`), as opposed to a list of blocks.
+ * hold a single Content value (e.g. `notes`), as opposed to a list of blocks.
  */
 export function ContentBlocks({ content, className }: { content: Content; className?: string }) {
   return (

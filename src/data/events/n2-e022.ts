@@ -6,7 +6,7 @@ export default createEvent({
   date: new Date('2026-08-10T22:00'),
   location: refs.locations.fajanet_guildhall,
   mark: { type: 'icon', name: 'fa/FaDoorOpen' },
-  parts: [
+  notes: [
     [
       refs.pcs.william_greenhove,
       ' had an experience in the ',
@@ -15,7 +15,7 @@ export default createEvent({
       refs.npcs.mystery_girl,
       ' from his background story.',
     ],
-    "Author note: likely never resolved — William's player has left the party.",
+    ["Author note: likely never resolved — William's player has left the party."],
     ['Party: ', refs.pcs.william_greenhove, ', ', refs.pcs.revin_grumblefist],
   ],
 })

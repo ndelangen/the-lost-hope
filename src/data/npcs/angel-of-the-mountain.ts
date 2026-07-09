@@ -6,13 +6,7 @@ export default createNPC({
   avatar: '/assets/npcs/angel-of-the-mountain.png',
   location: refs.locations.mountain_top,
   species: 'Angel',
-  summary: [
-    'An angel dwelling atop the ',
-    refs.locations.mountain_top,
-    ', married to the ',
-    refs.npcs.dragon_of_the_mountain,
-    ". The angel's name, celestial rank, and age are unknown.",
-  ],
+  notes: [p],
   memberships: [
     {
       organization: refs.organizations.adventurers_guild,

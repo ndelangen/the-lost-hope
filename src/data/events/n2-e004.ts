@@ -6,7 +6,7 @@ export default createEvent({
   date: new Date('2026-08-09T15:30'),
   location: refs.locations.fajanet,
   mark: { type: 'icon', name: 'fa/FaDoorOpen' },
-  parts: [
+  notes: [
     [
       "At the city's gates, the party met ",
       refs.npcs.bob_the_gate_troll,

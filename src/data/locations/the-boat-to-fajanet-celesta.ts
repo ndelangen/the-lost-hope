@@ -7,7 +7,7 @@ export default createLocation({
   type: 'route',
   parent: refs.locations.world,
   at: [200, 400],
-  description: [
+  notes: [
     [
       'The vessel Celesta, which carried ',
       refs.pcs.jim,

@@ -6,7 +6,7 @@ export default createEvent({
   date: new Date('2026-08-10T16:00'),
   location: refs.locations.fajanet,
   mark: { type: 'icon', name: 'fa/FaMapMarkerAlt' },
-  parts: [
+  notes: [
     [
       'The party searched for the second missing animal. It turned out to be a ',
       refs.npcs.displacer_beast,
@@ -17,7 +17,7 @@ export default createEvent({
       refs.npcs.rare_animal_dealer,
       '.',
     ],
-    'Recovered: 2 of 3 missing animals.',
+    ['Recovered: 2 of 3 missing animals.'],
     ['Party: ', refs.pcs.jim, ', ', refs.pcs.william_greenhove, ', ', refs.pcs.revin_grumblefist],
   ],
 })

@@ -7,7 +7,7 @@ export default createLocation({
   type: 'route',
   parent: refs.locations.world,
   at: [200, 0],
-  description: [
+  notes: [
     ['A vessel running between ', refs.locations.badesh, ' and ', refs.locations.fairhaven, '.'],
   ],
 })

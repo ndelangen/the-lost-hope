@@ -7,7 +7,7 @@ export default createLocation({
   type: 'building',
   parent: refs.locations.fairhaven,
   at: [0, 0],
-  description: [
+  notes: [
     ['A hall of the ', refs.organizations.adventurers_guild, ' in ', refs.locations.fairhaven, '.'],
   ],
 })

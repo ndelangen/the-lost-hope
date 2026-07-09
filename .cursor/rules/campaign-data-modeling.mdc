@@ -33,10 +33,10 @@ Who owns what:
 - **Structured fields** (`species`, `class`, `level`, `subclass`, `player`, `status`,
   `role`, `location`, `languages`, `map`, …) own their facts. Facts that fit a
   structured field (e.g. "speaks Common" → `languages: ['Common']`) go there, never
-  as prose in `summary`/`notes`. Human-readable strings like the
+  as prose in `notes`. Human-readable strings like the
   PC stat line are **derived** (`pcStatLine()` builds `"Human Warlock 4 · Great
   Old One Patron"` from `species`/`class`/`level`/`subclass`). Never restate these in
-  `summary` or `notes`.
+  `notes`.
 - **Events** (`src/data/events/**`) own the play-by-play — what happened, when,
   where, and its open threads. An event tags a `location` and mentions PCs/NPCs in
   `parts`, so it already appears on those entities' pages under **"Referenced by"**

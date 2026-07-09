@@ -6,7 +6,7 @@ export default createEvent({
   date: new Date('2026-08-20T10:00'),
   location: refs.locations.fairhaven,
   mark: { type: 'icon', name: 'fa/FaPassport' },
-  parts: [
+  notes: [
     [
       'On arrival at ',
       refs.locations.fairhaven,

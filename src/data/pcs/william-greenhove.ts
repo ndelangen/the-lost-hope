@@ -11,7 +11,7 @@ export default createPC({
   class: 'Warlock',
   subclass: 'The Great Old One',
   level: 3,
-  summary: 'A warlock with a taste for taverns and substances.',
+  notes: [['A warlock with a taste for taverns and substances.']],
   memberships: [
     {
       organization: refs.organizations.adventurers_guild,

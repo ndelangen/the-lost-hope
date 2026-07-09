@@ -7,7 +7,7 @@ export default createLocation({
   type: 'landmark',
   parent: refs.locations.world,
   at: [600, 200],
-  description: [
+  notes: [
     [
       'The mountain summit, home of the ',
       refs.npcs.angel_of_the_mountain,

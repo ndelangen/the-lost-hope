@@ -17,7 +17,7 @@ export const NPC = deriveSlug(
       .array(z.string())
       .optional()
       .describe("Languages spoken/understood, e.g. ['Common', 'Draconic']"),
-    summary: Content.optional().describe(
+    notes: Content.optional().describe(
       'One-line identity/flavor; may mix text and `refs.*` tokens',
     ),
     memberships: z.array(Membership).optional(),

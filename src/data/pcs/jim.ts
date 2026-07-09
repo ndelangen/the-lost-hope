@@ -9,8 +9,6 @@ export default createPC({
   status: 'active',
   species: 'Human (rules) / Kenku (in-fiction appearance)',
   class: 'Bard / Sorcerer',
-  summary:
-    'Bard (College of Tragedy, TCSR) — flavor leans into grim, performative, tragic-hero roleplay.',
   memberships: [
     {
       organization: refs.organizations.adventurers_guild,
@@ -39,9 +37,11 @@ export default createPC({
       refs.organizations.the_eyeless_hand,
       ' mark in an undisclosed location (separate from his tongue guild-mark).',
     ],
-    'Source-of-truth split: this file is canonical for fiction (the kenku disguise and secrets); the D&D Beyond sheet is canonical for rules (Human, Bard/Sorcerer, College of Tragedy). When they conflict, the sheet wins for mechanics and this file wins for fiction.',
-    "Still hidden from everyone: Jim's real name, face, and species, and why the law wants him.",
-    'His Sorcerer origin/bloodline has not been disclosed.',
-    'DM note: keep the disguise secret unless the player says otherwise.',
+    [
+      'Source-of-truth split: this file is canonical for fiction (the kenku disguise and secrets); the D&D Beyond sheet is canonical for rules (Human, Bard/Sorcerer, College of Tragedy). When they conflict, the sheet wins for mechanics and this file wins for fiction.',
+    ],
+    ["Still hidden from everyone: Jim's real name, face, and species, and why the law wants him."],
+    ['His Sorcerer origin/bloodline has not been disclosed.'],
+    ['DM note: keep the disguise secret unless the player says otherwise.'],
   ],
 })

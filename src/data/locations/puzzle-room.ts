@@ -7,6 +7,6 @@ export default createLocation({
   type: 'dungeon',
   parent: refs.locations.world,
   at: [800, 200],
-  description: ['A puzzle room with 5 elements chasing each other.'],
+  notes: [['A puzzle room with 5 elements chasing each other.']],
   map: { url: '/assets/locations/puzzle-room-mountain.png', width: 1200, height: 700 },
 })

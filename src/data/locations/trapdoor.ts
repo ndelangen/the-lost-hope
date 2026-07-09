@@ -7,6 +7,6 @@ export default createLocation({
   type: 'building',
   parent: refs.locations.fajanet,
   at: [200, 400],
-  description: [['A trapdoor connected to the ', refs.locations.fajanet_tunnels, '.']],
+  notes: [['A trapdoor connected to the ', refs.locations.fajanet_tunnels, '.']],
   map: { url: '/assets/locations/the-trapdoor.png', width: 1200, height: 700 },
 })

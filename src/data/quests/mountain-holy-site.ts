@@ -3,7 +3,7 @@ import { create as createQuest } from '#/definitions/quest.ts'
 
 export default createQuest({
   name: 'Mountain Holy Site — whose faith, deity, form?',
-  description: 'Mountain Holy Site — whose faith, deity, form?',
+  notes: [['Mountain Holy Site — whose faith, deity, form?']],
   status: 'open',
   clues: [
     [
@@ -20,7 +20,9 @@ export default createQuest({
       refs.locations.puzzle_room,
       '.',
     ],
-    'Whose holy site this is, what faith it represents, and what deity or form it takes are unknown.',
+    [
+      'Whose holy site this is, what faith it represents, and what deity or form it takes are unknown.',
+    ],
   ],
   conclusion: [],
 })

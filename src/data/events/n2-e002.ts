@@ -6,7 +6,7 @@ export default createEvent({
   date: new Date('2026-08-09T08:00'),
   location: refs.locations.the_boat_to_fajanet_celesta,
   mark: { type: 'avatar', url: '/assets/pcs/jim.jpg' },
-  parts: [
+  notes: [
     [
       refs.pcs.jim,
       ' received a letter from the Third Marshal ',

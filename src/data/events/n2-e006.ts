@@ -6,7 +6,7 @@ export default createEvent({
   date: new Date('2026-08-09T19:00'),
   location: refs.locations.the_nest,
   mark: { type: 'icon', name: 'fa/FaMoon' },
-  parts: [
+  notes: [
     [
       'The party sat in the common room of ',
       refs.locations.the_nest,
@@ -14,7 +14,9 @@ export default createEvent({
       refs.npcs.samantha,
       ' closed the tavern and boarded it up.',
     ],
-    'Boarding up seemed routine. The party retired to their rooms before the strange sounds began later that night.',
+    [
+      'Boarding up seemed routine. The party retired to their rooms before the strange sounds began later that night.',
+    ],
     ['Party: ', refs.pcs.jim, ', ', refs.pcs.william_greenhove, ', ', refs.pcs.revin_grumblefist],
   ],
 })

@@ -6,7 +6,7 @@ export default createEvent({
   date: new Date('2026-08-10T20:00'),
   location: refs.locations.fajanet_guildhall,
   mark: { type: 'icon', name: 'fa/FaEnvelope' },
-  parts: [
+  notes: [
     [
       'Back at the ',
       refs.locations.fajanet_guildhall,
@@ -19,9 +19,9 @@ export default createEvent({
       refs.locations.the_green_light,
       ' near the mountain tonight.',
     ],
-    'The deliverer was not identified. Only Jim saw the letter.',
-    "Jim disregarded the letter's demand.",
-    'Open: who sent the letter? ("us" — plural.)',
+    ['The deliverer was not identified. Only Jim saw the letter.'],
+    ["Jim disregarded the letter's demand."],
+    ['Open: who sent the letter? ("us" — plural.)'],
     ['Party: ', refs.pcs.jim, ', ', refs.pcs.william_greenhove, ', ', refs.pcs.revin_grumblefist],
   ],
 })

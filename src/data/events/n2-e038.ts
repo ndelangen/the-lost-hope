@@ -6,7 +6,7 @@ export default createEvent({
   date: new Date('2026-08-18T10:00'),
   location: refs.locations.badesh_forest,
   mark: { type: 'icon', name: 'gi/GiForestCamp' },
-  parts: [
+  notes: [
     [
       'The party, travelling with ',
       refs.pcs.victor_the_badesh_lumberjack,
@@ -16,7 +16,7 @@ export default createEvent({
       refs.locations.fairhaven,
       ' — the DM described it as a raid. The party assumed hostility.',
     ],
-    'Open: what kind of dinos? Who was riding them? Why Fairhaven?',
+    ['Open: what kind of dinos? Who was riding them? Why Fairhaven?'],
     ['Party: ', refs.pcs.jim, ', ', refs.pcs.william_greenhove, ', ', refs.pcs.devan],
   ],
 })

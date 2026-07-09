@@ -8,6 +8,6 @@ export default createLocation({
   type: 'settlement',
   parent: refs.locations.world,
   at: [600, 0],
-  description: ['A walled city.'],
+  notes: [['A walled city.']],
   map: { url: '/assets/locations/fajanet.png', width: 1200, height: 700 },
 })

@@ -8,8 +8,10 @@ export default createPC({
   status: 'retired',
   species: 'unknown',
   class: 'unknown',
-  summary: 'A guest ally who cannot cause any harm and can conjure flowers by magic.',
   notes: [
-    '"Mr. Peace" is a moniker; his real name is unknown, and whether he returns is an open thread.',
+    ['A guest ally who cannot cause any harm and can conjure flowers by magic.'],
+    [
+      '"Mr. Peace" is a moniker; his real name is unknown, and whether he returns is an open thread.',
+    ],
   ],
 })

@@ -7,7 +7,7 @@ export default createLocation({
   type: 'wilderness',
   parent: refs.locations.world,
   at: [200, 0],
-  description: [
+  notes: [
     [
       'A forest between the ',
       refs.locations.mountain_top,

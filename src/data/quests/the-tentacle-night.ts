@@ -3,7 +3,7 @@ import { create as createQuest } from '#/definitions/quest.ts'
 
 export default createQuest({
   name: 'The Tentacle Night',
-  description: 'The Tentacle Night',
+  notes: [['The Tentacle Night']],
   status: 'open',
   clues: [
     [
@@ -20,8 +20,8 @@ export default createQuest({
       refs.pcs.revin_grumblefist,
       ' and tried to drag him out. Party woke, rushed to help, prevented it, closed the window.',
     ],
-    "Evil children's laughter outside afterward. Party went back to their rooms to sleep.",
-    'Tavern boarding-up at nightfall seemed routine. Party in rooms before sounds.',
+    ["Evil children's laughter outside afterward. Party went back to their rooms to sleep."],
+    ['Tavern boarding-up at nightfall seemed routine. Party in rooms before sounds.'],
     [
       'Session 3: 5-day festival in ',
       refs.locations.fajanet,
@@ -39,7 +39,7 @@ export default createQuest({
       refs.locations.the_nest,
       '.',
     ],
-    'What did the tentacles actually want?',
+    ['What did the tentacles actually want?'],
   ],
   conclusion: [],
 })

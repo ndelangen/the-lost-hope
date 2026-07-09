@@ -3,7 +3,7 @@ import { create as createQuest } from '#/definitions/quest.ts'
 
 export default createQuest({
   name: 'Who is Light, and what is his bidding?',
-  description: 'Who is Light, and what is his bidding?',
+  notes: [['Who is Light, and what is his bidding?']],
   status: 'open',
   clues: [
     [refs.npcs.third_marshal_light, ' invited all three of us personally, with a letter.'],

@@ -6,5 +6,5 @@ export default createNPC({
   avatar: '/assets/npcs/mystery-girl.png',
   location: refs.locations.fajanet_guildhall,
   species: 'unknown',
-  summary: ['A figure from ', refs.pcs.william_greenhove, "'s background."],
+  notes: [['A figure from ', refs.pcs.william_greenhove, "'s background."]],
 })

@@ -16,5 +16,5 @@ export default createPC({
       rank: 'Member',
     },
   ],
-  notes: ['Monk subclass never established.'],
+  notes: [['Monk subclass never established.']],
 })

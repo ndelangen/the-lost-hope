@@ -7,11 +7,13 @@ export default createNPC({
   location: refs.locations.mountain_top,
   species: 'Dragon',
   languages: ['Common'],
-  summary: [
-    'A dragon dwelling atop the ',
-    refs.locations.mountain_top,
-    ', married to the ',
-    refs.npcs.angel_of_the_mountain,
-    '. Its name, color, age, and draconic type (chromatic, metallic, gem, or other) are unknown, as is why it married an angel.',
+  notes: [
+    [
+      'A dragon dwelling atop the ',
+      refs.locations.mountain_top,
+      ', married to the ',
+      refs.npcs.angel_of_the_mountain,
+      '. Its name, color, age, and draconic type (chromatic, metallic, gem, or other) are unknown, as is why it married an angel.',
+    ],
   ],
 })

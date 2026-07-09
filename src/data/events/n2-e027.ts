@@ -6,7 +6,7 @@ export default createEvent({
   date: new Date('2026-08-17T08:00'),
   location: refs.locations.fajanet,
   mark: { type: 'icon', name: 'gi/GiFootsteps' },
-  parts: [
+  notes: [
     [
       refs.pcs.jim,
       " rejected the letter's invitation and hurried the party to meet with ",

@@ -3,7 +3,7 @@ import { create as createQuest } from '#/definitions/quest.ts'
 
 export default createQuest({
   name: "Jim's Past",
-  description: "Jim's Past",
+  notes: [["Jim's Past"]],
   status: 'open',
   clues: [
     [
