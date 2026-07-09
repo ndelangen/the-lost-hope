@@ -1,6 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 
-import { EntityDetailPage } from '@/components/entity-pages'
+import { EntityDetailPage } from '#/components/entity-pages'
 
 export const Route = createFileRoute('/locations/detail/$slug')({
   component: function LocationDetailPage() {

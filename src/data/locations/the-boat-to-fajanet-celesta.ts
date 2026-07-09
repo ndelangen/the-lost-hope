@@ -3,6 +3,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
   name: 'The boat to Fajanet: Celesta',
+  icon: 'gi/GiSailboat',
   type: 'route',
   parent: refs.locations.world,
   at: [200, 400],

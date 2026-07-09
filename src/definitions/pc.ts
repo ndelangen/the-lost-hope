@@ -1,6 +1,7 @@
 import { z } from 'zod'
 
 import { Content } from './content'
+import { makeCreate } from './create'
 import { DEFAULT_AVATAR, MediaUrl } from './media'
 import { Membership } from './organization'
 import { deriveSlug } from './slug'
@@ -33,8 +34,6 @@ export const PC = deriveSlug(
   }),
 )
 
-export function create(input: z.input<typeof PC>): z.infer<typeof PC> {
-  return PC.parse(input)
-}
+export const create = makeCreate(PC)
 
 export type PC = z.infer<typeof PC>

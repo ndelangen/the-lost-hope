@@ -1,6 +1,7 @@
 import { z } from 'zod'
 
 import { Content } from './content'
+import { makeCreate } from './create'
 import { Quest } from './quest'
 import { Session } from './session'
 
@@ -12,8 +13,6 @@ export const Campaign = z.strictObject({
   sessions: z.array(Session),
 })
 
-export function create(input: z.input<typeof Campaign>): z.infer<typeof Campaign> {
-  return Campaign.parse(input)
-}
+export const create = makeCreate(Campaign)
 
 export type Campaign = z.infer<typeof Campaign>

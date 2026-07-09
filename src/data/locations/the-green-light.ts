@@ -3,6 +3,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
   name: 'The Green Light',
+  icon: 'gi/GiLighthouse',
   type: 'wilderness',
   parent: refs.locations.world,
   at: [400, 400],

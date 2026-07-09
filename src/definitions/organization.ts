@@ -1,6 +1,7 @@
 import { z } from 'zod'
 
 import { Content } from './content'
+import { makeCreate } from './create'
 import { EntityRefSchema } from './kind'
 import { deriveSlug } from './slug'
 
@@ -9,7 +10,15 @@ export const MEMBERSHIP_STATUSES = ['active', 'former'] as const
 export const Organization = deriveSlug(
   z.strictObject({
     name: z.string().describe('The name of the organization'),
-    summary: Content.optional().describe('One-line identity/flavor; may mix text and `refs.*` tokens'),
+    icon: z
+      .string()
+      .optional()
+      .describe(
+        "react-icons id for this organization's avatar, e.g. `gi/GiCrossedSwords` — see src/lib/organization-icons.tsx. Should be unique per organization; falls back to a building placeholder when omitted.",
+      ),
+    summary: Content.optional().describe(
+      'One-line identity/flavor; may mix text and `refs.*` tokens',
+    ),
     notes: z.array(Content).optional(),
   }),
 )
@@ -20,9 +29,7 @@ export const Membership = z.object({
   rank: z.string(),
 })
 
-export function create(input: z.input<typeof Organization>): z.infer<typeof Organization> {
-  return Organization.parse(input)
-}
+export const create = makeCreate(Organization)
 
 export type Organization = z.infer<typeof Organization>
 export type Membership = z.infer<typeof Membership>

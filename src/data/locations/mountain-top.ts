@@ -3,6 +3,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
   name: 'Mountain Top',
+  icon: 'gi/GiMountaintop',
   type: 'landmark',
   parent: refs.locations.world,
   at: [600, 200],

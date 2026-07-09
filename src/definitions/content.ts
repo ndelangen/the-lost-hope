@@ -3,11 +3,17 @@ import { z } from 'zod'
 import { EntityRefSchema } from './kind'
 import type { EntityRef } from './kind'
 
+/**
+ * A piece of renderable content. Arrays are interpreted by their elements:
+ * an array of only strings/refs is a single **inline run** (one paragraph that
+ * mixes text and entity links); an array that contains nested arrays is a list
+ * of **paragraphs**, each element rendered as its own block. Nesting can repeat.
+ */
 export type Content =
   | string
   | EntityRef
   | { type: 'image' | 'video' | 'audio' | 'map'; url: string }
-  | Array<string | EntityRef>
+  | Content[]
 
 export const Content: z.ZodType<Content> = z.lazy(() =>
   z.union([
@@ -29,6 +35,6 @@ export const Content: z.ZodType<Content> = z.lazy(() =>
       type: z.literal('map'),
       url: z.string(),
     }),
-    z.array(z.union([z.string(), EntityRefSchema])),
+    z.array(Content),
   ]),
 )

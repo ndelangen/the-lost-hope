@@ -1,10 +1,7 @@
 import { describe, expect, it } from 'vitest'
 
 import { LOCATION_TYPES } from '#/definitions/location.ts'
-import {
-  locationsSearchFromTypes,
-  parseLocationFilter,
-} from '#/lib/locations-search.ts'
+import { locationsSearchFromTypes, parseLocationFilter } from '#/lib/locations-search.ts'
 
 describe('locations search params', () => {
   it('omits filter when all types are selected', () => {

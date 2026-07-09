@@ -3,13 +3,13 @@ import { useMemo } from 'react'
 
 import {
   COLLECTION_LABELS,
-  entityHref,
+  entityLink,
   sessionTimelineSections,
   type SessionTimelineEntry,
   type SessionTimelineSection,
-} from '@/lib/campaign'
-import { DAY_MARK_ICON, EventMarkIcon } from '@/lib/event-icons'
-import { cn } from '@/lib/utils'
+} from '#/lib/campaign'
+import { DAY_MARK_ICON, EventMarkIcon } from '#/lib/event-icons'
+import { cn } from '#/lib/utils'
 
 // --- Geometry ---------------------------------------------------------------
 // The storyline is drawn in a fixed 1000-wide coordinate space. Marker
@@ -93,7 +93,7 @@ function buildLayout(sections: SessionTimelineSection[]): Layout {
 
     const slots: Array<{ x: number; y: number }> = []
     // Row 0 is a half row running center -> left edge.
-    for (const x of [...LEFT_HALF].reverse()) slots.push({ x, y: firstRowY })
+    for (const x of LEFT_HALF.toReversed()) slots.push({ x, y: firstRowY })
 
     let edge: number = LEFT
     for (let r = 1; r <= rows - 1; r++) {
@@ -105,7 +105,7 @@ function buildLayout(sections: SessionTimelineSection[]): Layout {
       if (r < rows - 1) {
         const target = edge === LEFT ? RIGHT : LEFT
         path.push(`L ${target} ${rowY}`)
-        const cols = edge === LEFT ? ALL_COLS : [...ALL_COLS].reverse()
+        const cols = edge === LEFT ? ALL_COLS : ALL_COLS.toReversed()
         for (const x of cols) slots.push({ x, y: rowY })
         edge = target
       } else {
@@ -117,7 +117,7 @@ function buildLayout(sections: SessionTimelineSection[]): Layout {
         } else {
           path.push(`L ${CX + R} ${rowY}`)
           path.push(`A ${R} ${R} 0 0 0 ${CX} ${rowY + R}`)
-          for (const x of [...RIGHT_HALF].reverse()) slots.push({ x, y: rowY })
+          for (const x of RIGHT_HALF.toReversed()) slots.push({ x, y: rowY })
         }
         path.push(`L ${CX} ${sessionBottomY}`)
       }
@@ -182,7 +182,7 @@ function Bullet({
 function EventBullet({ entry }: { entry: Extract<SessionTimelineEntry, { kind: 'event' }> }) {
   const { mark } = entry
   return (
-    <Link to={entityHref('event', entry.slug)} aria-label={entry.name} className="block">
+    <Link {...entityLink('event', entry.slug)} aria-label={entry.name} className="block">
       <Bullet
         label={entry.name}
         className="border-border bg-card group-hover/bullet:border-primary/50 border-2 shadow-sm"
@@ -211,7 +211,7 @@ function DayBullet({ entry }: { entry: Extract<SessionTimelineEntry, { kind: 'da
 function SessionHeader({ session }: { session: SessionTimelineSection['session'] }) {
   return (
     <Link
-      to={entityHref('session', session.slug)}
+      {...entityLink('session', session.slug)}
       title={session.name}
       className="bg-background hover:text-primary group flex max-w-[320px] flex-col items-center gap-1 rounded-xl px-5 py-2 text-center transition-colors"
     >
@@ -224,6 +224,8 @@ function SessionHeader({ session }: { session: SessionTimelineSection['session']
 }
 
 // --- Component --------------------------------------------------------------
+
+const pct = (value: number, total: number) => `${(value / total) * 100}%`
 
 export function EventsTimeline() {
   const sections = useMemo(() => sessionTimelineSections(), [])
@@ -242,8 +244,6 @@ export function EventsTimeline() {
         events.length > 0 ? formatDateSpan(events[0].date, events[events.length - 1].date) : null,
     }
   }, [sections])
-
-  const pct = (value: number, total: number) => `${(value / total) * 100}%`
 
   return (
     <div className="space-y-8">

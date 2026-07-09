@@ -1,6 +1,5 @@
 import { DEFAULT_AVATAR } from '#/definitions/media.ts'
-
-import { cn } from '@/lib/utils'
+import { cn } from '#/lib/utils'
 
 type AvatarProps = {
   src: string

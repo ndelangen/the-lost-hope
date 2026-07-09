@@ -1,6 +1,7 @@
 import { z } from 'zod'
 
 import { Content } from './content'
+import { makeCreate } from './create'
 import { deriveSlug } from './slug'
 
 export const Quest = deriveSlug(
@@ -13,8 +14,6 @@ export const Quest = deriveSlug(
   }),
 )
 
-export function create(input: z.input<typeof Quest>): z.infer<typeof Quest> {
-  return Quest.parse(input)
-}
+export const create = makeCreate(Quest)
 
 export type Quest = z.infer<typeof Quest>

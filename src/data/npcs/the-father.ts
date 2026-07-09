@@ -4,10 +4,11 @@ import { create as createNPC } from '#/definitions/npc.ts'
 export default createNPC({
   name: 'The Father',
   avatar: '/assets/npcs/the-father.png',
-  location: refs.locations.fajanet,
-  role: 'Leader of The Eyeless Hand',
-  species: 'unknown',
-  summary: ['The secret leader of ', refs.organizations.the_eyeless_hand, '.'],
+  summary: [
+    'The secret leader of ',
+    refs.organizations.the_eyeless_hand,
+    '; his true identity is a closely guarded secret.',
+  ],
   memberships: [
     {
       organization: refs.organizations.the_eyeless_hand,
@@ -15,5 +16,4 @@ export default createNPC({
       rank: 'Leader',
     },
   ],
-  notes: ['His true identity is a closely guarded secret.'],
 })

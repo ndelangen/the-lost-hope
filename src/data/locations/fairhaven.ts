@@ -3,6 +3,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
   name: 'Fairhaven',
+  icon: 'gi/GiModernCity',
   type: 'settlement',
   parent: refs.locations.world,
   at: [400, 0],

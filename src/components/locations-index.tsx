@@ -2,17 +2,17 @@ import { Link, useNavigate, useSearch } from '@tanstack/react-router'
 import { ChevronDown, ChevronRight, List, Map, Search } from 'lucide-react'
 import { useCallback, useMemo, useState, type ReactNode } from 'react'
 
+import { Badge } from '#/components/ui/badge'
 import {
   LOCATION_TYPES,
   LOCATION_TYPE_LABELS,
   type Location,
   type LocationType,
 } from '#/definitions/location.ts'
-import { Badge } from '@/components/ui/badge'
 import {
   allEntities,
   contentToText,
-  entityHref,
+  entityLink,
   locationAbsolutePosition,
   locationActivityCount,
   locationParent,
@@ -20,13 +20,10 @@ import {
   mapPlottableLocations,
   type LocationEntity,
   type LocationTreeNode,
-} from '@/lib/campaign'
-import { LocationTypeIcon, locationTypeLabel } from '@/lib/location-icons'
-import {
-  locationsSearchFromTypes,
-  parseLocationFilter,
-} from '@/lib/locations-search'
-import { cn } from '@/lib/utils'
+} from '#/lib/campaign'
+import { LocationIcon, LocationTypeIcon, locationTypeLabel } from '#/lib/location-icons'
+import { locationsSearchFromTypes, parseLocationFilter } from '#/lib/locations-search'
+import { cn } from '#/lib/utils'
 
 export type LocationsView = 'map' | 'list'
 
@@ -50,12 +47,14 @@ function matchesType(entity: LocationEntity, activeTypes: Set<LocationType>): bo
 
 function SegmentedBar({ children, className }: { children: ReactNode; className?: string }) {
   return (
-    <div
-      className={cn('border-border bg-muted/40 inline-flex gap-1.5 rounded-lg border p-1.5', className)}
-      role="group"
+    <fieldset
+      className={cn(
+        'border-border bg-muted/40 inline-flex gap-1.5 rounded-lg border p-1.5',
+        className,
+      )}
     >
       {children}
-    </div>
+    </fieldset>
   )
 }
 
@@ -238,7 +237,7 @@ function CartographerCanvas({ activeTypes }: { activeTypes: Set<LocationType> })
 
     const cx = scaleX(pos[0])
     const cy = scaleY(pos[1])
-    return [{ entity, loc, type, left: (cx / MAP_WIDTH) * 100, top: (cy / MAP_HEIGHT) * 100 }]
+    return [{ entity, loc, left: (cx / MAP_WIDTH) * 100, top: (cy / MAP_HEIGHT) * 100 }]
   })
 
   if (plottable.length === 0) {
@@ -251,6 +250,7 @@ function CartographerCanvas({ activeTypes }: { activeTypes: Set<LocationType> })
 
   return (
     <div className="border-border relative overflow-hidden rounded-xl border bg-gradient-to-br from-amber-50/80 via-stone-100/90 to-amber-100/60 dark:from-amber-950/30 dark:via-stone-900/50 dark:to-amber-900/20">
+      {/* oxlint-disable jsx-a11y/prefer-tag-over-role -- an inline <svg> cannot be an <img>; role="img" + aria-label is the correct pattern */}
       <svg
         viewBox={`0 0 ${MAP_WIDTH} ${MAP_HEIGHT}`}
         className="w-full"
@@ -283,16 +283,17 @@ function CartographerCanvas({ activeTypes }: { activeTypes: Set<LocationType> })
           />
         ))}
       </svg>
+      {/* oxlint-enable jsx-a11y/prefer-tag-over-role */}
 
-      {pins.map(({ entity, loc, type, left, top }) => (
+      {pins.map(({ entity, loc, left, top }) => (
         <Link
           key={entity.slug}
-          to={entityHref('location', entity.slug)}
+          {...entityLink('location', entity.slug)}
           className="group absolute -translate-x-1/2 -translate-y-1/2"
           style={{ left: `${left}%`, top: `${top}%` }}
         >
           <span className="bg-background border-primary text-primary group-hover:bg-primary group-hover:text-primary-foreground mx-auto flex size-7 items-center justify-center rounded-full border-2 shadow-sm transition-colors">
-            <LocationTypeIcon type={type} className="size-3.5" />
+            <LocationIcon icon={loc.icon} className="size-3.5" />
           </span>
           <span className="text-foreground mt-1 block max-w-28 text-center text-[11px] leading-tight font-medium">
             {loc.name}
@@ -300,7 +301,7 @@ function CartographerCanvas({ activeTypes }: { activeTypes: Set<LocationType> })
         </Link>
       ))}
 
-      <p className="text-muted-foreground border-border absolute right-3 bottom-3 rounded-md border bg-background/80 px-2 py-1 text-xs backdrop-blur-sm">
+      <p className="text-muted-foreground border-border bg-background/80 absolute right-3 bottom-3 rounded-md border px-2 py-1 text-xs backdrop-blur-sm">
         Map placeholder — pins use campaign coordinates
       </p>
     </div>
@@ -374,17 +375,17 @@ function TreeNodeRow({
 
         <div className="min-w-0 flex-1">
           <Link
-            to={entityHref('location', node.slug)}
+            {...entityLink('location', node.slug)}
             className="flex flex-wrap items-center gap-2"
           >
-            {type ? (
-              <LocationTypeIcon type={type} className="text-primary/70 size-3.5" />
-            ) : null}
+            <LocationIcon icon={loc.icon} className="text-primary/70 size-4" />
             <span className="font-medium">{loc.name}</span>
             {type ? <TypeBadge type={type} /> : null}
             <ActivityBadge slug={node.slug} />
           </Link>
-          {teaser ? <p className="text-muted-foreground mt-0.5 line-clamp-2 text-xs">{teaser}</p> : null}
+          {teaser ? (
+            <p className="text-muted-foreground mt-0.5 line-clamp-2 text-xs">{teaser}</p>
+          ) : null}
         </div>
       </div>
 
@@ -402,10 +403,7 @@ function TreeNodeRow({
 function LocationDirectory({ activeTypes }: { activeTypes: Set<LocationType> }) {
   const [query, setQuery] = useState('')
   const tree = useMemo(() => locationTree(), [])
-  const filtered = useMemo(
-    () => filterTree(tree, query, activeTypes),
-    [tree, query, activeTypes],
-  )
+  const filtered = useMemo(() => filterTree(tree, query, activeTypes), [tree, query, activeTypes])
   const forceOpen = query.trim().length > 0 || activeTypes.size < LOCATION_TYPES.length
 
   return (

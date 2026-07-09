@@ -39,6 +39,12 @@ export type Entity =
   | { kind: 'quest'; slug: string; data: Quest }
   | { kind: 'organization'; slug: string; data: Organization }
 
+/** The concrete `Entity` variant for a given kind (e.g. `EntityOf<'pc'>`). */
+export type EntityOf<K extends EntityKind> = Extract<Entity, { kind: K }>
+
+/** The `data` payload type for a given kind. */
+export type DataOf<K extends EntityKind> = EntityOf<K>['data']
+
 export const COLLECTIONS: EntityKind[] = [
   'session',
   'event',
@@ -99,34 +105,32 @@ export function refLink(
 export function sessionEvents(session: Session): Event[] {
   return session.events
     .map((ref) => resolveRef(ref))
-    .filter((entity): entity is Entity & { kind: 'event'; data: Event } => entity?.kind === 'event')
+    .filter((entity): entity is EntityOf<'event'> => entity?.kind === 'event')
     .map((entity) => entity.data)
 }
 
 export function eventLocation(event: Event): Location | undefined {
   const entity = resolveRef(event.location)
-  return entity?.kind === 'location' ? (entity.data as Location) : undefined
+  return entity?.kind === 'location' ? entity.data : undefined
 }
 
 export function npcLocation(npc: NPC): Location | undefined {
+  if (!npc.location) return undefined
   const entity = resolveRef(npc.location)
-  return entity?.kind === 'location' ? (entity.data as Location) : undefined
+  return entity?.kind === 'location' ? entity.data : undefined
 }
 
 export function locationParent(location: Location): Location | undefined {
   if (!('parent' in location) || !location.parent) return undefined
   const entity = resolveRef(location.parent)
-  return entity?.kind === 'location' ? (entity.data as Location) : undefined
+  return entity?.kind === 'location' ? entity.data : undefined
 }
 
-export type LocationEntity = Entity & { kind: 'location'; data: Location }
+export type LocationEntity = EntityOf<'location'>
 
 export function locationChildren(parentSlug: string): LocationEntity[] {
   return allEntities('location')
-    .filter((entity) => {
-      const parent = locationParent(entity.data as Location)
-      return parent?.slug === parentSlug
-    })
+    .filter((entity) => locationParent(entity.data)?.slug === parentSlug)
     .toSorted((a, b) => compareEntityNames(a.data.name, b.data.name))
 }
 
@@ -144,7 +148,9 @@ export type LocationTreeNode = LocationEntity & { children: LocationTreeNode[] }
 
 export function locationTree(rootSlug = locations.world.slug): LocationTreeNode[] {
   return locationChildren(rootSlug).map((entity) => ({
-    ...entity,
+    kind: entity.kind,
+    slug: entity.slug,
+    data: entity.data,
     children: locationTree(entity.slug),
   }))
 }
@@ -153,6 +159,10 @@ export function locationsByType(type: LocationType): LocationEntity[] {
   return allEntities('location')
     .filter((entity) => 'type' in entity.data && entity.data.type === type)
     .toSorted((a, b) => compareEntityNames(a.data.name, b.data.name))
+}
+
+export function locationTypeOf(location: Location): LocationType | undefined {
+  return 'type' in location ? location.type : undefined
 }
 
 export function locationActivityCount(slug: string): number {
@@ -169,15 +179,17 @@ export function locationAbsolutePosition(location: Location): [number, number] |
 }
 
 export function mapPlottableLocations(): LocationEntity[] {
-  return allEntities('location').filter((entity) => {
-    const loc = entity.data as Location
-    return 'parent' in loc && loc.parent && locationAbsolutePosition(loc) !== undefined
-  })
+  return allEntities('location').filter(
+    (entity) =>
+      'parent' in entity.data &&
+      entity.data.parent &&
+      locationAbsolutePosition(entity.data) !== undefined,
+  )
 }
 
 export function membershipOrg(membership: Membership): Organization | undefined {
   const entity = resolveRef(membership.organization)
-  return entity?.kind === 'organization' ? (entity.data as Organization) : undefined
+  return entity?.kind === 'organization' ? entity.data : undefined
 }
 
 export function entityKind(value: Reference): EntityKind {
@@ -207,25 +219,79 @@ export function contentToText(content: unknown): string {
   return ''
 }
 
-export function entityHref(kind: EntityKind, slug: string): string {
-  if (kind === 'location') return `/locations/detail/${slug}`
-  return `/${COLLECTION_PATH[kind]}/${slug}`
+/** Route pattern for an entity kind's detail page. */
+export type EntityTo =
+  | '/pcs/detail/$slug'
+  | '/npcs/detail/$slug'
+  | '/locations/detail/$slug'
+  | '/events/detail/$slug'
+  | '/sessions/detail/$slug'
+  | '/quests/detail/$slug'
+  | '/organizations/detail/$slug'
+
+/** Route pattern for an entity kind's collection/index page. */
+export type CollectionTo =
+  | '/pcs'
+  | '/npcs'
+  | '/locations'
+  | '/events'
+  | '/sessions'
+  | '/quests'
+  | '/organizations'
+
+const ENTITY_TO: Record<EntityKind, EntityTo> = {
+  pc: '/pcs/detail/$slug',
+  npc: '/npcs/detail/$slug',
+  location: '/locations/detail/$slug',
+  event: '/events/detail/$slug',
+  session: '/sessions/detail/$slug',
+  quest: '/quests/detail/$slug',
+  organization: '/organizations/detail/$slug',
 }
 
-export function allEntities(kind: EntityKind): Entity[] {
+const COLLECTION_TO: Record<EntityKind, CollectionTo> = {
+  pc: '/pcs',
+  npc: '/npcs',
+  location: '/locations',
+  event: '/events',
+  session: '/sessions',
+  quest: '/quests',
+  organization: '/organizations',
+}
+
+/** Typed router props (`to` + `params`) for an entity's detail page. */
+export function entityLink(
+  kind: EntityKind,
+  slug: string,
+): { to: EntityTo; params: { slug: string } } {
+  return { to: ENTITY_TO[kind], params: { slug } }
+}
+
+/** Typed `to` for an entity kind's collection/index page. */
+export function collectionTo(kind: EntityKind): CollectionTo {
+  return COLLECTION_TO[kind]
+}
+
+/**
+ * Raw path string for an entity's detail page. Prefer {@link entityLink} for
+ * `<Link>`/`navigate`; use this only where a plain string is needed (e.g.
+ * comparing against `location.pathname`).
+ */
+export function entityHref(kind: EntityKind, slug: string): string {
+  return `/${COLLECTION_PATH[kind]}/detail/${slug}`
+}
+
+export function allEntities<K extends EntityKind>(kind: K): EntityOf<K>[] {
   const registry = REGISTRIES[kind]
   return Object.values(registry).map((data) => ({
     kind,
-    slug: data.slug,
+    slug: (data as { slug: string }).slug,
     data,
-  }))
+  })) as EntityOf<K>[]
 }
 
-export function getEntity(kind: EntityKind, slug: string): Entity | undefined {
-  const registry = REGISTRIES[kind] as Record<string, { slug: string }>
-  const data = Object.values(registry).find((entry) => entry.slug === slug)
-  if (!data) return undefined
-  return { kind, slug, data } as Entity
+export function getEntity<K extends EntityKind>(kind: K, slug: string): EntityOf<K> | undefined {
+  return allEntities(kind).find((entity) => entity.slug === slug)
 }
 
 export function findEntityBySlug(slug: string): Entity | undefined {
@@ -330,18 +396,22 @@ export function sessionPcs(session: Session): PC[] {
       if (ref.ref !== 'pc' || seen.has(ref.key)) continue
       seen.add(ref.key)
       const entity = resolveRef(ref)
-      if (entity?.kind === 'pc') result.push(entity.data as PC)
+      if (entity?.kind === 'pc') result.push(entity.data)
     }
   }
   return result.toSorted((a, b) => a.name.localeCompare(b.name))
 }
 
-export function openQuests(): Entity[] {
-  return allEntities('quest').filter((q) => (q.data as Quest).status === 'open')
+export function openQuests(): EntityOf<'quest'>[] {
+  return allEntities('quest').filter((q) => q.data.status === 'open')
 }
 
-export function activePcs(): Entity[] {
-  return allEntities('pc').filter((p) => (p.data as PC).status === 'active')
+export function activePcs(): EntityOf<'pc'>[] {
+  return allEntities('pc').filter((p) => p.data.status === 'active')
+}
+
+export function formerPcs(): EntityOf<'pc'>[] {
+  return allEntities('pc').filter((p) => p.data.status !== 'active')
 }
 
 export type OrganizationMember = {
@@ -364,30 +434,20 @@ export type OrganizationMemberGroup = {
 export function organizationMembers(org: Organization): OrganizationMemberGroup[] {
   const entries: (OrganizationMember & { status: (typeof MEMBERSHIP_STATUSES)[number] })[] = []
 
-  for (const pc of Object.values(pcs)) {
-    for (const membership of pc.memberships ?? []) {
-      const memberOrg = membershipOrg(membership)
-      if (!memberOrg || memberOrg.slug !== org.slug) continue
-      entries.push({
-        kind: 'pc',
-        slug: pc.slug,
-        name: pc.name,
-        avatar: pc.avatar,
-        rank: membership.rank,
-        status: membership.status,
-      })
-    }
-  }
+  const characters: { kind: 'pc' | 'npc'; record: PC | NPC }[] = [
+    ...Object.values(pcs).map((record) => ({ kind: 'pc' as const, record })),
+    ...Object.values(npcs).map((record) => ({ kind: 'npc' as const, record })),
+  ]
 
-  for (const npc of Object.values(npcs)) {
-    for (const membership of npc.memberships ?? []) {
+  for (const { kind, record } of characters) {
+    for (const membership of record.memberships ?? []) {
       const memberOrg = membershipOrg(membership)
       if (!memberOrg || memberOrg.slug !== org.slug) continue
       entries.push({
-        kind: 'npc',
-        slug: npc.slug,
-        name: npc.name,
-        avatar: npc.avatar,
+        kind,
+        slug: record.slug,
+        name: record.name,
+        avatar: record.avatar,
         rank: membership.rank,
         status: membership.status,
       })
@@ -422,12 +482,8 @@ export function organizationMembers(org: Organization): OrganizationMemberGroup[
   })
 }
 
-export function campaignSessions(): Entity[] {
-  return campaign.sessions.map((data) => ({
-    kind: 'session' as const,
-    slug: data.slug,
-    data,
-  }))
+export function campaignSessions(): EntityOf<'session'>[] {
+  return campaign.sessions.map((data) => ({ kind: 'session', slug: data.slug, data }))
 }
 
 export function sessionNumber(slug: string): number | undefined {
@@ -435,8 +491,8 @@ export function sessionNumber(slug: string): number | undefined {
   return index === -1 ? undefined : index + 1
 }
 
-export function sortedSessions(): Entity[] {
-  return [...campaignSessions()].toReversed()
+export function sortedSessions(): EntityOf<'session'>[] {
+  return campaignSessions().toReversed()
 }
 
 export type SessionDay = {
@@ -464,16 +520,8 @@ export function sessionDays(session: Session): SessionDay[] {
     }))
 }
 
-export function sortedEvents(): Entity[] {
-  return allEntities('event').toSorted(
-    (a, b) => (b.data as Event).date.getTime() - (a.data as Event).date.getTime(),
-  )
-}
-
-export function chronologicalEvents(): Entity[] {
-  return allEntities('event').toSorted(
-    (a, b) => (a.data as Event).date.getTime() - (b.data as Event).date.getTime(),
-  )
+export function sortedEvents(): EntityOf<'event'>[] {
+  return allEntities('event').toSorted((a, b) => b.data.date.getTime() - a.data.date.getTime())
 }
 
 export type SessionTimelineEntry =
@@ -490,10 +538,6 @@ export type SessionTimelineSection = {
   session: { slug: string; number: number; name: string; date: Date }
   entries: SessionTimelineEntry[]
 }
-
-export type StorylineNode =
-  | { kind: 'session'; slug: string; number: number; name: string }
-  | SessionTimelineEntry
 
 function formatDayLabel(date: Date): string {
   return date.toLocaleDateString(undefined, { month: 'short', day: 'numeric' })
@@ -532,22 +576,6 @@ export function sessionTimelineSections(): SessionTimelineSection[] {
   })
 }
 
-export function storylineNodes(
-  sections: SessionTimelineSection[] = sessionTimelineSections(),
-): StorylineNode[] {
-  const nodes: StorylineNode[] = []
-  for (const section of sections) {
-    nodes.push({
-      kind: 'session',
-      slug: section.session.slug,
-      number: section.session.number,
-      name: section.session.name,
-    })
-    nodes.push(...section.entries)
-  }
-  return nodes
-}
-
 function stripLeadingArticle(name: string): string {
   return name.replace(/^the\s+/i, '').trim()
 }
@@ -557,15 +585,24 @@ export function compareEntityNames(a: string, b: string): number {
   return stripLeadingArticle(a).localeCompare(stripLeadingArticle(b))
 }
 
-export function sortEntitiesByName(entities: Entity[]): Entity[] {
+export function sortEntitiesByName<T extends Entity>(entities: T[]): T[] {
   return [...entities].toSorted((a, b) => compareEntityNames(a.data.name, b.data.name))
 }
 
 export function collectionKindFromPath(pathname: string): EntityKind | undefined {
-  const segment = pathname.split('/').filter(Boolean)[0]
+  const segment = pathname.split('/').find(Boolean)
   if (!segment) return undefined
   const entry = Object.entries(COLLECTION_PATH).find(([, path]) => path === segment)
   return entry ? (entry[0] as EntityKind) : undefined
+}
+
+/**
+ * Slug of the entity detail page for a pathname like `/pcs/detail/jim`. Returns
+ * `undefined` for collection/index or other views (e.g. `/locations/map`).
+ */
+export function entitySlugFromPath(pathname: string): string | undefined {
+  const [, view, slug] = pathname.split('/').filter(Boolean)
+  return view === 'detail' ? slug : undefined
 }
 
 export function sessionSlugForEvent(eventSlug: string): string | undefined {
@@ -577,12 +614,8 @@ export function sessionSlugForEvent(eventSlug: string): string | undefined {
   return undefined
 }
 
-export function nonActivePcs(): Entity[] {
-  return allEntities('pc').filter((pc) => (pc.data as PC).status !== 'active')
-}
-
-export function resolvedQuests(): Entity[] {
-  return allEntities('quest').filter((q) => (q.data as Quest).status === 'resolved')
+export function resolvedQuests(): EntityOf<'quest'>[] {
+  return allEntities('quest').filter((q) => q.data.status === 'resolved')
 }
 
 export function searchEntities(query: string, limit = 20): Entity[] {

@@ -1,11 +1,11 @@
 import { Link } from '@tanstack/react-router'
 
+import { LocationReference } from '#/components/location-reference'
 import type { Event } from '#/definitions/event.ts'
 import type { Session } from '#/definitions/session.ts'
-import { EntityLink } from '@/components/content-renderer'
-import { entityHref, eventLocation, sessionDays } from '@/lib/campaign'
-import { EventMarkIcon } from '@/lib/event-icons'
-import { cn } from '@/lib/utils'
+import { entityLink, eventLocation, sessionDays } from '#/lib/campaign'
+import { EventMarkIcon } from '#/lib/event-icons'
+import { cn } from '#/lib/utils'
 
 function TimelineBullet({
   children,
@@ -59,18 +59,26 @@ function EventBullet({ event }: { event: Event }) {
 function EventCard({ event }: { event: Event }) {
   const place = eventLocation(event)
   return (
-    <Link to={entityHref('event', event.slug)} className="group flex items-start gap-3">
+    <div className="group relative flex items-start gap-3">
       <EventBullet event={event} />
       <div className="border-border group-hover:border-primary/40 group-hover:bg-accent/20 min-w-0 flex-1 space-y-1.5 rounded-lg border px-4 py-3 transition-colors">
-        <p className="font-medium">{event.name}</p>
+        <p className="font-medium">
+          <Link {...entityLink('event', event.slug)} className="after:absolute after:inset-0">
+            {event.name}
+          </Link>
+        </p>
         <div className="flex flex-wrap items-center gap-2">
           <span className="text-muted-foreground text-xs">
             {event.date.toLocaleTimeString(undefined, { timeStyle: 'short' })}
           </span>
-          {place ? <EntityLink kind="location" slug={place.slug} label={place.name} /> : null}
+          {place ? (
+            <span className="relative z-10">
+              <LocationReference slug={place.slug} />
+            </span>
+          ) : null}
         </div>
       </div>
-    </Link>
+    </div>
   )
 }
 

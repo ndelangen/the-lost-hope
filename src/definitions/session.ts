@@ -1,5 +1,6 @@
 import { z } from 'zod'
 
+import { makeCreate } from './create'
 import { EntityRefSchema } from './kind'
 import { deriveSlug } from './slug'
 
@@ -11,8 +12,6 @@ export const Session = deriveSlug(
   }),
 )
 
-export function create(input: z.input<typeof Session>): z.infer<typeof Session> {
-  return Session.parse(input)
-}
+export const create = makeCreate(Session)
 
 export type Session = z.infer<typeof Session>

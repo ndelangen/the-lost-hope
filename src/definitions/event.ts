@@ -1,6 +1,7 @@
 import { z } from 'zod'
 
 import { Content } from './content'
+import { makeCreate } from './create'
 import { EntityRefSchema } from './kind'
 import { MediaUrl } from './media'
 import { deriveSlug } from './slug'
@@ -33,6 +34,4 @@ export const Event = EventSchema
 
 export type Event = z.output<typeof EventSchema>
 
-export function create(input: z.input<typeof EventSchema>): Event {
-  return EventSchema.parse(input)
-}
+export const create = makeCreate(EventSchema)

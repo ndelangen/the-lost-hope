@@ -3,6 +3,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
   name: 'Fajanet Tunnels',
+  icon: 'gi/GiCaveEntrance',
   type: 'dungeon',
   parent: refs.locations.fajanet,
   at: [200, 0],

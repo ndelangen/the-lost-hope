@@ -5,10 +5,10 @@ export default createNPC({
   name: 'Bob the gate troll',
   avatar: '/assets/npcs/bob.png',
   location: refs.locations.fajanet,
-  role: 'City gate guard',
   species: 'Troll',
-  summary: ['A friendly troll stationed at the main gate of ', refs.locations.fajanet, '.'],
-  notes: [
-    'Big, green, and smiling; recognises everyone who passes through by sight, even when he forgets their names.',
+  summary: [
+    'A friendly troll stationed at the main gate of ',
+    refs.locations.fajanet,
+    '. Big, green, and smiling; recognises everyone who passes through by sight, even when he forgets their names.',
   ],
 })

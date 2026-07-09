@@ -3,6 +3,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
   name: 'Holy Site (mountains)',
+  icon: 'gi/GiByzantinTemple',
   type: 'landmark',
   parent: refs.locations.world,
   at: [200, 200],

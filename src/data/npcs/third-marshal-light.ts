@@ -5,14 +5,16 @@ export default createNPC({
   name: 'Third Marshal Light',
   avatar: '/assets/npcs/light.png',
   location: refs.locations.fajanet_guildhall,
-  role: "Guildmaster of the Adventurers' Guild; 13th Marshal",
   species: 'unknown',
   summary: [
-    'Leader of the ',
-    refs.organizations.adventurers_guild,
-    ' in ',
-    refs.locations.fajanet,
-    "; the party's main quest-giver.",
+    [
+      'Leader of the ',
+      refs.organizations.adventurers_guild,
+      ' in ',
+      refs.locations.fajanet,
+      "; the party's main quest-giver.",
+    ],
+    ['The price of the one favor he grants each new recruit is unstated.'],
   ],
   memberships: [
     {
@@ -21,5 +23,4 @@ export default createNPC({
       rank: 'Guildmaster',
     },
   ],
-  notes: ['The price of the one favor Light grants each new recruit is unstated.'],
 })

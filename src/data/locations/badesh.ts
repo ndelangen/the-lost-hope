@@ -3,6 +3,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
   name: 'Badesh',
+  icon: 'gi/GiVillage',
   type: 'settlement',
   parent: refs.locations.world,
   at: [0, 0],

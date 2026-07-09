@@ -1,6 +1,13 @@
 import { Link } from '@tanstack/react-router'
 import { ArrowLeft, Calendar } from 'lucide-react'
 
+import { ContentBlocks, ContentRenderer, EntityChip, Portrait } from '#/components/content-renderer'
+import { LocationReference } from '#/components/location-reference'
+import { OrganizationReference } from '#/components/organization-reference'
+import { LocationMapImage } from '#/components/map-placeholder'
+import { SessionTimeline } from '#/components/session-timeline'
+import { Badge } from '#/components/ui/badge'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '#/components/ui/card'
 import type { Event } from '#/definitions/event.ts'
 import type { Location } from '#/definitions/location.ts'
 import type { NPC } from '#/definitions/npc.ts'
@@ -8,24 +15,18 @@ import type { Organization } from '#/definitions/organization.ts'
 import type { PC } from '#/definitions/pc.ts'
 import type { Quest } from '#/definitions/quest.ts'
 import type { Session } from '#/definitions/session.ts'
-import { ContentRenderer, EntityLink, InlineContent, Portrait } from '@/components/content-renderer'
-import { LocationMapImage } from '@/components/map-placeholder'
-import { LocationTypeIcon, locationTypeLabel } from '@/lib/location-icons'
-import { SessionTimeline } from '@/components/session-timeline'
-import { Avatar } from '@/components/ui/avatar'
-import { Badge } from '@/components/ui/badge'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import {
   allEntities,
   COLLECTION_LABELS,
-  COLLECTION_PATH,
+  collectionTo,
   contentToText,
-  entityHref,
+  entityLink,
   eventLocation,
   getEntity,
   locationAbsolutePosition,
   locationAncestors,
   locationChildren,
+  locationTypeOf,
   membershipOrg,
   npcLocation,
   organizationMembers,
@@ -35,7 +36,9 @@ import {
   sessionPcs,
   type Entity,
   type EntityKind,
-} from '@/lib/campaign'
+} from '#/lib/campaign'
+import { LocationAvatar, LocationTypeIcon, locationTypeLabel } from '#/lib/location-icons'
+import { OrganizationAvatar } from '#/lib/organization-icons'
 
 export function CollectionPage({ kind }: { kind: EntityKind }) {
   const items = allEntities(kind).toSorted((a, b) => a.data.name.localeCompare(b.data.name))
@@ -75,7 +78,7 @@ export function EntityCard({ entity }: { entity: Entity }) {
   const summary = cardTeaser(entity)
 
   return (
-    <Link to={entityHref(entity.kind, entity.slug)}>
+    <Link {...entityLink(entity.kind, entity.slug)}>
       <Card className="hover:border-primary/40 hover:bg-accent/20 h-full transition-colors">
         <CardHeader className="pb-6">
           <CardTitle className="text-base">{entity.data.name}</CardTitle>
@@ -112,7 +115,7 @@ export function EntityDetailPage({ kind, slug }: { kind: EntityKind; slug: strin
           <ul className="grid gap-2 sm:grid-cols-2">
             {links.map(({ entity: ref, reason }) => (
               <li key={`${ref.kind}-${ref.slug}`}>
-                <Link to={entityHref(ref.kind, ref.slug)} className="hover:text-primary text-sm">
+                <Link {...entityLink(ref.kind, ref.slug)} className="hover:text-primary text-sm">
                   {ref.data.name}
                   <span className="text-muted-foreground"> · {reason}</span>
                 </Link>
@@ -128,7 +131,7 @@ export function EntityDetailPage({ kind, slug }: { kind: EntityKind; slug: strin
 function BackLink({ kind }: { kind: EntityKind }) {
   return (
     <Link
-      to={`/${COLLECTION_PATH[kind]}`}
+      to={collectionTo(kind)}
       className="text-muted-foreground hover:text-foreground inline-flex items-center gap-1 text-sm"
     >
       <ArrowLeft className="size-3.5" />
@@ -188,11 +191,8 @@ function renderHeader(entity: Entity) {
             </p>
             <h1 className="text-4xl font-bold tracking-tight">{npc.name}</h1>
             <div className="flex flex-wrap gap-2">
-              {npc.role ? <Badge variant="secondary">{npc.role}</Badge> : null}
               {npc.species ? <Badge variant="outline">{npc.species}</Badge> : null}
-              {home ? (
-                <EntityLink kind="location" slug={home.slug} label={`📍 ${home.name}`} />
-              ) : null}
+              {home ? <LocationReference slug={home.slug} /> : null}
             </div>
             {npc.languages?.length ? (
               <p className="text-muted-foreground text-sm">
@@ -200,9 +200,7 @@ function renderHeader(entity: Entity) {
               </p>
             ) : null}
             {npc.summary ? (
-              <p className="text-muted-foreground">
-                <InlineContent content={npc.summary} />
-              </p>
+              <ContentBlocks content={npc.summary} className="text-muted-foreground" />
             ) : null}
           </div>
         </header>
@@ -212,38 +210,39 @@ function renderHeader(entity: Entity) {
       const location = entity.data as Location
       const ancestors = locationAncestors(location)
       const coordinates = locationAbsolutePosition(location)
+      const locationType = locationTypeOf(location)
       return (
         <header className="space-y-4">
           <p className="text-muted-foreground text-xs font-semibold tracking-wider uppercase">
             Location
           </p>
           {ancestors.length > 0 ? (
-            <p className="text-muted-foreground text-sm">
+            <p className="text-muted-foreground flex flex-wrap items-center text-sm">
               {ancestors.map((ancestor, index) => (
-                <span key={ancestor.slug}>
+                <span key={ancestor.slug} className="inline-flex items-center">
                   {index > 0 ? <span className="mx-1.5 opacity-50">›</span> : null}
-                  <Link
-                    to={entityHref('location', ancestor.slug)}
-                    className="hover:text-primary transition-colors"
-                  >
-                    {ancestor.name}
-                  </Link>
+                  <LocationReference slug={ancestor.slug} />
                 </span>
               ))}
             </p>
           ) : null}
-          <h1 className="text-4xl font-bold tracking-tight">{location.name}</h1>
-          {location.aliases?.length ? (
-            <p className="text-muted-foreground text-sm">
-              Also known as {location.aliases.join(', ')}
-            </p>
-          ) : null}
-          {'type' in location ? (
-            <Badge variant="secondary" className="gap-1">
-              <LocationTypeIcon type={location.type} className="size-3" />
-              {locationTypeLabel(location.type, true)}
-            </Badge>
-          ) : null}
+          <div className="flex items-center gap-4">
+            <LocationAvatar icon={location.icon} />
+            <div className="space-y-2">
+              <h1 className="text-4xl font-bold tracking-tight">{location.name}</h1>
+              {location.aliases?.length ? (
+                <p className="text-muted-foreground text-sm">
+                  Also known as {location.aliases.join(', ')}
+                </p>
+              ) : null}
+              {locationType ? (
+                <Badge variant="secondary" className="gap-1">
+                  <LocationTypeIcon type={locationType} className="size-3" />
+                  {locationTypeLabel(locationType, true)}
+                </Badge>
+              ) : null}
+            </div>
+          </div>
           <LocationMapImage
             src={location.map?.url ?? ''}
             alt={location.name}
@@ -284,7 +283,7 @@ function renderHeader(entity: Entity) {
               <Calendar className="size-3.5" />
               {event.date.toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' })}
             </span>
-            {place ? <EntityLink kind="location" slug={place.slug} label={place.name} /> : null}
+            {place ? <LocationReference slug={place.slug} /> : null}
           </div>
         </header>
       )
@@ -309,12 +308,18 @@ function renderHeader(entity: Entity) {
           <p className="text-muted-foreground text-xs font-semibold tracking-wider uppercase">
             Organization
           </p>
-          <h1 className="text-4xl font-bold tracking-tight">{organization.name}</h1>
-          {organization.summary ? (
-            <p className="text-muted-foreground text-lg">
-              <InlineContent content={organization.summary} />
-            </p>
-          ) : null}
+          <div className="flex items-center gap-4">
+            <OrganizationAvatar icon={organization.icon} />
+            <div className="space-y-2">
+              <h1 className="text-4xl font-bold tracking-tight">{organization.name}</h1>
+              {organization.summary ? (
+                <ContentBlocks
+                  content={organization.summary}
+                  className="text-muted-foreground text-lg"
+                />
+              ) : null}
+            </div>
+          </div>
         </header>
       )
     }
@@ -339,12 +344,7 @@ function MemberOf({ character }: { character: PC | NPC }) {
               key={org.slug}
               className="border-border flex flex-wrap items-center gap-2 rounded-md border px-3 py-2"
             >
-              <Link
-                to={entityHref('organization', org.slug)}
-                className="text-primary font-medium hover:underline"
-              >
-                {org.name}
-              </Link>
+              <OrganizationReference slug={org.slug} />
               <Badge variant="secondary">{membership.rank}</Badge>
               <Badge variant={membership.status === 'active' ? 'success' : 'outline'}>
                 {membership.status}
@@ -375,18 +375,12 @@ function OrganizationMembers({ organization }: { organization: Organization }) {
               <ul className="flex flex-wrap gap-3">
                 {rankGroup.members.map((member) => (
                   <li key={`${member.kind}-${member.slug}`}>
-                    <Link
-                      to={entityHref(member.kind, member.slug)}
-                      className="border-border bg-card hover:border-primary/40 hover:bg-accent/20 flex items-center gap-2 rounded-full border py-1 pr-4 pl-1 transition-colors"
-                    >
-                      <Avatar
-                        src={member.avatar}
-                        alt={member.name}
-                        loading="lazy"
-                        className="border-border size-9 border"
-                      />
-                      <span className="text-sm font-medium">{member.name}</span>
-                    </Link>
+                    <EntityChip
+                      kind={member.kind}
+                      slug={member.slug}
+                      name={member.name}
+                      avatar={member.avatar}
+                    />
                   </li>
                 ))}
               </ul>
@@ -410,18 +404,7 @@ function SessionParty({ session }: { session: Session }) {
       <ul className="flex flex-wrap gap-3">
         {pcs.map((pc) => (
           <li key={pc.slug}>
-            <Link
-              to={entityHref('pc', pc.slug)}
-              className="border-border bg-card hover:border-primary/40 hover:bg-accent/20 flex items-center gap-2 rounded-full border py-1 pr-4 pl-1 transition-colors"
-            >
-              <Avatar
-                src={pc.avatar}
-                alt={pc.name}
-                loading="lazy"
-                className="border-border size-9 border"
-              />
-              <span className="text-sm font-medium">{pc.name}</span>
-            </Link>
+            <EntityChip kind="pc" slug={pc.slug} name={pc.name} avatar={pc.avatar} />
           </li>
         ))}
       </ul>
@@ -434,7 +417,7 @@ function renderBody(entity: Entity) {
     case 'pc':
     case 'npc': {
       const character = entity.data as PC | NPC
-      const notes = character.notes
+      const notes = 'notes' in character ? character.notes : undefined
       return (
         <div className="space-y-8">
           <MemberOf character={character} />
@@ -454,13 +437,11 @@ function renderBody(entity: Entity) {
               </h2>
               <ul className="grid gap-2 sm:grid-cols-2">
                 {children.map((child) => (
-                  <li key={child.slug}>
-                    <Link
-                      to={entityHref('location', child.slug)}
-                      className="border-border hover:border-primary/40 hover:bg-accent/20 block rounded-md border px-3 py-2 transition-colors"
-                    >
-                      <span className="text-sm font-medium">{child.data.name}</span>
-                    </Link>
+                  <li
+                    key={child.slug}
+                    className="border-border hover:border-primary/40 hover:bg-accent/20 rounded-md border px-3 py-2 text-sm transition-colors"
+                  >
+                    <LocationReference slug={child.slug} />
                   </li>
                 ))}
               </ul>

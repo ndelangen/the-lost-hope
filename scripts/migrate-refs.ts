@@ -4,9 +4,10 @@
  * Run: bun scripts/migrate-refs.ts
  */
 import { readdir, readFile, writeFile } from 'node:fs/promises'
-import { join } from 'node:path'
+import { dirname, join } from 'node:path'
+import { fileURLToPath } from 'node:url'
 
-const DATA_ROOT = join(import.meta.dir, '../src/data')
+const DATA_ROOT = join(dirname(fileURLToPath(import.meta.url)), '../src/data')
 
 const REGISTRY_NAMES = [
   'events',
@@ -20,14 +21,16 @@ const REGISTRY_NAMES = [
 
 async function walk(dir: string): Promise<string[]> {
   const entries = await readdir(dir, { withFileTypes: true })
-  const files: string[] = []
-  for (const entry of entries) {
-    const path = join(dir, entry.name)
-    if (entry.isDirectory()) files.push(...(await walk(path)))
-    else if (entry.name.endsWith('.ts') && entry.name !== '_index.ts' && entry.name !== 'refs.ts')
-      files.push(path)
-  }
-  return files
+  const nested = await Promise.all(
+    entries.map(async (entry): Promise<string[]> => {
+      const path = join(dir, entry.name)
+      if (entry.isDirectory()) return walk(path)
+      if (entry.name.endsWith('.ts') && entry.name !== '_index.ts' && entry.name !== 'refs.ts')
+        return [path]
+      return []
+    }),
+  )
+  return nested.flat()
 }
 
 function migrateContent(source: string): string {
@@ -83,13 +86,15 @@ function migrateContent(source: string): string {
 }
 
 const files = await walk(DATA_ROOT)
-for (const file of files) {
-  const before = await readFile(file, 'utf8')
-  const after = migrateContent(before)
-  if (after !== before) {
-    await writeFile(file, after)
-    console.log('updated', file.replace(DATA_ROOT + '/', ''))
-  }
-}
+await Promise.all(
+  files.map(async (file) => {
+    const before = await readFile(file, 'utf8')
+    const after = migrateContent(before)
+    if (after !== before) {
+      await writeFile(file, after)
+      console.log('updated', file.replace(DATA_ROOT + '/', ''))
+    }
+  }),
+)
 
 console.log('done', files.length, 'files scanned')

@@ -3,6 +3,7 @@ import { create as createOrganization } from '#/definitions/organization.ts'
 
 export default createOrganization({
   name: "Adventurers' Guild",
+  icon: 'gi/GiCrossedSwords',
   summary: 'A guild that recruits wandering heroes and sends them on adventures.',
   notes: [
     [

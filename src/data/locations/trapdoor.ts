@@ -3,6 +3,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
   name: 'The Trapdoor',
+  icon: 'gi/GiWoodenDoor',
   type: 'building',
   parent: refs.locations.fajanet,
   at: [200, 400],

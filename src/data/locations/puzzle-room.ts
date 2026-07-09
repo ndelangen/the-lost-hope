@@ -3,6 +3,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
   name: 'Puzzle Room (mountain)',
+  icon: 'gi/GiPuzzle',
   type: 'dungeon',
   parent: refs.locations.world,
   at: [800, 200],

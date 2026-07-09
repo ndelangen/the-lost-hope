@@ -1,12 +1,15 @@
 import { Link } from '@tanstack/react-router'
 
+import { LocationReference } from '#/components/location-reference'
+import { OrganizationReference } from '#/components/organization-reference'
+import { Avatar } from '#/components/ui/avatar'
+import type { Content } from '#/definitions/content.ts'
 import { isEntityRef } from '#/definitions/kind.ts'
 import type { Reference } from '#/definitions/reference.ts'
-import { Avatar } from '@/components/ui/avatar'
-import { entityHref, refLink, type EntityKind } from '@/lib/campaign'
-import { cn } from '@/lib/utils'
+import { entityLink, refLink, type EntityKind } from '#/lib/campaign'
+import { cn } from '#/lib/utils'
 
-type Content = string | Reference | Content[] | { type: string; url: string }
+type Media = Extract<Content, { url: string }>
 
 export function ContentRenderer({
   content,
@@ -36,7 +39,17 @@ function ContentPart({ part }: { part: Content }) {
   }
 
   if (Array.isArray(part)) {
-    return <InlineRun items={part} />
+    if (isInlineRun(part)) {
+      return <InlineRun items={part} />
+    }
+    return (
+      <>
+        {part.map((child, index) => (
+          // oxlint-disable-next-line react/no-array-index-key -- content parts lack stable ids
+          <ContentPart key={index} part={child} />
+        ))}
+      </>
+    )
   }
 
   if (isMedia(part)) {
@@ -63,9 +76,15 @@ function ContentPart({ part }: { part: Content }) {
   if (isReference(part)) {
     const link = refLink(part)
     if (!link) return null
+    if (link.kind === 'location') {
+      return <LocationReference slug={link.slug} label={link.name} />
+    }
+    if (link.kind === 'organization') {
+      return <OrganizationReference slug={link.slug} label={link.name} />
+    }
     return (
       <Link
-        to={entityHref(link.kind, link.slug)}
+        {...entityLink(link.kind, link.slug)}
         className="text-primary font-medium underline-offset-4 hover:underline"
       >
         {link.name}
@@ -91,11 +110,19 @@ function InlineRun({ items }: { items: Content[] }) {
         if (isReference(item)) {
           const link = refLink(item)
           if (!link) return null
+          if (link.kind === 'location') {
+            // oxlint-disable-next-line react/no-array-index-key -- content runs lack stable ids
+            return <LocationReference key={index} slug={link.slug} label={link.name} />
+          }
+          if (link.kind === 'organization') {
+            // oxlint-disable-next-line react/no-array-index-key -- content runs lack stable ids
+            return <OrganizationReference key={index} slug={link.slug} label={link.name} />
+          }
           return (
             <Link
               // oxlint-disable-next-line react/no-array-index-key -- content runs lack stable ids
               key={index}
-              to={entityHref(link.kind, link.slug)}
+              {...entityLink(link.kind, link.slug)}
               className="text-primary font-medium underline-offset-4 hover:underline"
             >
               {link.name}
@@ -109,60 +136,50 @@ function InlineRun({ items }: { items: Content[] }) {
 }
 
 /**
- * Renders a single Content value inline (no block wrapper): plain strings become
- * text, entity refs become links, and arrays flatten into a run of both. Media is
- * ignored. Use for one-line fields like `summary` inside an existing element.
+ * Renders a single Content value as block-level prose: an inline run becomes one
+ * paragraph and a paragraph list becomes stacked paragraphs. Use for fields that
+ * hold a single Content value (e.g. `summary`), as opposed to a list of blocks.
  */
-export function InlineContent({ content }: { content: Content }) {
-  if (typeof content === 'string') return content
-  if (isReference(content)) {
-    const link = refLink(content)
-    if (!link) return null
-    return (
-      <Link
-        to={entityHref(link.kind, link.slug)}
-        className="text-primary font-medium underline-offset-4 hover:underline"
-      >
-        {link.name}
-      </Link>
-    )
-  }
-  if (Array.isArray(content)) {
-    return (
-      <>
-        {content.map((item, index) => (
-          // oxlint-disable-next-line react/no-array-index-key -- content runs lack stable ids
-          <InlineContent key={index} content={item} />
-        ))}
-      </>
-    )
-  }
-  return null
+export function ContentBlocks({ content, className }: { content: Content; className?: string }) {
+  return (
+    <div className={cn('space-y-2', className)}>
+      <ContentPart part={content} />
+    </div>
+  )
 }
 
 function isReference(value: unknown): value is Reference {
   return isEntityRef(value)
 }
 
-function isMedia(value: unknown): value is { type: string; url: string } {
+/** True when every element is a plain-text/ref atom, i.e. the array is one paragraph. */
+function isInlineRun(items: Content[]): boolean {
+  return items.every((item) => typeof item === 'string' || isReference(item))
+}
+
+function isMedia(value: unknown): value is Media {
   return !!value && typeof value === 'object' && 'type' in value && 'url' in value
 }
 
-export function EntityLink({
+/** Rounded avatar + name pill linking to an entity's detail page. */
+export function EntityChip({
   kind,
   slug,
-  label,
+  name,
+  avatar,
 }: {
   kind: EntityKind
   slug: string
-  label?: string
+  name: string
+  avatar: string
 }) {
   return (
     <Link
-      to={entityHref(kind, slug)}
-      className="border-border bg-card hover:border-primary/40 hover:bg-accent rounded-md border px-2 py-0.5 text-xs transition-colors"
+      {...entityLink(kind, slug)}
+      className="border-border bg-card hover:border-primary/40 hover:bg-accent/20 flex items-center gap-2 rounded-full border py-1 pr-4 pl-1 transition-colors"
     >
-      {label ?? slug}
+      <Avatar src={avatar} alt={name} loading="lazy" className="border-border size-9 border" />
+      <span className="text-sm font-medium">{name}</span>
     </Link>
   )
 }
@@ -173,15 +190,7 @@ export function Portrait({ src, alt }: { src: string; alt: string }) {
       src={src}
       alt={alt}
       loading="lazy"
-      className="border-border size-24 shadow-sm sm:size-28 border"
+      className="border-border size-24 border shadow-sm sm:size-28"
     />
-  )
-}
-
-export function HeroImage({ src, alt }: { src: string; alt: string }) {
-  return (
-    <div className="border-border overflow-hidden rounded-xl border">
-      <img src={src} alt={alt} loading="lazy" className="aspect-[3/1] w-full object-cover" />
-    </div>
   )
 }

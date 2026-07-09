@@ -1,6 +1,7 @@
 import { z } from 'zod'
 
 import { Content } from './content'
+import { makeCreate } from './create'
 import { EntityRefSchema } from './kind'
 import { MediaUrl } from './media'
 import { deriveSlug } from './slug'
@@ -29,6 +30,12 @@ export const LOCATION_TYPE_LABELS: Record<LocationType, string> = {
 
 const locationFields = {
   name: z.string(),
+  icon: z
+    .string()
+    .optional()
+    .describe(
+      "react-icons id for this location's avatar, e.g. `gi/GiCastle` — see src/lib/location-icons.tsx. Should be unique per location; falls back to a map-pin placeholder when omitted.",
+    ),
   aliases: z
     .array(z.string())
     .optional()
@@ -62,22 +69,18 @@ const LocationRoot = z.strictObject({
   type: z.never().optional(),
 })
 
-const locationSchema: z.ZodTypeAny = z.lazy(() =>
-  z.xor([
-    LocationRoot,
-    z.strictObject({
-      ...locationFields,
-      type: z.enum(LOCATION_TYPES),
-      parent: EntityRefSchema,
-      at: z.tuple([z.number(), z.number()]),
-    }),
-  ]),
-)
+const locationSchema = z.xor([
+  LocationRoot,
+  z.strictObject({
+    ...locationFields,
+    type: z.enum(LOCATION_TYPES),
+    parent: EntityRefSchema,
+    at: z.tuple([z.number(), z.number()]),
+  }),
+])
 
 export const Location = deriveSlug(locationSchema)
 
-export function create(input: z.input<typeof Location>): z.infer<typeof Location> {
-  return Location.parse(input)
-}
+export const create = makeCreate(Location)
 
 export type Location = z.infer<typeof Location>

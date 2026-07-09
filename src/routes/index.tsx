@@ -1,24 +1,22 @@
 import { Link, createFileRoute } from '@tanstack/react-router'
 import { ArrowRight, BookOpen, Building2, MapPin, ScrollText, Users } from 'lucide-react'
 
-import type { Quest } from '#/definitions/quest.ts'
-import type { Session } from '#/definitions/session.ts'
-import { ContentRenderer } from '@/components/content-renderer'
-import { Badge } from '@/components/ui/badge'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
+import { ContentRenderer } from '#/components/content-renderer'
+import { Badge } from '#/components/ui/badge'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '#/components/ui/card'
 import {
   activePcs,
   allEntities,
   campaign,
   COLLECTION_LABELS,
-  COLLECTION_PATH,
+  collectionTo,
   COLLECTIONS,
-  entityHref,
+  entityLink,
   openQuests,
   sessionNumber,
   sortedSessions,
   type EntityKind,
-} from '@/lib/campaign'
+} from '#/lib/campaign'
 
 export const Route = createFileRoute('/')({
   component: HomePage,
@@ -72,7 +70,7 @@ function HomePage() {
             {activePcs().map((pc) => (
               <Link
                 key={pc.slug}
-                to={entityHref('pc', pc.slug)}
+                {...entityLink('pc', pc.slug)}
                 className="hover:bg-accent/40 flex items-center justify-between rounded-md px-2 py-1.5"
               >
                 <span className="font-medium">{pc.data.name}</span>
@@ -91,12 +89,12 @@ function HomePage() {
             {mysteries.map((quest) => (
               <Link
                 key={quest.slug}
-                to={entityHref('quest', quest.slug)}
+                {...entityLink('quest', quest.slug)}
                 className="hover:bg-accent/40 block rounded-md px-2 py-1.5"
               >
                 <p className="font-medium">{quest.data.name}</p>
                 <p className="text-muted-foreground text-xs">
-                  {(quest.data as Quest).clues?.length ?? 0} clues tracked
+                  {quest.data.clues?.length ?? 0} clues tracked
                 </p>
               </Link>
             ))}
@@ -111,14 +109,14 @@ function HomePage() {
           <CardContent>
             {latestSession ? (
               <Link
-                to={entityHref('session', latestSession.slug)}
+                {...entityLink('session', latestSession.slug)}
                 className="group hover:bg-accent/40 block space-y-2 rounded-md p-2"
               >
                 <p className="font-medium">
                   Session {sessionNumber(latestSession.slug)} · {latestSession.data.name}
                 </p>
                 <p className="text-muted-foreground text-sm">
-                  {(latestSession.data as Session).events.length} events ·{' '}
+                  {latestSession.data.events.length} events ·{' '}
                   {latestSession.data.date.toLocaleDateString(undefined, { dateStyle: 'long' })}
                 </p>
                 <span className="text-primary inline-flex items-center gap-1 text-sm">
@@ -150,16 +148,13 @@ function HomePage() {
               <CardContent className="space-y-3">
                 {featured ? (
                   <Link
-                    to={entityHref(featured.kind, featured.slug)}
+                    {...entityLink(featured.kind, featured.slug)}
                     className="hover:text-primary font-medium"
                   >
                     {featured.data.name}
                   </Link>
                 ) : null}
-                <Link
-                  to={`/${COLLECTION_PATH[kind]}`}
-                  className="text-primary text-sm hover:underline"
-                >
+                <Link to={collectionTo(kind)} className="text-primary text-sm hover:underline">
                   Browse all →
                 </Link>
               </CardContent>

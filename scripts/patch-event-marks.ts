@@ -4,9 +4,10 @@
  * Marks follow rules in .cursor/skills/plan-campaign-entity/SKILL.md
  */
 import { readFileSync, writeFileSync } from 'node:fs'
-import { join } from 'node:path'
+import { dirname, join } from 'node:path'
+import { fileURLToPath } from 'node:url'
 
-const EVENTS_DIR = join(import.meta.dir, '../src/data/events')
+const EVENTS_DIR = join(dirname(fileURLToPath(import.meta.url)), '../src/data/events')
 
 const MARKS: Record<string, { type: 'avatar'; url: string } | { type: 'icon'; name: string }> = {
   'n2-e001': { type: 'icon', name: 'gi/GiSailboat' },

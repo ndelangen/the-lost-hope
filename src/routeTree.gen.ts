@@ -17,15 +17,15 @@ import { Route as OrganizationsIndexRouteImport } from './routes/organizations/i
 import { Route as NpcsIndexRouteImport } from './routes/npcs/index'
 import { Route as LocationsIndexRouteImport } from './routes/locations/index'
 import { Route as EventsIndexRouteImport } from './routes/events/index'
-import { Route as SessionsSlugRouteImport } from './routes/sessions/$slug'
-import { Route as QuestsSlugRouteImport } from './routes/quests/$slug'
-import { Route as PcsSlugRouteImport } from './routes/pcs/$slug'
-import { Route as OrganizationsSlugRouteImport } from './routes/organizations/$slug'
-import { Route as NpcsSlugRouteImport } from './routes/npcs/$slug'
 import { Route as LocationsMapRouteImport } from './routes/locations/map'
 import { Route as LocationsListRouteImport } from './routes/locations/list'
-import { Route as EventsSlugRouteImport } from './routes/events/$slug'
+import { Route as SessionsDetailSlugRouteImport } from './routes/sessions/detail.$slug'
+import { Route as QuestsDetailSlugRouteImport } from './routes/quests/detail.$slug'
+import { Route as PcsDetailSlugRouteImport } from './routes/pcs/detail.$slug'
+import { Route as OrganizationsDetailSlugRouteImport } from './routes/organizations/detail.$slug'
+import { Route as NpcsDetailSlugRouteImport } from './routes/npcs/detail.$slug'
 import { Route as LocationsDetailSlugRouteImport } from './routes/locations/detail.$slug'
+import { Route as EventsDetailSlugRouteImport } from './routes/events/detail.$slug'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -67,31 +67,6 @@ const EventsIndexRoute = EventsIndexRouteImport.update({
   path: '/events/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const SessionsSlugRoute = SessionsSlugRouteImport.update({
-  id: '/sessions/$slug',
-  path: '/sessions/$slug',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const QuestsSlugRoute = QuestsSlugRouteImport.update({
-  id: '/quests/$slug',
-  path: '/quests/$slug',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const PcsSlugRoute = PcsSlugRouteImport.update({
-  id: '/pcs/$slug',
-  path: '/pcs/$slug',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const OrganizationsSlugRoute = OrganizationsSlugRouteImport.update({
-  id: '/organizations/$slug',
-  path: '/organizations/$slug',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const NpcsSlugRoute = NpcsSlugRouteImport.update({
-  id: '/npcs/$slug',
-  path: '/npcs/$slug',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const LocationsMapRoute = LocationsMapRouteImport.update({
   id: '/locations/map',
   path: '/locations/map',
@@ -102,9 +77,29 @@ const LocationsListRoute = LocationsListRouteImport.update({
   path: '/locations/list',
   getParentRoute: () => rootRouteImport,
 } as any)
-const EventsSlugRoute = EventsSlugRouteImport.update({
-  id: '/events/$slug',
-  path: '/events/$slug',
+const SessionsDetailSlugRoute = SessionsDetailSlugRouteImport.update({
+  id: '/sessions/detail/$slug',
+  path: '/sessions/detail/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const QuestsDetailSlugRoute = QuestsDetailSlugRouteImport.update({
+  id: '/quests/detail/$slug',
+  path: '/quests/detail/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PcsDetailSlugRoute = PcsDetailSlugRouteImport.update({
+  id: '/pcs/detail/$slug',
+  path: '/pcs/detail/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OrganizationsDetailSlugRoute = OrganizationsDetailSlugRouteImport.update({
+  id: '/organizations/detail/$slug',
+  path: '/organizations/detail/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NpcsDetailSlugRoute = NpcsDetailSlugRouteImport.update({
+  id: '/npcs/detail/$slug',
+  path: '/npcs/detail/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
 const LocationsDetailSlugRoute = LocationsDetailSlugRouteImport.update({
@@ -112,17 +107,16 @@ const LocationsDetailSlugRoute = LocationsDetailSlugRouteImport.update({
   path: '/locations/detail/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const EventsDetailSlugRoute = EventsDetailSlugRouteImport.update({
+  id: '/events/detail/$slug',
+  path: '/events/detail/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/events/$slug': typeof EventsSlugRoute
   '/locations/list': typeof LocationsListRoute
   '/locations/map': typeof LocationsMapRoute
-  '/npcs/$slug': typeof NpcsSlugRoute
-  '/organizations/$slug': typeof OrganizationsSlugRoute
-  '/pcs/$slug': typeof PcsSlugRoute
-  '/quests/$slug': typeof QuestsSlugRoute
-  '/sessions/$slug': typeof SessionsSlugRoute
   '/events/': typeof EventsIndexRoute
   '/locations/': typeof LocationsIndexRoute
   '/npcs/': typeof NpcsIndexRoute
@@ -130,18 +124,18 @@ export interface FileRoutesByFullPath {
   '/pcs/': typeof PcsIndexRoute
   '/quests/': typeof QuestsIndexRoute
   '/sessions/': typeof SessionsIndexRoute
+  '/events/detail/$slug': typeof EventsDetailSlugRoute
   '/locations/detail/$slug': typeof LocationsDetailSlugRoute
+  '/npcs/detail/$slug': typeof NpcsDetailSlugRoute
+  '/organizations/detail/$slug': typeof OrganizationsDetailSlugRoute
+  '/pcs/detail/$slug': typeof PcsDetailSlugRoute
+  '/quests/detail/$slug': typeof QuestsDetailSlugRoute
+  '/sessions/detail/$slug': typeof SessionsDetailSlugRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/events/$slug': typeof EventsSlugRoute
   '/locations/list': typeof LocationsListRoute
   '/locations/map': typeof LocationsMapRoute
-  '/npcs/$slug': typeof NpcsSlugRoute
-  '/organizations/$slug': typeof OrganizationsSlugRoute
-  '/pcs/$slug': typeof PcsSlugRoute
-  '/quests/$slug': typeof QuestsSlugRoute
-  '/sessions/$slug': typeof SessionsSlugRoute
   '/events': typeof EventsIndexRoute
   '/locations': typeof LocationsIndexRoute
   '/npcs': typeof NpcsIndexRoute
@@ -149,19 +143,19 @@ export interface FileRoutesByTo {
   '/pcs': typeof PcsIndexRoute
   '/quests': typeof QuestsIndexRoute
   '/sessions': typeof SessionsIndexRoute
+  '/events/detail/$slug': typeof EventsDetailSlugRoute
   '/locations/detail/$slug': typeof LocationsDetailSlugRoute
+  '/npcs/detail/$slug': typeof NpcsDetailSlugRoute
+  '/organizations/detail/$slug': typeof OrganizationsDetailSlugRoute
+  '/pcs/detail/$slug': typeof PcsDetailSlugRoute
+  '/quests/detail/$slug': typeof QuestsDetailSlugRoute
+  '/sessions/detail/$slug': typeof SessionsDetailSlugRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/events/$slug': typeof EventsSlugRoute
   '/locations/list': typeof LocationsListRoute
   '/locations/map': typeof LocationsMapRoute
-  '/npcs/$slug': typeof NpcsSlugRoute
-  '/organizations/$slug': typeof OrganizationsSlugRoute
-  '/pcs/$slug': typeof PcsSlugRoute
-  '/quests/$slug': typeof QuestsSlugRoute
-  '/sessions/$slug': typeof SessionsSlugRoute
   '/events/': typeof EventsIndexRoute
   '/locations/': typeof LocationsIndexRoute
   '/npcs/': typeof NpcsIndexRoute
@@ -169,20 +163,20 @@ export interface FileRoutesById {
   '/pcs/': typeof PcsIndexRoute
   '/quests/': typeof QuestsIndexRoute
   '/sessions/': typeof SessionsIndexRoute
+  '/events/detail/$slug': typeof EventsDetailSlugRoute
   '/locations/detail/$slug': typeof LocationsDetailSlugRoute
+  '/npcs/detail/$slug': typeof NpcsDetailSlugRoute
+  '/organizations/detail/$slug': typeof OrganizationsDetailSlugRoute
+  '/pcs/detail/$slug': typeof PcsDetailSlugRoute
+  '/quests/detail/$slug': typeof QuestsDetailSlugRoute
+  '/sessions/detail/$slug': typeof SessionsDetailSlugRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
-    | '/events/$slug'
     | '/locations/list'
     | '/locations/map'
-    | '/npcs/$slug'
-    | '/organizations/$slug'
-    | '/pcs/$slug'
-    | '/quests/$slug'
-    | '/sessions/$slug'
     | '/events/'
     | '/locations/'
     | '/npcs/'
@@ -190,18 +184,18 @@ export interface FileRouteTypes {
     | '/pcs/'
     | '/quests/'
     | '/sessions/'
+    | '/events/detail/$slug'
     | '/locations/detail/$slug'
+    | '/npcs/detail/$slug'
+    | '/organizations/detail/$slug'
+    | '/pcs/detail/$slug'
+    | '/quests/detail/$slug'
+    | '/sessions/detail/$slug'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
-    | '/events/$slug'
     | '/locations/list'
     | '/locations/map'
-    | '/npcs/$slug'
-    | '/organizations/$slug'
-    | '/pcs/$slug'
-    | '/quests/$slug'
-    | '/sessions/$slug'
     | '/events'
     | '/locations'
     | '/npcs'
@@ -209,18 +203,18 @@ export interface FileRouteTypes {
     | '/pcs'
     | '/quests'
     | '/sessions'
+    | '/events/detail/$slug'
     | '/locations/detail/$slug'
+    | '/npcs/detail/$slug'
+    | '/organizations/detail/$slug'
+    | '/pcs/detail/$slug'
+    | '/quests/detail/$slug'
+    | '/sessions/detail/$slug'
   id:
     | '__root__'
     | '/'
-    | '/events/$slug'
     | '/locations/list'
     | '/locations/map'
-    | '/npcs/$slug'
-    | '/organizations/$slug'
-    | '/pcs/$slug'
-    | '/quests/$slug'
-    | '/sessions/$slug'
     | '/events/'
     | '/locations/'
     | '/npcs/'
@@ -228,19 +222,19 @@ export interface FileRouteTypes {
     | '/pcs/'
     | '/quests/'
     | '/sessions/'
+    | '/events/detail/$slug'
     | '/locations/detail/$slug'
+    | '/npcs/detail/$slug'
+    | '/organizations/detail/$slug'
+    | '/pcs/detail/$slug'
+    | '/quests/detail/$slug'
+    | '/sessions/detail/$slug'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  EventsSlugRoute: typeof EventsSlugRoute
   LocationsListRoute: typeof LocationsListRoute
   LocationsMapRoute: typeof LocationsMapRoute
-  NpcsSlugRoute: typeof NpcsSlugRoute
-  OrganizationsSlugRoute: typeof OrganizationsSlugRoute
-  PcsSlugRoute: typeof PcsSlugRoute
-  QuestsSlugRoute: typeof QuestsSlugRoute
-  SessionsSlugRoute: typeof SessionsSlugRoute
   EventsIndexRoute: typeof EventsIndexRoute
   LocationsIndexRoute: typeof LocationsIndexRoute
   NpcsIndexRoute: typeof NpcsIndexRoute
@@ -248,7 +242,13 @@ export interface RootRouteChildren {
   PcsIndexRoute: typeof PcsIndexRoute
   QuestsIndexRoute: typeof QuestsIndexRoute
   SessionsIndexRoute: typeof SessionsIndexRoute
+  EventsDetailSlugRoute: typeof EventsDetailSlugRoute
   LocationsDetailSlugRoute: typeof LocationsDetailSlugRoute
+  NpcsDetailSlugRoute: typeof NpcsDetailSlugRoute
+  OrganizationsDetailSlugRoute: typeof OrganizationsDetailSlugRoute
+  PcsDetailSlugRoute: typeof PcsDetailSlugRoute
+  QuestsDetailSlugRoute: typeof QuestsDetailSlugRoute
+  SessionsDetailSlugRoute: typeof SessionsDetailSlugRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -309,41 +309,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof EventsIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/sessions/$slug': {
-      id: '/sessions/$slug'
-      path: '/sessions/$slug'
-      fullPath: '/sessions/$slug'
-      preLoaderRoute: typeof SessionsSlugRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/quests/$slug': {
-      id: '/quests/$slug'
-      path: '/quests/$slug'
-      fullPath: '/quests/$slug'
-      preLoaderRoute: typeof QuestsSlugRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/pcs/$slug': {
-      id: '/pcs/$slug'
-      path: '/pcs/$slug'
-      fullPath: '/pcs/$slug'
-      preLoaderRoute: typeof PcsSlugRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/organizations/$slug': {
-      id: '/organizations/$slug'
-      path: '/organizations/$slug'
-      fullPath: '/organizations/$slug'
-      preLoaderRoute: typeof OrganizationsSlugRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/npcs/$slug': {
-      id: '/npcs/$slug'
-      path: '/npcs/$slug'
-      fullPath: '/npcs/$slug'
-      preLoaderRoute: typeof NpcsSlugRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/locations/map': {
       id: '/locations/map'
       path: '/locations/map'
@@ -358,11 +323,39 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LocationsListRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/events/$slug': {
-      id: '/events/$slug'
-      path: '/events/$slug'
-      fullPath: '/events/$slug'
-      preLoaderRoute: typeof EventsSlugRouteImport
+    '/sessions/detail/$slug': {
+      id: '/sessions/detail/$slug'
+      path: '/sessions/detail/$slug'
+      fullPath: '/sessions/detail/$slug'
+      preLoaderRoute: typeof SessionsDetailSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/quests/detail/$slug': {
+      id: '/quests/detail/$slug'
+      path: '/quests/detail/$slug'
+      fullPath: '/quests/detail/$slug'
+      preLoaderRoute: typeof QuestsDetailSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/pcs/detail/$slug': {
+      id: '/pcs/detail/$slug'
+      path: '/pcs/detail/$slug'
+      fullPath: '/pcs/detail/$slug'
+      preLoaderRoute: typeof PcsDetailSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/organizations/detail/$slug': {
+      id: '/organizations/detail/$slug'
+      path: '/organizations/detail/$slug'
+      fullPath: '/organizations/detail/$slug'
+      preLoaderRoute: typeof OrganizationsDetailSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/npcs/detail/$slug': {
+      id: '/npcs/detail/$slug'
+      path: '/npcs/detail/$slug'
+      fullPath: '/npcs/detail/$slug'
+      preLoaderRoute: typeof NpcsDetailSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/locations/detail/$slug': {
@@ -372,19 +365,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LocationsDetailSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/events/detail/$slug': {
+      id: '/events/detail/$slug'
+      path: '/events/detail/$slug'
+      fullPath: '/events/detail/$slug'
+      preLoaderRoute: typeof EventsDetailSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  EventsSlugRoute: EventsSlugRoute,
   LocationsListRoute: LocationsListRoute,
   LocationsMapRoute: LocationsMapRoute,
-  NpcsSlugRoute: NpcsSlugRoute,
-  OrganizationsSlugRoute: OrganizationsSlugRoute,
-  PcsSlugRoute: PcsSlugRoute,
-  QuestsSlugRoute: QuestsSlugRoute,
-  SessionsSlugRoute: SessionsSlugRoute,
   EventsIndexRoute: EventsIndexRoute,
   LocationsIndexRoute: LocationsIndexRoute,
   NpcsIndexRoute: NpcsIndexRoute,
@@ -392,7 +386,13 @@ const rootRouteChildren: RootRouteChildren = {
   PcsIndexRoute: PcsIndexRoute,
   QuestsIndexRoute: QuestsIndexRoute,
   SessionsIndexRoute: SessionsIndexRoute,
+  EventsDetailSlugRoute: EventsDetailSlugRoute,
   LocationsDetailSlugRoute: LocationsDetailSlugRoute,
+  NpcsDetailSlugRoute: NpcsDetailSlugRoute,
+  OrganizationsDetailSlugRoute: OrganizationsDetailSlugRoute,
+  PcsDetailSlugRoute: PcsDetailSlugRoute,
+  QuestsDetailSlugRoute: QuestsDetailSlugRoute,
+  SessionsDetailSlugRoute: SessionsDetailSlugRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
