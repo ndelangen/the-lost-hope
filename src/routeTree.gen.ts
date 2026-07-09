@@ -17,6 +17,7 @@ import { Route as OrganizationsIndexRouteImport } from './routes/organizations/i
 import { Route as NpcsIndexRouteImport } from './routes/npcs/index'
 import { Route as LocationsIndexRouteImport } from './routes/locations/index'
 import { Route as EventsIndexRouteImport } from './routes/events/index'
+import { Route as BeastsIndexRouteImport } from './routes/beasts/index'
 import { Route as LocationsMapRouteImport } from './routes/locations/map'
 import { Route as LocationsListRouteImport } from './routes/locations/list'
 import { Route as SessionsDetailSlugRouteImport } from './routes/sessions/detail.$slug'
@@ -26,6 +27,7 @@ import { Route as OrganizationsDetailSlugRouteImport } from './routes/organizati
 import { Route as NpcsDetailSlugRouteImport } from './routes/npcs/detail.$slug'
 import { Route as LocationsDetailSlugRouteImport } from './routes/locations/detail.$slug'
 import { Route as EventsDetailSlugRouteImport } from './routes/events/detail.$slug'
+import { Route as BeastsDetailSlugRouteImport } from './routes/beasts/detail.$slug'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -65,6 +67,11 @@ const LocationsIndexRoute = LocationsIndexRouteImport.update({
 const EventsIndexRoute = EventsIndexRouteImport.update({
   id: '/events/',
   path: '/events/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BeastsIndexRoute = BeastsIndexRouteImport.update({
+  id: '/beasts/',
+  path: '/beasts/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const LocationsMapRoute = LocationsMapRouteImport.update({
@@ -112,11 +119,17 @@ const EventsDetailSlugRoute = EventsDetailSlugRouteImport.update({
   path: '/events/detail/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const BeastsDetailSlugRoute = BeastsDetailSlugRouteImport.update({
+  id: '/beasts/detail/$slug',
+  path: '/beasts/detail/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/locations/list': typeof LocationsListRoute
   '/locations/map': typeof LocationsMapRoute
+  '/beasts/': typeof BeastsIndexRoute
   '/events/': typeof EventsIndexRoute
   '/locations/': typeof LocationsIndexRoute
   '/npcs/': typeof NpcsIndexRoute
@@ -124,6 +137,7 @@ export interface FileRoutesByFullPath {
   '/pcs/': typeof PcsIndexRoute
   '/quests/': typeof QuestsIndexRoute
   '/sessions/': typeof SessionsIndexRoute
+  '/beasts/detail/$slug': typeof BeastsDetailSlugRoute
   '/events/detail/$slug': typeof EventsDetailSlugRoute
   '/locations/detail/$slug': typeof LocationsDetailSlugRoute
   '/npcs/detail/$slug': typeof NpcsDetailSlugRoute
@@ -136,6 +150,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/locations/list': typeof LocationsListRoute
   '/locations/map': typeof LocationsMapRoute
+  '/beasts': typeof BeastsIndexRoute
   '/events': typeof EventsIndexRoute
   '/locations': typeof LocationsIndexRoute
   '/npcs': typeof NpcsIndexRoute
@@ -143,6 +158,7 @@ export interface FileRoutesByTo {
   '/pcs': typeof PcsIndexRoute
   '/quests': typeof QuestsIndexRoute
   '/sessions': typeof SessionsIndexRoute
+  '/beasts/detail/$slug': typeof BeastsDetailSlugRoute
   '/events/detail/$slug': typeof EventsDetailSlugRoute
   '/locations/detail/$slug': typeof LocationsDetailSlugRoute
   '/npcs/detail/$slug': typeof NpcsDetailSlugRoute
@@ -156,6 +172,7 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/locations/list': typeof LocationsListRoute
   '/locations/map': typeof LocationsMapRoute
+  '/beasts/': typeof BeastsIndexRoute
   '/events/': typeof EventsIndexRoute
   '/locations/': typeof LocationsIndexRoute
   '/npcs/': typeof NpcsIndexRoute
@@ -163,6 +180,7 @@ export interface FileRoutesById {
   '/pcs/': typeof PcsIndexRoute
   '/quests/': typeof QuestsIndexRoute
   '/sessions/': typeof SessionsIndexRoute
+  '/beasts/detail/$slug': typeof BeastsDetailSlugRoute
   '/events/detail/$slug': typeof EventsDetailSlugRoute
   '/locations/detail/$slug': typeof LocationsDetailSlugRoute
   '/npcs/detail/$slug': typeof NpcsDetailSlugRoute
@@ -177,6 +195,7 @@ export interface FileRouteTypes {
     | '/'
     | '/locations/list'
     | '/locations/map'
+    | '/beasts/'
     | '/events/'
     | '/locations/'
     | '/npcs/'
@@ -184,6 +203,7 @@ export interface FileRouteTypes {
     | '/pcs/'
     | '/quests/'
     | '/sessions/'
+    | '/beasts/detail/$slug'
     | '/events/detail/$slug'
     | '/locations/detail/$slug'
     | '/npcs/detail/$slug'
@@ -196,6 +216,7 @@ export interface FileRouteTypes {
     | '/'
     | '/locations/list'
     | '/locations/map'
+    | '/beasts'
     | '/events'
     | '/locations'
     | '/npcs'
@@ -203,6 +224,7 @@ export interface FileRouteTypes {
     | '/pcs'
     | '/quests'
     | '/sessions'
+    | '/beasts/detail/$slug'
     | '/events/detail/$slug'
     | '/locations/detail/$slug'
     | '/npcs/detail/$slug'
@@ -215,6 +237,7 @@ export interface FileRouteTypes {
     | '/'
     | '/locations/list'
     | '/locations/map'
+    | '/beasts/'
     | '/events/'
     | '/locations/'
     | '/npcs/'
@@ -222,6 +245,7 @@ export interface FileRouteTypes {
     | '/pcs/'
     | '/quests/'
     | '/sessions/'
+    | '/beasts/detail/$slug'
     | '/events/detail/$slug'
     | '/locations/detail/$slug'
     | '/npcs/detail/$slug'
@@ -235,6 +259,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   LocationsListRoute: typeof LocationsListRoute
   LocationsMapRoute: typeof LocationsMapRoute
+  BeastsIndexRoute: typeof BeastsIndexRoute
   EventsIndexRoute: typeof EventsIndexRoute
   LocationsIndexRoute: typeof LocationsIndexRoute
   NpcsIndexRoute: typeof NpcsIndexRoute
@@ -242,6 +267,7 @@ export interface RootRouteChildren {
   PcsIndexRoute: typeof PcsIndexRoute
   QuestsIndexRoute: typeof QuestsIndexRoute
   SessionsIndexRoute: typeof SessionsIndexRoute
+  BeastsDetailSlugRoute: typeof BeastsDetailSlugRoute
   EventsDetailSlugRoute: typeof EventsDetailSlugRoute
   LocationsDetailSlugRoute: typeof LocationsDetailSlugRoute
   NpcsDetailSlugRoute: typeof NpcsDetailSlugRoute
@@ -309,6 +335,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof EventsIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/beasts/': {
+      id: '/beasts/'
+      path: '/beasts'
+      fullPath: '/beasts/'
+      preLoaderRoute: typeof BeastsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/locations/map': {
       id: '/locations/map'
       path: '/locations/map'
@@ -372,6 +405,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof EventsDetailSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/beasts/detail/$slug': {
+      id: '/beasts/detail/$slug'
+      path: '/beasts/detail/$slug'
+      fullPath: '/beasts/detail/$slug'
+      preLoaderRoute: typeof BeastsDetailSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -379,6 +419,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   LocationsListRoute: LocationsListRoute,
   LocationsMapRoute: LocationsMapRoute,
+  BeastsIndexRoute: BeastsIndexRoute,
   EventsIndexRoute: EventsIndexRoute,
   LocationsIndexRoute: LocationsIndexRoute,
   NpcsIndexRoute: NpcsIndexRoute,
@@ -386,6 +427,7 @@ const rootRouteChildren: RootRouteChildren = {
   PcsIndexRoute: PcsIndexRoute,
   QuestsIndexRoute: QuestsIndexRoute,
   SessionsIndexRoute: SessionsIndexRoute,
+  BeastsDetailSlugRoute: BeastsDetailSlugRoute,
   EventsDetailSlugRoute: EventsDetailSlugRoute,
   LocationsDetailSlugRoute: LocationsDetailSlugRoute,
   NpcsDetailSlugRoute: NpcsDetailSlugRoute,

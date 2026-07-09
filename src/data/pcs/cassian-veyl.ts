@@ -14,7 +14,7 @@ export default createPC({
   notes: [
     'Stub — needs player input: personality, appearance, and any in-fiction secrets once more session notes come in.',
     [
-      'Session 12 (mountain top): ',
+      'Session 4 (mountain top): ',
       refs.events.n2_e031,
       ' — one of the party members who answered the zone of truth.',
     ],

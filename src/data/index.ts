@@ -74,6 +74,10 @@ export default createCampaign({
   ],
   sessions: [
     sessions.arrival_in_fajanet,
-    sessions.the_mountain_the_dragon_family_and_the_road_to_badesh,
+    sessions.quests_for_the_exotic_animal_dealer,
+    sessions.the_fajanet_festival,
+    sessions.the_mountain_and_the_dragon_family,
+    sessions.the_dinosaur_chase_to_badesh,
+    sessions.by_boat_to_fairhaven,
   ],
 })

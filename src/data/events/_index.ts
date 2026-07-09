@@ -38,6 +38,9 @@ import n2_e037 from './n2-e037.ts'
 import n2_e038 from './n2-e038.ts'
 import n2_e039 from './n2-e039.ts'
 import n2_e040 from './n2-e040.ts'
+import n2_e041 from './n2-e041.ts'
+import n2_e042 from './n2-e042.ts'
+import n2_e043 from './n2-e043.ts'
 
 export default {
   n2_e001,
@@ -80,4 +83,7 @@ export default {
   n2_e038,
   n2_e039,
   n2_e040,
+  n2_e041,
+  n2_e042,
+  n2_e043,
 }

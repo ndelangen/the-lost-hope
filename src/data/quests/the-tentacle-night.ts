@@ -23,7 +23,7 @@ export default createQuest({
     "Evil children's laughter outside afterward. Party went back to their rooms to sleep.",
     'Tavern boarding-up at nightfall seemed routine. Party in rooms before sounds.',
     [
-      'Session 2+: 5-day festival in ',
+      'Session 3: 5-day festival in ',
       refs.locations.fajanet,
       ' — festival nights had no tentacles; festival seemed to ensure safe nights.',
     ],

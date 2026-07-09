@@ -1,4 +1,4 @@
-import { BookOpen, Building2, MapPin, Scroll, ScrollText, User, Users } from 'lucide-react'
+import { BookOpen, Building2, MapPin, Scroll, ScrollText, User, Users, Dog } from 'lucide-react'
 import type { ComponentType } from 'react'
 
 import type { EntityKind } from '#/lib/campaign'
@@ -11,6 +11,7 @@ export const ICONS: Record<EntityKind, ComponentType<{ className?: string }>> = 
   pc: User,
   quest: Scroll,
   organization: Building2,
+  beast: Dog,
 }
 
 export const SIDEBAR_COLLECTIONS = [
@@ -19,6 +20,7 @@ export const SIDEBAR_COLLECTIONS = [
   'location',
   'quest',
   'organization',
+  'beast',
 ] as const satisfies EntityKind[]
 
 export type SidebarCollection = (typeof SIDEBAR_COLLECTIONS)[number]

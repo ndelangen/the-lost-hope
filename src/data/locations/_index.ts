@@ -1,5 +1,6 @@
 import badesh_forest from './badesh-forest.ts'
 import badesh from './badesh.ts'
+import fairhaven_guildhall from './fairhaven-guildhall.ts'
 import fairhaven from './fairhaven.ts'
 import fajanet_guildhall from './fajanet-guildhall.ts'
 import fajanet_tunnels from './fajanet-tunnels.ts'
@@ -9,6 +10,7 @@ import mountain_cliff from './mountain-cliff.ts'
 import mountain_top from './mountain-top.ts'
 import puzzle_room from './puzzle-room.ts'
 import shadow_realm from './shadow-realm.ts'
+import the_boat_to_fairhaven from './the-boat-to-fairhaven.ts'
 import the_boat_to_fajanet_celesta from './the-boat-to-fajanet-celesta.ts'
 import the_green_light from './the-green-light.ts'
 import the_nest from './the-nest.ts'
@@ -20,6 +22,7 @@ export default {
   badesh,
   badesh_forest,
   fairhaven,
+  fairhaven_guildhall,
   fajanet,
   fajanet_tunnels,
   fajanet_guildhall,
@@ -28,6 +31,7 @@ export default {
   mountain_top,
   puzzle_room,
   shadow_realm,
+  the_boat_to_fairhaven,
   the_boat_to_fajanet_celesta,
   the_green_light,
   the_nest,

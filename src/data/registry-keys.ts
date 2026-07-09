@@ -41,6 +41,9 @@ export const EVENTS_KEYS = [
   'n2_e038',
   'n2_e039',
   'n2_e040',
+  'n2_e041',
+  'n2_e042',
+  'n2_e043',
 ] as const
 export type EventKey = (typeof EVENTS_KEYS)[number]
 
@@ -79,6 +82,7 @@ export const LOCATIONS_KEYS = [
   'badesh',
   'badesh_forest',
   'fairhaven',
+  'fairhaven_guildhall',
   'fajanet',
   'fajanet_tunnels',
   'fajanet_guildhall',
@@ -87,6 +91,7 @@ export const LOCATIONS_KEYS = [
   'mountain_top',
   'puzzle_room',
   'shadow_realm',
+  'the_boat_to_fairhaven',
   'the_boat_to_fajanet_celesta',
   'the_green_light',
   'the_nest',
@@ -96,7 +101,9 @@ export type LocationKey = (typeof LOCATIONS_KEYS)[number]
 
 export const QUESTS_KEYS = [
   'dino_migration',
+  'fajanet_tunnels_shadow_realm',
   'jims_past',
+  'mountain_holy_site',
   'mystery_girl',
   'rare_animal_dealer',
   'the_tentacle_night',
@@ -106,7 +113,11 @@ export type QuestKey = (typeof QUESTS_KEYS)[number]
 
 export const SESSIONS_KEYS = [
   'arrival_in_fajanet',
-  'the_mountain_the_dragon_family_and_the_road_to_badesh',
+  'quests_for_the_exotic_animal_dealer',
+  'the_fajanet_festival',
+  'the_mountain_and_the_dragon_family',
+  'the_dinosaur_chase_to_badesh',
+  'by_boat_to_fairhaven',
 ] as const
 export type SessionKey = (typeof SESSIONS_KEYS)[number]
 

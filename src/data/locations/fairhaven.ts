@@ -7,6 +7,12 @@ export default createLocation({
   type: 'settlement',
   parent: refs.locations.world,
   at: [400, 0],
-  description: ["A city; the party's current destination."],
+  description: [
+    [
+      'A harbor city, gated against outsiders — entry requires papers at the gate. Home to a hall of the ',
+      refs.organizations.adventurers_guild,
+      '.',
+    ],
+  ],
   map: { url: '/assets/locations/fairhaven.png', width: 1200, height: 700 },
 })

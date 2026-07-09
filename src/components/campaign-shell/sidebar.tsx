@@ -82,6 +82,7 @@ export function Sidebar({ collapsed, onNavigate }: SidebarProps) {
   const partyPcs = useMemo(() => sortEntitiesByName(activePcs()), [])
   const formerPcs = useMemo(() => sortEntitiesByName(getFormerPcs()), [])
   const npcs = useMemo(() => sortEntitiesByName(allEntities('npc')), [])
+  const beasts = useMemo(() => sortEntitiesByName(allEntities('beast')), [])
   const locations = useMemo(() => sortEntitiesByName(allEntities('location')), [])
   const openQuestEntities = useMemo(() => sortEntitiesByName(openQuests()), [])
   const resolvedQuestEntities = useMemo(() => sortEntitiesByName(resolvedQuests()), [])
@@ -110,6 +111,7 @@ export function Sidebar({ collapsed, onNavigate }: SidebarProps) {
   }, [pathname, expandCollection, expandSession, formerPcs])
 
   const collectionItems: Record<SidebarCollection, Entity[]> = {
+    beast: beasts,
     pc: partyPcs,
     npc: npcs,
     location: locations,
@@ -118,6 +120,7 @@ export function Sidebar({ collapsed, onNavigate }: SidebarProps) {
   }
 
   const collectionCounts: Record<SidebarCollection, number> = {
+    beast: beasts.length,
     pc: partyPcs.length + formerPcs.length,
     npc: npcs.length,
     location: locations.length,
@@ -454,7 +457,7 @@ export function Sidebar({ collapsed, onNavigate }: SidebarProps) {
             ))}
             <li>
               <Link
-                to={kind === 'npc' ? '/npcs' : '/locations'}
+                to={'/' + kind}
                 className="text-primary block px-2 py-1 text-xs hover:underline"
                 onClick={onNavigate}
               >
@@ -508,6 +511,7 @@ export function Sidebar({ collapsed, onNavigate }: SidebarProps) {
         {renderCollection('location')}
         {renderQuestCollection(false)}
         {renderCollection('organization')}
+        {renderCollection('beast')}
       </>
     )
   }

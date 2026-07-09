@@ -24,8 +24,8 @@ Every question must include **what we already know** — many sit unanswered acr
 ## Naming and entities
 
 - **Mr. Peace — real name, species, class, player?**
-  - _Context:_ Session 4 guest PC, one day only, guild/Light arrangement. Flower magic; goblin incident. Not missing.
-  - _Session:_ 4
+  - _Context:_ Session 3 guest PC, one day only, guild/Light arrangement. Flower magic; goblin incident. Not missing.
+  - _Session:_ 3
 
 - **Should the NPC be renamed off "Third Marshal Light"?**
   - _Context:_ Author confirmed Light's rank is **13th Marshal**; "Third Marshal" was an artifact of modeling Fajanet and the Citadel of Reve as two places (now merged — [Fajanet](/locations/fajanet), alias "Citadel of Reve"). The NPC's canonical `name` is still "Third Marshal Light" (slug `third-marshal-light`, key `third_marshal_light`), referenced in ~15 files.
@@ -63,31 +63,20 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Context:_ Bulletin board job; 2 of 3 animals recovered.
   - _Session:_ 2
 
----
-
-## Session 3
-
 - **Who sent Jim's final-warning letter?**
-  - _Context:_ Slipped into Jim's hand/pocket; deliverer unknown; **only Jim saw it**. "Meet us at the green light near the mountain tonight." Jim spoke with Light instead.
+  - _Context:_ Slipped into Jim's hand/pocket that evening; deliverer unknown; **only Jim saw it**. "Meet us at the green light near the mountain tonight." Jim spoke with Light instead.
   - _Linked:_ [Green Light](/locations/the-green-light), Jim's pursuers
-  - _Session:_ 3
+  - _Session:_ 2 ([n2-e020](/events/jim-receives-a-final-warning-letter))
 
 - **What is "the green light"?**
   - _Context:_ Named in Jim's warning letter ("the green light near the mountain"). [Location filed](/locations/the-green-light), but its nature is unknown — signal fire, magical beacon, person, or place.
-  - _Session:_ 3
+  - _Session:_ 2
 
 ---
 
-## Session 5 — Mountain journey
+## Session 4 — Mountain journey
 
 - **Cliff sign — what did it say?** (Author does not remember.) ([n2-e030](/events/reach-a-cliff-with-a-sign))
-- **Holy site — whose faith, deity, form?** ([n2-e031](/events/pass-through-a-holy-site-into-the-mountains))
-- **Shadow realm chase — same as session 1 tentacles?**
-  - _Context:_ Phoenix feather **bright light** guided party; official **shadow monster** shown as failed-chase consequence; feather **burned up and dissolved**.
-  - _Session:_ 5 ([n2-e029](/events/lost-in-the-shadow-realm))
-- **Do the Fajanet tunnels connect to the shadow realm?**
-  - _Context:_ Both reached via a trapdoor — the [tunnels](/locations/fajanet-tunnels) (session 2) and the [shadow realm](/locations/shadow-realm) (session 5). Open thread on whether they are the same underground space.
-  - _Session:_ 5
 - **Puzzle room — what 5 elements? How solved?** ([n2-e032](/events/puzzle-room-with-5-elements-chasing-each-other))
 - **Angel and dragon — names? Exact dragon-child count?** (Possibly hundreds.) ([n2-e033](/events/meet-the-angel-and-the-dragon-husband-and-wife))
 - **Zone of truth — what did Devan and Swift Starblade say?** William/Revin were present but William left, Revin's player left. ([n2-e034](/events/zone-of-truth-each-pc-questioned))
@@ -95,15 +84,35 @@ Every question must include **what we already know** — many sit unanswered acr
 
 ---
 
-## Session 6 — Dinos
+## Session 5 — Dinos
 
 - **Dino raid — what kind? Who riding? Why Fairhaven?**
   - _Context:_ Large group ridden toward Fairhaven; DM called it a **raid**; party **assumed hostility**. Small group later chased party; Abraham's cart escape.
-  - _Session:_ 6 ([n2-e038](/events/dinos-ridden-toward-fairhaven))
+  - _Session:_ 5 ([n2-e038](/events/dinos-ridden-toward-fairhaven))
 
 - **Revin — what actually happened?**
   - _Context:_ Presumed eaten by dragon children after flight. **Player left the group.** DM may provide closure later. Swift returned separately.
-  - _Session:_ 6+
+  - _Session:_ 5+
+
+---
+
+## Session 6 — Fairhaven
+
+- **What papers does Fairhaven require, and why did the guild tattoos satisfy the guards?**
+  - _Context:_ Party arrived by boat from Badesh; gate guards demanded papers; the party had none but their [Adventurers' Guild](/organizations/adventurers-guild) tattoos were accepted. Whether the guild is recognized/authoritative in Fairhaven, or the guards simply deferred to the marks, is unstated.
+  - _Session:_ 6 ([n2-e042](/events/guild-tattoos-pass-for-papers-at-the-gate))
+
+- **Do Devan (and Victor) carry guild tattoos?**
+  - _Context:_ Only Jim and William are recorded getting the [guild tattoo ritual](/events/the-guild-tattoo-ritual) (session 1). Devan and Swift joined in session 4; Victor is a Badesh local. "Our tattoos were enough" at the Fairhaven gate — unclear whose marks were checked.
+  - _Session:_ 6
+
+- **Did Victor and Abraham continue to Fairhaven, and did Swift rejoin?**
+  - _Context:_ Party at Fairhaven modeled as [Jim](/pcs/jim), [William](/pcs/william-greenhove), [Devan](/pcs/devan), and [Victor](/pcs/victor-the-badesh-lumberjack) (with [Abraham](/npcs/abraham)). Swift flew off separately in session 4 and "returned in a later session" — whether that was session 6 is unstated.
+  - _Session:_ 6
+
+- **How long is the Badesh → Fairhaven voyage?**
+  - _Context:_ Modeled as an overnight trip (board Aug 19, arrive Aug 20). Actual duration not stated.
+  - _Session:_ 6
 
 ---
 
@@ -128,6 +137,8 @@ Every question must include **what we already know** — many sit unanswered acr
 - **The Tentacle Night** — what did tentacles want? (Rest of night 1 resolved.)
 - **Jim's Warning Letter** — sender identity.
 - **Help the Rare-Animal Dealer** — third animal.
+- **Mountain Holy Site** — whose faith, deity, form?
+- **Fajanet Tunnels and Shadow Realm** — same underground network?
 - **Through the Shadow Realm** — relation to tentacle night.
 - **The Dinosaur Migration** — riders, species, destination motive.
 

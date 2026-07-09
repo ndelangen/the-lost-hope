@@ -9,7 +9,7 @@ export default createEvent({
   parts: [
     [
       refs.pcs.mr_peace,
-      ' joined the party for one day only (session 4) — arranged by the guild / Light. Everyone knew his visit was temporary.',
+      ' joined the party for one day only — arranged by the guild / Light. Everyone knew his visit was temporary.',
     ],
   ],
 })

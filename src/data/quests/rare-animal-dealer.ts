@@ -4,7 +4,7 @@ import { create as createQuest } from '#/definitions/quest.ts'
 export default createQuest({
   name: 'Help the Rare-Animal Dealer',
   description: 'Help the Rare-Animal Dealer',
-  status: 'open',
+  status: 'resolved',
   clues: [
     [
       'The ',
@@ -16,7 +16,11 @@ export default createQuest({
       refs.npcs.giant_spider,
       '. ',
       refs.pcs.jim,
-      ' freed the phoenix. It bonded with Jim. Returned to dealer.',
+      ' freed the phoenix. It bonded with ',
+      refs.pcs.jim,
+      '. Returned to ',
+      refs.npcs.rare_animal_dealer,
+      '.',
     ],
     [
       'Animal #2 (Displacer Beast): party succeeded in capturing the ',

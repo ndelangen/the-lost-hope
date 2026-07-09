@@ -8,7 +8,6 @@ export default createEvent({
   mark: { type: 'icon', name: 'fa/FaChurch' },
   parts: [
     'The party passed through a holy site and continued upwards into the mountains.',
-    'Open: whose holy site? What faith? Not stated.',
     [
       'Party: ',
       refs.pcs.jim,

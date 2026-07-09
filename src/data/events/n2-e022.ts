@@ -13,7 +13,7 @@ export default createEvent({
       refs.locations.fajanet_guildhall,
       ' bathroom relating to a ',
       refs.npcs.mystery_girl,
-      ' from his background story (session 3).',
+      ' from his background story.',
     ],
     "Author note: likely never resolved — William's player has left the party.",
     ['Party: ', refs.pcs.william_greenhove, ', ', refs.pcs.revin_grumblefist],

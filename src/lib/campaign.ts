@@ -1,3 +1,4 @@
+import beasts from '#/data/beasts/_index.ts'
 import events from '#/data/events/_index.ts'
 import campaign from '#/data/index.ts'
 import locations from '#/data/locations/_index.ts'
@@ -61,6 +62,7 @@ export const COLLECTION_LABELS: Record<EntityKind, string> = {
   location: 'Locations',
   npc: 'NPCs',
   pc: 'PCs',
+  beast: 'Beasts',
   quest: 'Quests',
   organization: 'Organizations',
 }
@@ -70,12 +72,14 @@ export const COLLECTION_PATH: Record<EntityKind, string> = {
   event: 'events',
   location: 'locations',
   npc: 'npcs',
+  beast: 'beasts',
   pc: 'pcs',
   quest: 'quests',
   organization: 'organizations',
 }
 
 const REGISTRIES = {
+  beast: beasts,
   pc: pcs,
   npc: npcs,
   location: locations,
