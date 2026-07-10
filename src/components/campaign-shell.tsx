@@ -6,22 +6,18 @@ import { campaign } from '#/lib/campaign'
 import { cn } from '#/lib/utils'
 
 import { CampaignSearch } from './campaign-shell/campaign-search'
-import { STORAGE_KEYS } from './campaign-shell/constants'
 import { Sidebar } from './campaign-shell/sidebar'
-import { readStoredBoolean, writeStoredBoolean } from './campaign-shell/storage'
+import { usePersistedBoolean } from './campaign-shell/storage'
 
 export function CampaignShell() {
   const [drawerOpen, setDrawerOpen] = useState(false)
   const [query, setQuery] = useState('')
-  const [sidebarCollapsed, setSidebarCollapsed] = useState(
-    () => readStoredBoolean(STORAGE_KEYS.sidebarCollapsed) ?? false,
+  const [sidebarCollapsed, setSidebarCollapsed] = usePersistedBoolean(
+    'dag:sidebar:collapsed',
+    false,
   )
   const drawerRef = useRef<HTMLElement>(null)
   const closeDrawer = useCallback(() => setDrawerOpen(false), [])
-
-  useEffect(() => {
-    writeStoredBoolean(STORAGE_KEYS.sidebarCollapsed, sidebarCollapsed)
-  }, [sidebarCollapsed])
 
   useEffect(() => {
     if (!drawerOpen) return

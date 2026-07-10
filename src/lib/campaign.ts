@@ -380,7 +380,7 @@ export function reverseLinks(kind: EntityKind, slug: string): { entity: Entity; 
 }
 
 /**
- * Derive the PCs present in a session purely from its events' `parts`, deduped
+ * Derive the PCs present in a session purely from references in its events' notes, deduped
  * by slug and resolved to the canonical PC record (so avatars/defaults apply).
  */
 export function sessionPcs(session: Session): PC[] {
@@ -398,15 +398,19 @@ export function sessionPcs(session: Session): PC[] {
 }
 
 export function openQuests(): EntityOf<'quest'>[] {
-  return allEntities('quest').filter((q) => q.data.status === 'open')
+  return allEntities('quest').filter((quest) => quest.data.status === 'open')
+}
+
+export function resolvedQuests(): EntityOf<'quest'>[] {
+  return allEntities('quest').filter((quest) => quest.data.status === 'resolved')
 }
 
 export function activePcs(): EntityOf<'pc'>[] {
-  return allEntities('pc').filter((p) => p.data.status === 'active')
+  return allEntities('pc').filter((pc) => pc.data.status === 'active')
 }
 
-export function formerPcs(): EntityOf<'pc'>[] {
-  return allEntities('pc').filter((p) => p.data.status !== 'active')
+export function nonActivePcs(): EntityOf<'pc'>[] {
+  return allEntities('pc').filter((pc) => pc.data.status !== 'active')
 }
 
 export type OrganizationMember = {
@@ -605,10 +609,6 @@ export function sessionSlugForEvent(eventSlug: string): string | undefined {
     }
   }
   return undefined
-}
-
-export function resolvedQuests(): EntityOf<'quest'>[] {
-  return allEntities('quest').filter((q) => q.data.status === 'resolved')
 }
 
 export function searchEntities(query: string, limit = 20): Entity[] {

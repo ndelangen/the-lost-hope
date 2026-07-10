@@ -1,14 +1,5 @@
 import { useCallback, useEffect, useState } from 'react'
 
-import {
-  collectionKindFromPath,
-  entitySlugFromPath,
-  sessionSlugForEvent,
-  type Entity,
-} from '#/lib/campaign'
-
-import { SIDEBAR_COLLECTIONS, STORAGE_KEYS, type SidebarCollection } from './constants'
-
 export function readStoredSet(key: string): Set<string> | null {
   try {
     const raw = localStorage.getItem(key)
@@ -39,42 +30,11 @@ export function writeStoredBoolean(key: string, value: boolean) {
   localStorage.setItem(key, String(value))
 }
 
-export function defaultExpandedSessions(pathname: string, sessions: Entity[]): Set<string> {
-  const stored = readStoredSet(STORAGE_KEYS.expandedSessions)
-  if (stored) return stored
-
-  const slugs = new Set<string>()
-  const latest = sessions[0]
-  if (latest) slugs.add(latest.slug)
-
-  const kind = collectionKindFromPath(pathname)
-  const slug = entitySlugFromPath(pathname)
-  if (kind === 'event' && slug) {
-    const sessionSlug = sessionSlugForEvent(slug)
-    if (sessionSlug) slugs.add(sessionSlug)
-  } else if (kind === 'session' && slug) {
-    slugs.add(slug)
-  }
-
-  return slugs
-}
-
-export function defaultExpandedCollections(pathname: string): Set<string> {
-  const stored = readStoredSet(STORAGE_KEYS.expandedCollections)
-  if (stored) return stored
-
-  const kind = collectionKindFromPath(pathname)
-  if (kind && SIDEBAR_COLLECTIONS.includes(kind as SidebarCollection)) {
-    return new Set([kind])
-  }
-  return new Set()
-}
-
 export function usePersistedSet(
   key: string,
-  initial: () => Set<string>,
+  fallback: () => Set<string>,
 ): [Set<string>, (slug: string) => void, (slug: string) => void] {
-  const [set, setSet] = useState<Set<string>>(initial)
+  const [set, setSet] = useState<Set<string>>(() => readStoredSet(key) ?? fallback())
 
   useEffect(() => {
     writeStoredSet(key, set)
@@ -99,4 +59,14 @@ export function usePersistedSet(
   }, [])
 
   return [set, toggle, expand]
+}
+
+export function usePersistedBoolean(key: string, fallback: boolean) {
+  const [value, setValue] = useState(() => readStoredBoolean(key) ?? fallback)
+
+  useEffect(() => {
+    writeStoredBoolean(key, value)
+  }, [key, value])
+
+  return [value, setValue] as const
 }

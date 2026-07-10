@@ -12,8 +12,6 @@ import {
 } from '#/lib/campaign'
 import { cn } from '#/lib/utils'
 
-import { ICONS } from './constants'
-
 type CampaignSearchProps = {
   query: string
   onQueryChange: (value: string) => void
@@ -134,7 +132,6 @@ export function CampaignSearch({
                     flatIndex += 1
                     const index = flatIndex
                     const isSelected = index === selectedIndex
-                    const KindIcon = ICONS[entity.kind]
                     return (
                       <li key={`${entity.kind}-${entity.slug}`}>
                         <button
@@ -146,7 +143,6 @@ export function CampaignSearch({
                           onMouseDown={(e) => e.preventDefault()}
                           onClick={() => navigateTo(entity)}
                         >
-                          <KindIcon className="text-muted-foreground size-4 shrink-0" />
                           <span className="min-w-0 flex-1 truncate">{entity.data.name}</span>
                           <Badge variant="secondary" className="shrink-0">
                             {COLLECTION_LABELS[kind].replace(/s$/, '')}

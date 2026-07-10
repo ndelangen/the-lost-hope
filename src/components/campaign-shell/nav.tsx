@@ -1,11 +1,14 @@
 import { Link } from '@tanstack/react-router'
 import { ChevronDown, ChevronRight } from 'lucide-react'
-import type { ComponentType, ReactNode } from 'react'
+import type { LucideIcon } from 'lucide-react'
+import type { ReactNode } from 'react'
 
 import { Avatar } from '#/components/ui/avatar'
 import { Badge } from '#/components/ui/badge'
-import { collectionTo, entityLink, type EntityKind } from '#/lib/campaign'
+import { COLLECTION_LABELS, collectionTo, entityLink, type EntityKind } from '#/lib/campaign'
 import { cn } from '#/lib/utils'
+
+import type { SidebarCollection } from './sidebar-data'
 
 type NavLinkProps = {
   to: string
@@ -75,44 +78,32 @@ export function EntityNavRow({ kind, slug, name, active, avatar, onNavigate }: E
   )
 }
 
-export type EntityNavItem = Pick<EntityNavRowProps, 'slug' | 'name' | 'avatar'>
-
-export type EntityNavGroup = {
-  id: string
-  label?: string
-  items: EntityNavItem[]
-  expanded?: boolean
-  onToggle?: () => void
-}
-
 export function EntityNavCollection({
-  kind,
-  label,
-  icon,
-  count,
+  collection,
   expanded,
   onToggle,
-  groups,
+  expandedItems,
+  onToggleItem,
   activeKind,
   activeSlug,
   onNavigate,
 }: {
-  kind: EntityKind
-  label: string
-  icon: ComponentType<{ className?: string }>
-  count: number
+  collection: SidebarCollection
   expanded: boolean
   onToggle: () => void
-  groups: EntityNavGroup[]
+  expandedItems: ReadonlySet<string>
+  onToggleItem: (id: string) => void
   activeKind?: EntityKind
   activeSlug?: string
   onNavigate?: () => void
 }) {
+  const { kind, icon, count, groups } = collection
+
   return (
     <div>
       <SectionHeader
+        kind={kind}
         icon={icon}
-        label={label}
         count={count}
         sticky
         expanded={expanded}
@@ -121,14 +112,15 @@ export function EntityNavCollection({
       {expanded ? (
         <ul className="space-y-0.5">
           {groups.map((group) => {
-            const groupExpanded = group.expanded ?? true
+            const expansionId = group.expansionId
+            const groupExpanded = group.expansionId ? expandedItems.has(group.expansionId) : true
             return (
               <li key={group.id}>
                 {group.label ? (
-                  group.onToggle ? (
+                  expansionId ? (
                     <button
                       type="button"
-                      onClick={group.onToggle}
+                      onClick={() => onToggleItem(expansionId)}
                       className="text-muted-foreground hover:text-foreground flex w-full items-center gap-1 px-2 py-0.5 text-[11px] font-semibold tracking-wide uppercase"
                       aria-expanded={groupExpanded}
                     >
@@ -185,8 +177,8 @@ export function EntityNavCollection({
 }
 
 type SectionHeaderProps = {
-  icon: ComponentType<{ className?: string }>
-  label: string
+  kind: EntityKind
+  icon: LucideIcon
   count?: number
   sticky?: boolean
   expanded?: boolean
@@ -195,14 +187,16 @@ type SectionHeaderProps = {
 }
 
 export function SectionHeader({
+  kind,
   icon: Icon,
-  label,
   count,
   sticky,
   expanded,
   onToggle,
   collapsed,
 }: SectionHeaderProps) {
+  const label = COLLECTION_LABELS[kind]
+
   if (collapsed) {
     return (
       <div className="flex justify-center py-1" title={label}>

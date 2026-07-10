@@ -1,5 +1,5 @@
 import { Link, createFileRoute } from '@tanstack/react-router'
-import { ArrowRight, BookOpen, Building2, Dog, MapPin, ScrollText, Users } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 
 import { ContentRenderer } from '#/components/content-renderer'
 import { Badge } from '#/components/ui/badge'
@@ -15,23 +15,11 @@ import {
   openQuests,
   sessionNumber,
   sortedSessions,
-  type EntityKind,
 } from '#/lib/campaign'
 
 export const Route = createFileRoute('/')({
   component: HomePage,
 })
-
-const ICONS: Record<EntityKind, React.ComponentType<{ className?: string }>> = {
-  session: ScrollText,
-  location: MapPin,
-  npc: Users,
-  pc: Users,
-  event: BookOpen,
-  quest: ScrollText,
-  organization: Building2,
-  beast: Dog,
-}
 
 function HomePage() {
   const latestSession = sortedSessions()[0]
@@ -132,14 +120,12 @@ function HomePage() {
 
       <section className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {COLLECTIONS.map((kind) => {
-          const Icon = ICONS[kind]
           const items = allEntities(kind)
           const featured = kind === 'session' ? sortedSessions()[0] : items[0]
           return (
             <Card key={kind}>
               <CardHeader>
                 <div className="text-muted-foreground flex items-center gap-2">
-                  <Icon className="size-4" />
                   <CardTitle className="text-base">{COLLECTION_LABELS[kind]}</CardTitle>
                   <Badge variant="secondary" className="ml-auto">
                     {items.length}
