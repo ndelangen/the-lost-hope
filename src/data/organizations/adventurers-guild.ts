@@ -1,4 +1,4 @@
-import { refs } from '#/data/refs.ts'
+import { refs } from '#/data/generated/refs.ts'
 import { create as createOrganization } from '#/definitions/organization.ts'
 
 export default createOrganization({

@@ -1,5 +1,5 @@
+import { refs } from '#/data/generated/refs.ts'
 import quests from '#/data/quests/_index.ts'
-import { refs } from '#/data/refs.ts'
 import sessions from '#/data/sessions/_index.ts'
 import { create as createCampaign } from '#/definitions/campaign.ts'
 

@@ -11,12 +11,14 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
+    "generate:refs": "bun scripts/generate-refs.ts",
+    "generate:refs:check": "bun scripts/generate-refs.ts --check",
     "typecheck": "tsc --noEmit",
     "lint": "oxlint",
     "lint:fix": "oxlint --fix",
     "fmt": "oxfmt",
     "fmt:check": "oxfmt --check",
-    "check": "bun run typecheck && bun run lint && bun run fmt:check",
+    "check": "bun run generate:refs:check && bun run typecheck && bun run lint && bun run fmt:check",
     "verify": "bun run check && bun run test && bun run build"
   },
   "dependencies": {

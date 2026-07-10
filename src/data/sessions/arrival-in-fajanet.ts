@@ -1,4 +1,4 @@
-import { refs } from '#/data/refs.ts'
+import { refs } from '#/data/generated/refs.ts'
 import { create as createSession } from '#/definitions/session.ts'
 
 export default createSession({

@@ -1,15 +1,6 @@
 import { describe, expect, it } from 'vitest'
 
-import {
-  BEASTS_KEYS,
-  EVENTS_KEYS,
-  LOCATIONS_KEYS,
-  NPCS_KEYS,
-  ORGANIZATIONS_KEYS,
-  PCS_KEYS,
-  QUESTS_KEYS,
-  SESSIONS_KEYS,
-} from '#/data/registry-keys.ts'
+import { refs } from '#/data/generated/refs.ts'
 import { ENTITY_KINDS } from '#/definitions/kind.ts'
 import {
   allEntities,
@@ -49,14 +40,16 @@ describe('location import order', () => {
 
 describe('registry integrity', () => {
   it('keeps typed ref keys synchronized with registries', () => {
-    expect(Object.keys(beasts).toSorted()).toEqual([...BEASTS_KEYS].toSorted())
-    expect(Object.keys(events).toSorted()).toEqual([...EVENTS_KEYS].toSorted())
-    expect(Object.keys(locations).toSorted()).toEqual([...LOCATIONS_KEYS].toSorted())
-    expect(Object.keys(npcs).toSorted()).toEqual([...NPCS_KEYS].toSorted())
-    expect(Object.keys(organizations).toSorted()).toEqual([...ORGANIZATIONS_KEYS].toSorted())
-    expect(Object.keys(pcs).toSorted()).toEqual([...PCS_KEYS].toSorted())
-    expect(Object.keys(quests).toSorted()).toEqual([...QUESTS_KEYS].toSorted())
-    expect(Object.keys(sessions).toSorted()).toEqual([...SESSIONS_KEYS].toSorted())
+    expect(Object.keys(beasts).toSorted()).toEqual(Object.keys(refs.beasts).toSorted())
+    expect(Object.keys(events).toSorted()).toEqual(Object.keys(refs.events).toSorted())
+    expect(Object.keys(locations).toSorted()).toEqual(Object.keys(refs.locations).toSorted())
+    expect(Object.keys(npcs).toSorted()).toEqual(Object.keys(refs.npcs).toSorted())
+    expect(Object.keys(organizations).toSorted()).toEqual(
+      Object.keys(refs.organizations).toSorted(),
+    )
+    expect(Object.keys(pcs).toSorted()).toEqual(Object.keys(refs.pcs).toSorted())
+    expect(Object.keys(quests).toSorted()).toEqual(Object.keys(refs.quests).toSorted())
+    expect(Object.keys(sessions).toSorted()).toEqual(Object.keys(refs.sessions).toSorted())
   })
 
   it('includes every entity kind in shared collection operations', () => {

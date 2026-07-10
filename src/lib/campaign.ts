@@ -30,7 +30,7 @@ export type {
   PcKey,
   QuestKey,
   SessionKey,
-} from '#/data/registry-keys.ts'
+} from '#/data/generated/refs.ts'
 
 export type Entity =
   | { kind: 'beast'; slug: string; data: Beast }
