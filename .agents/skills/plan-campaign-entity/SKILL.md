@@ -1,25 +1,29 @@
 ---
 name: plan-campaign-entity
 description: >-
-  Plan, create, edit, import, or rename campaign entities while preventing duplicate names,
-  duplicated canon, cross-kind slug collisions, dangling refs, and misplaced facts. Use for changes
-  under src/data, campaign-note imports, or user requests involving a beast, PC, NPC, location,
-  event, session, quest, or organization.
+  Plan or implement structured campaign-canon changes under src/data without duplicate canon, slug
+  collisions, dangling refs, or misplaced facts. Use for creating, editing, importing, or renaming
+  beasts, PCs, NPCs, locations, events, sessions, quests, or organizations. Do not use for read-only
+  lore questions or engineering changes outside campaign data.
 ---
 
 # Plan Campaign Entity
 
-Follow `src/data/AGENTS.md`; it is the canonical data-modeling policy. Treat the current schemas,
-registries, and nearby entities as authoritative instead of relying on remembered inventory counts.
-Read `docs/product-goals.md` when a change affects audience, knowledge perspective, chronology, or
-the boundary between canonical facts and quest synthesis.
+Follow `src/data/AGENTS.md`; it owns data-modeling policy. Treat current schemas, registries, and
+nearby entities as authoritative. Read `docs/product-goals.md` only when the change affects audience,
+knowledge perspective, chronology, or the boundary between canon and quest synthesis.
 
-This private pre-release codebase always moves directly to the correct final model. When a schema
-or convention changes, update every coded entity, reference, derivation, UI consumer, and test in
-the same change. Never add a gradual migration, dual representation, compatibility layer, alias, or
-fallback for the obsolete shape.
+## 1. Select mode and scope
 
-## 1. Establish source of truth
+- **Plan/review mode:** Inspect and report only when asked to plan, review, assess, or diagnose.
+- **Change mode:** Edit only when the user requests a change. Implement the smallest coherent entity
+  slice, including every reference, registry, consumer, and test required by that change.
+
+Start from the requested entities and inspect their schema, kind registry, generated reference
+namespace, relevant references, callers, and tests. Report adjacent canon or modeling issues
+separately; do not change them without authorization.
+
+## 2. Establish source of truth
 
 For every proposed fact or relationship:
 
@@ -32,7 +36,7 @@ For every proposed fact or relationship:
 Treat quests as a soft exception: a clue or conclusion may repeat minimal context for narrative
 clarity, but it must reference the relevant entities/events and never outrank them as canon.
 
-## 2. Discover before creating
+## 3. Discover before creating
 
 Search names, aliases, roles, and close variants across `src/data/`:
 
@@ -40,21 +44,23 @@ Search names, aliases, roles, and close variants across `src/data/`:
 rg -i "name|alias|role" src/data
 ```
 
-Inspect the relevant schema in `src/definitions/`, the kind's `_index.ts`,
-`src/data/registry-keys.ts`, and two nearby entity examples. Check all entity kinds because slugs
-are global.
+Inspect the relevant schema in `src/definitions/`, the kind's `_index.ts`, the generated namespace
+in `src/data/generated/refs.ts`, and two nearby entity examples. Check every kind in
+`src/definitions/kind.ts` because slugs are global.
 
-Clarify before editing when any of these would change the model materially:
+Ask only when the request and repository search leave a material decision unresolved:
 
 - PC versus NPC versus beast classification is uncertain.
 - A proposed name or slug collides with an existing entity.
-- A rename changes URLs and reverse links.
-- The request depends on canon that is genuinely unknown.
+- The canonical name or requested rename target is ambiguous.
+- Correct modeling depends on canon that is genuinely unknown.
 
-When missing canon blocks the work, add a specific entry to `QUESTIONS.md` with context, why it
-matters, and the session number when known. Do not invent an answer.
+A requested rename already authorizes its expected URL and reference updates; include them in the
+plan rather than asking again. In change mode, record a concrete unresolved canon question in
+`QUESTIONS.md` when the source material exposes it or it blocks correct modeling. Do not invent an
+answer.
 
-## 3. State the entity plan
+## 4. State the entity plan
 
 Before writing, state:
 
@@ -70,17 +76,18 @@ Entity plan:
 - Collision/search result:
 ```
 
-Get user confirmation only for unresolved classification, collision, canon, or renaming decisions.
+In change mode, state this plan as a concise progress update before editing. Request user input only
+for an unresolved decision that materially changes the model.
 
-## 4. Implement the canonical shape
+## 5. Implement the canonical shape
 
 - Create `src/data/<kind-plural>/<slug>.ts` with the kind's `create` helper.
 - Express prose as `Content` paragraphs (`[[...], [...]]`) and relationships as tokens from
-  `#/data/refs.ts`.
+  `#/data/generated/refs.ts`.
 - Do not store inverse relationship lists, repeated labels, or retellings that the application can
   derive from canonical entities and references.
-- Register the entity in its `_index.ts` and add its key to the correct list in
-  `src/data/registry-keys.ts`.
+- Register the entity in its `_index.ts`, then run `bun run generate:refs`. Always regenerate after
+  adding, removing, renaming, or re-keying a referenceable entity; never edit the generated file.
 - Update `src/data/index.ts` when campaign quest/session ordering changes.
 - Update every old key, slug, and display-name occurrence during a rename; do not add aliases or
   compatibility shims for old code or URLs.
@@ -94,9 +101,13 @@ from references in `notes`:
 - Otherwise: use a thematic icon already supported by `src/lib/event-icons.tsx`, or add the icon
   there in the same change.
 
-## 5. Validate
+## 6. Validate
 
-Run `bun run verify`. If the change affects UI behavior, also run the app, exercise the affected
-flow in a browser, and check the console. Fix dangling refs, registry drift, slug collisions, type
-errors, formatting, tests, and build failures before finishing. Re-read the diff for duplicate facts
-and relationships that should be references; allow repetition only for deliberate quest synthesis.
+- In plan/review mode, run only the non-mutating checks needed to support the result and state that
+  no implementation validation was required.
+- In change mode, run focused tests while iterating, then `bun run verify`. If UI behavior changed,
+  exercise the affected flow in a browser and check the console after automated verification.
+
+Before handoff, re-read the diff for dangling refs, registry drift, slug collisions, duplicated
+facts, and relationships that should be references. Report the entity slice changed, checks run, and
+adjacent findings deliberately left outside scope.

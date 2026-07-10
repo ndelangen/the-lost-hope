@@ -1,0 +1,4 @@
+interface:
+  display_name: 'Review UI Architecture'
+  short_description: 'Review or refactor React UI architecture'
+  default_prompt: 'Use $review-ui-architecture to perform a read-only architecture review of this React UI dependency slice.'

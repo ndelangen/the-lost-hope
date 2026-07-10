@@ -26,9 +26,10 @@ Useful commands:
 ```bash
 bun run test        # run Vitest once
 bun run test:watch  # run Vitest in watch mode
+bun run generate:refs # regenerate typed cross-entity refs from entity registries
 bun run typecheck   # run TypeScript without emitting files
 bun run check       # type-check, lint, and check formatting
-bun run verify      # check, test, and build exactly as an agent should before handoff
+bun run verify      # full check, test, and build gate for code or data handoff
 bun run build       # create the production bundle in dist/
 bun run preview     # serve the production bundle locally
 ```
@@ -44,16 +45,23 @@ bun run preview     # serve the production bundle locally
 - `QUESTIONS.md` records unresolved campaign-canon questions.
 
 Entity names derive their URL slugs. Cross-entity relationships use inert `refs.*` tokens so data
-files do not import one another and create module cycles. When adding an entity, update its data
-file, kind registry, and `src/data/registry-keys.ts`; the tests verify those registries and all
-references.
+files do not import one another and create module cycles. When adding, removing, renaming, or
+re-keying an entity, update its data file and kind registry, then run `bun run generate:refs`.
+The dev server and production build also regenerate refs automatically; dev watches the registries
+for live updates. The generated file lives under `src/data/generated/`, and the verification gate
+checks that it is current and that all references resolve.
 
 ## Working with Codex
 
-Codex reads `AGENTS.md` for repository-wide commands and conventions, then applies the more
-specific `src/data/AGENTS.md` rules for campaign data. The repo-level
-`$plan-campaign-entity` skill handles entity discovery, disambiguation, planning, wiring, and
-validation.
+`AGENTS.md` is the canonical repository-wide guide. It points campaign-data work to the more
+specific `src/data/AGENTS.md`; keep durable policy in those files rather than copying it into
+tool-specific prompts.
+
+The repository also provides focused, progressively loaded workflows:
+
+- `$plan-campaign-entity` for planning or implementing reference-first campaign-data changes.
+- `$review-ui-architecture` for evidence-backed React architecture reviews and authorized
+  structural refactors.
 
 For code or data changes, the expected handoff gate is:
 

@@ -4,17 +4,17 @@ Files below this directory are structured campaign canon, not formatted document
 belongs in `src/components/`; derivations and reference resolution belong in
 `src/lib/campaign.ts`. Follow `docs/product-goals.md` for the product intent behind these rules.
 
-## Content and references
+## Hard rule: structured content, never Markdown
 
 - A `Content` value is a list of paragraph arrays, for example
   `[['One paragraph.'], ['Another paragraph.']]`.
 - Do not put Markdown syntax in data strings. Use nested arrays for paragraphs and `refs.*` tokens
   for entity links.
-- Import references only from `#/data/refs.ts`. Do not import another entity or its `_index.ts`
+- Import references only from `#/data/generated/refs.ts`. Do not import another entity or its `_index.ts`
   registry just to create a relationship.
 - Every named entity in prose should be a reference when a canonical entity exists.
 
-## Reference first: one fact, one owner
+## Hard rule: one fact, one canonical owner
 
 - Every fact has exactly one canonical owner. Before adding prose or a field, identify that owner
   and search for an existing version of the fact.
@@ -57,17 +57,20 @@ canon.
 ## Adding or changing an entity
 
 - Search all of `src/data/` before creating an entity. Names and derived slugs must be unique across
-  all eight kinds: beast, PC, NPC, location, event, session, quest, and organization.
+  every kind in `src/definitions/kind.ts`; never rely on a remembered kind count or inventory.
 - Use a specific canonical name. The name derives the slug; the filename is the kebab-case slug and
   the registry key is its snake_case form.
-- Add the file to its kind's `_index.ts` and keep the matching key list in
-  `src/data/registry-keys.ts` synchronized. Use the corresponding `refs.<kind-plural>.<key>`
-  namespace everywhere else.
+- Add the file to its kind's `_index.ts`, then run `bun run generate:refs`. This is required after
+  adding, removing, renaming, or re-keying any referenceable entity. Never edit
+  `src/data/generated/refs.ts` by hand. Use the corresponding `refs.<kind-plural>.<key>` namespace
+  everywhere else.
 - Audit the change for copied facts, copied relationship lists, and bare names that should be
   references. For intentional quest synthesis, verify the canonical event/entity still owns the
   underlying fact.
 - Events use sequential `n2-e###.ts` filenames and require `day`, `location`, `mark`, and `notes`.
-- Record unresolved canon in `QUESTIONS.md` only when it blocks a correct model. Include the known
-  context, why the answer matters, and the session number when known; remove resolved questions.
+- Record unresolved canon in `QUESTIONS.md` when the source material exposes a concrete unanswered
+  fact or a missing answer blocks a correct model. Include the known context and session, plus why
+  the answer matters when it drives a modeling decision. Do not add engineering work or unsupported
+  speculation; remove resolved questions.
 - Use the repo skill `$plan-campaign-entity` for entity creation, imports, renames, or ambiguous
   character/place/event references.

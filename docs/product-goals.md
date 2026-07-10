@@ -76,8 +76,10 @@ real-world dates and must never be used to infer fictional chronology.
 This is a private, pre-release codebase used only by its authors. When the correct model is known,
 move the whole repository directly to that model even when the refactor is disruptive.
 
-- Do not build backward compatibility, gradual migrations, transitional adapters, or parallel
-  old/new representations.
+- Do not preserve obsolete representations through backward compatibility, gradual migrations,
+  compatibility aliases, redirects, adapters, shims, or parallel old/new shapes. This does not
+  prohibit domain adapters, error handling, or operational fallbacks that belong to the final
+  design.
 - Change schemas, coded campaign data, reference resolution, derived views, UI, and tests in one
   atomic refactor.
 - The campaign data is source code, so “migration” means editing all of that coded data to the final

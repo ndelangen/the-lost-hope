@@ -2,7 +2,9 @@
 
 Open questions for the author. Also used by the agent when editing data.
 
-**Maintenance:** Remove a line when answered. Add new lines with full context (see format below). Record canon in `src/data/` when answered.
+**Maintenance:** Remove a line when answered. Add new questions with the known context and session;
+include why the answer matters when it blocks a modeling or naming decision. Record confirmed canon
+in `src/data/` when answered. Do not use this file as an engineering backlog.
 
 **Play sessions:** Sessions **1–6** documented so far; more material coming.
 
@@ -24,20 +26,16 @@ Every question must include **what we already know** — many sit unanswered acr
 ## Naming and entities
 
 - **Mr. Peace — real name, species, class, player?**
-  - _Context:_ Session 3 guest PC, one day only, guild/Light arrangement. Flower magic; goblin incident. Not missing.
+  - _Context:_ Session 3 guest PC for one day by design, through a guild/Light arrangement. Flower magic; goblin incident.
   - _Session:_ 3
 
 - **Should the NPC be renamed off "Third Marshal Light"?**
-  - _Context:_ Author confirmed Light's rank is **13th Marshal**; "Third Marshal" was an artifact of modeling Fajanet and the Citadel of Reve as two places (now merged — [Fajanet](/locations/fajanet), alias "Citadel of Reve"). The NPC's canonical `name` is still "Third Marshal Light" (slug `third-marshal-light`, key `third_marshal_light`), referenced in ~15 files.
-  - _Why asking:_ A rename (e.g. to "13th Marshal Light" or just "Light") touches the file, `_index.ts`, `registry-keys.ts`, and every `refs.npcs.third_marshal_light`. Left as-is for now to avoid an unrequested wide refactor.
+  - _Context:_ Author confirmed Light's rank is **13th Marshal**; "Third Marshal" was an artifact of modeling Fajanet and the Citadel of Reve as two places (now merged — [Fajanet](/locations/fajanet), alias "Citadel of Reve"). The NPC's canonical `name` is still "Third Marshal Light" (slug `third-marshal-light`, key `third_marshal_light`) and is widely referenced.
+  - _Why asking:_ A rename (e.g. to "13th Marshal Light" or just "Light") touches the file, `_index.ts`, generated refs, and every `refs.npcs.third_marshal_light`. Left as-is for now to avoid an unrequested wide refactor.
 
 - **Is "Reve" a deliberate clue (French for "dream")?**
   - _Context:_ "Citadel of Reve" is an alias of [Fajanet](/locations/fajanet), Light's seat of authority. Possible authorial wordplay.
   - _Session:_ Pre-campaign
-
-- **Eyeless Hand organization — file as entity?**
-  - _Context:_ Samantha at The Nest trades illegal/semi-illegal drugs for them. William sought The Nest session 1.
-  - _Why asking:_ Recurring org may need index entry if it grows.
 
 ---
 
@@ -76,11 +74,25 @@ Every question must include **what we already know** — many sit unanswered acr
 
 ## Session 4 — Mountain journey
 
-- **Cliff sign — what did it say?** (Author does not remember.) ([n2-e030](/events/reach-a-cliff-with-a-sign))
-- **Puzzle room — what 5 elements? How solved?** ([n2-e032](/events/puzzle-room-with-5-elements-chasing-each-other))
-- **Angel and dragon — names? Exact dragon-child count?** (Possibly hundreds.) ([n2-e033](/events/meet-the-angel-and-the-dragon-husband-and-wife))
-- **Zone of truth — what did Devan and Swift Starblade say?** William/Revin were present but William left, Revin's player left. ([n2-e034](/events/zone-of-truth-each-pc-questioned))
-- **Why did the angel burn Jim's letter of passage?** ([n2-e034](/events/zone-of-truth-each-pc-questioned))
+- **Cliff sign — what did it say?**
+  - _Context:_ The party reached a cliff with a sign; the author does not remember its wording.
+  - _Session:_ 4 ([n2-e030](/events/reach-a-cliff-with-a-sign))
+
+- **Puzzle room — what were the five elements, and how was the puzzle solved?**
+  - _Context:_ Five elements chased one another in the room. The party solved the puzzle, but the elements and method were not recorded.
+  - _Session:_ 4 ([n2-e032](/events/puzzle-room-with-5-elements-chasing-each-other))
+
+- **Angel and dragon — names and exact dragon-child count?**
+  - _Context:_ The married angel and dragon had many dragon children; one recollection suggests there may have been hundreds, but no exact count is canon.
+  - _Session:_ 4 ([n2-e033](/events/meet-the-angel-and-the-dragon-husband-and-wife))
+
+- **Zone of truth — what did Devan and Swift Starblade say?**
+  - _Context:_ Each PC was questioned individually. William and Revin were also present, but only Jim's exchange is recorded; William later left, and Revin's player left the group.
+  - _Session:_ 4 ([n2-e034](/events/zone-of-truth-each-pc-questioned))
+
+- **Why did the angel burn Jim's letter of passage?**
+  - _Context:_ Jim presented the letter from Light during his zone-of-truth questioning; the angel burned it without a recorded explanation.
+  - _Session:_ 4 ([n2-e034](/events/zone-of-truth-each-pc-questioned))
 
 ---
 
@@ -107,7 +119,7 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Session:_ 6
 
 - **Did Victor and Abraham continue to Fairhaven, and did Swift rejoin?**
-  - _Context:_ Party at Fairhaven modeled as [Jim](/pcs/jim), [William](/pcs/william-greenhove), [Devan](/pcs/devan), and [Victor](/pcs/victor-the-badesh-lumberjack) (with [Abraham](/npcs/abraham)). Swift flew off separately in session 4 and "returned in a later session" — whether that was session 6 is unstated.
+  - _Context:_ Party at Fairhaven modeled as [Jim](/pcs/jim), [William](/pcs/william-greenhoove), [Devan](/pcs/devan), and [Victor](/pcs/victor-the-badesh-lumberjack) (with [Abraham](/npcs/abraham)). Swift flew off separately in session 4 and "returned in a later session" — whether that was session 6 is unstated.
   - _Session:_ 6
 
 - **How long is the Badesh → Fairhaven voyage?**
@@ -141,9 +153,3 @@ Every question must include **what we already know** — many sit unanswered acr
 - **Fajanet Tunnels and Shadow Realm** — same underground network?
 - **Through the Shadow Realm** — relation to tentacle night.
 - **The Dinosaur Migration** — riders, species, destination motive.
-
----
-
-## Data housekeeping
-
-- Fix broken `.md` suffix links in markdown bodies.
