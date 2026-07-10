@@ -1,9 +1,8 @@
 import { Link } from '@tanstack/react-router'
 
 import { LocationReference } from '#/components/location-reference'
-import type { Event } from '#/definitions/event.ts'
-import type { Session } from '#/definitions/session.ts'
-import { entityLink, eventLocation, sessionDays } from '#/lib/campaign'
+import { entityLink } from '#/lib/campaign'
+import type { SessionTimelineDay } from '#/lib/entity-page-data'
 import { EventMarkIcon } from '#/lib/event-icons'
 import { cn } from '#/lib/utils'
 
@@ -39,9 +38,7 @@ function DayHeading({ day, isFirst }: { day: number; isFirst: boolean }) {
   )
 }
 
-function EventBullet({ event }: { event: Event }) {
-  const { mark } = event
-
+function EventBullet({ mark }: { mark: SessionTimelineDay['events'][number]['mark'] }) {
   return (
     <TimelineBullet className="border-border bg-card group-hover:border-primary/50 border transition-transform duration-150 group-hover:scale-105">
       {mark.type === 'avatar' ? (
@@ -53,11 +50,10 @@ function EventBullet({ event }: { event: Event }) {
   )
 }
 
-function EventCard({ event }: { event: Event }) {
-  const place = eventLocation(event)
+function EventCard({ event }: { event: SessionTimelineDay['events'][number] }) {
   return (
     <div className="group relative flex items-start gap-3">
-      <EventBullet event={event} />
+      <EventBullet mark={event.mark} />
       <div className="border-border group-hover:border-primary/40 group-hover:bg-accent/20 min-w-0 flex-1 space-y-1.5 rounded-lg border px-4 py-3 transition-colors">
         <p className="font-medium">
           <Link {...entityLink('event', event.slug)} className="after:absolute after:inset-0">
@@ -65,9 +61,9 @@ function EventCard({ event }: { event: Event }) {
           </Link>
         </p>
         <div className="flex flex-wrap items-center gap-2">
-          {place ? (
+          {event.locationSlug ? (
             <span className="relative z-10">
-              <LocationReference slug={place.slug} />
+              <LocationReference slug={event.locationSlug} />
             </span>
           ) : null}
         </div>
@@ -76,7 +72,7 @@ function EventCard({ event }: { event: Event }) {
   )
 }
 
-function DayEvents({ events }: { events: Event[] }) {
+function DayEvents({ events }: { events: SessionTimelineDay['events'] }) {
   if (events.length === 0) return null
 
   return (
@@ -96,9 +92,7 @@ function DayEvents({ events }: { events: Event[] }) {
   )
 }
 
-export function SessionTimeline({ session }: { session: Session }) {
-  const days = sessionDays(session)
-
+export function SessionTimeline({ days }: { days: SessionTimelineDay[] }) {
   return (
     <section className="space-y-6">
       <h2 className="text-lg font-semibold">Timeline</h2>

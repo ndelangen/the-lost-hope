@@ -7,15 +7,14 @@ type MapPlaceholderProps = {
   name: string
   coordinates?: [number, number]
   className?: string
-  compact?: boolean
 }
 
-export function MapPlaceholder({ name, coordinates, className, compact }: MapPlaceholderProps) {
+function MapPlaceholder({ name, coordinates, className }: MapPlaceholderProps) {
   return (
     <div
       className={cn(
         'border-border relative overflow-hidden rounded-xl border bg-gradient-to-br from-amber-50/80 via-stone-100/90 to-amber-100/60 dark:from-amber-950/30 dark:via-stone-900/50 dark:to-amber-900/20',
-        compact ? 'aspect-[3/1]' : 'aspect-[10/7]',
+        'aspect-[10/7]',
         className,
       )}
     >

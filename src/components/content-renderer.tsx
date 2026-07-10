@@ -2,11 +2,10 @@ import { Link } from '@tanstack/react-router'
 
 import { LocationReference } from '#/components/location-reference'
 import { OrganizationReference } from '#/components/organization-reference'
-import { Avatar } from '#/components/ui/avatar'
 import type { Content } from '#/definitions/content.ts'
 import { isEntityRef } from '#/definitions/kind.ts'
 import type { Reference } from '#/definitions/reference.ts'
-import { entityLink, refLink, type EntityKind } from '#/lib/campaign'
+import { entityLink, refLink } from '#/lib/campaign'
 import { cn } from '#/lib/utils'
 
 type ContentParagraph = Content[number]
@@ -65,22 +64,7 @@ function ContentPart({ part }: { part: ContentParagraph | ContentAtom }) {
   }
 
   if (isReference(part)) {
-    const link = refLink(part)
-    if (!link) return null
-    if (link.kind === 'location') {
-      return <LocationReference slug={link.slug} label={link.name} />
-    }
-    if (link.kind === 'organization') {
-      return <OrganizationReference slug={link.slug} label={link.name} />
-    }
-    return (
-      <Link
-        {...entityLink(link.kind, link.slug)}
-        className="text-primary font-medium underline-offset-4 hover:underline"
-      >
-        {link.name}
-      </Link>
-    )
+    return <ContentReference reference={part} />
   }
 
   return null
@@ -99,25 +83,9 @@ function InlineRun({ items }: { items: ContentParagraph }) {
           return <span key={index}>{item}</span>
         }
         if (isReference(item)) {
-          const link = refLink(item)
-          if (!link) return null
-          if (link.kind === 'location') {
-            // oxlint-disable-next-line react/no-array-index-key -- content runs lack stable ids
-            return <LocationReference key={index} slug={link.slug} label={link.name} />
-          }
-          if (link.kind === 'organization') {
-            // oxlint-disable-next-line react/no-array-index-key -- content runs lack stable ids
-            return <OrganizationReference key={index} slug={link.slug} label={link.name} />
-          }
           return (
-            <Link
-              // oxlint-disable-next-line react/no-array-index-key -- content runs lack stable ids
-              key={index}
-              {...entityLink(link.kind, link.slug)}
-              className="text-primary font-medium underline-offset-4 hover:underline"
-            >
-              {link.name}
-            </Link>
+            // oxlint-disable-next-line react/no-array-index-key -- content runs lack stable ids
+            <ContentReference key={index} reference={item} />
           )
         }
         return null
@@ -126,19 +94,22 @@ function InlineRun({ items }: { items: ContentParagraph }) {
   )
 }
 
-/**
- * Renders a single Content value as block-level prose: an inline run becomes one
- * paragraph and a paragraph list becomes stacked paragraphs. Use for fields that
- * hold a single Content value (e.g. `notes`), as opposed to a list of blocks.
- */
-export function ContentBlocks({ content, className }: { content: Content; className?: string }) {
+function ContentReference({ reference }: { reference: Reference }) {
+  const link = refLink(reference)
+  if (!link) return null
+  if (link.kind === 'location') {
+    return <LocationReference slug={link.slug} label={link.name} />
+  }
+  if (link.kind === 'organization') {
+    return <OrganizationReference slug={link.slug} label={link.name} />
+  }
   return (
-    <div className={cn('space-y-2', className)}>
-      {content.map((part, index) => (
-        // oxlint-disable-next-line react/no-array-index-key -- content parts lack stable ids
-        <ContentPart key={index} part={part} />
-      ))}
-    </div>
+    <Link
+      {...entityLink(link.kind, link.slug)}
+      className="text-primary font-medium underline-offset-4 hover:underline"
+    >
+      {link.name}
+    </Link>
   )
 }
 
@@ -153,38 +124,4 @@ function isInlineRun(items: ContentParagraph): boolean {
 
 function isMedia(value: unknown): value is Media {
   return !!value && typeof value === 'object' && 'type' in value && 'url' in value
-}
-
-/** Rounded avatar + name pill linking to an entity's detail page. */
-export function EntityChip({
-  kind,
-  slug,
-  name,
-  avatar,
-}: {
-  kind: EntityKind
-  slug: string
-  name: string
-  avatar: string
-}) {
-  return (
-    <Link
-      {...entityLink(kind, slug)}
-      className="border-border bg-card hover:border-primary/40 hover:bg-accent/20 flex items-center gap-2 rounded-full border py-1 pr-4 pl-1 transition-colors"
-    >
-      <Avatar src={avatar} alt={name} loading="lazy" className="border-border size-9 border" />
-      <span className="text-sm font-medium">{name}</span>
-    </Link>
-  )
-}
-
-export function Portrait({ src, alt }: { src: string; alt: string }) {
-  return (
-    <Avatar
-      src={src}
-      alt={alt}
-      loading="lazy"
-      className="border-border size-24 border shadow-sm sm:size-28"
-    />
-  )
 }

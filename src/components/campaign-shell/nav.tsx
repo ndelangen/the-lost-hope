@@ -4,7 +4,7 @@ import type { ComponentType, ReactNode } from 'react'
 
 import { Avatar } from '#/components/ui/avatar'
 import { Badge } from '#/components/ui/badge'
-import { entityLink, type EntityKind } from '#/lib/campaign'
+import { collectionTo, entityLink, type EntityKind } from '#/lib/campaign'
 import { cn } from '#/lib/utils'
 
 type NavLinkProps = {
@@ -72,6 +72,115 @@ export function EntityNavRow({ kind, slug, name, active, avatar, onNavigate }: E
         <span className="truncate">{name}</span>
       </Link>
     </li>
+  )
+}
+
+export type EntityNavItem = Pick<EntityNavRowProps, 'slug' | 'name' | 'avatar'>
+
+export type EntityNavGroup = {
+  id: string
+  label?: string
+  items: EntityNavItem[]
+  expanded?: boolean
+  onToggle?: () => void
+}
+
+export function EntityNavCollection({
+  kind,
+  label,
+  icon,
+  count,
+  expanded,
+  onToggle,
+  groups,
+  activeKind,
+  activeSlug,
+  onNavigate,
+}: {
+  kind: EntityKind
+  label: string
+  icon: ComponentType<{ className?: string }>
+  count: number
+  expanded: boolean
+  onToggle: () => void
+  groups: EntityNavGroup[]
+  activeKind?: EntityKind
+  activeSlug?: string
+  onNavigate?: () => void
+}) {
+  return (
+    <div>
+      <SectionHeader
+        icon={icon}
+        label={label}
+        count={count}
+        sticky
+        expanded={expanded}
+        onToggle={onToggle}
+      />
+      {expanded ? (
+        <ul className="space-y-0.5">
+          {groups.map((group) => {
+            const groupExpanded = group.expanded ?? true
+            return (
+              <li key={group.id}>
+                {group.label ? (
+                  group.onToggle ? (
+                    <button
+                      type="button"
+                      onClick={group.onToggle}
+                      className="text-muted-foreground hover:text-foreground flex w-full items-center gap-1 px-2 py-0.5 text-[11px] font-semibold tracking-wide uppercase"
+                      aria-expanded={groupExpanded}
+                    >
+                      {groupExpanded ? (
+                        <ChevronDown className="size-3" />
+                      ) : (
+                        <ChevronRight className="size-3" />
+                      )}
+                      {group.label}
+                      <Badge variant="secondary" className="ml-auto">
+                        {group.items.length}
+                      </Badge>
+                    </button>
+                  ) : (
+                    <p className="text-muted-foreground px-2 py-0.5 text-[11px] font-semibold tracking-wide uppercase">
+                      {group.label}
+                      <Badge variant="secondary" className="ml-2">
+                        {group.items.length}
+                      </Badge>
+                    </p>
+                  )
+                ) : null}
+                {groupExpanded ? (
+                  <ul className="space-y-0.5">
+                    {group.items.map((item) => (
+                      <EntityNavRow
+                        key={item.slug}
+                        kind={kind}
+                        slug={item.slug}
+                        name={item.name}
+                        avatar={item.avatar}
+                        active={activeKind === kind && activeSlug === item.slug}
+                        onNavigate={onNavigate}
+                      />
+                    ))}
+                  </ul>
+                ) : null}
+              </li>
+            )
+          })}
+          <li>
+            <Link
+              to={collectionTo(kind)}
+              className="text-primary block px-2 py-1 text-xs hover:underline"
+              onClick={onNavigate}
+            >
+              Browse all →
+            </Link>
+          </li>
+        </ul>
+      ) : null}
+    </div>
   )
 }
 

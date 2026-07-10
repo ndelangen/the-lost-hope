@@ -17,7 +17,6 @@ import { MEMBERSHIP_STATUSES } from '#/definitions/organization.ts'
 import type { Organization } from '#/definitions/organization.ts'
 import type { PC } from '#/definitions/pc.ts'
 import type { Quest } from '#/definitions/quest.ts'
-import type { Reference } from '#/definitions/reference.ts'
 import type { Session } from '#/definitions/session.ts'
 
 export type { EntityKind }
@@ -163,12 +162,6 @@ export function locationTree(rootSlug = locations.world.slug): LocationTreeNode[
   }))
 }
 
-export function locationsByType(type: LocationType): LocationEntity[] {
-  return allEntities('location')
-    .filter((entity) => 'type' in entity.data && entity.data.type === type)
-    .toSorted((a, b) => compareEntityNames(a.data.name, b.data.name))
-}
-
 export function locationTypeOf(location: Location): LocationType | undefined {
   return 'type' in location ? location.type : undefined
 }
@@ -200,14 +193,6 @@ export function membershipOrg(membership: Membership): Organization | undefined 
   return entity?.kind === 'organization' ? entity.data : undefined
 }
 
-export function entityKind(value: Reference): EntityKind {
-  return value.ref
-}
-
-export function entityTitle(value: Reference): string {
-  return refLink(value)?.name ?? value.key
-}
-
 /**
  * Derive a PC's mechanical stat line (e.g. "Human Warlock 4 · Great Old One
  * Patron") from its structured fields. This is the single place that formats
@@ -225,6 +210,12 @@ export function contentToText(content: unknown): string {
   if (isEntityRef(content)) return refLink(content)?.name ?? ''
   if (Array.isArray(content)) return content.map(contentToText).filter(Boolean).join(' ')
   return ''
+}
+
+/** Derive the short collection-card preview for an entity from canonical data. */
+export function entityTeaser(entity: Entity): string {
+  if ('notes' in entity.data && entity.data.notes) return contentToText(entity.data.notes)
+  return entity.kind === 'pc' ? pcStatLine(entity.data) : ''
 }
 
 /** Route pattern for an entity kind's detail page. */
@@ -304,14 +295,6 @@ export function allEntities<K extends EntityKind>(kind: K): EntityOf<K>[] {
 
 export function getEntity<K extends EntityKind>(kind: K, slug: string): EntityOf<K> | undefined {
   return allEntities(kind).find((entity) => entity.slug === slug)
-}
-
-export function findEntityBySlug(slug: string): Entity | undefined {
-  for (const kind of COLLECTIONS) {
-    const entity = getEntity(kind, slug)
-    if (entity) return entity
-  }
-  return undefined
 }
 
 function collectReferences(
@@ -596,7 +579,7 @@ export function compareEntityNames(a: string, b: string): number {
 }
 
 export function sortEntitiesByName<T extends Entity>(entities: T[]): T[] {
-  return [...entities].toSorted((a, b) => compareEntityNames(a.data.name, b.data.name))
+  return entities.toSorted((a, b) => compareEntityNames(a.data.name, b.data.name))
 }
 
 export function collectionKindFromPath(pathname: string): EntityKind | undefined {

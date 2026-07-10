@@ -1,6 +1,5 @@
 import { Link } from '@tanstack/react-router'
 import { ScrollText } from 'lucide-react'
-import { useMemo } from 'react'
 
 import { LocationReference } from '#/components/location-reference'
 import { Card, CardContent } from '#/components/ui/card'
@@ -20,15 +19,11 @@ type NowBlockProps = {
 }
 
 export function NowBlock({ collapsed, onNavigate }: NowBlockProps) {
-  const sessions = useMemo(() => sortedSessions(), [])
-  const currentSession = sessions[0]
-  const partyCount = useMemo(() => activePcs().length, [])
-  const questCount = useMemo(() => openQuests().length, [])
-  const latestEvent = useMemo(() => sortedEvents()[0], [])
-  const currentLocation = useMemo(() => {
-    if (!latestEvent) return undefined
-    return eventLocation(latestEvent.data)
-  }, [latestEvent])
+  const currentSession = sortedSessions()[0]
+  const partyCount = activePcs().length
+  const questCount = openQuests().length
+  const latestEvent = sortedEvents()[0]
+  const currentLocation = latestEvent ? eventLocation(latestEvent.data) : undefined
 
   if (collapsed) {
     return (

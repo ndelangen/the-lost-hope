@@ -1,18 +1,7 @@
 import { Link, useRouterState } from '@tanstack/react-router'
-import {
-  Building2,
-  ChevronDown,
-  ChevronRight,
-  Globe,
-  Home,
-  MapPin,
-  ScrollText,
-  Users,
-} from 'lucide-react'
-import { useEffect, useMemo, useState } from 'react'
+import { ChevronDown, ChevronRight, Globe, Home, ScrollText } from 'lucide-react'
+import { useEffect, useState } from 'react'
 
-import { Badge } from '#/components/ui/badge'
-import type { NPC } from '#/definitions/npc.ts'
 import {
   activePcs,
   allEntities,
@@ -35,7 +24,13 @@ import {
 import { cn } from '#/lib/utils'
 
 import { ICONS, SIDEBAR_COLLECTIONS, STORAGE_KEYS, type SidebarCollection } from './constants'
-import { EntityNavRow, NavLink, SectionHeader } from './nav'
+import {
+  EntityNavCollection,
+  NavLink,
+  SectionHeader,
+  type EntityNavGroup,
+  type EntityNavItem,
+} from './nav'
 import { NowBlock } from './now-block'
 import {
   defaultExpandedCollections,
@@ -50,17 +45,39 @@ type SidebarProps = {
   onNavigate: () => void
 }
 
+type WorldCollection = {
+  kind: SidebarCollection
+  count: number
+  groups: EntityNavGroup[]
+}
+
+function navItems(entities: Entity[], withAvatar = false): EntityNavItem[] {
+  return entities.map((entity) => ({
+    slug: entity.slug,
+    name: entity.data.name,
+    avatar: withAvatar && 'avatar' in entity.data ? entity.data.avatar : undefined,
+  }))
+}
+
+const SESSIONS = sortedSessions()
+const PARTY_PCS = sortEntitiesByName(activePcs())
+const FORMER_PCS = sortEntitiesByName(getFormerPcs())
+const NPCS = sortEntitiesByName(allEntities('npc'))
+const BEASTS = sortEntitiesByName(allEntities('beast'))
+const LOCATIONS = sortEntitiesByName(allEntities('location'))
+const OPEN_QUESTS = sortEntitiesByName(openQuests())
+const RESOLVED_QUESTS = sortEntitiesByName(resolvedQuests())
+const ORGANIZATIONS = sortEntitiesByName(allEntities('organization'))
+
 export function Sidebar({ collapsed, onNavigate }: SidebarProps) {
-  const pathname = useRouterState({ select: (s) => s.location.pathname })
-  const sessions = useMemo(() => sortedSessions(), [])
+  const pathname = useRouterState({ select: (state) => state.location.pathname })
 
   const [formerPcsExpanded, setFormerPcsExpanded] = useState(
     () => readStoredBoolean(STORAGE_KEYS.formerPcsExpanded) ?? false,
   )
-
   const [expandedSessions, toggleSession, expandSession] = usePersistedSet(
     STORAGE_KEYS.expandedSessions,
-    () => defaultExpandedSessions(pathname, sessions),
+    () => defaultExpandedSessions(pathname, SESSIONS),
   )
   const [expandedCollections, toggleCollection, expandCollection] = usePersistedSet(
     STORAGE_KEYS.expandedCollections,
@@ -74,15 +91,6 @@ export function Sidebar({ collapsed, onNavigate }: SidebarProps) {
   const activeKind = collectionKindFromPath(pathname)
   const activeSlug = entitySlugFromPath(pathname)
 
-  const partyPcs = useMemo(() => sortEntitiesByName(activePcs()), [])
-  const formerPcs = useMemo(() => sortEntitiesByName(getFormerPcs()), [])
-  const npcs = useMemo(() => sortEntitiesByName(allEntities('npc')), [])
-  const beasts = useMemo(() => sortEntitiesByName(allEntities('beast')), [])
-  const locations = useMemo(() => sortEntitiesByName(allEntities('location')), [])
-  const openQuestEntities = useMemo(() => sortEntitiesByName(openQuests()), [])
-  const resolvedQuestEntities = useMemo(() => sortEntitiesByName(resolvedQuests()), [])
-  const organizations = useMemo(() => sortEntitiesByName(allEntities('organization')), [])
-
   useEffect(() => {
     const kind = collectionKindFromPath(pathname)
     const slug = entitySlugFromPath(pathname)
@@ -90,51 +98,71 @@ export function Sidebar({ collapsed, onNavigate }: SidebarProps) {
     if (kind && SIDEBAR_COLLECTIONS.includes(kind as SidebarCollection)) {
       expandCollection(kind)
     }
-
-    if (kind === 'session' && slug) {
-      expandSession(slug)
-    }
-
+    if (kind === 'session' && slug) expandSession(slug)
     if (kind === 'event' && slug) {
       const sessionSlug = sessionSlugForEvent(slug)
       if (sessionSlug) expandSession(sessionSlug)
     }
-
-    if (kind === 'pc' && slug && formerPcs.some((pc) => pc.slug === slug)) {
+    if (kind === 'pc' && slug && FORMER_PCS.some((pc) => pc.slug === slug)) {
       setFormerPcsExpanded(true)
     }
-  }, [pathname, expandCollection, expandSession, formerPcs])
+  }, [pathname, expandCollection, expandSession])
 
-  const collectionItems: Record<SidebarCollection, Entity[]> = {
-    beast: beasts,
-    pc: partyPcs,
-    npc: npcs,
-    location: locations,
-    quest: openQuestEntities,
-    organization: organizations,
-  }
+  const worldCollections: WorldCollection[] = [
+    {
+      kind: 'pc',
+      count: PARTY_PCS.length + FORMER_PCS.length,
+      groups: [
+        { id: 'party', label: 'Party', items: navItems(PARTY_PCS, true) },
+        ...(FORMER_PCS.length > 0
+          ? [
+              {
+                id: 'former',
+                label: 'Former / occasional',
+                items: navItems(FORMER_PCS, true),
+                expanded: formerPcsExpanded,
+                onToggle: () => setFormerPcsExpanded((value) => !value),
+              },
+            ]
+          : []),
+      ],
+    },
+    { kind: 'npc', count: NPCS.length, groups: [{ id: 'all', items: navItems(NPCS, true) }] },
+    {
+      kind: 'location',
+      count: LOCATIONS.length,
+      groups: [{ id: 'all', items: navItems(LOCATIONS) }],
+    },
+    {
+      kind: 'quest',
+      count: OPEN_QUESTS.length + RESOLVED_QUESTS.length,
+      groups: [
+        { id: 'open', label: 'Open', items: navItems(OPEN_QUESTS) },
+        ...(RESOLVED_QUESTS.length > 0
+          ? [{ id: 'resolved', label: 'Resolved', items: navItems(RESOLVED_QUESTS) }]
+          : []),
+      ],
+    },
+    {
+      kind: 'organization',
+      count: ORGANIZATIONS.length,
+      groups: [{ id: 'all', items: navItems(ORGANIZATIONS) }],
+    },
+    { kind: 'beast', count: BEASTS.length, groups: [{ id: 'all', items: navItems(BEASTS) }] },
+  ]
 
-  const collectionCounts: Record<SidebarCollection, number> = {
-    beast: beasts.length,
-    pc: partyPcs.length + formerPcs.length,
-    npc: npcs.length,
-    location: locations.length,
-    quest: openQuestEntities.length + resolvedQuestEntities.length,
-    organization: organizations.length,
-  }
-
-  const renderSessions = (isCollapsed: boolean) => (
+  const renderSessions = () => (
     <div>
       <SectionHeader
         icon={ScrollText}
         label={COLLECTION_LABELS.session}
-        count={sessions.length}
+        count={SESSIONS.length}
         sticky
-        collapsed={isCollapsed}
+        collapsed={collapsed}
       />
-      {!isCollapsed ? (
+      {!collapsed ? (
         <ul className="space-y-1">
-          {sessions.map((session) => {
+          {SESSIONS.map((session) => {
             const data = session.data
             const number = sessionNumber(session.slug)
             const expanded = expandedSessions.has(session.slug)
@@ -182,26 +210,23 @@ export function Sidebar({ collapsed, onNavigate }: SidebarProps) {
                           Campaign day {day.day}
                         </p>
                         <ul className="space-y-0.5">
-                          {day.events.map((event) => {
-                            const eventHref = entityHref('event', event.slug)
-                            return (
-                              <li key={event.slug}>
-                                <Link
-                                  {...entityLink('event', event.slug)}
-                                  className={cn(
-                                    'block truncate rounded-md px-1.5 py-1 text-sm transition-colors',
-                                    pathname === eventHref
-                                      ? 'bg-accent font-medium text-accent-foreground'
-                                      : 'text-muted-foreground hover:bg-muted hover:text-foreground',
-                                  )}
-                                  title={event.name}
-                                  onClick={onNavigate}
-                                >
-                                  {event.name}
-                                </Link>
-                              </li>
-                            )
-                          })}
+                          {day.events.map((event) => (
+                            <li key={event.slug}>
+                              <Link
+                                {...entityLink('event', event.slug)}
+                                className={cn(
+                                  'block truncate rounded-md px-1.5 py-1 text-sm transition-colors',
+                                  pathname === entityHref('event', event.slug)
+                                    ? 'bg-accent font-medium text-accent-foreground'
+                                    : 'text-muted-foreground hover:bg-muted hover:text-foreground',
+                                )}
+                                title={event.name}
+                                onClick={onNavigate}
+                              >
+                                {event.name}
+                              </Link>
+                            </li>
+                          ))}
                         </ul>
                       </li>
                     ))}
@@ -231,292 +256,6 @@ export function Sidebar({ collapsed, onNavigate }: SidebarProps) {
     </div>
   )
 
-  const renderPcCollection = (isCollapsed: boolean) => {
-    const kind = 'pc' as const
-    const Icon = ICONS[kind]
-    const expanded = expandedCollections.has(kind)
-
-    if (isCollapsed) {
-      return (
-        <Link
-          to="/pcs"
-          className="text-muted-foreground hover:text-foreground hover:bg-muted flex justify-center rounded-md p-2"
-          title={COLLECTION_LABELS.pc}
-          onClick={onNavigate}
-        >
-          <Icon className="size-4" />
-        </Link>
-      )
-    }
-
-    return (
-      <div>
-        <SectionHeader
-          icon={Icon}
-          label={COLLECTION_LABELS[kind]}
-          count={collectionCounts[kind]}
-          sticky
-          expanded={expanded}
-          onToggle={() => toggleCollection(kind)}
-        />
-        {expanded ? (
-          <ul className="space-y-0.5">
-            <li>
-              <p className="text-muted-foreground px-2 py-0.5 text-[11px] font-semibold tracking-wide uppercase">
-                Party
-                <Badge variant="secondary" className="ml-2">
-                  {partyPcs.length}
-                </Badge>
-              </p>
-              <ul className="space-y-0.5">
-                {partyPcs.map((item) => (
-                  <EntityNavRow
-                    key={item.slug}
-                    kind={kind}
-                    slug={item.slug}
-                    name={item.data.name}
-                    active={activeKind === kind && activeSlug === item.slug}
-                    avatar={item.data.avatar}
-                    onNavigate={onNavigate}
-                  />
-                ))}
-              </ul>
-            </li>
-            {formerPcs.length > 0 ? (
-              <li>
-                <button
-                  type="button"
-                  onClick={() => setFormerPcsExpanded((value) => !value)}
-                  className="text-muted-foreground hover:text-foreground flex w-full items-center gap-1 px-2 py-0.5 text-[11px] font-semibold tracking-wide uppercase"
-                  aria-expanded={formerPcsExpanded}
-                >
-                  {formerPcsExpanded ? (
-                    <ChevronDown className="size-3" />
-                  ) : (
-                    <ChevronRight className="size-3" />
-                  )}
-                  Former / occasional
-                  <Badge variant="secondary" className="ml-auto">
-                    {formerPcs.length}
-                  </Badge>
-                </button>
-                {formerPcsExpanded ? (
-                  <ul className="space-y-0.5">
-                    {formerPcs.map((item) => (
-                      <EntityNavRow
-                        key={item.slug}
-                        kind={kind}
-                        slug={item.slug}
-                        name={item.data.name}
-                        active={activeKind === kind && activeSlug === item.slug}
-                        avatar={item.data.avatar}
-                        onNavigate={onNavigate}
-                      />
-                    ))}
-                  </ul>
-                ) : null}
-              </li>
-            ) : null}
-            <li>
-              <Link
-                to="/pcs"
-                className="text-primary block px-2 py-1 text-xs hover:underline"
-                onClick={onNavigate}
-              >
-                Browse all →
-              </Link>
-            </li>
-          </ul>
-        ) : null}
-      </div>
-    )
-  }
-
-  const renderQuestCollection = (isCollapsed: boolean) => {
-    const kind = 'quest' as const
-    const Icon = ICONS[kind]
-    const expanded = expandedCollections.has(kind)
-
-    if (isCollapsed) {
-      return (
-        <Link
-          to="/quests"
-          className="text-muted-foreground hover:text-foreground hover:bg-muted flex justify-center rounded-md p-2"
-          title={COLLECTION_LABELS.quest}
-          onClick={onNavigate}
-        >
-          <Icon className="size-4" />
-        </Link>
-      )
-    }
-
-    return (
-      <div>
-        <SectionHeader
-          icon={Icon}
-          label={COLLECTION_LABELS[kind]}
-          count={collectionCounts[kind]}
-          sticky
-          expanded={expanded}
-          onToggle={() => toggleCollection(kind)}
-        />
-        {expanded ? (
-          <ul className="space-y-0.5">
-            <li>
-              <p className="text-muted-foreground px-2 py-0.5 text-[11px] font-semibold tracking-wide uppercase">
-                Open
-                <Badge variant="secondary" className="ml-2">
-                  {openQuestEntities.length}
-                </Badge>
-              </p>
-              <ul className="space-y-0.5">
-                {openQuestEntities.map((item) => (
-                  <EntityNavRow
-                    key={item.slug}
-                    kind={kind}
-                    slug={item.slug}
-                    name={item.data.name}
-                    active={activeKind === kind && activeSlug === item.slug}
-                    onNavigate={onNavigate}
-                  />
-                ))}
-              </ul>
-            </li>
-            {resolvedQuestEntities.length > 0 ? (
-              <li>
-                <p className="text-muted-foreground px-2 py-0.5 text-[11px] font-semibold tracking-wide uppercase">
-                  Resolved
-                  <Badge variant="secondary" className="ml-2">
-                    {resolvedQuestEntities.length}
-                  </Badge>
-                </p>
-                <ul className="space-y-0.5">
-                  {resolvedQuestEntities.map((item) => (
-                    <EntityNavRow
-                      key={item.slug}
-                      kind={kind}
-                      slug={item.slug}
-                      name={item.data.name}
-                      active={activeKind === kind && activeSlug === item.slug}
-                      onNavigate={onNavigate}
-                    />
-                  ))}
-                </ul>
-              </li>
-            ) : null}
-            <li>
-              <Link
-                to={'/quests'}
-                className="text-primary block px-2 py-1 text-xs hover:underline"
-                onClick={onNavigate}
-              >
-                Browse all →
-              </Link>
-            </li>
-          </ul>
-        ) : null}
-      </div>
-    )
-  }
-
-  const renderCollection = (kind: Exclude<SidebarCollection, 'pc' | 'quest'>) => {
-    const Icon = ICONS[kind]
-    const items = collectionItems[kind]
-    const expanded = expandedCollections.has(kind)
-
-    return (
-      <div>
-        <SectionHeader
-          icon={Icon}
-          label={COLLECTION_LABELS[kind]}
-          count={collectionCounts[kind]}
-          sticky
-          expanded={expanded}
-          onToggle={() => toggleCollection(kind)}
-        />
-        {expanded ? (
-          <ul className="space-y-0.5">
-            {items.map((item) => (
-              <EntityNavRow
-                key={item.slug}
-                kind={kind}
-                slug={item.slug}
-                name={item.data.name}
-                active={activeKind === kind && activeSlug === item.slug}
-                avatar={kind === 'npc' ? (item.data as NPC).avatar : undefined}
-                onNavigate={onNavigate}
-              />
-            ))}
-            <li>
-              <Link
-                to={collectionTo(kind)}
-                className="text-primary block px-2 py-1 text-xs hover:underline"
-                onClick={onNavigate}
-              >
-                Browse all →
-              </Link>
-            </li>
-          </ul>
-        ) : null}
-      </div>
-    )
-  }
-
-  const renderWorldCollections = (isCollapsed: boolean) => {
-    if (isCollapsed) {
-      const BeastIcon = ICONS.beast
-      return (
-        <div className="space-y-1">
-          {renderPcCollection(true)}
-          <Link
-            to="/npcs"
-            className="text-muted-foreground hover:text-foreground hover:bg-muted flex justify-center rounded-md p-2"
-            title={COLLECTION_LABELS.npc}
-            onClick={onNavigate}
-          >
-            <Users className="size-4" />
-          </Link>
-          <Link
-            to="/locations"
-            className="text-muted-foreground hover:text-foreground hover:bg-muted flex justify-center rounded-md p-2"
-            title={COLLECTION_LABELS.location}
-            onClick={onNavigate}
-          >
-            <MapPin className="size-4" />
-          </Link>
-          {renderQuestCollection(true)}
-          <Link
-            to="/organizations"
-            className="text-muted-foreground hover:text-foreground hover:bg-muted flex justify-center rounded-md p-2"
-            title={COLLECTION_LABELS.organization}
-            onClick={onNavigate}
-          >
-            <Building2 className="size-4" />
-          </Link>
-          <Link
-            to="/beasts"
-            className="text-muted-foreground hover:text-foreground hover:bg-muted flex justify-center rounded-md p-2"
-            title={COLLECTION_LABELS.beast}
-            onClick={onNavigate}
-          >
-            <BeastIcon className="size-4" />
-          </Link>
-        </div>
-      )
-    }
-
-    return (
-      <>
-        {renderPcCollection(false)}
-        {renderCollection('npc')}
-        {renderCollection('location')}
-        {renderQuestCollection(false)}
-        {renderCollection('organization')}
-        {renderCollection('beast')}
-      </>
-    )
-  }
-
   return (
     <nav className={cn('space-y-6', collapsed && 'space-y-2')}>
       <NavLink
@@ -538,7 +277,7 @@ export function Sidebar({ collapsed, onNavigate }: SidebarProps) {
             Story
           </p>
         ) : null}
-        {renderSessions(collapsed)}
+        {renderSessions()}
       </div>
 
       <div>
@@ -552,7 +291,42 @@ export function Sidebar({ collapsed, onNavigate }: SidebarProps) {
             <Globe className="text-muted-foreground size-4" />
           </div>
         )}
-        {renderWorldCollections(collapsed)}
+
+        {collapsed ? (
+          <div className="space-y-1">
+            {worldCollections.map(({ kind }) => {
+              const Icon = ICONS[kind]
+              return (
+                <NavLink
+                  key={kind}
+                  to={collectionTo(kind)}
+                  active={activeKind === kind}
+                  collapsed
+                  title={COLLECTION_LABELS[kind]}
+                  onNavigate={onNavigate}
+                >
+                  <Icon className="size-4" />
+                </NavLink>
+              )
+            })}
+          </div>
+        ) : (
+          worldCollections.map(({ kind, count, groups }) => (
+            <EntityNavCollection
+              key={kind}
+              kind={kind}
+              label={COLLECTION_LABELS[kind]}
+              icon={ICONS[kind]}
+              count={count}
+              expanded={expandedCollections.has(kind)}
+              onToggle={() => toggleCollection(kind)}
+              groups={groups}
+              activeKind={activeKind}
+              activeSlug={activeSlug}
+              onNavigate={onNavigate}
+            />
+          ))
+        )}
       </div>
     </nav>
   )

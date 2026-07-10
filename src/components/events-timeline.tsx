@@ -4,7 +4,6 @@ import { useMemo } from 'react'
 import {
   COLLECTION_LABELS,
   entityLink,
-  sessionTimelineSections,
   type SessionTimelineEntry,
   type SessionTimelineSection,
 } from '#/lib/campaign'
@@ -145,10 +144,6 @@ function buildLayout(sections: SessionTimelineSection[]): Layout {
   }
 }
 
-function formatDaySpan(start: number, end: number): string {
-  return start === end ? `Campaign day ${start}` : `Campaign days ${start}–${end}`
-}
-
 // --- Markers ----------------------------------------------------------------
 
 function Bullet({
@@ -226,23 +221,16 @@ function SessionHeader({ session }: { session: SessionTimelineSection['session']
 
 const pct = (value: number, total: number) => `${(value / total) * 100}%`
 
-export function EventsTimeline() {
-  const sections = useMemo(() => sessionTimelineSections(), [])
+export function EventsTimeline({
+  sections,
+  eventCount,
+  daySpan,
+}: {
+  sections: SessionTimelineSection[]
+  eventCount: number
+  daySpan: string | null
+}) {
   const layout = useMemo(() => buildLayout(sections), [sections])
-
-  const { daySpan, eventCount } = useMemo(() => {
-    const events = sections.flatMap((section) =>
-      section.entries.filter(
-        (entry): entry is Extract<SessionTimelineEntry, { kind: 'event' }> =>
-          entry.kind === 'event',
-      ),
-    )
-    const days = events.map((event) => event.day)
-    return {
-      eventCount: events.length,
-      daySpan: days.length > 0 ? formatDaySpan(Math.min(...days), Math.max(...days)) : null,
-    }
-  }, [sections])
 
   return (
     <div className="space-y-8">

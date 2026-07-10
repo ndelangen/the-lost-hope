@@ -1,96 +1,22 @@
 import { Link, useNavigate, useSearch } from '@tanstack/react-router'
 import { ChevronDown, ChevronRight, List, Map, Search } from 'lucide-react'
-import { useCallback, useMemo, useState, type ReactNode } from 'react'
+import { useCallback, useMemo, useState } from 'react'
 
 import { Badge } from '#/components/ui/badge'
-import {
-  LOCATION_TYPES,
-  LOCATION_TYPE_LABELS,
-  type Location,
-  type LocationType,
-} from '#/definitions/location.ts'
-import {
-  allEntities,
-  contentToText,
-  entityLink,
-  locationAbsolutePosition,
-  locationActivityCount,
-  locationParent,
-  locationTree,
-  mapPlottableLocations,
-  type LocationEntity,
-  type LocationTreeNode,
-} from '#/lib/campaign'
+import { SegmentedControl, SegmentedControlItem } from '#/components/ui/segmented-control'
+import { LOCATION_TYPES, type LocationType } from '#/definitions/location.ts'
+import { allEntities, entityLink } from '#/lib/campaign'
 import { LocationIcon, LocationTypeIcon, locationTypeLabel } from '#/lib/location-icons'
 import { locationsSearchFromTypes, parseLocationFilter } from '#/lib/locations-search'
-import { cn } from '#/lib/utils'
+import {
+  filterLocationDirectory,
+  locationDirectoryTree,
+  locationMapModel,
+  type LocationDirectoryNode,
+  type LocationMapModel,
+} from '#/lib/locations-view-data'
 
 export type LocationsView = 'map' | 'list'
-
-const MAP_WIDTH = 1000
-const MAP_HEIGHT = 500
-const MAP_PADDING = 48
-
-function locationTeaser(location: Location): string {
-  return location.notes ? contentToText(location.notes) : ''
-}
-
-function locationTypeOf(entity: LocationEntity): LocationType | undefined {
-  const data = entity.data as Location
-  return 'type' in data ? data.type : undefined
-}
-
-function matchesType(entity: LocationEntity, activeTypes: Set<LocationType>): boolean {
-  const type = locationTypeOf(entity)
-  return type ? activeTypes.has(type) : true
-}
-
-function SegmentedBar({ children, className }: { children: ReactNode; className?: string }) {
-  return (
-    <fieldset
-      className={cn(
-        'border-border bg-muted/40 inline-flex gap-1.5 rounded-lg border p-1.5',
-        className,
-      )}
-    >
-      {children}
-    </fieldset>
-  )
-}
-
-function SegmentButton({
-  active,
-  onClick,
-  children,
-  label,
-  className,
-}: {
-  active: boolean
-  onClick: () => void
-  children: ReactNode
-  label: string
-  className?: string
-}) {
-  return (
-    <button
-      type="button"
-      onClick={onClick}
-      aria-label={label}
-      aria-pressed={active}
-      title={label}
-      className={cn(
-        'inline-flex shrink-0 items-center justify-center rounded-md border text-sm font-medium transition-[color,background-color,box-shadow,border-color]',
-        'border-transparent shadow-none',
-        active
-          ? 'bg-background text-foreground border-border/50 shadow-sm'
-          : 'text-muted-foreground hover:bg-background/40 hover:text-foreground',
-        className,
-      )}
-    >
-      {children}
-    </button>
-  )
-}
 
 function ViewSwitch({
   value,
@@ -105,9 +31,9 @@ function ViewSwitch({
   ]
 
   return (
-    <SegmentedBar>
+    <SegmentedControl>
       {options.map(({ id, label, icon: Icon }) => (
-        <SegmentButton
+        <SegmentedControlItem
           key={id}
           active={value === id}
           onClick={() => onChange(id)}
@@ -116,9 +42,9 @@ function ViewSwitch({
         >
           <Icon className="size-3.5" aria-hidden />
           {label}
-        </SegmentButton>
+        </SegmentedControlItem>
       ))}
-    </SegmentedBar>
+    </SegmentedControl>
   )
 }
 
@@ -137,9 +63,9 @@ function TypeFilter({
   }
 
   return (
-    <SegmentedBar>
+    <SegmentedControl>
       {LOCATION_TYPES.map((type) => (
-        <SegmentButton
+        <SegmentedControlItem
           key={type}
           active={activeTypes.has(type)}
           onClick={() => toggle(type)}
@@ -147,9 +73,9 @@ function TypeFilter({
           className="size-8 shrink-0"
         >
           <LocationTypeIcon type={type} />
-        </SegmentButton>
+        </SegmentedControlItem>
       ))}
-    </SegmentedBar>
+    </SegmentedControl>
   )
 }
 
@@ -162,8 +88,7 @@ function TypeBadge({ type }: { type: LocationType }) {
   )
 }
 
-function ActivityBadge({ slug }: { slug: string }) {
-  const count = locationActivityCount(slug)
+function ActivityBadge({ count }: { count: number }) {
   if (count === 0) return null
   return (
     <Badge variant="secondary">
@@ -172,75 +97,8 @@ function ActivityBadge({ slug }: { slug: string }) {
   )
 }
 
-function CartographerCanvas({ activeTypes }: { activeTypes: Set<LocationType> }) {
-  const plottable = useMemo(
-    () => mapPlottableLocations().filter((entity) => matchesType(entity, activeTypes)),
-    [activeTypes],
-  )
-
-  const visibleSlugs = useMemo(() => new Set(plottable.map((entity) => entity.slug)), [plottable])
-
-  const bounds = useMemo(() => {
-    const positions = plottable
-      .map((entity) => locationAbsolutePosition(entity.data as Location))
-      .filter((pos): pos is [number, number] => pos !== undefined)
-
-    if (positions.length === 0) {
-      return { minX: 0, minY: 0, maxX: 900, maxY: 400 }
-    }
-
-    const xs = positions.map(([x]) => x)
-    const ys = positions.map(([, y]) => y)
-    return {
-      minX: Math.min(...xs),
-      minY: Math.min(...ys),
-      maxX: Math.max(...xs),
-      maxY: Math.max(...ys),
-    }
-  }, [plottable])
-
-  const scaleX = (x: number) => {
-    const range = bounds.maxX - bounds.minX || 1
-    return MAP_PADDING + ((x - bounds.minX) / range) * (MAP_WIDTH - MAP_PADDING * 2)
-  }
-
-  const scaleY = (y: number) => {
-    const range = bounds.maxY - bounds.minY || 1
-    return MAP_PADDING + ((y - bounds.minY) / range) * (MAP_HEIGHT - MAP_PADDING * 2)
-  }
-
-  const connectors = plottable.flatMap((entity) => {
-    const loc = entity.data as Location
-    const parent = locationParent(loc)
-    if (!parent || parent.slug === 'world' || !visibleSlugs.has(parent.slug)) return []
-
-    const childPos = locationAbsolutePosition(loc)
-    const parentPos = locationAbsolutePosition(parent)
-    if (!childPos || !parentPos) return []
-
-    return [
-      {
-        key: `${parent.slug}-${entity.slug}`,
-        x1: scaleX(parentPos[0]),
-        y1: scaleY(parentPos[1]),
-        x2: scaleX(childPos[0]),
-        y2: scaleY(childPos[1]),
-      },
-    ]
-  })
-
-  const pins = plottable.flatMap((entity) => {
-    const loc = entity.data as Location
-    const type = locationTypeOf(entity)
-    const pos = locationAbsolutePosition(loc)
-    if (!pos || !type) return []
-
-    const cx = scaleX(pos[0])
-    const cy = scaleY(pos[1])
-    return [{ entity, loc, left: (cx / MAP_WIDTH) * 100, top: (cy / MAP_HEIGHT) * 100 }]
-  })
-
-  if (plottable.length === 0) {
+function CartographerCanvas({ map }: { map: LocationMapModel }) {
+  if (map.pins.length === 0) {
     return (
       <p className="text-muted-foreground border-border rounded-lg border px-4 py-8 text-center text-sm">
         No locations match the selected types.
@@ -252,7 +110,7 @@ function CartographerCanvas({ activeTypes }: { activeTypes: Set<LocationType> })
     <div className="border-border relative overflow-hidden rounded-xl border bg-gradient-to-br from-amber-50/80 via-stone-100/90 to-amber-100/60 dark:from-amber-950/30 dark:via-stone-900/50 dark:to-amber-900/20">
       {/* oxlint-disable jsx-a11y/prefer-tag-over-role -- an inline <svg> cannot be an <img>; role="img" + aria-label is the correct pattern */}
       <svg
-        viewBox={`0 0 ${MAP_WIDTH} ${MAP_HEIGHT}`}
+        viewBox={`0 0 ${map.width} ${map.height}`}
         className="w-full"
         role="img"
         aria-label="Campaign world map with location pins"
@@ -268,9 +126,9 @@ function CartographerCanvas({ activeTypes }: { activeTypes: Set<LocationType> })
             />
           </pattern>
         </defs>
-        <rect width={MAP_WIDTH} height={MAP_HEIGHT} fill="url(#world-grid)" />
+        <rect width={map.width} height={map.height} fill="url(#world-grid)" />
 
-        {connectors.map((line) => (
+        {map.connectors.map((line) => (
           <line
             key={line.key}
             x1={line.x1}
@@ -285,18 +143,18 @@ function CartographerCanvas({ activeTypes }: { activeTypes: Set<LocationType> })
       </svg>
       {/* oxlint-enable jsx-a11y/prefer-tag-over-role */}
 
-      {pins.map(({ entity, loc, left, top }) => (
+      {map.pins.map((pin) => (
         <Link
-          key={entity.slug}
-          {...entityLink('location', entity.slug)}
+          key={pin.slug}
+          {...entityLink('location', pin.slug)}
           className="group absolute -translate-x-1/2 -translate-y-1/2"
-          style={{ left: `${left}%`, top: `${top}%` }}
+          style={{ left: `${pin.left}%`, top: `${pin.top}%` }}
         >
           <span className="bg-background border-primary text-primary group-hover:bg-primary group-hover:text-primary-foreground mx-auto flex size-7 items-center justify-center rounded-full border-2 shadow-sm transition-colors">
-            <LocationIcon icon={loc.icon} className="size-3.5" />
+            <LocationIcon icon={pin.icon} className="size-3.5" />
           </span>
           <span className="text-foreground mt-1 block max-w-28 text-center text-[11px] leading-tight font-medium">
-            {loc.name}
+            {pin.name}
           </span>
         </Link>
       ))}
@@ -308,49 +166,16 @@ function CartographerCanvas({ activeTypes }: { activeTypes: Set<LocationType> })
   )
 }
 
-function filterTree(
-  nodes: LocationTreeNode[],
-  query: string,
-  activeTypes: Set<LocationType>,
-): LocationTreeNode[] {
-  const q = query.trim().toLowerCase()
-
-  return nodes.flatMap((node) => {
-    const loc = node.data as Location
-    const teaser = locationTeaser(loc)
-    const type = locationTypeOf(node)
-    const typeLabel = type ? LOCATION_TYPE_LABELS[type] : ''
-    const typeMatch = type ? activeTypes.has(type) : true
-
-    const textMatch =
-      !q ||
-      loc.name.toLowerCase().includes(q) ||
-      teaser.toLowerCase().includes(q) ||
-      typeLabel.toLowerCase().includes(q)
-
-    const filteredChildren = filterTree(node.children, query, activeTypes)
-    const visible = (typeMatch && textMatch) || filteredChildren.length > 0
-
-    if (visible) {
-      return [{ ...node, children: filteredChildren }]
-    }
-    return []
-  })
-}
-
 function TreeNodeRow({
   node,
   depth,
   forceOpen,
 }: {
-  node: LocationTreeNode
+  node: LocationDirectoryNode
   depth: number
   forceOpen: boolean
 }) {
   const [open, setOpen] = useState(depth < 1)
-  const loc = node.data as Location
-  const type = locationTypeOf(node)
-  const teaser = locationTeaser(loc)
   const hasChildren = node.children.length > 0
   const isOpen = forceOpen || open
 
@@ -378,13 +203,13 @@ function TreeNodeRow({
             {...entityLink('location', node.slug)}
             className="flex flex-wrap items-center gap-2"
           >
-            <LocationIcon icon={loc.icon} className="text-primary/70 size-4" />
-            <span className="font-medium">{loc.name}</span>
-            {type ? <TypeBadge type={type} /> : null}
-            <ActivityBadge slug={node.slug} />
+            <LocationIcon icon={node.icon} className="text-primary/70 size-4" />
+            <span className="font-medium">{node.name}</span>
+            {node.type ? <TypeBadge type={node.type} /> : null}
+            <ActivityBadge count={node.activityCount} />
           </Link>
-          {teaser ? (
-            <p className="text-muted-foreground mt-0.5 line-clamp-2 text-xs">{teaser}</p>
+          {node.teaser ? (
+            <p className="text-muted-foreground mt-0.5 line-clamp-2 text-xs">{node.teaser}</p>
           ) : null}
         </div>
       </div>
@@ -400,10 +225,18 @@ function TreeNodeRow({
   )
 }
 
-function LocationDirectory({ activeTypes }: { activeTypes: Set<LocationType> }) {
+function LocationDirectory({
+  tree,
+  activeTypes,
+}: {
+  tree: LocationDirectoryNode[]
+  activeTypes: Set<LocationType>
+}) {
   const [query, setQuery] = useState('')
-  const tree = useMemo(() => locationTree(), [])
-  const filtered = useMemo(() => filterTree(tree, query, activeTypes), [tree, query, activeTypes])
+  const filtered = useMemo(
+    () => filterLocationDirectory(tree, query, activeTypes),
+    [tree, query, activeTypes],
+  )
   const forceOpen = query.trim().length > 0 || activeTypes.size < LOCATION_TYPES.length
 
   return (
@@ -443,7 +276,7 @@ function locationsPath(view: LocationsView): '/locations/map' | '/locations/list
   return view === 'map' ? '/locations/map' : '/locations/list'
 }
 
-export function LocationsIndex({ view }: { view: LocationsView }) {
+export function LocationsScreen({ view }: { view: LocationsView }) {
   const navigate = useNavigate()
   const search = useSearch({ strict: false })
   const activeTypes = useMemo(
@@ -451,6 +284,11 @@ export function LocationsIndex({ view }: { view: LocationsView }) {
     [search.filter],
   )
   const count = allEntities('location').length - 1
+  const map = useMemo(
+    () => (view === 'map' ? locationMapModel(activeTypes) : undefined),
+    [activeTypes, view],
+  )
+  const tree = useMemo(() => (view === 'list' ? locationDirectoryTree() : undefined), [view])
 
   const setActiveTypes = useCallback(
     (types: Set<LocationType>) => {
@@ -493,8 +331,8 @@ export function LocationsIndex({ view }: { view: LocationsView }) {
         </div>
       </header>
 
-      {view === 'map' ? <CartographerCanvas activeTypes={activeTypes} /> : null}
-      {view === 'list' ? <LocationDirectory activeTypes={activeTypes} /> : null}
+      {map ? <CartographerCanvas map={map} /> : null}
+      {tree ? <LocationDirectory tree={tree} activeTypes={activeTypes} /> : null}
     </div>
   )
 }
