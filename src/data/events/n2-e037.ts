@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Meet Victor the lumberjack and Abraham the donkey',
-  date: new Date('2026-08-18T08:00'),
+  day: 10,
   location: refs.locations.badesh_forest,
   mark: { type: 'icon', name: 'gi/GiPineTree' },
   notes: [

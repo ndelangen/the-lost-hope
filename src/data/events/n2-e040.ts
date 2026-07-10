@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: "Reach Badesh, Victor's hometown",
-  date: new Date('2026-08-18T16:00'),
+  day: 10,
   location: refs.locations.badesh,
   mark: { type: 'icon', name: 'gi/GiPineTree' },
   notes: [

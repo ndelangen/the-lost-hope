@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Pirate asks the dragon children to fly the party down',
-  date: new Date('2026-08-17T21:00'),
+  day: 9,
   location: refs.locations.mountain_top,
   mark: { type: 'icon', name: 'gi/GiFeather' },
   notes: [
@@ -11,7 +11,7 @@ export default createEvent({
       'The pirate PC (',
       refs.pcs.swift_starblade,
       ') had the audacity to ask if the ',
-      refs.npcs.dragon_children,
+      refs.beasts.dragon_children,
       ' might fly the party down the mountain.',
     ],
     ['On a natural 20, all party members got to fly a dragon down.'],

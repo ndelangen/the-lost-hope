@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: "Fajanet's 5-day festival — no tentacles at night",
-  date: new Date('2026-08-12T00:00'),
+  day: 4,
   location: refs.locations.fajanet,
   mark: { type: 'icon', name: 'fa/FaGlassCheers' },
   notes: [

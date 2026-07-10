@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Visit the exotic animal dealer',
-  date: new Date('2026-08-10T12:00'),
+  day: 2,
   location: refs.locations.fajanet,
   mark: { type: 'icon', name: 'fa/FaMapMarkerAlt' },
   notes: [

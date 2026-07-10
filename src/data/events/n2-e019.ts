@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Return to the guildhall with 2 of 3 animals',
-  date: new Date('2026-08-10T19:00'),
+  day: 2,
   location: refs.locations.fajanet_guildhall,
   mark: { type: 'icon', name: 'fa/FaLandmark' },
   notes: [

@@ -11,7 +11,7 @@ export default createNPC({
       'A giant spider in the ',
       refs.locations.fajanet_tunnels,
       ', guarding the ',
-      refs.npcs.phoenix_chick,
+      refs.beasts.phoenix_chick,
       ' in a cocoon. Why it was guarding a phoenix — its own prey, or on behalf of someone like the missing-animal dealer — is unexplained.',
     ],
   ],

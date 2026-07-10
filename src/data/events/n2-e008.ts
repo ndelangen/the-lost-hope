@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: "Children's laughter outside",
-  date: new Date('2026-08-09T23:30'),
+  day: 1,
   location: refs.locations.the_nest,
   mark: { type: 'icon', name: 'gi/GiGhost' },
   notes: [

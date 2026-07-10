@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Settle into the Fairhaven guildhall',
-  date: new Date('2026-08-20T12:00'),
+  day: 12,
   location: refs.locations.fairhaven_guildhall,
   mark: { type: 'icon', name: 'fa/FaLandmark' },
   notes: [

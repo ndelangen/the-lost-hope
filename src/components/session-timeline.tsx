@@ -26,7 +26,7 @@ function TimelineBullet({
   )
 }
 
-function DayHeading({ day, date, isFirst }: { day: number; date: Date; isFirst: boolean }) {
+function DayHeading({ day, isFirst }: { day: number; isFirst: boolean }) {
   return (
     <h3
       className={cn(
@@ -34,10 +34,7 @@ function DayHeading({ day, date, isFirst }: { day: number; date: Date; isFirst: 
         !isFirst && 'border-border border-t',
       )}
     >
-      Day {day}
-      <span className="text-muted-foreground/70 ml-2 font-normal normal-case">
-        · {date.toLocaleDateString(undefined, { dateStyle: 'long' })}
-      </span>
+      Campaign day {day}
     </h3>
   )
 }
@@ -68,9 +65,6 @@ function EventCard({ event }: { event: Event }) {
           </Link>
         </p>
         <div className="flex flex-wrap items-center gap-2">
-          <span className="text-muted-foreground text-xs">
-            {event.date.toLocaleTimeString(undefined, { timeStyle: 'short' })}
-          </span>
           {place ? (
             <span className="relative z-10">
               <LocationReference slug={place.slug} />
@@ -112,7 +106,7 @@ export function SessionTimeline({ session }: { session: Session }) {
       <div className="space-y-6">
         {days.map((day, index) => (
           <div key={`day-${day.day}`} className={cn('space-y-4', index > 0 && 'mt-6')}>
-            <DayHeading day={day.day} date={day.date} isFirst={index === 0} />
+            <DayHeading day={day.day} isFirst={index === 0} />
             <DayEvents events={day.events} />
           </div>
         ))}

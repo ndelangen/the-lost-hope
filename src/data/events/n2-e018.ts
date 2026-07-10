@@ -3,13 +3,13 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Recover a displacer beast (animal 2/3)',
-  date: new Date('2026-08-10T16:00'),
+  day: 2,
   location: refs.locations.fajanet,
   mark: { type: 'icon', name: 'fa/FaMapMarkerAlt' },
   notes: [
     [
       'The party searched for the second missing animal. It turned out to be a ',
-      refs.npcs.displacer_beast,
+      refs.beasts.displacer_beast,
       '.',
     ],
     [

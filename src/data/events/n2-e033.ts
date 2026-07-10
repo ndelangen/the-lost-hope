@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Meet the angel and the dragon (husband and wife)',
-  date: new Date('2026-08-17T20:00'),
+  day: 9,
   location: refs.locations.mountain_top,
   mark: { type: 'icon', name: 'hi/HiSparkles' },
   notes: [
@@ -16,7 +16,7 @@ export default createEvent({
     ],
     [
       'They are husband and wife. They have many children, all dragons (',
-      refs.npcs.dragon_children,
+      refs.beasts.dragon_children,
       ').',
     ],
     [

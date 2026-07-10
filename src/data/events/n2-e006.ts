@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Night falls; tavern closes up',
-  date: new Date('2026-08-09T19:00'),
+  day: 1,
   location: refs.locations.the_nest,
   mark: { type: 'icon', name: 'fa/FaMoon' },
   notes: [

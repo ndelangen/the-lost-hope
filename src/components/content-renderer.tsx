@@ -9,23 +9,14 @@ import type { Reference } from '#/definitions/reference.ts'
 import { entityLink, refLink, type EntityKind } from '#/lib/campaign'
 import { cn } from '#/lib/utils'
 
-type Media = Extract<Content, { url: string }>
+type ContentParagraph = Content[number]
+type ContentAtom = ContentParagraph[number]
+type Media = Extract<ContentAtom, { url: string }>
 
-export function ContentRenderer({
-  content,
-  className,
-}: {
-  content: Content | Content[]
-  className?: string
-}) {
-  const items =
-    Array.isArray(content) && !isReference(content) && !isMedia(content)
-      ? content
-      : [content as Content]
-
+export function ContentRenderer({ content, className }: { content: Content; className?: string }) {
   return (
     <div className={cn('space-y-3 text-sm leading-relaxed', className)}>
-      {items.map((item, index) => (
+      {content.map((item, index) => (
         // oxlint-disable-next-line react/no-array-index-key -- content parts lack stable ids
         <ContentPart key={index} part={item} />
       ))}
@@ -33,7 +24,7 @@ export function ContentRenderer({
   )
 }
 
-function ContentPart({ part }: { part: Content }) {
+function ContentPart({ part }: { part: ContentParagraph | ContentAtom }) {
   if (typeof part === 'string') {
     return <p>{part}</p>
   }
@@ -99,7 +90,7 @@ function ContentPart({ part }: { part: Content }) {
  * Renders a flat array of plain-text segments and entity references as one
  * paragraph — text flows together with references as inline links.
  */
-function InlineRun({ items }: { items: Content[] }) {
+function InlineRun({ items }: { items: ContentParagraph }) {
   return (
     <p className="leading-relaxed">
       {items.map((item, index) => {
@@ -143,7 +134,10 @@ function InlineRun({ items }: { items: Content[] }) {
 export function ContentBlocks({ content, className }: { content: Content; className?: string }) {
   return (
     <div className={cn('space-y-2', className)}>
-      <ContentPart part={content} />
+      {content.map((part, index) => (
+        // oxlint-disable-next-line react/no-array-index-key -- content parts lack stable ids
+        <ContentPart key={index} part={part} />
+      ))}
     </div>
   )
 }
@@ -153,7 +147,7 @@ function isReference(value: unknown): value is Reference {
 }
 
 /** True when every element is a plain-text/ref atom, i.e. the array is one paragraph. */
-function isInlineRun(items: Content[]): boolean {
+function isInlineRun(items: ContentParagraph): boolean {
   return items.every((item) => typeof item === 'string' || isReference(item))
 }
 

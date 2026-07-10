@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Puzzle room with 5 elements chasing each other',
-  date: new Date('2026-08-17T18:00'),
+  day: 9,
   location: refs.locations.puzzle_room,
   mark: { type: 'icon', name: 'gi/GiPuzzle' },
   notes: [

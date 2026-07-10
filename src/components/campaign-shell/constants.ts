@@ -31,7 +31,3 @@ export const STORAGE_KEYS = {
   sidebarCollapsed: 'dag:sidebar:collapsed',
   formerPcsExpanded: 'dag:sidebar:former-pcs',
 } as const
-
-export function formatDayDate(date: Date): string {
-  return date.toLocaleDateString(undefined, { month: 'short', day: 'numeric' })
-}

@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'The guild tattoo ritual',
-  date: new Date('2026-08-10T10:30'),
+  day: 2,
   location: refs.locations.fajanet_guildhall,
   mark: { type: 'icon', name: 'hi/HiSparkles' },
   notes: [

@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Lost in the shadow realm',
-  date: new Date('2026-08-17T10:00'),
+  day: 9,
   location: refs.locations.shadow_realm,
   mark: { type: 'icon', name: 'fa/FaMoon' },
   notes: [

@@ -49,7 +49,7 @@ export default createQuest({
       ' reportedly has to do something every so often to appease the ',
       refs.npcs.dragon_of_the_mountain,
       ' and the ',
-      refs.npcs.dragon_children,
+      refs.beasts.dragon_children,
       '. What the recurring obligation is, and what happens if he stops, is unknown.',
     ],
     [

@@ -1,4 +1,5 @@
 import type {
+  BeastKey,
   EventKey,
   LocationKey,
   NpcKey,
@@ -19,6 +20,7 @@ function ns<K extends string>(kind: EntityKind): { [P in K]: EntityRef } {
 }
 
 export const refs = {
+  beasts: ns<BeastKey>('beast'),
   events: ns<EventKey>('event'),
   npcs: ns<NpcKey>('npc'),
   pcs: ns<PcKey>('pc'),

@@ -47,17 +47,17 @@ export const EVENTS_KEYS = [
 ] as const
 export type EventKey = (typeof EVENTS_KEYS)[number]
 
+export const BEASTS_KEYS = ['displacer_beast', 'dragon_children', 'phoenix_chick'] as const
+export type BeastKey = (typeof BEASTS_KEYS)[number]
+
 export const NPCS_KEYS = [
   'abraham',
   'angel_of_the_mountain',
   'bob_the_gate_troll',
-  'displacer_beast',
-  'dragon_children',
   'dragon_of_the_mountain',
   'giant_spider',
   'goblin_grass_keepers',
   'mystery_girl',
-  'phoenix_chick',
   'rare_animal_dealer',
   'samantha',
   'the_father',

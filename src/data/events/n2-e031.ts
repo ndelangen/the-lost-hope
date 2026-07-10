@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Pass through a holy site into the mountains',
-  date: new Date('2026-08-17T16:00'),
+  day: 9,
   location: refs.locations.holy_site,
   mark: { type: 'icon', name: 'fa/FaChurch' },
   notes: [

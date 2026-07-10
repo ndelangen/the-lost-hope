@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Friendly goblin grass-keepers try to kidnap Mr. Peace',
-  date: new Date('2026-08-11T22:00'),
+  day: 3,
   location: refs.locations.fajanet,
   mark: { type: 'icon', name: 'fa/FaMapMarkerAlt' },
   notes: [

@@ -23,6 +23,7 @@ import type { Session } from '#/definitions/session.ts'
 export type { EntityKind }
 
 export type {
+  BeastKey,
   EventKey,
   LocationKey,
   NpcKey,
@@ -53,6 +54,7 @@ export const COLLECTIONS: EntityKind[] = [
   'event',
   'location',
   'npc',
+  'beast',
   'pc',
   'quest',
   'organization',
@@ -91,7 +93,7 @@ const REGISTRIES = {
   organization: organizations,
 } as const
 
-export { campaign, pcs, npcs, locations, events, sessions, quests, organizations }
+export { beasts, campaign, events, locations, npcs, organizations, pcs, quests, sessions }
 
 export function resolveRef(ref: EntityRef): Entity | undefined {
   const registry = REGISTRIES[ref.ref] as Record<string, { slug: string; name: string }>
@@ -507,50 +509,49 @@ export function sortedSessions(): EntityOf<'session'>[] {
 
 export type SessionDay = {
   day: number
-  date: Date
   events: Event[]
 }
 
 export function sessionDays(session: Session): SessionDay[] {
-  const byDate = new Map<string, Event[]>()
+  const byDay = new Map<number, Event[]>()
 
   for (const event of sessionEvents(session)) {
-    const key = event.date.toISOString().slice(0, 10)
-    const dayEvents = byDate.get(key) ?? []
+    const dayEvents = byDay.get(event.day) ?? []
     dayEvents.push(event)
-    byDate.set(key, dayEvents)
+    byDay.set(event.day, dayEvents)
   }
 
-  return [...byDate.entries()]
-    .toSorted(([a], [b]) => a.localeCompare(b))
-    .map(([key, dayEvents], index) => ({
-      day: index + 1,
-      date: new Date(key),
-      events: dayEvents.toSorted((a, b) => a.date.getTime() - b.date.getTime()),
+  return [...byDay.entries()]
+    .toSorted(([a], [b]) => a - b)
+    .map(([day, dayEvents]) => ({
+      day,
+      events: dayEvents,
     }))
 }
 
+export function campaignEvents(): EntityOf<'event'>[] {
+  return campaign.sessions.flatMap((session) =>
+    sessionEvents(session).map((data) => ({ kind: 'event' as const, slug: data.slug, data })),
+  )
+}
+
 export function sortedEvents(): EntityOf<'event'>[] {
-  return allEntities('event').toSorted((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  return campaignEvents().toReversed()
 }
 
 export type SessionTimelineEntry =
-  | { kind: 'day'; date: Date; label: string }
+  | { kind: 'day'; day: number }
   | {
       kind: 'event'
-      date: Date
+      day: number
       slug: string
       name: string
       mark: EventMark
     }
 
 export type SessionTimelineSection = {
-  session: { slug: string; number: number; name: string; date: Date }
+  session: { slug: string; number: number; name: string }
   entries: SessionTimelineEntry[]
-}
-
-function formatDayLabel(date: Date): string {
-  return date.toLocaleDateString(undefined, { month: 'short', day: 'numeric' })
 }
 
 export function sessionTimelineSections(): SessionTimelineSection[] {
@@ -560,11 +561,11 @@ export function sessionTimelineSections(): SessionTimelineSection[] {
 
     const entries: SessionTimelineEntry[] = []
     for (const day of sessionDays(session)) {
-      entries.push({ kind: 'day', date: day.date, label: formatDayLabel(day.date) })
+      entries.push({ kind: 'day', day: day.day })
       for (const event of day.events) {
         entries.push({
           kind: 'event',
-          date: event.date,
+          day: event.day,
           slug: event.slug,
           name: event.name,
           mark: event.mark,
@@ -578,7 +579,6 @@ export function sessionTimelineSections(): SessionTimelineSection[] {
           slug: session.slug,
           number,
           name: session.name,
-          date: session.date,
         },
         entries,
       },

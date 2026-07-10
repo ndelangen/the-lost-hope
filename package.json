@@ -10,11 +10,14 @@
     "build": "vite build",
     "preview": "vite preview",
     "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
     "lint": "oxlint",
     "lint:fix": "oxlint --fix",
     "fmt": "oxfmt",
     "fmt:check": "oxfmt --check",
-    "check": "oxlint && oxfmt --check"
+    "check": "bun run typecheck && bun run lint && bun run fmt:check",
+    "verify": "bun run check && bun run test && bun run build"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.20",

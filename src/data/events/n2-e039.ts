@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Hunted by a small group of dinos',
-  date: new Date('2026-08-18T10:30'),
+  day: 10,
   location: refs.locations.badesh_forest,
   mark: { type: 'icon', name: 'gi/GiCrossedSwords' },
   notes: [

@@ -145,9 +145,8 @@ function buildLayout(sections: SessionTimelineSection[]): Layout {
   }
 }
 
-function formatDateSpan(start: Date, end: Date): string {
-  const opts: Intl.DateTimeFormatOptions = { month: 'short', day: 'numeric', year: 'numeric' }
-  return `${start.toLocaleDateString(undefined, opts)} – ${end.toLocaleDateString(undefined, opts)}`
+function formatDaySpan(start: number, end: number): string {
+  return start === end ? `Campaign day ${start}` : `Campaign days ${start}–${end}`
 }
 
 // --- Markers ----------------------------------------------------------------
@@ -200,7 +199,7 @@ function EventBullet({ entry }: { entry: Extract<SessionTimelineEntry, { kind: '
 function DayBullet({ entry }: { entry: Extract<SessionTimelineEntry, { kind: 'day' }> }) {
   return (
     <Bullet
-      label={`New day · ${entry.label}`}
+      label={`Campaign day ${entry.day}`}
       className="border-2 border-amber-400/70 bg-amber-50 shadow-sm dark:bg-amber-950/50"
     >
       <EventMarkIcon name={DAY_MARK_ICON} className="size-5 text-amber-500" />
@@ -231,17 +230,17 @@ export function EventsTimeline() {
   const sections = useMemo(() => sessionTimelineSections(), [])
   const layout = useMemo(() => buildLayout(sections), [sections])
 
-  const { dateSpan, eventCount } = useMemo(() => {
+  const { daySpan, eventCount } = useMemo(() => {
     const events = sections.flatMap((section) =>
       section.entries.filter(
         (entry): entry is Extract<SessionTimelineEntry, { kind: 'event' }> =>
           entry.kind === 'event',
       ),
     )
+    const days = events.map((event) => event.day)
     return {
       eventCount: events.length,
-      dateSpan:
-        events.length > 0 ? formatDateSpan(events[0].date, events[events.length - 1].date) : null,
+      daySpan: days.length > 0 ? formatDaySpan(Math.min(...days), Math.max(...days)) : null,
     }
   }, [sections])
 
@@ -254,7 +253,7 @@ export function EventsTimeline() {
         <h1 className="mt-1 text-3xl font-bold tracking-tight">{COLLECTION_LABELS.event}</h1>
         <p className="text-muted-foreground mt-2">
           {eventCount} events across {sections.length} sessions
-          {dateSpan ? ` · ${dateSpan}` : null}
+          {daySpan ? ` · ${daySpan}` : null}
         </p>
       </header>
 
@@ -316,7 +315,7 @@ export function EventsTimeline() {
                 key={
                   bullet.node.kind === 'event'
                     ? `event-${bullet.node.slug}`
-                    : `day-${section.session.slug}-${bullet.node.label}-${bullet.y}`
+                    : `day-${section.session.slug}-${bullet.node.day}-${bullet.y}`
                 }
                 className="absolute z-10 -translate-x-1/2 -translate-y-1/2 hover:z-40"
                 style={{ left: pct(bullet.x, layout.width), top: pct(bullet.y, layout.height) }}

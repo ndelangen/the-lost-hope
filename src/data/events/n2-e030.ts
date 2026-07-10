@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Reach a cliff with a sign',
-  date: new Date('2026-08-17T14:00'),
+  day: 9,
   location: refs.locations.mountain_cliff,
   mark: { type: 'icon', name: 'fa/FaSign' },
   notes: [

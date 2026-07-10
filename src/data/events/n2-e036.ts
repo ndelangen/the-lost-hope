@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'The dwarf and the pirate go missing',
-  date: new Date('2026-08-17T23:00'),
+  day: 9,
   location: refs.locations.badesh_forest,
   mark: { type: 'icon', name: 'fa/FaUserTimes' },
   notes: [

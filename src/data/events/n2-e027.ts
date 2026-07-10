@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Meet Light in the morning and leave Fajanet',
-  date: new Date('2026-08-17T08:00'),
+  day: 9,
   location: refs.locations.fajanet,
   mark: { type: 'icon', name: 'gi/GiFootsteps' },
   notes: [

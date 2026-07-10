@@ -23,7 +23,7 @@ export const EventSchema = deriveSlug(
   z.strictObject({
     name: z.string(),
     notes: Content,
-    date: z.date(),
+    day: z.number().int().positive(),
     location: EntityRefSchema,
     mark: EventMark,
     image: MediaUrl.optional(),

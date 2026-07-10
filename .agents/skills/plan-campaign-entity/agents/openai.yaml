@@ -1,0 +1,4 @@
+interface:
+  display_name: 'Plan Campaign Entity'
+  short_description: 'Plan reference-first campaign entity changes'
+  default_prompt: 'Use $plan-campaign-entity to plan this campaign change without duplicating canon.'

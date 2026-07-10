@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Find a phoenix feather in an offshoot',
-  date: new Date('2026-08-10T13:30'),
+  day: 2,
   location: refs.locations.fajanet_tunnels,
   mark: { type: 'icon', name: 'gi/GiFeather' },
   notes: [

@@ -24,7 +24,7 @@ export default createQuest({
     ],
     [
       'Animal #2 (Displacer Beast): party succeeded in capturing the ',
-      refs.npcs.displacer_beast,
+      refs.beasts.displacer_beast,
       ' and returning it.',
     ],
     ['Animal #3: unidentified. The party ran out of time and did NOT bring back the third animal.'],

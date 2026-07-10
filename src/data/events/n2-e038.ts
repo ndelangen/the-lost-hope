@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Dinos ridden toward Fairhaven',
-  date: new Date('2026-08-18T10:00'),
+  day: 10,
   location: refs.locations.badesh_forest,
   mark: { type: 'icon', name: 'gi/GiForestCamp' },
   notes: [

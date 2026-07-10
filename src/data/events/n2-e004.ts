@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Meet Bob the gate troll',
-  date: new Date('2026-08-09T15:30'),
+  day: 1,
   location: refs.locations.fajanet,
   mark: { type: 'icon', name: 'fa/FaDoorOpen' },
   notes: [

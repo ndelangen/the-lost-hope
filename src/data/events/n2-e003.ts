@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Two zombies attack at the docks',
-  date: new Date('2026-08-09T15:00'),
+  day: 1,
   location: refs.locations.fajanet,
   mark: { type: 'icon', name: 'gi/GiCrossedSwords' },
   notes: [

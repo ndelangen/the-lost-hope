@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Month-long boat journey',
-  date: new Date('2026-08-09T08:00'),
+  day: 1,
   location: refs.locations.the_boat_to_fajanet_celesta,
   mark: { type: 'icon', name: 'gi/GiSailboat' },
   notes: [

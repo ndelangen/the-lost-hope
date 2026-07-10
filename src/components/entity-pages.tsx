@@ -8,6 +8,7 @@ import { OrganizationReference } from '#/components/organization-reference'
 import { SessionTimeline } from '#/components/session-timeline'
 import { Badge } from '#/components/ui/badge'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '#/components/ui/card'
+import type { Beast } from '#/definitions/beast.ts'
 import type { Event } from '#/definitions/event.ts'
 import type { Location } from '#/definitions/location.ts'
 import type { NPC } from '#/definitions/npc.ts'
@@ -32,6 +33,7 @@ import {
   organizationMembers,
   pcStatLine,
   reverseLinks,
+  resolveRef,
   sessionNumber,
   sessionPcs,
   type Entity,
@@ -206,6 +208,26 @@ function renderHeader(entity: Entity) {
         </header>
       )
     }
+    case 'beast': {
+      const beast = entity.data as Beast
+      const locationEntity = beast.location ? resolveRef(beast.location) : undefined
+      const home = locationEntity?.kind === 'location' ? locationEntity.data : undefined
+      return (
+        <header className="flex flex-col gap-4 sm:flex-row sm:items-start">
+          <Portrait src={beast.avatar} alt={beast.name} />
+          <div className="space-y-3">
+            <p className="text-muted-foreground text-xs font-semibold tracking-wider uppercase">
+              Beast
+            </p>
+            <h1 className="text-4xl font-bold tracking-tight">{beast.name}</h1>
+            <div className="flex flex-wrap gap-2">
+              {beast.species ? <Badge variant="outline">{beast.species}</Badge> : null}
+              {home ? <LocationReference slug={home.slug} /> : null}
+            </div>
+          </div>
+        </header>
+      )
+    }
     case 'location': {
       const location = entity.data as Location
       const ancestors = locationAncestors(location)
@@ -281,7 +303,7 @@ function renderHeader(entity: Entity) {
           <div className="text-muted-foreground flex flex-wrap gap-2 text-sm">
             <span className="border-border inline-flex items-center gap-1 rounded-full border px-2.5 py-1">
               <Calendar className="size-3.5" />
-              {event.date.toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' })}
+              Campaign day {event.day}
             </span>
             {place ? <LocationReference slug={place.slug} /> : null}
           </div>
@@ -415,7 +437,6 @@ function SessionParty({ session }: { session: Session }) {
 function renderBody(entity: Entity) {
   switch (entity.kind) {
     case 'pc':
-    case 'beast':
     case 'npc': {
       const character = entity.data as PC | NPC
       const notes = 'notes' in character ? character.notes : undefined
@@ -425,6 +446,10 @@ function renderBody(entity: Entity) {
           {notes ? <ContentRenderer content={notes} /> : null}
         </div>
       )
+    }
+    case 'beast': {
+      const beast = entity.data as Beast
+      return beast.notes ? <ContentRenderer content={beast.notes} /> : null
     }
     case 'location': {
       const location = entity.data as Location

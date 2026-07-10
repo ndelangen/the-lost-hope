@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Guild tattoos pass for papers at the gate',
-  date: new Date('2026-08-20T10:00'),
+  day: 12,
   location: refs.locations.fairhaven,
   mark: { type: 'icon', name: 'fa/FaPassport' },
   notes: [

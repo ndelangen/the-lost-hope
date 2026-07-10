@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Light instructs the party to use the trapdoor',
-  date: new Date('2026-08-17T09:00'),
+  day: 9,
   location: refs.locations.fajanet,
   mark: { type: 'icon', name: 'fa/FaDoorOpen' },
   notes: [

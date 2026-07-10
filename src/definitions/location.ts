@@ -43,7 +43,7 @@ const locationFields = {
       'Other names the same place is known by (e.g. an in-world second name). The canonical `name` drives the slug; aliases are display-only and searchable.',
     ),
   notes: Content.optional().describe(
-    'Prose describing what the location is and how it looks. Locations have no `notes` — card teaser and page body both read from this. Mix text and `refs.*` tokens for entity links; never narrate events here.',
+    'The single home for prose describing what the location is and how it looks. The card teaser and page body both read from it. Mix text and `refs.*` tokens for entity links; never narrate events here.',
   ),
   map: z
     .strictObject({

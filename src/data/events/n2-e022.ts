@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: "William's bathroom experience",
-  date: new Date('2026-08-10T22:00'),
+  day: 2,
   location: refs.locations.fajanet_guildhall,
   mark: { type: 'icon', name: 'fa/FaDoorOpen' },
   notes: [

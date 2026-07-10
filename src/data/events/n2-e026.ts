@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Two new PCs join on the last day in Fajanet',
-  date: new Date('2026-08-16T18:00'),
+  day: 8,
   location: refs.locations.fajanet,
   mark: { type: 'icon', name: 'fa/FaUserPlus' },
   notes: [

@@ -1,7 +1,7 @@
 #!/usr/bin/env bun
 /**
  * Reference mapping of timeline marks for all events.
- * Marks follow rules in .cursor/skills/plan-campaign-entity/SKILL.md
+ * Marks follow rules in .agents/skills/plan-campaign-entity/SKILL.md
  */
 import { readFileSync, writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'

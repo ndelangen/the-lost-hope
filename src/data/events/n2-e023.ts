@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Mr. Peace joins for one session',
-  date: new Date('2026-08-11T09:00'),
+  day: 3,
   location: refs.locations.fajanet,
   mark: { type: 'avatar', url: '/assets/pcs/mr-peace.png' },
   notes: [

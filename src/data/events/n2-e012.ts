@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Bulletin board — pick a quest',
-  date: new Date('2026-08-10T11:00'),
+  day: 2,
   location: refs.locations.fajanet_guildhall,
   mark: { type: 'icon', name: 'fa/FaScroll' },
   notes: [

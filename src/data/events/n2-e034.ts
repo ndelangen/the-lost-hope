@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Zone of truth — each PC questioned',
-  date: new Date('2026-08-17T20:30'),
+  day: 9,
   location: refs.locations.mountain_top,
   mark: { type: 'icon', name: 'fa/FaBalanceScale' },
   notes: [

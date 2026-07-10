@@ -18,6 +18,7 @@ import {
   allEntities,
   collectionKindFromPath,
   COLLECTION_LABELS,
+  collectionTo,
   entityHref,
   entityLink,
   entitySlugFromPath,
@@ -33,13 +34,7 @@ import {
 } from '#/lib/campaign'
 import { cn } from '#/lib/utils'
 
-import {
-  formatDayDate,
-  ICONS,
-  SIDEBAR_COLLECTIONS,
-  STORAGE_KEYS,
-  type SidebarCollection,
-} from './constants'
+import { ICONS, SIDEBAR_COLLECTIONS, STORAGE_KEYS, type SidebarCollection } from './constants'
 import { EntityNavRow, NavLink, SectionHeader } from './nav'
 import { NowBlock } from './now-block'
 import {
@@ -184,10 +179,7 @@ export function Sidebar({ collapsed, onNavigate }: SidebarProps) {
                     {days.map((day) => (
                       <li key={`${session.slug}-day-${day.day}`}>
                         <p className="text-muted-foreground px-1.5 py-0.5 text-[11px] font-semibold tracking-wide uppercase">
-                          Day {day.day}
-                          <span className="text-muted-foreground/70 ml-1.5 font-normal normal-case">
-                            · {formatDayDate(day.date)}
-                          </span>
+                          Campaign day {day.day}
                         </p>
                         <ul className="space-y-0.5">
                           {day.events.map((event) => {
@@ -457,7 +449,7 @@ export function Sidebar({ collapsed, onNavigate }: SidebarProps) {
             ))}
             <li>
               <Link
-                to={'/' + kind}
+                to={collectionTo(kind)}
                 className="text-primary block px-2 py-1 text-xs hover:underline"
                 onClick={onNavigate}
               >
@@ -472,6 +464,7 @@ export function Sidebar({ collapsed, onNavigate }: SidebarProps) {
 
   const renderWorldCollections = (isCollapsed: boolean) => {
     if (isCollapsed) {
+      const BeastIcon = ICONS.beast
       return (
         <div className="space-y-1">
           {renderPcCollection(true)}
@@ -499,6 +492,14 @@ export function Sidebar({ collapsed, onNavigate }: SidebarProps) {
             onClick={onNavigate}
           >
             <Building2 className="size-4" />
+          </Link>
+          <Link
+            to="/beasts"
+            className="text-muted-foreground hover:text-foreground hover:bg-muted flex justify-center rounded-md p-2"
+            title={COLLECTION_LABELS.beast}
+            onClick={onNavigate}
+          >
+            <BeastIcon className="size-4" />
           </Link>
         </div>
       )

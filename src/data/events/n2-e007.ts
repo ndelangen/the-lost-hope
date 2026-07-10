@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Shadowy tentacles grab the dwarf',
-  date: new Date('2026-08-09T23:00'),
+  day: 1,
   location: refs.locations.the_nest,
   mark: { type: 'icon', name: 'gi/GiWaveCrest' },
   notes: [

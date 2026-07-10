@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Giant spider guarding a young phoenix',
-  date: new Date('2026-08-10T14:00'),
+  day: 2,
   location: refs.locations.fajanet_tunnels,
   mark: { type: 'icon', name: 'gi/GiCrossedSwords' },
   notes: [
@@ -15,7 +15,7 @@ export default createEvent({
     [refs.pcs.jim, ' freed the phoenix from the cocoon.'],
     [
       'The young ',
-      refs.npcs.phoenix_chick,
+      refs.beasts.phoenix_chick,
       ' bonded with Jim narratively (DM was vague on mechanics).',
     ],
     ['The party killed the giant spider.'],

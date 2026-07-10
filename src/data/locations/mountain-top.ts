@@ -14,7 +14,7 @@ export default createLocation({
       ', the ',
       refs.npcs.dragon_of_the_mountain,
       ', and their ',
-      refs.npcs.dragon_children,
+      refs.beasts.dragon_children,
       '.',
     ],
   ],

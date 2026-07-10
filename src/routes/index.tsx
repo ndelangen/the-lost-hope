@@ -1,5 +1,5 @@
 import { Link, createFileRoute } from '@tanstack/react-router'
-import { ArrowRight, BookOpen, Building2, MapPin, ScrollText, Users } from 'lucide-react'
+import { ArrowRight, BookOpen, Building2, Dog, MapPin, ScrollText, Users } from 'lucide-react'
 
 import { ContentRenderer } from '#/components/content-renderer'
 import { Badge } from '#/components/ui/badge'
@@ -30,6 +30,7 @@ const ICONS: Record<EntityKind, React.ComponentType<{ className?: string }>> = {
   event: BookOpen,
   quest: ScrollText,
   organization: Building2,
+  beast: Dog,
 }
 
 function HomePage() {
