@@ -12,6 +12,7 @@ import { useState } from 'react'
 
 import { CampaignSearch } from '#/components/campaign-shell/campaign-search'
 import { EventReference } from '#/components/event-reference'
+import { HomeActionCard } from '#/components/home-action-card'
 import { LocationReference } from '#/components/location-reference'
 import { QuestReference } from '#/components/quest-reference'
 import { SessionReference } from '#/components/session-reference'
@@ -74,82 +75,37 @@ function HomePage() {
           <CampaignSearch
             query={query}
             onQueryChange={setQuery}
-            className="w-full pt-1"
+            className="w-full max-w-2xl"
             inputClassName="h-11 bg-background"
           />
-          <Grid gap="md" smColumns={2} className="max-w-2xl pt-1">
-            <Link
-              to="/intro"
-              className="bg-primary text-primary-foreground group relative min-h-24 overflow-hidden rounded-xl border border-transparent p-4 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
-            >
-              <BookOpen
-                className="text-primary-foreground/10 pointer-events-none absolute -right-3 -bottom-4 size-24 rotate-[-10deg] transition-transform group-hover:scale-110"
-                aria-hidden
-              />
-              <Inline as="span" justify="between" gap="md" className="relative z-10 h-full">
-                <Inline as="span" gap="md">
-                  <Inline
-                    as="span"
-                    gap="none"
-                    justify="center"
-                    className="bg-primary-foreground/15 size-10 shrink-0 rounded-lg"
-                  >
-                    <BookOpen className="size-5" />
-                  </Inline>
-                  <Stack as="span" gap="2xs" className="min-w-0 text-left">
-                    <span className="text-primary-foreground/70 block text-xs">
-                      New to the story?
-                    </span>
-                    <span className="block font-semibold">Start with the intro</span>
-                  </Stack>
-                </Inline>
-                <ArrowRight className="size-4 shrink-0 transition-transform group-hover:translate-x-1" />
-              </Inline>
-            </Link>
+          <Grid gap="md" smTemplate={2} className="max-w-2xl">
+            <HomeActionCard
+              destination={{ to: '/intro' }}
+              eyebrow="New to the story?"
+              icon={BookOpen}
+              title="Start with the intro"
+              variant="primary"
+            />
             {latestSession ? (
-              <SessionReference
-                slug={latestSession.slug}
-                label={latestSession.data.name}
-                unstyled
-                wrapperClassName="block"
-                className="group relative block min-h-24 overflow-hidden rounded-xl border border-blue-200 bg-blue-50/70 p-4 text-blue-950 shadow-sm transition-all hover:-translate-y-0.5 hover:border-blue-300 hover:bg-blue-50 hover:shadow-md focus-visible:ring-2 focus-visible:ring-blue-500/40 focus-visible:outline-none dark:border-blue-900 dark:bg-blue-950/20 dark:text-blue-100 dark:hover:border-blue-800 dark:hover:bg-blue-950/30"
-              >
-                {() => (
-                  <>
-                    <ScrollText
-                      className="pointer-events-none absolute -right-3 -bottom-4 size-24 rotate-[-10deg] text-blue-600/10 transition-transform group-hover:scale-110 dark:text-blue-300/10"
-                      aria-hidden
-                    />
-                    <Inline as="span" justify="between" gap="md" className="relative z-10 h-full">
-                      <Inline as="span" gap="md">
-                        <Inline
-                          as="span"
-                          gap="none"
-                          justify="center"
-                          className="size-10 shrink-0 rounded-lg bg-blue-600/10 text-blue-700 dark:bg-blue-300/10 dark:text-blue-300"
-                        >
-                          <ScrollText className="size-5" />
-                        </Inline>
-                        <Stack as="span" gap="2xs" className="min-w-0 text-left">
-                          <span className="block text-xs text-blue-700/70 dark:text-blue-300/70">
-                            Pick up where you left off
-                          </span>
-                          <span className="block truncate font-semibold">
-                            Continue session {sessionNumber(latestSession.slug)}
-                          </span>
-                        </Stack>
-                      </Inline>
-                      <ArrowRight className="size-4 shrink-0 transition-transform group-hover:translate-x-1" />
-                    </Inline>
-                  </>
-                )}
-              </SessionReference>
+              <HomeActionCard
+                destination={{
+                  entity: {
+                    kind: 'session',
+                    slug: latestSession.slug,
+                    label: latestSession.data.name,
+                  },
+                }}
+                eyebrow="Pick up where you left off"
+                icon={ScrollText}
+                title={`Continue session ${sessionNumber(latestSession.slug)}`}
+                variant="secondary"
+              />
             ) : null}
           </Grid>
         </Stack>
       </section>
 
-      <Grid as="section" gap="lg" className="lg:grid-cols-[minmax(0,1.5fr)_minmax(18rem,1fr)]">
+      <Grid as="section" gap="lg" lgTemplate="content-aside">
         <Card>
           <CardHeader>
             <Inline gap="sm">
@@ -202,10 +158,7 @@ function HomePage() {
               ) : null}
               {latestEvent ? (
                 <div className="border-border border-t">
-                  <Grid
-                    gap="2xs"
-                    className="py-3 sm:grid-cols-[9rem_minmax(0,1fr)] sm:items-center"
-                  >
+                  <Grid gap="2xs" smTemplate="label-content" smAlign="center" className="py-3">
                     <p className="text-muted-foreground text-xs font-semibold tracking-wide uppercase">
                       Last recorded event
                     </p>
@@ -213,7 +166,9 @@ function HomePage() {
                   </Grid>
                   <Grid
                     gap="2xs"
-                    className="border-border border-t py-3 sm:grid-cols-[9rem_minmax(0,1fr)] sm:items-center"
+                    smTemplate="label-content"
+                    smAlign="center"
+                    className="border-border border-t py-3"
                   >
                     <p className="text-muted-foreground text-xs font-semibold tracking-wide uppercase">
                       Current location
@@ -243,8 +198,8 @@ function HomePage() {
             </Inline>
             <CardDescription>Story threads the party has not resolved.</CardDescription>
           </CardHeader>
-          <CardContent>
-            <Stack gap="2xs">
+          <CardContent className="px-3 pb-3">
+            <Stack gap="none">
               {mysteries.slice(0, 4).map((quest) => (
                 <QuestReference
                   key={quest.slug}
@@ -252,7 +207,7 @@ function HomePage() {
                   label={quest.data.name}
                   unstyled
                   wrapperClassName="block"
-                  className="hover:bg-accent/40 rounded-md px-2 py-2 text-sm"
+                  className="group hover:bg-accent focus-visible:bg-accent block rounded-lg px-3 py-2 text-sm transition-colors focus-visible:outline-none"
                 >
                   {() => (
                     <Inline as="span" justify="between" gap="md">
@@ -268,14 +223,14 @@ function HomePage() {
                           {questProgressText(questProgress(quest.data))}
                         </Inline>
                       </Stack>
-                      <ArrowRight className="text-muted-foreground size-4 shrink-0" />
+                      <ArrowRight className="text-muted-foreground group-hover:text-foreground size-4 shrink-0 transition-transform group-hover:translate-x-0.5" />
                     </Inline>
                   )}
                 </QuestReference>
               ))}
               <Link
                 to="/quests"
-                className="text-primary inline-block px-2 pt-3 text-sm hover:underline"
+                className="text-primary hover:bg-muted block rounded-md px-3 py-2 text-sm"
               >
                 View all quests →
               </Link>
@@ -291,7 +246,7 @@ function HomePage() {
             Go directly to the part of the archive you need.
           </p>
         </Stack>
-        <Grid gap="md" smColumns={2} xlColumns={4}>
+        <Grid gap="md" smTemplate={2} xlTemplate={4}>
           {COLLECTIONS.map((kind) => {
             const visual = ENTITY_KIND_VISUALS[kind]
             const Icon = visual.icon
@@ -338,8 +293,8 @@ function HomePage() {
       <SwitchLayout
         as="section"
         gap="lg"
-        align="center"
-        justify="between"
+        rowAlign="center"
+        rowJustify="between"
         className="border-border border-t pt-6"
       >
         <Inline gap="md">

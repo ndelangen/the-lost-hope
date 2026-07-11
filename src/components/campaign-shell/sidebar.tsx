@@ -64,7 +64,7 @@ export function Sidebar({ collapsed, onNavigate, onToggleCollapsed }: SidebarPro
             </NavLink>
           </Stack>
         ) : (
-          <Grid gap="2xs" className="grid-cols-[minmax(0,1fr)_auto]">
+          <Grid gap="2xs" template="content-auto">
             <NavLink to="/" active={pathname === '/'} title="Overview" onNavigate={onNavigate}>
               <Home className="size-4 shrink-0" />
               <span>Overview</span>
@@ -117,7 +117,7 @@ export function Sidebar({ collapsed, onNavigate, onToggleCollapsed }: SidebarPro
 
                 return (
                   <Stack as="li" gap="3xs" key={session.slug}>
-                    <Grid gap="3xs" className="grid-cols-[auto_minmax(0,1fr)] items-center">
+                    <Grid gap="3xs" template="auto-content" align="center">
                       <button
                         type="button"
                         onClick={() => toggleItem(session.expansionId)}

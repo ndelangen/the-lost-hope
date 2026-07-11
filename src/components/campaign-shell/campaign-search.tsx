@@ -1,9 +1,9 @@
 import { useNavigate } from '@tanstack/react-router'
-import { Search } from 'lucide-react'
 import { useEffect, useMemo, useRef, useState } from 'react'
 
 import { Badge } from '#/components/ui/badge'
 import { Inline } from '#/components/ui/layout'
+import { SearchInput } from '#/components/ui/search-input'
 import {
   COLLECTION_LABELS,
   entityLink,
@@ -21,6 +21,14 @@ type CampaignSearchProps = {
   inputClassName?: string
 }
 
+export const CAMPAIGN_SEARCH_PLACEHOLDERS = [
+  'Search for events…',
+  'Search for PCs…',
+  'Search for NPCs…',
+  'Search for beasts…',
+  'Search for organizations…',
+] as const
+
 export function CampaignSearch({
   query,
   onQueryChange,
@@ -32,6 +40,7 @@ export function CampaignSearch({
   const inputRef = useRef<HTMLInputElement>(null)
   const [open, setOpen] = useState(false)
   const [selectedIndex, setSelectedIndex] = useState(0)
+  const [placeholderIndex, setPlaceholderIndex] = useState(0)
 
   const results = useMemo(() => searchEntities(query, 20), [query])
 
@@ -50,6 +59,13 @@ export function CampaignSearch({
   useEffect(() => {
     setSelectedIndex(0)
   }, [query])
+
+  useEffect(() => {
+    const interval = window.setInterval(() => {
+      setPlaceholderIndex((index) => (index + 1) % CAMPAIGN_SEARCH_PLACEHOLDERS.length)
+    }, 2200)
+    return () => window.clearInterval(interval)
+  }, [])
 
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
@@ -97,8 +113,7 @@ export function CampaignSearch({
 
   return (
     <div className={cn('relative', className)}>
-      <Search className="text-muted-foreground pointer-events-none absolute top-1/2 left-2.5 size-4 -translate-y-1/2" />
-      <input
+      <SearchInput
         ref={inputRef}
         value={query}
         onChange={(e) => {
@@ -110,12 +125,9 @@ export function CampaignSearch({
           window.setTimeout(() => setOpen(false), 150)
         }}
         onKeyDown={handleKeyDown}
-        placeholder="Search campaign…"
+        placeholder={CAMPAIGN_SEARCH_PLACEHOLDERS[placeholderIndex]}
         aria-label="Search campaign"
-        className={cn(
-          'border-border bg-card ring-ring h-9 w-full rounded-lg border pr-3 pl-9 text-sm outline-none focus:ring-2',
-          inputClassName,
-        )}
+        className={cn('bg-card', inputClassName)}
       />
       {open && query.trim().length > 0 ? (
         <div className="border-border bg-card absolute top-[calc(100%+0.25rem)] right-0 left-0 z-50 max-h-80 overflow-y-auto rounded-lg border shadow-lg">

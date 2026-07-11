@@ -79,7 +79,7 @@ function LocationDetailPage() {
             <h2 className="text-muted-foreground text-sm font-semibold tracking-wider uppercase">
               Places within
             </h2>
-            <Grid as="ul" gap="sm" smColumns={2}>
+            <Grid as="ul" gap="sm" smTemplate={2}>
               {children.map((child) => (
                 <li
                   key={child.slug}

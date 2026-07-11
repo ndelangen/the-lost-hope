@@ -74,7 +74,7 @@ function PcRoster({
         <p className="text-muted-foreground text-sm">{description}</p>
       </Stack>
 
-      <Grid columns={2} mdColumns={4} gap="3xl">
+      <Grid template={2} mdTemplate={4} gap="3xl">
         {characters.map((character) => (
           <PcPortraitLink key={character.slug} character={character} featured={featured} />
         ))}
@@ -143,7 +143,7 @@ function PcPortraitLink({ character, featured }: { character: EntityOf<'pc'>; fe
             {!featured ? (
               <Badge
                 variant="outline"
-                className="max-w-full justify-center text-center leading-tight whitespace-normal capitalize"
+                className="max-w-full text-center leading-tight whitespace-normal capitalize"
               >
                 {pcStatusLabel(pc.status)}
               </Badge>

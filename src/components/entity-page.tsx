@@ -21,7 +21,7 @@ export function EntityCollection({ label, items }: { label: string; items: Entit
         <p className="text-muted-foreground">{items.length} entries in the campaign log.</p>
       </Stack>
 
-      <Grid gap="lg" smColumns={2}>
+      <Grid gap="lg" smTemplate={2}>
         {items.map((item) => {
           const visual = ENTITY_KIND_VISUALS[item.kind]
           const Icon = visual.icon
@@ -123,7 +123,7 @@ function ReferencedBy({ items }: { items: ReferencedByItem[] }) {
       <h2 className="text-muted-foreground text-sm font-semibold tracking-wider uppercase">
         Referenced by
       </h2>
-      <Grid as="ul" gap="sm" smColumns={2}>
+      <Grid as="ul" gap="sm" smTemplate={2}>
         {items.map((item) => (
           <li key={`${item.kind}-${item.slug}`}>
             <EntityReference

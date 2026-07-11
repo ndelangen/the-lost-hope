@@ -1,6 +1,6 @@
 import { EventReference } from '#/components/event-reference'
 import { LocationReference } from '#/components/location-reference'
-import { Grid, Inline, Stack } from '#/components/ui/layout'
+import { Grid, Inline, Inset, Stack } from '#/components/ui/layout'
 import type { SessionTimelineDay } from '#/lib/entity-page-data'
 import { EventMarkIcon } from '#/lib/event-icons'
 import { cn } from '#/lib/utils'
@@ -25,14 +25,16 @@ function TimelineBullet({
 
 function DayHeading({ day, isFirst }: { day: number; isFirst: boolean }) {
   return (
-    <h3
+    <Inset
+      as="h3"
+      block="sm"
       className={cn(
-        'bg-background text-muted-foreground sticky top-14 z-20 px-4 py-4 text-base font-semibold tracking-wider uppercase',
+        'bg-background text-muted-foreground sticky top-14 z-20 text-base font-semibold tracking-wider uppercase',
         !isFirst && 'border-border border-t',
       )}
     >
       Campaign day {day}
-    </h3>
+    </Inset>
   )
 }
 
@@ -50,7 +52,7 @@ function EventBullet({ mark }: { mark: SessionTimelineDay['events'][number]['mar
 
 function EventCard({ event }: { event: SessionTimelineDay['events'][number] }) {
   return (
-    <Grid gap="md" className="group relative grid-cols-[auto_minmax(0,1fr)] items-start">
+    <Grid gap="md" template="auto-content" align="start" className="group relative">
       <EventBullet mark={event.mark} />
       <Stack
         gap="xs"

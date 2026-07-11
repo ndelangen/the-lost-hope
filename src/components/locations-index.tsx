@@ -1,10 +1,11 @@
 import { useNavigate, useSearch } from '@tanstack/react-router'
-import { ChevronDown, ChevronRight, List, Map, Search } from 'lucide-react'
+import { ChevronDown, ChevronRight, List, Map } from 'lucide-react'
 import { useCallback, useMemo, useState } from 'react'
 
 import { LocationReference } from '#/components/location-reference'
 import { Badge } from '#/components/ui/badge'
 import { Grid, Inline, Stack, SwitchLayout } from '#/components/ui/layout'
+import { SearchInput } from '#/components/ui/search-input'
 import { SegmentedControl, SegmentedControlItem } from '#/components/ui/segmented-control'
 import { LOCATION_TYPES, type LocationType } from '#/definitions/location.ts'
 import { allEntities } from '#/lib/campaign'
@@ -200,7 +201,9 @@ function TreeNodeRow({
     <li>
       <Grid
         gap="2xs"
-        className="hover:bg-accent/20 grid-cols-[auto_minmax(0,1fr)] items-start rounded-md py-1.5 pr-2 transition-colors"
+        template="auto-content"
+        align="start"
+        className="hover:bg-accent/20 rounded-md py-1.5 pr-2 transition-colors"
         style={{ paddingLeft: `${depth * 1.25 + 0.5}rem` }}
       >
         {hasChildren ? (
@@ -260,16 +263,13 @@ function LocationDirectory({
 
   return (
     <Stack gap="lg">
-      <div className="relative max-w-md">
-        <Search className="text-muted-foreground absolute top-1/2 left-3 size-4 -translate-y-1/2" />
-        <input
-          type="search"
-          placeholder="Search the location tree…"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          className="border-input bg-background focus-visible:ring-ring w-full rounded-md border py-2 pr-3 pl-9 text-sm outline-none focus-visible:ring-2"
-        />
-      </div>
+      <SearchInput
+        placeholder="Search the location tree…"
+        aria-label="Search the location tree"
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+        containerClassName="max-w-md"
+      />
 
       <div className="border-border rounded-lg border">
         <div className="border-border bg-muted/30 text-muted-foreground border-b px-4 py-2 text-xs font-semibold tracking-wider uppercase">
@@ -344,7 +344,7 @@ export function LocationsScreen({ view }: { view: LocationsView }) {
           </p>
         </Stack>
 
-        <SwitchLayout gap="md" align="center" justify="between" wrap>
+        <SwitchLayout gap="md" rowAlign="center" rowJustify="between" wrap>
           <TypeFilter activeTypes={activeTypes} onChange={setActiveTypes} />
           <ViewSwitch value={view} onChange={setView} />
         </SwitchLayout>

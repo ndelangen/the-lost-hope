@@ -31,6 +31,7 @@ export function Badge({
       as="span"
       inline
       gap="none"
+      justify="center"
       className={cn(badgeVariants({ variant }), className)}
       {...props}
     >

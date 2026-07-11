@@ -53,7 +53,7 @@ function QuestPage() {
         </Inline>
       </Stack>
 
-      <Grid gap="xl" lgColumns={2}>
+      <Grid gap="xl" lgTemplate={2}>
         <Card>
           <CardHeader>
             <CardTitle>Clues</CardTitle>
