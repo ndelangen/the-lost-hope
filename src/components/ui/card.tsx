@@ -2,6 +2,8 @@ import * as React from 'react'
 
 import { cn } from '#/lib/utils'
 
+import { Stack } from './layout'
+
 function Card({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <div
@@ -15,7 +17,7 @@ function Card({ className, ...props }: React.ComponentProps<'div'>) {
 }
 
 function CardHeader({ className, ...props }: React.ComponentProps<'div'>) {
-  return <div className={cn('flex flex-col gap-1.5 p-6 pb-3', className)} {...props} />
+  return <Stack gap="xs" className={cn('p-6 pb-3', className)} {...props} />
 }
 
 function CardTitle({ className, children, ...props }: React.ComponentProps<'h3'>) {

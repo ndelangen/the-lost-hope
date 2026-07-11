@@ -1,13 +1,4 @@
-import beasts from '#/data/beasts/_index.ts'
-import events from '#/data/events/_index.ts'
 import campaign from '#/data/index.ts'
-import locations from '#/data/locations/_index.ts'
-import npcs from '#/data/npcs/_index.ts'
-import organizations from '#/data/organizations/_index.ts'
-import pcs from '#/data/pcs/_index.ts'
-import quests from '#/data/quests/_index.ts'
-import sessions from '#/data/sessions/_index.ts'
-import type { Beast } from '#/definitions/beast.ts'
 import type { Event, EventMark } from '#/definitions/event.ts'
 import { isEntityRef, type EntityKind, type EntityRef } from '#/definitions/kind.ts'
 import type { Location, LocationType } from '#/definitions/location.ts'
@@ -19,7 +10,29 @@ import type { PC } from '#/definitions/pc.ts'
 import type { Quest } from '#/definitions/quest.ts'
 import type { Session } from '#/definitions/session.ts'
 
+import {
+  collectReferences,
+  createCampaignReadModel,
+  type ReverseLink,
+  type SessionDay,
+} from './campaign-read-model'
+import {
+  beasts,
+  events,
+  locations,
+  npcs,
+  organizations,
+  pcs,
+  quests,
+  REGISTRIES,
+  sessions,
+  type DataOf,
+  type Entity,
+  type EntityOf,
+} from './campaign-registries'
+
 export type { EntityKind }
+export type { DataOf, Entity, EntityOf, ReverseLink, SessionDay }
 
 export type {
   BeastKey,
@@ -32,23 +45,7 @@ export type {
   SessionKey,
 } from '#/data/generated/refs.ts'
 
-export type Entity =
-  | { kind: 'beast'; slug: string; data: Beast }
-  | { kind: 'pc'; slug: string; data: PC }
-  | { kind: 'npc'; slug: string; data: NPC }
-  | { kind: 'location'; slug: string; data: Location }
-  | { kind: 'event'; slug: string; data: Event }
-  | { kind: 'session'; slug: string; data: Session }
-  | { kind: 'quest'; slug: string; data: Quest }
-  | { kind: 'organization'; slug: string; data: Organization }
-
-/** The concrete `Entity` variant for a given kind (e.g. `EntityOf<'pc'>`). */
-export type EntityOf<K extends EntityKind> = Extract<Entity, { kind: K }>
-
-/** The `data` payload type for a given kind. */
-export type DataOf<K extends EntityKind> = EntityOf<K>['data']
-
-export const COLLECTIONS: EntityKind[] = [
+export const COLLECTIONS: readonly EntityKind[] = [
   'session',
   'event',
   'location',
@@ -81,24 +78,16 @@ export const COLLECTION_PATH: Record<EntityKind, string> = {
   organization: 'organizations',
 }
 
-const REGISTRIES = {
-  beast: beasts,
-  pc: pcs,
-  npc: npcs,
-  location: locations,
-  event: events,
-  session: sessions,
-  quest: quests,
-  organization: organizations,
-} as const
+const campaignModel = createCampaignReadModel({
+  campaign,
+  collectionOrder: COLLECTIONS,
+  registries: REGISTRIES,
+})
 
 export { beasts, campaign, events, locations, npcs, organizations, pcs, quests, sessions }
 
 export function resolveRef(ref: EntityRef): Entity | undefined {
-  const registry = REGISTRIES[ref.ref] as Record<string, { slug: string; name: string }>
-  const data = registry[ref.key]
-  if (!data) return undefined
-  return { kind: ref.ref, slug: data.slug, data } as Entity
+  return campaignModel.entities[ref.ref].byKey.get(ref.key)
 }
 
 export function refLink(
@@ -109,11 +98,8 @@ export function refLink(
   return { kind: entity.kind, slug: entity.slug, name: entity.data.name }
 }
 
-export function sessionEvents(session: Session): Event[] {
-  return session.events
-    .map((ref) => resolveRef(ref))
-    .filter((entity): entity is EntityOf<'event'> => entity?.kind === 'event')
-    .map((entity) => entity.data)
+export function sessionEvents(session: Session): readonly Event[] {
+  return campaignModel.chronology.sessionEventsBySlug.get(session.slug) ?? []
 }
 
 export function eventLocation(event: Event): Location | undefined {
@@ -204,6 +190,17 @@ export function pcStatLine(pc: PC): string {
   return [withLevel, pc.subclass].filter(Boolean).join(' · ')
 }
 
+const PC_STATUS_LABELS: Record<PC['status'], string> = {
+  active: 'Active',
+  retired: 'Retired',
+  occasional: 'Occasional',
+  'missing-presumed-dead': 'MIA · presumed dead',
+}
+
+export function pcStatusLabel(status: PC['status']): string {
+  return PC_STATUS_LABELS[status]
+}
+
 /** Flatten Content (string | ref token | array | media) to a plain-text preview. */
 export function contentToText(content: unknown): string {
   if (typeof content === 'string') return content
@@ -284,42 +281,12 @@ export function entityHref(kind: EntityKind, slug: string): string {
   return `/${COLLECTION_PATH[kind]}/detail/${slug}`
 }
 
-export function allEntities<K extends EntityKind>(kind: K): EntityOf<K>[] {
-  const registry = REGISTRIES[kind]
-  return Object.values(registry).map((data) => ({
-    kind,
-    slug: (data as { slug: string }).slug,
-    data,
-  })) as EntityOf<K>[]
+export function allEntities<K extends EntityKind>(kind: K): readonly EntityOf<K>[] {
+  return campaignModel.entities[kind].all
 }
 
 export function getEntity<K extends EntityKind>(kind: K, slug: string): EntityOf<K> | undefined {
-  return allEntities(kind).find((entity) => entity.slug === slug)
-}
-
-function collectReferences(
-  value: unknown,
-  out: EntityRef[] = [],
-  seen = new WeakSet<object>(),
-): EntityRef[] {
-  if (!value || typeof value !== 'object') return out
-  if (seen.has(value as object)) return out
-  seen.add(value as object)
-
-  if (isEntityRef(value)) {
-    out.push(value)
-    return out
-  }
-
-  if (Array.isArray(value)) {
-    for (const item of value) collectReferences(item, out, seen)
-    return out
-  }
-
-  for (const key of Object.keys(value)) {
-    collectReferences((value as Record<string, unknown>)[key], out, seen)
-  }
-  return out
+  return campaignModel.entities[kind].bySlug.get(slug)
 }
 
 export type ReferenceValidationError = {
@@ -354,29 +321,9 @@ export function validateReferences(): ReferenceValidationError[] {
   return errors
 }
 
-export function reverseLinks(kind: EntityKind, slug: string): { entity: Entity; reason: string }[] {
-  const hits: { entity: Entity; reason: string }[] = []
-  const seen = new Set<string>()
+export function reverseLinks(kind: EntityKind, slug: string): readonly ReverseLink[] {
   const target = getEntity(kind, slug)
-  if (!target) return hits
-
-  for (const collectionKind of COLLECTIONS) {
-    for (const entity of allEntities(collectionKind)) {
-      if (entity.kind === kind && entity.slug === slug) continue
-      const dedupeKey = `${entity.kind}-${entity.slug}`
-      if (seen.has(dedupeKey)) continue
-      const refs = collectReferences(entity.data)
-      for (const ref of refs) {
-        const resolved = resolveRef(ref)
-        if (resolved && resolved.kind === kind && resolved.slug === slug) {
-          hits.push({ entity, reason: `Referenced in ${entity.data.name}` })
-          seen.add(dedupeKey)
-          break
-        }
-      }
-    }
-  }
-  return hits
+  return target ? (campaignModel.reverseLinksByEntity.get(target) ?? []) : []
 }
 
 /**
@@ -397,20 +344,41 @@ export function sessionPcs(session: Session): PC[] {
   return result.toSorted((a, b) => a.name.localeCompare(b.name))
 }
 
-export function openQuests(): EntityOf<'quest'>[] {
-  return allEntities('quest').filter((quest) => quest.data.status === 'open')
+export function openQuests(): readonly EntityOf<'quest'>[] {
+  return campaignModel.groups.openQuests
 }
 
-export function resolvedQuests(): EntityOf<'quest'>[] {
-  return allEntities('quest').filter((quest) => quest.data.status === 'resolved')
+export function resolvedQuests(): readonly EntityOf<'quest'>[] {
+  return campaignModel.groups.resolvedQuests
 }
 
-export function activePcs(): EntityOf<'pc'>[] {
-  return allEntities('pc').filter((pc) => pc.data.status === 'active')
+export type QuestProgress = {
+  event: EntityOf<'event'>
+  campaignDaysAgo: number
 }
 
-export function nonActivePcs(): EntityOf<'pc'>[] {
-  return allEntities('pc').filter((pc) => pc.data.status !== 'active')
+/** Most recent campaign event explicitly referenced by a quest's synthesis. */
+export function questProgress(quest: Quest): QuestProgress | undefined {
+  const linkedEventSlugs = new Set(
+    collectReferences(quest).flatMap((ref) => {
+      if (ref.ref !== 'event') return []
+      const entity = resolveRef(ref)
+      return entity?.kind === 'event' ? [entity.slug] : []
+    }),
+  )
+  const event = sortedEvents().find((candidate) => linkedEventSlugs.has(candidate.slug))
+  if (!event) return undefined
+
+  const currentCampaignDay = sortedEvents()[0]?.data.day ?? event.data.day
+  return { event, campaignDaysAgo: Math.max(0, currentCampaignDay - event.data.day) }
+}
+
+export function activePcs(): readonly EntityOf<'pc'>[] {
+  return campaignModel.groups.activePcs
+}
+
+export function nonActivePcs(): readonly EntityOf<'pc'>[] {
+  return campaignModel.groups.nonActivePcs
 }
 
 export type OrganizationMember = {
@@ -481,49 +449,28 @@ export function organizationMembers(org: Organization): OrganizationMemberGroup[
   })
 }
 
-export function campaignSessions(): EntityOf<'session'>[] {
-  return campaign.sessions.map((data) => ({ kind: 'session', slug: data.slug, data }))
+export function campaignSessions(): readonly EntityOf<'session'>[] {
+  return campaignModel.chronology.sessions
 }
 
 export function sessionNumber(slug: string): number | undefined {
-  const index = campaign.sessions.findIndex((session) => session.slug === slug)
-  return index === -1 ? undefined : index + 1
+  return campaignModel.chronology.sessionNumberBySlug.get(slug)
 }
 
-export function sortedSessions(): EntityOf<'session'>[] {
-  return campaignSessions().toReversed()
+export function sortedSessions(): readonly EntityOf<'session'>[] {
+  return campaignModel.chronology.sortedSessions
 }
 
-export type SessionDay = {
-  day: number
-  events: Event[]
+export function sessionDays(session: Session): readonly SessionDay[] {
+  return campaignModel.chronology.sessionDaysBySlug.get(session.slug) ?? []
 }
 
-export function sessionDays(session: Session): SessionDay[] {
-  const byDay = new Map<number, Event[]>()
-
-  for (const event of sessionEvents(session)) {
-    const dayEvents = byDay.get(event.day) ?? []
-    dayEvents.push(event)
-    byDay.set(event.day, dayEvents)
-  }
-
-  return [...byDay.entries()]
-    .toSorted(([a], [b]) => a - b)
-    .map(([day, dayEvents]) => ({
-      day,
-      events: dayEvents,
-    }))
+export function campaignEvents(): readonly EntityOf<'event'>[] {
+  return campaignModel.chronology.events
 }
 
-export function campaignEvents(): EntityOf<'event'>[] {
-  return campaign.sessions.flatMap((session) =>
-    sessionEvents(session).map((data) => ({ kind: 'event' as const, slug: data.slug, data })),
-  )
-}
-
-export function sortedEvents(): EntityOf<'event'>[] {
-  return campaignEvents().toReversed()
+export function sortedEvents(): readonly EntityOf<'event'>[] {
+  return campaignModel.chronology.sortedEvents
 }
 
 export type SessionTimelineEntry =
@@ -582,7 +529,7 @@ export function compareEntityNames(a: string, b: string): number {
   return stripLeadingArticle(a).localeCompare(stripLeadingArticle(b))
 }
 
-export function sortEntitiesByName<T extends Entity>(entities: T[]): T[] {
+export function sortEntitiesByName<T extends Entity>(entities: readonly T[]): T[] {
   return entities.toSorted((a, b) => compareEntityNames(a.data.name, b.data.name))
 }
 
@@ -603,12 +550,7 @@ export function entitySlugFromPath(pathname: string): string | undefined {
 }
 
 export function sessionSlugForEvent(eventSlug: string): string | undefined {
-  for (const session of campaign.sessions) {
-    if (sessionEvents(session).some((event) => event.slug === eventSlug)) {
-      return session.slug
-    }
-  }
-  return undefined
+  return campaignModel.chronology.sessionSlugByEventSlug.get(eventSlug)
 }
 
 export function searchEntities(query: string, limit = 20): Entity[] {
@@ -617,15 +559,7 @@ export function searchEntities(query: string, limit = 20): Entity[] {
   const hits: Entity[] = []
   for (const kind of COLLECTIONS) {
     for (const entity of allEntities(kind)) {
-      const haystack = [
-        JSON.stringify(entity.data),
-        ...collectReferences(entity.data)
-          .map((ref) => refLink(ref)?.name)
-          .filter(Boolean),
-      ]
-        .join(' ')
-        .toLowerCase()
-      if (haystack.includes(q)) hits.push(entity)
+      if (campaignModel.searchTextByEntity.get(entity)?.includes(q)) hits.push(entity)
     }
   }
   return hits.slice(0, limit)

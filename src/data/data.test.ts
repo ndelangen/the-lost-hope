@@ -72,6 +72,13 @@ describe('registry integrity', () => {
   })
 })
 
+describe('player-character status', () => {
+  it('preserves occasional and missing campaign states', () => {
+    expect(pcs.mr_peace.status).toBe('occasional')
+    expect(pcs.victor_the_badesh_lumberjack.status).toBe('missing-presumed-dead')
+  })
+})
+
 describe('reference integrity', () => {
   it('has no dangling entity refs', async () => {
     await import('#/data/index.ts')

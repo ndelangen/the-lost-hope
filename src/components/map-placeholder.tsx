@@ -1,6 +1,7 @@
 import { MapPin } from 'lucide-react'
 import { useState } from 'react'
 
+import { Stack } from '#/components/ui/layout'
 import { cn } from '#/lib/utils'
 
 type MapPlaceholderProps = {
@@ -37,7 +38,7 @@ function MapPlaceholder({ name, coordinates, className }: MapPlaceholderProps) {
         <rect width="100%" height="100%" fill="url(#map-grid)" />
       </svg>
 
-      <div className="relative flex h-full flex-col items-center justify-center gap-2 p-6 text-center">
+      <Stack gap="sm" align="center" justify="center" className="relative h-full p-6 text-center">
         <MapPin className="text-primary/60 size-8" aria-hidden />
         <p className="text-foreground/80 max-w-md text-sm font-medium">{name}</p>
         {coordinates ? (
@@ -46,7 +47,7 @@ function MapPlaceholder({ name, coordinates, className }: MapPlaceholderProps) {
           </p>
         ) : null}
         <p className="text-muted-foreground text-xs tracking-wide uppercase">Map forthcoming</p>
-      </div>
+      </Stack>
     </div>
   )
 }

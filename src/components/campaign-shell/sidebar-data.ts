@@ -15,6 +15,7 @@ import {
   sortEntitiesByName,
   sortedSessions,
   type Entity,
+  type EntityOf,
   type EntityKind,
 } from '#/lib/campaign'
 
@@ -25,6 +26,7 @@ export type SidebarNavItem = {
   slug: string
   name: string
   avatar?: string
+  meta?: string
 }
 
 export type SidebarNavGroup = {
@@ -49,7 +51,7 @@ type SidebarCollectionDefinition = {
   groups?: () => SidebarNavGroup[]
 }
 
-const FORMER_PC_GROUP_EXPANSION_ID = 'group:pc:former'
+const OTHER_PC_GROUP_EXPANSION_ID = 'group:pc:other'
 
 function collectionExpansionId(kind: SidebarCollectionKind) {
   return `collection:${kind}`
@@ -67,9 +69,18 @@ function navItems(entities: Entity[], withAvatar = false): SidebarNavItem[] {
   }))
 }
 
+function pcNavItems(entities: readonly EntityOf<'pc'>[]): SidebarNavItem[] {
+  return entities.map((entity) => ({
+    slug: entity.slug,
+    name: entity.data.name,
+    avatar: entity.data.avatar,
+    meta: entity.data.class,
+  }))
+}
+
 const partyPcs = sortEntitiesByName(activePcs())
-const formerPcEntities = sortEntitiesByName(nonActivePcs())
-const formerPcSlugs = new Set(formerPcEntities.map((pc) => pc.slug))
+const otherPcEntities = sortEntitiesByName(nonActivePcs())
+const otherPcSlugs = new Set(otherPcEntities.map((pc) => pc.slug))
 
 // This is the sidebar's one intentional collection registry: it owns display order and the few
 // collections whose groups differ from the generic sorted list.
@@ -78,14 +89,14 @@ const collectionDefinitions: SidebarCollectionDefinition[] = [
     kind: 'pc',
     icon: User,
     groups: () => [
-      { id: 'party', label: 'Party', items: navItems(partyPcs, true) },
-      ...(formerPcEntities.length > 0
+      { id: 'party', label: 'Party', items: pcNavItems(partyPcs) },
+      ...(otherPcEntities.length > 0
         ? [
             {
-              id: 'former',
-              label: 'Former / occasional',
-              items: navItems(formerPcEntities, true),
-              expansionId: FORMER_PC_GROUP_EXPANSION_ID,
+              id: 'other',
+              label: 'Other adventurers',
+              items: pcNavItems(otherPcEntities),
+              expansionId: OTHER_PC_GROUP_EXPANSION_ID,
             },
           ]
         : []),
@@ -133,10 +144,9 @@ export const sidebarSessions = sortedSessions().map((session) => ({
   name: session.data.name,
   number: sessionNumber(session.slug),
   expansionId: sessionExpansionId(session.slug),
-  days: sessionDays(session.data).map((day) => ({
-    day: day.day,
-    events: day.events.map((event) => ({ slug: event.slug, name: event.name })),
-  })),
+  events: sessionDays(session.data).flatMap((day) =>
+    day.events.map((event) => ({ slug: event.slug, name: event.name })),
+  ),
 }))
 
 export function isSidebarCollectionKind(
@@ -169,8 +179,8 @@ export function sidebarRouteState(pathname: string): SidebarRouteState {
     if (sessionSlug) expansionIds.push(sessionExpansionId(sessionSlug))
   }
 
-  if (activeKind === 'pc' && activeSlug && formerPcSlugs.has(activeSlug)) {
-    expansionIds.push(FORMER_PC_GROUP_EXPANSION_ID)
+  if (activeKind === 'pc' && activeSlug && otherPcSlugs.has(activeSlug)) {
+    expansionIds.push(OTHER_PC_GROUP_EXPANSION_ID)
   }
 
   return { activeKind, activeSlug, expansionIds }

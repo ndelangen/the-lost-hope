@@ -3,6 +3,7 @@ import { Search } from 'lucide-react'
 import { useEffect, useMemo, useRef, useState } from 'react'
 
 import { Badge } from '#/components/ui/badge'
+import { Inline } from '#/components/ui/layout'
 import {
   COLLECTION_LABELS,
   entityLink,
@@ -117,7 +118,7 @@ export function CampaignSearch({
         )}
       />
       {open && query.trim().length > 0 ? (
-        <div className="border-border bg-card absolute top-full right-0 left-0 z-50 mt-1 max-h-80 overflow-y-auto rounded-lg border shadow-lg">
+        <div className="border-border bg-card absolute top-[calc(100%+0.25rem)] right-0 left-0 z-50 max-h-80 overflow-y-auto rounded-lg border shadow-lg">
           {results.length === 0 ? (
             <p className="text-muted-foreground px-3 py-4 text-sm">No results for "{query}"</p>
           ) : (
@@ -136,17 +137,20 @@ export function CampaignSearch({
                       <li key={`${entity.kind}-${entity.slug}`}>
                         <button
                           type="button"
+                          aria-label={`Open ${entity.data.name}`}
                           className={cn(
-                            'flex w-full items-center gap-2 px-3 py-2 text-left text-sm transition-colors',
+                            'w-full px-3 py-2 text-left text-sm transition-colors',
                             isSelected ? 'bg-accent text-accent-foreground' : 'hover:bg-muted',
                           )}
                           onMouseDown={(e) => e.preventDefault()}
                           onClick={() => navigateTo(entity)}
                         >
-                          <span className="min-w-0 flex-1 truncate">{entity.data.name}</span>
-                          <Badge variant="secondary" className="shrink-0">
-                            {COLLECTION_LABELS[kind].replace(/s$/, '')}
-                          </Badge>
+                          <Inline as="span" justify="between" gap="sm">
+                            <span className="min-w-0 truncate">{entity.data.name}</span>
+                            <Badge variant="secondary" className="shrink-0">
+                              {COLLECTION_LABELS[kind].replace(/s$/, '')}
+                            </Badge>
+                          </Inline>
                         </button>
                       </li>
                     )

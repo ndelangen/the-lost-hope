@@ -6,16 +6,26 @@ export default createQuest({
   notes: [['The Dinosaur Migration']],
   status: 'open',
   clues: [
-    ['A large group of dinosaurs (with riders) was moving toward ', refs.locations.fairhaven, '.'],
-    ['A small group of dinosaurs spotted the party and hunted them.'],
     [
-      'The party escaped thanks to ',
+      refs.events.n2_e038,
+      ' — a large group of ridden dinosaurs was moving toward ',
+      refs.locations.fairhaven,
+      '.',
+    ],
+    [
+      refs.events.n2_e039,
+      ' — a smaller group chased the party; ',
       refs.npcs.abraham,
       ' (',
       refs.pcs.victor_the_badesh_lumberjack,
-      "'s donkey). The dinosaurs lost interest.",
+      "'s donkey) carried them to safety.",
     ],
-    ['It is unclear if the dinosaurs were even hostile, or just heading somewhere.'],
+    [
+      refs.events.n2_e040,
+      ' — the chase ended at ',
+      refs.locations.badesh,
+      ', but the reason for the migration remains unknown.',
+    ],
     [
       'Why are they heading to ',
       refs.locations.fairhaven,

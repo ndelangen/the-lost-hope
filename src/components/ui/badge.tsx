@@ -2,8 +2,10 @@ import { cva, type VariantProps } from 'class-variance-authority'
 
 import { cn } from '#/lib/utils'
 
+import { Inline } from './layout'
+
 const badgeVariants = cva(
-  'inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-medium transition-colors',
+  'w-fit rounded-full border px-2.5 py-0.5 text-xs font-medium transition-colors',
   {
     variants: {
       variant: {
@@ -21,7 +23,18 @@ const badgeVariants = cva(
 export function Badge({
   className,
   variant,
+  children,
   ...props
-}: React.ComponentProps<'span'> & VariantProps<typeof badgeVariants>) {
-  return <span className={cn(badgeVariants({ variant }), className)} {...props} />
+}: Omit<React.ComponentProps<'span'>, 'ref'> & VariantProps<typeof badgeVariants>) {
+  return (
+    <Inline
+      as="span"
+      inline
+      gap="none"
+      className={cn(badgeVariants({ variant }), className)}
+      {...props}
+    >
+      {children}
+    </Inline>
+  )
 }

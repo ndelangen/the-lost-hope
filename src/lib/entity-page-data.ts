@@ -8,10 +8,12 @@ import {
   entityTeaser,
   eventLocation,
   membershipOrg,
+  questProgress,
   reverseLinks,
   sessionDays,
   sortEntitiesByName,
   type EntityKind,
+  type QuestProgress,
 } from '#/lib/campaign'
 
 export type EntityCardItem = {
@@ -19,30 +21,40 @@ export type EntityCardItem = {
   slug: string
   name: string
   description?: string
+  meta?: string
 }
 
 export function entityCollectionItems(kind: EntityKind): EntityCardItem[] {
-  return sortEntitiesByName(allEntities(kind)).map((entity) => ({
-    kind: entity.kind,
-    slug: entity.slug,
-    name: entity.data.name,
-    description: entityTeaser(entity),
-  }))
+  return sortEntitiesByName(allEntities(kind)).map((entity) => {
+    const progress = entity.kind === 'quest' ? questProgress(entity.data) : undefined
+    return {
+      kind: entity.kind,
+      slug: entity.slug,
+      name: entity.data.name,
+      description: entity.kind === 'quest' ? undefined : entityTeaser(entity),
+      meta: entity.kind === 'quest' ? questProgressText(progress) : undefined,
+    }
+  })
+}
+
+export function questProgressText(progress: QuestProgress | undefined): string {
+  if (!progress) return 'No linked progress'
+  if (progress.campaignDaysAgo === 0) return 'Current day'
+  const unit = progress.campaignDaysAgo === 1 ? 'day' : 'days'
+  return `${progress.campaignDaysAgo} ${unit} ago`
 }
 
 export type ReferencedByItem = {
   kind: EntityKind
   slug: string
   name: string
-  reason: string
 }
 
 export function referencedByItems(kind: EntityKind, slug: string): ReferencedByItem[] {
-  return reverseLinks(kind, slug).map(({ entity, reason }) => ({
+  return reverseLinks(kind, slug).map(({ entity }) => ({
     kind: entity.kind,
     slug: entity.slug,
     name: entity.data.name,
-    reason,
   }))
 }
 

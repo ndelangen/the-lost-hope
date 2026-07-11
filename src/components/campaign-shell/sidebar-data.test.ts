@@ -32,18 +32,34 @@ describe('sidebar collection data', () => {
       expect(collection.count).toBe(allEntities(collection.kind).length)
     }
   })
+
+  it('includes the main class for PC navigation items', () => {
+    const pcCollection = sidebarCollections.find((collection) => collection.kind === 'pc')
+    const cassian = pcCollection?.groups
+      .flatMap((group) => group.items)
+      .find((item) => item.slug === 'cassian-veyl')
+
+    expect(cassian?.meta).toBe('Warlock')
+  })
+
+  it('keeps sidebar session events flat and chronological', () => {
+    const firstSession = sidebarSessions.find((session) => session.number === 1)
+
+    expect(firstSession?.events[0]?.name).toBe('Month-long boat journey')
+    expect(firstSession?.events.at(-1)?.name).toBe('The guild tattoo ritual')
+  })
 })
 
 describe('sidebar route state', () => {
-  it('expands a collection and the active former-PC group', () => {
-    const formerPc = nonActivePcs()[0]
-    expect(formerPc).toBeDefined()
-    if (!formerPc) return
+  it('expands a collection and the active other-PC group', () => {
+    const otherPc = nonActivePcs()[0]
+    expect(otherPc).toBeDefined()
+    if (!otherPc) return
 
-    const state = sidebarRouteState(entityHref('pc', formerPc.slug))
+    const state = sidebarRouteState(entityHref('pc', otherPc.slug))
 
     expect(state.expansionIds).toContain('collection:pc')
-    expect(state.expansionIds).toContain('group:pc:former')
+    expect(state.expansionIds).toContain('group:pc:other')
   })
 
   it('expands the session containing the active event', () => {

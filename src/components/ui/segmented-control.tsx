@@ -2,6 +2,8 @@ import type { ReactNode } from 'react'
 
 import { cn } from '#/lib/utils'
 
+import { Inline } from './layout'
+
 export function SegmentedControl({
   children,
   className,
@@ -10,14 +12,14 @@ export function SegmentedControl({
   className?: string
 }) {
   return (
-    <fieldset
-      className={cn(
-        'border-border bg-muted/40 inline-flex gap-1.5 rounded-lg border p-1.5',
-        className,
-      )}
+    <Inline
+      as="fieldset"
+      inline
+      gap="xs"
+      className={cn('border-border bg-muted/40 rounded-lg border p-1.5', className)}
     >
       {children}
-    </fieldset>
+    </Inline>
   )
 }
 
@@ -42,7 +44,7 @@ export function SegmentedControlItem({
       aria-pressed={active}
       title={label}
       className={cn(
-        'inline-flex shrink-0 items-center justify-center rounded-md border text-sm font-medium transition-[color,background-color,box-shadow,border-color]',
+        'shrink-0 rounded-md border text-sm font-medium transition-[color,background-color,box-shadow,border-color]',
         'border-transparent shadow-none',
         active
           ? 'bg-background text-foreground border-border/50 shadow-sm'
@@ -50,7 +52,9 @@ export function SegmentedControlItem({
         className,
       )}
     >
-      {children}
+      <Inline as="span" inline gap="xs" justify="center">
+        {children}
+      </Inline>
     </button>
   )
 }

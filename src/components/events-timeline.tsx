@@ -1,9 +1,10 @@
-import { Link } from '@tanstack/react-router'
 import { useMemo } from 'react'
 
+import { EventReference } from '#/components/event-reference'
+import { SessionReference } from '#/components/session-reference'
+import { Center, Inline, Stack } from '#/components/ui/layout'
 import {
   COLLECTION_LABELS,
-  entityLink,
   type SessionTimelineEntry,
   type SessionTimelineSection,
 } from '#/lib/campaign'
@@ -156,38 +157,49 @@ function Bullet({
   className?: string
 }) {
   return (
-    <div className="group/bullet relative flex flex-col items-center">
+    <Stack gap="none" align="center" className="group/bullet relative">
       <span className="text-foreground bg-card border-border pointer-events-none absolute bottom-[calc(100%+12px)] left-1/2 z-50 w-max max-w-[210px] -translate-x-1/2 scale-95 rounded-lg border px-3 py-1.5 text-center text-xs leading-snug font-medium opacity-0 shadow-lg transition-all duration-150 group-hover/bullet:scale-100 group-hover/bullet:opacity-100">
         {label}
         <span className="bg-card border-border absolute top-full left-1/2 size-2 -translate-x-1/2 -translate-y-1/2 rotate-45 border-r border-b" />
       </span>
-      <div
+      <Inline
+        gap="none"
+        justify="center"
         className={cn(
-          'ring-background flex size-12 items-center justify-center rounded-full ring-[6px] transition-transform duration-150 group-hover/bullet:scale-110',
+          'ring-background size-12 rounded-full ring-[6px] transition-transform duration-150 group-hover/bullet:scale-110',
           className,
         )}
       >
         {children}
-      </div>
-    </div>
+      </Inline>
+    </Stack>
   )
 }
 
 function EventBullet({ entry }: { entry: Extract<SessionTimelineEntry, { kind: 'event' }> }) {
   const { mark } = entry
   return (
-    <Link {...entityLink('event', entry.slug)} aria-label={entry.name} className="block">
-      <Bullet
-        label={entry.name}
-        className="border-border bg-card group-hover/bullet:border-primary/50 border-2 shadow-sm"
-      >
-        {mark.type === 'avatar' ? (
-          <img src={mark.url} alt="" className="size-full rounded-full object-cover" />
-        ) : (
-          <EventMarkIcon name={mark.name} className="text-muted-foreground size-[18px]" />
-        )}
-      </Bullet>
-    </Link>
+    <EventReference
+      slug={entry.slug}
+      label={entry.name}
+      unstyled
+      wrapperClassName="block"
+      className="block"
+    >
+      {() => (
+        <Inline
+          gap="none"
+          justify="center"
+          className="ring-background border-border bg-card hover:border-primary/50 size-12 rounded-full border-2 shadow-sm ring-[6px] transition-transform duration-150 hover:scale-110"
+        >
+          {mark.type === 'avatar' ? (
+            <img src={mark.url} alt="" className="size-full rounded-full object-cover" />
+          ) : (
+            <EventMarkIcon name={mark.name} className="text-muted-foreground size-[18px]" />
+          )}
+        </Inline>
+      )}
+    </EventReference>
   )
 }
 
@@ -204,16 +216,21 @@ function DayBullet({ entry }: { entry: Extract<SessionTimelineEntry, { kind: 'da
 
 function SessionHeader({ session }: { session: SessionTimelineSection['session'] }) {
   return (
-    <Link
-      {...entityLink('session', session.slug)}
-      title={session.name}
-      className="bg-background hover:text-primary group flex max-w-[320px] flex-col items-center gap-1 rounded-xl px-5 py-2 text-center transition-colors"
+    <SessionReference
+      slug={session.slug}
+      label={session.name}
+      unstyled
+      className="bg-background hover:text-primary group max-w-[320px] rounded-xl px-5 py-2 text-center transition-colors"
     >
-      <span className="text-muted-foreground group-hover:text-primary/70 text-[11px] font-semibold tracking-[0.24em] uppercase transition-colors">
-        Session {session.number}
-      </span>
-      <span className="text-lg leading-tight font-semibold text-balance">{session.name}</span>
-    </Link>
+      {() => (
+        <Stack as="span" gap="2xs" align="center">
+          <span className="text-muted-foreground group-hover:text-primary/70 text-[11px] font-semibold tracking-[0.24em] uppercase transition-colors">
+            Session {session.number}
+          </span>
+          <span className="text-lg leading-tight font-semibold text-balance">{session.name}</span>
+        </Stack>
+      )}
+    </SessionReference>
   )
 }
 
@@ -233,20 +250,21 @@ export function EventsTimeline({
   const layout = useMemo(() => buildLayout(sections), [sections])
 
   return (
-    <div className="space-y-8">
-      <header>
+    <Stack gap="2xl">
+      <Stack as="header" gap="sm">
         <p className="text-muted-foreground text-xs font-semibold tracking-wider uppercase">
           {COLLECTION_LABELS.event}
         </p>
-        <h1 className="mt-1 text-3xl font-bold tracking-tight">{COLLECTION_LABELS.event}</h1>
-        <p className="text-muted-foreground mt-2">
+        <h1 className="text-3xl font-bold tracking-tight">{COLLECTION_LABELS.event}</h1>
+        <p className="text-muted-foreground">
           {eventCount} events across {sections.length} sessions
           {daySpan ? ` · ${daySpan}` : null}
         </p>
-      </header>
+      </Stack>
 
-      <div
-        className="relative mx-auto w-full max-w-3xl"
+      <Center
+        maxWidth="3xl"
+        className="relative"
         style={{ aspectRatio: `${layout.width} / ${layout.height}` }}
       >
         <svg
@@ -317,7 +335,7 @@ export function EventsTimeline({
             ))}
           </div>
         ))}
-      </div>
-    </div>
+      </Center>
+    </Stack>
   )
 }

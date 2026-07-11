@@ -1,11 +1,13 @@
-import { Link, useNavigate, useSearch } from '@tanstack/react-router'
+import { useNavigate, useSearch } from '@tanstack/react-router'
 import { ChevronDown, ChevronRight, List, Map, Search } from 'lucide-react'
 import { useCallback, useMemo, useState } from 'react'
 
+import { LocationReference } from '#/components/location-reference'
 import { Badge } from '#/components/ui/badge'
+import { Grid, Inline, Stack, SwitchLayout } from '#/components/ui/layout'
 import { SegmentedControl, SegmentedControlItem } from '#/components/ui/segmented-control'
 import { LOCATION_TYPES, type LocationType } from '#/definitions/location.ts'
-import { allEntities, entityLink } from '#/lib/campaign'
+import { allEntities } from '#/lib/campaign'
 import { LocationIcon, LocationTypeIcon, locationTypeLabel } from '#/lib/location-icons'
 import { locationsSearchFromTypes, parseLocationFilter } from '#/lib/locations-search'
 import {
@@ -38,7 +40,7 @@ function ViewSwitch({
           active={value === id}
           onClick={() => onChange(id)}
           label={label}
-          className="h-8 min-w-8 gap-1.5 px-3 py-1.5"
+          className="h-8 min-w-8 px-3 py-1.5"
         >
           <Icon className="size-3.5" aria-hidden />
           {label}
@@ -81,9 +83,11 @@ function TypeFilter({
 
 function TypeBadge({ type }: { type: LocationType }) {
   return (
-    <Badge variant="outline" className="gap-1">
-      <LocationTypeIcon type={type} className="size-3" />
-      {locationTypeLabel(type)}
+    <Badge variant="outline">
+      <Inline as="span" inline gap="2xs">
+        <LocationTypeIcon type={type} className="size-3" />
+        {locationTypeLabel(type)}
+      </Inline>
     </Badge>
   )
 }
@@ -144,19 +148,32 @@ function CartographerCanvas({ map }: { map: LocationMapModel }) {
       {/* oxlint-enable jsx-a11y/prefer-tag-over-role */}
 
       {map.pins.map((pin) => (
-        <Link
+        <LocationReference
           key={pin.slug}
-          {...entityLink('location', pin.slug)}
-          className="group absolute -translate-x-1/2 -translate-y-1/2"
-          style={{ left: `${pin.left}%`, top: `${pin.top}%` }}
+          slug={pin.slug}
+          label={pin.name}
+          unstyled
+          wrapperClassName="group absolute -translate-x-1/2 -translate-y-1/2"
+          wrapperStyle={{ left: `${pin.left}%`, top: `${pin.top}%` }}
+          className="block"
         >
-          <span className="bg-background border-primary text-primary group-hover:bg-primary group-hover:text-primary-foreground mx-auto flex size-7 items-center justify-center rounded-full border-2 shadow-sm transition-colors">
-            <LocationIcon icon={pin.icon} className="size-3.5" />
-          </span>
-          <span className="text-foreground mt-1 block max-w-28 text-center text-[11px] leading-tight font-medium">
-            {pin.name}
-          </span>
-        </Link>
+          {() => (
+            <Stack as="span" gap="2xs" align="center">
+              <Inline
+                as="span"
+                inline
+                gap="none"
+                justify="center"
+                className="bg-background border-primary text-primary group-hover:bg-primary group-hover:text-primary-foreground size-7 rounded-full border-2 shadow-sm transition-colors"
+              >
+                <LocationIcon icon={pin.icon} className="size-3.5" />
+              </Inline>
+              <span className="text-foreground block max-w-28 text-center text-[11px] leading-tight font-medium">
+                {pin.name}
+              </span>
+            </Stack>
+          )}
+        </LocationReference>
       ))}
 
       <p className="text-muted-foreground border-border bg-background/80 absolute right-3 bottom-3 rounded-md border px-2 py-1 text-xs backdrop-blur-sm">
@@ -181,38 +198,40 @@ function TreeNodeRow({
 
   return (
     <li>
-      <div
-        className="hover:bg-accent/20 flex items-start gap-1 rounded-md py-1.5 pr-2 transition-colors"
+      <Grid
+        gap="2xs"
+        className="hover:bg-accent/20 grid-cols-[auto_minmax(0,1fr)] items-start rounded-md py-1.5 pr-2 transition-colors"
         style={{ paddingLeft: `${depth * 1.25 + 0.5}rem` }}
       >
         {hasChildren ? (
           <button
             type="button"
             onClick={() => setOpen((value) => !value)}
-            className="text-muted-foreground hover:text-foreground mt-0.5 shrink-0 rounded p-0.5"
+            className="text-muted-foreground hover:text-foreground shrink-0 translate-y-0.5 rounded p-0.5"
             aria-label={isOpen ? 'Collapse' : 'Expand'}
           >
             {isOpen ? <ChevronDown className="size-3.5" /> : <ChevronRight className="size-3.5" />}
           </button>
         ) : (
-          <span className="mt-0.5 inline-block w-4.5 shrink-0" aria-hidden />
+          <span className="inline-block w-4.5 shrink-0 translate-y-0.5" aria-hidden />
         )}
 
-        <div className="min-w-0 flex-1">
-          <Link
-            {...entityLink('location', node.slug)}
-            className="flex flex-wrap items-center gap-2"
-          >
-            <LocationIcon icon={node.icon} className="text-primary/70 size-4" />
-            <span className="font-medium">{node.name}</span>
-            {node.type ? <TypeBadge type={node.type} /> : null}
-            <ActivityBadge count={node.activityCount} />
-          </Link>
+        <Stack gap="3xs" className="min-w-0">
+          <LocationReference slug={node.slug} label={node.name} unstyled className="block">
+            {() => (
+              <Inline as="span" gap="sm" wrap>
+                <LocationIcon icon={node.icon} className="text-primary/70 size-4" />
+                <span className="font-medium">{node.name}</span>
+                {node.type ? <TypeBadge type={node.type} /> : null}
+                <ActivityBadge count={node.activityCount} />
+              </Inline>
+            )}
+          </LocationReference>
           {node.teaser ? (
-            <p className="text-muted-foreground mt-0.5 line-clamp-2 text-xs">{node.teaser}</p>
+            <p className="text-muted-foreground line-clamp-2 text-xs">{node.teaser}</p>
           ) : null}
-        </div>
-      </div>
+        </Stack>
+      </Grid>
 
       {hasChildren && isOpen ? (
         <ul>
@@ -240,7 +259,7 @@ function LocationDirectory({
   const forceOpen = query.trim().length > 0 || activeTypes.size < LOCATION_TYPES.length
 
   return (
-    <div className="space-y-4">
+    <Stack gap="lg">
       <div className="relative max-w-md">
         <Search className="text-muted-foreground absolute top-1/2 left-3 size-4 -translate-y-1/2" />
         <input
@@ -268,7 +287,7 @@ function LocationDirectory({
           </p>
         )}
       </div>
-    </div>
+    </Stack>
   )
 }
 
@@ -312,27 +331,27 @@ export function LocationsScreen({ view }: { view: LocationsView }) {
   )
 
   return (
-    <div className="space-y-6">
-      <header className="space-y-4">
-        <div>
+    <Stack gap="xl">
+      <Stack as="header" gap="lg">
+        <Stack gap="sm">
           <p className="text-muted-foreground text-xs font-semibold tracking-wider uppercase">
             Locations
           </p>
-          <h1 className="mt-1 text-3xl font-bold tracking-tight">World Atlas</h1>
-          <p className="text-muted-foreground mt-2">
+          <h1 className="text-3xl font-bold tracking-tight">World Atlas</h1>
+          <p className="text-muted-foreground">
             {count} places across the campaign world — filter by type, then explore on the map or in
             the list tree.
           </p>
-        </div>
+        </Stack>
 
-        <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:justify-between">
+        <SwitchLayout gap="md" align="center" justify="between" wrap>
           <TypeFilter activeTypes={activeTypes} onChange={setActiveTypes} />
           <ViewSwitch value={view} onChange={setView} />
-        </div>
-      </header>
+        </SwitchLayout>
+      </Stack>
 
       {map ? <CartographerCanvas map={map} /> : null}
       {tree ? <LocationDirectory tree={tree} activeTypes={activeTypes} /> : null}
-    </div>
+    </Stack>
   )
 }

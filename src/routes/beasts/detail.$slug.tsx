@@ -4,6 +4,7 @@ import { ContentRenderer } from '#/components/content-renderer'
 import { EntityDetail, EntityNotFound, EntityPortrait } from '#/components/entity-page'
 import { LocationReference } from '#/components/location-reference'
 import { Badge } from '#/components/ui/badge'
+import { Inline, Stack, SwitchLayout } from '#/components/ui/layout'
 import { getEntity, resolveRef } from '#/lib/campaign'
 import { referencedByItems } from '#/lib/entity-page-data'
 
@@ -22,19 +23,19 @@ function BeastPage() {
 
   return (
     <EntityDetail kind="beast" referencedBy={referencedByItems('beast', slug)}>
-      <header className="flex flex-col gap-4 sm:flex-row sm:items-start">
+      <SwitchLayout as="header" gap="lg">
         <EntityPortrait src={beast.avatar} alt={beast.name} />
-        <div className="space-y-3">
+        <Stack gap="md">
           <p className="text-muted-foreground text-xs font-semibold tracking-wider uppercase">
             Beast
           </p>
           <h1 className="text-4xl font-bold tracking-tight">{beast.name}</h1>
-          <div className="flex flex-wrap gap-2">
+          <Inline gap="sm" wrap>
             {beast.species ? <Badge variant="outline">{beast.species}</Badge> : null}
             {home ? <LocationReference slug={home.slug} /> : null}
-          </div>
-        </div>
-      </header>
+          </Inline>
+        </Stack>
+      </SwitchLayout>
 
       {beast.notes ? <ContentRenderer content={beast.notes} /> : null}
     </EntityDetail>

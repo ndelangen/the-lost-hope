@@ -1,8 +1,19 @@
 import { Link, useRouterState } from '@tanstack/react-router'
-import { ChevronDown, ChevronRight, Globe, Home, ScrollText } from 'lucide-react'
+import {
+  BookOpen,
+  ChevronDown,
+  ChevronRight,
+  Globe,
+  Home,
+  PanelLeftClose,
+  PanelLeftOpen,
+  ScrollText,
+} from 'lucide-react'
 import { useEffect } from 'react'
 
-import { COLLECTION_LABELS, collectionTo, entityHref, entityLink } from '#/lib/campaign'
+import { EntityReference } from '#/components/entity-reference'
+import { Grid, Inline, Stack } from '#/components/ui/layout'
+import { COLLECTION_LABELS, collectionTo, entityHref } from '#/lib/campaign'
 import { cn } from '#/lib/utils'
 
 import { EntityNavCollection, NavLink, SectionHeader } from './nav'
@@ -18,9 +29,10 @@ import { usePersistedSet } from './storage'
 type SidebarProps = {
   collapsed: boolean
   onNavigate: () => void
+  onToggleCollapsed?: () => void
 }
 
-export function Sidebar({ collapsed, onNavigate }: SidebarProps) {
+export function Sidebar({ collapsed, onNavigate, onToggleCollapsed }: SidebarProps) {
   const pathname = useRouterState({ select: (state) => state.location.pathname })
   const routeState = sidebarRouteState(pathname)
   const [expandedItems, toggleItem, expandItem] = usePersistedSet(
@@ -33,43 +45,79 @@ export function Sidebar({ collapsed, onNavigate }: SidebarProps) {
   }, [pathname, expandItem])
 
   return (
-    <nav className={cn('space-y-6', collapsed && 'space-y-2')}>
-      <NavLink
-        to="/"
-        active={pathname === '/'}
-        collapsed={collapsed}
-        title="Overview"
-        onNavigate={onNavigate}
-      >
-        <Home className="size-4 shrink-0" />
-        {!collapsed ? <span>Overview</span> : null}
-      </NavLink>
+    <Stack as="nav" gap={collapsed ? 'sm' : 'xl'}>
+      <Stack gap="2xs" className={cn(!collapsed && 'pr-1')}>
+        {collapsed ? (
+          <Stack gap="2xs">
+            {collapsed && onToggleCollapsed ? (
+              <SidebarToggle collapsed onToggle={onToggleCollapsed} />
+            ) : null}
+            <NavLink
+              to="/"
+              active={pathname === '/'}
+              collapsed={collapsed}
+              title="Overview"
+              onNavigate={onNavigate}
+            >
+              <Home className="size-4 shrink-0" />
+              {!collapsed ? <span>Overview</span> : null}
+            </NavLink>
+          </Stack>
+        ) : (
+          <Grid gap="2xs" className="grid-cols-[minmax(0,1fr)_auto]">
+            <NavLink to="/" active={pathname === '/'} title="Overview" onNavigate={onNavigate}>
+              <Home className="size-4 shrink-0" />
+              <span>Overview</span>
+            </NavLink>
+            {onToggleCollapsed ? (
+              <SidebarToggle collapsed={false} onToggle={onToggleCollapsed} />
+            ) : null}
+          </Grid>
+        )}
+        <NavLink
+          to="/intro"
+          active={pathname === '/intro'}
+          collapsed={collapsed}
+          title="Campaign intro"
+          onNavigate={onNavigate}
+        >
+          <BookOpen className="size-4 shrink-0" />
+          {!collapsed ? <span>Campaign intro</span> : null}
+        </NavLink>
+      </Stack>
 
       <NowBlock collapsed={collapsed} onNavigate={onNavigate} />
 
-      <div>
+      <Stack gap="sm">
         {!collapsed ? (
-          <p className="text-muted-foreground bg-background sticky top-0 z-20 mb-2 flex h-7 items-center px-2 text-[11px] font-semibold tracking-wider uppercase">
-            Story
-          </p>
+          <Link
+            to="/events"
+            onClick={onNavigate}
+            className="text-muted-foreground bg-background hover:text-foreground hover:bg-muted sticky top-0 z-20 block h-7 rounded-md px-2 text-[11px] font-semibold tracking-wider uppercase transition-colors"
+          >
+            <Inline as="span" inline gap="none" className="h-full">
+              Story
+            </Inline>
+          </Link>
         ) : null}
-        <div>
+        <Stack gap="sm">
           <SectionHeader
             kind="session"
             icon={ScrollText}
             count={sidebarSessions.length}
             sticky
             collapsed={collapsed}
+            onNavigate={onNavigate}
           />
           {!collapsed ? (
-            <ul className="space-y-1">
+            <Stack as="ul" gap="2xs">
               {sidebarSessions.map((session) => {
                 const expanded = expandedItems.has(session.expansionId)
                 const sessionActive = pathname === entityHref('session', session.slug)
 
                 return (
-                  <li key={session.slug} className="space-y-0.5">
-                    <div className="flex items-center gap-0.5">
+                  <Stack as="li" gap="3xs" key={session.slug}>
+                    <Grid gap="3xs" className="grid-cols-[auto_minmax(0,1fr)] items-center">
                       <button
                         type="button"
                         onClick={() => toggleItem(session.expansionId)}
@@ -83,59 +131,61 @@ export function Sidebar({ collapsed, onNavigate }: SidebarProps) {
                           <ChevronRight className="size-3.5" />
                         )}
                       </button>
-                      <Link
-                        {...entityLink('session', session.slug)}
+                      <EntityReference
+                        kind="session"
+                        slug={session.slug}
+                        previewSide="right"
+                        wrapperClassName="min-w-0"
+                        unstyled
                         className={cn(
-                          'min-w-0 flex-1 truncate rounded-md px-1.5 py-1 text-sm transition-colors',
+                          'block truncate rounded-md px-1.5 py-1 text-sm transition-colors',
                           sessionActive
                             ? 'bg-accent text-accent-foreground'
                             : 'text-foreground hover:bg-muted',
                         )}
-                        title={`Session ${session.number}: ${session.name}`}
-                        onClick={onNavigate}
+                        onNavigate={onNavigate}
                       >
-                        <span className="text-primary font-semibold tabular-nums">
-                          {session.number}
-                        </span>
-                        <span className="text-muted-foreground mx-1.5">·</span>
-                        <span className="font-medium">{session.name}</span>
-                      </Link>
-                    </div>
+                        {() => (
+                          <Inline as="span" gap="xs">
+                            <span className="text-primary font-semibold tabular-nums">
+                              {session.number}
+                            </span>
+                            <span className="text-muted-foreground">·</span>
+                            <span className="font-medium">{session.name}</span>
+                          </Inline>
+                        )}
+                      </EntityReference>
+                    </Grid>
 
                     {expanded ? (
-                      <ul className="border-border ml-3 space-y-2 border-l pl-3">
-                        {session.days.map((day) => (
-                          <li key={`${session.slug}-day-${day.day}`}>
-                            <p className="text-muted-foreground px-1.5 py-0.5 text-[11px] font-semibold tracking-wide uppercase">
-                              Campaign day {day.day}
-                            </p>
-                            <ul className="space-y-0.5">
-                              {day.events.map((event) => (
-                                <li key={event.slug}>
-                                  <Link
-                                    {...entityLink('event', event.slug)}
-                                    className={cn(
-                                      'block truncate rounded-md px-1.5 py-1 text-sm transition-colors',
-                                      pathname === entityHref('event', event.slug)
-                                        ? 'bg-accent font-medium text-accent-foreground'
-                                        : 'text-muted-foreground hover:bg-muted hover:text-foreground',
-                                    )}
-                                    title={event.name}
-                                    onClick={onNavigate}
-                                  >
-                                    {event.name}
-                                  </Link>
-                                </li>
-                              ))}
-                            </ul>
+                      <Stack as="ul" gap="3xs" className="border-border border-l pl-6">
+                        {session.events.map((event) => (
+                          <li key={event.slug}>
+                            <EntityReference
+                              kind="event"
+                              slug={event.slug}
+                              label={event.name}
+                              previewSide="right"
+                              wrapperClassName="block"
+                              unstyled
+                              className={cn(
+                                'block truncate rounded-md px-1.5 py-1 text-sm transition-colors',
+                                pathname === entityHref('event', event.slug)
+                                  ? 'bg-accent font-medium text-accent-foreground'
+                                  : 'text-muted-foreground hover:bg-muted hover:text-foreground',
+                              )}
+                              onNavigate={onNavigate}
+                            >
+                              {({ label }) => label}
+                            </EntityReference>
                           </li>
                         ))}
-                      </ul>
+                      </Stack>
                     ) : null}
-                  </li>
+                  </Stack>
                 )
               })}
-              <li className="flex gap-3 px-2 pt-1">
+              <Inline as="li" gap="md" className="px-2 pt-1">
                 <Link
                   to="/sessions"
                   className="text-primary text-xs hover:underline"
@@ -150,26 +200,30 @@ export function Sidebar({ collapsed, onNavigate }: SidebarProps) {
                 >
                   All events →
                 </Link>
-              </li>
-            </ul>
+              </Inline>
+            </Stack>
           ) : null}
-        </div>
-      </div>
+        </Stack>
+      </Stack>
 
-      <div>
+      <Stack gap="sm">
         {!collapsed ? (
-          <p className="text-muted-foreground bg-background sticky top-0 z-20 mb-2 flex h-7 items-center gap-2 px-2 text-[11px] font-semibold tracking-wider uppercase">
+          <Inline
+            as="p"
+            gap="sm"
+            className="text-muted-foreground bg-background sticky top-0 z-20 h-7 px-2 text-[11px] font-semibold tracking-wider uppercase"
+          >
             <Globe className="size-3.5" />
             World & Cast
-          </p>
+          </Inline>
         ) : (
-          <div className="flex justify-center py-1" title="World & Cast">
+          <Inline gap="none" justify="center" className="py-1" title="World & Cast">
             <Globe className="text-muted-foreground size-4" />
-          </div>
+          </Inline>
         )}
 
         {collapsed ? (
-          <div className="space-y-1">
+          <Stack gap="2xs">
             {sidebarCollections.map(({ kind, icon: Icon }) => {
               return (
                 <NavLink
@@ -184,7 +238,7 @@ export function Sidebar({ collapsed, onNavigate }: SidebarProps) {
                 </NavLink>
               )
             })}
-          </div>
+          </Stack>
         ) : (
           sidebarCollections.map((collection) => (
             <EntityNavCollection
@@ -200,7 +254,25 @@ export function Sidebar({ collapsed, onNavigate }: SidebarProps) {
             />
           ))
         )}
-      </div>
-    </nav>
+      </Stack>
+    </Stack>
+  )
+}
+
+function SidebarToggle({ collapsed, onToggle }: { collapsed: boolean; onToggle: () => void }) {
+  return (
+    <button
+      type="button"
+      onClick={onToggle}
+      className={cn(
+        'text-muted-foreground hover:text-foreground hover:bg-muted hidden h-7 shrink-0 rounded-md lg:block',
+        collapsed ? 'w-full' : 'w-7',
+      )}
+      aria-label={collapsed ? 'Expand sidebar' : 'Collapse sidebar'}
+    >
+      <Inline as="span" inline gap="none" justify="center">
+        {collapsed ? <PanelLeftOpen className="size-4" /> : <PanelLeftClose className="size-4" />}
+      </Inline>
+    </button>
   )
 }

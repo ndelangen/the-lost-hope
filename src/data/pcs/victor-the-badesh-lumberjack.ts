@@ -6,7 +6,7 @@ export default createPC({
   player: 'unknown',
   url: 'https://www.dndbeyond.com/characters/162336996',
   avatar: '/assets/pcs/victor.png',
-  status: 'occasional',
+  status: 'missing-presumed-dead',
   species: 'Human',
   notes: [['A lumberjack from ', refs.locations.badesh, '.']],
 })

@@ -3,9 +3,11 @@ import { ChevronDown, ChevronRight } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import type { ReactNode } from 'react'
 
+import { EntityReference } from '#/components/entity-reference'
 import { Avatar } from '#/components/ui/avatar'
 import { Badge } from '#/components/ui/badge'
-import { COLLECTION_LABELS, collectionTo, entityLink, type EntityKind } from '#/lib/campaign'
+import { Inline, Stack } from '#/components/ui/layout'
+import { COLLECTION_LABELS, collectionTo, type EntityKind } from '#/lib/campaign'
 import { cn } from '#/lib/utils'
 
 import type { SidebarCollection } from './sidebar-data'
@@ -35,15 +37,16 @@ export function NavLink({
       title={title}
       onClick={onNavigate}
       className={cn(
-        'flex items-center rounded-md px-2 py-1.5 text-sm font-medium transition-colors',
-        collapsed ? 'justify-center' : 'gap-2',
+        'block rounded-md px-2 py-1.5 text-sm font-medium transition-colors',
         active
           ? 'bg-accent text-accent-foreground'
           : 'text-muted-foreground hover:bg-muted hover:text-foreground',
         className,
       )}
     >
-      {children}
+      <Inline as="span" inline gap="sm" justify={collapsed ? 'center' : 'start'}>
+        {children}
+      </Inline>
     </Link>
   )
 }
@@ -54,26 +57,50 @@ type EntityNavRowProps = {
   name: string
   active: boolean
   avatar?: string
+  meta?: string
   onNavigate?: () => void
 }
 
-export function EntityNavRow({ kind, slug, name, active, avatar, onNavigate }: EntityNavRowProps) {
+export function EntityNavRow({
+  kind,
+  slug,
+  name,
+  active,
+  avatar,
+  meta,
+  onNavigate,
+}: EntityNavRowProps) {
   return (
     <li>
-      <Link
-        {...entityLink(kind, slug)}
-        title={name}
-        onClick={onNavigate}
+      <EntityReference
+        kind={kind}
+        slug={slug}
+        label={name}
+        onNavigate={onNavigate}
+        previewSide="right"
+        wrapperClassName="block"
+        unstyled
         className={cn(
-          'flex items-center gap-2 truncate rounded-md px-2 py-1 text-sm transition-colors',
+          'block truncate rounded-md px-2 py-1 text-sm transition-colors',
           active
             ? 'bg-accent font-medium text-accent-foreground'
             : 'text-muted-foreground hover:bg-muted hover:text-foreground',
         )}
       >
-        {avatar ? <Avatar src={avatar} className="size-5" /> : null}
-        <span className="truncate">{name}</span>
-      </Link>
+        {() => (
+          <Inline as="span" justify="between" gap="sm">
+            <Inline as="span" gap="sm" className="min-w-0">
+              {avatar ? <Avatar src={avatar} className="size-5" /> : null}
+              <span className="min-w-0 truncate">{name}</span>
+            </Inline>
+            {meta ? (
+              <span className="text-muted-foreground/80 max-w-20 shrink-0 truncate text-[10px] font-medium">
+                {meta}
+              </span>
+            ) : null}
+          </Inline>
+        )}
+      </EntityReference>
     </li>
   )
 }
@@ -100,7 +127,7 @@ export function EntityNavCollection({
   const { kind, icon, count, groups } = collection
 
   return (
-    <div>
+    <Stack gap="sm">
       <SectionHeader
         kind={kind}
         icon={icon}
@@ -108,43 +135,50 @@ export function EntityNavCollection({
         sticky
         expanded={expanded}
         onToggle={onToggle}
+        onNavigate={onNavigate}
       />
       {expanded ? (
-        <ul className="space-y-0.5">
+        <Stack as="ul" gap="3xs">
           {groups.map((group) => {
             const expansionId = group.expansionId
             const groupExpanded = group.expansionId ? expandedItems.has(group.expansionId) : true
             return (
-              <li key={group.id}>
+              <Stack as="li" gap="3xs" key={group.id}>
                 {group.label ? (
                   expansionId ? (
                     <button
                       type="button"
                       onClick={() => onToggleItem(expansionId)}
-                      className="text-muted-foreground hover:text-foreground flex w-full items-center gap-1 px-2 py-0.5 text-[11px] font-semibold tracking-wide uppercase"
+                      aria-label={`${groupExpanded ? 'Collapse' : 'Expand'} ${group.label}`}
+                      className="text-muted-foreground hover:text-foreground w-full px-2 py-0.5 text-[11px] font-semibold tracking-wide uppercase"
                       aria-expanded={groupExpanded}
                     >
-                      {groupExpanded ? (
-                        <ChevronDown className="size-3" />
-                      ) : (
-                        <ChevronRight className="size-3" />
-                      )}
-                      {group.label}
-                      <Badge variant="secondary" className="ml-auto">
-                        {group.items.length}
-                      </Badge>
+                      <Inline as="span" justify="between" gap="2xs">
+                        <Inline as="span" gap="2xs">
+                          {groupExpanded ? (
+                            <ChevronDown className="size-3" />
+                          ) : (
+                            <ChevronRight className="size-3" />
+                          )}
+                          {group.label}
+                        </Inline>
+                        <Badge variant="secondary">{group.items.length}</Badge>
+                      </Inline>
                     </button>
                   ) : (
-                    <p className="text-muted-foreground px-2 py-0.5 text-[11px] font-semibold tracking-wide uppercase">
+                    <Inline
+                      as="p"
+                      justify="between"
+                      gap="sm"
+                      className="text-muted-foreground px-2 py-0.5 text-[11px] font-semibold tracking-wide uppercase"
+                    >
                       {group.label}
-                      <Badge variant="secondary" className="ml-2">
-                        {group.items.length}
-                      </Badge>
-                    </p>
+                      <Badge variant="secondary">{group.items.length}</Badge>
+                    </Inline>
                   )
                 ) : null}
                 {groupExpanded ? (
-                  <ul className="space-y-0.5">
+                  <Stack as="ul" gap="3xs">
                     {group.items.map((item) => (
                       <EntityNavRow
                         key={item.slug}
@@ -152,13 +186,14 @@ export function EntityNavCollection({
                         slug={item.slug}
                         name={item.name}
                         avatar={item.avatar}
+                        meta={item.meta}
                         active={activeKind === kind && activeSlug === item.slug}
                         onNavigate={onNavigate}
                       />
                     ))}
-                  </ul>
+                  </Stack>
                 ) : null}
-              </li>
+              </Stack>
             )
           })}
           <li>
@@ -170,9 +205,9 @@ export function EntityNavCollection({
               Browse all →
             </Link>
           </li>
-        </ul>
+        </Stack>
       ) : null}
-    </div>
+    </Stack>
   )
 }
 
@@ -184,6 +219,7 @@ type SectionHeaderProps = {
   expanded?: boolean
   onToggle?: () => void
   collapsed?: boolean
+  onNavigate?: () => void
 }
 
 export function SectionHeader({
@@ -194,21 +230,30 @@ export function SectionHeader({
   expanded,
   onToggle,
   collapsed,
+  onNavigate,
 }: SectionHeaderProps) {
   const label = COLLECTION_LABELS[kind]
 
   if (collapsed) {
     return (
-      <div className="flex justify-center py-1" title={label}>
-        <Icon className="text-muted-foreground size-4" />
-      </div>
+      <Link
+        to={collectionTo(kind)}
+        onClick={onNavigate}
+        className="text-muted-foreground hover:text-foreground hover:bg-muted block rounded-md py-2 transition-colors"
+        title={label}
+      >
+        <Inline as="span" inline gap="none" justify="center">
+          <Icon className="text-muted-foreground size-4" />
+        </Inline>
+      </Link>
     )
   }
 
   return (
-    <div
+    <Inline
+      gap="2xs"
       className={cn(
-        'text-muted-foreground mb-2 flex items-center gap-2 px-2 text-xs font-semibold tracking-wider uppercase',
+        'text-muted-foreground px-1 text-xs font-semibold tracking-wider uppercase',
         // Sticks just below the group label (which pins at top-0 with height h-7).
         sticky && 'bg-background sticky top-7 z-10 py-1',
       )}
@@ -224,13 +269,19 @@ export function SectionHeader({
           {expanded ? <ChevronDown className="size-3.5" /> : <ChevronRight className="size-3.5" />}
         </button>
       ) : null}
-      <Icon className="size-3.5" />
-      <span>{label}</span>
-      {count !== undefined ? (
-        <Badge variant="secondary" className="ml-auto">
-          {count}
-        </Badge>
-      ) : null}
-    </div>
+      <Link
+        to={collectionTo(kind)}
+        onClick={onNavigate}
+        className="hover:text-foreground hover:bg-muted block w-full min-w-0 rounded-md px-1 py-0.5 transition-colors"
+      >
+        <Inline as="span" justify="between" gap="sm">
+          <Inline as="span" gap="sm">
+            <Icon className="size-3.5" />
+            <span>{label}</span>
+          </Inline>
+          {count !== undefined ? <Badge variant="secondary">{count}</Badge> : null}
+        </Inline>
+      </Link>
+    </Inline>
   )
 }

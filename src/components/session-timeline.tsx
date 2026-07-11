@@ -1,7 +1,6 @@
-import { Link } from '@tanstack/react-router'
-
+import { EventReference } from '#/components/event-reference'
 import { LocationReference } from '#/components/location-reference'
-import { entityLink } from '#/lib/campaign'
+import { Grid, Inline, Stack } from '#/components/ui/layout'
 import type { SessionTimelineDay } from '#/lib/entity-page-data'
 import { EventMarkIcon } from '#/lib/event-icons'
 import { cn } from '#/lib/utils'
@@ -14,14 +13,13 @@ function TimelineBullet({
   className?: string
 }) {
   return (
-    <div
-      className={cn(
-        'ring-background relative flex size-10 shrink-0 items-center justify-center rounded-full ring-4',
-        className,
-      )}
+    <Inline
+      gap="none"
+      justify="center"
+      className={cn('ring-background relative size-10 shrink-0 rounded-full ring-4', className)}
     >
       {children}
-    </div>
+    </Inline>
   )
 }
 
@@ -29,7 +27,7 @@ function DayHeading({ day, isFirst }: { day: number; isFirst: boolean }) {
   return (
     <h3
       className={cn(
-        'bg-background text-muted-foreground sticky top-14 z-20 -mx-4 px-4 py-4 text-base font-semibold tracking-wider uppercase',
+        'bg-background text-muted-foreground sticky top-14 z-20 px-4 py-4 text-base font-semibold tracking-wider uppercase',
         !isFirst && 'border-border border-t',
       )}
     >
@@ -52,23 +50,31 @@ function EventBullet({ mark }: { mark: SessionTimelineDay['events'][number]['mar
 
 function EventCard({ event }: { event: SessionTimelineDay['events'][number] }) {
   return (
-    <div className="group relative flex items-start gap-3">
+    <Grid gap="md" className="group relative grid-cols-[auto_minmax(0,1fr)] items-start">
       <EventBullet mark={event.mark} />
-      <div className="border-border group-hover:border-primary/40 group-hover:bg-accent/20 min-w-0 flex-1 space-y-1.5 rounded-lg border px-4 py-3 transition-colors">
+      <Stack
+        gap="xs"
+        className="border-border group-hover:border-primary/40 group-hover:bg-accent/20 min-w-0 rounded-lg border px-4 py-3 transition-colors"
+      >
         <p className="font-medium">
-          <Link {...entityLink('event', event.slug)} className="after:absolute after:inset-0">
-            {event.name}
-          </Link>
+          <EventReference
+            slug={event.slug}
+            label={event.name}
+            unstyled
+            className="after:absolute after:inset-0"
+          >
+            {({ label }) => label}
+          </EventReference>
         </p>
-        <div className="flex flex-wrap items-center gap-2">
+        <Inline gap="sm" wrap>
           {event.locationSlug ? (
             <span className="relative z-10">
               <LocationReference slug={event.locationSlug} />
             </span>
           ) : null}
-        </div>
-      </div>
-    </div>
+        </Inline>
+      </Stack>
+    </Grid>
   )
 }
 
@@ -81,30 +87,30 @@ function DayEvents({ events }: { events: SessionTimelineDay['events'] }) {
         className="border-muted-foreground/25 absolute top-2 bottom-2 left-5 w-0 border-l border-dashed"
         aria-hidden
       />
-      <ol className="space-y-3">
+      <Stack as="ol" gap="md">
         {events.map((event) => (
           <li key={event.slug}>
             <EventCard event={event} />
           </li>
         ))}
-      </ol>
+      </Stack>
     </div>
   )
 }
 
 export function SessionTimeline({ days }: { days: SessionTimelineDay[] }) {
   return (
-    <section className="space-y-6">
+    <Stack as="section" gap="xl">
       <h2 className="text-lg font-semibold">Timeline</h2>
 
-      <div className="space-y-6">
+      <Stack gap="xl">
         {days.map((day, index) => (
-          <div key={`day-${day.day}`} className={cn('space-y-4', index > 0 && 'mt-6')}>
+          <Stack key={`day-${day.day}`} gap="lg">
             <DayHeading day={day.day} isFirst={index === 0} />
             <DayEvents events={day.events} />
-          </div>
+          </Stack>
         ))}
-      </div>
-    </section>
+      </Stack>
+    </Stack>
   )
 }

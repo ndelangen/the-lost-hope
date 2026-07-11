@@ -9,6 +9,7 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as IntroRouteImport } from './routes/intro'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as SessionsIndexRouteImport } from './routes/sessions/index'
 import { Route as QuestsIndexRouteImport } from './routes/quests/index'
@@ -29,6 +30,11 @@ import { Route as LocationsDetailSlugRouteImport } from './routes/locations/deta
 import { Route as EventsDetailSlugRouteImport } from './routes/events/detail.$slug'
 import { Route as BeastsDetailSlugRouteImport } from './routes/beasts/detail.$slug'
 
+const IntroRoute = IntroRouteImport.update({
+  id: '/intro',
+  path: '/intro',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
@@ -127,6 +133,7 @@ const BeastsDetailSlugRoute = BeastsDetailSlugRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/intro': typeof IntroRoute
   '/locations/list': typeof LocationsListRoute
   '/locations/map': typeof LocationsMapRoute
   '/beasts/': typeof BeastsIndexRoute
@@ -148,6 +155,7 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/intro': typeof IntroRoute
   '/locations/list': typeof LocationsListRoute
   '/locations/map': typeof LocationsMapRoute
   '/beasts': typeof BeastsIndexRoute
@@ -170,6 +178,7 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/intro': typeof IntroRoute
   '/locations/list': typeof LocationsListRoute
   '/locations/map': typeof LocationsMapRoute
   '/beasts/': typeof BeastsIndexRoute
@@ -193,6 +202,7 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/intro'
     | '/locations/list'
     | '/locations/map'
     | '/beasts/'
@@ -214,6 +224,7 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/intro'
     | '/locations/list'
     | '/locations/map'
     | '/beasts'
@@ -235,6 +246,7 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
+    | '/intro'
     | '/locations/list'
     | '/locations/map'
     | '/beasts/'
@@ -257,6 +269,7 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  IntroRoute: typeof IntroRoute
   LocationsListRoute: typeof LocationsListRoute
   LocationsMapRoute: typeof LocationsMapRoute
   BeastsIndexRoute: typeof BeastsIndexRoute
@@ -279,6 +292,13 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/intro': {
+      id: '/intro'
+      path: '/intro'
+      fullPath: '/intro'
+      preLoaderRoute: typeof IntroRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -417,6 +437,7 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  IntroRoute: IntroRoute,
   LocationsListRoute: LocationsListRoute,
   LocationsMapRoute: LocationsMapRoute,
   BeastsIndexRoute: BeastsIndexRoute,

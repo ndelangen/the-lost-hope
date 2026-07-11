@@ -5,6 +5,7 @@ import { EntityDetail, EntityNotFound } from '#/components/entity-page'
 import { LocationReference } from '#/components/location-reference'
 import { LocationMapImage } from '#/components/map-placeholder'
 import { Badge } from '#/components/ui/badge'
+import { Grid, Inline, Stack } from '#/components/ui/layout'
 import {
   getEntity,
   locationAbsolutePosition,
@@ -32,23 +33,23 @@ function LocationDetailPage() {
 
   return (
     <EntityDetail kind="location" referencedBy={referencedByItems('location', slug)}>
-      <header className="space-y-4">
+      <Stack as="header" gap="lg">
         <p className="text-muted-foreground text-xs font-semibold tracking-wider uppercase">
           Location
         </p>
         {ancestors.length > 0 ? (
-          <p className="text-muted-foreground flex flex-wrap items-center text-sm">
+          <Inline as="p" gap="xs" wrap className="text-muted-foreground text-sm">
             {ancestors.map((ancestor, index) => (
-              <span key={ancestor.slug} className="inline-flex items-center">
-                {index > 0 ? <span className="mx-1.5 opacity-50">›</span> : null}
+              <Inline as="span" inline gap="xs" key={ancestor.slug}>
+                {index > 0 ? <span className="opacity-50">›</span> : null}
                 <LocationReference slug={ancestor.slug} />
-              </span>
+              </Inline>
             ))}
-          </p>
+          </Inline>
         ) : null}
-        <div className="flex items-center gap-4">
+        <Inline gap="lg">
           <LocationAvatar icon={location.icon} />
-          <div className="space-y-2">
+          <Stack gap="sm">
             <h1 className="text-4xl font-bold tracking-tight">{location.name}</h1>
             {location.aliases?.length ? (
               <p className="text-muted-foreground text-sm">
@@ -56,27 +57,29 @@ function LocationDetailPage() {
               </p>
             ) : null}
             {locationType ? (
-              <Badge variant="secondary" className="gap-1">
-                <LocationTypeIcon type={locationType} className="size-3" />
-                {locationTypeLabel(locationType, true)}
+              <Badge variant="secondary">
+                <Inline as="span" inline gap="2xs">
+                  <LocationTypeIcon type={locationType} className="size-3" />
+                  {locationTypeLabel(locationType, true)}
+                </Inline>
               </Badge>
             ) : null}
-          </div>
-        </div>
+          </Stack>
+        </Inline>
         <LocationMapImage
           src={location.map?.url ?? ''}
           alt={location.name}
           coordinates={coordinates}
         />
-      </header>
+      </Stack>
 
-      <div className="space-y-8">
+      <Stack gap="2xl">
         {children.length > 0 ? (
-          <section className="space-y-3">
+          <Stack as="section" gap="md">
             <h2 className="text-muted-foreground text-sm font-semibold tracking-wider uppercase">
               Places within
             </h2>
-            <ul className="grid gap-2 sm:grid-cols-2">
+            <Grid as="ul" gap="sm" smColumns={2}>
               {children.map((child) => (
                 <li
                   key={child.slug}
@@ -85,11 +88,11 @@ function LocationDetailPage() {
                   <LocationReference slug={child.slug} />
                 </li>
               ))}
-            </ul>
-          </section>
+            </Grid>
+          </Stack>
         ) : null}
         {location.notes ? <ContentRenderer content={location.notes} /> : null}
-      </div>
+      </Stack>
     </EntityDetail>
   )
 }

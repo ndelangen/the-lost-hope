@@ -1,8 +1,12 @@
 import { Link } from '@tanstack/react-router'
-import type { ReactNode } from 'react'
+import type { CSSProperties, ReactNode } from 'react'
 
 import { entityLink, type EntityKind } from '#/lib/campaign'
 import { cn } from '#/lib/utils'
+
+import { HoverPreview } from './hover-preview'
+import type { PreviewSide } from './hover-preview'
+import { Inline } from './layout'
 
 export function EntityReference({
   kind,
@@ -11,6 +15,11 @@ export function EntityReference({
   icon,
   tooltip,
   className,
+  wrapperClassName,
+  wrapperStyle,
+  previewSide,
+  unstyled,
+  children,
   onNavigate,
 }: {
   kind: EntityKind
@@ -19,27 +28,43 @@ export function EntityReference({
   icon: ReactNode
   tooltip: ReactNode
   className?: string
+  wrapperClassName?: string
+  wrapperStyle?: CSSProperties
+  previewSide?: PreviewSide
+  unstyled?: boolean
+  children?: ReactNode
   onNavigate?: () => void
 }) {
   return (
-    <span className="group/reference relative inline-flex align-baseline">
+    <HoverPreview
+      content={tooltip}
+      side={previewSide}
+      className={wrapperClassName}
+      style={wrapperStyle}
+    >
       <Link
         {...entityLink(kind, slug)}
         onClick={onNavigate}
         className={cn(
-          'text-primary inline-flex items-center gap-1 font-medium underline-offset-4 hover:underline',
+          !unstyled && 'text-primary inline font-medium underline-offset-4 hover:underline',
           className,
         )}
       >
-        {icon}
-        <span>{label}</span>
+        {children ?? (
+          <>
+            <Inline
+              as="span"
+              inline
+              gap="none"
+              marginEnd="2xs"
+              className="relative -top-px align-middle"
+            >
+              {icon}
+            </Inline>
+            {label}
+          </>
+        )}
       </Link>
-      <span
-        role="tooltip"
-        className="border-border bg-card text-foreground pointer-events-none absolute bottom-[calc(100%+8px)] left-0 z-50 flex w-max max-w-[220px] scale-95 flex-col gap-1 rounded-lg border px-3 py-2 text-xs opacity-0 shadow-lg transition-all duration-150 group-focus-within/reference:scale-100 group-focus-within/reference:opacity-100 group-hover/reference:scale-100 group-hover/reference:opacity-100"
-      >
-        {tooltip}
-      </span>
-    </span>
+    </HoverPreview>
   )
 }

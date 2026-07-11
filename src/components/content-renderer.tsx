@@ -1,11 +1,9 @@
-import { Link } from '@tanstack/react-router'
-
-import { LocationReference } from '#/components/location-reference'
-import { OrganizationReference } from '#/components/organization-reference'
+import { EntityReference } from '#/components/entity-reference'
+import { Stack } from '#/components/ui/layout'
 import type { Content } from '#/definitions/content.ts'
 import { isEntityRef } from '#/definitions/kind.ts'
 import type { Reference } from '#/definitions/reference.ts'
-import { entityLink, refLink } from '#/lib/campaign'
+import { refLink } from '#/lib/campaign'
 import { cn } from '#/lib/utils'
 
 type ContentParagraph = Content[number]
@@ -14,12 +12,12 @@ type Media = Extract<ContentAtom, { url: string }>
 
 export function ContentRenderer({ content, className }: { content: Content; className?: string }) {
   return (
-    <div className={cn('space-y-3 text-sm leading-relaxed', className)}>
+    <Stack gap="md" className={cn('text-sm leading-relaxed', className)}>
       {content.map((item, index) => (
         // oxlint-disable-next-line react/no-array-index-key -- content parts lack stable ids
         <ContentPart key={index} part={item} />
       ))}
-    </div>
+    </Stack>
   )
 }
 
@@ -97,20 +95,7 @@ function InlineRun({ items }: { items: ContentParagraph }) {
 function ContentReference({ reference }: { reference: Reference }) {
   const link = refLink(reference)
   if (!link) return null
-  if (link.kind === 'location') {
-    return <LocationReference slug={link.slug} label={link.name} />
-  }
-  if (link.kind === 'organization') {
-    return <OrganizationReference slug={link.slug} label={link.name} />
-  }
-  return (
-    <Link
-      {...entityLink(link.kind, link.slug)}
-      className="text-primary font-medium underline-offset-4 hover:underline"
-    >
-      {link.name}
-    </Link>
-  )
+  return <EntityReference kind={link.kind} slug={link.slug} label={link.name} />
 }
 
 function isReference(value: unknown): value is Reference {
