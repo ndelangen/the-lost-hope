@@ -245,6 +245,7 @@ type GridTemplate =
   | 4
   | 5
   | 6
+  | 7
   | 'auto-content'
   | 'content-auto'
   | 'label-content'
@@ -257,6 +258,7 @@ const gridTemplateClasses: Record<GridTemplate, string> = {
   4: 'grid-cols-4',
   5: 'grid-cols-5',
   6: 'grid-cols-6',
+  7: 'grid-cols-7',
   'auto-content': 'grid-cols-[auto_minmax(0,1fr)]',
   'content-auto': 'grid-cols-[minmax(0,1fr)_auto]',
   'label-content': 'grid-cols-[9rem_minmax(0,1fr)]',
@@ -270,6 +272,7 @@ const smGridTemplateClasses: Record<GridTemplate, string> = {
   4: 'sm:grid-cols-4',
   5: 'sm:grid-cols-5',
   6: 'sm:grid-cols-6',
+  7: 'sm:grid-cols-7',
   'auto-content': 'sm:grid-cols-[auto_minmax(0,1fr)]',
   'content-auto': 'sm:grid-cols-[minmax(0,1fr)_auto]',
   'label-content': 'sm:grid-cols-[9rem_minmax(0,1fr)]',
@@ -283,6 +286,7 @@ const mdGridTemplateClasses: Record<GridTemplate, string> = {
   4: 'md:grid-cols-4',
   5: 'md:grid-cols-5',
   6: 'md:grid-cols-6',
+  7: 'md:grid-cols-7',
   'auto-content': 'md:grid-cols-[auto_minmax(0,1fr)]',
   'content-auto': 'md:grid-cols-[minmax(0,1fr)_auto]',
   'label-content': 'md:grid-cols-[9rem_minmax(0,1fr)]',
@@ -296,6 +300,7 @@ const lgGridTemplateClasses: Record<GridTemplate, string> = {
   4: 'lg:grid-cols-4',
   5: 'lg:grid-cols-5',
   6: 'lg:grid-cols-6',
+  7: 'lg:grid-cols-7',
   'auto-content': 'lg:grid-cols-[auto_minmax(0,1fr)]',
   'content-auto': 'lg:grid-cols-[minmax(0,1fr)_auto]',
   'label-content': 'lg:grid-cols-[9rem_minmax(0,1fr)]',
@@ -309,6 +314,7 @@ const xlGridTemplateClasses: Record<GridTemplate, string> = {
   4: 'xl:grid-cols-4',
   5: 'xl:grid-cols-5',
   6: 'xl:grid-cols-6',
+  7: 'xl:grid-cols-7',
   'auto-content': 'xl:grid-cols-[auto_minmax(0,1fr)]',
   'content-auto': 'xl:grid-cols-[minmax(0,1fr)_auto]',
   'label-content': 'xl:grid-cols-[9rem_minmax(0,1fr)]',

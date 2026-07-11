@@ -1,9 +1,9 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { Calendar } from 'lucide-react'
 
+import { EntityKindBadge } from '#/components/entity-kind-badge'
 import { EntityChip, EntityDetail, EntityNotFound } from '#/components/entity-page'
 import { SessionTimeline } from '#/components/session-timeline'
-import { Badge } from '#/components/ui/badge'
 import { Inline, Stack } from '#/components/ui/layout'
 import { getEntity, sessionNumber, sessionPcs } from '#/lib/campaign'
 import { referencedByItems, sessionTimelineDays } from '#/lib/entity-page-data'
@@ -38,7 +38,7 @@ function SessionPage() {
             <Calendar className="size-3.5" />
             {session.date.toLocaleDateString(undefined, { dateStyle: 'long' })}
           </Inline>
-          <Badge variant="secondary">{session.events.length} events</Badge>
+          <EntityKindBadge kind="event">{session.events.length} events</EntityKindBadge>
         </Inline>
       </Stack>
 

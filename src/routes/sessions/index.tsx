@@ -1,14 +1,23 @@
 import { createFileRoute } from '@tanstack/react-router'
 
-import { EntityCollection } from '#/components/entity-page'
-import { COLLECTION_LABELS } from '#/lib/campaign'
-import { entityCollectionItems } from '#/lib/entity-page-data'
+import { SessionsYearCalendar } from '#/components/sessions-year-calendar'
+import { sessionNumber, sortedSessions } from '#/lib/campaign'
+import { buildSessionCalendarYears } from '#/lib/session-calendar'
 
 export const Route = createFileRoute('/sessions/')({
   component: SessionsPage,
 })
 
 function SessionsPage() {
-  const items = entityCollectionItems('session')
-  return <EntityCollection label={COLLECTION_LABELS.session} items={items} />
+  const sessions = sortedSessions()
+  const years = buildSessionCalendarYears(
+    sessions.map((session) => ({
+      date: session.data.date,
+      name: session.data.name,
+      number: sessionNumber(session.slug) ?? 0,
+      slug: session.slug,
+    })),
+  )
+
+  return <SessionsYearCalendar years={years} sessionCount={sessions.length} />
 }

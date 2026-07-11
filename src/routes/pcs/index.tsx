@@ -1,6 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { ArrowUpRight } from 'lucide-react'
 
+import { EntityKindBadge } from '#/components/entity-kind-badge'
 import { PcReference } from '#/components/pc-reference'
 import { Avatar } from '#/components/ui/avatar'
 import { Badge } from '#/components/ui/badge'
@@ -69,7 +70,7 @@ function PcRoster({
       <Stack gap="2xs">
         <Inline gap="sm">
           <h2 className="text-xl font-semibold tracking-tight">{title}</h2>
-          <Badge variant="secondary">{characters.length}</Badge>
+          <EntityKindBadge kind="pc">{characters.length}</EntityKindBadge>
         </Inline>
         <p className="text-muted-foreground text-sm">{description}</p>
       </Stack>
@@ -108,7 +109,8 @@ function PcPortraitLink({ character, featured }: { character: EntityOf<'pc'>; fe
             as="span"
             maxWidth={featured ? 'xl' : 'sm'}
             className={cn(
-              'border-border bg-card relative aspect-square overflow-hidden rounded-full border shadow-sm transition-all duration-300 group-hover:-translate-y-1 group-hover:shadow-lg group-focus-visible:ring-2 group-focus-visible:ring-cyan-500/50',
+              'border-border bg-card relative aspect-square overflow-hidden rounded-full border shadow-sm transition-all duration-300 group-hover:-translate-y-1 group-hover:shadow-lg group-focus-visible:ring-2',
+              visual.ringClassName,
               featured ? 'w-full max-w-44' : 'w-full max-w-28',
             )}
           >

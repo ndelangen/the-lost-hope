@@ -11,6 +11,7 @@ import {
 import { useState } from 'react'
 
 import { CampaignSearch } from '#/components/campaign-shell/campaign-search'
+import { EntityKindBadge } from '#/components/entity-kind-badge'
 import { EventReference } from '#/components/event-reference'
 import { HomeActionCard } from '#/components/home-action-card'
 import { LocationReference } from '#/components/location-reference'
@@ -194,7 +195,7 @@ function HomePage() {
                 <CircleHelp className="text-primary size-5" />
                 <CardTitle>Open mysteries</CardTitle>
               </Inline>
-              <Badge variant="secondary">{mysteries.length}</Badge>
+              <EntityKindBadge kind="quest">{mysteries.length}</EntityKindBadge>
             </Inline>
             <CardDescription>Story threads the party has not resolved.</CardDescription>
           </CardHeader>
@@ -273,7 +274,7 @@ function HomePage() {
                         <Icon className={cn('size-5', visual.accentClassName)} />
                         <span className="font-semibold">{COLLECTION_LABELS[kind]}</span>
                       </Inline>
-                      <Badge variant="secondary">{allEntities(kind).length}</Badge>
+                      <EntityKindBadge kind={kind}>{allEntities(kind).length}</EntityKindBadge>
                     </Inline>
                     <p className="text-muted-foreground text-sm">{collectionDescriptions[kind]}</p>
                   </Stack>

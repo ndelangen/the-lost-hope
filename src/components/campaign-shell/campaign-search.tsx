@@ -1,7 +1,7 @@
 import { useNavigate } from '@tanstack/react-router'
 import { useEffect, useMemo, useRef, useState } from 'react'
 
-import { Badge } from '#/components/ui/badge'
+import { EntityKindBadge } from '#/components/entity-kind-badge'
 import { Inline } from '#/components/ui/layout'
 import { SearchInput } from '#/components/ui/search-input'
 import {
@@ -159,9 +159,9 @@ export function CampaignSearch({
                         >
                           <Inline as="span" justify="between" gap="sm">
                             <span className="min-w-0 truncate">{entity.data.name}</span>
-                            <Badge variant="secondary" className="shrink-0">
+                            <EntityKindBadge kind={kind} className="shrink-0">
                               {COLLECTION_LABELS[kind].replace(/s$/, '')}
-                            </Badge>
+                            </EntityKindBadge>
                           </Inline>
                         </button>
                       </li>

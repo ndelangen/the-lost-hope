@@ -3,9 +3,9 @@ import { ChevronDown, ChevronRight } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import type { ReactNode } from 'react'
 
+import { EntityKindBadge } from '#/components/entity-kind-badge'
 import { EntityReference } from '#/components/entity-reference'
 import { Avatar } from '#/components/ui/avatar'
-import { Badge } from '#/components/ui/badge'
 import { Inline, Stack } from '#/components/ui/layout'
 import { COLLECTION_LABELS, collectionTo, type EntityKind } from '#/lib/campaign'
 import { cn } from '#/lib/utils'
@@ -162,7 +162,6 @@ export function EntityNavCollection({
                           )}
                           {group.label}
                         </Inline>
-                        <Badge variant="secondary">{group.items.length}</Badge>
                       </Inline>
                     </button>
                   ) : (
@@ -173,7 +172,6 @@ export function EntityNavCollection({
                       className="text-muted-foreground px-2 py-0.5 text-[11px] font-semibold tracking-wide uppercase"
                     >
                       {group.label}
-                      <Badge variant="secondary">{group.items.length}</Badge>
                     </Inline>
                   )
                 ) : null}
@@ -279,7 +277,7 @@ export function SectionHeader({
             <Icon className="size-3.5" />
             <span>{label}</span>
           </Inline>
-          {count !== undefined ? <Badge variant="secondary">{count}</Badge> : null}
+          {count !== undefined ? <EntityKindBadge kind={kind}>{count}</EntityKindBadge> : null}
         </Inline>
       </Link>
     </Inline>
