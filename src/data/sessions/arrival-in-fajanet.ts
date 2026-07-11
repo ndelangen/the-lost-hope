@@ -3,7 +3,8 @@ import { create as createSession } from '#/definitions/session.ts'
 
 export default createSession({
   name: 'Arrival in Fajanet',
-  date: new Date('2026-08-09'),
+  number: 1,
+  date: new Date('2026-01-29'),
   events: [
     refs.events.n2_e001,
     refs.events.n2_e002,

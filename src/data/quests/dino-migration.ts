@@ -30,7 +30,7 @@ export default createQuest({
       'Why are they heading to ',
       refs.locations.fairhaven,
       '? The party was told to reach Fairhaven by ',
-      refs.npcs.third_marshal_light,
+      refs.npcs.light_13th_marshal,
       '.',
     ],
   ],

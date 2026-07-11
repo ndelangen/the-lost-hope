@@ -6,13 +6,7 @@ export default createOrganization({
   icon: 'gi/GiCrossedSwords',
   notes: [
     ['A guild that recruits wandering heroes and sends them on adventures.'],
-    [
-      'Led through a Marshal hierarchy: ',
-      refs.npcs.third_marshal_light,
-      ' holds the rank of 13th Marshal over ',
-      refs.locations.fajanet,
-      '.',
-    ],
+    ['The guild in ', refs.locations.fajanet, ' is led by ', refs.npcs.light_13th_marshal, '.'],
     [
       'Each recruit is inducted with a guild-mark tattoo and granted a single favor from the guildmaster.',
     ],

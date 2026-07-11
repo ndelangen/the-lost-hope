@@ -31,6 +31,15 @@ function CampaignIntroPage() {
           <ContentRenderer content={campaign.pitch} />
         </Stack>
       ) : null}
+
+      {campaign.houseRules ? (
+        <Stack as="section" gap="lg" className="border-border bg-card rounded-xl border p-6 sm:p-8">
+          <h2 className="text-muted-foreground text-sm font-semibold tracking-wider uppercase">
+            House rules
+          </h2>
+          <ContentRenderer content={campaign.houseRules} />
+        </Stack>
+      ) : null}
     </Stack>
   )
 }

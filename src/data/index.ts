@@ -14,14 +14,14 @@ export default createCampaign({
     ],
     [
       'Dear Adventurer, My name is ',
-      refs.npcs.third_marshal_light,
+      refs.npcs.light_13th_marshal,
       ', the Guildmaster of ',
       refs.locations.fajanet,
       ' and the Citadel of Reve. I humbly invite you to become one of my adventurers. I need strong-willed wanderers to go on an adventure. I will await your arrival.',
     ],
     [
       '— ',
-      refs.npcs.third_marshal_light,
+      refs.npcs.light_13th_marshal,
       ', Guildmaster of ',
       refs.locations.fajanet,
       ' and the Citadel of Reve',
@@ -36,14 +36,14 @@ export default createCampaign({
     ['Dear Adventurer,'],
     [
       'My name is ',
-      refs.npcs.third_marshal_light,
+      refs.npcs.light_13th_marshal,
       ', the Guildmaster of ',
       refs.locations.fajanet,
       ' and the Citadel of Reve. I humbly invite you to become one of my adventurers. I need strong-willed wanderers to go on an adventure. I will await your arrival.',
     ],
     [
       '— ',
-      refs.npcs.third_marshal_light,
+      refs.npcs.light_13th_marshal,
       ', Guildmaster of ',
       refs.locations.fajanet,
       ' and the Citadel of Reve',
@@ -65,7 +65,7 @@ export default createCampaign({
     ['arival → arrival (transposed letters)'],
     ['New canon introduced:'],
     [
-      refs.npcs.third_marshal_light,
+      refs.npcs.light_13th_marshal,
       ' — Guildmaster, first NPC the PCs ever encountered (in the fiction of the call-to-adventure).',
     ],
     [
@@ -74,9 +74,33 @@ export default createCampaign({
     ],
     ['5 GP — the reward/incentive in the letter; treat as a campaign artifact.'],
   ],
+  houseRules: [
+    ['Character creation'],
+    [
+      'Use the Player’s Handbook plus one additional source for character creation. Backstories may use the full fantasy setting.',
+    ],
+    [
+      'Create characters who can work with the party rather than solitary wanderers; lone characters are difficult to involve in the campaign.',
+    ],
+    ['DM tokens'],
+    ['The DM awards DM tokens for thinking outside the box, good solutions, and great roleplay.'],
+    [
+      'DM tokens can grant advantage on a roll or, when enough are saved, purchase uncommon, rare, legendary, or custom magic items. A custom item may grow in power with its owner.',
+    ],
+    ['Curse tokens'],
+    [
+      'Curse tokens reward decisions so disastrous that they create problems for the whole party. A player also receives one curse token for every 15 minutes they are late and for breaking character.',
+    ],
+    ['At the table'],
+    [
+      'Drinking a potion uses a bonus action. Natural 20s invite the rule of cool; natural 1s invite entertainingly bad consequences.',
+    ],
+    ['Both DM tokens and curse tokens are intended to create fun for different play styles.'],
+  ],
   quests: [
     quests.dino_migration,
     quests.jims_past,
+    quests.make_abraham_known_among_his_peers,
     quests.mystery_girl,
     quests.rare_animal_dealer,
     quests.the_tentacle_night,
@@ -86,8 +110,12 @@ export default createCampaign({
     sessions.arrival_in_fajanet,
     sessions.quests_for_the_exotic_animal_dealer,
     sessions.the_fajanet_festival,
-    sessions.the_mountain_and_the_dragon_family,
-    sessions.the_dinosaur_chase_to_badesh,
-    sessions.by_boat_to_fairhaven,
+    sessions.from_fajanet_to_fairhaven,
+    sessions.fairhaven_shadows,
+    sessions.fix_joins_the_party,
+    sessions.a_guest_and_a_farewell,
+    sessions.session_8,
+    sessions.session_9,
+    sessions.escape_from_shadowpeak,
   ],
 })

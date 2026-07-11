@@ -43,5 +43,6 @@ export default createPC({
     ["Still hidden from everyone: Jim's real name, face, and species, and why the law wants him."],
     ['His Sorcerer origin/bloodline has not been disclosed.'],
     ['DM note: keep the disguise secret unless the player says otherwise.'],
+    ['Ryan’s first notes described him as a quiet kenku bard.'],
   ],
 })

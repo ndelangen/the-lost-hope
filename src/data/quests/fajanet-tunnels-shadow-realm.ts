@@ -19,7 +19,7 @@ export default createQuest({
       'Session 4: ',
       refs.events.n2_e028,
       ' — ',
-      refs.npcs.third_marshal_light,
+      refs.npcs.light_13th_marshal,
       ' sent the party through the same ',
       refs.locations.trapdoor,
       ' toward the mountain.',

@@ -1,0 +1,26 @@
+import { refs } from '#/data/generated/refs.ts'
+import { create as createEvent } from '#/definitions/event.ts'
+
+export default createEvent({
+  name: 'Jim buys Abraham and makes him a promise',
+  day: 13,
+  location: refs.locations.shadowpeak,
+  mark: { type: 'icon', name: 'fa/FaScroll' },
+  notes: [
+    [
+      refs.pcs.jim,
+      ' bought ',
+      refs.npcs.abraham,
+      ' from ',
+      refs.pcs.fix,
+      ' for 55 GP from the party’s shared funds.',
+    ],
+    [
+      refs.npcs.abraham,
+      ' agreed only after Jim promised to help him earn recognition from his peers. Who those peers are remains unclear, and the promise has no deadline.',
+    ],
+    [
+      'If Jim fails, Abraham threatened to stampede him or bite off one of his fingers. Jim intends to seek out Abraham’s peers and tell them stories of his heroic rescues.',
+    ],
+  ],
+})

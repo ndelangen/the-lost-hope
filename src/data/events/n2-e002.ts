@@ -9,8 +9,8 @@ export default createEvent({
   notes: [
     [
       refs.pcs.jim,
-      ' received a letter from the Third Marshal ',
-      refs.npcs.third_marshal_light,
+      ' received a letter from ',
+      refs.npcs.light_13th_marshal,
       " inviting them to the city and to join the Adventurers' Guild. Jim quietly passed copies of the letter to ",
       refs.pcs.william_greenhove,
       ' and ',

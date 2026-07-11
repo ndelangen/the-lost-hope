@@ -10,7 +10,7 @@ export default createEvent({
     [
       refs.pcs.jim,
       " rejected the letter's invitation and hurried the party to meet with ",
-      refs.npcs.third_marshal_light,
+      refs.npcs.light_13th_marshal,
       ', then made for a hasty leave of ',
       refs.locations.fajanet,
       '.',

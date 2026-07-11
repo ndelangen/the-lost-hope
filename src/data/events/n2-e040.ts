@@ -20,7 +20,7 @@ export default createEvent({
     ],
     ['The party spent the night in Badesh, then got on a boat for ', refs.locations.fairhaven, '.'],
     [
-      'The session ends here. Where the dwarf and the pirate are is open — they were last seen missing after the dragon flight.',
+      'Where the dwarf and the pirate were remained open — they were last seen missing after the dragon flight.',
     ],
     [
       'Party: ',

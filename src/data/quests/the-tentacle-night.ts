@@ -29,7 +29,7 @@ export default createQuest({
     ],
     [
       'Party asked ',
-      refs.npcs.third_marshal_light,
+      refs.npcs.light_13th_marshal,
       ' about tentacles and voices. Light had no clue.',
     ],
     [

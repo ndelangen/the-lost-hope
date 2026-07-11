@@ -43,7 +43,7 @@ describe('campaign read model', () => {
     const progress = questProgress(quest.data)
     expect(progress?.event.slug).toBe('reach-badesh-victor-s-hometown')
     expect(progress?.event.data.day).toBe(10)
-    expect(progress?.campaignDaysAgo).toBe(2)
+    expect(progress?.campaignDaysAgo).toBe(4)
   })
 
   it('reuses common domain groups', () => {
@@ -71,7 +71,7 @@ describe('campaign read model', () => {
   })
 
   it('keeps reverse links and reference-aware search in one index', () => {
-    const light = resolveRef(refs.npcs.third_marshal_light)
+    const light = resolveRef(refs.npcs.light_13th_marshal)
     expect(light?.kind).toBe('npc')
     if (!light || light.kind !== 'npc') return
 

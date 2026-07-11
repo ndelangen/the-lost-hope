@@ -6,8 +6,14 @@ export default createLocation({
   icon: 'gi/GiCastle',
   aliases: ['Citadel of Reve'],
   type: 'settlement',
-  parent: refs.locations.world,
+  parent: refs.locations.ethium,
   at: [600, 0],
-  notes: [['A walled city.']],
+  notes: [
+    [
+      'A small, secret settlement beside the mountains at the edge of the known world, governed by its guildmaster ',
+      refs.npcs.light_13th_marshal,
+      '.',
+    ],
+  ],
   map: { url: '/assets/locations/fajanet.png', width: 1200, height: 700 },
 })

@@ -7,10 +7,7 @@ export default createNPC({
   location: refs.locations.badesh_forest,
   species: 'Donkey',
   notes: [
-    [
-      'A donkey belonging to ',
-      refs.pcs.victor_the_badesh_lumberjack,
-      '. Age, appearance, and temperament are all unestablished.',
-    ],
+    ['A donkey who now travels with ', refs.pcs.jim, '.'],
+    ['Age, appearance, and temperament are all unestablished.'],
   ],
 })

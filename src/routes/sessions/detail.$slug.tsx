@@ -1,6 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { Calendar } from 'lucide-react'
 
+import { ContentRenderer } from '#/components/content-renderer'
 import { EntityKindBadge } from '#/components/entity-kind-badge'
 import { EntityChip, EntityDetail, EntityNotFound } from '#/components/entity-page'
 import { SessionTimeline } from '#/components/session-timeline'
@@ -43,6 +44,14 @@ function SessionPage() {
       </Stack>
 
       <Stack gap="2xl">
+        {session.notes ? (
+          <Stack as="section" gap="lg">
+            <h2 className="text-muted-foreground text-sm font-semibold tracking-wider uppercase">
+              Session notes
+            </h2>
+            <ContentRenderer content={session.notes} />
+          </Stack>
+        ) : null}
         {party.length > 0 ? (
           <Stack as="section" gap="lg">
             <h2 className="text-muted-foreground text-sm font-semibold tracking-wider uppercase">

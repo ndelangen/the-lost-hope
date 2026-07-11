@@ -3,7 +3,7 @@ import { create as createPC } from '#/definitions/pc.ts'
 
 export default createPC({
   name: 'Revin "klapper" Grumblefist',
-  player: 'matthijsdeelen',
+  player: 'Matthijs',
   url: '',
   avatar: '/assets/pcs/revin.png',
   status: 'retired',

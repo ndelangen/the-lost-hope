@@ -2,7 +2,7 @@ import { refs } from '#/data/generated/refs.ts'
 import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
-  name: 'Meet Third Marshal Light at the guildhall',
+  name: 'Meet Light 13th Marshal at the guildhall',
   day: 2,
   location: refs.locations.fajanet_guildhall,
   mark: { type: 'icon', name: 'fa/FaLandmark' },
@@ -10,8 +10,8 @@ export default createEvent({
     [
       'The party reached the ',
       refs.locations.fajanet_guildhall,
-      ' and met the Third Marshal ',
-      refs.npcs.third_marshal_light,
+      ' and met ',
+      refs.npcs.light_13th_marshal,
       '.',
     ],
     [

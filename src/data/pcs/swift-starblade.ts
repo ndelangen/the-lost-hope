@@ -2,7 +2,7 @@ import { create as createPC } from '#/definitions/pc.ts'
 
 export default createPC({
   name: 'Swift Starblade',
-  player: 'SuperJohan4k',
+  player: 'Johan',
   url: '',
   avatar: '/assets/pcs/swift.png',
   status: 'active',
@@ -15,8 +15,7 @@ export default createPC({
     [
       'Session notes called him "a human-elf pirate" before his name was confirmed as Swift Starblade on D&D Beyond.',
     ],
-    [
-      'When and why his name changed from Rhys Greenleaf in-fiction, and where he flew off to when he returned, are open questions.',
-    ],
+    ['Building a large fanbase is one of his primary ambitions.'],
+    ['When and why his name changed from Rhys Greenleaf in-fiction remains unknown.'],
   ],
 })

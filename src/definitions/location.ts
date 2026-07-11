@@ -8,6 +8,7 @@ import { deriveSlug } from './slug'
 
 export const LOCATION_TYPES = [
   'settlement',
+  'district',
   'building',
   'wilderness',
   'dungeon',
@@ -20,6 +21,7 @@ export type LocationType = (typeof LOCATION_TYPES)[number]
 
 export const LOCATION_TYPE_LABELS: Record<LocationType, string> = {
   settlement: 'Settlements',
+  district: 'Districts',
   building: 'Buildings',
   wilderness: 'Wilderness',
   dungeon: 'Dungeons',

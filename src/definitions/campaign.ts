@@ -9,6 +9,7 @@ export const Campaign = z.strictObject({
   name: z.string().describe('The name of the campaign'),
   notes: Content.describe('The description of the campaign'),
   pitch: Content.optional(),
+  houseRules: Content.optional(),
   quests: z.array(Quest),
   sessions: z.array(Session),
 })

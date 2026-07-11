@@ -15,6 +15,7 @@ import {
   pcs,
   quests,
   sessionDays,
+  sessionPcs,
   sessions,
   sortedEvents,
   validateReferences,
@@ -73,9 +74,9 @@ describe('registry integrity', () => {
 })
 
 describe('player-character status', () => {
-  it('preserves occasional and missing campaign states', () => {
+  it('preserves occasional and retired campaign states', () => {
     expect(pcs.mr_peace.status).toBe('occasional')
-    expect(pcs.victor_the_badesh_lumberjack.status).toBe('missing-presumed-dead')
+    expect(pcs.victor_the_badesh_lumberjack.status).toBe('retired')
   })
 })
 
@@ -102,6 +103,20 @@ describe('campaign chronology', () => {
     ])
   })
 
+  it('uses explicit session numbers', () => {
+    expect(sessions.arrival_in_fajanet.number).toBe(1)
+    expect(sessions.escape_from_shadowpeak.number).toBe(10)
+  })
+
+  it('excludes absent Swift from the Session 10 party', () => {
+    expect(sessionPcs(sessions.escape_from_shadowpeak).map((pc) => pc.slug)).toEqual([
+      'cassian-veyl',
+      'devan',
+      'fix',
+      'jim',
+    ])
+  })
+
   it('includes every registered event exactly once in campaign chronology', () => {
     const timelineSlugs = campaignEvents().map((event) => event.slug)
     const registrySlugs = Object.values(events).map((event) => event.slug)
@@ -111,6 +126,6 @@ describe('campaign chronology', () => {
   })
 
   it('returns the latest event first', () => {
-    expect(sortedEvents()[0]?.data).toBe(events.n2_e043)
+    expect(sortedEvents()[0]?.data).toBe(events.n2_e055)
   })
 })

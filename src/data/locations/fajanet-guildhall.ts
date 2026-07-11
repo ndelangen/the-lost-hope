@@ -13,7 +13,7 @@ export default createLocation({
       'Features a quest bulletin board, a ritual area for the ',
       refs.organizations.adventurers_guild,
       ' tattoo ceremony, and ',
-      refs.npcs.third_marshal_light,
+      refs.npcs.light_13th_marshal,
       "'s office.",
     ],
   ],

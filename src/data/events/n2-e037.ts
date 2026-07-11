@@ -14,9 +14,7 @@ export default createEvent({
       refs.npcs.abraham,
       '.',
     ],
-    [
-      "Open: what was Victor's role here? Single-session ally, future recurring NPC, or PC in the longer campaign? Not stated.",
-    ],
+    [refs.pcs.victor_the_badesh_lumberjack, ' joined the campaign as Ryan’s player character.'],
     ['Party: ', refs.pcs.jim, ', ', refs.pcs.william_greenhove, ', ', refs.pcs.devan],
   ],
 })

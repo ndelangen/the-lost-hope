@@ -16,11 +16,11 @@ export default createQuest({
     [
       refs.pcs.jim,
       " disregarded the letter's demand and instead spoke with ",
-      refs.npcs.third_marshal_light,
+      refs.npcs.light_13th_marshal,
       ' 1:1.',
     ],
     [
-      refs.npcs.third_marshal_light,
+      refs.npcs.light_13th_marshal,
       ' was understanding and told ',
       refs.pcs.jim,
       ' to meet him (Light) with the rest of the party in the morning.',

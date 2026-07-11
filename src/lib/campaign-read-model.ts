@@ -164,8 +164,8 @@ function createChronology(indexes: EntityIndexes, campaign: Campaign): CampaignC
   const sessionSlugByEventSlug = new Map<string, string>()
 
   const campaignSessions: readonly EntityOf<'session'>[] = Object.freeze(
-    campaign.sessions.map((session, index) => {
-      sessionNumberBySlug.set(session.slug, index + 1)
+    campaign.sessions.map((session) => {
+      sessionNumberBySlug.set(session.slug, session.number)
       return (
         indexes.session.bySlug.get(session.slug) ?? {
           kind: 'session' as const,

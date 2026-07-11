@@ -3,7 +3,8 @@ import { create as createSession } from '#/definitions/session.ts'
 
 export default createSession({
   name: 'Quests for the Exotic Animal Dealer',
-  date: new Date('2026-08-10'),
+  number: 2,
+  date: new Date('2026-02-19'),
   events: [
     refs.events.n2_e012,
     refs.events.n2_e013,

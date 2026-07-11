@@ -8,7 +8,7 @@ export default createEvent({
   mark: { type: 'icon', name: 'fa/FaDoorOpen' },
   notes: [
     [
-      refs.npcs.third_marshal_light,
+      refs.npcs.light_13th_marshal,
       ' instructed the party to take the ',
       refs.locations.trapdoor,
       ' (the same one they used to enter the tunnels) and lock it behind them.',

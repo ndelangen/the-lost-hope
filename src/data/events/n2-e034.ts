@@ -8,12 +8,7 @@ export default createEvent({
   mark: { type: 'icon', name: 'fa/FaBalanceScale' },
   notes: [
     ['Each character individually entered a zone of truth.'],
-    [
-      refs.pcs.jim,
-      ' presented a "letter of passage" given by ',
-      refs.npcs.third_marshal_light,
-      '.',
-    ],
+    [refs.pcs.jim, ' presented a "letter of passage" given by ', refs.npcs.light_13th_marshal, '.'],
     ['The ', refs.npcs.angel_of_the_mountain, ' burned it.'],
     ['Each character was asked about their personal motives and had to answer truthfully.'],
     [
