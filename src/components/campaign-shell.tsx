@@ -1,4 +1,4 @@
-import { Link, Outlet } from '@tanstack/react-router'
+import { Link, Outlet, useRouterState } from '@tanstack/react-router'
 import { Menu, Scroll, X } from 'lucide-react'
 import { useCallback, useEffect, useRef, useState } from 'react'
 
@@ -13,6 +13,8 @@ import { useTheme } from './campaign-shell/theme'
 import { ThemeToggle } from './campaign-shell/theme-toggle'
 
 export function CampaignShell() {
+  const pathname = useRouterState({ select: (state) => state.location.pathname })
+  const hasNavigation = pathname !== '/_icons'
   const [drawerOpen, setDrawerOpen] = useState(false)
   const [query, setQuery] = useState('')
   const [sidebarCollapsed, setSidebarCollapsed] = usePersistedBoolean(
@@ -43,15 +45,17 @@ export function CampaignShell() {
   const header = (
     <Inline justify="between" gap="md" className="h-14">
       <Inline gap="md">
-        <button
-          type="button"
-          onClick={() => setDrawerOpen((value) => !value)}
-          className="border-border rounded-md border p-1.5 lg:hidden"
-          aria-label="Toggle navigation"
-          aria-expanded={drawerOpen}
-        >
-          {drawerOpen ? <X className="size-4" /> : <Menu className="size-4" />}
-        </button>
+        {hasNavigation ? (
+          <button
+            type="button"
+            onClick={() => setDrawerOpen((value) => !value)}
+            className="border-border rounded-md border p-1.5 lg:hidden"
+            aria-label="Toggle navigation"
+            aria-expanded={drawerOpen}
+          >
+            {drawerOpen ? <X className="size-4" /> : <Menu className="size-4" />}
+          </button>
+        ) : null}
         <Link to="/" className="font-semibold tracking-tight">
           <Inline as="span" inline gap="sm">
             <Scroll className="text-primary size-5" />
@@ -90,6 +94,7 @@ export function CampaignShell() {
       navigationRef={drawerRef}
       navigationOpen={drawerOpen}
       navigationCollapsed={sidebarCollapsed}
+      hasNavigation={hasNavigation}
       onDismissNavigation={closeDrawer}
     >
       <Outlet />

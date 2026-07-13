@@ -3,7 +3,7 @@ import { describe, expect, it } from 'vitest'
 
 import { CampaignShellLayout } from './layout'
 
-function renderLayout({ open = false, collapsed = false } = {}) {
+function renderLayout({ open = false, collapsed = false, hasNavigation = true } = {}) {
   return renderToStaticMarkup(
     <CampaignShellLayout
       header={<span>Header</span>}
@@ -11,6 +11,7 @@ function renderLayout({ open = false, collapsed = false } = {}) {
       navigationRef={null}
       navigationOpen={open}
       navigationCollapsed={collapsed}
+      hasNavigation={hasNavigation}
       onDismissNavigation={() => undefined}
     >
       <span>Content</span>
@@ -36,5 +37,14 @@ describe('CampaignShellLayout', () => {
     expect(markup).toContain('aria-modal="true"')
     expect(markup).toContain('fixed inset-y-14 left-0')
     expect(markup).not.toContain('w-14 pr-1')
+  })
+
+  it('gives custom pages the full content width when navigation is disabled', () => {
+    const markup = renderLayout({ open: true, hasNavigation: false })
+
+    expect(markup).toContain('grid-cols-1')
+    expect(markup).not.toContain('<aside')
+    expect(markup).not.toContain('Close navigation')
+    expect(markup).not.toContain('lg:pl-8')
   })
 })

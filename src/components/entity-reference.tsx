@@ -185,9 +185,7 @@ function referencePresentation(
         icon,
         preview: (
           <ReferencePreviewHeader icon={icon} name={name}>
-            <span className="text-muted-foreground">
-              {event ? `Campaign day ${event.day}` : 'Event'}
-            </span>
+            <span className="text-muted-foreground">{event ? `day ${event.day}` : 'Event'}</span>
             {session ? (
               <span className="text-muted-foreground">
                 Session {sessionNumber(session.slug)} · {session.data.name}

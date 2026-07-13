@@ -2,14 +2,11 @@ import { Link } from '@tanstack/react-router'
 import { ArrowRight } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 
-import { EntityReference } from '#/components/entity-reference'
 import { Inline, Stack } from '#/components/ui/layout'
-import type { EntityKind } from '#/lib/campaign'
+import { entityLink, type EntityKind } from '#/lib/campaign'
 import { cn } from '#/lib/utils'
 
-type HomeActionDestination =
-  | { to: '/intro' }
-  | { entity: { kind: EntityKind; slug: string; label: string } }
+type HomeActionDestination = { to: '/intro' } | { entity: { kind: EntityKind; slug: string } }
 
 type HomeActionCardProps = {
   destination: HomeActionDestination
@@ -43,6 +40,10 @@ export function HomeActionCard({
   variant,
 }: HomeActionCardProps) {
   const visual = variantClasses[variant]
+  const link =
+    'to' in destination
+      ? { to: destination.to }
+      : entityLink(destination.entity.kind, destination.entity.slug)
   const className = cn(
     'group relative block min-h-24 overflow-hidden rounded-xl border p-4 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none',
     visual.card,
@@ -76,24 +77,9 @@ export function HomeActionCard({
     </>
   )
 
-  if ('to' in destination) {
-    return (
-      <Link to={destination.to} className={className}>
-        {content}
-      </Link>
-    )
-  }
-
   return (
-    <EntityReference
-      kind={destination.entity.kind}
-      slug={destination.entity.slug}
-      label={destination.entity.label}
-      unstyled
-      wrapperClassName="block"
-      className={className}
-    >
-      {() => content}
-    </EntityReference>
+    <Link {...link} className={className}>
+      {content}
+    </Link>
   )
 }

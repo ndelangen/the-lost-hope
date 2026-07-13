@@ -94,7 +94,6 @@ function HomePage() {
                   entity: {
                     kind: 'session',
                     slug: latestSession.slug,
-                    label: latestSession.data.name,
                   },
                 }}
                 eyebrow="Pick up where you left off"
@@ -160,11 +159,15 @@ function HomePage() {
               ) : null}
               {latestEvent ? (
                 <div className="border-border border-t">
-                  <Grid gap="2xs" smTemplate="label-content" smAlign="center" className="py-3">
-                    <p className="text-muted-foreground text-xs font-semibold tracking-wide uppercase">
+                  <Grid gap="2xs" template="auto-content" align="center" className="py-3">
+                    <p className="text-muted-foreground text-xs font-semibold tracking-wide whitespace-nowrap uppercase">
                       Last recorded event
                     </p>
-                    <EventReference slug={latestEvent.slug} />
+                    <EventReference
+                      slug={latestEvent.slug}
+                      wrapperClassName="min-w-0"
+                      className="block truncate"
+                    />
                   </Grid>
                   <Grid
                     gap="2xs"

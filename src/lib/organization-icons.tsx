@@ -1,6 +1,6 @@
 import type { IconType } from 'react-icons'
 import { FaBuilding } from 'react-icons/fa'
-import { GiBlackFlag, GiCrossedSwords, GiHand } from 'react-icons/gi'
+import { GiBlackFlag, GiCrossedSwords, GiHand, GiRaven } from 'react-icons/gi'
 
 import { cn } from '#/lib/utils'
 
@@ -17,6 +17,7 @@ export const ORGANIZATION_ICONS: Record<string, IconType> = {
   'gi/GiCrossedSwords': GiCrossedSwords,
   'gi/GiBlackFlag': GiBlackFlag,
   'gi/GiHand': GiHand,
+  'gi/GiRaven': GiRaven,
   [ORGANIZATION_ICON_PLACEHOLDER]: FaBuilding,
 }
 

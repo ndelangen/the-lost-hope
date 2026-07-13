@@ -368,7 +368,7 @@ describe('campaign chronology', () => {
     expect(sessionDays(sessions.escape_from_shadowpeak)).toEqual([
       {
         day: 16,
-        events: [events.n2_e047, events.n2_e056, events.n2_e048, events.n2_e049],
+        events: [events.n2_e047, events.n2_e048, events.n2_e049],
       },
       {
         day: 17,
@@ -380,12 +380,13 @@ describe('campaign chronology', () => {
           events.n2_e057,
           events.n2_e054,
           events.n2_e055,
+          events.n2_e056,
         ],
       },
     ])
   })
 
   it('returns the latest event first', () => {
-    expect(sortedEvents()[0]?.data).toBe(events.n2_e055)
+    expect(sortedEvents()[0]?.data).toBe(events.n2_e056)
   })
 })

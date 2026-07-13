@@ -8,7 +8,6 @@ export default createSession({
   date: new Date('2026-07-09'),
   events: [
     refs.events.n2_e047,
-    refs.events.n2_e056,
     refs.events.n2_e048,
     refs.events.n2_e049,
     refs.events.n2_e050,
@@ -18,6 +17,7 @@ export default createSession({
     refs.events.n2_e057,
     refs.events.n2_e054,
     refs.events.n2_e055,
+    refs.events.n2_e056,
   ],
   notes: [
     [

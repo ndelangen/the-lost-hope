@@ -5,7 +5,7 @@ export default createPC({
   name: 'Devan',
   player: 'Niek',
   url: '',
-  avatar: '/assets/pcs/placeholder.svg',
+  avatar: '/assets/pcs/devan.jpg',
   status: 'active',
   species: 'Half-Orc',
   class: 'Paladin',

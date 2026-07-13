@@ -11,6 +11,11 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
+    "fetch:icon-metadata": "bun scripts/fetch-icon-metadata.ts",
+    "generate:icons": "bun scripts/generate-icon-catalog.ts",
+    "generate:icons:check": "bun scripts/generate-icon-catalog.ts --check",
+    "icons:classify": "bun scripts/classify-icons.ts",
+    "icons:search": "bun scripts/search-icons.ts",
     "generate:refs": "bun scripts/generate-refs.ts",
     "generate:refs:check": "bun scripts/generate-refs.ts --check",
     "typecheck": "tsc --noEmit",
@@ -18,7 +23,7 @@
     "lint:fix": "oxlint --fix",
     "fmt": "oxfmt",
     "fmt:check": "oxfmt --check",
-    "check": "bun run generate:refs:check && bun run typecheck && bun run lint && bun run fmt:check",
+    "check": "bun run generate:refs:check && bun run generate:icons:check && bun run typecheck && bun run lint && bun run fmt:check",
     "verify": "bun run check && bun run test && bun run build"
   },
   "dependencies": {
@@ -41,6 +46,8 @@
     "zod": "^4.4.3"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "5.15.4",
+    "@iconify-json/game-icons": "1.2.4",
     "@tanstack/devtools-vite": "^0.3.11",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/react": "^16.2.0",

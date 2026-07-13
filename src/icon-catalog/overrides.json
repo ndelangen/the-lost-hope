@@ -1,0 +1,2970 @@
+{
+  "custom/LongRest": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaAd": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaAddressCard": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaAmbulance": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaAngry": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaAudioDescription": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaBabyCarriage": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaBalanceScale": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaBalanceScaleLeft": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaBalanceScaleRight": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaBatteryEmpty": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaBatteryFull": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaBatteryHalf": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaBatteryQuarter": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaBatteryThreeQuarters": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaBicycle": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaBiking": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaBlenderPhone": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaBlog": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaBullhorn": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaBus": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaBusAlt": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaCalculator": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaCamera": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaCampground": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaCanadianMapleLeaf": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaCar": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaCarAlt": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaCaravan": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaCarBattery": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaCarCrash": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaCarSide": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaCartPlus": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaCentos": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaChalkboardTeacher": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaChargingStation": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaCheese": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaClosedCaptioning": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaCloudDownloadAlt": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaCloudUploadAlt": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaCode": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaCog": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaCommentDollar": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaCommentDots": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaComments": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaCommentsDollar": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaCommentSlash": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaConnectdevelop": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaCopyright": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaCreditCard": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaCrown": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaDAndD": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaDAndDBeyond": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaDemocrat": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaDizzy": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaEarlybirds": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaEnvira": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaEthereum": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaExpand": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaExternalLinkSquareAlt": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaEye": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaFighterJet": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaFileAudio": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaFileCode": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaFileContract": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaFileCsv": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaFileExcel": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaFileExport": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaFileImage": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaFileImport": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaFileInvoice": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaFileInvoiceDollar": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaFileMedicalAlt": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaFilePdf": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaFilePowerpoint": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaFilePrescription": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaFileSignature": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaFileVideo": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaFileWord": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaFilm": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaFirstOrderAlt": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaFlagUsa": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaFlushed": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaFly": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaFortAwesome": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaFortAwesomeAlt": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaFrog": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaFrown": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaFrownOpen": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaFulcrum": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaGalacticRepublic": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaGalacticSenate": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaGavel": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaGitkraken": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaGlobeAfrica": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaGlobeAmericas": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaGlobeAsia": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaGlobeEurope": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaGolfBall": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaGrimace": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaGrin": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaGrinAlt": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaGrinBeam": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaGrinBeamSweat": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaGrinHearts": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaGrinSquint": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaGrinSquintTears": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaGrinStars": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaGrinTongueWink": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaGrinWink": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaHamsa": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaHands": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaHanukiah": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaHeadphonesAlt": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaHeadset": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaHelicopter": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaHome": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaHotTub": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaJediOrder": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaKeyboard": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaKiss": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaKissBeam": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaLaptop": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaLaptopCode": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaLaptopHouse": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaLaptopMedical": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaLaugh": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaLaughBeam": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaLaughSquint": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaLaughWink": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaLink": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaLock": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaMicrophone": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaMicrophoneAlt": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaMicrophoneAltSlash": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaMicrophoneSlash": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaMobile": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaModx": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaMotorcycle": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaMouse": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaMousePointer": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaOctopusDeploy": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaPagelines": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaPaste": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaPenSquare": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaPhabricator": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaPhoenixFramework": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaPhoenixSquadron": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaPhone": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaPhoneSlash": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaPhoneSquare": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaPhoneSquareAlt": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaPhoneVolume": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaPiedPiper": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaPiedPiperAlt": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaPiedPiperHat": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaPlane": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaPlaneArrival": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaPlaneDeparture": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaPlaneSlash": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaPlug": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaPoo": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaPoop": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaRegEye": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaRegEyeSlash": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaRegFutbol": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaRegGem": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaRegHandshake": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaRegLifeRing": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaRegMoon": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaRegSnowflake": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaRoad": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaRocket": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaRss": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaRssSquare": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaSignLanguage": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaSketch": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaSmile": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaSmileBeam": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaSmileWink": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaSms": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaSnowman": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaSnowplow": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaSpaceShuttle": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaStudiovinari": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaSurprise": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaSuse": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaTabletAlt": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaTachometerAlt": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaTaxi": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaTheaterMasks": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "fa/FaThList": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaTired": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaToiletPaper": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaToiletPaperSlash": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaTrademark": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaTruck": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaTruckMonster": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaTruckMoving": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaTruckPickup": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaVrCardboard": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaWeight": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaWheelchair": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "fa/FaWifi": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaWindowMaximize": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaWindowMinimize": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaWindowRestore": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "fa/FaWolfPackBattalion": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/Gi3dGlasses": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiAbstract103": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiAbstract107": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiAerialSignal": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiAirBalloon": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiAlgeria": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiAlienBug": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiAlienEgg": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiAlienSkull": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiAlienStare": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiAngola": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiAntiAircraftGun": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiApolloCapsule": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiArcher": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiArrest": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiBalaclava": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiBandit": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiBarracks": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiBarracksTent": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiBasketballJersey": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiBat": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiBatteries": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiBattery0": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiBattery100": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiBattery50": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiBatteryMinus": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiBatteryPackAlt": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiBatteryPlus": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiBattleMech": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiBattleTank": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiBayonet": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiBelgium": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiBilledCap": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiBison": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiBolivia": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiBolterGun": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiBombingRun": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiBoneKnife": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiBookmark": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiBoombox": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiBottomRight3dArrow": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiBowlingAlley": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiBowlingStrike": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiBrazil": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiBuffaloHead": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiBulgaria": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiBullets": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiBullHorns": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiButterflyFlower": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiButterflyKnife": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiCambodia": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiCampfire": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiCandlestickPhone": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiCannon": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiCarBattery": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiCarDoor": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiCarKey": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiCarpetBombing": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiCarSeat": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiCastle": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiCauldron": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiCctvCamera": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiCharging": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiCheckboxTree": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "gi/GiCircuitry": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiClapperboard": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiClaymoreExplosive": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiCobra": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiCog": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "gi/GiCogLock": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "gi/GiColombia": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiComputing": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiConsoleController": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiContract": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "gi/GiCorsica": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiCowboyHolster": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiCpuShot": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiCrescentBlade": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiCrossedSabres": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiCrossMark": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiCryoChamber": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiCultist": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiCycling": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiCzSkorpion": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiD10": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiD12": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiD4": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiDatabase": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiDekuTree": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "gi/GiDesertEagle": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiDesertSkull": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiDiceEightFacesEight": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiDiceSixFacesFive": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiDiceSixFacesFour": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiDiceSixFacesOne": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiDiceSixFacesSix": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiDiceSixFacesThree": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiDiceSixFacesTwo": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiDiceTwentyFacesOne": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiDiceTwentyFacesTwenty": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiDigDug": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiDivingHelmet": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiDoubleRingedOrb": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiDragonHead": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiDreamCatcher": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiDynamite": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiEagleHead": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiEarthAfricaEurope": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiEarthAmerica": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiEarthAsiaOceania": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiEarthWorm": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiEasel": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiEclipse": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiEgypt": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiElectricalResistance": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiEmbrassedEnergy": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiEnergise": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiEnvelope": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "gi/GiEskimo": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiEvasion": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiExpand": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "gi/GiExplodingPlanet": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiExplosionRays": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiFairy": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiFamas": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiFencer": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiFieldGun": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiFilmProjector": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiFilmSpool": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiFilmStrip": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiFist": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiFlamethrowerSoldier": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiFlashGrenade": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiFlashlight": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiFlatbed": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiFlatbedCovered": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiFnFal": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiFrance": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiFrankensteinCreature": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiGameConsole": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiGasMask": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiGasPump": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiGoldBar": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiGoldMine": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiGps": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiGreatWarTank": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiGrenade": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiGuatemala": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiGunshot": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiGunStock": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiHand": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiHeavyBullets": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiHighKick": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiHighPunch": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiHomeGarage": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiHungary": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiIceland": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiIceSkate": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiIraq": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiItalia": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiJapan": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiJasonMask": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiJeep": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiJuggler": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiKenya": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiKey": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiKoholintEgg": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiLanternFlame": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiLatvia": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiLawStar": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiLeapfrog": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiLeeEnfield": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiLegArmor": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiLibya": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiLightSabers": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiLogicGateAnd": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiLogicGateNand": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiLogicGateNor": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiLogicGateNot": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiLogicGateNxor": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiLogicGateOr": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiLogicGateXor": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiLostLimb": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiLuger": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiMachineGunMagazine": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiMagnetMan": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiMagnifyingGlass": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiMechaHead": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiMechaMask": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiMechanicGarage": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiMedal": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiMedallist": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiMedicalPackAlt": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiMeshBall": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiMetalBoot": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiMetalGolemHead": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiMetalHand": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiMetalScales": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiMeteorImpact": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiMetroid": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiMexico": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiMiner": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiMineTruck": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiMineWagon": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiMinigun": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiMining": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiMiteAlt": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiMoldova": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiMongolia": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiMoon": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiMortar": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiMountaintop": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiMove": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "gi/GiMusket": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiMute": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "gi/GiNigeria": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiNotebook": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiOccupy": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiOldLantern": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiOldMicrophone": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiOldWagon": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiPaddleSteamer": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiParaguay": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiPc": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiPeru": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiPhone": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiPhotoCamera": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiPingPongBat": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiPistolGun": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiPlug": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiPodiumWinner": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiPokecog": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiPokerHand": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiPoland": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiPoliceCar": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiPoliceOfficerHead": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiPoolTableCorner": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiPortugal": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiPowerGenerator": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiPrisoner": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiProcessor": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiQuickMan": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiQuillInk": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiRadioTower": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiRailRoad": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiRailway": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiRam": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiRattlesnake": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiRevolver": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiRoad": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiRobberMask": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiRobotAntennas": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiRobotHelmet": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiRollingDices": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiRotaryPhone": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiRss": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiRupee": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiSailboat": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiSaloonDoors": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiSamusHelmet": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiSawedOffShotgun": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiScorpion": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiSheikahEye": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiShuriken": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiSkiBoot": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiSnowboard": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiSoccerBall": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiSoccerField": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiSouthAfrica": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiSouthAmerica": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiSouthKorea": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiSpaceship": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiSpaceSuit": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiSpain": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiSpeedometer": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiSpiderAlt": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiSpiderBot": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiSpikedHalo": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiSplash": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiSpockHand": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiSpoutnik": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiSpy": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiSriLanka": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiStabbedNote": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiStalagtite": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiStarCycle": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiStarGate": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiSteam": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiSteamLocomotive": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiSteeringWheel": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiSteyrAug": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiStiletto": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiStopwatch": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiStrongMan": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiSubway": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiSunrise": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiSuperMushroom": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiSurfBoard": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiSwallow": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiSwitchblade": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiSwitzerland": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiTablet": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiTank": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiTanzania": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiTexas": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiThrowingBall": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiTightrope": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiTipi": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiTomahawk": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiTombstone": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiTopHat": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiTotem": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiTowerBridge": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiTrapMask": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiTrenchAssault": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiTrenchKnife": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiTrenchSpade": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiTriforce": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiTrophiesShelf": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiTrophy": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiTrophyCup": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiTruck": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiTumbleweed": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiTunisia": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiTwirlCenter": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "gi/GiUfo": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiUncertainty": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "gi/GiUnionJack": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiUnplugged": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiUrsaMajor": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiUruguay": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiUsaFlag": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiUsbKey": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiVacuumCleaner": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiValve": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiVelocipede": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiVendingMachine": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiVenezuela": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiVibratingSmartphone": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiVideoCamera": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiVideoConference": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiVintageRobot": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiVolleyballBall": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiVrHeadset": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiVulture": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiWalkieTalkie": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiWalkingTurret": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiWallLight": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiWaltherPpk": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiWarBonnet": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiWashingMachine": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiWatch": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiWaterGun": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiWeightLiftingDown": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiWeightLiftingUp": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiWeightScale": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiWhistle": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiWomanElfFace": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "lucide/AArrowDown": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/AArrowUp": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/Accessibility": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ALargeSmall": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/AlarmClock": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/AlarmClockCheck": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/AlarmClockMinus": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/AlarmClockPlus": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/AlignCenterHorizontal": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/AlignCenterVertical": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/AlignEndHorizontal": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/AlignEndVertical": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/AlignHorizontalDistributeCenter": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/AlignHorizontalDistributeEnd": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/AlignHorizontalDistributeStart": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/AlignHorizontalJustifyCenter": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/AlignHorizontalJustifyEnd": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/AlignHorizontalJustifyStart": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/AlignHorizontalSpaceAround": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/AlignHorizontalSpaceBetween": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/AlignStartHorizontal": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/AlignStartVertical": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/AlignVerticalDistributeCenter": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/AlignVerticalDistributeEnd": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/AlignVerticalDistributeStart": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/AlignVerticalJustifyCenter": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/AlignVerticalJustifyEnd": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/AlignVerticalJustifyStart": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/AlignVerticalSpaceAround": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/AlignVerticalSpaceBetween": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/Angry": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/Annoyed": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/Aperture": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/AppWindow": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/AppWindowMac": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/ArrowBigDown": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowBigDownDash": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowBigLeft": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowBigLeftDash": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowBigRight": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowBigRightDash": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowBigUp": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowBigUpDash": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowDown": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowDown01": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowDown10": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowDownAZ": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowDownFromLine": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowDownLeft": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowDownNarrowWide": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowDownRight": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowDownToDot": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowDownToLine": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowDownUp": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowDownWideNarrow": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowDownZA": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowLeft": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowLeftFromLine": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowLeftRight": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowLeftToLine": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowRight": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowRightFromLine": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowRightLeft": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowRightToLine": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowsUpFromLine": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowUp": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowUp01": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowUp10": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowUpAZ": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowUpDown": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowUpFromDot": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowUpFromLine": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowUpLeft": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowUpNarrowWide": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowUpRight": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowUpToLine": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowUpWideNarrow": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/ArrowUpZA": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/Baby": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/BadgeDollarSign": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/BadgeEuro": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/BadgeMinus": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/BadgePoundSterling": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/Baseline": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/Battery": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/BatteryCharging": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/BatteryFull": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/BatteryLow": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/BatteryMedium": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/BatteryPlus": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/BatteryWarning": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/Bell": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/BellDot": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/BellMinus": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/BellOff": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/BellPlus": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/BellRing": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/BetweenHorizontalEnd": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/BetweenHorizontalStart": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/BetweenVerticalEnd": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/BetweenVerticalStart": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/Bike": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/Binary": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/Bluetooth": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/BluetoothConnected": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/BluetoothOff": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/BluetoothSearching": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/Bold": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/Car": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/CarFront": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/CarTaxiFront": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/ChevronsUpDown": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/CircleArrowDown": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/CircleArrowLeft": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/CircleArrowRight": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/CircleArrowUp": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/CircleCheck": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/CircleCheckBig": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/CircleChevronDown": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/CircleChevronLeft": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/CircleChevronRight": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/CircleChevronUp": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/CircleDashed": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/CircleDivide": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/CircleDollarSign": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/Codepen": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/Codesandbox": {
+    "classification": "questionable",
+    "classificationReason": "Manually classified as questionable from the /_icons review page."
+  },
+  "lucide/Computer": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/FileCode": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/FileCode2": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/Fingerprint": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/FolderCode": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/HouseWifi": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/Laptop": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/LaptopMinimal": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/LaptopMinimalCheck": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/MessageCircleCode": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/MessageSquareCode": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/MonitorSmartphone": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/Phone": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/PhoneCall": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/PhoneForwarded": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/PhoneIncoming": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/PhoneMissed": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/PhoneOff": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/PhoneOutgoing": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/QrCode": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/Radio": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "lucide/ScanBarcode": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/ScanQrCode": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/SearchCode": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/Server": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/ServerCog": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/ServerCrash": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/ServerOff": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/Smartphone": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/SmartphoneCharging": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/SmartphoneNfc": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/SquareCode": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/SquareDashedBottomCode": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/TabletSmartphone": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/TrainFront": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/TrainFrontTunnel": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/TrainTrack": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/TramFront": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/Truck": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/TruckElectric": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/Usb": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/Wifi": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/WifiCog": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/WifiHigh": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/WifiLow": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/WifiOff": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/WifiPen": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/WifiSync": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "lucide/WifiZero": {
+    "classification": "marked-for-deletion",
+    "classificationReason": "Manually marked for deletion from the /_icons review page."
+  }
+}

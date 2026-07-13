@@ -19,8 +19,8 @@ function EventsPage() {
     days.length === 0
       ? null
       : Math.min(...days) === Math.max(...days)
-        ? `Campaign day ${days[0]}`
-        : `Campaign days ${Math.min(...days)}–${Math.max(...days)}`
+        ? `day ${days[0]}`
+        : `days ${Math.min(...days)}–${Math.max(...days)}`
 
   return <EventsTimeline sections={sections} eventCount={events.length} daySpan={daySpan} />
 }

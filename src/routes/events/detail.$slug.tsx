@@ -7,7 +7,7 @@ import { LocationReference } from '#/components/location-reference'
 import { Avatar } from '#/components/ui/avatar'
 import { Inline, Stack } from '#/components/ui/layout'
 import { Pill } from '#/components/ui/pill'
-import { getEntity, eventLocation } from '#/lib/campaign'
+import { eventLocation, getEntity } from '#/lib/campaign'
 import { referencedByItems } from '#/lib/entity-page-data'
 import { EventMarkIcon } from '#/lib/event-icons'
 
@@ -49,7 +49,7 @@ function EventPage() {
         <Inline gap="sm" wrap className="text-muted-foreground text-sm">
           <Pill variant="outline" className="gap-1">
             <Calendar className="size-3.5" />
-            Campaign day {event.day}
+            day {event.day}
           </Pill>
           {place ? <LocationReference slug={place.slug} /> : null}
         </Inline>

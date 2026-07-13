@@ -35,7 +35,7 @@ describe('layout primitives', () => {
   it('applies axis-specific inset spacing', () => {
     const markup = renderToStaticMarkup(
       <Inset as="h3" block="sm">
-        Campaign day 1
+        day 1
       </Inset>,
     )
 

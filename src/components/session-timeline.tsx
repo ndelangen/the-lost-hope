@@ -2,7 +2,7 @@ import { EventReference } from '#/components/event-reference'
 import { LocationReference } from '#/components/location-reference'
 import { Grid, Inline, Inset, Stack } from '#/components/ui/layout'
 import type { SessionTimelineDay } from '#/lib/entity-page-data'
-import { EventMarkIcon } from '#/lib/event-icons'
+import { DAY_MARK_ICON, EventMarkIcon } from '#/lib/event-icons'
 import { cn } from '#/lib/utils'
 
 function TimelineBullet({
@@ -14,6 +14,7 @@ function TimelineBullet({
 }) {
   return (
     <Inline
+      as="span"
       gap="none"
       justify="center"
       className={cn('ring-background relative size-10 shrink-0 rounded-full ring-4', className)}
@@ -26,14 +27,19 @@ function TimelineBullet({
 function DayHeading({ day, isFirst }: { day: number; isFirst: boolean }) {
   return (
     <Inset
-      as="h3"
+      as="div"
       block="sm"
       className={cn(
         'bg-background text-muted-foreground sticky top-14 z-20 text-base font-semibold tracking-wider uppercase',
         !isFirst && 'border-border border-t',
       )}
     >
-      Campaign day {day}
+      <Inline as="h3" gap="md">
+        <TimelineBullet className="border-2 border-amber-400/70 bg-amber-50 shadow-sm dark:bg-amber-950/50">
+          <EventMarkIcon name={DAY_MARK_ICON} className="size-4 text-amber-500" />
+        </TimelineBullet>
+        <span>day {day}</span>
+      </Inline>
     </Inset>
   )
 }

@@ -10,6 +10,7 @@ type CampaignShellLayoutProps = {
   navigationRef: Ref<HTMLElement>
   navigationOpen: boolean
   navigationCollapsed: boolean
+  hasNavigation?: boolean
   onDismissNavigation: () => void
 }
 
@@ -21,6 +22,7 @@ export function CampaignShellLayout({
   navigationRef,
   navigationOpen,
   navigationCollapsed,
+  hasNavigation = true,
   onDismissNavigation,
 }: CampaignShellLayoutProps) {
   return (
@@ -31,7 +33,7 @@ export function CampaignShellLayout({
         </Center>
       </header>
 
-      {navigationOpen ? (
+      {hasNavigation && navigationOpen ? (
         <button
           type="button"
           className="bg-background/80 fixed inset-0 z-40 backdrop-blur-sm lg:hidden"
@@ -41,24 +43,26 @@ export function CampaignShellLayout({
       ) : null}
 
       <Center maxWidth="7xl" className="px-4 sm:px-6">
-        <Grid gap="none" template="auto-content">
-          <aside
-            ref={navigationRef}
-            role={navigationOpen ? 'dialog' : undefined}
-            aria-modal={navigationOpen ? true : undefined}
-            aria-label={navigationOpen ? 'Navigation' : undefined}
-            className={cn(
-              'border-border sticky top-14 h-[calc(100vh-3.5rem)] overflow-y-auto border-r pb-6',
-              navigationOpen
-                ? 'bg-background fixed inset-y-14 left-0 z-50 block w-72 px-4 shadow-xl lg:static lg:px-0 lg:shadow-none'
-                : 'hidden lg:block',
-              !navigationOpen && (navigationCollapsed ? 'w-14 pr-1' : 'w-72 pr-4'),
-            )}
-          >
-            <div className="pt-6">{navigation}</div>
-          </aside>
+        <Grid gap="none" template={hasNavigation ? 'auto-content' : 1}>
+          {hasNavigation ? (
+            <aside
+              ref={navigationRef}
+              role={navigationOpen ? 'dialog' : undefined}
+              aria-modal={navigationOpen ? true : undefined}
+              aria-label={navigationOpen ? 'Navigation' : undefined}
+              className={cn(
+                'border-border sticky top-14 h-[calc(100vh-3.5rem)] overflow-y-auto border-r pb-6',
+                navigationOpen
+                  ? 'bg-background fixed inset-y-14 left-0 z-50 block w-72 px-4 shadow-xl lg:static lg:px-0 lg:shadow-none'
+                  : 'hidden lg:block',
+                !navigationOpen && (navigationCollapsed ? 'w-14 pr-1' : 'w-72 pr-4'),
+              )}
+            >
+              <div className="pt-6">{navigation}</div>
+            </aside>
+          ) : null}
 
-          <main className="min-w-0 py-8 pl-0 lg:pl-8">{children}</main>
+          <main className={cn('min-w-0 py-8 pl-0', hasNavigation && 'lg:pl-8')}>{children}</main>
         </Grid>
       </Center>
     </div>

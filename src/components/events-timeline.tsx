@@ -204,7 +204,7 @@ function EventBullet({ entry }: { entry: Extract<SessionTimelineEntry, { kind: '
 function DayBullet({ entry }: { entry: Extract<SessionTimelineEntry, { kind: 'day' }> }) {
   return (
     <Bullet
-      label={`Campaign day ${entry.day}`}
+      label={`day ${entry.day}`}
       className="border-2 border-amber-400/70 bg-amber-50 shadow-sm dark:bg-amber-950/50"
     >
       <EventMarkIcon name={DAY_MARK_ICON} className="size-5 text-amber-500" />

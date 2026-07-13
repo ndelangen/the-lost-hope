@@ -6,5 +6,12 @@
   "printWidth": 100,
   "sortImports": true,
   "sortTailwindcss": true,
-  "ignorePatterns": ["dist/**", "node_modules/**", "src/routeTree.gen.ts", "bun.lock"]
+  "ignorePatterns": [
+    "dist/**",
+    "node_modules/**",
+    "src/routeTree.gen.ts",
+    "src/icon-catalog/catalog.json",
+    "src/icon-catalog/upstream/*.json",
+    "bun.lock"
+  ]
 }

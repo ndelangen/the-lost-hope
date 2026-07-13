@@ -41,6 +41,18 @@ campaign lore, entities, sessions, quests, and event timelines.
 - For UI changes, exercise the affected flow in a browser and check the console after automated
   verification passes.
 
+## Icon selection
+
+- Search the canonical catalog before choosing an icon: `bun run icons:search -- "<concept>"`.
+- Prefer entries classified as `useful`. Treat `questionable` entries as visual-review candidates,
+  and do not use an entry `marked-for-deletion` without deliberately reviewing its reason.
+- Lucide is canonical for generic web-UI controls. Use Game Icons for fantasy, RPG, campaign-world,
+  item, creature, and event concepts when it communicates the meaning better.
+- Reference catalog IDs in the form `lucide/ArrowLeft`, `gi/GiDragonHead`, `fa/FaDragon`, or
+  `custom/LongRest`. When adding a custom icon or another icon source, add it to the generator and
+  regenerate the catalog with `bun run generate:icons`. See `src/icon-catalog/README.md` for the
+  review and override workflow.
+
 ## UI architecture
 
 - Treat a route or full screen as the orchestration boundary. Prefer a deliberately fat screen that

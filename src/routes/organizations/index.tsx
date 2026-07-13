@@ -1,8 +1,9 @@
 import { createFileRoute } from '@tanstack/react-router'
 
 import { EntityCollection } from '#/components/entity-page'
-import { COLLECTION_LABELS } from '#/lib/campaign'
+import { allEntities, COLLECTION_LABELS } from '#/lib/campaign'
 import { entityCollectionItems } from '#/lib/entity-page-data'
+import { resolveOrganizationIcon } from '#/lib/organization-icons'
 
 export const Route = createFileRoute('/organizations/')({
   component: OrganizationsPage,
@@ -10,5 +11,15 @@ export const Route = createFileRoute('/organizations/')({
 
 function OrganizationsPage() {
   const items = entityCollectionItems('organization')
-  return <EntityCollection label={COLLECTION_LABELS.organization} items={items} />
+  const icons = new Map(
+    allEntities('organization').map((organization) => [organization.slug, organization.data.icon]),
+  )
+
+  return (
+    <EntityCollection
+      label={COLLECTION_LABELS.organization}
+      items={items}
+      iconForItem={(item) => resolveOrganizationIcon(icons.get(item.slug))}
+    />
+  )
 }
