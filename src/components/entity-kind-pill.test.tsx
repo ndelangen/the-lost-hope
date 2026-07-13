@@ -1,16 +1,15 @@
 import { renderToStaticMarkup } from 'react-dom/server'
 import { describe, expect, it } from 'vitest'
 
-import { EntityKindBadge } from './entity-kind-badge'
+import { EntityKindPill } from './entity-kind-pill'
 
-describe('EntityKindBadge', () => {
+describe('EntityKindPill', () => {
   it('uses the shared entity color for both its marker and surface', () => {
-    const markup = renderToStaticMarkup(<EntityKindBadge kind="session">6</EntityKindBadge>)
+    const markup = renderToStaticMarkup(<EntityKindPill kind="session">6</EntityKindPill>)
 
     expect(markup).toContain('bg-blue-100')
     expect(markup).toContain('text-blue-700')
-    expect(markup).toContain('text-blue-600')
-    expect(markup).toContain('rounded-full bg-current')
+    expect(markup).toContain('size-1.5 shrink-0 rounded-full bg-current')
     expect(markup).toContain('>6<')
   })
 })

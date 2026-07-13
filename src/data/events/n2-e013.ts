@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Visit the exotic animal dealer',
   day: 2,
   location: refs.locations.fajanet,
-  mark: { type: 'icon', name: 'fa/FaMapMarkerAlt' },
+  mark: { type: 'icon', name: 'gi/GiPlantsAndAnimals' },
   notes: [
     [
       'The party went to the ',

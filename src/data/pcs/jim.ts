@@ -20,6 +20,11 @@ export default createPC({
       status: 'former',
       rank: 'Finger',
     },
+    {
+      organization: refs.organizations.beasts_and_dwarf,
+      status: 'active',
+      rank: 'Founder',
+    },
   ],
   notes: [
     [
@@ -40,7 +45,12 @@ export default createPC({
     [
       'Source-of-truth split: this file is canonical for fiction (the kenku disguise and secrets); the D&D Beyond sheet is canonical for rules (Human, Bard/Sorcerer, College of Tragedy). When they conflict, the sheet wins for mechanics and this file wins for fiction.',
     ],
-    ["Still hidden from everyone: Jim's real name, face, and species, and why the law wants him."],
+    [
+      refs.pcs.devan,
+      ' and ',
+      refs.pcs.fix,
+      ' know that Jim is his real name. His face, species, and why the law wants him remain hidden.',
+    ],
     ['His Sorcerer origin/bloodline has not been disclosed.'],
     ['DM note: keep the disguise secret unless the player says otherwise.'],
     ['Ryan’s first notes described him as a quiet kenku bard.'],

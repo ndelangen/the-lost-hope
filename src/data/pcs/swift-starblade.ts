@@ -1,15 +1,23 @@
+import { refs } from '#/data/generated/refs.ts'
 import { create as createPC } from '#/definitions/pc.ts'
 
 export default createPC({
   name: 'Swift Starblade',
-  player: 'Johan',
+  player: 'SuperJohan4k',
   url: '',
-  avatar: '/assets/pcs/swift.png',
+  avatar: '/assets/pcs/swift.jpg',
   status: 'active',
   species: 'Half-Elf',
   class: 'Rogue',
   subclass: 'Arcane Trickster',
   level: 4,
+  memberships: [
+    {
+      organization: refs.organizations.beasts_and_dwarf,
+      status: 'active',
+      rank: 'Member',
+    },
+  ],
   notes: [
     ['A rogue who formerly went by the name Rhys Greenleaf.'],
     [

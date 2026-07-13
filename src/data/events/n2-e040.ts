@@ -5,13 +5,13 @@ export default createEvent({
   name: "Reach Badesh, Victor's hometown",
   day: 10,
   location: refs.locations.badesh,
-  mark: { type: 'icon', name: 'gi/GiPineTree' },
+  mark: { type: 'icon', name: 'gi/GiHutsVillage' },
   notes: [
     [
       'The party reached a small forest town: ',
       refs.locations.badesh,
       ' — ',
-      refs.pcs.victor_the_badesh_lumberjack,
+      refs.pcs.victor_dranzig,
       "'s hometown.",
     ],
     ['The dinos lost interest in chasing them here.'],
@@ -30,7 +30,7 @@ export default createEvent({
       ', ',
       refs.pcs.devan,
       ', ',
-      refs.pcs.victor_the_badesh_lumberjack,
+      refs.pcs.victor_dranzig,
     ],
   ],
 })

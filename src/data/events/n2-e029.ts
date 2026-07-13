@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Lost in the shadow realm',
   day: 9,
   location: refs.locations.shadow_realm,
-  mark: { type: 'icon', name: 'fa/FaMoon' },
+  mark: { type: 'icon', name: 'gi/GiShadowFollower' },
   notes: [
     ['The party got lost in a shadow realm during a chase.'],
     ['They hid in a cave.'],

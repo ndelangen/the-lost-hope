@@ -5,7 +5,7 @@ export default createEvent({
   name: 'The guild tattoo ritual',
   day: 2,
   location: refs.locations.fajanet_guildhall,
-  mark: { type: 'icon', name: 'hi/HiSparkles' },
+  mark: { type: 'icon', name: 'gi/GiNeedleDrill' },
   notes: [
     ['Each PC asked a favor. The ritual was performed by ', refs.npcs.light_13th_marshal, '.'],
     [

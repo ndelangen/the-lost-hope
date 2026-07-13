@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Friendly goblin grass-keepers try to kidnap Mr. Peace',
   day: 3,
   location: refs.locations.fajanet,
-  mark: { type: 'icon', name: 'fa/FaMapMarkerAlt' },
+  mark: { type: 'icon', name: 'gi/GiGoblinHead' },
   notes: [
     [
       refs.pcs.mr_peace,

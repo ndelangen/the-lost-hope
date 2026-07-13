@@ -3,9 +3,9 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Borris welcomes the party and delivers Crowy',
-  day: 13,
+  day: 16,
   location: refs.locations.the_sullen_monk,
-  mark: { type: 'icon', name: 'fa/FaBeer' },
+  mark: { type: 'icon', name: 'gi/GiRaven' },
   notes: [
     [
       refs.npcs.borris,

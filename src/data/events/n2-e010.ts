@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Meet Light 13th Marshal at the guildhall',
   day: 2,
   location: refs.locations.fajanet_guildhall,
-  mark: { type: 'icon', name: 'fa/FaLandmark' },
+  mark: { type: 'icon', name: 'fa/FaHandshake' },
   notes: [
     [
       'The party reached the ',

@@ -4,6 +4,7 @@ import { create as createSession } from '#/definitions/session.ts'
 export default createSession({
   name: 'Escape from ShadowPeak',
   number: 10,
+  icon: 'gi/GiExitDoor',
   date: new Date('2026-07-09'),
   events: [
     refs.events.n2_e047,
@@ -34,7 +35,9 @@ export default createSession({
     ],
     [
       refs.pcs.swift_starblade,
-      ' was away from the party throughout the session. His departure was not explained; the party presumed he traveled on his demon-possessed flying broom.',
+      ' was away from the party throughout the session. His departure was not explained; the party presumed he traveled on ',
+      refs.items.demon_possessed_flying_broom,
+      '.',
     ],
     [
       'Swift spent the time at a fan convention or similar gathering, where he gained eight new fans. The exact venue is unknown.',

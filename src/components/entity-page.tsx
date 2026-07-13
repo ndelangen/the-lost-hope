@@ -1,16 +1,31 @@
 import { Link } from '@tanstack/react-router'
 import { ArrowLeft, Clock3 } from 'lucide-react'
+import type { ComponentType, ReactNode } from 'react'
 
 import { EntityReference } from '#/components/entity-reference'
-import { Avatar } from '#/components/ui/avatar'
 import { Card, CardDescription, CardHeader, CardTitle } from '#/components/ui/card'
-import { Grid, Inline, Stack } from '#/components/ui/layout'
+import { Grid, Inline, Stack, SwitchLayout } from '#/components/ui/layout'
 import { COLLECTION_LABELS, collectionTo, type EntityKind } from '#/lib/campaign'
 import { ENTITY_KIND_VISUALS } from '#/lib/entity-kind-visuals'
 import type { EntityCardItem, ReferencedByItem } from '#/lib/entity-page-data'
 import { cn } from '#/lib/utils'
 
-export function EntityCollection({ label, items }: { label: string; items: EntityCardItem[] }) {
+type CollectionIcon = ComponentType<{ className?: string; 'aria-hidden'?: boolean }>
+
+type EntityDetailVisual = {
+  variant: 'avatar' | 'icon'
+  content: ReactNode
+}
+
+export function EntityCollection({
+  label,
+  items,
+  iconForItem,
+}: {
+  label: string
+  items: EntityCardItem[]
+  iconForItem?: (item: EntityCardItem) => CollectionIcon
+}) {
   return (
     <Stack gap="xl">
       <Stack as="header" gap="sm">
@@ -24,7 +39,7 @@ export function EntityCollection({ label, items }: { label: string; items: Entit
       <Grid gap="lg" smTemplate={2}>
         {items.map((item) => {
           const visual = ENTITY_KIND_VISUALS[item.kind]
-          const Icon = visual.icon
+          const Icon = iconForItem?.(item) ?? visual.icon
           return (
             <EntityReference
               key={`${item.kind}-${item.slug}`}
@@ -81,19 +96,108 @@ export function EntityCollection({ label, items }: { label: string; items: Entit
 
 export function EntityDetail({
   kind,
+  title,
+  typeLabel,
+  visual,
+  headerContext,
+  headerContent,
   referencedBy,
   children,
 }: {
   kind: EntityKind
+  title: string
+  typeLabel?: ReactNode
+  visual?: EntityDetailVisual | false
+  headerContext?: ReactNode
+  headerContent?: ReactNode
   referencedBy: ReferencedByItem[]
-  children: React.ReactNode
+  children?: ReactNode
 }) {
   return (
     <Stack as="article" gap="2xl">
       <EntityBackLink kind={kind} />
+      <EntityDetailHeader
+        kind={kind}
+        title={title}
+        typeLabel={typeLabel}
+        visual={visual}
+        context={headerContext}
+      >
+        {headerContent}
+      </EntityDetailHeader>
       {children}
       {referencedBy.length > 0 ? <ReferencedBy items={referencedBy} /> : null}
     </Stack>
+  )
+}
+
+const ENTITY_DETAIL_LABELS: Record<EntityKind, string> = {
+  beast: 'Beast',
+  pc: 'Player character',
+  npc: 'NPC',
+  location: 'Location',
+  event: 'Event',
+  session: 'Session',
+  quest: 'Quest',
+  organization: 'Organization',
+  item: 'Item',
+}
+
+export function EntityDetailHeader({
+  kind,
+  title,
+  typeLabel = ENTITY_DETAIL_LABELS[kind],
+  visual,
+  context,
+  children,
+}: {
+  kind: EntityKind
+  title: string
+  typeLabel?: ReactNode
+  visual?: EntityDetailVisual | false
+  context?: ReactNode
+  children?: ReactNode
+}) {
+  const kindVisual = ENTITY_KIND_VISUALS[kind]
+  const KindIcon = kindVisual.icon
+  const hasVisual = visual !== false
+  const visualVariant = visual === false ? undefined : (visual?.variant ?? 'icon')
+
+  return (
+    <SwitchLayout as="header" gap="lg" rowAlign={visualVariant === 'avatar' ? 'start' : 'center'}>
+      {hasVisual ? (
+        <Inline
+          gap="none"
+          justify="center"
+          className={cn(
+            'shrink-0 overflow-hidden',
+            visualVariant === 'avatar'
+              ? 'size-40 rounded-2xl'
+              : [
+                  'size-20 rounded-xl border',
+                  kindVisual.accentClassName,
+                  kindVisual.borderClassName,
+                  kindVisual.surfaceClassName,
+                ],
+          )}
+        >
+          {visual === undefined ? <KindIcon className="size-10" aria-hidden /> : visual.content}
+        </Inline>
+      ) : null}
+      <Stack gap="sm" className="min-w-0">
+        <p
+          className={cn(
+            'text-xs font-semibold tracking-wider uppercase',
+            kindVisual.accentClassName,
+          )}
+        >
+          {typeLabel}
+        </p>
+        {context}
+        <h1 className="text-3xl font-bold tracking-tight text-balance sm:text-4xl">{title}</h1>
+        {children}
+      </Stack>
+    </SwitchLayout>
   )
 }
 
@@ -123,9 +227,9 @@ function ReferencedBy({ items }: { items: ReferencedByItem[] }) {
       <h2 className="text-muted-foreground text-sm font-semibold tracking-wider uppercase">
         Referenced by
       </h2>
-      <Grid as="ul" gap="sm" smTemplate={2}>
+      <ul className="columns-1 gap-x-8 md:columns-2 xl:columns-3">
         {items.map((item) => (
-          <li key={`${item.kind}-${item.slug}`}>
+          <li key={`${item.kind}-${item.slug}`} className="mb-2 break-inside-avoid">
             <EntityReference
               kind={item.kind}
               slug={item.slug}
@@ -137,47 +241,7 @@ function ReferencedBy({ items }: { items: ReferencedByItem[] }) {
             </EntityReference>
           </li>
         ))}
-      </Grid>
+      </ul>
     </Stack>
-  )
-}
-
-export function EntityChip({
-  kind,
-  slug,
-  name,
-  avatar,
-}: {
-  kind: EntityKind
-  slug: string
-  name: string
-  avatar: string
-}) {
-  return (
-    <EntityReference
-      kind={kind}
-      slug={slug}
-      label={name}
-      unstyled
-      className="border-border bg-card hover:border-primary/40 hover:bg-accent/20 inline-block rounded-full border py-1 pr-4 pl-1 transition-colors"
-    >
-      {() => (
-        <Inline as="span" inline gap="sm">
-          <Avatar src={avatar} alt={name} loading="lazy" className="border-border size-9 border" />
-          <span className="text-sm font-medium">{name}</span>
-        </Inline>
-      )}
-    </EntityReference>
-  )
-}
-
-export function EntityPortrait({ src, alt }: { src: string; alt: string }) {
-  return (
-    <Avatar
-      src={src}
-      alt={alt}
-      loading="lazy"
-      className="border-border size-24 border shadow-sm sm:size-28"
-    />
   )
 }

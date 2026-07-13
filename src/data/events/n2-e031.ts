@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Pass through a holy site into the mountains',
   day: 9,
   location: refs.locations.holy_site,
-  mark: { type: 'icon', name: 'fa/FaChurch' },
+  mark: { type: 'icon', name: 'gi/GiMountaintop' },
   notes: [
     ['The party passed through a holy site and continued upwards into the mountains.'],
     [

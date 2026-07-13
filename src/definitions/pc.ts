@@ -8,7 +8,7 @@ import { deriveSlug } from './slug'
 
 export { DEFAULT_AVATAR, DEFAULT_AVATAR as DEFAULT_PC_AVATAR } from './media'
 
-export const PC_STATUSES = ['active', 'retired', 'occasional', 'missing-presumed-dead'] as const
+export const PC_STATUSES = ['active', 'retired', 'occasional'] as const
 
 export const PC = deriveSlug(
   z.strictObject({

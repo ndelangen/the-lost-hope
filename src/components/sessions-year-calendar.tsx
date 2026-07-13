@@ -1,4 +1,4 @@
-import { EntityKindBadge } from '#/components/entity-kind-badge'
+import { EntityKindPill } from '#/components/entity-kind-pill'
 import { SessionReference } from '#/components/session-reference'
 import { Card } from '#/components/ui/card'
 import { Grid, Inline, Inset, Stack } from '#/components/ui/layout'
@@ -52,9 +52,9 @@ export function SessionsYearCalendar({
         <Stack as="section" gap="lg" key={year.year}>
           <Inline justify="between" gap="md" align="baseline">
             <h2 className="text-2xl font-semibold tracking-tight">{year.year}</h2>
-            <EntityKindBadge kind="session">
+            <EntityKindPill kind="session">
               {year.sessionCount} {year.sessionCount === 1 ? 'session' : 'sessions'}
-            </EntityKindBadge>
+            </EntityKindPill>
           </Inline>
 
           <Stack gap="md">
@@ -107,7 +107,7 @@ function MonthCalendar({ month }: { month: SessionCalendarMonth }) {
         <Inline justify="between" gap="sm">
           <h3 className="font-semibold">{month.label}</h3>
           {month.sessionCount > 0 ? (
-            <EntityKindBadge kind="session">{month.sessionCount}</EntityKindBadge>
+            <EntityKindPill kind="session">{month.sessionCount}</EntityKindPill>
           ) : null}
         </Inline>
       </Inset>
@@ -160,7 +160,7 @@ function CalendarDay({ day }: { day: SessionCalendarDay }) {
       wrapperClassName="block"
       className={cn(
         'group block aspect-square rounded-md transition-[filter] hover:brightness-95 focus-visible:ring-2 focus-visible:outline-none',
-        SESSION_VISUAL.badgeClassName,
+        SESSION_VISUAL.pillClassName,
         SESSION_VISUAL.ringClassName,
       )}
     >

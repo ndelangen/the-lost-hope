@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Board the boat to Fairhaven',
   day: 11,
   location: refs.locations.the_boat_to_fairhaven,
-  mark: { type: 'icon', name: 'gi/GiSailboat' },
+  mark: { type: 'icon', name: 'gi/GiShipWheel' },
   notes: [
     [
       'After a night in ',
@@ -14,6 +14,7 @@ export default createEvent({
       refs.locations.fairhaven,
       '.',
     ],
+    ['The voyage took a full day, and the party arrived the following morning.'],
     [
       'Party: ',
       refs.pcs.jim,
@@ -22,7 +23,7 @@ export default createEvent({
       ', ',
       refs.pcs.devan,
       ', ',
-      refs.pcs.victor_the_badesh_lumberjack,
+      refs.pcs.victor_dranzig,
       ' (travelling with ',
       refs.npcs.abraham,
       ').',

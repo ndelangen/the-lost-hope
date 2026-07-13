@@ -5,12 +5,18 @@ export default createEvent({
   name: 'Zone of truth — each PC questioned',
   day: 9,
   location: refs.locations.mountain_top,
-  mark: { type: 'icon', name: 'fa/FaBalanceScale' },
+  mark: { type: 'icon', name: 'gi/GiScales' },
   notes: [
     ['Each character individually entered a zone of truth.'],
     [refs.pcs.jim, ' presented a "letter of passage" given by ', refs.npcs.light_13th_marshal, '.'],
     ['The ', refs.npcs.angel_of_the_mountain, ' burned it.'],
     ['Each character was asked about their personal motives and had to answer truthfully.'],
+    [
+      refs.pcs.jim,
+      ' truthfully answered a question about his identity. ',
+      refs.pcs.devan,
+      ' noticed that Jim was his real name.',
+    ],
     [
       'Open: what did the other PCs say? Not stated. The angel burned the letter — what did that mean? Not stated.',
     ],

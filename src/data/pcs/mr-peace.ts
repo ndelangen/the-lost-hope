@@ -4,7 +4,7 @@ export default createPC({
   name: 'Mr. Peace',
   player: 'unknown',
   url: '',
-  avatar: '/assets/pcs/mr-peace.png',
+  avatar: '/assets/pcs/placeholder.svg',
   status: 'occasional',
   species: 'unknown',
   class: 'unknown',

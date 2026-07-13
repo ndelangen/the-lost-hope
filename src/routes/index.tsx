@@ -11,15 +11,15 @@ import {
 import { useState } from 'react'
 
 import { CampaignSearch } from '#/components/campaign-shell/campaign-search'
-import { EntityKindBadge } from '#/components/entity-kind-badge'
+import { EntityKindPill } from '#/components/entity-kind-pill'
 import { EventReference } from '#/components/event-reference'
 import { HomeActionCard } from '#/components/home-action-card'
 import { LocationReference } from '#/components/location-reference'
 import { QuestReference } from '#/components/quest-reference'
 import { SessionReference } from '#/components/session-reference'
-import { Badge } from '#/components/ui/badge'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '#/components/ui/card'
 import { Grid, Inline, Stack, SwitchLayout } from '#/components/ui/layout'
+import { Pill } from '#/components/ui/pill'
 import {
   COLLECTIONS,
   COLLECTION_LABELS,
@@ -51,6 +51,7 @@ const collectionDescriptions = {
   pc: 'Meet the player characters',
   quest: 'Track clues and mysteries',
   organization: 'Understand groups and allegiances',
+  item: 'Browse notable equipment and artifacts',
 } as const
 
 function HomePage() {
@@ -65,7 +66,7 @@ function HomePage() {
     <Stack gap="3xl">
       <section className="border-border bg-card rounded-2xl border p-6 sm:p-8">
         <Stack gap="lg" className="max-w-3xl">
-          <Badge variant="secondary">Campaign companion</Badge>
+          <Pill variant="secondary">Campaign companion</Pill>
           <h1 className="text-4xl font-bold tracking-tight text-balance sm:text-5xl">
             {campaign.name}
           </h1>
@@ -195,7 +196,7 @@ function HomePage() {
                 <CircleHelp className="text-primary size-5" />
                 <CardTitle>Open mysteries</CardTitle>
               </Inline>
-              <EntityKindBadge kind="quest">{mysteries.length}</EntityKindBadge>
+              <EntityKindPill kind="quest">{mysteries.length}</EntityKindPill>
             </Inline>
             <CardDescription>Story threads the party has not resolved.</CardDescription>
           </CardHeader>
@@ -274,7 +275,7 @@ function HomePage() {
                         <Icon className={cn('size-5', visual.accentClassName)} />
                         <span className="font-semibold">{COLLECTION_LABELS[kind]}</span>
                       </Inline>
-                      <EntityKindBadge kind={kind}>{allEntities(kind).length}</EntityKindBadge>
+                      <EntityKindPill kind={kind}>{allEntities(kind).length}</EntityKindPill>
                     </Inline>
                     <p className="text-muted-foreground text-sm">{collectionDescriptions[kind]}</p>
                   </Stack>

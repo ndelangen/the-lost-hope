@@ -4,8 +4,8 @@ import { ContentRenderer } from '#/components/content-renderer'
 import { EntityDetail, EntityNotFound } from '#/components/entity-page'
 import { LocationReference } from '#/components/location-reference'
 import { LocationMapImage } from '#/components/map-placeholder'
-import { Badge } from '#/components/ui/badge'
 import { Grid, Inline, Stack } from '#/components/ui/layout'
+import { Pill } from '#/components/ui/pill'
 import {
   getEntity,
   locationAbsolutePosition,
@@ -14,7 +14,7 @@ import {
   locationTypeOf,
 } from '#/lib/campaign'
 import { referencedByItems } from '#/lib/entity-page-data'
-import { LocationAvatar, LocationTypeIcon, locationTypeLabel } from '#/lib/location-icons'
+import { LocationIcon, LocationTypeIcon, locationTypeLabel } from '#/lib/location-icons'
 
 export const Route = createFileRoute('/locations/detail/$slug')({
   component: LocationDetailPage,
@@ -32,12 +32,15 @@ function LocationDetailPage() {
   const locationType = locationTypeOf(location)
 
   return (
-    <EntityDetail kind="location" referencedBy={referencedByItems('location', slug)}>
-      <Stack as="header" gap="lg">
-        <p className="text-muted-foreground text-xs font-semibold tracking-wider uppercase">
-          Location
-        </p>
-        {ancestors.length > 0 ? (
+    <EntityDetail
+      kind="location"
+      title={location.name}
+      visual={{
+        variant: 'icon',
+        content: <LocationIcon icon={location.icon} className="size-10" />,
+      }}
+      headerContext={
+        ancestors.length > 0 ? (
           <Inline as="p" gap="xs" wrap className="text-muted-foreground text-sm">
             {ancestors.map((ancestor, index) => (
               <Inline as="span" inline gap="xs" key={ancestor.slug}>
@@ -46,34 +49,33 @@ function LocationDetailPage() {
               </Inline>
             ))}
           </Inline>
-        ) : null}
-        <Inline gap="lg">
-          <LocationAvatar icon={location.icon} />
-          <Stack gap="sm">
-            <h1 className="text-4xl font-bold tracking-tight">{location.name}</h1>
-            {location.aliases?.length ? (
-              <p className="text-muted-foreground text-sm">
-                Also known as {location.aliases.join(', ')}
-              </p>
-            ) : null}
-            {locationType ? (
-              <Badge variant="secondary">
-                <Inline as="span" inline gap="2xs">
-                  <LocationTypeIcon type={locationType} className="size-3" />
-                  {locationTypeLabel(locationType, true)}
-                </Inline>
-              </Badge>
-            ) : null}
-          </Stack>
-        </Inline>
+        ) : null
+      }
+      headerContent={
+        <Stack gap="sm">
+          {location.aliases?.length ? (
+            <p className="text-muted-foreground text-sm">
+              Also known as {location.aliases.join(', ')}
+            </p>
+          ) : null}
+          {locationType ? (
+            <Pill variant="secondary">
+              <Inline as="span" inline gap="2xs">
+                <LocationTypeIcon type={locationType} className="size-3" />
+                {locationTypeLabel(locationType, true)}
+              </Inline>
+            </Pill>
+          ) : null}
+        </Stack>
+      }
+      referencedBy={referencedByItems('location', slug)}
+    >
+      <Stack gap="2xl">
         <LocationMapImage
           src={location.map?.url ?? ''}
           alt={location.name}
           coordinates={coordinates}
         />
-      </Stack>
-
-      <Stack gap="2xl">
         {children.length > 0 ? (
           <Stack as="section" gap="md">
             <h2 className="text-muted-foreground text-sm font-semibold tracking-wider uppercase">

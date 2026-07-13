@@ -4,9 +4,9 @@ import { Clock3 } from 'lucide-react'
 import { ContentRenderer } from '#/components/content-renderer'
 import { EntityDetail, EntityNotFound } from '#/components/entity-page'
 import { EventReference } from '#/components/event-reference'
-import { Badge } from '#/components/ui/badge'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '#/components/ui/card'
 import { Grid, Inline, Stack } from '#/components/ui/layout'
+import { Pill } from '#/components/ui/pill'
 import { contentToText, getEntity, questProgress } from '#/lib/campaign'
 import { questProgressText, referencedByItems } from '#/lib/entity-page-data'
 
@@ -23,36 +23,37 @@ function QuestPage() {
   const progress = questProgress(quest)
 
   return (
-    <EntityDetail kind="quest" referencedBy={referencedByItems('quest', slug)}>
-      <Stack as="header" gap="md">
-        <p className="text-muted-foreground text-xs font-semibold tracking-wider uppercase">
-          Quest
-        </p>
-        <h1 className="text-4xl font-bold tracking-tight">{quest.name}</h1>
-        <Badge variant={quest.status === 'open' ? 'warning' : 'success'}>{quest.status}</Badge>
-        <p className="text-muted-foreground">{contentToText(quest.notes)}</p>
-        <Inline
-          gap="md"
-          align="start"
-          className="border-border bg-card max-w-xl rounded-lg border p-4"
-        >
-          <Clock3 className="text-primary size-5 shrink-0" />
-          <Stack gap="2xs">
-            <p className="text-muted-foreground text-xs font-semibold tracking-wide uppercase">
-              Last progress
-            </p>
-            {progress ? (
-              <>
-                <EventReference slug={progress.event.slug} wrapperClassName="block" />
-                <p className="text-muted-foreground text-sm">{questProgressText(progress)}</p>
-              </>
-            ) : (
-              <p className="text-muted-foreground text-sm">No linked event progress yet.</p>
-            )}
-          </Stack>
-        </Inline>
-      </Stack>
-
+    <EntityDetail
+      kind="quest"
+      title={quest.name}
+      headerContent={
+        <Stack gap="md">
+          <Pill variant={quest.status === 'open' ? 'warning' : 'success'}>{quest.status}</Pill>
+          <p className="text-muted-foreground">{contentToText(quest.notes)}</p>
+          <Inline
+            gap="md"
+            align="start"
+            className="border-border bg-card max-w-xl rounded-lg border p-4"
+          >
+            <Clock3 className="text-primary size-5 shrink-0" />
+            <Stack gap="2xs">
+              <p className="text-muted-foreground text-xs font-semibold tracking-wide uppercase">
+                Last progress
+              </p>
+              {progress ? (
+                <>
+                  <EventReference slug={progress.event.slug} wrapperClassName="block" />
+                  <p className="text-muted-foreground text-sm">{questProgressText(progress)}</p>
+                </>
+              ) : (
+                <p className="text-muted-foreground text-sm">No linked event progress yet.</p>
+              )}
+            </Stack>
+          </Inline>
+        </Stack>
+      }
+      referencedBy={referencedByItems('quest', slug)}
+    >
       <Grid gap="xl" lgTemplate={2}>
         <Card>
           <CardHeader>

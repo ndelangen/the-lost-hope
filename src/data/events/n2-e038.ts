@@ -5,11 +5,11 @@ export default createEvent({
   name: 'Dinos ridden toward Fairhaven',
   day: 10,
   location: refs.locations.badesh_forest,
-  mark: { type: 'icon', name: 'gi/GiForestCamp' },
+  mark: { type: 'icon', name: 'gi/GiDinosaurRex' },
   notes: [
     [
       'The party, travelling with ',
-      refs.pcs.victor_the_badesh_lumberjack,
+      refs.pcs.victor_dranzig,
       ' and ',
       refs.npcs.abraham,
       ', saw a large group of dinosaurs being ridden toward ',

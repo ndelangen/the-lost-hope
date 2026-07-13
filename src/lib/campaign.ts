@@ -19,6 +19,7 @@ import {
 import {
   beasts,
   events,
+  items,
   locations,
   npcs,
   organizations,
@@ -40,6 +41,7 @@ export type {
   LocationKey,
   NpcKey,
   OrganizationKey,
+  ItemKey,
   PcKey,
   QuestKey,
   SessionKey,
@@ -54,6 +56,7 @@ export const COLLECTIONS: readonly EntityKind[] = [
   'pc',
   'quest',
   'organization',
+  'item',
 ]
 
 export const COLLECTION_LABELS: Record<EntityKind, string> = {
@@ -65,6 +68,7 @@ export const COLLECTION_LABELS: Record<EntityKind, string> = {
   beast: 'Beasts',
   quest: 'Quests',
   organization: 'Organizations',
+  item: 'Items',
 }
 
 export const COLLECTION_PATH: Record<EntityKind, string> = {
@@ -76,6 +80,7 @@ export const COLLECTION_PATH: Record<EntityKind, string> = {
   pc: 'pcs',
   quest: 'quests',
   organization: 'organizations',
+  item: 'items',
 }
 
 const campaignModel = createCampaignReadModel({
@@ -84,7 +89,7 @@ const campaignModel = createCampaignReadModel({
   registries: REGISTRIES,
 })
 
-export { beasts, campaign, events, locations, npcs, organizations, pcs, quests, sessions }
+export { beasts, campaign, events, items, locations, npcs, organizations, pcs, quests, sessions }
 
 export function resolveRef(ref: EntityRef): Entity | undefined {
   return campaignModel.entities[ref.ref].byKey.get(ref.key)
@@ -194,7 +199,6 @@ const PC_STATUS_LABELS: Record<PC['status'], string> = {
   active: 'Active',
   retired: 'Retired',
   occasional: 'Occasional',
-  'missing-presumed-dead': 'MIA · presumed dead',
 }
 
 export function pcStatusLabel(status: PC['status']): string {
@@ -225,6 +229,7 @@ export type EntityTo =
   | '/sessions/detail/$slug'
   | '/quests/detail/$slug'
   | '/organizations/detail/$slug'
+  | '/items/detail/$slug'
 
 /** Route pattern for an entity kind's collection/index page. */
 export type CollectionTo =
@@ -236,6 +241,7 @@ export type CollectionTo =
   | '/quests'
   | '/beasts'
   | '/organizations'
+  | '/items'
 
 const ENTITY_TO: Record<EntityKind, EntityTo> = {
   pc: '/pcs/detail/$slug',
@@ -246,6 +252,7 @@ const ENTITY_TO: Record<EntityKind, EntityTo> = {
   quest: '/quests/detail/$slug',
   beast: '/beasts/detail/$slug',
   organization: '/organizations/detail/$slug',
+  item: '/items/detail/$slug',
 }
 
 const COLLECTION_TO: Record<EntityKind, CollectionTo> = {
@@ -257,6 +264,7 @@ const COLLECTION_TO: Record<EntityKind, CollectionTo> = {
   quest: '/quests',
   beast: '/beasts',
   organization: '/organizations',
+  item: '/items',
 }
 
 /** Typed router props (`to` + `params`) for an entity's detail page. */
@@ -326,6 +334,24 @@ export function reverseLinks(kind: EntityKind, slug: string): readonly ReverseLi
   return target ? (campaignModel.reverseLinksByEntity.get(target) ?? []) : []
 }
 
+export function itemsOwnedBy(kind: EntityKind, slug: string): readonly EntityOf<'item'>[] {
+  return sortEntitiesByName(
+    allEntities('item').filter((item) => {
+      const owner = item.data.currentOwner ? resolveRef(item.data.currentOwner) : undefined
+      return owner?.kind === kind && owner.slug === slug
+    }),
+  )
+}
+
+export function itemsCarriedBy(kind: EntityKind, slug: string): readonly EntityOf<'item'>[] {
+  return sortEntitiesByName(
+    allEntities('item').filter((item) => {
+      const carrier = item.data.carriedBy ? resolveRef(item.data.carriedBy) : undefined
+      return carrier?.kind === kind && carrier.slug === slug
+    }),
+  )
+}
+
 /**
  * Derive the PCs present in a session purely from references in its events' notes, deduped
  * by slug and resolved to the canonical PC record (so avatars/defaults apply).
@@ -384,9 +410,6 @@ export function nonActivePcs(): readonly EntityOf<'pc'>[] {
 export type OrganizationMember = {
   kind: 'pc' | 'npc'
   slug: string
-  name: string
-  avatar: string
-  rank: string
 }
 
 export type OrganizationMemberGroup = {
@@ -399,7 +422,13 @@ export type OrganizationMemberGroup = {
 
 /** Reverse-scan PCs and NPCs for memberships in the given organization. */
 export function organizationMembers(org: Organization): OrganizationMemberGroup[] {
-  const entries: (OrganizationMember & { status: (typeof MEMBERSHIP_STATUSES)[number] })[] = []
+  type MemberEntry = OrganizationMember & {
+    name: string
+    rank: string
+    status: (typeof MEMBERSHIP_STATUSES)[number]
+  }
+
+  const entries: MemberEntry[] = []
 
   const characters: { kind: 'pc' | 'npc'; record: PC | NPC }[] = [
     ...Object.values(pcs).map((record) => ({ kind: 'pc' as const, record })),
@@ -414,7 +443,6 @@ export function organizationMembers(org: Organization): OrganizationMemberGroup[
         kind,
         slug: record.slug,
         name: record.name,
-        avatar: record.avatar,
         rank: membership.rank,
         status: membership.status,
       })
@@ -425,16 +453,10 @@ export function organizationMembers(org: Organization): OrganizationMemberGroup[
     const byStatus = entries.filter((entry) => entry.status === status)
     if (byStatus.length === 0) return []
 
-    const rankMap = new Map<string, OrganizationMember[]>()
+    const rankMap = new Map<string, MemberEntry[]>()
     for (const entry of byStatus) {
       const members = rankMap.get(entry.rank) ?? []
-      members.push({
-        kind: entry.kind,
-        slug: entry.slug,
-        name: entry.name,
-        avatar: entry.avatar,
-        rank: entry.rank,
-      })
+      members.push(entry)
       rankMap.set(entry.rank, members)
     }
 
@@ -442,7 +464,9 @@ export function organizationMembers(org: Organization): OrganizationMemberGroup[
       .toSorted(([a], [b]) => a.localeCompare(b))
       .map(([rank, members]) => ({
         rank,
-        members: members.toSorted((a, b) => a.name.localeCompare(b.name)),
+        members: members
+          .toSorted((a, b) => a.name.localeCompare(b.name))
+          .map(({ kind, slug }) => ({ kind, slug })),
       }))
 
     return [{ status, ranks }]

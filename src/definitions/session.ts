@@ -9,6 +9,11 @@ export const Session = deriveSlug(
   z.strictObject({
     name: z.string(),
     number: z.number().int().positive(),
+    icon: z
+      .string()
+      .describe(
+        "A unique react-icons id for this session's icon, e.g. `gi/GiOpenGate` — see src/lib/session-icons.tsx.",
+      ),
     events: z.array(EntityRefSchema),
     date: z.date(),
     notes: Content.optional(),

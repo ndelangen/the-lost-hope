@@ -51,6 +51,12 @@ canon.
 - Events use a positive integer `day`: the campaign day on which they happened in the fiction.
 - The order of a session's event references records chronology within each campaign day. Do not
   invent precise in-world times when the notes do not provide them.
+- Every registered event must belong to exactly one session. Never leave an event orphaned or list
+  it in multiple sessions.
+- When the source does not identify an event's session, make the best provisional judgment from
+  chronology, nearby events, participating characters, and known session context. Record the
+  uncertainty in `QUESTIONS.md` when it remains materially ambiguous, but still assign the event to
+  the most likely session.
 - Campaign days may be absent when no event was recorded. A session may span several campaign days,
   and a campaign day may eventually span sessions.
 
@@ -68,6 +74,8 @@ canon.
   references. For intentional quest synthesis, verify the canonical event/entity still owns the
   underlying fact.
 - Events use sequential `n2-e###.ts` filenames and require `day`, `location`, `mark`, and `notes`.
+- Register each new event and add its reference to the best-fitting session in the same change. The
+  campaign chronology test enforces that every registered event appears exactly once.
 - Record unresolved canon in `QUESTIONS.md` when the source material exposes a concrete unanswered
   fact or a missing answer blocks a correct model. Include the known context and session, plus why
   the answer matters when it drives a modeling decision. Do not add engineering work or unsupported

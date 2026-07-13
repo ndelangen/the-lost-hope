@@ -1,4 +1,4 @@
-import { Building2, Dog, MapPin, Scroll, User, Users } from 'lucide-react'
+import { Building2, Dog, MapPin, Package, Scroll, User, Users } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 
 import {
@@ -119,6 +119,7 @@ const collectionDefinitions: SidebarCollectionDefinition[] = [
     },
   },
   { kind: 'organization', icon: Building2 },
+  { kind: 'item', icon: Package },
   { kind: 'beast', icon: Dog },
 ]
 

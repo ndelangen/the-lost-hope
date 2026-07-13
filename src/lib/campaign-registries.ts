@@ -1,5 +1,6 @@
 import beasts from '#/data/beasts/_index'
 import events from '#/data/events/_index'
+import items from '#/data/items/_index'
 import locations from '#/data/locations/_index'
 import npcs from '#/data/npcs/_index'
 import organizations from '#/data/organizations/_index'
@@ -19,6 +20,7 @@ export const REGISTRIES = {
   session: sessions,
   quest: quests,
   organization: organizations,
+  item: items,
 } as const satisfies Record<EntityKind, RegistryRecord>
 
 type Registries = typeof REGISTRIES
@@ -39,4 +41,4 @@ export type Entity = EntityOf<EntityKind>
 
 export type DataOf<K extends EntityKind> = EntityOf<K>['data']
 
-export { beasts, events, locations, npcs, organizations, pcs, quests, sessions }
+export { beasts, events, items, locations, npcs, organizations, pcs, quests, sessions }

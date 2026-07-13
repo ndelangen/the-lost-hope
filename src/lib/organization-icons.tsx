@@ -8,7 +8,7 @@ import { cn } from '#/lib/utils'
 export const ORGANIZATION_ICON_PLACEHOLDER = 'fa/FaBuilding'
 
 /**
- * Curated react-icons registry for per-organization avatars. Keys use
+ * Curated react-icons registry for per-organization glyphs. Keys use
  * `set/IconName`, matching the location-icons convention. Each organization
  * picks a unique key via its `icon` field; unknown/omitted keys fall back to the
  * placeholder.
@@ -31,19 +31,4 @@ export function resolveOrganizationIcon(icon?: string): IconType {
 export function OrganizationIcon({ icon, className }: { icon?: string; className?: string }) {
   const Icon = resolveOrganizationIcon(icon)
   return <Icon className={cn('size-3.5 shrink-0', className)} aria-hidden />
-}
-
-/** Framed organization avatar for detail-page headers. */
-export function OrganizationAvatar({ icon, className }: { icon?: string; className?: string }) {
-  const Icon = resolveOrganizationIcon(icon)
-  return (
-    <span
-      className={cn(
-        'border-border bg-muted text-primary flex size-14 shrink-0 items-center justify-center rounded-xl border',
-        className,
-      )}
-    >
-      <Icon className="size-7" aria-hidden />
-    </span>
-  )
 }

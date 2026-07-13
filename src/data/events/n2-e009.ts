@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Day 2 — city looks normal',
   day: 2,
   location: refs.locations.fajanet,
-  mark: { type: 'icon', name: 'fa/FaSun' },
+  mark: { type: 'icon', name: 'gi/GiSunrise' },
   notes: [
     [
       'The next morning, the city was completely normal. No tentacles, no laughter, no zombies. Just a working morning.',

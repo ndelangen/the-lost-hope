@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Devan buys a child free and punches the foreman',
-  day: 14,
+  day: 17,
   location: refs.locations.shadowpeak_mining_operation,
   mark: { type: 'avatar', url: '/assets/pcs/placeholder.svg' },
   notes: [

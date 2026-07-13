@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Reach a cliff with a sign',
   day: 9,
   location: refs.locations.mountain_cliff,
-  mark: { type: 'icon', name: 'fa/FaSign' },
+  mark: { type: 'icon', name: 'gi/GiWoodenSign' },
   notes: [
     ['The party reached a cliff. There was a sign — the user does not remember what it said.'],
     ['Open: what did the sign say? Not stated.'],

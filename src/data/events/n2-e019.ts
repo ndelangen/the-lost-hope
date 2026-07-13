@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Return to the guildhall with 2 of 3 animals',
   day: 2,
   location: refs.locations.fajanet_guildhall,
-  mark: { type: 'icon', name: 'fa/FaLandmark' },
+  mark: { type: 'icon', name: 'gi/GiRank2' },
   notes: [
     [
       'The party did not have time for the 3rd animal of the quest. They returned to the ',

@@ -16,6 +16,7 @@ const COLLECTIONS = [
   { kind: 'quest', plural: 'quests', typeName: 'QuestKey' },
   { kind: 'session', plural: 'sessions', typeName: 'SessionKey' },
   { kind: 'organization', plural: 'organizations', typeName: 'OrganizationKey' },
+  { kind: 'item', plural: 'items', typeName: 'ItemKey' },
 ] as const
 
 const IDENTIFIER = /^[A-Za-z_$][\w$]*$/

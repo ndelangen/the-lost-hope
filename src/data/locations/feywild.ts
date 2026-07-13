@@ -8,6 +8,10 @@ export default createLocation({
   parent: refs.locations.world,
   at: [0, 600],
   notes: [
-    ['A realm containing the village toward which ', refs.npcs.crowy, ' is guiding the party.'],
+    [
+      'A realm toward which ',
+      refs.npcs.crowy,
+      ' is guiding the party. The exact destination within it remains unknown.',
+    ],
   ],
 })

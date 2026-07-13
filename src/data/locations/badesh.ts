@@ -7,6 +7,6 @@ export default createLocation({
   type: 'settlement',
   parent: refs.locations.world,
   at: [0, 0],
-  notes: [['A small forest town — hometown of ', refs.pcs.victor_the_badesh_lumberjack, '.']],
+  notes: [['A small forest town — hometown of ', refs.pcs.victor_dranzig, '.']],
   map: { url: '/assets/locations/badesh.png', width: 1200, height: 700 },
 })

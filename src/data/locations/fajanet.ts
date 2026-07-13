@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiCastle',
   aliases: ['Citadel of Reve'],
   type: 'settlement',
-  parent: refs.locations.ethium,
+  parent: refs.locations.reve,
   at: [600, 0],
   notes: [
     [

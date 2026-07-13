@@ -1,11 +1,11 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { ArrowUpRight } from 'lucide-react'
 
-import { EntityKindBadge } from '#/components/entity-kind-badge'
+import { EntityKindPill } from '#/components/entity-kind-pill'
 import { PcReference } from '#/components/pc-reference'
 import { Avatar } from '#/components/ui/avatar'
-import { Badge } from '#/components/ui/badge'
 import { Center, Grid, Inline, Stack } from '#/components/ui/layout'
+import { Pill } from '#/components/ui/pill'
 import {
   activePcs,
   nonActivePcs,
@@ -70,7 +70,7 @@ function PcRoster({
       <Stack gap="2xs">
         <Inline gap="sm">
           <h2 className="text-xl font-semibold tracking-tight">{title}</h2>
-          <EntityKindBadge kind="pc">{characters.length}</EntityKindBadge>
+          <EntityKindPill kind="pc">{characters.length}</EntityKindPill>
         </Inline>
         <p className="text-muted-foreground text-sm">{description}</p>
       </Stack>
@@ -143,12 +143,12 @@ function PcPortraitLink({ character, featured }: { character: EntityOf<'pc'>; fe
             ) : null}
             <p className="text-muted-foreground text-xs">{playerLabel}</p>
             {!featured ? (
-              <Badge
+              <Pill
                 variant="outline"
                 className="max-w-full text-center leading-tight whitespace-normal capitalize"
               >
                 {pcStatusLabel(pc.status)}
-              </Badge>
+              </Pill>
             ) : null}
           </Stack>
         </Stack>

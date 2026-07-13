@@ -2,6 +2,7 @@ import {
   Building2,
   Castle,
   House,
+  Map,
   Mountain,
   Route,
   Sparkles,
@@ -23,6 +24,7 @@ import {
   GiLighthouse,
   GiModernCity,
   GiMineWagon,
+  GiMountains,
   GiMountaintop,
   GiNestBirds,
   GiPuzzle,
@@ -40,6 +42,7 @@ import { cn } from '#/lib/utils'
 
 export const LOCATION_TYPE_ICONS: Record<LocationType, LucideIcon> = {
   settlement: Building2,
+  region: Map,
   district: Building2,
   building: House,
   wilderness: Trees,
@@ -73,6 +76,7 @@ export const LOCATION_ICONS: Record<string, IconType> = {
   'gi/GiVillage': GiVillage,
   'gi/GiFairyWand': GiFairyWand,
   'gi/GiMineWagon': GiMineWagon,
+  'gi/GiMountains': GiMountains,
   'gi/GiBeerStein': GiBeerStein,
   'gi/GiForest': GiForest,
   'gi/GiModernCity': GiModernCity,
@@ -100,19 +104,4 @@ export function resolveLocationIcon(icon?: string): IconType {
 export function LocationIcon({ icon, className }: { icon?: string; className?: string }) {
   const Icon = resolveLocationIcon(icon)
   return <Icon className={cn('size-3.5 shrink-0', className)} aria-hidden />
-}
-
-/** Framed location avatar for detail-page headers. */
-export function LocationAvatar({ icon, className }: { icon?: string; className?: string }) {
-  const Icon = resolveLocationIcon(icon)
-  return (
-    <span
-      className={cn(
-        'border-border bg-muted text-primary flex size-14 shrink-0 items-center justify-center rounded-xl border',
-        className,
-      )}
-    >
-      <Icon className="size-7" aria-hidden />
-    </span>
-  )
 }

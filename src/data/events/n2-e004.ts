@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Meet Bob the gate troll',
   day: 1,
   location: refs.locations.fajanet,
-  mark: { type: 'icon', name: 'fa/FaDoorOpen' },
+  mark: { type: 'icon', name: 'gi/GiTroll' },
   notes: [
     [
       "At the city's gates, the party met ",

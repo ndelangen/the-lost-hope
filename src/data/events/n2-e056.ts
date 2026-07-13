@@ -3,9 +3,9 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Jim buys Abraham and makes him a promise',
-  day: 13,
+  day: 16,
   location: refs.locations.shadowpeak,
-  mark: { type: 'icon', name: 'fa/FaScroll' },
+  mark: { type: 'icon', name: 'gi/GiDonkey' },
   notes: [
     [
       refs.pcs.jim,

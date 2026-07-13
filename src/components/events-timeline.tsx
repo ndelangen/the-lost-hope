@@ -1,13 +1,11 @@
-import { useMemo } from 'react'
+import { useMemo, useRef } from 'react'
 
 import { EventReference } from '#/components/event-reference'
+import { sessionAnchorId, useEventsSessionHash } from '#/components/events-timeline-hash'
 import { SessionReference } from '#/components/session-reference'
+import { Avatar } from '#/components/ui/avatar'
 import { Center, Inline, Stack } from '#/components/ui/layout'
-import {
-  COLLECTION_LABELS,
-  type SessionTimelineEntry,
-  type SessionTimelineSection,
-} from '#/lib/campaign'
+import { type SessionTimelineEntry, type SessionTimelineSection } from '#/lib/campaign'
 import { DAY_MARK_ICON, EventMarkIcon } from '#/lib/event-icons'
 import { cn } from '#/lib/utils'
 
@@ -193,7 +191,7 @@ function EventBullet({ entry }: { entry: Extract<SessionTimelineEntry, { kind: '
           className="ring-background border-border bg-card hover:border-primary/50 size-12 rounded-full border-2 shadow-sm ring-[6px] transition-transform duration-150 hover:scale-110"
         >
           {mark.type === 'avatar' ? (
-            <img src={mark.url} alt="" className="size-full rounded-full object-cover" />
+            <Avatar src={mark.url} className="size-full rounded-full" />
           ) : (
             <EventMarkIcon name={mark.name} className="text-muted-foreground size-[18px]" />
           )}
@@ -220,14 +218,14 @@ function SessionHeader({ session }: { session: SessionTimelineSection['session']
       slug={session.slug}
       label={session.name}
       unstyled
-      className="bg-background hover:text-primary group max-w-[320px] rounded-xl px-5 py-2 text-center transition-colors"
+      className="bg-background hover:text-primary group inline-block w-max max-w-[420px] rounded-xl px-5 py-2 text-center transition-colors"
     >
       {() => (
         <Stack as="span" gap="2xs" align="center">
           <span className="text-muted-foreground group-hover:text-primary/70 text-[11px] font-semibold tracking-[0.24em] uppercase transition-colors">
             Session {session.number}
           </span>
-          <span className="text-lg leading-tight font-semibold text-balance">{session.name}</span>
+          <span className="text-lg leading-snug font-semibold text-balance">{session.name}</span>
         </Stack>
       )}
     </SessionReference>
@@ -248,14 +246,17 @@ export function EventsTimeline({
   daySpan: string | null
 }) {
   const layout = useMemo(() => buildLayout(sections), [sections])
+  const timelineRef = useRef<HTMLElement>(null)
+  const sessionSlugs = useMemo(() => sections.map((section) => section.session.slug), [sections])
+  useEventsSessionHash(timelineRef, sessionSlugs)
 
   return (
-    <Stack gap="2xl">
+    <Stack ref={timelineRef} gap="2xl">
       <Stack as="header" gap="sm">
         <p className="text-muted-foreground text-xs font-semibold tracking-wider uppercase">
-          {COLLECTION_LABELS.event}
+          Story
         </p>
-        <h1 className="text-3xl font-bold tracking-tight">{COLLECTION_LABELS.event}</h1>
+        <h1 className="text-3xl font-bold tracking-tight">Overview of sessions &amp; events</h1>
         <p className="text-muted-foreground">
           {eventCount} events across {sections.length} sessions
           {daySpan ? ` · ${daySpan}` : null}
@@ -310,8 +311,14 @@ export function EventsTimeline({
         {layout.sections.map((section) => (
           <div key={section.session.slug}>
             <div
+              id={sessionAnchorId(section.session.slug)}
+              data-events-session={section.session.slug}
               className="absolute z-30 -translate-x-1/2 -translate-y-1/2"
-              style={{ left: pct(CX, layout.width), top: pct(section.headerY, layout.height) }}
+              style={{
+                left: pct(CX, layout.width),
+                top: pct(section.headerY, layout.height),
+                scrollMarginTop: '5rem',
+              }}
             >
               <SessionHeader session={section.session} />
             </div>

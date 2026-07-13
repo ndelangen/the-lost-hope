@@ -3,9 +3,9 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Two dire wolf pups are stolen from the stables',
-  day: 14,
+  day: 17,
   location: refs.locations.the_blackstone,
-  mark: { type: 'icon', name: 'fa/FaUserTimes' },
+  mark: { type: 'icon', name: 'gi/GiWolfTrap' },
   notes: [
     [
       refs.pcs.cassian_veyl,

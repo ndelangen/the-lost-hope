@@ -3,9 +3,9 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: "The party examines Crowy's contract",
-  day: 13,
+  day: 16,
   location: refs.locations.the_sullen_monk,
-  mark: { type: 'icon', name: 'fa/FaScroll' },
+  mark: { type: 'icon', name: 'gi/GiContract' },
   notes: [
     [
       refs.pcs.jim,

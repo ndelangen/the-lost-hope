@@ -17,11 +17,12 @@ const EXPECTED_ENTITY_COLORS = {
   session: 'blue',
   quest: 'rose',
   organization: 'teal',
+  item: 'fuchsia',
 } as const satisfies Record<EntityKind, EntityKindColor>
 
 const COLOR_CLASS_PROPERTIES = [
   'accentClassName',
-  'badgeClassName',
+  'pillClassName',
   'borderClassName',
   'surfaceClassName',
   'ringClassName',

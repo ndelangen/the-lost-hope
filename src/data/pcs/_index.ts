@@ -5,7 +5,8 @@ import jim from './jim.ts'
 import mr_peace from './mr-peace.ts'
 import revin_grumblefist from './revin-grumblefist.ts'
 import swift_starblade from './swift-starblade.ts'
-import victor_the_badesh_lumberjack from './victor-the-badesh-lumberjack.ts'
+import theron from './theron.ts'
+import victor_dranzig from './victor-dranzig.ts'
 import william_greenhove from './william-greenhove.ts'
 
 export default {
@@ -16,6 +17,7 @@ export default {
   mr_peace,
   revin_grumblefist,
   swift_starblade,
-  victor_the_badesh_lumberjack,
+  theron,
+  victor_dranzig,
   william_greenhove,
 }

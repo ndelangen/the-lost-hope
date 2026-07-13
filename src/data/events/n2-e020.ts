@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Jim receives a final-warning letter',
   day: 2,
   location: refs.locations.fajanet_guildhall,
-  mark: { type: 'icon', name: 'fa/FaEnvelope' },
+  mark: { type: 'icon', name: 'gi/GiLetterBomb' },
   notes: [
     [
       'Back at the ',

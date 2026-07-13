@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Enter the tunnel via trapdoor',
   day: 2,
   location: refs.locations.fajanet,
-  mark: { type: 'icon', name: 'fa/FaDoorOpen' },
+  mark: { type: 'icon', name: 'gi/GiSecretDoor' },
   notes: [
     [
       'The party went through a ',

@@ -1,13 +1,14 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { Calendar } from 'lucide-react'
+import { Calendar, List } from 'lucide-react'
 
 import { ContentRenderer } from '#/components/content-renderer'
-import { EntityKindBadge } from '#/components/entity-kind-badge'
-import { EntityChip, EntityDetail, EntityNotFound } from '#/components/entity-page'
+import { EntityDetail, EntityNotFound } from '#/components/entity-page'
+import { PcReference } from '#/components/pc-reference'
 import { SessionTimeline } from '#/components/session-timeline'
 import { Inline, Stack } from '#/components/ui/layout'
 import { getEntity, sessionNumber, sessionPcs } from '#/lib/campaign'
 import { referencedByItems, sessionTimelineDays } from '#/lib/entity-page-data'
+import { SessionIcon } from '#/lib/session-icons'
 
 export const Route = createFileRoute('/sessions/detail/$slug')({
   component: SessionPage,
@@ -23,26 +24,28 @@ function SessionPage() {
   const timeline = sessionTimelineDays(session)
 
   return (
-    <EntityDetail kind="session" referencedBy={referencedByItems('session', slug)}>
-      <Stack as="header" gap="md">
-        <p className="text-muted-foreground text-xs font-semibold tracking-wider uppercase">
-          Session {sessionNumber(slug)}
-        </p>
-        <h1 className="text-4xl font-bold tracking-tight">{session.name}</h1>
-        <Inline gap="sm" wrap className="text-muted-foreground text-sm">
-          <Inline
-            as="span"
-            inline
-            gap="2xs"
-            className="border-border rounded-full border px-2.5 py-1"
-          >
+    <EntityDetail
+      kind="session"
+      title={session.name}
+      typeLabel={`Session ${sessionNumber(slug)}`}
+      visual={{
+        variant: 'icon',
+        content: <SessionIcon icon={session.icon} className="size-10" />,
+      }}
+      headerContent={
+        <Inline gap="md" wrap className="text-muted-foreground text-xs">
+          <Inline as="span" inline gap="2xs">
             <Calendar className="size-3.5" />
             {session.date.toLocaleDateString(undefined, { dateStyle: 'long' })}
           </Inline>
-          <EntityKindBadge kind="event">{session.events.length} events</EntityKindBadge>
+          <Inline as="span" inline gap="2xs">
+            <List className="size-3.5" />
+            {session.events.length} events
+          </Inline>
         </Inline>
-      </Stack>
-
+      }
+      referencedBy={referencedByItems('session', slug)}
+    >
       <Stack gap="2xl">
         {session.notes ? (
           <Stack as="section" gap="lg">
@@ -60,7 +63,7 @@ function SessionPage() {
             <Inline as="ul" gap="md" wrap>
               {party.map((pc) => (
                 <li key={pc.slug}>
-                  <EntityChip kind="pc" slug={pc.slug} name={pc.name} avatar={pc.avatar} />
+                  <PcReference slug={pc.slug} />
                 </li>
               ))}
             </Inline>

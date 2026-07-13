@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Bulletin board — pick a quest',
   day: 2,
   location: refs.locations.fajanet_guildhall,
-  mark: { type: 'icon', name: 'fa/FaScroll' },
+  mark: { type: 'icon', name: 'gi/GiChecklist' },
   notes: [
     [
       'The party browsed the ',

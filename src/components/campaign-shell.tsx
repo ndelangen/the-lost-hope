@@ -9,6 +9,8 @@ import { CampaignSearch } from './campaign-shell/campaign-search'
 import { CampaignShellLayout } from './campaign-shell/layout'
 import { Sidebar } from './campaign-shell/sidebar'
 import { usePersistedBoolean } from './campaign-shell/storage'
+import { useTheme } from './campaign-shell/theme'
+import { ThemeToggle } from './campaign-shell/theme-toggle'
 
 export function CampaignShell() {
   const [drawerOpen, setDrawerOpen] = useState(false)
@@ -17,6 +19,7 @@ export function CampaignShell() {
     'dag:sidebar:collapsed',
     false,
   )
+  const { theme, toggleTheme } = useTheme()
   const drawerRef = useRef<HTMLElement>(null)
   const closeDrawer = useCallback(() => setDrawerOpen(false), [])
 
@@ -56,11 +59,14 @@ export function CampaignShell() {
           </Inline>
         </Link>
       </Inline>
-      <CampaignSearch
-        query={query}
-        onQueryChange={setQuery}
-        className="relative hidden w-full max-w-xs sm:block"
-      />
+      <Inline gap="sm" justify="end" className="min-w-0 flex-1">
+        <CampaignSearch
+          query={query}
+          onQueryChange={setQuery}
+          className="relative hidden w-full max-w-xs sm:block"
+        />
+        <ThemeToggle theme={theme} onToggle={toggleTheme} />
+      </Inline>
     </Inline>
   )
 

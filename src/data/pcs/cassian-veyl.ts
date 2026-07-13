@@ -7,18 +7,29 @@ export default createPC({
   url: '',
   avatar: '/assets/pcs/cassian.jpg',
   status: 'active',
-  species: 'Human',
+  species: 'Sheep-like humanoid',
   class: 'Warlock',
   subclass: 'Great Old One Patron',
   level: 4,
+  memberships: [
+    {
+      organization: refs.organizations.adventurers_guild,
+      status: 'active',
+      rank: 'Member',
+    },
+    {
+      organization: refs.organizations.beasts_and_dwarf,
+      status: 'active',
+      rank: 'Member',
+    },
+  ],
   notes: [
     [
-      'Stub — needs player input: personality, appearance, and any in-fiction secrets once more session notes come in.',
-    ],
-    [
-      'Session 4 (mountain top): ',
-      refs.events.n2_e031,
-      ' — one of the party members who answered the zone of truth.',
+      'A new adventurer who had only just met ',
+      refs.npcs.light_13th_marshal,
+      ' before signing a contract to watch over ',
+      refs.organizations.beasts_and_dwarf,
+      ' and prevent further deaths.',
     ],
   ],
 })

@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Night falls; tavern closes up',
   day: 1,
   location: refs.locations.the_nest,
-  mark: { type: 'icon', name: 'fa/FaMoon' },
+  mark: { type: 'icon', name: 'gi/GiBarricade' },
   notes: [
     [
       'The party sat in the common room of ',

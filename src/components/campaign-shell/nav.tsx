@@ -3,7 +3,7 @@ import { ChevronDown, ChevronRight } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import type { ReactNode } from 'react'
 
-import { EntityKindBadge } from '#/components/entity-kind-badge'
+import { EntityKindPill } from '#/components/entity-kind-pill'
 import { EntityReference } from '#/components/entity-reference'
 import { Avatar } from '#/components/ui/avatar'
 import { Inline, Stack } from '#/components/ui/layout'
@@ -277,7 +277,7 @@ export function SectionHeader({
             <Icon className="size-3.5" />
             <span>{label}</span>
           </Inline>
-          {count !== undefined ? <EntityKindBadge kind={kind}>{count}</EntityKindBadge> : null}
+          {count !== undefined ? <EntityKindPill kind={kind}>{count}</EntityKindPill> : null}
         </Inline>
       </Link>
     </Inline>

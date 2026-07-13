@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Fix delivers potions to Lord Malachar',
-  day: 14,
+  day: 17,
   location: refs.locations.the_blackstone,
   mark: { type: 'avatar', url: '/assets/pcs/placeholder.svg' },
   notes: [

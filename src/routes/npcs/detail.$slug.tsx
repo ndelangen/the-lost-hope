@@ -2,10 +2,11 @@ import { createFileRoute } from '@tanstack/react-router'
 
 import { CharacterMemberships } from '#/components/character-memberships'
 import { ContentRenderer } from '#/components/content-renderer'
-import { EntityDetail, EntityNotFound, EntityPortrait } from '#/components/entity-page'
+import { EntityDetail, EntityNotFound } from '#/components/entity-page'
 import { LocationReference } from '#/components/location-reference'
-import { Badge } from '#/components/ui/badge'
-import { Inline, Stack, SwitchLayout } from '#/components/ui/layout'
+import { Avatar } from '#/components/ui/avatar'
+import { Inline, Stack } from '#/components/ui/layout'
+import { Pill } from '#/components/ui/pill'
 import { getEntity, npcLocation } from '#/lib/campaign'
 import { characterMemberships, referencedByItems } from '#/lib/entity-page-data'
 
@@ -23,16 +24,24 @@ function NpcPage() {
   const memberships = characterMemberships(npc)
 
   return (
-    <EntityDetail kind="npc" referencedBy={referencedByItems('npc', slug)}>
-      <SwitchLayout as="header" gap="lg">
-        <EntityPortrait src={npc.avatar} alt={npc.name} />
+    <EntityDetail
+      kind="npc"
+      title={npc.name}
+      visual={{
+        variant: 'avatar',
+        content: (
+          <Avatar
+            src={npc.avatar}
+            alt={npc.name}
+            loading="lazy"
+            className="size-full rounded-2xl"
+          />
+        ),
+      }}
+      headerContent={
         <Stack gap="md">
-          <p className="text-muted-foreground text-xs font-semibold tracking-wider uppercase">
-            NPC
-          </p>
-          <h1 className="text-4xl font-bold tracking-tight">{npc.name}</h1>
           <Inline gap="sm" wrap>
-            {npc.species ? <Badge variant="outline">{npc.species}</Badge> : null}
+            {npc.species ? <Pill variant="outline">{npc.species}</Pill> : null}
             {home ? <LocationReference slug={home.slug} /> : null}
           </Inline>
           {npc.languages?.length ? (
@@ -41,8 +50,9 @@ function NpcPage() {
             </p>
           ) : null}
         </Stack>
-      </SwitchLayout>
-
+      }
+      referencedBy={referencedByItems('npc', slug)}
+    >
       <Stack gap="2xl">
         <CharacterMemberships items={memberships} />
         {npc.notes ? <ContentRenderer content={npc.notes} /> : null}

@@ -4,6 +4,7 @@ import { create as createSession } from '#/definitions/session.ts'
 export default createSession({
   name: 'Arrival in Fajanet',
   number: 1,
+  icon: 'gi/GiOpenGate',
   date: new Date('2026-01-29'),
   events: [
     refs.events.n2_e001,

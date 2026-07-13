@@ -1,6 +1,6 @@
 import { OrganizationReference } from '#/components/organization-reference'
-import { Badge } from '#/components/ui/badge'
 import { Inline, Stack } from '#/components/ui/layout'
+import { Pill } from '#/components/ui/pill'
 import type { CharacterMembership } from '#/lib/entity-page-data'
 
 export function CharacterMemberships({ items }: { items: CharacterMembership[] }) {
@@ -21,10 +21,10 @@ export function CharacterMemberships({ items }: { items: CharacterMembership[] }
             className="border-border rounded-md border px-3 py-2"
           >
             <OrganizationReference slug={membership.organizationSlug} />
-            <Badge variant="secondary">{membership.rank}</Badge>
-            <Badge variant={membership.status === 'active' ? 'success' : 'outline'}>
+            <Pill variant="secondary">{membership.rank}</Pill>
+            <Pill variant={membership.status === 'active' ? 'success' : 'outline'}>
               {membership.status}
-            </Badge>
+            </Pill>
           </Inline>
         ))}
       </Stack>

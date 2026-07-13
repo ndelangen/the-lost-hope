@@ -17,7 +17,7 @@ export default createQuest({
       ' — a smaller group chased the party; ',
       refs.npcs.abraham,
       ' (',
-      refs.pcs.victor_the_badesh_lumberjack,
+      refs.pcs.victor_dranzig,
       "'s donkey) carried them to safety.",
     ],
     [

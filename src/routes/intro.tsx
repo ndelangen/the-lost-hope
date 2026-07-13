@@ -1,8 +1,8 @@
 import { createFileRoute } from '@tanstack/react-router'
 
 import { ContentRenderer } from '#/components/content-renderer'
-import { Badge } from '#/components/ui/badge'
 import { Stack } from '#/components/ui/layout'
+import { Pill } from '#/components/ui/pill'
 import { campaign } from '#/lib/campaign'
 
 export const Route = createFileRoute('/intro')({
@@ -13,7 +13,7 @@ function CampaignIntroPage() {
   return (
     <Stack gap="3xl">
       <Stack as="section" gap="lg">
-        <Badge variant="secondary">D&amp;D 5e · Homebrew</Badge>
+        <Pill variant="secondary">D&amp;D 5e · Homebrew</Pill>
         <h1 className="text-4xl font-bold tracking-tight text-balance sm:text-5xl">
           Welcome to {campaign.name}
         </h1>

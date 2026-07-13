@@ -5,7 +5,7 @@ export default createEvent({
   name: "Children's laughter outside",
   day: 1,
   location: refs.locations.the_nest,
-  mark: { type: 'icon', name: 'gi/GiGhost' },
+  mark: { type: 'icon', name: 'gi/GiImpLaugh' },
   notes: [
     ["The party heard children's laughter outside. Evil."],
     [

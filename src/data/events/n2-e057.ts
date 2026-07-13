@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Fix dies and a shadow revives her',
-  day: 14,
+  day: 17,
   location: refs.locations.shadowpeak_mining_operation,
   mark: { type: 'avatar', url: '/assets/pcs/placeholder.svg' },
   notes: [

@@ -1,4 +1,4 @@
-import { CalendarRange, Scroll, ScrollText } from 'lucide-react'
+import { CalendarRange, Scroll } from 'lucide-react'
 import type { CSSProperties, ReactNode } from 'react'
 
 import { Avatar } from '#/components/ui/avatar'
@@ -17,14 +17,17 @@ import {
   pcStatLine,
   pcStatusLabel,
   questProgress,
+  refLink,
   resolveRef,
   sessionNumber,
   sessionSlugForEvent,
   type EntityKind,
 } from '#/lib/campaign'
 import { EventMarkIcon } from '#/lib/event-icons'
+import { ItemIcon } from '#/lib/item-icons'
 import { LocationIcon, LocationTypeIcon, locationTypeLabel } from '#/lib/location-icons'
 import { OrganizationIcon } from '#/lib/organization-icons'
+import { SessionIcon } from '#/lib/session-icons'
 
 export type EntityReferenceRenderData = {
   label: string
@@ -198,7 +201,7 @@ function referencePresentation(
     case 'session': {
       const session = getEntity('session', slug)?.data
       const name = label ?? session?.name ?? slug
-      const icon = <ScrollText className="size-3.5" aria-hidden />
+      const icon = <SessionIcon icon={session?.icon} className="size-3.5" />
       return {
         label: name,
         icon,
@@ -250,6 +253,24 @@ function referencePresentation(
           <ReferencePreviewHeader icon={icon} name={name}>
             <span className="text-muted-foreground">Organization</span>
             {notes ? <span className="text-muted-foreground line-clamp-3">{notes}</span> : null}
+          </ReferencePreviewHeader>
+        ),
+      }
+    }
+    case 'item': {
+      const item = getEntity('item', slug)?.data
+      const name = label ?? item?.name ?? slug
+      const owner = item?.currentOwner ? refLink(item.currentOwner) : undefined
+      const carrier = item?.carriedBy ? refLink(item.carriedBy) : undefined
+      const icon = item ? <ItemIcon icon={item.icon} className="size-3.5" /> : null
+      return {
+        label: name,
+        icon,
+        preview: (
+          <ReferencePreviewHeader icon={icon} name={name}>
+            <span className="text-muted-foreground">Item</span>
+            <span className="text-muted-foreground">Owner: {owner?.name ?? 'Unknown'}</span>
+            <span className="text-muted-foreground">Carried by: {carrier?.name ?? 'Unknown'}</span>
           </ReferencePreviewHeader>
         ),
       }

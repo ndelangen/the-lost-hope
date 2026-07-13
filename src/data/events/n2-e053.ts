@@ -3,9 +3,9 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'The controlling crystal is shattered',
-  day: 14,
+  day: 17,
   location: refs.locations.shadowpeak_mining_operation,
-  mark: { type: 'icon', name: 'gi/GiCrossedSwords' },
+  mark: { type: 'icon', name: 'gi/GiShatter' },
   notes: [
     [
       refs.pcs.jim,

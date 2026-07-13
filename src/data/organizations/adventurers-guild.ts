@@ -6,6 +6,7 @@ export default createOrganization({
   icon: 'gi/GiCrossedSwords',
   notes: [
     ['A guild that recruits wandering heroes and sends them on adventures.'],
+    ['A recognized regional authority whose membership tattoos can serve as credentials.'],
     ['The guild in ', refs.locations.fajanet, ' is led by ', refs.npcs.light_13th_marshal, '.'],
     [
       'Each recruit is inducted with a guild-mark tattoo and granted a single favor from the guildmaster.',

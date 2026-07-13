@@ -5,7 +5,7 @@ export default createEvent({
   name: 'William diverts to a tavern',
   day: 1,
   location: refs.locations.the_nest,
-  mark: { type: 'icon', name: 'fa/FaBeer' },
+  mark: { type: 'icon', name: 'gi/GiTavernSign' },
   notes: [
     [
       'The party was supposed to go straight to the ',

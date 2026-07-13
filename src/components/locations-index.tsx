@@ -3,8 +3,8 @@ import { ChevronDown, ChevronRight, List, Map } from 'lucide-react'
 import { useCallback, useMemo, useState } from 'react'
 
 import { LocationReference } from '#/components/location-reference'
-import { Badge } from '#/components/ui/badge'
 import { Grid, Inline, Stack, SwitchLayout } from '#/components/ui/layout'
+import { Pill } from '#/components/ui/pill'
 import { SearchInput } from '#/components/ui/search-input'
 import { SegmentedControl, SegmentedControlItem } from '#/components/ui/segmented-control'
 import { LOCATION_TYPES, type LocationType } from '#/definitions/location.ts'
@@ -82,23 +82,23 @@ function TypeFilter({
   )
 }
 
-function TypeBadge({ type }: { type: LocationType }) {
+function TypePill({ type }: { type: LocationType }) {
   return (
-    <Badge variant="outline">
+    <Pill variant="outline">
       <Inline as="span" inline gap="2xs">
         <LocationTypeIcon type={type} className="size-3" />
         {locationTypeLabel(type)}
       </Inline>
-    </Badge>
+    </Pill>
   )
 }
 
-function ActivityBadge({ count }: { count: number }) {
+function ActivityPill({ count }: { count: number }) {
   if (count === 0) return null
   return (
-    <Badge variant="secondary">
+    <Pill variant="secondary">
       {count} reference{count === 1 ? '' : 's'}
-    </Badge>
+    </Pill>
   )
 }
 
@@ -225,8 +225,8 @@ function TreeNodeRow({
               <Inline as="span" gap="sm" wrap>
                 <LocationIcon icon={node.icon} className="text-primary/70 size-4" />
                 <span className="font-medium">{node.name}</span>
-                {node.type ? <TypeBadge type={node.type} /> : null}
-                <ActivityBadge count={node.activityCount} />
+                {node.type ? <TypePill type={node.type} /> : null}
+                <ActivityPill count={node.activityCount} />
               </Inline>
             )}
           </LocationReference>

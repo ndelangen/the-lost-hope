@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Mr. Peace joins for one session',
   day: 3,
   location: refs.locations.fajanet,
-  mark: { type: 'avatar', url: '/assets/pcs/mr-peace.png' },
+  mark: { type: 'avatar', url: '/assets/pcs/placeholder.svg' },
   notes: [
     [
       refs.pcs.mr_peace,

@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Return phoenix to the dealer (animal 1/3)',
   day: 2,
   location: refs.locations.fajanet,
-  mark: { type: 'icon', name: 'gi/GiFeather' },
+  mark: { type: 'icon', name: 'gi/GiNestBirds' },
   notes: [
     [
       'The party brought the young ',

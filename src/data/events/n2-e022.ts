@@ -5,7 +5,7 @@ export default createEvent({
   name: "William's bathroom experience",
   day: 2,
   location: refs.locations.fajanet_guildhall,
-  mark: { type: 'icon', name: 'fa/FaDoorOpen' },
+  mark: { type: 'icon', name: 'fa/FaToilet' },
   notes: [
     [
       refs.pcs.william_greenhove,

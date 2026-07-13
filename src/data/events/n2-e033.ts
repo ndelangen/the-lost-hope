@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Meet the angel and the dragon (husband and wife)',
   day: 9,
   location: refs.locations.mountain_top,
-  mark: { type: 'icon', name: 'hi/HiSparkles' },
+  mark: { type: 'icon', name: 'gi/GiAngelWings' },
   notes: [
     [
       'At the top of the mountain, the party met an ',

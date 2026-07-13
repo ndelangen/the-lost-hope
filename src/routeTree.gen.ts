@@ -17,6 +17,7 @@ import { Route as PcsIndexRouteImport } from './routes/pcs/index'
 import { Route as OrganizationsIndexRouteImport } from './routes/organizations/index'
 import { Route as NpcsIndexRouteImport } from './routes/npcs/index'
 import { Route as LocationsIndexRouteImport } from './routes/locations/index'
+import { Route as ItemsIndexRouteImport } from './routes/items/index'
 import { Route as EventsIndexRouteImport } from './routes/events/index'
 import { Route as BeastsIndexRouteImport } from './routes/beasts/index'
 import { Route as LocationsMapRouteImport } from './routes/locations/map'
@@ -27,6 +28,7 @@ import { Route as PcsDetailSlugRouteImport } from './routes/pcs/detail.$slug'
 import { Route as OrganizationsDetailSlugRouteImport } from './routes/organizations/detail.$slug'
 import { Route as NpcsDetailSlugRouteImport } from './routes/npcs/detail.$slug'
 import { Route as LocationsDetailSlugRouteImport } from './routes/locations/detail.$slug'
+import { Route as ItemsDetailSlugRouteImport } from './routes/items/detail.$slug'
 import { Route as EventsDetailSlugRouteImport } from './routes/events/detail.$slug'
 import { Route as BeastsDetailSlugRouteImport } from './routes/beasts/detail.$slug'
 
@@ -68,6 +70,11 @@ const NpcsIndexRoute = NpcsIndexRouteImport.update({
 const LocationsIndexRoute = LocationsIndexRouteImport.update({
   id: '/locations/',
   path: '/locations/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ItemsIndexRoute = ItemsIndexRouteImport.update({
+  id: '/items/',
+  path: '/items/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const EventsIndexRoute = EventsIndexRouteImport.update({
@@ -120,6 +127,11 @@ const LocationsDetailSlugRoute = LocationsDetailSlugRouteImport.update({
   path: '/locations/detail/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ItemsDetailSlugRoute = ItemsDetailSlugRouteImport.update({
+  id: '/items/detail/$slug',
+  path: '/items/detail/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const EventsDetailSlugRoute = EventsDetailSlugRouteImport.update({
   id: '/events/detail/$slug',
   path: '/events/detail/$slug',
@@ -138,6 +150,7 @@ export interface FileRoutesByFullPath {
   '/locations/map': typeof LocationsMapRoute
   '/beasts/': typeof BeastsIndexRoute
   '/events/': typeof EventsIndexRoute
+  '/items/': typeof ItemsIndexRoute
   '/locations/': typeof LocationsIndexRoute
   '/npcs/': typeof NpcsIndexRoute
   '/organizations/': typeof OrganizationsIndexRoute
@@ -146,6 +159,7 @@ export interface FileRoutesByFullPath {
   '/sessions/': typeof SessionsIndexRoute
   '/beasts/detail/$slug': typeof BeastsDetailSlugRoute
   '/events/detail/$slug': typeof EventsDetailSlugRoute
+  '/items/detail/$slug': typeof ItemsDetailSlugRoute
   '/locations/detail/$slug': typeof LocationsDetailSlugRoute
   '/npcs/detail/$slug': typeof NpcsDetailSlugRoute
   '/organizations/detail/$slug': typeof OrganizationsDetailSlugRoute
@@ -160,6 +174,7 @@ export interface FileRoutesByTo {
   '/locations/map': typeof LocationsMapRoute
   '/beasts': typeof BeastsIndexRoute
   '/events': typeof EventsIndexRoute
+  '/items': typeof ItemsIndexRoute
   '/locations': typeof LocationsIndexRoute
   '/npcs': typeof NpcsIndexRoute
   '/organizations': typeof OrganizationsIndexRoute
@@ -168,6 +183,7 @@ export interface FileRoutesByTo {
   '/sessions': typeof SessionsIndexRoute
   '/beasts/detail/$slug': typeof BeastsDetailSlugRoute
   '/events/detail/$slug': typeof EventsDetailSlugRoute
+  '/items/detail/$slug': typeof ItemsDetailSlugRoute
   '/locations/detail/$slug': typeof LocationsDetailSlugRoute
   '/npcs/detail/$slug': typeof NpcsDetailSlugRoute
   '/organizations/detail/$slug': typeof OrganizationsDetailSlugRoute
@@ -183,6 +199,7 @@ export interface FileRoutesById {
   '/locations/map': typeof LocationsMapRoute
   '/beasts/': typeof BeastsIndexRoute
   '/events/': typeof EventsIndexRoute
+  '/items/': typeof ItemsIndexRoute
   '/locations/': typeof LocationsIndexRoute
   '/npcs/': typeof NpcsIndexRoute
   '/organizations/': typeof OrganizationsIndexRoute
@@ -191,6 +208,7 @@ export interface FileRoutesById {
   '/sessions/': typeof SessionsIndexRoute
   '/beasts/detail/$slug': typeof BeastsDetailSlugRoute
   '/events/detail/$slug': typeof EventsDetailSlugRoute
+  '/items/detail/$slug': typeof ItemsDetailSlugRoute
   '/locations/detail/$slug': typeof LocationsDetailSlugRoute
   '/npcs/detail/$slug': typeof NpcsDetailSlugRoute
   '/organizations/detail/$slug': typeof OrganizationsDetailSlugRoute
@@ -207,6 +225,7 @@ export interface FileRouteTypes {
     | '/locations/map'
     | '/beasts/'
     | '/events/'
+    | '/items/'
     | '/locations/'
     | '/npcs/'
     | '/organizations/'
@@ -215,6 +234,7 @@ export interface FileRouteTypes {
     | '/sessions/'
     | '/beasts/detail/$slug'
     | '/events/detail/$slug'
+    | '/items/detail/$slug'
     | '/locations/detail/$slug'
     | '/npcs/detail/$slug'
     | '/organizations/detail/$slug'
@@ -229,6 +249,7 @@ export interface FileRouteTypes {
     | '/locations/map'
     | '/beasts'
     | '/events'
+    | '/items'
     | '/locations'
     | '/npcs'
     | '/organizations'
@@ -237,6 +258,7 @@ export interface FileRouteTypes {
     | '/sessions'
     | '/beasts/detail/$slug'
     | '/events/detail/$slug'
+    | '/items/detail/$slug'
     | '/locations/detail/$slug'
     | '/npcs/detail/$slug'
     | '/organizations/detail/$slug'
@@ -251,6 +273,7 @@ export interface FileRouteTypes {
     | '/locations/map'
     | '/beasts/'
     | '/events/'
+    | '/items/'
     | '/locations/'
     | '/npcs/'
     | '/organizations/'
@@ -259,6 +282,7 @@ export interface FileRouteTypes {
     | '/sessions/'
     | '/beasts/detail/$slug'
     | '/events/detail/$slug'
+    | '/items/detail/$slug'
     | '/locations/detail/$slug'
     | '/npcs/detail/$slug'
     | '/organizations/detail/$slug'
@@ -274,6 +298,7 @@ export interface RootRouteChildren {
   LocationsMapRoute: typeof LocationsMapRoute
   BeastsIndexRoute: typeof BeastsIndexRoute
   EventsIndexRoute: typeof EventsIndexRoute
+  ItemsIndexRoute: typeof ItemsIndexRoute
   LocationsIndexRoute: typeof LocationsIndexRoute
   NpcsIndexRoute: typeof NpcsIndexRoute
   OrganizationsIndexRoute: typeof OrganizationsIndexRoute
@@ -282,6 +307,7 @@ export interface RootRouteChildren {
   SessionsIndexRoute: typeof SessionsIndexRoute
   BeastsDetailSlugRoute: typeof BeastsDetailSlugRoute
   EventsDetailSlugRoute: typeof EventsDetailSlugRoute
+  ItemsDetailSlugRoute: typeof ItemsDetailSlugRoute
   LocationsDetailSlugRoute: typeof LocationsDetailSlugRoute
   NpcsDetailSlugRoute: typeof NpcsDetailSlugRoute
   OrganizationsDetailSlugRoute: typeof OrganizationsDetailSlugRoute
@@ -346,6 +372,13 @@ declare module '@tanstack/react-router' {
       path: '/locations'
       fullPath: '/locations/'
       preLoaderRoute: typeof LocationsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/items/': {
+      id: '/items/'
+      path: '/items'
+      fullPath: '/items/'
+      preLoaderRoute: typeof ItemsIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/events/': {
@@ -418,6 +451,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LocationsDetailSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/items/detail/$slug': {
+      id: '/items/detail/$slug'
+      path: '/items/detail/$slug'
+      fullPath: '/items/detail/$slug'
+      preLoaderRoute: typeof ItemsDetailSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/events/detail/$slug': {
       id: '/events/detail/$slug'
       path: '/events/detail/$slug'
@@ -442,6 +482,7 @@ const rootRouteChildren: RootRouteChildren = {
   LocationsMapRoute: LocationsMapRoute,
   BeastsIndexRoute: BeastsIndexRoute,
   EventsIndexRoute: EventsIndexRoute,
+  ItemsIndexRoute: ItemsIndexRoute,
   LocationsIndexRoute: LocationsIndexRoute,
   NpcsIndexRoute: NpcsIndexRoute,
   OrganizationsIndexRoute: OrganizationsIndexRoute,
@@ -450,6 +491,7 @@ const rootRouteChildren: RootRouteChildren = {
   SessionsIndexRoute: SessionsIndexRoute,
   BeastsDetailSlugRoute: BeastsDetailSlugRoute,
   EventsDetailSlugRoute: EventsDetailSlugRoute,
+  ItemsDetailSlugRoute: ItemsDetailSlugRoute,
   LocationsDetailSlugRoute: LocationsDetailSlugRoute,
   NpcsDetailSlugRoute: NpcsDetailSlugRoute,
   OrganizationsDetailSlugRoute: OrganizationsDetailSlugRoute,

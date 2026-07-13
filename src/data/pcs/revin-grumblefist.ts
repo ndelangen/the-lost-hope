@@ -15,6 +15,11 @@ export default createPC({
       status: 'active',
       rank: 'Member',
     },
+    {
+      organization: refs.organizations.beasts_and_dwarf,
+      status: 'former',
+      rank: 'Founder',
+    },
   ],
   notes: [['Monk subclass never established.']],
 })

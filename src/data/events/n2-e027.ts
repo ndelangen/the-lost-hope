@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Meet Light in the morning and leave Fajanet',
   day: 9,
   location: refs.locations.fajanet,
-  mark: { type: 'icon', name: 'gi/GiFootsteps' },
+  mark: { type: 'icon', name: 'gi/GiPathDistance' },
   notes: [
     [
       refs.pcs.jim,

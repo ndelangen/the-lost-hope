@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Giant spider guarding a young phoenix',
   day: 2,
   location: refs.locations.fajanet_tunnels,
-  mark: { type: 'icon', name: 'gi/GiCrossedSwords' },
+  mark: { type: 'icon', name: 'gi/GiSpiderWeb' },
   notes: [
     [
       'Deeper in the tunnel, the party found a young phoenix wrapped in a cocoon, guarded by a ',

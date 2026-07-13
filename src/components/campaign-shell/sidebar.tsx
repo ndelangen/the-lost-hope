@@ -64,7 +64,7 @@ export function Sidebar({ collapsed, onNavigate, onToggleCollapsed }: SidebarPro
             </NavLink>
           </Stack>
         ) : (
-          <Grid gap="2xs" template="content-auto">
+          <Grid gap="2xs" template="content-auto" align="center">
             <NavLink to="/" active={pathname === '/'} title="Overview" onNavigate={onNavigate}>
               <Home className="size-4 shrink-0" />
               <span>Overview</span>
@@ -270,7 +270,7 @@ function SidebarToggle({ collapsed, onToggle }: { collapsed: boolean; onToggle: 
       )}
       aria-label={collapsed ? 'Expand sidebar' : 'Collapse sidebar'}
     >
-      <Inline as="span" inline gap="none" justify="center">
+      <Inline as="span" gap="none" justify="center" className="size-full">
         {collapsed ? <PanelLeftOpen className="size-4" /> : <PanelLeftClose className="size-4" />}
       </Inline>
     </button>
