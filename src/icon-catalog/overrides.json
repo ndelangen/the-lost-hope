@@ -887,6 +887,10 @@
     "classification": "useful",
     "classificationReason": "Manually classified as useful from the /_icons review page."
   },
+  "gi/GiArcheryTarget": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
   "gi/GiArrest": {
     "classification": "marked-for-deletion",
     "classificationReason": "Manually marked for deletion from the /_icons review page."
@@ -1020,6 +1024,10 @@
     "classificationReason": "Manually marked for deletion from the /_icons review page."
   },
   "gi/GiBullHorns": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiBullseye": {
     "classification": "useful",
     "classificationReason": "Manually classified as useful from the /_icons review page."
   },
@@ -1491,6 +1499,14 @@
     "classification": "marked-for-deletion",
     "classificationReason": "Manually marked for deletion from the /_icons review page."
   },
+  "gi/GiKevlar": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiKevlarVest": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
   "gi/GiKey": {
     "classification": "useful",
     "classificationReason": "Manually classified as useful from the /_icons review page."
@@ -1500,6 +1516,10 @@
     "classificationReason": "Manually classified as useful from the /_icons review page."
   },
   "gi/GiLanternFlame": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
+  "gi/GiLasso": {
     "classification": "useful",
     "classificationReason": "Manually classified as useful from the /_icons review page."
   },
@@ -1927,6 +1947,10 @@
     "classification": "marked-for-deletion",
     "classificationReason": "Manually marked for deletion from the /_icons review page."
   },
+  "gi/GiSpearFeather": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
+  },
   "gi/GiSpeedometer": {
     "classification": "marked-for-deletion",
     "classificationReason": "Manually marked for deletion from the /_icons review page."
@@ -2046,6 +2070,10 @@
   "gi/GiTanzania": {
     "classification": "marked-for-deletion",
     "classificationReason": "Manually marked for deletion from the /_icons review page."
+  },
+  "gi/GiTellerMine": {
+    "classification": "useful",
+    "classificationReason": "Manually classified as useful from the /_icons review page."
   },
   "gi/GiTexas": {
     "classification": "marked-for-deletion",

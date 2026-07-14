@@ -52,7 +52,7 @@ export const ENTITY_KIND_VISUALS: Record<EntityKind, EntityKindVisual> = {
     icon: CalendarRange,
     accentClassName: 'text-amber-600 dark:text-amber-300',
     pillClassName: 'bg-amber-100 text-amber-700 dark:bg-amber-950/50 dark:text-amber-300',
-    borderClassName: 'border-amber-300/80 dark:border-amber-800',
+    borderClassName: 'border-amber-300/80 dark:border-amber-300/40',
     surfaceClassName: 'bg-amber-50/60 dark:bg-amber-950/20',
     ringClassName: 'ring-amber-500/40',
     hoverClassName:

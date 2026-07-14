@@ -9,11 +9,9 @@ export default createEvent({
   notes: [
     ['The party got lost in a shadow realm during a chase.'],
     ['They hid in a cave.'],
-    ['The phoenix feather cast bright light, guiding the party to safety.'],
     [
       'The DM showed what official shadow monster (from the monster manual) they would have fought if the chase had failed.',
     ],
-    ['The phoenix feather burned up and dissolved afterward.'],
     ['Open: is this the same phenomenon as session 1 tentacles at ', refs.locations.the_nest, '?'],
     [
       'Party: ',

@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Shadowy tentacles grab the dwarf',
   day: 1,
   location: refs.locations.the_nest,
-  mark: { type: 'icon', name: 'gi/GiTentaclesBarrier' },
+  mark: { type: 'icon', name: 'gi/GiSuckeredTentacle' },
   notes: [
     [
       'The party got rooms at ',

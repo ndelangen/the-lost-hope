@@ -11,6 +11,7 @@ describe('EntityDetailHeader', () => {
         title="Flask of Never-Ending Booze"
         visual={{ variant: 'icon', content: <span>Flask icon</span> }}
         context={<span>Header context</span>}
+        aside={<span>Header aside</span>}
       >
         <span>Header content</span>
       </EntityDetailHeader>,
@@ -19,10 +20,17 @@ describe('EntityDetailHeader', () => {
     expect(markup).toContain('text-fuchsia-600')
     expect(markup).toContain('bg-fuchsia-50/60')
     expect(markup).toContain('border-fuchsia-300/80')
-    expect(markup).toContain('size-20')
+    expect(markup).toContain('size-16')
+    expect(markup).toContain('sm:size-24')
+    expect(markup).toContain('flex-row')
+    expect(markup).toContain('flex-1')
     expect(markup).toContain('>Item<')
     expect(markup).toContain('Flask icon')
     expect(markup).toContain('Header context')
+    expect(markup).toContain('Header aside')
+    expect(markup).toContain('justify-between')
+    expect(markup).toContain('items-center')
+    expect(markup).toContain('sm:items-start')
     expect(markup).toContain('Flask of Never-Ending Booze')
     expect(markup).toContain('Header content')
   })

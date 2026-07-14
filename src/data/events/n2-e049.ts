@@ -5,7 +5,7 @@ export default createEvent({
   name: "The party examines Crowy's contract",
   day: 16,
   location: refs.locations.the_sullen_monk,
-  mark: { type: 'icon', name: 'gi/GiContract' },
+  mark: { type: 'icon', name: 'gi/GiScrollQuill' },
   notes: [
     [
       refs.pcs.jim,

@@ -10,14 +10,5 @@ export default createEvent({
     [
       'The party stepped from an elevator into a busy underground mining operation. Workers shoved them aside as they took in the slave pit, collars, and human overseers holding elves, orcs, and half-orcs captive.',
     ],
-    [
-      'There they encountered ',
-      refs.pcs.fix,
-      ' delivering a cart of potions to ',
-      refs.npcs.lord_malachar,
-      ' with ',
-      refs.npcs.abraham,
-      ' pulling the cart.',
-    ],
   ],
 })

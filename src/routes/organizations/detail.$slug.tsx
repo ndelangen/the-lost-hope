@@ -7,6 +7,7 @@ import { PcReference } from '#/components/pc-reference'
 import { Grid, Stack } from '#/components/ui/layout'
 import { getEntity, organizationMembers } from '#/lib/campaign'
 import { referencedByItems } from '#/lib/entity-page-data'
+import { OrganizationIcon } from '#/lib/organization-icons'
 
 export const Route = createFileRoute('/organizations/detail/$slug')({
   component: OrganizationPage,
@@ -24,7 +25,10 @@ function OrganizationPage() {
     <EntityDetail
       kind="organization"
       title={organization.name}
-      visual={false}
+      visual={{
+        variant: 'icon',
+        content: <OrganizationIcon icon={organization.icon} className="size-10" />,
+      }}
       headerContent={
         organization.notes ? (
           <ContentRenderer content={organization.notes} className="text-muted-foreground text-lg" />

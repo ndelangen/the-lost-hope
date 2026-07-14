@@ -3,7 +3,7 @@ import { create as createOrganization } from '#/definitions/organization.ts'
 
 export default createOrganization({
   name: 'Beasts and Dwarf',
-  icon: 'gi/GiRaven',
+  icon: 'gi/GiDwarfFace',
   notes: [
     [
       'The player party, named for the original appearances of ',

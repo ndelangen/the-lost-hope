@@ -8,11 +8,6 @@ export default createEvent({
   mark: { type: 'icon', name: 'gi/GiShadowGrasp' },
   notes: [
     [
-      'From the mountain, the party saw that the former site of ',
-      refs.locations.fairhaven,
-      ' had become a huge, oil-filled, smoking crater. The trail of destruction suggested that the invading monster had continued into the sea.',
-    ],
-    [
       'Wolves attacked halfway up the mountain. ',
       refs.pcs.swift_starblade,
       ' launched aerial attacks from ',

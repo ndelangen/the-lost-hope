@@ -2,12 +2,12 @@ import type { IconType } from 'react-icons'
 import {
   GiCastleRuins,
   GiCrossedSwords,
-  GiDinosaurEgg,
   GiExitDoor,
   GiGavel,
   GiJourney,
   GiMountainRoad,
   GiOpenGate,
+  GiPawPrint,
   GiPartyFlags,
   GiSailboat,
   GiShadowFollower,
@@ -19,7 +19,7 @@ export const SESSION_ICON_PLACEHOLDER = 'gi/GiJourney'
 
 export const SESSION_ICONS = {
   'gi/GiOpenGate': GiOpenGate,
-  'gi/GiDinosaurEgg': GiDinosaurEgg,
+  'gi/GiPawPrint': GiPawPrint,
   'gi/GiPartyFlags': GiPartyFlags,
   'gi/GiSailboat': GiSailboat,
   'gi/GiShadowFollower': GiShadowFollower,

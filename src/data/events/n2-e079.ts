@@ -8,11 +8,6 @@ export default createEvent({
   mark: { type: 'avatar', url: '/assets/pcs/jim.jpg' },
   notes: [
     [
-      'After sleeping another night, the party reached the mountain peak the following morning and saw an ',
-      refs.locations.unidentified_floating_island,
-      ' that none of them could identify.',
-    ],
-    [
       'At ',
       refs.locations.snowy_mountain_ruin,
       ', clear signs showed that someone was repairing the ruins. Six people were chanting there. The party joined them for a meal and conversation.',

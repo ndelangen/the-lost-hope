@@ -3,7 +3,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
   name: "Fairhaven Adventurers' Guildhall",
-  icon: 'gi/GiSwordsEmblem',
+  icon: 'gi/GiMedievalBarracks',
   type: 'building',
   parent: refs.locations.fairhaven,
   at: [0, 0],

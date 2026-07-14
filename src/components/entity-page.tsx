@@ -100,6 +100,7 @@ export function EntityDetail({
   typeLabel,
   visual,
   headerContext,
+  headerAside,
   headerContent,
   referencedBy,
   children,
@@ -109,6 +110,7 @@ export function EntityDetail({
   typeLabel?: ReactNode
   visual?: EntityDetailVisual | false
   headerContext?: ReactNode
+  headerAside?: ReactNode
   headerContent?: ReactNode
   referencedBy: ReferencedByItem[]
   children?: ReactNode
@@ -122,6 +124,7 @@ export function EntityDetail({
         typeLabel={typeLabel}
         visual={visual}
         context={headerContext}
+        aside={headerAside}
       >
         {headerContent}
       </EntityDetailHeader>
@@ -149,6 +152,7 @@ export function EntityDetailHeader({
   typeLabel = ENTITY_DETAIL_LABELS[kind],
   visual,
   context,
+  aside,
   children,
 }: {
   kind: EntityKind
@@ -156,15 +160,26 @@ export function EntityDetailHeader({
   typeLabel?: ReactNode
   visual?: EntityDetailVisual | false
   context?: ReactNode
+  aside?: ReactNode
   children?: ReactNode
 }) {
   const kindVisual = ENTITY_KIND_VISUALS[kind]
   const KindIcon = kindVisual.icon
   const hasVisual = visual !== false
   const visualVariant = visual === false ? undefined : (visual?.variant ?? 'icon')
+  const typeLabelContent = (
+    <p className={cn('text-xs font-semibold tracking-wider uppercase', kindVisual.accentClassName)}>
+      {typeLabel}
+    </p>
+  )
 
   return (
-    <SwitchLayout as="header" gap="lg" rowAlign={visualVariant === 'avatar' ? 'start' : 'center'}>
+    <SwitchLayout
+      as="header"
+      gap="lg"
+      rowAlign={visualVariant === 'avatar' || aside ? 'start' : 'center'}
+      className={visualVariant === 'icon' ? 'flex-row' : undefined}
+    >
       {hasVisual ? (
         <Inline
           gap="none"
@@ -174,7 +189,7 @@ export function EntityDetailHeader({
             visualVariant === 'avatar'
               ? 'size-40 rounded-2xl'
               : [
-                  'size-20 rounded-xl border',
+                  'size-16 rounded-xl border sm:size-24',
                   kindVisual.accentClassName,
                   kindVisual.borderClassName,
                   kindVisual.surfaceClassName,
@@ -184,15 +199,20 @@ export function EntityDetailHeader({
           {visual === undefined ? <KindIcon className="size-10" aria-hidden /> : visual.content}
         </Inline>
       ) : null}
-      <Stack gap="sm" className="min-w-0">
-        <p
-          className={cn(
-            'text-xs font-semibold tracking-wider uppercase',
-            kindVisual.accentClassName,
-          )}
-        >
-          {typeLabel}
-        </p>
+      <Stack
+        gap="sm"
+        className={cn('min-w-0', visualVariant === 'icon' ? 'flex-1' : aside && 'w-full sm:flex-1')}
+      >
+        {aside ? (
+          <Inline gap="sm" align="center" justify="between">
+            {typeLabelContent}
+            <Inline as="span" inline gap="none" className="shrink-0">
+              {aside}
+            </Inline>
+          </Inline>
+        ) : (
+          typeLabelContent
+        )}
         {context}
         <h1 className="text-3xl font-bold tracking-tight text-balance sm:text-4xl">{title}</h1>
         {children}

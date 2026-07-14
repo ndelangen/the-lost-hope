@@ -38,7 +38,7 @@ const locationFields = {
     .string()
     .optional()
     .describe(
-      "react-icons id for this location's avatar, e.g. `gi/GiCastle` — see src/lib/location-icons.tsx. Should be unique per location; falls back to a map-pin placeholder when omitted.",
+      "Icon-catalog id for this location's avatar, e.g. `gi/GiCastle` — see src/lib/location-icons.tsx. Should be unique per location; falls back to a map-pin placeholder when omitted.",
     ),
   aliases: z
     .array(z.string())

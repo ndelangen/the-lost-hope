@@ -4,6 +4,7 @@ import { describe, expect, it } from 'vitest'
 
 import { refs } from '#/data/generated/refs.ts'
 import { ENTITY_KINDS } from '#/definitions/kind.ts'
+import catalog from '#/icon-catalog/catalog.json'
 import {
   allEntities,
   beasts,
@@ -28,6 +29,9 @@ import {
 } from '#/lib/campaign.ts'
 import { EVENT_ICONS } from '#/lib/event-icons.tsx'
 import { ITEM_ICONS } from '#/lib/item-icons.tsx'
+import { LOCATION_ICONS } from '#/lib/location-icons.tsx'
+import { ORGANIZATION_ICONS } from '#/lib/organization-icons.tsx'
+import { QUEST_ICONS } from '#/lib/quest-icons.tsx'
 import { SESSION_ICONS } from '#/lib/session-icons.tsx'
 
 describe('location import order', () => {
@@ -114,6 +118,53 @@ describe('items', () => {
     expect(itemsCarriedBy('pc', pcs.swift_starblade.slug).map((item) => item.slug)).toEqual([
       items.demon_possessed_flying_broom.slug,
     ])
+  })
+})
+
+describe('entity icons', () => {
+  it('gives locations, organizations, and quests unique supported icons', () => {
+    const iconGroups = [
+      {
+        icons: Object.values(locations).map((location) => location.icon),
+        registry: LOCATION_ICONS,
+      },
+      {
+        icons: Object.values(organizations).map((organization) => organization.icon),
+        registry: ORGANIZATION_ICONS,
+      },
+      {
+        icons: Object.values(quests).map((quest) => quest.icon),
+        registry: QUEST_ICONS,
+      },
+    ]
+
+    for (const { icons, registry } of iconGroups) {
+      expect(icons.every(Boolean)).toBe(true)
+      expect(new Set(icons).size).toBe(icons.length)
+      expect(icons.every((icon) => icon !== undefined && icon in registry)).toBe(true)
+    }
+  })
+
+  it('uses only catalog icons classified as useful', () => {
+    const catalogById = new Map(catalog.entries.map((entry) => [entry.id, entry]))
+    const selectedIcons = [
+      ...Object.values(events).flatMap((event) =>
+        event.mark.type === 'icon' ? [event.mark.name] : [],
+      ),
+      ...Object.values(items).map((item) => item.icon),
+      ...Object.values(locations).flatMap((location) => (location.icon ? [location.icon] : [])),
+      ...Object.values(organizations).flatMap((organization) =>
+        organization.icon ? [organization.icon] : [],
+      ),
+      ...Object.values(quests).map((quest) => quest.icon),
+      ...Object.values(sessions).map((session) => session.icon),
+    ]
+
+    expect(
+      selectedIcons.flatMap((icon) =>
+        catalogById.get(icon)?.classification === 'useful' ? [] : [icon],
+      ),
+    ).toEqual([])
   })
 })
 
@@ -266,6 +317,13 @@ describe('campaign chronology', () => {
 
   it('ends Session 4 at the Badesh Forest landing and Session 5 at the guildhall boards', () => {
     expect(sessions.from_fajanet_to_fairhaven.events.at(-1)?.key).toBe(refs.events.n2_e036.key)
+    const session4Keys = sessions.from_fajanet_to_fairhaven.events.map(({ key }) => key)
+    const shadowRealmIndex = session4Keys.indexOf(refs.events.n2_e029.key)
+    expect(session4Keys.slice(shadowRealmIndex, shadowRealmIndex + 3)).toEqual([
+      refs.events.n2_e029.key,
+      refs.events.n2_e081.key,
+      refs.events.n2_e030.key,
+    ])
     expect(sessions.fairhaven_shadows.events.map(({ key }) => key)).toEqual([
       refs.events.n2_e037.key,
       refs.events.n2_e038.key,
@@ -274,6 +332,7 @@ describe('campaign chronology', () => {
       refs.events.n2_e041.key,
       refs.events.n2_e042.key,
       refs.events.n2_e071.key,
+      refs.events.n2_e082.key,
       refs.events.n2_e043.key,
     ])
   })
@@ -285,9 +344,12 @@ describe('campaign chronology', () => {
     expect(sessions.fairhaven_fallout.events.map(({ key }) => key)).toEqual([
       refs.events.n2_e044.key,
       refs.events.n2_e060.key,
+      refs.events.n2_e086.key,
+      refs.events.n2_e087.key,
       refs.events.n2_e061.key,
       refs.events.n2_e062.key,
       refs.events.n2_e045.key,
+      refs.events.n2_e083.key,
     ])
     expect(sessions.heroes_and_rivals.events.map(({ key }) => key)).toEqual([
       refs.events.n2_e046.key,
@@ -333,11 +395,14 @@ describe('campaign chronology', () => {
     expect(sessions.verdant_haven_to_shadowpeak.events.map(({ key }) => key)).toEqual([
       refs.events.n2_e072.key,
       refs.events.n2_e073.key,
+      refs.events.n2_e088.key,
       refs.events.n2_e074.key,
       refs.events.n2_e075.key,
       refs.events.n2_e076.key,
       refs.events.n2_e077.key,
+      refs.events.n2_e089.key,
       refs.events.n2_e078.key,
+      refs.events.n2_e090.key,
       refs.events.n2_e079.key,
       refs.events.n2_e080.key,
     ])
@@ -347,14 +412,16 @@ describe('campaign chronology', () => {
         day: 15,
         events: [
           events.n2_e073,
+          events.n2_e088,
           events.n2_e074,
           events.n2_e075,
           events.n2_e076,
           events.n2_e077,
+          events.n2_e089,
           events.n2_e078,
         ],
       },
-      { day: 16, events: [events.n2_e079, events.n2_e080] },
+      { day: 16, events: [events.n2_e090, events.n2_e079, events.n2_e080] },
     ])
     expect(sessionPcs(sessions.verdant_haven_to_shadowpeak).map((pc) => pc.slug)).toEqual([
       'cassian-veyl',
@@ -368,13 +435,14 @@ describe('campaign chronology', () => {
     expect(sessionDays(sessions.escape_from_shadowpeak)).toEqual([
       {
         day: 16,
-        events: [events.n2_e047, events.n2_e048, events.n2_e049],
+        events: [events.n2_e047, events.n2_e084, events.n2_e048, events.n2_e049],
       },
       {
         day: 17,
         events: [
           events.n2_e050,
           events.n2_e051,
+          events.n2_e085,
           events.n2_e052,
           events.n2_e053,
           events.n2_e057,

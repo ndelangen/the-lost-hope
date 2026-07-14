@@ -3,6 +3,7 @@ import { create as createQuest } from '#/definitions/quest.ts'
 
 export default createQuest({
   name: 'The Fairhaven Invasion',
+  icon: 'gi/GiSiegeTower',
   notes: [['Who attacked ', refs.locations.fairhaven, ', and why?']],
   status: 'open',
   clues: [

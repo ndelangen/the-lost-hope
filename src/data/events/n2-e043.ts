@@ -2,25 +2,11 @@ import { refs } from '#/data/generated/refs.ts'
 import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
-  name: 'Consult the Fairhaven guildhall boards',
+  name: 'Consult the Fairhaven guildhall quest board',
   day: 12,
   location: refs.locations.fairhaven_guildhall,
-  mark: { type: 'icon', name: 'gi/GiRank3' },
+  mark: { type: 'icon', name: 'gi/GiChecklist' },
   notes: [
-    ['Inside the city, the party made their way to the ', refs.locations.fairhaven_guildhall, '.'],
-    [
-      'A leaderboard ranked multiple adventuring parties. ',
-      refs.organizations.beasts_and_dwarf,
-      ' was dead last. The party met ',
-      refs.npcs.hex,
-      ' and ',
-      refs.npcs.sneeve,
-      ' of ',
-      refs.organizations.lucky_palm,
-      ', a rival party. ',
-      refs.npcs.hex,
-      ' was openly antagonistic toward them.',
-    ],
     [
       'The quest board advertised jobs connected to ',
       refs.locations.giggles_and_gadgets,
@@ -42,7 +28,6 @@ export default createEvent({
       refs.npcs.sering_ravenwood,
       ' jobs were never disclosed and will not be recovered.',
     ],
-    [refs.locations.fairhaven, ' was also preparing to host the Festival of the Heroes.'],
     [
       'Party: ',
       refs.pcs.jim,

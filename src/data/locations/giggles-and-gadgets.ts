@@ -3,6 +3,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
   name: 'Giggles and Gadgets',
+  icon: 'gi/GiGearHammer',
   aliases: ['Gadgets and Giggles'],
   type: 'building',
   parent: refs.locations.fairhaven,

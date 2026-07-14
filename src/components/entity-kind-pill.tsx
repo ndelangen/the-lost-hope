@@ -13,6 +13,7 @@ type EntityKindPillProps = ComponentProps<typeof Pill> & {
 export function EntityKindPill({
   kind,
   variant = 'secondary',
+  dot = true,
   className,
   children,
   ...props
@@ -21,7 +22,7 @@ export function EntityKindPill({
 
   return (
     <Pill
-      dot
+      dot={dot}
       variant={variant}
       className={cn('gap-1.5 border-transparent', visual.pillClassName, className)}
       {...props}

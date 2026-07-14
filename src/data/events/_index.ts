@@ -78,6 +78,16 @@ import n2_e077 from './n2-e077.ts'
 import n2_e078 from './n2-e078.ts'
 import n2_e079 from './n2-e079.ts'
 import n2_e080 from './n2-e080.ts'
+import n2_e081 from './n2-e081.ts'
+import n2_e082 from './n2-e082.ts'
+import n2_e083 from './n2-e083.ts'
+import n2_e084 from './n2-e084.ts'
+import n2_e085 from './n2-e085.ts'
+import n2_e086 from './n2-e086.ts'
+import n2_e087 from './n2-e087.ts'
+import n2_e088 from './n2-e088.ts'
+import n2_e089 from './n2-e089.ts'
+import n2_e090 from './n2-e090.ts'
 
 export default {
   n2_e001,
@@ -160,4 +170,14 @@ export default {
   n2_e078,
   n2_e079,
   n2_e080,
+  n2_e081,
+  n2_e082,
+  n2_e083,
+  n2_e084,
+  n2_e085,
+  n2_e086,
+  n2_e087,
+  n2_e088,
+  n2_e089,
+  n2_e090,
 }

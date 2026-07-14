@@ -3,6 +3,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
   name: 'Fairhaven Harbor',
+  icon: 'gi/GiHarborDock',
   type: 'district',
   parent: refs.locations.fairhaven,
   at: [0, 0],

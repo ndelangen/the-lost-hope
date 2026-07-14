@@ -3,7 +3,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
   name: 'Ethium',
-  icon: 'gi/GiEarthAmerica',
+  icon: 'fa/FaMap',
   type: 'realm',
   parent: refs.locations.world,
   at: [800, 0],

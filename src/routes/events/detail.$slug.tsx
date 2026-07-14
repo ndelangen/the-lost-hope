@@ -2,11 +2,11 @@ import { createFileRoute } from '@tanstack/react-router'
 import { Calendar } from 'lucide-react'
 
 import { ContentRenderer } from '#/components/content-renderer'
+import { EntityKindPill } from '#/components/entity-kind-pill'
 import { EntityDetail, EntityNotFound } from '#/components/entity-page'
 import { LocationReference } from '#/components/location-reference'
 import { Avatar } from '#/components/ui/avatar'
 import { Inline, Stack } from '#/components/ui/layout'
-import { Pill } from '#/components/ui/pill'
 import { eventLocation, getEntity } from '#/lib/campaign'
 import { referencedByItems } from '#/lib/entity-page-data'
 import { EventMarkIcon } from '#/lib/event-icons'
@@ -45,14 +45,18 @@ function EventPage() {
               content: <EventMarkIcon name={event.mark.name} className="size-10" />,
             }
       }
+      headerAside={
+        <EntityKindPill kind="event" dot={false} className="gap-1">
+          <Calendar className="size-3.5" />
+          day {event.day}
+        </EntityKindPill>
+      }
       headerContent={
-        <Inline gap="sm" wrap className="text-muted-foreground text-sm">
-          <Pill variant="outline" className="gap-1">
-            <Calendar className="size-3.5" />
-            day {event.day}
-          </Pill>
-          {place ? <LocationReference slug={place.slug} /> : null}
-        </Inline>
+        place ? (
+          <Inline gap="sm" wrap className="text-muted-foreground text-sm">
+            <LocationReference slug={place.slug} />
+          </Inline>
+        ) : null
       }
       referencedBy={referencedByItems('event', slug)}
     >

@@ -1,15 +1,16 @@
-import type { IconType } from 'react-icons'
-import { FaHandshake, FaMapMarkerAlt, FaToilet, FaUsersSlash } from 'react-icons/fa'
+import { MailWarning, Toilet } from 'lucide-react'
+import type { ComponentType } from 'react'
+import { FaHandshake, FaMapMarkerAlt, FaUsersSlash } from 'react-icons/fa'
 import {
   GiAngelWings,
-  GiBangingGavel,
   GiBarricade,
+  GiBlast,
   GiBrokenShield,
   GiCage,
   GiCardRandom,
   GiChecklist,
   GiChurch,
-  GiContract,
+  GiDirewolf,
   GiDinosaurRex,
   GiDonkey,
   GiDragonSpiral,
@@ -18,12 +19,14 @@ import {
   GiFairyWings,
   GiFeather,
   GiFizzingFlask,
+  GiFloatingPlatforms,
+  GiFloorHatch,
+  GiGavel,
   GiGoblinHead,
-  GiHandcuffs,
   GiHutsVillage,
   GiImpLaugh,
-  GiLetterBomb,
   GiLifeBuoy,
+  GiLockpicks,
   GiMineWagon,
   GiMonsterGrasp,
   GiMountaintop,
@@ -34,14 +37,16 @@ import {
   GiPathDistance,
   GiPlantsAndAnimals,
   GiPuzzle,
+  GiPunch,
+  GiPrisoner,
   GiRank2,
   GiRank3,
   GiRaven,
   GiSaberToothedCatHead,
   GiSailboat,
   GiScales,
+  GiScrollQuill,
   GiSecretBook,
-  GiSecretDoor,
   GiShadowFollower,
   GiShadowGrasp,
   GiShamblingZombie,
@@ -51,12 +56,12 @@ import {
   GiSpiderWeb,
   GiStable,
   GiSunrise,
+  GiSuckeredTentacle,
   GiTavernSign,
   GiTeamUpgrade,
-  GiTentaclesBarrier,
+  GiTimeBomb,
   GiTroll,
   GiVelociraptorTracks,
-  GiWolfTrap,
   GiWoodAxe,
   GiWoodenSign,
 } from 'react-icons/gi'
@@ -65,21 +70,24 @@ import { CUSTOM_ICONS } from '#/lib/custom-icons'
 
 export const DAY_MARK_ICON = 'custom/LongRest'
 
-/** Curated react-icons registry for timeline event marks. Keys use `set/IconName`. */
-export const EVENT_ICONS: Record<string, IconType> = {
+type EventIcon = ComponentType<{ className?: string; 'aria-hidden'?: boolean }>
+
+/** Curated icon-catalog registry for timeline event marks. */
+export const EVENT_ICONS: Record<string, EventIcon> = {
   'fa/FaHandshake': FaHandshake,
   'fa/FaMapMarkerAlt': FaMapMarkerAlt,
-  'fa/FaToilet': FaToilet,
   'fa/FaUsersSlash': FaUsersSlash,
+  'lucide/MailWarning': MailWarning,
+  'lucide/Toilet': Toilet,
   'gi/GiAngelWings': GiAngelWings,
-  'gi/GiBangingGavel': GiBangingGavel,
   'gi/GiBarricade': GiBarricade,
+  'gi/GiBlast': GiBlast,
   'gi/GiBrokenShield': GiBrokenShield,
   'gi/GiCage': GiCage,
   'gi/GiCardRandom': GiCardRandom,
   'gi/GiChecklist': GiChecklist,
   'gi/GiChurch': GiChurch,
-  'gi/GiContract': GiContract,
+  'gi/GiDirewolf': GiDirewolf,
   'gi/GiDinosaurRex': GiDinosaurRex,
   'gi/GiDonkey': GiDonkey,
   'gi/GiDragonSpiral': GiDragonSpiral,
@@ -88,12 +96,14 @@ export const EVENT_ICONS: Record<string, IconType> = {
   'gi/GiFairyWings': GiFairyWings,
   'gi/GiFeather': GiFeather,
   'gi/GiFizzingFlask': GiFizzingFlask,
+  'gi/GiFloatingPlatforms': GiFloatingPlatforms,
+  'gi/GiFloorHatch': GiFloorHatch,
+  'gi/GiGavel': GiGavel,
   'gi/GiGoblinHead': GiGoblinHead,
-  'gi/GiHandcuffs': GiHandcuffs,
   'gi/GiHutsVillage': GiHutsVillage,
   'gi/GiImpLaugh': GiImpLaugh,
-  'gi/GiLetterBomb': GiLetterBomb,
   'gi/GiLifeBuoy': GiLifeBuoy,
+  'gi/GiLockpicks': GiLockpicks,
   'gi/GiMineWagon': GiMineWagon,
   'gi/GiMonsterGrasp': GiMonsterGrasp,
   'gi/GiMountaintop': GiMountaintop,
@@ -104,14 +114,16 @@ export const EVENT_ICONS: Record<string, IconType> = {
   'gi/GiPathDistance': GiPathDistance,
   'gi/GiPlantsAndAnimals': GiPlantsAndAnimals,
   'gi/GiPuzzle': GiPuzzle,
+  'gi/GiPunch': GiPunch,
+  'gi/GiPrisoner': GiPrisoner,
   'gi/GiRank2': GiRank2,
   'gi/GiRank3': GiRank3,
   'gi/GiRaven': GiRaven,
   'gi/GiSaberToothedCatHead': GiSaberToothedCatHead,
   'gi/GiSailboat': GiSailboat,
   'gi/GiScales': GiScales,
+  'gi/GiScrollQuill': GiScrollQuill,
   'gi/GiSecretBook': GiSecretBook,
-  'gi/GiSecretDoor': GiSecretDoor,
   'gi/GiShadowFollower': GiShadowFollower,
   'gi/GiShadowGrasp': GiShadowGrasp,
   'gi/GiShamblingZombie': GiShamblingZombie,
@@ -121,12 +133,12 @@ export const EVENT_ICONS: Record<string, IconType> = {
   'gi/GiSpiderWeb': GiSpiderWeb,
   'gi/GiStable': GiStable,
   'gi/GiSunrise': GiSunrise,
+  'gi/GiSuckeredTentacle': GiSuckeredTentacle,
   'gi/GiTavernSign': GiTavernSign,
   'gi/GiTeamUpgrade': GiTeamUpgrade,
-  'gi/GiTentaclesBarrier': GiTentaclesBarrier,
+  'gi/GiTimeBomb': GiTimeBomb,
   'gi/GiTroll': GiTroll,
   'gi/GiVelociraptorTracks': GiVelociraptorTracks,
-  'gi/GiWolfTrap': GiWolfTrap,
   'gi/GiWoodAxe': GiWoodAxe,
   'gi/GiWoodenSign': GiWoodenSign,
   [DAY_MARK_ICON]: CUSTOM_ICONS[DAY_MARK_ICON],
@@ -134,7 +146,7 @@ export const EVENT_ICONS: Record<string, IconType> = {
 
 const DEFAULT_ICON = EVENT_ICONS['fa/FaMapMarkerAlt']
 
-export function resolveEventIcon(name: string): IconType {
+export function resolveEventIcon(name: string): EventIcon {
   return EVENT_ICONS[name] ?? DEFAULT_ICON
 }
 

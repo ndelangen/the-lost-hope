@@ -4,37 +4,50 @@ import {
   House,
   Map,
   Mountain,
+  MountainSnow,
   Route,
   Sparkles,
   Trees,
   type LucideIcon,
 } from 'lucide-react'
-import type { IconType } from 'react-icons'
-import { FaMapMarkerAlt } from 'react-icons/fa'
+import type { ComponentType } from 'react'
+import { FaGlobe, FaMap, FaMapMarkerAlt } from 'react-icons/fa'
 import {
+  GiAncientRuins,
+  GiBeerStein,
+  GiBirdHouse,
+  GiBubblingFlask,
   GiByzantinTemple,
+  GiCaravel,
   GiCastle,
   GiCaveEntrance,
+  GiChurch,
+  GiCircleForest,
   GiCliffCrossing,
-  GiEarthAmerica,
+  GiDeathZone,
   GiFamilyHouse,
   GiFairyWand,
+  GiFloatingPlatforms,
+  GiFloorHatch,
   GiForest,
-  GiBeerStein,
-  GiLighthouse,
-  GiModernCity,
+  GiGearHammer,
+  GiGlowingArtifact,
+  GiHarborDock,
+  GiHidden,
+  GiHutsVillage,
+  GiMedievalBarracks,
+  GiMedievalGate,
   GiMineWagon,
   GiMountains,
   GiMountaintop,
-  GiNestBirds,
   GiPuzzle,
   GiSailboat,
   GiStoneTower,
   GiSpectre,
   GiSwordsEmblem,
   GiVillage,
-  GiWoodenDoor,
-  GiWorld,
+  GiWaterFountain,
+  GiWaves,
 } from 'react-icons/gi'
 
 import { LOCATION_TYPE_LABELS, type LocationType } from '#/definitions/location.ts'
@@ -64,39 +77,56 @@ export function locationTypeLabel(type: LocationType, plural = false): string {
 /** Placeholder shown when a location has no `icon`. */
 export const LOCATION_ICON_PLACEHOLDER = 'fa/FaMapMarkerAlt'
 
+type LocationGlyph = ComponentType<{ className?: string; 'aria-hidden'?: boolean }>
+
 /**
  * Curated react-icons registry for per-location avatars. Keys use `set/IconName`,
  * matching the event-icons convention. Each location picks a unique key via its
  * `icon` field; unknown/omitted keys fall back to the placeholder.
  */
-export const LOCATION_ICONS: Record<string, IconType> = {
-  'gi/GiWorld': GiWorld,
-  'gi/GiEarthAmerica': GiEarthAmerica,
+export const LOCATION_ICONS: Record<string, LocationGlyph> = {
+  'fa/FaGlobe': FaGlobe,
+  'fa/FaMap': FaMap,
+  'lucide/MountainSnow': MountainSnow,
+  'gi/GiAncientRuins': GiAncientRuins,
+  'gi/GiBeerStein': GiBeerStein,
+  'gi/GiBirdHouse': GiBirdHouse,
+  'gi/GiBubblingFlask': GiBubblingFlask,
+  'gi/GiByzantinTemple': GiByzantinTemple,
+  'gi/GiCaravel': GiCaravel,
+  'gi/GiCastle': GiCastle,
+  'gi/GiCaveEntrance': GiCaveEntrance,
+  'gi/GiChurch': GiChurch,
+  'gi/GiCircleForest': GiCircleForest,
+  'gi/GiCliffCrossing': GiCliffCrossing,
+  'gi/GiDeathZone': GiDeathZone,
   'gi/GiFamilyHouse': GiFamilyHouse,
-  'gi/GiVillage': GiVillage,
   'gi/GiFairyWand': GiFairyWand,
+  'gi/GiFloatingPlatforms': GiFloatingPlatforms,
+  'gi/GiFloorHatch': GiFloorHatch,
+  'gi/GiForest': GiForest,
+  'gi/GiGearHammer': GiGearHammer,
+  'gi/GiGlowingArtifact': GiGlowingArtifact,
+  'gi/GiHarborDock': GiHarborDock,
+  'gi/GiHidden': GiHidden,
+  'gi/GiHutsVillage': GiHutsVillage,
+  'gi/GiMedievalBarracks': GiMedievalBarracks,
+  'gi/GiMedievalGate': GiMedievalGate,
   'gi/GiMineWagon': GiMineWagon,
   'gi/GiMountains': GiMountains,
-  'gi/GiBeerStein': GiBeerStein,
-  'gi/GiForest': GiForest,
-  'gi/GiModernCity': GiModernCity,
-  'gi/GiCastle': GiCastle,
-  'gi/GiStoneTower': GiStoneTower,
-  'gi/GiCaveEntrance': GiCaveEntrance,
-  'gi/GiSwordsEmblem': GiSwordsEmblem,
-  'gi/GiByzantinTemple': GiByzantinTemple,
-  'gi/GiCliffCrossing': GiCliffCrossing,
   'gi/GiMountaintop': GiMountaintop,
   'gi/GiPuzzle': GiPuzzle,
-  'gi/GiSpectre': GiSpectre,
   'gi/GiSailboat': GiSailboat,
-  'gi/GiLighthouse': GiLighthouse,
-  'gi/GiNestBirds': GiNestBirds,
-  'gi/GiWoodenDoor': GiWoodenDoor,
+  'gi/GiSpectre': GiSpectre,
+  'gi/GiStoneTower': GiStoneTower,
+  'gi/GiSwordsEmblem': GiSwordsEmblem,
+  'gi/GiVillage': GiVillage,
+  'gi/GiWaterFountain': GiWaterFountain,
+  'gi/GiWaves': GiWaves,
   [LOCATION_ICON_PLACEHOLDER]: FaMapMarkerAlt,
 }
 
-export function resolveLocationIcon(icon?: string): IconType {
+export function resolveLocationIcon(icon?: string): LocationGlyph {
   return (icon ? LOCATION_ICONS[icon] : undefined) ?? LOCATION_ICONS[LOCATION_ICON_PLACEHOLDER]
 }
 

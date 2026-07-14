@@ -3,6 +3,7 @@ import { create as createQuest } from '#/definitions/quest.ts'
 
 export default createQuest({
   name: 'Who Is Giggles?',
+  icon: 'gi/GiGoblinHead',
   notes: [[refs.npcs.giggles, ' appears to be more than an ordinary goblin quest giver.']],
   status: 'open',
   clues: [
@@ -37,7 +38,7 @@ export default createQuest({
       ' had already described such a potion.',
     ],
     [
-      refs.events.n2_e061,
+      refs.events.n2_e087,
       ' — the explosive given to the party by ',
       refs.npcs.giggles,
       ' may later have become the time bomb beneath ',

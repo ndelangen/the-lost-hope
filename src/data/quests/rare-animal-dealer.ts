@@ -3,6 +3,7 @@ import { create as createQuest } from '#/definitions/quest.ts'
 
 export default createQuest({
   name: 'Help the Rare-Animal Dealer',
+  icon: 'gi/GiPawPrint',
   notes: [['Help the Rare-Animal Dealer']],
   status: 'resolved',
   clues: [

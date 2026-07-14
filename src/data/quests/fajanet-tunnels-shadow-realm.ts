@@ -3,6 +3,7 @@ import { create as createQuest } from '#/definitions/quest.ts'
 
 export default createQuest({
   name: 'Do the Fajanet Tunnels connect to the Shadow Realm?',
+  icon: 'gi/GiMagicPortal',
   notes: [['Do the Fajanet Tunnels connect to the Shadow Realm?']],
   status: 'open',
   clues: [

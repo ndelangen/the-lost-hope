@@ -4,7 +4,7 @@ import { create as createSession } from '#/definitions/session.ts'
 export default createSession({
   name: 'Quests for the Exotic Animal Dealer',
   number: 2,
-  icon: 'gi/GiDinosaurEgg',
+  icon: 'gi/GiPawPrint',
   date: new Date('2026-02-19'),
   events: [
     refs.events.n2_e012,

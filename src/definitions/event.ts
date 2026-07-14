@@ -13,7 +13,7 @@ export const EventMark = z.discriminatedUnion('type', [
     name: z
       .string()
       .min(1)
-      .describe('react-icons id, e.g. `gi/GiSailboat` — see src/lib/event-icons.tsx'),
+      .describe('Icon-catalog id, e.g. `gi/GiSailboat` — see src/lib/event-icons.tsx'),
   }),
 ])
 

@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Jim tells the truth at the court hearing',
   day: 13,
   location: refs.locations.fairhaven,
-  mark: { type: 'icon', name: 'gi/GiBangingGavel' },
+  mark: { type: 'icon', name: 'gi/GiGavel' },
   notes: [
     [
       'Following ',

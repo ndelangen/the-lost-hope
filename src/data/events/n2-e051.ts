@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Two dire wolf pups are stolen from the stables',
   day: 17,
   location: refs.locations.the_blackstone,
-  mark: { type: 'icon', name: 'gi/GiWolfTrap' },
+  mark: { type: 'icon', name: 'gi/GiDirewolf' },
   notes: [
     [
       refs.pcs.cassian_veyl,

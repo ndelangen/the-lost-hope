@@ -3,6 +3,7 @@ import { create as createQuest } from '#/definitions/quest.ts'
 
 export default createQuest({
   name: 'Make Abraham Known Among His Peers',
+  icon: 'gi/GiLaurels',
   notes: [[refs.pcs.jim, ' must help ', refs.npcs.abraham, ' gain recognition from his peers.']],
   status: 'open',
   clues: [

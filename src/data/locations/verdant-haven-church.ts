@@ -3,6 +3,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
   name: 'Verdant Haven Church',
+  icon: 'gi/GiChurch',
   type: 'building',
   parent: refs.locations.verdant_haven,
   at: [0, 0],

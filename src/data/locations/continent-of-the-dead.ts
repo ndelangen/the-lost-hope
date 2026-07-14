@@ -3,6 +3,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
   name: 'Continent of the Dead',
+  icon: 'gi/GiDeathZone',
   type: 'region',
   parent: refs.locations.world,
   at: [0, 0],

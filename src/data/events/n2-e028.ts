@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Light instructs the party to use the trapdoor',
   day: 9,
   location: refs.locations.fajanet,
-  mark: { type: 'icon', name: 'gi/GiSecretDoor' },
+  mark: { type: 'icon', name: 'gi/GiFloorHatch' },
   notes: [
     [
       refs.npcs.light_13th_marshal,

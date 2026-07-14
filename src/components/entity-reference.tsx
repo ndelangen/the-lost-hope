@@ -1,4 +1,4 @@
-import { CalendarRange, Scroll } from 'lucide-react'
+import { CalendarRange } from 'lucide-react'
 import type { CSSProperties, ReactNode } from 'react'
 
 import { Avatar } from '#/components/ui/avatar'
@@ -27,6 +27,7 @@ import { EventMarkIcon } from '#/lib/event-icons'
 import { ItemIcon } from '#/lib/item-icons'
 import { LocationIcon, LocationTypeIcon, locationTypeLabel } from '#/lib/location-icons'
 import { OrganizationIcon } from '#/lib/organization-icons'
+import { QuestIcon } from '#/lib/quest-icons'
 import { SessionIcon } from '#/lib/session-icons'
 
 export type EntityReferenceRenderData = {
@@ -220,7 +221,7 @@ function referencePresentation(
       const quest = getEntity('quest', slug)?.data
       const name = label ?? quest?.name ?? slug
       const progress = quest ? questProgress(quest) : undefined
-      const icon = <Scroll className="size-3.5" aria-hidden />
+      const icon = quest ? <QuestIcon icon={quest.icon} className="size-3.5" /> : null
       const daysAgo = progress?.campaignDaysAgo
       return {
         label: name,

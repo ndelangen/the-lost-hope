@@ -3,6 +3,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
   name: 'Snowy Mountains',
+  icon: 'lucide/MountainSnow',
   type: 'wilderness',
   parent: refs.locations.world,
   at: [0, 0],

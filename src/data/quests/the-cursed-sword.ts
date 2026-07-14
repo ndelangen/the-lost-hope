@@ -3,6 +3,7 @@ import { create as createQuest } from '#/definitions/quest.ts'
 
 export default createQuest({
   name: 'The Cursed Sword',
+  icon: 'gi/GiBottledShadow',
   notes: [
     ['What is the curse on ', refs.items.cursed_shadow_sword, ', and what shadow is bound to it?'],
   ],
@@ -16,7 +17,13 @@ export default createQuest({
       refs.items.cursed_shadow_sword,
       ' lodged in ',
       refs.npcs.roberto,
-      '. The weapon caused decay in ',
+      '.',
+    ],
+    [
+      refs.events.n2_e088,
+      ' — ',
+      refs.items.cursed_shadow_sword,
+      ' caused decay in ',
       refs.locations.verdant_haven_forest,
       ' and attracted the ',
       refs.beasts.ent_guardians,

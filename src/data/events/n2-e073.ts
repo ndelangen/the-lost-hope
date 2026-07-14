@@ -5,7 +5,7 @@ export default createEvent({
   name: 'The party rescues Roberto from a faceless shadow',
   day: 15,
   location: refs.locations.verdant_haven_forest,
-  mark: { type: 'avatar', url: '/assets/pcs/jim.jpg' },
+  mark: { type: 'icon', name: 'gi/GiShadowFollower' },
   notes: [
     [
       'The next day, while exploring ',
@@ -20,22 +20,6 @@ export default createEvent({
       refs.npcs.roberto,
       '.',
     ],
-    [
-      'The party removed the sword and stabilized ',
-      refs.npcs.roberto,
-      '. ',
-      refs.items.cursed_shadow_sword,
-      ' caused decay in the surrounding forest, attracting the ',
-      refs.beasts.ent_guardians,
-      '.',
-    ],
-    [
-      refs.pcs.jim,
-      ' used Mage Hand to drag ',
-      refs.items.cursed_shadow_sword,
-      ' back toward ',
-      refs.locations.verdant_haven,
-      ' without touching it.',
-    ],
+    ['The party removed the sword and stabilized ', refs.npcs.roberto, '.'],
   ],
 })

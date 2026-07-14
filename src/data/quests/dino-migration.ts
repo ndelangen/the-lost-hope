@@ -3,6 +3,7 @@ import { create as createQuest } from '#/definitions/quest.ts'
 
 export default createQuest({
   name: 'The Dinosaur Migration',
+  icon: 'gi/GiVelociraptorTracks',
   notes: [['The Dinosaur Migration']],
   status: 'open',
   clues: [

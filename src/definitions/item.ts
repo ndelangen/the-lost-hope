@@ -11,7 +11,7 @@ export const Item = deriveSlug(
     icon: z
       .string()
       .describe(
-        "A unique react-icons id for this item's icon, e.g. `gi/GiBroadsword` — see src/lib/item-icons.tsx.",
+        "A unique icon-catalog id for this item's icon, e.g. `gi/GiBroadsword` — see src/lib/item-icons.tsx.",
       ),
     currentOwner: EntityRefSchema.nullable().describe(
       'The current owner of the item, or null when ownership is unknown',

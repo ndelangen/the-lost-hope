@@ -3,6 +3,7 @@ import { create as createOrganization } from '#/definitions/organization.ts'
 
 export default createOrganization({
   name: 'Lucky Palm',
+  icon: 'gi/GiMagicPalm',
   notes: [
     [
       'An adventuring party that positioned itself as a rival to ',

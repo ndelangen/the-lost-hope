@@ -14,6 +14,7 @@ export default createSession({
     refs.events.n2_e041,
     refs.events.n2_e042,
     refs.events.n2_e071,
+    refs.events.n2_e082,
     refs.events.n2_e043,
   ],
   notes: [['Notes for this session were reconstructed by Niek and Ryan.']],

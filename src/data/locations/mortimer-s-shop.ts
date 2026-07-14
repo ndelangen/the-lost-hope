@@ -3,6 +3,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
   name: 'Mortimer’s Shop',
+  icon: 'gi/GiBubblingFlask',
   type: 'building',
   parent: refs.locations.fairhaven,
   at: [0, 0],

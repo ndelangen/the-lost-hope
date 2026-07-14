@@ -26955,7 +26955,10 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "duplicateOf": "lucide/Globe",
       "sourceUrl": "https://fontawesome.com/v5/icons/globe",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/world.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "fa/FaGlobeAfrica",
@@ -38470,7 +38473,10 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "duplicateOf": "lucide/Map",
       "sourceUrl": "https://fontawesome.com/v5/icons/map",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/ethium.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "fa/FaMapMarked",
@@ -69483,10 +69489,7 @@
       "classificationReason": "Not an obvious fantasy or canonical UI choice; retained for manual review.",
       "duplicateOf": "lucide/Toilet",
       "sourceUrl": "https://fontawesome.com/v5/icons/toilet",
-      "usedIn": [
-        "src/data/events/n2-e022.ts",
-        "src/lib/event-icons.tsx"
-      ]
+      "usedIn": []
     },
     {
       "id": "fa/FaToiletPaper",
@@ -73375,7 +73378,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://fontawesome.com/v5/icons/user-secret",
-      "usedIn": []
+      "usedIn": [
+        "src/data/quests/who-is-light.ts",
+        "src/lib/quest-icons.tsx"
+      ]
     },
     {
       "id": "fa/FaUserShield",
@@ -83035,7 +83041,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/ancient-ruins.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/snowy-mountain-ruin.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiAncientScrew",
@@ -84695,8 +84704,8 @@
         "Weapons and armor",
         "Threats or victories"
       ],
-      "classification": "questionable",
-      "classificationReason": "Upstream tags indicate an abstract, modern, technical, or setting-specific visual.",
+      "classification": "useful",
+      "classificationReason": "Manually classified as useful from the /_icons review page.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/archery-target.html",
       "usedIn": []
     },
@@ -88184,7 +88193,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/backward-time.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/quests/jims-past.ts",
+        "src/lib/quest-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiBacon",
@@ -89165,10 +89177,7 @@
       "classification": "questionable",
       "classificationReason": "Upstream tags indicate an abstract, modern, technical, or setting-specific visual.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/banging-gavel.html",
-      "usedIn": [
-        "src/data/events/n2-e062.ts",
-        "src/lib/event-icons.tsx"
-      ]
+      "usedIn": []
     },
     {
       "id": "gi/GiBanjo",
@@ -93757,7 +93766,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/bird-house.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/the-nest.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiBirdLimb",
@@ -94192,10 +94204,7 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/black-flag.html",
-      "usedIn": [
-        "src/data/organizations/marshals-court.ts",
-        "src/lib/organization-icons.tsx"
-      ]
+      "usedIn": []
     },
     {
       "id": "gi/GiBlackHandShield",
@@ -94590,7 +94599,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/sbed/blast.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/events/n2-e089.ts",
+        "src/lib/event-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiBlaster",
@@ -97548,7 +97560,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/bottled-shadow.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/quests/the-cursed-sword.ts",
+        "src/lib/quest-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiBottleVapors",
@@ -100825,7 +100840,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/bubbling-flask.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/mortimer-s-shop.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiBud",
@@ -101408,8 +101426,8 @@
         "Weapons and armor",
         "Threats or victories"
       ],
-      "classification": "questionable",
-      "classificationReason": "Upstream tags indicate an abstract, modern, technical, or setting-specific visual.",
+      "classification": "useful",
+      "classificationReason": "Manually classified as useful from the /_icons review page.",
       "sourceUrl": "https://game-icons.net/1x1/skoll/bullseye.html",
       "usedIn": []
     },
@@ -105147,7 +105165,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/caravel.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/the-boat-to-fajanet-celesta.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiCarBattery",
@@ -110877,6 +110898,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/checklist.html",
       "usedIn": [
         "src/data/events/n2-e012.ts",
+        "src/data/events/n2-e043.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -112443,7 +112465,9 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/church.html",
       "usedIn": [
         "src/data/events/n2-e072.ts",
-        "src/lib/event-icons.tsx"
+        "src/data/locations/verdant-haven-church.ts",
+        "src/lib/event-icons.tsx",
+        "src/lib/location-icons.tsx"
       ]
     },
     {
@@ -112696,7 +112720,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/circle-forest.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/verdant-haven-forest.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiCircleSparks",
@@ -116387,10 +116414,7 @@
       "classification": "questionable",
       "classificationReason": "Manually classified as questionable from the /_icons review page.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/contract.html",
-      "usedIn": [
-        "src/data/events/n2-e049.ts",
-        "src/lib/event-icons.tsx"
-      ]
+      "usedIn": []
     },
     {
       "id": "gi/GiControlTower",
@@ -123262,7 +123286,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/death-zone.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/continent-of-the-dead.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiDecapitation",
@@ -125526,10 +125553,7 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/dinosaur-egg.html",
-      "usedIn": [
-        "src/data/sessions/quests-for-the-exotic-animal-dealer.ts",
-        "src/lib/session-icons.tsx"
-      ]
+      "usedIn": []
     },
     {
       "id": "gi/GiDinosaurRex",
@@ -125853,7 +125877,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/direwolf.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/events/n2-e051.ts",
+        "src/lib/event-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiDisc",
@@ -129033,7 +129060,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/dripping-stone.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/steve-the-interrogation-rock.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiDrippingSword",
@@ -130050,7 +130080,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/dwarf-face.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/organizations/beasts-and-dwarf.ts",
+        "src/lib/organization-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiDwarfHelmet",
@@ -130481,10 +130514,7 @@
       "classification": "marked-for-deletion",
       "classificationReason": "Manually marked for deletion from the /_icons review page.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/earth-america.html",
-      "usedIn": [
-        "src/data/locations/ethium.ts",
-        "src/lib/location-icons.tsx"
-      ]
+      "usedIn": []
     },
     {
       "id": "gi/GiEarthAsiaOceania",
@@ -136848,6 +136878,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/feather.html",
       "usedIn": [
         "src/data/events/n2-e015.ts",
+        "src/data/events/n2-e081.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -140192,6 +140223,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/fizzing-flask.html",
       "usedIn": [
         "src/data/events/n2-e044.ts",
+        "src/data/events/n2-e084.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -141912,7 +141944,12 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/floating-platforms.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/events/n2-e090.ts",
+        "src/data/locations/unidentified-floating-island.ts",
+        "src/lib/event-icons.tsx",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiFloatingTentacles",
@@ -142047,7 +142084,13 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/floor-hatch.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/events/n2-e014.ts",
+        "src/data/events/n2-e028.ts",
+        "src/data/locations/trapdoor.ts",
+        "src/lib/event-icons.tsx",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiFloorPolisher",
@@ -146755,7 +146798,9 @@
       "duplicateOf": "lucide/Gavel",
       "sourceUrl": "https://game-icons.net/1x1/lorc/gavel.html",
       "usedIn": [
+        "src/data/events/n2-e062.ts",
         "src/data/sessions/fairhaven-fallout.ts",
+        "src/lib/event-icons.tsx",
         "src/lib/session-icons.tsx"
       ]
     },
@@ -146875,7 +146920,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/gear-hammer.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/giggles-and-gadgets.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiGears",
@@ -148230,7 +148278,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/glowing-artifact.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/the-green-light.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiGlowingHands",
@@ -148592,7 +148643,9 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/goblin-head.html",
       "usedIn": [
         "src/data/events/n2-e024.ts",
-        "src/lib/event-icons.tsx"
+        "src/data/quests/who-is-giggles.ts",
+        "src/lib/event-icons.tsx",
+        "src/lib/quest-icons.tsx"
       ]
     },
     {
@@ -152670,10 +152723,7 @@
       "classification": "questionable",
       "classificationReason": "Upstream tags indicate an abstract, modern, technical, or setting-specific visual.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/handcuffs.html",
-      "usedIn": [
-        "src/data/events/n2-e061.ts",
-        "src/lib/event-icons.tsx"
-      ]
+      "usedIn": []
     },
     {
       "id": "gi/GiHandGrip",
@@ -153245,7 +153295,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/harbor-dock.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/fairhaven-harbor.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiHarp",
@@ -156577,7 +156630,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/hidden.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/verdant-haven.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiHieroglyphLegs",
@@ -157721,7 +157777,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/holy-symbol.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/quests/mountain-holy-site.ts",
+        "src/lib/quest-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiHolyWater",
@@ -158149,7 +158208,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/darkzaitzev/hooded-figure.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/quests/mystery-girl.ts",
+        "src/lib/quest-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiHoodie",
@@ -159800,7 +159862,9 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/huts-village.html",
       "usedIn": [
         "src/data/events/n2-e040.ts",
-        "src/lib/event-icons.tsx"
+        "src/data/locations/badesh.ts",
+        "src/lib/event-icons.tsx",
+        "src/lib/location-icons.tsx"
       ]
     },
     {
@@ -164716,7 +164780,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/justice-star.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/organizations/marshals-court.ts",
+        "src/lib/organization-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiKaleidoscopePearls",
@@ -165078,8 +165145,8 @@
         "Weapons and armor",
         "Threats or victories"
       ],
-      "classification": "questionable",
-      "classificationReason": "Upstream tags indicate an abstract, modern, technical, or setting-specific visual.",
+      "classification": "useful",
+      "classificationReason": "Manually classified as useful from the /_icons review page.",
       "sourceUrl": "https://game-icons.net/1x1/sbed/kevlar.html",
       "usedIn": []
     },
@@ -165128,8 +165195,8 @@
         "Weapons and armor",
         "Threats or victories"
       ],
-      "classification": "questionable",
-      "classificationReason": "Upstream tags indicate an abstract, modern, technical, or setting-specific visual.",
+      "classification": "useful",
+      "classificationReason": "Manually classified as useful from the /_icons review page.",
       "sourceUrl": "https://game-icons.net/1x1/skoll/kevlar-vest.html",
       "usedIn": []
     },
@@ -167654,8 +167721,8 @@
         "Weapons and armor",
         "Threats or victories"
       ],
-      "classification": "questionable",
-      "classificationReason": "Upstream tags indicate an abstract, modern, technical, or setting-specific visual.",
+      "classification": "useful",
+      "classificationReason": "Manually classified as useful from the /_icons review page.",
       "duplicateOf": "lucide/Lasso",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/lasso.html",
       "usedIn": []
@@ -167833,7 +167900,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/laurels.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/quests/make-abraham-known-among-his-peers.ts",
+        "src/lib/quest-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiLaurelsTrophy",
@@ -168827,10 +168897,7 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/letter-bomb.html",
-      "usedIn": [
-        "src/data/events/n2-e020.ts",
-        "src/lib/event-icons.tsx"
-      ]
+      "usedIn": []
     },
     {
       "id": "gi/GiLevelCrossing",
@@ -169956,10 +170023,7 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/lighthouse.html",
-      "usedIn": [
-        "src/data/locations/the-green-light.ts",
-        "src/lib/location-icons.tsx"
-      ]
+      "usedIn": []
     },
     {
       "id": "gi/GiLightningArc",
@@ -171879,7 +171943,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/lockpicks.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/events/n2-e086.ts",
+        "src/lib/event-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiLockSpy",
@@ -174068,7 +174135,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/magic-palm.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/organizations/lucky-palm.ts",
+        "src/lib/organization-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiMagicPortal",
@@ -174133,7 +174203,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/magic-portal.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/quests/fajanet-tunnels-shadow-realm.ts",
+        "src/lib/quest-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiMagicPotion",
@@ -176962,7 +177035,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/medieval-barracks.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/fairhaven-guildhall.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiMedievalGate",
@@ -177016,7 +177092,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/medieval-gate.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/fairhaven.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiMedievalPavilion",
@@ -179885,10 +179964,7 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/modern-city.html",
-      "usedIn": [
-        "src/data/locations/fairhaven.ts",
-        "src/lib/location-icons.tsx"
-      ]
+      "usedIn": []
     },
     {
       "id": "gi/GiMoebiusStar",
@@ -183274,9 +183350,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/nest-birds.html",
       "usedIn": [
         "src/data/events/n2-e017.ts",
-        "src/data/locations/the-nest.ts",
-        "src/lib/event-icons.tsx",
-        "src/lib/location-icons.tsx"
+        "src/lib/event-icons.tsx"
       ]
     },
     {
@@ -190168,7 +190242,12 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "duplicateOf": "lucide/PawPrint",
       "sourceUrl": "https://game-icons.net/1x1/lorc/paw-print.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/quests/rare-animal-dealer.ts",
+        "src/data/sessions/quests-for-the-exotic-animal-dealer.ts",
+        "src/lib/quest-icons.tsx",
+        "src/lib/session-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiPayMoney",
@@ -197910,7 +197989,10 @@
       "classification": "useful",
       "classificationReason": "Manually classified as useful from the /_icons review page.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/prisoner.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/events/n2-e061.ts",
+        "src/lib/event-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiPrivate",
@@ -198799,7 +198881,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/punch.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/events/n2-e052.ts",
+        "src/lib/event-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiPunchBlast",
@@ -200881,7 +200966,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/skoll/rank-3.html",
       "usedIn": [
-        "src/data/events/n2-e043.ts",
+        "src/data/events/n2-e082.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -201090,9 +201175,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/raven.html",
       "usedIn": [
         "src/data/events/n2-e048.ts",
-        "src/data/organizations/beasts-and-dwarf.ts",
-        "src/lib/event-icons.tsx",
-        "src/lib/organization-icons.tsx"
+        "src/lib/event-icons.tsx"
       ]
     },
     {
@@ -203671,9 +203754,7 @@
       "classificationReason": "Multiple upstream icons share this name; the installed visual needs manual review.",
       "sourceUrl": "https://game-icons.net/1x1/john-redman/rock.html",
       "usedIn": [
-        "src/data/items/steve-the-interrogation-rock.ts",
-        "src/definitions/item.test.ts",
-        "src/lib/item-icons.tsx"
+        "src/definitions/item.test.ts"
       ]
     },
     {
@@ -206289,7 +206370,6 @@
       "usedIn": [
         "src/data/events/n2-e001.ts",
         "src/data/locations/the-boat-to-fairhaven.ts",
-        "src/data/locations/the-boat-to-fajanet-celesta.ts",
         "src/data/sessions/from-fajanet-to-fairhaven.ts",
         "src/lib/event-icons.tsx",
         "src/lib/location-icons.tsx",
@@ -208601,7 +208681,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/scroll-quill.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/events/n2-e049.ts",
+        "src/lib/event-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiScrollUnfurled",
@@ -209307,11 +209390,7 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/secret-door.html",
-      "usedIn": [
-        "src/data/events/n2-e014.ts",
-        "src/data/events/n2-e028.ts",
-        "src/lib/event-icons.tsx"
-      ]
+      "usedIn": []
     },
     {
       "id": "gi/GiSecurityGate",
@@ -210214,6 +210293,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/shadow-follower.html",
       "usedIn": [
         "src/data/events/n2-e029.ts",
+        "src/data/events/n2-e073.ts",
         "src/data/sessions/fairhaven-shadows.ts",
         "src/lib/event-icons.tsx",
         "src/lib/session-icons.tsx"
@@ -213442,7 +213522,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/siege-tower.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/quests/the-fairhaven-invasion.ts",
+        "src/lib/quest-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiSightDisabled",
@@ -219246,8 +219329,8 @@
         "Weapons and armor",
         "Threats or victories"
       ],
-      "classification": "questionable",
-      "classificationReason": "Upstream tags indicate an abstract, modern, technical, or setting-specific visual.",
+      "classification": "useful",
+      "classificationReason": "Manually classified as useful from the /_icons review page.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/spear-feather.html",
       "usedIn": []
     },
@@ -227458,7 +227541,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/suckered-tentacle.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/events/n2-e007.ts",
+        "src/lib/event-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiSugarCane",
@@ -230083,7 +230169,6 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/swords-emblem.html",
       "usedIn": [
-        "src/data/locations/fairhaven-guildhall.ts",
         "src/data/locations/fajanet-guildhall.ts",
         "src/lib/location-icons.tsx"
       ]
@@ -232697,8 +232782,8 @@
         "Modern or science-fiction weapons",
         "Explosions"
       ],
-      "classification": "questionable",
-      "classificationReason": "Upstream tags indicate an abstract, modern, technical, or setting-specific visual.",
+      "classification": "useful",
+      "classificationReason": "Manually classified as useful from the /_icons review page.",
       "sourceUrl": "https://game-icons.net/1x1/skoll/teller-mine.html",
       "usedIn": []
     },
@@ -233298,10 +233383,7 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/tentacles-barrier.html",
-      "usedIn": [
-        "src/data/events/n2-e007.ts",
-        "src/lib/event-icons.tsx"
-      ]
+      "usedIn": []
     },
     {
       "id": "gi/GiTentaclesSkull",
@@ -233350,7 +233432,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/tentacles-skull.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/quests/the-tentacle-night.ts",
+        "src/lib/quest-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiTentacleStrike",
@@ -235636,7 +235721,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/time-bomb.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/events/n2-e087.ts",
+        "src/lib/event-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiTimeDynamite",
@@ -243532,7 +243620,9 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/velociraptor-tracks.html",
       "usedIn": [
         "src/data/events/n2-e039.ts",
-        "src/lib/event-icons.tsx"
+        "src/data/quests/dino-migration.ts",
+        "src/lib/event-icons.tsx",
+        "src/lib/quest-icons.tsx"
       ]
     },
     {
@@ -244443,7 +244533,6 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/village.html",
       "usedIn": [
-        "src/data/locations/badesh.ts",
         "src/data/locations/shadowpeak.ts",
         "src/lib/location-icons.tsx"
       ]
@@ -246597,7 +246686,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/water-fountain.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/fairhaven-town-square.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiWaterGallon",
@@ -247242,7 +247334,10 @@
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "duplicateOf": "lucide/Waves",
       "sourceUrl": "https://game-icons.net/1x1/lorc/waves.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/sea-of-unknown.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiWaveStrike",
@@ -250347,10 +250442,7 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/wolf-trap.html",
-      "usedIn": [
-        "src/data/events/n2-e051.ts",
-        "src/lib/event-icons.tsx"
-      ]
+      "usedIn": []
     },
     {
       "id": "gi/GiWolverineClaws",
@@ -250850,10 +250942,7 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/wooden-door.html",
-      "usedIn": [
-        "src/data/locations/trapdoor.ts",
-        "src/lib/location-icons.tsx"
-      ]
+      "usedIn": []
     },
     {
       "id": "gi/GiWoodenFence",
@@ -251235,10 +251324,7 @@
       "classification": "questionable",
       "classificationReason": "Upstream tags indicate an abstract, modern, technical, or setting-specific visual.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/world.html",
-      "usedIn": [
-        "src/data/locations/world.ts",
-        "src/lib/location-icons.tsx"
-      ]
+      "usedIn": []
     },
     {
       "id": "gi/GiWormMouth",
@@ -261663,6 +261749,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/calendar-days",
       "usedIn": [
+        "src/components/quest-investigation.tsx",
         "src/routes/index.tsx"
       ]
     },
@@ -265680,7 +265767,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/circle-question-mark",
-      "usedIn": []
+      "usedIn": [
+        "src/components/quest-investigation.tsx"
+      ]
     },
     {
       "id": "lucide/CircleSlash",
@@ -279593,7 +279682,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/history",
-      "usedIn": []
+      "usedIn": [
+        "src/components/quest-investigation.tsx"
+      ]
     },
     {
       "id": "lucide/Hop",
@@ -283738,7 +283829,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/mail-warning",
-      "usedIn": []
+      "usedIn": [
+        "src/lib/event-icons.tsx"
+      ]
     },
     {
       "id": "lucide/MailX",
@@ -287179,7 +287272,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/mountain-snow",
-      "usedIn": []
+      "usedIn": [
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "lucide/Mouse",
@@ -294656,7 +294751,6 @@
       "usedIn": [
         "src/components/campaign-shell.tsx",
         "src/components/campaign-shell/sidebar-data.ts",
-        "src/components/entity-reference.tsx",
         "src/lib/entity-kind-visuals.ts"
       ]
     },
@@ -303683,7 +303777,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/toilet",
-      "usedIn": []
+      "usedIn": [
+        "src/lib/event-icons.tsx"
+      ]
     },
     {
       "id": "lucide/ToolCase",

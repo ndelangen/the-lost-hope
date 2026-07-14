@@ -3,6 +3,7 @@ import { create as createQuest } from '#/definitions/quest.ts'
 
 export default createQuest({
   name: "Jim's Past",
+  icon: 'gi/GiBackwardTime',
   notes: [["Jim's Past"]],
   status: 'open',
   clues: [

@@ -3,6 +3,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
   name: 'Verdant Haven',
+  icon: 'gi/GiHidden',
   type: 'settlement',
   parent: refs.locations.world,
   at: [0, 0],
