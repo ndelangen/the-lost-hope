@@ -9,9 +9,7 @@ export default createEvent({
   notes: [
     [
       refs.pcs.cassian_veyl,
-      ', ',
-      refs.pcs.devan,
-      ', and ',
+      ' and ',
       refs.pcs.jim,
       ' asked ',
       refs.npcs.sylvia,
@@ -29,6 +27,17 @@ export default createEvent({
     ],
     [
       'Sylvia said Swift’s sister was probably with one of Sylvia’s brothers and promised to spare her if the party brought her back alive. The relatives’ names, exact locations, and the reliability of Sylvia’s account remain unconfirmed.',
+    ],
+    [
+      'Only Cassian and Jim were present for Sylvia’s account. At the same time, ',
+      refs.pcs.swift_starblade,
+      ' was talking with ',
+      refs.npcs.alberto,
+      ', while ',
+      refs.pcs.devan,
+      ' spent the night with ',
+      refs.npcs.bessy,
+      '.',
     ],
   ],
 })

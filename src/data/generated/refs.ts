@@ -119,6 +119,7 @@ export const refs = {
     n2_e098: ref('event', 'n2_e098'),
     n2_e099: ref('event', 'n2_e099'),
     n2_e100: ref('event', 'n2_e100'),
+    n2_e101: ref('event', 'n2_e101'),
   },
   npcs: {
     abraham: ref('npc', 'abraham'),

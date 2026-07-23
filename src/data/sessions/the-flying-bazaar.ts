@@ -17,10 +17,11 @@ export default createSession({
     refs.events.n2_e098,
     refs.events.n2_e099,
     refs.events.n2_e100,
+    refs.events.n2_e101,
   ],
   notes: [
     [
-      'The closing sequence compressed several days aboard the ship. The exact number of nights after Campaign Day 18 was not clear enough to assign later events without inventing chronology.',
+      'The closing sequence reaches Campaign Day 19. The exact number of later days aboard the ship remains unclear.',
     ],
   ],
 })

@@ -2,15 +2,24 @@ import { refs } from '#/data/generated/refs.ts'
 import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
-  name: 'Swift buys bright-red studded leather from Bessy',
+  name: 'The party reunites with Bessy and trades equipment',
   day: 18,
   location: refs.locations.sylvias_flying_bazaar,
-  mark: { type: 'avatar', url: '/assets/pcs/swift.jpg' },
+  mark: { type: 'icon', name: 'gi/GiTeamUpgrade' },
   notes: [
     [
-      'The party found ',
+      'On their second morning aboard ',
+      refs.locations.sylvias_flying_bazaar,
+      ', the party found ',
       refs.npcs.bessy,
-      ' working in the ship’s crafting area. ',
+      ' operating from the ship’s crafting area and reunited with her.',
+    ],
+    [
+      'They spent the morning comparing armour, shields, and weapons, buying and selling equipment with ',
+      refs.npcs.bessy,
+      '.',
+    ],
+    [
       refs.pcs.swift_starblade,
       ' negotiated a set of shiny light-red studded leather armour for 50 GP and sold an unused shortsword and shortbow.',
     ],
