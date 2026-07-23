@@ -122,5 +122,6 @@ export default createCampaign({
     sessions.the_fall_of_fairhaven,
     sessions.verdant_haven_to_shadowpeak,
     sessions.escape_from_shadowpeak,
+    sessions.the_flying_bazaar,
   ],
 })

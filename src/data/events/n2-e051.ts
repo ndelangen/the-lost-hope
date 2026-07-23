@@ -10,7 +10,9 @@ export default createEvent({
     [
       refs.pcs.cassian_veyl,
       ' decided to steal ',
-      refs.beasts.dire_wolf_pups,
+      refs.beasts.wolfie,
+      ' and ',
+      refs.beasts.sir_fabulous,
       ' from the stables, and ',
       refs.pcs.devan,
       ' enthusiastically agreed. A concentration spell made the pups invisible while the party left the estate.',

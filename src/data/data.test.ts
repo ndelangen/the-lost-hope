@@ -113,7 +113,7 @@ describe('items', () => {
   it('derives owned and carried PC items from item relationships', () => {
     expect(itemsOwnedBy('pc', pcs.devan.slug).map((item) => item.slug)).toEqual([
       items.flask_of_never_ending_booze.slug,
-      items.steve_the_interrogation_rock.slug,
+      items.steve_mace_of_returning.slug,
     ])
     expect(itemsCarriedBy('pc', pcs.swift_starblade.slug).map((item) => item.slug)).toEqual([
       items.demon_possessed_flying_broom.slug,
@@ -296,6 +296,7 @@ describe('campaign chronology', () => {
   it('uses explicit session numbers', () => {
     expect(sessions.arrival_in_fajanet.number).toBe(1)
     expect(sessions.escape_from_shadowpeak.number).toBe(10)
+    expect(sessions.the_flying_bazaar.number).toBe(11)
   })
 
   it('excludes absent Swift from the Session 10 party', () => {
@@ -454,7 +455,26 @@ describe('campaign chronology', () => {
     ])
   })
 
+  it('continues Session 11 from the ShadowPeak escape and boards the flying bazaar', () => {
+    expect(sessionDays(sessions.the_flying_bazaar)).toEqual([
+      {
+        day: 17,
+        events: [events.n2_e091, events.n2_e092, events.n2_e093, events.n2_e094, events.n2_e095],
+      },
+      {
+        day: 18,
+        events: [events.n2_e096, events.n2_e097, events.n2_e098, events.n2_e099, events.n2_e100],
+      },
+    ])
+    expect(sessionPcs(sessions.the_flying_bazaar).map((pc) => pc.slug)).toEqual([
+      'cassian-veyl',
+      'devan',
+      'jim',
+      'swift-starblade',
+    ])
+  })
+
   it('returns the latest event first', () => {
-    expect(sortedEvents()[0]?.data).toBe(events.n2_e056)
+    expect(sortedEvents()[0]?.data).toBe(events.n2_e100)
   })
 })

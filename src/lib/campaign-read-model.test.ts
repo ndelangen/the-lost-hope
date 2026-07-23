@@ -43,7 +43,7 @@ describe('campaign read model', () => {
     const progress = questProgress(quest.data)
     expect(progress?.event.slug).toBe('reach-badesh-victor-s-hometown')
     expect(progress?.event.data.day).toBe(10)
-    expect(progress?.campaignDaysAgo).toBe(7)
+    expect(progress?.campaignDaysAgo).toBe(8)
   })
 
   it('reuses common domain groups', () => {

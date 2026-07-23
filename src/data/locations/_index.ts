@@ -22,11 +22,14 @@ import shadow_realm from './shadow-realm.ts'
 import shadowpeak_mining_operation from './shadowpeak-mining-operation.ts'
 import shadowpeak_residential_district from './shadowpeak-residential-district.ts'
 import shadowpeak from './shadowpeak.ts'
+import sky_islands from './sky-islands.ts'
 import snowy_mountain_ruin from './snowy-mountain-ruin.ts'
 import snowy_mountains from './snowy-mountains.ts'
+import sylvias_flying_bazaar from './sylvias-flying-bazaar.ts'
 import the_blackstone from './the-blackstone.ts'
 import the_boat_to_fairhaven from './the-boat-to-fairhaven.ts'
 import the_boat_to_fajanet_celesta from './the-boat-to-fajanet-celesta.ts'
+import the_crater_bridge from './the-crater-bridge.ts'
 import the_green_light from './the-green-light.ts'
 import the_nest from './the-nest.ts'
 import the_sullen_monk from './the-sullen-monk.ts'
@@ -59,16 +62,19 @@ export default {
   shadowpeak,
   shadowpeak_mining_operation,
   shadowpeak_residential_district,
+  sky_islands,
   snowy_mountain_ruin,
   snowy_mountains,
   the_blackstone,
   the_sullen_monk,
+  the_crater_bridge,
   puzzle_room,
   reve,
   sea_of_unknown,
   shadow_realm,
   the_boat_to_fairhaven,
   the_boat_to_fajanet_celesta,
+  sylvias_flying_bazaar,
   the_green_light,
   the_nest,
   trapdoor,

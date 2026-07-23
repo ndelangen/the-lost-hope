@@ -6,7 +6,7 @@ Open questions for the author. Also used by the agent when editing data.
 include why the answer matters when it blocks a modeling or naming decision. Record confirmed canon
 in `src/data/` when answered. Do not use this file as an engineering backlog.
 
-**Play sessions:** Sessions **1–10** are dated and have event notes.
+**Play sessions:** Sessions **1–11** are dated and have event notes.
 
 ---
 
@@ -193,6 +193,20 @@ Every question must include **what we already know** — many sit unanswered acr
 
 ---
 
+## Session 11 — The Flying Bazaar
+
+- **How many campaign nights elapsed during the closing montage?**
+  - _Context:_ The montage aboard Sylvia’s flying bazaar mentions both three days passing and “two days aboard, one more to stay,” while also jumping between “later that evening” and “the next morning.”
+  - _Why asking:_ The answer determines the campaign day on which Session 12 begins.
+  - _Session:_ 11
+
+- **What are the names and exact whereabouts of Swift Starblade’s relatives?**
+  - _Context:_ Sylvia said Swift was searching for relatives scattered among islands near the Continent of the Dead, including a sister who is probably with one of Sylvia’s brothers. The transcript did not reliably preserve any relatives’ names.
+  - _Why asking:_ Named relatives should become NPC references instead of remaining unnamed prose.
+  - _Session:_ 11
+
+---
+
 ## Characters — still open
 
 | Who                    | Question                                                                                                         |
@@ -200,7 +214,7 @@ Every question must include **what we already know** — many sit unanswered acr
 | **Jim**                | Sorcerer bloodline. Real face/species. Pursuers vs. Green Light letter. Will Light fulfill "left alone by past"? |
 | **Revin**              | Monk subclass. Guild favor (forgotten). In-fiction fate if the DM ever revisits his disappearance.               |
 | **Cassian Veyl**       | Personality, patron, and exact obligations and enforcement terms in his watcher contract.                        |
-| **Swift Starblade**    | Rhys Greenleaf rename — when/why? Exact departure method and fan-gathering venue in Session 10.                  |
+| **Swift Starblade**    | Rhys Greenleaf rename — when/why? Exact departure method and fan-gathering venue in Session 10. Relative names.  |
 | **Devan**              | Paladin subclass/oath. Zone of truth answer.                                                                     |
 | **Light 13th Marshal** | Species; why these PCs; favor costs; angel/dragon tie; dino migration.                                           |
 | **Angel / Dragon**     | Names, ranks, zone-of-truth purpose.                                                                             |
