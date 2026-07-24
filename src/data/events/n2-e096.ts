@@ -3,7 +3,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
   name: 'Steve awakens as a magical mace of returning',
-  day: 18,
+  day: 19,
   location: refs.locations.sylvias_flying_bazaar,
   mark: { type: 'avatar', url: '/assets/pcs/devan.jpg' },
   notes: [

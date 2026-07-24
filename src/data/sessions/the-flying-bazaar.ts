@@ -12,11 +12,11 @@ export default createSession({
     refs.events.n2_e093,
     refs.events.n2_e094,
     refs.events.n2_e095,
-    refs.events.n2_e096,
     refs.events.n2_e097,
     refs.events.n2_e098,
     refs.events.n2_e099,
     refs.events.n2_e100,
+    refs.events.n2_e096,
     refs.events.n2_e101,
   ],
   notes: [

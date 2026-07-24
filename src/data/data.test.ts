@@ -463,11 +463,11 @@ describe('campaign chronology', () => {
       },
       {
         day: 18,
-        events: [events.n2_e096, events.n2_e097, events.n2_e098, events.n2_e099, events.n2_e100],
+        events: [events.n2_e097, events.n2_e098, events.n2_e099, events.n2_e100],
       },
       {
         day: 19,
-        events: [events.n2_e101],
+        events: [events.n2_e096, events.n2_e101],
       },
     ])
     expect(sessionPcs(sessions.the_flying_bazaar).map((pc) => pc.slug)).toEqual([
