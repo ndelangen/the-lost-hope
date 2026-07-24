@@ -1,6 +1,7 @@
 import type { IconType } from 'react-icons'
 import {
   GiCastleRuins,
+  GiCargoShip,
   GiCrossedSwords,
   GiExitDoor,
   GiGavel,
@@ -28,6 +29,7 @@ export const SESSION_ICONS = {
   'gi/GiCastleRuins': GiCastleRuins,
   'gi/GiMountainRoad': GiMountainRoad,
   'gi/GiExitDoor': GiExitDoor,
+  'gi/GiCargoShip': GiCargoShip,
   [SESSION_ICON_PLACEHOLDER]: GiJourney,
 } as const satisfies Record<string, IconType>
 

@@ -25,6 +25,11 @@ export default createPC({
   ],
   notes: [
     [
+      'Cassian remains lactose-intolerant; ',
+      refs.npcs.light_13th_marshal,
+      ' has not yet cured the condition.',
+    ],
+    [
       'A new adventurer who had only just met ',
       refs.npcs.light_13th_marshal,
       ' before signing a contract to watch over ',

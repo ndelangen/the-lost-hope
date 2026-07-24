@@ -14,7 +14,7 @@ export default createEvent({
       ' into the forest under the guise of showing him something, interrogated him, and ultimately killed him with a rock. ',
       refs.pcs.devan,
       ' kept the rock as ',
-      refs.items.steve_the_interrogation_rock,
+      refs.items.steve_mace_of_returning,
       ' because of his fond memories of the interrogation.',
     ],
     [

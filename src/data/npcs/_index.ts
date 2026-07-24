@@ -1,8 +1,11 @@
 import abraham from './abraham.ts'
+import alberto from './alberto.ts'
 import angel_of_the_mountain from './angel-of-the-mountain.ts'
 import bernard from './bernard.ts'
 import bessy from './bessy.ts'
+import blackbeard from './blackbeard.ts'
 import bob_the_gate_troll from './bob-the-gate-troll.ts'
+import bob_the_merchant from './bob-the-merchant.ts'
 import borris from './borris.ts'
 import crowy from './crowy.ts'
 import dragon_of_the_mountain from './dragon-of-the-mountain.ts'
@@ -27,6 +30,7 @@ import roberto from './roberto.ts'
 import samantha from './samantha.ts'
 import sering_ravenwood from './sering-ravenwood.ts'
 import sneeve from './sneeve.ts'
+import sylvia from './sylvia.ts'
 import the_12th_marshal from './the-12th-marshal.ts'
 import the_father from './the-father.ts'
 import the_mountain from './the-mountain.ts'
@@ -34,10 +38,13 @@ import verdant_haven_rangers from './verdant-haven-rangers.ts'
 
 export default {
   abraham,
+  alberto,
   angel_of_the_mountain,
   bernard,
   bessy,
+  blackbeard,
   bob_the_gate_troll,
+  bob_the_merchant,
   borris,
   crowy,
   dragon_of_the_mountain,
@@ -60,6 +67,7 @@ export default {
   roberto,
   samantha,
   sneeve,
+  sylvia,
   sering_ravenwood,
   the_father,
   the_12th_marshal,

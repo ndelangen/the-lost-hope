@@ -13,7 +13,9 @@ export default createEvent({
     ],
     [
       'The concentration spell hiding ',
-      refs.beasts.dire_wolf_pups,
+      refs.beasts.wolfie,
+      ' and ',
+      refs.beasts.sir_fabulous,
       ' ended during the fighting, exposing the theft in public.',
     ],
   ],

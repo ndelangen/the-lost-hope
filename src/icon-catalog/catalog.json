@@ -99713,7 +99713,12 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/bridge.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/events/n2-e091.ts",
+        "src/data/locations/the-crater-bridge.ts",
+        "src/lib/event-icons.tsx",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiBriefcase",
@@ -108042,6 +108047,7 @@
       "sourceUrl": "https://game-icons.net/1x1/faithtoken/card-random.html",
       "usedIn": [
         "src/data/events/n2-e045.ts",
+        "src/data/events/n2-e094.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -108150,7 +108156,14 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/cargo-ship.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/events/n2-e092.ts",
+        "src/data/locations/sylvias-flying-bazaar.ts",
+        "src/data/sessions/the-flying-bazaar.ts",
+        "src/lib/event-icons.tsx",
+        "src/lib/location-icons.tsx",
+        "src/lib/session-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiCarillon",
@@ -122332,7 +122345,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/dagger-rose.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/dagger-of-passive-aggression.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiDaggers",
@@ -129061,7 +129077,6 @@
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/dripping-stone.html",
       "usedIn": [
-        "src/data/items/steve-the-interrogation-rock.ts",
         "src/lib/item-icons.tsx"
       ]
     },
@@ -163244,7 +163259,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/island.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/sky-islands.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiItalia",
@@ -173553,7 +173571,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/mace-head.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/steve-mace-of-returning.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiMachete",
@@ -189863,6 +189884,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/passport.html",
       "usedIn": [
         "src/data/events/n2-e042.ts",
+        "src/data/events/n2-e093.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -209331,6 +209353,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/secret-book.html",
       "usedIn": [
         "src/data/events/n2-e075.ts",
+        "src/data/events/n2-e099.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -232198,6 +232221,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/team-upgrade.html",
       "usedIn": [
         "src/data/events/n2-e026.ts",
+        "src/data/events/n2-e097.ts",
         "src/lib/event-icons.tsx"
       ]
     },

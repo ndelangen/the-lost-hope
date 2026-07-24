@@ -1,12 +1,21 @@
 import type { IconType } from 'react-icons'
-import { GiDrippingStone, GiMagicBroom, GiRoundBottomFlask, GiSwordWound } from 'react-icons/gi'
+import {
+  GiDaggerRose,
+  GiDrippingStone,
+  GiMaceHead,
+  GiMagicBroom,
+  GiRoundBottomFlask,
+  GiSwordWound,
+} from 'react-icons/gi'
 
 import { cn } from '#/lib/utils'
 
 export const ITEM_ICONS = {
   'gi/GiMagicBroom': GiMagicBroom,
   'gi/GiSwordWound': GiSwordWound,
+  'gi/GiDaggerRose': GiDaggerRose,
   'gi/GiDrippingStone': GiDrippingStone,
+  'gi/GiMaceHead': GiMaceHead,
   'gi/GiRoundBottomFlask': GiRoundBottomFlask,
 } as const satisfies Record<string, IconType>
 
