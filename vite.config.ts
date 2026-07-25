@@ -1,7 +1,7 @@
 import tailwindcss from '@tailwindcss/vite'
 import { tanstackRouter } from '@tanstack/router-plugin/vite'
 import viteReact from '@vitejs/plugin-react'
-import { defineConfig } from 'vite'
+import { defineConfig, loadEnv } from 'vite'
 import type { Plugin } from 'vite'
 
 import { generateRefs, REFERENCE_SOURCE_PATHS } from './scripts/generate-refs.ts'
@@ -24,13 +24,24 @@ function generatedRefsPlugin(): Plugin {
   }
 }
 
-const config = defineConfig({
-  plugins: [
-    generatedRefsPlugin(),
-    tailwindcss(),
-    tanstackRouter({ target: 'react', autoCodeSplitting: true }),
-    viteReact(),
-  ],
+const config = defineConfig(({ mode }) => {
+  const questionsEnvironment = loadEnv(mode, process.cwd(), 'QUESTIONS_ACCESS_CODE_SHA256')
+  const accessCodeHash =
+    process.env.QUESTIONS_ACCESS_CODE_SHA256 ??
+    questionsEnvironment.QUESTIONS_ACCESS_CODE_SHA256 ??
+    ''
+
+  return {
+    define: {
+      QUESTIONS_ACCESS_CODE_DIGEST: JSON.stringify(accessCodeHash),
+    },
+    plugins: [
+      generatedRefsPlugin(),
+      tailwindcss(),
+      tanstackRouter({ target: 'react', autoCodeSplitting: true }),
+      viteReact(),
+    ],
+  }
 })
 
 export default config
