@@ -9,6 +9,7 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as QuestionsRouteImport } from './routes/questions'
 import { Route as IntroRouteImport } from './routes/intro'
 import { Route as IconsRouteImport } from './routes/[_]icons'
 import { Route as IndexRouteImport } from './routes/index'
@@ -33,6 +34,11 @@ import { Route as ItemsDetailSlugRouteImport } from './routes/items/detail.$slug
 import { Route as EventsDetailSlugRouteImport } from './routes/events/detail.$slug'
 import { Route as BeastsDetailSlugRouteImport } from './routes/beasts/detail.$slug'
 
+const QuestionsRoute = QuestionsRouteImport.update({
+  id: '/questions',
+  path: '/questions',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IntroRoute = IntroRouteImport.update({
   id: '/intro',
   path: '/intro',
@@ -153,6 +159,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/_icons': typeof IconsRoute
   '/intro': typeof IntroRoute
+  '/questions': typeof QuestionsRoute
   '/locations/list': typeof LocationsListRoute
   '/locations/map': typeof LocationsMapRoute
   '/beasts/': typeof BeastsIndexRoute
@@ -178,6 +185,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/_icons': typeof IconsRoute
   '/intro': typeof IntroRoute
+  '/questions': typeof QuestionsRoute
   '/locations/list': typeof LocationsListRoute
   '/locations/map': typeof LocationsMapRoute
   '/beasts': typeof BeastsIndexRoute
@@ -204,6 +212,7 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/_icons': typeof IconsRoute
   '/intro': typeof IntroRoute
+  '/questions': typeof QuestionsRoute
   '/locations/list': typeof LocationsListRoute
   '/locations/map': typeof LocationsMapRoute
   '/beasts/': typeof BeastsIndexRoute
@@ -231,6 +240,7 @@ export interface FileRouteTypes {
     | '/'
     | '/_icons'
     | '/intro'
+    | '/questions'
     | '/locations/list'
     | '/locations/map'
     | '/beasts/'
@@ -256,6 +266,7 @@ export interface FileRouteTypes {
     | '/'
     | '/_icons'
     | '/intro'
+    | '/questions'
     | '/locations/list'
     | '/locations/map'
     | '/beasts'
@@ -281,6 +292,7 @@ export interface FileRouteTypes {
     | '/'
     | '/_icons'
     | '/intro'
+    | '/questions'
     | '/locations/list'
     | '/locations/map'
     | '/beasts/'
@@ -307,6 +319,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   IconsRoute: typeof IconsRoute
   IntroRoute: typeof IntroRoute
+  QuestionsRoute: typeof QuestionsRoute
   LocationsListRoute: typeof LocationsListRoute
   LocationsMapRoute: typeof LocationsMapRoute
   BeastsIndexRoute: typeof BeastsIndexRoute
@@ -331,6 +344,13 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/questions': {
+      id: '/questions'
+      path: '/questions'
+      fullPath: '/questions'
+      preLoaderRoute: typeof QuestionsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/intro': {
       id: '/intro'
       path: '/intro'
@@ -499,6 +519,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   IconsRoute: IconsRoute,
   IntroRoute: IntroRoute,
+  QuestionsRoute: QuestionsRoute,
   LocationsListRoute: LocationsListRoute,
   LocationsMapRoute: LocationsMapRoute,
   BeastsIndexRoute: BeastsIndexRoute,
