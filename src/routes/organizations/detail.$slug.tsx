@@ -1,6 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router'
 
 import { ContentRenderer } from '#/components/content-renderer'
+import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail, EntityNotFound } from '#/components/entity-page'
 import { NpcReference } from '#/components/npc-reference'
 import { PcReference } from '#/components/pc-reference'
@@ -34,6 +35,7 @@ function OrganizationPage() {
           <ContentRenderer content={organization.notes} className="text-muted-foreground text-lg" />
         ) : null
       }
+      correction={<EntityCorrectionSubmission entity={entity} />}
       referencedBy={referencedByItems('organization', slug)}
     >
       {memberGroups.length > 0 ? (

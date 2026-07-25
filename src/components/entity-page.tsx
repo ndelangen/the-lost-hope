@@ -102,6 +102,7 @@ export function EntityDetail({
   headerContext,
   headerAside,
   headerContent,
+  correction,
   referencedBy,
   children,
 }: {
@@ -112,6 +113,7 @@ export function EntityDetail({
   headerContext?: ReactNode
   headerAside?: ReactNode
   headerContent?: ReactNode
+  correction: ReactNode
   referencedBy: ReferencedByItem[]
   children?: ReactNode
 }) {
@@ -129,6 +131,7 @@ export function EntityDetail({
         {headerContent}
       </EntityDetailHeader>
       {children}
+      {correction}
       {referencedBy.length > 0 ? <ReferencedBy items={referencedBy} /> : null}
     </Stack>
   )

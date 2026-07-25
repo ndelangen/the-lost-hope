@@ -1,0 +1,1 @@
+declare const CORRECTIONS_ACCESS_CODE_DIGEST: string

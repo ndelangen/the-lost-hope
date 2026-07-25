@@ -3,6 +3,7 @@ import { createFileRoute } from '@tanstack/react-router'
 import { CharacterItems } from '#/components/character-items'
 import { CharacterMemberships } from '#/components/character-memberships'
 import { ContentRenderer } from '#/components/content-renderer'
+import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail, EntityNotFound } from '#/components/entity-page'
 import { Avatar } from '#/components/ui/avatar'
 import { Inline, Stack } from '#/components/ui/layout'
@@ -63,6 +64,7 @@ function PcPage() {
           ) : null}
         </Stack>
       }
+      correction={<EntityCorrectionSubmission entity={entity} />}
       referencedBy={referencedByItems('pc', slug)}
     >
       <Stack gap="2xl">

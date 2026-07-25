@@ -2,6 +2,7 @@ import { createFileRoute } from '@tanstack/react-router'
 import { Calendar } from 'lucide-react'
 
 import { ContentRenderer } from '#/components/content-renderer'
+import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityKindPill } from '#/components/entity-kind-pill'
 import { EntityDetail, EntityNotFound } from '#/components/entity-page'
 import { LocationReference } from '#/components/location-reference'
@@ -58,6 +59,7 @@ function EventPage() {
           </Inline>
         ) : null
       }
+      correction={<EntityCorrectionSubmission entity={entity} />}
       referencedBy={referencedByItems('event', slug)}
     >
       <Stack as="section" gap="lg">

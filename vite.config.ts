@@ -25,15 +25,15 @@ function generatedRefsPlugin(): Plugin {
 }
 
 const config = defineConfig(({ mode }) => {
-  const questionsEnvironment = loadEnv(mode, process.cwd(), 'QUESTIONS_ACCESS_CODE_SHA256')
+  const correctionsEnvironment = loadEnv(mode, process.cwd(), 'CORRECTIONS_ACCESS_CODE_SHA256')
   const accessCodeHash =
-    process.env.QUESTIONS_ACCESS_CODE_SHA256 ??
-    questionsEnvironment.QUESTIONS_ACCESS_CODE_SHA256 ??
+    process.env.CORRECTIONS_ACCESS_CODE_SHA256 ??
+    correctionsEnvironment.CORRECTIONS_ACCESS_CODE_SHA256 ??
     ''
 
   return {
     define: {
-      QUESTIONS_ACCESS_CODE_DIGEST: JSON.stringify(accessCodeHash),
+      CORRECTIONS_ACCESS_CODE_DIGEST: JSON.stringify(accessCodeHash),
     },
     plugins: [
       generatedRefsPlugin(),
