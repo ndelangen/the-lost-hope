@@ -12,5 +12,5 @@ export const Route = createFileRoute('/questions')({
 const items = splitQuestionsMarkdown(questionsMarkdown)
 
 function QuestionsRoute() {
-  return <QuestionsPage items={items} expectedAccessCodeHash={QUESTIONS_ACCESS_CODE_DIGEST} />
+  return <QuestionsPage items={items} expectedAccessCodeHash={CORRECTIONS_ACCESS_CODE_DIGEST} />
 }

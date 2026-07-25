@@ -1,6 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router'
 
 import { ContentRenderer } from '#/components/content-renderer'
+import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail, EntityNotFound } from '#/components/entity-page'
 import { LocationReference } from '#/components/location-reference'
 import { Avatar } from '#/components/ui/avatar'
@@ -43,6 +44,7 @@ function BeastPage() {
           {home ? <LocationReference slug={home.slug} /> : null}
         </Inline>
       }
+      correction={<EntityCorrectionSubmission entity={entity} />}
       referencedBy={referencedByItems('beast', slug)}
     >
       {beast.notes ? <ContentRenderer content={beast.notes} /> : null}

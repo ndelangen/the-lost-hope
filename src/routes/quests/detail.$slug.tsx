@@ -1,5 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 
+import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail, EntityNotFound } from '#/components/entity-page'
 import { QuestInvestigation } from '#/components/quest-investigation'
 import { Pill } from '#/components/ui/pill'
@@ -31,6 +32,7 @@ function QuestPage() {
       headerAside={
         <Pill variant={quest.status === 'open' ? 'warning' : 'success'}>{quest.status}</Pill>
       }
+      correction={<EntityCorrectionSubmission entity={entity} />}
       referencedBy={referencedByItems('quest', slug)}
     >
       <QuestInvestigation detail={detail} conclusion={quest.conclusion} status={quest.status} />

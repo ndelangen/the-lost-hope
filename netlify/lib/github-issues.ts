@@ -1,6 +1,6 @@
 import { App, Octokit } from 'octokit'
 
-import type { IssueInput } from '../functions/submit-question'
+import type { IssueInput } from '../functions/submit-correction'
 
 const NoRetryOctokit = Octokit.defaults({
   retry: { enabled: false },

@@ -1,1 +1,0 @@
-declare const QUESTIONS_ACCESS_CODE_DIGEST: string

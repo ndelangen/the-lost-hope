@@ -1,6 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router'
 
 import { ContentRenderer } from '#/components/content-renderer'
+import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail, EntityNotFound } from '#/components/entity-page'
 import { EntityReference } from '#/components/entity-reference'
 import { Grid, Stack } from '#/components/ui/layout'
@@ -29,6 +30,7 @@ function ItemPage() {
         variant: 'icon',
         content: <ItemIcon icon={item.icon} className="size-10" />,
       }}
+      correction={<EntityCorrectionSubmission entity={entity} />}
       referencedBy={referencedByItems('item', slug)}
     >
       <Grid as="section" gap="lg" smTemplate={2}>

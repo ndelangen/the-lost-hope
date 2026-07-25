@@ -47,11 +47,11 @@ describe('QuestionsPage', () => {
     expect(screen.getByText('Item 1')).not.toBeNull()
     expect(screen.getByText('Item 2')).not.toBeNull()
     expect(screen.getAllByRole('textbox', { name: 'Your correction' })).toHaveLength(2)
-    expect(localStorage.getItem('dag:questions:access-code')).toBe(accessCode)
+    expect(localStorage.getItem('dag:corrections:access-code')).toBe(accessCode)
   })
 
   it('restores access when the remembered code still matches', async () => {
-    localStorage.setItem('dag:questions:access-code', accessCode)
+    localStorage.setItem('dag:corrections:access-code', accessCode)
 
     render(<QuestionsPage items={items} expectedAccessCodeHash={expectedAccessCodeHash} />)
 
@@ -96,14 +96,17 @@ describe('QuestionsPage', () => {
     fireEvent.click(screen.getAllByRole('button', { name: 'Submit correction' })[0])
 
     expect(await screen.findByRole('button', { name: 'Sending' })).not.toBeNull()
-    expect(fetchMock).toHaveBeenCalledWith('/api/questions/submit', {
+    expect(fetchMock).toHaveBeenCalledWith('/api/corrections/submit', {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
       body: JSON.stringify({
         accessCode,
-        itemNumber: 1,
-        itemMarkdown: items[0].markdown,
-        answer: 'Cassian ate the cheesecake.',
+        context: {
+          type: 'question',
+          itemNumber: 1,
+          itemMarkdown: items[0].markdown,
+        },
+        text: 'Cassian ate the cheesecake.',
       }),
     })
 
@@ -169,6 +172,6 @@ describe('QuestionsPage', () => {
 
     expect(await screen.findByLabelText('Shared access code')).not.toBeNull()
     expect(screen.getByRole('alert').textContent).toContain('no longer accepted')
-    expect(localStorage.getItem('dag:questions:access-code')).toBeNull()
+    expect(localStorage.getItem('dag:corrections:access-code')).toBeNull()
   })
 })

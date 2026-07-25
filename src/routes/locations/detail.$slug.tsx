@@ -1,6 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router'
 
 import { ContentRenderer } from '#/components/content-renderer'
+import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail, EntityNotFound } from '#/components/entity-page'
 import { LocationReference } from '#/components/location-reference'
 import { LocationMapImage } from '#/components/map-placeholder'
@@ -68,6 +69,7 @@ function LocationDetailPage() {
           ) : null}
         </Stack>
       }
+      correction={<EntityCorrectionSubmission entity={entity} />}
       referencedBy={referencedByItems('location', slug)}
     >
       <Stack gap="2xl">

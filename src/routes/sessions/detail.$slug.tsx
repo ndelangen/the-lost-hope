@@ -2,6 +2,7 @@ import { createFileRoute } from '@tanstack/react-router'
 import { Calendar, List } from 'lucide-react'
 
 import { ContentRenderer } from '#/components/content-renderer'
+import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail, EntityNotFound } from '#/components/entity-page'
 import { PcReference } from '#/components/pc-reference'
 import { SessionTimeline } from '#/components/session-timeline'
@@ -44,6 +45,7 @@ function SessionPage() {
           </Inline>
         </Inline>
       }
+      correction={<EntityCorrectionSubmission entity={entity} />}
       referencedBy={referencedByItems('session', slug)}
     >
       <Stack gap="2xl">
