@@ -103,6 +103,7 @@ export default createCampaign({
     ['Both DM tokens and curse tokens are intended to create fun for different play styles.'],
   ],
   quests: [
+    quests.bring_swift_s_sister_to_sylvia,
     quests.dino_migration,
     quests.the_cursed_sword,
     quests.the_fairhaven_invasion,

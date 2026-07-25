@@ -1,3 +1,4 @@
+import bring_swift_s_sister_to_sylvia from './bring-swift-s-sister-to-sylvia.ts'
 import dino_migration from './dino-migration.ts'
 import fajanet_tunnels_shadow_realm from './fajanet-tunnels-shadow-realm.ts'
 import jims_past from './jims-past.ts'
@@ -12,6 +13,7 @@ import who_is_giggles from './who-is-giggles.ts'
 import who_is_light from './who-is-light.ts'
 
 export default {
+  bring_swift_s_sister_to_sylvia,
   dino_migration,
   fajanet_tunnels_shadow_realm,
   jims_past,

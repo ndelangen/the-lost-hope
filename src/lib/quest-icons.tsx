@@ -3,6 +3,7 @@ import { FaUserSecret } from 'react-icons/fa'
 import {
   GiBackwardTime,
   GiBottledShadow,
+  GiEngagementRing,
   GiGoblinHead,
   GiHolySymbol,
   GiHoodedFigure,
@@ -20,6 +21,7 @@ export const QUEST_ICONS = {
   'fa/FaUserSecret': FaUserSecret,
   'gi/GiBackwardTime': GiBackwardTime,
   'gi/GiBottledShadow': GiBottledShadow,
+  'gi/GiEngagementRing': GiEngagementRing,
   'gi/GiGoblinHead': GiGoblinHead,
   'gi/GiHolySymbol': GiHolySymbol,
   'gi/GiHoodedFigure': GiHoodedFigure,

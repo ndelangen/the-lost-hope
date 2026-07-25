@@ -26,7 +26,14 @@ export default createEvent({
       '.',
     ],
     [
-      'Sylvia said Swift’s sister was probably with one of Sylvia’s brothers and promised to spare her if the party brought her back alive. The relatives’ names, exact locations, and the reliability of Sylvia’s account remain unconfirmed.',
+      refs.npcs.sylvia,
+      ' gave ',
+      refs.pcs.cassian_veyl,
+      ' and ',
+      refs.pcs.jim,
+      ' a private quest: find ',
+      refs.pcs.swift_starblade,
+      '’s younger sister and bring her alive to Sylvia to marry one of Sylvia’s brothers. Sylvia said the marriage would settle the dispute between their families. The sister’s name and exact whereabouts, and the identity of the intended brother, remain unconfirmed.',
     ],
     [
       'Sylvia said a special magical suit of armour can be made by collecting twelve daggers like the ',
@@ -34,7 +41,7 @@ export default createEvent({
       '. She had one such dagger and offered it for 1,000 GP.',
     ],
     [
-      'Only Cassian and Jim were present for Sylvia’s account. At the same time, ',
+      'Only Cassian and Jim were present for Sylvia’s account, and they are the only party members who know about the quest. At the same time, ',
       refs.pcs.swift_starblade,
       ' was talking with ',
       refs.npcs.alberto,
