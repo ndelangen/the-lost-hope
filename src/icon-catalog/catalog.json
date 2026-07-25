@@ -129077,6 +129077,7 @@
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/dripping-stone.html",
       "usedIn": [
+        "src/data/items/steve-the-interrogation-rock.ts",
         "src/lib/item-icons.tsx"
       ]
     },

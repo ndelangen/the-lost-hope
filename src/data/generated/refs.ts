@@ -255,6 +255,7 @@ export const refs = {
     demon_possessed_flying_broom: ref('item', 'demon_possessed_flying_broom'),
     flask_of_never_ending_booze: ref('item', 'flask_of_never_ending_booze'),
     steve_mace_of_returning: ref('item', 'steve_mace_of_returning'),
+    steve_the_interrogation_rock: ref('item', 'steve_the_interrogation_rock'),
   },
 } as const
 

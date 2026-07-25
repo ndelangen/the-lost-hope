@@ -26,8 +26,10 @@ export default createEvent({
       ' paid 30 GP for ',
       refs.npcs.bob_the_merchant,
       ' to combine his old mace with ',
+      refs.items.steve_the_interrogation_rock,
+      ', transforming them into ',
       refs.items.steve_mace_of_returning,
-      ' and transform Steve into a stronger returning weapon.',
+      '.',
     ],
   ],
 })

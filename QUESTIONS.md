@@ -205,6 +205,11 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Why asking:_ Named relatives should become NPC references instead of remaining unnamed prose.
   - _Session:_ 11
 
+- **What is the negative effect of Cassian’s Wolfie-tracking ring?**
+  - _Context:_ Bob gave Cassian an unnamed ring that always lets him locate Wolfie, but the ring also has an unidentified negative effect.
+  - _Why asking:_ The drawback is established canon, but its actual effect cannot be represented until it is revealed.
+  - _Session:_ 11
+
 ---
 
 ## Characters — still open
