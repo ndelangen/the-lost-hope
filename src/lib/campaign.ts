@@ -577,14 +577,41 @@ export function sessionSlugForEvent(eventSlug: string): string | undefined {
   return campaignModel.chronology.sessionSlugByEventSlug.get(eventSlug)
 }
 
+function escapeRegExp(value: string): string {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+}
+
 export function searchEntities(query: string, limit = 20): Entity[] {
   const q = query.trim().toLowerCase()
   if (!q) return []
-  const hits: Entity[] = []
+  const wholeQueryPattern = new RegExp(
+    `(^|[^\\p{L}\\p{N}])${escapeRegExp(q)}($|[^\\p{L}\\p{N}])`,
+    'u',
+  )
+  const hits: { entity: Entity; rank: number }[] = []
+
   for (const kind of COLLECTIONS) {
     for (const entity of allEntities(kind)) {
-      if (campaignModel.searchTextByEntity.get(entity)?.includes(q)) hits.push(entity)
+      const searchText = campaignModel.searchTextByEntity.get(entity)
+      if (!searchText?.includes(q)) continue
+
+      const name = entity.data.name.toLowerCase()
+      const rank =
+        name === q
+          ? 0
+          : wholeQueryPattern.test(name)
+            ? 1
+            : name.includes(q)
+              ? 2
+              : wholeQueryPattern.test(searchText)
+                ? 3
+                : 4
+      hits.push({ entity, rank })
     }
   }
-  return hits.slice(0, limit)
+
+  return hits
+    .toSorted((a, b) => a.rank - b.rank)
+    .slice(0, limit)
+    .map(({ entity }) => entity)
 }
