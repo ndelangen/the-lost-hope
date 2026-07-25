@@ -220,6 +220,7 @@ export const refs = {
     verdant_haven_forest: ref('location', 'verdant_haven_forest'),
   },
   quests: {
+    bring_swift_s_sister_to_sylvia: ref('quest', 'bring_swift_s_sister_to_sylvia'),
     dino_migration: ref('quest', 'dino_migration'),
     fajanet_tunnels_shadow_realm: ref('quest', 'fajanet_tunnels_shadow_realm'),
     jims_past: ref('quest', 'jims_past'),

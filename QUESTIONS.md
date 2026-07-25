@@ -216,8 +216,8 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Session:_ 11
 
 - **What are the names and exact whereabouts of Swift Starblade’s relatives?**
-  - _Context:_ Sylvia said Swift was searching for relatives scattered among islands near the Continent of the Dead, including a sister who is probably with one of Sylvia’s brothers. The transcript did not reliably preserve any relatives’ names.
-  - _Why asking:_ Named relatives should become NPC references instead of remaining unnamed prose.
+  - _Context:_ Sylvia said Swift was searching for relatives scattered among islands near the Continent of the Dead. She privately tasked Jim and Cassian with finding Swift’s younger sister and bringing her alive to Sylvia to marry one of Sylvia’s brothers, which Sylvia said would settle the family dispute. The sister’s name, location, and intended husband remain unknown.
+  - _Why asking:_ Named relatives should become NPC references instead of remaining unnamed prose, and the answers define the objective of [Bring Swift’s Sister to Sylvia](/quests/detail/bring-swift-s-sister-to-sylvia).
   - _Session:_ 11
 
 - **What caused forty-one guests to be food-poisoned during Jim’s trial shift?**

@@ -133227,7 +133227,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/engagement-ring.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/quests/bring-swift-s-sister-to-sylvia.ts",
+        "src/lib/quest-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiEnlightenment",
