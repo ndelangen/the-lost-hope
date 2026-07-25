@@ -263992,7 +263992,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/chevron-left",
-      "usedIn": []
+      "usedIn": [
+        "src/components/prototype-switcher.tsx"
+      ]
     },
     {
       "id": "lucide/ChevronRight",
@@ -264035,7 +264037,9 @@
       "usedIn": [
         "src/components/campaign-shell/nav.tsx",
         "src/components/campaign-shell/sidebar.tsx",
-        "src/components/locations-index.tsx"
+        "src/components/locations-index.tsx",
+        "src/components/prototype-switcher.tsx",
+        "src/routes/questions-prototype.tsx"
       ]
     },
     {
@@ -264478,7 +264482,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/circle-alert",
-      "usedIn": []
+      "usedIn": [
+        "src/routes/questions-prototype.tsx"
+      ]
     },
     {
       "id": "lucide/CircleArrowDown",
@@ -275037,7 +275043,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/flask-conical",
-      "usedIn": []
+      "usedIn": [
+        "src/components/prototype-switcher.tsx"
+      ]
     },
     {
       "id": "lucide/FlaskConicalOff",
@@ -281125,7 +281133,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/key-round",
-      "usedIn": []
+      "usedIn": [
+        "src/routes/questions-prototype.tsx"
+      ]
     },
     {
       "id": "lucide/KeySquare",
@@ -283199,7 +283209,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/loader-circle",
-      "usedIn": []
+      "usedIn": [
+        "src/routes/questions-prototype.tsx"
+      ]
     },
     {
       "id": "lucide/LoaderPinwheel",
@@ -286221,7 +286233,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/message-square-text",
-      "usedIn": []
+      "usedIn": [
+        "src/routes/questions-prototype.tsx"
+      ]
     },
     {
       "id": "lucide/MessageSquareWarning",
@@ -293522,7 +293536,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/rotate-ccw",
-      "usedIn": []
+      "usedIn": [
+        "src/routes/questions-prototype.tsx"
+      ]
     },
     {
       "id": "lucide/RotateCcwKey",
@@ -295081,7 +295097,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/send",
-      "usedIn": []
+      "usedIn": [
+        "src/routes/questions-prototype.tsx"
+      ]
     },
     {
       "id": "lucide/SendHorizontal",
@@ -295783,7 +295801,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/shield-check",
-      "usedIn": []
+      "usedIn": [
+        "src/routes/questions-prototype.tsx"
+      ]
     },
     {
       "id": "lucide/ShieldEllipsis",
