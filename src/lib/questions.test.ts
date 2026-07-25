@@ -37,4 +37,37 @@ describe('splitQuestionsMarkdown', () => {
       },
     ])
   })
+
+  it('does not split horizontal-rule syntax rendered as Markdown code', () => {
+    const markdown = [
+      '# Campaign questions',
+      '',
+      '    ---',
+      '',
+      '```md',
+      '---',
+      '```',
+      '',
+      'Setext heading',
+      '---',
+      '',
+      '> ---',
+      '',
+      '---',
+      '',
+      '## Actual second item',
+    ].join('\n')
+
+    expect(splitQuestionsMarkdown(markdown)).toEqual([
+      {
+        itemNumber: 1,
+        markdown:
+          '# Campaign questions\n\n    ---\n\n```md\n---\n```\n\nSetext heading\n---\n\n> ---',
+      },
+      {
+        itemNumber: 2,
+        markdown: '## Actual second item',
+      },
+    ])
+  })
 })
