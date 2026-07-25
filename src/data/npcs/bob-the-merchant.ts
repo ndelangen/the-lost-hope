@@ -9,14 +9,5 @@ export default createNPC({
     [
       'A skeletal merchant with blue flames in his eye sockets, fine clothes, and an enormous stock of magical trinkets. He presents himself from inside a mimic chest at his stall.',
     ],
-    [
-      'The party first dealt with him through ',
-      refs.organizations.beasts_and_dwarf,
-      ' in ',
-      refs.locations.fairhaven,
-      ' and met him again aboard ',
-      refs.locations.sylvias_flying_bazaar,
-      '.',
-    ],
   ],
 })

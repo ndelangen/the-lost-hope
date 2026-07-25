@@ -29,6 +29,11 @@ export default createEvent({
       'Sylvia said Swift’s sister was probably with one of Sylvia’s brothers and promised to spare her if the party brought her back alive. The relatives’ names, exact locations, and the reliability of Sylvia’s account remain unconfirmed.',
     ],
     [
+      'Sylvia said a special magical suit of armour can be made by collecting twelve daggers like the ',
+      refs.items.dagger_of_passive_aggression,
+      '. She had one such dagger and offered it for 1,000 GP.',
+    ],
+    [
       'Only Cassian and Jim were present for Sylvia’s account. At the same time, ',
       refs.pcs.swift_starblade,
       ' was talking with ',
