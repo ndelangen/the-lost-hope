@@ -13,7 +13,7 @@ export default createEvent({
       ' offered his services as a cook and received a trial shift after claiming that he could make cheesecake.',
     ],
     [
-      'The following morning, his cooking failed catastrophically and food-poisoned forty-one guests.',
+      'The following morning, forty-one guests were food-poisoned during the trial shift. The exact cause remains unknown; the ship’s kitchen itself was not at fault.',
     ],
     [
       refs.npcs.sylvia,

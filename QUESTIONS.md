@@ -220,6 +220,11 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Why asking:_ Named relatives should become NPC references instead of remaining unnamed prose.
   - _Session:_ 11
 
+- **What caused forty-one guests to be food-poisoned during Jim’s trial shift?**
+  - _Context:_ Forty-one guests became ill after Jim’s first shift as the flying bazaar’s cook. The ship’s kitchen itself was not at fault, but the actual cause of the poisoning remains unknown.
+  - _Why asking:_ The event should not attribute the failure to Jim’s cooking, an ingredient, or the kitchen without supporting canon.
+  - _Session:_ 11 ([n2-e101](/events/jim-poisons-forty-one-guests-and-is-fired-as-ship-s-cook))
+
 - **What is the negative effect of Cassian’s Wolfie-tracking ring?**
   - _Context:_ Bob gave Cassian the [Wolfie-Tracking Ring](/items/wolfie-tracking-ring), which always lets him locate Wolfie but also has an unidentified negative effect.
   - _Why asking:_ The drawback is established canon, but its actual effect cannot be represented until it is revealed.

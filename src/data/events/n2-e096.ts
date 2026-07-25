@@ -9,9 +9,13 @@ export default createEvent({
   notes: [
     [
       refs.pcs.devan,
-      ' awoke to find ',
+      ' awoke to find that ',
+      refs.npcs.bessy,
+      ' had completed his request by combining ',
+      refs.items.steve_the_interrogation_rock,
+      ' with the mace he had been carrying, creating ',
       refs.items.steve_mace_of_returning,
-      ' completed: a magical mace with a polished obsidian head, an ancient-bark haft, and an enchantment that returns it to its wielder after a thrown attack.',
+      ': a magical mace with a polished obsidian head, an ancient-bark haft, and an enchantment that returns it to its wielder after a thrown attack.',
     ],
   ],
 })
