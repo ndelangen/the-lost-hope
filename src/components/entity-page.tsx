@@ -2,6 +2,10 @@ import { Link } from '@tanstack/react-router'
 import { ArrowLeft, Clock3 } from 'lucide-react'
 import type { ComponentType, ReactNode } from 'react'
 
+import {
+  DetailCorrectionPrototype,
+  DetailCorrectionPrototypeSwitcher,
+} from '#/components/detail-correction-prototype'
 import { EntityReference } from '#/components/entity-reference'
 import { Card, CardDescription, CardHeader, CardTitle } from '#/components/ui/card'
 import { Grid, Inline, Stack, SwitchLayout } from '#/components/ui/layout'
@@ -128,8 +132,12 @@ export function EntityDetail({
       >
         {headerContent}
       </EntityDetailHeader>
+      <DetailCorrectionPrototype placement="after-header" entityLabel={title} />
       {children}
+      <DetailCorrectionPrototype placement="after-content" entityLabel={title} />
       {referencedBy.length > 0 ? <ReferencedBy items={referencedBy} /> : null}
+      <DetailCorrectionPrototype placement="after-references" entityLabel={title} />
+      <DetailCorrectionPrototypeSwitcher />
     </Stack>
   )
 }
