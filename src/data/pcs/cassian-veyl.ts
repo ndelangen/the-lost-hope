@@ -25,9 +25,9 @@ export default createPC({
   ],
   notes: [
     [
-      'Cassian remains lactose-intolerant; ',
+      'Cassian asked ',
       refs.npcs.light_13th_marshal,
-      ' has not yet cured the condition.',
+      ' to use his guild favor to cure his lactose intolerance and believed the favor had been fulfilled. The condition remains; Light has not yet delivered the cure.',
     ],
     [
       'A new adventurer who had only just met ',

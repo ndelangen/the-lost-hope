@@ -9,7 +9,9 @@ export default createEvent({
   notes: [
     [
       refs.pcs.cassian_veyl,
-      ' ate cheesecake and, about ten minutes later, failed to reach a toilet. He defecated in a bucket that turned out to contain expensive caviar, ruining it and fouling part of the deck.',
+      ' ate cheesecake believing ',
+      refs.npcs.light_13th_marshal,
+      ' had already fulfilled his guild favor by curing his lactose intolerance. About ten minutes later, Cassian failed to reach a toilet. He defecated in a bucket that turned out to contain expensive caviar, ruining it and fouling part of the deck.',
     ],
     [
       refs.npcs.sylvia,
