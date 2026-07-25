@@ -1,4 +1,5 @@
 import type { IconType } from 'react-icons'
+import { FaAtlas, FaRing } from 'react-icons/fa'
 import {
   GiDaggerRose,
   GiDrippingStone,
@@ -11,6 +12,8 @@ import {
 import { cn } from '#/lib/utils'
 
 export const ITEM_ICONS = {
+  'fa/FaAtlas': FaAtlas,
+  'fa/FaRing': FaRing,
   'gi/GiMagicBroom': GiMagicBroom,
   'gi/GiSwordWound': GiSwordWound,
   'gi/GiDaggerRose': GiDaggerRose,

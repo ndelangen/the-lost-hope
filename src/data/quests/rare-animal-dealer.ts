@@ -14,7 +14,7 @@ export default createQuest({
     ],
     [
       'Animal #1 (Phoenix): party found a phoenix feather in an offshoot tunnel, then a young phoenix wrapped in a cocoon, guarded by a ',
-      refs.npcs.giant_spider,
+      refs.beasts.giant_spider,
       '. ',
       refs.pcs.jim,
       ' freed the phoenix. It bonded with ',

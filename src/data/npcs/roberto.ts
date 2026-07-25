@@ -5,11 +5,7 @@ export default createNPC({
   name: 'Roberto',
   location: refs.locations.verdant_haven_forest,
   notes: [
-    [
-      'A mapmaker who carried a book of detailed maps whose magical pages enabled two-way communication with ',
-      refs.organizations.the_eyeless_hand,
-      '.',
-    ],
+    ['A mapmaker who carried the book from which ', refs.items.robertos_map_pages, ' were taken.'],
   ],
   memberships: [
     {

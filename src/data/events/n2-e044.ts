@@ -51,5 +51,18 @@ export default createEvent({
       refs.npcs.giggles,
       '.',
     ],
+    [
+      'Party: ',
+      refs.pcs.jim,
+      ', ',
+      refs.pcs.devan,
+      ', ',
+      refs.pcs.swift_starblade,
+      ', ',
+      refs.pcs.victor_dranzig,
+      ', ',
+      refs.pcs.william_greenhove,
+      '.',
+    ],
   ],
 })

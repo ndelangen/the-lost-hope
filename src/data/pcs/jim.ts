@@ -51,6 +51,11 @@ export default createPC({
       refs.pcs.fix,
       ' know that Jim is his real name. His face, species, and why the law wants him remain hidden.',
     ],
+    [
+      'Jim checks ',
+      refs.items.robertos_map_pages,
+      ' each evening when he is alone to look for new messages.',
+    ],
     ['His Sorcerer origin/bloodline has not been disclosed.'],
     ['DM note: keep the disguise secret unless the player says otherwise.'],
     ['Ryan’s first notes described him as a quiet kenku bard.'],
