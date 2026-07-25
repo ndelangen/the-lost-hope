@@ -9,7 +9,7 @@ export default createEvent({
   notes: [
     [
       'Deeper in the tunnel, the party found a young phoenix wrapped in a cocoon, guarded by a ',
-      refs.npcs.giant_spider,
+      refs.beasts.giant_spider,
       '.',
     ],
     [refs.pcs.jim, ' freed the phoenix from the cocoon.'],

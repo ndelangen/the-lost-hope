@@ -22,5 +22,6 @@ export default createEvent({
       refs.npcs.bob_the_merchant,
       ' promised delivery after four months. The signed divine contract lets Bob locate Cassian and requires them to negotiate another form of payment if the balance is not paid on time.',
     ],
+    ['Bob also gave ', refs.pcs.cassian_veyl, ' the ', refs.items.wolfie_tracking_ring, '.'],
   ],
 })
