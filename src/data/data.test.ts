@@ -289,7 +289,7 @@ describe('campaign chronology', () => {
   it('groups a session by campaign day while preserving its event order', () => {
     expect(sessionDays(sessions.the_fajanet_festival)).toEqual([
       { day: 3, events: [events.n2_e023, events.n2_e024] },
-      { day: 4, events: [events.n2_e025] },
+      { day: 4, events: [events.n2_e025, events.n2_e103] },
     ])
   })
 

@@ -6,7 +6,7 @@ export default createSession({
   number: 3,
   icon: 'gi/GiPartyFlags',
   date: new Date('2026-02-26'),
-  events: [refs.events.n2_e023, refs.events.n2_e024, refs.events.n2_e025],
+  events: [refs.events.n2_e023, refs.events.n2_e024, refs.events.n2_e025, refs.events.n2_e103],
   notes: [
     [
       refs.pcs.revin_grumblefist,

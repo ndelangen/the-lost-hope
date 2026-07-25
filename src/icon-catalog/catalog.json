@@ -122381,7 +122381,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/daggers.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/events/n2-e103.ts",
+        "src/lib/event-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiDaisy",
@@ -264486,6 +264489,8 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/circle-alert",
       "usedIn": [
+        "src/components/correction-form.tsx",
+        "src/components/entity-correction-submission.tsx",
         "src/components/questions-page.tsx"
       ]
     },
@@ -283209,7 +283214,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/loader-circle",
       "usedIn": [
-        "src/components/questions-page.tsx"
+        "src/components/correction-form.tsx"
       ]
     },
     {
@@ -286008,7 +286013,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/message-square-plus",
-      "usedIn": []
+      "usedIn": [
+        "src/components/entity-correction-submission.tsx"
+      ]
     },
     {
       "id": "lucide/MessageSquareQuote",
@@ -293536,7 +293543,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/rotate-ccw",
       "usedIn": [
-        "src/components/questions-page.tsx"
+        "src/components/correction-form.tsx"
       ]
     },
     {
@@ -295097,7 +295104,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/send",
       "usedIn": [
-        "src/components/questions-page.tsx"
+        "src/components/correction-form.tsx"
       ]
     },
     {
@@ -295801,6 +295808,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/shield-check",
       "usedIn": [
+        "src/components/entity-correction-submission.tsx",
         "src/components/questions-page.tsx"
       ]
     },

@@ -25,6 +25,14 @@ export default createEvent({
     ],
     [
       refs.npcs.bessy,
+      ' did not want to buy ',
+      refs.pcs.jim,
+      "'s ",
+      refs.items.dagger_of_passive_aggression,
+      '.',
+    ],
+    [
+      refs.npcs.bessy,
       ' also advised Swift that a balanced metal blade would be the right basis for a future modification to ',
       refs.items.demon_possessed_flying_broom,
       '.',
