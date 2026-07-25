@@ -34,9 +34,9 @@ Configure these values outside the repository:
 Do not configure production GitHub App credentials for Deploy Previews. A preview can render the
 page when given a digest, but its Function must fail closed instead of creating issues.
 
-Use a random shared code with at least 128 bits of entropy. Only its lowercase SHA-256 hex digest is
-configured; never commit or log the original code. The digest is intentionally present in the
-browser bundle and therefore does not protect a weak code from offline guessing.
+Only the shared code's lowercase SHA-256 hex digest is configured; never commit or log the original
+code. The digest is intentionally present in the browser bundle, so this is a convenient private
+campaign gate rather than strong authentication: a memorable code can still be guessed offline.
 
 The GitHub private key's base64 encoding preserves PEM line breaks but is not encryption. Mark the
 value as secret in Netlify and confirm the site's environment-size limits accommodate it.
@@ -45,7 +45,7 @@ value as secret in Netlify and confirm the site's environment-size limits accomm
 
 To rotate the shared code:
 
-1. Generate a new high-entropy code and calculate its lowercase SHA-256 hex digest locally.
+1. Choose a new non-empty shared code and calculate its lowercase SHA-256 hex digest locally.
 2. Replace `CORRECTIONS_ACCESS_CODE_SHA256` in both the production build and Function scopes.
 3. Deploy the site.
 4. Share the new original code with the players through the existing private channel.

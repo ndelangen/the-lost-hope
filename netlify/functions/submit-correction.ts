@@ -311,7 +311,7 @@ function parseSubmission(value: unknown): CorrectionSubmission | undefined {
   const text = normalizeLineEndings(value.text).trim()
   if (
     [accessCode, text].some(hasUnexpectedControlCharacter) ||
-    characterCount(accessCode) < 16 ||
+    characterCount(accessCode) === 0 ||
     characterCount(accessCode) > 256 ||
     characterCount(text) < 20 ||
     characterCount(text) > 16_384

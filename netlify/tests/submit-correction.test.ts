@@ -153,6 +153,25 @@ describe('POST /api/corrections/submit', () => {
     )
   })
 
+  it('accepts a short shared code when its digest matches', async () => {
+    const shortAccessCode = 'seven77'
+    const createIssue = createIssueMock()
+    const handler = createCorrectionSubmissionHandler({
+      expectedAccessCodeHash: createHash('sha256').update(shortAccessCode).digest('hex'),
+      createIssue,
+      log: logMock(),
+    })
+
+    const response = await handler(
+      requestFor({ ...entrySubmission, accessCode: shortAccessCode }),
+      { requestId: 'short-code' },
+    )
+
+    expect(response.status).toBe(201)
+    expect(await response.json()).toEqual({ ok: true })
+    expect(createIssue).toHaveBeenCalledTimes(1)
+  })
+
   it('rejects the obsolete flat payload and malformed context variants', async () => {
     const createIssue = createIssueMock()
     const handler = createCorrectionSubmissionHandler({
