@@ -10,9 +10,9 @@ export default createSession({
   notes: [
     [
       refs.pcs.revin_grumblefist,
-      "'s player Matthijs left the campaign after this session. Johan and Niek joined for the following session as ",
+      "'s player Matthijs left the campaign after this session. The following session included Johan as ",
       refs.pcs.swift_starblade,
-      ' and ',
+      ' and Niek as ',
       refs.pcs.devan,
       '.',
     ],

@@ -26,8 +26,18 @@ Every question must include **what we already know** — many sit unanswered acr
 ## Naming and entities
 
 - **Mr. Peace — real name, species, class, player?**
-  - _Context:_ Session 3 guest PC for one day by design, through a guild/Light arrangement. Flower magic; goblin incident.
+  - _Context:_ Session 3 guest PC for one day by design, through a guild/Light arrangement. Flower magic; goblin incident. Johan is Swift Starblade’s player, so the WhatsApp announcement that Johan would play in this session does not by itself identify Mr. Peace’s player.
   - _Session:_ 3
+
+- **Did Swift Starblade first appear in Session 3 or Session 4?**
+  - _Context:_ Johan is Swift’s player. The DM announced on February 25 that Johan would play in the February 26 extra session, but the reconstructed events first place Swift in Session 4 on March 5.
+  - _Why asking:_ The answer determines whether Swift is missing from Session 3 or whether Johan temporarily played another character.
+  - _Session:_ 3–4
+
+- **Where did the party meet Celeste, and what suggested involuntary necromancy?**
+  - _Context:_ A next-morning recap after Session 4 identifies Celeste as a newly orphaned girl who might involuntarily be a necromancer. Her meeting place, circumstances, and the evidence behind that suspicion were not preserved.
+  - _Why asking:_ Her identity is established, but the missing encounter context cannot be placed on the event timeline.
+  - _Session:_ 4 or earlier
 
 - **What is the proper name of the Feywild village?**
   - _Context:_ Crowy directed the party toward the nearest Feywild village, but it is not yet clear whether the destination is a village literally named “Feywild Village” or simply somewhere in the Feywild realm. The party expects to learn more next session.
@@ -45,6 +55,11 @@ Every question must include **what we already know** — many sit unanswered acr
 ---
 
 ## Session 1
+
+- **What was in each adventurer’s invitation package?**
+  - _Context:_ The original call-to-adventure message included 5 GP, Light’s invitation, and “There is also a package you open it and you get: …”. The group chat does not preserve the package contents. Players had just been asked to choose numbers from 1 to 30, which may have determined the contents, but that connection is unconfirmed.
+  - _Why asking:_ Any lasting package contents should be represented as items and linked to their recipients.
+  - _Session:_ Before Session 1
 
 - **What did the tentacles want?**
   - _Context:_ The tentacles injured Revin while trying to drag him away. The party therefore assumes they were evil and intended to kill him, but their actual motive remains unconfirmed. Light knew nothing about them when asked, and the festival later suppressed the incidents.
@@ -134,7 +149,7 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Session:_ 7 ([n2-e058](/events/fix-joins-the-guild-with-her-rival-party-under-a-fake-tattoo))
 
 - **Which campaign days contain Sessions 5–10?**
-  - _Context:_ Session 4 ends on Campaign Day 9 when the party lands in Badesh Forest. Session 5 spans Days 10–12. Sessions 6–7 occupy Day 13. Session 8 is Day 14 and ends with the survivors at sea. Session 9 is provisionally Days 14–16: arrival that evening, forest and mountain travel the next day, then the peak and elevator after another night. Session 10 begins from that elevator on Day 16 and continues into Day 17.
+  - _Context:_ Session ownership is now corrected from dated WhatsApp recaps: Session 4 reaches Fairhaven on the current Day 12, Sessions 5–7 occupy Day 13, Session 8 is Day 14, Session 9 is provisionally Days 14–16, and Session 10 spans Days 16–17. The DM later recalled four days travelling to Fairhaven, five or six days in Fairhaven, four days fleeing, three days in Verdant Haven, three days at the mountain, one day settling in ShadowPeak, two days in ShadowPeak, and three days aboard the flying bazaar. In the same exchange he confirmed that Jim received Roberto’s map pages on the second day in Verdant Haven and then said seven days had elapsed since, which cannot be reconciled additively with all of those phase totals.
   - _Why asking:_ The event timeline requires campaign-day numbers and should be corrected if unrecorded rests occurred.
   - _Session:_ 5–10
 
@@ -195,14 +210,19 @@ Every question must include **what we already know** — many sit unanswered acr
 
 ## Session 11 — The Flying Bazaar
 
-- **How many campaign nights elapsed during the closing montage?**
-  - _Context:_ The montage aboard Sylvia’s flying bazaar mentions both three days passing and “two days aboard, one more to stay,” while also jumping between “later that evening” and “the next morning.”
-  - _Why asking:_ The answer determines the campaign day on which Session 12 begins.
+- **Does Session 12 begin before or after the third night aboard Sylvia’s flying bazaar?**
+  - _Context:_ The DM confirmed that two nights aboard elapsed during Session 11 and that a third night would happen later. Session 11 therefore closes on Campaign Day 19, but the first event of Session 12 could still occur before or after that next night.
+  - _Why asking:_ This determines whether Session 12’s first event remains on Campaign Day 19 or begins on Day 20.
   - _Session:_ 11
 
 - **What are the names and exact whereabouts of Swift Starblade’s relatives?**
   - _Context:_ Sylvia said Swift was searching for relatives scattered among islands near the Continent of the Dead, including a sister who is probably with one of Sylvia’s brothers. The transcript did not reliably preserve any relatives’ names.
   - _Why asking:_ Named relatives should become NPC references instead of remaining unnamed prose.
+  - _Session:_ 11
+
+- **What is the negative effect of Cassian’s Wolfie-tracking ring?**
+  - _Context:_ Bob gave Cassian the [Wolfie-Tracking Ring](/items/wolfie-tracking-ring), which always lets him locate Wolfie but also has an unidentified negative effect.
+  - _Why asking:_ The drawback is established canon, but its actual effect cannot be represented until it is revealed.
   - _Session:_ 11
 
 ---

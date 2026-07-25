@@ -6,16 +6,7 @@ export default createSession({
   number: 6,
   icon: 'gi/GiGavel',
   date: new Date('2026-04-30'),
-  events: [
-    refs.events.n2_e044,
-    refs.events.n2_e060,
-    refs.events.n2_e086,
-    refs.events.n2_e087,
-    refs.events.n2_e061,
-    refs.events.n2_e062,
-    refs.events.n2_e045,
-    refs.events.n2_e083,
-  ],
+  events: [refs.events.n2_e086, refs.events.n2_e087, refs.events.n2_e061, refs.events.n2_e062],
   notes: [
     [
       refs.pcs.jim,

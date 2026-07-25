@@ -7,11 +7,11 @@ import blackbeard from './blackbeard.ts'
 import bob_the_gate_troll from './bob-the-gate-troll.ts'
 import bob_the_merchant from './bob-the-merchant.ts'
 import borris from './borris.ts'
+import celeste from './celeste.ts'
 import crowy from './crowy.ts'
 import dragon_of_the_mountain from './dragon-of-the-mountain.ts'
 import faceless_shadow from './faceless-shadow.ts'
 import frog_medicine_man_of_verdant_haven from './frog-medicine-man-of-verdant-haven.ts'
-import giant_spider from './giant-spider.ts'
 import giggles from './giggles.ts'
 import goblin_grass_keepers from './goblin-grass-keepers.ts'
 import gridswald from './gridswald.ts'
@@ -27,6 +27,7 @@ import mystery_girl from './mystery-girl.ts'
 import penelope from './penelope.ts'
 import rare_animal_dealer from './rare-animal-dealer.ts'
 import roberto from './roberto.ts'
+import ryan from './ryan.ts'
 import samantha from './samantha.ts'
 import sering_ravenwood from './sering-ravenwood.ts'
 import sneeve from './sneeve.ts'
@@ -46,11 +47,11 @@ export default {
   bob_the_gate_troll,
   bob_the_merchant,
   borris,
+  celeste,
   crowy,
   dragon_of_the_mountain,
   faceless_shadow,
   frog_medicine_man_of_verdant_haven,
-  giant_spider,
   giggles,
   goblin_grass_keepers,
   gridswald,
@@ -65,6 +66,7 @@ export default {
   penelope,
   rare_animal_dealer,
   roberto,
+  ryan,
   samantha,
   sneeve,
   sylvia,

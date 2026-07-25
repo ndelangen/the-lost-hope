@@ -1,7 +1,7 @@
 import { refs } from '#/data/generated/refs.ts'
-import { create as createNPC } from '#/definitions/npc.ts'
+import { create as createBeast } from '#/definitions/beast.ts'
 
-export default createNPC({
+export default createBeast({
   name: 'Giant Spider',
   avatar: '/assets/npcs/giant-spider.png',
   location: refs.locations.fajanet_tunnels,

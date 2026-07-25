@@ -3337,7 +3337,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://fontawesome.com/v5/icons/atlas",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/robertos-map-pages.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "fa/FaAtlassian",
@@ -58049,7 +58052,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://fontawesome.com/v5/icons/ring",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/wolfie-tracking-ring.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "fa/FaRoad",
@@ -129077,6 +129083,7 @@
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/dripping-stone.html",
       "usedIn": [
+        "src/data/items/steve-the-interrogation-rock.ts",
         "src/lib/item-icons.tsx"
       ]
     },

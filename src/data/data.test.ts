@@ -316,8 +316,8 @@ describe('campaign chronology', () => {
     expect(timelineSlugs.toSorted()).toEqual(registrySlugs.toSorted())
   })
 
-  it('ends Session 4 at the Badesh Forest landing and Session 5 at the guildhall boards', () => {
-    expect(sessions.from_fajanet_to_fairhaven.events.at(-1)?.key).toBe(refs.events.n2_e036.key)
+  it('ends Session 4 at the Fairhaven guildhall boards and starts Session 5 with Giggles', () => {
+    expect(sessions.from_fajanet_to_fairhaven.events.at(-1)?.key).toBe(refs.events.n2_e043.key)
     const session4Keys = sessions.from_fajanet_to_fairhaven.events.map(({ key }) => key)
     const shadowRealmIndex = session4Keys.indexOf(refs.events.n2_e029.key)
     expect(session4Keys.slice(shadowRealmIndex, shadowRealmIndex + 3)).toEqual([
@@ -325,11 +325,35 @@ describe('campaign chronology', () => {
       refs.events.n2_e081.key,
       refs.events.n2_e030.key,
     ])
+    const badeshIndex = session4Keys.indexOf(refs.events.n2_e040.key)
+    expect(session4Keys.slice(badeshIndex, badeshIndex + 3)).toEqual([
+      refs.events.n2_e040.key,
+      refs.events.n2_e102.key,
+      refs.events.n2_e041.key,
+    ])
     expect(sessions.fairhaven_shadows.events.map(({ key }) => key)).toEqual([
+      refs.events.n2_e044.key,
+      refs.events.n2_e060.key,
+      refs.events.n2_e045.key,
+      refs.events.n2_e083.key,
+    ])
+    expect(sessionPcs(sessions.fairhaven_shadows).map((pc) => pc.slug)).toEqual([
+      'devan',
+      'jim',
+      'swift-starblade',
+      'victor-dranzig',
+      'william-greenhoove',
+    ])
+  })
+
+  it('keeps the Fairhaven travel sequence together in Session 4', () => {
+    const session4Keys = sessions.from_fajanet_to_fairhaven.events.map(({ key }) => key)
+    expect(session4Keys.slice(-10)).toEqual([
       refs.events.n2_e037.key,
       refs.events.n2_e038.key,
       refs.events.n2_e039.key,
       refs.events.n2_e040.key,
+      refs.events.n2_e102.key,
       refs.events.n2_e041.key,
       refs.events.n2_e042.key,
       refs.events.n2_e071.key,
@@ -338,19 +362,15 @@ describe('campaign chronology', () => {
     ])
   })
 
-  it('starts Session 6 on Day 13 and Session 7 with Swift taming the broom', () => {
+  it('starts Session 6 with Mortimer’s break-in and Session 7 with Swift taming the broom', () => {
     expect(events.n2_e043.day).toBe(12)
     expect(events.n2_e044.day).toBe(13)
     expect(events.n2_e046.day).toBe(13)
     expect(sessions.fairhaven_fallout.events.map(({ key }) => key)).toEqual([
-      refs.events.n2_e044.key,
-      refs.events.n2_e060.key,
       refs.events.n2_e086.key,
       refs.events.n2_e087.key,
       refs.events.n2_e061.key,
       refs.events.n2_e062.key,
-      refs.events.n2_e045.key,
-      refs.events.n2_e083.key,
     ])
     expect(sessions.heroes_and_rivals.events.map(({ key }) => key)).toEqual([
       refs.events.n2_e046.key,

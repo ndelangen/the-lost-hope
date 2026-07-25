@@ -21,7 +21,7 @@ export default createSession({
   ],
   notes: [
     [
-      'The closing sequence reaches Campaign Day 19. The exact number of later days aboard the ship remains unclear.',
+      'Two nights elapsed aboard the ship during this session, bringing the closing sequence to Campaign Day 19. The DM said a third night would follow later.',
     ],
   ],
 })

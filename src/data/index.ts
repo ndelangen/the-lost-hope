@@ -33,6 +33,9 @@ export default createCampaign({
       'In a world of different lives, some heroes are not born but made. Lost as to wander, a letter arrives with the following contents:',
     ],
     ['5 GP'],
+    [
+      'The invitation also arrived with a package to open. The surviving message left its contents as an ellipsis, so what each adventurer received is unknown.',
+    ],
     ['Dear Adventurer,'],
     [
       'My name is ',
