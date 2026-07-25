@@ -232,6 +232,79 @@ describe('POST /api/questions/submit', () => {
     expect(createIssue).not.toHaveBeenCalled()
   })
 
+  it('accepts values at every documented payload boundary', async () => {
+    const defaultSubmission = {
+      accessCode,
+      itemNumber: 1,
+      itemMarkdown: 'Question context',
+      answer: 'A sufficiently long correction.',
+    }
+    const boundarySubmissions = [
+      { ...defaultSubmission, accessCode: 'x'.repeat(16) },
+      { ...defaultSubmission, accessCode: 'x'.repeat(256) },
+      { ...defaultSubmission, itemNumber: 1 },
+      { ...defaultSubmission, itemNumber: 9_999 },
+      { ...defaultSubmission, itemMarkdown: 'x' },
+      { ...defaultSubmission, itemMarkdown: 'x'.repeat(32_768) },
+      { ...defaultSubmission, answer: 'x'.repeat(20) },
+      { ...defaultSubmission, answer: 'x'.repeat(16_384) },
+    ]
+
+    const results = await Promise.all(
+      boundarySubmissions.map(async (submission) => {
+        const createIssue = createIssueMock()
+        const handler = createQuestionSubmissionHandler({
+          expectedAccessCodeHash: createHash('sha256').update(submission.accessCode).digest('hex'),
+          createIssue,
+          log: logMock(),
+        })
+        const response = await handler(
+          new Request('https://campaign.example/api/questions/submit', {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify(submission),
+          }),
+          { requestId: 'request-boundary' },
+        )
+        return { status: response.status, createIssueCalls: createIssue.mock.calls }
+      }),
+    )
+
+    for (const result of results) {
+      expect(result.status).toBe(201)
+      expect(result.createIssueCalls).toHaveLength(1)
+    }
+  })
+
+  it('accepts a request body at the exact 64 KiB transport limit', async () => {
+    const createIssue = createIssueMock()
+    const handler = createQuestionSubmissionHandler({
+      expectedAccessCodeHash,
+      createIssue,
+      log: logMock(),
+    })
+    const body = JSON.stringify({
+      accessCode,
+      itemNumber: 1,
+      itemMarkdown: 'Question context',
+      answer: 'A sufficiently long correction.',
+    })
+    const exactLimitBody = body.padEnd(65_536, ' ')
+
+    const response = await handler(
+      new Request('https://campaign.example/api/questions/submit', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: exactLimitBody,
+      }),
+      { requestId: 'request-transport-boundary' },
+    )
+
+    expect(new TextEncoder().encode(exactLimitBody)).toHaveLength(65_536)
+    expect(response.status).toBe(201)
+    expect(createIssue).toHaveBeenCalledTimes(1)
+  })
+
   it('fails closed without retrying or leaking upstream details', async () => {
     const createIssue = vi.fn<CreateIssue>(async () => {
       throw new Error('GitHub rejected secret answer text')
