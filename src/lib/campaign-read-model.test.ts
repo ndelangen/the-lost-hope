@@ -87,4 +87,12 @@ describe('campaign read model', () => {
     expect(source).toBeDefined()
     expect(resultKeys).toContain(`${source.kind}:${source.slug}`)
   })
+
+  it('ranks whole-word name matches before incidental substring matches', () => {
+    const visibleResults = searchEntities('ring', 20)
+
+    expect(visibleResults.map((entity) => `${entity.kind}:${entity.slug}`)).toContain(
+      'item:wolfie-tracking-ring',
+    )
+  })
 })
