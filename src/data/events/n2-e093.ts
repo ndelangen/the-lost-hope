@@ -9,15 +9,11 @@ export default createEvent({
   notes: [
     [
       refs.pcs.cassian_veyl,
-      ', ',
-      refs.pcs.devan,
-      ', ',
-      refs.pcs.jim,
-      ', and ',
+      ' paid the full 50 GP passage fee for the party and their travelling companions. ',
       refs.pcs.swift_starblade,
-      ' paid 50 GP in total for passage aboard ',
+      ' refused to contribute, frustrating the party. His presence had raised the fee from the usual 20 GP to 50 GP for passage aboard ',
       refs.locations.sylvias_flying_bazaar,
-      ' with their travelling companions.',
+      '.',
     ],
     [
       refs.npcs.sylvia,

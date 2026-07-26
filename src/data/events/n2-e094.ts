@@ -22,7 +22,7 @@ export default createEvent({
       refs.pcs.devan,
       ' and ',
       refs.pcs.cassian_veyl,
-      ' without actually hurting them, confirming that a creature stabbed by it becomes conspicuously passive-aggressive.',
+      ' without actually hurting them. With each use, the dagger itself made a passive-aggressive remark.',
     ],
     [
       refs.pcs.devan,

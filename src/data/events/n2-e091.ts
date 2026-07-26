@@ -15,7 +15,16 @@ export default createEvent({
       ' and found its central span broken above a drop of at least five hundred feet.',
     ],
     [
-      'One party member used Mending for four hours while another helped secure the bridge during the first hour. The remaining travellers took a short rest. During the repair, an enormous shadow passed overhead and resolved into a descending flying warship.',
+      refs.pcs.jim,
+      ' used Mending for four hours. During the first hour, ',
+      refs.pcs.swift_starblade,
+      ' used the ',
+      refs.items.demon_possessed_flying_broom,
+      ' to pull the bridge pieces into place. ',
+      refs.pcs.cassian_veyl,
+      ' cast Invisibility on ',
+      refs.pcs.jim,
+      ', while the remaining travellers took a short rest. During the repair, an enormous shadow passed overhead and resolved into a descending flying warship.',
     ],
     [
       refs.pcs.cassian_veyl,

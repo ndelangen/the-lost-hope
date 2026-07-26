@@ -237447,7 +237447,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/trade.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/events/n2-e095.ts",
+        "src/lib/event-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiTrafficCone",
@@ -271711,7 +271714,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/expand",
-      "usedIn": []
+      "usedIn": [
+        "src/components/avatar-viewer.tsx"
+      ]
     },
     {
       "id": "lucide/ExternalLink",
@@ -308073,6 +308078,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/x",
       "usedIn": [
+        "src/components/avatar-viewer.tsx",
         "src/components/campaign-shell.tsx"
       ]
     },
