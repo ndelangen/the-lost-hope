@@ -21,6 +21,7 @@ function ItemPage() {
   const item = entity.data
   const owner = item.currentOwner ? refLink(item.currentOwner) : undefined
   const carrier = item.carriedBy ? refLink(item.carriedBy) : undefined
+  const crafter = item.craftedBy ? refLink(item.craftedBy) : undefined
 
   return (
     <EntityDetail
@@ -36,10 +37,23 @@ function ItemPage() {
       <Grid as="section" gap="lg" smTemplate={2}>
         <Relationship label="Current owner" relationship={owner} />
         <Relationship label="Carried by" relationship={carrier} />
+        {crafter ? <Relationship label="Crafted by" relationship={crafter} /> : null}
+        {item.quantity ? <Attribute label="Quantity" value={String(item.quantity)} /> : null}
       </Grid>
 
       {item.notes ? <ContentRenderer content={item.notes} /> : null}
     </EntityDetail>
+  )
+}
+
+function Attribute({ label, value }: { label: string; value: string }) {
+  return (
+    <Stack gap="xs">
+      <p className="text-muted-foreground text-xs font-semibold tracking-wider uppercase">
+        {label}
+      </p>
+      <p className="font-medium">{value}</p>
+    </Stack>
   )
 }
 

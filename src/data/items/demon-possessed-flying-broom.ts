@@ -6,5 +6,6 @@ export default createItem({
   icon: 'gi/GiMagicBroom',
   currentOwner: refs.pcs.swift_starblade,
   carriedBy: refs.pcs.swift_starblade,
+  craftedBy: null,
   notes: [['A flying broom possessed by a demon.']],
 })

@@ -9,9 +9,11 @@ describe('Item', () => {
       icon: 'gi/GiRock',
       currentOwner: null,
       carriedBy: null,
+      craftedBy: null,
     })
 
     expect(item.currentOwner).toBeNull()
     expect(item.carriedBy).toBeNull()
+    expect(item.craftedBy).toBeNull()
   })
 })

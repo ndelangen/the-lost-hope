@@ -6,6 +6,7 @@ export default createItem({
   icon: 'gi/GiDaggerRose',
   currentOwner: refs.pcs.jim,
   carriedBy: refs.pcs.jim,
+  craftedBy: null,
   notes: [
     ['A golden magical dagger. A creature stabbed by it becomes conspicuously passive-aggressive.'],
   ],

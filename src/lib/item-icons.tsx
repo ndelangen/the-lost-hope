@@ -6,6 +6,7 @@ import {
   GiMaceHead,
   GiMagicBroom,
   GiRoundBottomFlask,
+  GiScales,
   GiSwordWound,
 } from 'react-icons/gi'
 
@@ -20,6 +21,7 @@ export const ITEM_ICONS = {
   'gi/GiDrippingStone': GiDrippingStone,
   'gi/GiMaceHead': GiMaceHead,
   'gi/GiRoundBottomFlask': GiRoundBottomFlask,
+  'gi/GiScales': GiScales,
 } as const satisfies Record<string, IconType>
 
 export function resolveItemIcon(icon: string): IconType {

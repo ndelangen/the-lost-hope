@@ -113,11 +113,19 @@ describe('items', () => {
   it('derives owned and carried PC items from item relationships', () => {
     expect(itemsOwnedBy('pc', pcs.devan.slug).map((item) => item.slug)).toEqual([
       items.flask_of_never_ending_booze.slug,
+      items.rare_dragon_scales.slug,
       items.steve_mace_of_returning.slug,
     ])
     expect(itemsCarriedBy('pc', pcs.swift_starblade.slug).map((item) => item.slug)).toEqual([
       items.demon_possessed_flying_broom.slug,
     ])
+    expect(itemsCarriedBy('pc', pcs.devan.slug).map((item) => item.slug)).toEqual([
+      items.flask_of_never_ending_booze.slug,
+      items.rare_dragon_scales.slug,
+      items.steve_mace_of_returning.slug,
+    ])
+    expect(items.steve_mace_of_returning.craftedBy?.key).toBe(refs.npcs.bessy.key)
+    expect(items.rare_dragon_scales.quantity).toBe(2)
   })
 })
 

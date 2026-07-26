@@ -6,6 +6,7 @@ export default createItem({
   icon: 'fa/FaAtlas',
   currentOwner: refs.pcs.jim,
   carriedBy: refs.pcs.jim,
+  craftedBy: null,
   notes: [
     [
       'Magical pages taken from ',

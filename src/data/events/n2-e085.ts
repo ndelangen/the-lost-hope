@@ -9,7 +9,9 @@ export default createEvent({
   notes: [
     [
       refs.pcs.devan,
-      ' insisted on returning to the mine to free the captives. He sold a rare dragon scale to buy the freedom of one enslaved child and directed the child to ',
+      ' insisted on returning to the mine to free the captives. He sold one of his ',
+      refs.items.rare_dragon_scales,
+      ' to buy the freedom of one enslaved child and directed the child to ',
       refs.npcs.borris,
       '.',
     ],

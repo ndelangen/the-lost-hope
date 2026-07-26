@@ -7,7 +7,9 @@ export default createNPC({
   species: 'Animated skeleton',
   notes: [
     [
-      'A skeletal merchant with blue flames in his eye sockets, fine clothes, and an enormous stock of magical trinkets. He presents himself from inside a mimic chest at his stall.',
+      'A skeletal merchant with blue flames in his eye sockets, fine clothes, and an enormous stock of magical trinkets. He presents himself from inside the ',
+      refs.beasts.mimic_chest,
+      ' at his stall.',
     ],
   ],
 })
