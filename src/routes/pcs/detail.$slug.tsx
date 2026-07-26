@@ -1,11 +1,11 @@
 import { createFileRoute } from '@tanstack/react-router'
 
+import { AvatarViewer } from '#/components/avatar-viewer'
 import { CharacterItems } from '#/components/character-items'
 import { CharacterMemberships } from '#/components/character-memberships'
 import { ContentRenderer } from '#/components/content-renderer'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail, EntityNotFound } from '#/components/entity-page'
-import { Avatar } from '#/components/ui/avatar'
 import { Inline, Stack } from '#/components/ui/layout'
 import { Pill } from '#/components/ui/pill'
 import { getEntity, itemsCarriedBy, itemsOwnedBy, pcStatusLabel } from '#/lib/campaign'
@@ -32,7 +32,7 @@ function PcPage() {
       visual={{
         variant: 'avatar',
         content: (
-          <Avatar src={pc.avatar} alt={pc.name} loading="lazy" className="size-full rounded-2xl" />
+          <AvatarViewer src={pc.avatar} name={pc.name} eyebrow="Player character portrait" />
         ),
       }}
       headerContent={
