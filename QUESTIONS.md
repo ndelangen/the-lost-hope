@@ -215,9 +215,9 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Why asking:_ This determines whether Session 12’s first event remains on Campaign Day 19 or begins on Day 20.
   - _Session:_ 11
 
-- **What are the names and exact whereabouts of Swift Starblade’s relatives?**
-  - _Context:_ Sylvia said Swift was searching for relatives scattered among islands near the Continent of the Dead. She privately tasked Jim and Cassian with finding Swift’s younger sister and bringing her alive to Sylvia to marry one of Sylvia’s brothers, which Sylvia said would settle the family dispute. The sister’s name, location, and intended husband remain unknown.
-  - _Why asking:_ Named relatives should become NPC references instead of remaining unnamed prose, and the answers define the objective of [Bring Swift’s Sister to Sylvia](/quests/detail/bring-swift-s-sister-to-sylvia).
+- **What are the names and exact whereabouts of Swift Starblade’s relatives, and which of Sylvia’s brothers is intended to marry his younger sister?**
+  - _Context:_ Sylvia said Swift was searching for relatives scattered among islands near the Continent of the Dead. She privately tasked Jim and Cassian with finding [Swift Starblade’s Younger Sister](/npcs/detail/swift-starblade-s-younger-sister) and bringing her alive to Sylvia to marry one of Sylvia’s brothers, which Sylvia said would settle the family dispute. The sister is now represented as an NPC, but her name, location, and intended husband remain unknown.
+  - _Why asking:_ The answers would replace the sister’s descriptive placeholder with her canonical name and define the objective of [Bring Swift’s Sister to Sylvia](/quests/detail/bring-swift-s-sister-to-sylvia).
   - _Session:_ 11
 
 - **What caused forty-one guests to be food-poisoned during Jim’s trial shift?**

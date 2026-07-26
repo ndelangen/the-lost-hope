@@ -7,7 +7,5 @@ export default createItem({
   currentOwner: refs.pcs.jim,
   carriedBy: refs.pcs.jim,
   craftedBy: null,
-  notes: [
-    ['A golden magical dagger. A creature stabbed by it becomes conspicuously passive-aggressive.'],
-  ],
+  notes: [['A golden magical dagger that makes a passive-aggressive remark whenever it is used.']],
 })

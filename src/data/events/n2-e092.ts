@@ -13,6 +13,7 @@ export default createEvent({
       refs.locations.sylvias_flying_bazaar,
       ' beside the crater and gave the party one hour to board before departure.',
     ],
+    ['The initial exchange was awkward because ', refs.pcs.jim, ' was still invisible.'],
     [
       'She said the vessel would visit all three ',
       refs.locations.sky_islands,
