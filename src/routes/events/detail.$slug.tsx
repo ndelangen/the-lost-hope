@@ -1,12 +1,12 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { Calendar } from 'lucide-react'
 
+import { AvatarViewer } from '#/components/avatar-viewer'
 import { ContentRenderer } from '#/components/content-renderer'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityKindPill } from '#/components/entity-kind-pill'
 import { EntityDetail, EntityNotFound } from '#/components/entity-page'
 import { LocationReference } from '#/components/location-reference'
-import { Avatar } from '#/components/ui/avatar'
 import { Inline, Stack } from '#/components/ui/layout'
 import { eventLocation, getEntity } from '#/lib/campaign'
 import { referencedByItems } from '#/lib/entity-page-data'
@@ -33,12 +33,7 @@ function EventPage() {
           ? {
               variant: 'avatar',
               content: (
-                <Avatar
-                  src={event.mark.url}
-                  alt=""
-                  loading="lazy"
-                  className="size-full rounded-2xl"
-                />
+                <AvatarViewer src={event.mark.url} name={event.name} eyebrow="Event portrait" />
               ),
             }
           : {

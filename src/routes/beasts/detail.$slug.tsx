@@ -1,10 +1,10 @@
 import { createFileRoute } from '@tanstack/react-router'
 
+import { AvatarViewer } from '#/components/avatar-viewer'
 import { ContentRenderer } from '#/components/content-renderer'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail, EntityNotFound } from '#/components/entity-page'
 import { LocationReference } from '#/components/location-reference'
-import { Avatar } from '#/components/ui/avatar'
 import { Inline } from '#/components/ui/layout'
 import { Pill } from '#/components/ui/pill'
 import { getEntity, resolveRef } from '#/lib/campaign'
@@ -29,14 +29,7 @@ function BeastPage() {
       title={beast.name}
       visual={{
         variant: 'avatar',
-        content: (
-          <Avatar
-            src={beast.avatar}
-            alt={beast.name}
-            loading="lazy"
-            className="size-full rounded-2xl"
-          />
-        ),
+        content: <AvatarViewer src={beast.avatar} name={beast.name} eyebrow="Beast portrait" />,
       }}
       headerContent={
         <Inline gap="sm" wrap>
