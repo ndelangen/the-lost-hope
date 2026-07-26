@@ -6,6 +6,7 @@ export default createItem({
   icon: 'gi/GiDrippingStone',
   currentOwner: null,
   carriedBy: null,
+  craftedBy: null,
   notes: [
     [
       'Steve’s original form: a rock named after a memorable interrogation. It no longer exists separately after becoming ',

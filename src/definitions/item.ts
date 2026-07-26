@@ -19,6 +19,15 @@ export const Item = deriveSlug(
     carriedBy: EntityRefSchema.nullable().describe(
       'The character currently carrying the item, or null when that is unknown',
     ),
+    craftedBy: EntityRefSchema.nullable().describe(
+      'The entity that crafted the item, or null when its maker is unknown',
+    ),
+    quantity: z
+      .number()
+      .int()
+      .positive()
+      .optional()
+      .describe('The number represented when this item is a stack rather than a unique object'),
     notes: Content.optional().describe('Identity or flavor not represented by structured fields'),
   }),
 )

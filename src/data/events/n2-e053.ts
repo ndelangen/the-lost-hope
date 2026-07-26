@@ -9,7 +9,9 @@ export default createEvent({
   notes: [
     [
       refs.pcs.jim,
-      ' concluded that freeing the enslaved workers was the party’s only viable escape. The party shattered a crystal controlling the captives, releasing them and throwing the mine into absolute chaos.',
+      ' concluded that freeing the enslaved workers was the party’s only viable escape. ',
+      refs.pcs.cassian_veyl,
+      ' sniped the crystal controlling the captives from afar, shattering it, releasing them, and throwing the mine into absolute chaos.',
     ],
     [
       'The concentration spell hiding ',

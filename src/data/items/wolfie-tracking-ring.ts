@@ -6,6 +6,7 @@ export default createItem({
   icon: 'fa/FaRing',
   currentOwner: refs.pcs.cassian_veyl,
   carriedBy: refs.pcs.cassian_veyl,
+  craftedBy: null,
   notes: [
     [
       'An otherwise unnamed ring from ',

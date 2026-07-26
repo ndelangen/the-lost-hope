@@ -8,7 +8,9 @@ export default createEvent({
   mark: { type: 'icon', name: 'gi/GiCardRandom' },
   notes: [
     [
-      'At a stall built around a dead giant rat and a mimic chest, the party found ',
+      'At a stall built around a dead giant rat and the ',
+      refs.beasts.mimic_chest,
+      ', the party found ',
       refs.npcs.bob_the_merchant,
       ' again.',
     ],

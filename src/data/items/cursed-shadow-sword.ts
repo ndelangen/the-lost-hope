@@ -6,5 +6,6 @@ export default createItem({
   icon: 'gi/GiSwordWound',
   currentOwner: refs.pcs.jim,
   carriedBy: refs.pcs.jim,
+  craftedBy: null,
   notes: [['A cursed sword with a deadly shadow bound to it.']],
 })

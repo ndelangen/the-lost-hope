@@ -6,6 +6,7 @@ export default createItem({
   icon: 'gi/GiMaceHead',
   currentOwner: refs.pcs.devan,
   carriedBy: refs.pcs.devan,
+  craftedBy: refs.npcs.bessy,
   notes: [
     [
       'The transformed form of ',
