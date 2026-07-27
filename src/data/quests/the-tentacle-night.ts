@@ -4,6 +4,7 @@ import { create as createQuest } from '#/definitions/quest.ts'
 export default createQuest({
   name: 'The Tentacle Night',
   icon: 'gi/GiTentaclesSkull',
+  type: 'mystery',
   notes: [['The Tentacle Night']],
   status: 'open',
   clues: [

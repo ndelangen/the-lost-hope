@@ -4,6 +4,7 @@ import { create as createQuest } from '#/definitions/quest.ts'
 export default createQuest({
   name: 'Who is Light, and what is his bidding?',
   icon: 'fa/FaUserSecret',
+  type: 'mystery',
   notes: [['Who is Light, and what is his bidding?']],
   status: 'open',
   clues: [

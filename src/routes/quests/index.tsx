@@ -1,23 +1,21 @@
 import { createFileRoute } from '@tanstack/react-router'
 
-import { EntityCollection } from '#/components/entity-page'
-import { allEntities, COLLECTION_LABELS } from '#/lib/campaign'
-import { entityCollectionItems } from '#/lib/entity-page-data'
-import { resolveQuestIcon } from '#/lib/quest-icons'
+import { QuestCatalogue } from '#/components/quest-catalogue'
+import { allEntities, questProgress } from '#/lib/campaign'
+import { buildQuestCatalogue } from '#/lib/quest-catalogue-data'
 
 export const Route = createFileRoute('/quests/')({
   component: QuestsPage,
 })
 
 function QuestsPage() {
-  const items = entityCollectionItems('quest')
-  const icons = new Map(allEntities('quest').map((quest) => [quest.slug, quest.data.icon]))
-
-  return (
-    <EntityCollection
-      label={COLLECTION_LABELS.quest}
-      items={items}
-      iconForItem={(item) => resolveQuestIcon(icons.get(item.slug) ?? '')}
-    />
+  const data = buildQuestCatalogue(
+    allEntities('quest').map((quest) => ({
+      slug: quest.slug,
+      quest: quest.data,
+      progress: questProgress(quest.data),
+    })),
   )
+
+  return <QuestCatalogue data={data} />
 }

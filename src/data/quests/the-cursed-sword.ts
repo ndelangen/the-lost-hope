@@ -4,6 +4,7 @@ import { create as createQuest } from '#/definitions/quest.ts'
 export default createQuest({
   name: 'The Cursed Sword',
   icon: 'gi/GiBottledShadow',
+  type: 'mystery',
   notes: [
     ['What is the curse on ', refs.items.cursed_shadow_sword, ', and what shadow is bound to it?'],
   ],

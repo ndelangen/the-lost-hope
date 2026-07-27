@@ -4,6 +4,7 @@ import { create as createQuest } from '#/definitions/quest.ts'
 export default createQuest({
   name: 'The Mystery Girl',
   icon: 'gi/GiHoodedFigure',
+  type: 'mystery',
   notes: [['The Mystery Girl']],
   status: 'open',
   clues: [

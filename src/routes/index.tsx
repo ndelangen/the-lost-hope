@@ -35,7 +35,7 @@ import {
   sortedSessions,
 } from '#/lib/campaign'
 import { ENTITY_KIND_VISUALS } from '#/lib/entity-kind-visuals'
-import { questProgressText } from '#/lib/entity-page-data'
+import { questProgressText } from '#/lib/quest-catalogue-data'
 import { cn } from '#/lib/utils'
 
 export const Route = createFileRoute('/')({
