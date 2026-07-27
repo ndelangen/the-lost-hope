@@ -4,6 +4,7 @@ import { create as createQuest } from '#/definitions/quest.ts'
 export default createQuest({
   name: 'Bring Swift’s Sister to Sylvia',
   icon: 'gi/GiEngagementRing',
+  type: 'mission',
   notes: [
     [
       'A private quest from ',

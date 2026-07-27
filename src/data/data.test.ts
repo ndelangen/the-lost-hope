@@ -4,6 +4,7 @@ import { describe, expect, it } from 'vitest'
 
 import { refs } from '#/data/generated/refs.ts'
 import { ENTITY_KINDS } from '#/definitions/kind.ts'
+import { QUEST_TYPES } from '#/definitions/quest.ts'
 import catalog from '#/icon-catalog/catalog.json'
 import {
   allEntities,
@@ -84,6 +85,24 @@ describe('registry integrity', () => {
     }
 
     expect(collisions).toEqual([])
+  })
+})
+
+describe('quest taxonomy', () => {
+  it('classifies every quest by its current objective', () => {
+    const questValues = Object.values(quests)
+    const missions = questValues
+      .filter((quest) => quest.type === 'mission')
+      .map((quest) => quest.name)
+      .toSorted()
+
+    expect(new Set(questValues.map((quest) => quest.type))).toEqual(new Set(QUEST_TYPES))
+    expect(missions).toEqual([
+      'Bring Swift’s Sister to Sylvia',
+      'Help the Rare-Animal Dealer',
+      'Make Abraham Known Among His Peers',
+    ])
+    expect(questValues.filter((quest) => quest.type === 'mystery')).toHaveLength(10)
   })
 })
 

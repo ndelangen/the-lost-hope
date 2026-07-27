@@ -4,6 +4,7 @@ import { create as createQuest } from '#/definitions/quest.ts'
 export default createQuest({
   name: 'Who Is Giggles?',
   icon: 'gi/GiGoblinHead',
+  type: 'mystery',
   notes: [[refs.npcs.giggles, ' appears to be more than an ordinary goblin quest giver.']],
   status: 'open',
   clues: [

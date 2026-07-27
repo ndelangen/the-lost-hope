@@ -266979,6 +266979,7 @@
       "sourceUrl": "https://lucide.dev/icons/clock-3",
       "usedIn": [
         "src/components/entity-page.tsx",
+        "src/components/quest-catalogue.tsx",
         "src/routes/index.tsx"
       ]
     },
@@ -282425,7 +282426,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/list-checks",
-      "usedIn": []
+      "usedIn": [
+        "src/components/quest-catalogue.tsx"
+      ]
     },
     {
       "id": "lucide/ListChevronsDownUp",

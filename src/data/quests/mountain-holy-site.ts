@@ -4,6 +4,7 @@ import { create as createQuest } from '#/definitions/quest.ts'
 export default createQuest({
   name: 'Mountain Holy Site — whose faith, deity, form?',
   icon: 'gi/GiHolySymbol',
+  type: 'mystery',
   notes: [['Mountain Holy Site — whose faith, deity, form?']],
   status: 'open',
   clues: [
