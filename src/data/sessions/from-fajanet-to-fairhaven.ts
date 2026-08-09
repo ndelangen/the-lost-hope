@@ -25,6 +25,7 @@ export default createSession({
     refs.events.n2_e040,
     refs.events.n2_e102,
     refs.events.n2_e041,
+    refs.events.n2_e121,
     refs.events.n2_e042,
     refs.events.n2_e071,
     refs.events.n2_e082,
@@ -32,7 +33,7 @@ export default createSession({
   ],
   notes: [
     [
-      'Johan played ',
+      'Johan continued as ',
       refs.pcs.swift_starblade,
       ', Niek joined as ',
       refs.pcs.devan,

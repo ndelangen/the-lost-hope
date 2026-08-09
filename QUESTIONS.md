@@ -25,32 +25,23 @@ Every question must include **what we already know** — many sit unanswered acr
 
 ## Naming and entities
 
-- **Mr. Peace — real name, species, class, player?**
-  - _Context:_ Session 3 guest PC for one day by design, through a guild/Light arrangement. Flower magic; goblin incident. Johan is Swift Starblade’s player, so the WhatsApp announcement that Johan would play in this session does not by itself identify Mr. Peace’s player.
+- **Mr. Peace — real name, exact celestial species, class, player?**
+  - _Context:_ Session 3 guest PC for one day by design, through a guild/Light arrangement. He belonged to some kind of celestial race or species, carried a staff, could conjure flowers, and could not cause harm. Johan played Swift Starblade in this session and therefore was not Mr. Peace’s player.
   - _Session:_ 3
 
-- **Did Swift Starblade first appear in Session 3 or Session 4?**
-  - _Context:_ Johan is Swift’s player. The DM announced on February 25 that Johan would play in the February 26 extra session, but the reconstructed events first place Swift in Session 4 on March 5.
-  - _Why asking:_ The answer determines whether Swift is missing from Session 3 or whether Johan temporarily played another character.
-  - _Session:_ 3–4
-
-- **Where did the party meet Celeste, and what suggested involuntary necromancy?**
-  - _Context:_ A next-morning recap after Session 4 identifies Celeste as a newly orphaned girl who might involuntarily be a necromancer. Her meeting place, circumstances, and the evidence behind that suspicion were not preserved.
-  - _Why asking:_ Her identity is established, but the missing encounter context cannot be placed on the event timeline.
-  - _Session:_ 4 or earlier
+- **Who attacked Celeste and her mother, did her mother die, and what revealed Celeste’s connection to death?**
+  - _Context:_ Near Fairhaven’s shore, Devan led the party into a fight seen from the boat travelling from Badesh. The unidentified opponents all died, and the party took Celeste with them afterward. Her mother is believed to have died in the fight, while Celeste displayed an unexplained connection to death or the undead that suggested involuntary necromancy.
+  - _Why asking:_ The encounter is now placed, but the attackers’ identity, the mother’s exact fate, and the manifestation that prompted the necromancy suspicion still need DM confirmation.
+  - _Session:_ 4 ([n2-e121](/events/the-party-takes-celeste-from-a-shore-side-fight))
 
 - **What is the proper name of the Feywild village?**
   - _Context:_ Crowy directed the party toward the nearest Feywild village, but it is not yet clear whether the destination is a village literally named “Feywild Village” or simply somewhere in the Feywild realm. The party expects to learn more next session.
   - _Session:_ 10
 
-- **Does Lucky Palm include anyone beyond Fix, Hex, and Sneeve?**
-  - _Context:_ Lucky Palm was introduced as Beasts and Dwarf’s rival party in Fairhaven. Fix, Hex, and Sneeve are confirmed members, but the full roster was not remembered.
-  - _Session:_ 5–7 ([n2-e043](/events/consult-the-fairhaven-guildhall-boards), [n2-e058](/events/fix-joins-the-guild-with-her-rival-party-under-a-fake-tattoo))
-
-- **Are Hex and Sneeve NPCs or player characters?**
-  - _Context:_ They are known only as Fix's companions in a rival adventuring party during Session 7; no players or character details were supplied. They are provisionally filed as NPCs.
-  - _Why asking:_ This determines their correct entity kind and whether player attribution is required.
-  - _Session:_ 6
+- **What happened to Hex and Sneeve after Fairhaven?**
+  - _Context:_ Jim suggested that Fix join Lucky Palm, and Hex agreed. Fix, Hex, and Sneeve are the only Lucky Palm members the party has heard about. When the party later encountered Fix at ShadowPeak, neither Hex nor Sneeve was with her.
+  - _Why asking:_ They may have become separated during Fairhaven’s destruction, but the party’s continued existence and Hex and Sneeve’s whereabouts remain unconfirmed.
+  - _Session:_ 7–10 ([n2-e058](/events/fix-joins-lucky-palm-and-the-guild-under-a-fake-tattoo), [n2-e084](/events/the-party-encounters-fixs-potion-delivery))
 
 ---
 
@@ -81,10 +72,10 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Context:_ Bulletin board job; 2 of 3 animals recovered.
   - _Session:_ 2
 
-- **Who sent Jim's final-warning letter?**
-  - _Context:_ Slipped into Jim's hand/pocket that evening; deliverer unknown; **only Jim saw it**. "Meet us at the green light near the mountain tonight." Jim spoke with Light instead.
-  - _Linked:_ [Green Light](/locations/the-green-light), Jim's pursuers
-  - _Session:_ 2 ([n2-e020](/events/jim-receives-a-final-warning-letter))
+- **How does the Eyeless Hand keep finding and identifying Jim?**
+  - _Context:_ Someone slipped a final-warning letter directly to a disguised Jim inside the Fajanet guildhall, knowing exactly whom and where to reach; only Jim saw it, and its sender remains unknown. The Eyeless Hand later circulated an order to find Jim alive through Roberto’s magical map pages. When Jim read those pages again at Nimbus’s inn on the evening before his first lightning strike, a message showed that the Hand was again aware of his location and said it was backing off somewhat for an unknown reason. The party suspects agents may be almost everywhere, while Verdant Haven’s hidden forest appeared to be the only place where Jim was genuinely outside the Hand’s sight, but neither idea is confirmed.
+  - _Why asking:_ It is unknown whether the Hand uses widespread agents, magical surveillance, a tracker on Jim, the map pages themselves, or some other method to recognize and locate him despite disguises and travel. The first letter’s sender and the reason for backing off are related unresolved details.
+  - _Session:_ 2–12 ([n2-e020](/events/detail/jim-receives-a-final-warning-letter), [n2-e075](/events/detail/roberto-s-maps-reveal-the-father-s-order-to-find-jim-alive), [n2-e122](/events/detail/the-eyeless-hand-reveals-it-can-still-find-jim))
 
 ---
 
@@ -156,7 +147,7 @@ Every question must include **what we already know** — many sit unanswered acr
 - **Why could Light not give Fix a normal guild tattoo?**
   - _Context:_ In Session 7, Light could not apply his usual Adventurers' Guild tattoo to Fix for an undisclosed reason, so he fabricated one. The DM has said Fix has a special connection to an unidentified organization of necromancers. Players suspect that connection explains the tattoo problem, but this is unconfirmed and the PCs do not know it. Beasts and Dwarf did not notice the deception.
   - _Why asking:_ The reason may connect Light, Fix, or the Eyeless Hand and is established as unresolved canon.
-  - _Session:_ 7 ([n2-e058](/events/fix-joins-the-guild-with-her-rival-party-under-a-fake-tattoo))
+  - _Session:_ 7 ([n2-e058](/events/fix-joins-lucky-palm-and-the-guild-under-a-fake-tattoo))
 
 - **Which campaign days contain Sessions 5–10?**
   - _Context:_ Session ownership is now corrected from dated WhatsApp recaps: Session 4 reaches Fairhaven on the current Day 12, Sessions 5–7 occupy Day 13, Session 8 is Day 14, Session 9 is provisionally Days 14–16, and Session 10 spans Days 16–17. The DM later recalled four days travelling to Fairhaven, five or six days in Fairhaven, four days fleeing, three days in Verdant Haven, three days at the mountain, one day settling in ShadowPeak, two days in ShadowPeak, and three days aboard the flying bazaar. In the same exchange he confirmed that Jim received Roberto’s map pages on the second day in Verdant Haven and then said seven days had elapsed since, which cannot be reconciled additively with all of those phase totals.
@@ -286,16 +277,16 @@ Every question must include **what we already know** — many sit unanswered acr
 
 ## Characters — still open
 
-| Who                    | Question                                                                                             |
-| ---------------------- | ---------------------------------------------------------------------------------------------------- |
-| **Jim**                | Sorcerer bloodline. Pursuers vs. Green Light letter. Will Light fulfill "left alone by past"?        |
-| **Revin**              | Monk subclass. Guild favor (forgotten). In-fiction fate if the DM ever revisits his disappearance.   |
-| **Cassian Veyl**       | Two Deck-granted languages. Personality, patron, and exact obligations in his watcher contract.      |
-| **Swift Starblade**    | Hostile NPC. Rhys Greenleaf rename. Session 10 departure. Relative names.                            |
-| **Devan**              | Paladin subclass/oath. Zone of truth answer.                                                         |
-| **Light 13th Marshal** | Species; why these PCs; favor costs; angel/dragon tie; dino migration.                               |
-| **Angel / Dragon**     | Names, ranks, zone-of-truth purpose.                                                                 |
-| **Victor**             | In-fiction departure after his last recorded appearance in Session 8; sheet details from D&D Beyond. |
+| Who                    | Question                                                                                                                |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| **Jim**                | Sorcerer bloodline. Eyeless Hand tracking method, warning sender, and retreat. Will Light fulfill "left alone by past"? |
+| **Revin**              | Monk subclass. Guild favor (forgotten). In-fiction fate if the DM ever revisits his disappearance.                      |
+| **Cassian Veyl**       | Two Deck-granted languages. Personality, patron, and exact obligations in his watcher contract.                         |
+| **Swift Starblade**    | Hostile NPC. Rhys Greenleaf rename. Session 10 departure. Relative names.                                               |
+| **Devan**              | Paladin subclass/oath. Zone of truth answer.                                                                            |
+| **Light 13th Marshal** | Species; why these PCs; favor costs; angel/dragon tie; dino migration.                                                  |
+| **Angel / Dragon**     | Names, ranks, zone-of-truth purpose.                                                                                    |
+| **Victor**             | In-fiction departure after his last recorded appearance in Session 8; sheet details from D&D Beyond.                    |
 
 ---
 

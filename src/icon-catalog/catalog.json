@@ -169570,6 +169570,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/life-buoy.html",
       "usedIn": [
         "src/data/events/n2-e069.ts",
+        "src/data/events/n2-e121.ts",
         "src/lib/event-icons.tsx"
       ]
     },

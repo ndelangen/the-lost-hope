@@ -116,6 +116,8 @@ describe('quest taxonomy', () => {
 describe('player-character status', () => {
   it('preserves occasional and retired campaign states', () => {
     expect(pcs.mr_peace.status).toBe('occasional')
+    expect(pcs.mr_peace.species).toBe('Celestial (exact species unknown)')
+    expect(pcs.mr_peace.notes?.flat()).toContain('He carried a staff.')
     expect(pcs.victor_dranzig.status).toBe('retired')
   })
 
@@ -308,6 +310,21 @@ describe('adventuring parties', () => {
         ),
       ),
     ).toBe(true)
+    expect(organizationMembers(organizations.lucky_palm)).toEqual([
+      {
+        status: 'active',
+        ranks: [
+          {
+            rank: 'Member',
+            members: [
+              { kind: 'pc', slug: 'fix' },
+              { kind: 'npc', slug: 'hex' },
+              { kind: 'npc', slug: 'sneeve' },
+            ],
+          },
+        ],
+      },
+    ])
   })
 })
 
@@ -359,6 +376,13 @@ describe('campaign chronology', () => {
       { day: 3, events: [events.n2_e023, events.n2_e024] },
       { day: 4, events: [events.n2_e025, events.n2_e103] },
     ])
+    expect(sessionPcs(sessions.the_fajanet_festival).map((pc) => pc.slug)).toEqual([
+      'jim',
+      'mr-peace',
+      'revin-klapper-grumblefist',
+      'swift-starblade',
+      'william-greenhoove',
+    ])
   })
 
   it('uses explicit session numbers', () => {
@@ -395,10 +419,11 @@ describe('campaign chronology', () => {
       refs.events.n2_e030.key,
     ])
     const badeshIndex = session4Keys.indexOf(refs.events.n2_e040.key)
-    expect(session4Keys.slice(badeshIndex, badeshIndex + 3)).toEqual([
+    expect(session4Keys.slice(badeshIndex, badeshIndex + 4)).toEqual([
       refs.events.n2_e040.key,
       refs.events.n2_e102.key,
       refs.events.n2_e041.key,
+      refs.events.n2_e121.key,
     ])
     expect(sessions.fairhaven_shadows.events.map(({ key }) => key)).toEqual([
       refs.events.n2_e044.key,
@@ -418,13 +443,14 @@ describe('campaign chronology', () => {
 
   it('keeps the Fairhaven travel sequence together in Session 4', () => {
     const session4Keys = sessions.from_fajanet_to_fairhaven.events.map(({ key }) => key)
-    expect(session4Keys.slice(-10)).toEqual([
+    expect(session4Keys.slice(-11)).toEqual([
       refs.events.n2_e037.key,
       refs.events.n2_e038.key,
       refs.events.n2_e039.key,
       refs.events.n2_e040.key,
       refs.events.n2_e102.key,
       refs.events.n2_e041.key,
+      refs.events.n2_e121.key,
       refs.events.n2_e042.key,
       refs.events.n2_e071.key,
       refs.events.n2_e082.key,
@@ -585,6 +611,7 @@ describe('campaign chronology', () => {
           events.n2_e117,
           events.n2_e118,
           events.n2_e108,
+          events.n2_e122,
         ],
       },
       { day: 21, events: [events.n2_e106, events.n2_e119, events.n2_e120] },

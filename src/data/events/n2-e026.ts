@@ -2,12 +2,20 @@ import { refs } from '#/data/generated/refs.ts'
 import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
-  name: 'Two new PCs join on the last day in Fajanet',
+  name: 'Devan joins while Swift continues with the party',
   day: 8,
   location: refs.locations.fajanet,
   mark: { type: 'icon', name: 'gi/GiTeamUpgrade' },
   notes: [
-    ['On the last day in ', refs.locations.fajanet, ', two new PCs joined the party:'],
+    [
+      'On the last day in ',
+      refs.locations.fajanet,
+      ', ',
+      refs.pcs.devan,
+      ' joined the party while ',
+      refs.pcs.swift_starblade,
+      ' continued from the previous session.',
+    ],
     [refs.pcs.devan, ' — Half-Orc Paladin. Session notes called him "an orc paladin."'],
     [
       refs.pcs.devan,

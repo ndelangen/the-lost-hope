@@ -24,6 +24,8 @@ export default createEvent({
       ', ',
       refs.pcs.revin_grumblefist,
       ', ',
+      refs.pcs.swift_starblade,
+      ', ',
       refs.pcs.mr_peace,
     ],
   ],

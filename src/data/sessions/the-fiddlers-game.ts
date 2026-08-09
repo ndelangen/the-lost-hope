@@ -19,6 +19,7 @@ export default createSession({
     refs.events.n2_e117,
     refs.events.n2_e118,
     refs.events.n2_e108,
+    refs.events.n2_e122,
     refs.events.n2_e106,
     refs.events.n2_e119,
     refs.events.n2_e120,

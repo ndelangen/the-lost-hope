@@ -15,5 +15,11 @@ export default createItem({
       refs.organizations.the_eyeless_hand,
       '.',
     ],
+    [
+      refs.events.n2_e122,
+      ': when ',
+      refs.pcs.jim,
+      ' read the pages at the inn on Nimbus, a message showed that the Eyeless Hand was again aware of his location. Whether the pages revealed it remains unknown.',
+    ],
   ],
 })
