@@ -51,6 +51,13 @@ describe('location import order', () => {
     const locationRegistry = await import('#/data/locations/_index.ts')
     expect(locationRegistry.default.world.slug).toBe('world')
   })
+
+  it('nests Session 12 scenes beneath their physical locations', () => {
+    expect(locationParent(locations.gambling_deck)?.slug).toBe(locations.sylvias_flying_bazaar.slug)
+    expect(locationParent(locations.lower_stables)?.slug).toBe(locations.sylvias_flying_bazaar.slug)
+    expect(locationParent(locations.bob_s_stall)?.slug).toBe(locations.sylvias_flying_bazaar.slug)
+    expect(locationParent(locations.nimbus_s_second_best_inn)?.slug).toBe(locations.nimbus.slug)
+  })
 })
 
 describe('registry integrity', () => {
@@ -119,6 +126,12 @@ describe('player-character status', () => {
       ),
     ).toBe(true)
   })
+
+  it('records the party at level 5 after Session 11', () => {
+    expect(
+      [pcs.cassian_veyl, pcs.devan, pcs.jim, pcs.swift_starblade].map((pc) => pc.level),
+    ).toEqual([5, 5, 5, 5])
+  })
 })
 
 describe('items', () => {
@@ -135,16 +148,44 @@ describe('items', () => {
       items.rare_dragon_scales.slug,
       items.steve_mace_of_returning.slug,
     ])
-    expect(itemsCarriedBy('pc', pcs.swift_starblade.slug).map((item) => item.slug)).toEqual([
+    expect(itemsOwnedBy('pc', pcs.swift_starblade.slug).map((item) => item.slug)).toEqual([
       items.demon_possessed_flying_broom.slug,
+      items.swifts_silver_container.slug,
+    ])
+    expect(itemsCarriedBy('pc', pcs.swift_starblade.slug).map((item) => item.slug)).toEqual([
+      items.swifts_silver_container.slug,
+    ])
+    expect(itemsCarriedBy('pc', pcs.cassian_veyl.slug).map((item) => item.slug)).toEqual([
+      items.bag_of_holding.slug,
+      items.wolfie_tracking_ring.slug,
+    ])
+    expect(itemsCarriedBy('pc', pcs.jim.slug).map((item) => item.slug)).toEqual([
+      items.cursed_shadow_sword.slug,
+      items.dagger_of_passive_aggression.slug,
+      items.jaded_amulet.slug,
+      items.lights_unidentified_drops.slug,
+      items.nimbus_dungeon_stamp_card.slug,
+      items.robertos_map_pages.slug,
     ])
     expect(itemsCarriedBy('pc', pcs.devan.slug).map((item) => item.slug)).toEqual([
       items.flask_of_never_ending_booze.slug,
       items.rare_dragon_scales.slug,
       items.steve_mace_of_returning.slug,
     ])
+    expect(
+      itemsOwnedBy('organization', organizations.beasts_and_dwarf.slug).map((item) => item.slug),
+    ).toEqual([items.nimbus_dungeon_stamp_card.slug])
+    expect(items.nimbus_dungeon_stamp_card.carriedBy?.key).toBe(refs.pcs.jim.key)
+    expect(items.nimbus_dungeon_stamp_card.quantity).toBe(1)
     expect(items.steve_mace_of_returning.craftedBy?.key).toBe(refs.npcs.bessy.key)
     expect(items.rare_dragon_scales.quantity).toBe(2)
+  })
+})
+
+describe('beasts', () => {
+  it('preserves Sir Fabulous before and after his divine transformation', () => {
+    expect(beasts.sir_fabulous.notes?.flat()).toContainEqual(refs.beasts.sir_fabulous_divine_steed)
+    expect(beasts.sir_fabulous_divine_steed.notes?.flat()).toContainEqual(refs.beasts.sir_fabulous)
   })
 })
 
@@ -324,6 +365,7 @@ describe('campaign chronology', () => {
     expect(sessions.arrival_in_fajanet.number).toBe(1)
     expect(sessions.escape_from_shadowpeak.number).toBe(10)
     expect(sessions.the_flying_bazaar.number).toBe(11)
+    expect(sessions.the_fiddlers_game.number).toBe(12)
   })
 
   it('excludes absent Swift from the Session 10 party', () => {
@@ -363,6 +405,7 @@ describe('campaign chronology', () => {
       refs.events.n2_e060.key,
       refs.events.n2_e045.key,
       refs.events.n2_e083.key,
+      refs.events.n2_e109.key,
     ])
     expect(sessionPcs(sessions.fairhaven_shadows).map((pc) => pc.slug)).toEqual([
       'devan',
@@ -514,7 +557,7 @@ describe('campaign chronology', () => {
       },
       {
         day: 19,
-        events: [events.n2_e096, events.n2_e101],
+        events: [events.n2_e096, events.n2_e101, events.n2_e110],
       },
     ])
     expect(sessionPcs(sessions.the_flying_bazaar).map((pc) => pc.slug)).toEqual([
@@ -525,7 +568,36 @@ describe('campaign chronology', () => {
     ])
   })
 
+  it('continues Session 12 through the Fiddler’s game and the arrival on Nimbus', () => {
+    expect(sessionDays(sessions.the_fiddlers_game)).toEqual([
+      {
+        day: 20,
+        events: [
+          events.n2_e104,
+          events.n2_e111,
+          events.n2_e105,
+          events.n2_e112,
+          events.n2_e113,
+          events.n2_e114,
+          events.n2_e115,
+          events.n2_e107,
+          events.n2_e116,
+          events.n2_e117,
+          events.n2_e118,
+          events.n2_e108,
+        ],
+      },
+      { day: 21, events: [events.n2_e106, events.n2_e119, events.n2_e120] },
+    ])
+    expect(sessionPcs(sessions.the_fiddlers_game).map((pc) => pc.slug)).toEqual([
+      'cassian-veyl',
+      'devan',
+      'jim',
+      'swift-starblade',
+    ])
+  })
+
   it('returns the latest event first', () => {
-    expect(sortedEvents()[0]?.data).toBe(events.n2_e101)
+    expect(sortedEvents()[0]?.data).toBe(events.n2_e120)
   })
 })

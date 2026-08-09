@@ -5,6 +5,7 @@ import ent_guardians from './ent-guardians.ts'
 import giant_spider from './giant-spider.ts'
 import mimic_chest from './mimic-chest.ts'
 import phoenix_chick from './phoenix-chick.ts'
+import sir_fabulous_divine_steed from './sir-fabulous-divine-steed.ts'
 import sir_fabulous from './sir-fabulous.ts'
 import wolfie from './wolfie.ts'
 
@@ -17,5 +18,6 @@ export default {
   mimic_chest,
   phoenix_chick,
   sir_fabulous,
+  sir_fabulous_divine_steed,
   wolfie,
 }

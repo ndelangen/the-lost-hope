@@ -13,7 +13,7 @@ export default createItem({
       refs.npcs.bob_the_merchant,
       ' that lets its wearer locate ',
       refs.beasts.wolfie,
-      ' at any time. It also has an unidentified negative effect.',
+      ' at any time. Its negative effect leaves the attuned wearer insatiably hungry; four normal-sized portions are required to feel satisfied.',
     ],
   ],
 })

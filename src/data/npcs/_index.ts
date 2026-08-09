@@ -35,6 +35,7 @@ import swift_starblade_s_younger_sister from './swift-starblade-s-younger-sister
 import sylvia from './sylvia.ts'
 import the_12th_marshal from './the-12th-marshal.ts'
 import the_father from './the-father.ts'
+import the_fiddler from './the-fiddler.ts'
 import the_mountain from './the-mountain.ts'
 import verdant_haven_rangers from './verdant-haven-rangers.ts'
 
@@ -74,6 +75,7 @@ export default {
   sylvia,
   sering_ravenwood,
   the_father,
+  the_fiddler,
   the_12th_marshal,
   the_mountain,
   verdant_haven_rangers,

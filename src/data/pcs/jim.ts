@@ -7,8 +7,10 @@ export default createPC({
   url: 'https://www.dndbeyond.com/characters/159958003',
   avatar: '/assets/pcs/jim.jpg',
   status: 'active',
-  species: 'Human (rules) / Kenku (in-fiction appearance)',
+  species: 'Human (formerly disguised as a Kenku)',
   class: 'Bard / Sorcerer',
+  subclass: 'College of Tragedy',
+  level: 5,
   memberships: [
     {
       organization: refs.organizations.adventurers_guild,
@@ -28,9 +30,17 @@ export default createPC({
   ],
   notes: [
     [
-      'Secret: Jim is a human hiding as a kenku, on the run from both the law and ',
+      'Jim is a human who hid as a kenku, on the run from both the law and ',
       refs.organizations.the_eyeless_hand,
-      ', the guild he betrayed. Nobody in the party knows.',
+      ', the guild he betrayed. ',
+      refs.pcs.devan,
+      ', ',
+      refs.pcs.cassian_veyl,
+      ', and ',
+      refs.pcs.swift_starblade,
+      ' learned his human identity and saw him without the kenku suit on ',
+      refs.locations.nimbus,
+      '.',
     ],
     [
       'Secret: Jim knows the true identity of ',
@@ -43,21 +53,22 @@ export default createPC({
       ' mark in an undisclosed location (separate from his tongue guild-mark).',
     ],
     [
-      'Source-of-truth split: this file is canonical for fiction (the kenku disguise and secrets); the D&D Beyond sheet is canonical for rules (Human, Bard/Sorcerer, College of Tragedy). When they conflict, the sheet wins for mechanics and this file wins for fiction.',
+      'Source-of-truth split: this file is canonical for fiction (the former kenku disguise and secrets); the D&D Beyond sheet is canonical for rules (Human, Bard/Sorcerer, College of Tragedy). When they conflict, the sheet wins for mechanics and this file wins for fiction.',
     ],
     [
-      refs.pcs.devan,
-      ' and ',
       refs.pcs.fix,
-      ' know that Jim is his real name. His face, species, and why the law wants him remain hidden.',
+      ' knows that Jim is his real name but has not learned his face or species. Why the law wants him remains hidden from the party.',
     ],
     [
       'Jim checks ',
       refs.items.robertos_map_pages,
       ' each evening when he is alone to look for new messages.',
     ],
+    ['Jim carries party items when no other individual holder is identified.'],
     ['His Sorcerer origin/bloodline has not been disclosed.'],
-    ['DM note: keep the disguise secret unless the player says otherwise.'],
+    [
+      'DM note: Jim’s human identity remains secret outside Devan, Cassian, and Swift unless the player says otherwise.',
+    ],
     ['Ryan’s first notes described him as a quiet kenku bard.'],
   ],
 })

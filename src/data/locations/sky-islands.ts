@@ -13,5 +13,14 @@ export default createLocation({
       refs.locations.feywild,
       '.',
     ],
+    [
+      'The route reaches ',
+      refs.locations.nimbus,
+      ' first, followed by ',
+      refs.locations.skynet,
+      ' and finally ',
+      refs.locations.tempest,
+      '.',
+    ],
   ],
 })

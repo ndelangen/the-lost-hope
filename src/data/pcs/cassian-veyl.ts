@@ -10,7 +10,7 @@ export default createPC({
   species: 'Sheep-like humanoid',
   class: 'Warlock',
   subclass: 'Great Old One Patron',
-  level: 4,
+  level: 5,
   memberships: [
     {
       organization: refs.organizations.adventurers_guild,

@@ -1,5 +1,6 @@
 import badesh_forest from './badesh-forest.ts'
 import badesh from './badesh.ts'
+import bob_s_stall from './bob-s-stall.ts'
 import continent_of_the_dead from './continent-of-the-dead.ts'
 import ethium from './ethium.ts'
 import fairhaven_guildhall from './fairhaven-guildhall.ts'
@@ -10,11 +11,15 @@ import fajanet_guildhall from './fajanet-guildhall.ts'
 import fajanet_tunnels from './fajanet-tunnels.ts'
 import fajanet from './fajanet.ts'
 import feywild from './feywild.ts'
+import gambling_deck from './gambling-deck.ts'
 import giggles_and_gadgets from './giggles-and-gadgets.ts'
 import holy_site from './holy-site.ts'
+import lower_stables from './lower-stables.ts'
 import mortimer_s_shop from './mortimer-s-shop.ts'
 import mountain_cliff from './mountain-cliff.ts'
 import mountain_top from './mountain-top.ts'
+import nimbus_s_second_best_inn from './nimbus-s-second-best-inn.ts'
+import nimbus from './nimbus.ts'
 import puzzle_room from './puzzle-room.ts'
 import reve from './reve.ts'
 import sea_of_unknown from './sea-of-unknown.ts'
@@ -23,9 +28,12 @@ import shadowpeak_mining_operation from './shadowpeak-mining-operation.ts'
 import shadowpeak_residential_district from './shadowpeak-residential-district.ts'
 import shadowpeak from './shadowpeak.ts'
 import sky_islands from './sky-islands.ts'
+import skynet from './skynet.ts'
 import snowy_mountain_ruin from './snowy-mountain-ruin.ts'
 import snowy_mountains from './snowy-mountains.ts'
+import sylvia_s_quarters from './sylvia-s-quarters.ts'
 import sylvias_flying_bazaar from './sylvias-flying-bazaar.ts'
+import tempest from './tempest.ts'
 import the_blackstone from './the-blackstone.ts'
 import the_boat_to_fairhaven from './the-boat-to-fairhaven.ts'
 import the_boat_to_fajanet_celesta from './the-boat-to-fajanet-celesta.ts'
@@ -46,23 +54,29 @@ export default {
   ethium,
   badesh,
   badesh_forest,
+  bob_s_stall,
   fairhaven,
   fairhaven_guildhall,
   fairhaven_harbor,
   fairhaven_town_square,
   feywild,
+  gambling_deck,
   giggles_and_gadgets,
   fajanet,
   fajanet_tunnels,
   fajanet_guildhall,
   holy_site,
+  lower_stables,
   mountain_cliff,
   mountain_top,
   mortimer_s_shop,
+  nimbus,
+  nimbus_s_second_best_inn,
   shadowpeak,
   shadowpeak_mining_operation,
   shadowpeak_residential_district,
   sky_islands,
+  skynet,
   snowy_mountain_ruin,
   snowy_mountains,
   the_blackstone,
@@ -75,6 +89,8 @@ export default {
   the_boat_to_fairhaven,
   the_boat_to_fajanet_celesta,
   sylvias_flying_bazaar,
+  sylvia_s_quarters,
+  tempest,
   the_green_light,
   the_nest,
   trapdoor,
