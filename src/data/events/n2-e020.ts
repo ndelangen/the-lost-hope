@@ -20,8 +20,10 @@ export default createEvent({
       ' near the mountain tonight.',
     ],
     ['The deliverer was not identified. Only Jim saw the letter.'],
+    [
+      'Although Jim was disguised and inside the guildhall, whoever delivered the letter knew exactly where to reach him and whom to give it to.',
+    ],
     ["Jim disregarded the letter's demand."],
-    ['Open: who sent the letter? ("us" — plural.)'],
     ['Party: ', refs.pcs.jim, ', ', refs.pcs.william_greenhove, ', ', refs.pcs.revin_grumblefist],
   ],
 })

@@ -2,7 +2,7 @@ import { refs } from '#/data/generated/refs.ts'
 import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
-  name: 'Fix joins the guild with her rival party under a fake tattoo',
+  name: 'Fix joins Lucky Palm and the guild under a fake tattoo',
   day: 13,
   location: refs.locations.fairhaven_guildhall,
   mark: { type: 'avatar', url: '/assets/pcs/placeholder.svg' },
@@ -14,9 +14,11 @@ export default createEvent({
       refs.npcs.hex,
       ' and ',
       refs.npcs.sneeve,
-      '. The three belonged to ',
+      ' of ',
       refs.organizations.lucky_palm,
-      ', a rival adventuring party; Fix did not join ',
+      ', a rival adventuring party. ',
+      refs.pcs.jim,
+      ' suggested that Fix join Lucky Palm, and Hex agreed. Fix therefore joined Lucky Palm rather than ',
       refs.organizations.beasts_and_dwarf,
       '.',
     ],

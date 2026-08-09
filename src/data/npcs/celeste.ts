@@ -4,7 +4,7 @@ export default createNPC({
   name: 'Celeste',
   notes: [
     [
-      'A newly orphaned girl whom the party suspected might be manifesting necromancy involuntarily. The basis for that suspicion and where the party met her were not preserved.',
+      'A strange child with an unexplained connection to death or the undead. The party suspected she might be manifesting necromancy involuntarily, but the exact sign that led them to that conclusion is no longer remembered.',
     ],
   ],
 })

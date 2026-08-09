@@ -17,6 +17,16 @@ export default createEvent({
       ' pulling the cart.',
     ],
     [
+      refs.pcs.fix,
+      ' was not accompanied by ',
+      refs.npcs.hex,
+      ' or ',
+      refs.npcs.sneeve,
+      '. The party did not learn whether they had become separated during the destruction of ',
+      refs.locations.fairhaven,
+      ' or what had happened to Lucky Palm.',
+    ],
+    [
       'Party: ',
       refs.pcs.cassian_veyl,
       ', ',

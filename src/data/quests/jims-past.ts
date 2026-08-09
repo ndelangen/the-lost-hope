@@ -9,6 +9,8 @@ export default createQuest({
   status: 'open',
   clues: [
     [
+      refs.events.n2_e020,
+      ': while disguised and inside the guildhall, ',
       refs.pcs.jim,
       " received a letter at the guildhall. The letter was a 'final warning': 'meet us at the ",
       refs.locations.the_green_light,
@@ -78,9 +80,25 @@ export default createQuest({
       ' operative whose map book allowed two-way communication with the organization.',
     ],
     [
-      'Open: someone from ',
+      refs.events.n2_e122,
+      ': when ',
       refs.pcs.jim,
-      "'s past is after him. Who sent the warning, and what does the party not yet know about him?",
+      ' read the magical pages at an inn on Nimbus, the resulting message showed that ',
+      refs.organizations.the_eyeless_hand,
+      ' again knew where he was and indicated that the organization was backing off somewhat for an unknown reason.',
+    ],
+    [
+      refs.locations.verdant_haven,
+      ' may have been the only place where ',
+      refs.pcs.jim,
+      ' seemed genuinely beyond the organization’s sight, but that apparent exception is unconfirmed.',
+    ],
+    [
+      'Open: how does ',
+      refs.organizations.the_eyeless_hand,
+      ' repeatedly locate and identify ',
+      refs.pcs.jim,
+      ', even through disguises and across distant locations? The sender of the original warning and the reason the organization later backed off also remain unknown.',
     ],
   ],
   conclusion: [],

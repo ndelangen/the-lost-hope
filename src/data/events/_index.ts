@@ -118,6 +118,8 @@ import n2_e117 from './n2-e117.ts'
 import n2_e118 from './n2-e118.ts'
 import n2_e119 from './n2-e119.ts'
 import n2_e120 from './n2-e120.ts'
+import n2_e121 from './n2-e121.ts'
+import n2_e122 from './n2-e122.ts'
 
 export default {
   n2_e001,
@@ -240,4 +242,6 @@ export default {
   n2_e118,
   n2_e119,
   n2_e120,
+  n2_e121,
+  n2_e122,
 }
