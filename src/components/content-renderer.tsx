@@ -8,7 +8,8 @@ import { cn } from '#/lib/utils'
 
 type ContentParagraph = Content[number]
 type ContentAtom = ContentParagraph[number]
-type Media = Extract<ContentAtom, { url: string }>
+type ExternalLink = Extract<ContentAtom, { type: 'link' }>
+type Media = Extract<ContentAtom, { type: 'image' | 'video' | 'audio' | 'map' }>
 
 export function ContentRenderer({ content, className }: { content: Content; className?: string }) {
   return (
@@ -38,6 +39,10 @@ function ContentPart({ part }: { part: ContentParagraph | ContentAtom }) {
         ))}
       </>
     )
+  }
+
+  if (isExternalLink(part)) {
+    return <ContentExternalLink link={part} />
   }
 
   if (isMedia(part)) {
@@ -86,9 +91,28 @@ function InlineRun({ items }: { items: ContentParagraph }) {
             <ContentReference key={index} reference={item} />
           )
         }
+        if (isExternalLink(item)) {
+          return (
+            // oxlint-disable-next-line react/no-array-index-key -- content runs lack stable ids
+            <ContentExternalLink key={index} link={item} />
+          )
+        }
         return null
       })}
     </p>
+  )
+}
+
+function ContentExternalLink({ link }: { link: ExternalLink }) {
+  return (
+    <a
+      href={link.url}
+      target="_blank"
+      rel="noreferrer"
+      className="text-primary font-medium underline-offset-4 hover:underline"
+    >
+      {link.label}
+    </a>
   )
 }
 
@@ -104,9 +128,28 @@ function isReference(value: unknown): value is Reference {
 
 /** True when every element is a plain-text/ref atom, i.e. the array is one paragraph. */
 function isInlineRun(items: ContentParagraph): boolean {
-  return items.every((item) => typeof item === 'string' || isReference(item))
+  return items.every(
+    (item) => typeof item === 'string' || isReference(item) || isExternalLink(item),
+  )
 }
 
 function isMedia(value: unknown): value is Media {
-  return !!value && typeof value === 'object' && 'type' in value && 'url' in value
+  return (
+    !!value &&
+    typeof value === 'object' &&
+    'type' in value &&
+    ['image', 'video', 'audio', 'map'].includes(String(value.type)) &&
+    'url' in value
+  )
+}
+
+function isExternalLink(value: unknown): value is ExternalLink {
+  return (
+    !!value &&
+    typeof value === 'object' &&
+    'type' in value &&
+    value.type === 'link' &&
+    'label' in value &&
+    'url' in value
+  )
 }
