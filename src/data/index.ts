@@ -112,6 +112,7 @@ export default createCampaign({
     quests.mystery_girl,
     quests.rare_animal_dealer,
     quests.the_tentacle_night,
+    quests.what_is_up_with_bob_the_merchant,
     quests.who_is_giggles,
     quests.who_is_light,
   ],

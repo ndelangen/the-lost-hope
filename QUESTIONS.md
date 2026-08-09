@@ -268,10 +268,10 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Why asking:_ The transcript identifies the inn by rank rather than by its in-world name.
   - _Session:_ 12 ([n2-e118](/events/detail/the-party-takes-rooms-sixty-feet-apart))
 
-- **What is Bob the Merchant’s actual nature, and why do observers see different forms?**
-  - _Context:_ The party sees [Bob the Merchant](/npcs/detail/bob-the-merchant) as a skeleton with blue flames in his eye sockets, while the staff at [Nimbus’s Second-Best Inn](/locations/detail/nimbus-s-second-best-inn) described him as a normal, exceptionally handsome human man with black hair. Bob insists that he is alive, and acknowledging him as skeletal or undead triggered a supernatural final warning.
-  - _Why asking:_ Bob’s actual species and the cause of the conflicting appearances remain unknown.
-  - _Session:_ 12 ([n2-e107](/events/detail/bob-s-skeletal-appearance-triggers-a-final-warning), [n2-e108](/events/detail/jim-finds-the-jaded-amulet-in-a-pie))
+- **What is up with Bob the Merchant?**
+  - _Context:_ The party first met [Bob the Merchant](/npcs/detail/bob-the-merchant) at Fajanet’s festival, then found him again with his enormous magical stock and [Mimic Chest](/beasts/detail/mimic-chest) aboard Sylvia’s Flying Bazaar. He sells or gives away unusual items, can combine and permanently alter magic and creatures, and uses divine contracts that can locate their signatories. He later reached [Nimbus’s Second-Best Inn](/locations/detail/nimbus-s-second-best-inn), took and temporarily replaced its cook, and hid Jim’s amulet in a pie. The party sees Bob as a skeleton with blue flames in his eye sockets, while the inn staff saw a normal, exceptionally handsome human man with black hair. Bob insists that he is alive. Acknowledging his skeletal form or calling him undead exposed the party to an eye staring from the abyss, reversed time by five seconds, and produced a supernatural final warning to ignore what they perceive.
+  - _Why asking:_ Bob’s actual nature, motives, means of travel, method of moving or accessing his stall and stock, source of his items, reason for appearing differently to the party, and the force behind the compulsory pretence that he is human and alive are all unknown. These connected questions are tracked as [What Is Up with Bob the Merchant?](/quests/detail/what-is-up-with-bob-the-merchant), rather than as a species question alone.
+  - _Session:_ 3, 11–12 ([n2-e103](/events/detail/bob-gives-the-party-special-daggers), [n2-e094](/events/detail/the-party-reunites-with-bob-the-merchant), [n2-e095](/events/detail/bob-s-bargains-change-wolfie-and-bind-jim-to-a-contract), [n2-e107](/events/detail/bob-s-skeletal-appearance-triggers-a-final-warning), [n2-e108](/events/detail/jim-finds-the-jaded-amulet-in-a-pie))
 
 ---
 

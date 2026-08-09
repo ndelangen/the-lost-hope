@@ -11,6 +11,7 @@ import {
   GiMagicPortal,
   GiPawPrint,
   GiSiegeTower,
+  GiSkeletonInside,
   GiTentaclesSkull,
   GiVelociraptorTracks,
 } from 'react-icons/gi'
@@ -29,6 +30,7 @@ export const QUEST_ICONS = {
   'gi/GiMagicPortal': GiMagicPortal,
   'gi/GiPawPrint': GiPawPrint,
   'gi/GiSiegeTower': GiSiegeTower,
+  'gi/GiSkeletonInside': GiSkeletonInside,
   'gi/GiTentaclesSkull': GiTentaclesSkull,
   'gi/GiVelociraptorTracks': GiVelociraptorTracks,
 } as const satisfies Record<string, IconType>

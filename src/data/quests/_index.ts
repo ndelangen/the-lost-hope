@@ -9,6 +9,7 @@ import rare_animal_dealer from './rare-animal-dealer.ts'
 import the_cursed_sword from './the-cursed-sword.ts'
 import the_fairhaven_invasion from './the-fairhaven-invasion.ts'
 import the_tentacle_night from './the-tentacle-night.ts'
+import what_is_up_with_bob_the_merchant from './what-is-up-with-bob-the-merchant.ts'
 import who_is_giggles from './who-is-giggles.ts'
 import who_is_light from './who-is-light.ts'
 
@@ -24,6 +25,7 @@ export default {
   the_cursed_sword,
   the_fairhaven_invasion,
   the_tentacle_night,
+  what_is_up_with_bob_the_merchant,
   who_is_giggles,
   who_is_light,
 }
