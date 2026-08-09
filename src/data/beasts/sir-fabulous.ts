@@ -13,5 +13,10 @@ export default createBeast({
       refs.beasts.wolfie,
       '.',
     ],
+    [
+      'Sir Fabulous’s original dire-wolf form. It no longer exists separately after becoming ',
+      refs.beasts.sir_fabulous_divine_steed,
+      '.',
+    ],
   ],
 })

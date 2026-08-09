@@ -127,5 +127,6 @@ export default createCampaign({
     sessions.verdant_haven_to_shadowpeak,
     sessions.escape_from_shadowpeak,
     sessions.the_flying_bazaar,
+    sessions.the_fiddlers_game,
   ],
 })

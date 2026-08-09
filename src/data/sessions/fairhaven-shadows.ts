@@ -6,7 +6,13 @@ export default createSession({
   number: 5,
   icon: 'gi/GiShadowFollower',
   date: new Date('2026-04-09'),
-  events: [refs.events.n2_e044, refs.events.n2_e060, refs.events.n2_e045, refs.events.n2_e083],
+  events: [
+    refs.events.n2_e044,
+    refs.events.n2_e060,
+    refs.events.n2_e045,
+    refs.events.n2_e083,
+    refs.events.n2_e109,
+  ],
   notes: [
     ['Notes for this session were reconstructed by Niek and Ryan.'],
     [
@@ -22,7 +28,9 @@ export default createSession({
     [
       'Niels was absent, but ',
       refs.pcs.william_greenhove,
-      ' remained with the group as a carried “minotaur mule.”',
+      ' remained with the group in-fiction. His prolonged sleep and awakening are recorded in ',
+      refs.events.n2_e109,
+      '.',
     ],
   ],
 })

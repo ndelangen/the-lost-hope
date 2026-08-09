@@ -16,5 +16,10 @@ export default createNPC({
     [
       'Crowy can communicate directly with Light. Its contract requires the party to provide basic care; it can produce the paperwork by vomiting it out.',
     ],
+    [
+      'On ',
+      refs.locations.nimbus,
+      ', Crowy consumed a Sleep spell and called itself the “Bird of Gluttony.” The source and limits of this ability remain unknown.',
+    ],
   ],
 })

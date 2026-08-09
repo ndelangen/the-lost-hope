@@ -10,7 +10,7 @@ export default createPC({
   species: 'Half-Elf',
   class: 'Rogue',
   subclass: 'Arcane Trickster',
-  level: 4,
+  level: 5,
   memberships: [
     {
       organization: refs.organizations.beasts_and_dwarf,

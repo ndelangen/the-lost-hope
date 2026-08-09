@@ -6,7 +6,7 @@ Open questions for the author. Also used by the agent when editing data.
 include why the answer matters when it blocks a modeling or naming decision. Record confirmed canon
 in `src/data/` when answered. Do not use this file as an engineering backlog.
 
-**Play sessions:** Sessions **1–11** are dated and have event notes.
+**Play sessions:** Sessions **1–12** are dated and have event notes.
 
 ---
 
@@ -122,6 +122,16 @@ Every question must include **what we already know** — many sit unanswered acr
 
 ## Session 5 — Fairhaven
 
+- **What are Light’s unidentified drops, and how much remains in Jim’s bottle?**
+  - _Context:_ [Light 13th Marshal](/npcs/detail/light-13th-marshal) instructed [Jim](/pcs/detail/jim) to give exactly two drops to the unusually long-sleeping [William Greenhoove](/pcs/detail/william-greenhoove). William woke, Jim never returned the bottle, and Jim still carries a nonzero amount.
+  - _Why asking:_ The drops’ composition, full range of effects, and remaining number of doses are unknown.
+  - _Session:_ 5 ([n2-e109](/events/detail/jim-wakes-william-with-light-s-unidentified-drops))
+
+- **When during Session 5 did Jim wake William?**
+  - _Context:_ William was carried with the group while his player was absent. The wake-up is provisionally placed after the other recorded Fairhaven scenes because its exact position was not remembered.
+  - _Why asking:_ Session event-reference order records chronology within Campaign Day 13.
+  - _Session:_ 5 ([n2-e109](/events/detail/jim-wakes-william-with-light-s-unidentified-drops))
+
 - **What guildmaster favor did Victor ask Light to grant?**
   - _Context:_ Victor entered a booth at the Fairhaven guildhall, met Light, received his Adventurers’ Guild tattoo, and requested his favor. The party does not know what he asked for.
   - _Session:_ 5 ([n2-e071](/events/victor-receives-his-guild-tattoo-and-asks-a-favor))
@@ -210,11 +220,6 @@ Every question must include **what we already know** — many sit unanswered acr
 
 ## Session 11 — The Flying Bazaar
 
-- **Does Session 12 begin before or after the third night aboard Sylvia’s flying bazaar?**
-  - _Context:_ The DM confirmed that two nights aboard elapsed during Session 11 and that a third night would happen later. Session 11 therefore closes on Campaign Day 19, but the first event of Session 12 could still occur before or after that next night.
-  - _Why asking:_ This determines whether Session 12’s first event remains on Campaign Day 19 or begins on Day 20.
-  - _Session:_ 11
-
 - **What are the names and exact whereabouts of Swift Starblade’s relatives, and which of Sylvia’s brothers is intended to marry his younger sister?**
   - _Context:_ Sylvia said Swift was searching for relatives scattered among islands near the Continent of the Dead. She privately tasked Jim and Cassian with finding [Swift Starblade’s Younger Sister](/npcs/detail/swift-starblade-s-younger-sister) and bringing her alive to Sylvia to marry one of Sylvia’s brothers, which Sylvia said would settle the family dispute. The sister is now represented as an NPC, but her name, location, and intended husband remain unknown.
   - _Why asking:_ The answers would replace the sister’s descriptive placeholder with her canonical name and define the objective of [Bring Swift’s Sister to Sylvia](/quests/detail/bring-swift-s-sister-to-sylvia).
@@ -225,25 +230,72 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Why asking:_ The event should not attribute the failure to Jim’s cooking, an ingredient, or the kitchen without supporting canon.
   - _Session:_ 11 ([n2-e101](/events/jim-poisons-forty-one-guests-and-is-fired-as-ship-s-cook))
 
-- **What is the negative effect of Cassian’s Wolfie-tracking ring?**
-  - _Context:_ Bob gave Cassian the [Wolfie-Tracking Ring](/items/wolfie-tracking-ring), which always lets him locate Wolfie but also has an unidentified negative effect.
-  - _Why asking:_ The drawback is established canon, but its actual effect cannot be represented until it is revealed.
-  - _Session:_ 11
+---
+
+## Session 12 — The Fiddler’s Game
+
+- **How did the Fiddler already know the party and parts of their future?**
+  - _Context:_ [The Fiddler](/npcs/detail/the-fiddler) seemed to recognize the party before meeting them and showed knowledge of their future while also referring to alternate versions or timelines.
+  - _Why asking:_ It is unknown whether this comes from time travel, foresight, movement between timelines, or something else.
+  - _Session:_ 12 ([n2-e105](/events/detail/the-party-plays-three-rounds-with-the-fiddler))
+
+- **Did Jim’s room burn down completely?**
+  - _Context:_ The storm chasing [Jim](/pcs/detail/jim) struck him with lightning inside his room and started a fire. Devan attempted to heal Jim’s damaged kenku suit before it was buried, but the final condition of the room was not established.
+  - _Session:_ 12 ([n2-e106](/events/detail/jim-s-lightning-curse-reveals-his-human-identity))
+
+- **Which two languages did Cassian gain from the Fiddler’s Deck?**
+  - _Context:_ The card granted [Cassian Veyl](/pcs/detail/cassian-veyl) two languages, but the final choices were not recorded.
+  - _Session:_ 12 ([n2-e105](/events/detail/the-party-plays-three-rounds-with-the-fiddler))
+
+- **What part of Devan went missing or fell asleep during the Fiddler’s game?**
+  - _Context:_ [Devan](/pcs/detail/devan) felt that a part of himself was absent and dormant, but the card’s exact target and consequences were not revealed.
+  - _Session:_ 12 ([n2-e105](/events/detail/the-party-plays-three-rounds-with-the-fiddler))
+
+- **Which NPC became permanently hostile to Swift?**
+  - _Context:_ One of [Swift Starblade](/pcs/detail/swift-starblade)’s cards made an NPC chosen by the DM permanently hostile to him. The identity will remain hidden until revealed in play.
+  - _Session:_ 12 ([n2-e105](/events/detail/the-party-plays-three-rounds-with-the-fiddler))
+
+- **What is inside Swift’s silver container?**
+  - _Context:_ [Swift’s Silver Container](/items/detail/swift-s-silver-container) can only be opened under a full moon and was said to contain a valuable item, but the contents remain unrevealed.
+  - _Session:_ 12 ([n2-e105](/events/detail/the-party-plays-three-rounds-with-the-fiddler))
+
+- **What additional random effect does Cassian’s Bag of Holding have?**
+  - _Context:_ [Bob the Merchant](/npcs/detail/bob-the-merchant) sold [Cassian](/pcs/detail/cassian-veyl) the [Bag of Holding](/items/detail/bag-of-holding) and said its additional effect would be determined later.
+  - _Session:_ 12 ([n2-e115](/events/detail/cassian-buys-the-bag-of-holding-from-bob))
+
+- **What caused Crowy to become the “Bird of Gluttony,” and what can that form do?**
+  - _Context:_ [Crowy](/npcs/detail/crowy) consumed Jim’s Sleep spell at [Nimbus’s Second-Best Inn](/locations/detail/nimbus-s-second-best-inn) and used the title, but the source, duration, and limits of the change remain unknown.
+  - _Session:_ 12 ([n2-e119](/events/detail/crowy-becomes-the-bird-of-gluttony))
+
+- **How does the Nimbus Dungeon Stamp Card system work?**
+  - _Context:_ [Sylvia](/npcs/detail/sylvia) gave [Beasts and Dwarf](/organizations/detail/beasts-and-dwarf) one [Nimbus Dungeon Stamp Card](/items/detail/nimbus-dungeon-stamp-card) for the party’s first of [Nimbus](/locations/detail/nimbus)’s two dungeons.
+  - _Why asking:_ Any additional stamps, redemption, or reward rules were not recorded.
+  - _Session:_ 12 ([n2-e104](/events/detail/sylvia-sponsors-the-party-s-first-nimbus-dungeon))
+
+- **What is the proper name of Nimbus’s second-best inn?**
+  - _Context:_ The party stayed at a three-storey, high-end inn on [Nimbus](/locations/detail/nimbus) with private bathrooms, hammocks, a library, an alchemical shop, dining, and dungeon insurance. It is provisionally represented as [Nimbus’s Second-Best Inn](/locations/detail/nimbus-s-second-best-inn).
+  - _Why asking:_ The transcript identifies the inn by rank rather than by its in-world name.
+  - _Session:_ 12 ([n2-e118](/events/detail/the-party-takes-rooms-sixty-feet-apart))
+
+- **What is Bob the Merchant’s actual nature, and why do observers see different forms?**
+  - _Context:_ The party sees [Bob the Merchant](/npcs/detail/bob-the-merchant) as a skeleton with blue flames in his eye sockets, while the staff at [Nimbus’s Second-Best Inn](/locations/detail/nimbus-s-second-best-inn) described him as a normal, exceptionally handsome human man with black hair. Bob insists that he is alive, and acknowledging him as skeletal or undead triggered a supernatural final warning.
+  - _Why asking:_ Bob’s actual species and the cause of the conflicting appearances remain unknown.
+  - _Session:_ 12 ([n2-e107](/events/detail/bob-s-skeletal-appearance-triggers-a-final-warning), [n2-e108](/events/detail/jim-finds-the-jaded-amulet-in-a-pie))
 
 ---
 
 ## Characters — still open
 
-| Who                    | Question                                                                                                         |
-| ---------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| **Jim**                | Sorcerer bloodline. Real face/species. Pursuers vs. Green Light letter. Will Light fulfill "left alone by past"? |
-| **Revin**              | Monk subclass. Guild favor (forgotten). In-fiction fate if the DM ever revisits his disappearance.               |
-| **Cassian Veyl**       | Personality, patron, and exact obligations and enforcement terms in his watcher contract.                        |
-| **Swift Starblade**    | Rhys Greenleaf rename — when/why? Exact departure method and fan-gathering venue in Session 10. Relative names.  |
-| **Devan**              | Paladin subclass/oath. Zone of truth answer.                                                                     |
-| **Light 13th Marshal** | Species; why these PCs; favor costs; angel/dragon tie; dino migration.                                           |
-| **Angel / Dragon**     | Names, ranks, zone-of-truth purpose.                                                                             |
-| **Victor**             | In-fiction departure after his last recorded appearance in Session 8; sheet details from D&D Beyond.             |
+| Who                    | Question                                                                                             |
+| ---------------------- | ---------------------------------------------------------------------------------------------------- |
+| **Jim**                | Sorcerer bloodline. Pursuers vs. Green Light letter. Will Light fulfill "left alone by past"?        |
+| **Revin**              | Monk subclass. Guild favor (forgotten). In-fiction fate if the DM ever revisits his disappearance.   |
+| **Cassian Veyl**       | Two Deck-granted languages. Personality, patron, and exact obligations in his watcher contract.      |
+| **Swift Starblade**    | Hostile NPC. Rhys Greenleaf rename. Session 10 departure. Relative names.                            |
+| **Devan**              | Paladin subclass/oath. Zone of truth answer.                                                         |
+| **Light 13th Marshal** | Species; why these PCs; favor costs; angel/dragon tie; dino migration.                               |
+| **Angel / Dragon**     | Names, ranks, zone-of-truth purpose.                                                                 |
+| **Victor**             | In-fiction departure after his last recorded appearance in Session 8; sheet details from D&D Beyond. |
 
 ---
 

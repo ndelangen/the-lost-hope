@@ -9,7 +9,7 @@ export default createPC({
   status: 'active',
   species: 'Half-Orc',
   class: 'Paladin',
-  level: 4,
+  level: 5,
   memberships: [
     {
       organization: refs.organizations.adventurers_guild,
@@ -24,7 +24,7 @@ export default createPC({
   ],
   notes: [
     [
-      'Identified from the D&D Beyond roster (player Balenorblighthammer, Half-Orc Paladin 4); the session-4 notes\' "orc paladin" is almost certainly him.',
+      'Identified from the D&D Beyond roster (player Balenorblighthammer, Half-Orc Paladin); the session-4 notes\' "orc paladin" is almost certainly him.',
     ],
     ['Paladin oath/subclass not yet established.'],
     [

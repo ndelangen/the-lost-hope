@@ -1,6 +1,6 @@
 import { MailWarning, Toilet } from 'lucide-react'
 import type { ComponentType } from 'react'
-import { FaHandshake, FaMapMarkerAlt, FaUsersSlash } from 'react-icons/fa'
+import { FaHandshake, FaMapMarkerAlt, FaPrescriptionBottleAlt, FaUsersSlash } from 'react-icons/fa'
 import {
   GiAngelWings,
   GiBarricade,
@@ -29,6 +29,7 @@ import {
   GiHutsVillage,
   GiImpLaugh,
   GiLifeBuoy,
+  GiLightningStorm,
   GiLockpicks,
   GiMineWagon,
   GiMonsterGrasp,
@@ -42,6 +43,7 @@ import {
   GiPuzzle,
   GiPunch,
   GiPrisoner,
+  GiProgression,
   GiRank2,
   GiRank3,
   GiRaven,
@@ -80,6 +82,7 @@ type EventIcon = ComponentType<{ className?: string; 'aria-hidden'?: boolean }>
 export const EVENT_ICONS: Record<string, EventIcon> = {
   'fa/FaHandshake': FaHandshake,
   'fa/FaMapMarkerAlt': FaMapMarkerAlt,
+  'fa/FaPrescriptionBottleAlt': FaPrescriptionBottleAlt,
   'fa/FaUsersSlash': FaUsersSlash,
   'lucide/MailWarning': MailWarning,
   'lucide/Toilet': Toilet,
@@ -110,6 +113,7 @@ export const EVENT_ICONS: Record<string, EventIcon> = {
   'gi/GiHutsVillage': GiHutsVillage,
   'gi/GiImpLaugh': GiImpLaugh,
   'gi/GiLifeBuoy': GiLifeBuoy,
+  'gi/GiLightningStorm': GiLightningStorm,
   'gi/GiLockpicks': GiLockpicks,
   'gi/GiMineWagon': GiMineWagon,
   'gi/GiMonsterGrasp': GiMonsterGrasp,
@@ -123,6 +127,7 @@ export const EVENT_ICONS: Record<string, EventIcon> = {
   'gi/GiPuzzle': GiPuzzle,
   'gi/GiPunch': GiPunch,
   'gi/GiPrisoner': GiPrisoner,
+  'gi/GiProgression': GiProgression,
   'gi/GiRank2': GiRank2,
   'gi/GiRank3': GiRank3,
   'gi/GiRaven': GiRaven,

@@ -1,10 +1,14 @@
 import type { IconType } from 'react-icons'
-import { FaAtlas, FaRing } from 'react-icons/fa'
+import { FaAtlas, FaPrescriptionBottleAlt, FaRing } from 'react-icons/fa'
 import {
+  GiBackpack,
   GiDaggerRose,
   GiDrippingStone,
+  GiEmeraldNecklace,
   GiMaceHead,
   GiMagicBroom,
+  GiLockedChest,
+  GiPassport,
   GiRoundBottomFlask,
   GiScales,
   GiSwordWound,
@@ -14,11 +18,16 @@ import { cn } from '#/lib/utils'
 
 export const ITEM_ICONS = {
   'fa/FaAtlas': FaAtlas,
+  'fa/FaPrescriptionBottleAlt': FaPrescriptionBottleAlt,
   'fa/FaRing': FaRing,
+  'gi/GiBackpack': GiBackpack,
   'gi/GiMagicBroom': GiMagicBroom,
+  'gi/GiLockedChest': GiLockedChest,
+  'gi/GiPassport': GiPassport,
   'gi/GiSwordWound': GiSwordWound,
   'gi/GiDaggerRose': GiDaggerRose,
   'gi/GiDrippingStone': GiDrippingStone,
+  'gi/GiEmeraldNecklace': GiEmeraldNecklace,
   'gi/GiMaceHead': GiMaceHead,
   'gi/GiRoundBottomFlask': GiRoundBottomFlask,
   'gi/GiScales': GiScales,
