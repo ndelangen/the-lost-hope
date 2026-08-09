@@ -240,18 +240,22 @@ Every question must include **what we already know** — many sit unanswered acr
 
 - **What part of Devan went missing or fell asleep during the Fiddler’s game?**
   - _Context:_ [Devan](/pcs/detail/devan) felt that a part of himself was absent and dormant, but the card’s exact target and consequences were not revealed.
+  - _Why asking:_ This is tracked as the open mystery [What Did Devan Lose to the Fiddler?](/quests/detail/what-did-devan-lose-to-the-fiddler); the affected part, cause, consequences, and recovery conditions remain unknown.
   - _Session:_ 12 ([n2-e105](/events/detail/the-party-plays-three-rounds-with-the-fiddler))
 
 - **Which NPC became permanently hostile to Swift?**
   - _Context:_ One of [Swift Starblade](/pcs/detail/swift-starblade)’s cards made an NPC chosen by the DM permanently hostile to him. The identity will remain hidden until revealed in play.
+  - _Why asking:_ This is tracked as [Who Became Swift Starblade’s Enemy?](/quests/detail/who-became-swift-starblade-s-enemy), including how and when the hostility will manifest.
   - _Session:_ 12 ([n2-e105](/events/detail/the-party-plays-three-rounds-with-the-fiddler))
 
 - **What is inside Swift’s silver container?**
   - _Context:_ [Swift’s Silver Container](/items/detail/swift-s-silver-container) can only be opened under a full moon and was said to contain a valuable item, but the contents remain unrevealed.
+  - _Why asking:_ Opening it and discovering its contents is tracked as [Inside Swift’s Silver Container](/quests/detail/inside-swift-s-silver-container).
   - _Session:_ 12 ([n2-e105](/events/detail/the-party-plays-three-rounds-with-the-fiddler))
 
 - **What additional random effect does Cassian’s Bag of Holding have?**
   - _Context:_ [Bob the Merchant](/npcs/detail/bob-the-merchant) sold [Cassian](/pcs/detail/cassian-veyl) the [Bag of Holding](/items/detail/bag-of-holding) and said its additional effect would be determined later.
+  - _Why asking:_ The effect, its trigger, and whether it is beneficial, harmful, or mixed are tracked as [Bag of Holding’s Hidden Effect](/quests/detail/bag-of-holding-s-hidden-effect).
   - _Session:_ 12 ([n2-e115](/events/detail/cassian-buys-the-bag-of-holding-from-bob))
 
 - **What are the “Bird of Gluttony’s” exact powers and limitations?**

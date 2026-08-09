@@ -115534,7 +115534,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/coma.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/quests/what-did-devan-lose-to-the-fiddler.ts",
+        "src/lib/quest-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiComb",
@@ -158218,7 +158221,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/darkzaitzev/hooded-assassin.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/quests/who-became-swift-starblade-s-enemy.ts",
+        "src/lib/quest-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiHoodedFigure",
@@ -171697,7 +171703,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/locked-box.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/quests/inside-swift-s-silver-container.ts",
+        "src/lib/quest-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiLockedChest",
@@ -204284,7 +204293,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/rolling-dice-cup.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/quests/bag-of-holding-s-hidden-effect.ts",
+        "src/lib/quest-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiRollingDices",

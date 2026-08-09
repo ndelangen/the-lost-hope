@@ -109,7 +109,7 @@ describe('quest taxonomy', () => {
       'Help the Rare-Animal Dealer',
       'Make Abraham Known Among His Peers',
     ])
-    expect(questValues.filter((quest) => quest.type === 'mystery')).toHaveLength(11)
+    expect(questValues.filter((quest) => quest.type === 'mystery')).toHaveLength(15)
   })
 })
 
