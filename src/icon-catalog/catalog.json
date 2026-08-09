@@ -214299,7 +214299,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/skeleton-inside.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/quests/what-is-up-with-bob-the-merchant.ts",
+        "src/lib/quest-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiSkeletonKey",

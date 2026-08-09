@@ -262,6 +262,7 @@ export const refs = {
     the_cursed_sword: ref('quest', 'the_cursed_sword'),
     the_fairhaven_invasion: ref('quest', 'the_fairhaven_invasion'),
     the_tentacle_night: ref('quest', 'the_tentacle_night'),
+    what_is_up_with_bob_the_merchant: ref('quest', 'what_is_up_with_bob_the_merchant'),
     who_is_giggles: ref('quest', 'who_is_giggles'),
     who_is_light: ref('quest', 'who_is_light'),
   },
