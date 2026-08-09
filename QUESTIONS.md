@@ -230,8 +230,9 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Why asking:_ It is unknown whether this comes from time travel, foresight, movement between timelines, or something else.
   - _Session:_ 12 ([n2-e105](/events/detail/the-party-plays-three-rounds-with-the-fiddler))
 
-- **Did Jim’s room burn down completely?**
-  - _Context:_ The storm chasing [Jim](/pcs/detail/jim) struck him with lightning inside his room and started a fire. Devan attempted to heal Jim’s damaged kenku suit before it was buried, but the final condition of the room was not established.
+- **Will the fire damage to Jim’s room have consequences?**
+  - _Context:_ The storm chasing [Jim](/pcs/detail/jim) struck him with lightning inside his room and caused at least some fire damage. The fire is assumed to have been put out and the room to have remained intact, although the exact damage was not established. Jim’s kenku suit was damaged but recoverable: Devan attempted to heal it before burying it.
+  - _Why asking:_ The inn’s response, any repair costs or other consequences, and the exact extent of the room damage may become relevant later.
   - _Session:_ 12 ([n2-e106](/events/detail/jim-s-lightning-curse-reveals-his-human-identity))
 
 - **Which two languages did Cassian gain from the Fiddler’s Deck?**

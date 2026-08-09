@@ -10,7 +10,7 @@ export default createEvent({
     [
       'The next morning, the storm following ',
       refs.pcs.jim,
-      ' struck him with lightning inside his room and started a fire. He was not wearing his kenku suit during the incident, while the ',
+      ' struck him with lightning inside his room and started a fire, causing at least some fire damage. The fire was apparently put out and the room is assumed to have remained intact, but the exact damage was not established. Jim was not wearing his kenku suit during the incident, while the ',
       refs.items.jaded_amulet,
       ' initially prevented the others from recognizing the human leaving Jim’s room.',
     ],
@@ -20,7 +20,7 @@ export default createEvent({
       refs.pcs.cassian_veyl,
       ', and ',
       refs.pcs.swift_starblade,
-      ' all learned that Jim is a human who had presented himself in a kenku suit after sustained attention weakened the amulet’s concealment. The suit was damaged during the incident; Devan attempted to heal it, and it was then buried.',
+      ' all learned that Jim is a human who had presented himself in a kenku suit after sustained attention weakened the amulet’s concealment. The suit was damaged but not destroyed completely: Devan recovered it, attempted to heal it, and then buried it.',
     ],
   ],
 })
