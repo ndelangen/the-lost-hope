@@ -17,9 +17,9 @@ export default createNPC({
       'Crowy can communicate directly with Light. Its contract requires the party to provide basic care; it can produce the paperwork by vomiting it out.',
     ],
     [
-      'On ',
-      refs.locations.nimbus,
-      ', Crowy consumed a Sleep spell and called itself the “Bird of Gluttony.” The source and limits of this ability remain unknown.',
+      'Crowy directly asked ',
+      refs.npcs.light_13th_marshal,
+      ' to become the “Bird of Gluttony,” and Light granted the request. The exact powers, duration, and limits of the granted form remain unknown. The party assumes Crowy can no longer sleep, but this has not been confirmed.',
     ],
   ],
 })

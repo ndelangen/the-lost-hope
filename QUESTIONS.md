@@ -254,8 +254,9 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Context:_ [Bob the Merchant](/npcs/detail/bob-the-merchant) sold [Cassian](/pcs/detail/cassian-veyl) the [Bag of Holding](/items/detail/bag-of-holding) and said its additional effect would be determined later.
   - _Session:_ 12 ([n2-e115](/events/detail/cassian-buys-the-bag-of-holding-from-bob))
 
-- **What caused Crowy to become the “Bird of Gluttony,” and what can that form do?**
-  - _Context:_ [Crowy](/npcs/detail/crowy) consumed Jim’s Sleep spell at [Nimbus’s Second-Best Inn](/locations/detail/nimbus-s-second-best-inn) and used the title, but the source, duration, and limits of the change remain unknown.
+- **What are the “Bird of Gluttony’s” exact powers and limitations?**
+  - _Context:_ [Crowy](/npcs/detail/crowy) directly asked [Light 13th Marshal](/npcs/detail/light-13th-marshal) to become the “Bird of Gluttony,” and Light granted the request. At [Nimbus’s Second-Best Inn](/locations/detail/nimbus-s-second-best-inn), Crowy consumed Jim’s Sleep spell, used the title, and said the change made it much hungrier. The party assumes Crowy can now never sleep, but that consequence is not confirmed.
+  - _Why asking:_ The grant’s duration, whether Crowy truly cannot sleep, what consuming a spell does, whether it can consume spells other than Sleep, and the form’s other powers, costs, and limits remain unknown.
   - _Session:_ 12 ([n2-e119](/events/detail/crowy-becomes-the-bird-of-gluttony))
 
 - **How does the Nimbus Dungeon Stamp Card system work?**

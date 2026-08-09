@@ -11,7 +11,7 @@ export default createEvent({
       refs.npcs.crowy,
       ' consumed ',
       refs.pcs.jim,
-      '’s Sleep spell, called itself the “Bird of Gluttony,” and said the change also made it much hungrier. The cause and limits of this ability remain unknown.',
+      '’s Sleep spell, called itself the “Bird of Gluttony,” and said the change also made it much hungrier. The exact effect and limits of consuming the spell remain unknown.',
     ],
   ],
 })
