@@ -20,7 +20,7 @@ export default createEvent({
       refs.pcs.swift_starblade,
       ' joined ',
       refs.npcs.the_fiddler,
-      ' at his table. The Fiddler seemed to recognize them before their introduction and spoke as though he knew their future and alternate versions of them.',
+      ' at his table. Before they introduced themselves, the Fiddler greeted all four by name and said it was great to meet them “again.” He initially called their party “Beasts and Elves,” then asked what the party was called “this time” when they corrected him.',
     ],
     [
       'The Fiddler chose the game: three rounds using a ',
@@ -52,6 +52,18 @@ export default createEvent({
       ', while ',
       cardLink('Rogue'),
       ' made an unidentified NPC permanently hostile to him.',
+    ],
+    [
+      'Before the party left, the Fiddler asked Jim whether he still had his own ship or airship and whether he was already “the new father.” Jim answered “not anymore” to the ship questions and said he was not a new father to the best of his knowledge.',
+    ],
+    [
+      'The Fiddler asked Devan whether he was already “the high priest of war.” Devan said not yet but that he was working on it. The Fiddler described the future position as an orc-lord role with divine benefits, flying robes, and command of an alliance of roughly ten thousand orcs.',
+    ],
+    [
+      'The Fiddler then asked how long the party had been “visitors.” Jim estimated thirty days, and Devan checked his journal and answered thirty-two days and six hours. The Fiddler rejected this with “not three years.” When Jim asked the purpose of the questions, the Fiddler gave an opaque answer that referred to something having happened before.',
+    ],
+    [
+      'The Fiddler also warned the party not to enter Nimbus’s third dungeon on their second day there. The transcript preserves no distinct post-game question addressed specifically to Cassian or Swift.',
     ],
   ],
 })

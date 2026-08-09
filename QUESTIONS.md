@@ -226,8 +226,8 @@ Every question must include **what we already know** — many sit unanswered acr
 ## Session 12 — The Fiddler’s Game
 
 - **How did the Fiddler already know the party and parts of their future?**
-  - _Context:_ [The Fiddler](/npcs/detail/the-fiddler) seemed to recognize the party before meeting them and showed knowledge of their future while also referring to alternate versions or timelines.
-  - _Why asking:_ It is unknown whether this comes from time travel, foresight, movement between timelines, or something else.
+  - _Context:_ Before introductions, [The Fiddler](/npcs/detail/the-fiddler) greeted all four party members by name, said it was great to meet them “again,” called their party “Beasts and Elves,” and asked what it was called “this time.” After the game, he asked Jim whether he still had his own ship or airship and whether he was already “the new father”; asked Devan whether he was already “the high priest of war”; and asked how long the party had been “visitors.” He rejected their journal-based answer of thirty-two days and six hours with “not three years,” then warned them not to enter Nimbus’s third dungeon on their second day there. The transcript does not preserve a distinct post-game question for Cassian or Swift.
+  - _Why asking:_ The exact questions sound like checks intended to identify which version of the party he was meeting, but it remains unknown whether his knowledge comes from time travel, foresight, movement between timelines, or something else.
   - _Session:_ 12 ([n2-e105](/events/detail/the-party-plays-three-rounds-with-the-fiddler))
 
 - **Will the fire damage to Jim’s room have consequences?**
