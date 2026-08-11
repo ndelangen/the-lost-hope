@@ -22,6 +22,7 @@ import { Route as LocationsIndexRouteImport } from './routes/locations/index'
 import { Route as ItemsIndexRouteImport } from './routes/items/index'
 import { Route as EventsIndexRouteImport } from './routes/events/index'
 import { Route as BeastsIndexRouteImport } from './routes/beasts/index'
+import { Route as PrototypeSocialPreviewsRouteImport } from './routes/prototype.social-previews'
 import { Route as LocationsMapRouteImport } from './routes/locations/map'
 import { Route as LocationsListRouteImport } from './routes/locations/list'
 import { Route as SessionsDetailSlugRouteImport } from './routes/sessions/detail.$slug'
@@ -99,6 +100,11 @@ const BeastsIndexRoute = BeastsIndexRouteImport.update({
   path: '/beasts/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const PrototypeSocialPreviewsRoute = PrototypeSocialPreviewsRouteImport.update({
+  id: '/prototype/social-previews',
+  path: '/prototype/social-previews',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const LocationsMapRoute = LocationsMapRouteImport.update({
   id: '/locations/map',
   path: '/locations/map',
@@ -162,6 +168,7 @@ export interface FileRoutesByFullPath {
   '/questions': typeof QuestionsRoute
   '/locations/list': typeof LocationsListRoute
   '/locations/map': typeof LocationsMapRoute
+  '/prototype/social-previews': typeof PrototypeSocialPreviewsRoute
   '/beasts/': typeof BeastsIndexRoute
   '/events/': typeof EventsIndexRoute
   '/items/': typeof ItemsIndexRoute
@@ -188,6 +195,7 @@ export interface FileRoutesByTo {
   '/questions': typeof QuestionsRoute
   '/locations/list': typeof LocationsListRoute
   '/locations/map': typeof LocationsMapRoute
+  '/prototype/social-previews': typeof PrototypeSocialPreviewsRoute
   '/beasts': typeof BeastsIndexRoute
   '/events': typeof EventsIndexRoute
   '/items': typeof ItemsIndexRoute
@@ -215,6 +223,7 @@ export interface FileRoutesById {
   '/questions': typeof QuestionsRoute
   '/locations/list': typeof LocationsListRoute
   '/locations/map': typeof LocationsMapRoute
+  '/prototype/social-previews': typeof PrototypeSocialPreviewsRoute
   '/beasts/': typeof BeastsIndexRoute
   '/events/': typeof EventsIndexRoute
   '/items/': typeof ItemsIndexRoute
@@ -243,6 +252,7 @@ export interface FileRouteTypes {
     | '/questions'
     | '/locations/list'
     | '/locations/map'
+    | '/prototype/social-previews'
     | '/beasts/'
     | '/events/'
     | '/items/'
@@ -269,6 +279,7 @@ export interface FileRouteTypes {
     | '/questions'
     | '/locations/list'
     | '/locations/map'
+    | '/prototype/social-previews'
     | '/beasts'
     | '/events'
     | '/items'
@@ -295,6 +306,7 @@ export interface FileRouteTypes {
     | '/questions'
     | '/locations/list'
     | '/locations/map'
+    | '/prototype/social-previews'
     | '/beasts/'
     | '/events/'
     | '/items/'
@@ -322,6 +334,7 @@ export interface RootRouteChildren {
   QuestionsRoute: typeof QuestionsRoute
   LocationsListRoute: typeof LocationsListRoute
   LocationsMapRoute: typeof LocationsMapRoute
+  PrototypeSocialPreviewsRoute: typeof PrototypeSocialPreviewsRoute
   BeastsIndexRoute: typeof BeastsIndexRoute
   EventsIndexRoute: typeof EventsIndexRoute
   ItemsIndexRoute: typeof ItemsIndexRoute
@@ -435,6 +448,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BeastsIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/prototype/social-previews': {
+      id: '/prototype/social-previews'
+      path: '/prototype/social-previews'
+      fullPath: '/prototype/social-previews'
+      preLoaderRoute: typeof PrototypeSocialPreviewsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/locations/map': {
       id: '/locations/map'
       path: '/locations/map'
@@ -522,6 +542,7 @@ const rootRouteChildren: RootRouteChildren = {
   QuestionsRoute: QuestionsRoute,
   LocationsListRoute: LocationsListRoute,
   LocationsMapRoute: LocationsMapRoute,
+  PrototypeSocialPreviewsRoute: PrototypeSocialPreviewsRoute,
   BeastsIndexRoute: BeastsIndexRoute,
   EventsIndexRoute: EventsIndexRoute,
   ItemsIndexRoute: ItemsIndexRoute,

@@ -255249,7 +255249,9 @@
       "classification": "questionable",
       "classificationReason": "Manually classified as questionable from the /_icons review page.",
       "sourceUrl": "https://lucide.dev/icons/arrow-left",
-      "usedIn": []
+      "usedIn": [
+        "src/components/prototype/prototype-switcher.tsx"
+      ]
     },
     {
       "id": "lucide/ArrowLeftFromLine",
@@ -255422,7 +255424,9 @@
       "classification": "questionable",
       "classificationReason": "Manually classified as questionable from the /_icons review page.",
       "sourceUrl": "https://lucide.dev/icons/arrow-right",
-      "usedIn": []
+      "usedIn": [
+        "src/components/prototype/prototype-switcher.tsx"
+      ]
     },
     {
       "id": "lucide/ArrowRightFromLine",
@@ -259873,6 +259877,7 @@
       "sourceUrl": "https://lucide.dev/icons/book-open",
       "usedIn": [
         "src/components/home-action-card.test.tsx",
+        "src/components/prototype/social-preview-variants.tsx",
         "src/routes/index.tsx"
       ]
     },
@@ -262247,6 +262252,7 @@
       "sourceUrl": "https://lucide.dev/icons/calendar-range",
       "usedIn": [
         "src/components/entity-reference.tsx",
+        "src/components/prototype/social-preview-variants.tsx",
         "src/lib/entity-kind-visuals.ts"
       ]
     },
@@ -284445,7 +284451,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/map-pinned",
-      "usedIn": []
+      "usedIn": [
+        "src/components/prototype/social-preview-variants.tsx"
+      ]
     },
     {
       "id": "lucide/MapPinOff",
@@ -294881,6 +294889,7 @@
       "usedIn": [
         "src/components/campaign-shell.tsx",
         "src/components/campaign-shell/sidebar-data.ts",
+        "src/components/prototype/social-preview-variants.tsx",
         "src/lib/entity-kind-visuals.ts"
       ]
     },
@@ -297589,6 +297598,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/sparkles",
       "usedIn": [
+        "src/components/prototype/social-preview-variants.tsx",
         "src/lib/location-icons.tsx"
       ]
     },
@@ -306213,6 +306223,7 @@
       "sourceUrl": "https://lucide.dev/icons/users",
       "usedIn": [
         "src/components/campaign-shell/sidebar-data.ts",
+        "src/components/prototype/social-preview-variants.tsx",
         "src/lib/entity-kind-visuals.ts",
         "src/routes/index.tsx"
       ]
