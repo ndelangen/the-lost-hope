@@ -5,7 +5,7 @@ export default createEvent({
   name: 'The party meets worshippers of the 12th Marshal',
   day: 16,
   location: refs.locations.snowy_mountain_ruin,
-  mark: { type: 'avatar', url: '/assets/pcs/jim.jpg' },
+  mark: { type: 'avatar', url: '/assets/pcs/jim-kenku.jpg' },
   notes: [
     [
       'At ',

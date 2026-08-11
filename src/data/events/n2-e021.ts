@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Jim speaks with Light 1:1',
   day: 2,
   location: refs.locations.fajanet_guildhall,
-  mark: { type: 'avatar', url: '/assets/pcs/jim.jpg' },
+  mark: { type: 'avatar', url: '/assets/pcs/jim-kenku.jpg' },
   notes: [
     [
       'Rather than obey the letter, ',

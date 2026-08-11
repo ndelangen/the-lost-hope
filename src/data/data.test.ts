@@ -353,6 +353,31 @@ describe('campaign chronology', () => {
     expect(events.n2_e076.mark).toEqual({ type: 'avatar', url: pcs.devan.avatar })
   })
 
+  it('preserves Jim’s kenku portrait on events before his human identity reveal', () => {
+    const kenkuPortrait = pcs.jim.previousPortraits?.[0]
+    expect(kenkuPortrait).toEqual({
+      url: '/assets/pcs/jim-kenku.jpg',
+      description: 'Jim wearing his former kenku disguise',
+    })
+    expect(existsSync(new URL(`../../public${kenkuPortrait?.url}`, import.meta.url))).toBe(true)
+
+    const preRevealEvents = [
+      events.n2_e002,
+      events.n2_e021,
+      events.n2_e054,
+      events.n2_e079,
+      events.n2_e088,
+      events.n2_e101,
+      events.n2_e107,
+      events.n2_e108,
+      events.n2_e122,
+    ]
+    expect(preRevealEvents.map((event) => event.mark)).toEqual(
+      preRevealEvents.map(() => ({ type: 'avatar', url: kenkuPortrait?.url })),
+    )
+    expect(events.n2_e119.mark).toEqual({ type: 'avatar', url: pcs.jim.avatar })
+  })
+
   it('gives every icon-backed event a supported icon unique within its session', () => {
     for (const session of Object.values(sessions)) {
       const icons = sessionDays(session)

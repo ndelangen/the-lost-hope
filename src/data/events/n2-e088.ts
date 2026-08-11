@@ -5,7 +5,7 @@ export default createEvent({
   name: 'The cursed sword decays Verdant Haven forest',
   day: 15,
   location: refs.locations.verdant_haven_forest,
-  mark: { type: 'avatar', url: '/assets/pcs/jim.jpg' },
+  mark: { type: 'avatar', url: '/assets/pcs/jim-kenku.jpg' },
   notes: [
     [
       refs.items.cursed_shadow_sword,

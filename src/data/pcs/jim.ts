@@ -6,6 +6,12 @@ export default createPC({
   player: 'norbertdlangen',
   url: 'https://www.dndbeyond.com/characters/159958003',
   avatar: '/assets/pcs/jim.jpg',
+  previousPortraits: [
+    {
+      url: '/assets/pcs/jim-kenku.jpg',
+      description: 'Jim wearing his former kenku disguise',
+    },
+  ],
   status: 'active',
   species: 'Human (formerly disguised as a Kenku)',
   class: 'Bard / Sorcerer',
