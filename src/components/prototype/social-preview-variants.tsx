@@ -282,7 +282,11 @@ export function WorldWindowVariant({ page }: { page: PreviewCase }) {
     <PreviewFrame>
       <article className="relative size-full overflow-hidden bg-slate-950 text-white">
         {page.image ? (
-          <img src={page.image} alt="" className="absolute inset-0 size-full object-cover" />
+          <img
+            src={page.image}
+            alt=""
+            className="absolute inset-0 size-full object-cover object-top"
+          />
         ) : (
           <div
             className="absolute inset-0"
