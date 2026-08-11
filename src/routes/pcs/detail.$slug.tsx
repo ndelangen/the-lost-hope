@@ -6,6 +6,7 @@ import { CharacterMemberships } from '#/components/character-memberships'
 import { ContentRenderer } from '#/components/content-renderer'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail, EntityNotFound } from '#/components/entity-page'
+import { PreviousPortraits } from '#/components/previous-portraits'
 import { Inline, Stack } from '#/components/ui/layout'
 import { Pill } from '#/components/ui/pill'
 import { getEntity, itemsCarriedBy, itemsOwnedBy, pcStatusLabel } from '#/lib/campaign'
@@ -47,6 +48,9 @@ function PcPage() {
             {pc.level ? <Pill variant="outline">Level {pc.level}</Pill> : null}
           </Inline>
           <p className="text-muted-foreground text-sm">Played by {pc.player}</p>
+          {pc.previousPortraits?.length ? (
+            <PreviousPortraits characterName={pc.name} portraits={pc.previousPortraits} />
+          ) : null}
           {pc.languages?.length ? (
             <p className="text-muted-foreground text-sm">
               <span className="font-medium">Languages:</span> {pc.languages.join(', ')}

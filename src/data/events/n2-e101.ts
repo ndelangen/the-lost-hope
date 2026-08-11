@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Jim poisons forty-one guests and is fired as ship’s cook',
   day: 19,
   location: refs.locations.sylvias_flying_bazaar,
-  mark: { type: 'avatar', url: '/assets/pcs/jim.jpg' },
+  mark: { type: 'avatar', url: '/assets/pcs/jim-kenku.jpg' },
   notes: [
     [
       'At the end of the previous evening, ',

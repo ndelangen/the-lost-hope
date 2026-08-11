@@ -5,7 +5,7 @@ export default createEvent({
   name: 'The Eyeless Hand reveals it can still find Jim',
   day: 20,
   location: refs.locations.nimbus_s_second_best_inn,
-  mark: { type: 'avatar', url: '/assets/pcs/jim.jpg' },
+  mark: { type: 'avatar', url: '/assets/pcs/jim-kenku.jpg' },
   notes: [
     [
       'That evening, shortly before going to sleep and suffering his first lightning strike the next morning, ',
