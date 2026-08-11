@@ -43,6 +43,17 @@ export default createPC({
       '.',
     ],
     [
+      'Jim grew up in a human-dominated slum inside ',
+      refs.organizations.the_eyeless_hand,
+      ', surrounded by smugglers, money launderers, and black-market facilitators. The organization’s narcotics trade and the resulting addiction hollowed out his community through overdoses, betrayal, imprisonment, executions, and disappearances. His hatred of narcotics comes from those personal losses.',
+    ],
+    [
+      'Music began as a criminal tool for distraction, signaling, and laundering coin, but became Jim’s means of survival and reason to live. He plays fiddle and lute for expression, manipulation, and storytelling, and uses a wargong for intimidation and emotional impact.',
+    ],
+    [
+      'Jim wants to bring joy, relief, or meaning into the world through music. He is guarded and slow to trust, protective of outcasts and victims, and easily angered by cruelty and abuses of power; when disillusioned, his empathy can turn into bitter mockery, psychological pressure, and retaliation.',
+    ],
+    [
       'Secret: Jim knows the true identity of ',
       refs.npcs.the_father,
       ' — likely why the Hand wants him back or dead.',
