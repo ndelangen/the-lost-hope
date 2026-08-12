@@ -44,15 +44,23 @@ function RootDocument({ children }: { children: ReactNode }) {
 
 function NotFoundPage() {
   return (
-    <section className="mx-auto max-w-2xl py-16">
-      <p className="text-muted-foreground text-sm font-semibold tracking-wider uppercase">404</p>
-      <h1 className="mt-3 text-4xl font-bold tracking-tight">Page not found</h1>
-      <p className="text-muted-foreground mt-4 text-lg">
-        This campaign record does not exist or is not part of the public archive.
-      </p>
-      <Link to="/" className="text-primary mt-6 inline-block font-medium hover:underline">
-        Return to The Lost Hope →
-      </Link>
-    </section>
+    <>
+      <title>Page not found | The Lost Hope</title>
+      <meta name="robots" content="noindex, nofollow" />
+      <meta
+        name="description"
+        content="This campaign record does not exist or is not part of The Lost Hope public archive."
+      />
+      <section className="mx-auto max-w-2xl py-16">
+        <p className="text-muted-foreground text-sm font-semibold tracking-wider uppercase">404</p>
+        <h1 className="mt-3 text-4xl font-bold tracking-tight">Page not found</h1>
+        <p className="text-muted-foreground mt-4 text-lg">
+          This campaign record does not exist or is not part of the public archive.
+        </p>
+        <Link to="/" className="text-primary mt-6 inline-block font-medium hover:underline">
+          Return to The Lost Hope →
+        </Link>
+      </section>
+    </>
   )
 }
