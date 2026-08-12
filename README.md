@@ -2,8 +2,8 @@
 
 A player-first memory and lore companion for a homebrew D&D 5e game. It presents campaign lore,
 characters, beasts, locations, organizations, quests, sessions, and a linked event timeline as a
-static client-side application, with the intention of eventually sharing it with the other players
-and the DM.
+statically published React application, with the intention of eventually sharing it with the other
+players and the DM. Every public route ships complete HTML and then hydrates for interactive use.
 
 The project is reference-first: each fact has one canonical owner and other records link to it.
 Quests may synthesize a small amount of repeated context, but do not become a competing source of
@@ -11,8 +11,8 @@ canon. See [the product goals](docs/product-goals.md) for the complete intent an
 
 ## Development
 
-The project uses Bun, React 19, TypeScript, Vite, TanStack Router, Tailwind CSS, Zod, Vitest,
-Oxlint, and Oxfmt.
+The project uses Bun, React 19, TypeScript, Vite, TanStack Start, Tailwind CSS, Zod, Vitest, Oxlint,
+and Oxfmt.
 
 ```bash
 bun install
@@ -27,6 +27,7 @@ Useful commands:
 bun run test        # run Vitest once
 bun run test:watch  # run Vitest in watch mode
 bun run generate:refs # regenerate typed cross-entity refs from entity registries
+bun run generate:social-images # generate all content-addressed 1200x630 social cards
 bun run typecheck   # run TypeScript without emitting files
 bun run check       # type-check, lint, and check formatting
 bun run verify      # full check, test, and build gate for code or data handoff
@@ -71,5 +72,12 @@ bun run verify
 
 ## Deployment
 
-Netlify runs `bun run build`, publishes `dist/`, and redirects application routes to `index.html`
-for client-side routing.
+Netlify runs `bun run build` and publishes `dist/client/`. The build derives one 293-page public
+manifest from the campaign registries, prerenders complete HTML for every entry, creates its
+canonical metadata and structured data, generates a content-addressed social card, and audits the
+finished output. The generated social cards, redirects, robots file, 404 fallback, and social-image
+path module are deploy artifacts and are intentionally not committed.
+
+TanStack Start's Netlify adapter supplies hydrated server handling without an SPA catch-all. The
+generated redirects serve extensionless public URLs from their matching static HTML files, while
+`/locations` permanently redirects to `/locations/map` and unknown URLs use the real 404 fallback.

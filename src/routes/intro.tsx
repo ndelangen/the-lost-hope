@@ -4,8 +4,10 @@ import { ContentRenderer } from '#/components/content-renderer'
 import { Stack } from '#/components/ui/layout'
 import { Pill } from '#/components/ui/pill'
 import { campaign } from '#/lib/campaign'
+import { publicPageHeadForPath } from '#/lib/public-page-metadata'
 
 export const Route = createFileRoute('/intro')({
+  head: () => publicPageHeadForPath('/intro'),
   component: CampaignIntroPage,
 })
 

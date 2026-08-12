@@ -1,24 +1,31 @@
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute, notFound } from '@tanstack/react-router'
 import { Calendar, List } from 'lucide-react'
 
 import { ContentRenderer } from '#/components/content-renderer'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
-import { EntityDetail, EntityNotFound } from '#/components/entity-page'
+import { EntityDetail } from '#/components/entity-page'
 import { PcReference } from '#/components/pc-reference'
 import { SessionTimeline } from '#/components/session-timeline'
 import { Inline, Stack } from '#/components/ui/layout'
 import { getEntity, sessionNumber, sessionPcs } from '#/lib/campaign'
 import { referencedByItems, sessionTimelineDays } from '#/lib/entity-page-data'
+import { publicEntityPageHead } from '#/lib/public-page-metadata'
+import { formatSessionDate } from '#/lib/session-date'
 import { SessionIcon } from '#/lib/session-icons'
 
 export const Route = createFileRoute('/sessions/detail/$slug')({
+  loader: ({ params }) => {
+    const entity = getEntity('session', params.slug)
+    if (!entity) throw notFound()
+    return entity
+  },
+  head: ({ params }) => publicEntityPageHead('session', params.slug),
   component: SessionPage,
 })
 
 function SessionPage() {
   const { slug } = Route.useParams()
-  const entity = getEntity('session', slug)
-  if (!entity) return <EntityNotFound kind="session" />
+  const entity = Route.useLoaderData()
 
   const session = entity.data
   const party = sessionPcs(session)
@@ -37,7 +44,7 @@ function SessionPage() {
         <Inline gap="md" wrap className="text-muted-foreground text-xs">
           <Inline as="span" inline gap="2xs">
             <Calendar className="size-3.5" />
-            {session.date.toLocaleDateString(undefined, { dateStyle: 'long' })}
+            {formatSessionDate(session.date, 'long')}
           </Inline>
           <Inline as="span" inline gap="2xs">
             <List className="size-3.5" />

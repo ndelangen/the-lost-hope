@@ -1,25 +1,31 @@
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute, notFound } from '@tanstack/react-router'
 import { Calendar } from 'lucide-react'
 
 import { AvatarViewer } from '#/components/avatar-viewer'
 import { ContentRenderer } from '#/components/content-renderer'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityKindPill } from '#/components/entity-kind-pill'
-import { EntityDetail, EntityNotFound } from '#/components/entity-page'
+import { EntityDetail } from '#/components/entity-page'
 import { LocationReference } from '#/components/location-reference'
 import { Inline, Stack } from '#/components/ui/layout'
 import { eventLocation, getEntity } from '#/lib/campaign'
 import { referencedByItems } from '#/lib/entity-page-data'
 import { EventMarkIcon } from '#/lib/event-icons'
+import { publicEntityPageHead } from '#/lib/public-page-metadata'
 
 export const Route = createFileRoute('/events/detail/$slug')({
+  loader: ({ params }) => {
+    const entity = getEntity('event', params.slug)
+    if (!entity) throw notFound()
+    return entity
+  },
+  head: ({ params }) => publicEntityPageHead('event', params.slug),
   component: EventPage,
 })
 
 function EventPage() {
   const { slug } = Route.useParams()
-  const entity = getEntity('event', slug)
-  if (!entity) return <EntityNotFound kind="event" />
+  const entity = Route.useLoaderData()
 
   const event = entity.data
   const place = eventLocation(event)

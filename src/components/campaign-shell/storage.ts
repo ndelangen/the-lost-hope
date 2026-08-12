@@ -34,11 +34,18 @@ export function usePersistedSet(
   key: string,
   fallback: () => Set<string>,
 ): [Set<string>, (slug: string) => void, (slug: string) => void] {
-  const [set, setSet] = useState<Set<string>>(() => readStoredSet(key) ?? fallback())
+  const [set, setSet] = useState<Set<string>>(fallback)
+  const [restored, setRestored] = useState(false)
 
   useEffect(() => {
-    writeStoredSet(key, set)
-  }, [key, set])
+    const stored = readStoredSet(key)
+    if (stored) setSet(stored)
+    setRestored(true)
+  }, [key])
+
+  useEffect(() => {
+    if (restored) writeStoredSet(key, set)
+  }, [key, restored, set])
 
   const toggle = useCallback((slug: string) => {
     setSet((current) => {
@@ -62,11 +69,18 @@ export function usePersistedSet(
 }
 
 export function usePersistedBoolean(key: string, fallback: boolean) {
-  const [value, setValue] = useState(() => readStoredBoolean(key) ?? fallback)
+  const [value, setValue] = useState(fallback)
+  const [restored, setRestored] = useState(false)
 
   useEffect(() => {
-    writeStoredBoolean(key, value)
-  }, [key, value])
+    const stored = readStoredBoolean(key)
+    if (stored !== null) setValue(stored)
+    setRestored(true)
+  }, [key])
+
+  useEffect(() => {
+    if (restored) writeStoredBoolean(key, value)
+  }, [key, restored, value])
 
   return [value, setValue] as const
 }

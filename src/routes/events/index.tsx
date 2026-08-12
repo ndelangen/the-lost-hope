@@ -2,8 +2,10 @@ import { createFileRoute } from '@tanstack/react-router'
 
 import { EventsTimeline } from '#/components/events-timeline'
 import { sessionTimelineSections, type SessionTimelineEntry } from '#/lib/campaign'
+import { publicPageHeadForPath } from '#/lib/public-page-metadata'
 
 export const Route = createFileRoute('/events/')({
+  head: () => publicPageHeadForPath('/events'),
   component: EventsPage,
 })
 

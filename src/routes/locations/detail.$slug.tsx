@@ -1,8 +1,8 @@
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute, notFound } from '@tanstack/react-router'
 
 import { ContentRenderer } from '#/components/content-renderer'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
-import { EntityDetail, EntityNotFound } from '#/components/entity-page'
+import { EntityDetail } from '#/components/entity-page'
 import { LocationReference } from '#/components/location-reference'
 import { LocationMapImage } from '#/components/map-placeholder'
 import { Grid, Inline, Stack } from '#/components/ui/layout'
@@ -16,15 +16,21 @@ import {
 } from '#/lib/campaign'
 import { referencedByItems } from '#/lib/entity-page-data'
 import { LocationIcon, LocationTypeIcon, locationTypeLabel } from '#/lib/location-icons'
+import { publicEntityPageHead } from '#/lib/public-page-metadata'
 
 export const Route = createFileRoute('/locations/detail/$slug')({
+  loader: ({ params }) => {
+    const entity = getEntity('location', params.slug)
+    if (!entity) throw notFound()
+    return entity
+  },
+  head: ({ params }) => publicEntityPageHead('location', params.slug),
   component: LocationDetailPage,
 })
 
 function LocationDetailPage() {
   const { slug } = Route.useParams()
-  const entity = getEntity('location', slug)
-  if (!entity) return <EntityNotFound kind="location" />
+  const entity = Route.useLoaderData()
 
   const location = entity.data
   const ancestors = locationAncestors(location)

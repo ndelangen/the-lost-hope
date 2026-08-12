@@ -1,11 +1,13 @@
 import { createFileRoute } from '@tanstack/react-router'
 
 import { QuestionsPage } from '#/components/questions-page'
+import { publicPageHeadForPath } from '#/lib/public-page-metadata'
 import { splitQuestionsMarkdown } from '#/lib/questions'
 
 import questionsMarkdown from '../../QUESTIONS.md?raw'
 
 export const Route = createFileRoute('/questions')({
+  head: () => publicPageHeadForPath('/questions'),
   component: QuestionsRoute,
 })
 

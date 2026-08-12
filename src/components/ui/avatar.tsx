@@ -1,4 +1,5 @@
 import { DEFAULT_AVATAR } from '#/definitions/media.ts'
+import { publicAssetUrl } from '#/lib/public-media'
 import { cn } from '#/lib/utils'
 
 type AvatarProps = {
@@ -11,7 +12,7 @@ type AvatarProps = {
 export function Avatar({ src, alt = '', className, loading }: AvatarProps) {
   return (
     <img
-      src={src}
+      src={publicAssetUrl(src)}
       alt={alt}
       loading={loading}
       className={cn('shrink-0 rounded-full object-cover', className)}

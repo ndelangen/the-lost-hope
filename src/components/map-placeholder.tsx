@@ -2,6 +2,7 @@ import { MapPin } from 'lucide-react'
 import { useState } from 'react'
 
 import { Stack } from '#/components/ui/layout'
+import { hasPublicAsset } from '#/lib/public-media'
 import { cn } from '#/lib/utils'
 
 type MapPlaceholderProps = {
@@ -65,7 +66,7 @@ export function LocationMapImage({
 }) {
   const [failed, setFailed] = useState(false)
 
-  if (failed || src.includes('placehold')) {
+  if (failed || src.includes('placehold') || !hasPublicAsset(src)) {
     return <MapPlaceholder name={alt} coordinates={coordinates} className={className} />
   }
 

@@ -30,15 +30,13 @@ function applyTheme(theme: Theme) {
 }
 
 export function useTheme() {
-  const [theme, setTheme] = useState<Theme>(() => {
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
-    return resolveTheme(readStoredTheme(), prefersDark)
-  })
+  const [theme, setTheme] = useState<Theme>('light')
 
   useLayoutEffect(() => applyTheme(theme), [theme])
 
   useEffect(() => {
     const systemPreference = window.matchMedia('(prefers-color-scheme: dark)')
+    setTheme(resolveTheme(readStoredTheme(), systemPreference.matches))
     const followSystemPreference = (event: MediaQueryListEvent) => {
       if (readStoredTheme() === null) setTheme(event.matches ? 'dark' : 'light')
     }

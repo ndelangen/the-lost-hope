@@ -9,39 +9,34 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as QuestionsRouteImport } from './routes/questions'
-import { Route as IntroRouteImport } from './routes/intro'
-import { Route as IconsRouteImport } from './routes/[_]icons'
 import { Route as IndexRouteImport } from './routes/index'
-import { Route as SessionsIndexRouteImport } from './routes/sessions/index'
-import { Route as QuestsIndexRouteImport } from './routes/quests/index'
-import { Route as PcsIndexRouteImport } from './routes/pcs/index'
-import { Route as OrganizationsIndexRouteImport } from './routes/organizations/index'
-import { Route as NpcsIndexRouteImport } from './routes/npcs/index'
-import { Route as LocationsIndexRouteImport } from './routes/locations/index'
-import { Route as ItemsIndexRouteImport } from './routes/items/index'
-import { Route as EventsIndexRouteImport } from './routes/events/index'
+import { Route as IconsRouteImport } from './routes/[_]icons'
+import { Route as IntroRouteImport } from './routes/intro'
+import { Route as QuestionsRouteImport } from './routes/questions'
 import { Route as BeastsIndexRouteImport } from './routes/beasts/index'
-import { Route as LocationsMapRouteImport } from './routes/locations/map'
+import { Route as EventsIndexRouteImport } from './routes/events/index'
+import { Route as ItemsIndexRouteImport } from './routes/items/index'
+import { Route as LocationsIndexRouteImport } from './routes/locations/index'
 import { Route as LocationsListRouteImport } from './routes/locations/list'
-import { Route as SessionsDetailSlugRouteImport } from './routes/sessions/detail.$slug'
-import { Route as QuestsDetailSlugRouteImport } from './routes/quests/detail.$slug'
-import { Route as PcsDetailSlugRouteImport } from './routes/pcs/detail.$slug'
-import { Route as OrganizationsDetailSlugRouteImport } from './routes/organizations/detail.$slug'
-import { Route as NpcsDetailSlugRouteImport } from './routes/npcs/detail.$slug'
-import { Route as LocationsDetailSlugRouteImport } from './routes/locations/detail.$slug'
-import { Route as ItemsDetailSlugRouteImport } from './routes/items/detail.$slug'
-import { Route as EventsDetailSlugRouteImport } from './routes/events/detail.$slug'
+import { Route as LocationsMapRouteImport } from './routes/locations/map'
+import { Route as NpcsIndexRouteImport } from './routes/npcs/index'
+import { Route as OrganizationsIndexRouteImport } from './routes/organizations/index'
+import { Route as PcsIndexRouteImport } from './routes/pcs/index'
+import { Route as QuestsIndexRouteImport } from './routes/quests/index'
+import { Route as SessionsIndexRouteImport } from './routes/sessions/index'
 import { Route as BeastsDetailSlugRouteImport } from './routes/beasts/detail.$slug'
+import { Route as EventsDetailSlugRouteImport } from './routes/events/detail.$slug'
+import { Route as ItemsDetailSlugRouteImport } from './routes/items/detail.$slug'
+import { Route as LocationsDetailSlugRouteImport } from './routes/locations/detail.$slug'
+import { Route as NpcsDetailSlugRouteImport } from './routes/npcs/detail.$slug'
+import { Route as OrganizationsDetailSlugRouteImport } from './routes/organizations/detail.$slug'
+import { Route as PcsDetailSlugRouteImport } from './routes/pcs/detail.$slug'
+import { Route as QuestsDetailSlugRouteImport } from './routes/quests/detail.$slug'
+import { Route as SessionsDetailSlugRouteImport } from './routes/sessions/detail.$slug'
 
-const QuestionsRoute = QuestionsRouteImport.update({
-  id: '/questions',
-  path: '/questions',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const IntroRoute = IntroRouteImport.update({
-  id: '/intro',
-  path: '/intro',
+const IndexRoute = IndexRouteImport.update({
+  id: '/',
+  path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const IconsRoute = IconsRouteImport.update({
@@ -49,49 +44,14 @@ const IconsRoute = IconsRouteImport.update({
   path: '/_icons',
   getParentRoute: () => rootRouteImport,
 } as any)
-const IndexRoute = IndexRouteImport.update({
-  id: '/',
-  path: '/',
+const IntroRoute = IntroRouteImport.update({
+  id: '/intro',
+  path: '/intro',
   getParentRoute: () => rootRouteImport,
 } as any)
-const SessionsIndexRoute = SessionsIndexRouteImport.update({
-  id: '/sessions/',
-  path: '/sessions/',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const QuestsIndexRoute = QuestsIndexRouteImport.update({
-  id: '/quests/',
-  path: '/quests/',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const PcsIndexRoute = PcsIndexRouteImport.update({
-  id: '/pcs/',
-  path: '/pcs/',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const OrganizationsIndexRoute = OrganizationsIndexRouteImport.update({
-  id: '/organizations/',
-  path: '/organizations/',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const NpcsIndexRoute = NpcsIndexRouteImport.update({
-  id: '/npcs/',
-  path: '/npcs/',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const LocationsIndexRoute = LocationsIndexRouteImport.update({
-  id: '/locations/',
-  path: '/locations/',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const ItemsIndexRoute = ItemsIndexRouteImport.update({
-  id: '/items/',
-  path: '/items/',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const EventsIndexRoute = EventsIndexRouteImport.update({
-  id: '/events/',
-  path: '/events/',
+const QuestionsRoute = QuestionsRouteImport.update({
+  id: '/questions',
+  path: '/questions',
   getParentRoute: () => rootRouteImport,
 } as any)
 const BeastsIndexRoute = BeastsIndexRouteImport.update({
@@ -99,9 +59,19 @@ const BeastsIndexRoute = BeastsIndexRouteImport.update({
   path: '/beasts/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const LocationsMapRoute = LocationsMapRouteImport.update({
-  id: '/locations/map',
-  path: '/locations/map',
+const EventsIndexRoute = EventsIndexRouteImport.update({
+  id: '/events/',
+  path: '/events/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ItemsIndexRoute = ItemsIndexRouteImport.update({
+  id: '/items/',
+  path: '/items/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LocationsIndexRoute = LocationsIndexRouteImport.update({
+  id: '/locations/',
+  path: '/locations/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const LocationsListRoute = LocationsListRouteImport.update({
@@ -109,39 +79,39 @@ const LocationsListRoute = LocationsListRouteImport.update({
   path: '/locations/list',
   getParentRoute: () => rootRouteImport,
 } as any)
-const SessionsDetailSlugRoute = SessionsDetailSlugRouteImport.update({
-  id: '/sessions/detail/$slug',
-  path: '/sessions/detail/$slug',
+const LocationsMapRoute = LocationsMapRouteImport.update({
+  id: '/locations/map',
+  path: '/locations/map',
   getParentRoute: () => rootRouteImport,
 } as any)
-const QuestsDetailSlugRoute = QuestsDetailSlugRouteImport.update({
-  id: '/quests/detail/$slug',
-  path: '/quests/detail/$slug',
+const NpcsIndexRoute = NpcsIndexRouteImport.update({
+  id: '/npcs/',
+  path: '/npcs/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const PcsDetailSlugRoute = PcsDetailSlugRouteImport.update({
-  id: '/pcs/detail/$slug',
-  path: '/pcs/detail/$slug',
+const OrganizationsIndexRoute = OrganizationsIndexRouteImport.update({
+  id: '/organizations/',
+  path: '/organizations/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const OrganizationsDetailSlugRoute = OrganizationsDetailSlugRouteImport.update({
-  id: '/organizations/detail/$slug',
-  path: '/organizations/detail/$slug',
+const PcsIndexRoute = PcsIndexRouteImport.update({
+  id: '/pcs/',
+  path: '/pcs/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const NpcsDetailSlugRoute = NpcsDetailSlugRouteImport.update({
-  id: '/npcs/detail/$slug',
-  path: '/npcs/detail/$slug',
+const QuestsIndexRoute = QuestsIndexRouteImport.update({
+  id: '/quests/',
+  path: '/quests/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const LocationsDetailSlugRoute = LocationsDetailSlugRouteImport.update({
-  id: '/locations/detail/$slug',
-  path: '/locations/detail/$slug',
+const SessionsIndexRoute = SessionsIndexRouteImport.update({
+  id: '/sessions/',
+  path: '/sessions/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const ItemsDetailSlugRoute = ItemsDetailSlugRouteImport.update({
-  id: '/items/detail/$slug',
-  path: '/items/detail/$slug',
+const BeastsDetailSlugRoute = BeastsDetailSlugRouteImport.update({
+  id: '/beasts/detail/$slug',
+  path: '/beasts/detail/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
 const EventsDetailSlugRoute = EventsDetailSlugRouteImport.update({
@@ -149,9 +119,39 @@ const EventsDetailSlugRoute = EventsDetailSlugRouteImport.update({
   path: '/events/detail/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
-const BeastsDetailSlugRoute = BeastsDetailSlugRouteImport.update({
-  id: '/beasts/detail/$slug',
-  path: '/beasts/detail/$slug',
+const ItemsDetailSlugRoute = ItemsDetailSlugRouteImport.update({
+  id: '/items/detail/$slug',
+  path: '/items/detail/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LocationsDetailSlugRoute = LocationsDetailSlugRouteImport.update({
+  id: '/locations/detail/$slug',
+  path: '/locations/detail/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NpcsDetailSlugRoute = NpcsDetailSlugRouteImport.update({
+  id: '/npcs/detail/$slug',
+  path: '/npcs/detail/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const OrganizationsDetailSlugRoute = OrganizationsDetailSlugRouteImport.update({
+  id: '/organizations/detail/$slug',
+  path: '/organizations/detail/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PcsDetailSlugRoute = PcsDetailSlugRouteImport.update({
+  id: '/pcs/detail/$slug',
+  path: '/pcs/detail/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const QuestsDetailSlugRoute = QuestsDetailSlugRouteImport.update({
+  id: '/quests/detail/$slug',
+  path: '/quests/detail/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SessionsDetailSlugRoute = SessionsDetailSlugRouteImport.update({
+  id: '/sessions/detail/$slug',
+  path: '/sessions/detail/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
 
@@ -344,18 +344,11 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/questions': {
-      id: '/questions'
-      path: '/questions'
-      fullPath: '/questions'
-      preLoaderRoute: typeof QuestionsRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/intro': {
-      id: '/intro'
-      path: '/intro'
-      fullPath: '/intro'
-      preLoaderRoute: typeof IntroRouteImport
+    '/': {
+      id: '/'
+      path: '/'
+      fullPath: '/'
+      preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/_icons': {
@@ -365,67 +358,18 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IconsRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/': {
-      id: '/'
-      path: '/'
-      fullPath: '/'
-      preLoaderRoute: typeof IndexRouteImport
+    '/intro': {
+      id: '/intro'
+      path: '/intro'
+      fullPath: '/intro'
+      preLoaderRoute: typeof IntroRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/sessions/': {
-      id: '/sessions/'
-      path: '/sessions'
-      fullPath: '/sessions/'
-      preLoaderRoute: typeof SessionsIndexRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/quests/': {
-      id: '/quests/'
-      path: '/quests'
-      fullPath: '/quests/'
-      preLoaderRoute: typeof QuestsIndexRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/pcs/': {
-      id: '/pcs/'
-      path: '/pcs'
-      fullPath: '/pcs/'
-      preLoaderRoute: typeof PcsIndexRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/organizations/': {
-      id: '/organizations/'
-      path: '/organizations'
-      fullPath: '/organizations/'
-      preLoaderRoute: typeof OrganizationsIndexRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/npcs/': {
-      id: '/npcs/'
-      path: '/npcs'
-      fullPath: '/npcs/'
-      preLoaderRoute: typeof NpcsIndexRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/locations/': {
-      id: '/locations/'
-      path: '/locations'
-      fullPath: '/locations/'
-      preLoaderRoute: typeof LocationsIndexRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/items/': {
-      id: '/items/'
-      path: '/items'
-      fullPath: '/items/'
-      preLoaderRoute: typeof ItemsIndexRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/events/': {
-      id: '/events/'
-      path: '/events'
-      fullPath: '/events/'
-      preLoaderRoute: typeof EventsIndexRouteImport
+    '/questions': {
+      id: '/questions'
+      path: '/questions'
+      fullPath: '/questions'
+      preLoaderRoute: typeof QuestionsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/beasts/': {
@@ -435,11 +379,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BeastsIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/locations/map': {
-      id: '/locations/map'
-      path: '/locations/map'
-      fullPath: '/locations/map'
-      preLoaderRoute: typeof LocationsMapRouteImport
+    '/events/': {
+      id: '/events/'
+      path: '/events'
+      fullPath: '/events/'
+      preLoaderRoute: typeof EventsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/items/': {
+      id: '/items/'
+      path: '/items'
+      fullPath: '/items/'
+      preLoaderRoute: typeof ItemsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/locations/': {
+      id: '/locations/'
+      path: '/locations'
+      fullPath: '/locations/'
+      preLoaderRoute: typeof LocationsIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/locations/list': {
@@ -449,53 +407,53 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LocationsListRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/sessions/detail/$slug': {
-      id: '/sessions/detail/$slug'
-      path: '/sessions/detail/$slug'
-      fullPath: '/sessions/detail/$slug'
-      preLoaderRoute: typeof SessionsDetailSlugRouteImport
+    '/locations/map': {
+      id: '/locations/map'
+      path: '/locations/map'
+      fullPath: '/locations/map'
+      preLoaderRoute: typeof LocationsMapRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/quests/detail/$slug': {
-      id: '/quests/detail/$slug'
-      path: '/quests/detail/$slug'
-      fullPath: '/quests/detail/$slug'
-      preLoaderRoute: typeof QuestsDetailSlugRouteImport
+    '/npcs/': {
+      id: '/npcs/'
+      path: '/npcs'
+      fullPath: '/npcs/'
+      preLoaderRoute: typeof NpcsIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/pcs/detail/$slug': {
-      id: '/pcs/detail/$slug'
-      path: '/pcs/detail/$slug'
-      fullPath: '/pcs/detail/$slug'
-      preLoaderRoute: typeof PcsDetailSlugRouteImport
+    '/organizations/': {
+      id: '/organizations/'
+      path: '/organizations'
+      fullPath: '/organizations/'
+      preLoaderRoute: typeof OrganizationsIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/organizations/detail/$slug': {
-      id: '/organizations/detail/$slug'
-      path: '/organizations/detail/$slug'
-      fullPath: '/organizations/detail/$slug'
-      preLoaderRoute: typeof OrganizationsDetailSlugRouteImport
+    '/pcs/': {
+      id: '/pcs/'
+      path: '/pcs'
+      fullPath: '/pcs/'
+      preLoaderRoute: typeof PcsIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/npcs/detail/$slug': {
-      id: '/npcs/detail/$slug'
-      path: '/npcs/detail/$slug'
-      fullPath: '/npcs/detail/$slug'
-      preLoaderRoute: typeof NpcsDetailSlugRouteImport
+    '/quests/': {
+      id: '/quests/'
+      path: '/quests'
+      fullPath: '/quests/'
+      preLoaderRoute: typeof QuestsIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/locations/detail/$slug': {
-      id: '/locations/detail/$slug'
-      path: '/locations/detail/$slug'
-      fullPath: '/locations/detail/$slug'
-      preLoaderRoute: typeof LocationsDetailSlugRouteImport
+    '/sessions/': {
+      id: '/sessions/'
+      path: '/sessions'
+      fullPath: '/sessions/'
+      preLoaderRoute: typeof SessionsIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/items/detail/$slug': {
-      id: '/items/detail/$slug'
-      path: '/items/detail/$slug'
-      fullPath: '/items/detail/$slug'
-      preLoaderRoute: typeof ItemsDetailSlugRouteImport
+    '/beasts/detail/$slug': {
+      id: '/beasts/detail/$slug'
+      path: '/beasts/detail/$slug'
+      fullPath: '/beasts/detail/$slug'
+      preLoaderRoute: typeof BeastsDetailSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/events/detail/$slug': {
@@ -505,11 +463,53 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof EventsDetailSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/beasts/detail/$slug': {
-      id: '/beasts/detail/$slug'
-      path: '/beasts/detail/$slug'
-      fullPath: '/beasts/detail/$slug'
-      preLoaderRoute: typeof BeastsDetailSlugRouteImport
+    '/items/detail/$slug': {
+      id: '/items/detail/$slug'
+      path: '/items/detail/$slug'
+      fullPath: '/items/detail/$slug'
+      preLoaderRoute: typeof ItemsDetailSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/locations/detail/$slug': {
+      id: '/locations/detail/$slug'
+      path: '/locations/detail/$slug'
+      fullPath: '/locations/detail/$slug'
+      preLoaderRoute: typeof LocationsDetailSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/npcs/detail/$slug': {
+      id: '/npcs/detail/$slug'
+      path: '/npcs/detail/$slug'
+      fullPath: '/npcs/detail/$slug'
+      preLoaderRoute: typeof NpcsDetailSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/organizations/detail/$slug': {
+      id: '/organizations/detail/$slug'
+      path: '/organizations/detail/$slug'
+      fullPath: '/organizations/detail/$slug'
+      preLoaderRoute: typeof OrganizationsDetailSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/pcs/detail/$slug': {
+      id: '/pcs/detail/$slug'
+      path: '/pcs/detail/$slug'
+      fullPath: '/pcs/detail/$slug'
+      preLoaderRoute: typeof PcsDetailSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/quests/detail/$slug': {
+      id: '/quests/detail/$slug'
+      path: '/quests/detail/$slug'
+      fullPath: '/quests/detail/$slug'
+      preLoaderRoute: typeof QuestsDetailSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sessions/detail/$slug': {
+      id: '/sessions/detail/$slug'
+      path: '/sessions/detail/$slug'
+      fullPath: '/sessions/detail/$slug'
+      preLoaderRoute: typeof SessionsDetailSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
   }
@@ -544,3 +544,12 @@ const rootRouteChildren: RootRouteChildren = {
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
+
+import type { getRouter } from './router.tsx'
+import type { createStart } from '@tanstack/react-start'
+declare module '@tanstack/react-start' {
+  interface Register {
+    ssr: true
+    router: Awaited<ReturnType<typeof getRouter>>
+  }
+}

@@ -7,9 +7,9 @@ import {
 } from './session-calendar'
 
 const sessions: SessionCalendarSource[] = [
-  { slug: 'first', name: 'First', number: 1, date: new Date(2026, 7, 9) },
-  { slug: 'second', name: 'Second', number: 2, date: new Date(2026, 7, 10) },
-  { slug: 'previous', name: 'Previous year', number: 0, date: new Date(2025, 11, 31) },
+  { slug: 'first', name: 'First', number: 1, date: new Date(Date.UTC(2026, 7, 9)) },
+  { slug: 'second', name: 'Second', number: 2, date: new Date(Date.UTC(2026, 7, 10)) },
+  { slug: 'previous', name: 'Previous year', number: 0, date: new Date(Date.UTC(2025, 11, 31)) },
 ]
 
 describe('buildSessionCalendarYears', () => {

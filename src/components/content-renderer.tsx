@@ -4,6 +4,7 @@ import type { Content } from '#/definitions/content.ts'
 import { isEntityRef } from '#/definitions/kind.ts'
 import type { Reference } from '#/definitions/reference.ts'
 import { refLink } from '#/lib/campaign'
+import { publicAssetUrl } from '#/lib/public-media'
 import { cn } from '#/lib/utils'
 
 type ContentParagraph = Content[number]
@@ -49,7 +50,7 @@ function ContentPart({ part }: { part: ContentParagraph | ContentAtom }) {
     if (part.type === 'image' || part.type === 'map') {
       return (
         <img
-          src={part.url}
+          src={publicAssetUrl(part.url)}
           alt=""
           className="border-border max-w-full rounded-lg border"
           loading="lazy"

@@ -28,6 +28,7 @@ import { ItemIcon } from '#/lib/item-icons'
 import { LocationIcon, LocationTypeIcon, locationTypeLabel } from '#/lib/location-icons'
 import { OrganizationIcon } from '#/lib/organization-icons'
 import { QuestIcon } from '#/lib/quest-icons'
+import { formatSessionDate } from '#/lib/session-date'
 import { SessionIcon } from '#/lib/session-icons'
 
 export type EntityReferenceRenderData = {
@@ -209,8 +210,7 @@ function referencePresentation(
             <span className="text-muted-foreground">Session {sessionNumber(slug) ?? '—'}</span>
             {session ? (
               <span className="text-muted-foreground">
-                {session.date.toLocaleDateString(undefined, { dateStyle: 'medium' })} ·{' '}
-                {session.events.length} events
+                {formatSessionDate(session.date, 'medium')} · {session.events.length} events
               </span>
             ) : null}
           </ReferencePreviewHeader>
@@ -308,7 +308,7 @@ function PreviewLocation({ name, icon }: { name: string; icon?: string }) {
 
 function EventReferenceIcon({ mark, className }: { mark?: EventMark; className?: string }) {
   if (mark?.type === 'avatar') {
-    return <img src={mark.url} alt="" className={`${className ?? ''} rounded-full object-cover`} />
+    return <Avatar src={mark.url} className={`${className ?? ''} rounded-full`} />
   }
   if (mark?.type === 'icon') return <EventMarkIcon name={mark.name} className={className} />
   return <CalendarRange className={className} aria-hidden />

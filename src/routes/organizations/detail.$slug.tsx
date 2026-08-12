@@ -1,23 +1,29 @@
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute, notFound } from '@tanstack/react-router'
 
 import { ContentRenderer } from '#/components/content-renderer'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
-import { EntityDetail, EntityNotFound } from '#/components/entity-page'
+import { EntityDetail } from '#/components/entity-page'
 import { NpcReference } from '#/components/npc-reference'
 import { PcReference } from '#/components/pc-reference'
 import { Grid, Stack } from '#/components/ui/layout'
 import { getEntity, organizationMembers } from '#/lib/campaign'
 import { referencedByItems } from '#/lib/entity-page-data'
 import { OrganizationIcon } from '#/lib/organization-icons'
+import { publicEntityPageHead } from '#/lib/public-page-metadata'
 
 export const Route = createFileRoute('/organizations/detail/$slug')({
+  loader: ({ params }) => {
+    const entity = getEntity('organization', params.slug)
+    if (!entity) throw notFound()
+    return entity
+  },
+  head: ({ params }) => publicEntityPageHead('organization', params.slug),
   component: OrganizationPage,
 })
 
 function OrganizationPage() {
   const { slug } = Route.useParams()
-  const entity = getEntity('organization', slug)
-  if (!entity) return <EntityNotFound kind="organization" />
+  const entity = Route.useLoaderData()
 
   const organization = entity.data
   const memberGroups = organizationMembers(organization)
