@@ -2,9 +2,11 @@ import { createFileRoute } from '@tanstack/react-router'
 
 import { SessionsYearCalendar } from '#/components/sessions-year-calendar'
 import { sessionNumber, sortedSessions } from '#/lib/campaign'
+import { publicPageHeadForPath } from '#/lib/public-page-metadata'
 import { buildSessionCalendarYears } from '#/lib/session-calendar'
 
 export const Route = createFileRoute('/sessions/')({
+  head: () => publicPageHeadForPath('/sessions'),
   component: SessionsPage,
 })
 

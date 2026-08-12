@@ -15,9 +15,11 @@ import {
   type EntityOf,
 } from '#/lib/campaign'
 import { ENTITY_KIND_VISUALS } from '#/lib/entity-kind-visuals'
+import { publicPageHeadForPath } from '#/lib/public-page-metadata'
 import { cn } from '#/lib/utils'
 
 export const Route = createFileRoute('/pcs/')({
+  head: () => publicPageHeadForPath('/pcs'),
   component: PcsPage,
 })
 

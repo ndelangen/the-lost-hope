@@ -35,10 +35,13 @@ import {
   sortedSessions,
 } from '#/lib/campaign'
 import { ENTITY_KIND_VISUALS } from '#/lib/entity-kind-visuals'
+import { publicPageHeadForPath } from '#/lib/public-page-metadata'
 import { questProgressText } from '#/lib/quest-catalogue-data'
+import { formatSessionDate } from '#/lib/session-date'
 import { cn } from '#/lib/utils'
 
 export const Route = createFileRoute('/')({
+  head: () => publicPageHeadForPath('/'),
   component: HomePage,
 })
 
@@ -137,9 +140,7 @@ function HomePage() {
                         <Inline as="span" gap="md" wrap className="text-muted-foreground text-sm">
                           <Inline as="span" inline gap="xs">
                             <CalendarDays className="size-4" />
-                            {latestSession.data.date.toLocaleDateString(undefined, {
-                              dateStyle: 'long',
-                            })}
+                            {formatSessionDate(latestSession.data.date, 'long')}
                           </Inline>
                           <span>{latestSession.data.events.length} events</span>
                         </Inline>

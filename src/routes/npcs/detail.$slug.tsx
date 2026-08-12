@@ -1,24 +1,30 @@
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute, notFound } from '@tanstack/react-router'
 
 import { AvatarViewer } from '#/components/avatar-viewer'
 import { CharacterMemberships } from '#/components/character-memberships'
 import { ContentRenderer } from '#/components/content-renderer'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
-import { EntityDetail, EntityNotFound } from '#/components/entity-page'
+import { EntityDetail } from '#/components/entity-page'
 import { LocationReference } from '#/components/location-reference'
 import { Inline, Stack } from '#/components/ui/layout'
 import { Pill } from '#/components/ui/pill'
 import { getEntity, npcLocation } from '#/lib/campaign'
 import { characterMemberships, referencedByItems } from '#/lib/entity-page-data'
+import { publicEntityPageHead } from '#/lib/public-page-metadata'
 
 export const Route = createFileRoute('/npcs/detail/$slug')({
+  loader: ({ params }) => {
+    const entity = getEntity('npc', params.slug)
+    if (!entity) throw notFound()
+    return entity
+  },
+  head: ({ params }) => publicEntityPageHead('npc', params.slug),
   component: NpcPage,
 })
 
 function NpcPage() {
   const { slug } = Route.useParams()
-  const entity = getEntity('npc', slug)
-  if (!entity) return <EntityNotFound kind="npc" />
+  const entity = Route.useLoaderData()
 
   const npc = entity.data
   const home = npcLocation(npc)

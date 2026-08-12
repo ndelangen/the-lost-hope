@@ -1,22 +1,28 @@
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute, notFound } from '@tanstack/react-router'
 
 import { ContentRenderer } from '#/components/content-renderer'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
-import { EntityDetail, EntityNotFound } from '#/components/entity-page'
+import { EntityDetail } from '#/components/entity-page'
 import { EntityReference } from '#/components/entity-reference'
 import { Grid, Stack } from '#/components/ui/layout'
 import { getEntity, refLink } from '#/lib/campaign'
 import { referencedByItems } from '#/lib/entity-page-data'
 import { ItemIcon } from '#/lib/item-icons'
+import { publicEntityPageHead } from '#/lib/public-page-metadata'
 
 export const Route = createFileRoute('/items/detail/$slug')({
+  loader: ({ params }) => {
+    const entity = getEntity('item', params.slug)
+    if (!entity) throw notFound()
+    return entity
+  },
+  head: ({ params }) => publicEntityPageHead('item', params.slug),
   component: ItemPage,
 })
 
 function ItemPage() {
   const { slug } = Route.useParams()
-  const entity = getEntity('item', slug)
-  if (!entity) return <EntityNotFound kind="item" />
+  const entity = Route.useLoaderData()
 
   const item = entity.data
   const owner = item.currentOwner ? refLink(item.currentOwner) : undefined

@@ -1,5 +1,6 @@
 import { EventReference } from '#/components/event-reference'
 import { LocationReference } from '#/components/location-reference'
+import { Avatar } from '#/components/ui/avatar'
 import { Grid, Inline, Inset, Stack } from '#/components/ui/layout'
 import type { SessionTimelineDay } from '#/lib/entity-page-data'
 import { DAY_MARK_ICON, EventMarkIcon } from '#/lib/event-icons'
@@ -48,7 +49,7 @@ function EventBullet({ mark }: { mark: SessionTimelineDay['events'][number]['mar
   return (
     <TimelineBullet className="border-border bg-card group-hover:border-primary/50 border transition-transform duration-150 group-hover:scale-105">
       {mark.type === 'avatar' ? (
-        <img src={mark.url} alt="" className="size-full rounded-full object-cover" />
+        <Avatar src={mark.url} className="size-full rounded-full" />
       ) : (
         <EventMarkIcon name={mark.name} className="text-muted-foreground size-4" />
       )}

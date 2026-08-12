@@ -4,8 +4,10 @@ import { EntityCollection } from '#/components/entity-page'
 import { allEntities, COLLECTION_LABELS } from '#/lib/campaign'
 import { entityCollectionItems } from '#/lib/entity-page-data'
 import { resolveItemIcon } from '#/lib/item-icons'
+import { publicPageHeadForPath } from '#/lib/public-page-metadata'
 
 export const Route = createFileRoute('/items/')({
+  head: () => publicPageHeadForPath('/items'),
   component: ItemsPage,
 })
 

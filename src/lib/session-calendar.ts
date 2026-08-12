@@ -32,14 +32,14 @@ export type SessionCalendarDisplayRow =
   | { kind: 'months'; months: SessionCalendarMonth[] }
   | { kind: 'quiet'; fromMonth: string; throughMonth: string }
 
-const MONTH_FORMATTER = new Intl.DateTimeFormat('en', { month: 'long' })
+const MONTH_FORMATTER = new Intl.DateTimeFormat('en', { month: 'long', timeZone: 'UTC' })
 
 export function buildSessionCalendarYears(
   sessions: readonly SessionCalendarSource[],
 ): SessionCalendarYear[] {
   const sessionsByYear = new Map<number, SessionCalendarSource[]>()
   for (const session of sessions) {
-    const year = session.date.getFullYear()
+    const year = session.date.getUTCFullYear()
     const entries = sessionsByYear.get(year) ?? []
     entries.push(session)
     sessionsByYear.set(year, entries)
@@ -95,8 +95,8 @@ function buildMonth(
 ): SessionCalendarMonth {
   const sessionsByDay = new Map<number, SessionCalendarEntry[]>()
   for (const session of sessions) {
-    if (session.date.getMonth() !== month) continue
-    const day = session.date.getDate()
+    if (session.date.getUTCMonth() !== month) continue
+    const day = session.date.getUTCDate()
     const entries = sessionsByDay.get(day) ?? []
     entries.push({ ...session, day })
     sessionsByDay.set(day, entries)
@@ -106,8 +106,8 @@ function buildMonth(
     entries.sort((left, right) => left.number - right.number)
   }
 
-  const firstWeekday = (new Date(year, month, 1).getDay() + 6) % 7
-  const dayCount = new Date(year, month + 1, 0).getDate()
+  const firstWeekday = (new Date(Date.UTC(year, month, 1)).getUTCDay() + 6) % 7
+  const dayCount = new Date(Date.UTC(year, month + 1, 0)).getUTCDate()
   const days = Array.from({ length: 42 }, (_, index): SessionCalendarDay => {
     const day = index - firstWeekday + 1
     if (day < 1 || day > dayCount) return { day: null, sessions: [], slot: index }
@@ -117,7 +117,7 @@ function buildMonth(
 
   return {
     index: month,
-    label: MONTH_FORMATTER.format(new Date(year, month, 1)),
+    label: MONTH_FORMATTER.format(new Date(Date.UTC(year, month, 1))),
     weeks,
     sessionCount: [...sessionsByDay.values()].reduce((count, entries) => count + entries.length, 0),
   }

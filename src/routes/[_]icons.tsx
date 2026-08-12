@@ -22,6 +22,13 @@ import {
 import { iconCatalogUrlSearchSchema, type IconCatalogUrlSearch } from '#/icon-catalog/url-search'
 
 export const Route = createFileRoute('/_icons')({
+  ssr: false,
+  head: () => ({
+    meta: [
+      { title: 'Icon catalogue | The Lost Hope' },
+      { name: 'robots', content: 'noindex, nofollow' },
+    ],
+  }),
   validateSearch: iconCatalogUrlSearchSchema,
   component: IconsPage,
 })

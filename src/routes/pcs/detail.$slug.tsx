@@ -1,25 +1,31 @@
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute, notFound } from '@tanstack/react-router'
 
 import { AvatarViewer } from '#/components/avatar-viewer'
 import { CharacterItems } from '#/components/character-items'
 import { CharacterMemberships } from '#/components/character-memberships'
 import { ContentRenderer } from '#/components/content-renderer'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
-import { EntityDetail, EntityNotFound } from '#/components/entity-page'
+import { EntityDetail } from '#/components/entity-page'
 import { PreviousPortraits } from '#/components/previous-portraits'
 import { Inline, Stack } from '#/components/ui/layout'
 import { Pill } from '#/components/ui/pill'
 import { getEntity, itemsCarriedBy, itemsOwnedBy, pcStatusLabel } from '#/lib/campaign'
 import { characterMemberships, referencedByItems } from '#/lib/entity-page-data'
+import { publicEntityPageHead } from '#/lib/public-page-metadata'
 
 export const Route = createFileRoute('/pcs/detail/$slug')({
+  loader: ({ params }) => {
+    const entity = getEntity('pc', params.slug)
+    if (!entity) throw notFound()
+    return entity
+  },
+  head: ({ params }) => publicEntityPageHead('pc', params.slug),
   component: PcPage,
 })
 
 function PcPage() {
   const { slug } = Route.useParams()
-  const entity = getEntity('pc', slug)
-  if (!entity) return <EntityNotFound kind="pc" />
+  const entity = Route.useLoaderData()
 
   const pc = entity.data
   const memberships = characterMemberships(pc)
