@@ -281,7 +281,7 @@ Every question must include **what we already know** — many sit unanswered acr
 
 ---
 
-## Session 13 — Lost Hope and Lost Tears
+## Session 13 — The First Dungeon
 
 - **Is “Serpent Isle” another name for the Temple of the Serpent Eclipse, or a separate part of Nimbus?**
   - _Context:_ The session recap called the selected snake-themed destination “Serpent Isle,” while the dungeon attendant welcomed the party to the Temple of the Serpent Eclipse. The transcript does not establish whether those names describe the same place or a containing area.

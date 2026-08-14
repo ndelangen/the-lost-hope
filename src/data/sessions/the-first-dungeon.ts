@@ -2,7 +2,7 @@ import { refs } from '#/data/generated/refs.ts'
 import { create as createSession } from '#/definitions/session.ts'
 
 export default createSession({
-  name: 'Lost Hope and Lost Tears',
+  name: 'The First Dungeon',
   number: 13,
   icon: 'gi/GiSnakeTotem',
   date: new Date('2026-08-13'),

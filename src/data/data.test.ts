@@ -714,7 +714,7 @@ describe('campaign chronology', () => {
   })
 
   it('records Session 13 across the Serpent Eclipse and Gruumsh temple rooms', () => {
-    expect(sessionDays(sessions.lost_hope_and_lost_tears)).toEqual([
+    expect(sessionDays(sessions.the_first_dungeon)).toEqual([
       {
         day: 21,
         events: [
@@ -733,7 +733,7 @@ describe('campaign chronology', () => {
         ],
       },
     ])
-    expect(sessionPcs(sessions.lost_hope_and_lost_tears).map((pc) => pc.slug)).toEqual([
+    expect(sessionPcs(sessions.the_first_dungeon).map((pc) => pc.slug)).toEqual([
       'cassian-veyl',
       'devan',
       'jim',

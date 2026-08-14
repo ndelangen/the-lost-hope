@@ -304,7 +304,7 @@ export const refs = {
     fairhaven_shadows: ref('session', 'fairhaven_shadows'),
     fairhaven_fallout: ref('session', 'fairhaven_fallout'),
     heroes_and_rivals: ref('session', 'heroes_and_rivals'),
-    lost_hope_and_lost_tears: ref('session', 'lost_hope_and_lost_tears'),
+    the_first_dungeon: ref('session', 'the_first_dungeon'),
     the_fall_of_fairhaven: ref('session', 'the_fall_of_fairhaven'),
     the_flying_bazaar: ref('session', 'the_flying_bazaar'),
     the_fiddlers_game: ref('session', 'the_fiddlers_game'),

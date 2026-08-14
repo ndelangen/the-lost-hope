@@ -217065,7 +217065,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/snake-totem.html",
       "usedIn": [
-        "src/data/sessions/lost-hope-and-lost-tears.ts",
+        "src/data/sessions/the-first-dungeon.ts",
         "src/lib/session-icons.tsx"
       ]
     },
