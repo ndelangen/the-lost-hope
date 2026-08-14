@@ -1,6 +1,6 @@
 import { Link, Outlet, useRouterState } from '@tanstack/react-router'
 import { Menu, Scroll, X } from 'lucide-react'
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react'
 
 import { Inline, Stack } from '#/components/ui/layout'
 import { campaign } from '#/lib/campaign'
@@ -9,10 +9,8 @@ import { CampaignSearch } from './campaign-shell/campaign-search'
 import { CampaignShellLayout } from './campaign-shell/layout'
 import { Sidebar } from './campaign-shell/sidebar'
 import { usePersistedBoolean } from './campaign-shell/storage'
-import { useTheme } from './campaign-shell/theme'
-import { ThemeToggle } from './campaign-shell/theme-toggle'
 
-export function CampaignShell() {
+export function CampaignShell({ themeControl }: { themeControl: ReactNode }) {
   const pathname = useRouterState({ select: (state) => state.location.pathname })
   const hasNavigation = pathname !== '/_icons'
   const [drawerOpen, setDrawerOpen] = useState(false)
@@ -21,7 +19,6 @@ export function CampaignShell() {
     'dag:sidebar:collapsed',
     false,
   )
-  const { theme, toggleTheme } = useTheme()
   const drawerRef = useRef<HTMLElement>(null)
   const closeDrawer = useCallback(() => setDrawerOpen(false), [])
 
@@ -69,7 +66,7 @@ export function CampaignShell() {
           onQueryChange={setQuery}
           className="relative hidden w-full max-w-xs sm:block"
         />
-        <ThemeToggle theme={theme} onToggle={toggleTheme} />
+        {themeControl}
       </Inline>
     </Inline>
   )

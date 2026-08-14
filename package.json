@@ -9,6 +9,7 @@
     "dev": "bun scripts/generate-social-images.tsx --dev && vite dev --port 3000",
     "build": "bun run generate:social-images && vite build && bun run audit:public-build",
     "preview": "vite preview",
+    "prototype:minimal-js": "bun scripts/prototype-minimal-js.ts",
     "test": "bun run generate:social-paths && vitest run",
     "test:watch": "bun run generate:social-paths && vitest",
     "fetch:icon-metadata": "bun scripts/fetch-icon-metadata.ts",

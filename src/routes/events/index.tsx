@@ -1,4 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
+import { Hydrate } from '@tanstack/react-start'
+import { never } from '@tanstack/react-start/hydration'
 
 import { EventsTimeline } from '#/components/events-timeline'
 import { sessionTimelineSections, type SessionTimelineEntry } from '#/lib/campaign'
@@ -10,6 +12,15 @@ export const Route = createFileRoute('/events/')({
 })
 
 function EventsPage() {
+  return (
+    // PROTOTYPE: test whether route-owned canon can remain server/build-only.
+    <Hydrate when={never()}>
+      <EventsStaticContent />
+    </Hydrate>
+  )
+}
+
+function EventsStaticContent() {
   const sections = sessionTimelineSections()
   const events = sections.flatMap((section) =>
     section.entries.filter(

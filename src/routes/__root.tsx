@@ -1,7 +1,10 @@
 import { HeadContent, Link, Scripts, createRootRoute } from '@tanstack/react-router'
+import { Hydrate } from '@tanstack/react-start'
+import { interaction, never } from '@tanstack/react-start/hydration'
 import type { ReactNode } from 'react'
 
 import { CampaignShell } from '#/components/campaign-shell'
+import { PrototypeMinimalJsTheme } from '#/components/prototype-minimal-js-theme'
 
 import '../styles.css'
 
@@ -22,7 +25,16 @@ const THEME_SCRIPT = `(() => { try { const stored = localStorage.getItem('dag:th
 function RootComponent() {
   return (
     <RootDocument>
-      <CampaignShell />
+      {/* PROTOTYPE: keep the complete campaign shell as prerendered HTML without hydrating it. */}
+      <Hydrate when={never()}>
+        <CampaignShell themeControl={null} />
+      </Hydrate>
+      {/* PROTOTYPE: control case — a true sibling island outside the never-hydrated tree. */}
+      <div className="fixed top-2 right-4 z-50">
+        <Hydrate when={interaction()}>
+          <PrototypeMinimalJsTheme />
+        </Hydrate>
+      </div>
     </RootDocument>
   )
 }
