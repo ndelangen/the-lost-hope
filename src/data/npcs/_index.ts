@@ -34,6 +34,7 @@ import samantha from './samantha.ts'
 import sering_ravenwood from './sering-ravenwood.ts'
 import sneeve from './sneeve.ts'
 import swift_starblade_s_younger_sister from './swift-starblade-s-younger-sister.ts'
+import sylvia_s_brother from './sylvia-s-brother.ts'
 import sylvia from './sylvia.ts'
 import the_12th_marshal from './the-12th-marshal.ts'
 import the_father from './the-father.ts'
@@ -77,6 +78,7 @@ export default {
   sneeve,
   swift_starblade_s_younger_sister,
   sylvia,
+  sylvia_s_brother,
   sering_ravenwood,
   the_father,
   the_fiddler,

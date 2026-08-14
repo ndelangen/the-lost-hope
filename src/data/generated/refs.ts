@@ -193,6 +193,7 @@ export const refs = {
     sneeve: ref('npc', 'sneeve'),
     swift_starblade_s_younger_sister: ref('npc', 'swift_starblade_s_younger_sister'),
     sylvia: ref('npc', 'sylvia'),
+    sylvia_s_brother: ref('npc', 'sylvia_s_brother'),
     sering_ravenwood: ref('npc', 'sering_ravenwood'),
     the_father: ref('npc', 'the_father'),
     the_fiddler: ref('npc', 'the_fiddler'),

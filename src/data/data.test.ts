@@ -314,6 +314,8 @@ describe('items', () => {
     expect(events.n2_e105.notes.flat()).toContainEqual(refs.items.deck_of_many_more_things)
     expect(events.n2_e106.notes.flat()).toContainEqual(refs.items.jim_s_kenku_suit)
     expect(events.n2_e099.notes.flat()).toContainEqual(refs.organizations.starblade_family)
+    expect(events.n2_e099.notes.flat()).toContainEqual(refs.npcs.swift_starblade_s_younger_sister)
+    expect(events.n2_e099.notes.flat()).toContainEqual(refs.npcs.sylvia_s_brother)
     expect(events.n2_e121.notes.flat()).toContainEqual(refs.npcs.celeste_s_mother)
   })
 })
