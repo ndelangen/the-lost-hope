@@ -1,6 +1,13 @@
 import type { IconType } from 'react-icons'
 import { FaBuilding } from 'react-icons/fa'
-import { GiCrossedSwords, GiDwarfFace, GiHand, GiJusticeStar, GiMagicPalm } from 'react-icons/gi'
+import {
+  GiCrossedAxes,
+  GiCrossedSwords,
+  GiDwarfFace,
+  GiHand,
+  GiJusticeStar,
+  GiMagicPalm,
+} from 'react-icons/gi'
 
 import { cn } from '#/lib/utils'
 
@@ -14,6 +21,7 @@ export const ORGANIZATION_ICON_PLACEHOLDER = 'fa/FaBuilding'
  * placeholder.
  */
 export const ORGANIZATION_ICONS: Record<string, IconType> = {
+  'gi/GiCrossedAxes': GiCrossedAxes,
   'gi/GiCrossedSwords': GiCrossedSwords,
   'gi/GiDwarfFace': GiDwarfFace,
   'gi/GiHand': GiHand,

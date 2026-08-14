@@ -6,7 +6,13 @@ export default createQuest({
   icon: 'gi/GiBottledShadow',
   type: 'mystery',
   notes: [
-    ['What is the curse on ', refs.items.cursed_shadow_sword, ', and what shadow is bound to it?'],
+    [
+      'What was the curse on ',
+      refs.items.cursed_shadow_sword,
+      ', was its shadow connected to the ',
+      refs.npcs.faceless_shadow,
+      ', and what became of either after the curse was removed?',
+    ],
   ],
   status: 'open',
   clues: [
@@ -49,6 +55,10 @@ export default createQuest({
       ', a shadow killed a wolf instantly and then nearly killed ',
       refs.pcs.jim,
       '.',
+    ],
+    [
+      refs.events.n2_e132,
+      ' — as a favor separate from Jim’s 20 GP pain-removal debt, a Gruumsh high priest removed the sword’s curse after it blackened his hand and recoiled from him, but did not reveal what became of the curse or its shadow.',
     ],
   ],
   conclusion: [],

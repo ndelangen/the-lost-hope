@@ -21,14 +21,17 @@ export default createPC({
       status: 'active',
       rank: 'Member',
     },
+    {
+      organization: refs.organizations.church_of_gruumsh,
+      status: 'active',
+      rank: 'Member',
+    },
   ],
   notes: [
     [
       'Identified from the D&D Beyond roster (player Balenorblighthammer, Half-Orc Paladin); the session-4 notes\' "orc paladin" is almost certainly him.',
     ],
     ['Paladin oath/subclass not yet established.'],
-    [
-      'A heroic-minded adventurer who likes paperwork, is a poor swimmer, and follows a religion requiring weekly donations.',
-    ],
+    ['A heroic-minded adventurer who likes paperwork and is a poor swimmer.'],
   ],
 })

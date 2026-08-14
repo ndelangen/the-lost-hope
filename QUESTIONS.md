@@ -6,7 +6,7 @@ Open questions for the author. Also used by the agent when editing data.
 include why the answer matters when it blocks a modeling or naming decision. Record confirmed canon
 in `src/data/` when answered. Do not use this file as an engineering backlog.
 
-**Play sessions:** Sessions **1–12** are dated and have event notes.
+**Play sessions:** Sessions **1–13** are dated and have event notes.
 
 ---
 
@@ -179,8 +179,8 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Session:_ 9 ([n2-e074](/events/the-cursed-sword-breaks-verdant-havens-ward))
 
 - **What is the cursed sword, and is its shadow connected to the Faceless Shadow?**
-  - _Context:_ The Faceless Shadow left the sword in Roberto. The sword decayed the forest, broke Verdant Haven’s ward, and later released a shadow that killed a wolf and nearly killed Jim. Whether both shadows are the same entity is unknown.
-  - _Session:_ 9 ([n2-e073](/events/the-party-rescues-roberto-from-a-faceless-shadow), [n2-e078](/events/the-cursed-swords-shadow-nearly-kills-jim))
+  - _Context:_ The Faceless Shadow left the sword in Roberto. The sword decayed the forest, broke Verdant Haven’s ward, and later released a shadow that killed a wolf and nearly killed Jim. In Session 13, a Gruumsh high priest removed the sword’s curse after it blackened his hand and recoiled from him. Whether both shadows are the same entity, whether the shadow survived the cleansing, and what became of the extracted curse remain unknown.
+  - _Session:_ 9, 13 ([n2-e073](/events/the-party-rescues-roberto-from-a-faceless-shadow), [n2-e078](/events/the-cursed-swords-shadow-nearly-kills-jim), [n2-e132](/events/detail/the-high-priest-frees-jim-from-pain-and-cleanses-the-shadow-sword))
 
 - **How reliable was Roberto’s interrogation, and did an Eyeless Hand splinter cell destroy Fairhaven?**
   - _Context:_ Roberto implicated Mortimer in the Hand’s gradual takeover and claimed a splinter cell destroyed the city without necessarily receiving the Father’s approval. Devan obtained this information during the interrogation that ended in Roberto’s death.
@@ -281,13 +281,37 @@ Every question must include **what we already know** — many sit unanswered acr
 
 ---
 
+## Session 13 — Lost Hope and Lost Tears
+
+- **Is “Serpent Isle” another name for the Temple of the Serpent Eclipse, or a separate part of Nimbus?**
+  - _Context:_ The session recap called the selected snake-themed destination “Serpent Isle,” while the dungeon attendant welcomed the party to the Temple of the Serpent Eclipse. The transcript does not establish whether those names describe the same place or a containing area.
+  - _Why asking:_ The dungeon is provisionally represented as [Temple of the Serpent Eclipse](/locations/detail/temple-of-the-serpent-eclipse); a separate canonical location or alias should only be added if the distinction is real.
+  - _Session:_ 13 ([n2-e123](/events/detail/the-party-presents-the-dungeon-pass-at-the-serpent-eclipse-entrance))
+
+- **What does the Serpent Eclipse Trial Disk do?**
+  - _Context:_ Completing the first dungeon challenge produced a dragon horn. A whisper instructed the party to place it on the blood-fed altar, where it spun and condensed into a metal disk now carried by Devan.
+  - _Why asking:_ Its function, whether it records the cleared door, and whether it is needed to continue or re-enter the dungeon are unknown.
+  - _Session:_ 13 ([n2-e128](/events/detail/the-dragon-horn-becomes-the-serpent-eclipse-trial-disk))
+
+- **What curse did the Gruumsh high priest remove from Cassian, and where did it come from?**
+  - _Context:_ Cassian described a curse that improved his spell attacks by one but gave every opponent advantage when attacking him. The high priest removed it for a 50 GP donation, but the transcript did not identify its source or name.
+  - _Why asking:_ The effect is resolved, but its missing provenance may mean an earlier event or item still lacks canon.
+  - _Session:_ 13 ([n2-e131](/events/detail/the-high-priest-removes-cassian-s-curse))
+
+- **What are the exact stages and limits of Cassian’s werewolf transformation?**
+  - _Context:_ The Gruumsh high priest said Cassian’s hunger was not a curse but a two-way bond that placed part of Wolfie’s life in Cassian’s soul. Research in the temple library made it clear that the ring is gradually turning Cassian into a werewolf-like hybrid. His craving for meat and ability to identify animals by scent were already evident; claws, fangs, and increased hair were identified as further signs.
+  - _Why asking:_ The transformation itself is established, but its full-moon behavior, sensitivity to silver, pace, degree of control, risks to Cassian and Wolfie, and consequences of fighting or embracing it remain unknown.
+  - _Session:_ 13 ([n2-e134](/events/detail/cassian-learns-the-ring-is-turning-him-into-a-werewolf))
+
+---
+
 ## Characters — still open
 
 | Who                    | Question                                                                                                                |
 | ---------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | **Jim**                | Sorcerer bloodline. Eyeless Hand tracking method, warning sender, and retreat. Will Light fulfill "left alone by past"? |
 | **Revin**              | Monk subclass. Guild favor (forgotten). In-fiction fate if the DM ever revisits his disappearance.                      |
-| **Cassian Veyl**       | Two Deck-granted languages. Personality, patron, and exact obligations in his watcher contract.                         |
+| **Cassian Veyl**       | Two Deck-granted languages. Wolfie soul bond. Personality, patron, and exact obligations in his watcher contract.       |
 | **Swift Starblade**    | Hostile NPC. Rhys Greenleaf rename. Session 10 departure. Relative names.                                               |
 | **Devan**              | Paladin subclass/oath. Zone of truth answer.                                                                            |
 | **Light 13th Marshal** | Species; why these PCs; favor costs; angel/dragon tie; dino migration.                                                  |
@@ -302,7 +326,7 @@ Every question must include **what we already know** — many sit unanswered acr
 - **Jim's Warning Letter** — sender identity.
 - **Help the Rare-Animal Dealer** — third animal.
 - **Mountain Holy Site** — whose faith, deity, form?
-- **The Cursed Sword** — curse, shadow, and connection to the Faceless Shadow.
+- **The Cursed Sword** — origin of the removed curse, fate of its shadow, and connection to the Faceless Shadow.
 - **The Fairhaven Invasion** — attackers, motive, special wizard, and summoned monsters.
 - **Fajanet Tunnels and Shadow Realm** — same underground network?
 - **Through the Shadow Realm** — relation to tentacle night.

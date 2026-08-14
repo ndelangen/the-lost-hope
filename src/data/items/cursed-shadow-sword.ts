@@ -7,5 +7,13 @@ export default createItem({
   currentOwner: refs.pcs.jim,
   carriedBy: refs.pcs.jim,
   craftedBy: null,
-  notes: [['A cursed sword with a deadly shadow bound to it.']],
+  notes: [
+    [
+      'A shadow-bearing sword whose curse was removed by a high priest of the ',
+      refs.organizations.church_of_gruumsh,
+      ' during ',
+      refs.events.n2_e132,
+      '. What became of the extracted curse and the deadly shadow formerly bound to the blade remains unknown.',
+    ],
+  ],
 })
