@@ -1,4 +1,5 @@
 import { createFileRoute, notFound } from '@tanstack/react-router'
+import { ArrowRight } from 'lucide-react'
 
 import { ContentRenderer } from '#/components/content-renderer'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
@@ -123,7 +124,23 @@ function LocationDetailPage() {
                 description={`${location.name} in context with the other places recorded within ${parent.name}.`}
               />
               <LocationMapPlot map={contextMap} label={`${location.name} within ${parent.name}`} />
-              <LocationMapLegend map={contextMap} />
+              <LocationMapLegend map={contextMap} currentOnly />
+              <LocationReference
+                slug={parent.slug}
+                label={`Open ${parent.name}`}
+                unstyled
+                className="text-primary group inline-flex min-h-9 items-center gap-2 self-start text-sm font-medium hover:underline"
+              >
+                {() => (
+                  <>
+                    Open parent location
+                    <ArrowRight
+                      className="size-4 transition-transform group-hover:translate-x-0.5"
+                      aria-hidden
+                    />
+                  </>
+                )}
+              </LocationReference>
             </Stack>
           </Grid>
         ) : (

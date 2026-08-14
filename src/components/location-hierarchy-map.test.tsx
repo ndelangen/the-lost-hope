@@ -75,4 +75,13 @@ describe('location hierarchy map', () => {
     expect(screen.getAllByRole('link')).toHaveLength(4)
     expect(screen.getAllByRole('link').every((link) => link.getAttribute('href'))).toBe(true)
   })
+
+  it('can limit the legend to the current location', () => {
+    render(<LocationMapLegend map={map} currentOnly />)
+
+    expect(screen.getByText('Nimbus')).toBeTruthy()
+    expect(screen.getByText('You are here')).toBeTruthy()
+    expect(screen.queryByText('Tempest')).toBeNull()
+    expect(screen.getAllByRole('link')).toHaveLength(1)
+  })
 })

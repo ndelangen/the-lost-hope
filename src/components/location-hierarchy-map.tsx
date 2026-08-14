@@ -73,15 +73,19 @@ export function LocationMapPlot({ map, label }: { map: LocationHierarchyMapModel
 export function LocationMapLegend({
   map,
   compact = false,
+  currentOnly = false,
 }: {
   map: LocationHierarchyMapModel
   compact?: boolean
+  currentOnly?: boolean
 }) {
+  const points = currentOnly ? map.points.filter((point) => point.current) : map.points
+
   return (
     <Stack gap="sm" className="min-w-0">
       <p className="text-muted-foreground text-xs font-semibold tracking-wider uppercase">Legend</p>
       <ul className={cn('grid gap-2', compact && 'sm:grid-cols-2')}>
-        {map.points.map((point) => (
+        {points.map((point) => (
           <li key={point.slug}>
             <LocationReference
               slug={point.slug}
