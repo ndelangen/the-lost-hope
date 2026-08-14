@@ -1,10 +1,10 @@
 import { EntityReference } from '#/components/entity-reference'
+import { ResponsiveImage } from '#/components/responsive-image'
 import { Stack } from '#/components/ui/layout'
 import type { Content } from '#/definitions/content.ts'
 import { isEntityRef } from '#/definitions/kind.ts'
 import type { Reference } from '#/definitions/reference.ts'
 import { refLink } from '#/lib/campaign'
-import { publicAssetUrl } from '#/lib/public-media'
 import { cn } from '#/lib/utils'
 
 type ContentParagraph = Content[number]
@@ -49,9 +49,10 @@ function ContentPart({ part }: { part: ContentParagraph | ContentAtom }) {
   if (isMedia(part)) {
     if (part.type === 'image' || part.type === 'map') {
       return (
-        <img
-          src={publicAssetUrl(part.url)}
+        <ResponsiveImage
+          src={part.url}
           alt=""
+          sizes="(min-width: 1024px) 960px, calc(100vw - 2rem)"
           className="border-border max-w-full rounded-lg border"
           loading="lazy"
         />

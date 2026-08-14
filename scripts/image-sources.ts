@@ -1,0 +1,76 @@
+import { join } from 'node:path'
+
+export const RESPONSIVE_IMAGE_WIDTHS = [
+  32, 64, 128, 192, 256, 384, 512, 640, 768, 960, 1024, 1280,
+] as const
+
+export const RESPONSIVE_IMAGE_ENCODING = {
+  quality: 80,
+  progressive: true,
+  chromaSubsampling: '4:2:0',
+} as const
+
+export const APP_ICON_BACKGROUND = '#07111f'
+
+export type ResponsiveImageSource = {
+  id: string
+  logicalSource: string
+  repositoryPath: string
+}
+
+export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
+  {
+    id: 'sir-fabulous-divine-steed',
+    logicalSource: '/assets/npcs/sir-fabulous-divine-steed.png',
+    repositoryPath: 'assets/images/content/npcs/sir-fabulous-divine-steed.png',
+  },
+  {
+    id: 'wolfie',
+    logicalSource: '/assets/npcs/wolfie.png',
+    repositoryPath: 'assets/images/content/npcs/wolfie.png',
+  },
+  {
+    id: 'cassian',
+    logicalSource: '/assets/pcs/cassian.jpg',
+    repositoryPath: 'assets/images/content/pcs/cassian.jpg',
+  },
+  {
+    id: 'devan',
+    logicalSource: '/assets/pcs/devan.jpg',
+    repositoryPath: 'assets/images/content/pcs/devan.jpg',
+  },
+  {
+    id: 'jim-kenku',
+    logicalSource: '/assets/pcs/jim-kenku.jpg',
+    repositoryPath: 'assets/images/content/pcs/jim-kenku.jpg',
+  },
+  {
+    id: 'jim',
+    logicalSource: '/assets/pcs/jim.jpg',
+    repositoryPath: 'assets/images/content/pcs/jim.jpg',
+  },
+  {
+    id: 'swift',
+    logicalSource: '/assets/pcs/swift.jpg',
+    repositoryPath: 'assets/images/content/pcs/swift.jpg',
+  },
+  {
+    id: 'william',
+    logicalSource: '/assets/pcs/william.jpg',
+    repositoryPath: 'assets/images/content/pcs/william.jpg',
+  },
+  {
+    id: 'theron',
+    logicalSource: 'https://www.dndbeyond.com/avatars/52821/990/1581111423-155753427.jpeg',
+    repositoryPath: 'assets/images/external/theron.jpeg',
+  },
+]
+
+const SOURCE_BY_LOGICAL_PATH = new Map(
+  RESPONSIVE_IMAGE_SOURCES.map((source) => [source.logicalSource, source]),
+)
+
+export function responsiveImageSourcePath(root: string, logicalSource: string): string | undefined {
+  const source = SOURCE_BY_LOGICAL_PATH.get(logicalSource)
+  return source ? join(root, source.repositoryPath) : undefined
+}

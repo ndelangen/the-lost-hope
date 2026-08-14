@@ -1,6 +1,7 @@
 import { useState } from 'react'
 
 import { LocationReference } from '#/components/location-reference'
+import { ResponsiveImage } from '#/components/responsive-image'
 import { Stack } from '#/components/ui/layout'
 import type { LocationHierarchyMapModel } from '#/lib/location-hierarchy-map'
 import { LocationIcon } from '#/lib/location-icons'
@@ -22,11 +23,12 @@ export function LocationMapPlot({ map, label }: { map: LocationHierarchyMapModel
       aria-label={label}
     >
       {hasArtwork ? (
-        <img
+        <ResponsiveImage
           src={url}
           alt=""
           width={width}
           height={height}
+          sizes="(min-width: 1024px) 720px, calc(100vw - 2rem)"
           loading="lazy"
           className="absolute inset-0 size-full object-cover"
           onError={() => setFailedSource(url)}

@@ -173,6 +173,8 @@ function JournalEventMark({ mark }: { mark: EventMark }) {
     return (
       <Avatar
         src={mark.url}
+        sizes="(min-width: 640px) 64px, 56px"
+        maxWidth={128}
         className={cn(
           'size-14 border-2 shadow-sm sm:size-16',
           ENTITY_KIND_VISUALS.event.borderClassName,
@@ -228,6 +230,8 @@ function JournalReferences({ references }: { references: SessionJournalReference
                   <>
                     <Avatar
                       src={reference.avatar}
+                      sizes="32px"
+                      maxWidth={64}
                       className={cn('size-8 border-2', visual.borderClassName)}
                     />
                     <span className="min-w-0">

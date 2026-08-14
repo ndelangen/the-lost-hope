@@ -6,12 +6,12 @@
     "#/*": "./src/*"
   },
   "scripts": {
-    "dev": "bun scripts/generate-social-images.tsx --dev && vite dev --port 3000",
-    "build": "bun run generate:social-paths && vite build",
-    "build:deploy": "bun run generate:social-images && vite build && bun run audit:public-build",
+    "dev": "bun run generate:images && bun scripts/generate-social-images.tsx --dev && vite dev --port 3000",
+    "build": "bun run generate:images && bun run generate:social-paths && vite build",
+    "build:deploy": "bun run generate:images && bun run generate:social-images && vite build && bun run audit:delivery && bun run audit:public-build",
     "preview": "vite preview",
-    "test": "bun run generate:social-paths && vitest run",
-    "test:watch": "bun run generate:social-paths && vitest",
+    "test": "bun run generate:images && bun run generate:social-paths && vitest run",
+    "test:watch": "bun run generate:images && bun run generate:social-paths && vitest",
     "fetch:icon-metadata": "bun scripts/fetch-icon-metadata.ts",
     "generate:icons": "bun scripts/generate-icon-catalog.ts",
     "generate:icons:check": "bun scripts/generate-icon-catalog.ts --check",
@@ -19,16 +19,18 @@
     "icons:search": "bun scripts/search-icons.ts",
     "generate:refs": "bun scripts/generate-refs.ts",
     "generate:refs:check": "bun scripts/generate-refs.ts --check",
+    "generate:images": "bun scripts/generate-responsive-images.ts",
     "generate:social-images": "bun scripts/generate-social-images.tsx",
     "generate:social-paths": "bun scripts/generate-social-images.tsx --paths-only",
     "audit:public-build": "bun scripts/audit-public-build.ts",
-    "typecheck": "bun run generate:social-paths && tsc --noEmit",
+    "audit:delivery": "bun scripts/audit-delivery-footprint.ts",
+    "typecheck": "bun run generate:images && bun run generate:social-paths && tsc --noEmit",
     "lint": "oxlint",
     "lint:fix": "oxlint --fix",
     "fmt": "oxfmt",
     "fmt:check": "oxfmt --check",
     "check": "bun run generate:refs:check && bun run generate:icons:check && bun run typecheck && bun run lint && bun run fmt:check",
-    "verify": "bun run check && bun run test && vite build"
+    "verify": "bun run check && bun run test && vite build && bun run audit:delivery"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.20",
@@ -71,7 +73,9 @@
     "jsdom": "^27.0.0",
     "oxfmt": "^0.58.0",
     "oxlint": "^1.73.0",
+    "png-to-ico": "^3.0.2",
     "satori": "0.29.0",
+    "sharp": "^0.35.3",
     "typescript": "^5.7.2",
     "vite": "^7.1.7",
     "vitest": "^3.0.5"

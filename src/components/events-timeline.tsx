@@ -191,7 +191,7 @@ function EventBullet({ entry }: { entry: Extract<SessionTimelineEntry, { kind: '
           className="ring-background border-border bg-card hover:border-primary/50 size-12 rounded-full border-2 shadow-sm ring-[6px] transition-transform duration-150 hover:scale-110"
         >
           {mark.type === 'avatar' ? (
-            <Avatar src={mark.url} className="size-full rounded-full" />
+            <Avatar src={mark.url} sizes="48px" maxWidth={128} className="size-full rounded-full" />
           ) : (
             <EventMarkIcon name={mark.name} className="text-muted-foreground size-[18px]" />
           )}

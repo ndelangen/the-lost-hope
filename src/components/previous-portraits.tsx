@@ -30,6 +30,8 @@ export function PreviousPortraits({
                 title={portrait.description}
                 eyebrow={`Previous portrait of ${characterName}`}
                 accessibleLabel={`portrait of ${portrait.description}`}
+                previewSizes="64px"
+                previewMaxWidth={128}
               />
             </div>
             <figcaption className="text-muted-foreground mt-1.5 text-xs leading-snug">

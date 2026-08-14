@@ -120,6 +120,8 @@ function PcPortraitLink({ character, featured }: { character: EntityOf<'pc'>; fe
               src={pc.avatar}
               alt={pc.name}
               loading="lazy"
+              sizes={featured ? '176px' : '112px'}
+              maxWidth={featured ? 384 : 256}
               className={cn(
                 'size-full rounded-full transition-all duration-500 group-hover:scale-105',
                 !featured && 'grayscale group-hover:grayscale-0',

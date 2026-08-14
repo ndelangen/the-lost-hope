@@ -2,7 +2,7 @@ import { Expand, X } from 'lucide-react'
 import { useCallback, useEffect, useId, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 
-import { publicAssetUrl } from '#/lib/public-media'
+import { ResponsiveImage } from '#/components/responsive-image'
 import { cn } from '#/lib/utils'
 
 type ImageViewerProps = {
@@ -13,6 +13,9 @@ type ImageViewerProps = {
   accessibleLabel: string
   fallbackSrc?: string
   className?: string
+  previewSizes?: string
+  previewMaxWidth?: number
+  viewerSizes?: string
 }
 
 export function ImageViewer({
@@ -23,6 +26,9 @@ export function ImageViewer({
   accessibleLabel,
   fallbackSrc,
   className,
+  previewSizes = '160px',
+  previewMaxWidth = 384,
+  viewerSizes = '100vw',
 }: ImageViewerProps) {
   const [open, setOpen] = useState(false)
   const dialogRef = useRef<HTMLDialogElement>(null)
@@ -93,6 +99,8 @@ export function ImageViewer({
           fallbackSrc={fallbackSrc}
           alt={alt}
           loading="lazy"
+          sizes={previewSizes}
+          maxWidth={previewMaxWidth}
           className="size-full object-cover"
         />
         <span className="absolute inset-0 bg-black/0 transition-colors group-hover:bg-black/20 group-focus-visible:bg-black/20" />
@@ -122,6 +130,8 @@ export function ImageViewer({
                   src={src}
                   fallbackSrc={fallbackSrc}
                   alt={alt}
+                  loading="eager"
+                  sizes={viewerSizes}
                   className="h-full w-full object-contain [filter:drop-shadow(0_32px_48px_rgb(0_0_0/0.55))]"
                 />
               </div>
@@ -162,29 +172,26 @@ function ViewerImage({
   alt,
   className,
   loading,
+  sizes,
+  maxWidth,
 }: {
   src: string
   fallbackSrc?: string
   alt: string
   className: string
   loading?: 'eager' | 'lazy'
+  sizes: string
+  maxWidth?: number
 }) {
   return (
-    <img
-      src={publicAssetUrl(src, fallbackSrc ?? src)}
+    <ResponsiveImage
+      src={src}
+      fallbackSrc={fallbackSrc}
       alt={alt}
       loading={loading}
+      sizes={sizes}
+      maxWidth={maxWidth}
       className={className}
-      onError={
-        fallbackSrc
-          ? (event) => {
-              const image = event.currentTarget
-              if (image.dataset.fallbackApplied) return
-              image.dataset.fallbackApplied = 'true'
-              image.src = fallbackSrc
-            }
-          : undefined
-      }
     />
   )
 }

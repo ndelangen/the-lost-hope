@@ -106,6 +106,8 @@ function LocationDetailPage() {
             title={location.name}
             eyebrow="Location illustration"
             accessibleLabel={`illustration of ${location.name}`}
+            previewSizes="(min-width: 1280px) 1100px, calc(100vw - 2rem)"
+            previewMaxWidth={1280}
             className="aspect-[16/7] min-h-64 w-full"
           />
         </Stack>
