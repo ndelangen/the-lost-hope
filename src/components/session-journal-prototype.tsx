@@ -888,8 +888,8 @@ function PartyScore({ model }: { model: SessionJournalPrototypeModel }) {
   const allEvents = model.days.flatMap((day) => day.events)
 
   return (
-    <article className="journal-prototype journal-score bg-background text-foreground overflow-hidden rounded-[2rem] border shadow-sm">
-      <header className="border-border border-b px-6 py-12 sm:px-12">
+    <article className="journal-prototype journal-score bg-background text-foreground">
+      <header className="border-border border-b pb-10">
         <PrototypeBackLink className="text-current/50 hover:text-current" />
         <div className="mt-10">
           <PrototypeStamp className="mb-5 border-stone-500/35 text-current/65" />
@@ -912,7 +912,7 @@ function PartyScore({ model }: { model: SessionJournalPrototypeModel }) {
         </div>
       </header>
 
-      <nav aria-label="Journal contents" className="border-border border-b px-5 py-5 sm:px-10">
+      <nav aria-label="Journal contents" className="border-border border-b py-5">
         <ol className="mx-auto flex max-w-6xl flex-wrap gap-2">
           {model.days.flatMap((day) =>
             day.events.map((event) => (
@@ -930,7 +930,7 @@ function PartyScore({ model }: { model: SessionJournalPrototypeModel }) {
         </ol>
       </nav>
 
-      <div className="mx-auto max-w-6xl px-4 py-12 sm:px-8">
+      <div className="mx-auto max-w-6xl py-12">
         {model.days.map((day, dayIndex) => (
           <section key={day.day} aria-labelledby={`score-day-${day.day}`} className="mb-20">
             <Inline gap="lg" className="border-border mb-10 border-b-2 pb-4">
@@ -947,7 +947,7 @@ function PartyScore({ model }: { model: SessionJournalPrototypeModel }) {
             <div className="space-y-10">
               {day.events.map((event) => {
                 const previousEvent = allEvents[event.index - 2]
-                const voices = event.mentions.filter((mention) =>
+                const eventReferences = event.mentions.filter((mention) =>
                   ['pc', 'npc', 'beast'].includes(mention.kind),
                 )
                 const movedToNewParent =
@@ -976,7 +976,7 @@ function PartyScore({ model }: { model: SessionJournalPrototypeModel }) {
                       <div
                         className={cn(
                           'grid',
-                          voices.length > 0 && 'lg:grid-cols-[minmax(0,1fr)_13rem]',
+                          eventReferences.length > 0 && 'lg:grid-cols-[minmax(0,1fr)_13rem]',
                         )}
                       >
                         <div className="min-w-0">
@@ -985,10 +985,15 @@ function PartyScore({ model }: { model: SessionJournalPrototypeModel }) {
                               <EventMarkVisual
                                 mark={event.mark}
                                 className={cn(
-                                  'size-16 shrink-0 rounded-2xl border p-3 shadow-sm',
+                                  'size-16 shrink-0 border shadow-sm',
+                                  event.mark.type === 'avatar'
+                                    ? 'rounded-full border-2 p-0'
+                                    : 'rounded-2xl p-3',
                                   ENTITY_KIND_VISUALS.event.borderClassName,
-                                  ENTITY_KIND_VISUALS.event.surfaceClassName,
-                                  ENTITY_KIND_VISUALS.event.accentClassName,
+                                  event.mark.type === 'icon' && [
+                                    ENTITY_KIND_VISUALS.event.surfaceClassName,
+                                    ENTITY_KIND_VISUALS.event.accentClassName,
+                                  ],
                                 )}
                                 iconClassName="size-8"
                               />
@@ -1006,8 +1011,8 @@ function PartyScore({ model }: { model: SessionJournalPrototypeModel }) {
                                     label={event.location.name}
                                     unstyled
                                     className={cn(
-                                      'mt-4 inline-flex items-center gap-2 rounded-lg px-3 py-2 text-sm font-semibold',
-                                      ENTITY_KIND_VISUALS.location.pillClassName,
+                                      'mt-3 inline-flex items-center gap-1.5 text-sm font-semibold underline-offset-4 hover:underline',
+                                      ENTITY_KIND_VISUALS.location.accentClassName,
                                     )}
                                   >
                                     {({ label, icon }) => (
@@ -1029,7 +1034,9 @@ function PartyScore({ model }: { model: SessionJournalPrototypeModel }) {
                             <ScoreQuestReferences quests={event.quests} />
                           </div>
                         </div>
-                        {voices.length > 0 ? <ScoreVoices voices={voices} /> : null}
+                        {eventReferences.length > 0 ? (
+                          <ScoreEventReferences references={eventReferences} />
+                        ) : null}
                       </div>
                     </article>
                   </Fragment>
@@ -1048,25 +1055,26 @@ function PartyScore({ model }: { model: SessionJournalPrototypeModel }) {
   )
 }
 
-function ScoreVoices({ voices }: { voices: JournalMention[] }) {
+function ScoreEventReferences({ references }: { references: JournalMention[] }) {
   return (
     <aside
       className="journal-score-staff border-border border-t p-5 lg:border-t-0 lg:border-l"
-      aria-label="People referenced in this event"
+      aria-label="References in this event"
     >
       <p className="text-muted-foreground mb-4 text-[9px] font-bold tracking-[0.2em] uppercase">
-        People in this event
+        In this event
       </p>
       <ul className="grid gap-2 sm:grid-cols-2 lg:grid-cols-1">
-        {voices.map((voice) => {
-          const visual = ENTITY_KIND_VISUALS[voice.kind]
-          const kindLabel = voice.kind === 'pc' ? 'Party' : voice.kind === 'npc' ? 'NPC' : 'Beast'
+        {references.map((reference) => {
+          const visual = ENTITY_KIND_VISUALS[reference.kind]
+          const kindLabel =
+            reference.kind === 'pc' ? 'Party' : reference.kind === 'npc' ? 'NPC' : 'Beast'
           return (
-            <li key={`${voice.kind}-${voice.slug}`}>
+            <li key={`${reference.kind}-${reference.slug}`}>
               <EntityReference
-                kind={voice.kind}
-                slug={voice.slug}
-                label={voice.name}
+                kind={reference.kind}
+                slug={reference.slug}
+                label={reference.name}
                 unstyled
                 className={cn(
                   'flex items-center gap-2.5 rounded-lg border px-2.5 py-2',
@@ -1077,9 +1085,9 @@ function ScoreVoices({ voices }: { voices: JournalMention[] }) {
               >
                 {({ label, icon }) => (
                   <>
-                    {voice.avatar ? (
+                    {reference.avatar ? (
                       <Avatar
-                        src={voice.avatar}
+                        src={reference.avatar}
                         className={cn('size-8 border-2', visual.borderClassName)}
                       />
                     ) : (
