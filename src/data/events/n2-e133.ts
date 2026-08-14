@@ -8,6 +8,8 @@ export default createEvent({
   mark: { type: 'icon', name: 'gi/GiDrinking' },
   notes: [
     [
+      refs.npcs.gruumsh_high_priest,
+      ' magically cleaned ',
       refs.pcs.cassian_veyl,
       ', ',
       refs.pcs.devan,
@@ -15,12 +17,15 @@ export default createEvent({
       refs.pcs.jim,
       ', and ',
       refs.pcs.swift_starblade,
-      ' joined the communal feast in the meticulously clean ',
+      ' before they entered the ',
       refs.locations.gruumsh_temple_blood_hall,
-      '.',
+      ', where the feast in progress left the room covered in blood and entrails.',
     ],
     [
-      'Despite having eaten heavily earlier, Cassian remained intensely hungry, preferred raw meat, and could identify different animals by scent.',
+      refs.items.wolfie_tracking_ring,
+      ' left ',
+      refs.pcs.cassian_veyl,
+      ' intensely hungry despite having eaten heavily earlier. He preferred raw meat and could identify different animals by the scent of their blood.',
     ],
   ],
 })

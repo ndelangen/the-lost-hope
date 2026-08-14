@@ -17,8 +17,6 @@ export default createEvent({
       refs.pcs.swift_starblade,
       ' to the ',
       refs.locations.gruumsh_war_temple,
-      ' and identified himself as a long-standing member of the ',
-      refs.organizations.church_of_gruumsh,
       '.',
     ],
     [

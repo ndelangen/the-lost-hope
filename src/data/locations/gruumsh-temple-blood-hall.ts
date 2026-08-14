@@ -9,9 +9,9 @@ export default createLocation({
   at: [0, 0],
   notes: [
     [
-      'A meticulously clean communal feast room in the ',
+      'A communal feast room in the ',
       refs.locations.gruumsh_war_temple,
-      '. Its blood-soaked name and martial atmosphere coexist with strict standards of hygiene and sanitation.',
+      '. During feasts, butchered animals, blood, and entrails cover the room. Entrants are magically cleaned before admission as part of the temple’s sanitation practice.',
     ],
   ],
 })

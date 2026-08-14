@@ -17,12 +17,19 @@ export default createEvent({
       ' into a werewolf-like hybrid rather than merely making him hungry.',
     ],
     [
-      'The ring had opened a two-way bond between Cassian’s soul and ',
+      refs.items.wolfie_tracking_ring,
+      ' had opened a two-way bond between ',
+      refs.pcs.cassian_veyl,
+      '’s soul and ',
       refs.beasts.wolfie,
-      '. Cassian’s craving for meat and heightened animal scent were already evident; claws, fangs, and increased hair were identified as further signs of the transformation.',
+      '. ',
+      refs.pcs.cassian_veyl,
+      '’s craving for meat and heightened animal scent were already evident; claws, fangs, and increased hair were identified as further signs of the transformation.',
     ],
     [
-      'The exact full-moon effects, sensitivity to silver, degree of control, and consequences for Wolfie remained unknown.',
+      'The exact full-moon effects, sensitivity to silver, degree of control, and consequences for ',
+      refs.beasts.wolfie,
+      ' remained unknown.',
     ],
   ],
 })

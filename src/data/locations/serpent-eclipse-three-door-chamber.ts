@@ -11,7 +11,9 @@ export default createLocation({
     [
       'A chamber in the ',
       refs.locations.temple_of_the_serpent_eclipse,
-      ' containing a blood-fed altar and three identical iron doors. Each door leads to a separate challenge; only the left-hand route has been explored.',
+      ' containing a blood-fed altar and three identical iron doors. Each door leads to a separate challenge; only the ',
+      refs.locations.serpent_eclipse_left_door_passage,
+      ' has been explored.',
     ],
   ],
 })

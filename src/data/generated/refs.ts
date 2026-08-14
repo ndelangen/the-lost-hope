@@ -328,6 +328,7 @@ export const refs = {
     jaded_amulet: ref('item', 'jaded_amulet'),
     lights_unidentified_drops: ref('item', 'lights_unidentified_drops'),
     nimbus_dungeon_stamp_card: ref('item', 'nimbus_dungeon_stamp_card'),
+    purple_dragon_horn: ref('item', 'purple_dragon_horn'),
     rare_dragon_scales: ref('item', 'rare_dragon_scales'),
     robertos_map_pages: ref('item', 'robertos_map_pages'),
     serpent_eclipse_trial_disk: ref('item', 'serpent_eclipse_trial_disk'),

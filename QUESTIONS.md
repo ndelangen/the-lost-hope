@@ -179,7 +179,7 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Session:_ 9 ([n2-e074](/events/the-cursed-sword-breaks-verdant-havens-ward))
 
 - **What is the cursed sword, and is its shadow connected to the Faceless Shadow?**
-  - _Context:_ The Faceless Shadow left the sword in Roberto. The sword decayed the forest, broke Verdant Haven’s ward, and later released a shadow that killed a wolf and nearly killed Jim. In Session 13, the [Gruumsh High Priest](/npcs/detail/gruumsh-high-priest) removed the sword’s curse after it blackened his hand and recoiled from him. Whether both shadows are the same entity, whether the shadow survived the cleansing, and what became of the extracted curse remain unknown.
+  - _Context:_ The [Faceless Shadow](/npcs/detail/faceless-shadow) left the [Cursed Shadow Sword](/items/detail/cursed-shadow-sword) in [Roberto](/npcs/detail/roberto). It decayed [Verdant Haven Forest](/locations/detail/verdant-haven-forest), broke [Verdant Haven](/locations/detail/verdant-haven)’s ward, and later released a shadow that killed a wolf and nearly killed [Jim](/pcs/detail/jim). In Session 13, the [Gruumsh High Priest](/npcs/detail/gruumsh-high-priest) removed its curse after it blackened his hand and recoiled from him. Whether both shadows are the same entity, whether the shadow survived the cleansing, and what became of the extracted curse remain unknown.
   - _Session:_ 9, 13 ([n2-e073](/events/the-party-rescues-roberto-from-a-faceless-shadow), [n2-e078](/events/the-cursed-swords-shadow-nearly-kills-jim), [n2-e132](/events/detail/the-high-priest-frees-jim-from-pain-and-cleanses-the-shadow-sword))
 
 - **How reliable was Roberto’s interrogation, and did an Eyeless Hand splinter cell destroy Fairhaven?**
@@ -284,23 +284,23 @@ Every question must include **what we already know** — many sit unanswered acr
 ## Session 13 — The First Dungeon
 
 - **Is “Serpent Isle” another name for the Temple of the Serpent Eclipse, or a separate part of Nimbus?**
-  - _Context:_ The session recap called the selected snake-themed destination “Serpent Isle,” while the dungeon attendant welcomed the party to the Temple of the Serpent Eclipse. The transcript does not establish whether those names describe the same place or a containing area.
+  - _Context:_ The session recap called the selected snake-themed destination “Serpent Isle,” while the dungeon attendant welcomed the party to the [Temple of the Serpent Eclipse](/locations/detail/temple-of-the-serpent-eclipse). The transcript does not establish whether those names describe the same place or a containing area of [Nimbus](/locations/detail/nimbus).
   - _Why asking:_ The dungeon is provisionally represented as [Temple of the Serpent Eclipse](/locations/detail/temple-of-the-serpent-eclipse); a separate canonical location or alias should only be added if the distinction is real.
   - _Session:_ 13 ([n2-e123](/events/detail/the-party-presents-the-dungeon-pass-at-the-serpent-eclipse-entrance))
 
 - **What does the Serpent Eclipse Trial Disk do?**
-  - _Context:_ Completing the first dungeon challenge produced a dragon horn. A whisper instructed the party to place it on the blood-fed altar, where it spun and condensed into a metal disk now carried by Devan.
+  - _Context:_ Completing the first dungeon challenge produced the [Purple Dragon Horn](/items/detail/purple-dragon-horn). A whisper instructed the party to place it on the blood-fed altar, where it spun and condensed into the [Serpent Eclipse Trial Disk](/items/detail/serpent-eclipse-trial-disk), now carried by [Jim](/pcs/detail/jim).
   - _Why asking:_ Its function, whether it records the cleared door, and whether it is needed to continue or re-enter the dungeon are unknown.
   - _Session:_ 13 ([n2-e128](/events/detail/the-dragon-horn-becomes-the-serpent-eclipse-trial-disk))
 
-- **What curse did the Gruumsh High Priest remove from Cassian, and where did it come from?**
-  - _Context:_ Cassian described a curse that improved his spell attacks by one but gave every opponent advantage when attacking him. The [Gruumsh High Priest](/npcs/detail/gruumsh-high-priest) removed it for a 50 GP donation, but the transcript did not identify its source or name.
-  - _Why asking:_ The effect is resolved, but its missing provenance may mean an earlier event or item still lacks canon.
-  - _Session:_ 13 ([n2-e131](/events/detail/the-high-priest-removes-cassian-s-curse))
+- **Which Fiddler card caused the curse removed from Cassian?**
+  - _Context:_ During [the party’s game with the Fiddler](/events/detail/the-party-plays-three-rounds-with-the-fiddler), [Cassian Veyl](/pcs/detail/cassian-veyl) incurred a curse that improved his spell attacks by one but gave every opponent advantage when attacking him. The [Gruumsh High Priest](/npcs/detail/gruumsh-high-priest) removed it for a 50 GP donation, but its card and name were not identified.
+  - _Why asking:_ The curse’s source event and effect are known, but its exact card and identity remain missing canon.
+  - _Session:_ 12–13 ([n2-e105](/events/detail/the-party-plays-three-rounds-with-the-fiddler), [n2-e131](/events/detail/the-high-priest-removes-cassian-s-curse))
 
 - **What are the exact stages and limits of Cassian’s werewolf transformation?**
-  - _Context:_ The [Gruumsh High Priest](/npcs/detail/gruumsh-high-priest) said Cassian’s hunger was not a curse but a two-way bond that placed part of Wolfie’s life in Cassian’s soul. Research in the temple library made it clear that the ring is gradually turning Cassian into a werewolf-like hybrid. His craving for meat and ability to identify animals by scent were already evident; claws, fangs, and increased hair were identified as further signs.
-  - _Why asking:_ The transformation itself is established, but its full-moon behavior, sensitivity to silver, pace, degree of control, risks to Cassian and Wolfie, and consequences of fighting or embracing it remain unknown.
+  - _Context:_ The [Gruumsh High Priest](/npcs/detail/gruumsh-high-priest) said [Cassian Veyl](/pcs/detail/cassian-veyl)’s hunger was not a curse but a two-way bond that placed part of [Wolfie](/beasts/detail/wolfie)’s life in [Cassian Veyl](/pcs/detail/cassian-veyl)’s soul. Research in the [Gruumsh Temple Library](/locations/detail/gruumsh-temple-library) made it clear that the [Wolfie-Tracking Ring](/items/detail/wolfie-tracking-ring) is gradually turning [Cassian Veyl](/pcs/detail/cassian-veyl) into a werewolf-like hybrid. His craving for meat and ability to identify animals by the scent of their blood were already evident; claws, fangs, and increased hair were identified as further signs.
+  - _Why asking:_ The transformation itself is established, but its full-moon behavior, sensitivity to silver, pace, degree of control, risks to [Cassian Veyl](/pcs/detail/cassian-veyl) and [Wolfie](/beasts/detail/wolfie), and consequences of fighting or embracing it remain unknown.
   - _Session:_ 13 ([n2-e134](/events/detail/cassian-learns-the-ring-is-turning-him-into-a-werewolf))
 
 ---

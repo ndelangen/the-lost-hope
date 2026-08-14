@@ -15,7 +15,9 @@ export default createEvent({
     ],
     [
       refs.pcs.jim,
-      ' destroyed the personal shadow with Light, allowing Devan to reclaim the memory rather than lose that part of himself.',
+      ' destroyed the personal shadow with Light, allowing ',
+      refs.pcs.devan,
+      ' to reclaim the memory rather than lose that part of himself.',
     ],
   ],
 })

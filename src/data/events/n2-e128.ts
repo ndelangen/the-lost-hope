@@ -8,13 +8,16 @@ export default createEvent({
   mark: { type: 'icon', name: 'gi/GiMetalDisc' },
   notes: [
     [
-      'Completing the first trial produced a dragon horn. Back at the blood-fed altar, a whisper instructed the party to place the reward upon it.',
+      'Completing the first trial produced the ',
+      refs.items.purple_dragon_horn,
+      '. Back at the blood-fed altar, a whisper instructed the party to place the reward upon it.',
     ],
     [
-      'The horn spun and condensed into the ',
+      refs.items.purple_dragon_horn,
+      ' spun and condensed into the ',
       refs.items.serpent_eclipse_trial_disk,
       ', which ',
-      refs.pcs.devan,
+      refs.pcs.jim,
       ' carried for ',
       refs.organizations.beasts_and_dwarf,
       '.',

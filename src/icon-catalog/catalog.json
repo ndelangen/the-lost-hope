@@ -158746,7 +158746,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/horn-internal.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/purple-dragon-horn.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiHorseHead",

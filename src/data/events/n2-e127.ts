@@ -8,13 +8,17 @@ export default createEvent({
   mark: { type: 'icon', name: 'gi/GiShadowGrasp' },
   notes: [
     [
-      'Blood filled the arena and produced three hostile shadows: a hovering spellcaster, a displacer beast, and a whip-wielding figure. The party defeated all three after a prolonged fight.',
+      'Blood filled the arena and produced three hostile shadows: a hovering spellcaster, one shaped like the ',
+      refs.beasts.displacer_beast,
+      ', and a whip-wielding figure. The party defeated all three after a prolonged fight.',
     ],
     [
       refs.pcs.jim,
       ' fell unconscious and came within one failed death save of dying. ',
       refs.pcs.devan,
-      ' restored him with healing, and Jim awoke with one level of exhaustion under the table’s death rules.',
+      ' restored him with healing, and ',
+      refs.pcs.jim,
+      ' awoke with one level of exhaustion under the table’s death rules.',
     ],
   ],
 })

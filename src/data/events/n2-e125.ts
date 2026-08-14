@@ -13,7 +13,9 @@ export default createEvent({
       ', the party fed blood to the altar and found three identical iron doors.',
     ],
     [
-      'After opening the left-hand door, the party tried to open a second door. A shadow appeared and announced that there would be one door, one challenge, one party, and one death. The party accepted the left-hand route; the other two doors remain unexplored.',
+      'After opening the left-hand door, the party tried to open a second door. A shadow appeared and announced that there would be one door, one challenge, one party, and one death. The party accepted the ',
+      refs.locations.serpent_eclipse_left_door_passage,
+      '; the other two doors remain unexplored.',
     ],
   ],
 })
