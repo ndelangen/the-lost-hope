@@ -1,4 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router'
+import { useEffect, useState } from 'react'
 
 import { LocationsScreen } from '#/components/locations-index'
 import {
@@ -14,7 +15,13 @@ export const Route = createFileRoute('/locations/map')({
   component: function LocationsMapPage() {
     const search = Route.useSearch()
     const navigate = Route.useNavigate()
-    if (search.variant) {
+    const [isHydrated, setIsHydrated] = useState(false)
+
+    useEffect(() => {
+      setIsHydrated(true)
+    }, [])
+
+    if (isHydrated && search.variant) {
       return (
         <ResponsiveImagesPrototype
           variant={search.variant}
