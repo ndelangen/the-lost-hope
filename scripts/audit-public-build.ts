@@ -15,6 +15,7 @@ import {
 const ROOT = process.cwd()
 const OUTPUT_DIRECTORY = join(ROOT, 'dist/client')
 const SOCIAL_IMAGE_PATHS = GENERATED_SOCIAL_IMAGE_PATHS as Readonly<Record<string, string>>
+const SKIP_SOCIAL_IMAGES = process.argv.includes('--skip-social-images')
 
 function assert(condition: unknown, message: string): asserts condition {
   if (!condition) throw new Error(message)
@@ -112,15 +113,19 @@ async function audit(): Promise<void> {
     )
   }
 
-  const socialFiles = (await readdir(join(OUTPUT_DIRECTORY, 'social-previews'))).filter((file) =>
-    file.endsWith('.png'),
-  )
-  assert(socialFiles.length === 350, `Expected 350 social images, found ${socialFiles.length}`)
-  for (const path of Object.values(SOCIAL_IMAGE_PATHS)) {
-    const bytes = await readFile(join(OUTPUT_DIRECTORY, path))
-    const { width, height } = pngDimensions(bytes)
-    assert(width === 1200 && height === 630, `Wrong social image dimensions: ${path}`)
-    assert(bytes.byteLength <= 1_000_000, `Social image exceeds 1 MB: ${path}`)
+  let socialImageCount: number | 'deployment-only' = 'deployment-only'
+  if (!SKIP_SOCIAL_IMAGES) {
+    const socialFiles = (await readdir(join(OUTPUT_DIRECTORY, 'social-previews'))).filter((file) =>
+      file.endsWith('.png'),
+    )
+    assert(socialFiles.length === 350, `Expected 350 social images, found ${socialFiles.length}`)
+    for (const path of Object.values(SOCIAL_IMAGE_PATHS)) {
+      const bytes = await readFile(join(OUTPUT_DIRECTORY, path))
+      const { width, height } = pngDimensions(bytes)
+      assert(width === 1200 && height === 630, `Wrong social image dimensions: ${path}`)
+      assert(bytes.byteLength <= 1_000_000, `Social image exceeds 1 MB: ${path}`)
+    }
+    socialImageCount = socialFiles.length
   }
 
   const expectedRedirects = [
@@ -147,7 +152,7 @@ async function audit(): Promise<void> {
   )
 
   console.log(
-    `Audited ${PUBLIC_PAGE_DESCRIPTORS.length} static pages, ${socialFiles.length} social images, and ${referencedLocalImages.size} local content images`,
+    `Audited ${PUBLIC_PAGE_DESCRIPTORS.length} static pages, ${socialImageCount} social images, and ${referencedLocalImages.size} local content images`,
   )
 }
 
