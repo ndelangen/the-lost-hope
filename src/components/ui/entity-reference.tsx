@@ -44,6 +44,7 @@ export function EntityReference({
     >
       <Link
         {...entityLink(kind, slug)}
+        data-entity-kind={kind}
         onClick={onNavigate}
         className={cn(
           !unstyled && 'text-primary inline font-medium underline-offset-4 hover:underline',

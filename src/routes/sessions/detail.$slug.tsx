@@ -5,13 +5,14 @@ import { ContentRenderer } from '#/components/content-renderer'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail } from '#/components/entity-page'
 import { PcReference } from '#/components/pc-reference'
-import { SessionTimeline } from '#/components/session-timeline'
+import { SessionJournal } from '#/components/session-journal'
 import { Inline, Stack } from '#/components/ui/layout'
 import { getEntity, sessionNumber, sessionPcs } from '#/lib/campaign'
-import { referencedByItems, sessionTimelineDays } from '#/lib/entity-page-data'
+import { referencedByItems } from '#/lib/entity-page-data'
 import { publicEntityPageHead } from '#/lib/public-page-metadata'
 import { formatSessionDate } from '#/lib/session-date'
 import { SessionIcon } from '#/lib/session-icons'
+import { sessionJournalData } from '#/lib/session-journal-data'
 
 export const Route = createFileRoute('/sessions/detail/$slug')({
   loader: ({ params }) => {
@@ -29,7 +30,7 @@ function SessionPage() {
 
   const session = entity.data
   const party = sessionPcs(session)
-  const timeline = sessionTimelineDays(session)
+  const journal = sessionJournalData(session)
 
   return (
     <EntityDetail
@@ -78,7 +79,7 @@ function SessionPage() {
             </Inline>
           </Stack>
         ) : null}
-        <SessionTimeline days={timeline} />
+        <SessionJournal days={journal} />
       </Stack>
     </EntityDetail>
   )

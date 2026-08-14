@@ -102,7 +102,6 @@
       "classification": "useful",
       "classificationReason": "Manually classified as useful from the /_icons review page.",
       "usedIn": [
-        "src/components/session-timeline.test.tsx",
         "src/lib/custom-icons.tsx",
         "src/lib/event-icons.tsx"
       ]
@@ -284245,6 +284244,7 @@
       "usedIn": [
         "src/components/campaign-shell/sidebar-data.ts",
         "src/components/map-placeholder.tsx",
+        "src/components/session-journal.tsx",
         "src/lib/entity-kind-visuals.ts"
       ]
     },
