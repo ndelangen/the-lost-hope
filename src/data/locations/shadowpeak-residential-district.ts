@@ -6,6 +6,6 @@ export default createLocation({
   icon: 'gi/GiFamilyHouse',
   type: 'district',
   parent: refs.locations.shadowpeak,
-  at: [0, 800],
+  at: [0, 600],
   notes: [['The residential area of ', refs.locations.shadowpeak, '.']],
 })

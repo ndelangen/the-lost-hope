@@ -4,19 +4,20 @@ import { ContentRenderer } from '#/components/content-renderer'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail } from '#/components/entity-page'
 import { ImageViewer } from '#/components/image-viewer'
+import { LocationMapLegend, LocationMapPlot } from '#/components/location-hierarchy-map'
 import { LocationReference } from '#/components/location-reference'
-import { LocationMapImage } from '#/components/map-placeholder'
 import { Grid, Inline, Stack } from '#/components/ui/layout'
 import { Pill } from '#/components/ui/pill'
 import { DEFAULT_LOCATION_ILLUSTRATION } from '#/definitions/media'
 import {
   getEntity,
-  locationAbsolutePosition,
   locationAncestors,
   locationChildren,
+  locationParent,
   locationTypeOf,
 } from '#/lib/campaign'
 import { referencedByItems } from '#/lib/entity-page-data'
+import { buildLocationHierarchyMap } from '#/lib/location-hierarchy-map'
 import { LocationTypeIcon, locationTypeLabel } from '#/lib/location-icons'
 import { publicEntityPageHead } from '#/lib/public-page-metadata'
 
@@ -36,13 +37,27 @@ function LocationDetailPage() {
 
   const location = entity.data
   const ancestors = locationAncestors(location)
+  const parent = locationParent(location)
+  const siblings = parent ? locationChildren(parent.slug) : []
   const children = locationChildren(slug)
-  const coordinates = locationAbsolutePosition(location)
+  const contextMap = parent ? buildLocationHierarchyMap(parent, siblings, location.slug) : undefined
+  const destinationMap =
+    children.length > 0 ? buildLocationHierarchyMap(location, children) : undefined
   const locationType = locationTypeOf(location)
   const illustrationAlt =
     location.illustration === DEFAULT_LOCATION_ILLUSTRATION
       ? `Location illustration forthcoming for ${location.name}`
       : `Illustration of ${location.name}`
+  const about = (
+    <Stack as="section" gap="md" data-location-section="about">
+      <SectionLabel>About this place</SectionLabel>
+      {location.notes ? (
+        <ContentRenderer content={location.notes} />
+      ) : (
+        <p className="text-muted-foreground text-sm">No description recorded yet.</p>
+      )}
+    </Stack>
+  )
 
   return (
     <EntityDetail
@@ -93,41 +108,68 @@ function LocationDetailPage() {
             className="aspect-[16/7] min-h-64 w-full"
           />
         </Stack>
-        <Grid gap="2xl" lgTemplate="content-aside" align="start">
-          <Stack as="section" gap="md" data-location-section="about">
-            <SectionLabel>About this place</SectionLabel>
-            {location.notes ? (
-              <ContentRenderer content={location.notes} />
-            ) : (
-              <p className="text-muted-foreground text-sm">No description recorded yet.</p>
-            )}
-          </Stack>
-          <Stack as="aside" gap="md" data-location-section="map">
-            <SectionLabel>Map</SectionLabel>
-            <LocationMapImage
-              src={location.map?.url ?? ''}
-              alt={location.name}
-              coordinates={coordinates}
-            />
-          </Stack>
-        </Grid>
-        {children.length > 0 ? (
-          <Stack as="section" gap="md">
-            <SectionLabel>Places within</SectionLabel>
-            <Grid as="ul" gap="sm" smTemplate={2}>
-              {children.map((child) => (
-                <li
-                  key={child.slug}
-                  className="border-border hover:border-primary/40 hover:bg-accent/20 rounded-md border px-3 py-2 text-sm transition-colors"
-                >
-                  <LocationReference slug={child.slug} />
-                </li>
-              ))}
-            </Grid>
+        {parent && contextMap ? (
+          <Grid gap="2xl" lgTemplate="content-aside" align="start">
+            {about}
+            <Stack
+              as="aside"
+              gap="md"
+              className="border-border rounded-xl border p-4"
+              data-location-section="context-map"
+            >
+              <MapSectionHeading
+                eyebrow="Where you are"
+                title={`Within ${parent.name}`}
+                description={`${location.name} in context with the other places recorded within ${parent.name}.`}
+              />
+              <LocationMapPlot map={contextMap} label={`${location.name} within ${parent.name}`} />
+              <LocationMapLegend map={contextMap} />
+            </Stack>
+          </Grid>
+        ) : (
+          about
+        )}
+        {destinationMap ? (
+          <Stack
+            as="section"
+            gap="lg"
+            className="border-border border-t pt-8"
+            data-location-section="destination-map"
+          >
+            <Inline gap="xl" align="end" justify="between" wrap>
+              <MapSectionHeading
+                eyebrow="Where you can go"
+                title={`Explore ${location.name}`}
+                description={`Choose a place recorded directly within ${location.name}.`}
+              />
+              <p className="text-muted-foreground text-xs font-medium tracking-wider uppercase">
+                Next step ↓
+              </p>
+            </Inline>
+            <LocationMapPlot map={destinationMap} label={`Places within ${location.name}`} />
+            <LocationMapLegend map={destinationMap} compact />
           </Stack>
         ) : null}
       </Stack>
     </EntityDetail>
+  )
+}
+
+function MapSectionHeading({
+  eyebrow,
+  title,
+  description,
+}: {
+  eyebrow: string
+  title: string
+  description: string
+}) {
+  return (
+    <Stack gap="2xs">
+      <p className="text-primary text-xs font-semibold tracking-wider uppercase">{eyebrow}</p>
+      <h2 className="text-xl font-semibold tracking-tight">{title}</h2>
+      <p className="text-muted-foreground text-sm">{description}</p>
+    </Stack>
   )
 }
 

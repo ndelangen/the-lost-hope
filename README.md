@@ -27,11 +27,10 @@ Useful commands:
 bun run test        # run Vitest once
 bun run test:watch  # run Vitest in watch mode
 bun run generate:refs # regenerate typed cross-entity refs from entity registries
-bun run generate:social-images # generate all content-addressed 1200x630 social cards
 bun run typecheck   # run TypeScript without emitting files
 bun run check       # type-check, lint, and check formatting
-bun run verify      # full check, test, and build gate for code or data handoff
-bun run build       # create the production bundle in dist/
+bun run verify      # check, test, and build without rendering social images
+bun run build       # create a local production bundle without rendering social images
 bun run preview     # serve the production bundle locally
 ```
 
@@ -72,11 +71,13 @@ bun run verify
 
 ## Deployment
 
-Netlify runs `bun run build` and publishes `dist/client/`. The build derives one 293-page public
-manifest from the campaign registries, prerenders complete HTML for every entry, creates its
-canonical metadata and structured data, generates a content-addressed social card, and audits the
-finished output. The generated social cards, redirects, robots file, 404 fallback, and social-image
-path module are deploy artifacts and are intentionally not committed.
+Netlify runs the deployment-only `bun run build:deploy` command and publishes `dist/client/`. It
+derives the public manifest from the campaign registries, prerenders complete HTML for every entry,
+creates canonical metadata and structured data, generates the content-addressed social cards, and
+audits the finished output. The social-image renderer refuses to run without Netlify's deploy
+environment; local development, verification, and builds generate only the lightweight path
+manifests. The generated social cards, redirects, robots file, 404 fallback, and social-image path
+module are deploy artifacts and are intentionally not committed.
 
 TanStack Start's Netlify adapter supplies hydrated server handling without an SPA catch-all. The
 generated redirects serve extensionless public URLs from their matching static HTML files, while

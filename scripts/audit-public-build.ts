@@ -7,6 +7,7 @@ import { JSDOM } from 'jsdom'
 
 import { DEFAULT_LOCATION_ILLUSTRATION } from '../src/definitions/media'
 import { GENERATED_SOCIAL_IMAGE_PATHS } from '../src/generated/social-image-paths'
+import { getEntity, locationChildren, locationParent } from '../src/lib/campaign'
 import {
   PUBLIC_PAGE_DESCRIPTORS,
   SITE_ORIGIN,
@@ -99,11 +100,16 @@ async function audit(): Promise<void> {
     assert(document.querySelector('a[href]'), `Missing crawlable links: ${page.path}`)
 
     if (page.entity?.kind === 'location') {
+      const location = getEntity('location', page.entity.slug)
+      assert(location, `Missing canonical location: ${page.entity.slug}`)
       const sectionOrder = [
         ...document.querySelectorAll<HTMLElement>('[data-location-section]'),
       ].map((section) => section.dataset.locationSection)
+      const expectedSectionOrder = ['illustration', 'about']
+      if (locationParent(location.data)) expectedSectionOrder.push('context-map')
+      if (locationChildren(location.slug).length > 0) expectedSectionOrder.push('destination-map')
       assert(
-        sectionOrder.join(',') === 'illustration,about,map',
+        sectionOrder.join(',') === expectedSectionOrder.join(','),
         `Wrong location detail content order: ${page.path}`,
       )
       const illustrationSource = document

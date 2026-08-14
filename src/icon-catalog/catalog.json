@@ -284178,7 +284178,6 @@
       "sourceUrl": "https://lucide.dev/icons/map-pin",
       "usedIn": [
         "src/components/campaign-shell/sidebar-data.ts",
-        "src/components/map-placeholder.tsx",
         "src/lib/entity-kind-visuals.ts"
       ]
     },

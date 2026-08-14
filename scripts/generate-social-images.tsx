@@ -336,12 +336,18 @@ function card(page: PublicPageDescriptor, imageDataUrl: string | undefined): Rea
 }
 
 async function generate(): Promise<void> {
+  const devOnly = process.argv.includes('--dev')
+  const pathsOnly = devOnly || process.argv.includes('--paths-only')
+  if (!pathsOnly && (process.env.NETLIFY !== 'true' || !process.env.DEPLOY_ID)) {
+    throw new Error(
+      'Social image rendering is deployment-only. Local commands may use --paths-only.',
+    )
+  }
+
   const descriptorErrors = validatePublicPageDescriptors()
   if (descriptorErrors.length) throw new Error(descriptorErrors.join('\n'))
 
   const startedAt = performance.now()
-  const devOnly = process.argv.includes('--dev')
-  const pathsOnly = devOnly || process.argv.includes('--paths-only')
   const fonts = pathsOnly ? [] : await loadFonts()
   const fontBytes = await Promise.all(
     ['Inter-Regular.ttf', 'Inter-Bold.ttf', 'Inter-Black.ttf'].map((file) =>

@@ -10,6 +10,9 @@ campaign lore, entities, sessions, quests, and event timelines.
 - Run focused tests with `bun run test`; use `bun run test:watch` while iterating.
 - Before finishing any code or data change, run `bun run verify`. It type-checks, lints, checks
   formatting, runs tests, and builds the production bundle.
+- Never render the complete social-image set during local development or verification. Full social
+  image rendering is deployment-only and guarded by Netlify's deploy environment. Local commands
+  may generate the lightweight social-image path manifests only.
 
 ## Repository map
 
