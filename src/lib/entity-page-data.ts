@@ -1,15 +1,11 @@
-import type { EventMark } from '#/definitions/event'
 import type { NPC } from '#/definitions/npc'
 import type { Membership } from '#/definitions/organization'
 import type { PC } from '#/definitions/pc'
-import type { Session } from '#/definitions/session'
 import {
   allEntities,
   entityTeaser,
-  eventLocation,
   membershipOrg,
   reverseLinks,
-  sessionDays,
   sortEntitiesByName,
   type EntityKind,
 } from '#/lib/campaign'
@@ -58,26 +54,4 @@ export function characterMemberships(character: PC | NPC): CharacterMembership[]
       ? [{ organizationSlug: organization.slug, rank: membership.rank, status: membership.status }]
       : []
   })
-}
-
-export type SessionTimelineDay = {
-  day: number
-  events: {
-    slug: string
-    name: string
-    mark: EventMark
-    locationSlug?: string
-  }[]
-}
-
-export function sessionTimelineDays(session: Session): SessionTimelineDay[] {
-  return sessionDays(session).map(({ day, events }) => ({
-    day,
-    events: events.map((event) => ({
-      slug: event.slug,
-      name: event.name,
-      mark: event.mark,
-      locationSlug: eventLocation(event)?.slug,
-    })),
-  }))
 }
