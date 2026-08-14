@@ -176,7 +176,7 @@ function PrototypeSwitcher({
   }, [next, onVariantChange, previous])
 
   return (
-    <div className="fixed inset-x-0 bottom-5 z-[100] flex justify-center px-3">
+    <div className="fixed inset-x-0 bottom-20 z-[100] flex justify-center px-3">
       <div className="flex items-center gap-2 rounded-full border border-white/20 bg-slate-950/95 p-1.5 text-white shadow-2xl backdrop-blur">
         <button
           type="button"
