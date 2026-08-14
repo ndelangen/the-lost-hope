@@ -17,10 +17,20 @@ export default createEvent({
     ],
     [
       refs.npcs.abraham,
-      ' agreed only after Jim promised to help him earn recognition from his peers. Who those peers are remains unclear, and the promise has no deadline.',
+      ' agreed only after ',
+      refs.pcs.jim,
+      ' promised to help him earn recognition from his peers. Who those peers are remains unclear, and the promise has no deadline.',
     ],
     [
-      'If Jim fails, Abraham threatened to stampede him or bite off one of his fingers. Jim intends to seek out Abraham’s peers and tell them stories of his heroic rescues.',
+      'If ',
+      refs.pcs.jim,
+      ' fails, ',
+      refs.npcs.abraham,
+      ' threatened to stampede him or bite off one of his fingers. ',
+      refs.pcs.jim,
+      ' intends to seek out ',
+      refs.npcs.abraham,
+      '’s peers and tell them stories of his heroic rescues.',
     ],
   ],
 })

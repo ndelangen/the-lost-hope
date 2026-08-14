@@ -14,7 +14,9 @@ export default createEvent({
     [
       'The party asked ',
       refs.npcs.light_13th_marshal,
-      ' about the tentacles and the compelling voices. Light had no clue what they were talking about.',
+      ' about the tentacles and the compelling voices. ',
+      refs.npcs.light_13th_marshal,
+      ' had no clue what they were talking about.',
     ],
     [
       'Party: ',

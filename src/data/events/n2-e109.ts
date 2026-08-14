@@ -15,7 +15,9 @@ export default createEvent({
       refs.npcs.light_13th_marshal,
       ' instructed ',
       refs.pcs.jim,
-      ' to give William exactly two drops from ',
+      ' to give ',
+      refs.pcs.william_greenhove,
+      ' exactly two drops from ',
       refs.items.lights_unidentified_drops,
       '. ',
       refs.pcs.jim,
@@ -23,6 +25,6 @@ export default createEvent({
       refs.pcs.william_greenhove,
       ' woke.',
     ],
-    [refs.pcs.jim, ' did not return the bottle afterward.'],
+    [refs.pcs.jim, ' did not return ', refs.items.lights_unidentified_drops, ' afterward.'],
   ],
 })

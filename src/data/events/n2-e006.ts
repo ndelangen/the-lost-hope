@@ -12,7 +12,9 @@ export default createEvent({
       refs.locations.the_nest,
       '. Night fell. ',
       refs.npcs.samantha,
-      ' closed the tavern and boarded it up.',
+      ' closed ',
+      refs.locations.the_nest,
+      ' and boarded it up.',
     ],
     [
       'Boarding up seemed routine. The party retired to their rooms before the strange sounds began later that night.',

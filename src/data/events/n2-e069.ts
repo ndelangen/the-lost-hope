@@ -4,7 +4,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 export default createEvent({
   name: 'The party evacuates civilians aboard the third ship',
   day: 14,
-  location: refs.locations.fairhaven_harbor,
+  location: refs.locations.fairhaven_evacuation_ship,
   mark: { type: 'icon', name: 'gi/GiLifeBuoy' },
   notes: [
     [
@@ -22,12 +22,18 @@ export default createEvent({
       '.',
     ],
     [
-      'Two ships were already departing: one carried the military and another carried the royalty. A third ship remained in the harbor.',
+      'Two ships were already departing: one carried the military and another carried the royalty. The ',
+      refs.locations.fairhaven_evacuation_ship,
+      ' remained in the harbor.',
     ],
     [
       'The party and the crime boss ',
       refs.npcs.borris,
-      ' helped civilians board the third ship safely and then embarked themselves. The ship carried 168 survivors, excluding the party.',
+      ' helped civilians board the ',
+      refs.locations.fairhaven_evacuation_ship,
+      ' safely and then embarked themselves. The ',
+      refs.locations.fairhaven_evacuation_ship,
+      ' carried 168 survivors, excluding the party.',
     ],
   ],
 })

@@ -3,6 +3,7 @@ import beasts_and_dwarf from './beasts-and-dwarf.ts'
 import church_of_gruumsh from './church-of-gruumsh.ts'
 import lucky_palm from './lucky-palm.ts'
 import marshals_court from './marshals-court.ts'
+import starblade_family from './starblade-family.ts'
 import the_eyeless_hand from './the-eyeless-hand.ts'
 
 export default {
@@ -11,5 +12,6 @@ export default {
   church_of_gruumsh,
   lucky_palm,
   marshals_court,
+  starblade_family,
   the_eyeless_hand,
 }

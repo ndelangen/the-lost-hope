@@ -19,7 +19,15 @@ export default createEvent({
       ' reading “Gotcha.”',
     ],
     [
-      'The inn staff said Bob had taken their cook and temporarily replaced him so he could hide the amulet in the pie. They described Bob as a normal, exceptionally handsome human man with black hair rather than as a skeleton.',
+      'The staff of ',
+      refs.locations.nimbus_s_second_best_inn,
+      ' said ',
+      refs.npcs.bob_the_merchant,
+      ' had taken their cook and temporarily replaced him so he could hide the ',
+      refs.items.jaded_amulet,
+      ' in the pie. They described ',
+      refs.npcs.bob_the_merchant,
+      ' as a normal, exceptionally handsome human man with black hair rather than as a skeleton.',
     ],
   ],
 })

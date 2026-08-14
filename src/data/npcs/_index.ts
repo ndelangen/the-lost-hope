@@ -7,6 +7,7 @@ import blackbeard from './blackbeard.ts'
 import bob_the_gate_troll from './bob-the-gate-troll.ts'
 import bob_the_merchant from './bob-the-merchant.ts'
 import borris from './borris.ts'
+import celeste_s_mother from './celeste-s-mother.ts'
 import celeste from './celeste.ts'
 import crowy from './crowy.ts'
 import dragon_of_the_mountain from './dragon-of-the-mountain.ts'
@@ -51,6 +52,7 @@ export default {
   bob_the_merchant,
   borris,
   celeste,
+  celeste_s_mother,
   crowy,
   dragon_of_the_mountain,
   faceless_shadow,

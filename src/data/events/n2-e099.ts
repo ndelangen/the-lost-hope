@@ -19,7 +19,9 @@ export default createEvent({
     ],
     [
       refs.npcs.sylvia,
-      ' said the Starblades were a multigenerational pirate family that broke the pirate code, began an unsanctioned war for power, lost, and then burned the pirate king’s wife and children rather than accepting defeat.',
+      ' said the ',
+      refs.organizations.starblade_family,
+      ' broke the pirate code, began an unsanctioned war for power, lost, and then burned the pirate king’s wife and children rather than accepting defeat.',
     ],
     [
       'She described ',
@@ -40,7 +42,9 @@ export default createEvent({
       refs.npcs.sylvia,
       ' to marry one of her brothers. ',
       refs.npcs.sylvia,
-      ' said the marriage would settle the dispute between their families. The sister’s name and exact whereabouts, and the identity of the intended brother, remain unconfirmed.',
+      ' said the marriage would settle the dispute between her family and the ',
+      refs.organizations.starblade_family,
+      '. The sister’s name and exact whereabouts, and the identity of the intended brother, remain unconfirmed.',
     ],
     [
       refs.npcs.sylvia,

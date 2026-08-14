@@ -24,7 +24,10 @@ export default createEvent({
       ' with them afterward, regarding the strange child as rescued. She displayed an unexplained connection to death or the undead, leading the party to suspect that she might be manifesting necromancy involuntarily.',
     ],
     [
-      "Celeste's mother is believed to have been killed during the fight, leaving Celeste newly orphaned, but her exact fate is not remembered with certainty.",
+      refs.npcs.celeste_s_mother,
+      ' is believed to have been killed during the fight, leaving ',
+      refs.npcs.celeste,
+      ' newly orphaned, but her exact fate is not remembered with certainty.',
     ],
     [
       'Party: ',

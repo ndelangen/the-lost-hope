@@ -14,7 +14,9 @@ export default createNPC({
       ' from gambling there.',
     ],
     [
-      'She comes from an established pirate family and is openly hostile toward the Starblade family.',
+      'She comes from an established pirate family and is openly hostile toward the ',
+      refs.organizations.starblade_family,
+      '.',
     ],
   ],
 })

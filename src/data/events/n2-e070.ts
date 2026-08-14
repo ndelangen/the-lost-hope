@@ -4,7 +4,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 export default createEvent({
   name: 'The survivors sail for Verdant Haven',
   day: 14,
-  location: refs.locations.sea_of_unknown,
+  location: refs.locations.fairhaven_evacuation_ship,
   mark: {
     type: 'avatar',
     url: 'https://www.dndbeyond.com/avatars/52821/990/1581111423-155753427.jpeg',

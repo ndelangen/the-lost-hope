@@ -14,7 +14,9 @@ export default createQuest({
       ' is an "exotic animal dealer" who was missing 3 animals.',
     ],
     [
-      'Animal #1 (Phoenix): party found a phoenix feather in an offshoot tunnel, then a young phoenix wrapped in a cocoon, guarded by a ',
+      'Animal #1 (Phoenix): party found the ',
+      refs.items.phoenix_feather,
+      ' in an offshoot tunnel, then a young phoenix wrapped in a cocoon, guarded by a ',
       refs.beasts.giant_spider,
       '. ',
       refs.pcs.jim,

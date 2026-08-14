@@ -16,7 +16,7 @@ export default createEvent({
       refs.locations.fairhaven,
       ' — the DM described it as a raid. The party assumed hostility.',
     ],
-    ['Open: what kind of dinos? Who was riding them? Why Fairhaven?'],
+    ['Open: what kind of dinos? Who was riding them? Why ', refs.locations.fairhaven, '?'],
     ['Party: ', refs.pcs.jim, ', ', refs.pcs.william_greenhove, ', ', refs.pcs.devan],
   ],
 })

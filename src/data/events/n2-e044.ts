@@ -39,7 +39,9 @@ export default createEvent({
     ],
     [
       refs.npcs.giggles,
-      ' offered a suspiciously large reward if the competing shop disappeared entirely and gave the party a glass bottle of goblin excrement said to be extremely explosive.',
+      ' offered a suspiciously large reward if the competing shop disappeared entirely and gave the party the ',
+      refs.items.explosive_goblin_excrement_bottle,
+      '.',
     ],
     [
       refs.pcs.jim,
