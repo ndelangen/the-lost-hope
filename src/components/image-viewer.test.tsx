@@ -68,4 +68,26 @@ describe('ImageViewer', () => {
     fireEvent.error(illustration)
     expect(illustration.getAttribute('src')).toBe('/assets/locations/missing.png')
   })
+
+  it('does not mount the large portrait candidate before the viewer opens', () => {
+    render(
+      <ImageViewer
+        src="/assets/pcs/jim.jpg"
+        fallbackSrc={DEFAULT_AVATAR}
+        alt="Jim"
+        title="Jim"
+        eyebrow="Player character portrait"
+        accessibleLabel="portrait of Jim"
+      />,
+    )
+
+    expect(screen.getAllByAltText('Jim')).toHaveLength(1)
+    expect(screen.getByAltText('Jim').getAttribute('sizes')).toBe('160px')
+
+    fireEvent.click(screen.getByRole('button', { name: 'View a larger portrait of Jim' }))
+
+    const images = screen.getAllByAltText('Jim')
+    expect(images).toHaveLength(2)
+    expect(images.some((image) => image.getAttribute('sizes') === '100vw')).toBe(true)
+  })
 })

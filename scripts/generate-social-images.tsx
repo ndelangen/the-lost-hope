@@ -18,6 +18,7 @@ import {
 } from 'lucide-react'
 import type { ReactNode } from 'react'
 import satori from 'satori'
+import sharp from 'sharp'
 /* oxlint-disable no-await-in-loop -- generation is intentionally deterministic and memory-bounded */
 
 import {
@@ -34,7 +35,7 @@ const OUTPUT_DIRECTORY = join(ROOT, 'public/social-previews')
 const GENERATED_MODULE = join(ROOT, 'src/generated/social-image-paths.ts')
 const GENERATED_PUBLIC_ASSETS_MODULE = join(ROOT, 'src/generated/public-asset-paths.ts')
 const FONT_DIRECTORY = join(ROOT, 'assets/fonts/inter')
-const RENDERER_VERSIONS = 'satori@0.29.0|@resvg/resvg-js@2.6.2'
+const RENDERER_VERSIONS = 'satori@0.29.0|@resvg/resvg-js@2.6.2|sharp@0.35.3|jpeg-q85-v1'
 
 type Font = {
   name: string
@@ -375,7 +376,7 @@ async function generate(): Promise<void> {
       .update(imageBytes ?? '')
       .digest('hex')
       .slice(0, 16)
-    const fileName = `${safeFileStem(page.path)}.${digest}.png`
+    const fileName = `${safeFileStem(page.path)}.${digest}.jpg`
     const publicPath = `/social-previews/${fileName}`
     if (!pathsOnly) {
       const imageDataUrl = imageBytes ? prepareBackgroundImage(imageBytes) : undefined
@@ -384,17 +385,19 @@ async function generate(): Promise<void> {
         height: 630,
         fonts,
       })
-      const png = new Resvg(svg).render().asPng()
-      if (png.byteLength > 1_000_000) {
-        throw new Error(`${page.path} social image is ${png.byteLength} bytes (limit: 1 MB)`)
+      const jpeg = await sharp(new Resvg(svg).render().asPng())
+        .jpeg({ quality: 85, progressive: true, chromaSubsampling: '4:2:0' })
+        .toBuffer()
+      if (jpeg.byteLength > 1_000_000) {
+        throw new Error(`${page.path} social image is ${jpeg.byteLength} bytes (limit: 1 MB)`)
       }
-      await writeFile(join(OUTPUT_DIRECTORY, fileName), png)
+      await writeFile(join(OUTPUT_DIRECTORY, fileName), jpeg)
     }
     paths[page.path] = publicPath
   }
 
   if (!pathsOnly) {
-    const outputFiles = (await readdir(OUTPUT_DIRECTORY)).filter((file) => file.endsWith('.png'))
+    const outputFiles = (await readdir(OUTPUT_DIRECTORY)).filter((file) => file.endsWith('.jpg'))
     if (outputFiles.length !== PUBLIC_PAGE_DESCRIPTORS.length) {
       throw new Error(
         `Expected ${PUBLIC_PAGE_DESCRIPTORS.length} social images, found ${outputFiles.length}`,

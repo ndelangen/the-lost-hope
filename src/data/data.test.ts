@@ -1,5 +1,3 @@
-import { existsSync } from 'node:fs'
-
 import { describe, expect, it } from 'vitest'
 
 import { refs } from '#/data/generated/refs.ts'
@@ -32,6 +30,7 @@ import { EVENT_ICONS } from '#/lib/event-icons.tsx'
 import { ITEM_ICONS } from '#/lib/item-icons.tsx'
 import { LOCATION_ICONS } from '#/lib/location-icons.tsx'
 import { ORGANIZATION_ICONS } from '#/lib/organization-icons.tsx'
+import { hasPublicAsset } from '#/lib/public-media'
 import { QUEST_ICONS } from '#/lib/quest-icons.tsx'
 import { SESSION_ICONS } from '#/lib/session-icons.tsx'
 
@@ -479,11 +478,7 @@ describe('campaign chronology', () => {
     )
 
     expect(
-      avatarMarks.every(({ url }) =>
-        url.startsWith('/assets/')
-          ? existsSync(new URL(`../../public${url}`, import.meta.url))
-          : true,
-      ),
+      avatarMarks.every(({ url }) => (url.startsWith('/assets/') ? hasPublicAsset(url) : true)),
     ).toBe(true)
     expect(events.n2_e023.mark).toEqual({ type: 'avatar', url: pcs.mr_peace.avatar })
     expect(events.n2_e076.mark).toEqual({ type: 'avatar', url: pcs.devan.avatar })
@@ -495,7 +490,7 @@ describe('campaign chronology', () => {
       url: '/assets/pcs/jim-kenku.jpg',
       description: 'Jim wearing his former kenku disguise',
     })
-    expect(existsSync(new URL(`../../public${kenkuPortrait?.url}`, import.meta.url))).toBe(true)
+    expect(hasPublicAsset(kenkuPortrait?.url ?? '')).toBe(true)
 
     const preRevealEvents = [
       events.n2_e002,

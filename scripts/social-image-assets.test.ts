@@ -4,6 +4,16 @@ import { DEFAULT_AVATAR, DEFAULT_LOCATION_ILLUSTRATION } from '../src/definition
 import { localSocialImagePath } from './social-image-assets'
 
 describe('localSocialImagePath', () => {
+  it('reads a responsive source from the repository-owned original', () => {
+    expect(
+      localSocialImagePath(process.cwd(), {
+        path: '/pcs/detail/jim',
+        entity: { kind: 'pc', slug: 'jim' },
+        imageCandidate: '/assets/pcs/jim.jpg',
+      }),
+    ).toBe(`${process.cwd()}/assets/images/content/pcs/jim.jpg`)
+  })
+
   it.each([DEFAULT_AVATAR, DEFAULT_LOCATION_ILLUSTRATION])(
     'keeps the placeholder out of social cards: %s',
     (imageCandidate) => {

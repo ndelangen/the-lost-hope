@@ -99,7 +99,14 @@ function referencePresentation(
     case 'pc': {
       const pc = getEntity('pc', slug)?.data
       const name = label ?? pc?.name ?? slug
-      const icon = <Avatar src={pc?.avatar ?? DEFAULT_AVATAR} className="size-3.5" />
+      const icon = (
+        <Avatar
+          src={pc?.avatar ?? DEFAULT_AVATAR}
+          sizes="14px"
+          maxWidth={32}
+          className="size-3.5"
+        />
+      )
       return {
         label: name,
         icon,
@@ -122,7 +129,14 @@ function referencePresentation(
       const npc = getEntity('npc', slug)?.data
       const name = label ?? npc?.name ?? slug
       const home = npc ? npcLocation(npc) : undefined
-      const icon = <Avatar src={npc?.avatar ?? DEFAULT_AVATAR} className="size-3.5" />
+      const icon = (
+        <Avatar
+          src={npc?.avatar ?? DEFAULT_AVATAR}
+          sizes="14px"
+          maxWidth={32}
+          className="size-3.5"
+        />
+      )
       return {
         label: name,
         icon,
@@ -141,7 +155,14 @@ function referencePresentation(
       const name = label ?? beast?.name ?? slug
       const locationEntity = beast?.location ? resolveRef(beast.location) : undefined
       const home = locationEntity?.kind === 'location' ? locationEntity.data : undefined
-      const icon = <Avatar src={beast?.avatar ?? DEFAULT_AVATAR} className="size-3.5" />
+      const icon = (
+        <Avatar
+          src={beast?.avatar ?? DEFAULT_AVATAR}
+          sizes="14px"
+          maxWidth={32}
+          className="size-3.5"
+        />
+      )
       return {
         label: name,
         icon,
@@ -308,7 +329,14 @@ function PreviewLocation({ name, icon }: { name: string; icon?: string }) {
 
 function EventReferenceIcon({ mark, className }: { mark?: EventMark; className?: string }) {
   if (mark?.type === 'avatar') {
-    return <Avatar src={mark.url} className={`${className ?? ''} rounded-full`} />
+    return (
+      <Avatar
+        src={mark.url}
+        sizes="14px"
+        maxWidth={32}
+        className={`${className ?? ''} rounded-full`}
+      />
+    )
   }
   if (mark?.type === 'icon') return <EventMarkIcon name={mark.name} className={className} />
   return <CalendarRange className={className} aria-hidden />

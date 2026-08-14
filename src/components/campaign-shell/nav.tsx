@@ -90,7 +90,15 @@ export function EntityNavRow({
         {() => (
           <Inline as="span" justify="between" gap="sm">
             <Inline as="span" gap="sm" className="min-w-0">
-              {avatar ? <Avatar src={avatar} className="size-5" /> : null}
+              {avatar ? (
+                <Avatar
+                  src={avatar}
+                  sizes="20px"
+                  maxWidth={64}
+                  loading="eager"
+                  className="size-5"
+                />
+              ) : null}
               <span className="min-w-0 truncate">{name}</span>
             </Inline>
             {meta ? (

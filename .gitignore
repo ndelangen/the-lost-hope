@@ -22,3 +22,4 @@ public/404.html
 public/robots.txt
 src/generated/social-image-paths.ts
 src/generated/public-asset-paths.ts
+src/generated/responsive-images.ts

@@ -8,11 +8,13 @@ import { JSDOM } from 'jsdom'
 import { DEFAULT_LOCATION_ILLUSTRATION } from '../src/definitions/media'
 import { GENERATED_SOCIAL_IMAGE_PATHS } from '../src/generated/social-image-paths'
 import { getEntity, locationParent } from '../src/lib/campaign'
+import { publicAssetUrl } from '../src/lib/public-media'
 import {
   PUBLIC_PAGE_DESCRIPTORS,
   SITE_ORIGIN,
   validatePublicPageDescriptors,
 } from '../src/lib/public-page-descriptors'
+import { jpegFrame } from './jpeg'
 
 const ROOT = process.cwd()
 const OUTPUT_DIRECTORY = join(ROOT, 'dist/client')
@@ -26,12 +28,6 @@ function pageOutputPath(path: string): string {
   return path === '/'
     ? join(OUTPUT_DIRECTORY, 'index.html')
     : join(OUTPUT_DIRECTORY, `${path}.html`)
-}
-
-function pngDimensions(bytes: Buffer): { width: number; height: number } {
-  const signature = Buffer.from([137, 80, 78, 71, 13, 10, 26, 10])
-  assert(bytes.subarray(0, 8).equals(signature), 'Social image is not a PNG')
-  return { width: bytes.readUInt32BE(16), height: bytes.readUInt32BE(20) }
 }
 
 async function audit(): Promise<void> {
@@ -117,7 +113,7 @@ async function audit(): Promise<void> {
         ?.querySelector('img')
         ?.getAttribute('src')
       assert(
-        illustrationSource === (page.imageCandidate ?? DEFAULT_LOCATION_ILLUSTRATION),
+        illustrationSource === publicAssetUrl(page.imageCandidate ?? DEFAULT_LOCATION_ILLUSTRATION),
         `Wrong location illustration source: ${page.path}`,
       )
     }
@@ -138,13 +134,15 @@ async function audit(): Promise<void> {
   }
 
   const socialFiles = (await readdir(join(OUTPUT_DIRECTORY, 'social-previews'))).filter((file) =>
-    file.endsWith('.png'),
+    file.endsWith('.jpg'),
   )
   assert(socialFiles.length === 350, `Expected 350 social images, found ${socialFiles.length}`)
   for (const path of Object.values(SOCIAL_IMAGE_PATHS)) {
     const bytes = await readFile(join(OUTPUT_DIRECTORY, path))
-    const { width, height } = pngDimensions(bytes)
+    const { width, height, progressive, chromaSubsampling } = jpegFrame(bytes)
     assert(width === 1200 && height === 630, `Wrong social image dimensions: ${path}`)
+    assert(progressive, `Social image is not progressive: ${path}`)
+    assert(chromaSubsampling === '4:2:0', `Social image is not 4:2:0: ${path}`)
     assert(bytes.byteLength <= 1_000_000, `Social image exceeds 1 MB: ${path}`)
   }
 
