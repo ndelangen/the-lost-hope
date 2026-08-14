@@ -84,4 +84,12 @@ describe('location hierarchy map', () => {
     expect(screen.queryByText('Tempest')).toBeNull()
     expect(screen.getAllByRole('link')).toHaveLength(1)
   })
+
+  it('renders an empty location map without navigation points', () => {
+    render(<LocationMapPlot map={{ ...map, points: [] }} label="Map of Tempest" />)
+
+    expect(screen.getByLabelText('Map of Tempest')).toBeTruthy()
+    expect(screen.getByText('Schematic map')).toBeTruthy()
+    expect(screen.queryByRole('link')).toBeNull()
+  })
 })

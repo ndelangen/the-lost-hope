@@ -41,9 +41,9 @@ function LocationDetailPage() {
   const parent = locationParent(location)
   const siblings = parent ? locationChildren(parent.slug) : []
   const children = locationChildren(slug)
+  const hasChildren = children.length > 0
   const contextMap = parent ? buildLocationHierarchyMap(parent, siblings, location.slug) : undefined
-  const destinationMap =
-    children.length > 0 ? buildLocationHierarchyMap(location, children) : undefined
+  const destinationMap = buildLocationHierarchyMap(location, children)
   const locationType = locationTypeOf(location)
   const illustrationAlt =
     location.illustration === DEFAULT_LOCATION_ILLUSTRATION
@@ -146,27 +146,34 @@ function LocationDetailPage() {
         ) : (
           about
         )}
-        {destinationMap ? (
-          <Stack
-            as="section"
-            gap="lg"
-            className="border-border border-t pt-8"
-            data-location-section="destination-map"
-          >
-            <Inline gap="xl" align="end" justify="between" wrap>
-              <MapSectionHeading
-                eyebrow="Where you can go"
-                title={`Explore ${location.name}`}
-                description={`Choose a place recorded directly within ${location.name}.`}
-              />
+        <Stack
+          as="section"
+          gap="lg"
+          className="border-border border-t pt-8"
+          data-location-section="destination-map"
+        >
+          <Inline gap="xl" align="end" justify="between" wrap>
+            <MapSectionHeading
+              eyebrow={hasChildren ? 'Where you can go' : 'Location map'}
+              title={hasChildren ? `Explore ${location.name}` : `Map of ${location.name}`}
+              description={
+                hasChildren
+                  ? `Choose a place recorded directly within ${location.name}.`
+                  : `No places are currently recorded within ${location.name}.`
+              }
+            />
+            {hasChildren ? (
               <p className="text-muted-foreground text-xs font-medium tracking-wider uppercase">
                 Next step ↓
               </p>
-            </Inline>
-            <LocationMapPlot map={destinationMap} label={`Places within ${location.name}`} />
-            <LocationMapLegend map={destinationMap} compact />
-          </Stack>
-        ) : null}
+            ) : null}
+          </Inline>
+          <LocationMapPlot
+            map={destinationMap}
+            label={hasChildren ? `Places within ${location.name}` : `Map of ${location.name}`}
+          />
+          {hasChildren ? <LocationMapLegend map={destinationMap} compact /> : null}
+        </Stack>
       </Stack>
     </EntityDetail>
   )
