@@ -13,7 +13,9 @@ export default createEvent({
       '.',
     ],
     [
-      'The party succeeded in taking in the displacer beast and returned it to the ',
+      'The party succeeded in taking in the ',
+      refs.beasts.displacer_beast,
+      ' and returned it to the ',
       refs.npcs.rare_animal_dealer,
       '.',
     ],

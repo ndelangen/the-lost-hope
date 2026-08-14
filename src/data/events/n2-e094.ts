@@ -22,7 +22,9 @@ export default createEvent({
       refs.pcs.devan,
       ' and ',
       refs.pcs.cassian_veyl,
-      ' without actually hurting them. With each use, the dagger itself made a passive-aggressive remark.',
+      ' without actually hurting them. With each use, ',
+      refs.items.dagger_of_passive_aggression,
+      ' made a passive-aggressive remark.',
     ],
     [
       refs.pcs.devan,

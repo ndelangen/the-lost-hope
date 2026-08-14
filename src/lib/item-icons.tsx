@@ -2,17 +2,22 @@ import type { IconType } from 'react-icons'
 import { FaAtlas, FaPrescriptionBottleAlt, FaRing } from 'react-icons/fa'
 import {
   GiBackpack,
+  GiCardDraw,
+  GiClothes,
   GiDaggerRose,
   GiDrippingStone,
   GiEmeraldNecklace,
+  GiFeather,
   GiHornInternal,
   GiMaceHead,
   GiMagicBroom,
+  GiMolotov,
   GiMetalDisc,
   GiLockedChest,
   GiPassport,
   GiRoundBottomFlask,
   GiScales,
+  GiSlaveryWhip,
   GiSwordWound,
 } from 'react-icons/gi'
 
@@ -23,6 +28,8 @@ export const ITEM_ICONS = {
   'fa/FaPrescriptionBottleAlt': FaPrescriptionBottleAlt,
   'fa/FaRing': FaRing,
   'gi/GiBackpack': GiBackpack,
+  'gi/GiCardDraw': GiCardDraw,
+  'gi/GiClothes': GiClothes,
   'gi/GiMagicBroom': GiMagicBroom,
   'gi/GiMetalDisc': GiMetalDisc,
   'gi/GiLockedChest': GiLockedChest,
@@ -31,10 +38,13 @@ export const ITEM_ICONS = {
   'gi/GiDaggerRose': GiDaggerRose,
   'gi/GiDrippingStone': GiDrippingStone,
   'gi/GiEmeraldNecklace': GiEmeraldNecklace,
+  'gi/GiFeather': GiFeather,
   'gi/GiHornInternal': GiHornInternal,
   'gi/GiMaceHead': GiMaceHead,
+  'gi/GiMolotov': GiMolotov,
   'gi/GiRoundBottomFlask': GiRoundBottomFlask,
   'gi/GiScales': GiScales,
+  'gi/GiSlaveryWhip': GiSlaveryWhip,
 } as const satisfies Record<string, IconType>
 
 export function resolveItemIcon(icon: string): IconType {

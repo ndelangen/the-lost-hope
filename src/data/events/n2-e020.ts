@@ -19,11 +19,15 @@ export default createEvent({
       refs.locations.the_green_light,
       ' near the mountain tonight.',
     ],
-    ['The deliverer was not identified. Only Jim saw the letter.'],
+    ['The deliverer was not identified. Only ', refs.pcs.jim, ' saw the letter.'],
     [
-      'Although Jim was disguised and inside the guildhall, whoever delivered the letter knew exactly where to reach him and whom to give it to.',
+      'Although ',
+      refs.pcs.jim,
+      ' was disguised and inside the ',
+      refs.locations.fajanet_guildhall,
+      ', whoever delivered the letter knew exactly where to reach him and whom to give it to.',
     ],
-    ["Jim disregarded the letter's demand."],
+    [refs.pcs.jim, " disregarded the letter's demand."],
     ['Party: ', refs.pcs.jim, ', ', refs.pcs.william_greenhove, ', ', refs.pcs.revin_grumblefist],
   ],
 })

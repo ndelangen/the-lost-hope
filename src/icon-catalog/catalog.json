@@ -102,7 +102,6 @@
       "classification": "useful",
       "classificationReason": "Manually classified as useful from the /_icons review page.",
       "usedIn": [
-        "src/components/session-timeline.test.tsx",
         "src/lib/custom-icons.tsx",
         "src/lib/event-icons.tsx"
       ]
@@ -17486,7 +17485,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://fontawesome.com/v5/icons/dice",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/fairhaven-gambling-den.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "fa/FaDiceD20",
@@ -32481,7 +32483,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://fontawesome.com/v5/icons/horse",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/fairhaven-guildhall-stables.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "fa/FaHorseHead",
@@ -65856,7 +65861,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://fontawesome.com/v5/icons/store-alt",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/rare-animal-dealer-s-premises.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "fa/FaStoreAltSlash",
@@ -81877,7 +81885,10 @@
       "classification": "useful",
       "classificationReason": "Manually classified as useful from the /_icons review page.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/alien-egg.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/fajanet-tunnel-phoenix-cocoon-chamber.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiAlienFire",
@@ -84150,7 +84161,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/anvil-impact.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/flying-bazaar-crafting-area.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiApc",
@@ -84238,7 +84252,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/darkzaitzev/apothecary.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/mortimer-s-underground-workshop.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiAppleCore",
@@ -89862,7 +89879,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/barn.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/blackstone-stables.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiBarracks",
@@ -94221,7 +94241,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/black-flag.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/organizations/starblade-family.ts",
+        "src/lib/organization-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiBlackHandShield",
@@ -107205,7 +107228,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/faithtoken/card-draw.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/deck-of-many-more-things.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiCardExchange",
@@ -109196,7 +109222,10 @@
       "classification": "useful",
       "classificationReason": "Manually classified as useful from the /_icons review page.",
       "sourceUrl": "https://game-icons.net/1x1/darkzaitzev/cauldron.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/penelope-s-underground-workshop.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiCavalry",
@@ -113911,7 +113940,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/clothes.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/jim-s-kenku-suit.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiClothesline",
@@ -136954,7 +136986,9 @@
       "usedIn": [
         "src/data/events/n2-e015.ts",
         "src/data/events/n2-e081.ts",
-        "src/lib/event-icons.tsx"
+        "src/data/items/phoenix-feather.ts",
+        "src/lib/event-icons.tsx",
+        "src/lib/item-icons.tsx"
       ]
     },
     {
@@ -146740,7 +146774,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/gate.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/fajanet-city-gate.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiGaulsHelm",
@@ -165808,7 +165845,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/kitchen-knives.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/flying-bazaar-kitchen.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiKitchenScale",
@@ -180358,7 +180398,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/molotov.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/explosive-goblin-excrement-bottle.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiMonaLisa",
@@ -186667,7 +186710,9 @@
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/open-gate.html",
       "usedIn": [
+        "src/data/locations/fairhaven-city-gate.ts",
         "src/data/sessions/arrival-in-fajanet.ts",
+        "src/lib/location-icons.tsx",
         "src/lib/session-icons.tsx"
       ]
     },
@@ -213186,7 +213231,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/shower.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/fajanet-guildhall-bathroom.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiShrimp",
@@ -215517,7 +215565,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/slavery-whip.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/one-use-obedience-whip.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiSleepingBag",
@@ -223827,7 +223878,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/stalactites.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/fajanet-tunnel-phoenix-offshoot.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiStalagtite",
@@ -242352,7 +242406,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/underground-cave.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/shadow-realm-cave.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiUnderhand",
@@ -257877,7 +257934,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/bed-single",
-      "usedIn": []
+      "usedIn": [
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "lucide/Beef",
@@ -270832,7 +270891,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/dock",
-      "usedIn": []
+      "usedIn": [
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "lucide/Dog",
@@ -275188,7 +275249,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/flask-conical",
-      "usedIn": []
+      "usedIn": [
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "lucide/FlaskConicalOff",
@@ -277318,7 +277381,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/gavel",
-      "usedIn": []
+      "usedIn": [
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "lucide/Gem",
@@ -284178,6 +284243,7 @@
       "sourceUrl": "https://lucide.dev/icons/map-pin",
       "usedIn": [
         "src/components/campaign-shell/sidebar-data.ts",
+        "src/components/session-journal.tsx",
         "src/lib/entity-kind-visuals.ts"
       ]
     },
@@ -296442,7 +296508,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/ship",
-      "usedIn": []
+      "usedIn": [
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "lucide/ShipWheel",

@@ -14,7 +14,14 @@ export default createEvent({
       ' and ordered the stampede out of town amid the chaos.',
     ],
     [
-      'Abraham rescued the party for the second recorded time, but the rushed escape caused multiple innocent casualties. The consequences will weigh on Jim; whether they affected Abraham is unclear.',
+      refs.npcs.abraham,
+      ' rescued the party for the second recorded time, after the first rescue during ',
+      refs.events.n2_e039,
+      ', but the rushed escape caused multiple innocent casualties. The consequences will weigh on ',
+      refs.pcs.jim,
+      '; whether they affected ',
+      refs.npcs.abraham,
+      ' is unclear.',
     ],
   ],
 })

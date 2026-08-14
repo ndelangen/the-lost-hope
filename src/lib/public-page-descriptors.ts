@@ -270,8 +270,8 @@ export function validatePublicPageDescriptors(): string[] {
     if (!page.title.trim()) errors.push(`Missing title: ${page.path}`)
     if (!page.description.trim()) errors.push(`Missing description: ${page.path}`)
   }
-  if (PUBLIC_PAGE_DESCRIPTORS.length !== 323) {
-    errors.push(`Expected 323 public pages, found ${PUBLIC_PAGE_DESCRIPTORS.length}`)
+  if (PUBLIC_PAGE_DESCRIPTORS.length !== 350) {
+    errors.push(`Expected 350 public pages, found ${PUBLIC_PAGE_DESCRIPTORS.length}`)
   }
   return errors
 }

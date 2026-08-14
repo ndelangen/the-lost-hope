@@ -211,9 +211,9 @@ Every question must include **what we already know** — many sit unanswered acr
 
 ## Session 11 — The Flying Bazaar
 
-- **What are the names and exact whereabouts of Swift Starblade’s relatives, and which of Sylvia’s brothers is intended to marry his younger sister?**
-  - _Context:_ Sylvia said Swift was searching for relatives scattered among islands near the Continent of the Dead. She privately tasked Jim and Cassian with finding [Swift Starblade’s Younger Sister](/npcs/detail/swift-starblade-s-younger-sister) and bringing her alive to Sylvia to marry one of Sylvia’s brothers, which Sylvia said would settle the family dispute. The sister is now represented as an NPC, but her name, location, and intended husband remain unknown.
-  - _Why asking:_ The answers would replace the sister’s descriptive placeholder with her canonical name and define the objective of [Bring Swift’s Sister to Sylvia](/quests/detail/bring-swift-s-sister-to-sylvia).
+- **What are the names and exact whereabouts of Swift Starblade’s relatives, and who is Sylvia’s intended brother?**
+  - _Context:_ Sylvia said Swift was searching for relatives scattered among islands near the Continent of the Dead. She privately tasked Jim and Cassian with finding [Swift Starblade’s Younger Sister](/npcs/detail/swift-starblade-s-younger-sister) and bringing her alive to marry [Sylvia’s Brother](/npcs/detail/sylvia-s-brother), which Sylvia said would settle the family dispute. Both people are represented as NPCs, but their names, locations, and exact identities remain unknown.
+  - _Why asking:_ The answers would replace both descriptive NPC placeholders with their canonical names and further define the objective of [Bring Swift’s Sister to Sylvia](/quests/detail/bring-swift-s-sister-to-sylvia).
   - _Session:_ 11
 
 - **What caused forty-one guests to be food-poisoned during Jim’s trial shift?**

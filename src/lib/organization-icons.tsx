@@ -3,6 +3,7 @@ import { FaBuilding } from 'react-icons/fa'
 import {
   GiCrossedAxes,
   GiCrossedSwords,
+  GiBlackFlag,
   GiDwarfFace,
   GiHand,
   GiJusticeStar,
@@ -23,6 +24,7 @@ export const ORGANIZATION_ICON_PLACEHOLDER = 'fa/FaBuilding'
 export const ORGANIZATION_ICONS: Record<string, IconType> = {
   'gi/GiCrossedAxes': GiCrossedAxes,
   'gi/GiCrossedSwords': GiCrossedSwords,
+  'gi/GiBlackFlag': GiBlackFlag,
   'gi/GiDwarfFace': GiDwarfFace,
   'gi/GiHand': GiHand,
   'gi/GiJusticeStar': GiJusticeStar,

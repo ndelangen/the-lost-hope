@@ -15,7 +15,11 @@ export default createEvent({
       refs.pcs.swift_starblade,
       ' found ',
       refs.pcs.cassian_veyl,
-      ' in the ship’s lowest stables after the Fiddler released him from the void sphere.',
+      ' in the ',
+      refs.locations.lower_stables,
+      ' after ',
+      refs.npcs.the_fiddler,
+      ' released him from the void sphere.',
     ],
   ],
 })

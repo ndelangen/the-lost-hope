@@ -15,10 +15,14 @@ export default createEvent({
       refs.pcs.jim,
       ' truthfully answered a question about his identity. ',
       refs.pcs.devan,
-      ' noticed that Jim was his real name.',
+      ' noticed that ',
+      refs.pcs.jim,
+      ' was his real name.',
     ],
     [
-      'Open: what did the other PCs say? Not stated. The angel burned the letter — what did that mean? Not stated.',
+      'Open: what did the other PCs say? Not stated. ',
+      refs.npcs.angel_of_the_mountain,
+      ' burned the letter — what did that mean? Not stated.',
     ],
     [
       'Party: ',

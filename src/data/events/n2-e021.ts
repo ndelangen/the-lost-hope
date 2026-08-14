@@ -14,9 +14,18 @@ export default createEvent({
       refs.npcs.light_13th_marshal,
       ' 1:1.',
     ],
-    ['Light was understanding and told Jim to meet him with the rest of the party in the morning.'],
     [
-      'This is the first time Jim has met Light one-on-one, separate from the rest of the party. The content of their conversation is not recorded.',
+      refs.npcs.light_13th_marshal,
+      ' was understanding and told ',
+      refs.pcs.jim,
+      ' to meet him with the rest of the party in the morning.',
+    ],
+    [
+      'This is the first time ',
+      refs.pcs.jim,
+      ' has met ',
+      refs.npcs.light_13th_marshal,
+      ' one-on-one, separate from the rest of the party. The content of their conversation is not recorded.',
     ],
   ],
 })

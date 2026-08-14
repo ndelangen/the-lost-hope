@@ -19,7 +19,11 @@ export default createEvent({
     [refs.pcs.devan, ' — Half-Orc Paladin. Session notes called him "an orc paladin."'],
     [
       refs.pcs.devan,
-      ' received his guild tattoo on his collarbone. He used his favor to ask to be handsome and became the most handsome orc.',
+      ' received his ',
+      refs.organizations.adventurers_guild,
+      ' tattoo on his collarbone. He used his favor from ',
+      refs.npcs.light_13th_marshal,
+      ' to ask to be handsome and became the most handsome orc.',
     ],
     [refs.pcs.swift_starblade, ' — Half-Elf Rogue. Session notes called him "a human-elf pirate."'],
     [

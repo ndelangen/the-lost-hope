@@ -8,9 +8,9 @@ export default createEvent({
   mark: { type: 'icon', name: 'gi/GiCage' },
   notes: [
     [
-      'The Festival of the Heroes began the day after the ',
-      refs.npcs.mayor_of_fairhaven,
-      ' announced it. Among its many activities, ',
+      'The Festival of the Heroes began the day after its announcement during ',
+      refs.events.n2_e063,
+      '. Among its many activities, ',
       refs.pcs.devan,
       ' and ',
       refs.pcs.victor_dranzig,

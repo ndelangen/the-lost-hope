@@ -4,7 +4,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 export default createEvent({
   name: 'The party reunites with Bessy and trades equipment',
   day: 18,
-  location: refs.locations.sylvias_flying_bazaar,
+  location: refs.locations.flying_bazaar_crafting_area,
   mark: { type: 'icon', name: 'gi/GiTeamUpgrade' },
   notes: [
     [
@@ -12,7 +12,9 @@ export default createEvent({
       refs.locations.sylvias_flying_bazaar,
       ', the party found ',
       refs.npcs.bessy,
-      ' operating from the ship’s crafting area and reunited with her.',
+      ' operating from the ',
+      refs.locations.flying_bazaar_crafting_area,
+      ' and reunited with her.',
     ],
     [
       'They spent the morning comparing armour, shields, and weapons, buying and selling equipment with ',
@@ -33,7 +35,9 @@ export default createEvent({
     ],
     [
       refs.npcs.bessy,
-      ' also advised Swift that a balanced metal blade would be the right basis for a future modification to ',
+      ' also advised ',
+      refs.pcs.swift_starblade,
+      ' that a balanced metal blade would be the right basis for a future modification to ',
       refs.items.demon_possessed_flying_broom,
       '.',
     ],

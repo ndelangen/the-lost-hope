@@ -3,6 +3,7 @@ import { create as createBeast } from '#/definitions/beast.ts'
 
 export default createBeast({
   name: 'Sir Fabulous, Divine Steed',
+  avatar: '/assets/npcs/sir-fabulous-divine-steed.png',
   location: refs.locations.the_blackstone,
   species: 'Dire wolf',
   notes: [

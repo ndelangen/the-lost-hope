@@ -9,7 +9,11 @@ export default createEvent({
   notes: [
     [
       refs.pcs.mr_peace,
-      ' joined the party for one day only — arranged by the guild / Light. Everyone knew his visit was temporary.',
+      ' joined the party for one day only — arranged by the ',
+      refs.organizations.adventurers_guild,
+      ' / ',
+      refs.npcs.light_13th_marshal,
+      '. Everyone knew his visit was temporary.',
     ],
   ],
 })

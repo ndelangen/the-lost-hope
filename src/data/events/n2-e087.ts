@@ -4,16 +4,20 @@ import { create as createEvent } from '#/definitions/event.ts'
 export default createEvent({
   name: 'The party escapes Mortimer’s chimera and time bomb',
   day: 13,
-  location: refs.locations.mortimer_s_shop,
+  location: refs.locations.mortimer_s_underground_workshop,
   mark: { type: 'icon', name: 'gi/GiTimeBomb' },
   notes: [
     [
-      'The party found a largely inactive underground workshop. A ',
+      'The party found ',
+      refs.locations.mortimer_s_underground_workshop,
+      ' largely inactive. A ',
       refs.beasts.chimera,
       ' waited there, along with a ticking sound that the DM made clear was a time bomb requiring an immediate escape.',
     ],
     [
-      'The party had given the bottle of explosive goblin excrement to ',
+      'The party had given the ',
+      refs.items.explosive_goblin_excrement_bottle,
+      ' to ',
       refs.npcs.penelope,
       '. The players inferred that ',
       refs.npcs.penelope,
