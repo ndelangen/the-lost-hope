@@ -8,10 +8,12 @@ Baseline: freshly fetched `origin/main` at `a92dcca4417b01529cf2e902a5c69e0c5cfd
 
 ## Decision
 
-Use deterministic, checked-in, content-addressed build derivatives as the production source of
-responsive images. Keep the originals in the repository, but outside the published directory.
+Use deterministic, checked-in, content-addressed derivatives as the production source of responsive
+**content** images. Keep the originals in the repository, but outside the published directory.
 Repository size is not a constraint, and this approach guarantees true progressive JPEGs without
-depending on a Netlify plan-specific transformation allowance.
+depending on a Netlify plan-specific transformation allowance. Keep the existing social-card family
+deployment-generated, but change its fixed output from PNG to progressive JPEG quality 85; do not
+render the full 350-card set during routine local development, measurement, build, or verification.
 
 For content portraits, generate two families:
 
@@ -185,6 +187,10 @@ evidence only; a visitor receives just the candidate selected for a slot.
 
 ### Social preview experiment
 
+The complete 350-card render below was a one-time isolated research measurement required by this
+ticket. The production contract is deployment-only generation; routine local workflows should use
+path-only generation or a small representative fixture set.
+
 | Preview                              | Current PNG |    Progressive q80 | Saving | Progressive q85 | Saving |
 | ------------------------------------ | ----------: | -----------------: | -----: | --------------: | -----: |
 | Cassian portrait-backed              |     960,855 |             79,761 |  91.7% |          93,551 |  90.3% |
@@ -270,7 +276,7 @@ while current CSS crops the UI to 3:1.
 
 ## Netlify comparison
 
-### Checked-in build derivatives — recommended
+### Checked-in content derivatives — recommended
 
 1. Store canonical originals outside `public/`.
 2. Generate deterministic, content-addressed derivatives and a typed manifest locally.
@@ -287,6 +293,10 @@ assets at its edge for up to one year and invalidates them on atomic deploys; it
 header is `max-age=0,must-revalidate`, so explicit immutable browser caching is useful only when the
 URL contains a content digest
 ([Netlify caching](https://docs.netlify.com/build/caching/caching-overview/)).
+
+Social previews are the exception to checked-in generation: render all routes only in deployment,
+emit digest-named progressive q85 JPEGs, and validate a representative portrait-backed and plain
+fixture locally. They use the same static delivery/cache contract after deployment.
 
 ### Netlify Image CDN — viable optional alternative
 
@@ -372,8 +382,9 @@ map as a required visual gate rather than asserting that “JPEG for everything�
 
 ## Reproduction
 
-Run from the isolated research checkout at the baseline above. ImageMagick 7 and macOS `file` were
-used.
+The following records the one-time isolated research procedure at the baseline above. ImageMagick 7
+and macOS `file` were used. Do not put the complete social-card render into a routine local workflow;
+use the committed representative samples for regression checks.
 
 ### Inventory format, dimensions, alpha, and bytes
 
