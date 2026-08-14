@@ -88,16 +88,6 @@
     linear-gradient(to bottom, #170c11, #0d080a);
 }
 
-.journal-score {
-  background-color: #f4f0e7;
-  background-image: linear-gradient(90deg, rgb(53 45 38 / 4%) 1px, transparent 1px);
-  background-size: 3rem 100%;
-}
-
-.dark .journal-score {
-  background-color: #17191c;
-}
-
 .journal-score-staff {
   background-image: repeating-linear-gradient(
     to bottom,
@@ -105,6 +95,78 @@
     rgb(51 45 39 / 16%) 9px,
     transparent 10px 17px
   );
+}
+
+.journal-score-copy [data-entity-kind='session'] {
+  color: #2563eb;
+}
+
+.journal-score-copy [data-entity-kind='event'] {
+  color: #d97706;
+}
+
+.journal-score-copy [data-entity-kind='location'] {
+  color: #059669;
+}
+
+.journal-score-copy [data-entity-kind='npc'] {
+  color: #7c3aed;
+}
+
+.journal-score-copy [data-entity-kind='beast'] {
+  color: #ea580c;
+}
+
+.journal-score-copy [data-entity-kind='pc'] {
+  color: #0891b2;
+}
+
+.journal-score-copy [data-entity-kind='quest'] {
+  color: #e11d48;
+}
+
+.journal-score-copy [data-entity-kind='organization'] {
+  color: #0d9488;
+}
+
+.journal-score-copy [data-entity-kind='item'] {
+  color: #c026d3;
+}
+
+.dark .journal-score-copy [data-entity-kind='session'] {
+  color: #93c5fd;
+}
+
+.dark .journal-score-copy [data-entity-kind='event'] {
+  color: #fcd34d;
+}
+
+.dark .journal-score-copy [data-entity-kind='location'] {
+  color: #6ee7b7;
+}
+
+.dark .journal-score-copy [data-entity-kind='npc'] {
+  color: #c4b5fd;
+}
+
+.dark .journal-score-copy [data-entity-kind='beast'] {
+  color: #fdba74;
+}
+
+.dark .journal-score-copy [data-entity-kind='pc'] {
+  color: #67e8f9;
+}
+
+.dark .journal-score-copy [data-entity-kind='quest'] {
+  color: #fda4af;
+}
+
+.dark .journal-score-copy [data-entity-kind='organization'] {
+  color: #5eead4;
+}
+
+.dark .journal-score-copy [data-entity-kind='item'] {
+  color: #f0abfc;
 }
 
 @media (prefers-reduced-motion: reduce) {

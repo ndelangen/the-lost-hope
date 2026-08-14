@@ -1,15 +1,6 @@
 import { Link } from '@tanstack/react-router'
-import {
-  ArrowLeft,
-  CircleDot,
-  Compass,
-  FlaskConical,
-  MapPinned,
-  Music2,
-  Network,
-  Theater,
-} from 'lucide-react'
-import type { ReactNode } from 'react'
+import { ArrowLeft, Compass, FlaskConical, MapPin, MapPinned, Network, Theater } from 'lucide-react'
+import { Fragment, type ReactNode } from 'react'
 
 import { ContentRenderer } from '#/components/content-renderer'
 import { EntityReference } from '#/components/entity-reference'
@@ -20,12 +11,13 @@ import { PrototypeSwitcher, type PrototypeVariantOption } from '#/components/pro
 import { Avatar } from '#/components/ui/avatar'
 import { Inline, Stack } from '#/components/ui/layout'
 import type { EventMark } from '#/definitions/event'
+import { ENTITY_KIND_VISUALS } from '#/lib/entity-kind-visuals'
 import { EventMarkIcon } from '#/lib/event-icons'
-import { LocationIcon } from '#/lib/location-icons'
 import { SessionIcon } from '#/lib/session-icons'
 import type {
   JournalEvent,
   JournalMention,
+  JournalQuestReference,
   SessionJournalPrototypeModel,
 } from '#/lib/session-journal-prototype-data'
 import { cn } from '#/lib/utils'
@@ -145,7 +137,6 @@ function EventLocationLine({
   if (!event.location) return null
   return (
     <Inline gap="xs" wrap className={className}>
-      <LocationIcon icon={event.location.icon} className="size-3.5" />
       <LocationReference slug={event.location.slug} label={event.location.name} />
       {path && event.location.path.length > 1 ? (
         <span className="opacity-65">· {event.location.path.slice(0, -1).join(' / ')}</span>
@@ -894,45 +885,44 @@ function LivingStage({ model }: { model: SessionJournalPrototypeModel }) {
 }
 
 function PartyScore({ model }: { model: SessionJournalPrototypeModel }) {
+  const allEvents = model.days.flatMap((day) => day.events)
+
   return (
-    <article className="journal-prototype journal-score overflow-hidden rounded-[2rem] border border-stone-500/20 text-stone-900 shadow-2xl dark:text-stone-100">
-      <header className="border-b-4 border-double border-stone-500/30 px-6 py-12 sm:px-12">
+    <article className="journal-prototype journal-score bg-background text-foreground overflow-hidden rounded-[2rem] border shadow-sm">
+      <header className="border-border border-b px-6 py-12 sm:px-12">
         <PrototypeBackLink className="text-current/50 hover:text-current" />
-        <div className="mt-10 grid gap-8 lg:grid-cols-[1fr_auto] lg:items-end">
-          <div>
-            <PrototypeStamp className="mb-5 border-stone-500/35 text-current/65" />
-            <p className="text-xs font-bold tracking-[0.28em] uppercase opacity-45">
-              Movement {model.number} · {model.dateLabel}
-            </p>
-            <h1 className="mt-3 max-w-4xl font-serif text-5xl leading-none font-black tracking-tight text-balance sm:text-7xl">
-              {model.name}
-            </h1>
-            <p className="mt-5 max-w-2xl text-sm leading-6 opacity-55">
-              A score for {model.party.length} recurring voices and {model.eventCount} measures.
-              References indicate motifs, not importance or attendance.
-            </p>
-          </div>
-          <Music2 className="size-28 opacity-15" aria-hidden />
+        <div className="mt-10">
+          <PrototypeStamp className="mb-5 border-stone-500/35 text-current/65" />
+          <p className="text-muted-foreground text-xs font-bold tracking-[0.28em] uppercase">
+            Session {model.number} · {model.dateLabel}
+          </p>
+          <h1 className="mt-3 max-w-4xl font-serif text-5xl leading-none font-black tracking-tight text-balance sm:text-7xl">
+            {model.name}
+          </h1>
+          <p className="text-muted-foreground mt-5 max-w-2xl text-sm leading-6">
+            The complete journal: {model.eventCount} recorded events across {model.days.length}{' '}
+            campaign {model.days.length === 1 ? 'day' : 'days'}, with every note shown in order.
+          </p>
         </div>
-        <div className="mt-9 border-y border-stone-500/20 py-5">
-          <p className="mb-4 text-[10px] font-bold tracking-[0.24em] uppercase opacity-45">
-            Ensemble legend
+        <div className="border-border mt-9 border-y py-5">
+          <p className="text-muted-foreground mb-4 text-[10px] font-bold tracking-[0.24em] uppercase">
+            Party
           </p>
           <PartyPortraits model={model} />
         </div>
       </header>
 
-      <nav aria-label="Score measures" className="border-b border-stone-500/20 px-5 py-5 sm:px-10">
+      <nav aria-label="Journal contents" className="border-border border-b px-5 py-5 sm:px-10">
         <ol className="mx-auto flex max-w-6xl flex-wrap gap-2">
           {model.days.flatMap((day) =>
             day.events.map((event) => (
               <li key={event.slug}>
                 <a
                   href={`#journal-event-${event.slug}`}
-                  className="inline-flex items-center gap-2 rounded-md border border-stone-500/20 px-3 py-1.5 font-mono text-xs hover:bg-stone-500/10"
+                  className="border-border hover:bg-muted inline-flex items-center gap-2 rounded-md border px-3 py-1.5 text-xs"
                 >
                   <span className="font-bold">{event.index}</span>
-                  <span className="max-w-36 truncate opacity-55">{event.name}</span>
+                  <span className="text-muted-foreground max-w-36 truncate">{event.name}</span>
                 </a>
               </li>
             )),
@@ -943,11 +933,11 @@ function PartyScore({ model }: { model: SessionJournalPrototypeModel }) {
       <div className="mx-auto max-w-6xl px-4 py-12 sm:px-8">
         {model.days.map((day, dayIndex) => (
           <section key={day.day} aria-labelledby={`score-day-${day.day}`} className="mb-20">
-            <Inline gap="lg" className="mb-10 border-b-2 border-stone-500/30 pb-4">
-              <span className="font-serif text-5xl opacity-25">{dayIndex + 1}</span>
+            <Inline gap="lg" className="border-border mb-10 border-b-2 pb-4">
+              <span className="text-muted-foreground font-serif text-5xl">{dayIndex + 1}</span>
               <div>
-                <p className="text-[10px] font-bold tracking-[0.24em] uppercase opacity-45">
-                  Movement
+                <p className="text-muted-foreground text-[10px] font-bold tracking-[0.24em] uppercase">
+                  {day.events.length} recorded {day.events.length === 1 ? 'event' : 'events'}
                 </p>
                 <h2 id={`score-day-${day.day}`} className="font-serif text-3xl font-bold">
                   Campaign day {day.day}
@@ -956,99 +946,202 @@ function PartyScore({ model }: { model: SessionJournalPrototypeModel }) {
             </Inline>
             <div className="space-y-10">
               {day.events.map((event) => {
+                const previousEvent = allEvents[event.index - 2]
                 const voices = event.mentions.filter((mention) =>
                   ['pc', 'npc', 'beast'].includes(mention.kind),
                 )
-                const motifs = event.mentions.filter(
-                  (mention) => !['pc', 'npc', 'beast'].includes(mention.kind),
-                )
+                const movedToNewParent =
+                  previousEvent?.location?.parentSlug &&
+                  event.location?.parentSlug &&
+                  previousEvent.location.parentSlug !== event.location.parentSlug
+
                 return (
-                  <article
-                    key={event.slug}
-                    id={`journal-event-${event.slug}`}
-                    className="scroll-mt-24 overflow-hidden rounded-xl border border-stone-500/20 bg-white/35 shadow-sm dark:bg-black/10"
-                  >
-                    <div className="grid sm:grid-cols-[5rem_minmax(0,1fr)]">
-                      <aside
-                        className="journal-score-staff border-b border-stone-500/20 p-3 sm:border-r sm:border-b-0"
-                        aria-label="Voices referenced in this measure"
-                      >
-                        <div className="flex flex-wrap justify-center gap-1.5 sm:flex-col sm:items-center">
-                          {voices.map((voice) => (
-                            <EntityReference
-                              key={`${voice.kind}-${voice.slug}`}
-                              kind={voice.kind}
-                              slug={voice.slug}
-                              label={voice.name}
-                              unstyled
-                            >
-                              {() =>
-                                voice.avatar ? (
-                                  <Avatar
-                                    src={voice.avatar}
-                                    className="size-9 border-2 border-white shadow"
-                                  />
-                                ) : (
-                                  <CircleDot className="size-7" />
-                                )
-                              }
-                            </EntityReference>
-                          ))}
-                        </div>
-                      </aside>
-                      <div className="min-w-0">
-                        <header className="journal-score-staff border-b border-stone-500/20 p-5 sm:p-7">
-                          <Inline gap="md" align="start">
-                            <EventMarkVisual
-                              mark={event.mark}
-                              className="size-12 rounded-full border-2 border-stone-600/30 bg-[var(--background)] p-2"
-                              iconClassName="size-7"
-                            />
-                            <div className="min-w-0">
-                              <p className="font-mono text-[10px] font-bold tracking-[0.2em] uppercase opacity-45">
-                                Measure {event.index}
-                              </p>
-                              <EventHeading
-                                event={event}
-                                className="mt-1 font-serif text-2xl leading-tight font-bold text-balance sm:text-3xl"
-                              />
-                              <EventLocationLine
-                                event={event}
-                                className="mt-2 text-xs opacity-50"
-                              />
-                            </div>
-                          </Inline>
-                        </header>
-                        <div className="p-5 sm:p-7">
-                          <ContentRenderer
-                            content={event.notes}
-                            className="gap-5 text-[0.98rem] leading-7 [&_a]:font-semibold [&_a]:underline [&_a]:decoration-stone-500/35 [&_a]:underline-offset-4"
-                          />
-                          {motifs.length > 0 ? (
-                            <div className="mt-7 border-t border-stone-500/20 pt-4">
-                              <p className="mb-3 text-[9px] font-bold tracking-[0.22em] uppercase opacity-45">
-                                Motifs
-                              </p>
-                              <ReferenceCloud
-                                mentions={motifs}
-                                itemClassName="border-stone-500/20 bg-stone-500/5"
-                              />
-                            </div>
-                          ) : null}
-                        </div>
+                  <Fragment key={event.slug}>
+                    {movedToNewParent && event.location?.parentSlug ? (
+                      <div className="mx-auto flex max-w-2xl items-center gap-3 rounded-full border border-emerald-300/70 bg-emerald-50/60 px-5 py-3 text-sm shadow-sm dark:border-emerald-800 dark:bg-emerald-950/20">
+                        <MapPin className="size-4 shrink-0 text-emerald-600 dark:text-emerald-300" />
+                        <span className="text-muted-foreground">The party moved to</span>
+                        <LocationReference
+                          slug={event.location.parentSlug}
+                          label={event.location.parentName}
+                          className="font-semibold text-emerald-700 dark:text-emerald-300"
+                        />
                       </div>
-                    </div>
-                  </article>
+                    ) : null}
+
+                    <article
+                      id={`journal-event-${event.slug}`}
+                      className="border-border bg-card/35 scroll-mt-24 overflow-hidden rounded-xl border shadow-sm"
+                    >
+                      <div
+                        className={cn(
+                          'grid',
+                          voices.length > 0 && 'lg:grid-cols-[minmax(0,1fr)_13rem]',
+                        )}
+                      >
+                        <div className="min-w-0">
+                          <header className="journal-score-staff border-border border-b p-5 sm:p-7">
+                            <Inline gap="lg" align="start">
+                              <EventMarkVisual
+                                mark={event.mark}
+                                className={cn(
+                                  'size-16 shrink-0 rounded-2xl border p-3 shadow-sm',
+                                  ENTITY_KIND_VISUALS.event.borderClassName,
+                                  ENTITY_KIND_VISUALS.event.surfaceClassName,
+                                  ENTITY_KIND_VISUALS.event.accentClassName,
+                                )}
+                                iconClassName="size-8"
+                              />
+                              <div className="min-w-0">
+                                <p className="text-muted-foreground text-[10px] font-bold tracking-[0.2em] uppercase">
+                                  Event {event.index}
+                                </p>
+                                <EventHeading
+                                  event={event}
+                                  className="mt-1 font-serif text-2xl leading-tight font-bold text-balance sm:text-3xl"
+                                />
+                                {event.location ? (
+                                  <LocationReference
+                                    slug={event.location.slug}
+                                    label={event.location.name}
+                                    unstyled
+                                    className={cn(
+                                      'mt-4 inline-flex items-center gap-2 rounded-lg px-3 py-2 text-sm font-semibold',
+                                      ENTITY_KIND_VISUALS.location.pillClassName,
+                                    )}
+                                  >
+                                    {({ label, icon }) => (
+                                      <>
+                                        {icon}
+                                        <span>{label}</span>
+                                      </>
+                                    )}
+                                  </LocationReference>
+                                ) : null}
+                              </div>
+                            </Inline>
+                          </header>
+                          <div className="p-5 sm:p-7">
+                            <ContentRenderer
+                              content={event.notes}
+                              className="journal-score-copy gap-5 text-[0.98rem] leading-7 [&_a]:font-semibold [&_a]:underline [&_a]:decoration-current/25 [&_a]:underline-offset-4"
+                            />
+                            <ScoreQuestReferences quests={event.quests} />
+                          </div>
+                        </div>
+                        {voices.length > 0 ? <ScoreVoices voices={voices} /> : null}
+                      </div>
+                    </article>
+                  </Fragment>
                 )
               })}
             </div>
           </section>
         ))}
-        <div className="border-t-4 border-double border-stone-500/30 py-12 text-center">
-          <p className="font-serif text-5xl font-black">Fine</p>
+        <div className="border-border border-t py-12 text-center">
+          <p className="text-muted-foreground text-xs font-bold tracking-[0.24em] uppercase">
+            End of session
+          </p>
         </div>
       </div>
     </article>
+  )
+}
+
+function ScoreVoices({ voices }: { voices: JournalMention[] }) {
+  return (
+    <aside
+      className="journal-score-staff border-border border-t p-5 lg:border-t-0 lg:border-l"
+      aria-label="People referenced in this event"
+    >
+      <p className="text-muted-foreground mb-4 text-[9px] font-bold tracking-[0.2em] uppercase">
+        People in this event
+      </p>
+      <ul className="grid gap-2 sm:grid-cols-2 lg:grid-cols-1">
+        {voices.map((voice) => {
+          const visual = ENTITY_KIND_VISUALS[voice.kind]
+          const kindLabel = voice.kind === 'pc' ? 'Party' : voice.kind === 'npc' ? 'NPC' : 'Beast'
+          return (
+            <li key={`${voice.kind}-${voice.slug}`}>
+              <EntityReference
+                kind={voice.kind}
+                slug={voice.slug}
+                label={voice.name}
+                unstyled
+                className={cn(
+                  'flex items-center gap-2.5 rounded-lg border px-2.5 py-2',
+                  visual.borderClassName,
+                  visual.surfaceClassName,
+                  visual.hoverClassName,
+                )}
+              >
+                {({ label, icon }) => (
+                  <>
+                    {voice.avatar ? (
+                      <Avatar
+                        src={voice.avatar}
+                        className={cn('size-8 border-2', visual.borderClassName)}
+                      />
+                    ) : (
+                      icon
+                    )}
+                    <span className="min-w-0">
+                      <span className="block truncate text-xs font-semibold">{label}</span>
+                      <span
+                        className={cn(
+                          'block text-[9px] font-bold uppercase',
+                          visual.accentClassName,
+                        )}
+                      >
+                        {kindLabel}
+                      </span>
+                    </span>
+                  </>
+                )}
+              </EntityReference>
+            </li>
+          )
+        })}
+      </ul>
+    </aside>
+  )
+}
+
+function ScoreQuestReferences({ quests }: { quests: JournalQuestReference[] }) {
+  if (quests.length === 0) return null
+
+  return (
+    <div className="border-border mt-7 border-t pt-4">
+      <p className="text-muted-foreground mb-3 text-[9px] font-bold tracking-[0.22em] uppercase">
+        Quests & mysteries
+      </p>
+      <ul className="flex flex-wrap gap-2">
+        {quests.map((quest) => (
+          <li key={quest.slug}>
+            <EntityReference
+              kind="quest"
+              slug={quest.slug}
+              label={quest.name}
+              unstyled
+              className={cn(
+                'inline-flex items-center gap-2 rounded-lg border px-3 py-2 text-xs',
+                ENTITY_KIND_VISUALS.quest.borderClassName,
+                ENTITY_KIND_VISUALS.quest.surfaceClassName,
+                ENTITY_KIND_VISUALS.quest.hoverClassName,
+              )}
+            >
+              {({ label, icon }) => (
+                <>
+                  <span className={ENTITY_KIND_VISUALS.quest.accentClassName}>{icon}</span>
+                  <span className="font-semibold">{label}</span>
+                  <span className="text-muted-foreground capitalize">· {quest.type}</span>
+                </>
+              )}
+            </EntityReference>
+          </li>
+        ))}
+      </ul>
+    </div>
   )
 }
 

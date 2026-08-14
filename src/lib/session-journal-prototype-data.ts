@@ -1,12 +1,16 @@
 import type { Content } from '#/definitions/content'
 import type { EventMark } from '#/definitions/event'
 import { isEntityRef, type EntityKind, type EntityRef } from '#/definitions/kind'
+import type { QuestType } from '#/definitions/quest'
 import type { Session } from '#/definitions/session'
 import {
   eventLocation,
+  getEntity,
   locationAncestors,
+  locationParent,
   locationTypeOf,
   resolveRef,
+  reverseLinks,
   sessionDays,
   sessionNumber,
   sessionPcs,
@@ -24,9 +28,17 @@ export type JournalLocation = {
   slug: string
   name: string
   icon?: string
+  parentSlug?: string
+  parentName?: string
   path: string[]
   scene: string
   mapUrl?: string
+}
+
+export type JournalQuestReference = {
+  slug: string
+  name: string
+  type: QuestType
 }
 
 export type JournalEvent = {
@@ -38,6 +50,7 @@ export type JournalEvent = {
   mark: EventMark
   location?: JournalLocation
   mentions: JournalMention[]
+  quests: JournalQuestReference[]
 }
 
 export type JournalDay = {
@@ -65,6 +78,7 @@ export function sessionJournalPrototypeModel(session: Session): SessionJournalPr
     events: events.map((event) => {
       eventIndex += 1
       const location = eventLocation(event)
+      const parent = location ? locationParent(location) : undefined
       const locationPath = location
         ? [...locationAncestors(location), location].filter((entry) => entry.slug !== 'world')
         : []
@@ -74,6 +88,7 @@ export function sessionJournalPrototypeModel(session: Session): SessionJournalPr
           .find((entry) => ['dungeon', 'building'].includes(locationTypeOf(entry) ?? ''))?.name ??
         location?.name ??
         'Unknown location'
+      const mentions = journalMentions(event.notes)
 
       return {
         index: eventIndex,
@@ -87,12 +102,15 @@ export function sessionJournalPrototypeModel(session: Session): SessionJournalPr
               slug: location.slug,
               name: location.name,
               icon: location.icon,
+              parentSlug: parent?.slug,
+              parentName: parent?.name,
               path: locationPath.map((entry) => entry.name),
               scene,
               mapUrl: location.map.url.includes('placehold.co') ? undefined : location.map.url,
             }
           : undefined,
-        mentions: journalMentions(event.notes),
+        mentions,
+        quests: journalQuestReferences(event.slug, mentions),
       }
     }),
   }))
@@ -112,6 +130,24 @@ export function sessionJournalPrototypeModel(session: Session): SessionJournalPr
     })),
     days,
   }
+}
+
+function journalQuestReferences(
+  eventSlug: string,
+  mentions: JournalMention[],
+): JournalQuestReference[] {
+  const direct = mentions.flatMap((mention) => {
+    if (mention.kind !== 'quest') return []
+    const quest = getEntity('quest', mention.slug)
+    return quest ? [{ slug: quest.slug, name: quest.data.name, type: quest.data.type }] : []
+  })
+  const incoming = reverseLinks('event', eventSlug).flatMap(({ entity }) =>
+    entity.kind === 'quest'
+      ? [{ slug: entity.slug, name: entity.data.name, type: entity.data.type }]
+      : [],
+  )
+
+  return [...new Map([...direct, ...incoming].map((quest) => [quest.slug, quest])).values()]
 }
 
 function journalMentions(content: Content): JournalMention[] {
