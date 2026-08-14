@@ -62,52 +62,48 @@ function MapPlot({ map, label }: { map: MapSpec; label: string }) {
 
   return (
     <figure
-      className="border-border bg-muted/20 relative aspect-[10/7] min-h-64 overflow-hidden rounded-xl border"
+      className={cn(
+        'border-border relative aspect-[10/7] min-h-64 overflow-hidden rounded-xl border bg-amber-50/80 dark:bg-amber-950/20',
+        !hasArtwork &&
+          'bg-[linear-gradient(to_right,rgba(120,90,45,0.12)_1px,transparent_1px),linear-gradient(to_bottom,rgba(120,90,45,0.12)_1px,transparent_1px)] bg-[size:32px_32px]',
+      )}
       aria-label={label}
+      style={
+        hasArtwork
+          ? {
+              backgroundImage: `url(${url})`,
+              backgroundPosition: 'center',
+              backgroundSize: 'cover',
+            }
+          : undefined
+      }
     >
-      <div
-        className={cn(
-          'absolute inset-7 rounded-lg border border-amber-900/15 bg-amber-50/80 dark:border-amber-200/10 dark:bg-amber-950/20',
-          !hasArtwork &&
-            'bg-[linear-gradient(to_right,rgba(120,90,45,0.12)_1px,transparent_1px),linear-gradient(to_bottom,rgba(120,90,45,0.12)_1px,transparent_1px)] bg-[size:32px_32px]',
-        )}
-        style={
-          hasArtwork
-            ? {
-                backgroundImage: `url(${url})`,
-                backgroundPosition: 'center',
-                backgroundSize: 'cover',
-              }
-            : undefined
-        }
-      >
-        {map.points.map((point) => (
-          <LocationReference
-            key={point.slug}
-            slug={point.slug}
-            label={point.name}
-            unstyled
-            wrapperClassName="group absolute -translate-x-1/2 -translate-y-1/2"
-            wrapperStyle={{
-              left: `${(point.at[0] / width) * 100}%`,
-              top: `${(point.at[1] / height) * 100}%`,
-            }}
-            className="block rounded-full focus-visible:ring-4 focus-visible:ring-sky-500/50 focus-visible:outline-none"
-          >
-            {() => (
-              <span
-                className={cn(
-                  'bg-background text-primary flex size-9 items-center justify-center rounded-full border-2 shadow-md transition-transform group-hover:scale-110',
-                  point.current ? 'border-sky-500 ring-4 ring-sky-500/30' : 'border-primary/70',
-                )}
-                title={point.current ? `${point.name} — You are here` : point.name}
-              >
-                <LocationIcon icon={point.icon} className="size-4" />
-              </span>
-            )}
-          </LocationReference>
-        ))}
-      </div>
+      {map.points.map((point) => (
+        <LocationReference
+          key={point.slug}
+          slug={point.slug}
+          label={point.name}
+          unstyled
+          wrapperClassName="group absolute -translate-x-1/2 -translate-y-1/2"
+          wrapperStyle={{
+            left: `${(point.at[0] / width) * 100}%`,
+            top: `${(point.at[1] / height) * 100}%`,
+          }}
+          className="block rounded-full focus-visible:ring-4 focus-visible:ring-sky-500/50 focus-visible:outline-none"
+        >
+          {() => (
+            <span
+              className={cn(
+                'bg-background text-primary flex size-9 items-center justify-center rounded-full border-2 shadow-md transition-transform group-hover:scale-110',
+                point.current ? 'border-sky-500 ring-4 ring-sky-500/30' : 'border-primary/70',
+              )}
+              title={point.current ? `${point.name} — You are here` : point.name}
+            >
+              <LocationIcon icon={point.icon} className="size-4" />
+            </span>
+          )}
+        </LocationReference>
+      ))}
       {!hasArtwork ? (
         <p className="text-muted-foreground bg-background/85 border-border absolute right-2 bottom-2 rounded border px-2 py-1 text-[10px] font-medium tracking-wider uppercase">
           Schematic map
