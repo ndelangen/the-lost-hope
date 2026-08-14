@@ -1,0 +1,121 @@
+.journal-prototype {
+  scroll-behavior: smooth;
+}
+
+.journal-chronicle {
+  background-color: #f0e4c9;
+  background-image:
+    radial-gradient(circle at 12% 9%, rgb(131 91 42 / 10%) 0 1px, transparent 2px),
+    radial-gradient(circle at 82% 64%, rgb(131 91 42 / 8%) 0 1px, transparent 2px),
+    linear-gradient(
+      95deg,
+      rgb(255 255 255 / 35%),
+      transparent 18%,
+      transparent 82%,
+      rgb(73 41 18 / 8%)
+    );
+  background-size:
+    23px 23px,
+    31px 31px,
+    100% 100%;
+}
+
+.dark .journal-chronicle {
+  background-color: #201a16;
+  background-image:
+    radial-gradient(circle at 12% 9%, rgb(220 184 123 / 8%) 0 1px, transparent 2px),
+    linear-gradient(
+      95deg,
+      rgb(255 255 255 / 3%),
+      transparent 18%,
+      transparent 82%,
+      rgb(0 0 0 / 20%)
+    );
+}
+
+.journal-atlas {
+  background:
+    linear-gradient(rgb(21 58 60 / 92%), rgb(8 28 33 / 97%)),
+    repeating-linear-gradient(0deg, transparent 0 27px, rgb(231 207 151 / 8%) 28px),
+    repeating-linear-gradient(90deg, transparent 0 27px, rgb(231 207 151 / 8%) 28px);
+}
+
+.journal-reel {
+  background:
+    radial-gradient(circle at 20% 5%, rgb(124 58 237 / 22%), transparent 26rem),
+    radial-gradient(circle at 85% 38%, rgb(225 29 72 / 16%), transparent 34rem), #08090d;
+}
+
+.journal-reel-panel {
+  box-shadow:
+    0 0 0 1px rgb(255 255 255 / 10%),
+    0 32px 80px rgb(0 0 0 / 48%);
+}
+
+.journal-evidence {
+  background-color: #6f4b32;
+  background-image:
+    radial-gradient(circle at 30% 20%, rgb(255 255 255 / 5%) 0 1px, transparent 2px),
+    radial-gradient(circle at 70% 80%, rgb(0 0 0 / 7%) 0 1px, transparent 2px);
+  background-size:
+    18px 18px,
+    24px 24px;
+}
+
+.journal-evidence-paper {
+  background-color: #f5f0e3;
+  background-image: repeating-linear-gradient(0deg, transparent 0 27px, rgb(56 83 107 / 10%) 28px);
+}
+
+.journal-stage {
+  background:
+    radial-gradient(ellipse at 50% 8%, rgb(255 235 183 / 18%), transparent 28rem),
+    linear-gradient(
+      90deg,
+      #250810,
+      #5e1021 10%,
+      #260810 23%,
+      #16070d 50%,
+      #260810 77%,
+      #5e1021 90%,
+      #250810
+    );
+}
+
+.journal-stage-floor {
+  background:
+    radial-gradient(ellipse at 50% 0%, rgb(255 239 184 / 20%), transparent 60%),
+    linear-gradient(to bottom, #170c11, #0d080a);
+}
+
+.journal-score {
+  background-color: #f4f0e7;
+  background-image: linear-gradient(90deg, rgb(53 45 38 / 4%) 1px, transparent 1px);
+  background-size: 3rem 100%;
+}
+
+.dark .journal-score {
+  background-color: #17191c;
+}
+
+.journal-score-staff {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0 8px,
+    rgb(51 45 39 / 16%) 9px,
+    transparent 10px 17px
+  );
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .journal-prototype {
+    scroll-behavior: auto;
+  }
+
+  .journal-prototype * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
