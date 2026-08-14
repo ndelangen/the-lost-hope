@@ -179,7 +179,7 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Session:_ 9 ([n2-e074](/events/the-cursed-sword-breaks-verdant-havens-ward))
 
 - **What is the cursed sword, and is its shadow connected to the Faceless Shadow?**
-  - _Context:_ The Faceless Shadow left the sword in Roberto. The sword decayed the forest, broke Verdant Haven’s ward, and later released a shadow that killed a wolf and nearly killed Jim. In Session 13, a Gruumsh high priest removed the sword’s curse after it blackened his hand and recoiled from him. Whether both shadows are the same entity, whether the shadow survived the cleansing, and what became of the extracted curse remain unknown.
+  - _Context:_ The Faceless Shadow left the sword in Roberto. The sword decayed the forest, broke Verdant Haven’s ward, and later released a shadow that killed a wolf and nearly killed Jim. In Session 13, the [Gruumsh High Priest](/npcs/detail/gruumsh-high-priest) removed the sword’s curse after it blackened his hand and recoiled from him. Whether both shadows are the same entity, whether the shadow survived the cleansing, and what became of the extracted curse remain unknown.
   - _Session:_ 9, 13 ([n2-e073](/events/the-party-rescues-roberto-from-a-faceless-shadow), [n2-e078](/events/the-cursed-swords-shadow-nearly-kills-jim), [n2-e132](/events/detail/the-high-priest-frees-jim-from-pain-and-cleanses-the-shadow-sword))
 
 - **How reliable was Roberto’s interrogation, and did an Eyeless Hand splinter cell destroy Fairhaven?**
@@ -293,13 +293,13 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Why asking:_ Its function, whether it records the cleared door, and whether it is needed to continue or re-enter the dungeon are unknown.
   - _Session:_ 13 ([n2-e128](/events/detail/the-dragon-horn-becomes-the-serpent-eclipse-trial-disk))
 
-- **What curse did the Gruumsh high priest remove from Cassian, and where did it come from?**
-  - _Context:_ Cassian described a curse that improved his spell attacks by one but gave every opponent advantage when attacking him. The high priest removed it for a 50 GP donation, but the transcript did not identify its source or name.
+- **What curse did the Gruumsh High Priest remove from Cassian, and where did it come from?**
+  - _Context:_ Cassian described a curse that improved his spell attacks by one but gave every opponent advantage when attacking him. The [Gruumsh High Priest](/npcs/detail/gruumsh-high-priest) removed it for a 50 GP donation, but the transcript did not identify its source or name.
   - _Why asking:_ The effect is resolved, but its missing provenance may mean an earlier event or item still lacks canon.
   - _Session:_ 13 ([n2-e131](/events/detail/the-high-priest-removes-cassian-s-curse))
 
 - **What are the exact stages and limits of Cassian’s werewolf transformation?**
-  - _Context:_ The Gruumsh high priest said Cassian’s hunger was not a curse but a two-way bond that placed part of Wolfie’s life in Cassian’s soul. Research in the temple library made it clear that the ring is gradually turning Cassian into a werewolf-like hybrid. His craving for meat and ability to identify animals by scent were already evident; claws, fangs, and increased hair were identified as further signs.
+  - _Context:_ The [Gruumsh High Priest](/npcs/detail/gruumsh-high-priest) said Cassian’s hunger was not a curse but a two-way bond that placed part of Wolfie’s life in Cassian’s soul. Research in the temple library made it clear that the ring is gradually turning Cassian into a werewolf-like hybrid. His craving for meat and ability to identify animals by scent were already evident; claws, fangs, and increased hair were identified as further signs.
   - _Why asking:_ The transformation itself is established, but its full-moon behavior, sensitivity to silver, pace, degree of control, risks to Cassian and Wolfie, and consequences of fighting or embracing it remain unknown.
   - _Session:_ 13 ([n2-e134](/events/detail/cassian-learns-the-ring-is-turning-him-into-a-werewolf))
 

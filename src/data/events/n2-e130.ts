@@ -24,7 +24,9 @@ export default createEvent({
     [
       'About twenty-seven worshippers were gathered in the ',
       refs.locations.gruumsh_temple_main_hall,
-      ', where the party met the temple’s short high priest.',
+      ', where the party met the ',
+      refs.npcs.gruumsh_high_priest,
+      '.',
     ],
   ],
 })

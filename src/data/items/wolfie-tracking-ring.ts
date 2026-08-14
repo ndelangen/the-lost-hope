@@ -16,8 +16,7 @@ export default createItem({
       ' at any time. Its negative effect leaves the attuned wearer insatiably hungry; four normal-sized portions were initially required to feel satisfied.',
     ],
     [
-      'A high priest of the ',
-      refs.organizations.church_of_gruumsh,
+      refs.npcs.gruumsh_high_priest,
       ' determined that the hunger is not a removable curse. The ring opened a two-way bond that placed part of Wolfie’s life in ',
       refs.pcs.cassian_veyl,
       '’s soul and is gradually transforming him into a werewolf-like hybrid. The change is already expressed through his craving for meat and heightened animal scent; claws, fangs, and increased hair were identified as further signs.',

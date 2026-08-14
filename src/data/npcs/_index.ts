@@ -15,6 +15,7 @@ import frog_medicine_man_of_verdant_haven from './frog-medicine-man-of-verdant-h
 import giggles from './giggles.ts'
 import goblin_grass_keepers from './goblin-grass-keepers.ts'
 import gridswald from './gridswald.ts'
+import gruumsh_high_priest from './gruumsh-high-priest.ts'
 import hex from './hex.ts'
 import knukkles from './knukkles.ts'
 import light_13th_marshal from './light-13th-marshal.ts'
@@ -57,6 +58,7 @@ export default {
   giggles,
   goblin_grass_keepers,
   gridswald,
+  gruumsh_high_priest,
   hex,
   knukkles,
   mystery_girl,

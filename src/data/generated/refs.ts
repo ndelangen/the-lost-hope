@@ -175,6 +175,7 @@ export const refs = {
     giggles: ref('npc', 'giggles'),
     goblin_grass_keepers: ref('npc', 'goblin_grass_keepers'),
     gridswald: ref('npc', 'gridswald'),
+    gruumsh_high_priest: ref('npc', 'gruumsh_high_priest'),
     hex: ref('npc', 'hex'),
     knukkles: ref('npc', 'knukkles'),
     mystery_girl: ref('npc', 'mystery_girl'),

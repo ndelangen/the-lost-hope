@@ -9,15 +9,20 @@ export default createEvent({
   notes: [
     [
       refs.pcs.cassian_veyl,
-      ' donated 50 GP for the high priest to remove an unidentified curse that improved his spell attacks by one but gave every opponent advantage when attacking him.',
+      ' donated 50 GP for the ',
+      refs.npcs.gruumsh_high_priest,
+      ' to remove an unidentified curse that improved his spell attacks by one but gave every opponent advantage when attacking him.',
     ],
     [
       'Over an hour in the ',
       refs.locations.gruumsh_temple_ritual_room,
-      ', the priest repeatedly beat and healed Cassian until the curse was gone.',
+      ', the ',
+      refs.npcs.gruumsh_high_priest,
+      ' repeatedly beat and healed Cassian until the curse was gone.',
     ],
     [
-      'The priest could not remove the hunger caused by the ',
+      refs.npcs.gruumsh_high_priest,
+      ' could not remove the hunger caused by the ',
       refs.items.wolfie_tracking_ring,
       ' because the ring’s effect was not a curse.',
     ],

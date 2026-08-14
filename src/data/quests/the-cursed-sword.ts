@@ -58,7 +58,9 @@ export default createQuest({
     ],
     [
       refs.events.n2_e132,
-      ' — as a favor separate from Jim’s 20 GP pain-removal debt, a Gruumsh high priest removed the sword’s curse after it blackened his hand and recoiled from him, but did not reveal what became of the curse or its shadow.',
+      ' — as a favor separate from Jim’s 20 GP pain-removal debt, the ',
+      refs.npcs.gruumsh_high_priest,
+      ' removed the sword’s curse after it blackened his hand and recoiled from him, but did not reveal what became of the curse or its shadow.',
     ],
   ],
   conclusion: [],

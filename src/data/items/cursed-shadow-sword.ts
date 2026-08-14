@@ -9,8 +9,8 @@ export default createItem({
   craftedBy: null,
   notes: [
     [
-      'A shadow-bearing sword whose curse was removed by a high priest of the ',
-      refs.organizations.church_of_gruumsh,
+      'A shadow-bearing sword whose curse was removed by the ',
+      refs.npcs.gruumsh_high_priest,
       ' during ',
       refs.events.n2_e132,
       '. What became of the extracted curse and the deadly shadow formerly bound to the blade remains unknown.',

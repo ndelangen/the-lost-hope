@@ -175,6 +175,19 @@ describe('player-character status', () => {
       ),
     ).toBe(true)
   })
+
+  it('records the Gruumsh High Priest as an NPC at the war temple', () => {
+    expect(npcs.gruumsh_high_priest.location?.key).toBe(refs.locations.gruumsh_war_temple.key)
+    expect(
+      npcs.gruumsh_high_priest.memberships?.some(
+        ({ organization, rank }) =>
+          organization.key === refs.organizations.church_of_gruumsh.key && rank === 'High Priest',
+      ),
+    ).toBe(true)
+    expect(events.n2_e130.notes.flat()).toContainEqual(refs.npcs.gruumsh_high_priest)
+    expect(events.n2_e131.notes.flat()).toContainEqual(refs.npcs.gruumsh_high_priest)
+    expect(events.n2_e132.notes.flat()).toContainEqual(refs.npcs.gruumsh_high_priest)
+  })
 })
 
 describe('items', () => {
@@ -227,7 +240,7 @@ describe('items', () => {
     expect(items.wolfie_tracking_ring.notes?.flat().join('')).toContain('werewolf-like hybrid')
     expect(quests.the_cursed_sword.clues.flat()).toContainEqual(refs.events.n2_e132)
     expect(events.n2_e132.notes.flat().join('')).toContain(
-      '20 GP debt specifically for the high priest’s pain-removal ritual',
+      '20 GP debt specifically for the pain-removal ritual',
     )
     expect(events.n2_e132.notes.flat().join('')).toContain(
       'as a favor separate from the 20 GP debt',

@@ -11,7 +11,9 @@ export default createLocation({
     [
       'The initial gathering hall of the ',
       refs.locations.gruumsh_war_temple,
-      ', used by the temple’s worshippers and high priest.',
+      ', used by the temple’s worshippers and the ',
+      refs.npcs.gruumsh_high_priest,
+      '.',
     ],
   ],
 })

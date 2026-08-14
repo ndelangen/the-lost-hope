@@ -11,7 +11,9 @@ export default createLocation({
     [
       'A private, soundproofed chamber in the ',
       refs.locations.gruumsh_war_temple,
-      ' where the high priest performs painful curative and curse-removal rites.',
+      ' where the ',
+      refs.npcs.gruumsh_high_priest,
+      ' performs painful curative and curse-removal rites.',
     ],
   ],
 })
