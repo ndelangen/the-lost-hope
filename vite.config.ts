@@ -39,6 +39,9 @@ const config = defineConfig(({ mode }) => {
     define: {
       CORRECTIONS_ACCESS_CODE_DIGEST: JSON.stringify(accessCodeHash),
     },
+    preview: {
+      host: '127.0.0.1',
+    },
     plugins: [
       generatedRefsPlugin(),
       tanstackStart({
