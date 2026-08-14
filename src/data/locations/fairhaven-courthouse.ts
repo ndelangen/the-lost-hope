@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'lucide/Gavel',
   type: 'building',
   parent: refs.locations.fairhaven,
-  at: [0, 0],
+  at: [600, 160],
   notes: [
     [
       'A courthouse in ',

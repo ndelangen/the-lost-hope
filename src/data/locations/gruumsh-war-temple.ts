@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiTempleDoor',
   type: 'building',
   parent: refs.locations.nimbus,
-  at: [0, 0],
+  at: [200, 180],
   notes: [
     [
       'A temple of the ',

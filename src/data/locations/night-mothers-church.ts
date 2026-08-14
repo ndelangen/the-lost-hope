@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'lucide/MoonStar',
   type: 'building',
   parent: refs.locations.nimbus,
-  at: [0, 0],
+  at: [500, 170],
   notes: [
     [
       'A church on ',

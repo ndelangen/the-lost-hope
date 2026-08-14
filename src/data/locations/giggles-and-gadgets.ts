@@ -7,7 +7,7 @@ export default createLocation({
   aliases: ['Gadgets and Giggles'],
   type: 'building',
   parent: refs.locations.fairhaven,
-  at: [0, 0],
+  at: [810, 480],
   notes: [
     [
       'A shop selling all kinds of mechanisms, including flying brooms. Its name occasionally switches the order of its two title words.',

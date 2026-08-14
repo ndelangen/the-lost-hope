@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiMountaintop',
   type: 'landmark',
   parent: refs.locations.world,
-  at: [600, 200],
+  at: [740, 410],
   notes: [
     [
       'The mountain summit, home of the ',

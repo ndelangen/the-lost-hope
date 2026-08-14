@@ -6,6 +6,6 @@ export default createLocation({
   icon: 'gi/GiVillage',
   type: 'settlement',
   parent: refs.locations.world,
-  at: [600, 600],
+  at: [740, 610],
   notes: [['A town ruled by ', refs.npcs.lord_malachar, '. Its residents fear their lord.']],
 })

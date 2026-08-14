@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiTripleGate',
   type: 'dungeon',
   parent: refs.locations.temple_of_the_serpent_eclipse,
-  at: [0, 0],
+  at: [500, 350],
   notes: [
     [
       'A chamber in the ',

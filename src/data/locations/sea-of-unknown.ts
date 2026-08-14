@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiWaves',
   type: 'region',
   parent: refs.locations.world,
-  at: [0, 0],
+  at: [900, 250],
   notes: [
     ['A sea separating ', refs.locations.verdant_haven, ' from ', refs.locations.fairhaven, '.'],
   ],

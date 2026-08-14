@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiPokerHand',
   type: 'district',
   parent: refs.locations.sylvias_flying_bazaar,
-  at: [0, 0],
+  at: [700, 350],
   notes: [
     [
       'The casino area aboard ',

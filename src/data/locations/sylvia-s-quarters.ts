@@ -6,6 +6,6 @@ export default createLocation({
   icon: 'gi/GiCaptainHatProfile',
   type: 'district',
   parent: refs.locations.sylvias_flying_bazaar,
-  at: [0, 0],
+  at: [700, 550],
   notes: [['The private room of ', refs.npcs.sylvia, ' aboard her flying bazaar.']],
 })

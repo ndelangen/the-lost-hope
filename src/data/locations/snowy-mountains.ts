@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'lucide/MountainSnow',
   type: 'wilderness',
   parent: refs.locations.world,
-  at: [0, 0],
+  at: [580, 610],
   notes: [
     [
       'A mountain range on the route from ',

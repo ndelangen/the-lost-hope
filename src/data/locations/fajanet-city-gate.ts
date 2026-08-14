@@ -6,6 +6,6 @@ export default createLocation({
   icon: 'gi/GiGate',
   type: 'landmark',
   parent: refs.locations.fajanet,
-  at: [0, 0],
+  at: [120, 350],
   notes: [['The guarded entrance to ', refs.locations.fajanet, '.']],
 })

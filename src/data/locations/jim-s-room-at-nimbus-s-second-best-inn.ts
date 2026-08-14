@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'lucide/BedSingle',
   type: 'district',
   parent: refs.locations.nimbus_s_second_best_inn,
-  at: [0, 0],
+  at: [500, 350],
   notes: [
     ['The room assigned to ', refs.pcs.jim, ' at ', refs.locations.nimbus_s_second_best_inn, '.'],
   ],

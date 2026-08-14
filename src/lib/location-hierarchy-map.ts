@@ -15,6 +15,9 @@ export type LocationHierarchyMapModel = {
   points: LocationHierarchyMapPoint[]
 }
 
+export const LOCATION_MAP_EDGE_INSET_RATIO = 0.08
+export const LOCATION_MAP_MIN_POINT_SEPARATION_RATIO = 0.15
+
 export function buildLocationHierarchyMap(
   owner: Location,
   locations: readonly LocationEntity[],
@@ -38,10 +41,26 @@ export function buildLocationHierarchyMap(
   return { asset: owner.map, points }
 }
 
-export function coordinatesWithinMap(
+export function coordinatesWithinMapInset(
   coordinates: readonly [number, number],
   map: Location['map'],
 ): boolean {
   const [x, y] = coordinates
-  return x >= 0 && x <= map.width && y >= 0 && y <= map.height
+  const horizontalInset = map.width * LOCATION_MAP_EDGE_INSET_RATIO
+  const verticalInset = map.height * LOCATION_MAP_EDGE_INSET_RATIO
+
+  return (
+    x >= horizontalInset &&
+    x <= map.width - horizontalInset &&
+    y >= verticalInset &&
+    y <= map.height - verticalInset
+  )
+}
+
+export function normalizedMapCoordinateDistance(
+  first: readonly [number, number],
+  second: readonly [number, number],
+  map: Location['map'],
+): number {
+  return Math.hypot((first[0] - second[0]) / map.width, (first[1] - second[1]) / map.height)
 }

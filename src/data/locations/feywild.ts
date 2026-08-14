@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiFairyWand',
   type: 'realm',
   parent: refs.locations.world,
-  at: [0, 600],
+  at: [260, 610],
   notes: [
     [
       'A realm toward which ',

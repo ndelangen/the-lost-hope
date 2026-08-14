@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiBeerStein',
   type: 'building',
   parent: refs.locations.shadowpeak_residential_district,
-  at: [200, 600],
+  at: [500, 350],
   notes: [
     ['The only tavern in ', refs.locations.shadowpeak, '.'],
     [

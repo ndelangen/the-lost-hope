@@ -6,6 +6,6 @@ export default createLocation({
   icon: 'fa/FaMap',
   type: 'realm',
   parent: refs.locations.world,
-  at: [800, 0],
+  at: [900, 90],
   notes: [['The continent where the party began its adventures.']],
 })

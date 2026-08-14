@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiBubblingFlask',
   type: 'building',
   parent: refs.locations.fairhaven,
-  at: [0, 0],
+  at: [840, 180],
   notes: [
     [
       'An exceptionally high-end potion brewery and shop operated by ',

@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiBirdHouse',
   type: 'building',
   parent: refs.locations.fajanet,
-  at: [0, 400],
+  at: [570, 300],
   notes: [
     ['A working-class tavern.'],
     ['A ground-floor common room with second-floor rooms for travelers.'],

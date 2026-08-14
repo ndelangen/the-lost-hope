@@ -6,6 +6,6 @@ export default createLocation({
   icon: 'lucide/FlaskConical',
   type: 'building',
   parent: refs.locations.fairhaven,
-  at: [0, 0],
+  at: [1030, 570],
   notes: [['The alchemy shop owned by ', refs.npcs.penelope, '.']],
 })
