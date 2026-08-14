@@ -3,6 +3,13 @@
 The player-facing campaign archive for reconstructing established events, active objectives, and
 unanswered story threads.
 
+## Delivery Performance
+
+**Delivery footprint**:
+The bytes transferred to a visitor for the pages and interactions they actually use. It includes
+the initial page load and later navigation, but excludes repository size and untransferred source
+assets.
+
 ## Quests
 
 **Quest**:
