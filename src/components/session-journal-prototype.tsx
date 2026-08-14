@@ -998,12 +998,9 @@ function PartyScore({ model }: { model: SessionJournalPrototypeModel }) {
                                 iconClassName="size-8"
                               />
                               <div className="min-w-0">
-                                <p className="text-muted-foreground text-[10px] font-bold tracking-[0.2em] uppercase">
-                                  Event {event.index}
-                                </p>
                                 <EventHeading
                                   event={event}
-                                  className="mt-1 font-serif text-2xl leading-tight font-bold text-balance sm:text-3xl"
+                                  className="font-serif text-xl leading-tight font-bold text-balance sm:text-2xl"
                                 />
                                 {event.location ? (
                                   <LocationReference
