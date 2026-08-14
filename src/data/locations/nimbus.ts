@@ -16,6 +16,15 @@ export default createLocation({
     [
       'Nimbus has two known dungeons. A goblin-run transport company handles travel around the island.',
     ],
+    [
+      'Its three known churches are the ',
+      refs.locations.gruumsh_war_temple,
+      ', ',
+      refs.locations.night_mothers_church,
+      ', and the ',
+      refs.locations.temple_of_the_watchers,
+      '.',
+    ],
     ['No dwarves were present when the party arrived.'],
   ],
 })

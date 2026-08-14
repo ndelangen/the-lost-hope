@@ -82188,7 +82188,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/all-seeing-eye.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/temple-of-the-watchers.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiAlmond",
@@ -94974,7 +94977,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/skoll/blood.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/gruumsh-temple-blood-hall.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiBloodyStash",
@@ -110935,6 +110941,7 @@
       "usedIn": [
         "src/data/events/n2-e012.ts",
         "src/data/events/n2-e043.ts",
+        "src/data/events/n2-e124.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -112501,6 +112508,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/church.html",
       "usedIn": [
         "src/data/events/n2-e072.ts",
+        "src/data/events/n2-e130.ts",
         "src/data/locations/verdant-haven-church.ts",
         "src/lib/event-icons.tsx",
         "src/lib/location-icons.tsx"
@@ -119184,7 +119192,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/crossed-axes.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/organizations/church-of-gruumsh.ts",
+        "src/lib/organization-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiCrossedBones",
@@ -124169,7 +124180,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/desk.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/serpent-eclipse-reception-hall.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiDeskLamp",
@@ -127394,7 +127408,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/doorway.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/events/n2-e129.ts",
+        "src/lib/event-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiDorsalScales",
@@ -128781,6 +128798,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/drinking.html",
       "usedIn": [
         "src/data/events/n2-e059.ts",
+        "src/data/events/n2-e133.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -129901,7 +129919,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/dungeon-gate.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/serpent-eclipse-dungeon-entrance.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiDungeonLight",
@@ -142142,6 +142163,7 @@
       "usedIn": [
         "src/data/events/n2-e014.ts",
         "src/data/events/n2-e028.ts",
+        "src/data/events/n2-e125.ts",
         "src/data/locations/trapdoor.ts",
         "src/lib/event-icons.tsx",
         "src/lib/location-icons.tsx"
@@ -158724,7 +158746,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/horn-internal.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/purple-dragon-horn.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiHorseHead",
@@ -177919,7 +177944,12 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/metal-disc.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/events/n2-e128.ts",
+        "src/data/items/serpent-eclipse-trial-disk.ts",
+        "src/lib/event-icons.tsx",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiMetalGolemHead",
@@ -189939,6 +189969,7 @@
         "src/data/events/n2-e042.ts",
         "src/data/events/n2-e093.ts",
         "src/data/events/n2-e104.ts",
+        "src/data/events/n2-e123.ts",
         "src/data/items/nimbus-dungeon-stamp-card.ts",
         "src/lib/event-icons.tsx",
         "src/lib/item-icons.tsx"
@@ -197596,7 +197627,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/prayer.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/gruumsh-temple-ritual-room.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiPrayerBeads",
@@ -210386,6 +210420,7 @@
       "usedIn": [
         "src/data/events/n2-e029.ts",
         "src/data/events/n2-e073.ts",
+        "src/data/events/n2-e126.ts",
         "src/data/sessions/fairhaven-shadows.ts",
         "src/lib/event-icons.tsx",
         "src/lib/session-icons.tsx"
@@ -210436,7 +210471,10 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/shadow-grasp.html",
       "usedIn": [
         "src/data/events/n2-e078.ts",
-        "src/lib/event-icons.tsx"
+        "src/data/events/n2-e127.ts",
+        "src/data/locations/serpent-eclipse-shadow-arena.ts",
+        "src/lib/event-icons.tsx",
+        "src/lib/location-icons.tsx"
       ]
     },
     {
@@ -217029,7 +217067,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/snake-totem.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/sessions/the-first-dungeon.ts",
+        "src/lib/session-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiSnatch",
@@ -233097,7 +233138,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/temple-door.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/gruumsh-war-temple.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiTempleGate",
@@ -233164,7 +233208,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/temple-gate.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/temple-of-the-serpent-eclipse.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiTemporaryShield",
@@ -234733,7 +234780,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/throne-king.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/gruumsh-temple-main-hall.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiThrowingBall",
@@ -239787,7 +239837,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/triple-gate.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/serpent-eclipse-three-door-chamber.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiTripleLock",
@@ -241858,7 +241911,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/two-shadows.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/serpent-eclipse-left-door-passage.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiTyre",
@@ -282095,7 +282151,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/library",
-      "usedIn": []
+      "usedIn": [
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "lucide/LibraryBig",
@@ -287273,7 +287331,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/moon-star",
-      "usedIn": []
+      "usedIn": [
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "lucide/Motorbike",

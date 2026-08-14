@@ -133,5 +133,6 @@ export default createCampaign({
     sessions.escape_from_shadowpeak,
     sessions.the_flying_bazaar,
     sessions.the_fiddlers_game,
+    sessions.the_first_dungeon,
   ],
 })

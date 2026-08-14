@@ -35,7 +35,7 @@ function pngDimensions(bytes: Buffer): { width: number; height: number } {
 async function audit(): Promise<void> {
   const errors = validatePublicPageDescriptors()
   assert(errors.length === 0, errors.join('\n'))
-  assert(PUBLIC_PAGE_DESCRIPTORS.length === 293, 'The public-page contract must contain 293 pages')
+  assert(PUBLIC_PAGE_DESCRIPTORS.length === 323, 'The public-page contract must contain 323 pages')
 
   const expectedPaths = new Set(PUBLIC_PAGE_DESCRIPTORS.map(({ path }) => path))
   const pagesData = JSON.parse(await readFile(join(OUTPUT_DIRECTORY, 'pages.json'), 'utf8')) as {
@@ -44,7 +44,7 @@ async function audit(): Promise<void> {
   const builtPaths = pagesData.pages.map(({ path }) => path)
   assert(
     builtPaths.length === expectedPaths.size,
-    `Expected 293 sitemap pages, found ${builtPaths.length}`,
+    `Expected 323 sitemap pages, found ${builtPaths.length}`,
   )
   assert(
     builtPaths.every((path) => expectedPaths.has(path)),
@@ -56,7 +56,7 @@ async function audit(): Promise<void> {
   const expectedUrls = new Set([...expectedPaths].map((path) => new URL(path, SITE_ORIGIN).href))
   assert(
     sitemapUrls.length === expectedUrls.size,
-    `Expected 293 sitemap URLs, found ${sitemapUrls.length}`,
+    `Expected 323 sitemap URLs, found ${sitemapUrls.length}`,
   )
   assert(
     sitemapUrls.every((url) => url && expectedUrls.has(url)),
@@ -115,7 +115,7 @@ async function audit(): Promise<void> {
   const socialFiles = (await readdir(join(OUTPUT_DIRECTORY, 'social-previews'))).filter((file) =>
     file.endsWith('.png'),
   )
-  assert(socialFiles.length === 293, `Expected 293 social images, found ${socialFiles.length}`)
+  assert(socialFiles.length === 323, `Expected 323 social images, found ${socialFiles.length}`)
   for (const path of Object.values(SOCIAL_IMAGE_PATHS)) {
     const bytes = await readFile(join(OUTPUT_DIRECTORY, path))
     const { width, height } = pngDimensions(bytes)

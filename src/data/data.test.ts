@@ -52,11 +52,44 @@ describe('location import order', () => {
     expect(locationRegistry.default.world.slug).toBe('world')
   })
 
-  it('nests Session 12 scenes beneath their physical locations', () => {
+  it('nests recent session scenes beneath their physical locations', () => {
     expect(locationParent(locations.gambling_deck)?.slug).toBe(locations.sylvias_flying_bazaar.slug)
     expect(locationParent(locations.lower_stables)?.slug).toBe(locations.sylvias_flying_bazaar.slug)
     expect(locationParent(locations.bob_s_stall)?.slug).toBe(locations.sylvias_flying_bazaar.slug)
     expect(locationParent(locations.nimbus_s_second_best_inn)?.slug).toBe(locations.nimbus.slug)
+    expect(locationParent(locations.temple_of_the_serpent_eclipse)?.slug).toBe(
+      locations.nimbus.slug,
+    )
+    expect(locationParent(locations.gruumsh_war_temple)?.slug).toBe(locations.nimbus.slug)
+    expect(locationParent(locations.night_mothers_church)?.slug).toBe(locations.nimbus.slug)
+    expect(locationParent(locations.temple_of_the_watchers)?.slug).toBe(locations.nimbus.slug)
+    expect(locationParent(locations.serpent_eclipse_dungeon_entrance)?.slug).toBe(
+      locations.temple_of_the_serpent_eclipse.slug,
+    )
+    expect(locationParent(locations.serpent_eclipse_reception_hall)?.slug).toBe(
+      locations.temple_of_the_serpent_eclipse.slug,
+    )
+    expect(locationParent(locations.serpent_eclipse_three_door_chamber)?.slug).toBe(
+      locations.temple_of_the_serpent_eclipse.slug,
+    )
+    expect(locationParent(locations.serpent_eclipse_left_door_passage)?.slug).toBe(
+      locations.temple_of_the_serpent_eclipse.slug,
+    )
+    expect(locationParent(locations.serpent_eclipse_shadow_arena)?.slug).toBe(
+      locations.temple_of_the_serpent_eclipse.slug,
+    )
+    expect(locationParent(locations.gruumsh_temple_main_hall)?.slug).toBe(
+      locations.gruumsh_war_temple.slug,
+    )
+    expect(locationParent(locations.gruumsh_temple_ritual_room)?.slug).toBe(
+      locations.gruumsh_war_temple.slug,
+    )
+    expect(locationParent(locations.gruumsh_temple_blood_hall)?.slug).toBe(
+      locations.gruumsh_war_temple.slug,
+    )
+    expect(locationParent(locations.gruumsh_temple_library)?.slug).toBe(
+      locations.gruumsh_war_temple.slug,
+    )
   })
 })
 
@@ -134,6 +167,27 @@ describe('player-character status', () => {
       [pcs.cassian_veyl, pcs.devan, pcs.jim, pcs.swift_starblade].map((pc) => pc.level),
     ).toEqual([5, 5, 5, 5])
   })
+
+  it('records Devan as a member of the Church of Gruumsh', () => {
+    expect(
+      pcs.devan.memberships?.some(
+        ({ organization }) => organization.key === refs.organizations.church_of_gruumsh.key,
+      ),
+    ).toBe(true)
+  })
+
+  it('records the Gruumsh High Priest as an NPC at the war temple', () => {
+    expect(npcs.gruumsh_high_priest.location?.key).toBe(refs.locations.gruumsh_war_temple.key)
+    expect(
+      npcs.gruumsh_high_priest.memberships?.some(
+        ({ organization, rank }) =>
+          organization.key === refs.organizations.church_of_gruumsh.key && rank === 'High Priest',
+      ),
+    ).toBe(true)
+    expect(events.n2_e130.notes.flat()).toContainEqual(refs.npcs.gruumsh_high_priest)
+    expect(events.n2_e131.notes.flat()).toContainEqual(refs.npcs.gruumsh_high_priest)
+    expect(events.n2_e132.notes.flat()).toContainEqual(refs.npcs.gruumsh_high_priest)
+  })
 })
 
 describe('items', () => {
@@ -168,6 +222,7 @@ describe('items', () => {
       items.lights_unidentified_drops.slug,
       items.nimbus_dungeon_stamp_card.slug,
       items.robertos_map_pages.slug,
+      items.serpent_eclipse_trial_disk.slug,
     ])
     expect(itemsCarriedBy('pc', pcs.devan.slug).map((item) => item.slug)).toEqual([
       items.flask_of_never_ending_booze.slug,
@@ -176,11 +231,26 @@ describe('items', () => {
     ])
     expect(
       itemsOwnedBy('organization', organizations.beasts_and_dwarf.slug).map((item) => item.slug),
-    ).toEqual([items.nimbus_dungeon_stamp_card.slug])
+    ).toEqual([items.nimbus_dungeon_stamp_card.slug, items.serpent_eclipse_trial_disk.slug])
     expect(items.nimbus_dungeon_stamp_card.carriedBy?.key).toBe(refs.pcs.jim.key)
     expect(items.nimbus_dungeon_stamp_card.quantity).toBe(1)
+    expect(items.purple_dragon_horn.currentOwner).toBeNull()
+    expect(items.purple_dragon_horn.carriedBy).toBeNull()
+    expect(items.purple_dragon_horn.notes?.flat()).toContainEqual(
+      refs.items.serpent_eclipse_trial_disk,
+    )
+    expect(items.serpent_eclipse_trial_disk.carriedBy?.key).toBe(refs.pcs.jim.key)
     expect(items.steve_mace_of_returning.craftedBy?.key).toBe(refs.npcs.bessy.key)
     expect(items.rare_dragon_scales.quantity).toBe(2)
+    expect(items.cursed_shadow_sword.notes?.flat()).toContainEqual(refs.events.n2_e132)
+    expect(items.wolfie_tracking_ring.notes?.flat().join('')).toContain('werewolf-like hybrid')
+    expect(quests.the_cursed_sword.clues.flat()).toContainEqual(refs.events.n2_e132)
+    expect(events.n2_e132.notes.flat().join('')).toContain(
+      '20 GP debt specifically for the pain-removal ritual',
+    )
+    expect(events.n2_e132.notes.flat().join('')).toContain(
+      'as a favor separate from the 20 GP debt',
+    )
   })
 })
 
@@ -649,7 +719,120 @@ describe('campaign chronology', () => {
     ])
   })
 
+  it('records Session 13 across the Serpent Eclipse and Gruumsh temple rooms', () => {
+    expect(sessionDays(sessions.the_first_dungeon)).toEqual([
+      {
+        day: 21,
+        events: [
+          events.n2_e123,
+          events.n2_e124,
+          events.n2_e125,
+          events.n2_e126,
+          events.n2_e127,
+          events.n2_e128,
+          events.n2_e129,
+          events.n2_e130,
+          events.n2_e131,
+          events.n2_e132,
+          events.n2_e133,
+          events.n2_e134,
+        ],
+      },
+    ])
+    expect(sessionPcs(sessions.the_first_dungeon).map((pc) => pc.slug)).toEqual([
+      'cassian-veyl',
+      'devan',
+      'jim',
+      'swift-starblade',
+    ])
+    expect(
+      [
+        events.n2_e123,
+        events.n2_e124,
+        events.n2_e125,
+        events.n2_e126,
+        events.n2_e127,
+        events.n2_e128,
+        events.n2_e129,
+        events.n2_e130,
+        events.n2_e131,
+        events.n2_e132,
+        events.n2_e133,
+        events.n2_e134,
+      ].map((event) => event.location.key),
+    ).toEqual([
+      refs.locations.serpent_eclipse_dungeon_entrance.key,
+      refs.locations.serpent_eclipse_reception_hall.key,
+      refs.locations.serpent_eclipse_three_door_chamber.key,
+      refs.locations.serpent_eclipse_left_door_passage.key,
+      refs.locations.serpent_eclipse_shadow_arena.key,
+      refs.locations.serpent_eclipse_three_door_chamber.key,
+      refs.locations.serpent_eclipse_reception_hall.key,
+      refs.locations.gruumsh_temple_main_hall.key,
+      refs.locations.gruumsh_temple_ritual_room.key,
+      refs.locations.gruumsh_temple_ritual_room.key,
+      refs.locations.gruumsh_temple_blood_hall.key,
+      refs.locations.gruumsh_temple_library.key,
+    ])
+  })
+
+  it('uses entity references instead of bare canonical names in Session 13 notes', () => {
+    const sessionEvents = [
+      events.n2_e123,
+      events.n2_e124,
+      events.n2_e125,
+      events.n2_e126,
+      events.n2_e127,
+      events.n2_e128,
+      events.n2_e129,
+      events.n2_e130,
+      events.n2_e131,
+      events.n2_e132,
+      events.n2_e133,
+      events.n2_e134,
+    ]
+    const bareCanonicalName =
+      /\b(?:Cassian|Devan|Jim|Swift|Wolfie|Fiddler|high priest|ring|horn|disk|blade|sword|displacer beast|Sylvia|Nimbus|Serpent Eclipse|Gruumsh (?:War Temple|Temple)|Church of Gruumsh|Beasts and Dwarf)\b/iu
+    const bareMentions = sessionEvents.flatMap((event) =>
+      event.notes
+        .flat()
+        .filter((token): token is string => typeof token === 'string')
+        .filter((token) => bareCanonicalName.test(token)),
+    )
+
+    expect(bareMentions).toEqual([])
+  })
+
+  it('links every Session 13 participant, item, and causal event called out in review', () => {
+    const expectedReferences = [
+      [events.n2_e126, refs.pcs.devan],
+      [events.n2_e127, refs.pcs.jim],
+      [events.n2_e127, refs.beasts.displacer_beast],
+      [events.n2_e128, refs.items.purple_dragon_horn],
+      [events.n2_e128, refs.items.serpent_eclipse_trial_disk],
+      [events.n2_e128, refs.pcs.jim],
+      [events.n2_e131, refs.events.n2_e105],
+      [events.n2_e131, refs.pcs.cassian_veyl],
+      [events.n2_e131, refs.npcs.gruumsh_high_priest],
+      [events.n2_e131, refs.items.wolfie_tracking_ring],
+      [events.n2_e132, refs.events.n2_e105],
+      [events.n2_e132, refs.pcs.jim],
+      [events.n2_e132, refs.npcs.gruumsh_high_priest],
+      [events.n2_e132, refs.items.cursed_shadow_sword],
+      [events.n2_e133, refs.pcs.cassian_veyl],
+      [events.n2_e133, refs.npcs.gruumsh_high_priest],
+      [events.n2_e133, refs.items.wolfie_tracking_ring],
+      [events.n2_e134, refs.pcs.cassian_veyl],
+      [events.n2_e134, refs.beasts.wolfie],
+      [events.n2_e134, refs.items.wolfie_tracking_ring],
+    ] as const
+
+    for (const [event, reference] of expectedReferences) {
+      expect(event.notes.flat()).toContainEqual(reference)
+    }
+  })
+
   it('returns the latest event first', () => {
-    expect(sortedEvents()[0]?.data).toBe(events.n2_e120)
+    expect(sortedEvents()[0]?.data).toBe(events.n2_e134)
   })
 })
