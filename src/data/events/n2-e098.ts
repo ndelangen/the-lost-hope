@@ -19,7 +19,9 @@ export default createEvent({
       refs.locations.sea_of_unknown,
       ' would require at least a small army because ',
       refs.npcs.blackbeard,
-      ' and others remained hostile. Swift admitted that he still did not know whether he wanted to return.',
+      ' and others remained hostile. ',
+      refs.pcs.swift_starblade,
+      ' admitted that he still did not know whether he wanted to return.',
     ],
     [
       refs.npcs.alberto,

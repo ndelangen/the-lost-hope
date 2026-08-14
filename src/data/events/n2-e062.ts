@@ -4,7 +4,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 export default createEvent({
   name: 'Jim tells the truth at the court hearing',
   day: 13,
-  location: refs.locations.fairhaven,
+  location: refs.locations.fairhaven_courthouse,
   mark: { type: 'icon', name: 'gi/GiGavel' },
   notes: [
     [
@@ -16,7 +16,11 @@ export default createEvent({
       refs.pcs.devan,
       ', and ',
       refs.pcs.swift_starblade,
-      ' were interviewed in court.',
+      ' were interviewed at the ',
+      refs.locations.fairhaven_courthouse,
+      ' by the ',
+      refs.organizations.marshals_court,
+      '.',
     ],
     [
       refs.pcs.jim,
@@ -29,7 +33,8 @@ export default createEvent({
       ', but argued that the entry was justified: they were investigating a lead, had neither planted explosives nor destroyed the shop deliberately, and a closed door should not stop adventurers investigating a crime.',
     ],
     [
-      'The court found the party not guilty of causing the explosion. They confessed to breaking and entering but were not charged because they had entered while investigating the job accepted in ',
+      refs.organizations.marshals_court,
+      ' found the party not guilty of causing the explosion. They confessed to breaking and entering but were not charged because they had entered while investigating the job accepted in ',
       refs.events.n2_e044,
       '.',
     ],

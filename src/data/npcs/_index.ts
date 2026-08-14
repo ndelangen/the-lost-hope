@@ -7,6 +7,7 @@ import blackbeard from './blackbeard.ts'
 import bob_the_gate_troll from './bob-the-gate-troll.ts'
 import bob_the_merchant from './bob-the-merchant.ts'
 import borris from './borris.ts'
+import celeste_s_mother from './celeste-s-mother.ts'
 import celeste from './celeste.ts'
 import crowy from './crowy.ts'
 import dragon_of_the_mountain from './dragon-of-the-mountain.ts'
@@ -33,6 +34,7 @@ import samantha from './samantha.ts'
 import sering_ravenwood from './sering-ravenwood.ts'
 import sneeve from './sneeve.ts'
 import swift_starblade_s_younger_sister from './swift-starblade-s-younger-sister.ts'
+import sylvia_s_brother from './sylvia-s-brother.ts'
 import sylvia from './sylvia.ts'
 import the_12th_marshal from './the-12th-marshal.ts'
 import the_father from './the-father.ts'
@@ -51,6 +53,7 @@ export default {
   bob_the_merchant,
   borris,
   celeste,
+  celeste_s_mother,
   crowy,
   dragon_of_the_mountain,
   faceless_shadow,
@@ -75,6 +78,7 @@ export default {
   sneeve,
   swift_starblade_s_younger_sister,
   sylvia,
+  sylvia_s_brother,
   sering_ravenwood,
   the_father,
   the_fiddler,

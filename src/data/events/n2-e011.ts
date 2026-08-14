@@ -10,7 +10,11 @@ export default createEvent({
     ['Each PC asked a favor. The ritual was performed by ', refs.npcs.light_13th_marshal, '.'],
     [
       refs.pcs.jim,
-      ' — asked to be left alone by his past (Light has not yet fulfilled this favor); his guild-mark was placed on his tongue, a deliberately conspicuous spot.',
+      ' — asked to be left alone by his past (',
+      refs.npcs.light_13th_marshal,
+      ' has not yet fulfilled this favor); his mark of membership in the ',
+      refs.organizations.adventurers_guild,
+      ' was placed on his tongue, a deliberately conspicuous spot.',
     ],
     [refs.pcs.william_greenhove, ' — tattoo placed as a tramp stamp (lower back).'],
     [refs.pcs.revin_grumblefist, ' — asked for something; specifics forgotten.'],

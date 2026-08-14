@@ -11,7 +11,9 @@ export default createEvent({
       refs.pcs.jim,
       ' questioned ',
       refs.pcs.devan,
-      '’s uncharacteristic generosity. Devan then punched the foreman and triggered a large fight.',
+      '’s uncharacteristic generosity. ',
+      refs.pcs.devan,
+      ' then punched the foreman and triggered a large fight.',
     ],
   ],
 })

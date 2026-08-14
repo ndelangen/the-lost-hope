@@ -16,9 +16,19 @@ export default createEvent({
     ],
     ['The dinos lost interest in chasing them here.'],
     [
-      'Open: it is unclear whether the dinos were even hostile — they rode toward Fairhaven and gave chase when spotted, but the chase stopped on its own. Whether they were predators, scouts, or just curious is open. Why were the dinos headed to Fairhaven? Not stated.',
+      'Open: it is unclear whether the dinos were even hostile — they rode toward ',
+      refs.locations.fairhaven,
+      ' and gave chase when spotted, but the chase stopped on its own. Whether they were predators, scouts, or just curious is open. Why were the dinos headed to ',
+      refs.locations.fairhaven,
+      '? Not stated.',
     ],
-    ['The party spent the night in Badesh, then got on a boat for ', refs.locations.fairhaven, '.'],
+    [
+      'The party spent the night in ',
+      refs.locations.badesh,
+      ', then got on a boat for ',
+      refs.locations.fairhaven,
+      '.',
+    ],
     [
       'Where the dwarf and the pirate were remained open — they were last seen missing after the dragon flight.',
     ],

@@ -35,6 +35,8 @@ import { ORGANIZATION_ICONS } from '#/lib/organization-icons.tsx'
 import { QUEST_ICONS } from '#/lib/quest-icons.tsx'
 import { SESSION_ICONS } from '#/lib/session-icons.tsx'
 
+const escapeRegExp = (value: string) => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+
 describe('location import order', () => {
   it('loads world directly', async () => {
     const world = await import('#/data/locations/world.ts')
@@ -90,6 +92,56 @@ describe('location import order', () => {
     expect(locationParent(locations.gruumsh_temple_library)?.slug).toBe(
       locations.gruumsh_war_temple.slug,
     )
+  })
+
+  it('uses concrete scene locations for the audited earlier events', () => {
+    expect(
+      [
+        events.n2_e003,
+        events.n2_e004,
+        events.n2_e013,
+        events.n2_e015,
+        events.n2_e016,
+        events.n2_e017,
+        events.n2_e022,
+        events.n2_e029,
+        events.n2_e042,
+        events.n2_e045,
+        events.n2_e050,
+        events.n2_e051,
+        events.n2_e060,
+        events.n2_e062,
+        events.n2_e068,
+        events.n2_e069,
+        events.n2_e070,
+        events.n2_e087,
+        events.n2_e097,
+        events.n2_e101,
+        events.n2_e106,
+      ].map((event) => event.location.key),
+    ).toEqual([
+      refs.locations.fajanet_docks.key,
+      refs.locations.fajanet_city_gate.key,
+      refs.locations.rare_animal_dealer_s_premises.key,
+      refs.locations.fajanet_tunnel_phoenix_offshoot.key,
+      refs.locations.fajanet_tunnel_phoenix_cocoon_chamber.key,
+      refs.locations.rare_animal_dealer_s_premises.key,
+      refs.locations.fajanet_guildhall_bathroom.key,
+      refs.locations.shadow_realm_cave.key,
+      refs.locations.fairhaven_city_gate.key,
+      refs.locations.fairhaven_gambling_den.key,
+      refs.locations.blackstone_stables.key,
+      refs.locations.blackstone_stables.key,
+      refs.locations.penelope_s_underground_workshop.key,
+      refs.locations.fairhaven_courthouse.key,
+      refs.locations.fairhaven_guildhall_stables.key,
+      refs.locations.fairhaven_evacuation_ship.key,
+      refs.locations.fairhaven_evacuation_ship.key,
+      refs.locations.mortimer_s_underground_workshop.key,
+      refs.locations.flying_bazaar_crafting_area.key,
+      refs.locations.flying_bazaar_kitchen.key,
+      refs.locations.jim_s_room_at_nimbus_s_second_best_inn.key,
+    ])
   })
 })
 
@@ -251,6 +303,20 @@ describe('items', () => {
     expect(events.n2_e132.notes.flat().join('')).toContain(
       'as a favor separate from the 20 GP debt',
     )
+  })
+
+  it('links the concrete objects promoted during the earlier-event audit', () => {
+    expect(events.n2_e015.notes.flat()).toContainEqual(refs.items.phoenix_feather)
+    expect(events.n2_e081.notes.flat()).toContainEqual(refs.items.phoenix_feather)
+    expect(events.n2_e044.notes.flat()).toContainEqual(refs.items.explosive_goblin_excrement_bottle)
+    expect(events.n2_e087.notes.flat()).toContainEqual(refs.items.explosive_goblin_excrement_bottle)
+    expect(events.n2_e095.notes.flat()).toContainEqual(refs.items.one_use_obedience_whip)
+    expect(events.n2_e105.notes.flat()).toContainEqual(refs.items.deck_of_many_more_things)
+    expect(events.n2_e106.notes.flat()).toContainEqual(refs.items.jim_s_kenku_suit)
+    expect(events.n2_e099.notes.flat()).toContainEqual(refs.organizations.starblade_family)
+    expect(events.n2_e099.notes.flat()).toContainEqual(refs.npcs.swift_starblade_s_younger_sister)
+    expect(events.n2_e099.notes.flat()).toContainEqual(refs.npcs.sylvia_s_brother)
+    expect(events.n2_e121.notes.flat()).toContainEqual(refs.npcs.celeste_s_mother)
   })
 })
 
@@ -776,29 +842,65 @@ describe('campaign chronology', () => {
     ])
   })
 
-  it('uses entity references instead of bare canonical names in Session 13 notes', () => {
-    const sessionEvents = [
-      events.n2_e123,
-      events.n2_e124,
-      events.n2_e125,
-      events.n2_e126,
-      events.n2_e127,
-      events.n2_e128,
-      events.n2_e129,
-      events.n2_e130,
-      events.n2_e131,
-      events.n2_e132,
-      events.n2_e133,
-      events.n2_e134,
+  it('uses entity references instead of bare canonical names in all event notes', () => {
+    const referenceKinds = ['pc', 'npc', 'beast', 'location', 'organization', 'item'] as const
+    const canonicalNames = referenceKinds.flatMap((kind) =>
+      allEntities(kind).map((entity) => entity.data.name),
+    )
+    const controlledAliases = [
+      'Cassian',
+      'Swift',
+      'William',
+      'Revin',
+      'Light',
+      'Fiddler',
+      'Bob',
+      'Malachar',
+      'the Hand',
+      'giant spider',
+      'displacer beast',
+      'dragon children',
+      'shadow realm',
+      'the docks',
+      'the tavern',
+      'the phoenix',
+      'the bathroom',
+      'the workshop',
+      'the ship',
+      'the sword',
+      'the guild',
     ]
-    const bareCanonicalName =
-      /\b(?:Cassian|Devan|Jim|Swift|Wolfie|Fiddler|high priest|ring|horn|disk|blade|sword|displacer beast|Sylvia|Nimbus|Serpent Eclipse|Gruumsh (?:War Temple|Temple)|Church of Gruumsh|Beasts and Dwarf)\b/iu
-    const bareMentions = sessionEvents.flatMap((event) =>
-      event.notes
+    const allowedProse = new Set(['n2_e037:Ryan', 'n2_e126:Light'])
+    const bareMentions: string[] = []
+
+    for (const [eventKey, event] of Object.entries(events)) {
+      const stringTokens = event.notes
         .flat()
         .filter((token): token is string => typeof token === 'string')
-        .filter((token) => bareCanonicalName.test(token)),
-    )
+
+      for (const token of stringTokens) {
+        for (const name of canonicalNames) {
+          const matcher = new RegExp(
+            `(?<![\\p{L}\\p{N}])${escapeRegExp(name)}(?![\\p{L}\\p{N}])`,
+            'u',
+          )
+          if (matcher.test(token) && !allowedProse.has(`${eventKey}:${name}`)) {
+            bareMentions.push(`${eventKey}: ${name}: ${token}`)
+          }
+        }
+
+        for (const alias of controlledAliases) {
+          const flags = alias === alias.toLowerCase() ? 'iu' : 'u'
+          const matcher = new RegExp(
+            `(?<![\\p{L}\\p{N}])${escapeRegExp(alias)}(?![\\p{L}\\p{N}])`,
+            flags,
+          )
+          if (matcher.test(token) && !allowedProse.has(`${eventKey}:${alias}`)) {
+            bareMentions.push(`${eventKey}: ${alias}: ${token}`)
+          }
+        }
+      }
+    }
 
     expect(bareMentions).toEqual([])
   })

@@ -8,7 +8,8 @@ export default createEvent({
   mark: { type: 'icon', name: 'gi/GiChurch' },
   notes: [
     [
-      'The ship reached ',
+      refs.locations.fairhaven_evacuation_ship,
+      ' reached ',
       refs.locations.verdant_haven,
       ' or its outskirts, and the party disembarked beside ',
       refs.locations.verdant_haven_forest,

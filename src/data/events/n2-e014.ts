@@ -10,7 +10,9 @@ export default createEvent({
     [
       'The party went through a ',
       refs.locations.trapdoor,
-      ' to reach a tunnel — the dealer (or the city) presumably keeps the entrance.',
+      ' to reach a tunnel — ',
+      refs.npcs.rare_animal_dealer,
+      ' (or the city) presumably keeps the entrance.',
     ],
     ['The party descended into the tunnel in pursuit of the missing animals.'],
     ['Party: ', refs.pcs.jim, ', ', refs.pcs.william_greenhove, ', ', refs.pcs.revin_grumblefist],

@@ -81,6 +81,12 @@ async function assertAllEntityKindsAreConfigured(): Promise<void> {
   }
 }
 
+function referenceEntry(kind: string, key: string): string {
+  const entry = `    ${key}: ref('${kind}', '${key}'),`
+
+  return entry.length <= 100 ? entry : `    ${key}: ref(\n      '${kind}',\n      '${key}',\n    ),`
+}
+
 async function generatedSource(): Promise<string> {
   await assertAllEntityKindsAreConfigured()
 
@@ -96,7 +102,7 @@ async function generatedSource(): Promise<string> {
   const namespaces = collections
     .map(
       ({ kind, plural, keys }) =>
-        `  ${plural}: {\n${keys.map((key) => `    ${key}: ref('${kind}', '${key}'),`).join('\n')}\n  },`,
+        `  ${plural}: {\n${keys.map((key) => referenceEntry(kind, key)).join('\n')}\n  },`,
     )
     .join('\n')
 

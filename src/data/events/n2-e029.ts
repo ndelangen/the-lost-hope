@@ -4,11 +4,11 @@ import { create as createEvent } from '#/definitions/event.ts'
 export default createEvent({
   name: 'Lost in the shadow realm',
   day: 9,
-  location: refs.locations.shadow_realm,
+  location: refs.locations.shadow_realm_cave,
   mark: { type: 'icon', name: 'gi/GiShadowFollower' },
   notes: [
-    ['The party got lost in a shadow realm during a chase.'],
-    ['They hid in a cave.'],
+    ['The party got lost in the ', refs.locations.shadow_realm, ' during a chase.'],
+    ['They hid in the ', refs.locations.shadow_realm_cave, '.'],
     [
       'The DM showed what official shadow monster (from the monster manual) they would have fought if the chase had failed.',
     ],

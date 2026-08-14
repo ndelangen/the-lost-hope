@@ -8,7 +8,9 @@ export default createEvent({
   mark: { type: 'icon', name: 'gi/GiMonsterGrasp' },
   notes: [
     [
-      'The festival was interrupted by an invasion unrelated to the dinosaurs connected to ',
+      'The festival activities recorded during ',
+      refs.events.n2_e065,
+      ' were interrupted by an invasion unrelated to the dinosaurs connected to ',
       refs.quests.dino_migration,
       '. Wizards bearing the symbol of ',
       refs.organizations.the_eyeless_hand,

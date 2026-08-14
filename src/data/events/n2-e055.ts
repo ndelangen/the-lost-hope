@@ -13,7 +13,9 @@ export default createEvent({
       refs.npcs.light_13th_marshal,
       ' and began directing the party toward ',
       refs.locations.feywild,
-      '. Crowy described the destination as the nearest village, but it is not yet clear whether that is a specific village or simply somewhere within the realm.',
+      '. ',
+      refs.npcs.crowy,
+      ' described the destination as the nearest village, but it is not yet clear whether that is a specific village or simply somewhere within the realm.',
     ],
     [
       'The party expects ',

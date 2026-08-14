@@ -4,7 +4,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 export default createEvent({
   name: 'Return phoenix to the dealer (animal 1/3)',
   day: 2,
-  location: refs.locations.fajanet,
+  location: refs.locations.rare_animal_dealer_s_premises,
   mark: { type: 'icon', name: 'gi/GiNestBirds' },
   notes: [
     [

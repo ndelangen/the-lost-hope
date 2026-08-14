@@ -21,7 +21,12 @@ export default createEvent({
       refs.npcs.hex,
       ' was openly antagonistic toward them.',
     ],
-    [refs.locations.fairhaven, ' was also preparing to host the Festival of the Heroes.'],
+    [
+      refs.locations.fairhaven,
+      ' was also preparing for the Festival of the Heroes announced during ',
+      refs.events.n2_e063,
+      '.',
+    ],
     [
       'Party: ',
       refs.pcs.jim,

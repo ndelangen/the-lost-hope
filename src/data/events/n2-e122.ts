@@ -17,10 +17,16 @@ export default createEvent({
     [
       'A message from ',
       refs.organizations.the_eyeless_hand,
-      ' showed that the organization was again aware of where Jim was. It indicated that the Hand was backing off somewhat, but the reason and exact meaning were not established.',
+      ' showed that the organization was again aware of where ',
+      refs.pcs.jim,
+      ' was. It indicated that ',
+      refs.organizations.the_eyeless_hand,
+      ' was backing off somewhat, but the reason and exact meaning were not established.',
     ],
     [
-      'It remains unknown whether the pages disclosed Jim’s location or whether the organization found him by another method.',
+      'It remains unknown whether the pages disclosed ',
+      refs.pcs.jim,
+      '’s location or whether the organization found him by another method.',
     ],
   ],
 })

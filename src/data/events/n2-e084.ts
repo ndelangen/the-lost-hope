@@ -24,7 +24,9 @@ export default createEvent({
       refs.npcs.sneeve,
       '. The party did not learn whether they had become separated during the destruction of ',
       refs.locations.fairhaven,
-      ' or what had happened to Lucky Palm.',
+      ' or what had happened to ',
+      refs.organizations.lucky_palm,
+      '.',
     ],
     [
       'Party: ',

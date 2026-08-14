@@ -15,7 +15,12 @@ export default createEvent({
       '.',
     ],
     [
-      'Light officially offered them membership in the guild. With membership, each new recruit gets one favor from Light.',
+      refs.npcs.light_13th_marshal,
+      ' officially offered them membership in the ',
+      refs.organizations.adventurers_guild,
+      '. With membership, each new recruit gets one favor from ',
+      refs.npcs.light_13th_marshal,
+      '.',
     ],
     ['Party: ', refs.pcs.jim, ', ', refs.pcs.william_greenhove, ', ', refs.pcs.revin_grumblefist],
   ],

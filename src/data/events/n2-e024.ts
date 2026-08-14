@@ -13,8 +13,14 @@ export default createEvent({
       refs.npcs.goblin_grass_keepers,
       ' who maintained the grass.',
     ],
-    ['The goblins hated him for it.'],
-    ['At night, the goblins tried to kidnap Mr. Peace. The party stopped it from happening.'],
+    [refs.npcs.goblin_grass_keepers, ' hated him for it.'],
+    [
+      'At night, ',
+      refs.npcs.goblin_grass_keepers,
+      ' tried to kidnap ',
+      refs.pcs.mr_peace,
+      '. The party stopped it from happening.',
+    ],
     [
       'Party: ',
       refs.pcs.jim,

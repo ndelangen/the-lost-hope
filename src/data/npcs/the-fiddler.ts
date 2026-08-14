@@ -13,7 +13,10 @@ export default createNPC({
       ' who seemed to know the party before meeting them and to know parts of their future. He appears to perceive multiple possible timelines and sometimes confuses visitors with alternate versions of themselves.',
     ],
     [
-      'The Fiddler chooses and runs dangerous games with a Deck of Many More Things. He promised that every future meeting with the party would feature a different game.',
+      refs.npcs.the_fiddler,
+      ' chooses and runs dangerous games with the ',
+      refs.items.deck_of_many_more_things,
+      '. He promised that every future meeting with the party would feature a different game.',
     ],
   ],
 })

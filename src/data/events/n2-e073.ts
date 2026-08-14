@@ -20,6 +20,12 @@ export default createEvent({
       refs.npcs.roberto,
       '.',
     ],
-    ['The party removed the sword and stabilized ', refs.npcs.roberto, '.'],
+    [
+      'The party removed ',
+      refs.items.cursed_shadow_sword,
+      ' and stabilized ',
+      refs.npcs.roberto,
+      '.',
+    ],
   ],
 })

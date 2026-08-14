@@ -7,8 +7,8 @@ export default createEvent({
   location: refs.locations.shadow_realm,
   mark: { type: 'icon', name: 'gi/GiFeather' },
   notes: [
-    ['The phoenix feather cast bright light, guiding the party to safety.'],
-    ['The phoenix feather burned up and dissolved afterward.'],
+    [refs.items.phoenix_feather, ' cast bright light, guiding the party to safety.'],
+    [refs.items.phoenix_feather, ' burned up and dissolved afterward.'],
     [
       'Party: ',
       refs.pcs.jim,

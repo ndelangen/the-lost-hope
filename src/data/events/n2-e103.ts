@@ -15,7 +15,8 @@ export default createEvent({
       '.',
     ],
     [
-      'Bob gave every party member a different special magical dagger. ',
+      refs.npcs.bob_the_merchant,
+      ' gave every party member a different special magical dagger. ',
       refs.pcs.jim,
       ' received the ',
       refs.items.dagger_of_passive_aggression,

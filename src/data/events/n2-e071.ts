@@ -22,7 +22,9 @@ export default createEvent({
       refs.pcs.victor_dranzig,
       ' received an ',
       refs.organizations.adventurers_guild,
-      ' tattoo and requested his guildmaster favor. The party does not know what he asked for.',
+      ' tattoo and requested his favor from ',
+      refs.npcs.light_13th_marshal,
+      '. The party does not know what he asked for.',
     ],
   ],
 })

@@ -10,7 +10,9 @@ export default createEvent({
     ['After the flight down, the party landed near a forest.'],
     [refs.pcs.revin_grumblefist, ' and ', refs.pcs.swift_starblade, ' went missing.'],
     [
-      'The party presumed both were eaten by the dragon children — something threatened on the mountain.',
+      'The party presumed both were eaten by the ',
+      refs.beasts.dragon_children,
+      ' — something threatened on the mountain.',
     ],
     [
       refs.pcs.swift_starblade,
@@ -18,7 +20,9 @@ export default createEvent({
     ],
     [
       refs.pcs.revin_grumblefist,
-      "'s player left the group. The DM may reuse Revin as an NPC or reference him later, but has not done so; his disappearance will most likely remain unresolved.",
+      "'s player left the group. The DM may reuse ",
+      refs.pcs.revin_grumblefist,
+      ' as an NPC or reference him later, but has not done so; his disappearance will most likely remain unresolved.',
     ],
   ],
 })
