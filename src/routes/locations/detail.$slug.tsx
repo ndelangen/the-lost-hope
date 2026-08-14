@@ -3,10 +3,12 @@ import { createFileRoute, notFound } from '@tanstack/react-router'
 import { ContentRenderer } from '#/components/content-renderer'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail } from '#/components/entity-page'
+import { ImageViewer } from '#/components/image-viewer'
 import { LocationReference } from '#/components/location-reference'
 import { LocationMapImage } from '#/components/map-placeholder'
 import { Grid, Inline, Stack } from '#/components/ui/layout'
 import { Pill } from '#/components/ui/pill'
+import { DEFAULT_LOCATION_ILLUSTRATION } from '#/definitions/media'
 import {
   getEntity,
   locationAbsolutePosition,
@@ -15,7 +17,7 @@ import {
   locationTypeOf,
 } from '#/lib/campaign'
 import { referencedByItems } from '#/lib/entity-page-data'
-import { LocationIcon, LocationTypeIcon, locationTypeLabel } from '#/lib/location-icons'
+import { LocationTypeIcon, locationTypeLabel } from '#/lib/location-icons'
 import { publicEntityPageHead } from '#/lib/public-page-metadata'
 
 export const Route = createFileRoute('/locations/detail/$slug')({
@@ -37,15 +39,16 @@ function LocationDetailPage() {
   const children = locationChildren(slug)
   const coordinates = locationAbsolutePosition(location)
   const locationType = locationTypeOf(location)
+  const illustrationAlt =
+    location.illustration === DEFAULT_LOCATION_ILLUSTRATION
+      ? `Location illustration forthcoming for ${location.name}`
+      : `Illustration of ${location.name}`
 
   return (
     <EntityDetail
       kind="location"
       title={location.name}
-      visual={{
-        variant: 'icon',
-        content: <LocationIcon icon={location.icon} className="size-10" />,
-      }}
+      visual={false}
       headerContext={
         ancestors.length > 0 ? (
           <Inline as="p" gap="xs" wrap className="text-muted-foreground text-sm">
@@ -79,16 +82,38 @@ function LocationDetailPage() {
       referencedBy={referencedByItems('location', slug)}
     >
       <Stack gap="2xl">
-        <LocationMapImage
-          src={location.map?.url ?? ''}
-          alt={location.name}
-          coordinates={coordinates}
-        />
+        <Stack as="section" gap="md" data-location-section="illustration">
+          <SectionLabel>Location illustration</SectionLabel>
+          <ImageViewer
+            src={location.illustration}
+            alt={illustrationAlt}
+            title={location.name}
+            eyebrow="Location illustration"
+            accessibleLabel={`illustration of ${location.name}`}
+            className="aspect-[16/7] min-h-64 w-full"
+          />
+        </Stack>
+        <Grid gap="2xl" lgTemplate="content-aside" align="start">
+          <Stack as="section" gap="md" data-location-section="about">
+            <SectionLabel>About this place</SectionLabel>
+            {location.notes ? (
+              <ContentRenderer content={location.notes} />
+            ) : (
+              <p className="text-muted-foreground text-sm">No description recorded yet.</p>
+            )}
+          </Stack>
+          <Stack as="aside" gap="md" data-location-section="map">
+            <SectionLabel>Map</SectionLabel>
+            <LocationMapImage
+              src={location.map?.url ?? ''}
+              alt={location.name}
+              coordinates={coordinates}
+            />
+          </Stack>
+        </Grid>
         {children.length > 0 ? (
           <Stack as="section" gap="md">
-            <h2 className="text-muted-foreground text-sm font-semibold tracking-wider uppercase">
-              Places within
-            </h2>
+            <SectionLabel>Places within</SectionLabel>
             <Grid as="ul" gap="sm" smTemplate={2}>
               {children.map((child) => (
                 <li
@@ -101,8 +126,15 @@ function LocationDetailPage() {
             </Grid>
           </Stack>
         ) : null}
-        {location.notes ? <ContentRenderer content={location.notes} /> : null}
       </Stack>
     </EntityDetail>
+  )
+}
+
+function SectionLabel({ children }: { children: string }) {
+  return (
+    <h2 className="text-muted-foreground text-sm font-semibold tracking-wider uppercase">
+      {children}
+    </h2>
   )
 }

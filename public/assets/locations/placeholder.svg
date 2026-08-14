@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="700" viewBox="0 0 1600 700">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#172033" />
+      <stop offset="0.55" stop-color="#30364a" />
+      <stop offset="1" stop-color="#151720" />
+    </linearGradient>
+    <linearGradient id="haze" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8b36a" stop-opacity="0.45" />
+      <stop offset="1" stop-color="#d8b36a" stop-opacity="0" />
+    </linearGradient>
+    <pattern id="contours" width="180" height="110" patternUnits="userSpaceOnUse">
+      <path d="M-30 64C20 18 82 18 132 64s112 46 162 0" fill="none" stroke="#f0d59b" stroke-opacity="0.08" stroke-width="2" />
+      <path d="M-30 92C20 46 82 46 132 92s112 46 162 0" fill="none" stroke="#f0d59b" stroke-opacity="0.05" stroke-width="2" />
+    </pattern>
+  </defs>
+  <rect width="1600" height="700" fill="url(#sky)" />
+  <rect width="1600" height="700" fill="url(#contours)" />
+  <circle cx="1280" cy="150" r="82" fill="#d8b36a" opacity="0.18" />
+  <path d="M0 505L260 270l198 185 168-122 215 172 196-226 256 226 307-274v469H0z" fill="#111621" />
+  <path d="M0 550L260 315l198 185 168-122 215 172 196-226 256 226 307-274" fill="none" stroke="#d8b36a" stroke-opacity="0.32" stroke-width="4" />
+  <path d="M0 476c280-75 442-58 682 26s458 82 918-53v251H0z" fill="url(#haze)" opacity="0.38" />
+  <g fill="#f4e7ca" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="800" y="590" font-size="24" font-weight="700" letter-spacing="5">LOCATION ILLUSTRATION</text>
+    <text x="800" y="630" font-size="17" letter-spacing="3" opacity="0.68">ARTWORK FORTHCOMING</text>
+  </g>
+</svg>

@@ -1,4 +1,5 @@
 import type { EntityKind } from '#/definitions/kind'
+import { DEFAULT_LOCATION_ILLUSTRATION } from '#/definitions/media'
 import {
   COLLECTIONS,
   COLLECTION_LABELS,
@@ -163,10 +164,14 @@ function imageCandidate(entity: Entity): string | undefined {
         entity.data.image ?? (entity.data.mark.type === 'avatar' ? entity.data.mark.url : undefined)
       )
     case 'location':
-      return entity.data.map.url
+      return locationIllustrationImageCandidate(entity.data.illustration)
     default:
       return undefined
   }
+}
+
+export function locationIllustrationImageCandidate(illustration: string): string | undefined {
+  return illustration === DEFAULT_LOCATION_ILLUSTRATION ? undefined : illustration
 }
 
 function entityDescription(entity: Entity): string {

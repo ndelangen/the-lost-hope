@@ -2,17 +2,28 @@ import { Expand, X } from 'lucide-react'
 import { useCallback, useEffect, useId, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 
-import { Avatar } from '#/components/ui/avatar'
+import { publicAssetUrl } from '#/lib/public-media'
+import { cn } from '#/lib/utils'
 
-export function AvatarViewer({
-  src,
-  name,
-  eyebrow,
-}: {
+type ImageViewerProps = {
   src: string
-  name: string
+  alt: string
+  title: string
   eyebrow: string
-}) {
+  accessibleLabel: string
+  fallbackSrc?: string
+  className?: string
+}
+
+export function ImageViewer({
+  src,
+  alt,
+  title,
+  eyebrow,
+  accessibleLabel,
+  fallbackSrc,
+  className,
+}: ImageViewerProps) {
   const [open, setOpen] = useState(false)
   const dialogRef = useRef<HTMLDialogElement>(null)
   const closeRef = useRef<HTMLButtonElement>(null)
@@ -69,12 +80,21 @@ export function AvatarViewer({
         ref={triggerRef}
         type="button"
         onClick={() => setOpen(true)}
-        aria-label={`View a larger portrait of ${name}`}
+        aria-label={`View a larger ${accessibleLabel}`}
         aria-haspopup="dialog"
         aria-expanded={open}
-        className="group relative size-full cursor-zoom-in overflow-hidden rounded-2xl focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2"
+        className={cn(
+          'group relative size-full cursor-zoom-in overflow-hidden rounded-2xl focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2',
+          className,
+        )}
       >
-        <Avatar src={src} alt={name} loading="lazy" className="size-full rounded-2xl" />
+        <ViewerImage
+          src={src}
+          fallbackSrc={fallbackSrc}
+          alt={alt}
+          loading="lazy"
+          className="size-full object-cover"
+        />
         <span className="absolute inset-0 bg-black/0 transition-colors group-hover:bg-black/20 group-focus-visible:bg-black/20" />
         <span className="absolute right-2 bottom-2 rounded-full bg-black/70 p-2 text-white opacity-0 shadow-sm transition-opacity group-hover:opacity-100 group-focus-visible:opacity-100">
           <Expand className="size-4" aria-hidden />
@@ -92,16 +112,17 @@ export function AvatarViewer({
               <button
                 type="button"
                 onClick={close}
-                aria-label="Close portrait viewer backdrop"
+                aria-label={`Close ${accessibleLabel} viewer`}
                 tabIndex={-1}
                 className="absolute inset-0 z-0 cursor-zoom-out"
               />
 
               <div className="pointer-events-none absolute inset-0 z-10 grid place-items-center p-3 sm:p-8">
-                <Avatar
+                <ViewerImage
                   src={src}
-                  alt={name}
-                  className="h-full w-full rounded-none object-contain [filter:drop-shadow(0_32px_48px_rgb(0_0_0/0.55))]"
+                  fallbackSrc={fallbackSrc}
+                  alt={alt}
+                  className="h-full w-full object-contain [filter:drop-shadow(0_32px_48px_rgb(0_0_0/0.55))]"
                 />
               </div>
 
@@ -114,7 +135,7 @@ export function AvatarViewer({
                   id={titleId}
                   className="mt-3 text-3xl font-bold tracking-tight text-white sm:text-5xl"
                 >
-                  {name}
+                  {title}
                 </h2>
               </div>
 
@@ -122,7 +143,7 @@ export function AvatarViewer({
                 ref={closeRef}
                 type="button"
                 onClick={close}
-                aria-label="Close larger portrait"
+                aria-label={`Close larger ${accessibleLabel}`}
                 className="absolute top-5 right-5 z-40 grid size-11 place-items-center rounded-full bg-black/55 text-white ring-1 ring-white/20 backdrop-blur transition-colors hover:bg-black/75 focus-visible:ring-2 focus-visible:ring-white sm:top-8 sm:right-8"
               >
                 <X className="size-5" aria-hidden />
@@ -132,5 +153,38 @@ export function AvatarViewer({
           )
         : null}
     </>
+  )
+}
+
+function ViewerImage({
+  src,
+  fallbackSrc,
+  alt,
+  className,
+  loading,
+}: {
+  src: string
+  fallbackSrc?: string
+  alt: string
+  className: string
+  loading?: 'eager' | 'lazy'
+}) {
+  return (
+    <img
+      src={publicAssetUrl(src, fallbackSrc ?? src)}
+      alt={alt}
+      loading={loading}
+      className={className}
+      onError={
+        fallbackSrc
+          ? (event) => {
+              const image = event.currentTarget
+              if (image.dataset.fallbackApplied) return
+              image.dataset.fallbackApplied = 'true'
+              image.src = fallbackSrc
+            }
+          : undefined
+      }
+    />
   )
 }

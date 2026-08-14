@@ -1,5 +1,4 @@
 import { createHash } from 'node:crypto'
-import { existsSync } from 'node:fs'
 import { mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 
@@ -28,6 +27,7 @@ import {
   validatePublicPageDescriptors,
   type PublicPageDescriptor,
 } from '../src/lib/public-page-descriptors'
+import { localSocialImagePath } from './social-image-assets'
 
 const ROOT = process.cwd()
 const OUTPUT_DIRECTORY = join(ROOT, 'public/social-previews')
@@ -81,12 +81,6 @@ async function listPublicAssets(
     }
   }
   return assets.toSorted()
-}
-
-function localImagePath(candidate: string | undefined): string | undefined {
-  if (!candidate?.startsWith('/') || candidate.endsWith('/placeholder.svg')) return undefined
-  const path = join(ROOT, 'public', candidate.slice(1))
-  return existsSync(path) ? path : undefined
 }
 
 function mimeType(bytes: Buffer): string {
@@ -363,7 +357,7 @@ async function generate(): Promise<void> {
 
   const paths: Record<string, string> = {}
   for (const page of PUBLIC_PAGE_DESCRIPTORS) {
-    const imagePath = localImagePath(page.imageCandidate)
+    const imagePath = localSocialImagePath(ROOT, page)
     const imageBytes = imagePath ? await readFile(imagePath) : undefined
     const digest = createHash('sha256')
       .update(JSON.stringify(page))

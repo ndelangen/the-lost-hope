@@ -271842,7 +271842,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/expand",
       "usedIn": [
-        "src/components/avatar-viewer.tsx"
+        "src/components/image-viewer.tsx"
       ]
     },
     {
@@ -308211,8 +308211,8 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/x",
       "usedIn": [
-        "src/components/avatar-viewer.tsx",
-        "src/components/campaign-shell.tsx"
+        "src/components/campaign-shell.tsx",
+        "src/components/image-viewer.tsx"
       ]
     },
     {
