@@ -263890,7 +263890,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/check",
-      "usedIn": []
+      "usedIn": [
+        "src/components/prototype-responsive-images.tsx"
+      ]
     },
     {
       "id": "lucide/CheckCheck",
@@ -264192,7 +264194,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/chevron-left",
-      "usedIn": []
+      "usedIn": [
+        "src/components/prototype-responsive-images.tsx"
+      ]
     },
     {
       "id": "lucide/ChevronRight",
@@ -264236,6 +264240,7 @@
         "src/components/campaign-shell/nav.tsx",
         "src/components/campaign-shell/sidebar.tsx",
         "src/components/locations-index.tsx",
+        "src/components/prototype-responsive-images.tsx",
         "src/components/questions-page.tsx"
       ]
     },
@@ -264682,6 +264687,7 @@
       "usedIn": [
         "src/components/correction-form.tsx",
         "src/components/entity-correction-submission.tsx",
+        "src/components/prototype-responsive-images.tsx",
         "src/components/questions-page.tsx"
       ]
     },
@@ -277359,7 +277365,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/gauge",
-      "usedIn": []
+      "usedIn": [
+        "src/components/prototype-responsive-images.tsx"
+      ]
     },
     {
       "id": "lucide/Gavel",
@@ -286922,7 +286930,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/monitor",
-      "usedIn": []
+      "usedIn": [
+        "src/components/prototype-responsive-images.tsx"
+      ]
     },
     {
       "id": "lucide/MonitorCheck",
@@ -293025,7 +293035,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/rectangle-vertical",
-      "usedIn": []
+      "usedIn": [
+        "src/components/prototype-responsive-images.tsx"
+      ]
     },
     {
       "id": "lucide/Recycle",

@@ -10,6 +10,7 @@
     "build": "bun run generate:social-paths && vite build",
     "build:deploy": "bun run generate:social-images && vite build && bun run audit:public-build",
     "preview": "vite preview",
+    "prototype:responsive-images": "bun run generate:social-paths && vite dev --port 3000",
     "test": "bun run generate:social-paths && vitest run",
     "test:watch": "bun run generate:social-paths && vitest",
     "fetch:icon-metadata": "bun scripts/fetch-icon-metadata.ts",

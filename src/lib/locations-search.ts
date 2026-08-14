@@ -4,6 +4,7 @@ import { LOCATION_TYPES, type LocationType } from '#/definitions/location.ts'
 
 export const locationsSearchSchema = z.object({
   filter: z.string().optional(),
+  variant: z.enum(['A', 'B', 'C']).optional(),
 })
 
 export type LocationsSearch = z.infer<typeof locationsSearchSchema>
