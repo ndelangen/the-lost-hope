@@ -115,7 +115,7 @@ function LocationDetailPage() {
             <Stack
               as="aside"
               gap="md"
-              className="border-border rounded-xl border p-4"
+              className="border-border bg-background/85 rounded-xl border p-4 shadow-lg backdrop-blur-[10px] lg:relative lg:-top-24 lg:z-10 lg:mr-5"
               data-location-section="context-map"
             >
               <MapSectionHeading
