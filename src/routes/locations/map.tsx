@@ -13,19 +13,22 @@ export const Route = createFileRoute('/locations/map')({
   head: () => publicPageHeadForPath('/locations/map'),
   validateSearch: locationsSearchSchema,
   component: function LocationsMapPage() {
-    const search = Route.useSearch()
     const navigate = Route.useNavigate()
-    const [isHydrated, setIsHydrated] = useState(false)
+    const [prototypeVariant, setPrototypeVariant] = useState<ResponsiveImagePrototypeVariant>()
 
     useEffect(() => {
-      setIsHydrated(true)
+      const variant = new URLSearchParams(window.location.search).get('variant')
+      if (variant === 'A' || variant === 'B' || variant === 'C') {
+        setPrototypeVariant(variant)
+      }
     }, [])
 
-    if (isHydrated && search.variant) {
+    if (prototypeVariant) {
       return (
         <ResponsiveImagesPrototype
-          variant={search.variant}
+          variant={prototypeVariant}
           onVariantChange={(variant: ResponsiveImagePrototypeVariant) => {
+            setPrototypeVariant(variant)
             void navigate({
               search: (current) => ({ ...current, variant }),
               replace: true,
