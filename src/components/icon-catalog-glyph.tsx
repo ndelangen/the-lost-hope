@@ -1,5 +1,6 @@
 import { icons as LucideIcons } from 'lucide-react?icon-gallery'
 import { useEffect, useState, type ComponentType } from 'react'
+import { GiEskimo } from 'react-icons/gi'
 
 import type { IconCatalogEntry } from '#/icon-catalog/types'
 import { CUSTOM_ICONS } from '#/lib/custom-icons'
@@ -41,7 +42,6 @@ const GAME_ICON_SLUG_OVERRIDES: Readonly<Record<string, string>> = {
 
 let gameIconSet: GameIconSet | undefined
 let gameIconSetPromise: Promise<GameIconSet> | undefined
-let legacyEskimoIconPromise: Promise<LegacyGameIcon> | undefined
 
 function gameIconSlug(entry: IconCatalogEntry): string {
   const sourceSlug = entry.sourceUrl
@@ -86,24 +86,6 @@ function useGameIconBody(entry: IconCatalogEntry): string | undefined {
   return body
 }
 
-function useLegacyEskimoIcon(enabled: boolean): LegacyGameIcon | undefined {
-  const [Icon, setIcon] = useState<LegacyGameIcon>()
-
-  useEffect(() => {
-    if (!enabled || Icon) return
-    legacyEskimoIconPromise ??= import('react-icons/gi').then((module) => module.GiEskimo)
-    let active = true
-    void legacyEskimoIconPromise.then((loaded) => {
-      if (active) setIcon(() => loaded)
-    })
-    return () => {
-      active = false
-    }
-  }, [enabled, Icon])
-
-  return Icon
-}
-
 function fontAwesomeSprite(entry: IconCatalogEntry): string {
   if (entry.sourceCategories.includes('brand/logo')) return 'brands'
   if (entry.sourceCategories.includes('style/regular')) return 'regular'
@@ -118,9 +100,6 @@ export function IconCatalogGlyph({
   className?: string
 }) {
   const gameBody = useGameIconBody(entry)
-  const LegacyEskimoIcon = useLegacyEskimoIcon(
-    entry.source === 'gi' && entry.componentName === 'GiEskimo',
-  )
 
   if (entry.source === 'lucide') {
     const Icon = LucideIcons[entry.componentName as keyof typeof LucideIcons] as
@@ -144,7 +123,11 @@ export function IconCatalogGlyph({
     )
   }
 
-  if (LegacyEskimoIcon) return <LegacyEskimoIcon className={className} aria-hidden />
+  // PROTOTYPE: a named import keeps the private icon tool from retaining the complete Game Icons
+  // namespace in the shared public entry. The production decision is captured separately.
+  if (entry.source === 'gi' && entry.componentName === 'GiEskimo') {
+    return <GiEskimo className={className} aria-hidden />
+  }
 
   return gameBody ? (
     <svg

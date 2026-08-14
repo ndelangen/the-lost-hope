@@ -27,11 +27,12 @@ Useful commands:
 bun run test        # run Vitest once
 bun run test:watch  # run Vitest in watch mode
 bun run generate:refs # regenerate typed cross-entity refs from entity registries
-bun run generate:social-images # generate all content-addressed 1200x630 social cards
+bun run generate:social-images # deployment-only: render all content-addressed social cards
 bun run typecheck   # run TypeScript without emitting files
 bun run check       # type-check, lint, and check formatting
-bun run verify      # full check, test, and build gate for code or data handoff
-bun run build       # create the production bundle in dist/
+bun run verify      # full local gate; social-card rendering stays deployment-only
+bun run build       # create and audit a local bundle without rendering social cards
+bun run build:deploy # deployment build, including all social-card rendering
 bun run preview     # serve the production bundle locally
 ```
 
@@ -72,7 +73,9 @@ bun run verify
 
 ## Deployment
 
-Netlify runs `bun run build` and publishes `dist/client/`. The build derives one 293-page public
+Netlify runs `bun run build:deploy` and publishes `dist/client/`. Local `build` and `verify`
+validate social-card paths but neither render nor require the complete generated image set. The
+deployment build derives one 293-page public
 manifest from the campaign registries, prerenders complete HTML for every entry, creates its
 canonical metadata and structured data, generates a content-addressed social card, and audits the
 finished output. The generated social cards, redirects, robots file, 404 fallback, and social-image

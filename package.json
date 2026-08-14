@@ -7,8 +7,10 @@
   },
   "scripts": {
     "dev": "bun scripts/generate-social-images.tsx --dev && vite dev --port 3000",
-    "build": "bun run generate:social-images && vite build && bun run audit:public-build",
+    "build": "vite build && bun run audit:public-build:local",
+    "build:deploy": "bun run generate:social-images && vite build && bun run audit:public-build",
     "preview": "vite preview",
+    "prototype:feature-complete-js": "bun scripts/prototype-feature-complete-js.ts",
     "test": "bun run generate:social-paths && vitest run",
     "test:watch": "bun run generate:social-paths && vitest",
     "fetch:icon-metadata": "bun scripts/fetch-icon-metadata.ts",
@@ -21,13 +23,14 @@
     "generate:social-images": "bun scripts/generate-social-images.tsx",
     "generate:social-paths": "bun scripts/generate-social-images.tsx --paths-only",
     "audit:public-build": "bun scripts/audit-public-build.ts",
+    "audit:public-build:local": "bun scripts/audit-public-build.ts --skip-social-images",
     "typecheck": "bun run generate:social-paths && tsc --noEmit",
     "lint": "oxlint",
     "lint:fix": "oxlint --fix",
     "fmt": "oxfmt",
     "fmt:check": "oxfmt --check",
     "check": "bun run generate:refs:check && bun run generate:icons:check && bun run typecheck && bun run lint && bun run fmt:check",
-    "verify": "bun run generate:social-images && bun run check && bun run test && vite build && bun run audit:public-build"
+    "verify": "bun run check && bun run test && vite build && bun run audit:public-build:local"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.20",
