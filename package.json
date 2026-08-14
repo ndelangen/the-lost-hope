@@ -7,7 +7,8 @@
   },
   "scripts": {
     "dev": "bun scripts/generate-social-images.tsx --dev && vite dev --port 3000",
-    "build": "bun run generate:social-images && vite build && bun run audit:public-build",
+    "build": "bun run generate:social-paths && vite build",
+    "build:deploy": "bun run generate:social-images && vite build && bun run audit:public-build",
     "preview": "vite preview",
     "test": "bun run generate:social-paths && vitest run",
     "test:watch": "bun run generate:social-paths && vitest",
@@ -27,7 +28,7 @@
     "fmt": "oxfmt",
     "fmt:check": "oxfmt --check",
     "check": "bun run generate:refs:check && bun run generate:icons:check && bun run typecheck && bun run lint && bun run fmt:check",
-    "verify": "bun run generate:social-images && bun run check && bun run test && vite build && bun run audit:public-build"
+    "verify": "bun run check && bun run test && vite build"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.20",

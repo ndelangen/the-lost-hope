@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiThroneKing',
   type: 'building',
   parent: refs.locations.gruumsh_war_temple,
-  at: [0, 0],
+  at: [500, 350],
   notes: [
     [
       'The initial gathering hall of the ',

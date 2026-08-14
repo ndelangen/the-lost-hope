@@ -3,7 +3,7 @@ import { z } from 'zod'
 import { Content } from './content'
 import { makeCreate } from './create'
 import { EntityRefSchema } from './kind'
-import { MediaUrl } from './media'
+import { DEFAULT_LOCATION_ILLUSTRATION, MediaUrl } from './media'
 import { deriveSlug } from './slug'
 
 export const LOCATION_TYPES = [
@@ -32,13 +32,29 @@ export const LOCATION_TYPE_LABELS: Record<LocationType, string> = {
   route: 'Routes',
 }
 
+const LOCATION_ILLUSTRATION_PATH = /^\/assets\/locations\/[^?#]+\.(?:jpe?g|png|svg|webp)$/u
+
+export const LocationIllustrationUrl = MediaUrl.refine(
+  (value) =>
+    LOCATION_ILLUSTRATION_PATH.test(value) && !value.split('/').some((segment) => segment === '..'),
+  {
+    message:
+      'Location illustrations must be self-hosted image paths under /assets/locations/ without query strings, fragments, or parent traversal',
+  },
+)
+
 const locationFields = {
   name: z.string(),
   icon: z
     .string()
     .optional()
     .describe(
-      "Icon-catalog id for this location's avatar, e.g. `gi/GiCastle` — see src/lib/location-icons.tsx. Should be unique per location; falls back to a map-pin placeholder when omitted.",
+      "Icon-catalog id for this location's compact symbol, e.g. `gi/GiCastle` — see src/lib/location-icons.tsx. Should be unique per location; falls back to a map-pin placeholder when omitted.",
+    ),
+  illustration: LocationIllustrationUrl.optional()
+    .default(DEFAULT_LOCATION_ILLUSTRATION)
+    .describe(
+      'Self-hosted artistic depiction of the location. Defaults to the shared location placeholder and does not establish campaign canon.',
     ),
   aliases: z
     .array(z.string())

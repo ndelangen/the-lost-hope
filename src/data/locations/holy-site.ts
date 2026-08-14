@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiByzantinTemple',
   type: 'landmark',
   parent: refs.locations.world,
-  at: [200, 200],
+  at: [420, 410],
   notes: [
     [
       'A holy site between ',

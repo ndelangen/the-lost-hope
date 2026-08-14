@@ -6,6 +6,6 @@ export default createLocation({
   icon: 'gi/GiOpenGate',
   type: 'landmark',
   parent: refs.locations.fairhaven,
-  at: [0, 0],
+  at: [120, 350],
   notes: [['The guarded entrance to ', refs.locations.fairhaven, '.']],
 })

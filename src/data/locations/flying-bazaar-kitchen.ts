@@ -6,6 +6,6 @@ export default createLocation({
   icon: 'gi/GiKitchenKnives',
   type: 'district',
   parent: refs.locations.sylvias_flying_bazaar,
-  at: [0, 0],
+  at: [250, 350],
   notes: [['The kitchen aboard ', refs.locations.sylvias_flying_bazaar, '.']],
 })

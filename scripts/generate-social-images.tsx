@@ -1,5 +1,4 @@
 import { createHash } from 'node:crypto'
-import { existsSync } from 'node:fs'
 import { mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 
@@ -28,6 +27,7 @@ import {
   validatePublicPageDescriptors,
   type PublicPageDescriptor,
 } from '../src/lib/public-page-descriptors'
+import { localSocialImagePath } from './social-image-assets'
 
 const ROOT = process.cwd()
 const OUTPUT_DIRECTORY = join(ROOT, 'public/social-previews')
@@ -81,12 +81,6 @@ async function listPublicAssets(
     }
   }
   return assets.toSorted()
-}
-
-function localImagePath(candidate: string | undefined): string | undefined {
-  if (!candidate?.startsWith('/') || candidate.endsWith('/placeholder.svg')) return undefined
-  const path = join(ROOT, 'public', candidate.slice(1))
-  return existsSync(path) ? path : undefined
 }
 
 function mimeType(bytes: Buffer): string {
@@ -342,12 +336,18 @@ function card(page: PublicPageDescriptor, imageDataUrl: string | undefined): Rea
 }
 
 async function generate(): Promise<void> {
+  const devOnly = process.argv.includes('--dev')
+  const pathsOnly = devOnly || process.argv.includes('--paths-only')
+  if (!pathsOnly && (process.env.NETLIFY !== 'true' || !process.env.DEPLOY_ID)) {
+    throw new Error(
+      'Social image rendering is deployment-only. Local commands may use --paths-only.',
+    )
+  }
+
   const descriptorErrors = validatePublicPageDescriptors()
   if (descriptorErrors.length) throw new Error(descriptorErrors.join('\n'))
 
   const startedAt = performance.now()
-  const devOnly = process.argv.includes('--dev')
-  const pathsOnly = devOnly || process.argv.includes('--paths-only')
   const fonts = pathsOnly ? [] : await loadFonts()
   const fontBytes = await Promise.all(
     ['Inter-Regular.ttf', 'Inter-Bold.ttf', 'Inter-Black.ttf'].map((file) =>
@@ -363,7 +363,7 @@ async function generate(): Promise<void> {
 
   const paths: Record<string, string> = {}
   for (const page of PUBLIC_PAGE_DESCRIPTORS) {
-    const imagePath = localImagePath(page.imageCandidate)
+    const imagePath = localSocialImagePath(ROOT, page)
     const imageBytes = imagePath ? await readFile(imagePath) : undefined
     const digest = createHash('sha256')
       .update(JSON.stringify(page))

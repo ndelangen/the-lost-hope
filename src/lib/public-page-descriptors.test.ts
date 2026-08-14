@@ -1,7 +1,9 @@
 import { describe, expect, it } from 'vitest'
 
+import { DEFAULT_LOCATION_ILLUSTRATION } from '#/definitions/media'
 import { COLLECTIONS, allEntities, getEntity } from '#/lib/campaign'
 import {
+  locationIllustrationImageCandidate,
   PUBLIC_PAGE_DESCRIPTORS,
   publicEntityPageDescriptor,
   validatePublicPageDescriptors,
@@ -34,5 +36,13 @@ describe('public page descriptors', () => {
       expect(head.meta).toContainEqual({ property: 'og:image', content: image })
       expect(head.meta).toContainEqual({ name: 'twitter:image', content: image })
     }
+  })
+
+  it('uses real location art for social previews but never the placeholder', () => {
+    expect(locationIllustrationImageCandidate(DEFAULT_LOCATION_ILLUSTRATION)).toBeUndefined()
+    expect(locationIllustrationImageCandidate('/assets/locations/fairhaven.webp')).toBe(
+      '/assets/locations/fairhaven.webp',
+    )
+    expect(publicEntityPageDescriptor('location', 'fairhaven')?.imageCandidate).toBeUndefined()
   })
 })

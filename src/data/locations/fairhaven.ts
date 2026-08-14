@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiMedievalGate',
   type: 'settlement',
   parent: refs.locations.world,
-  at: [400, 0],
+  at: [580, 250],
   notes: [
     [
       'A harbor city gated against outsiders. Entry requires standard traveler paperwork, although membership tattoos from the regionally recognized ',

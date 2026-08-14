@@ -271903,7 +271903,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/expand",
       "usedIn": [
-        "src/components/avatar-viewer.tsx"
+        "src/components/image-viewer.tsx"
       ]
     },
     {
@@ -284243,7 +284243,6 @@
       "sourceUrl": "https://lucide.dev/icons/map-pin",
       "usedIn": [
         "src/components/campaign-shell/sidebar-data.ts",
-        "src/components/map-placeholder.tsx",
         "src/components/session-journal.tsx",
         "src/lib/entity-kind-visuals.ts"
       ]
@@ -308279,8 +308278,8 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/x",
       "usedIn": [
-        "src/components/avatar-viewer.tsx",
-        "src/components/campaign-shell.tsx"
+        "src/components/campaign-shell.tsx",
+        "src/components/image-viewer.tsx"
       ]
     },
     {

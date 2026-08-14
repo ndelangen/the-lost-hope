@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiBridge',
   type: 'landmark',
   parent: refs.locations.world,
-  at: [0, 0],
+  at: [900, 610],
   notes: [
     [
       'A wooden bridge on the forest road beyond ',

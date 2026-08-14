@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiSwordsEmblem',
   type: 'building',
   parent: refs.locations.fajanet,
-  at: [0, 0],
+  at: [330, 180],
   notes: [
     ["The party's new home base."],
     [

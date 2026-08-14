@@ -6,6 +6,6 @@ export default createLocation({
   icon: 'gi/GiApothecary',
   type: 'district',
   parent: refs.locations.mortimer_s_shop,
-  at: [0, 0],
+  at: [500, 350],
   notes: [['The underground workshop beneath ', refs.locations.mortimer_s_shop, '.']],
 })

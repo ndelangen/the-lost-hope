@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiFloorHatch',
   type: 'building',
   parent: refs.locations.fajanet,
-  at: [200, 400],
+  at: [690, 480],
   notes: [['A trapdoor connected to the ', refs.locations.fajanet_tunnels, '.']],
   map: { url: '/assets/locations/the-trapdoor.png', width: 1200, height: 700 },
 })

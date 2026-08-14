@@ -6,6 +6,6 @@ export default createLocation({
   icon: 'fa/FaDice',
   type: 'building',
   parent: refs.locations.fairhaven,
-  at: [0, 0],
+  at: [300, 520],
   notes: [['A gambling and drugs den in ', refs.locations.fairhaven, '.']],
 })

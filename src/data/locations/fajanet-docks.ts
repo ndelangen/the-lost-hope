@@ -6,6 +6,6 @@ export default createLocation({
   icon: 'lucide/Dock',
   type: 'district',
   parent: refs.locations.fajanet,
-  at: [0, 0],
+  at: [1080, 550],
   notes: [['The docks serving ', refs.locations.fajanet, '.']],
 })

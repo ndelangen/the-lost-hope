@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiGlowingArtifact',
   type: 'wilderness',
   parent: refs.locations.world,
-  at: [400, 400],
+  at: [100, 410],
   notes: [
     [
       'A meeting point near the mountain named in the warning sent to ',

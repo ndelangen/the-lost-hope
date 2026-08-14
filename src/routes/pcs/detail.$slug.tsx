@@ -1,14 +1,15 @@
 import { createFileRoute, notFound } from '@tanstack/react-router'
 
-import { AvatarViewer } from '#/components/avatar-viewer'
 import { CharacterItems } from '#/components/character-items'
 import { CharacterMemberships } from '#/components/character-memberships'
 import { ContentRenderer } from '#/components/content-renderer'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail } from '#/components/entity-page'
+import { ImageViewer } from '#/components/image-viewer'
 import { PreviousPortraits } from '#/components/previous-portraits'
 import { Inline, Stack } from '#/components/ui/layout'
 import { Pill } from '#/components/ui/pill'
+import { DEFAULT_AVATAR } from '#/definitions/media'
 import { getEntity, itemsCarriedBy, itemsOwnedBy, pcStatusLabel } from '#/lib/campaign'
 import { characterMemberships, referencedByItems } from '#/lib/entity-page-data'
 import { publicEntityPageHead } from '#/lib/public-page-metadata'
@@ -39,7 +40,14 @@ function PcPage() {
       visual={{
         variant: 'avatar',
         content: (
-          <AvatarViewer src={pc.avatar} name={pc.name} eyebrow="Player character portrait" />
+          <ImageViewer
+            src={pc.avatar}
+            fallbackSrc={DEFAULT_AVATAR}
+            alt={pc.name}
+            title={pc.name}
+            eyebrow="Player character portrait"
+            accessibleLabel={`portrait of ${pc.name}`}
+          />
         ),
       }}
       headerContent={

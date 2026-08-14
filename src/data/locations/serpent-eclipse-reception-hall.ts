@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiDesk',
   type: 'dungeon',
   parent: refs.locations.temple_of_the_serpent_eclipse,
-  at: [0, 0],
+  at: [310, 350],
   notes: [
     [
       'The information and administration area immediately inside the ',

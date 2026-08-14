@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiMedievalBarracks',
   type: 'building',
   parent: refs.locations.fairhaven,
-  at: [0, 0],
+  at: [380, 180],
   notes: [
     ['A hall of the ', refs.organizations.adventurers_guild, ' in ', refs.locations.fairhaven, '.'],
   ],

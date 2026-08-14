@@ -6,6 +6,6 @@ export default createLocation({
   icon: 'gi/GiAnvilImpact',
   type: 'district',
   parent: refs.locations.sylvias_flying_bazaar,
-  at: [0, 0],
+  at: [700, 150],
   notes: [['A crafting area aboard ', refs.locations.sylvias_flying_bazaar, '.']],
 })

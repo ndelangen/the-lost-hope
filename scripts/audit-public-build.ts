@@ -5,7 +5,9 @@ import { join } from 'node:path'
 import { JSDOM } from 'jsdom'
 /* oxlint-disable no-await-in-loop -- the audit reports the precise public page or asset that fails */
 
+import { DEFAULT_LOCATION_ILLUSTRATION } from '../src/definitions/media'
 import { GENERATED_SOCIAL_IMAGE_PATHS } from '../src/generated/social-image-paths'
+import { getEntity, locationParent } from '../src/lib/campaign'
 import {
   PUBLIC_PAGE_DESCRIPTORS,
   SITE_ORIGIN,
@@ -96,6 +98,29 @@ async function audit(): Promise<void> {
     assert(document.querySelector('main'), `Missing main content: ${page.path}`)
     assert(document.querySelector('h1'), `Missing page heading: ${page.path}`)
     assert(document.querySelector('a[href]'), `Missing crawlable links: ${page.path}`)
+
+    if (page.entity?.kind === 'location') {
+      const location = getEntity('location', page.entity.slug)
+      assert(location, `Missing canonical location: ${page.entity.slug}`)
+      const sectionOrder = [
+        ...document.querySelectorAll<HTMLElement>('[data-location-section]'),
+      ].map((section) => section.dataset.locationSection)
+      const expectedSectionOrder = ['illustration', 'about']
+      if (locationParent(location.data)) expectedSectionOrder.push('context-map')
+      expectedSectionOrder.push('destination-map')
+      assert(
+        sectionOrder.join(',') === expectedSectionOrder.join(','),
+        `Wrong location detail content order: ${page.path}`,
+      )
+      const illustrationSource = document
+        .querySelector<HTMLElement>('[data-location-section="illustration"]')
+        ?.querySelector('img')
+        ?.getAttribute('src')
+      assert(
+        illustrationSource === (page.imageCandidate ?? DEFAULT_LOCATION_ILLUSTRATION),
+        `Wrong location illustration source: ${page.path}`,
+      )
+    }
 
     for (const image of document.querySelectorAll<HTMLImageElement>('img[src]')) {
       const source = image.getAttribute('src')

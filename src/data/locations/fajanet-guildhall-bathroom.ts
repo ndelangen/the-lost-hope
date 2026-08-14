@@ -6,6 +6,6 @@ export default createLocation({
   icon: 'gi/GiShower',
   type: 'district',
   parent: refs.locations.fajanet_guildhall,
-  at: [0, 0],
+  at: [600, 350],
   notes: [['A bathroom inside the ', refs.locations.fajanet_guildhall, '.']],
 })

@@ -6,6 +6,6 @@ export default createLocation({
   icon: 'gi/GiCircleForest',
   type: 'wilderness',
   parent: refs.locations.verdant_haven,
-  at: [0, 0],
+  at: [700, 450],
   notes: [['The forest surrounding ', refs.locations.verdant_haven, '.']],
 })

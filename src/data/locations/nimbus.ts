@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'lucide/Cloud',
   type: 'settlement',
   parent: refs.locations.sky_islands,
-  at: [0, 0],
+  at: [250, 180],
   notes: [
     [
       'The first inhabited ',

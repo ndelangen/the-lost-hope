@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiForest',
   type: 'wilderness',
   parent: refs.locations.world,
-  at: [200, 0],
+  at: [260, 250],
   notes: [
     [
       'A forest between the ',

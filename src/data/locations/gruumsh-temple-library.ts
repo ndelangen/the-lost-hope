@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'lucide/Library',
   type: 'building',
   parent: refs.locations.gruumsh_war_temple,
-  at: [0, 0],
+  at: [250, 220],
   notes: [
     [
       'The library of the ',

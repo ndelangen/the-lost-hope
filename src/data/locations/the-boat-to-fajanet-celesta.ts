@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiCaravel',
   type: 'route',
   parent: refs.locations.world,
-  at: [200, 400],
+  at: [260, 90],
   notes: [
     [
       'The vessel Celesta, which carried ',

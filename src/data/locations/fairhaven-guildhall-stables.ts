@@ -6,6 +6,6 @@ export default createLocation({
   icon: 'fa/FaHorse',
   type: 'district',
   parent: refs.locations.fairhaven_guildhall,
-  at: [0, 0],
+  at: [500, 350],
   notes: [['The stables at the ', refs.locations.fairhaven_guildhall, '.']],
 })

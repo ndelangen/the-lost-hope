@@ -1,13 +1,14 @@
 import { createFileRoute, notFound } from '@tanstack/react-router'
 import { Calendar } from 'lucide-react'
 
-import { AvatarViewer } from '#/components/avatar-viewer'
 import { ContentRenderer } from '#/components/content-renderer'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityKindPill } from '#/components/entity-kind-pill'
 import { EntityDetail } from '#/components/entity-page'
+import { ImageViewer } from '#/components/image-viewer'
 import { LocationReference } from '#/components/location-reference'
 import { Inline, Stack } from '#/components/ui/layout'
+import { DEFAULT_AVATAR } from '#/definitions/media'
 import { eventLocation, getEntity } from '#/lib/campaign'
 import { referencedByItems } from '#/lib/entity-page-data'
 import { EventMarkIcon } from '#/lib/event-icons'
@@ -39,7 +40,14 @@ function EventPage() {
           ? {
               variant: 'avatar',
               content: (
-                <AvatarViewer src={event.mark.url} name={event.name} eyebrow="Event portrait" />
+                <ImageViewer
+                  src={event.mark.url}
+                  fallbackSrc={DEFAULT_AVATAR}
+                  alt={event.name}
+                  title={event.name}
+                  eyebrow="Event portrait"
+                  accessibleLabel={`portrait for ${event.name}`}
+                />
               ),
             }
           : {

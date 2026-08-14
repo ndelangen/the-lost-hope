@@ -1,13 +1,14 @@
 import { createFileRoute, notFound } from '@tanstack/react-router'
 
-import { AvatarViewer } from '#/components/avatar-viewer'
 import { CharacterMemberships } from '#/components/character-memberships'
 import { ContentRenderer } from '#/components/content-renderer'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail } from '#/components/entity-page'
+import { ImageViewer } from '#/components/image-viewer'
 import { LocationReference } from '#/components/location-reference'
 import { Inline, Stack } from '#/components/ui/layout'
 import { Pill } from '#/components/ui/pill'
+import { DEFAULT_AVATAR } from '#/definitions/media'
 import { getEntity, npcLocation } from '#/lib/campaign'
 import { characterMemberships, referencedByItems } from '#/lib/entity-page-data'
 import { publicEntityPageHead } from '#/lib/public-page-metadata'
@@ -36,7 +37,16 @@ function NpcPage() {
       title={npc.name}
       visual={{
         variant: 'avatar',
-        content: <AvatarViewer src={npc.avatar} name={npc.name} eyebrow="NPC portrait" />,
+        content: (
+          <ImageViewer
+            src={npc.avatar}
+            fallbackSrc={DEFAULT_AVATAR}
+            alt={npc.name}
+            title={npc.name}
+            eyebrow="NPC portrait"
+            accessibleLabel={`portrait of ${npc.name}`}
+          />
+        ),
       }}
       headerContent={
         <Stack gap="md">
