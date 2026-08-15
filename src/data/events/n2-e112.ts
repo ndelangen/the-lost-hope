@@ -22,7 +22,7 @@ export default createEvent({
       'Before they parted, ',
       refs.npcs.the_fiddler,
       ' warned the party not to enter the third dungeon on their second day among the ',
-      refs.locations.sky_islands,
+      refs.locations.three_sky_kingdoms,
       '. He also promised that every future meeting would feature a different game.',
     ],
   ],

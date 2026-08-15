@@ -235,10 +235,6 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Why asking:_ The inn’s response, any repair costs or other consequences, and the exact extent of the room damage may become relevant later.
   - _Session:_ 12 ([n2-e106](/events/detail/jim-s-lightning-curse-reveals-his-human-identity))
 
-- **Which two languages did Cassian gain from the Fiddler’s Deck?**
-  - _Context:_ The card granted [Cassian Veyl](/pcs/detail/cassian-veyl) two languages, but the final choices were not recorded.
-  - _Session:_ 12 ([n2-e105](/events/detail/the-party-plays-three-rounds-with-the-fiddler))
-
 - **What part of Devan went missing or fell asleep during the Fiddler’s game?**
   - _Context:_ [Devan](/pcs/detail/devan) felt that a part of himself was absent and dormant, but the card’s exact target and consequences were not revealed.
   - _Why asking:_ This is tracked as the open mystery [What Did Devan Lose to the Fiddler?](/quests/detail/what-did-devan-lose-to-the-fiddler); the affected part, cause, consequences, and recovery conditions remain unknown.

@@ -778,6 +778,7 @@ describe('campaign chronology', () => {
       'jim',
       'swift-starblade',
     ])
+    expect(pcs.cassian_veyl.languages).toEqual(['Sylvan', 'Undercommon'])
   })
 
   it('records Session 13 across the Serpent Eclipse and Gruumsh temple rooms', () => {

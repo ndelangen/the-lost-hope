@@ -63,7 +63,7 @@ describe('location hierarchy map', () => {
   it('keeps icon-only pins accessible and exposes every place in the legend', () => {
     render(
       <>
-        <LocationMapPlot map={map} label="Nimbus within Sky Islands" />
+        <LocationMapPlot map={map} label="Nimbus within Three Sky Kingdoms" />
         <LocationMapLegend map={map} />
       </>,
     )

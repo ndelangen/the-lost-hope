@@ -11,6 +11,7 @@ export default createPC({
   class: 'Warlock',
   subclass: 'Great Old One Patron',
   level: 5,
+  languages: ['Sylvan', 'Undercommon'],
   memberships: [
     {
       organization: refs.organizations.adventurers_guild,

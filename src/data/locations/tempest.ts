@@ -5,12 +5,12 @@ export default createLocation({
   name: 'Tempest',
   icon: 'gi/GiWhirlwind',
   type: 'settlement',
-  parent: refs.locations.sky_islands,
+  parent: refs.locations.three_sky_kingdoms,
   at: [760, 520],
   notes: [
     [
       'The third inhabited ',
-      refs.locations.sky_islands,
+      refs.locations.three_sky_kingdoms,
       ' destination. It is governed by a northern house of Air Genasi, whose moving island allows them to preserve a nomadic tradition without leaving the settlement.',
     ],
     [

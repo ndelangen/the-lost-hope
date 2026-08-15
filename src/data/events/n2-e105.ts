@@ -38,7 +38,7 @@ export default createEvent({
       refs.pcs.cassian_veyl,
       ' permanently gained one point of Dexterity and 25,000 GP, immediately gave 5,000 GP to ',
       refs.npcs.sylvia,
-      ', and gained two languages that he has not yet identified. His final draw was ',
+      ', and gained two additional languages. His final draw was ',
       cardLink('Donjon'),
       ', which imprisoned him in a void sphere and left his possessions at the table.',
     ],

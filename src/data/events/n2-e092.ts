@@ -16,7 +16,7 @@ export default createEvent({
     ['The initial exchange was awkward because ', refs.pcs.jim, ' was still invisible.'],
     [
       'She said the vessel would visit all three ',
-      refs.locations.sky_islands,
+      refs.locations.three_sky_kingdoms,
       ' over roughly one month, after which reaching ',
       refs.locations.feywild,
       ' would take about another two weeks.',
