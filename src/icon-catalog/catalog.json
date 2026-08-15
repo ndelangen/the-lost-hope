@@ -163365,7 +163365,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/island.html",
       "usedIn": [
-        "src/data/locations/sky-islands.ts",
+        "src/data/locations/three-sky-kingdoms.ts",
         "src/lib/location-icons.tsx"
       ]
     },

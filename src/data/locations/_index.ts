@@ -57,7 +57,6 @@ import shadow_realm from './shadow-realm.ts'
 import shadowpeak_mining_operation from './shadowpeak-mining-operation.ts'
 import shadowpeak_residential_district from './shadowpeak-residential-district.ts'
 import shadowpeak from './shadowpeak.ts'
-import sky_islands from './sky-islands.ts'
 import skynet from './skynet.ts'
 import snowy_mountain_ruin from './snowy-mountain-ruin.ts'
 import snowy_mountains from './snowy-mountains.ts'
@@ -73,6 +72,7 @@ import the_crater_bridge from './the-crater-bridge.ts'
 import the_green_light from './the-green-light.ts'
 import the_nest from './the-nest.ts'
 import the_sullen_monk from './the-sullen-monk.ts'
+import three_sky_kingdoms from './three-sky-kingdoms.ts'
 import trapdoor from './trapdoor.ts'
 import unidentified_floating_island from './unidentified-floating-island.ts'
 import verdant_haven_church from './verdant-haven-church.ts'
@@ -128,7 +128,6 @@ export default {
   shadowpeak,
   shadowpeak_mining_operation,
   shadowpeak_residential_district,
-  sky_islands,
   skynet,
   snowy_mountain_ruin,
   snowy_mountains,
@@ -153,6 +152,7 @@ export default {
   sylvias_flying_bazaar,
   sylvia_s_quarters,
   tempest,
+  three_sky_kingdoms,
   temple_of_the_serpent_eclipse,
   temple_of_the_watchers,
   the_green_light,

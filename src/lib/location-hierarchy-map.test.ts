@@ -10,8 +10,12 @@ import {
 
 describe('buildLocationHierarchyMap', () => {
   it('uses local coordinates literally and highlights the current location', () => {
-    const siblings = locationChildren(locations.sky_islands.slug)
-    const model = buildLocationHierarchyMap(locations.sky_islands, siblings, locations.nimbus.slug)
+    const siblings = locationChildren(locations.three_sky_kingdoms.slug)
+    const model = buildLocationHierarchyMap(
+      locations.three_sky_kingdoms,
+      siblings,
+      locations.nimbus.slug,
+    )
 
     expect(model.points.find((point) => point.slug === locations.nimbus.slug)).toMatchObject({
       left: 25,

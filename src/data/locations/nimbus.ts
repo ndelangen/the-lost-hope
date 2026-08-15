@@ -5,12 +5,12 @@ export default createLocation({
   name: 'Nimbus',
   icon: 'lucide/Cloud',
   type: 'settlement',
-  parent: refs.locations.sky_islands,
+  parent: refs.locations.three_sky_kingdoms,
   at: [250, 180],
   notes: [
     [
       'The first inhabited ',
-      refs.locations.sky_islands,
+      refs.locations.three_sky_kingdoms,
       ' destination and their main arrival, screening, and trading hub. Visitors transfer onward by small flying ferries, while apprentices, crafters, alchemists, and blacksmiths work throughout the settlement.',
     ],
     [
