@@ -16,6 +16,10 @@ todos.json
 .netlify
 
 # Build-generated public publishing artifacts
+public/assets/generated-images/
+public/logo192.png
+public/logo512.png
+public/favicon.ico
 public/social-previews/
 public/_redirects
 public/404.html
@@ -23,3 +27,6 @@ public/robots.txt
 src/generated/social-image-paths.ts
 src/generated/public-asset-paths.ts
 src/generated/responsive-images.ts
+
+# Local drafts, prompts, and review artifacts
+/output/

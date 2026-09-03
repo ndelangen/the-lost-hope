@@ -1,8 +1,9 @@
 # Delivery-footprint contract
 
 This site keeps all 374 public routes prerendered while reducing the bytes sent to a visitor. The
-repository size is deliberately not a constraint: source rasters and generated derivatives are
-committed so delivery stays deterministic and independent of a paid image service.
+repository size is deliberately not a constraint. Commit approved source rasters and
+pipeline code. Keep reproducible image derivatives out of Git so reviews show source changes.
+The build generates delivery assets locally without a paid image service.
 
 ## JavaScript
 
@@ -26,6 +27,12 @@ chroma subsampling. Every responsive image receives:
 - an exact `srcset`, truthful `sizes`, and intrinsic dimensions;
 - a role-specific maximum width for small avatars;
 - lazy loading except for the four portraits in the navigation.
+
+The generated JPEG directory, responsive-image manifest, and app icons are ignored by Git.
+Development, tests, and builds regenerate them from the committed originals. Keep browser proof
+under `output/verification/` and attach screenshots to the pull request. The entire `output/`
+directory is ignored, including generation prompts and draft artwork. Only approved artwork under
+`assets/images/` belongs in Git; useful generation context belongs in the pull request.
 
 The four 20 px navigation portrait originals total 1,407,244 bytes. Their 64 px derivatives total
 8,255 bytes, a 99.4% reduction. The eight original local content rasters total 7,175,674 bytes;

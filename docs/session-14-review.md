@@ -34,7 +34,7 @@ separate event coordinates.
 
 Both illustrated maps are 1536 by 1024 pixels. The three-door room was extended with generated rock
 surroundings; the approved maze already used 3:2. Earlier drafts and generation prompts are retained
-in `output/imagegen/`.
+locally in the ignored `output/imagegen/` directory.
 
 Schematic maps also use 3:2. Default canvases expand from 1000 by 700 to 1050 by 700, with child pins
 shifted 25 pixels right. Explicit 1200 by 700 schematic canvases expand to 1200 by 800, with child
@@ -54,4 +54,5 @@ dimensions. Lazy map images use automatic size selection with a fallback size hi
 - Browser console and page-error checks.
 - Full social-image rendering and the public-build audit run only during Netlify deployment.
 
-Browser screenshots are in `output/verification/`. Production is unchanged until the PR is merged.
+Browser screenshots are local artifacts in the ignored `output/verification/` directory. The
+Session 14 PR #109 retains its review evidence. Production changes only after merge.
