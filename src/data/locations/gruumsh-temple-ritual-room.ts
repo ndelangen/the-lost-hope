@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiPrayer',
   type: 'building',
   parent: refs.locations.gruumsh_war_temple,
-  at: [750, 220],
+  at: [775, 220],
   notes: [
     [
       'A private, soundproofed chamber in the ',

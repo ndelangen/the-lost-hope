@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiByzantinTemple',
   type: 'landmark',
   parent: refs.locations.world,
-  at: [420, 410],
+  at: [445, 410],
   notes: [
     [
       'A holy site between ',
@@ -16,5 +16,5 @@ export default createLocation({
       '.',
     ],
   ],
-  map: { url: '/assets/locations/holy-site-mountains.png', width: 1200, height: 700 },
+  map: { url: '/assets/locations/holy-site-mountains.png', width: 1200, height: 800 },
 })

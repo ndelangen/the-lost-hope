@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiForest',
   type: 'wilderness',
   parent: refs.locations.world,
-  at: [260, 250],
+  at: [285, 250],
   notes: [
     [
       'A forest between the ',
@@ -16,5 +16,5 @@ export default createLocation({
       '.',
     ],
   ],
-  map: { url: '/assets/locations/forest-near-badesh.png', width: 1200, height: 700 },
+  map: { url: '/assets/locations/forest-near-badesh.png', width: 1200, height: 800 },
 })

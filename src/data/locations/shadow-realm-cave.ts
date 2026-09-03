@@ -6,6 +6,6 @@ export default createLocation({
   icon: 'gi/GiUndergroundCave',
   type: 'dungeon',
   parent: refs.locations.shadow_realm,
-  at: [500, 350],
+  at: [525, 350],
   notes: [['A cave within the ', refs.locations.shadow_realm, '.']],
 })

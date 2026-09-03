@@ -134,5 +134,6 @@ export default createCampaign({
     sessions.the_flying_bazaar,
     sessions.the_fiddlers_game,
     sessions.the_first_dungeon,
+    sessions.the_serpent_lake,
   ],
 })

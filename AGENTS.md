@@ -44,6 +44,16 @@ campaign lore, entities, sessions, quests, and event timelines.
 - For UI changes, exercise the affected flow in a browser and check the console after automated
   verification passes.
 
+## Map artwork
+
+- Every location map uses a 3:2 landscape canvas, including schematic maps. Generate new artwork at
+  1536 by 1024 pixels unless a larger 3:2 source is needed.
+- Extend existing artwork with matching surroundings to fit the canvas. Do not crop rooms, stretch
+  geometry, or invent additional explorable areas. Preserve the original draft.
+- Store the actual source dimensions in the location's `map` field. When padding a map, translate
+  its child locations' `at` coordinates by the added margin, accounting for any uniform scaling.
+- Register map artwork in `scripts/image-sources.ts` for responsive progressive-JPEG delivery.
+
 ## Icon selection
 
 - Search the canonical catalog before choosing an icon: `bun run icons:search -- "<concept>"`.

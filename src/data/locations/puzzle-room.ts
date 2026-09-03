@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiPuzzle',
   type: 'dungeon',
   parent: refs.locations.world,
-  at: [580, 410],
+  at: [605, 410],
   notes: [['A puzzle room with 5 elements chasing each other.']],
-  map: { url: '/assets/locations/puzzle-room-mountain.png', width: 1200, height: 700 },
+  map: { url: '/assets/locations/puzzle-room-mountain.png', width: 1200, height: 800 },
 })

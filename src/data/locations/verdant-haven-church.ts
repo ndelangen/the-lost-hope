@@ -6,6 +6,6 @@ export default createLocation({
   icon: 'gi/GiChurch',
   type: 'building',
   parent: refs.locations.verdant_haven,
-  at: [300, 300],
+  at: [325, 300],
   notes: [['A large church capable of feeding and housing many people.']],
 })

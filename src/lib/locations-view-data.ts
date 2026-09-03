@@ -11,8 +11,8 @@ import {
   type LocationTreeNode,
 } from '#/lib/campaign'
 
-const MAP_WIDTH = 1000
-const MAP_HEIGHT = 500
+const MAP_WIDTH = 1050
+const MAP_HEIGHT = 700
 const MAP_PADDING = 48
 
 export type LocationMapModel = {

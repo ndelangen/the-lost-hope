@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiTempleGate',
   type: 'dungeon',
   parent: refs.locations.nimbus,
-  at: [700, 500],
+  at: [725, 500],
   notes: [
     [
       'One of ',

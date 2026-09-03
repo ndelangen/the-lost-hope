@@ -6,6 +6,6 @@ export default createLocation({
   icon: 'gi/GiMountains',
   type: 'region',
   parent: refs.locations.ethium,
-  at: [500, 350],
+  at: [525, 350],
   notes: [['A region of ', refs.locations.ethium, '. Its name is not a hidden clue.']],
 })

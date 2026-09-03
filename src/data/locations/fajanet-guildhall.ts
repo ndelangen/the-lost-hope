@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiSwordsEmblem',
   type: 'building',
   parent: refs.locations.fajanet,
-  at: [330, 180],
+  at: [330, 230],
   notes: [
     ["The party's new home base."],
     [
@@ -17,5 +17,5 @@ export default createLocation({
       "'s office.",
     ],
   ],
-  map: { url: '/assets/locations/fajanet-guildhall.png', width: 1200, height: 700 },
+  map: { url: '/assets/locations/fajanet-guildhall.png', width: 1200, height: 800 },
 })

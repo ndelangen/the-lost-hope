@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiHarborDock',
   type: 'district',
   parent: refs.locations.fairhaven,
-  at: [1080, 350],
+  at: [1080, 400],
   notes: [
     ['The maritime district and principal departure point of ', refs.locations.fairhaven, '.'],
   ],

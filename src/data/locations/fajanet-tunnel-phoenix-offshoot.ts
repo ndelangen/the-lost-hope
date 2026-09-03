@@ -6,6 +6,6 @@ export default createLocation({
   icon: 'gi/GiStalactites',
   type: 'dungeon',
   parent: refs.locations.fajanet_tunnels,
-  at: [350, 350],
+  at: [350, 400],
   notes: [['A side passage in the ', refs.locations.fajanet_tunnels, '.']],
 })

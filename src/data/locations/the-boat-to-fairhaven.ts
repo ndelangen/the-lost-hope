@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiSailboat',
   type: 'route',
   parent: refs.locations.world,
-  at: [420, 250],
+  at: [445, 250],
   notes: [
     ['A vessel running between ', refs.locations.badesh, ' and ', refs.locations.fairhaven, '.'],
   ],

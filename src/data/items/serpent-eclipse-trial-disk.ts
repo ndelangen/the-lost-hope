@@ -5,7 +5,7 @@ export default createItem({
   name: 'Serpent Eclipse Trial Disk',
   icon: 'gi/GiMetalDisc',
   currentOwner: refs.organizations.beasts_and_dwarf,
-  carriedBy: refs.pcs.jim,
+  carriedBy: null,
   craftedBy: null,
   notes: [
     [
@@ -13,7 +13,7 @@ export default createItem({
       refs.items.purple_dragon_horn,
       ', rewarded for the first completed challenge in the ',
       refs.locations.temple_of_the_serpent_eclipse,
-      '. Its purpose remains unknown.',
+      '. Returning it to the altar closes the door to that completed challenge.',
     ],
   ],
 })

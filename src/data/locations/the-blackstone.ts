@@ -6,6 +6,6 @@ export default createLocation({
   icon: 'gi/GiStoneTower',
   type: 'building',
   parent: refs.locations.shadowpeak,
-  at: [800, 220],
+  at: [825, 220],
   notes: [['A large, guarded mansion and estate with extensive stables.']],
 })

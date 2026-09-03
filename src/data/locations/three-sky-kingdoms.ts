@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiIsland',
   type: 'region',
   parent: refs.locations.world,
-  at: [740, 90],
+  at: [765, 90],
   notes: [
     [
       'Three inhabited island kingdoms in the sky, lying along an aerial route toward ',

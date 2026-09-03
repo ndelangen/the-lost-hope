@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiTwoShadows',
   type: 'dungeon',
   parent: refs.locations.temple_of_the_serpent_eclipse,
-  at: [680, 500],
+  at: [705, 500],
   notes: [
     [
       'The roughly one-hundred-metre descending passage behind the left-hand door of the ',

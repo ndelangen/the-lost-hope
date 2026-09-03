@@ -6,6 +6,6 @@ export default createLocation({
   icon: 'gi/GiWaterFountain',
   type: 'landmark',
   parent: refs.locations.fairhaven,
-  at: [570, 360],
+  at: [570, 410],
   notes: [['A central public square used for civic gatherings and major announcements.']],
 })

@@ -6,6 +6,6 @@ export default createLocation({
   icon: 'fa/FaStoreAlt',
   type: 'building',
   parent: refs.locations.fajanet,
-  at: [850, 180],
+  at: [850, 230],
   notes: [['The premises of the ', refs.npcs.rare_animal_dealer, '.']],
 })

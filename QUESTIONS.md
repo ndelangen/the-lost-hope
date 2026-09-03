@@ -6,7 +6,7 @@ Open questions for the author. Also used by the agent when editing data.
 include why the answer matters when it blocks a modeling or naming decision. Record confirmed canon
 in `src/data/` when answered. Do not use this file as an engineering backlog.
 
-**Play sessions:** Sessions **1–13** are dated and have event notes.
+**Play sessions:** Sessions 1 through 14 are dated and have event notes.
 
 ---
 
@@ -284,10 +284,9 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Why asking:_ The dungeon is provisionally represented as [Temple of the Serpent Eclipse](/locations/detail/temple-of-the-serpent-eclipse); a separate canonical location or alias should only be added if the distinction is real.
   - _Session:_ 13 ([n2-e123](/events/detail/the-party-presents-the-dungeon-pass-at-the-serpent-eclipse-entrance))
 
-- **What does the Serpent Eclipse Trial Disk do?**
-  - _Context:_ Completing the first dungeon challenge produced the [Purple Dragon Horn](/items/detail/purple-dragon-horn). A whisper instructed the party to place it on the blood-fed altar, where it spun and condensed into the [Serpent Eclipse Trial Disk](/items/detail/serpent-eclipse-trial-disk), now carried by [Jim](/pcs/detail/jim).
-  - _Why asking:_ Its function, whether it records the cleared door, and whether it is needed to continue or re-enter the dungeon are unknown.
-  - _Session:_ 13 ([n2-e128](/events/detail/the-dragon-horn-becomes-the-serpent-eclipse-trial-disk))
+- Was the trial disk retrieved from the altar, and does it have any further use?
+  - In Session 14, [Jim](/pcs/detail/jim) returned the [Serpent Eclipse Trial Disk](/items/detail/serpent-eclipse-trial-disk) to the altar, closing the completed challenge's door. The party then chose the middle door. Its immediate function is established, but the transcript does not say whether anyone took it back or whether it is needed later.
+  - Sessions 13 and 14, [the disk's creation](/events/detail/the-dragon-horn-becomes-the-serpent-eclipse-trial-disk) and [its use at the altar](/events/detail/the-trial-disk-closes-the-first-door).
 
 - **Which Fiddler card caused the curse removed from Cassian?**
   - _Context:_ During [the party’s game with the Fiddler](/events/detail/the-party-plays-three-rounds-with-the-fiddler), [Cassian Veyl](/pcs/detail/cassian-veyl) incurred a curse that improved his spell attacks by one but gave every opponent advantage when attacking him. The [Gruumsh High Priest](/npcs/detail/gruumsh-high-priest) removed it for a 50 GP donation, but its card and name were not identified.
@@ -298,6 +297,18 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Context:_ The [Gruumsh High Priest](/npcs/detail/gruumsh-high-priest) said [Cassian Veyl](/pcs/detail/cassian-veyl)’s hunger was not a curse but a two-way bond that placed part of [Wolfie](/beasts/detail/wolfie)’s life in [Cassian Veyl](/pcs/detail/cassian-veyl)’s soul. Research in the [Gruumsh Temple Library](/locations/detail/gruumsh-temple-library) made it clear that the [Wolfie-Tracking Ring](/items/detail/wolfie-tracking-ring) is gradually turning [Cassian Veyl](/pcs/detail/cassian-veyl) into a werewolf-like hybrid. His craving for meat and ability to identify animals by the scent of their blood were already evident; claws, fangs, and increased hair were identified as further signs.
   - _Why asking:_ The transformation itself is established, but its full-moon behavior, sensitivity to silver, pace, degree of control, risks to [Cassian Veyl](/pcs/detail/cassian-veyl) and [Wolfie](/beasts/detail/wolfie), and consequences of fighting or embracing it remain unknown.
   - _Session:_ 13 ([n2-e134](/events/detail/cassian-learns-the-ring-is-turning-him-into-a-werewolf))
+
+---
+
+## Session 14, The Serpent Lake
+
+- Who cast the Mage Hand that took the second golden apple away?
+  - The author confirmed that [Jim](/pcs/detail/jim) ate the first apple. The author initially attributed Mage Hand to [Swift](/pcs/detail/swift-starblade), then tentatively recalled [Cassian](/pcs/detail/cassian-veyl) instead. The caster remains unspecified in [the event](/events/detail/jim-eats-a-golden-apple-and-cannot-stop). Cassian's subsequent Suggestion is supported by the transcript.
+  - Session 14, approximately 00:44 through 00:49. Speaker labels are unreliable, especially for Swift.
+
+- Is "Tomb of the Scorpio" an in-world alias or a table joke?
+  - Around 00:15, the DM used that name but confirmed the party was returning to the same snake dungeon. It has not been added as an alias of the [Temple of the Serpent Eclipse](/locations/detail/temple-of-the-serpent-eclipse).
+  - Session 14. The maze and flooded cavern use descriptive names, not claimed official room names.
 
 ---
 

@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiCaravel',
   type: 'route',
   parent: refs.locations.world,
-  at: [260, 90],
+  at: [285, 90],
   notes: [
     [
       'The vessel Celesta, which carried ',
@@ -20,5 +20,5 @@ export default createLocation({
       '.',
     ],
   ],
-  map: { url: '/assets/locations/the-boat.png', width: 1200, height: 700 },
+  map: { url: '/assets/locations/the-boat.png', width: 1200, height: 800 },
 })

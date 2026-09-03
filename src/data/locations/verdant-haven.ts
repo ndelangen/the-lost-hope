@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiHidden',
   type: 'settlement',
   parent: refs.locations.world,
-  at: [420, 610],
+  at: [445, 610],
   notes: [
     [
       'A settlement reached from ',
