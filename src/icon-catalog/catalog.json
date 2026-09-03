@@ -103998,7 +103998,12 @@
       "classification": "useful",
       "classificationReason": "Manually classified as useful from the /_icons review page.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/campfire.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/events/n2-e148.ts",
+        "src/data/locations/serpent-eclipse-rest-chamber.ts",
+        "src/lib/event-icons.tsx",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiCampingTent",
@@ -126575,7 +126580,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/djed-pillar.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/serpent-eclipse-pillar-chamber.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiDjembe",
@@ -127442,6 +127450,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/doorway.html",
       "usedIn": [
         "src/data/events/n2-e129.ts",
+        "src/data/events/n2-e139.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -135828,6 +135837,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/fairy-wings.html",
       "usedIn": [
         "src/data/events/n2-e055.ts",
+        "src/data/events/n2-e141.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -142056,6 +142066,7 @@
       "usedIn": [
         "src/data/events/n2-e090.ts",
         "src/data/events/n2-e117.ts",
+        "src/data/events/n2-e144.ts",
         "src/data/locations/unidentified-floating-island.ts",
         "src/lib/event-icons.tsx",
         "src/lib/location-icons.tsx"
@@ -145575,7 +145586,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/fruit-tree.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/serpent-eclipse-golden-tree-chamber.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiFuelTank",
@@ -169642,6 +169656,7 @@
       "usedIn": [
         "src/data/events/n2-e069.ts",
         "src/data/events/n2-e121.ts",
+        "src/data/events/n2-e146.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -176208,7 +176223,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/maze.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/serpent-eclipse-maze.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiMazeCornea",
@@ -177986,6 +178004,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/metal-disc.html",
       "usedIn": [
         "src/data/events/n2-e128.ts",
+        "src/data/events/n2-e140.ts",
         "src/data/items/serpent-eclipse-trial-disk.ts",
         "src/lib/event-icons.tsx",
         "src/lib/item-icons.tsx"
@@ -181480,7 +181499,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/mountain-cave.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/serpent-eclipse-flooded-cavern.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiMountainClimbing",
@@ -199325,6 +199347,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/puzzle.html",
       "usedIn": [
         "src/data/events/n2-e032.ts",
+        "src/data/events/n2-e142.ts",
         "src/data/locations/puzzle-room.ts",
         "src/lib/event-icons.tsx",
         "src/lib/location-icons.tsx"
@@ -204710,7 +204733,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/rope-coil.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/events/n2-e143.ts",
+        "src/lib/event-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiRopeDart",
@@ -209309,7 +209335,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/sea-serpent.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/sessions/the-serpent-lake.ts",
+        "src/lib/session-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiSeaStar",
@@ -226485,7 +226514,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/stone-path.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/serpent-eclipse-far-landing.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiStonePile",
@@ -246774,7 +246806,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/waterfall.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/serpent-eclipse-waterfall-descent.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiWaterFlask",

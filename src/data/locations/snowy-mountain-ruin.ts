@@ -6,6 +6,6 @@ export default createLocation({
   icon: 'gi/GiAncientRuins',
   type: 'landmark',
   parent: refs.locations.snowy_mountains,
-  at: [300, 470],
+  at: [325, 470],
   notes: [['A mountaintop ruin showing clear signs of active restoration.']],
 })

@@ -48,10 +48,17 @@ import rare_animal_dealer_s_premises from './rare-animal-dealer-s-premises.ts'
 import reve from './reve.ts'
 import sea_of_unknown from './sea-of-unknown.ts'
 import serpent_eclipse_dungeon_entrance from './serpent-eclipse-dungeon-entrance.ts'
+import serpent_eclipse_far_landing from './serpent-eclipse-far-landing.ts'
+import serpent_eclipse_flooded_cavern from './serpent-eclipse-flooded-cavern.ts'
+import serpent_eclipse_golden_tree_chamber from './serpent-eclipse-golden-tree-chamber.ts'
 import serpent_eclipse_left_door_passage from './serpent-eclipse-left-door-passage.ts'
+import serpent_eclipse_maze from './serpent-eclipse-maze.ts'
+import serpent_eclipse_pillar_chamber from './serpent-eclipse-pillar-chamber.ts'
 import serpent_eclipse_reception_hall from './serpent-eclipse-reception-hall.ts'
+import serpent_eclipse_rest_chamber from './serpent-eclipse-rest-chamber.ts'
 import serpent_eclipse_shadow_arena from './serpent-eclipse-shadow-arena.ts'
 import serpent_eclipse_three_door_chamber from './serpent-eclipse-three-door-chamber.ts'
+import serpent_eclipse_waterfall_descent from './serpent-eclipse-waterfall-descent.ts'
 import shadow_realm_cave from './shadow-realm-cave.ts'
 import shadow_realm from './shadow-realm.ts'
 import shadowpeak_mining_operation from './shadowpeak-mining-operation.ts'
@@ -141,6 +148,13 @@ export default {
   reve,
   sea_of_unknown,
   serpent_eclipse_dungeon_entrance,
+  serpent_eclipse_flooded_cavern,
+  serpent_eclipse_golden_tree_chamber,
+  serpent_eclipse_pillar_chamber,
+  serpent_eclipse_waterfall_descent,
+  serpent_eclipse_far_landing,
+  serpent_eclipse_rest_chamber,
+  serpent_eclipse_maze,
   serpent_eclipse_left_door_passage,
   serpent_eclipse_reception_hall,
   serpent_eclipse_shadow_arena,

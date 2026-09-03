@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiCloudRing',
   type: 'settlement',
   parent: refs.locations.three_sky_kingdoms,
-  at: [500, 350],
+  at: [525, 350],
   notes: [
     [
       'The second inhabited ',

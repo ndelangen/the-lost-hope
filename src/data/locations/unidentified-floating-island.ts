@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiFloatingPlatforms',
   type: 'landmark',
   parent: refs.locations.snowy_mountains,
-  at: [700, 220],
+  at: [725, 220],
   notes: [
     ['A mysterious island floating near the mountain peak; nobody in the party could identify it.'],
   ],

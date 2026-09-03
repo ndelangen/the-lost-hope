@@ -18,9 +18,11 @@ describe('buildLocationHierarchyMap', () => {
     )
 
     expect(model.points.find((point) => point.slug === locations.nimbus.slug)).toMatchObject({
-      left: 25,
       current: true,
     })
+    expect(model.points.find((point) => point.slug === locations.nimbus.slug)?.left).toBeCloseTo(
+      (275 / 1050) * 100,
+    )
     expect(model.points.find((point) => point.slug === locations.nimbus.slug)?.top).toBeCloseTo(
       25.71,
       2,

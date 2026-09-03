@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiCargoShip',
   type: 'route',
   parent: refs.locations.world,
-  at: [580, 90],
+  at: [605, 90],
   notes: [
     [
       'A flying warship captained by ',

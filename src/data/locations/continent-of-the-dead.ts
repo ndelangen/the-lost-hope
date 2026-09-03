@@ -7,7 +7,7 @@ export default createLocation({
   aliases: ['Rotten Continent'],
   type: 'region',
   parent: refs.locations.world,
-  at: [100, 90],
+  at: [125, 90],
   notes: [
     [
       'A continent said by ',

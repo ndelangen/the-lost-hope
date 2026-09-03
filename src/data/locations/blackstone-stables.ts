@@ -6,6 +6,6 @@ export default createLocation({
   icon: 'gi/GiBarn',
   type: 'district',
   parent: refs.locations.the_blackstone,
-  at: [500, 350],
+  at: [525, 350],
   notes: [['The stables at ', refs.locations.the_blackstone, '.']],
 })

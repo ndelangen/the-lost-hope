@@ -14,6 +14,7 @@ import {
   GiSailboat,
   GiShadowFollower,
   GiSnakeTotem,
+  GiSeaSerpent,
 } from 'react-icons/gi'
 
 import { cn } from '#/lib/utils'
@@ -28,6 +29,7 @@ export const SESSION_ICONS = {
   'gi/GiSailboat': GiSailboat,
   'gi/GiShadowFollower': GiShadowFollower,
   'gi/GiSnakeTotem': GiSnakeTotem,
+  'gi/GiSeaSerpent': GiSeaSerpent,
   'gi/GiGavel': GiGavel,
   'gi/GiCrossedSwords': GiCrossedSwords,
   'gi/GiCastleRuins': GiCastleRuins,

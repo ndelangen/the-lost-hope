@@ -6,6 +6,6 @@ export default createLocation({
   icon: 'gi/GiStable',
   type: 'district',
   parent: refs.locations.sylvias_flying_bazaar,
-  at: [250, 550],
+  at: [275, 550],
   notes: [['The lowest stable area aboard ', refs.locations.sylvias_flying_bazaar, '.']],
 })

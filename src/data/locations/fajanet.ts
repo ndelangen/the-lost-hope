@@ -7,7 +7,7 @@ export default createLocation({
   aliases: ['Citadel of Reve'],
   type: 'settlement',
   parent: refs.locations.reve,
-  at: [500, 350],
+  at: [525, 350],
   notes: [
     [
       'A small, secret settlement beside the mountains at the edge of the known world, governed by its guildmaster ',
@@ -15,5 +15,5 @@ export default createLocation({
       '.',
     ],
   ],
-  map: { url: '/assets/locations/fajanet.png', width: 1200, height: 700 },
+  map: { url: '/assets/locations/fajanet.png', width: 1200, height: 800 },
 })

@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiShop',
   type: 'building',
   parent: refs.locations.sylvias_flying_bazaar,
-  at: [250, 150],
+  at: [275, 150],
   notes: [
     [
       'A market stall operated by ',

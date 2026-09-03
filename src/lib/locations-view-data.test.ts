@@ -48,6 +48,7 @@ describe('location view models', () => {
   it('keeps map pins within the canvas', () => {
     const model = locationMapModel(new Set(LOCATION_TYPES))
 
+    expect(model.width / model.height).toBe(1.5)
     expect(model.pins.length).toBeGreaterThan(0)
     expect(model.pins.every((pin) => pin.left >= 0 && pin.left <= 100)).toBe(true)
     expect(model.pins.every((pin) => pin.top >= 0 && pin.top <= 100)).toBe(true)

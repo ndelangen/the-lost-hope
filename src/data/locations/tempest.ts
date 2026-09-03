@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiWhirlwind',
   type: 'settlement',
   parent: refs.locations.three_sky_kingdoms,
-  at: [760, 520],
+  at: [785, 520],
   notes: [
     [
       'The third inhabited ',

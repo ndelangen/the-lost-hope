@@ -26,6 +26,11 @@ export default createPC({
   ],
   notes: [
     [
+      'Can understand and answer ',
+      refs.beasts.wolfie,
+      ' in wolf speech. Other party members hear animal sounds rather than the words he hears.',
+    ],
+    [
       'Cassian asked ',
       refs.npcs.light_13th_marshal,
       ' to use his guild favor to cure his lactose intolerance and believed the favor had been fulfilled. The condition remains; Light has not yet delivered the cure.',

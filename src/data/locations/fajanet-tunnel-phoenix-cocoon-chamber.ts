@@ -6,6 +6,6 @@ export default createLocation({
   icon: 'gi/GiAlienEgg',
   type: 'dungeon',
   parent: refs.locations.fajanet_tunnels,
-  at: [850, 350],
+  at: [850, 400],
   notes: [['A deeper chamber in the ', refs.locations.fajanet_tunnels, '.']],
 })

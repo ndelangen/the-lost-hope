@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiMedievalGate',
   type: 'settlement',
   parent: refs.locations.world,
-  at: [580, 250],
+  at: [605, 250],
   notes: [
     [
       'A harbor city gated against outsiders. Entry requires standard traveler paperwork, although membership tattoos from the regionally recognized ',
@@ -15,5 +15,5 @@ export default createLocation({
     ],
     ['Before the invasion, the city had approximately 4,500 residents.'],
   ],
-  map: { url: '/assets/locations/fairhaven.png', width: 1200, height: 700 },
+  map: { url: '/assets/locations/fairhaven.png', width: 1200, height: 800 },
 })

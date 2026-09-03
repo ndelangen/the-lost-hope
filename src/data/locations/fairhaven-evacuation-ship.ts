@@ -6,6 +6,6 @@ export default createLocation({
   icon: 'lucide/Ship',
   type: 'route',
   parent: refs.locations.world,
-  at: [740, 250],
+  at: [765, 250],
   notes: [['An otherwise unnamed civilian transport vessel from ', refs.locations.fairhaven, '.']],
 })

@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiBlood',
   type: 'building',
   parent: refs.locations.gruumsh_war_temple,
-  at: [500, 560],
+  at: [525, 560],
   notes: [
     [
       'A communal feast room in the ',

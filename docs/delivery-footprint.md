@@ -1,6 +1,6 @@
 # Delivery-footprint contract
 
-This site keeps all 350 public routes prerendered while reducing the bytes sent to a visitor. The
+This site keeps all 374 public routes prerendered while reducing the bytes sent to a visitor. The
 repository size is deliberately not a constraint: source rasters and generated derivatives are
 committed so delivery stays deterministic and independent of a paid image service.
 
@@ -33,7 +33,7 @@ their largest generated candidates total 1,323,923 bytes, an 81.5% reduction eve
 displayed at its maximum published size.
 
 Social previews are a separate deployment-only pipeline. Netlify runs `bun run build:deploy`,
-which creates all 350 previews as 1200 by 630 progressive q85 JPEGs and validates them. Local
+which creates all 374 previews as 1200 by 630 progressive q85 JPEGs and validates them. Local
 development, tests, and ordinary builds generate paths only and cannot render the full social set.
 Opaque PNG and ICO files remain for app icons; the unused TanStack PNG is not published.
 

@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiCliffCrossing',
   type: 'landmark',
   parent: refs.locations.world,
-  at: [260, 410],
+  at: [285, 410],
   notes: [['A clifftop bearing a sign whose message was never recorded.']],
-  map: { url: '/assets/locations/the-mountain-cliff.png', width: 1200, height: 700 },
+  map: { url: '/assets/locations/the-mountain-cliff.png', width: 1200, height: 800 },
 })

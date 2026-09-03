@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiShadowGrasp',
   type: 'dungeon',
   parent: refs.locations.temple_of_the_serpent_eclipse,
-  at: [870, 500],
+  at: [895, 500],
   notes: [
     [
       'The combat chamber reached through the ',

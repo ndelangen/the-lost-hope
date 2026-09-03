@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiMineWagon',
   type: 'dungeon',
   parent: refs.locations.shadowpeak,
-  at: [650, 520],
+  at: [675, 520],
   notes: [
     [
       'A large underground mine reached by elevator, with stalagmites, stalactites, a crowded work floor, and a slave pit providing only minimal necessities.',

@@ -20,6 +20,21 @@ export type ResponsiveImageSource = {
 
 export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
   {
+    id: 'serpent-eclipse-maze',
+    logicalSource: '/assets/maps/serpent-eclipse-maze.jpg',
+    repositoryPath: 'assets/images/maps/serpent-eclipse-maze.png',
+  },
+  {
+    id: 'serpent-eclipse-three-door-chamber',
+    logicalSource: '/assets/maps/serpent-eclipse-three-door-chamber.jpg',
+    repositoryPath: 'assets/images/maps/serpent-eclipse-three-door-chamber.png',
+  },
+  {
+    id: 'captain-squawk',
+    logicalSource: '/assets/beasts/captain-squawk.jpg',
+    repositoryPath: 'assets/images/content/beasts/captain-squawk.jpg',
+  },
+  {
     id: 'sir-fabulous-divine-steed',
     logicalSource: '/assets/npcs/sir-fabulous-divine-steed.png',
     repositoryPath: 'assets/images/content/npcs/sir-fabulous-divine-steed.png',

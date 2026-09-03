@@ -273,7 +273,6 @@ describe('items', () => {
       items.lights_unidentified_drops.slug,
       items.nimbus_dungeon_stamp_card.slug,
       items.robertos_map_pages.slug,
-      items.serpent_eclipse_trial_disk.slug,
     ])
     expect(itemsCarriedBy('pc', pcs.devan.slug).map((item) => item.slug)).toEqual([
       items.flask_of_never_ending_booze.slug,
@@ -290,7 +289,7 @@ describe('items', () => {
     expect(items.purple_dragon_horn.notes?.flat()).toContainEqual(
       refs.items.serpent_eclipse_trial_disk,
     )
-    expect(items.serpent_eclipse_trial_disk.carriedBy?.key).toBe(refs.pcs.jim.key)
+    expect(items.serpent_eclipse_trial_disk.carriedBy).toBeNull()
     expect(items.steve_mace_of_returning.craftedBy?.key).toBe(refs.npcs.bessy.key)
     expect(items.rare_dragon_scales.quantity).toBe(2)
     expect(items.cursed_shadow_sword.notes?.flat()).toContainEqual(refs.events.n2_e132)
@@ -931,6 +930,6 @@ describe('campaign chronology', () => {
   })
 
   it('returns the latest event first', () => {
-    expect(sortedEvents()[0]?.data).toBe(events.n2_e134)
+    expect(sortedEvents()[0]?.data).toBe(events.n2_e148)
   })
 })

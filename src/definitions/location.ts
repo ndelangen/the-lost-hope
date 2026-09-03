@@ -68,13 +68,17 @@ const locationFields = {
   map: z
     .strictObject({
       url: MediaUrl,
-      width: z.number(),
-      height: z.number(),
+      width: z.number().int().positive(),
+      height: z.number().int().positive(),
+    })
+    .refine(({ width, height }) => width * 2 === height * 3, {
+      message:
+        'Location maps must use a 3:2 landscape ratio. Extend the artwork instead of cropping it.',
     })
     .optional()
     .default({
-      url: 'https://placehold.co/1000x700?text=Map',
-      width: 1000,
+      url: 'https://placehold.co/1050x700?text=Map',
+      width: 1050,
       height: 700,
     }),
 }

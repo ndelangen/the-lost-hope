@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiCaveEntrance',
   type: 'dungeon',
   parent: refs.locations.fajanet,
-  at: [480, 580],
+  at: [480, 630],
   notes: [['A network of underground tunnels, reached via ', refs.locations.trapdoor, '.']],
-  map: { url: '/assets/locations/fajanet-tunnels.png', width: 1200, height: 700 },
+  map: { url: '/assets/locations/fajanet-tunnels.png', width: 1200, height: 800 },
 })
