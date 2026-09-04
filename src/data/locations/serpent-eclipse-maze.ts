@@ -5,9 +5,9 @@ export default createLocation({
   name: 'Serpent Eclipse Maze',
   icon: 'gi/GiMaze',
   type: 'dungeon',
-  parent: refs.locations.temple_of_the_serpent_eclipse,
-  // Schematic placement, not a surveyed dungeon coordinate.
-  at: [705, 180],
+  parent: refs.locations.serpent_eclipse_three_door_chamber,
+  // Middle doorway on the chamber artwork.
+  at: [768, 825],
   map: {
     url: '/assets/maps/serpent-eclipse-maze.jpg',
     width: 1536,

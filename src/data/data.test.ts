@@ -74,7 +74,7 @@ describe('location import order', () => {
       locations.temple_of_the_serpent_eclipse.slug,
     )
     expect(locationParent(locations.serpent_eclipse_left_door_passage)?.slug).toBe(
-      locations.temple_of_the_serpent_eclipse.slug,
+      locations.serpent_eclipse_three_door_chamber.slug,
     )
     expect(locationParent(locations.serpent_eclipse_shadow_arena)?.slug).toBe(
       locations.temple_of_the_serpent_eclipse.slug,
