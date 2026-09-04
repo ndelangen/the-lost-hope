@@ -9,6 +9,19 @@ import {
 } from '#/lib/location-hierarchy-map'
 
 describe('buildLocationHierarchyMap', () => {
+  it('continues from the passage to the shadow arena', () => {
+    const passage = locations.serpent_eclipse_left_door_passage
+    const model = buildLocationHierarchyMap(passage, locationChildren(passage.slug))
+
+    expect(model.points).toEqual([
+      expect.objectContaining({
+        slug: locations.serpent_eclipse_shadow_arena.slug,
+        left: 50,
+        top: 50,
+      }),
+    ])
+  })
+
   it('links doors I and II to the passage and maze, leaving door III unlinked', () => {
     const chamber = locations.serpent_eclipse_three_door_chamber
     const model = buildLocationHierarchyMap(chamber, locationChildren(chamber.slug))
