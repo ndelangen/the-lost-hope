@@ -125,14 +125,14 @@ export function ImageViewer({
                 className="absolute inset-0 z-0 cursor-zoom-out"
               />
 
-              <div className="pointer-events-none absolute inset-0 z-10 grid place-items-center p-3 sm:p-8">
+              <div className="pointer-events-none absolute inset-0 z-10 grid grid-cols-1 grid-rows-1 place-items-center p-3 sm:p-8">
                 <ViewerImage
                   src={src}
                   fallbackSrc={fallbackSrc}
                   alt={alt}
                   loading="eager"
                   sizes={viewerSizes}
-                  className="h-full w-full object-contain [filter:drop-shadow(0_32px_48px_rgb(0_0_0/0.55))]"
+                  className="h-full min-h-0 w-full min-w-0 object-contain [filter:drop-shadow(0_32px_48px_rgb(0_0_0/0.55))]"
                 />
               </div>
 

@@ -6,6 +6,7 @@
     "#/*": "./src/*"
   },
   "scripts": {
+    "test:image-viewer": "bun scripts/check-image-viewer.ts",
     "dev": "bun run generate:images && bun scripts/generate-social-images.tsx --dev && vite dev --port 3000",
     "build": "bun run generate:images && bun run generate:social-paths && vite build",
     "build:deploy": "bun run generate:images && bun run generate:social-images && vite build && bun run audit:delivery && bun run audit:public-build",
@@ -73,6 +74,7 @@
     "jsdom": "^27.0.0",
     "oxfmt": "^0.58.0",
     "oxlint": "^1.73.0",
+    "playwright": "1.62.1",
     "png-to-ico": "^3.0.2",
     "satori": "0.29.0",
     "sharp": "^0.35.3",

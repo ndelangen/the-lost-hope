@@ -43,8 +43,16 @@ campaign lore, entities, sessions, quests, and event timelines.
 - Follow the existing Oxfmt style; do not hand-format around it.
 - For UI changes, exercise the affected flow in a browser and check the console after automated
   verification passes.
+- After image-viewer changes, run `bun run test:image-viewer` against the completed build. This
+  checks real browser geometry on desktop, mobile, and a short landscape viewport. Install the
+  test browser once with `bunx playwright install chromium` if needed.
 
 ## Map artwork
+
+- Every avatar source, including historical portraits, must be square. Choose crops per image to
+  preserve the face and identifying details in both square and circular thumbnails. Do not
+  stretch images or blindly centre-crop them. Register avatar sources with `role: 'avatar'` so
+  image generation rejects non-square sources. Keep uncropped backups locally under `output/`.
 
 - Commit approved artwork under `assets/images/` and the pipeline code. Do not commit responsive
   JPEG derivatives or generated app icons. The image pipeline recreates those during development,

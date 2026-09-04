@@ -57,6 +57,11 @@ async function generateContentImages(): Promise<Record<string, GeneratedImage>> 
   for (const source of RESPONSIVE_IMAGE_SOURCES) {
     const sourceBytes = await readFile(join(ROOT, source.repositoryPath))
     const dimensions = orientedDimensions(await sharp(sourceBytes).metadata())
+    if (source.role === 'avatar' && dimensions.width !== dimensions.height) {
+      throw new Error(
+        `Avatar source must be square: ${source.repositoryPath} (${dimensions.width}x${dimensions.height})`,
+      )
+    }
     const digest = createHash('sha256')
       .update(sourceBytes)
       .update(PIPELINE_VERSION)
