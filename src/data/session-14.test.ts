@@ -110,6 +110,23 @@ describe('Session 14 transcript import', () => {
     )
   })
 
+  it('credits Swift with spotting the rockfall opportunity and telling Devan', () => {
+    expect(events.n2_e147.notes[0]).toEqual([
+      'Beyond the water crossing, ',
+      refs.pcs.swift_starblade,
+      ' used his keen perception to spot fragile rock that could block the passage and told ',
+      refs.pcs.devan,
+      '. ',
+      refs.pcs.devan,
+      ' struck it with ',
+      refs.items.steve_mace_of_returning,
+      ', bringing down a barrier between the party and the still-living ',
+      refs.beasts.serpent_eclipse_lake_serpent,
+      '.',
+    ])
+    expect(events.n2_e147.mark).toEqual({ type: 'icon', name: 'gi/GiFallingRocks' })
+  })
+
   it('places each dungeon event in its scene instead of the whole maze', () => {
     expect(
       [
