@@ -6,8 +6,8 @@ export default createLocation({
   icon: 'gi/GiTwoShadows',
   type: 'dungeon',
   parent: refs.locations.serpent_eclipse_three_door_chamber,
-  // Left-hand doorway on the chamber artwork.
-  at: [480, 725],
+  // Door I, on the right side of the chamber artwork.
+  at: [1056, 725],
   notes: [
     [
       'The roughly one-hundred-metre descending passage behind the left-hand door of the ',

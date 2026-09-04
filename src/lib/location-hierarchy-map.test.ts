@@ -9,7 +9,7 @@ import {
 } from '#/lib/location-hierarchy-map'
 
 describe('buildLocationHierarchyMap', () => {
-  it('links the two explored chamber doors to their existing destinations', () => {
+  it('links doors I and II to the passage and maze, leaving door III unlinked', () => {
     const chamber = locations.serpent_eclipse_three_door_chamber
     const model = buildLocationHierarchyMap(chamber, locationChildren(chamber.slug))
 
@@ -18,7 +18,7 @@ describe('buildLocationHierarchyMap', () => {
       expect.arrayContaining([
         expect.objectContaining({
           slug: locations.serpent_eclipse_left_door_passage.slug,
-          left: (480 / 1536) * 100,
+          left: (1056 / 1536) * 100,
           top: (725 / 1024) * 100,
         }),
         expect.objectContaining({
