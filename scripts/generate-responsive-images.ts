@@ -16,7 +16,7 @@ import {
 const ROOT = process.cwd()
 const OUTPUT_DIRECTORY = join(ROOT, 'public/assets/generated-images')
 const GENERATED_MODULE = join(ROOT, 'src/generated/responsive-images.ts')
-const PIPELINE_VERSION = 'responsive-jpeg-v1|sharp@0.35.3'
+const PIPELINE_VERSION = 'responsive-jpeg-v2|sharp@0.35.3|accurate-shrink'
 
 type Candidate = {
   src: string
@@ -68,7 +68,8 @@ async function generateContentImages(): Promise<Record<string, GeneratedImage>> 
     for (const width of candidateWidths(dimensions.width)) {
       const output = await sharp(sourceBytes)
         .rotate()
-        .resize({ width, withoutEnlargement: true })
+        // JPEG shrink-on-load can round a dimension before the final resize.
+        .resize({ width, withoutEnlargement: true, fastShrinkOnLoad: false })
         .flatten({ background: APP_ICON_BACKGROUND })
         .jpeg({
           quality: RESPONSIVE_IMAGE_ENCODING.quality,

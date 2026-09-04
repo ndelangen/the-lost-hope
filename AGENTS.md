@@ -46,6 +46,11 @@ campaign lore, entities, sessions, quests, and event timelines.
 
 ## Map artwork
 
+- Commit approved artwork under `assets/images/` and the pipeline code. Do not commit responsive
+  JPEG derivatives or generated app icons. The image pipeline recreates those during development,
+  tests, and builds. The entire `output/` directory is local and ignored, including drafts, prompts,
+  and browser screenshots. Put useful generation context and review evidence in the pull request.
+
 - Every location map uses a 3:2 landscape canvas, including schematic maps. Generate new artwork at
   1536 by 1024 pixels unless a larger 3:2 source is needed.
 - Extend existing artwork with matching surroundings to fit the canvas. Do not crop rooms, stretch

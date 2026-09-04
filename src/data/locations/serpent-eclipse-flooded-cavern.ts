@@ -4,6 +4,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 export default createLocation({
   name: 'Serpent Eclipse Flooded Cavern',
   icon: 'gi/GiMountainCave',
+  illustration: '/assets/locations/serpent-eclipse-flooded-cavern.jpg',
   type: 'dungeon',
   parent: refs.locations.serpent_eclipse_maze,
   at: [360, 740],
