@@ -132,6 +132,16 @@ export function locationChildren(parentSlug: string): LocationEntity[] {
     .toSorted((a, b) => compareEntityNames(a.data.name, b.data.name))
 }
 
+export function locationConnections(location: Location) {
+  return location.connections.map((connection) => {
+    const entity = resolveRef(connection.destination)
+    if (!entity || entity.kind !== 'location') {
+      throw new Error(`Invalid connection destination in ${location.name}: ${connection.id}`)
+    }
+    return { connection, destination: entity.data }
+  })
+}
+
 export function locationAncestors(location: Location): Location[] {
   const ancestors: Location[] = []
   let current = locationParent(location)

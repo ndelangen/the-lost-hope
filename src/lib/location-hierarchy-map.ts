@@ -1,9 +1,11 @@
-import type { Location } from '#/definitions/location'
+import type { Location, LocationConnection } from '#/definitions/location'
 import type { LocationEntity } from '#/lib/campaign'
 
 export type LocationHierarchyMapPoint = {
+  id: string
   slug: string
   name: string
+  connection?: { type: LocationConnection['type']; label: string }
   icon?: string
   left: number
   top: number
@@ -28,6 +30,7 @@ export function buildLocationHierarchyMap(
 
     return [
       {
+        id: `location:${entity.slug}`,
         slug: entity.slug,
         name: entity.data.name,
         icon: entity.data.icon,
@@ -39,6 +42,34 @@ export function buildLocationHierarchyMap(
   })
 
   return { asset: owner.map, points }
+}
+
+export function buildLocationExplorationMap(
+  owner: Location,
+  children: readonly LocationEntity[],
+  connections: readonly { connection: LocationConnection; destination: Location }[],
+): LocationHierarchyMapModel {
+  const map = buildLocationHierarchyMap(owner, children)
+  return {
+    ...map,
+    points: [
+      ...map.points,
+      ...connections.map(({ connection, destination }) => ({
+        id: `connection:${connection.id}`,
+        slug: destination.slug,
+        name: destination.name,
+        icon: connection.type === 'portal' ? 'gi/GiMagicPortal' : destination.icon,
+        connection: { type: connection.type, label: connection.label },
+        left: (connection.at[0] / owner.map.width) * 100,
+        top: (connection.at[1] / owner.map.height) * 100,
+        current: false,
+      })),
+    ],
+  }
+}
+
+export function locationMapPointLabel(point: LocationHierarchyMapPoint): string {
+  return point.connection ? `${point.connection.label} → ${point.name}` : point.name
 }
 
 export function coordinatesWithinMapInset(

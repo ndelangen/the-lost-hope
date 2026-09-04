@@ -1,9 +1,47 @@
 import { describe, expect, it } from 'vitest'
 
-import { create as createLocation } from './location'
+import { create as createLocation, LocationConnection } from './location'
 import { DEFAULT_LOCATION_ILLUSTRATION } from './media'
 
 describe('Location', () => {
+  const portal = {
+    id: 'return-portal',
+    type: 'portal' as const,
+    label: 'Return portal',
+    destination: { ref: 'location' as const, key: 'three_door_chamber' },
+    at: [525, 350] as [number, number],
+  }
+
+  it('supports outgoing connections independently of a parent', () => {
+    expect(createLocation({ name: 'Arena', connections: [portal] }).connections).toEqual([portal])
+    expect(createLocation({ name: 'Empty' }).connections).toEqual([])
+  })
+
+  it('rejects duplicate local connection IDs', () => {
+    expect(() => createLocation({ name: 'Arena', connections: [portal, portal] })).toThrow(
+      /unique/u,
+    )
+  })
+
+  it('rejects non-location destinations and invalid connection types', () => {
+    expect(
+      LocationConnection.safeParse({ ...portal, destination: { ref: 'pc', key: 'jim' } }).success,
+    ).toBe(false)
+    expect(LocationConnection.safeParse({ ...portal, type: 'telepathy' }).success).toBe(false)
+  })
+
+  it.each([
+    [-1, 50],
+    [1051, 350],
+    [525, 701],
+    [NaN, 10],
+    [Infinity, 10],
+  ])('rejects invalid source-map connection coordinates %s, %s', (x, y) => {
+    expect(() =>
+      createLocation({ name: 'Arena', connections: [{ ...portal, at: [x, y] }] }),
+    ).toThrow(/connections/u)
+  })
+
   it('uses a 3:2 map canvas by default', () => {
     const { map } = createLocation({ name: 'Unmapped place' })
     expect(map.width / map.height).toBe(1.5)

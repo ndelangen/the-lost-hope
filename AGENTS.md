@@ -46,6 +46,8 @@ campaign lore, entities, sessions, quests, and event timelines.
 - After image-viewer changes, run `bun run test:image-viewer` against the completed build. This
   checks real browser geometry on desktop, mobile, and a short landscape viewport. Install the
   test browser once with `bunx playwright install chromium` if needed.
+- After location-connection changes, run `bun run test:location-connections` against the completed
+  build to check door and portal navigation, containment, and desktop/mobile map placement.
 
 ## Map artwork
 

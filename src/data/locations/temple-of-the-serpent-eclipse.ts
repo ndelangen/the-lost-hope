@@ -15,17 +15,7 @@ export default createLocation({
       refs.organizations.adventurers_guild,
       '.',
     ],
-    [
-      'The ancient serpent-themed complex hangs over an abyss. Its known interior includes the ',
-      refs.locations.serpent_eclipse_reception_hall,
-      ', the ',
-      refs.locations.serpent_eclipse_three_door_chamber,
-      ', and the ',
-      refs.locations.serpent_eclipse_left_door_passage,
-      ' leading to the ',
-      refs.locations.serpent_eclipse_shadow_arena,
-      '.',
-    ],
+    ['The ancient serpent-themed complex hangs over an abyss.'],
     [
       'The dungeon claims the essence of people who die inside and returns them as its assassins. Its operators retain ten percent of recovered treasure.',
     ],

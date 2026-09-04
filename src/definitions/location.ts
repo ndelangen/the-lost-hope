@@ -34,6 +34,18 @@ export const LOCATION_TYPE_LABELS: Record<LocationType, string> = {
 
 const LOCATION_ILLUSTRATION_PATH = /^\/assets\/locations\/[^?#]+\.(?:jpe?g|png|svg|webp)$/u
 
+export const LocationConnection = z.strictObject({
+  id: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/u),
+  type: z.enum(['door', 'passage', 'portal']),
+  label: z.string().trim().min(1),
+  destination: EntityRefSchema.refine((destination) => destination.ref === 'location', {
+    message: 'Connections must target a location',
+  }),
+  at: z.tuple([z.number().nonnegative(), z.number().nonnegative()]),
+})
+
+export type LocationConnection = z.infer<typeof LocationConnection>
+
 export const LocationIllustrationUrl = MediaUrl.refine(
   (value) =>
     LOCATION_ILLUSTRATION_PATH.test(value) && !value.split('/').some((segment) => segment === '..'),
@@ -45,6 +57,13 @@ export const LocationIllustrationUrl = MediaUrl.refine(
 
 const locationFields = {
   name: z.string(),
+  connections: z
+    .array(LocationConnection)
+    .refine((connections) => new Set(connections.map(({ id }) => id)).size === connections.length, {
+      message: 'Location connection IDs must be unique within their source location',
+    })
+    .optional()
+    .default([]),
   icon: z
     .string()
     .optional()
@@ -100,7 +119,19 @@ const locationSchema = z.xor([
   }),
 ])
 
-export const Location = deriveSlug(locationSchema)
+export const Location = deriveSlug(
+  locationSchema.superRefine((location, context) => {
+    location.connections.forEach((connection, index) => {
+      if (connection.at[0] > location.map.width || connection.at[1] > location.map.height) {
+        context.addIssue({
+          code: 'custom',
+          path: ['connections', index, 'at'],
+          message: 'Connection coordinates must fit within the source location map',
+        })
+      }
+    })
+  }),
+)
 
 export const create = makeCreate(Location)
 

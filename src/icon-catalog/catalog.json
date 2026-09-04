@@ -174358,7 +174358,11 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/magic-portal.html",
       "usedIn": [
+        "src/components/location-hierarchy-map.test.tsx",
         "src/data/quests/fajanet-tunnels-shadow-realm.ts",
+        "src/lib/location-hierarchy-map.test.ts",
+        "src/lib/location-hierarchy-map.ts",
+        "src/lib/location-icons.tsx",
         "src/lib/quest-icons.tsx"
       ]
     },

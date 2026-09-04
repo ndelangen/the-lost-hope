@@ -6,6 +6,7 @@
     "#/*": "./src/*"
   },
   "scripts": {
+    "test:location-connections": "bun scripts/check-location-connections.ts",
     "test:image-viewer": "bun scripts/check-image-viewer.ts",
     "dev": "bun run generate:images && bun scripts/generate-social-images.tsx --dev && vite dev --port 3000",
     "build": "bun run generate:images && bun run generate:social-paths && vite build",

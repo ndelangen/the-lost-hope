@@ -4,6 +4,7 @@ import { LocationReference } from '#/components/location-reference'
 import { ResponsiveImage } from '#/components/responsive-image'
 import { Stack } from '#/components/ui/layout'
 import type { LocationHierarchyMapModel } from '#/lib/location-hierarchy-map'
+import { locationMapPointLabel } from '#/lib/location-hierarchy-map'
 import { LocationIcon } from '#/lib/location-icons'
 import { hasPublicAsset } from '#/lib/public-media'
 import { cn } from '#/lib/utils'
@@ -38,9 +39,9 @@ export function LocationMapPlot({ map, label }: { map: LocationHierarchyMapModel
 
       {map.points.map((point) => (
         <LocationReference
-          key={point.slug}
+          key={point.id}
           slug={point.slug}
-          label={point.name}
+          label={locationMapPointLabel(point)}
           unstyled
           wrapperClassName="group absolute -translate-x-1/2 -translate-y-1/2"
           wrapperStyle={{ left: `${point.left}%`, top: `${point.top}%` }}
@@ -51,12 +52,14 @@ export function LocationMapPlot({ map, label }: { map: LocationHierarchyMapModel
               className={cn(
                 'bg-background text-primary flex size-9 items-center justify-center rounded-full border-2 shadow-md transition-transform group-hover:scale-110',
                 point.current ? 'border-sky-500 ring-4 ring-sky-500/30' : 'border-primary/70',
+                point.connection?.type === 'portal' &&
+                  'border-violet-500 ring-2 ring-violet-500/30',
               )}
-              title={point.current ? `${point.name} — You are here` : point.name}
+              title={point.current ? `${point.name} — You are here` : locationMapPointLabel(point)}
             >
               <LocationIcon icon={point.icon} className="size-4" />
               <span className="sr-only">
-                {point.name}
+                {locationMapPointLabel(point)}
                 {point.current ? ' — You are here' : ''}
               </span>
             </span>
@@ -89,10 +92,10 @@ export function LocationMapLegend({
       <p className="text-muted-foreground text-xs font-semibold tracking-wider uppercase">Legend</p>
       <ul className={cn('grid gap-2', compact && 'sm:grid-cols-2')}>
         {points.map((point) => (
-          <li key={point.slug}>
+          <li key={point.id}>
             <LocationReference
               slug={point.slug}
-              label={point.name}
+              label={locationMapPointLabel(point)}
               unstyled
               className={cn(
                 'border-border hover:border-primary/50 hover:bg-accent/30 flex min-h-11 items-center gap-3 rounded-lg border px-3 py-2 text-sm transition-colors',
@@ -109,7 +112,14 @@ export function LocationMapLegend({
                   >
                     <LocationIcon icon={point.icon} className="size-3.5" />
                   </span>
-                  <span className="min-w-0 flex-1 font-medium">{point.name}</span>
+                  <span className="min-w-0 flex-1">
+                    <span className="block font-medium">{locationMapPointLabel(point)}</span>
+                    <span className="text-muted-foreground block text-xs">
+                      {point.connection
+                        ? `${point.connection.type === 'portal' ? 'Portal' : point.connection.type === 'door' ? 'Door' : 'Passage'} · Travel from this location`
+                        : 'Contained location'}
+                    </span>
+                  </span>
                   {point.current ? (
                     <span className="text-[10px] font-semibold tracking-wide text-sky-700 uppercase dark:text-sky-300">
                       You are here
