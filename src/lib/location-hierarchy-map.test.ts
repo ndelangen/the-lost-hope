@@ -1,8 +1,16 @@
 import { describe, expect, it } from 'vitest'
 
-import { allEntities, locationChildren, locationParent, locations } from '#/lib/campaign'
+import {
+  allEntities,
+  locationAncestors,
+  locationChildren,
+  locationConnections,
+  locationParent,
+  locations,
+} from '#/lib/campaign'
 import {
   buildLocationHierarchyMap,
+  buildLocationExplorationMap,
   coordinatesWithinMapInset,
   LOCATION_MAP_MIN_POINT_SEPARATION_RATIO,
   normalizedMapCoordinateDistance,
@@ -11,7 +19,11 @@ import {
 describe('buildLocationHierarchyMap', () => {
   it('continues from the passage to the shadow arena', () => {
     const passage = locations.serpent_eclipse_left_door_passage
-    const model = buildLocationHierarchyMap(passage, locationChildren(passage.slug))
+    const model = buildLocationExplorationMap(
+      passage,
+      locationChildren(passage.slug),
+      locationConnections(passage),
+    )
 
     expect(model.points).toEqual([
       expect.objectContaining({
@@ -24,7 +36,11 @@ describe('buildLocationHierarchyMap', () => {
 
   it('links doors I and II to the passage and maze, leaving door III unlinked', () => {
     const chamber = locations.serpent_eclipse_three_door_chamber
-    const model = buildLocationHierarchyMap(chamber, locationChildren(chamber.slug))
+    const model = buildLocationExplorationMap(
+      chamber,
+      locationChildren(chamber.slug),
+      locationConnections(chamber),
+    )
 
     expect(model.points).toHaveLength(2)
     expect(model.points).toEqual(
@@ -41,6 +57,57 @@ describe('buildLocationHierarchyMap', () => {
         }),
       ]),
     )
+  })
+
+  it('keeps the return portal separate from containment and does not invent a reverse route', () => {
+    const arena = locations.serpent_eclipse_shadow_arena
+    const chamber = locations.serpent_eclipse_three_door_chamber
+    const map = buildLocationExplorationMap(
+      arena,
+      locationChildren(arena.slug),
+      locationConnections(arena),
+    )
+    expect(map.points).toEqual([
+      expect.objectContaining({
+        id: 'connection:return-portal',
+        slug: chamber.slug,
+        icon: 'gi/GiMagicPortal',
+        connection: { type: 'portal', label: 'Return portal' },
+        current: false,
+      }),
+    ])
+    expect(locationConnections(chamber).map(({ destination }) => destination.slug)).not.toContain(
+      arena.slug,
+    )
+    expect(locationChildren(chamber.slug)).toEqual([])
+    expect(locationChildren(arena.slug)).toEqual([])
+    expect(locationAncestors(arena).at(-1)).toBe(locations.temple_of_the_serpent_eclipse)
+    expect(locationAncestors(chamber).at(-1)).toBe(locations.temple_of_the_serpent_eclipse)
+    const parentMap = buildLocationHierarchyMap(
+      locations.temple_of_the_serpent_eclipse,
+      locationChildren(locations.temple_of_the_serpent_eclipse.slug),
+      arena.slug,
+    )
+    expect(parentMap.points.filter(({ current }) => current).map(({ slug }) => slug)).toEqual([
+      arena.slug,
+    ])
+    expect(parentMap.points.every(({ connection }) => !connection)).toBe(true)
+  })
+
+  it('keeps separate entrances to the same destination as distinct map points', () => {
+    const chamber = locations.serpent_eclipse_three_door_chamber
+    const [first] = locationConnections(chamber)
+    const second = {
+      ...first!,
+      connection: {
+        ...first!.connection,
+        id: 'second-entrance',
+        at: [480, 725] as [number, number],
+      },
+    }
+    const model = buildLocationExplorationMap(chamber, [], [first!, second])
+    expect(new Set(model.points.map(({ id }) => id)).size).toBe(2)
+    expect(new Set(model.points.map(({ slug }) => slug)).size).toBe(1)
   })
 
   it('uses local coordinates literally and highlights the current location', () => {
@@ -80,6 +147,29 @@ describe('buildLocationHierarchyMap', () => {
 })
 
 describe('location map coordinates', () => {
+  it('keeps connection markers inset and separated from every other exploration marker', () => {
+    for (const { data: location } of allEntities('location')) {
+      for (const connection of location.connections) {
+        expect(
+          coordinatesWithinMapInset(connection.at, location.map),
+          `${location.name}: ${connection.id}`,
+        ).toBe(true)
+      }
+      const map = buildLocationExplorationMap(
+        location,
+        locationChildren(location.slug),
+        locationConnections(location),
+      )
+      for (const [index, point] of map.points.entries()) {
+        for (const other of map.points.slice(index + 1)) {
+          expect(
+            Math.hypot((point.left - other.left) / 100, (point.top - other.top) / 100),
+            `${location.name}: ${point.id} / ${other.id}`,
+          ).toBeGreaterThanOrEqual(LOCATION_MAP_MIN_POINT_SEPARATION_RATIO)
+        }
+      }
+    }
+  })
   it('keeps every child inset from its parent map edges', () => {
     for (const entity of allEntities('location')) {
       const parent = locationParent(entity.data)

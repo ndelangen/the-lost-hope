@@ -5,14 +5,18 @@ export default createLocation({
   name: 'Serpent Eclipse Shadow Arena',
   icon: 'gi/GiShadowGrasp',
   type: 'dungeon',
-  parent: refs.locations.serpent_eclipse_left_door_passage,
-  // Schematic placement until the passage has map artwork.
-  at: [525, 350],
-  notes: [
-    [
-      'The combat chamber reached through the ',
-      refs.locations.serpent_eclipse_left_door_passage,
-      '. Blood gathers in a central pool and can form hostile shadows within the arena.',
-    ],
+  parent: refs.locations.temple_of_the_serpent_eclipse,
+  // Schematic placement within the temple.
+  at: [895, 500],
+  connections: [
+    {
+      id: 'return-portal',
+      type: 'portal',
+      label: 'Return portal',
+      destination: refs.locations.serpent_eclipse_three_door_chamber,
+      // Schematic marker, not a surveyed portal position.
+      at: [525, 350],
+    },
   ],
+  notes: [['A combat chamber where blood gathers in a central pool and can form hostile shadows.']],
 })

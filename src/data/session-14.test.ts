@@ -86,7 +86,7 @@ describe('Session 14 transcript import', () => {
 
   it('nests the new trial in the existing dungeon and clears unconfirmed disk custody', () => {
     expect(locationParent(locations.serpent_eclipse_maze)).toBe(
-      locations.serpent_eclipse_three_door_chamber,
+      locations.temple_of_the_serpent_eclipse,
     )
     expect(locationParent(locations.serpent_eclipse_flooded_cavern)).toBe(
       locations.serpent_eclipse_maze,

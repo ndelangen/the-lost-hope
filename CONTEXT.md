@@ -19,6 +19,16 @@ _Avoid_: Task, job, commission
 
 ## Locations
 
+**Location parent**:
+The larger place that contains a location. Containment does not establish a travel route.
+
+**Location connection**:
+A known route from one location to another, such as a door, passage, or portal. A recorded route
+does not establish that travel in the opposite direction is possible.
+
+**Portal**:
+A magical location connection that transports travelers to its destination.
+
 **Location illustration**:
 An artistic depiction of a place. It is decorative and does not establish campaign canon.
 _Avoid_: Avatar, map

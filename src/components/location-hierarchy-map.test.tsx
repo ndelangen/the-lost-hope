@@ -40,6 +40,7 @@ const map: LocationHierarchyMapModel = {
   },
   points: [
     {
+      id: 'location:nimbus',
       slug: 'nimbus',
       name: 'Nimbus',
       icon: 'lucide/Cloud',
@@ -48,6 +49,7 @@ const map: LocationHierarchyMapModel = {
       current: true,
     },
     {
+      id: 'location:tempest',
       slug: 'tempest',
       name: 'Tempest',
       left: 0,
@@ -59,6 +61,31 @@ const map: LocationHierarchyMapModel = {
 
 describe('location hierarchy map', () => {
   afterEach(cleanup)
+
+  it('labels outgoing portal pins and legends without presenting them as contained places', () => {
+    const portalMap: LocationHierarchyMapModel = {
+      ...map,
+      points: [
+        {
+          ...map.points[1]!,
+          id: 'connection:return',
+          icon: 'gi/GiMagicPortal',
+          connection: { type: 'portal', label: 'Return portal' },
+        },
+      ],
+    }
+    render(
+      <>
+        <LocationMapPlot map={portalMap} label="Arena connections" />
+        <LocationMapLegend map={portalMap} />
+      </>,
+    )
+    expect(screen.getAllByRole('link', { name: /Return portal → Tempest/u })).toHaveLength(2)
+    expect(screen.getByText('Portal · Travel from this location')).toBeTruthy()
+    expect(screen.queryByText('Contained location')).toBeNull()
+    expect(screen.queryByText('You are here')).toBeNull()
+    expect(screen.getByTitle('Return portal → Tempest').className).toContain('border-violet-500')
+  })
 
   it('keeps icon-only pins accessible and exposes every place in the legend', () => {
     render(

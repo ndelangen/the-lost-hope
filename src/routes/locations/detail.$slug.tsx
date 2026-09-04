@@ -14,11 +14,15 @@ import {
   getEntity,
   locationAncestors,
   locationChildren,
+  locationConnections,
   locationParent,
   locationTypeOf,
 } from '#/lib/campaign'
 import { referencedByItems } from '#/lib/entity-page-data'
-import { buildLocationHierarchyMap } from '#/lib/location-hierarchy-map'
+import {
+  buildLocationExplorationMap,
+  buildLocationHierarchyMap,
+} from '#/lib/location-hierarchy-map'
 import { LocationTypeIcon, locationTypeLabel } from '#/lib/location-icons'
 import { publicEntityPageHead } from '#/lib/public-page-metadata'
 
@@ -41,9 +45,10 @@ function LocationDetailPage() {
   const parent = locationParent(location)
   const siblings = parent ? locationChildren(parent.slug) : []
   const children = locationChildren(slug)
-  const hasChildren = children.length > 0
+  const connections = locationConnections(location)
   const contextMap = parent ? buildLocationHierarchyMap(parent, siblings, location.slug) : undefined
-  const destinationMap = buildLocationHierarchyMap(location, children)
+  const destinationMap = buildLocationExplorationMap(location, children, connections)
+  const hasDestinations = destinationMap.points.length > 0
   const locationType = locationTypeOf(location)
   const illustrationAlt =
     location.illustration === DEFAULT_LOCATION_ILLUSTRATION
@@ -156,15 +161,17 @@ function LocationDetailPage() {
         >
           <Inline gap="xl" align="end" justify="between" wrap>
             <MapSectionHeading
-              eyebrow={hasChildren ? 'Where you can go' : 'Location map'}
-              title={hasChildren ? `Explore ${location.name}` : `Map of ${location.name}`}
+              eyebrow={hasDestinations ? 'Explore this place' : 'Location map'}
+              title={hasDestinations ? `Explore ${location.name}` : `Map of ${location.name}`}
               description={
-                hasChildren
-                  ? `Choose a place recorded directly within ${location.name}.`
-                  : `No places are currently recorded within ${location.name}.`
+                connections.length > 0
+                  ? 'Explore contained places and outgoing connections. A connection does not imply a return route.'
+                  : children.length > 0
+                    ? `Choose a place recorded directly within ${location.name}.`
+                    : `No contained places or outgoing connections are currently recorded for ${location.name}.`
               }
             />
-            {hasChildren ? (
+            {hasDestinations ? (
               <p className="text-muted-foreground text-xs font-medium tracking-wider uppercase">
                 Next step ↓
               </p>
@@ -172,9 +179,15 @@ function LocationDetailPage() {
           </Inline>
           <LocationMapPlot
             map={destinationMap}
-            label={hasChildren ? `Places within ${location.name}` : `Map of ${location.name}`}
+            label={
+              connections.length > 0
+                ? `Places and connections in ${location.name}`
+                : children.length > 0
+                  ? `Places within ${location.name}`
+                  : `Map of ${location.name}`
+            }
           />
-          {hasChildren ? <LocationMapLegend map={destinationMap} compact /> : null}
+          {hasDestinations ? <LocationMapLegend map={destinationMap} compact /> : null}
         </Stack>
       </Stack>
     </EntityDetail>

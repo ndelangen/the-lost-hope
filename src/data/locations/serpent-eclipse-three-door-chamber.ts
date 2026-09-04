@@ -7,6 +7,22 @@ export default createLocation({
   type: 'dungeon',
   parent: refs.locations.temple_of_the_serpent_eclipse,
   at: [525, 350],
+  connections: [
+    {
+      id: 'door-i',
+      type: 'door',
+      label: 'Door I',
+      destination: refs.locations.serpent_eclipse_left_door_passage,
+      at: [1056, 725],
+    },
+    {
+      id: 'door-ii',
+      type: 'door',
+      label: 'Door II',
+      destination: refs.locations.serpent_eclipse_maze,
+      at: [768, 825],
+    },
+  ],
   map: {
     url: '/assets/maps/serpent-eclipse-three-door-chamber.jpg',
     width: 1536,
@@ -16,11 +32,7 @@ export default createLocation({
     [
       'A chamber in the ',
       refs.locations.temple_of_the_serpent_eclipse,
-      ' containing a blood-fed altar and three identical iron doors. Each door leads to a separate challenge. The left-hand door leads to the ',
-      refs.locations.serpent_eclipse_left_door_passage,
-      ', and the middle door leads to the ',
-      refs.locations.serpent_eclipse_maze,
-      '.',
+      ' containing a blood-fed altar and three identical iron doors. Each door leads to a separate challenge.',
     ],
   ],
 })
