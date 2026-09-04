@@ -20,6 +20,9 @@ describe('sessionJournalData', () => {
 
   it('adds movement only when the direct location parent changes', () => {
     expect(events.flatMap((event) => (event.transition ? [event.transition] : []))).toEqual([
+      { slug: 'serpent-eclipse-three-door-chamber', name: 'Serpent Eclipse Three-Door Chamber' },
+      { slug: 'serpent-eclipse-left-door-passage', name: 'Serpent Eclipse Left-Door Passage' },
+      { slug: 'temple-of-the-serpent-eclipse', name: 'Temple of the Serpent Eclipse' },
       { slug: 'gruumsh-war-temple', name: 'Gruumsh War Temple' },
     ])
   })

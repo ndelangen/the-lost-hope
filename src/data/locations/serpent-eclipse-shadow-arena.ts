@@ -5,8 +5,9 @@ export default createLocation({
   name: 'Serpent Eclipse Shadow Arena',
   icon: 'gi/GiShadowGrasp',
   type: 'dungeon',
-  parent: refs.locations.temple_of_the_serpent_eclipse,
-  at: [895, 500],
+  parent: refs.locations.serpent_eclipse_left_door_passage,
+  // Schematic placement until the passage has map artwork.
+  at: [525, 350],
   notes: [
     [
       'The combat chamber reached through the ',

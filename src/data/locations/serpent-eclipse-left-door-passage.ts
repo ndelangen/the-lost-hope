@@ -5,8 +5,9 @@ export default createLocation({
   name: 'Serpent Eclipse Left-Door Passage',
   icon: 'gi/GiTwoShadows',
   type: 'dungeon',
-  parent: refs.locations.temple_of_the_serpent_eclipse,
-  at: [705, 500],
+  parent: refs.locations.serpent_eclipse_three_door_chamber,
+  // Door I, on the right side of the chamber artwork.
+  at: [1056, 725],
   notes: [
     [
       'The roughly one-hundred-metre descending passage behind the left-hand door of the ',

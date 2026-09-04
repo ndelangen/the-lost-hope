@@ -9,6 +9,40 @@ import {
 } from '#/lib/location-hierarchy-map'
 
 describe('buildLocationHierarchyMap', () => {
+  it('continues from the passage to the shadow arena', () => {
+    const passage = locations.serpent_eclipse_left_door_passage
+    const model = buildLocationHierarchyMap(passage, locationChildren(passage.slug))
+
+    expect(model.points).toEqual([
+      expect.objectContaining({
+        slug: locations.serpent_eclipse_shadow_arena.slug,
+        left: 50,
+        top: 50,
+      }),
+    ])
+  })
+
+  it('links doors I and II to the passage and maze, leaving door III unlinked', () => {
+    const chamber = locations.serpent_eclipse_three_door_chamber
+    const model = buildLocationHierarchyMap(chamber, locationChildren(chamber.slug))
+
+    expect(model.points).toHaveLength(2)
+    expect(model.points).toEqual(
+      expect.arrayContaining([
+        expect.objectContaining({
+          slug: locations.serpent_eclipse_left_door_passage.slug,
+          left: (1056 / 1536) * 100,
+          top: (725 / 1024) * 100,
+        }),
+        expect.objectContaining({
+          slug: locations.serpent_eclipse_maze.slug,
+          left: 50,
+          top: (825 / 1024) * 100,
+        }),
+      ]),
+    )
+  })
+
   it('uses local coordinates literally and highlights the current location', () => {
     const siblings = locationChildren(locations.three_sky_kingdoms.slug)
     const model = buildLocationHierarchyMap(
