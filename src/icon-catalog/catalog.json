@@ -136283,7 +136283,11 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/falling-rocks.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/events/n2-e147.ts",
+        "src/data/session-14.test.ts",
+        "src/lib/event-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiFallingStar",

@@ -5,10 +5,14 @@ export default createEvent({
   name: 'Devan seals the serpent behind a rockfall',
   day: 22,
   location: refs.locations.serpent_eclipse_far_landing,
-  mark: { type: 'avatar', url: '/assets/pcs/devan.jpg' },
+  mark: { type: 'icon', name: 'gi/GiFallingRocks' },
   notes: [
     [
-      'Beyond the water crossing, the party spotted fragile rock that could block the passage. ',
+      'Beyond the water crossing, ',
+      refs.pcs.swift_starblade,
+      ' used his keen perception to spot fragile rock that could block the passage and told ',
+      refs.pcs.devan,
+      '. ',
       refs.pcs.devan,
       ' struck it with ',
       refs.items.steve_mace_of_returning,
