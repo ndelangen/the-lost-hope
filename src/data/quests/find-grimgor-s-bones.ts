@@ -5,18 +5,13 @@ export default createQuest({
   name: "Find Grimgor's Bones",
   icon: 'gi/GiCryptEntrance',
   type: 'mission',
-  notes: [
-    [
-      refs.pcs.devan,
-      ' accepted ',
-      refs.npcs.grimgor_the_bloody,
-      "'s invitation to find his bones.",
-    ],
-  ],
+  notes: [['Find the bones of ', refs.npcs.grimgor_the_bloody, '.']],
   clues: [
     [
       refs.events.n2_e157,
-      " records the task. The bones' location and how to reach them remain unknown.",
+      ' records ',
+      refs.pcs.devan,
+      ' accepting the invitation to find the bones. Their location and how to reach them remain unknown.',
     ],
   ],
   status: 'open',

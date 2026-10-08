@@ -15,7 +15,12 @@ export default createQuest({
     ],
   ],
   clues: [
-    [refs.events.n2_e105, " records the loss of the broom during the Fiddler's game."],
+    [
+      refs.events.n2_e105,
+      ' records the loss of the broom during ',
+      refs.npcs.the_fiddler,
+      "'s game.",
+    ],
     [
       refs.events.n2_e163,
       ' provides a possible route through a ritual at a crossroads on solid ground. ',

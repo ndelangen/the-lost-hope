@@ -8,9 +8,7 @@ export default createNPC({
       'An ancient wizard with slick grey hair, a grey beard, a star below his left eye, and a wooden staff. He is roughly two thousand years old.',
     ],
     [
-      'A companion of ',
-      refs.npcs.grimgor_the_bloody,
-      ', portrayed as the cowardly wizard in the holy texts of the ',
+      'Portrayed as the cowardly wizard in the holy texts of the ',
       refs.organizations.church_of_gruumsh,
       '. He disputes their account of him splitting a continent, saying experimental chaos magic blew part of a mountain into the sea.',
     ],

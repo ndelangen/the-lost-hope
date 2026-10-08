@@ -10,6 +10,6 @@ export default createNPC({
       refs.npcs.sarogarth,
       ' transformed him so he could explore underwater.',
     ],
-    ['Married to ', refs.npcs.sylf, '. He has a shared contract with ', refs.npcs.sarogarth, '.'],
+    ['He has a shared contract with ', refs.npcs.sarogarth, '.'],
   ],
 })
