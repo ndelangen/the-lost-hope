@@ -20,7 +20,7 @@ describe('questDetailData', () => {
     expect(detail.latestActivity).toMatchObject({
       eventSlug: 'reach-badesh-victor-s-hometown',
       day: 10,
-      campaignDaysAgo: 12,
+      campaignDaysAgo: 13,
     })
   })
 

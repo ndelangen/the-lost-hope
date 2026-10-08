@@ -5,13 +5,11 @@ export default createLocation({
   name: 'Temple of the Serpent Eclipse',
   icon: 'gi/GiTempleGate',
   type: 'dungeon',
-  parent: refs.locations.nimbus,
+  parent: refs.locations.skynet,
   at: [725, 500],
   notes: [
     [
-      'One of ',
-      refs.locations.nimbus,
-      '’s two known dungeons, entered with authorization from a noble authority or the ',
+      'A dungeon entered with authorization from a noble authority or the ',
       refs.organizations.adventurers_guild,
       '.',
     ],

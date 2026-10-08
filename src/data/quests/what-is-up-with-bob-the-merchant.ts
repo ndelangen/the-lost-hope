@@ -43,7 +43,7 @@ export default createQuest({
     [
       refs.events.n2_e108,
       ' — Bob reached ',
-      refs.locations.nimbus_s_second_best_inn,
+      refs.locations.skynet_s_second_best_inn,
       ', took its cook, entered the kitchen, and hid the ',
       refs.items.jaded_amulet,
       ' in Jim’s pie. The inn staff described him as a normal, exceptionally handsome human man with black hair.',

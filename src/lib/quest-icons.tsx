@@ -18,11 +18,17 @@ import {
   GiTentaclesSkull,
   GiVelociraptorTracks,
   GiLockedBox,
+  GiWitchFlight,
+  GiCryptEntrance,
+  GiBoltShield,
 } from 'react-icons/gi'
 
 import { cn } from '#/lib/utils'
 
 export const QUEST_ICONS = {
+  'gi/GiWitchFlight': GiWitchFlight,
+  'gi/GiCryptEntrance': GiCryptEntrance,
+  'gi/GiBoltShield': GiBoltShield,
   'fa/FaUserSecret': FaUserSecret,
   'gi/GiBackwardTime': GiBackwardTime,
   'gi/GiBottledShadow': GiBottledShadow,

@@ -10,12 +10,14 @@ import borris from './borris.ts'
 import celeste_s_mother from './celeste-s-mother.ts'
 import celeste from './celeste.ts'
 import crowy from './crowy.ts'
+import dax from './dax.ts'
 import dragon_of_the_mountain from './dragon-of-the-mountain.ts'
 import faceless_shadow from './faceless-shadow.ts'
 import frog_medicine_man_of_verdant_haven from './frog-medicine-man-of-verdant-haven.ts'
 import giggles from './giggles.ts'
 import goblin_grass_keepers from './goblin-grass-keepers.ts'
 import gridswald from './gridswald.ts'
+import grimgor_the_bloody from './grimgor-the-bloody.ts'
 import gruumsh_high_priest from './gruumsh-high-priest.ts'
 import hex from './hex.ts'
 import knukkles from './knukkles.ts'
@@ -31,18 +33,26 @@ import rare_animal_dealer from './rare-animal-dealer.ts'
 import roberto from './roberto.ts'
 import ryan from './ryan.ts'
 import samantha from './samantha.ts'
+import sarogarth from './sarogarth.ts'
 import sering_ravenwood from './sering-ravenwood.ts'
 import sneeve from './sneeve.ts'
 import swift_starblade_s_younger_sister from './swift-starblade-s-younger-sister.ts'
+import sylf from './sylf.ts'
 import sylvia_s_brother from './sylvia-s-brother.ts'
 import sylvia from './sylvia.ts'
 import the_12th_marshal from './the-12th-marshal.ts'
 import the_father from './the-father.ts'
 import the_fiddler from './the-fiddler.ts'
 import the_mountain from './the-mountain.ts'
+import throne_figure_in_jim_s_vision from './throne-figure-in-jim-s-vision.ts'
 import verdant_haven_rangers from './verdant-haven-rangers.ts'
 
 export default {
+  throne_figure_in_jim_s_vision,
+  sarogarth,
+  grimgor_the_bloody,
+  sylf,
+  dax,
   abraham,
   alberto,
   angel_of_the_mountain,

@@ -9,10 +9,9 @@ export default createItem({
   craftedBy: null,
   notes: [
     [
-      'A small bottle of unidentified drops supplied by ',
+      'An empty bottle that contained unidentified drops supplied by ',
       refs.npcs.light_13th_marshal,
       '. Their full purpose and composition are unknown.',
     ],
-    [refs.pcs.jim, ' never returned the bottle and still carries an unknown but nonzero amount.'],
   ],
 })

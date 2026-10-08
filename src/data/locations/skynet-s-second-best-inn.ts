@@ -2,10 +2,10 @@ import { refs } from '#/data/generated/refs.ts'
 import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
-  name: 'Nimbus’s Second-Best Inn',
+  name: 'Skynet’s Second-Best Inn',
   icon: 'gi/GiBunkBeds',
   type: 'building',
-  parent: refs.locations.nimbus,
+  parent: refs.locations.skynet,
   at: [825, 180],
   notes: [
     [

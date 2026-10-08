@@ -89089,7 +89089,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/bandage-roll.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/grimgor-s-bloodied-bandages.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiBandana",
@@ -96249,7 +96252,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/bolt-shield.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/quests/understand-the-obsidian-green-rod.ts",
+        "src/lib/quest-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiBoltSpellCast",
@@ -96802,7 +96808,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/bookmarklet.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/pocket-holy-text-of-grimgor.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiBookPile",
@@ -99856,7 +99865,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/broad-dagger.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/dagger-of-the-zodiac-signs.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiBroadheadArrow",
@@ -101588,7 +101600,7 @@
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/bunk-beds.html",
       "usedIn": [
-        "src/data/locations/nimbus-s-second-best-inn.ts",
+        "src/data/locations/skynet-s-second-best-inn.ts",
         "src/lib/location-icons.tsx"
       ]
     },
@@ -120671,7 +120683,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/crypt-entrance.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/quests/find-grimgor-s-bones.ts",
+        "src/lib/quest-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiCrystalBall",
@@ -121107,7 +121122,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/crystal-wand.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/obsidian-green-rod.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiCuauhtli",
@@ -136285,6 +136303,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/falling-rocks.html",
       "usedIn": [
         "src/data/events/n2-e147.ts",
+        "src/data/events/n2-e155.ts",
         "src/data/session-14.test.ts",
         "src/lib/event-icons.tsx"
       ]
@@ -141965,7 +141984,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/floating-crystal.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/sessions/the-death-of-a-dungeon.ts",
+        "src/lib/session-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiFloatingGhost",
@@ -174003,7 +174025,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/magic-axe.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/grimgor-s-skull-breaker.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiMagicBroom",
@@ -185221,7 +185246,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/oasis.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/serpent-eclipse-crystal-oasis.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiOat",
@@ -194701,6 +194729,7 @@
       "sourceUrl": "https://game-icons.net/1x1/darkzaitzev/plants-and-animals.html",
       "usedIn": [
         "src/data/events/n2-e013.ts",
+        "src/data/events/n2-e151.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -203630,7 +203659,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/robe.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/devan-s-wandering-priest-robe.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiRobinHoodHat",
@@ -209539,7 +209571,10 @@
       "usedIn": [
         "src/data/events/n2-e075.ts",
         "src/data/events/n2-e099.ts",
-        "src/lib/event-icons.tsx"
+        "src/data/events/n2-e156.ts",
+        "src/data/items/devan-s-corrected-holy-text.ts",
+        "src/lib/event-icons.tsx",
+        "src/lib/item-icons.tsx"
       ]
     },
     {
@@ -210707,6 +210742,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/shambling-zombie.html",
       "usedIn": [
         "src/data/events/n2-e003.ts",
+        "src/data/events/n2-e162.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -211324,6 +211360,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/shatter.html",
       "usedIn": [
         "src/data/events/n2-e053.ts",
+        "src/data/events/n2-e152.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -239382,7 +239419,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/tribal-pendant.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/grimgor-s-sacred-necklace.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiTribalShield",
@@ -250408,7 +250448,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/witch-flight.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/quests/recover-swift-s-flying-broom.ts",
+        "src/lib/quest-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiWizardFace",

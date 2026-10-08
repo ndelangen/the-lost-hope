@@ -15,6 +15,7 @@ import {
   GiShadowFollower,
   GiSnakeTotem,
   GiSeaSerpent,
+  GiFloatingCrystal,
 } from 'react-icons/gi'
 
 import { cn } from '#/lib/utils'
@@ -22,6 +23,7 @@ import { cn } from '#/lib/utils'
 export const SESSION_ICON_PLACEHOLDER = 'gi/GiJourney'
 
 export const SESSION_ICONS = {
+  'gi/GiFloatingCrystal': GiFloatingCrystal,
   'gi/GiCardRandom': GiCardRandom,
   'gi/GiOpenGate': GiOpenGate,
   'gi/GiPawPrint': GiPawPrint,

@@ -9,11 +9,14 @@ export default createItem({
   craftedBy: null,
   notes: [
     [
-      'A shadow-bearing sword whose curse was removed by the ',
+      'The blade stores about 68,000 souls. It needs moonlight to replenish its charges and gains more power under a full moon. Using it on undead can bestow a soul on them; the consequences are unknown and were described as potentially catastrophic.',
+    ],
+    [
+      'The curse is too powerful to remove, even after treatment by the ',
       refs.npcs.gruumsh_high_priest,
       ' during ',
       refs.events.n2_e132,
-      '. What became of the extracted curse and the deadly shadow formerly bound to the blade remains unknown.',
+      '. The sword no longer kills its wielder. The identity and fate of the shadow bound to the blade remain unknown.',
     ],
   ],
 })

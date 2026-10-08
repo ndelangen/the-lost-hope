@@ -1,16 +1,24 @@
 import bag_of_holding from './bag-of-holding.ts'
 import cursed_shadow_sword from './cursed-shadow-sword.ts'
 import dagger_of_passive_aggression from './dagger-of-passive-aggression.ts'
+import dagger_of_the_zodiac_signs from './dagger-of-the-zodiac-signs.ts'
 import deck_of_many_more_things from './deck-of-many-more-things.ts'
 import demon_possessed_flying_broom from './demon-possessed-flying-broom.ts'
+import devan_s_corrected_holy_text from './devan-s-corrected-holy-text.ts'
+import devan_s_wandering_priest_robe from './devan-s-wandering-priest-robe.ts'
 import explosive_goblin_excrement_bottle from './explosive-goblin-excrement-bottle.ts'
 import flask_of_never_ending_booze from './flask-of-never-ending-booze.ts'
+import grimgor_s_bloodied_bandages from './grimgor-s-bloodied-bandages.ts'
+import grimgor_s_sacred_necklace from './grimgor-s-sacred-necklace.ts'
+import grimgor_s_skull_breaker from './grimgor-s-skull-breaker.ts'
 import jaded_amulet from './jaded-amulet.ts'
 import jim_s_kenku_suit from './jim-s-kenku-suit.ts'
 import lights_unidentified_drops from './lights-unidentified-drops.ts'
 import nimbus_dungeon_stamp_card from './nimbus-dungeon-stamp-card.ts'
+import obsidian_green_rod from './obsidian-green-rod.ts'
 import one_use_obedience_whip from './one-use-obedience-whip.ts'
 import phoenix_feather from './phoenix-feather.ts'
+import pocket_holy_text_of_grimgor from './pocket-holy-text-of-grimgor.ts'
 import purple_dragon_horn from './purple-dragon-horn.ts'
 import rare_dragon_scales from './rare-dragon-scales.ts'
 import robertos_map_pages from './robertos-map-pages.ts'
@@ -21,6 +29,14 @@ import swifts_silver_container from './swifts-silver-container.ts'
 import wolfie_tracking_ring from './wolfie-tracking-ring.ts'
 
 export default {
+  devan_s_wandering_priest_robe,
+  devan_s_corrected_holy_text,
+  pocket_holy_text_of_grimgor,
+  grimgor_s_bloodied_bandages,
+  grimgor_s_sacred_necklace,
+  grimgor_s_skull_breaker,
+  obsidian_green_rod,
+  dagger_of_the_zodiac_signs,
   bag_of_holding,
   cursed_shadow_sword,
   dagger_of_passive_aggression,

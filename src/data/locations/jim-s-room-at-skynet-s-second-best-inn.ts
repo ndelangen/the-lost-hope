@@ -2,12 +2,12 @@ import { refs } from '#/data/generated/refs.ts'
 import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
-  name: 'Jim’s Room at Nimbus’s Second-Best Inn',
+  name: 'Jim’s Room at Skynet’s Second-Best Inn',
   icon: 'lucide/BedSingle',
   type: 'district',
-  parent: refs.locations.nimbus_s_second_best_inn,
+  parent: refs.locations.skynet_s_second_best_inn,
   at: [525, 350],
   notes: [
-    ['The room assigned to ', refs.pcs.jim, ' at ', refs.locations.nimbus_s_second_best_inn, '.'],
+    ['The room assigned to ', refs.pcs.jim, ' at ', refs.locations.skynet_s_second_best_inn, '.'],
   ],
 })

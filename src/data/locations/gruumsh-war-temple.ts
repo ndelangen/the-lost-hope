@@ -5,14 +5,12 @@ export default createLocation({
   name: 'Gruumsh War Temple',
   icon: 'gi/GiTempleDoor',
   type: 'building',
-  parent: refs.locations.nimbus,
+  parent: refs.locations.skynet,
   at: [225, 180],
   notes: [
     [
       'A temple of the ',
       refs.organizations.church_of_gruumsh,
-      ' on ',
-      refs.locations.nimbus,
       '. Its worshippers value strength, conquest, struggle, and survival.',
     ],
     [

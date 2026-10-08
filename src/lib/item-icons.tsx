@@ -19,11 +19,27 @@ import {
   GiScales,
   GiSlaveryWhip,
   GiSwordWound,
+  GiBroadDagger,
+  GiCrystalWand,
+  GiMagicAxe,
+  GiTribalPendant,
+  GiBandageRoll,
+  GiBookmarklet,
+  GiSecretBook,
+  GiRobe,
 } from 'react-icons/gi'
 
 import { cn } from '#/lib/utils'
 
 export const ITEM_ICONS = {
+  'gi/GiBroadDagger': GiBroadDagger,
+  'gi/GiCrystalWand': GiCrystalWand,
+  'gi/GiMagicAxe': GiMagicAxe,
+  'gi/GiTribalPendant': GiTribalPendant,
+  'gi/GiBandageRoll': GiBandageRoll,
+  'gi/GiBookmarklet': GiBookmarklet,
+  'gi/GiSecretBook': GiSecretBook,
+  'gi/GiRobe': GiRobe,
   'fa/FaAtlas': FaAtlas,
   'fa/FaPrescriptionBottleAlt': FaPrescriptionBottleAlt,
   'fa/FaRing': FaRing,

@@ -103,6 +103,9 @@ export default createCampaign({
     ['Both DM tokens and curse tokens are intended to create fun for different play styles.'],
   ],
   quests: [
+    quests.recover_swift_s_flying_broom,
+    quests.find_grimgor_s_bones,
+    quests.understand_the_obsidian_green_rod,
     quests.bring_swift_s_sister_to_sylvia,
     quests.dino_migration,
     quests.the_cursed_sword,
@@ -135,5 +138,6 @@ export default createCampaign({
     sessions.the_fiddlers_game,
     sessions.the_first_dungeon,
     sessions.the_serpent_lake,
+    sessions.the_death_of_a_dungeon,
   ],
 })

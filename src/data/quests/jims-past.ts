@@ -9,6 +9,14 @@ export default createQuest({
   status: 'open',
   clues: [
     [
+      refs.events.n2_e153,
+      ', the ',
+      refs.npcs.throne_figure_in_jim_s_vision,
+      ' wore the face of a murdered childhood friend and offered to kill ',
+      refs.npcs.the_father,
+      ' in exchange for willing surrender. Its identity and connection to his past remain unknown.',
+    ],
+    [
       refs.events.n2_e020,
       ': while disguised and inside the guildhall, ',
       refs.pcs.jim,

@@ -4,7 +4,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 export default createEvent({
   name: 'Crowy becomes the Bird of Gluttony',
   day: 21,
-  location: refs.locations.nimbus_s_second_best_inn,
+  location: refs.locations.skynet_s_second_best_inn,
   mark: { type: 'avatar', url: '/assets/pcs/jim.jpg' },
   notes: [
     [

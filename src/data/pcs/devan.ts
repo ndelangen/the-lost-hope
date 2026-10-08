@@ -24,7 +24,7 @@ export default createPC({
     {
       organization: refs.organizations.church_of_gruumsh,
       status: 'active',
-      rank: 'Member',
+      rank: 'Wandering Priest',
     },
   ],
   notes: [
