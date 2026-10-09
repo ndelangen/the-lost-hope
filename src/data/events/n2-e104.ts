@@ -2,7 +2,7 @@ import { refs } from '#/data/generated/refs.ts'
 import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
-  name: 'Sylvia sponsors the party’s first Nimbus dungeon',
+  name: 'Sylvia sponsors the party’s first dungeon',
   day: 20,
   location: refs.locations.sylvia_s_quarters,
   mark: { type: 'icon', name: 'gi/GiPassport' },
@@ -13,9 +13,7 @@ export default createEvent({
       refs.organizations.beasts_and_dwarf,
       ' one ',
       refs.items.nimbus_dungeon_stamp_card,
-      ' for the party’s first of ',
-      refs.locations.nimbus,
-      '’s two dungeons.',
+      ' as sponsorship for the party’s first dungeon.',
     ],
     [
       'She had intended to sponsor two dungeon entrances, but reduced her sponsorship to the first after ',

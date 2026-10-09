@@ -73,7 +73,7 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Session:_ 2
 
 - **How does the Eyeless Hand keep finding and identifying Jim?**
-  - _Context:_ Someone slipped a final-warning letter directly to a disguised Jim inside the Fajanet guildhall, knowing exactly whom and where to reach; only Jim saw it, and its sender remains unknown. The Eyeless Hand later circulated an order to find Jim alive through Roberto’s magical map pages. When Jim read those pages again at Nimbus’s inn on the evening before his first lightning strike, a message showed that the Hand was again aware of his location and said it was backing off somewhat for an unknown reason. The party suspects agents may be almost everywhere, while Verdant Haven’s hidden forest appeared to be the only place where Jim was genuinely outside the Hand’s sight, but neither idea is confirmed.
+  - _Context:_ Someone slipped a final-warning letter directly to a disguised Jim inside the Fajanet guildhall, knowing exactly whom and where to reach; only Jim saw it, and its sender remains unknown. The Eyeless Hand later circulated an order to find Jim alive through Roberto’s magical map pages. When Jim read those pages again at [Skynet's Second-Best Inn](/locations/detail/skynet-s-second-best-inn) on the evening before his first lightning strike, a message showed that the Hand was again aware of his location and said it was backing off somewhat for an unknown reason. The party suspects agents may be almost everywhere, while Verdant Haven’s hidden forest appeared to be the only place where Jim was genuinely outside the Hand’s sight, but neither idea is confirmed.
   - _Why asking:_ It is unknown whether the Hand uses widespread agents, magical surveillance, a tracker on Jim, the map pages themselves, or some other method to recognize and locate him despite disguises and travel. The first letter’s sender and the reason for backing off are related unresolved details.
   - _Session:_ 2–12 ([n2-e020](/events/detail/jim-receives-a-final-warning-letter), [n2-e075](/events/detail/roberto-s-maps-reveal-the-father-s-order-to-find-jim-alive), [n2-e122](/events/detail/the-eyeless-hand-reveals-it-can-still-find-jim))
 
@@ -226,8 +226,8 @@ Every question must include **what we already know** — many sit unanswered acr
 ## Session 12 — The Fiddler’s Game
 
 - **How did the Fiddler already know the party and parts of their future?**
-  - _Context:_ Before introductions, [The Fiddler](/npcs/detail/the-fiddler) greeted all four party members by name, said it was great to meet them “again,” called their party “Beasts and Elves,” and asked what it was called “this time.” After the game, he asked Swift whether he still had his own ship or airship; asked Jim whether he was already “the new father”; asked Devan whether he was already “the high priest of war”; and asked how long the party had been “visitors.” He rejected their journal-based answer of thirty-two days and six hours with “not three years,” then warned them not to enter Nimbus’s third dungeon on their second day there. The transcript does not preserve a distinct post-game question for Cassian.
-  - _Why asking:_ The exact questions sound like checks intended to identify which version of the party he was meeting, but it remains unknown whether his knowledge comes from time travel, foresight, movement between timelines, or something else.
+  - _Context:_ Before introductions, [The Fiddler](/npcs/detail/the-fiddler) greeted all four party members by name, said it was great to meet them “again,” called their party “Beasts and Elves,” and asked what it was called “this time.” After the game, he asked Swift whether he still had his own ship or airship; asked Jim whether he was already “the new father”; asked Devan whether he was already “the high priest of war”; and asked how long the party had been “visitors.” He rejected their journal-based answer of thirty-two days and six hours with “not three years,” then warned them not to enter the third dungeon on their second day there. The island meant by the warning is not established. The transcript does not preserve a distinct post-game question for Cassian.
+  - _Why asking:_ The exact questions sound like checks intended to identify which version of the party he was meeting, but it remains unknown whether his knowledge comes from time travel, foresight, movement between timelines, or something else. Which island's third dungeon did he mean, given that the party moved from Nimbus to Skynet before its first night at the inn?
   - _Session:_ 12 ([n2-e105](/events/detail/the-party-plays-three-rounds-with-the-fiddler))
 
 - **Will the fire damage to Jim’s room have consequences?**
@@ -260,10 +260,20 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Why asking:_ The grant’s duration, whether Crowy truly cannot sleep, what consuming a spell does, whether it can consume spells other than Sleep, and the form’s other powers, costs, and limits remain unknown.
   - _Session:_ 12 ([n2-e119](/events/detail/crowy-becomes-the-bird-of-gluttony))
 
-- **How does the Nimbus Dungeon Stamp Card system work?**
-  - _Context:_ [Sylvia](/npcs/detail/sylvia) gave [Beasts and Dwarf](/organizations/detail/beasts-and-dwarf) one [Nimbus Dungeon Stamp Card](/items/detail/nimbus-dungeon-stamp-card) for the party’s first of [Nimbus](/locations/detail/nimbus)’s two dungeons.
-  - _Why asking:_ Any additional stamps, redemption, or reward rules were not recorded.
-  - _Session:_ 12 ([n2-e104](/events/detail/sylvia-sponsors-the-party-s-first-nimbus-dungeon))
+- **What is the dungeon stamp card's official name and scope?**
+  - _Context:_ [Sylvia](/npcs/detail/sylvia) gave [Beasts and Dwarf](/organizations/detail/beasts-and-dwarf) one card to sponsor the party's first dungeon. Earlier notes called it the [Nimbus Dungeon Stamp Card](/items/detail/nimbus-dungeon-stamp-card) and described a Nimbus dungeon, but the card was accepted at the [Temple of the Serpent Eclipse](/locations/detail/temple-of-the-serpent-eclipse) on [Skynet](/locations/detail/skynet).
+  - _Why asking:_ Is the recorded name correct, and does the card cover dungeons across islands? Any additional stamps, redemption, or reward rules were not recorded. Its use on Skynet is established; a restriction to Nimbus is not.
+  - _Session:_ 12, 13 ([n2-e104](/events/detail/sylvia-sponsors-the-party-s-first-dungeon), [n2-e123](/events/detail/the-party-presents-the-dungeon-pass-at-the-serpent-eclipse-entrance))
+
+- **How did the party travel from Nimbus to Skynet?**
+  - _Context:_ The DM confirmed that the party moved from [Nimbus](/locations/detail/nimbus) to [Skynet](/locations/detail/skynet) when they decided to go to [Skynet's Second-Best Inn](/locations/detail/skynet-s-second-best-inn). The crossing belongs between the Nimbus arrival and the inn booking on campaign day 20.
+  - _Why asking:_ The means of transport is not recorded. Nimbus's flying ferries establish a possible way to travel, but do not prove how the party made this crossing.
+  - _Session:_ 12 ([n2-e165](/events/detail/the-party-travels-from-nimbus-to-skynet))
+
+- **Which island contains the Temple of the Watchers?**
+  - _Context:_ Earlier notes grouped the [Temple of the Watchers](/locations/detail/temple-of-the-watchers), [Gruumsh War Temple](/locations/detail/gruumsh-war-temple), and [Night Mothers' Church](/locations/detail/night-mothers-church) on Nimbus. The DM's clarification places the inn and Gruumsh temple on Skynet. The Night Mothers' Church stands beside the Gruumsh temple, placing it there too. The Watchers' temple has no recorded nearby landmark and retains its earlier Nimbus placement pending confirmation.
+  - _Why asking:_ Was the Watchers' temple also part of the Skynet church district, or was its Nimbus placement correct?
+  - _Session:_ 12, clarified after Session 15
 
 - **What is the proper name of Skynet’s second-best inn?**
   - _Context:_ The party stayed at a three-storey, high-end inn on [Skynet](/locations/detail/skynet) with private bathrooms, hammocks, a library, an alchemical shop, dining, and dungeon insurance. It is provisionally represented as [Skynet’s Second-Best Inn](/locations/detail/skynet-s-second-best-inn).
@@ -341,10 +351,6 @@ Every question must include **what we already know** — many sit unanswered acr
 - **Abraham’s Recognition** — who are his peers, and what will earn their recognition?
 
 ## Session 15, The Death of a Dungeon
-
-- When and how did the party travel from Nimbus to Skynet?
-  - The author confirmed the DM's statement that Session 15 took place on [Skynet](/locations/detail/skynet). The [Temple of the Serpent Eclipse](/locations/detail/temple-of-the-serpent-eclipse), [Skynet's Second-Best Inn](/locations/detail/skynet-s-second-best-inn), and [Gruumsh War Temple](/locations/detail/gruumsh-war-temple) are now placed there. The earlier record of [arrival on Nimbus](/events/detail/the-party-arrives-on-nimbus) remains, but the journey between the islands is not remembered. Do not infer a travel date, route, or means of transport. The author is checking with the group.
-  - The earlier sponsorship described a Nimbus dungeon and supplied the [Nimbus Dungeon Stamp Card](/items/detail/nimbus-dungeon-stamp-card). Was the destination recorded incorrectly, or could that sponsorship be used on Skynet? The original sponsorship and card name remain pending clarification.
 
 - Where did the Gruumsh War Temple's war party go?
   - Its mapped position preserves the established Skynet site. Its new location and the cathedral's identity are unknown after [the war party takes it away](/events/detail/jim-retrieves-the-shadow-sword-after-the-temple-departs).

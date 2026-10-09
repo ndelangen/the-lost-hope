@@ -10,9 +10,7 @@ export default createItem({
   quantity: 1,
   notes: [
     [
-      'A single stamp card for the party’s first dungeon on ',
-      refs.locations.nimbus,
-      '. Any wider stamp or reward rules are unknown.',
+      'A single stamp card authorizing the party’s first sponsored dungeon. Its official name, geographic coverage, and any wider stamp or reward rules are unconfirmed.',
     ],
   ],
 })

@@ -5,13 +5,11 @@ export default createLocation({
   name: 'Night Mothers’ Church',
   icon: 'lucide/MoonStar',
   type: 'building',
-  parent: refs.locations.nimbus,
+  parent: refs.locations.skynet,
   at: [525, 170],
   notes: [
     [
-      'A church on ',
-      refs.locations.nimbus,
-      ' associated with the Night Mothers. It stands beside the ',
+      'A church associated with the Night Mothers. It stands beside the ',
       refs.locations.gruumsh_war_temple,
       '.',
     ],
