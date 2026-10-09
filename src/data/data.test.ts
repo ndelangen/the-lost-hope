@@ -62,7 +62,7 @@ describe('location import order', () => {
       locations.skynet.slug,
     )
     expect(locationParent(locations.gruumsh_war_temple)?.slug).toBe(locations.skynet.slug)
-    expect(locationParent(locations.night_mothers_church)?.slug).toBe(locations.nimbus.slug)
+    expect(locationParent(locations.night_mothers_church)?.slug).toBe(locations.skynet.slug)
     expect(locationParent(locations.temple_of_the_watchers)?.slug).toBe(locations.nimbus.slug)
     expect(locationParent(locations.serpent_eclipse_dungeon_entrance)?.slug).toBe(
       locations.temple_of_the_serpent_eclipse.slug,
@@ -757,7 +757,7 @@ describe('campaign chronology', () => {
     ])
   })
 
-  it('continues Session 12 through the Fiddler’s game and the arrival on Nimbus', () => {
+  it('continues Session 12 through the Fiddler’s game, Nimbus arrival, and travel to Skynet', () => {
     expect(sessionDays(sessions.the_fiddlers_game)).toEqual([
       {
         day: 20,
@@ -772,6 +772,7 @@ describe('campaign chronology', () => {
           events.n2_e107,
           events.n2_e116,
           events.n2_e117,
+          events.n2_e165,
           events.n2_e118,
           events.n2_e108,
           events.n2_e122,

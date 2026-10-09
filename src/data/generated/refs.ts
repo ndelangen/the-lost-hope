@@ -24,6 +24,7 @@ export const refs = {
     wolfie: ref('beast', 'wolfie'),
   },
   events: {
+    n2_e165: ref('event', 'n2_e165'),
     n2_e164: ref('event', 'n2_e164'),
     n2_e163: ref('event', 'n2_e163'),
     n2_e162: ref('event', 'n2_e162'),

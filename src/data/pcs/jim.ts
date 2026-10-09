@@ -38,17 +38,7 @@ export default createPC({
     [
       'Jim is a human who hid as a kenku, on the run from both the law and ',
       refs.organizations.the_eyeless_hand,
-      ', the guild he betrayed. ',
-      refs.pcs.devan,
-      ', ',
-      refs.pcs.cassian_veyl,
-      ', and ',
-      refs.pcs.swift_starblade,
-      ' learned his human identity and saw him without ',
-      refs.items.jim_s_kenku_suit,
-      ' on ',
-      refs.locations.nimbus,
-      '.',
+      ', the guild he betrayed.',
     ],
     [
       'Jim grew up in a human-dominated slum inside ',

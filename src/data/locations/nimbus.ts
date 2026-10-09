@@ -14,7 +14,7 @@ export default createLocation({
       ' destination and their main arrival, screening, and trading hub. Visitors transfer onward by small flying ferries, while apprentices, crafters, alchemists, and blacksmiths work throughout the settlement.',
     ],
     [
-      'Nimbus has two known dungeons. A goblin-run transport company handles travel around the island.',
+      'A high-ranking dungeon is known here. A goblin-run transport company handles travel around the island.',
     ],
     ['No dwarves were present when the party arrived.'],
   ],
