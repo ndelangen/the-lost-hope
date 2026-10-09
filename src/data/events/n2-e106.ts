@@ -4,14 +4,14 @@ import { create as createEvent } from '#/definitions/event.ts'
 export default createEvent({
   name: 'Jim’s lightning curse reveals his human identity',
   day: 21,
-  location: refs.locations.jim_s_room_at_nimbus_s_second_best_inn,
+  location: refs.locations.jim_s_room_at_skynet_s_second_best_inn,
   mark: { type: 'icon', name: 'gi/GiLightningStorm' },
   notes: [
     [
       'The next morning, the storm following ',
       refs.pcs.jim,
       ' struck him with lightning inside ',
-      refs.locations.jim_s_room_at_nimbus_s_second_best_inn,
+      refs.locations.jim_s_room_at_skynet_s_second_best_inn,
       ' and started a fire, causing at least some fire damage. The fire was apparently put out and the room is assumed to have remained intact, but the exact damage was not established. ',
       refs.pcs.jim,
       ' was not wearing ',
@@ -19,7 +19,7 @@ export default createEvent({
       ' during the incident, while the ',
       refs.items.jaded_amulet,
       ' initially prevented the others from recognizing the human leaving ',
-      refs.locations.jim_s_room_at_nimbus_s_second_best_inn,
+      refs.locations.jim_s_room_at_skynet_s_second_best_inn,
       '.',
     ],
     [

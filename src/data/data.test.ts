@@ -57,11 +57,11 @@ describe('location import order', () => {
     expect(locationParent(locations.gambling_deck)?.slug).toBe(locations.sylvias_flying_bazaar.slug)
     expect(locationParent(locations.lower_stables)?.slug).toBe(locations.sylvias_flying_bazaar.slug)
     expect(locationParent(locations.bob_s_stall)?.slug).toBe(locations.sylvias_flying_bazaar.slug)
-    expect(locationParent(locations.nimbus_s_second_best_inn)?.slug).toBe(locations.nimbus.slug)
+    expect(locationParent(locations.skynet_s_second_best_inn)?.slug).toBe(locations.skynet.slug)
     expect(locationParent(locations.temple_of_the_serpent_eclipse)?.slug).toBe(
-      locations.nimbus.slug,
+      locations.skynet.slug,
     )
-    expect(locationParent(locations.gruumsh_war_temple)?.slug).toBe(locations.nimbus.slug)
+    expect(locationParent(locations.gruumsh_war_temple)?.slug).toBe(locations.skynet.slug)
     expect(locationParent(locations.night_mothers_church)?.slug).toBe(locations.nimbus.slug)
     expect(locationParent(locations.temple_of_the_watchers)?.slug).toBe(locations.nimbus.slug)
     expect(locationParent(locations.serpent_eclipse_dungeon_entrance)?.slug).toBe(
@@ -139,7 +139,7 @@ describe('location import order', () => {
       refs.locations.mortimer_s_underground_workshop.key,
       refs.locations.flying_bazaar_crafting_area.key,
       refs.locations.flying_bazaar_kitchen.key,
-      refs.locations.jim_s_room_at_nimbus_s_second_best_inn.key,
+      refs.locations.jim_s_room_at_skynet_s_second_best_inn.key,
     ])
   })
 })
@@ -190,10 +190,12 @@ describe('quest taxonomy', () => {
     expect(new Set(questValues.map((quest) => quest.type))).toEqual(new Set(QUEST_TYPES))
     expect(missions).toEqual([
       'Bring Swift’s Sister to Sylvia',
+      "Find Grimgor's Bones",
       'Help the Rare-Animal Dealer',
       'Make Abraham Known Among His Peers',
+      "Recover Swift's Flying Broom",
     ])
-    expect(questValues.filter((quest) => quest.type === 'mystery')).toHaveLength(15)
+    expect(questValues.filter((quest) => quest.type === 'mystery')).toHaveLength(16)
   })
 })
 
@@ -251,6 +253,8 @@ describe('items', () => {
 
   it('derives owned and carried PC items from item relationships', () => {
     expect(itemsOwnedBy('pc', pcs.devan.slug).map((item) => item.slug)).toEqual([
+      items.devan_s_corrected_holy_text.slug,
+      items.devan_s_wandering_priest_robe.slug,
       items.flask_of_never_ending_booze.slug,
       items.rare_dragon_scales.slug,
       items.steve_mace_of_returning.slug,
@@ -263,18 +267,22 @@ describe('items', () => {
       items.swifts_silver_container.slug,
     ])
     expect(itemsCarriedBy('pc', pcs.cassian_veyl.slug).map((item) => item.slug)).toEqual([
-      items.bag_of_holding.slug,
       items.wolfie_tracking_ring.slug,
     ])
     expect(itemsCarriedBy('pc', pcs.jim.slug).map((item) => item.slug)).toEqual([
       items.cursed_shadow_sword.slug,
       items.dagger_of_passive_aggression.slug,
+      items.dagger_of_the_zodiac_signs.slug,
       items.jaded_amulet.slug,
       items.lights_unidentified_drops.slug,
       items.nimbus_dungeon_stamp_card.slug,
+      items.obsidian_green_rod.slug,
+      items.pocket_holy_text_of_grimgor.slug,
       items.robertos_map_pages.slug,
     ])
     expect(itemsCarriedBy('pc', pcs.devan.slug).map((item) => item.slug)).toEqual([
+      items.devan_s_corrected_holy_text.slug,
+      items.devan_s_wandering_priest_robe.slug,
       items.flask_of_never_ending_booze.slug,
       items.rare_dragon_scales.slug,
       items.steve_mace_of_returning.slug,
@@ -930,6 +938,6 @@ describe('campaign chronology', () => {
   })
 
   it('returns the latest event first', () => {
-    expect(sortedEvents()[0]?.data).toBe(events.n2_e148)
+    expect(sortedEvents()[0]?.data).toBe(events.n2_e164)
   })
 })

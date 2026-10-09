@@ -11,7 +11,9 @@ export default createLocation({
     [
       'A campfire rest point beyond the ',
       refs.locations.serpent_eclipse_far_landing,
-      '. A passage continues into unexplored parts of the dungeon. Its course and the rooms beyond are not yet known.',
+      '. A passage continues toward the ',
+      refs.locations.serpent_eclipse_crystal_oasis,
+      '.',
     ],
   ],
 })

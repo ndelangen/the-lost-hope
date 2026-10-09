@@ -96,6 +96,7 @@ import {
   GiWaves,
   GiWhirlwind,
   GiBlood,
+  GiOasis,
 } from 'react-icons/gi'
 
 import { LOCATION_TYPE_LABELS, type LocationType } from '#/definitions/location.ts'
@@ -133,6 +134,7 @@ type LocationGlyph = ComponentType<{ className?: string; 'aria-hidden'?: boolean
  * `icon` field; unknown/omitted keys fall back to the placeholder.
  */
 export const LOCATION_ICONS: Record<string, LocationGlyph> = {
+  'gi/GiOasis': GiOasis,
   'fa/FaDice': FaDice,
   'fa/FaGlobe': FaGlobe,
   'fa/FaHorse': FaHorse,

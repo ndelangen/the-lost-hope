@@ -179,8 +179,8 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Session:_ 9 ([n2-e074](/events/the-cursed-sword-breaks-verdant-havens-ward))
 
 - **What is the cursed sword, and is its shadow connected to the Faceless Shadow?**
-  - _Context:_ The [Faceless Shadow](/npcs/detail/faceless-shadow) left the [Cursed Shadow Sword](/items/detail/cursed-shadow-sword) in [Roberto](/npcs/detail/roberto). It decayed [Verdant Haven Forest](/locations/detail/verdant-haven-forest), broke [Verdant Haven](/locations/detail/verdant-haven)’s ward, and later released a shadow that killed a wolf and nearly killed [Jim](/pcs/detail/jim). In Session 13, the [Gruumsh High Priest](/npcs/detail/gruumsh-high-priest) removed its curse after it blackened his hand and recoiled from him. Whether both shadows are the same entity, whether the shadow survived the cleansing, and what became of the extracted curse remain unknown.
-  - _Session:_ 9, 13 ([n2-e073](/events/the-party-rescues-roberto-from-a-faceless-shadow), [n2-e078](/events/the-cursed-swords-shadow-nearly-kills-jim), [n2-e132](/events/detail/the-high-priest-frees-jim-from-pain-and-cleanses-the-shadow-sword))
+  - _Context:_ The [Faceless Shadow](/npcs/detail/faceless-shadow) left the [Cursed Shadow Sword](/items/detail/cursed-shadow-sword) in [Roberto](/npcs/detail/roberto). It decayed [Verdant Haven Forest](/locations/detail/verdant-haven-forest), broke [Verdant Haven](/locations/detail/verdant-haven)'s ward, and later released a shadow that killed a wolf and nearly killed [Jim](/pcs/detail/jim). In Session 13, the [Gruumsh High Priest](/npcs/detail/gruumsh-high-priest) treated its curse after it blackened his hand and recoiled from him. In Session 15, Jim received the sword back. The curse was too strong to lift completely, but the sword no longer kills its wielder. Whether both shadows are the same entity and what became of the blade's shadow remain unknown.
+  - _Session:_ 9, 13, 15 ([n2-e073](/events/the-party-rescues-roberto-from-a-faceless-shadow), [n2-e078](/events/the-cursed-swords-shadow-nearly-kills-jim), [n2-e132](/events/detail/the-high-priest-frees-jim-from-pain-and-cleanses-the-shadow-sword), [n2-e162](/events/detail/jim-retrieves-the-shadow-sword-after-the-temple-departs))
 
 - **How reliable was Roberto’s interrogation, and did an Eyeless Hand splinter cell destroy Fairhaven?**
   - _Context:_ Roberto implicated Mortimer in the Hand’s gradual takeover and claimed a splinter cell destroyed the city without necessarily receiving the Father’s approval. Devan obtained this information during the interrogation that ended in Roberto’s death.
@@ -256,7 +256,7 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Session:_ 12 ([n2-e115](/events/detail/cassian-buys-the-bag-of-holding-from-bob))
 
 - **What are the “Bird of Gluttony’s” exact powers and limitations?**
-  - _Context:_ [Crowy](/npcs/detail/crowy) directly asked [Light 13th Marshal](/npcs/detail/light-13th-marshal) to become the “Bird of Gluttony,” and Light granted the request. At [Nimbus’s Second-Best Inn](/locations/detail/nimbus-s-second-best-inn), Crowy consumed Jim’s Sleep spell, used the title, and said the change made it much hungrier. The party assumes Crowy can now never sleep, but that consequence is not confirmed.
+  - _Context:_ [Crowy](/npcs/detail/crowy) directly asked [Light 13th Marshal](/npcs/detail/light-13th-marshal) to become the “Bird of Gluttony,” and Light granted the request. At [Skynet’s Second-Best Inn](/locations/detail/skynet-s-second-best-inn), Crowy consumed Jim’s Sleep spell, used the title, and said the change made it much hungrier. The party assumes Crowy can now never sleep, but that consequence is not confirmed.
   - _Why asking:_ The grant’s duration, whether Crowy truly cannot sleep, what consuming a spell does, whether it can consume spells other than Sleep, and the form’s other powers, costs, and limits remain unknown.
   - _Session:_ 12 ([n2-e119](/events/detail/crowy-becomes-the-bird-of-gluttony))
 
@@ -265,13 +265,13 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Why asking:_ Any additional stamps, redemption, or reward rules were not recorded.
   - _Session:_ 12 ([n2-e104](/events/detail/sylvia-sponsors-the-party-s-first-nimbus-dungeon))
 
-- **What is the proper name of Nimbus’s second-best inn?**
-  - _Context:_ The party stayed at a three-storey, high-end inn on [Nimbus](/locations/detail/nimbus) with private bathrooms, hammocks, a library, an alchemical shop, dining, and dungeon insurance. It is provisionally represented as [Nimbus’s Second-Best Inn](/locations/detail/nimbus-s-second-best-inn).
+- **What is the proper name of Skynet’s second-best inn?**
+  - _Context:_ The party stayed at a three-storey, high-end inn on [Skynet](/locations/detail/skynet) with private bathrooms, hammocks, a library, an alchemical shop, dining, and dungeon insurance. It is provisionally represented as [Skynet’s Second-Best Inn](/locations/detail/skynet-s-second-best-inn).
   - _Why asking:_ The transcript identifies the inn by rank rather than by its in-world name.
   - _Session:_ 12 ([n2-e118](/events/detail/the-party-takes-rooms-sixty-feet-apart))
 
 - **What is up with Bob the Merchant?**
-  - _Context:_ The party first met [Bob the Merchant](/npcs/detail/bob-the-merchant) at Fajanet’s festival, then found him again with his enormous magical stock and [Mimic Chest](/beasts/detail/mimic-chest) aboard Sylvia’s Flying Bazaar. He sells or gives away unusual items, can combine and permanently alter magic and creatures, and uses divine contracts that can locate their signatories. He later reached [Nimbus’s Second-Best Inn](/locations/detail/nimbus-s-second-best-inn), took and temporarily replaced its cook, and hid Jim’s amulet in a pie. The party sees Bob as a skeleton with blue flames in his eye sockets, while the inn staff saw a normal, exceptionally handsome human man with black hair. Bob insists that he is alive. Acknowledging his skeletal form or calling him undead exposed the party to an eye staring from the abyss, reversed time by five seconds, and produced a supernatural final warning to ignore what they perceive.
+  - _Context:_ The party first met [Bob the Merchant](/npcs/detail/bob-the-merchant) at Fajanet’s festival, then found him again with his enormous magical stock and [Mimic Chest](/beasts/detail/mimic-chest) aboard Sylvia’s Flying Bazaar. He sells or gives away unusual items, can combine and permanently alter magic and creatures, and uses divine contracts that can locate their signatories. He later reached [Skynet’s Second-Best Inn](/locations/detail/skynet-s-second-best-inn), took and temporarily replaced its cook, and hid Jim’s amulet in a pie. The party sees Bob as a skeleton with blue flames in his eye sockets, while the inn staff saw a normal, exceptionally handsome human man with black hair. Bob insists that he is alive. Acknowledging his skeletal form or calling him undead exposed the party to an eye staring from the abyss, reversed time by five seconds, and produced a supernatural final warning to ignore what they perceive.
   - _Why asking:_ Bob’s actual nature, motives, means of travel, method of moving or accessing his stall and stock, source of his items, reason for appearing differently to the party, and the force behind the compulsory pretence that he is human and alive are all unknown. These connected questions are tracked as [What Is Up with Bob the Merchant?](/quests/detail/what-is-up-with-bob-the-merchant), rather than as a species question alone.
   - _Session:_ 3, 11–12 ([n2-e103](/events/detail/bob-gives-the-party-special-daggers), [n2-e094](/events/detail/the-party-reunites-with-bob-the-merchant), [n2-e095](/events/detail/bob-s-bargains-change-wolfie-and-bind-jim-to-a-contract), [n2-e107](/events/detail/bob-s-skeletal-appearance-triggers-a-final-warning), [n2-e108](/events/detail/jim-finds-the-jaded-amulet-in-a-pie))
 
@@ -279,8 +279,8 @@ Every question must include **what we already know** — many sit unanswered acr
 
 ## Session 13 — The First Dungeon
 
-- **Is “Serpent Isle” another name for the Temple of the Serpent Eclipse, or a separate part of Nimbus?**
-  - _Context:_ The session recap called the selected snake-themed destination “Serpent Isle,” while the dungeon attendant welcomed the party to the [Temple of the Serpent Eclipse](/locations/detail/temple-of-the-serpent-eclipse). The transcript does not establish whether those names describe the same place or a containing area of [Nimbus](/locations/detail/nimbus).
+- **Is “Serpent Isle” another name for the Temple of the Serpent Eclipse, or a separate part of Skynet?**
+  - _Context:_ The session recap called the selected snake-themed destination “Serpent Isle,” while the dungeon attendant welcomed the party to the [Temple of the Serpent Eclipse](/locations/detail/temple-of-the-serpent-eclipse). The transcript does not establish whether those names describe the same place or a containing area of [Skynet](/locations/detail/skynet).
   - _Why asking:_ The dungeon is provisionally represented as [Temple of the Serpent Eclipse](/locations/detail/temple-of-the-serpent-eclipse); a separate canonical location or alias should only be added if the distinction is real.
   - _Session:_ 13 ([n2-e123](/events/detail/the-party-presents-the-dungeon-pass-at-the-serpent-eclipse-entrance))
 
@@ -333,9 +333,30 @@ Every question must include **what we already know** — many sit unanswered acr
 - **Jim's Warning Letter** — sender identity.
 - **Help the Rare-Animal Dealer** — third animal.
 - **Mountain Holy Site** — whose faith, deity, form?
-- **The Cursed Sword** — origin of the removed curse, fate of its shadow, and connection to the Faceless Shadow.
+- **The Cursed Sword**: origin of the remaining curse, fate of its shadow, and connection to the Faceless Shadow.
 - **The Fairhaven Invasion** — attackers, motive, special wizard, and summoned monsters.
 - **Fajanet Tunnels and Shadow Realm** — same underground network?
 - **Through the Shadow Realm** — relation to tentacle night.
 - **The Dinosaur Migration** — riders, species, destination motive.
 - **Abraham’s Recognition** — who are his peers, and what will earn their recognition?
+
+## Session 15, The Death of a Dungeon
+
+- When and how did the party travel from Nimbus to Skynet?
+  - The author confirmed the DM's statement that Session 15 took place on [Skynet](/locations/detail/skynet). The [Temple of the Serpent Eclipse](/locations/detail/temple-of-the-serpent-eclipse), [Skynet's Second-Best Inn](/locations/detail/skynet-s-second-best-inn), and [Gruumsh War Temple](/locations/detail/gruumsh-war-temple) are now placed there. The earlier record of [arrival on Nimbus](/events/detail/the-party-arrives-on-nimbus) remains, but the journey between the islands is not remembered. Do not infer a travel date, route, or means of transport. The author is checking with the group.
+  - The earlier sponsorship described a Nimbus dungeon and supplied the [Nimbus Dungeon Stamp Card](/items/detail/nimbus-dungeon-stamp-card). Was the destination recorded incorrectly, or could that sponsorship be used on Skynet? The original sponsorship and card name remain pending clarification.
+
+- Where did the Gruumsh War Temple's war party go?
+  - Its mapped position preserves the established Skynet site. Its new location and the cathedral's identity are unknown after [the war party takes it away](/events/detail/jim-retrieves-the-shadow-sword-after-the-temple-departs).
+
+- Who is the figure that saves Jim and seeks his willing surrender?
+  - In [the dagger vision](/events/detail/jim-survives-the-zodiac-dagger-and-rejects-a-soul-bargain), it wears the face of a murdered childhood friend, wants his body and soul, and offers to kill the Father. Its identity, connection to Jim's past, and the consequences of its intervention remain unknown. The transcript also contains a brief "Joshua is the Father's name" aside whose referent and spelling need confirmation before changing the Father's identity.
+
+- Where are Grimgor's bones, and how can Devan find them?
+  - [Devan accepted the task](/events/detail/devan-becomes-a-wandering-priest-and-meets-grimgor) of finding the bones. Their location and how to reach them are unknown. The recap attributes the task to Jim; the transcript supports Devan.
+
+- What are the Obsidian Green Rod's exact powers?
+  - [Jim's next morning lightning strike](/events/detail/the-green-rod-protects-jim-from-the-morning-lightning) did not harm him, while his bed still burned. Its range, duration, charges, other effects, and limits are unknown.
+
+- Which pirate identity did Sarogarth intend to give Swift?
+  - [The party planned a disguise](/events/detail/the-party-prepares-to-travel-to-tempest-with-sarogarth) as a famous pirate from two thousand years ago and discussed new business cards. Neither the name nor a completed transformation is recorded.

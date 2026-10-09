@@ -9,6 +9,9 @@ export default createLocation({
   at: [785, 520],
   notes: [
     [
+      'The noble rulers of the sky islands reside here. A colosseum provides entertainment through combat.',
+    ],
+    [
       'The third inhabited ',
       refs.locations.three_sky_kingdoms,
       ' destination. It is governed by a northern house of Air Genasi, whose moving island allows them to preserve a nomadic tradition without leaving the settlement.',

@@ -35,11 +35,11 @@ export default createEvent({
     ],
     [
       refs.npcs.gruumsh_high_priest,
-      ' removed the curse from the ',
+      ' worked on the curse of the ',
       refs.items.cursed_shadow_sword,
-      ', but did not explain what he did with the extracted curse or whether the deadly shadow bound to the ',
-      refs.items.cursed_shadow_sword,
-      ' survived.',
+      '. The result of that treatment was clarified when the blade was returned during ',
+      refs.events.n2_e162,
+      '.',
     ],
   ],
 })

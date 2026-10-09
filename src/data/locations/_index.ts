@@ -32,14 +32,13 @@ import gruumsh_temple_main_hall from './gruumsh-temple-main-hall.ts'
 import gruumsh_temple_ritual_room from './gruumsh-temple-ritual-room.ts'
 import gruumsh_war_temple from './gruumsh-war-temple.ts'
 import holy_site from './holy-site.ts'
-import jim_s_room_at_nimbus_s_second_best_inn from './jim-s-room-at-nimbus-s-second-best-inn.ts'
+import jim_s_room_at_skynet_s_second_best_inn from './jim-s-room-at-skynet-s-second-best-inn.ts'
 import lower_stables from './lower-stables.ts'
 import mortimer_s_shop from './mortimer-s-shop.ts'
 import mortimer_s_underground_workshop from './mortimer-s-underground-workshop.ts'
 import mountain_cliff from './mountain-cliff.ts'
 import mountain_top from './mountain-top.ts'
 import night_mothers_church from './night-mothers-church.ts'
-import nimbus_s_second_best_inn from './nimbus-s-second-best-inn.ts'
 import nimbus from './nimbus.ts'
 import penelope_s_alchemy_shop from './penelope-s-alchemy-shop.ts'
 import penelope_s_underground_workshop from './penelope-s-underground-workshop.ts'
@@ -47,6 +46,7 @@ import puzzle_room from './puzzle-room.ts'
 import rare_animal_dealer_s_premises from './rare-animal-dealer-s-premises.ts'
 import reve from './reve.ts'
 import sea_of_unknown from './sea-of-unknown.ts'
+import serpent_eclipse_crystal_oasis from './serpent-eclipse-crystal-oasis.ts'
 import serpent_eclipse_dungeon_entrance from './serpent-eclipse-dungeon-entrance.ts'
 import serpent_eclipse_far_landing from './serpent-eclipse-far-landing.ts'
 import serpent_eclipse_flooded_cavern from './serpent-eclipse-flooded-cavern.ts'
@@ -64,6 +64,7 @@ import shadow_realm from './shadow-realm.ts'
 import shadowpeak_mining_operation from './shadowpeak-mining-operation.ts'
 import shadowpeak_residential_district from './shadowpeak-residential-district.ts'
 import shadowpeak from './shadowpeak.ts'
+import skynet_s_second_best_inn from './skynet-s-second-best-inn.ts'
 import skynet from './skynet.ts'
 import snowy_mountain_ruin from './snowy-mountain-ruin.ts'
 import snowy_mountains from './snowy-mountains.ts'
@@ -88,6 +89,7 @@ import verdant_haven from './verdant-haven.ts'
 import world from './world.ts'
 
 export default {
+  serpent_eclipse_crystal_oasis,
   world,
   continent_of_the_dead,
   ethium,
@@ -124,13 +126,13 @@ export default {
   flying_bazaar_kitchen,
   holy_site,
   lower_stables,
-  jim_s_room_at_nimbus_s_second_best_inn,
+  jim_s_room_at_skynet_s_second_best_inn,
   mountain_cliff,
   mountain_top,
   mortimer_s_shop,
   mortimer_s_underground_workshop,
   nimbus,
-  nimbus_s_second_best_inn,
+  skynet_s_second_best_inn,
   night_mothers_church,
   shadowpeak,
   shadowpeak_mining_operation,

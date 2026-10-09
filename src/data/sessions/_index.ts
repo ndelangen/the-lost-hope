@@ -5,6 +5,7 @@ import fairhaven_shadows from './fairhaven-shadows.ts'
 import from_fajanet_to_fairhaven from './from-fajanet-to-fairhaven.ts'
 import heroes_and_rivals from './heroes-and-rivals.ts'
 import quests_for_the_exotic_animal_dealer from './quests-for-the-exotic-animal-dealer.ts'
+import the_death_of_a_dungeon from './the-death-of-a-dungeon.ts'
 import the_fajanet_festival from './the-fajanet-festival.ts'
 import the_fall_of_fairhaven from './the-fall-of-fairhaven.ts'
 import the_fiddlers_game from './the-fiddlers-game.ts'
@@ -14,6 +15,7 @@ import the_serpent_lake from './the-serpent-lake.ts'
 import verdant_haven_to_shadowpeak from './verdant-haven-to-shadowpeak.ts'
 
 export default {
+  the_death_of_a_dungeon,
   arrival_in_fajanet,
   quests_for_the_exotic_animal_dealer,
   the_fajanet_festival,

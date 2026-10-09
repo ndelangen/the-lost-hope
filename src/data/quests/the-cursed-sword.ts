@@ -7,15 +7,21 @@ export default createQuest({
   type: 'mystery',
   notes: [
     [
-      'What was the curse on ',
+      'What is the curse on ',
       refs.items.cursed_shadow_sword,
       ', was its shadow connected to the ',
       refs.npcs.faceless_shadow,
-      ', and what became of either after the curse was removed?',
+      ', and what became of its shadow after the treatment?',
     ],
   ],
   status: 'open',
   clues: [
+    [
+      refs.events.n2_e162,
+      ', the church returned ',
+      refs.items.cursed_shadow_sword,
+      " with its curse still present, but no longer fatal to its wielder, and a warning about the souls it holds. The curse's origin and its shadow remain unexplained.",
+    ],
     [
       refs.events.n2_e073,
       ' — the ',
@@ -62,9 +68,9 @@ export default createQuest({
       refs.pcs.jim,
       '’s 20 GP pain-removal debt, the ',
       refs.npcs.gruumsh_high_priest,
-      ' removed the curse from ',
+      ' treated the curse on ',
       refs.items.cursed_shadow_sword,
-      ' after it blackened his hand and recoiled from him, but did not reveal what became of the curse or its shadow.',
+      ' after it blackened his hand and recoiled from him, but did not reveal what became of its shadow.',
     ],
   ],
   conclusion: [],
