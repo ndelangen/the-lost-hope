@@ -22,5 +22,12 @@ export default createItem({
       refs.npcs.bob_the_merchant,
       ' said the bag has an additional random effect that has not yet been determined.',
     ],
+    [
+      {
+        type: 'link',
+        label: 'Standard Bag of Holding rules on D&D Beyond',
+        url: 'https://www.dndbeyond.com/magic-items/4581-bag-of-holding',
+      },
+    ],
   ],
 })
