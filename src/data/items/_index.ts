@@ -1,4 +1,6 @@
 import bag_of_holding from './bag-of-holding.ts'
+import beasts_and_dwarf_s_airship from './beasts-and-dwarf-s-airship.ts'
+import cloak_of_protection from './cloak-of-protection.ts'
 import cursed_shadow_sword from './cursed-shadow-sword.ts'
 import dagger_of_passive_aggression from './dagger-of-passive-aggression.ts'
 import dagger_of_the_zodiac_signs from './dagger-of-the-zodiac-signs.ts'
@@ -21,6 +23,7 @@ import phoenix_feather from './phoenix-feather.ts'
 import pocket_holy_text_of_grimgor from './pocket-holy-text-of-grimgor.ts'
 import purple_dragon_horn from './purple-dragon-horn.ts'
 import rare_dragon_scales from './rare-dragon-scales.ts'
+import ring_of_spell_storing from './ring-of-spell-storing.ts'
 import robertos_map_pages from './robertos-map-pages.ts'
 import serpent_eclipse_trial_disk from './serpent-eclipse-trial-disk.ts'
 import steve_mace_of_returning from './steve-mace-of-returning.ts'
@@ -29,6 +32,10 @@ import swifts_silver_container from './swifts-silver-container.ts'
 import wolfie_tracking_ring from './wolfie-tracking-ring.ts'
 
 export default {
+  cloak_of_protection,
+  ring_of_spell_storing,
+  beasts_and_dwarf_s_airship,
+
   devan_s_wandering_priest_robe,
   devan_s_corrected_holy_text,
   pocket_holy_text_of_grimgor,

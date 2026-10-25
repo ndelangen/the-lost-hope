@@ -3,6 +3,7 @@ import bring_swift_s_sister_to_sylvia from './bring-swift-s-sister-to-sylvia.ts'
 import dino_migration from './dino-migration.ts'
 import fajanet_tunnels_shadow_realm from './fajanet-tunnels-shadow-realm.ts'
 import find_grimgor_s_bones from './find-grimgor-s-bones.ts'
+import find_the_fiddler from './find-the-fiddler.ts'
 import inside_swift_s_silver_container from './inside-swift-s-silver-container.ts'
 import jims_past from './jims-past.ts'
 import make_abraham_known_among_his_peers from './make-abraham-known-among-his-peers.ts'
@@ -10,6 +11,7 @@ import mountain_holy_site from './mountain-holy-site.ts'
 import mystery_girl from './mystery-girl.ts'
 import rare_animal_dealer from './rare-animal-dealer.ts'
 import recover_swift_s_flying_broom from './recover-swift-s-flying-broom.ts'
+import settle_the_shipwright_s_favors from './settle-the-shipwright-s-favors.ts'
 import the_cursed_sword from './the-cursed-sword.ts'
 import the_fairhaven_invasion from './the-fairhaven-invasion.ts'
 import the_tentacle_night from './the-tentacle-night.ts'
@@ -21,6 +23,9 @@ import who_is_giggles from './who-is-giggles.ts'
 import who_is_light from './who-is-light.ts'
 
 export default {
+  find_the_fiddler,
+  settle_the_shipwright_s_favors,
+
   understand_the_obsidian_green_rod,
   find_grimgor_s_bones,
   recover_swift_s_flying_broom,

@@ -366,3 +366,41 @@ Every question must include **what we already know** — many sit unanswered acr
 
 - Which pirate identity did Sarogarth intend to give Swift?
   - [The party planned a disguise](/events/detail/the-party-prepares-to-travel-to-tempest-with-sarogarth) as a famous pirate from two thousand years ago and discussed new business cards. Neither the name nor a completed transformation is recorded.
+
+## Session 16, The Tempest Bargain
+
+- Which campaign day was the morning at the inn?
+  - The opening announces the next day after Session 15, so Session 16 provisionally uses day 24. Later dialogue refers to six nights at the inn and six lightning strikes, which does not fit the current day-20 arrival. The real-world play date is 22 October 2026.
+  - Transcript 00:02, 00:42 through 00:44, and 00:51. This needs confirmation before changing earlier campaign dates.
+
+- What are the confirmed spellings of the shipwright's and nobles' names, and what is the gang leader called?
+  - The shipwright is provisionally [Esia](/npcs/detail/esia), with later variants resembling Assio. The older noble's name is explicitly corrected to Brend around 02:38 but later sounds like Brent or Brandt. [Rudolf Tempest](/npcs/detail/rudolf-tempest) also has a later Rulof variant. The [Skynet Gang Leader](/npcs/detail/skynet-gang-leader) has an unclear name resembling Swift or Shipley, which should not be attributed to the player character.
+  - Transcript 02:08, 02:38, 02:41, 02:51, and 02:56. Jim and Swifty's speaker labels are also frequently confused, as the author confirmed. Uncertain dialogue and actions remain attributed to the party.
+
+- Which Tempest sibling is youngest, and where does Onana sit in the succession?
+  - [Onana Tempest](/npcs/detail/onana-tempest) introduces himself as the youngest. The gang later names [Rudolf Tempest](/npcs/detail/rudolf-tempest) as the youngest and cannot reliably name the heir. The accounts of the number of siblings also vary.
+  - Transcript 00:33, 00:59 through 01:00, and 02:51 through 02:53. Both statements remain attributed to their speakers.
+
+- What exactly are the two shipwright favors, and what happened between Esia and Celeste Tempest?
+  - [The airship agreement](/events/detail/the-party-commissions-an-airship-for-gold-and-two-favors) ends at 3,950 gold and two favors. [The subsequent discussion](/events/detail/the-shipwright-describes-grievances-against-the-tempests) names [Celeste Tempest](/npcs/detail/celeste-tempest) and [Brend Tempest](/npcs/detail/brend-tempest), but does not clearly settle the required acts. The explanation involving Celeste and a fiancée or former partner is garbled. The author confirmed that Celeste Tempest is unrelated to the earlier child [Celeste](/npcs/detail/celeste).
+  - Transcript 02:25 through 02:40. The party discussed violence and seeking Onana's backing, but neither a completed favor nor a commission from him is recorded.
+
+- Where do the two smoke trails lead?
+  - [Sarogarth's ritual](/events/detail/sarogarth-s-tracking-ritual-produces-two-smoke-trails) uses the Deck's lingering effects to seek the Fiddler. The smoke splits, Crowy scouts it, and the trail is said to last three days. Neither endpoint is established.
+  - Transcript 01:50 through 02:05. Time travel, multiple timelines, and other explanations remain theories.
+
+- Where was the Obsidian Green Rod during Jim's latest lightning strike?
+  - [The morning strike](/events/detail/cassian-returns-from-the-bag-of-holding) deals four lightning damage and leaves Jim convulsing, whereas the preceding session's strike left him unharmed. Later he still has [the rod](/items/detail/obsidian-green-rod), and the party considers mounting it on the airship.
+  - Transcript 00:02 through 00:06, 00:15, and 02:12 through 02:17. The record does not establish its placement, activation, or protection conditions during the new strike.
+
+- How does Cassian's memory of breathlessness fit the Bag of Holding's frozen time?
+  - [Cassian's return](/events/detail/cassian-returns-from-the-bag-of-holding) includes a recollection of darkness and inability to breathe. Earlier canon says time is frozen inside [the bag](/items/detail/bag-of-holding), preventing suffocation while creatures remain inside it.
+  - Transcript 00:03 through 00:11. His return is established; whether the sensation occurred on entry or exit, or changes the bag's known behavior, remains unresolved.
+
+- How old is Sarogarth, and how long was he in the crystal?
+  - Earlier canon puts him at roughly two thousand years old. In this session the dialogue includes four hundred, one thousand, six hundred years in the crystal, and an apparent age of two hundred. Some of these lines may be jokes or speaker errors.
+  - Transcript 01:10 through 01:13. His established identity has not been changed from these conflicting figures.
+
+- What statue did the gang mention, and did the party accept a task involving it?
+  - The final conversation turns to possessions of [Anton Tempest](/npcs/detail/anton-tempest) and a statue resembling a cow on a rock. The description breaks off and the recording ends without a clear agreement.
+  - Transcript 03:08 through 03:09. No statue item, acquisition, or accepted theft mission has been added.

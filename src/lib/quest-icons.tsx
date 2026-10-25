@@ -1,6 +1,8 @@
 import type { IconType } from 'react-icons'
 import { FaUserSecret } from 'react-icons/fa'
 import {
+  GiMagnifyingGlass,
+  GiScrollQuill,
   GiBackwardTime,
   GiBottledShadow,
   GiComa,
@@ -26,6 +28,8 @@ import {
 import { cn } from '#/lib/utils'
 
 export const QUEST_ICONS = {
+  'gi/GiMagnifyingGlass': GiMagnifyingGlass,
+  'gi/GiScrollQuill': GiScrollQuill,
   'gi/GiWitchFlight': GiWitchFlight,
   'gi/GiCryptEntrance': GiCryptEntrance,
   'gi/GiBoltShield': GiBoltShield,

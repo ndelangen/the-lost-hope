@@ -9,6 +9,12 @@ export default createQuest({
     ['Find out what the ', refs.items.obsidian_green_rod, ' does and what limits its protection.'],
   ],
   clues: [
+    [
+      refs.events.n2_e166,
+      ' records another strike harming ',
+      refs.pcs.jim,
+      '. The rod was discussed later, but its placement or activation during the strike is unknown.',
+    ],
     [refs.events.n2_e155, ' records its appearance on the dungeon altar.'],
     [
       refs.events.n2_e160,

@@ -110988,6 +110988,7 @@
         "src/data/events/n2-e012.ts",
         "src/data/events/n2-e043.ts",
         "src/data/events/n2-e124.ts",
+        "src/data/events/n2-e183.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -113712,7 +113713,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lucasms/cloak.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/cloak-of-protection.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiCloakDagger",
@@ -120109,7 +120113,10 @@
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "duplicateOf": "lucide/Crown",
       "sourceUrl": "https://game-icons.net/1x1/lorc/crown.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/organizations/tempest-family.ts",
+        "src/lib/organization-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiCrownCoin",
@@ -122472,6 +122479,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/daggers.html",
       "usedIn": [
         "src/data/events/n2-e103.ts",
+        "src/data/events/n2-e181.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -127469,6 +127477,7 @@
       "usedIn": [
         "src/data/events/n2-e129.ts",
         "src/data/events/n2-e139.ts",
+        "src/data/events/n2-e174.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -169685,6 +169694,7 @@
         "src/data/events/n2-e069.ts",
         "src/data/events/n2-e121.ts",
         "src/data/events/n2-e146.ts",
+        "src/data/events/n2-e166.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -174821,7 +174831,10 @@
       "classification": "useful",
       "classificationReason": "Manually classified as useful from the /_icons review page.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/magnifying-glass.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/quests/find-the-fiddler.ts",
+        "src/lib/quest-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiMailbox",
@@ -198214,6 +198227,7 @@
       "usedIn": [
         "src/data/events/n2-e061.ts",
         "src/data/events/n2-e112.ts",
+        "src/data/events/n2-e168.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -199387,6 +199401,7 @@
       "usedIn": [
         "src/data/events/n2-e032.ts",
         "src/data/events/n2-e142.ts",
+        "src/data/events/n2-e177.ts",
         "src/data/locations/puzzle-room.ts",
         "src/lib/event-icons.tsx",
         "src/lib/location-icons.tsx"
@@ -201402,6 +201417,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/raven.html",
       "usedIn": [
         "src/data/events/n2-e048.ts",
+        "src/data/events/n2-e178.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -202983,7 +202999,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/ring.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/ring-of-spell-storing.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiRingBox",
@@ -208095,6 +208114,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/scales.html",
       "usedIn": [
         "src/data/events/n2-e034.ts",
+        "src/data/events/n2-e173.ts",
         "src/data/items/rare-dragon-scales.ts",
         "src/lib/event-icons.tsx",
         "src/lib/item-icons.tsx"
@@ -208921,7 +208941,9 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/scroll-quill.html",
       "usedIn": [
         "src/data/events/n2-e049.ts",
-        "src/lib/event-icons.tsx"
+        "src/data/quests/settle-the-shipwright-s-favors.ts",
+        "src/lib/event-icons.tsx",
+        "src/lib/quest-icons.tsx"
       ]
     },
     {
@@ -212593,7 +212615,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/ship-bow.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/beasts-and-dwarf-s-airship.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiShipWheel",
@@ -212649,7 +212674,10 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/ship-wheel.html",
       "usedIn": [
         "src/data/events/n2-e041.ts",
-        "src/lib/event-icons.tsx"
+        "src/data/events/n2-e179.ts",
+        "src/data/sessions/the-tempest-bargain.ts",
+        "src/lib/event-icons.tsx",
+        "src/lib/session-icons.tsx"
       ]
     },
     {
@@ -232211,6 +232239,7 @@
       "usedIn": [
         "src/data/events/n2-e005.ts",
         "src/data/events/n2-e118.ts",
+        "src/data/events/n2-e184.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -237697,6 +237726,7 @@
       "usedIn": [
         "src/data/events/n2-e095.ts",
         "src/data/events/n2-e115.ts",
+        "src/data/events/n2-e171.ts",
         "src/lib/event-icons.tsx"
       ]
     },
