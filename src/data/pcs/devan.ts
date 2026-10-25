@@ -6,6 +6,12 @@ export default createPC({
   player: 'Niek',
   url: '',
   avatar: '/assets/pcs/devan.jpg',
+  previousPortraits: [
+    {
+      url: '/assets/pcs/devan-armoured.jpg',
+      description: 'Devan in his earlier armour',
+    },
+  ],
   status: 'active',
   species: 'Half-Orc',
   class: 'Paladin',

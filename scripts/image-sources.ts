@@ -201,6 +201,12 @@ export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
     repositoryPath: 'assets/images/content/pcs/devan.png',
   },
   {
+    id: 'devan-armoured',
+    role: 'avatar',
+    logicalSource: '/assets/pcs/devan-armoured.jpg',
+    repositoryPath: 'assets/images/content/pcs/devan-armoured.jpg',
+  },
+  {
     id: 'jim-kenku',
     role: 'avatar',
     logicalSource: '/assets/pcs/jim-kenku.jpg',
