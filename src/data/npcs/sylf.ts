@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Sylf',
+  avatar: '/assets/npcs/sylf.png',
   species: 'Demon',
   languages: ['Infernal'],
   notes: [

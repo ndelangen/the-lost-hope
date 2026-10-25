@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Bob the Merchant',
+  avatar: '/assets/npcs/bob-the-merchant.png',
   location: refs.locations.bob_s_stall,
   species: 'unknown',
   notes: [
