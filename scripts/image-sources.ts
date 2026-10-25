@@ -21,6 +21,12 @@ export type ResponsiveImageSource = {
 
 export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
   {
+    id: 'esia',
+    role: 'avatar',
+    logicalSource: '/assets/npcs/esia.png',
+    repositoryPath: 'assets/images/content/npcs/esia.png',
+  },
+  {
     id: 'sarogarth',
     role: 'avatar',
     logicalSource: '/assets/npcs/sarogarth.png',
