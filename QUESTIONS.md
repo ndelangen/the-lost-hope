@@ -113,10 +113,10 @@ Every question must include **what we already know** — many sit unanswered acr
 
 ## Session 5 — Fairhaven
 
-- **What are Light’s unidentified drops, and how much remains in Jim’s bottle?**
-  - _Context:_ [Light 13th Marshal](/npcs/detail/light-13th-marshal) instructed [Jim](/pcs/detail/jim) to give exactly two drops to the unusually long-sleeping [William Greenhoove](/pcs/detail/william-greenhoove). William woke, Jim never returned the bottle, and Jim still carries a nonzero amount.
-  - _Why asking:_ The drops’ composition, full range of effects, and remaining number of doses are unknown.
-  - _Session:_ 5 ([n2-e109](/events/detail/jim-wakes-william-with-light-s-unidentified-drops))
+- **What are Light's unidentified drops?**
+  - _Context:_ [Light 13th Marshal](/npcs/detail/light-13th-marshal) supplied [the drops](/items/detail/light-s-unidentified-drops). [Jim](/pcs/detail/jim) used them to wake [William Greenhoove](/pcs/detail/william-greenhoove), then exhausted the supply by using the last two drops to wake [Sarogarth](/npcs/detail/sarogarth).
+  - _Why asking:_ Their composition and full range of effects remain unknown.
+  - _Session:_ 5 and 15 ([n2-e109](/events/detail/jim-wakes-william-with-light-s-unidentified-drops), [n2-e152](/events/detail/the-party-breaks-the-crystal-and-wakes-sarogarth))
 
 - **When during Session 5 did Jim wake William?**
   - _Context:_ William was carried with the group while his player was absent. The wake-up is provisionally placed after the other recorded Fairhaven scenes because its exact position was not remembered.
