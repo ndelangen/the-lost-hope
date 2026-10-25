@@ -26,6 +26,7 @@ import rare_dragon_scales from './rare-dragon-scales.ts'
 import ring_of_spell_storing from './ring-of-spell-storing.ts'
 import robertos_map_pages from './robertos-map-pages.ts'
 import serpent_eclipse_trial_disk from './serpent-eclipse-trial-disk.ts'
+import shadow_sword from './shadow-sword.ts'
 import steve_mace_of_returning from './steve-mace-of-returning.ts'
 import steve_the_interrogation_rock from './steve-the-interrogation-rock.ts'
 import swifts_silver_container from './swifts-silver-container.ts'
@@ -61,6 +62,7 @@ export default {
   rare_dragon_scales,
   robertos_map_pages,
   serpent_eclipse_trial_disk,
+  shadow_sword,
   steve_mace_of_returning,
   steve_the_interrogation_rock,
   swifts_silver_container,

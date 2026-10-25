@@ -7,7 +7,7 @@ export default createQuest({
   type: 'mystery',
   notes: [
     [
-      'What is the curse on ',
+      'What caused the former curse on ',
       refs.items.cursed_shadow_sword,
       ', was its shadow connected to the ',
       refs.npcs.faceless_shadow,
@@ -19,8 +19,8 @@ export default createQuest({
     [
       refs.events.n2_e162,
       ', the church returned ',
-      refs.items.cursed_shadow_sword,
-      " with its curse still present, but no longer fatal to its wielder, and a warning about the souls it holds. The curse's origin and its shadow remain unexplained.",
+      refs.items.shadow_sword,
+      " free of its curse, with a warning about the souls it holds. The former curse's origin and the fate of its shadow remain unexplained.",
     ],
     [
       refs.events.n2_e073,

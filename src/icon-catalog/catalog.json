@@ -83146,7 +83146,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/ancient-sword.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/shadow-sword.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiAndroidMask",

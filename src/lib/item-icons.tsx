@@ -1,6 +1,7 @@
 import type { IconType } from 'react-icons'
 import { FaAtlas, FaPrescriptionBottleAlt, FaRing } from 'react-icons/fa'
 import {
+  GiAncientSword,
   GiCloak,
   GiRing,
   GiShipBow,
@@ -35,6 +36,7 @@ import {
 import { cn } from '#/lib/utils'
 
 export const ITEM_ICONS = {
+  'gi/GiAncientSword': GiAncientSword,
   'gi/GiCloak': GiCloak,
   'gi/GiRing': GiRing,
   'gi/GiShipBow': GiShipBow,
