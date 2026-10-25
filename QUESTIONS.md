@@ -178,8 +178,8 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Context:_ The pipe-smoking frogfolk healer treated Roberto after the party brought him into Verdant Haven.
   - _Session:_ 9 ([n2-e074](/events/the-cursed-sword-breaks-verdant-havens-ward))
 
-- **What is the cursed sword, and is its shadow connected to the Faceless Shadow?**
-  - _Context:_ The [Faceless Shadow](/npcs/detail/faceless-shadow) left the [Cursed Shadow Sword](/items/detail/cursed-shadow-sword) in [Roberto](/npcs/detail/roberto). It decayed [Verdant Haven Forest](/locations/detail/verdant-haven-forest), broke [Verdant Haven](/locations/detail/verdant-haven)'s ward, and later released a shadow that killed a wolf and nearly killed [Jim](/pcs/detail/jim). In Session 13, the [Gruumsh High Priest](/npcs/detail/gruumsh-high-priest) treated its curse after it blackened his hand and recoiled from him. In Session 15, Jim received the sword back. The curse was too strong to lift completely, but the sword no longer kills its wielder. Whether both shadows are the same entity and what became of the blade's shadow remain unknown.
+- **What caused the sword's former curse, and is its shadow connected to the Faceless Shadow?**
+  - _Context:_ The [Faceless Shadow](/npcs/detail/faceless-shadow) left the [Cursed Shadow Sword](/items/detail/cursed-shadow-sword) in [Roberto](/npcs/detail/roberto). It decayed [Verdant Haven Forest](/locations/detail/verdant-haven-forest), broke [Verdant Haven](/locations/detail/verdant-haven)'s ward, and later released a shadow that killed a wolf and nearly killed [Jim](/pcs/detail/jim). In Session 13, the [Gruumsh High Priest](/npcs/detail/gruumsh-high-priest) treated its curse after it blackened his hand and recoiled from him. In Session 15, Jim received the uncursed [Shadow Sword](/items/detail/shadow-sword) back. Whether both shadows are the same entity and what became of the blade's shadow remain unknown.
   - _Session:_ 9, 13, 15 ([n2-e073](/events/the-party-rescues-roberto-from-a-faceless-shadow), [n2-e078](/events/the-cursed-swords-shadow-nearly-kills-jim), [n2-e132](/events/detail/the-high-priest-frees-jim-from-pain-and-cleanses-the-shadow-sword), [n2-e162](/events/detail/jim-retrieves-the-shadow-sword-after-the-temple-departs))
 
 - **How reliable was Roberto’s interrogation, and did an Eyeless Hand splinter cell destroy Fairhaven?**
@@ -343,7 +343,7 @@ Every question must include **what we already know** — many sit unanswered acr
 - **Jim's Warning Letter** — sender identity.
 - **Help the Rare-Animal Dealer** — third animal.
 - **Mountain Holy Site** — whose faith, deity, form?
-- **The Cursed Sword**: origin of the remaining curse, fate of its shadow, and connection to the Faceless Shadow.
+- **The Cursed Sword**: origin of the former curse, fate of its shadow, and connection to the Faceless Shadow.
 - **The Fairhaven Invasion** — attackers, motive, special wizard, and summoned monsters.
 - **Fajanet Tunnels and Shadow Realm** — same underground network?
 - **Through the Shadow Realm** — relation to tentacle night.

@@ -273,7 +273,6 @@ describe('items', () => {
       items.wolfie_tracking_ring.slug,
     ])
     expect(itemsCarriedBy('pc', pcs.jim.slug).map((item) => item.slug)).toEqual([
-      items.cursed_shadow_sword.slug,
       items.dagger_of_passive_aggression.slug,
       items.dagger_of_the_zodiac_signs.slug,
       items.jaded_amulet.slug,
@@ -281,6 +280,7 @@ describe('items', () => {
       items.obsidian_green_rod.slug,
       items.pocket_holy_text_of_grimgor.slug,
       items.robertos_map_pages.slug,
+      items.shadow_sword.slug,
     ])
     expect(itemsCarriedBy('pc', pcs.devan.slug).map((item) => item.slug)).toEqual([
       items.devan_s_corrected_holy_text.slug,
@@ -306,7 +306,12 @@ describe('items', () => {
     expect(items.serpent_eclipse_trial_disk.carriedBy).toBeNull()
     expect(items.steve_mace_of_returning.craftedBy?.key).toBe(refs.npcs.bessy.key)
     expect(items.rare_dragon_scales.quantity).toBe(2)
-    expect(items.cursed_shadow_sword.notes?.flat()).toContainEqual(refs.events.n2_e132)
+    expect(items.cursed_shadow_sword.currentOwner).toBeNull()
+    expect(items.cursed_shadow_sword.carriedBy).toBeNull()
+    expect(items.cursed_shadow_sword.notes?.flat()).toContainEqual(refs.items.shadow_sword)
+    expect(items.shadow_sword.currentOwner).toEqual(refs.pcs.jim)
+    expect(items.shadow_sword.notes?.flat()).toContainEqual(refs.items.cursed_shadow_sword)
+    expect(events.n2_e162.notes.flat()).toContainEqual(refs.items.shadow_sword)
     expect(items.wolfie_tracking_ring.notes?.flat().join('')).toContain('werewolf-like hybrid')
     expect(quests.the_cursed_sword.clues.flat()).toContainEqual(refs.events.n2_e132)
     expect(events.n2_e132.notes.flat().join('')).toContain(

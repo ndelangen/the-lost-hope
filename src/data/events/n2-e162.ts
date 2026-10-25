@@ -16,13 +16,17 @@ export default createEvent({
     [
       'The worshipper returned the ',
       refs.items.cursed_shadow_sword,
+      ' to ',
+      refs.pcs.jim,
+      ' as the uncursed ',
+      refs.items.shadow_sword,
       ' with instructions from the ',
       refs.npcs.gruumsh_high_priest,
-      ". He explained the remaining curse and the blade's moonlight charging requirement.",
+      '.',
     ],
     [
       'The worshipper warned, "Careful who you kill" and "No undead." Do not use ',
-      refs.items.cursed_shadow_sword,
+      refs.items.shadow_sword,
       ' on undead. He explained the danger of bestowing a soul on an undead creature and stressed that the result had never been tested.',
     ],
     [
