@@ -2,12 +2,12 @@ import { createFileRoute, notFound } from '@tanstack/react-router'
 import { Calendar, List } from 'lucide-react'
 
 import { ContentRenderer } from '#/components/content-renderer'
-import { EntityContext } from '#/components/entity-context'
+import { EntityContextSource } from '#/components/entity-context'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail } from '#/components/entity-page'
 import { PcReference } from '#/components/pc-reference'
 import { SessionJournal } from '#/components/session-journal'
-import { Inline, Stack } from '#/components/ui/layout'
+import { Grid, Inline, Stack } from '#/components/ui/layout'
 import { getEntity, sessionNumber, sessionPcs } from '#/lib/campaign'
 import { entityContextData } from '#/lib/entity-context-data'
 import { publicEntityPageHead } from '#/lib/public-page-metadata'
@@ -32,6 +32,8 @@ function SessionPage() {
   const session = entity.data
   const party = sessionPcs(session)
   const journal = sessionJournalData(session)
+  const context = entityContextData(entity)
+  const sourceRecords = [...context.threads, ...context.sources]
 
   return (
     <EntityDetail
@@ -56,7 +58,19 @@ function SessionPage() {
       }
       correction={<EntityCorrectionSubmission entity={entity} />}
       context={
-        <EntityContext key={`${entity.kind}:${entity.slug}`} data={entityContextData(entity)} />
+        sourceRecords.length ? (
+          <Stack as="section" gap="md" className="border-border border-t pt-8">
+            <h2 className="text-lg font-semibold">Linked records</h2>
+            <Grid gap="md" smTemplate={2}>
+              {sourceRecords.map((source) => (
+                <EntityContextSource
+                  key={`${source.entity.kind}:${source.entity.slug}`}
+                  source={source}
+                />
+              ))}
+            </Grid>
+          </Stack>
+        ) : null
       }
     >
       <Stack gap="2xl">

@@ -88,7 +88,7 @@ export function EntityContext({ data }: { data: EntityContextData }) {
               </select>
               <p className="text-muted-foreground mt-2 text-xs leading-relaxed">
                 {person
-                  ? 'Both are referenced in these events. This does not establish that they met or were present together.'
+                  ? 'These linked events mention the selected person. A shared record does not establish an encounter.'
                   : 'Event mentions include reports, recollections and claims. A mention does not establish presence.'}
               </p>
             </div>
@@ -132,7 +132,7 @@ export function EntityContext({ data }: { data: EntityContextData }) {
               </p>
               <div className="space-y-3">
                 {data.sources.map((source) => (
-                  <SourceRecord
+                  <EntityContextSource
                     key={`${source.entity.kind}:${source.entity.slug}`}
                     source={source}
                   />
@@ -219,7 +219,7 @@ export function EntityContext({ data }: { data: EntityContextData }) {
               </p>
               <div className="space-y-3">
                 {data.threads.map((source) => (
-                  <SourceRecord key={source.entity.slug} source={source} />
+                  <EntityContextSource key={source.entity.slug} source={source} />
                 ))}
               </div>
             </section>
@@ -291,7 +291,7 @@ function Connection({ connection }: { connection: ContextConnection }) {
   )
 }
 
-function SourceRecord({ source }: { source: ContextSource }) {
+export function EntityContextSource({ source }: { source: ContextSource }) {
   return (
     <div className="border-border bg-card min-w-0 rounded-xl border p-4">
       <div className="mb-2 flex flex-wrap items-center gap-2">
