@@ -3,11 +3,10 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Barbara',
+  location: refs.locations.nimbus,
   notes: [
     [
-      'An elderly widow living near the edge of ',
-      refs.locations.nimbus,
-      '. The local dealers describe her as a formidable customer with an unusually high tolerance for drugs and alcohol.',
+      'An elderly widow whom the local dealers describe as a formidable customer with an unusually high tolerance for drugs and alcohol.',
     ],
   ],
 })
