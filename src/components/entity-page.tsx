@@ -7,7 +7,7 @@ import { Card, CardDescription, CardHeader, CardTitle } from '#/components/ui/ca
 import { Grid, Inline, Stack, SwitchLayout } from '#/components/ui/layout'
 import { COLLECTION_LABELS, collectionTo, type EntityKind } from '#/lib/campaign'
 import { ENTITY_KIND_VISUALS } from '#/lib/entity-kind-visuals'
-import type { EntityCardItem, ReferencedByItem } from '#/lib/entity-page-data'
+import type { EntityCardItem } from '#/lib/entity-page-data'
 import { cn } from '#/lib/utils'
 
 type CollectionIcon = ComponentType<{ className?: string; 'aria-hidden'?: boolean }>
@@ -103,7 +103,7 @@ export function EntityDetail({
   headerAside,
   headerContent,
   correction,
-  referencedBy,
+  context,
   children,
 }: {
   kind: EntityKind
@@ -114,7 +114,7 @@ export function EntityDetail({
   headerAside?: ReactNode
   headerContent?: ReactNode
   correction: ReactNode
-  referencedBy: ReferencedByItem[]
+  context: ReactNode
   children?: ReactNode
 }) {
   return (
@@ -131,8 +131,8 @@ export function EntityDetail({
         {headerContent}
       </EntityDetailHeader>
       {children}
+      {context}
       {correction}
-      {referencedBy.length > 0 ? <ReferencedBy items={referencedBy} /> : null}
     </Stack>
   )
 }
@@ -241,30 +241,5 @@ function EntityBackLink({ kind }: { kind: EntityKind }) {
         All {COLLECTION_LABELS[kind]}
       </Inline>
     </Link>
-  )
-}
-
-function ReferencedBy({ items }: { items: ReferencedByItem[] }) {
-  return (
-    <Stack as="section" gap="md" className="border-border border-t pt-6">
-      <h2 className="text-muted-foreground text-sm font-semibold tracking-wider uppercase">
-        Referenced by
-      </h2>
-      <ul className="columns-1 gap-x-8 md:columns-2 xl:columns-3">
-        {items.map((item) => (
-          <li key={`${item.kind}-${item.slug}`} className="mb-2 break-inside-avoid">
-            <EntityReference
-              kind={item.kind}
-              slug={item.slug}
-              label={item.name}
-              unstyled
-              className="hover:text-primary text-sm"
-            >
-              {({ label }) => label}
-            </EntityReference>
-          </li>
-        ))}
-      </ul>
-    </Stack>
   )
 }

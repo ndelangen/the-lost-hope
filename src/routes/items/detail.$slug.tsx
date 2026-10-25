@@ -1,12 +1,13 @@
 import { createFileRoute, notFound } from '@tanstack/react-router'
 
 import { ContentRenderer } from '#/components/content-renderer'
+import { EntityContext } from '#/components/entity-context'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail } from '#/components/entity-page'
 import { EntityReference } from '#/components/entity-reference'
 import { Grid, Stack } from '#/components/ui/layout'
 import { getEntity, refLink } from '#/lib/campaign'
-import { referencedByItems } from '#/lib/entity-page-data'
+import { entityContextData } from '#/lib/entity-context-data'
 import { ItemIcon } from '#/lib/item-icons'
 import { publicEntityPageHead } from '#/lib/public-page-metadata'
 
@@ -21,7 +22,6 @@ export const Route = createFileRoute('/items/detail/$slug')({
 })
 
 function ItemPage() {
-  const { slug } = Route.useParams()
   const entity = Route.useLoaderData()
 
   const item = entity.data
@@ -38,7 +38,9 @@ function ItemPage() {
         content: <ItemIcon icon={item.icon} className="size-10" />,
       }}
       correction={<EntityCorrectionSubmission entity={entity} />}
-      referencedBy={referencedByItems('item', slug)}
+      context={
+        <EntityContext key={`${entity.kind}:${entity.slug}`} data={entityContextData(entity)} />
+      }
     >
       <Grid as="section" gap="lg" smTemplate={2}>
         <Relationship label="Current owner" relationship={owner} />

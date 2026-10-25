@@ -1,13 +1,14 @@
 import { createFileRoute, notFound } from '@tanstack/react-router'
 
 import { ContentRenderer } from '#/components/content-renderer'
+import { EntityContext } from '#/components/entity-context'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail } from '#/components/entity-page'
 import { NpcReference } from '#/components/npc-reference'
 import { PcReference } from '#/components/pc-reference'
 import { Grid, Stack } from '#/components/ui/layout'
 import { getEntity, organizationMembers } from '#/lib/campaign'
-import { referencedByItems } from '#/lib/entity-page-data'
+import { entityContextData } from '#/lib/entity-context-data'
 import { OrganizationIcon } from '#/lib/organization-icons'
 import { publicEntityPageHead } from '#/lib/public-page-metadata'
 
@@ -22,7 +23,6 @@ export const Route = createFileRoute('/organizations/detail/$slug')({
 })
 
 function OrganizationPage() {
-  const { slug } = Route.useParams()
   const entity = Route.useLoaderData()
 
   const organization = entity.data
@@ -42,7 +42,9 @@ function OrganizationPage() {
         ) : null
       }
       correction={<EntityCorrectionSubmission entity={entity} />}
-      referencedBy={referencedByItems('organization', slug)}
+      context={
+        <EntityContext key={`${entity.kind}:${entity.slug}`} data={entityContextData(entity)} />
+      }
     >
       {memberGroups.length > 0 ? (
         <Stack as="section" gap="xl">

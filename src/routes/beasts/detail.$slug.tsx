@@ -1,6 +1,7 @@
 import { createFileRoute, notFound } from '@tanstack/react-router'
 
 import { ContentRenderer } from '#/components/content-renderer'
+import { EntityContext } from '#/components/entity-context'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail } from '#/components/entity-page'
 import { ImageViewer } from '#/components/image-viewer'
@@ -9,7 +10,7 @@ import { Inline } from '#/components/ui/layout'
 import { Pill } from '#/components/ui/pill'
 import { DEFAULT_AVATAR } from '#/definitions/media'
 import { getEntity, resolveRef } from '#/lib/campaign'
-import { referencedByItems } from '#/lib/entity-page-data'
+import { entityContextData } from '#/lib/entity-context-data'
 import { publicEntityPageHead } from '#/lib/public-page-metadata'
 
 export const Route = createFileRoute('/beasts/detail/$slug')({
@@ -23,7 +24,6 @@ export const Route = createFileRoute('/beasts/detail/$slug')({
 })
 
 function BeastPage() {
-  const { slug } = Route.useParams()
   const entity = Route.useLoaderData()
 
   const beast = entity.data
@@ -54,7 +54,9 @@ function BeastPage() {
         </Inline>
       }
       correction={<EntityCorrectionSubmission entity={entity} />}
-      referencedBy={referencedByItems('beast', slug)}
+      context={
+        <EntityContext key={`${entity.kind}:${entity.slug}`} data={entityContextData(entity)} />
+      }
     >
       {beast.notes ? <ContentRenderer content={beast.notes} /> : null}
     </EntityDetail>

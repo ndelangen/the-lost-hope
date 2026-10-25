@@ -2,6 +2,7 @@ import { createFileRoute, notFound } from '@tanstack/react-router'
 import { Calendar } from 'lucide-react'
 
 import { ContentRenderer } from '#/components/content-renderer'
+import { EntityContext } from '#/components/entity-context'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityKindPill } from '#/components/entity-kind-pill'
 import { EntityDetail } from '#/components/entity-page'
@@ -10,7 +11,7 @@ import { LocationReference } from '#/components/location-reference'
 import { Inline, Stack } from '#/components/ui/layout'
 import { DEFAULT_AVATAR } from '#/definitions/media'
 import { eventLocation, getEntity } from '#/lib/campaign'
-import { referencedByItems } from '#/lib/entity-page-data'
+import { entityContextData } from '#/lib/entity-context-data'
 import { EventMarkIcon } from '#/lib/event-icons'
 import { publicEntityPageHead } from '#/lib/public-page-metadata'
 
@@ -25,7 +26,6 @@ export const Route = createFileRoute('/events/detail/$slug')({
 })
 
 function EventPage() {
-  const { slug } = Route.useParams()
   const entity = Route.useLoaderData()
 
   const event = entity.data
@@ -69,7 +69,9 @@ function EventPage() {
         ) : null
       }
       correction={<EntityCorrectionSubmission entity={entity} />}
-      referencedBy={referencedByItems('event', slug)}
+      context={
+        <EntityContext key={`${entity.kind}:${entity.slug}`} data={entityContextData(entity)} />
+      }
     >
       <Stack as="section" gap="lg">
         <h2 className="text-lg font-semibold">What happened</h2>
