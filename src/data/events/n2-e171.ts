@@ -13,6 +13,10 @@ export default createEvent({
       refs.locations.temple_of_the_serpent_eclipse,
       ' and asked how the party had killed it. They described breaking the crystal and releasing ',
       refs.npcs.sarogarth,
+      ', but deliberately kept the ',
+      refs.items.dagger_of_the_zodiac_signs,
+      " and its role in the dungeon's death secret from ",
+      refs.npcs.onana_tempest,
       '.',
     ],
     [

@@ -352,6 +352,10 @@ Every question must include **what we already know** — many sit unanswered acr
 
 ## Session 15, The Death of a Dungeon
 
+- Which deity is connected to the Zodiac Dagger, and how did its role as the dungeon's core work?
+  - The [Dagger of the Zodiac Signs](/items/detail/dagger-of-the-zodiac-signs) was the divine heart of the [Temple of the Serpent Eclipse](/locations/detail/temple-of-the-serpent-eclipse). During [the dungeon's death](/events/detail/the-party-kills-the-dungeon-and-escapes-with-the-green-rod), Sarogarth admitted he had already stolen it. The DM explicitly compared removing that core to tearing out a human heart.
+  - Which deity is associated with it, and why was it sustaining the dungeon? Why did the visible collapse begin when the party completed the altar, after the dagger had already been removed? [Jim accepting and binding the dagger](/events/detail/jim-survives-the-zodiac-dagger-and-rejects-a-soul-bargain) released the force accumulated from breaking the crystal, but whether that transfer or binding had any additional role in the dungeon's death is not established. The dagger's remaining powers and limits are also unknown.
+
 - Where did the Gruumsh War Temple's war party go?
   - Its mapped position preserves the established Skynet site. Its new location and the cathedral's identity are unknown after [the war party takes it away](/events/detail/jim-retrieves-the-shadow-sword-after-the-temple-departs).
 

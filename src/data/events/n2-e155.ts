@@ -10,7 +10,9 @@ export default createEvent({
     [
       'The final trial token was placed on the altar, completing a three-piece octagram. Red warnings appeared and the dungeon began collapsing. ',
       refs.npcs.sarogarth,
-      ' said he had already taken its central dagger, leaving it without its heart.',
+      ' admitted that he had already removed the ',
+      refs.items.dagger_of_the_zodiac_signs,
+      '. The loss of this divine core killed the dungeon, like tearing out a human heart. The collapse became visible when the altar was completed.',
     ],
     [
       refs.pcs.devan,
