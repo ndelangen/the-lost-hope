@@ -194,8 +194,9 @@ describe('quest taxonomy', () => {
       'Help the Rare-Animal Dealer',
       'Make Abraham Known Among His Peers',
       "Recover Swift's Flying Broom",
+      "Settle the Shipwright's Favors",
     ])
-    expect(questValues.filter((quest) => quest.type === 'mystery')).toHaveLength(16)
+    expect(questValues.filter((quest) => quest.type === 'mystery')).toHaveLength(17)
   })
 })
 
@@ -267,6 +268,8 @@ describe('items', () => {
       items.swifts_silver_container.slug,
     ])
     expect(itemsCarriedBy('pc', pcs.cassian_veyl.slug).map((item) => item.slug)).toEqual([
+      items.cloak_of_protection.slug,
+      items.ring_of_spell_storing.slug,
       items.wolfie_tracking_ring.slug,
     ])
     expect(itemsCarriedBy('pc', pcs.jim.slug).map((item) => item.slug)).toEqual([
@@ -289,7 +292,11 @@ describe('items', () => {
     ])
     expect(
       itemsOwnedBy('organization', organizations.beasts_and_dwarf.slug).map((item) => item.slug),
-    ).toEqual([items.nimbus_dungeon_stamp_card.slug, items.serpent_eclipse_trial_disk.slug])
+    ).toEqual([
+      items.beasts_and_dwarf_s_airship.slug,
+      items.nimbus_dungeon_stamp_card.slug,
+      items.serpent_eclipse_trial_disk.slug,
+    ])
     expect(items.nimbus_dungeon_stamp_card.carriedBy?.key).toBe(refs.pcs.jim.key)
     expect(items.nimbus_dungeon_stamp_card.quantity).toBe(1)
     expect(items.purple_dragon_horn.currentOwner).toBeNull()
@@ -939,6 +946,6 @@ describe('campaign chronology', () => {
   })
 
   it('returns the latest event first', () => {
-    expect(sortedEvents()[0]?.data).toBe(events.n2_e164)
+    expect(sortedEvents()[0]?.data).toBe(events.n2_e184)
   })
 })

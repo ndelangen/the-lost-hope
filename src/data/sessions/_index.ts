@@ -12,9 +12,12 @@ import the_fiddlers_game from './the-fiddlers-game.ts'
 import the_first_dungeon from './the-first-dungeon.ts'
 import the_flying_bazaar from './the-flying-bazaar.ts'
 import the_serpent_lake from './the-serpent-lake.ts'
+import the_tempest_bargain from './the-tempest-bargain.ts'
 import verdant_haven_to_shadowpeak from './verdant-haven-to-shadowpeak.ts'
 
 export default {
+  the_tempest_bargain,
+
   the_death_of_a_dungeon,
   arrival_in_fajanet,
   quests_for_the_exotic_animal_dealer,

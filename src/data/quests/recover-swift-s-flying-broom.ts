@@ -16,6 +16,10 @@ export default createQuest({
   ],
   clues: [
     [
+      refs.events.n2_e167,
+      ' reveals the ritual requires the heart of an innocent. It has not been performed.',
+    ],
+    [
       refs.events.n2_e105,
       ' records the loss of the broom during ',
       refs.npcs.the_fiddler,

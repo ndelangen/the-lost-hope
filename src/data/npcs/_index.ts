@@ -1,17 +1,25 @@
 import abraham from './abraham.ts'
 import alberto from './alberto.ts'
 import angel_of_the_mountain from './angel-of-the-mountain.ts'
+import anton_tempest from './anton-tempest.ts'
+import barbara from './barbara.ts'
+import bart from './bart.ts'
 import bernard from './bernard.ts'
 import bessy from './bessy.ts'
 import blackbeard from './blackbeard.ts'
 import bob_the_gate_troll from './bob-the-gate-troll.ts'
 import bob_the_merchant from './bob-the-merchant.ts'
 import borris from './borris.ts'
+import brend_tempest from './brend-tempest.ts'
+import brodus from './brodus.ts'
 import celeste_s_mother from './celeste-s-mother.ts'
+import celeste_tempest from './celeste-tempest.ts'
 import celeste from './celeste.ts'
+import charles_tempest from './charles-tempest.ts'
 import crowy from './crowy.ts'
 import dax from './dax.ts'
 import dragon_of_the_mountain from './dragon-of-the-mountain.ts'
+import esia from './esia.ts'
 import faceless_shadow from './faceless-shadow.ts'
 import frog_medicine_man_of_verdant_haven from './frog-medicine-man-of-verdant-haven.ts'
 import giggles from './giggles.ts'
@@ -28,18 +36,23 @@ import mayor_of_fairhaven from './mayor-of-fairhaven.ts'
 import mortimer_mafioso from './mortimer-mafioso.ts'
 import mr_bumblefoot from './mr-bumblefoot.ts'
 import mystery_girl from './mystery-girl.ts'
+import onana_tempest from './onana-tempest.ts'
 import penelope from './penelope.ts'
 import rare_animal_dealer from './rare-animal-dealer.ts'
 import roberto from './roberto.ts'
+import rudolf_tempest from './rudolf-tempest.ts'
 import ryan from './ryan.ts'
 import samantha from './samantha.ts'
 import sarogarth from './sarogarth.ts'
+import selene_tempest from './selene-tempest.ts'
 import sering_ravenwood from './sering-ravenwood.ts'
+import skynet_gang_leader from './skynet-gang-leader.ts'
 import sneeve from './sneeve.ts'
 import swift_starblade_s_younger_sister from './swift-starblade-s-younger-sister.ts'
 import sylf from './sylf.ts'
 import sylvia_s_brother from './sylvia-s-brother.ts'
 import sylvia from './sylvia.ts'
+import tempest_patriarch from './tempest-patriarch.ts'
 import the_12th_marshal from './the-12th-marshal.ts'
 import the_father from './the-father.ts'
 import the_fiddler from './the-fiddler.ts'
@@ -48,6 +61,20 @@ import throne_figure_in_jim_s_vision from './throne-figure-in-jim-s-vision.ts'
 import verdant_haven_rangers from './verdant-haven-rangers.ts'
 
 export default {
+  onana_tempest,
+  charles_tempest,
+  celeste_tempest,
+  brend_tempest,
+  selene_tempest,
+  anton_tempest,
+  rudolf_tempest,
+  tempest_patriarch,
+  esia,
+  skynet_gang_leader,
+  brodus,
+  bart,
+  barbara,
+
   throne_figure_in_jim_s_vision,
   sarogarth,
   grimgor_the_bloody,
