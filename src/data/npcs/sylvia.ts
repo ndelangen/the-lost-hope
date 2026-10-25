@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Sylvia',
+  avatar: '/assets/npcs/sylvia.png',
   location: refs.locations.sylvias_flying_bazaar,
   species: 'Human',
   notes: [

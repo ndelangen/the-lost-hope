@@ -21,6 +21,54 @@ export type ResponsiveImageSource = {
 
 export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
   {
+    id: 'sarogarth',
+    role: 'avatar',
+    logicalSource: '/assets/npcs/sarogarth.png',
+    repositoryPath: 'assets/images/content/npcs/sarogarth.png',
+  },
+  {
+    id: 'bob-the-merchant',
+    role: 'avatar',
+    logicalSource: '/assets/npcs/bob-the-merchant.png',
+    repositoryPath: 'assets/images/content/npcs/bob-the-merchant.png',
+  },
+  {
+    id: 'grimgor-the-bloody',
+    role: 'avatar',
+    logicalSource: '/assets/npcs/grimgor-the-bloody.png',
+    repositoryPath: 'assets/images/content/npcs/grimgor-the-bloody.png',
+  },
+  {
+    id: 'sylvia',
+    role: 'avatar',
+    logicalSource: '/assets/npcs/sylvia.png',
+    repositoryPath: 'assets/images/content/npcs/sylvia.png',
+  },
+  {
+    id: 'knukkles',
+    role: 'avatar',
+    logicalSource: '/assets/npcs/knukkles.png',
+    repositoryPath: 'assets/images/content/npcs/knukkles.png',
+  },
+  {
+    id: 'bob-the-gate-troll',
+    role: 'avatar',
+    logicalSource: '/assets/npcs/bob-the-gate-troll.png',
+    repositoryPath: 'assets/images/content/npcs/bob-the-gate-troll.png',
+  },
+  {
+    id: 'dax',
+    role: 'avatar',
+    logicalSource: '/assets/npcs/dax.png',
+    repositoryPath: 'assets/images/content/npcs/dax.png',
+  },
+  {
+    id: 'sylf',
+    role: 'avatar',
+    logicalSource: '/assets/npcs/sylf.png',
+    repositoryPath: 'assets/images/content/npcs/sylf.png',
+  },
+  {
     id: 'location-illustration-serpent-eclipse-crystal-oasis',
     role: 'illustration',
     logicalSource: '/assets/locations/serpent-eclipse-crystal-oasis-illustration.png',

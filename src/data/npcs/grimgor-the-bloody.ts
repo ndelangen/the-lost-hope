@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Grimgor the Bloody',
+  avatar: '/assets/npcs/grimgor-the-bloody.png',
   species: 'Orc',
   memberships: [
     {

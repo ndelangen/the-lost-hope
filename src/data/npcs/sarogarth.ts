@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Sarogarth',
+  avatar: '/assets/npcs/sarogarth.png',
   notes: [
     [
       'An ancient wizard with slick grey hair, a grey beard, a star below his left eye, and a wooden staff. He is roughly two thousand years old.',
