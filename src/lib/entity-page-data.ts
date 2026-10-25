@@ -5,7 +5,6 @@ import {
   allEntities,
   entityTeaser,
   membershipOrg,
-  reverseLinks,
   sortEntitiesByName,
   type EntityKind,
 } from '#/lib/campaign'
@@ -26,20 +25,6 @@ export function entityCollectionItems(kind: EntityCollectionKind): EntityCardIte
     slug: entity.slug,
     name: entity.data.name,
     description: entityTeaser(entity),
-  }))
-}
-
-export type ReferencedByItem = {
-  kind: EntityKind
-  slug: string
-  name: string
-}
-
-export function referencedByItems(kind: EntityKind, slug: string): ReferencedByItem[] {
-  return reverseLinks(kind, slug).map(({ entity }) => ({
-    kind: entity.kind,
-    slug: entity.slug,
-    name: entity.data.name,
   }))
 }
 

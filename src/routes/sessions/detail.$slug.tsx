@@ -2,13 +2,14 @@ import { createFileRoute, notFound } from '@tanstack/react-router'
 import { Calendar, List } from 'lucide-react'
 
 import { ContentRenderer } from '#/components/content-renderer'
+import { EntityContext } from '#/components/entity-context'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail } from '#/components/entity-page'
 import { PcReference } from '#/components/pc-reference'
 import { SessionJournal } from '#/components/session-journal'
 import { Inline, Stack } from '#/components/ui/layout'
 import { getEntity, sessionNumber, sessionPcs } from '#/lib/campaign'
-import { referencedByItems } from '#/lib/entity-page-data'
+import { entityContextData } from '#/lib/entity-context-data'
 import { publicEntityPageHead } from '#/lib/public-page-metadata'
 import { formatSessionDate } from '#/lib/session-date'
 import { SessionIcon } from '#/lib/session-icons'
@@ -54,7 +55,9 @@ function SessionPage() {
         </Inline>
       }
       correction={<EntityCorrectionSubmission entity={entity} />}
-      referencedBy={referencedByItems('session', slug)}
+      context={
+        <EntityContext key={`${entity.kind}:${entity.slug}`} data={entityContextData(entity)} />
+      }
     >
       <Stack gap="2xl">
         {session.notes ? (
