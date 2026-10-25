@@ -277,7 +277,6 @@ describe('items', () => {
       items.dagger_of_passive_aggression.slug,
       items.dagger_of_the_zodiac_signs.slug,
       items.jaded_amulet.slug,
-      items.lights_unidentified_drops.slug,
       items.nimbus_dungeon_stamp_card.slug,
       items.obsidian_green_rod.slug,
       items.pocket_holy_text_of_grimgor.slug,
