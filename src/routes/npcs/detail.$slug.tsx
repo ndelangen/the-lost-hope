@@ -2,6 +2,7 @@ import { createFileRoute, notFound } from '@tanstack/react-router'
 
 import { CharacterMemberships } from '#/components/character-memberships'
 import { ContentRenderer } from '#/components/content-renderer'
+import { EntityContext } from '#/components/entity-context'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail } from '#/components/entity-page'
 import { ImageViewer } from '#/components/image-viewer'
@@ -10,7 +11,8 @@ import { Inline, Stack } from '#/components/ui/layout'
 import { Pill } from '#/components/ui/pill'
 import { DEFAULT_AVATAR } from '#/definitions/media'
 import { getEntity, npcLocation } from '#/lib/campaign'
-import { characterMemberships, referencedByItems } from '#/lib/entity-page-data'
+import { entityContextData } from '#/lib/entity-context-data'
+import { characterMemberships } from '#/lib/entity-page-data'
 import { publicEntityPageHead } from '#/lib/public-page-metadata'
 
 export const Route = createFileRoute('/npcs/detail/$slug')({
@@ -24,7 +26,6 @@ export const Route = createFileRoute('/npcs/detail/$slug')({
 })
 
 function NpcPage() {
-  const { slug } = Route.useParams()
   const entity = Route.useLoaderData()
 
   const npc = entity.data
@@ -62,7 +63,9 @@ function NpcPage() {
         </Stack>
       }
       correction={<EntityCorrectionSubmission entity={entity} />}
-      referencedBy={referencedByItems('npc', slug)}
+      context={
+        <EntityContext key={`${entity.kind}:${entity.slug}`} data={entityContextData(entity)} />
+      }
     >
       <Stack gap="2xl">
         <CharacterMemberships items={memberships} />

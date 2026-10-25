@@ -1,11 +1,12 @@
 import { createFileRoute, notFound } from '@tanstack/react-router'
 
+import { EntityContext } from '#/components/entity-context'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail } from '#/components/entity-page'
 import { QuestInvestigation } from '#/components/quest-investigation'
 import { Pill } from '#/components/ui/pill'
 import { getEntity } from '#/lib/campaign'
-import { referencedByItems } from '#/lib/entity-page-data'
+import { entityContextData } from '#/lib/entity-context-data'
 import { publicEntityPageHead } from '#/lib/public-page-metadata'
 import { questDetailData } from '#/lib/quest-detail-data'
 import { QuestIcon } from '#/lib/quest-icons'
@@ -21,7 +22,6 @@ export const Route = createFileRoute('/quests/detail/$slug')({
 })
 
 function QuestPage() {
-  const { slug } = Route.useParams()
   const entity = Route.useLoaderData()
 
   const quest = entity.data
@@ -39,7 +39,9 @@ function QuestPage() {
         <Pill variant={quest.status === 'open' ? 'warning' : 'success'}>{quest.status}</Pill>
       }
       correction={<EntityCorrectionSubmission entity={entity} />}
-      referencedBy={referencedByItems('quest', slug)}
+      context={
+        <EntityContext key={`${entity.kind}:${entity.slug}`} data={entityContextData(entity)} />
+      }
     >
       <QuestInvestigation detail={detail} conclusion={quest.conclusion} status={quest.status} />
     </EntityDetail>

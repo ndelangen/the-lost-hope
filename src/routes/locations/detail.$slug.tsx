@@ -2,6 +2,7 @@ import { createFileRoute, notFound } from '@tanstack/react-router'
 import { ArrowRight } from 'lucide-react'
 
 import { ContentRenderer } from '#/components/content-renderer'
+import { EntityContext } from '#/components/entity-context'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail } from '#/components/entity-page'
 import { ImageViewer } from '#/components/image-viewer'
@@ -18,7 +19,7 @@ import {
   locationParent,
   locationTypeOf,
 } from '#/lib/campaign'
-import { referencedByItems } from '#/lib/entity-page-data'
+import { entityContextData } from '#/lib/entity-context-data'
 import {
   buildLocationExplorationMap,
   buildLocationHierarchyMap,
@@ -100,7 +101,9 @@ function LocationDetailPage() {
         </Stack>
       }
       correction={<EntityCorrectionSubmission entity={entity} />}
-      referencedBy={referencedByItems('location', slug)}
+      context={
+        <EntityContext key={`${entity.kind}:${entity.slug}`} data={entityContextData(entity)} />
+      }
     >
       <Stack gap="2xl">
         <Stack as="section" gap="md" data-location-section="illustration">
