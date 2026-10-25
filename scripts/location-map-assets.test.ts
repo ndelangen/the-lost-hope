@@ -12,6 +12,12 @@ const mapSources = RESPONSIVE_IMAGE_SOURCES.filter((source) =>
 )
 
 describe('location map assets', () => {
+  it('keeps scene illustrations separate from navigation map artwork', () => {
+    for (const source of mapSources) {
+      expect({ source: source.logicalSource, role: source.role }).toMatchObject({ role: 'map' })
+    }
+  })
+
   it('uses the same 3:2 ratio for every illustrated and schematic map', () => {
     for (const location of Object.values(locations)) {
       expect(location.map.width / location.map.height).toBe(1.5)

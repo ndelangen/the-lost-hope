@@ -4,6 +4,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 export default createLocation({
   name: "Sylvia's Flying Bazaar",
   icon: 'gi/GiCargoShip',
+  illustration: '/assets/locations/sylvias-flying-bazaar-illustration.png',
   type: 'route',
   parent: refs.locations.world,
   at: [605, 90],

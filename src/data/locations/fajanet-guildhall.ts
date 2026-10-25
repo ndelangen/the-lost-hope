@@ -4,6 +4,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 export default createLocation({
   name: "Fajanet Adventurers' Guildhall",
   icon: 'gi/GiSwordsEmblem',
+  illustration: '/assets/locations/fajanet-guildhall-illustration.png',
   type: 'building',
   parent: refs.locations.fajanet,
   at: [330, 230],

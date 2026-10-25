@@ -21,6 +21,132 @@ export type ResponsiveImageSource = {
 
 export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
   {
+    id: 'location-illustration-serpent-eclipse-crystal-oasis',
+    role: 'illustration',
+    logicalSource: '/assets/locations/serpent-eclipse-crystal-oasis-illustration.png',
+    repositoryPath:
+      'assets/images/content/locations/serpent-eclipse-crystal-oasis-illustration.png',
+  },
+  {
+    id: 'location-illustration-sylvias-flying-bazaar',
+    role: 'illustration',
+    logicalSource: '/assets/locations/sylvias-flying-bazaar-illustration.png',
+    repositoryPath: 'assets/images/content/locations/sylvias-flying-bazaar-illustration.png',
+  },
+  {
+    id: 'location-illustration-nimbus',
+    role: 'illustration',
+    logicalSource: '/assets/locations/nimbus-illustration.png',
+    repositoryPath: 'assets/images/content/locations/nimbus-illustration.png',
+  },
+  {
+    id: 'location-illustration-tempest',
+    role: 'illustration',
+    logicalSource: '/assets/locations/tempest-illustration.png',
+    repositoryPath: 'assets/images/content/locations/tempest-illustration.png',
+  },
+  {
+    id: 'location-illustration-serpent-eclipse-golden-tree-chamber',
+    role: 'illustration',
+    logicalSource: '/assets/locations/serpent-eclipse-golden-tree-chamber-illustration.png',
+    repositoryPath:
+      'assets/images/content/locations/serpent-eclipse-golden-tree-chamber-illustration.png',
+  },
+  {
+    id: 'location-illustration-the-crater-bridge',
+    role: 'illustration',
+    logicalSource: '/assets/locations/the-crater-bridge-illustration.png',
+    repositoryPath: 'assets/images/content/locations/the-crater-bridge-illustration.png',
+  },
+  {
+    id: 'location-illustration-shadowpeak-mining-operation',
+    role: 'illustration',
+    logicalSource: '/assets/locations/shadowpeak-mining-operation-illustration.png',
+    repositoryPath: 'assets/images/content/locations/shadowpeak-mining-operation-illustration.png',
+  },
+  {
+    id: 'location-illustration-serpent-eclipse-pillar-chamber',
+    role: 'illustration',
+    logicalSource: '/assets/locations/serpent-eclipse-pillar-chamber-illustration.png',
+    repositoryPath:
+      'assets/images/content/locations/serpent-eclipse-pillar-chamber-illustration.png',
+  },
+  {
+    id: 'location-illustration-serpent-eclipse-waterfall-descent',
+    role: 'illustration',
+    logicalSource: '/assets/locations/serpent-eclipse-waterfall-descent-illustration.png',
+    repositoryPath:
+      'assets/images/content/locations/serpent-eclipse-waterfall-descent-illustration.png',
+  },
+  {
+    id: 'location-illustration-serpent-eclipse-three-door-chamber',
+    role: 'illustration',
+    logicalSource: '/assets/locations/serpent-eclipse-three-door-chamber-illustration.png',
+    repositoryPath:
+      'assets/images/content/locations/serpent-eclipse-three-door-chamber-illustration.png',
+  },
+  {
+    id: 'location-illustration-serpent-eclipse-shadow-arena',
+    role: 'illustration',
+    logicalSource: '/assets/locations/serpent-eclipse-shadow-arena-illustration.png',
+    repositoryPath: 'assets/images/content/locations/serpent-eclipse-shadow-arena-illustration.png',
+  },
+  {
+    id: 'location-illustration-skynet-s-second-best-inn',
+    role: 'illustration',
+    logicalSource: '/assets/locations/skynet-s-second-best-inn-illustration.png',
+    repositoryPath: 'assets/images/content/locations/skynet-s-second-best-inn-illustration.png',
+  },
+  {
+    id: 'location-illustration-snowy-mountain-ruin',
+    role: 'illustration',
+    logicalSource: '/assets/locations/snowy-mountain-ruin-illustration.png',
+    repositoryPath: 'assets/images/content/locations/snowy-mountain-ruin-illustration.png',
+  },
+  {
+    id: 'location-illustration-the-nest',
+    role: 'illustration',
+    logicalSource: '/assets/locations/the-nest-illustration.png',
+    repositoryPath: 'assets/images/content/locations/the-nest-illustration.png',
+  },
+  {
+    id: 'location-illustration-fajanet-guildhall',
+    role: 'illustration',
+    logicalSource: '/assets/locations/fajanet-guildhall-illustration.png',
+    repositoryPath: 'assets/images/content/locations/fajanet-guildhall-illustration.png',
+  },
+  {
+    id: 'location-illustration-giggles-and-gadgets',
+    role: 'illustration',
+    logicalSource: '/assets/locations/giggles-and-gadgets-illustration.png',
+    repositoryPath: 'assets/images/content/locations/giggles-and-gadgets-illustration.png',
+  },
+  {
+    id: 'location-illustration-mortimer-s-shop',
+    role: 'illustration',
+    logicalSource: '/assets/locations/mortimer-s-shop-illustration.png',
+    repositoryPath: 'assets/images/content/locations/mortimer-s-shop-illustration.png',
+  },
+  {
+    id: 'location-illustration-temple-of-the-serpent-eclipse',
+    role: 'illustration',
+    logicalSource: '/assets/locations/temple-of-the-serpent-eclipse-illustration.png',
+    repositoryPath:
+      'assets/images/content/locations/temple-of-the-serpent-eclipse-illustration.png',
+  },
+  {
+    id: 'location-illustration-the-blackstone',
+    role: 'illustration',
+    logicalSource: '/assets/locations/the-blackstone-illustration.png',
+    repositoryPath: 'assets/images/content/locations/the-blackstone-illustration.png',
+  },
+  {
+    id: 'location-illustration-fairhaven',
+    role: 'illustration',
+    logicalSource: '/assets/locations/fairhaven-illustration.png',
+    repositoryPath: 'assets/images/content/locations/fairhaven-illustration.png',
+  },
+  {
     id: 'serpent-eclipse-flooded-cavern',
     role: 'illustration',
     logicalSource: '/assets/locations/serpent-eclipse-flooded-cavern.jpg',

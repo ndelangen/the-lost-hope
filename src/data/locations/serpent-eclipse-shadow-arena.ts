@@ -4,6 +4,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 export default createLocation({
   name: 'Serpent Eclipse Shadow Arena',
   icon: 'gi/GiShadowGrasp',
+  illustration: '/assets/locations/serpent-eclipse-shadow-arena-illustration.png',
   type: 'dungeon',
   parent: refs.locations.temple_of_the_serpent_eclipse,
   // Schematic placement within the temple.

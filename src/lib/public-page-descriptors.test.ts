@@ -43,6 +43,9 @@ describe('public page descriptors', () => {
     expect(locationIllustrationImageCandidate('/assets/locations/fairhaven.webp')).toBe(
       '/assets/locations/fairhaven.webp',
     )
-    expect(publicEntityPageDescriptor('location', 'fairhaven')?.imageCandidate).toBeUndefined()
+    expect(publicEntityPageDescriptor('location', 'fairhaven')?.imageCandidate).toBe(
+      '/assets/locations/fairhaven-illustration.png',
+    )
+    expect(publicEntityPageDescriptor('location', 'world')?.imageCandidate).toBeUndefined()
   })
 })

@@ -4,6 +4,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 export default createLocation({
   name: 'Nimbus',
   icon: 'lucide/Cloud',
+  illustration: '/assets/locations/nimbus-illustration.png',
   type: 'settlement',
   parent: refs.locations.three_sky_kingdoms,
   at: [275, 180],

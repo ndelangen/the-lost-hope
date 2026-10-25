@@ -4,6 +4,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 export default createLocation({
   name: 'Serpent Eclipse Crystal Oasis',
   icon: 'gi/GiOasis',
+  illustration: '/assets/locations/serpent-eclipse-crystal-oasis-illustration.png',
   type: 'dungeon',
   parent: refs.locations.temple_of_the_serpent_eclipse,
   // Schematic placement in the temple; the oasis is not located on the approved maze artwork.

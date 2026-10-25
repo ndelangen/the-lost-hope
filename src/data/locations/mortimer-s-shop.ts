@@ -4,6 +4,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 export default createLocation({
   name: 'Mortimer’s Shop',
   icon: 'gi/GiBubblingFlask',
+  illustration: '/assets/locations/mortimer-s-shop-illustration.png',
   type: 'building',
   parent: refs.locations.fairhaven,
   at: [840, 230],

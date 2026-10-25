@@ -4,6 +4,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 export default createLocation({
   name: 'Fairhaven',
   icon: 'gi/GiMedievalGate',
+  illustration: '/assets/locations/fairhaven-illustration.png',
   type: 'settlement',
   parent: refs.locations.world,
   at: [605, 250],

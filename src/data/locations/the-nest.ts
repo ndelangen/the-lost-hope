@@ -4,6 +4,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 export default createLocation({
   name: 'The Nest',
   icon: 'gi/GiBirdHouse',
+  illustration: '/assets/locations/the-nest-illustration.png',
   type: 'building',
   parent: refs.locations.fajanet,
   at: [570, 350],

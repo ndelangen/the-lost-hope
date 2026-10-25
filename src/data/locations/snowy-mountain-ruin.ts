@@ -4,6 +4,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 export default createLocation({
   name: 'Snowy Mountain Ruin',
   icon: 'gi/GiAncientRuins',
+  illustration: '/assets/locations/snowy-mountain-ruin-illustration.png',
   type: 'landmark',
   parent: refs.locations.snowy_mountains,
   at: [325, 470],

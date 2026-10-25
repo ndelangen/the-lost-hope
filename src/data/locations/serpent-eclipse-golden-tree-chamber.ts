@@ -4,6 +4,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 export default createLocation({
   name: 'Serpent Eclipse Golden-Tree Chamber',
   icon: 'gi/GiFruitTree',
+  illustration: '/assets/locations/serpent-eclipse-golden-tree-chamber-illustration.png',
   type: 'dungeon',
   parent: refs.locations.serpent_eclipse_maze,
   at: [1280, 190],

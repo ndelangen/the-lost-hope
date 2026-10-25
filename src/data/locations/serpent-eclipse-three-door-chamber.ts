@@ -4,6 +4,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 export default createLocation({
   name: 'Serpent Eclipse Three-Door Chamber',
   icon: 'gi/GiTripleGate',
+  illustration: '/assets/locations/serpent-eclipse-three-door-chamber-illustration.png',
   type: 'dungeon',
   parent: refs.locations.temple_of_the_serpent_eclipse,
   at: [525, 350],

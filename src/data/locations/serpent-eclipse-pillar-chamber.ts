@@ -4,6 +4,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 export default createLocation({
   name: 'Serpent Eclipse Pillar Chamber',
   icon: 'gi/GiDjedPillar',
+  illustration: '/assets/locations/serpent-eclipse-pillar-chamber-illustration.png',
   type: 'dungeon',
   parent: refs.locations.serpent_eclipse_maze,
   at: [775, 190],

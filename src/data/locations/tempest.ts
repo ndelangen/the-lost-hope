@@ -4,6 +4,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 export default createLocation({
   name: 'Tempest',
   icon: 'gi/GiWhirlwind',
+  illustration: '/assets/locations/tempest-illustration.png',
   type: 'settlement',
   parent: refs.locations.three_sky_kingdoms,
   at: [785, 520],
