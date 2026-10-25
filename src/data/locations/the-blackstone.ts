@@ -4,6 +4,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 export default createLocation({
   name: 'The Blackstone',
   icon: 'gi/GiStoneTower',
+  illustration: '/assets/locations/the-blackstone-illustration.png',
   type: 'building',
   parent: refs.locations.shadowpeak,
   at: [825, 220],

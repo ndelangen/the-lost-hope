@@ -4,6 +4,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 export default createLocation({
   name: 'The Crater Bridge',
   icon: 'gi/GiBridge',
+  illustration: '/assets/locations/the-crater-bridge-illustration.png',
   type: 'landmark',
   parent: refs.locations.world,
   at: [925, 610],

@@ -4,6 +4,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 export default createLocation({
   name: 'Skynet’s Second-Best Inn',
   icon: 'gi/GiBunkBeds',
+  illustration: '/assets/locations/skynet-s-second-best-inn-illustration.png',
   type: 'building',
   parent: refs.locations.skynet,
   at: [825, 180],

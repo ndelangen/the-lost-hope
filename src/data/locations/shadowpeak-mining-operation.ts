@@ -4,6 +4,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 export default createLocation({
   name: 'ShadowPeak Mining Operation',
   icon: 'gi/GiMineWagon',
+  illustration: '/assets/locations/shadowpeak-mining-operation-illustration.png',
   type: 'dungeon',
   parent: refs.locations.shadowpeak,
   at: [675, 520],

@@ -4,6 +4,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 export default createLocation({
   name: 'Temple of the Serpent Eclipse',
   icon: 'gi/GiTempleGate',
+  illustration: '/assets/locations/temple-of-the-serpent-eclipse-illustration.png',
   type: 'dungeon',
   parent: refs.locations.skynet,
   at: [725, 500],

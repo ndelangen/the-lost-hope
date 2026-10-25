@@ -4,6 +4,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 export default createLocation({
   name: 'Giggles and Gadgets',
   icon: 'gi/GiGearHammer',
+  illustration: '/assets/locations/giggles-and-gadgets-illustration.png',
   aliases: ['Gadgets and Giggles'],
   type: 'building',
   parent: refs.locations.fairhaven,

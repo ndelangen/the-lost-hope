@@ -9,7 +9,7 @@ export default createLocation({
   at: [765, 90],
   notes: [
     [
-      'Three inhabited island kingdoms in the sky, lying along an aerial route toward ',
+      'A group of exactly three floating islands, each an inhabited kingdom, lying along an aerial route toward ',
       refs.locations.feywild,
       '.',
     ],

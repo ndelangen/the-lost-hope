@@ -4,6 +4,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 export default createLocation({
   name: 'Serpent Eclipse Waterfall Descent',
   icon: 'gi/GiWaterfall',
+  illustration: '/assets/locations/serpent-eclipse-waterfall-descent-illustration.png',
   type: 'dungeon',
   parent: refs.locations.serpent_eclipse_maze,
   at: [180, 440],
