@@ -9,9 +9,9 @@ export default createItem({
   craftedBy: null,
   notes: [
     [
-      'A divine dagger bound to the person who accepts it. It held the core magic of the ',
+      'A divine dagger bound to the person who accepts it. It was the heart and magical core of the ',
       refs.locations.temple_of_the_serpent_eclipse,
-      '. Its remaining powers are not yet recorded.',
+      ', a sentient plane that depended on the dagger to survive. Its remaining powers are not yet recorded.',
     ],
   ],
 })
