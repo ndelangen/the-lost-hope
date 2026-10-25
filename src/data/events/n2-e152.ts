@@ -16,7 +16,8 @@ export default createEvent({
       ' fell out unconscious but breathing. He continued absorbing nearby magic.',
     ],
     [
-      'The party used the last two drops of ',
+      refs.pcs.jim,
+      ' used the last two drops of ',
       refs.items.lights_unidentified_drops,
       ' to wake ',
       refs.npcs.sarogarth,
