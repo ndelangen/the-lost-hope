@@ -11,5 +11,12 @@ export default createItem({
     [
       'A wine-red cloak with silver detailing that adjusts to fit its wearer. It grants a +1 bonus to Armor Class and saving throws.',
     ],
+    [
+      {
+        type: 'link',
+        label: 'Standard Cloak of Protection rules on D&D Beyond',
+        url: 'https://www.dndbeyond.com/magic-items/4607-cloak-of-protection',
+      },
+    ],
   ],
 })
