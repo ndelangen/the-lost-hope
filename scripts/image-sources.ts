@@ -72,7 +72,7 @@ export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
     id: 'devan',
     role: 'avatar',
     logicalSource: '/assets/pcs/devan.jpg',
-    repositoryPath: 'assets/images/content/pcs/devan.jpg',
+    repositoryPath: 'assets/images/content/pcs/devan.png',
   },
   {
     id: 'jim-kenku',
