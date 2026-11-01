@@ -2,9 +2,9 @@ import { refs } from '#/data/generated/refs.ts'
 import { create as createEvent } from '#/definitions/event.ts'
 
 export default createEvent({
-  name: "The party boards Sylvia's flying bazaar",
+  name: 'The party boards the Flying Whale',
   day: 17,
-  location: refs.locations.sylvias_flying_bazaar,
+  location: refs.locations.the_flying_whale,
   mark: { type: 'icon', name: 'gi/GiPassport' },
   notes: [
     [
@@ -12,7 +12,7 @@ export default createEvent({
       ' paid the full 50 GP passage fee for the party and their travelling companions. ',
       refs.pcs.swift_starblade,
       ' refused to contribute, frustrating the party. His presence had raised the fee from the usual 20 GP to 50 GP for passage aboard ',
-      refs.locations.sylvias_flying_bazaar,
+      refs.locations.the_flying_whale,
       '.',
     ],
     [

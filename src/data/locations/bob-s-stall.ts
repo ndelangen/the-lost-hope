@@ -5,7 +5,7 @@ export default createLocation({
   name: 'Bob’s Stall',
   icon: 'gi/GiShop',
   type: 'building',
-  parent: refs.locations.sylvias_flying_bazaar,
+  parent: refs.locations.the_flying_whale,
   at: [275, 150],
   notes: [
     [

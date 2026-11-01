@@ -9,6 +9,13 @@ export default createLocation({
   at: [445, 410],
   notes: [
     [
+      'The holy site represents the domain of the ',
+      refs.npcs.angel_of_the_mountain,
+      ', a safe haven he created for his ',
+      refs.beasts.dragon_children,
+      '.',
+    ],
+    [
       'A holy site between ',
       refs.locations.mountain_cliff,
       ' and the ',

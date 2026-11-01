@@ -108233,7 +108233,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/cargo-ship.html",
       "usedIn": [
         "src/data/events/n2-e092.ts",
-        "src/data/locations/sylvias-flying-bazaar.ts",
+        "src/data/locations/the-flying-whale.ts",
         "src/data/sessions/the-flying-bazaar.ts",
         "src/lib/event-icons.tsx",
         "src/lib/location-icons.tsx",

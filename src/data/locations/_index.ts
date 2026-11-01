@@ -69,7 +69,6 @@ import skynet from './skynet.ts'
 import snowy_mountain_ruin from './snowy-mountain-ruin.ts'
 import snowy_mountains from './snowy-mountains.ts'
 import sylvia_s_quarters from './sylvia-s-quarters.ts'
-import sylvias_flying_bazaar from './sylvias-flying-bazaar.ts'
 import tempest from './tempest.ts'
 import temple_of_the_serpent_eclipse from './temple-of-the-serpent-eclipse.ts'
 import temple_of_the_watchers from './temple-of-the-watchers.ts'
@@ -77,6 +76,7 @@ import the_blackstone from './the-blackstone.ts'
 import the_boat_to_fairhaven from './the-boat-to-fairhaven.ts'
 import the_boat_to_fajanet_celesta from './the-boat-to-fajanet-celesta.ts'
 import the_crater_bridge from './the-crater-bridge.ts'
+import the_flying_whale from './the-flying-whale.ts'
 import the_green_light from './the-green-light.ts'
 import the_nest from './the-nest.ts'
 import the_sullen_monk from './the-sullen-monk.ts'
@@ -165,7 +165,7 @@ export default {
   shadow_realm_cave,
   the_boat_to_fairhaven,
   the_boat_to_fajanet_celesta,
-  sylvias_flying_bazaar,
+  the_flying_whale,
   sylvia_s_quarters,
   tempest,
   three_sky_kingdoms,

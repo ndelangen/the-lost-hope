@@ -25,7 +25,7 @@ export default createEvent({
       ' cast Invisibility on ',
       refs.pcs.jim,
       ', while the remaining travellers took a short rest. During the repair, an enormous shadow passed overhead and resolved into the descending ',
-      refs.locations.sylvias_flying_bazaar,
+      refs.locations.the_flying_whale,
       '.',
     ],
     [

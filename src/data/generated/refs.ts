@@ -364,7 +364,7 @@ export const refs = {
     shadow_realm_cave: ref('location', 'shadow_realm_cave'),
     the_boat_to_fairhaven: ref('location', 'the_boat_to_fairhaven'),
     the_boat_to_fajanet_celesta: ref('location', 'the_boat_to_fajanet_celesta'),
-    sylvias_flying_bazaar: ref('location', 'sylvias_flying_bazaar'),
+    the_flying_whale: ref('location', 'the_flying_whale'),
     sylvia_s_quarters: ref('location', 'sylvia_s_quarters'),
     tempest: ref('location', 'tempest'),
     three_sky_kingdoms: ref('location', 'three_sky_kingdoms'),

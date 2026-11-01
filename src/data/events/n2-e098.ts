@@ -4,7 +4,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 export default createEvent({
   name: 'Alberto warns Swift against returning to the sea',
   day: 18,
-  location: refs.locations.sylvias_flying_bazaar,
+  location: refs.locations.the_flying_whale,
   mark: { type: 'avatar', url: '/assets/pcs/swift.jpg' },
   notes: [
     [

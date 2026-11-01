@@ -9,7 +9,7 @@ export default createEvent({
   notes: [
     [
       'On their second morning aboard ',
-      refs.locations.sylvias_flying_bazaar,
+      refs.locations.the_flying_whale,
       ', the party found ',
       refs.npcs.bessy,
       ' operating from the ',

@@ -4,7 +4,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 export default createEvent({
   name: "Sylvia reveals the Starblade family's bloody history",
   day: 18,
-  location: refs.locations.sylvias_flying_bazaar,
+  location: refs.locations.the_flying_whale,
   mark: { type: 'icon', name: 'gi/GiSecretBook' },
   notes: [
     [

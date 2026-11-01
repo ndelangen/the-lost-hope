@@ -3,7 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Alberto',
-  location: refs.locations.sylvias_flying_bazaar,
+  location: refs.locations.the_flying_whale,
   species: 'Human',
   notes: [
     [
@@ -11,7 +11,7 @@ export default createNPC({
     ],
     [
       'He now works as a bartender and information broker aboard ',
-      refs.locations.sylvias_flying_bazaar,
+      refs.locations.the_flying_whale,
       ', keeping ten percent of his sales arrangement with ',
       refs.npcs.sylvia,
       '.',
