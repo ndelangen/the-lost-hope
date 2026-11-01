@@ -5,16 +5,23 @@ export default createQuest({
   name: 'The Mystery Girl',
   icon: 'gi/GiHoodedFigure',
   type: 'mystery',
-  notes: [['The Mystery Girl']],
-  status: 'open',
+  notes: [['Identify the child rescued near ', refs.locations.fairhaven, '.']],
+  status: 'resolved',
   clues: [
     [
-      refs.pcs.william_greenhove,
-      ' had an experience in the bathroom relating to a ',
-      refs.npcs.mystery_girl,
-      ' from his background story.',
+      refs.events.n2_e121,
+      ' records the rescue of ',
+      refs.npcs.celeste,
+      ' from among her zombified parents.',
     ],
-    ['The ', refs.npcs.mystery_girl, " is part of William's personal history."],
   ],
-  conclusion: [],
+  conclusion: [
+    [
+      'The child is ',
+      refs.npcs.celeste,
+      ', unrelated to the personal histories of the party. The party brought her to safety and left her in ',
+      refs.locations.verdant_haven,
+      '.',
+    ],
+  ],
 })

@@ -21,10 +21,12 @@ export function EntityCollection({
   label,
   items,
   iconForItem,
+  controls,
 }: {
   label: string
   items: EntityCardItem[]
   iconForItem?: (item: EntityCardItem) => CollectionIcon
+  controls?: ReactNode
 }) {
   return (
     <Stack gap="xl">
@@ -34,6 +36,7 @@ export function EntityCollection({
         </p>
         <h1 className="text-3xl font-bold tracking-tight">{label}</h1>
         <p className="text-muted-foreground">{items.length} entries in the campaign log.</p>
+        {controls}
       </Stack>
 
       <Grid gap="lg" smTemplate={2}>

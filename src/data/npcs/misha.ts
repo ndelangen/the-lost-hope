@@ -2,7 +2,7 @@ import { refs } from '#/data/generated/refs.ts'
 import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
-  name: 'Angel of the Mountain',
+  name: 'Misha',
   avatar: '/assets/npcs/angel-of-the-mountain.png',
   location: refs.locations.mountain_top,
   species: 'Angel',
@@ -12,7 +12,7 @@ export default createNPC({
       refs.locations.mountain_top,
       ', married to the ',
       refs.npcs.dragon_of_the_mountain,
-      ". The angel's name, celestial rank, and age are unknown.",
+      '. His celestial rank and age are unknown.',
     ],
   ],
   memberships: [

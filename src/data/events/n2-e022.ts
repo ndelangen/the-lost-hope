@@ -9,14 +9,12 @@ export default createEvent({
   notes: [
     [
       refs.pcs.william_greenhove,
-      ' had an experience in the ',
+      ' had a private experience in the ',
       refs.locations.fajanet_guildhall_bathroom,
-      ' relating to a ',
-      refs.npcs.mystery_girl,
-      ' from his background story.',
+      '. Its details are not recorded.',
     ],
     [
-      'Author note: likely never resolved — ',
+      'This personal story will not continue because ',
       refs.pcs.william_greenhove,
       "'s player has left the party.",
     ],

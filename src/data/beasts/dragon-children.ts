@@ -9,7 +9,7 @@ export default createBeast({
   notes: [
     [
       'The children of the ',
-      refs.npcs.angel_of_the_mountain,
+      refs.npcs.misha,
       ' and ',
       refs.npcs.dragon_of_the_mountain,
       '. All dragons — possibly hundreds. Their exact number, and any individual names, colors, or ages, are unestablished.',

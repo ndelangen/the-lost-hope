@@ -29,10 +29,9 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Context:_ Session 3 guest PC for one day by design, through a guild/Light arrangement. He belonged to some kind of celestial race or species, carried a staff, could conjure flowers, and could not cause harm. Johan played Swift Starblade in this session and therefore was not Mr. Peace’s player.
   - _Session:_ 3
 
-- **Who attacked Celeste and her mother, did her mother die, and what revealed Celeste’s connection to death?**
-  - _Context:_ Near Fairhaven’s shore, Devan led the party into a fight seen from the boat travelling from Badesh. The unidentified opponents all died, and the party took Celeste with them afterward. Her mother is believed to have died in the fight, while Celeste displayed an unexplained connection to death or the undead that suggested involuntary necromancy.
-  - _Why asking:_ The encounter is now placed, but the attackers’ identity, the mother’s exact fate, and the manifestation that prompted the necromancy suspicion still need DM confirmation.
-  - _Session:_ 4 ([n2-e121](/events/the-party-takes-celeste-from-a-shore-side-fight))
+- **What prompted the suspicion that Celeste was manifesting necromancy?**
+  - _Context:_ Near Fairhaven's shore, the party found [Celeste](/npcs/detail/celeste) surrounded by her dead, zombified parents and brought her to safety. She is now in [Verdant Haven](/locations/detail/verdant-haven). Her identity and her parents' fate are established, but the exact sign that suggested involuntary necromancy remains unrecorded.
+  - _Session:_ 4 ([n2-e121](/events/detail/the-party-takes-celeste-from-a-shore-side-fight))
 
 - **What is the proper name of the Feywild village?**
   - _Context:_ Crowy directed the party toward the nearest Feywild village, but it is not yet clear whether the destination is a village literally named “Feywild Village” or simply somewhere in the Feywild realm. The party expects to learn more next session.
@@ -89,8 +88,8 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Context:_ Five elements chased one another in the room. The party solved the puzzle, but the elements and method were not recorded.
   - _Session:_ 4 ([n2-e032](/events/puzzle-room-with-5-elements-chasing-each-other))
 
-- **Angel and dragon — names and exact dragon-child count?**
-  - _Context:_ The married angel and dragon had many dragon children; one recollection suggests there may have been hundreds, but no exact count is canon.
+- **Misha's dragon spouse and children: names and exact child count?**
+  - _Context:_ [Misha](/npcs/detail/misha) and his dragon spouse had many dragon children. The dragon and children remain unnamed; one recollection suggests there may have been hundreds, but no exact count is canon.
   - _Session:_ 4 ([n2-e033](/events/meet-the-angel-and-the-dragon-husband-and-wife))
 
 - **Zone of truth — what did Devan and Swift Starblade say?**
@@ -105,8 +104,8 @@ Every question must include **what we already know** — many sit unanswered acr
 
 ## Session 5 — Dinos and Fairhaven arrival
 
-- **Dino raid — what kind? Who riding? Why Fairhaven?**
-  - _Context:_ Large group ridden toward Fairhaven; DM called it a **raid**; party **assumed hostility**. Small group later chased party; Abraham's cart escape.
+- **Dinosaur migration: what species, and who were the riders?**
+  - _Context:_ The dinosaurs sensed danger and were migrating to a safer place. Their species and the riders' identities remain unrecorded. A smaller group chased the party, who escaped with Abraham's help.
   - _Session:_ 5 ([n2-e038](/events/dinos-ridden-toward-fairhaven))
 
 ---
@@ -332,7 +331,7 @@ Every question must include **what we already know** — many sit unanswered acr
 | **Swift Starblade**    | Hostile NPC. Rhys Greenleaf rename. Session 10 departure. Relative names.                                               |
 | **Devan**              | Paladin subclass/oath. Zone of truth answer.                                                                            |
 | **Light 13th Marshal** | Species; why these PCs; favor costs; angel/dragon tie; dino migration.                                                  |
-| **Angel / Dragon**     | Names, ranks, zone-of-truth purpose.                                                                                    |
+| **Misha / Dragon**     | The dragon's name, Misha's rank, zone-of-truth purpose.                                                                 |
 | **Victor**             | In-fiction departure after his last recorded appearance in Session 8; sheet details from D&D Beyond.                    |
 
 ---
@@ -344,9 +343,8 @@ Every question must include **what we already know** — many sit unanswered acr
 - **Help the Rare-Animal Dealer** — third animal.
 - **The Cursed Sword**: origin of the former curse, fate of its shadow, and connection to the Faceless Shadow.
 - **The Fairhaven Invasion** — attackers, motive, special wizard, and summoned monsters.
-- **Fajanet Tunnels and Shadow Realm** — same underground network?
 - **Through the Shadow Realm** — relation to tentacle night.
-- **The Dinosaur Migration** — riders, species, destination motive.
+- **The Dinosaur Migration**: riders and species.
 - **Abraham’s Recognition** — who are his peers, and what will earn their recognition?
 
 ## Session 15, The Death of a Dungeon

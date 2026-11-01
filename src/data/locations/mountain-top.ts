@@ -10,7 +10,7 @@ export default createLocation({
   notes: [
     [
       'The mountain summit, home of the ',
-      refs.npcs.angel_of_the_mountain,
+      refs.npcs.misha,
       ', the ',
       refs.npcs.dragon_of_the_mountain,
       ', and their ',

@@ -16,19 +16,14 @@ export default createEvent({
     ],
     [
       refs.pcs.devan,
-      ' decided to intervene, and the party joined the fight. None of the unidentified opponents survived the encounter.',
+      " decided to intervene, and the party joined the fight. None of the party's opponents survived the encounter.",
     ],
     [
-      'The party took ',
+      'The party found ',
       refs.npcs.celeste,
-      ' with them afterward, regarding the strange child as rescued. She displayed an unexplained connection to death or the undead, leading the party to suspect that she might be manifesting necromancy involuntarily.',
+      ' surrounded by her dead parents, who had become zombies. They decided to take her with them to a safer place. She displayed an unexplained connection to death or the undead, leading the party to suspect that she might be manifesting necromancy involuntarily.',
     ],
-    [
-      refs.npcs.celeste_s_mother,
-      ' is believed to have been killed during the fight, leaving ',
-      refs.npcs.celeste,
-      ' newly orphaned, but her exact fate is not remembered with certainty.',
-    ],
+    [refs.npcs.celeste_s_mother, ' was one of the zombified parents.'],
     [
       'Party: ',
       refs.pcs.jim,

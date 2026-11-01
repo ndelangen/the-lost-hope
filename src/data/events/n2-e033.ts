@@ -9,7 +9,7 @@ export default createEvent({
   notes: [
     [
       'At the top of the mountain, the party met an ',
-      refs.npcs.angel_of_the_mountain,
+      refs.npcs.misha,
       ' and a ',
       refs.npcs.dragon_of_the_mountain,
       '.',

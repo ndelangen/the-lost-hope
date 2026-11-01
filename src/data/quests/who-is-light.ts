@@ -32,14 +32,14 @@ export default createQuest({
     ],
     [
       'Session 4: the ',
-      refs.npcs.angel_of_the_mountain,
+      refs.npcs.misha,
       ' burned ',
       refs.npcs.light_13th_marshal,
       "'s letter of passage; passage was granted via truth-telling, not the letter.",
     ],
     [
       'The ',
-      refs.npcs.angel_of_the_mountain,
+      refs.npcs.misha,
       ' and ',
       refs.npcs.dragon_of_the_mountain,
       ' did not seem to like ',
@@ -61,7 +61,7 @@ export default createQuest({
     ],
     [
       'The ',
-      refs.npcs.angel_of_the_mountain,
+      refs.npcs.misha,
       ' revealed they had once been a member of the ',
       refs.organizations.adventurers_guild,
       ' — the same guild ',

@@ -6,7 +6,7 @@ export default createQuest({
   icon: 'gi/GiMagicPortal',
   type: 'mystery',
   notes: [['Do the Fajanet Tunnels connect to the Shadow Realm?']],
-  status: 'open',
+  status: 'resolved',
   clues: [
     [
       'Session 2: ',
@@ -33,9 +33,15 @@ export default createQuest({
       refs.locations.shadow_realm,
       '.',
     ],
+  ],
+  conclusion: [
     [
-      'Both underground spaces were reached via a trapdoor; whether they are the same network is unknown.',
+      refs.events.n2_e028,
+      ' records a secret exit through the city walls. The escape route was not evidence of a connection between ',
+      refs.locations.fajanet_tunnels,
+      ' and ',
+      refs.locations.shadow_realm,
+      '.',
     ],
   ],
-  conclusion: [],
 })
