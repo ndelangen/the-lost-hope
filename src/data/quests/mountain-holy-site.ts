@@ -26,8 +26,8 @@ export default createQuest({
   conclusion: [
     [
       refs.locations.holy_site,
-      ' represents the domain of the ',
-      refs.npcs.angel_of_the_mountain,
+      ' represents the domain of ',
+      refs.npcs.misha,
       ', who created it as a safe haven for his ',
       refs.beasts.dragon_children,
       '.',

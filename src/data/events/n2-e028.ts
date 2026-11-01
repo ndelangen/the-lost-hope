@@ -11,7 +11,7 @@ export default createEvent({
       refs.npcs.light_13th_marshal,
       ' instructed the party to take the ',
       refs.locations.trapdoor,
-      ' (the same one they used to enter the tunnels) and lock it behind them.',
+      ' as a secret exit through the city walls, then lock it behind them.',
     ],
     [
       'Party: ',

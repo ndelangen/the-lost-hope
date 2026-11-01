@@ -6,7 +6,7 @@ export default createQuest({
   icon: 'gi/GiVelociraptorTracks',
   type: 'mystery',
   notes: [['The Dinosaur Migration']],
-  status: 'open',
+  status: 'resolved',
   clues: [
     [
       refs.events.n2_e038,
@@ -22,19 +22,12 @@ export default createQuest({
       refs.pcs.victor_dranzig,
       "'s donkey) carried them to safety.",
     ],
+    [refs.events.n2_e040, ' — the chase ended at ', refs.locations.badesh, '.'],
+  ],
+  conclusion: [
     [
-      refs.events.n2_e040,
-      ' — the chase ended at ',
-      refs.locations.badesh,
-      ', but the reason for the migration remains unknown.',
-    ],
-    [
-      'Why are they heading to ',
-      refs.locations.fairhaven,
-      '? The party was told to reach Fairhaven by ',
-      refs.npcs.light_13th_marshal,
-      '.',
+      refs.events.n2_e038,
+      ' establishes that the dinosaurs sensed danger and were migrating to a safer place.',
     ],
   ],
-  conclusion: [],
 })

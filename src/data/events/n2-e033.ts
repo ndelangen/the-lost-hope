@@ -8,9 +8,9 @@ export default createEvent({
   mark: { type: 'icon', name: 'gi/GiAngelWings' },
   notes: [
     [
-      'At the top of the mountain, the party met an ',
-      refs.npcs.angel_of_the_mountain,
-      ' and a ',
+      'At the top of the mountain, the party met ',
+      refs.npcs.misha,
+      ' and the ',
       refs.npcs.dragon_of_the_mountain,
       '.',
     ],
@@ -19,9 +19,7 @@ export default createEvent({
       refs.beasts.dragon_children,
       ').',
     ],
-    [
-      'Open: names of the angel and the dragon, or any of the children — not stated. Exact number of children — "many" only.',
-    ],
+    ['The dragon and the children remain unnamed. The exact number of children is not recorded.'],
     [
       'Party: ',
       refs.pcs.jim,

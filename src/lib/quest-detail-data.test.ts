@@ -1,10 +1,11 @@
 import { describe, expect, it } from 'vitest'
 
+import { refs } from '#/data/generated/refs'
 import { allEntities, getEntity } from '#/lib/campaign'
 import { questDetailData } from '#/lib/quest-detail-data'
 
 describe('questDetailData', () => {
-  it('turns the dinosaur quest into an ordered, source-aware investigation trail', () => {
+  it('turns the resolved dinosaur quest into an ordered, source-aware investigation trail', () => {
     const quest = getEntity('quest', 'the-dinosaur-migration')
     expect(quest).toBeDefined()
     if (!quest) return
@@ -12,10 +13,11 @@ describe('questDetailData', () => {
     const detail = questDetailData(quest.data)
 
     expect(detail.summary).toBeUndefined()
-    expect(detail.totalClues).toBe(4)
+    expect(detail.totalClues).toBe(3)
     expect(detail.linkedEventCount).toBe(3)
     expect(detail.discoveries.map((entry) => entry.position)).toEqual([1, 2, 3])
-    expect(detail.openQuestions.map((entry) => entry.position)).toEqual([4])
+    expect(detail.openQuestions).toHaveLength(0)
+    expect(quest.data.status).toBe('resolved')
     expect(detail.discoveries.map((entry) => entry.source?.day)).toEqual([10, 10, 10])
     expect(detail.latestActivity).toMatchObject({
       eventSlug: 'reach-badesh-victor-s-hometown',
@@ -29,10 +31,17 @@ describe('questDetailData', () => {
     expect(quest).toBeDefined()
     if (!quest) return
 
-    const detail = questDetailData(quest.data)
+    const detail = questDetailData({
+      ...quest.data,
+      status: 'open',
+      clues: [
+        [refs.events.n2_e040, ' records an event whose cause remains unknown.'],
+        ['Who were the riders?'],
+      ],
+    })
 
-    expect(detail.discoveries[2]?.source?.eventSlug).toBe('reach-badesh-victor-s-hometown')
-    expect(detail.openQuestions).toHaveLength(1)
+    expect(detail.discoveries[0]?.source?.eventSlug).toBe('reach-badesh-victor-s-hometown')
+    expect(detail.openQuestions.map((entry) => entry.position)).toEqual([2])
   })
 
   it('partitions every quest clue once without changing its authored position', () => {

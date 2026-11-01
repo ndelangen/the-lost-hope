@@ -1,6 +1,5 @@
 import abraham from './abraham.ts'
 import alberto from './alberto.ts'
-import angel_of_the_mountain from './angel-of-the-mountain.ts'
 import anton_tempest from './anton-tempest.ts'
 import barbara from './barbara.ts'
 import bart from './bart.ts'
@@ -33,9 +32,9 @@ import light_13th_marshal from './light-13th-marshal.ts'
 import lord_malachar from './lord-malachar.ts'
 import madame_esmeralda from './madame-esmeralda.ts'
 import mayor_of_fairhaven from './mayor-of-fairhaven.ts'
+import misha from './misha.ts'
 import mortimer_mafioso from './mortimer-mafioso.ts'
 import mr_bumblefoot from './mr-bumblefoot.ts'
-import mystery_girl from './mystery-girl.ts'
 import onana_tempest from './onana-tempest.ts'
 import penelope from './penelope.ts'
 import rare_animal_dealer from './rare-animal-dealer.ts'
@@ -82,7 +81,7 @@ export default {
   dax,
   abraham,
   alberto,
-  angel_of_the_mountain,
+  misha,
   bernard,
   bessy,
   blackbeard,
@@ -101,7 +100,6 @@ export default {
   gruumsh_high_priest,
   hex,
   knukkles,
-  mystery_girl,
   lord_malachar,
   madame_esmeralda,
   mayor_of_fairhaven,

@@ -9,8 +9,8 @@ export default createLocation({
   at: [765, 410],
   notes: [
     [
-      'The mountain summit, home of the ',
-      refs.npcs.angel_of_the_mountain,
+      'The mountain summit, home of ',
+      refs.npcs.misha,
       ', the ',
       refs.npcs.dragon_of_the_mountain,
       ', and their ',

@@ -9,7 +9,7 @@ export default createEvent({
   notes: [
     ['Each character individually entered a zone of truth.'],
     [refs.pcs.jim, ' presented a "letter of passage" given by ', refs.npcs.light_13th_marshal, '.'],
-    ['The ', refs.npcs.angel_of_the_mountain, ' burned it.'],
+    [refs.npcs.misha, ' burned it.'],
     ['Each character was asked about their personal motives and had to answer truthfully.'],
     [
       refs.pcs.jim,
@@ -21,7 +21,7 @@ export default createEvent({
     ],
     [
       'Open: what did the other PCs say? Not stated. ',
-      refs.npcs.angel_of_the_mountain,
+      refs.npcs.misha,
       ' burned the letter — what did that mean? Not stated.',
     ],
     [
