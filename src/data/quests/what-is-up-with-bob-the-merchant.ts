@@ -23,7 +23,7 @@ export default createQuest({
     [
       refs.events.n2_e094,
       ' — the party later found Bob aboard ',
-      refs.locations.sylvias_flying_bazaar,
+      refs.locations.the_flying_whale,
       ' with an enormous stock inside the ',
       refs.beasts.mimic_chest,
       '. He could combine existing magical objects into a new item.',

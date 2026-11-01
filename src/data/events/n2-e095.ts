@@ -4,7 +4,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 export default createEvent({
   name: "Bob's bargains change Wolfie and bind Jim to a contract",
   day: 17,
-  location: refs.locations.sylvias_flying_bazaar,
+  location: refs.locations.the_flying_whale,
   mark: { type: 'icon', name: 'gi/GiTrade' },
   notes: [
     [

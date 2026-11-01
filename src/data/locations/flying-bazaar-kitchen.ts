@@ -5,7 +5,7 @@ export default createLocation({
   name: 'Flying Bazaar Kitchen',
   icon: 'gi/GiKitchenKnives',
   type: 'district',
-  parent: refs.locations.sylvias_flying_bazaar,
+  parent: refs.locations.the_flying_whale,
   at: [275, 350],
-  notes: [['The kitchen aboard ', refs.locations.sylvias_flying_bazaar, '.']],
+  notes: [['The kitchen aboard ', refs.locations.the_flying_whale, '.']],
 })

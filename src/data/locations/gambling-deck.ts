@@ -5,12 +5,12 @@ export default createLocation({
   name: 'Gambling Deck',
   icon: 'gi/GiPokerHand',
   type: 'district',
-  parent: refs.locations.sylvias_flying_bazaar,
+  parent: refs.locations.the_flying_whale,
   at: [725, 350],
   notes: [
     [
       'The casino area aboard ',
-      refs.locations.sylvias_flying_bazaar,
+      refs.locations.the_flying_whale,
       ', containing numerous gaming tables and the table run by ',
       refs.npcs.the_fiddler,
       '.',

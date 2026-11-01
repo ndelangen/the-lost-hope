@@ -10,7 +10,7 @@ export default createEvent({
     [
       refs.npcs.sylvia,
       ' lowered ',
-      refs.locations.sylvias_flying_bazaar,
+      refs.locations.the_flying_whale,
       ' beside the crater and gave the party one hour to board before departure.',
     ],
     ['The initial exchange was awkward because ', refs.pcs.jim, ' was still invisible.'],

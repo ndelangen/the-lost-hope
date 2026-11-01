@@ -4,7 +4,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 export default createEvent({
   name: "Cassian ruins Sylvia's caviar and works off the damage",
   day: 18,
-  location: refs.locations.sylvias_flying_bazaar,
+  location: refs.locations.the_flying_whale,
   mark: { type: 'avatar', url: '/assets/pcs/cassian.jpg' },
   notes: [
     [

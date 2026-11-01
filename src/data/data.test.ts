@@ -54,9 +54,9 @@ describe('location import order', () => {
   })
 
   it('nests recent session scenes beneath their physical locations', () => {
-    expect(locationParent(locations.gambling_deck)?.slug).toBe(locations.sylvias_flying_bazaar.slug)
-    expect(locationParent(locations.lower_stables)?.slug).toBe(locations.sylvias_flying_bazaar.slug)
-    expect(locationParent(locations.bob_s_stall)?.slug).toBe(locations.sylvias_flying_bazaar.slug)
+    expect(locationParent(locations.gambling_deck)?.slug).toBe(locations.the_flying_whale.slug)
+    expect(locationParent(locations.lower_stables)?.slug).toBe(locations.the_flying_whale.slug)
+    expect(locationParent(locations.bob_s_stall)?.slug).toBe(locations.the_flying_whale.slug)
     expect(locationParent(locations.skynet_s_second_best_inn)?.slug).toBe(locations.skynet.slug)
     expect(locationParent(locations.temple_of_the_serpent_eclipse)?.slug).toBe(
       locations.skynet.slug,

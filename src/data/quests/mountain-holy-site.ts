@@ -5,8 +5,8 @@ export default createQuest({
   name: 'Mountain Holy Site — whose faith, deity, form?',
   icon: 'gi/GiHolySymbol',
   type: 'mystery',
-  notes: [['Mountain Holy Site — whose faith, deity, form?']],
-  status: 'open',
+  notes: [['Whose domain does ', refs.locations.holy_site, ' represent, and what is its purpose?']],
+  status: 'resolved',
   clues: [
     [
       'Session 4: ',
@@ -22,9 +22,15 @@ export default createQuest({
       refs.locations.puzzle_room,
       '.',
     ],
+  ],
+  conclusion: [
     [
-      'Whose holy site this is, what faith it represents, and what deity or form it takes are unknown.',
+      refs.locations.holy_site,
+      ' represents the domain of the ',
+      refs.npcs.angel_of_the_mountain,
+      ', who created it as a safe haven for his ',
+      refs.beasts.dragon_children,
+      '.',
     ],
   ],
-  conclusion: [],
 })

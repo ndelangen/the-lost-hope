@@ -4,7 +4,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 export default createEvent({
   name: 'Sir Fabulous becomes Devan’s divine steed',
   day: 20,
-  location: refs.locations.sylvias_flying_bazaar,
+  location: refs.locations.the_flying_whale,
   mark: { type: 'avatar', url: '/assets/pcs/devan.jpg' },
   notes: [
     [

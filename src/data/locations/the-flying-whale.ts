@@ -2,7 +2,7 @@ import { refs } from '#/data/generated/refs.ts'
 import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
-  name: "Sylvia's Flying Bazaar",
+  name: 'The Flying Whale',
   icon: 'gi/GiCargoShip',
   illustration: '/assets/locations/sylvias-flying-bazaar-illustration.png',
   type: 'route',
@@ -20,6 +20,5 @@ export default createLocation({
       refs.locations.lower_stables,
       '.',
     ],
-    ['The vessel’s proper name has not yet been established.'],
   ],
 })

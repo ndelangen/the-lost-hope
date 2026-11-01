@@ -5,7 +5,7 @@ export default createLocation({
   name: 'Flying Bazaar Crafting Area',
   icon: 'gi/GiAnvilImpact',
   type: 'district',
-  parent: refs.locations.sylvias_flying_bazaar,
+  parent: refs.locations.the_flying_whale,
   at: [725, 150],
-  notes: [['A crafting area aboard ', refs.locations.sylvias_flying_bazaar, '.']],
+  notes: [['A crafting area aboard ', refs.locations.the_flying_whale, '.']],
 })

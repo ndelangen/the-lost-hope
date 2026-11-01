@@ -9,7 +9,7 @@ export default createEvent({
   notes: [
     [
       'Near the end of the afternoon, the party disembarked from ',
-      refs.locations.sylvias_flying_bazaar,
+      refs.locations.the_flying_whale,
       ' on ',
       refs.locations.nimbus,
       ' with ',

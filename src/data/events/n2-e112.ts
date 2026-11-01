@@ -15,7 +15,7 @@ export default createEvent({
       ' from the void sphere. ',
       refs.pcs.cassian_veyl,
       ' reappeared somewhere aboard ',
-      refs.locations.sylvias_flying_bazaar,
+      refs.locations.the_flying_whale,
       ' without the possessions left at the table.',
     ],
     [
