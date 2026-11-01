@@ -31,14 +31,13 @@ export default createQuest({
       ' instructed the party to take a trapdoor, lock it behind them, and head for the mountain.',
     ],
     [
-      'Session 4: the ',
+      'Session 4: ',
       refs.npcs.misha,
       ' burned ',
       refs.npcs.light_13th_marshal,
       "'s letter of passage; passage was granted via truth-telling, not the letter.",
     ],
     [
-      'The ',
       refs.npcs.misha,
       ' and ',
       refs.npcs.dragon_of_the_mountain,
@@ -60,7 +59,6 @@ export default createQuest({
       '. What the recurring obligation is, and what happens if he stops, is unknown.',
     ],
     [
-      'The ',
       refs.npcs.misha,
       ' revealed they had once been a member of the ',
       refs.organizations.adventurers_guild,

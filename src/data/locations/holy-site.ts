@@ -9,7 +9,7 @@ export default createLocation({
   at: [445, 410],
   notes: [
     [
-      'The holy site represents the domain of the ',
+      'The holy site represents the domain of ',
       refs.npcs.misha,
       ', a safe haven he created for his ',
       refs.beasts.dragon_children,

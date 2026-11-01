@@ -8,7 +8,7 @@ export default createBeast({
   species: 'Dragon',
   notes: [
     [
-      'The children of the ',
+      'The children of ',
       refs.npcs.misha,
       ' and ',
       refs.npcs.dragon_of_the_mountain,
