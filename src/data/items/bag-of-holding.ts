@@ -4,14 +4,14 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: 'Bag of Holding',
   icon: 'gi/GiBackpack',
-  currentOwner: refs.pcs.cassian_veyl,
+  currentOwner: null,
   carriedBy: null,
   craftedBy: null,
   notes: [
     [
-      'A blue, ocean-like bag with a brown lower section, bought from ',
-      refs.npcs.bob_the_merchant,
-      ' for 5,000 GP. It now holds the party’s shared supplies.',
+      'A blue, ocean-like Bag of Holding with a brown lower section, distinct from ',
+      refs.items.cassian_s_replacement_bag_of_holding,
+      '.',
     ],
     [
       'The inside of the bag is a vacuum, and time is frozen. Creatures inside experience no elapsed time, so they do not suffocate while time is stopped. ',

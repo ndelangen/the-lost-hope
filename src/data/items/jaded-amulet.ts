@@ -4,8 +4,8 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: 'Jaded Amulet',
   icon: 'gi/GiEmeraldNecklace',
-  currentOwner: refs.pcs.jim,
-  carriedBy: refs.pcs.jim,
+  currentOwner: null,
+  carriedBy: null,
   craftedBy: null,
   notes: [
     [

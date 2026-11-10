@@ -255,6 +255,7 @@ describe('items', () => {
   it('derives owned and carried PC items from item relationships', () => {
     expect(itemsOwnedBy('pc', pcs.devan.slug).map((item) => item.slug)).toEqual([
       items.devan_s_corrected_holy_text.slug,
+      items.devan_s_plate_armour.slug,
       items.devan_s_wandering_priest_robe.slug,
       items.flask_of_never_ending_booze.slug,
       items.rare_dragon_scales.slug,
@@ -262,20 +263,19 @@ describe('items', () => {
     ])
     expect(itemsOwnedBy('pc', pcs.swift_starblade.slug).map((item) => item.slug)).toEqual([
       items.demon_possessed_flying_broom.slug,
+      items.mimic_cloak.slug,
       items.swifts_silver_container.slug,
     ])
     expect(itemsCarriedBy('pc', pcs.swift_starblade.slug).map((item) => item.slug)).toEqual([
+      items.mimic_cloak.slug,
       items.swifts_silver_container.slug,
     ])
     expect(itemsCarriedBy('pc', pcs.cassian_veyl.slug).map((item) => item.slug)).toEqual([
-      items.cloak_of_protection.slug,
-      items.ring_of_spell_storing.slug,
-      items.wolfie_tracking_ring.slug,
+      items.cassian_s_replacement_bag_of_holding.slug,
     ])
     expect(itemsCarriedBy('pc', pcs.jim.slug).map((item) => item.slug)).toEqual([
       items.dagger_of_passive_aggression.slug,
       items.dagger_of_the_zodiac_signs.slug,
-      items.jaded_amulet.slug,
       items.nimbus_dungeon_stamp_card.slug,
       items.obsidian_green_rod.slug,
       items.pocket_holy_text_of_grimgor.slug,
@@ -950,6 +950,6 @@ describe('campaign chronology', () => {
   })
 
   it('returns the latest event first', () => {
-    expect(sortedEvents()[0]?.data).toBe(events.n2_e184)
+    expect(sortedEvents()[0]?.data).toBe(events.n2_e204)
   })
 })

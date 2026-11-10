@@ -387,7 +387,7 @@ Every question must include **what we already know** — many sit unanswered acr
   - Transcript 02:25 through 02:40. The party discussed violence and seeking Onana's backing, but neither a completed favor nor a commission from him is recorded.
 
 - Where do the two smoke trails lead?
-  - [Sarogarth's ritual](/events/detail/sarogarth-s-tracking-ritual-produces-two-smoke-trails) uses the Deck's lingering effects to seek the Fiddler. The smoke splits, Crowy scouts it, and the trail is said to last three days. Neither endpoint is established.
+  - [Sarogarth's ritual](/events/detail/sarogarth-s-tracking-ritual-produces-two-smoke-trails) uses the Deck's lingering effects to seek the Fiddler. The smoke splits, Crowy scouts it, and the trail is said to last three days. Session 17 reaches the Fiddler at the Nimbus Gambling Den and places the other trail toward an unvisited flying fortress. The reason for the split remains unknown.
   - Transcript 01:50 through 02:05. Time travel, multiple timelines, and other explanations remain theories.
 
 - Where was the Obsidian Green Rod during Jim's latest lightning strike?
@@ -405,3 +405,43 @@ Every question must include **what we already know** — many sit unanswered acr
 - What statue did the gang mention, and did the party accept a task involving it?
   - The final conversation turns to possessions of [Anton Tempest](/npcs/detail/anton-tempest) and a statue resembling a cow on a rock. The description breaks off and the recording ends without a clear agreement.
   - Transcript 03:08 through 03:09. No statue item, acquisition, or accepted theft mission has been added.
+
+## Session 17, The Ghost and the Gambler
+
+- What are the two tracking trails detecting, and why does one point at the flying fortress?
+  - The party followed one trail to [the Fiddler](/npcs/detail/the-fiddler) in the casino on [Nimbus](/locations/detail/nimbus). The other leads through the harbour toward an approaching flying fortress. The fortress was not visited, and the split does not establish time travel or a second Fiddler.
+  - Transcript 00:15 through 00:26, 00:47 through 00:50, and 03:04 through 03:24. Session 16 called the duration three days; this session discusses about a day remaining. The elapsed time and original duration need reconciliation.
+
+- What are Jim's remaining card effects and their exact limits?
+  - [Cassian paid to remove Cage and Storm](/events/detail/cassian-pays-to-remove-jim-s-confinement-and-lightning-storm). Jim can leave the casino and no longer receives the morning lightning strikes. Voidwalker, Whispers, and Vessel remain, alongside the earlier pain and penalty unless separately removed. Voidwalker lasts four weeks unless ended early by Wish or divine intervention.
+  - The precise Wisdom penalties and daily save for Whispers, Vessel's interaction with his ethereal state, and his remaining spellcasting need confirmation. The table allowed speech and ruled out Message to other creatures. Wall passage was debated, and the final travel ruling did not allow free flight across the gap between islands.
+  - Transcript 01:19, 01:33 through 01:35, 01:55 through 01:59, 02:17 through 02:20, 02:37 through 02:40, and 03:09 through 03:10. These limits affect what Jim can actually do while ethereal.
+
+- What changed when Stefanio's spirit cannon briefly shifted Jim to another plane?
+  - [The merchant's test](/events/detail/stefanio-tests-a-spirit-cannon-on-jim) did not cure Voidwalker. The DM explicitly said the planar change would matter later. The destination plane, lasting consequences, and merchant's confirmed name are unknown.
+  - Transcript 02:44 through 02:46. Stefanio is the name supplied at the table and used provisionally.
+
+- Where is the Wolfie-Tracking Ring, and why is Wolfie walking and talking?
+  - Talons made [the ring](/items/detail/wolfie-tracking-ring) vanish. The DM explicitly distinguished artifacts that vanish elsewhere from ordinary magic items that are destroyed, and later confirmed the ring still exists somewhere in the world and remains bound to Cassian. [Wolfie](/beasts/detail/wolfie) was then found healthy, upright, and speaking in a humanoid, werewolf-like form. Devan could converse with him too.
+  - Does the transformation reflect the two-way soul bond, the lost ring, or another cause? When did it begin, what has changed in Cassian, and how can they recover the ring? Neither disappearance nor Wolfie's new form establishes that Cassian's existing hunger has been cured.
+  - Transcript 01:38 through 01:41, 02:21 through 02:23, 03:15 through 03:21, and 03:25 through 03:26.
+
+- What is Sylf's fate after Sarogarth lost her in the wager?
+  - The author confirmed that [Sylf](/npcs/detail/sylf), rather than Dax, was lost. Sarogarth left upset and said he needed a day or two away. Her destination, the effect on her shared contract, and whether she can be recovered are unknown. The confirmed loss does not establish her death.
+  - Transcript 02:25 through 02:30, with the author's correction. Sarogarth's new Blight is permanent according to the DM, even against Wish or divine intervention. How it affects Dax and Sylf in their tortoise forms was not settled.
+
+- What are the missing costs and limits of the new card rewards?
+  - [Cassian's Hunger](/events/detail/the-first-draws-bring-flight-hunger-whispers-and-a-cloak) is a separate daily life-draining ability, not his earlier wolf hunger. The transcript confirms its recipient later, after the initial announcement is missing. Whether a high priest can remove it remains unresolved.
+  - [Swift's Mask](/events/detail/swift-gains-the-mask-card) must be used daily, but its psychic damage amount and exact uses and transformation limits are unclear. The [Mimic Cloak](/items/detail/mimic-cloak) grants +2 Armor Class and demands feeding after long rests; the recording garbles the exact feeding cost.
+  - Transcript 01:22, 01:29 through 01:30, 01:35 through 01:37, 02:21 through 02:24, and 03:25. Swift's initial lawful-good change was replaced with Sun and does not remain active.
+
+- What are Cassian's confirmed purchase costs and final money balance?
+  - Roulette paid 3,000 gold, split 2,000 to Cassian and 1,000 to Swift. The treasure draw produced 10,000 platinum, equivalent to 100,000 gold. The withdrawal roll set a ten-percent toll, leaving 90,000 gold from that chest. Cassian paid 10,000 for two of Jim's effects and 4,500 for Devan's +1 plate commission.
+  - The author confirmed [the replacement Bag of Holding](/items/detail/cassian-s-replacement-bag-of-holding) is fully paid, with no debt. The recording alternates between bag prices and recalculates Cassian's remaining money several times. Its exact purchase cost and his final balance remain unconfirmed. No numeric cash balance has been added to his inventory.
+  - Transcript 00:37 through 00:42, 01:41 through 01:54, 02:17 through 02:20, and 02:54 through 03:03. The armour is commissioned, not yet collected; its completion time is also unclear.
+
+- What was Devan trying to locate when the DM gave a southern direction?
+  - At approximately 02:36 the transcript calls the target Carl, rules it off Nimbus, and gives a southern direction. The target, spelling, and locating method are not clear. This is not treated as a confirmed location for Grimgor's bones or tomb.
+
+- Which campaign day does Session 17 continue?
+  - The opening resumes the smoke-trail decision from Session 16 without an overnight rest. The import therefore continues provisional Campaign Day 24. A full reconciliation of Session 16's inconsistent inn-night count is still needed. The real play date is 5 November 2026.
