@@ -5,8 +5,12 @@ export default createPC({
   name: 'Jim',
   player: 'norbertdlangen',
   url: 'https://www.dndbeyond.com/characters/159958003',
-  avatar: '/assets/pcs/jim.jpg',
+  avatar: '/assets/pcs/jim-ghost.png',
   previousPortraits: [
+    {
+      url: '/assets/pcs/jim.jpg',
+      description: 'Jim in his human form before becoming ethereal',
+    },
     {
       url: '/assets/pcs/jim-kenku.jpg',
       description: 'Jim wearing his former kenku disguise',

@@ -503,7 +503,14 @@ describe('campaign chronology', () => {
   })
 
   it('preserves Jim’s kenku portrait on events before his human identity reveal', () => {
-    const kenkuPortrait = pcs.jim.previousPortraits?.[0]
+    expect(pcs.jim.avatar).toBe('/assets/pcs/jim-ghost.png')
+    expect(pcs.jim.previousPortraits?.map(({ url }) => url)).toEqual([
+      '/assets/pcs/jim.jpg',
+      '/assets/pcs/jim-kenku.jpg',
+    ])
+    const kenkuPortrait = pcs.jim.previousPortraits?.find(
+      ({ url }) => url === '/assets/pcs/jim-kenku.jpg',
+    )
     expect(kenkuPortrait).toEqual({
       url: '/assets/pcs/jim-kenku.jpg',
       description: 'Jim wearing his former kenku disguise',
@@ -524,7 +531,7 @@ describe('campaign chronology', () => {
     expect(preRevealEvents.map((event) => event.mark)).toEqual(
       preRevealEvents.map(() => ({ type: 'avatar', url: kenkuPortrait?.url })),
     )
-    expect(events.n2_e119.mark).toEqual({ type: 'avatar', url: pcs.jim.avatar })
+    expect(events.n2_e119.mark).toEqual({ type: 'avatar', url: '/assets/pcs/jim.jpg' })
   })
 
   it('gives every icon-backed event a supported icon unique within its session', () => {

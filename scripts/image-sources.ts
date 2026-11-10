@@ -267,6 +267,12 @@ export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
     repositoryPath: 'assets/images/content/pcs/jim-kenku.jpg',
   },
   {
+    id: 'jim-ghost',
+    role: 'avatar',
+    logicalSource: '/assets/pcs/jim-ghost.png',
+    repositoryPath: 'assets/images/content/pcs/jim-ghost.png',
+  },
+  {
     id: 'jim',
     role: 'avatar',
     logicalSource: '/assets/pcs/jim.jpg',
