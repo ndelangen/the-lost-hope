@@ -25,11 +25,7 @@ export default createPC({
     },
   ],
   notes: [
-    [
-      'Can understand and answer ',
-      refs.beasts.wolfie,
-      ' in wolf speech. Other party members hear animal sounds rather than the words he hears.',
-    ],
+    ['Can understand and answer ', refs.beasts.wolfie, ' in wolf speech.'],
     [
       'Cassian asked ',
       refs.npcs.light_13th_marshal,

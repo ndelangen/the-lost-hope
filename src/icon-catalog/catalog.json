@@ -94647,6 +94647,7 @@
       "sourceUrl": "https://game-icons.net/1x1/sbed/blast.html",
       "usedIn": [
         "src/data/events/n2-e089.ts",
+        "src/data/events/n2-e200.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -99611,7 +99612,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/breastplate.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/devan-s-plate-armour.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiBrickPile",
@@ -100435,6 +100439,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/broken-shield.html",
       "usedIn": [
         "src/data/events/n2-e074.ts",
+        "src/data/events/n2-e197.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -104870,7 +104875,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/cape.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/mimic-cloak.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiCapeArmor",
@@ -108121,6 +108129,7 @@
         "src/data/events/n2-e045.ts",
         "src/data/events/n2-e094.ts",
         "src/data/events/n2-e105.ts",
+        "src/data/events/n2-e189.ts",
         "src/data/sessions/the-fiddlers-game.ts",
         "src/lib/event-icons.tsx",
         "src/lib/session-icons.tsx"
@@ -111793,7 +111802,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/chest.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/cassian-s-treasure-chest.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiChestArmor",
@@ -126007,6 +126019,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/direwolf.html",
       "usedIn": [
         "src/data/events/n2-e051.ts",
+        "src/data/events/n2-e204.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -142105,6 +142118,7 @@
         "src/data/events/n2-e090.ts",
         "src/data/events/n2-e117.ts",
         "src/data/events/n2-e144.ts",
+        "src/data/events/n2-e203.ts",
         "src/data/locations/unidentified-floating-island.ts",
         "src/lib/event-icons.tsx",
         "src/lib/location-icons.tsx"
@@ -146965,6 +146979,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/gavel.html",
       "usedIn": [
         "src/data/events/n2-e062.ts",
+        "src/data/events/n2-e201.ts",
         "src/data/sessions/fairhaven-fallout.ts",
         "src/lib/event-icons.tsx",
         "src/lib/session-icons.tsx"
@@ -147522,7 +147537,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/ghost-ally.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/sessions/the-ghost-and-the-gambler.ts",
+        "src/lib/session-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiGiant",
@@ -166173,7 +166191,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/knapsack.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/cassian-s-replacement-bag-of-holding.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiKneeBandage",
@@ -171001,6 +171022,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/lightning-storm.html",
       "usedIn": [
         "src/data/events/n2-e106.ts",
+        "src/data/events/n2-e196.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -172137,6 +172159,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/lockpicks.html",
       "usedIn": [
         "src/data/events/n2-e086.ts",
+        "src/data/events/n2-e187.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -194748,6 +194771,7 @@
       "usedIn": [
         "src/data/events/n2-e013.ts",
         "src/data/events/n2-e151.ts",
+        "src/data/events/n2-e194.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -206627,6 +206651,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/sailboat.html",
       "usedIn": [
         "src/data/events/n2-e001.ts",
+        "src/data/events/n2-e185.ts",
         "src/data/locations/the-boat-to-fairhaven.ts",
         "src/data/sessions/from-fajanet-to-fairhaven.ts",
         "src/lib/event-icons.tsx",
@@ -208118,6 +208143,7 @@
       "usedIn": [
         "src/data/events/n2-e034.ts",
         "src/data/events/n2-e173.ts",
+        "src/data/events/n2-e188.ts",
         "src/data/items/rare-dragon-scales.ts",
         "src/lib/event-icons.tsx",
         "src/lib/item-icons.tsx"
@@ -210565,6 +210591,7 @@
         "src/data/events/n2-e029.ts",
         "src/data/events/n2-e073.ts",
         "src/data/events/n2-e126.ts",
+        "src/data/events/n2-e195.ts",
         "src/data/sessions/fairhaven-shadows.ts",
         "src/lib/event-icons.tsx",
         "src/lib/session-icons.tsx"
@@ -236562,7 +236589,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/token.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/nimbus-casino-vip-card.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiTomahawk",
@@ -237730,6 +237760,7 @@
         "src/data/events/n2-e095.ts",
         "src/data/events/n2-e115.ts",
         "src/data/events/n2-e171.ts",
+        "src/data/events/n2-e193.ts",
         "src/lib/event-icons.tsx"
       ]
     },

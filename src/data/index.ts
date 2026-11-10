@@ -142,5 +142,6 @@ export default createCampaign({
     sessions.the_serpent_lake,
     sessions.the_death_of_a_dungeon,
     sessions.the_tempest_bargain,
+    sessions.the_ghost_and_the_gambler,
   ],
 })

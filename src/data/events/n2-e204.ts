@@ -1,0 +1,55 @@
+import { refs } from '#/data/generated/refs.ts'
+import { create as createEvent } from '#/definitions/event.ts'
+
+export default createEvent({
+  name: 'Cassian and Devan find Wolfie walking and talking',
+  notes: [
+    [
+      "At the inn's stables, ",
+      refs.pcs.cassian_veyl,
+      ' and ',
+      refs.pcs.devan,
+      ' found ',
+      refs.beasts.wolfie,
+      ' healthy, walking upright on two legs, and speaking in a humanoid, werewolf-like form. ',
+      refs.pcs.devan,
+      ' could converse with him too. ',
+      refs.beasts.wolfie,
+      ' had not simply vanished or reverted after the ',
+      refs.items.wolfie_tracking_ring,
+      ' disappeared.',
+    ],
+    [
+      refs.beasts.wolfie,
+      ' wanted meat and solid ground, disliked being so high in the sky, and asked for a blanket. ',
+      refs.npcs.abraham,
+      ' also disliked the altitude. ',
+      refs.beasts.wolfie,
+      ' promised to protect ',
+      refs.pcs.cassian_veyl,
+      ' with his life.',
+    ],
+    [
+      'After closing the stable door, ',
+      refs.pcs.cassian_veyl,
+      ' and ',
+      refs.pcs.devan,
+      ' discussed their surprise at the transformation and arranged for a tailor. The cause, timing, and connection to ',
+      refs.pcs.cassian_veyl,
+      "'s own changes remained unresolved. The DM later confirmed that the ring still existed somewhere and remained bound to ",
+      refs.pcs.cassian_veyl,
+      '.',
+    ],
+    [
+      refs.pcs.jim,
+      ' and ',
+      refs.pcs.swift_starblade,
+      ' were still on ',
+      refs.locations.nimbus,
+      ' when the session ended.',
+    ],
+  ],
+  day: 24,
+  location: refs.locations.skynet,
+  mark: { type: 'icon', name: 'gi/GiDirewolf' },
+})

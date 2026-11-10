@@ -1,11 +1,10 @@
-import { refs } from '#/data/generated/refs.ts'
 import { create as createItem } from '#/definitions/item.ts'
 
 export default createItem({
   name: 'Ring of Spell Storing',
   icon: 'gi/GiRing',
-  currentOwner: refs.pcs.cassian_veyl,
-  carriedBy: refs.pcs.cassian_veyl,
+  currentOwner: null,
+  carriedBy: null,
   craftedBy: null,
   notes: [
     [

@@ -5,7 +5,7 @@ export default createItem({
   name: 'Wolfie-Tracking Ring',
   icon: 'fa/FaRing',
   currentOwner: refs.pcs.cassian_veyl,
-  carriedBy: refs.pcs.cassian_veyl,
+  carriedBy: null,
   craftedBy: null,
   notes: [
     [

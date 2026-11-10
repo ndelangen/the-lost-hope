@@ -1,5 +1,6 @@
 import type { IconType } from 'react-icons'
 import {
+  GiGhostAlly,
   GiShipWheel,
   GiCardRandom,
   GiCastleRuins,
@@ -24,6 +25,8 @@ import { cn } from '#/lib/utils'
 export const SESSION_ICON_PLACEHOLDER = 'gi/GiJourney'
 
 export const SESSION_ICONS = {
+  'gi/GiGhostAlly': GiGhostAlly,
+
   'gi/GiShipWheel': GiShipWheel,
   'gi/GiFloatingCrystal': GiFloatingCrystal,
   'gi/GiCardRandom': GiCardRandom,

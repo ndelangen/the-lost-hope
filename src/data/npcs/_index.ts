@@ -47,6 +47,7 @@ import selene_tempest from './selene-tempest.ts'
 import sering_ravenwood from './sering-ravenwood.ts'
 import skynet_gang_leader from './skynet-gang-leader.ts'
 import sneeve from './sneeve.ts'
+import stefanio from './stefanio.ts'
 import swift_starblade_s_younger_sister from './swift-starblade-s-younger-sister.ts'
 import sylf from './sylf.ts'
 import sylvia_s_brother from './sylvia-s-brother.ts'
@@ -54,12 +55,15 @@ import sylvia from './sylvia.ts'
 import tempest_patriarch from './tempest-patriarch.ts'
 import the_12th_marshal from './the-12th-marshal.ts'
 import the_father from './the-father.ts'
+import the_fiddler_s_knight from './the-fiddler-s-knight.ts'
 import the_fiddler from './the-fiddler.ts'
 import the_mountain from './the-mountain.ts'
 import throne_figure_in_jim_s_vision from './throne-figure-in-jim-s-vision.ts'
 import verdant_haven_rangers from './verdant-haven-rangers.ts'
 
 export default {
+  the_fiddler_s_knight,
+  stefanio,
   onana_tempest,
   charles_tempest,
   celeste_tempest,

@@ -22,6 +22,12 @@ export default createQuest({
       refs.npcs.bob_the_merchant,
       ' said the bag has an additional random effect that would be determined later. The effect, its trigger, and whether it is beneficial, harmful, or mixed remain unknown.',
     ],
+    [
+      refs.events.n2_e192,
+      ' records the loss of the original bag before its extra effect was identified. The later ',
+      refs.items.cassian_s_replacement_bag_of_holding,
+      ' is a different item and has no confirmed connection to that effect.',
+    ],
   ],
   conclusion: [],
 })

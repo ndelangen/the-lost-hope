@@ -1,11 +1,10 @@
-import { refs } from '#/data/generated/refs.ts'
 import { create as createItem } from '#/definitions/item.ts'
 
 export default createItem({
   name: 'Cloak of Protection',
   icon: 'gi/GiCloak',
-  currentOwner: refs.pcs.cassian_veyl,
-  carriedBy: refs.pcs.cassian_veyl,
+  currentOwner: null,
+  carriedBy: null,
   craftedBy: null,
   notes: [
     [

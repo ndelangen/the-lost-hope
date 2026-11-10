@@ -13,7 +13,7 @@ export default createNPC({
     ],
     [
       refs.npcs.sarogarth,
-      ' bound her because he thought she was lonely. Their present contract is described as shared equally.',
+      ' bound her because he thought she was lonely. Their shared contract was described as equal. Its status after the wager is unknown.',
     ],
   ],
 })
