@@ -111001,7 +111001,6 @@
         "src/data/events/n2-e043.ts",
         "src/data/events/n2-e124.ts",
         "src/data/events/n2-e183.ts",
-        "src/data/events/n2-e202.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -190170,7 +190169,6 @@
       "usedIn": [
         "src/data/events/n2-e027.ts",
         "src/data/events/n2-e120.ts",
-        "src/data/events/n2-e199.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -209627,7 +209625,6 @@
         "src/data/events/n2-e075.ts",
         "src/data/events/n2-e099.ts",
         "src/data/events/n2-e156.ts",
-        "src/data/events/n2-e198.ts",
         "src/data/items/devan-s-corrected-holy-text.ts",
         "src/lib/event-icons.tsx",
         "src/lib/item-icons.tsx"
@@ -232273,7 +232270,6 @@
         "src/data/events/n2-e005.ts",
         "src/data/events/n2-e118.ts",
         "src/data/events/n2-e184.ts",
-        "src/data/events/n2-e186.ts",
         "src/lib/event-icons.tsx"
       ]
     },

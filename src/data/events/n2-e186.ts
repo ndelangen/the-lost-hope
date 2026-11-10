@@ -15,5 +15,5 @@ export default createEvent({
   ],
   day: 24,
   location: refs.locations.nimbus,
-  mark: { type: 'icon', name: 'gi/GiTavernSign' },
+  mark: { type: 'avatar', url: '/assets/pcs/placeholder.svg' },
 })
