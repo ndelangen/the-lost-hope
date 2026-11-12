@@ -2,14 +2,19 @@ import beasts from '#/data/beasts/_index'
 import events from '#/data/events/_index'
 import items from '#/data/items/_index'
 import locations from '#/data/locations/_index'
-import npcs from '#/data/npcs/_index'
+import npcRecords from '#/data/npcs/_index'
 import organizations from '#/data/organizations/_index'
 import pcs from '#/data/pcs/_index'
 import quests from '#/data/quests/_index'
 import sessions from '#/data/sessions/_index'
 import type { EntityKind } from '#/definitions/kind'
+import type { NPC } from '#/definitions/npc'
 
 type RegistryRecord = Record<string, { slug: string; name: string }>
+
+const npcs = Object.fromEntries(
+  Object.entries(npcRecords).map(([key, { motivations: _, ...npc }]) => [key, npc]),
+) as Record<keyof typeof npcRecords, Omit<NPC, 'motivations'>>
 
 export const REGISTRIES = {
   beast: beasts,

@@ -21,6 +21,7 @@ export const NPC = deriveSlug(
       'One-line identity/flavor; may mix text and `refs.*` tokens',
     ),
     memberships: z.array(Membership).optional(),
+    motivations: Content.optional().describe('What the NPC wants and why'),
   }),
 )
 

@@ -14,9 +14,17 @@ export const ENTITY_KINDS = [
 
 export type EntityKind = (typeof ENTITY_KINDS)[number]
 
-export type EntityRef = {
-  ref: EntityKind
+export const DM_ENTITY_KINDS = ['arc', 'scene'] as const
+
+export type DmEntityKind = (typeof DM_ENTITY_KINDS)[number]
+
+export type EntityRef<K extends EntityKind | DmEntityKind = EntityKind> = {
+  ref: K
   key: string
+}
+
+export function entityRefOf<K extends EntityKind | DmEntityKind>(kind: K) {
+  return z.strictObject({ ref: z.literal(kind), key: z.string().min(1) })
 }
 
 export const EntityRefSchema = z.object({

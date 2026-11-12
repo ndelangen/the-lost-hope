@@ -60,6 +60,15 @@ canon.
 - Campaign days may be absent when no event was recorded. A session may span several campaign days,
   and a campaign day may eventually span sessions.
 
+## DM prep
+
+- Arcs own their plots. A plot links to at most one prepared scene and may link to several played
+  events. Use the same event reference wherever it advances another plot or arc.
+- Scenes own the location, setup, and possible outcomes. Events own what happened in play. Linking
+  an event leaves the plot open until the DM closes it.
+- NPCs own their motivations. Reference the NPC from prep so you can read the motivation alongside
+  the scene. Arc and scene references come from the generated `refs.arcs` and `refs.scenes` namespaces.
+
 ## Adding or changing an entity
 
 - Search all of `src/data/` before creating an entity. Names and derived slugs must be unique across
