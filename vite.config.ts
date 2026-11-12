@@ -59,7 +59,7 @@ const config = defineConfig(({ mode }) => {
       }),
       tailwindcss(),
       viteReact(),
-      netlify(),
+      netlify({ dev: { edgeFunctions: { enabled: false } } }),
     ],
   }
 })

@@ -21,6 +21,13 @@ bun run dev
 
 The development server listens on <http://localhost:3000>.
 
+### DM dashboard
+
+Open `/dm` directly. Set the server environment variable `DAG_DM_ACCESS_CODE` to a random
+32-character lowercase hexadecimal code generated with `openssl rand -hex 16`. For local dev,
+export it in the shell before starting `bun run dev`. For a hosted instance, set the variable in
+the environment where the server functions run. Changing the code invalidates existing sessions.
+
 Useful commands:
 
 ```bash

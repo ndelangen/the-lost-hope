@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as IconsRouteImport } from './routes/[_]icons'
+import { Route as DmRouteImport } from './routes/dm'
 import { Route as IntroRouteImport } from './routes/intro'
 import { Route as QuestionsRouteImport } from './routes/questions'
 import { Route as BeastsIndexRouteImport } from './routes/beasts/index'
@@ -42,6 +43,11 @@ const IndexRoute = IndexRouteImport.update({
 const IconsRoute = IconsRouteImport.update({
   id: '/_icons',
   path: '/_icons',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DmRoute = DmRouteImport.update({
+  id: '/dm',
+  path: '/dm',
   getParentRoute: () => rootRouteImport,
 } as any)
 const IntroRoute = IntroRouteImport.update({
@@ -158,6 +164,7 @@ const SessionsDetailSlugRoute = SessionsDetailSlugRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/_icons': typeof IconsRoute
+  '/dm': typeof DmRoute
   '/intro': typeof IntroRoute
   '/questions': typeof QuestionsRoute
   '/locations/list': typeof LocationsListRoute
@@ -184,6 +191,7 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/_icons': typeof IconsRoute
+  '/dm': typeof DmRoute
   '/intro': typeof IntroRoute
   '/questions': typeof QuestionsRoute
   '/locations/list': typeof LocationsListRoute
@@ -211,6 +219,7 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/_icons': typeof IconsRoute
+  '/dm': typeof DmRoute
   '/intro': typeof IntroRoute
   '/questions': typeof QuestionsRoute
   '/locations/list': typeof LocationsListRoute
@@ -239,6 +248,7 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/_icons'
+    | '/dm'
     | '/intro'
     | '/questions'
     | '/locations/list'
@@ -265,6 +275,7 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/_icons'
+    | '/dm'
     | '/intro'
     | '/questions'
     | '/locations/list'
@@ -291,6 +302,7 @@ export interface FileRouteTypes {
     | '__root__'
     | '/'
     | '/_icons'
+    | '/dm'
     | '/intro'
     | '/questions'
     | '/locations/list'
@@ -318,6 +330,7 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   IconsRoute: typeof IconsRoute
+  DmRoute: typeof DmRoute
   IntroRoute: typeof IntroRoute
   QuestionsRoute: typeof QuestionsRoute
   LocationsListRoute: typeof LocationsListRoute
@@ -356,6 +369,13 @@ declare module '@tanstack/react-router' {
       path: '/_icons'
       fullPath: '/_icons'
       preLoaderRoute: typeof IconsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dm': {
+      id: '/dm'
+      path: '/dm'
+      fullPath: '/dm'
+      preLoaderRoute: typeof DmRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/intro': {
@@ -518,6 +538,7 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   IconsRoute: IconsRoute,
+  DmRoute: DmRoute,
   IntroRoute: IntroRoute,
   QuestionsRoute: QuestionsRoute,
   LocationsListRoute: LocationsListRoute,
