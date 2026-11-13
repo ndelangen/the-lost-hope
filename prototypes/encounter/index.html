@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Encounter prototype · The Lost Hope</title>
+    <link rel="stylesheet" href="/encounter.css" />
+  </head>
+  <body>
+    <main>
+      <header class="page-header">
+        <p class="campaign">The Lost Hope</p>
+        <h1>Encounter tracker</h1>
+        <p class="muted">Local prototype with sample stats. Changes save in this browser.</p>
+      </header>
+      <section class="initiative" aria-labelledby="initiative-title">
+        <header class="section-header">
+          <div>
+            <h2 id="initiative-title">Initiative</h2>
+            <p class="visually-hidden" id="move-hint">Drag to reorder or use Alt + arrow keys.</p>
+          </div>
+          <div class="turn-controls">
+            <span id="round"></span>
+            <button
+              class="icon-button"
+              data-action="previous"
+              type="button"
+              aria-label="Previous turn"
+            ></button>
+            <button
+              class="icon-button"
+              data-action="next"
+              type="button"
+              aria-label="Next turn"
+            ></button>
+          </div>
+        </header>
+        <div id="order"></div>
+        <span id="turn-status" class="visually-hidden" role="status"></span>
+      </section>
+      <section id="legendary-row" aria-label="Legendary actions" hidden></section>
+      <section class="roster-section" aria-labelledby="roster-title">
+        <h2 id="roster-title" class="visually-hidden">Combatants</h2>
+        <div class="workspace">
+          <section class="roster-panel" aria-labelledby="roster-heading">
+            <h2 id="roster-heading">Roster <span id="roster-count"></span></h2>
+            <div id="roster"></div>
+          </section>
+          <section id="stat-block" aria-label="Selected combatant"></section>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/encounter.js"></script>
+  </body>
+</html>
