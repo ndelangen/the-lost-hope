@@ -59,7 +59,9 @@ const config = defineConfig(({ mode }) => {
       }),
       tailwindcss(),
       viteReact(),
-      netlify(),
+      // The site has no edge functions. Netlify's edge emulator starts Deno with --allow-scripts,
+      // which Deno 2.9 rejects, so leave it off to keep `bun run dev` working.
+      netlify({ dev: { edgeFunctions: { enabled: false } } }),
     ],
   }
 })
