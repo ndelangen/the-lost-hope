@@ -8,8 +8,8 @@ import { collectReferences } from './campaign-read-model'
  */
 export const DM_FIELDS = {
   beast: ['background'],
-  pc: ['background'],
-  npc: ['motivations', 'background'],
+  pc: ['secretMemberships', 'background'],
+  npc: ['motivations', 'secretMemberships', 'background'],
   location: ['background'],
   event: ['background'],
   session: [],

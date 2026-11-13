@@ -7,8 +7,8 @@ export default createLocation({
   type: 'building',
   parent: refs.locations.shadowpeak_residential_district,
   at: [525, 350],
-  notes: [
-    ['The only tavern in ', refs.locations.shadowpeak, '.'],
+  notes: [['The only tavern in ', refs.locations.shadowpeak, '.']],
+  background: [
     [
       refs.npcs.borris,
       ' owned the tavern before gifting it to ',

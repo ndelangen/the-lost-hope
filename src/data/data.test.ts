@@ -75,8 +75,6 @@ describe('location import order', () => {
       locations.skynet.slug,
     )
     expect(locationParent(locations.gruumsh_war_temple)?.slug).toBe(locations.skynet.slug)
-    expect(locationParent(locations.night_mothers_church)?.slug).toBe(locations.skynet.slug)
-    expect(locationParent(locations.temple_of_the_watchers)?.slug).toBe(locations.nimbus.slug)
     expect(locationParent(locations.serpent_eclipse_dungeon_entrance)?.slug).toBe(
       locations.temple_of_the_serpent_eclipse.slug,
     )
@@ -457,12 +455,11 @@ describe('adventuring parties', () => {
 
   it('records the Lucky Palm members and Fix’s other allegiances', () => {
     expect(pcs.fix.memberships?.map(({ organization }) => organization.key).toSorted()).toEqual(
-      [
-        refs.organizations.adventurers_guild.key,
-        refs.organizations.lucky_palm.key,
-        refs.organizations.the_eyeless_hand.key,
-      ].toSorted(),
+      [refs.organizations.adventurers_guild.key, refs.organizations.lucky_palm.key].toSorted(),
     )
+    expect(
+      SOURCE_REGISTRIES.pc.fix.secretMemberships?.map(({ organization }) => organization.key),
+    ).toEqual([refs.organizations.the_eyeless_hand.key])
     expect(
       [npcs.hex, npcs.sneeve].every((npc) =>
         npc.memberships?.some(

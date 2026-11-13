@@ -21,6 +21,10 @@ export const NPC = deriveSlug(
       'One-line identity/flavor; may mix text and `refs.*` tokens',
     ),
     memberships: z.array(Membership).optional(),
+    secretMemberships: z
+      .array(Membership)
+      .optional()
+      .describe('DM only: memberships the party has not discovered'),
     motivations: Content.optional().describe('DM only: what the NPC wants and why'),
     background: Background,
   }),

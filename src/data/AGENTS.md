@@ -75,6 +75,7 @@ canon.
 - `background` holds the DM-only truth about a record. NPC `motivations` are DM-only too. The
   player projection removes every field listed in `DM_FIELDS` (`src/lib/player-visibility.ts`);
   list any new DM-only field there.
+- A membership the party has not discovered goes in `secretMemberships`, not `memberships`.
 - Never write "Secret:" or "DM note:" prose into `notes`. Put the truth in `background` instead.
 - When players discover part of a `background`, move that part into `notes` and record the
   discovery as an event. Move it; never keep both copies.

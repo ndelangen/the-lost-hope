@@ -82,6 +82,19 @@ describe('player campaign', () => {
     expect(resolveRef(refs.events.n2_e059)?.data).not.toHaveProperty('background')
   })
 
+  it('keeps undiscovered memberships out of player records', () => {
+    expect(SOURCE_REGISTRIES.pc.fix.secretMemberships).toHaveLength(1)
+    expect(getEntity('pc', 'fix')?.data).not.toHaveProperty('secretMemberships')
+  })
+
+  it('hides records the party has not met yet', () => {
+    expect(SOURCE_REGISTRIES.npc.knukkles).toBeDefined()
+    expect(getEntity('npc', 'knukkles')).toBeUndefined()
+    expect(getEntity('location', 'night-mothers-church')).toBeUndefined()
+    expect(getEntity('location', 'temple-of-the-watchers')).toBeUndefined()
+    expect(searchEntities('knukkles')).toEqual([])
+  })
+
   it('does not find DM-only text through search', () => {
     expect(searchEntities('actively hunting him')).toEqual([])
   })

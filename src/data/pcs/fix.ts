@@ -13,14 +13,16 @@ export default createPC({
       rank: 'Member',
     },
     {
-      organization: refs.organizations.the_eyeless_hand,
-      status: 'active',
-      rank: 'Bounty Hunter',
-    },
-    {
       organization: refs.organizations.lucky_palm,
       status: 'active',
       rank: 'Member',
+    },
+  ],
+  secretMemberships: [
+    {
+      organization: refs.organizations.the_eyeless_hand,
+      status: 'active',
+      rank: 'Bounty Hunter',
     },
   ],
   notes: [
