@@ -28,6 +28,8 @@ export default createEvent({
       refs.events.n2_e034,
       '.',
     ],
+  ],
+  background: [
     [
       'The disclosure gave ',
       refs.pcs.fix,

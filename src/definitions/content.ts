@@ -47,3 +47,12 @@ export const Content = z.lazy(() =>
     ),
   ),
 )
+
+/**
+ * DM-only truth about a record. Players see `notes`; the player projection removes `background`
+ * (see `DM_FIELDS` in `src/lib/player-visibility.ts`). Refs inside it never introduce a record to
+ * players. When players discover part of it, move that part into `notes`; never copy it.
+ */
+export const Background = Content.optional().describe(
+  'DM only: the hidden truth about this record. Never shown to players.',
+)

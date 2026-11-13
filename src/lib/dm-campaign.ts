@@ -4,8 +4,9 @@ import sceneRecords from '#/data/scenes/_index'
 import type { Arc } from '#/definitions/arc'
 import { ENTITY_KINDS, type EntityRef } from '#/definitions/kind'
 import type { Scene } from '#/definitions/scene'
-import { allEntities, campaignSessions, resolveRef, sessionSlugForEvent } from '#/lib/campaign'
+import { campaignSessions, resolveRef, sessionSlugForEvent } from '#/lib/campaign'
 import { collectReferences } from '#/lib/campaign-read-model'
+import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 
 export const arcs: Readonly<Record<string, Arc>> = arcRecords
 export const scenes: Readonly<Record<string, Scene>> = sceneRecords
@@ -35,16 +36,30 @@ export function sessionsForArc(arc: Arc) {
   return campaignSessions().filter(({ slug }) => sessionSlugs.has(slug))
 }
 
+/** Resolve against the full campaign source, which includes records players have not met. */
+function resolveSourceRef(ref: EntityRef) {
+  return Object.hasOwn(SOURCE_REGISTRIES[ref.ref], ref.key)
+    ? (SOURCE_REGISTRIES[ref.ref] as Record<string, { slug: string }>)[ref.key]
+    : undefined
+}
+
 export function validateDmReferences(arcRegistry = arcs, sceneRegistry = scenes): string[] {
   const problems: string[] = []
-  const slugs = new Set(ENTITY_KINDS.flatMap((kind) => allEntities(kind).map(({ slug }) => slug)))
+  const slugs = new Set(
+    ENTITY_KINDS.flatMap((kind) =>
+      Object.values(SOURCE_REGISTRIES[kind] as Record<string, { slug: string }>).map(
+        ({ slug }) => slug,
+      ),
+    ),
+  )
 
   for (const record of [...Object.values(arcRegistry), ...Object.values(sceneRegistry)]) {
     if (!record.slug || slugs.has(record.slug))
       problems.push(`Invalid or duplicate slug: ${record.slug}`)
     slugs.add(record.slug)
     for (const ref of collectReferences(record)) {
-      if (!resolveRef(ref)) problems.push(`${record.name}: unknown ${ref.ref} reference ${ref.key}`)
+      if (!resolveSourceRef(ref))
+        problems.push(`${record.name}: unknown ${ref.ref} reference ${ref.key}`)
     }
   }
 
@@ -61,9 +76,14 @@ export function validateDmReferences(arcRegistry = arcs, sceneRegistry = scenes)
     }
   }
 
-  for (const npc of Object.values(npcRecords)) {
-    for (const ref of collectReferences(npc.motivations)) {
-      if (!resolveRef(ref)) problems.push(`${npc.name}: unknown motivation reference ${ref.key}`)
+  // DM fields such as `background` and `motivations` only exist in the source, so check every
+  // source record here; the player model's integrity test cannot see them.
+  for (const kind of ENTITY_KINDS) {
+    for (const record of Object.values(SOURCE_REGISTRIES[kind] as Record<string, object>)) {
+      for (const ref of collectReferences(record)) {
+        if (!resolveSourceRef(ref))
+          problems.push(`${kind}: unknown ${ref.ref} reference ${ref.key}`)
+      }
     }
   }
 

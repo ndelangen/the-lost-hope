@@ -1,6 +1,6 @@
 import { z } from 'zod'
 
-import { Content } from './content'
+import { Background, Content } from './content'
 import { makeCreate } from './create'
 import { EntityRefSchema } from './kind'
 import { deriveSlug } from './slug'
@@ -29,6 +29,7 @@ export const Item = deriveSlug(
       .optional()
       .describe('The number represented when this item is a stack rather than a unique object'),
     notes: Content.optional().describe('Identity or flavor not represented by structured fields'),
+    background: Background,
   }),
 )
 

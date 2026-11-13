@@ -1,6 +1,6 @@
 import { z } from 'zod'
 
-import { Content } from './content'
+import { Background, Content } from './content'
 import { makeCreate } from './create'
 import { EntityRefSchema } from './kind'
 import { deriveSlug } from './slug'
@@ -17,6 +17,7 @@ export const Organization = deriveSlug(
         "Icon-catalog id for this organization's avatar, e.g. `gi/GiCrossedSwords` — see src/lib/organization-icons.tsx. Should be unique per organization; falls back to a building placeholder when omitted.",
       ),
     notes: Content.optional(),
+    background: Background,
   }),
 )
 

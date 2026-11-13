@@ -1,6 +1,6 @@
 import { z } from 'zod'
 
-import { Content } from './content'
+import { Background, Content } from './content'
 import { makeCreate } from './create'
 import { EntityRefSchema } from './kind'
 import { DEFAULT_LOCATION_ILLUSTRATION, MediaUrl } from './media'
@@ -84,6 +84,7 @@ const locationFields = {
   notes: Content.optional().describe(
     'The single home for prose describing what the location is and how it looks. The card teaser and page body both read from it. Mix text and `refs.*` tokens for entity links; never narrate events here.',
   ),
+  background: Background,
   map: z
     .strictObject({
       url: MediaUrl,
