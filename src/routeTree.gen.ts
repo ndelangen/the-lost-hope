@@ -28,6 +28,7 @@ import { Route as SessionsIndexRouteImport } from './routes/sessions/index'
 import { Route as BeastsDetailSlugRouteImport } from './routes/beasts/detail.$slug'
 import { Route as DmArcsIndexRouteImport } from './routes/dm/arcs/index'
 import { Route as DmArcsSlugRouteImport } from './routes/dm/arcs/$slug'
+import { Route as DmArcsLabRouteImport } from './routes/dm/arcs/lab'
 import { Route as DmScenesIndexRouteImport } from './routes/dm/scenes/index'
 import { Route as DmScenesSlugRouteImport } from './routes/dm/scenes/$slug'
 import { Route as EventsDetailSlugRouteImport } from './routes/events/detail.$slug'
@@ -134,6 +135,11 @@ const DmArcsSlugRoute = DmArcsSlugRouteImport.update({
   path: '/dm/arcs/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const DmArcsLabRoute = DmArcsLabRouteImport.update({
+  id: '/dm/arcs/lab',
+  path: '/dm/arcs/lab',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const DmScenesIndexRoute = DmScenesIndexRouteImport.update({
   id: '/dm/scenes/',
   path: '/dm/scenes/',
@@ -204,6 +210,7 @@ export interface FileRoutesByFullPath {
   '/sessions/': typeof SessionsIndexRoute
   '/beasts/detail/$slug': typeof BeastsDetailSlugRoute
   '/dm/arcs/$slug': typeof DmArcsSlugRoute
+  '/dm/arcs/lab': typeof DmArcsLabRoute
   '/dm/scenes/$slug': typeof DmScenesSlugRoute
   '/events/detail/$slug': typeof EventsDetailSlugRoute
   '/items/detail/$slug': typeof ItemsDetailSlugRoute
@@ -235,6 +242,7 @@ export interface FileRoutesByTo {
   '/sessions': typeof SessionsIndexRoute
   '/beasts/detail/$slug': typeof BeastsDetailSlugRoute
   '/dm/arcs/$slug': typeof DmArcsSlugRoute
+  '/dm/arcs/lab': typeof DmArcsLabRoute
   '/dm/scenes/$slug': typeof DmScenesSlugRoute
   '/events/detail/$slug': typeof EventsDetailSlugRoute
   '/items/detail/$slug': typeof ItemsDetailSlugRoute
@@ -267,6 +275,7 @@ export interface FileRoutesById {
   '/sessions/': typeof SessionsIndexRoute
   '/beasts/detail/$slug': typeof BeastsDetailSlugRoute
   '/dm/arcs/$slug': typeof DmArcsSlugRoute
+  '/dm/arcs/lab': typeof DmArcsLabRoute
   '/dm/scenes/$slug': typeof DmScenesSlugRoute
   '/events/detail/$slug': typeof EventsDetailSlugRoute
   '/items/detail/$slug': typeof ItemsDetailSlugRoute
@@ -300,6 +309,7 @@ export interface FileRouteTypes {
     | '/sessions/'
     | '/beasts/detail/$slug'
     | '/dm/arcs/$slug'
+    | '/dm/arcs/lab'
     | '/dm/scenes/$slug'
     | '/events/detail/$slug'
     | '/items/detail/$slug'
@@ -331,6 +341,7 @@ export interface FileRouteTypes {
     | '/sessions'
     | '/beasts/detail/$slug'
     | '/dm/arcs/$slug'
+    | '/dm/arcs/lab'
     | '/dm/scenes/$slug'
     | '/events/detail/$slug'
     | '/items/detail/$slug'
@@ -362,6 +373,7 @@ export interface FileRouteTypes {
     | '/sessions/'
     | '/beasts/detail/$slug'
     | '/dm/arcs/$slug'
+    | '/dm/arcs/lab'
     | '/dm/scenes/$slug'
     | '/events/detail/$slug'
     | '/items/detail/$slug'
@@ -394,6 +406,7 @@ export interface RootRouteChildren {
   SessionsIndexRoute: typeof SessionsIndexRoute
   BeastsDetailSlugRoute: typeof BeastsDetailSlugRoute
   DmArcsSlugRoute: typeof DmArcsSlugRoute
+  DmArcsLabRoute: typeof DmArcsLabRoute
   DmScenesSlugRoute: typeof DmScenesSlugRoute
   EventsDetailSlugRoute: typeof EventsDetailSlugRoute
   ItemsDetailSlugRoute: typeof ItemsDetailSlugRoute
@@ -542,6 +555,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DmArcsSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/dm/arcs/lab': {
+      id: '/dm/arcs/lab'
+      path: '/dm/arcs/lab'
+      fullPath: '/dm/arcs/lab'
+      preLoaderRoute: typeof DmArcsLabRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/dm/scenes/': {
       id: '/dm/scenes/'
       path: '/dm/scenes'
@@ -634,6 +654,7 @@ const rootRouteChildren: RootRouteChildren = {
   SessionsIndexRoute: SessionsIndexRoute,
   BeastsDetailSlugRoute: BeastsDetailSlugRoute,
   DmArcsSlugRoute: DmArcsSlugRoute,
+  DmArcsLabRoute: DmArcsLabRoute,
   DmScenesSlugRoute: DmScenesSlugRoute,
   EventsDetailSlugRoute: EventsDetailSlugRoute,
   ItemsDetailSlugRoute: ItemsDetailSlugRoute,
