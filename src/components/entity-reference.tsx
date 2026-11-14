@@ -5,11 +5,11 @@ import { Avatar } from '#/components/ui/avatar'
 import { EntityReference as EntityReferenceLink } from '#/components/ui/entity-reference'
 import type { PreviewSide } from '#/components/ui/hover-preview'
 import { Inline } from '#/components/ui/layout'
-import type { EventMark } from '#/definitions/event'
 import { DEFAULT_AVATAR } from '#/definitions/media'
 import {
   contentToText,
   effectEntry,
+  eventMarkVisual,
   eventLocation,
   getEntity,
   locationParent,
@@ -23,6 +23,7 @@ import {
   sessionNumber,
   sessionSlugForEvent,
   type EntityKind,
+  type EventMarkVisual,
 } from '#/lib/campaign'
 import { EffectIcon } from '#/lib/effect-icons'
 import { EFFECT_STATUS_LABELS } from '#/lib/effects'
@@ -205,7 +206,12 @@ function referencePresentation(
       const place = event ? eventLocation(event) : undefined
       const sessionSlug = sessionSlugForEvent(slug)
       const session = sessionSlug ? getEntity('session', sessionSlug) : undefined
-      const icon = <EventReferenceIcon mark={event?.mark} className="size-3.5" />
+      const icon = (
+        <EventReferenceIcon
+          mark={event ? eventMarkVisual(event) : undefined}
+          className="size-3.5"
+        />
+      )
       return {
         label: name,
         icon,
@@ -349,7 +355,7 @@ function PreviewLocation({ name, icon }: { name: string; icon?: string }) {
   )
 }
 
-function EventReferenceIcon({ mark, className }: { mark?: EventMark; className?: string }) {
+function EventReferenceIcon({ mark, className }: { mark?: EventMarkVisual; className?: string }) {
   if (mark?.type === 'avatar') {
     return (
       <Avatar

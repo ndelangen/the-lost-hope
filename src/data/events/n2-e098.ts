@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Alberto warns Swift against returning to the sea',
   day: 18,
   location: refs.locations.the_flying_whale,
-  mark: { type: 'avatar', url: '/assets/pcs/swift.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.swift_starblade },
   notes: [
     [
       refs.pcs.swift_starblade,

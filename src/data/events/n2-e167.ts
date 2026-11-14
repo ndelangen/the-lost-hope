@@ -5,7 +5,7 @@ export default createEvent({
   name: 'The broom ritual calls for the heart of an innocent',
   day: 24,
   location: refs.locations.skynet_s_second_best_inn,
-  mark: { type: 'avatar', url: '/assets/pcs/swift.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.swift_starblade },
   notes: [
     [
       'The party read the instructions ',

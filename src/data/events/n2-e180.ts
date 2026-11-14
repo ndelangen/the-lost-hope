@@ -5,7 +5,7 @@ export default createEvent({
   name: "The shipwright explains the ents' final voyages",
   day: 24,
   location: refs.locations.skynet,
-  mark: { type: 'avatar', url: '/assets/pcs/placeholder.svg' },
+  mark: { type: 'avatar', of: refs.npcs.esia },
   notes: [
     [
       'Asked why ents worked on ships made from the bodies of dead ents, ',

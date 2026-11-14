@@ -5,7 +5,7 @@ export default createEvent({
   name: 'The party helps Sarogarth sell an ancient coin',
   day: 24,
   location: refs.locations.skynet,
-  mark: { type: 'avatar', url: '/assets/pcs/devan.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.devan },
   notes: [
     [
       refs.pcs.devan,

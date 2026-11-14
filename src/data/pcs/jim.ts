@@ -10,10 +10,12 @@ export default createPC({
     {
       url: '/assets/pcs/jim.jpg',
       description: 'Jim in his human form before becoming ethereal',
+      until: 24,
     },
     {
       url: '/assets/pcs/jim-kenku.jpg',
       description: 'Jim wearing his former kenku disguise',
+      until: 20,
     },
   ],
   status: 'active',

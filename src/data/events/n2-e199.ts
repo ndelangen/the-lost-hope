@@ -15,5 +15,5 @@ export default createEvent({
   ],
   day: 24,
   location: refs.locations.nimbus,
-  mark: { type: 'avatar', url: '/assets/pcs/devan.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.devan },
 })

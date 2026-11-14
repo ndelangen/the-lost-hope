@@ -5,7 +5,7 @@ export default createEvent({
   name: "Sarogarth corrects Devan's holy text",
   day: 23,
   location: refs.locations.skynet_s_second_best_inn,
-  mark: { type: 'avatar', url: '/assets/pcs/devan.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.devan },
   notes: [
     [
       'At breakfast, ',

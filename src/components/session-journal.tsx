@@ -6,7 +6,7 @@ import { EventReference } from '#/components/event-reference'
 import { LocationReference } from '#/components/location-reference'
 import { Avatar } from '#/components/ui/avatar'
 import { Inline, Stack } from '#/components/ui/layout'
-import type { EventMark } from '#/definitions/event'
+import type { EventMarkVisual } from '#/lib/campaign'
 import { ENTITY_KIND_VISUALS } from '#/lib/entity-kind-visuals'
 import { EventMarkIcon } from '#/lib/event-icons'
 import type {
@@ -168,7 +168,7 @@ function JournalEvent({ event }: { event: SessionJournalEvent }) {
   )
 }
 
-function JournalEventMark({ mark }: { mark: EventMark }) {
+function JournalEventMark({ mark }: { mark: EventMarkVisual }) {
   if (mark.type === 'avatar') {
     return (
       <Avatar

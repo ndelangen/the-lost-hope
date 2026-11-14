@@ -5,7 +5,7 @@ export default createEvent({
   name: "The party plans a crossroads ritual for Swift's broom",
   day: 23,
   location: refs.locations.skynet,
-  mark: { type: 'avatar', url: '/assets/pcs/swift.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.swift_starblade },
   notes: [
     [
       'The party discussed recovering ',

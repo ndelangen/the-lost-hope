@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Cassian learns the ring is turning him into a werewolf',
   day: 21,
   location: refs.locations.gruumsh_temple_library,
-  mark: { type: 'avatar', url: '/assets/pcs/cassian.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.cassian_veyl },
   notes: [
     [
       'Research in the ',

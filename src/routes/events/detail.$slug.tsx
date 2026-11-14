@@ -10,7 +10,7 @@ import { ImageViewer } from '#/components/image-viewer'
 import { LocationReference } from '#/components/location-reference'
 import { Inline, Stack } from '#/components/ui/layout'
 import { DEFAULT_AVATAR } from '#/definitions/media'
-import { eventLocation, getEntity } from '#/lib/campaign'
+import { eventLocation, eventMarkVisual, getEntity } from '#/lib/campaign'
 import { entityContextData } from '#/lib/entity-context-data'
 import { EventMarkIcon } from '#/lib/event-icons'
 import { publicEntityPageHead } from '#/lib/public-page-metadata'
@@ -30,18 +30,19 @@ function EventPage() {
 
   const event = entity.data
   const place = eventLocation(event)
+  const mark = eventMarkVisual(event)
 
   return (
     <EntityDetail
       kind="event"
       title={event.name}
       visual={
-        event.mark.type === 'avatar'
+        mark.type === 'avatar'
           ? {
               variant: 'avatar',
               content: (
                 <ImageViewer
-                  src={event.mark.url}
+                  src={mark.url}
                   fallbackSrc={DEFAULT_AVATAR}
                   alt={event.name}
                   title={event.name}
@@ -52,7 +53,7 @@ function EventPage() {
             }
           : {
               variant: 'icon',
-              content: <EventMarkIcon name={event.mark.name} className="size-10" />,
+              content: <EventMarkIcon name={mark.name} className="size-10" />,
             }
       }
       headerAside={

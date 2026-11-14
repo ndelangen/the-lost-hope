@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Onana offers cheaper lodging and pays the inn bill',
   day: 24,
   location: refs.locations.tempest,
-  mark: { type: 'avatar', url: '/assets/pcs/jim.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.jim },
   notes: [
     [
       refs.npcs.onana_tempest,

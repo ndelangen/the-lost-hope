@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Crowy becomes the Bird of Gluttony',
   day: 21,
   location: refs.locations.skynet_s_second_best_inn,
-  mark: { type: 'avatar', url: '/assets/pcs/jim.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.jim },
   notes: [
     [
       refs.npcs.crowy,

@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Steve awakens as a magical mace of returning',
   day: 19,
   location: refs.locations.the_flying_whale,
-  mark: { type: 'avatar', url: '/assets/pcs/devan.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.devan },
   notes: [
     [
       refs.pcs.devan,

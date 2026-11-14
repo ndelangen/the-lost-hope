@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Bob’s skeletal appearance triggers a final warning',
   day: 20,
   location: refs.locations.bob_s_stall,
-  mark: { type: 'avatar', url: '/assets/pcs/jim-kenku.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.jim },
   notes: [
     [
       'While the party was still shopping at ',

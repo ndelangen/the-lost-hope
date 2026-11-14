@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Cassian discovers his ring’s hunger',
   day: 20,
   location: refs.locations.gambling_deck,
-  mark: { type: 'avatar', url: '/assets/pcs/cassian.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.cassian_veyl },
   notes: [
     [
       'Despite eating a large breakfast, ',

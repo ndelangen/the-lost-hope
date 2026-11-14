@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Devan buys an enslaved child’s freedom',
   day: 17,
   location: refs.locations.shadowpeak_mining_operation,
-  mark: { type: 'avatar', url: '/assets/pcs/devan.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.devan },
   notes: [
     [
       refs.pcs.devan,

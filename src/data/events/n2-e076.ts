@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Devan interrogates and kills Roberto',
   day: 15,
   location: refs.locations.verdant_haven_forest,
-  mark: { type: 'avatar', url: '/assets/pcs/devan.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.devan },
   notes: [
     [
       refs.pcs.devan,

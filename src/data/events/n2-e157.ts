@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Devan becomes a wandering priest and meets Grimgor',
   day: 22,
   location: refs.locations.gruumsh_temple_main_hall,
-  mark: { type: 'avatar', url: '/assets/pcs/devan.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.devan },
   notes: [
     [
       refs.pcs.devan,

@@ -5,7 +5,7 @@ export default createEvent({
   name: 'The green rod protects Jim from the morning lightning',
   day: 23,
   location: refs.locations.jim_s_room_at_skynet_s_second_best_inn,
-  mark: { type: 'avatar', url: '/assets/pcs/jim.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.jim },
   notes: [
     [
       'The morning lightning of ',

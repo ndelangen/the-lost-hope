@@ -5,10 +5,7 @@ export default createEvent({
   name: 'The survivors sail for Verdant Haven',
   day: 14,
   location: refs.locations.fairhaven_evacuation_ship,
-  mark: {
-    type: 'avatar',
-    url: 'https://www.dndbeyond.com/avatars/52821/990/1581111423-155753427.jpeg',
-  },
+  mark: { type: 'avatar', of: refs.pcs.theron },
   notes: [
     [
       'After drifting while the survivors debated where to go, the party chose ',

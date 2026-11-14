@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Swift resummons Captain Squawk after the dungeon',
   day: 23,
   location: refs.locations.skynet_s_second_best_inn,
-  mark: { type: 'avatar', url: '/assets/pcs/swift.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.swift_starblade },
   notes: [
     [
       'After resting, ',
