@@ -9,7 +9,9 @@ export default createEvent({
   notes: [
     [
       refs.pcs.cassian_veyl,
-      " could not be woken after the party's short rest. They placed him in the ",
+      " could not be woken after the party's ",
+      refs.rules.short_rest,
+      '. They placed him in the ',
       refs.items.bag_of_holding,
       ' and carried him with them.',
     ],

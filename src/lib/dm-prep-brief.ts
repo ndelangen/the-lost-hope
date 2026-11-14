@@ -17,6 +17,8 @@ import {
   campaignSessionsInOrder,
 } from '#/lib/dm-storylines'
 
+import { isRuleRef, ruleOf } from './rules'
+
 /** How a record is written in a brief: its name, then the generated ref to use in data. */
 function refText(ref: EntityRef<EntityKind | DmEntityKind>): string {
   const name =
@@ -37,9 +39,10 @@ export function sourceText(content: unknown): string {
   if (content === undefined || content === null) return ''
   if (typeof content === 'string') return content
   if (isEntityRef(content)) return refText(content)
+  if (isRuleRef(content)) return `${ruleOf(content).name} (refs.rules.${content.key})`
   if (Array.isArray(content)) {
     // A paragraph is an array of strings and refs; a Content value is an array of paragraphs.
-    return content.every((part) => typeof part === 'string' || isEntityRef(part))
+    return content.every((part) => typeof part === 'string' || isEntityRef(part) || isRuleRef(part))
       ? content.map(sourceText).join('')
       : content.map(sourceText).filter(Boolean).join('\n')
   }

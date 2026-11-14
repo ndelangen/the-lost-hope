@@ -14,7 +14,9 @@ export default createEvent({
     ],
     [
       refs.npcs.ryan,
-      ', the town’s guard captain, was charmed with the Friends spell. The recap does not identify who cast it or exactly when during the arrest it happened.',
+      ', the town’s guard captain, was ',
+      refs.rules.charmed,
+      ' with the Friends spell. The recap does not identify who cast it or exactly when during the arrest it happened.',
     ],
   ],
 })

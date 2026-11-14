@@ -69,6 +69,7 @@ import {
   slashing,
   thunder,
 } from './damage-types.ts'
+import { death_saving_throw, long_rest, short_rest } from './rests.ts'
 import {
   lair_action,
   legendary_action,
@@ -142,6 +143,9 @@ export default {
   lair_action,
   recharge,
   uses_per_day,
+  short_rest,
+  long_rest,
+  death_saving_throw,
   acid,
   bludgeoning,
   cold,

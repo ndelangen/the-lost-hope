@@ -9,6 +9,7 @@ export const RULE_CATEGORIES = {
   damageType: 'Damage type',
   area: 'Area of effect',
   statBlock: 'Stat block',
+  rest: 'Rest',
 } as const
 
 export type RuleCategory = keyof typeof RULE_CATEGORIES

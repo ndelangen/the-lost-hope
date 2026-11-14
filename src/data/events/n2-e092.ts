@@ -13,7 +13,13 @@ export default createEvent({
       refs.locations.the_flying_whale,
       ' beside the crater and gave the party one hour to board before departure.',
     ],
-    ['The initial exchange was awkward because ', refs.pcs.jim, ' was still invisible.'],
+    [
+      'The initial exchange was awkward because ',
+      refs.pcs.jim,
+      ' was still ',
+      refs.rules.invisible,
+      '.',
+    ],
     [
       'She said the vessel would visit all three ',
       refs.locations.three_sky_kingdoms,

@@ -13,7 +13,9 @@ export default createEvent({
       refs.pcs.devan,
       ' helped batter the crystal until it broke with a burst of force. ',
       refs.npcs.sarogarth,
-      ' fell out unconscious but breathing. He continued absorbing nearby magic.',
+      ' fell out ',
+      refs.rules.unconscious,
+      ' but breathing. He continued absorbing nearby magic.',
     ],
     [
       refs.pcs.jim,

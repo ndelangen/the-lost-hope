@@ -10,7 +10,13 @@ export default createEffect({
   rules: [
     [
       refs.npcs.sarogarth,
-      ' gains +2 Armor Class, stacking with armour and shields, and has advantage on saving throws against being frightened.',
+      ' gains +2 ',
+      refs.rules.armor_class,
+      ', stacking with armour and shields, and has ',
+      refs.rules.advantage,
+      ' on saving throws against being ',
+      refs.rules.frightened,
+      '.',
     ],
   ],
 })

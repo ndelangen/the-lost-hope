@@ -11,7 +11,9 @@ export default createEffect({
   rules: [
     [
       refs.pcs.cassian_veyl,
-      ' gains +1 to spell attack rolls, but every opponent has advantage on attack rolls against him.',
+      ' gains +1 to spell attack rolls, but every opponent has ',
+      refs.rules.advantage,
+      ' on attack rolls against him.',
     ],
   ],
 })

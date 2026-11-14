@@ -9,10 +9,18 @@ export default createItem({
   craftedBy: null,
   notes: [
     [
-      'A tame, living mimic worn as a cloak. A bonus action changes its colour and style. It grants +2 Armor Class.',
+      'A tame, living mimic worn as a cloak. A ',
+      refs.rules.bonus_action,
+      ' changes its colour and style. It grants +2 ',
+      refs.rules.armor_class,
+      '.',
     ],
     [
-      'While attuned, removing it requires a DC 18 Strength check. It tries to reattach unless restrained. After each long rest, its wearer must feed it or gain one level of exhaustion. The exact feeding cost is unclear in the recording.',
+      'While attuned, removing it requires a DC 18 Strength check. It tries to reattach unless ',
+      refs.rules.restrained,
+      '. After each ',
+      refs.rules.long_rest,
+      ', its wearer must feed it or gain one level of exhaustion. The exact feeding cost is unclear in the recording.',
     ],
   ],
 })

@@ -15,7 +15,9 @@ export default createEvent({
     ],
     [
       refs.pcs.jim,
-      ' resisted an unexplained compulsion to drink it and asked for beer instead. The party then took a long rest.',
+      ' resisted an unexplained compulsion to drink it and asked for beer instead. The party then took a ',
+      refs.rules.long_rest,
+      '.',
     ],
   ],
 })

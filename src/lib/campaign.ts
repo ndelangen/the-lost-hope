@@ -36,6 +36,7 @@ import {
 } from './campaign-registries'
 import type { LiveEffect } from './effect-reminders'
 import { effectExpiryDay, effectStatus, type EffectStatus } from './effects'
+import { isRuleRef, ruleOf, termLabel } from './rules'
 
 export type { EntityKind }
 export type { DataOf, Entity, EntityOf, ReverseLink, SessionDay }
@@ -240,6 +241,7 @@ export function pcStatusLabel(status: PC['status']): string {
 export function contentToText(content: unknown): string {
   if (typeof content === 'string') return content
   if (isEntityRef(content)) return refLink(content)?.name ?? ''
+  if (isRuleRef(content)) return termLabel(ruleOf(content), 'x')
   if (Array.isArray(content)) return content.map(contentToText).filter(Boolean).join(' ')
   return ''
 }
