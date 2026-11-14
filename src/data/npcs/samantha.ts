@@ -20,4 +20,5 @@ export default createNPC({
       rank: 'Dealer',
     },
   ],
+  stats: refs.creatures.spy,
 })

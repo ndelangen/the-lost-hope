@@ -1,0 +1,150 @@
+import { CONDITIONS, STANDARD_ACTIONS } from '#/definitions/rules-glossary'
+import type { AbilityTextToken } from '#/definitions/stat-block'
+
+import { signed } from './stat-block'
+
+/**
+ * Ability text that answers its own questions. Rules text is a list of tokens: plain strings and
+ * typed references to the creature's speed, its other abilities, its numbers, and rules terms.
+ * `abilityTextSegments` turns tokens into display segments using the creature's derived stat
+ * block, so the DM reads "25 ft." and "Bite +5, 2d6 + 3 piercing" instead of looking them up.
+ *
+ * Tokens are defined by the stat block schema; `deriveStatBlock` in `./stat-block` builds the
+ * derived block.
+ */
+
+export type { AbilityTextToken }
+
+type AbilityId = 'str' | 'dex' | 'con' | 'int' | 'wis' | 'cha'
+type SpeedMode = 'walk' | 'climb' | 'fly' | 'swim' | 'burrow'
+
+/** What the renderer needs from a creature's derived stat block. */
+export type DerivedAbilityFacts = {
+  key: string
+  name: string
+  /** The numbers that matter at the table, such as "+5, 2d6 + 3 piercing" or "DC 13 Str". */
+  summary?: string
+  /** The full attack line, such as "Melee +5, reach 5 ft. · Hit: 8 (1d10 + 3) piercing". */
+  attack?: string
+}
+
+export type DerivedStatBlock = {
+  speed: Partial<Record<SpeedMode, number>>
+  abilities: Readonly<Record<string, DerivedAbilityFacts>>
+  saveDc: Partial<Record<AbilityId, number>>
+  modifier: Record<AbilityId, number>
+  proficiencyBonus: number
+}
+
+export type AbilityTextSegment =
+  | { kind: 'text'; text: string }
+  | { kind: 'speed'; value: string; note: string }
+  | { kind: 'ability'; key: string; name: string; summary?: string }
+  | { kind: 'number'; value: string; note: string }
+  | { kind: 'rule'; label: string; note: string }
+
+const ABILITY_NAME: Record<AbilityId, string> = {
+  str: 'Strength',
+  dex: 'Dexterity',
+  con: 'Constitution',
+  int: 'Intelligence',
+  wis: 'Wisdom',
+  cha: 'Charisma',
+}
+
+export function formatFeet(feet: number) {
+  const whole = Math.floor(feet)
+  if (feet - whole === 0.5) return `${whole === 0 ? '' : whole}½ ft.`
+  return `${feet} ft.`
+}
+
+function speedPhrase(mode: SpeedMode, times: number) {
+  const which = mode === 'walk' ? 'its speed' : `its ${mode} speed`
+  if (times === 1) return which
+  if (times === 0.5) return `half ${which}`
+  if (times === 2) return `twice ${which}`
+  return `${times} × ${which}`
+}
+
+function segmentFor(token: AbilityTextToken, block: DerivedStatBlock): AbilityTextSegment {
+  if (typeof token === 'string') return { kind: 'text', text: token }
+
+  if ('speed' in token) {
+    const times = token.times ?? 1
+    const base = block.speed[token.speed]
+    const phrase = speedPhrase(token.speed, times)
+    if (base === undefined) return { kind: 'text', text: phrase }
+    return {
+      kind: 'speed',
+      value: formatFeet(base * times),
+      note: `${phrase.charAt(0).toUpperCase()}${phrase.slice(1)} (${formatFeet(base)})`,
+    }
+  }
+
+  if ('ability' in token) {
+    const ability = block.abilities[token.ability]
+    if (!ability) return { kind: 'text', text: token.ability }
+    return { kind: 'ability', key: ability.key, name: ability.name, summary: ability.summary }
+  }
+
+  if ('dc' in token) {
+    const dc = block.saveDc[token.dc]
+    return dc === undefined
+      ? { kind: 'text', text: `${ABILITY_NAME[token.dc]} save` }
+      : {
+          kind: 'number',
+          value: `DC ${dc}`,
+          note: `The target rolls d20 + its ${ABILITY_NAME[token.dc]} saving throw bonus and succeeds on ${dc} or higher.`,
+        }
+  }
+
+  if ('mod' in token) {
+    return {
+      kind: 'number',
+      value: signed(block.modifier[token.mod]),
+      note: `${ABILITY_NAME[token.mod]} modifier`,
+    }
+  }
+
+  if ('pb' in token) {
+    return {
+      kind: 'number',
+      value: signed(block.proficiencyBonus),
+      note: 'Proficiency bonus',
+    }
+  }
+
+  if ('condition' in token) {
+    return { kind: 'rule', label: token.condition, note: CONDITIONS[token.condition] }
+  }
+
+  const action = STANDARD_ACTIONS[token.action]
+  return { kind: 'rule', label: action.label, note: action.note }
+}
+
+/** Resolve ability text tokens against the creature's derived stat block. */
+export function abilityTextSegments(
+  tokens: readonly AbilityTextToken[],
+  block: DerivedStatBlock,
+): AbilityTextSegment[] {
+  return tokens.map((token) => segmentFor(token, block))
+}
+
+/** The resolved text as one string, for places that can only show plain text, like tooltips. */
+export function plainAbilityText(segments: readonly AbilityTextSegment[]) {
+  return segments
+    .map((segment) => {
+      switch (segment.kind) {
+        case 'text':
+          return segment.text
+        case 'speed':
+        case 'number':
+          return segment.value
+        case 'ability':
+          return segment.summary ? `${segment.name} (${segment.summary})` : segment.name
+        case 'rule':
+          return segment.label
+      }
+    })
+    .join('')
+}

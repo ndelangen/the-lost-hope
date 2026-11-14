@@ -1,5 +1,5 @@
 import { Link, createFileRoute, notFound } from '@tanstack/react-router'
-import { Pin } from 'lucide-react'
+import { Pin, Sword } from 'lucide-react'
 
 import { ContentRenderer } from '#/components/content-renderer'
 import { DmFaces } from '#/components/dm/dm-faces'
@@ -48,6 +48,14 @@ function SceneRoute() {
             {pinned ? <Pin aria-label="Pinned" className="size-5 text-amber-600" /> : null}
             {scene.name}
           </h1>
+          <Link
+            to="/dm/encounter"
+            search={{ scene: scene.slug }}
+            className="border-border hover:bg-muted flex w-fit items-center gap-2 rounded-md border px-3 py-1.5 text-sm"
+          >
+            <Sword className="size-4" /> Run encounter
+            {scene.npcs.length > 0 ? ' with this scene’s NPCs' : ''}
+          </Link>
           <p className="text-sm">
             at{' '}
             {location ? (

@@ -4,4 +4,5 @@ import { create as createNPC } from '#/definitions/npc.ts'
 export default createNPC({
   name: 'Bart',
   notes: [['A member of the gang led by the ', refs.npcs.skynet_gang_leader, '.']],
+  stats: refs.creatures.tough,
 })

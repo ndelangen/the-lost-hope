@@ -13,4 +13,5 @@ export default createNPC({
       ', according to the local gang.',
     ],
   ],
+  stats: refs.creatures.noble,
 })

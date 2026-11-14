@@ -1,10 +1,13 @@
 import arcRecords from '#/data/arcs/_index'
+import creatureRecords from '#/data/creatures/_index'
 import tableRecord from '#/data/dm/table'
 import npcRecords from '#/data/npcs/_index'
 import sceneRecords from '#/data/scenes/_index'
 import type { Arc } from '#/definitions/arc'
+import type { Creature } from '#/definitions/creature'
 import { ENTITY_KINDS, type EntityRef } from '#/definitions/kind'
 import type { Scene } from '#/definitions/scene'
+import type { OwnOrSharedStatBlock, StatBlock } from '#/definitions/stat-block'
 import type { Table } from '#/definitions/table'
 import { campaignSessions, resolveRef, sessionSlugForEvent } from '#/lib/campaign'
 import { collectReferences } from '#/lib/campaign-read-model'
@@ -13,6 +16,13 @@ import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 export const arcs: Readonly<Record<string, Arc>> = arcRecords
 export const scenes: Readonly<Record<string, Scene>> = sceneRecords
 export const table: Table = tableRecord
+export const creatures: Readonly<Record<string, Creature>> = creatureRecords
+
+/** A record's stat block: its own, or the shared creature's it references. */
+export function resolveStatBlock(stats: OwnOrSharedStatBlock | undefined): StatBlock | undefined {
+  if (!stats || !('ref' in stats)) return stats
+  return Object.hasOwn(creatures, stats.key) ? creatures[stats.key]!.stats : undefined
+}
 
 export function resolveArc(ref: EntityRef<'arc'>): Arc | undefined {
   return Object.hasOwn(arcs, ref.key) ? arcs[ref.key] : undefined

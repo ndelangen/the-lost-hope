@@ -5,6 +5,7 @@ import { makeCreate } from './create'
 import { EntityRefSchema } from './kind'
 import { DEFAULT_AVATAR, MediaUrl } from './media'
 import { deriveSlug } from './slug'
+import { OwnOrSharedStatBlock } from './stat-block'
 
 export const Beast = deriveSlug(
   z.strictObject({
@@ -14,6 +15,9 @@ export const Beast = deriveSlug(
     species: z.string().optional(),
     notes: Content.optional().describe(
       'One-line identity/flavor; may mix text and `refs.*` tokens',
+    ),
+    stats: OwnOrSharedStatBlock.describe(
+      'DM only: 5e statistics, its own or a shared creature reference. Required for every record.',
     ),
     background: Background,
   }),
