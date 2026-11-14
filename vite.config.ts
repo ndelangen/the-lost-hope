@@ -5,6 +5,7 @@ import viteReact from '@vitejs/plugin-react'
 import { defineConfig, loadEnv } from 'vite'
 import type { Plugin } from 'vite'
 
+import { dmAuthoringPlugin } from './scripts/dm-authoring.ts'
 import { generateRefs, REFERENCE_SOURCE_PATHS } from './scripts/generate-refs.ts'
 import { PUBLIC_PAGE_DESCRIPTORS, SITE_ORIGIN } from './src/lib/public-page-descriptors.ts'
 
@@ -44,6 +45,7 @@ const config = defineConfig(({ mode }) => {
     },
     plugins: [
       generatedRefsPlugin(),
+      dmAuthoringPlugin(),
       tanstackStart({
         pages: PUBLIC_PAGE_DESCRIPTORS.map(({ path }) => ({ path })),
         prerender: {

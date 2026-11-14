@@ -31,6 +31,8 @@ import { Route as DmArcsIndexRouteImport } from './routes/dm/arcs/index'
 import { Route as DmArcsSlugRouteImport } from './routes/dm/arcs/$slug'
 import { Route as DmEncounterIndexRouteImport } from './routes/dm/encounter/index'
 import { Route as DmEncounterIdRouteImport } from './routes/dm/encounter/$id'
+import { Route as DmNpcsKeyRouteImport } from './routes/dm/npcs/$key'
+import { Route as DmNpcsNewRouteImport } from './routes/dm/npcs/new'
 import { Route as DmScenesIndexRouteImport } from './routes/dm/scenes/index'
 import { Route as DmScenesSlugRouteImport } from './routes/dm/scenes/$slug'
 import { Route as EffectsDetailSlugRouteImport } from './routes/effects/detail.$slug'
@@ -153,6 +155,16 @@ const DmEncounterIdRoute = DmEncounterIdRouteImport.update({
   path: '/dm/encounter/$id',
   getParentRoute: () => rootRouteImport,
 } as any)
+const DmNpcsKeyRoute = DmNpcsKeyRouteImport.update({
+  id: '/dm/npcs/$key',
+  path: '/dm/npcs/$key',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DmNpcsNewRoute = DmNpcsNewRouteImport.update({
+  id: '/dm/npcs/new',
+  path: '/dm/npcs/new',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const DmScenesIndexRoute = DmScenesIndexRouteImport.update({
   id: '/dm/scenes/',
   path: '/dm/scenes/',
@@ -230,6 +242,8 @@ export interface FileRoutesByFullPath {
   '/beasts/detail/$slug': typeof BeastsDetailSlugRoute
   '/dm/arcs/$slug': typeof DmArcsSlugRoute
   '/dm/encounter/$id': typeof DmEncounterIdRoute
+  '/dm/npcs/$key': typeof DmNpcsKeyRoute
+  '/dm/npcs/new': typeof DmNpcsNewRoute
   '/dm/scenes/$slug': typeof DmScenesSlugRoute
   '/effects/detail/$slug': typeof EffectsDetailSlugRoute
   '/events/detail/$slug': typeof EventsDetailSlugRoute
@@ -265,6 +279,8 @@ export interface FileRoutesByTo {
   '/beasts/detail/$slug': typeof BeastsDetailSlugRoute
   '/dm/arcs/$slug': typeof DmArcsSlugRoute
   '/dm/encounter/$id': typeof DmEncounterIdRoute
+  '/dm/npcs/$key': typeof DmNpcsKeyRoute
+  '/dm/npcs/new': typeof DmNpcsNewRoute
   '/dm/scenes/$slug': typeof DmScenesSlugRoute
   '/effects/detail/$slug': typeof EffectsDetailSlugRoute
   '/events/detail/$slug': typeof EventsDetailSlugRoute
@@ -301,6 +317,8 @@ export interface FileRoutesById {
   '/beasts/detail/$slug': typeof BeastsDetailSlugRoute
   '/dm/arcs/$slug': typeof DmArcsSlugRoute
   '/dm/encounter/$id': typeof DmEncounterIdRoute
+  '/dm/npcs/$key': typeof DmNpcsKeyRoute
+  '/dm/npcs/new': typeof DmNpcsNewRoute
   '/dm/scenes/$slug': typeof DmScenesSlugRoute
   '/effects/detail/$slug': typeof EffectsDetailSlugRoute
   '/events/detail/$slug': typeof EventsDetailSlugRoute
@@ -338,6 +356,8 @@ export interface FileRouteTypes {
     | '/beasts/detail/$slug'
     | '/dm/arcs/$slug'
     | '/dm/encounter/$id'
+    | '/dm/npcs/$key'
+    | '/dm/npcs/new'
     | '/dm/scenes/$slug'
     | '/effects/detail/$slug'
     | '/events/detail/$slug'
@@ -373,6 +393,8 @@ export interface FileRouteTypes {
     | '/beasts/detail/$slug'
     | '/dm/arcs/$slug'
     | '/dm/encounter/$id'
+    | '/dm/npcs/$key'
+    | '/dm/npcs/new'
     | '/dm/scenes/$slug'
     | '/effects/detail/$slug'
     | '/events/detail/$slug'
@@ -408,6 +430,8 @@ export interface FileRouteTypes {
     | '/beasts/detail/$slug'
     | '/dm/arcs/$slug'
     | '/dm/encounter/$id'
+    | '/dm/npcs/$key'
+    | '/dm/npcs/new'
     | '/dm/scenes/$slug'
     | '/effects/detail/$slug'
     | '/events/detail/$slug'
@@ -444,6 +468,8 @@ export interface RootRouteChildren {
   BeastsDetailSlugRoute: typeof BeastsDetailSlugRoute
   DmArcsSlugRoute: typeof DmArcsSlugRoute
   DmEncounterIdRoute: typeof DmEncounterIdRoute
+  DmNpcsKeyRoute: typeof DmNpcsKeyRoute
+  DmNpcsNewRoute: typeof DmNpcsNewRoute
   DmScenesSlugRoute: typeof DmScenesSlugRoute
   EffectsDetailSlugRoute: typeof EffectsDetailSlugRoute
   EventsDetailSlugRoute: typeof EventsDetailSlugRoute
@@ -615,6 +641,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DmEncounterIdRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/dm/npcs/$key': {
+      id: '/dm/npcs/$key'
+      path: '/dm/npcs/$key'
+      fullPath: '/dm/npcs/$key'
+      preLoaderRoute: typeof DmNpcsKeyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dm/npcs/new': {
+      id: '/dm/npcs/new'
+      path: '/dm/npcs/new'
+      fullPath: '/dm/npcs/new'
+      preLoaderRoute: typeof DmNpcsNewRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/dm/scenes/': {
       id: '/dm/scenes/'
       path: '/dm/scenes'
@@ -716,6 +756,8 @@ const rootRouteChildren: RootRouteChildren = {
   BeastsDetailSlugRoute: BeastsDetailSlugRoute,
   DmArcsSlugRoute: DmArcsSlugRoute,
   DmEncounterIdRoute: DmEncounterIdRoute,
+  DmNpcsKeyRoute: DmNpcsKeyRoute,
+  DmNpcsNewRoute: DmNpcsNewRoute,
   DmScenesSlugRoute: DmScenesSlugRoute,
   EffectsDetailSlugRoute: EffectsDetailSlugRoute,
   EventsDetailSlugRoute: EventsDetailSlugRoute,
