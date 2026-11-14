@@ -71,6 +71,7 @@ export function InitiativeRail({
                   <ConditionBadges
                     conditions={row.combat.conditions}
                     concentration={row.combat.concentration}
+                    effects={row.effects}
                     out={
                       row.combat.dead
                         ? 'dead'

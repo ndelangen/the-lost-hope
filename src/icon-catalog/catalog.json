@@ -121826,7 +121826,8 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/cursed-star.html",
       "usedIn": [
         "src/data/effects/cassian-s-unidentified-curse.ts",
-        "src/lib/effect-icons.tsx"
+        "src/lib/effect-icons.tsx",
+        "src/lib/encounter-combat.test.ts"
       ]
     },
     {
@@ -263669,6 +263670,8 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/castle",
       "usedIn": [
+        "src/components/dm/encounter/combat-status.tsx",
+        "src/components/dm/encounter/turn-card.tsx",
         "src/lib/location-icons.tsx"
       ]
     },
@@ -264688,7 +264691,8 @@
       "sourceUrl": "https://lucide.dev/icons/chevron-down",
       "usedIn": [
         "src/components/campaign-shell/sidebar.tsx",
-        "src/components/dm/encounter/combat-table.tsx"
+        "src/components/dm/encounter/combat-table.tsx",
+        "src/components/dm/encounter/encounter-notes.tsx"
       ]
     },
     {
@@ -272587,6 +272591,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/eye",
       "usedIn": [
+        "src/components/dm/encounter/party-strip.tsx",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -280169,6 +280174,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/heart",
       "usedIn": [
+        "src/components/dm/encounter/party-strip.tsx",
         "src/lib/condition-icons.tsx"
       ]
     },
@@ -289365,7 +289371,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/notebook-pen",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/encounter/encounter-notes.tsx"
+      ]
     },
     {
       "id": "lucide/NotebookTabs",
@@ -296524,6 +296532,7 @@
       "usedIn": [
         "src/components/dm/encounter/combat-table.tsx",
         "src/components/dm/encounter/combatant-panel.tsx",
+        "src/components/dm/encounter/party-strip.tsx",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -298408,6 +298417,7 @@
       "usedIn": [
         "src/components/campaign-shell/sidebar-data.ts",
         "src/components/dm/encounter/ability-controls.tsx",
+        "src/components/dm/encounter/party-strip.tsx",
         "src/lib/condition-icons.tsx",
         "src/lib/entity-kind-visuals.ts",
         "src/lib/location-icons.tsx"

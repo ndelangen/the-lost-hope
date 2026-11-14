@@ -1,8 +1,11 @@
 import { Brain, X } from 'lucide-react'
 
+import { EffectText } from '#/components/effect-text'
 import { HoverPreview } from '#/components/ui/hover-preview'
+import type { Effect } from '#/definitions/effect'
 import { CONDITIONS } from '#/definitions/rules-glossary'
 import { CONDITION_ICONS } from '#/lib/condition-icons'
+import { EffectIcon } from '#/lib/effect-icons'
 import { describeDuration, type ActiveCondition } from '#/lib/encounter-combat'
 import { cn } from '#/lib/utils'
 
@@ -112,14 +115,17 @@ export function ConditionBadges({
   conditions,
   concentration,
   out,
+  effects = [],
 }: {
   conditions: readonly ActiveCondition[]
   concentration?: { on: string }
   /** Down or dead. */
   out?: 'down' | 'dead' | 'dying' | 'stable'
+  /** Campaign effects in force on the combatant. */
+  effects?: readonly Pick<Effect, 'name' | 'icon'>[]
 }) {
   const focus = useDensity() === 'focus'
-  if (conditions.length === 0 && !concentration && !out) return null
+  if (conditions.length === 0 && !concentration && !out && effects.length === 0) return null
   const badge = cn(
     'inline-flex items-center justify-center rounded-md',
     focus ? 'size-7 [&_svg]:size-4' : 'size-5 [&_svg]:size-3.5',
@@ -140,6 +146,16 @@ export function ConditionBadges({
           {out}
         </span>
       ) : null}
+      {effects.map((effect) => (
+        <span
+          key={effect.name}
+          title={effect.name}
+          className={cn(badge, 'bg-sky-500/15 text-sky-800 dark:text-sky-300')}
+        >
+          <EffectIcon icon={effect.icon} />
+          <span className="sr-only">{effect.name}</span>
+        </span>
+      ))}
       {concentration ? (
         <span
           title={`Concentrating${concentration.on ? ` on ${concentration.on}` : ''}`}
@@ -162,6 +178,42 @@ export function ConditionBadges({
           </span>
         )
       })}
+    </span>
+  )
+}
+
+/** Campaign effects on a combatant: read-only here, with the effect's rules on hover or tap. */
+export function EffectMarkers({
+  effects,
+}: {
+  effects: readonly Pick<Effect, 'name' | 'icon' | 'rules'>[]
+}) {
+  const focus = useDensity() === 'focus'
+  if (effects.length === 0) return null
+  return (
+    <span className="flex flex-wrap items-center gap-1">
+      {effects.map((effect) => (
+        <HoverPreview
+          key={effect.name}
+          content={
+            <>
+              <strong>{effect.name}</strong>
+              <EffectText text={effect.rules} className="text-xs" />
+            </>
+          }
+        >
+          <button
+            type="button"
+            className={cn(
+              'inline-flex items-center gap-1 rounded-md border border-sky-500/40 bg-sky-500/10 font-medium text-sky-800 outline-none focus-visible:ring-3 focus-visible:ring-ring/50 dark:text-sky-300',
+              focus ? 'h-8 px-2 text-sm [&_svg]:size-4' : 'h-6 px-1.5 text-xs [&_svg]:size-3.5',
+            )}
+          >
+            <EffectIcon icon={effect.icon} />
+            {effect.name}
+          </button>
+        </HoverPreview>
+      ))}
     </span>
   )
 }

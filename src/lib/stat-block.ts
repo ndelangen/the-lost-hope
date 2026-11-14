@@ -118,9 +118,9 @@ export const SKILL_LABELS: Record<Skill, string> = {
   survival: 'Survival',
 }
 
-/** Every ability in the block, including legendary actions. */
+/** Every ability in the block, including legendary and lair actions. */
 export function allAbilities(stats: StatBlock): readonly Ability[] {
-  return [...stats.abilities, ...(stats.legendary?.actions ?? [])]
+  return [...stats.abilities, ...(stats.legendary?.actions ?? []), ...(stats.lairActions ?? [])]
 }
 
 function proficiencyMultiplier(level: 'proficient' | 'expert' | undefined) {

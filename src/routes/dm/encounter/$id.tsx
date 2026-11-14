@@ -11,12 +11,14 @@ import { CombatTable, type CombatantControls } from '#/components/dm/encounter/c
 import { CombatantPanel, type UseActions } from '#/components/dm/encounter/combatant-panel'
 import { EncounterDensity } from '#/components/dm/encounter/density'
 import { DmScreen } from '#/components/dm/encounter/dm-screen'
+import { EncounterNotes } from '#/components/dm/encounter/encounter-notes'
 import { EncounterRoster, type RosterRow } from '#/components/dm/encounter/encounter-roster'
 import { FocusToolbar } from '#/components/dm/encounter/focus-toolbar'
 import { ActionButton } from '#/components/dm/encounter/icon-button'
 import { InitiativeRail } from '#/components/dm/encounter/initiative-rail'
 import { InitiativeRow } from '#/components/dm/encounter/initiative-row'
 import { LegendaryRow, type LegendaryGroup } from '#/components/dm/encounter/legendary-row'
+import { PartyStrip } from '#/components/dm/encounter/party-strip'
 import { ConcentrationPrompt, TurnCard } from '#/components/dm/encounter/turn-card'
 import { newEncounterId, useEncounterStore } from '#/components/dm/encounter/use-encounter-store'
 import { resolveScene } from '#/lib/dm-campaign'
@@ -38,12 +40,14 @@ import {
   liveStats,
   markDead,
   moveCombatant,
+  recordLairAction,
   recharge,
   removeCombatant,
   removeCondition,
   resetCombatant,
   resetEncounter,
   setConcentration,
+  setInLair,
   setStat,
   setUses,
   spendUse,
@@ -53,7 +57,13 @@ import {
   remainingUses,
   type Encounter,
 } from '#/lib/encounter'
-import { concentrationDc, startOfTurnReminders, type TurnNote } from '#/lib/encounter-combat'
+import {
+  concentrationDc,
+  effectTriggerReminders,
+  lairPrompts,
+  startOfTurnReminders,
+  type TurnNote,
+} from '#/lib/encounter-combat'
 import {
   DEFAULT_FOCUS_LAYOUT,
   FOCUS_LAYOUTS,
@@ -144,8 +154,8 @@ function EncounterRoute() {
   const combatants = encounter.roster.map((entry) => combatantView(entry, encounter.roster))
   const rows: RosterRow[] = combatants.map((combatant) => {
     const saved = values[combatant.id]
-    const live = liveStats(combatant.derived, saved)
-    const down = combatant.tracked && live.hp === 0
+    const live = liveStats(combatant.start, saved)
+    const down = combatant.tracked && combatant.kind !== 'PC' && live.hp === 0
     return {
       ...combatant,
       live,
@@ -156,6 +166,7 @@ function EncounterRoute() {
         stable: saved?.stable,
         dead: saved?.dead,
         down,
+        hp: live.hp,
       },
       out: Boolean(saved?.dead) || down,
     }
@@ -206,7 +217,7 @@ function EncounterRoute() {
       setStat: (field, value) =>
         updateEncounter((current) => setStat(current, row.id, field, value)),
       adjustHp: (delta) => {
-        updateEncounter((current) => adjustHp(current, row.id, row.derived, delta))
+        updateEncounter((current) => adjustHp(current, row.id, row.start, delta))
         // Damage to a concentrating creature calls for a save right away.
         if (delta < 0 && values[row.id]?.concentration)
           setConcentrationCheck({ id: row.id, dc: concentrationDc(-delta) })
@@ -240,6 +251,16 @@ function EncounterRoute() {
       activeId={encounter.active}
       nameOf={nameOf}
       actions={combatActionsFor(row.id)}
+      effects={row.effects}
+      lair={
+        row.stats?.lairActions
+          ? {
+              inLair: Boolean(values[row.id]?.inLair),
+              onChange: (inLair) =>
+                updateEncounter((current) => setInLair(current, row.id, inLair)),
+            }
+          : undefined
+      }
     />
   )
 
@@ -315,6 +336,35 @@ function EncounterRoute() {
         if (count) updateEncounter((current) => recharge(current, activeRow.id, useKey, count))
       }}
       onDismissRecharge={(useKey) => setAnswered((current) => new Set([...current, useKey]))}
+      lair={
+        // Initiative 20 comes before anyone acts: show it as the round starts.
+        encounter.roster[0]?.id === encounter.active
+          ? lairPrompts(
+              rows.flatMap((row) =>
+                row.stats?.lairActions && !row.out
+                  ? [
+                      {
+                        id: row.id,
+                        name: row.name,
+                        inLair: Boolean(values[row.id]?.inLair),
+                        actions: row.stats.lairActions,
+                        lastLairAction: values[row.id]?.lastLairAction,
+                      },
+                    ]
+                  : [],
+              ),
+              encounter.round,
+            )
+          : []
+      }
+      effectReminders={
+        encounter.round === 1 && encounter.roster[0]?.id === encounter.active
+          ? effectTriggerReminders(rows, 'encounterStart')
+          : []
+      }
+      onLairAction={(combatant, key) =>
+        updateEncounter((current) => recordLairAction(current, combatant, key))
+      }
     />
   ) : null
 
@@ -360,6 +410,12 @@ function EncounterRoute() {
             onToggleScreen={() => setScreenOpen((open) => !open)}
           />
           <DmScreen open={screenOpen} onClose={() => setScreenOpen(false)} />
+          {scene ? <EncounterNotes sceneName={scene.name} notes={scene.combat} /> : null}
+          <PartyStrip
+            party={rows.filter((row) => row.kind === 'PC')}
+            active={encounter.active}
+            onInspect={inspect}
+          />
           {concentrationPrompt}
           {turnCard}
           {legendaryRow}
