@@ -18,7 +18,9 @@ export default createEvent({
     [
       'The party requested a building that would withstand ',
       refs.pcs.jim,
-      "'s morning lightning, plenty of meat, and no cheesecake. The replacement inn was not named and the party did not check in during this session.",
+      "'s ",
+      refs.effects.storm,
+      ', plenty of meat, and no cheesecake. The replacement inn was not named and the party did not check in during this session.',
     ],
   ],
 })

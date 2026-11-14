@@ -69,6 +69,21 @@ canon.
 - NPCs own their motivations. Reference the NPC from prep so you can read the motivation alongside
   the scene. Arc and scene references come from the generated `refs.arcs` and `refs.scenes` namespaces.
 
+## Effects
+
+- A lasting effect on a PC, NPC, or beast (a curse, a card's boon or bane, a bargain, a
+  transformation) is an `effect` record in `src/data/effects/`. The effect owns its rules, duration,
+  obligations, DM reminders, and removal conditions. Events and items reference it with
+  `refs.effects.*` and never restate its mechanics.
+- `began` and `ended` reference the events where it took hold and was lifted. Do not store a status:
+  active, lifted, or expired is derived from those events and `duration`.
+- Use `triggers` for reminders the DM tool fires (`newDay`, `encounterStart`, `longRest`,
+  `wouldDie`) and `obligations` for "do this within a span or suffer a consequence". Write damage as
+  `{ dice: '2d8', type: 'force' }` tokens.
+- One-time gains (ability score increases, gold, languages, items) are not effects. Item properties
+  stay on the item.
+- The event that introduces an effect must reference it, so players meet it with that event.
+
 ## What players see
 
 - `notes` holds what the players know. It is shown on the public archive.

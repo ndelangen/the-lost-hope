@@ -15,6 +15,7 @@ import { Route as IntroRouteImport } from './routes/intro'
 import { Route as QuestionsRouteImport } from './routes/questions'
 import { Route as BeastsIndexRouteImport } from './routes/beasts/index'
 import { Route as DmIndexRouteImport } from './routes/dm/index'
+import { Route as EffectsIndexRouteImport } from './routes/effects/index'
 import { Route as EventsIndexRouteImport } from './routes/events/index'
 import { Route as ItemsIndexRouteImport } from './routes/items/index'
 import { Route as LocationsIndexRouteImport } from './routes/locations/index'
@@ -30,6 +31,7 @@ import { Route as DmArcsIndexRouteImport } from './routes/dm/arcs/index'
 import { Route as DmArcsSlugRouteImport } from './routes/dm/arcs/$slug'
 import { Route as DmScenesIndexRouteImport } from './routes/dm/scenes/index'
 import { Route as DmScenesSlugRouteImport } from './routes/dm/scenes/$slug'
+import { Route as EffectsDetailSlugRouteImport } from './routes/effects/detail.$slug'
 import { Route as EventsDetailSlugRouteImport } from './routes/events/detail.$slug'
 import { Route as ItemsDetailSlugRouteImport } from './routes/items/detail.$slug'
 import { Route as LocationsDetailSlugRouteImport } from './routes/locations/detail.$slug'
@@ -67,6 +69,11 @@ const BeastsIndexRoute = BeastsIndexRouteImport.update({
 const DmIndexRoute = DmIndexRouteImport.update({
   id: '/dm/',
   path: '/dm/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EffectsIndexRoute = EffectsIndexRouteImport.update({
+  id: '/effects/',
+  path: '/effects/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const EventsIndexRoute = EventsIndexRouteImport.update({
@@ -144,6 +151,11 @@ const DmScenesSlugRoute = DmScenesSlugRouteImport.update({
   path: '/dm/scenes/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const EffectsDetailSlugRoute = EffectsDetailSlugRouteImport.update({
+  id: '/effects/detail/$slug',
+  path: '/effects/detail/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const EventsDetailSlugRoute = EventsDetailSlugRouteImport.update({
   id: '/events/detail/$slug',
   path: '/events/detail/$slug',
@@ -194,6 +206,7 @@ export interface FileRoutesByFullPath {
   '/locations/map': typeof LocationsMapRoute
   '/beasts/': typeof BeastsIndexRoute
   '/dm/': typeof DmIndexRoute
+  '/effects/': typeof EffectsIndexRoute
   '/events/': typeof EventsIndexRoute
   '/items/': typeof ItemsIndexRoute
   '/locations/': typeof LocationsIndexRoute
@@ -205,6 +218,7 @@ export interface FileRoutesByFullPath {
   '/beasts/detail/$slug': typeof BeastsDetailSlugRoute
   '/dm/arcs/$slug': typeof DmArcsSlugRoute
   '/dm/scenes/$slug': typeof DmScenesSlugRoute
+  '/effects/detail/$slug': typeof EffectsDetailSlugRoute
   '/events/detail/$slug': typeof EventsDetailSlugRoute
   '/items/detail/$slug': typeof ItemsDetailSlugRoute
   '/locations/detail/$slug': typeof LocationsDetailSlugRoute
@@ -225,6 +239,7 @@ export interface FileRoutesByTo {
   '/locations/map': typeof LocationsMapRoute
   '/beasts': typeof BeastsIndexRoute
   '/dm': typeof DmIndexRoute
+  '/effects': typeof EffectsIndexRoute
   '/events': typeof EventsIndexRoute
   '/items': typeof ItemsIndexRoute
   '/locations': typeof LocationsIndexRoute
@@ -236,6 +251,7 @@ export interface FileRoutesByTo {
   '/beasts/detail/$slug': typeof BeastsDetailSlugRoute
   '/dm/arcs/$slug': typeof DmArcsSlugRoute
   '/dm/scenes/$slug': typeof DmScenesSlugRoute
+  '/effects/detail/$slug': typeof EffectsDetailSlugRoute
   '/events/detail/$slug': typeof EventsDetailSlugRoute
   '/items/detail/$slug': typeof ItemsDetailSlugRoute
   '/locations/detail/$slug': typeof LocationsDetailSlugRoute
@@ -257,6 +273,7 @@ export interface FileRoutesById {
   '/locations/map': typeof LocationsMapRoute
   '/beasts/': typeof BeastsIndexRoute
   '/dm/': typeof DmIndexRoute
+  '/effects/': typeof EffectsIndexRoute
   '/events/': typeof EventsIndexRoute
   '/items/': typeof ItemsIndexRoute
   '/locations/': typeof LocationsIndexRoute
@@ -268,6 +285,7 @@ export interface FileRoutesById {
   '/beasts/detail/$slug': typeof BeastsDetailSlugRoute
   '/dm/arcs/$slug': typeof DmArcsSlugRoute
   '/dm/scenes/$slug': typeof DmScenesSlugRoute
+  '/effects/detail/$slug': typeof EffectsDetailSlugRoute
   '/events/detail/$slug': typeof EventsDetailSlugRoute
   '/items/detail/$slug': typeof ItemsDetailSlugRoute
   '/locations/detail/$slug': typeof LocationsDetailSlugRoute
@@ -290,6 +308,7 @@ export interface FileRouteTypes {
     | '/locations/map'
     | '/beasts/'
     | '/dm/'
+    | '/effects/'
     | '/events/'
     | '/items/'
     | '/locations/'
@@ -301,6 +320,7 @@ export interface FileRouteTypes {
     | '/beasts/detail/$slug'
     | '/dm/arcs/$slug'
     | '/dm/scenes/$slug'
+    | '/effects/detail/$slug'
     | '/events/detail/$slug'
     | '/items/detail/$slug'
     | '/locations/detail/$slug'
@@ -321,6 +341,7 @@ export interface FileRouteTypes {
     | '/locations/map'
     | '/beasts'
     | '/dm'
+    | '/effects'
     | '/events'
     | '/items'
     | '/locations'
@@ -332,6 +353,7 @@ export interface FileRouteTypes {
     | '/beasts/detail/$slug'
     | '/dm/arcs/$slug'
     | '/dm/scenes/$slug'
+    | '/effects/detail/$slug'
     | '/events/detail/$slug'
     | '/items/detail/$slug'
     | '/locations/detail/$slug'
@@ -352,6 +374,7 @@ export interface FileRouteTypes {
     | '/locations/map'
     | '/beasts/'
     | '/dm/'
+    | '/effects/'
     | '/events/'
     | '/items/'
     | '/locations/'
@@ -363,6 +386,7 @@ export interface FileRouteTypes {
     | '/beasts/detail/$slug'
     | '/dm/arcs/$slug'
     | '/dm/scenes/$slug'
+    | '/effects/detail/$slug'
     | '/events/detail/$slug'
     | '/items/detail/$slug'
     | '/locations/detail/$slug'
@@ -384,6 +408,7 @@ export interface RootRouteChildren {
   LocationsMapRoute: typeof LocationsMapRoute
   BeastsIndexRoute: typeof BeastsIndexRoute
   DmIndexRoute: typeof DmIndexRoute
+  EffectsIndexRoute: typeof EffectsIndexRoute
   EventsIndexRoute: typeof EventsIndexRoute
   ItemsIndexRoute: typeof ItemsIndexRoute
   LocationsIndexRoute: typeof LocationsIndexRoute
@@ -395,6 +420,7 @@ export interface RootRouteChildren {
   BeastsDetailSlugRoute: typeof BeastsDetailSlugRoute
   DmArcsSlugRoute: typeof DmArcsSlugRoute
   DmScenesSlugRoute: typeof DmScenesSlugRoute
+  EffectsDetailSlugRoute: typeof EffectsDetailSlugRoute
   EventsDetailSlugRoute: typeof EventsDetailSlugRoute
   ItemsDetailSlugRoute: typeof ItemsDetailSlugRoute
   LocationsDetailSlugRoute: typeof LocationsDetailSlugRoute
@@ -449,6 +475,13 @@ declare module '@tanstack/react-router' {
       path: '/dm'
       fullPath: '/dm/'
       preLoaderRoute: typeof DmIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/effects/': {
+      id: '/effects/'
+      path: '/effects'
+      fullPath: '/effects/'
+      preLoaderRoute: typeof EffectsIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/events/': {
@@ -556,6 +589,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DmScenesSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/effects/detail/$slug': {
+      id: '/effects/detail/$slug'
+      path: '/effects/detail/$slug'
+      fullPath: '/effects/detail/$slug'
+      preLoaderRoute: typeof EffectsDetailSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/events/detail/$slug': {
       id: '/events/detail/$slug'
       path: '/events/detail/$slug'
@@ -624,6 +664,7 @@ const rootRouteChildren: RootRouteChildren = {
   LocationsMapRoute: LocationsMapRoute,
   BeastsIndexRoute: BeastsIndexRoute,
   DmIndexRoute: DmIndexRoute,
+  EffectsIndexRoute: EffectsIndexRoute,
   EventsIndexRoute: EventsIndexRoute,
   ItemsIndexRoute: ItemsIndexRoute,
   LocationsIndexRoute: LocationsIndexRoute,
@@ -635,6 +676,7 @@ const rootRouteChildren: RootRouteChildren = {
   BeastsDetailSlugRoute: BeastsDetailSlugRoute,
   DmArcsSlugRoute: DmArcsSlugRoute,
   DmScenesSlugRoute: DmScenesSlugRoute,
+  EffectsDetailSlugRoute: EffectsDetailSlugRoute,
   EventsDetailSlugRoute: EventsDetailSlugRoute,
   ItemsDetailSlugRoute: ItemsDetailSlugRoute,
   LocationsDetailSlugRoute: LocationsDetailSlugRoute,

@@ -150,6 +150,7 @@ const ENTITY_DETAIL_LABELS: Record<EntityKind, string> = {
   quest: 'Quest',
   organization: 'Organization',
   item: 'Item',
+  effect: 'Effect',
 }
 
 export function EntityDetailHeader({

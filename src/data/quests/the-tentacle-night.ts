@@ -37,7 +37,9 @@ export default createQuest({
     [
       'Proprietor ',
       refs.npcs.samantha,
-      ' (Eyeless Hand) runs illegal/semi-illegal drug trade at ',
+      ' (',
+      refs.organizations.the_eyeless_hand,
+      ') runs illegal/semi-illegal drug trade at ',
       refs.locations.the_nest,
       '.',
     ],

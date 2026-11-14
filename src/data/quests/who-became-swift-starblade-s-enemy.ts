@@ -10,9 +10,11 @@ export default createQuest({
   clues: [
     [
       refs.events.n2_e105,
-      ' — the Rogue card from the Fiddler’s Deck made an NPC chosen by the DM permanently hostile to ',
+      ' — ',
       refs.pcs.swift_starblade,
-      '.',
+      ' drew ',
+      refs.effects.rogue,
+      ', making an NPC chosen by the DM permanently hostile to him.',
     ],
     [
       'The NPC’s identity is intentionally hidden until revealed during play. It is also unknown how or when the hostility will manifest.',

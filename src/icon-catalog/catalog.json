@@ -97559,7 +97559,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/bottled-bolt.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/effects/vessel.ts",
+        "src/lib/effect-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiBottledShadow",
@@ -103384,7 +103387,9 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/cage.html",
       "usedIn": [
+        "src/data/effects/cage.ts",
         "src/data/events/n2-e065.ts",
+        "src/lib/effect-icons.tsx",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -115616,7 +115621,9 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/coma.html",
       "usedIn": [
+        "src/data/effects/something-missing-or-dormant.ts",
         "src/data/quests/what-did-devan-lose-to-the-fiddler.ts",
+        "src/lib/effect-icons.tsx",
         "src/lib/quest-icons.tsx"
       ]
     },
@@ -121756,7 +121763,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/cursed-star.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/effects/cassian-s-unidentified-curse.ts",
+        "src/lib/effect-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiCurvyKnife",
@@ -123110,7 +123120,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/dead-wood.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/effects/blight.ts",
+        "src/lib/effect-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiDeathcab",
@@ -127169,7 +127182,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/domino-mask.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/effects/mask.ts",
+        "src/lib/effect-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiDominoTiles",
@@ -135894,8 +135910,10 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/fairy-wings.html",
       "usedIn": [
+        "src/data/effects/flight.ts",
         "src/data/events/n2-e055.ts",
         "src/data/events/n2-e141.ts",
+        "src/lib/effect-icons.tsx",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -142075,7 +142093,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/floating-ghost.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/effects/voidwalker.ts",
+        "src/lib/effect-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiFloatingPlatforms",
@@ -154876,7 +154897,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/heart-beats.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/effects/excruciating-pain.ts",
+        "src/lib/effect-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiHeartBottle",
@@ -155492,7 +155516,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/heart-shield.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/effects/protection-against-death.ts",
+        "src/lib/effect-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiHeartStake",
@@ -158378,7 +158405,9 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/darkzaitzev/hooded-assassin.html",
       "usedIn": [
+        "src/data/effects/rogue.ts",
         "src/data/quests/who-became-swift-starblade-s-enemy.ts",
+        "src/lib/effect-icons.tsx",
         "src/lib/quest-icons.tsx"
       ]
     },
@@ -171048,8 +171077,10 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/lightning-storm.html",
       "usedIn": [
+        "src/data/effects/storm.ts",
         "src/data/events/n2-e106.ts",
         "src/data/events/n2-e196.ts",
+        "src/lib/effect-icons.tsx",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -188341,7 +188372,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/padlock.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/effects/sealed-attunement-slot.ts",
+        "src/lib/effect-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiPadlockOpen",
@@ -198011,7 +198045,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/pretty-fangs.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/effects/hunger.ts",
+        "src/lib/effect-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiPretzel",
@@ -198289,9 +198326,11 @@
       "classificationReason": "Manually classified as useful from the /_icons review page.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/prisoner.html",
       "usedIn": [
+        "src/data/effects/donjon.ts",
         "src/data/events/n2-e061.ts",
         "src/data/events/n2-e112.ts",
         "src/data/events/n2-e168.ts",
+        "src/lib/effect-icons.tsx",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -209009,8 +209048,10 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/scroll-quill.html",
       "usedIn": [
+        "src/data/effects/bob-s-divine-contract.ts",
         "src/data/events/n2-e049.ts",
         "src/data/quests/settle-the-shipwright-s-favors.ts",
+        "src/lib/effect-icons.tsx",
         "src/lib/event-icons.tsx",
         "src/lib/quest-icons.tsx"
       ]
@@ -210630,11 +210671,13 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/shadow-follower.html",
       "usedIn": [
+        "src/data/effects/whispers.ts",
         "src/data/events/n2-e029.ts",
         "src/data/events/n2-e073.ts",
         "src/data/events/n2-e126.ts",
         "src/data/events/n2-e195.ts",
         "src/data/sessions/fairhaven-shadows.ts",
+        "src/lib/effect-icons.tsx",
         "src/lib/event-icons.tsx",
         "src/lib/session-icons.tsx"
       ]
@@ -248376,7 +248419,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/werewolf.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/effects/werewolf-transformation.ts",
+        "src/lib/effect-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiWesternHat",
@@ -248663,7 +248709,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/whiplash.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/effects/whip-taught-understanding.ts",
+        "src/lib/effect-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiWhirlpoolShuriken",
@@ -250145,7 +250194,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/winged-shield.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/effects/guardian.ts",
+        "src/lib/effect-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiWingedSword",
@@ -297926,6 +297978,8 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/sparkles",
       "usedIn": [
+        "src/components/campaign-shell/sidebar-data.ts",
+        "src/lib/entity-kind-visuals.ts",
         "src/lib/location-icons.tsx"
       ]
     },

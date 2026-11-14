@@ -29,7 +29,7 @@ export default createQuest({
       '.',
     ],
     [
-      'Animal #2 (Displacer Beast): party succeeded in capturing the ',
+      'Animal #2: party succeeded in capturing the ',
       refs.beasts.displacer_beast,
       ' and returning it.',
     ],

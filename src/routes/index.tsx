@@ -55,6 +55,7 @@ const collectionDescriptions = {
   quest: 'Track clues and mysteries',
   organization: 'Understand groups and allegiances',
   item: 'Browse notable equipment and artifacts',
+  effect: 'Check curses, boons, and bargains',
 } as const
 
 function HomePage() {

@@ -10,7 +10,9 @@ export default createEvent({
     [
       'After a night at the inn, ',
       refs.pcs.jim,
-      ' suffered another morning lightning strike, taking nine damage. The party prepared to return to the dungeon after breakfast.',
+      ' suffered another morning strike from his ',
+      refs.effects.storm,
+      ', taking nine damage. The party prepared to return to the dungeon after breakfast.',
     ],
   ],
 })

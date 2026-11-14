@@ -10,7 +10,16 @@ export default createBeast({
     [
       'A displacer beast — one of the three animals missing from the ',
       refs.npcs.rare_animal_dealer,
-      '. D&D Beyond monster listing: https://www.dndbeyond.com/monsters?filter-search=displacer-beast (Monster Manual, p. 81; a Feywild-origin monstrosity that displaces light to appear offset from its true position). D&D Beyond monster pages use unstable numeric IDs, so this filter URL is the closest thing to a stable permalink.',
+      '. A monstrosity from the ',
+      refs.locations.feywild,
+      ' that displaces light to appear offset from its true position (Monster Manual, p. 81).',
+    ],
+    [
+      {
+        type: 'link',
+        label: 'Displacer beast on D&D Beyond',
+        url: 'https://www.dndbeyond.com/monsters?filter-search=displacer-beast',
+      },
     ],
   ],
 })

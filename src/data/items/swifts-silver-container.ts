@@ -11,7 +11,9 @@ export default createItem({
     [
       'A sealed silver container won by ',
       refs.pcs.swift_starblade,
-      ' during the Fiddler’s game. It can only be opened under a full moon and contains an unrevealed valuable item.',
+      ' during ',
+      refs.events.n2_e105,
+      '. It can only be opened under a full moon and contains an unrevealed valuable item.',
     ],
   ],
 })

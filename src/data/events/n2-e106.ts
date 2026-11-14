@@ -8,7 +8,9 @@ export default createEvent({
   mark: { type: 'icon', name: 'gi/GiLightningStorm' },
   notes: [
     [
-      'The next morning, the storm following ',
+      'The next morning, the ',
+      refs.effects.storm,
+      ' following ',
       refs.pcs.jim,
       ' struck him with lightning inside ',
       refs.locations.jim_s_room_at_skynet_s_second_best_inn,

@@ -1,10 +1,11 @@
-import { Building2, Dog, MapPin, Package, Scroll, User, Users } from 'lucide-react'
+import { Building2, Dog, MapPin, Package, Scroll, Sparkles, User, Users } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 
 import {
   activePcs,
   allEntities,
   collectionKindFromPath,
+  effectEntry,
   entitySlugFromPath,
   nonActivePcs,
   openQuests,
@@ -120,6 +121,21 @@ const collectionDefinitions: SidebarCollectionDefinition[] = [
   },
   { kind: 'organization', icon: Building2 },
   { kind: 'item', icon: Package },
+  {
+    kind: 'effect',
+    icon: Sparkles,
+    groups: () => {
+      const effects = sortEntitiesByName(allEntities('effect'))
+      const active = effects.filter((effect) => effectEntry(effect).status === 'active')
+      const past = effects.filter((effect) => effectEntry(effect).status !== 'active')
+      return [
+        { id: 'active', label: 'Active', items: navItems(active) },
+        ...(past.length > 0
+          ? [{ id: 'past', label: 'Lifted or expired', items: navItems(past) }]
+          : []),
+      ]
+    },
+  },
   { kind: 'beast', icon: Dog },
 ]
 

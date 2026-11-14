@@ -1,4 +1,5 @@
 import campaign from '#/data/index.ts'
+import type { Effect } from '#/definitions/effect.ts'
 import type { Event, EventMark } from '#/definitions/event.ts'
 import { isEntityRef, type EntityKind, type EntityRef } from '#/definitions/kind.ts'
 import type { Location, LocationType } from '#/definitions/location.ts'
@@ -18,6 +19,7 @@ import {
 } from './campaign-read-model'
 import {
   beasts,
+  effects,
   events,
   items,
   locations,
@@ -31,12 +33,14 @@ import {
   type Entity,
   type EntityOf,
 } from './campaign-registries'
+import { effectExpiryDay, effectStatus, type EffectStatus } from './effects'
 
 export type { EntityKind }
 export type { DataOf, Entity, EntityOf, ReverseLink, SessionDay }
 
 export type {
   BeastKey,
+  EffectKey,
   EventKey,
   LocationKey,
   NpcKey,
@@ -57,6 +61,7 @@ export const COLLECTIONS: readonly EntityKind[] = [
   'quest',
   'organization',
   'item',
+  'effect',
 ]
 
 export const COLLECTION_LABELS: Record<EntityKind, string> = {
@@ -69,6 +74,7 @@ export const COLLECTION_LABELS: Record<EntityKind, string> = {
   quest: 'Quests',
   organization: 'Organizations',
   item: 'Items',
+  effect: 'Effects',
 }
 
 export const COLLECTION_PATH: Record<EntityKind, string> = {
@@ -81,6 +87,7 @@ export const COLLECTION_PATH: Record<EntityKind, string> = {
   quest: 'quests',
   organization: 'organizations',
   item: 'items',
+  effect: 'effects',
 }
 
 const campaignModel = createCampaignReadModel({
@@ -89,7 +96,19 @@ const campaignModel = createCampaignReadModel({
   registries: REGISTRIES,
 })
 
-export { beasts, campaign, events, items, locations, npcs, organizations, pcs, quests, sessions }
+export {
+  beasts,
+  campaign,
+  effects,
+  events,
+  items,
+  locations,
+  npcs,
+  organizations,
+  pcs,
+  quests,
+  sessions,
+}
 
 export function resolveRef(ref: EntityRef): Entity | undefined {
   return campaignModel.entities[ref.ref].byKey.get(ref.key)
@@ -240,6 +259,7 @@ export type EntityTo =
   | '/quests/detail/$slug'
   | '/organizations/detail/$slug'
   | '/items/detail/$slug'
+  | '/effects/detail/$slug'
 
 /** Route pattern for an entity kind's collection/index page. */
 export type CollectionTo =
@@ -252,6 +272,7 @@ export type CollectionTo =
   | '/beasts'
   | '/organizations'
   | '/items'
+  | '/effects'
 
 const ENTITY_TO: Record<EntityKind, EntityTo> = {
   pc: '/pcs/detail/$slug',
@@ -263,6 +284,7 @@ const ENTITY_TO: Record<EntityKind, EntityTo> = {
   beast: '/beasts/detail/$slug',
   organization: '/organizations/detail/$slug',
   item: '/items/detail/$slug',
+  effect: '/effects/detail/$slug',
 }
 
 const COLLECTION_TO: Record<EntityKind, CollectionTo> = {
@@ -275,6 +297,7 @@ const COLLECTION_TO: Record<EntityKind, CollectionTo> = {
   beast: '/beasts',
   organization: '/organizations',
   item: '/items',
+  effect: '/effects',
 }
 
 /** Typed router props (`to` + `params`) for an entity's detail page. */
@@ -624,4 +647,49 @@ export function searchEntities(query: string, limit = 20): Entity[] {
     .toSorted((a, b) => a.rank - b.rank)
     .slice(0, limit)
     .map(({ entity }) => entity)
+}
+
+export type EffectEntry = {
+  effect: EntityOf<'effect'>
+  status: EffectStatus
+  began: EntityOf<'event'> | undefined
+  ended: EntityOf<'event'> | undefined
+  expiryDay: number | undefined
+}
+
+/** The current campaign day: the latest day any event happened on. */
+export function campaignToday(): number {
+  return sortedEvents()[0]?.data.day ?? 1
+}
+
+/** An effect with its derived status and the events that began and ended it. */
+export function effectEntry(effect: EntityOf<'effect'>): EffectEntry {
+  const began = resolveRef(effect.data.began)
+  const ended = effect.data.ended ? resolveRef(effect.data.ended) : undefined
+  const beganEvent = began?.kind === 'event' ? began : undefined
+  const beganDay = beganEvent?.data.day ?? campaignToday()
+  return {
+    effect,
+    status: effectStatus(effect.data as Effect, beganDay, campaignToday()),
+    began: beganEvent,
+    ended: ended?.kind === 'event' ? ended : undefined,
+    expiryDay: effectExpiryDay(effect.data as Effect, beganDay),
+  }
+}
+
+const EFFECT_STATUS_ORDER: Record<EffectStatus, number> = { active: 0, expired: 1, ended: 2 }
+
+/** Effects carried by a record, active first, then newest first. */
+export function effectsOn(kind: EntityKind, slug: string): EffectEntry[] {
+  return allEntities('effect')
+    .filter((effect) => {
+      const carrier = resolveRef(effect.data.on)
+      return carrier?.kind === kind && carrier.slug === slug
+    })
+    .map(effectEntry)
+    .toSorted(
+      (a, b) =>
+        EFFECT_STATUS_ORDER[a.status] - EFFECT_STATUS_ORDER[b.status] ||
+        (b.began?.data.day ?? 0) - (a.began?.data.day ?? 0),
+    )
 }

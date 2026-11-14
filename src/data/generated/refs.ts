@@ -493,6 +493,28 @@ export const refs = {
     swifts_silver_container: ref('item', 'swifts_silver_container'),
     wolfie_tracking_ring: ref('item', 'wolfie_tracking_ring'),
   },
+  effects: {
+    blight: ref('effect', 'blight'),
+    bob_s_divine_contract: ref('effect', 'bob_s_divine_contract'),
+    cage: ref('effect', 'cage'),
+    cassian_s_unidentified_curse: ref('effect', 'cassian_s_unidentified_curse'),
+    donjon: ref('effect', 'donjon'),
+    excruciating_pain: ref('effect', 'excruciating_pain'),
+    flight: ref('effect', 'flight'),
+    guardian: ref('effect', 'guardian'),
+    hunger: ref('effect', 'hunger'),
+    mask: ref('effect', 'mask'),
+    protection_against_death: ref('effect', 'protection_against_death'),
+    rogue: ref('effect', 'rogue'),
+    sealed_attunement_slot: ref('effect', 'sealed_attunement_slot'),
+    something_missing_or_dormant: ref('effect', 'something_missing_or_dormant'),
+    storm: ref('effect', 'storm'),
+    vessel: ref('effect', 'vessel'),
+    voidwalker: ref('effect', 'voidwalker'),
+    werewolf_transformation: ref('effect', 'werewolf_transformation'),
+    whip_taught_understanding: ref('effect', 'whip_taught_understanding'),
+    whispers: ref('effect', 'whispers'),
+  },
   arcs: {
     abraham_s_promise: ref('arc', 'abraham_s_promise'),
     bob_s_bargains: ref('arc', 'bob_s_bargains'),
@@ -533,5 +555,6 @@ export type QuestKey = keyof typeof refs.quests
 export type SessionKey = keyof typeof refs.sessions
 export type OrganizationKey = keyof typeof refs.organizations
 export type ItemKey = keyof typeof refs.items
+export type EffectKey = keyof typeof refs.effects
 export type ArcKey = keyof typeof refs.arcs
 export type SceneKey = keyof typeof refs.scenes

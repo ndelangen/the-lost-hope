@@ -9,6 +9,7 @@ import type { EventMark } from '#/definitions/event'
 import { DEFAULT_AVATAR } from '#/definitions/media'
 import {
   contentToText,
+  effectEntry,
   eventLocation,
   getEntity,
   locationParent,
@@ -23,6 +24,8 @@ import {
   sessionSlugForEvent,
   type EntityKind,
 } from '#/lib/campaign'
+import { EffectIcon } from '#/lib/effect-icons'
+import { EFFECT_STATUS_LABELS } from '#/lib/effects'
 import { EventMarkIcon } from '#/lib/event-icons'
 import { ItemIcon } from '#/lib/item-icons'
 import { LocationIcon, LocationTypeIcon, locationTypeLabel } from '#/lib/location-icons'
@@ -291,6 +294,25 @@ function referencePresentation(
             <span className="text-muted-foreground">Item</span>
             <span className="text-muted-foreground">Owner: {owner?.name ?? 'Unknown'}</span>
             <span className="text-muted-foreground">Carried by: {carrier?.name ?? 'Unknown'}</span>
+          </ReferencePreviewHeader>
+        ),
+      }
+    }
+    case 'effect': {
+      const effect = getEntity('effect', slug)
+      const name = label ?? effect?.data.name ?? slug
+      const carrier = effect ? refLink(effect.data.on) : undefined
+      const status = effect ? EFFECT_STATUS_LABELS[effectEntry(effect).status] : undefined
+      const icon = effect ? <EffectIcon icon={effect.data.icon} className="size-3.5" /> : null
+      return {
+        label: name,
+        icon,
+        preview: (
+          <ReferencePreviewHeader icon={icon} name={name}>
+            <span className="text-muted-foreground">
+              Effect{carrier ? ` on ${carrier.name}` : ''}
+            </span>
+            {status ? <span className="text-muted-foreground">{status}</span> : null}
           </ReferencePreviewHeader>
         ),
       }

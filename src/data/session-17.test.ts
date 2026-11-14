@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 
 import { refs } from '#/data/generated/refs'
-import { events, items, quests, sessionDays, sessionPcs, sessions } from '#/lib/campaign'
+import { effects, events, items, quests, sessionDays, sessionPcs, sessions } from '#/lib/campaign'
 
 describe('Session 17 transcript import', () => {
   it('continues the same campaign day while recording the November play date', () => {
@@ -56,9 +56,10 @@ describe('Session 17 transcript import', () => {
 
   it('does not reinstate cancelled draws or treat the proposed ship theft as completed', () => {
     expect(events.n2_e189.notes.flat().join(' ')).toContain('alignment change did not remain')
-    expect(events.n2_e196.notes.flat().join(' ')).toContain(
-      'Voidwalker, Whispers, and Vessel remained',
+    expect(events.n2_e196.notes.flat()).toEqual(
+      expect.arrayContaining([refs.effects.voidwalker, refs.effects.whispers, refs.effects.vessel]),
     )
+    expect(effects.voidwalker.ended).toBeUndefined()
     expect(events.n2_e203.notes.flat().join(' ')).toContain('before a theft, departure, or arrival')
     expect(events.n2_e204.notes.flat()).toContainEqual(refs.pcs.devan)
     expect(items.devan_s_plate_armour.carriedBy).toBeNull()

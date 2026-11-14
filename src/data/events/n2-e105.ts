@@ -1,9 +1,6 @@
 import { refs } from '#/data/generated/refs.ts'
 import { create as createEvent } from '#/definitions/event.ts'
 
-const deckUrl = 'https://dnd5e.wikidot.com/wondrous-items:deck-of-many-more-things'
-const cardLink = (label: string) => ({ type: 'link' as const, label, url: deckUrl })
-
 export default createEvent({
   name: 'The party plays three rounds with the Fiddler',
   day: 20,
@@ -28,9 +25,7 @@ export default createEvent({
       refs.npcs.the_fiddler,
       ' chose the game: three rounds using the ',
       refs.items.deck_of_many_more_things,
-      ' (',
-      cardLink('card rules'),
-      '). ',
+      '. ',
       refs.pcs.cassian_veyl,
       ' had wanted to gamble his shield.',
     ],
@@ -39,32 +34,36 @@ export default createEvent({
       ' permanently gained one point of Dexterity and 25,000 GP, immediately gave 5,000 GP to ',
       refs.npcs.sylvia,
       ', and gained two additional languages. His final draw was ',
-      cardLink('Donjon'),
-      ', which imprisoned him in a void sphere and left his possessions at the table.',
+      refs.effects.donjon,
+      '.',
     ],
     [
       refs.pcs.devan,
-      ' drew ',
-      cardLink('Prisoner'),
-      ' and was temporarily bound by ghostly chains. He also gained protections against death and felt that an unidentified part of himself had gone missing or fallen asleep.',
+      ' drew Prisoner and was temporarily bound by ghostly chains. He also gained ',
+      refs.effects.protection_against_death,
+      ' and felt ',
+      refs.effects.something_missing_or_dormant,
+      ' in himself.',
     ],
     [
       refs.pcs.jim,
-      ' loved the game despite being left in excruciating pain with a permanent one-point penalty to everything. A lightning storm will chase him for thirty days, striking him every morning or at random intervals. The pain and penalty require a Wish or divine intervention to remove.',
+      ' loved the game despite being left with ',
+      refs.effects.excruciating_pain,
+      ' and a ',
+      refs.effects.storm,
+      ' that chases him.',
     ],
     [
       refs.pcs.swift_starblade,
-      ' drew ',
-      cardLink('Talons'),
-      ', causing his carried magical items to disintegrate. The ',
+      ' drew Talons, causing his carried magical items to disintegrate. The ',
       refs.items.demon_possessed_flying_broom,
       ' survived as an artifact but disappeared to an unknown location. ',
       refs.pcs.swift_starblade,
       ' also gained the ',
       refs.items.swifts_silver_container,
-      ', while ',
-      cardLink('Rogue'),
-      ' made an unidentified NPC permanently hostile to him.',
+      ', and drew ',
+      refs.effects.rogue,
+      '.',
     ],
     [
       'Before the party left, ',

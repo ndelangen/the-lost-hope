@@ -5,7 +5,7 @@ export default createQuest({
   name: "Jim's Past",
   icon: 'gi/GiBackwardTime',
   type: 'mystery',
-  notes: [["Jim's Past"]],
+  notes: [[refs.pcs.jim, '’s past.']],
   status: 'open',
   clues: [
     [

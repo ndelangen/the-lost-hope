@@ -46,7 +46,9 @@ export default createQuest({
       refs.locations.skynet_s_second_best_inn,
       ', took its cook, entered the kitchen, and hid the ',
       refs.items.jaded_amulet,
-      ' in Jim’s pie. The inn staff described him as a normal, exceptionally handsome human man with black hair.',
+      ' in ',
+      refs.pcs.jim,
+      '’s pie. The inn staff described him as a normal, exceptionally handsome human man with black hair.',
     ],
     [
       'Open: what is Bob’s actual nature, why does the party perceive him differently, who or what enforces the demand to deny his skeletal form, how does he travel with or beyond his stall, where does his stock come from, and what does he ultimately want?',

@@ -8,7 +8,9 @@ export default createEvent({
   mark: { type: 'avatar', url: '/assets/pcs/jim.jpg' },
   notes: [
     [
-      'The morning lightning struck ',
+      'The morning lightning of ',
+      refs.effects.storm,
+      ' struck ',
       refs.pcs.jim,
       ' again, but this time it did not hurt him while he had the ',
       refs.items.obsidian_green_rod,

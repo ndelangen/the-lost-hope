@@ -16,6 +16,7 @@ export const DM_FIELDS = {
   quest: ['background'],
   organization: ['background'],
   item: ['background'],
+  effect: ['background'],
 } as const satisfies Record<EntityKind, readonly string[]>
 
 export type DmField<K extends EntityKind> = (typeof DM_FIELDS)[K][number]

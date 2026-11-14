@@ -20,6 +20,7 @@ const SCHEMA_ENTITY_TYPES: Record<EntityKind, string> = {
   quest: 'Thing',
   beast: 'Thing',
   item: 'Thing',
+  effect: 'Thing',
 }
 
 export function canonicalUrl(path: string): string {
