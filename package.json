@@ -25,6 +25,7 @@
     "generate:social-images": "bun scripts/generate-social-images.tsx",
     "generate:social-paths": "bun scripts/generate-social-images.tsx --paths-only",
     "audit:public-build": "bun scripts/audit-public-build.ts",
+    "dm:brief": "bun scripts/dm-prep-brief.ts",
     "audit:delivery": "bun scripts/audit-delivery-footprint.ts",
     "typecheck": "bun run generate:images && bun run generate:social-paths && tsc --noEmit",
     "lint": "oxlint",

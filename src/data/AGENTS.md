@@ -68,6 +68,8 @@ canon.
   an event leaves the plot open until the DM closes it.
 - NPCs own their motivations. Reference the NPC from prep so you can read the motivation alongside
   the scene. Arc and scene references come from the generated `refs.arcs` and `refs.scenes` namespaces.
+- When importing a played session, read `bun run dm:brief` first, link each new event to the plots
+  it advanced, and update those plots' `notes`. The `$plan-campaign-entity` skill has the steps.
 
 ## What players see
 
