@@ -25,20 +25,20 @@ function ArcsIndex() {
           {sorted.map((arc) => {
             const open = arc.plots.filter((plot) => plot.status === 'open').length
             return (
-              <li key={arc.slug}>
-                <Link
-                  to="/dm/arcs/$slug"
-                  params={{ slug: arc.slug }}
-                  className="hover:bg-muted/50 grid gap-1 rounded-md px-1 py-3"
-                >
-                  <span className="flex items-baseline justify-between gap-3">
-                    <span className="font-medium">{arc.name}</span>
-                    <span className="text-muted-foreground shrink-0 text-xs">
-                      {open} open of {arc.plots.length} plots
-                    </span>
+              <li key={arc.slug} className="grid gap-1 px-1 py-3">
+                <span className="flex items-baseline justify-between gap-3">
+                  <Link
+                    to="/dm/arcs/$slug"
+                    params={{ slug: arc.slug }}
+                    className="font-medium hover:underline"
+                  >
+                    {arc.name}
+                  </Link>
+                  <span className="text-muted-foreground shrink-0 text-xs">
+                    {open} open of {arc.plots.length} plots
                   </span>
-                  <ContentRenderer content={arc.direction} className="text-muted-foreground" />
-                </Link>
+                </span>
+                <ContentRenderer content={arc.direction} className="text-muted-foreground" />
               </li>
             )
           })}
