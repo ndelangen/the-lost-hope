@@ -1,3 +1,5 @@
+import { createContext, useContext, type ComponentType } from 'react'
+
 import { EntityReference } from '#/components/entity-reference'
 import { ResponsiveImage } from '#/components/responsive-image'
 import { RuleTerm } from '#/components/rule-term'
@@ -8,6 +10,14 @@ import type { Reference } from '#/definitions/reference.ts'
 import { refLink } from '#/lib/campaign'
 import { isRuleRef, ruleOf, termLabel } from '#/lib/rules'
 import { cn } from '#/lib/utils'
+
+/**
+ * How content renders a reference to a record players have not met. The player app leaves it out;
+ * DM pages provide a renderer that names and links it.
+ */
+export const HiddenReferenceContext = createContext<
+  ComponentType<{ reference: Reference }> | undefined
+>(undefined)
 
 type ContentParagraph = Content[number]
 type ContentAtom = ContentParagraph[number]
@@ -137,8 +147,9 @@ function ContentExternalLink({ link }: { link: ExternalLink }) {
 }
 
 function ContentReference({ reference }: { reference: Reference }) {
+  const Hidden = useContext(HiddenReferenceContext)
   const link = refLink(reference)
-  if (!link) return null
+  if (!link) return Hidden ? <Hidden reference={reference} /> : null
   return <EntityReference kind={link.kind} slug={link.slug} label={link.name} />
 }
 
