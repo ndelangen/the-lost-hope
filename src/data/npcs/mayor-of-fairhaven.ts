@@ -5,4 +5,5 @@ export default createNPC({
   name: 'Mayor of Fairhaven',
   location: refs.locations.fairhaven,
   notes: [['The civic leader of ', refs.locations.fairhaven, '.']],
+  stats: refs.creatures.noble,
 })

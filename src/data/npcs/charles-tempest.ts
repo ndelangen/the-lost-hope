@@ -7,4 +7,5 @@ export default createNPC({
     { organization: refs.organizations.tempest_family, status: 'active', rank: 'Family member' },
   ],
   notes: [['A trader and slaveholder, and an older brother of ', refs.npcs.onana_tempest, '.']],
+  stats: refs.creatures.noble,
 })

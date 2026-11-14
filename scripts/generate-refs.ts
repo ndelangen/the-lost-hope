@@ -20,6 +20,7 @@ const COLLECTIONS = [
   { kind: 'effect', plural: 'effects', typeName: 'EffectKey' },
   { kind: 'arc', plural: 'arcs', typeName: 'ArcKey' },
   { kind: 'scene', plural: 'scenes', typeName: 'SceneKey' },
+  { kind: 'creature', plural: 'creatures', typeName: 'CreatureKey' },
 ] as const
 
 const IDENTIFIER = /^[A-Za-z_$][\w$]*$/

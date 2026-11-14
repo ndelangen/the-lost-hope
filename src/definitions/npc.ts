@@ -6,6 +6,7 @@ import { EntityRefSchema } from './kind'
 import { DEFAULT_AVATAR, MediaUrl } from './media'
 import { Membership } from './organization'
 import { deriveSlug } from './slug'
+import { OwnOrSharedStatBlock } from './stat-block'
 
 export const NPC = deriveSlug(
   z.strictObject({
@@ -26,6 +27,9 @@ export const NPC = deriveSlug(
       .optional()
       .describe('DM only: memberships the party has not discovered'),
     motivations: Content.optional().describe('DM only: what the NPC wants and why'),
+    stats: OwnOrSharedStatBlock.describe(
+      'DM only: 5e statistics, its own or a shared creature reference. Required for every record.',
+    ),
     background: Background,
   }),
 )

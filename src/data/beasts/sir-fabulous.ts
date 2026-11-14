@@ -20,4 +20,47 @@ export default createBeast({
       '.',
     ],
   ],
+  stats: {
+    size: 'Large',
+    type: 'beast',
+    cr: '1',
+    ac: 14,
+    armor: 'natural armor',
+    hitDice: '3d10',
+    speed: { walk: 50 },
+    scores: { str: 17, dex: 15, con: 15, int: 3, wis: 12, cha: 7 },
+    skills: { perception: 'expert', stealth: 'proficient' },
+    senses: { darkvision: 60 },
+    abilities: [
+      {
+        key: 'pack-tactics',
+        name: 'Pack Tactics',
+        timing: 'trait',
+        icon: 'lucide/UsersRound',
+        text: [
+          'Advantage on an attack roll against a creature if at least one ally is within 5 ft. of it and not ',
+          { condition: 'incapacitated' },
+          '.',
+        ],
+      },
+      {
+        key: 'bite',
+        name: 'Bite',
+        timing: 'action',
+        icon: 'gi/GiFangs',
+        intent: 'damage',
+        attack: {
+          kind: 'melee',
+          ability: 'str',
+          damage: [{ dice: '1d10', type: 'piercing', addModifier: true }],
+        },
+        text: [
+          'If the target is Large or smaller, it has the ',
+          { condition: 'prone' },
+          ' condition.',
+        ],
+      },
+    ],
+    source: { adaptedFrom: ['srd-2024_dire-wolf'] },
+  },
 })

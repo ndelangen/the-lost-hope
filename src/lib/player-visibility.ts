@@ -7,9 +7,9 @@ import { collectReferences } from './campaign-read-model'
  * field must be listed here to stay out of player pages, search, links, and previews.
  */
 export const DM_FIELDS = {
-  beast: ['background'],
+  beast: ['stats', 'background'],
   pc: ['secretMemberships', 'background'],
-  npc: ['motivations', 'secretMemberships', 'background'],
+  npc: ['motivations', 'secretMemberships', 'stats', 'background'],
   location: ['background'],
   event: ['background'],
   session: [],

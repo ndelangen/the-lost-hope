@@ -15,4 +15,100 @@ export default createBeast({
       '. All dragons — possibly hundreds. Their exact number, and any individual names, colors, or ages, are unestablished.',
     ],
   ],
+  stats: {
+    size: 'Medium',
+    type: 'dragon',
+    cr: '3',
+    ac: 17,
+    armor: 'natural armor',
+    hitDice: '10d8',
+    speed: {
+      walk: 30,
+      fly: 60,
+      swim: 30,
+    },
+    scores: {
+      str: 19,
+      dex: 14,
+      con: 17,
+      int: 14,
+      wis: 11,
+      cha: 16,
+    },
+    saves: {
+      dex: 'proficient',
+      wis: 'proficient',
+    },
+    skills: {
+      perception: 'expert',
+      stealth: 'proficient',
+    },
+    senses: {
+      blindsight: 10,
+      darkvision: 60,
+    },
+    damageImmunities: ['fire'],
+    abilities: [
+      {
+        key: 'amphibious',
+        name: 'Amphibious',
+        timing: 'trait',
+        icon: 'gi/GiWaterSplash',
+        text: ['Breathes air and water.'],
+      },
+      {
+        key: 'multiattack',
+        name: 'Multiattack',
+        timing: 'action',
+        icon: 'gi/GiPowerLightning',
+        intent: 'damage',
+        text: [
+          'Two ',
+          {
+            ability: 'rend',
+          },
+          ' attacks.',
+        ],
+      },
+      {
+        key: 'rend',
+        name: 'Rend',
+        timing: 'action',
+        icon: 'gi/GiClaws',
+        intent: 'damage',
+        attack: {
+          kind: 'melee',
+          ability: 'str',
+          damage: [
+            {
+              dice: '1d10',
+              type: 'slashing',
+              addModifier: true,
+            },
+          ],
+        },
+      },
+      {
+        key: 'fire-breath',
+        name: 'Fire Breath',
+        timing: 'action',
+        icon: 'gi/GiFireBreath',
+        intent: 'damage',
+        text: [
+          'Each creature in a 15-ft. cone: Dexterity saving throw, ',
+          {
+            dc: 'con',
+          },
+          '. Failure: 4d10 fire damage. Success: half damage.',
+        ],
+        uses: 1,
+        recharge: 'Recharge 5–6',
+      },
+    ],
+    source: {
+      adaptedFrom: ['srd-2024_gold-dragon-wyrmling'],
+      changes:
+        'One wyrmling of the brood; colours vary, so it uses gold wyrmling numbers with fire breath. One stat block per child.',
+    },
+  },
 })

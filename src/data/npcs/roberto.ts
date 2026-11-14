@@ -14,4 +14,5 @@ export default createNPC({
       rank: 'Minor Operative',
     },
   ],
+  stats: refs.creatures.spy,
 })

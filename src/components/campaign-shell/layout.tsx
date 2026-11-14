@@ -11,6 +11,8 @@ type CampaignShellLayoutProps = {
   navigationOpen: boolean
   navigationCollapsed: boolean
   hasNavigation?: boolean
+  /** Drop the header, navigation, and width cap so a page can use the whole screen. */
+  focused?: boolean
   onDismissNavigation: () => void
 }
 
@@ -23,8 +25,17 @@ export function CampaignShellLayout({
   navigationOpen,
   navigationCollapsed,
   hasNavigation = true,
+  focused = false,
   onDismissNavigation,
 }: CampaignShellLayoutProps) {
+  if (focused) {
+    return (
+      <div className="bg-background text-foreground min-h-screen">
+        <main className="min-w-0 px-3 py-3 sm:px-4">{children}</main>
+      </div>
+    )
+  }
+
   return (
     <div className="bg-background text-foreground min-h-screen">
       <header className="border-border bg-background/90 sticky top-0 z-30 border-b backdrop-blur">

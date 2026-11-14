@@ -29,4 +29,133 @@ export default createNPC({
       rank: '13th Marshal',
     },
   ],
+  stats: {
+    size: 'Medium',
+    type: 'celestial',
+    cr: '12',
+    ac: 17,
+    hitDice: '18d8',
+    speed: {
+      walk: 30,
+      fly: 60,
+    },
+    scores: {
+      str: 12,
+      dex: 16,
+      con: 18,
+      int: 20,
+      wis: 20,
+      cha: 22,
+    },
+    saves: {
+      int: 'proficient',
+      wis: 'proficient',
+      cha: 'proficient',
+    },
+    skills: {
+      arcana: 'proficient',
+      insight: 'expert',
+      persuasion: 'proficient',
+    },
+    senses: {
+      truesight: 60,
+    },
+    damageResistances: ['radiant'],
+    abilities: [
+      {
+        key: 'marshals-authority',
+        name: 'Marshal’s Authority',
+        timing: 'trait',
+        icon: 'gi/GiHolySymbol',
+        text: [
+          'Can’t be ',
+          {
+            condition: 'charmed',
+          },
+          ' or ',
+          {
+            condition: 'frightened',
+          },
+          '. A creature that has signed one of his contracts has disadvantage on saves against his abilities.',
+        ],
+      },
+      {
+        key: 'legendary-resistance',
+        name: 'Legendary Resistance',
+        timing: 'trait',
+        icon: 'lucide/Shield',
+        text: ['If he fails a saving throw, he can choose to succeed instead.'],
+        uses: 3,
+        recharge: 'Long rest',
+      },
+      {
+        key: 'multiattack',
+        name: 'Multiattack',
+        timing: 'action',
+        icon: 'gi/GiPowerLightning',
+        intent: 'damage',
+        text: [
+          'Three ',
+          {
+            ability: 'radiant-lance',
+          },
+          ' attacks.',
+        ],
+      },
+      {
+        key: 'radiant-lance',
+        name: 'Radiant Lance',
+        timing: 'action',
+        icon: 'gi/GiSunbeams',
+        intent: 'damage',
+        attack: {
+          kind: 'ranged',
+          ability: 'cha',
+          range: [120, 120],
+          damage: [
+            {
+              dice: '2d8',
+              type: 'radiant',
+              addModifier: true,
+            },
+          ],
+        },
+      },
+      {
+        key: 'blinding-light',
+        name: 'Blinding Light',
+        timing: 'action',
+        icon: 'gi/GiSunbeams',
+        intent: 'damage',
+        text: [
+          'Each creature of his choice within 30 ft.: Constitution saving throw, ',
+          {
+            dc: 'cha',
+          },
+          '. Failure: 6d8 radiant damage and ',
+          {
+            condition: 'blinded',
+          },
+          ' until the end of its next turn. Success: half damage.',
+        ],
+        uses: 1,
+        recharge: 'Recharge 5–6',
+      },
+      {
+        key: 'grant-a-favour',
+        name: 'Grant a Favour',
+        timing: 'bonus action',
+        icon: 'gi/GiScrollUnfurled',
+        intent: 'healing',
+        text: [
+          'One creature within 60 ft. under contract with him regains 4d8 HP or ends one condition.',
+        ],
+      },
+    ],
+    source: {
+      adaptedFrom: ['srd-2024_archmage', 'srd-2024_deva'],
+      changes:
+        'One of the thirteen world governors: archmage-level casting expressed as light, with a deva’s wings. His true species is unknown.',
+    },
+  },
 })
