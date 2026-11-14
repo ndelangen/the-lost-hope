@@ -1,10 +1,9 @@
 import { createFileRoute } from '@tanstack/react-router'
 
+import { DmLocationBranch } from '#/components/dm/dm-location-branch'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
-import { DmSceneRow } from '#/components/dm/dm-scene-row'
-import { compareEntityNames } from '#/lib/campaign'
-import { arcs, resolveSourceRef, scenes, table } from '#/lib/dm-campaign'
-import { plotsByScene } from '#/lib/dm-dashboard'
+import { arcs, scenes, sourceLocationParent, table } from '#/lib/dm-campaign'
+import { buildDashboard } from '#/lib/dm-dashboard'
 
 export const Route = createFileRoute('/dm/scenes/')({
   head: () => ({
@@ -14,44 +13,26 @@ export const Route = createFileRoute('/dm/scenes/')({
 })
 
 function ScenesIndex() {
-  const plots = plotsByScene(arcs)
-  const pinned = new Set(table.pinned.map((ref) => ref.key))
-  const byLocation = new Map<string, [string, (typeof scenes)[string]][]>()
-  for (const entry of Object.entries(scenes)) {
-    const group = byLocation.get(entry[1].location.key) ?? []
-    group.push(entry)
-    byLocation.set(entry[1].location.key, group)
-  }
-  const locations = [...byLocation.keys()].toSorted((a, b) =>
-    compareEntityNames(
-      resolveSourceRef({ ref: 'location', key: a })?.name ?? a,
-      resolveSourceRef({ ref: 'location', key: b })?.name ?? b,
-    ),
-  )
+  const tree = buildDashboard({
+    table: {
+      likely: Object.keys(scenes).map((key) => ({ ref: 'scene', key })),
+      pinned: table.pinned,
+    },
+    scenes,
+    arcs,
+    party: new Map(),
+    parentOf: sourceLocationParent,
+  })
 
   return (
     <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_12rem]">
       <div className="grid min-w-0 grid-cols-1 content-start gap-5">
         <h1 className="text-3xl font-bold">All scenes</h1>
-        {locations.length === 0 ? (
+        {tree.length === 0 ? (
           <p className="text-muted-foreground">No scenes prepared yet.</p>
         ) : null}
-        {locations.map((locationKey) => (
-          <section key={locationKey} className="grid grid-cols-1 gap-1">
-            <h2 className="border-border border-b pb-1 font-semibold">
-              {resolveSourceRef({ ref: 'location', key: locationKey })?.name}
-            </h2>
-            <ul className="grid grid-cols-1">
-              {byLocation.get(locationKey)!.map(([key, scene]) => (
-                <DmSceneRow
-                  key={key}
-                  scene={scene}
-                  pinned={pinned.has(key)}
-                  plots={plots.get(key) ?? []}
-                />
-              ))}
-            </ul>
-          </section>
+        {tree.map((node) => (
+          <DmLocationBranch key={node.location.key} node={node} depth={0} />
         ))}
       </div>
       <aside className="min-w-0">

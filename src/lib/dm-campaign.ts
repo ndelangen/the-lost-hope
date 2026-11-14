@@ -39,6 +39,16 @@ export function sessionsForArc(arc: Arc) {
   return campaignSessions().filter(({ slug }) => sessionSlugs.has(slug))
 }
 
+/** The parent of a location in the full campaign source, including places players have not met. */
+export function sourceLocationParent(
+  location: EntityRef<'location'>,
+): EntityRef<'location'> | undefined {
+  const parent = (SOURCE_REGISTRIES.location as Record<string, { parent?: EntityRef }>)[
+    location.key
+  ]?.parent
+  return parent?.ref === 'location' ? (parent as EntityRef<'location'>) : undefined
+}
+
 /** Resolve against the full campaign source, which includes records players have not met. */
 export function resolveSourceRef(ref: EntityRef) {
   return Object.hasOwn(SOURCE_REGISTRIES[ref.ref], ref.key)
