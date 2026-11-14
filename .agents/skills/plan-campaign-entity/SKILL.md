@@ -3,7 +3,8 @@ name: plan-campaign-entity
 description: >-
   Plan or implement structured campaign-canon changes under src/data without duplicate canon, slug
   collisions, dangling refs, or misplaced facts. Use for creating, editing, importing, or renaming
-  beasts, PCs, NPCs, locations, events, sessions, quests, or organizations. Do not use for read-only
+  beasts, PCs, NPCs, locations, events, sessions, quests, or organizations, including importing a
+  played session from a transcript or AI notes and linking it to DM arcs and plots. Do not use for read-only
   lore questions or engineering changes outside campaign data.
 ---
 
@@ -101,7 +102,41 @@ from references in `notes`:
 - Otherwise: use a thematic icon already supported by `src/lib/event-icons.tsx`, or add the icon
   there in the same change.
 
-## 6. Validate
+## 6. Import a played session
+
+After play, the DM hands over a recording transcript or AI notes. Turn them into a session, its
+ordered events, and links into the DM prep. Follow sections 2 to 5 for every record you touch.
+
+1. **Read the prep first.** Run `bun run dm:brief`. It lists every open arc with its open plots,
+   hooks, scenes and NPC motivations, the scenes the DM selected or pinned, and the ref to write for
+   each. Read the full `src/data/arcs/<slug>.ts`, scene and NPC files for any thread the notes touch.
+2. **Let the notes decide what happened.** Prep only helps you recognise a thread. Never record a
+   prepared scene, outcome or hook as an event unless the source says it happened. When play went
+   somewhere prep did not expect, record what happened; do not bend it toward the prep. Keep the
+   source's uncertainty: say "seems", "claims" or "may" where the notes do, and add a
+   `QUESTIONS.md` entry when an open fact matters.
+3. **Create the session and its events** as section 5 describes: next `n2-e###` ids, campaign
+   `day`, ordered references in the session, `mark`, and refs for every named record. New NPCs,
+   places and items follow sections 3 to 5.
+4. **Keep player-facing and DM-only apart.** Events listed in a session are public, so their
+   `notes` hold only what happened at the table. What the DM revealed only to themselves, or what
+   happens off-screen, goes into the owning record's `background` or the plot's `notes`. A
+   discovery moves its paragraph from `background` into `notes` and is recorded as an event.
+5. **Link events to plots.** Add each new event to the `events` of every plot it advanced, in
+   play order. One event can advance plots in several arcs; reference it from each. Leave
+   `status` alone: the DM closes plots.
+6. **Update the DM notes on the plot.** Rewrite the plot's `notes` (and `hook` if the next step
+   changed) to say what changed, what was revealed and what is still open. Replace stale
+   statements instead of appending a diary; the events already hold the history.
+7. **Handle new threads.** When play opened a thread no plot covers, add an open plot to the arc
+   it belongs to. Propose a new arc (with a unique `icon`, see `src/lib/arc-icons.tsx`) instead of
+   creating it when no arc fits, and let the DM decide.
+8. **Keep unused prep.** Do not delete or rewrite scenes, plots or hooks that were not played.
+   Update `src/data/dm/table.ts` only when the DM asks.
+9. **Report back** to the DM in a few lines: the plots each event advanced, plots that look ready
+   to close, prep that went unused, new threads or proposed arcs, and open questions.
+
+## 7. Validate
 
 - In plan/review mode, run only the non-mutating checks needed to support the result and state that
   no implementation validation was required.
