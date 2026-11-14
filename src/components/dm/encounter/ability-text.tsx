@@ -15,8 +15,10 @@ import { abilityKey, type UseCount } from '#/lib/encounter'
 import { allAbilities } from '#/lib/stat-block'
 import { cn } from '#/lib/utils'
 
+import { AbilitySteps } from './ability-steps'
 import { useDensity } from './density'
 import { ActionButton } from './icon-button'
+import { StatParts } from './stat-parts'
 
 export type AbilityText = readonly AbilityTextToken[]
 
@@ -119,7 +121,9 @@ function AbilityChip({
       >
         {segment.name}
         {segment.summary ? (
-          <span className="text-muted-foreground font-medium">{segment.summary}</span>
+          <span className="text-muted-foreground font-medium">
+            <StatParts parts={segment.summary} interactive={false} />
+          </span>
         ) : null}
       </button>
       {/* The gap is bridged by padding so the pointer can move into the popover. */}
@@ -132,7 +136,7 @@ function AbilityChip({
       >
         <span className="border-border bg-card text-foreground grid gap-2 rounded-xl border p-3 text-left text-sm font-normal shadow-xl">
           <strong className="text-base">{segment.name}</strong>
-          {referenced ? <span className="leading-relaxed">{referenced.text}</span> : null}
+          {referenced ? <span className="grid leading-relaxed">{referenced.text}</span> : null}
           {referenced?.count && referenced.onUse ? (
             <span className="flex items-center gap-2">
               <span className="text-muted-foreground tabular-nums">
@@ -171,13 +175,10 @@ export function describeReferences(
       'timing' in ability ? abilityKey(String(ability.timing), ability.name) : undefined
     const count = useKey ? counts[useKey] : undefined
     return {
-      text: (
-        <>
-          {block.abilities[key]?.attack ? (
-            <strong className="tabular-nums">{block.abilities[key]!.attack}. </strong>
-          ) : null}
-          <AbilityTextView text={ability.text} block={block} />
-        </>
+      text: block.steps?.[key] ? (
+        <AbilitySteps steps={block.steps[key]} block={block} />
+      ) : (
+        <AbilityTextView text={ability.text} block={block} />
       ),
       count,
       onUse: count && useKey ? () => use(useKey, count) : undefined,

@@ -4,12 +4,15 @@ import type { Ability } from '#/definitions/stat-block'
 import { ABILITY_ICONS } from '#/lib/ability-icons'
 import type { DerivedStatBlock } from '#/lib/dm-ability-text'
 import type { UseCount } from '#/lib/encounter'
+import { plainStatParts } from '#/lib/stat-block'
 import { cn } from '#/lib/utils'
 
+import { AbilitySteps } from './ability-steps'
 import { AbilityTextView, abilityPlainText, type ReferencedAbility } from './ability-text'
 import { useDensity } from './density'
 import { EditableNumber } from './hp-control'
 import { ActionButton, IconButton } from './icon-button'
+import { StatParts } from './stat-parts'
 
 const INTENT_CLASS = {
   damage: 'text-red-600 dark:text-red-400 border-red-500/40 bg-red-500/5 hover:bg-red-500/15',
@@ -50,8 +53,10 @@ export function AbilityButton({
           <strong>
             {ability.name} · {context}
           </strong>
-          {block.abilities[ability.key]?.attack ? (
-            <span>{block.abilities[ability.key]!.attack}</span>
+          {block.abilities[ability.key]?.summary ? (
+            <span className="tabular-nums">
+              {plainStatParts(block.abilities[ability.key]!.summary!)}
+            </span>
           ) : null}
           <span>{abilityPlainText(ability.text, block)}</span>
           {ability.recharge ? <span>{ability.recharge}</span> : null}
@@ -109,6 +114,8 @@ export function AbilityDetail({
   describe?: (key: string) => ReferencedAbility | undefined
 }) {
   const focus = useDensity() === 'focus'
+  const summary = block.abilities[ability.key]?.summary
+  const steps = block.steps?.[ability.key]
   return (
     <div
       className={cn(
@@ -116,18 +123,27 @@ export function AbilityDetail({
         focus ? 'gap-3 p-4' : 'gap-2 p-3',
       )}
     >
-      <h3 className={cn('font-semibold', focus && 'text-lg')}>{title}</h3>
-      <p className={cn('leading-relaxed', focus ? 'text-base' : 'text-sm')}>
-        {block.abilities[ability.key]?.attack ? (
-          <span className="mr-1.5 font-semibold tabular-nums">
-            {block.abilities[ability.key]!.attack}.
-          </span>
+      <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
+        <h3 className={cn('font-semibold', focus && 'text-lg')}>{title}</h3>
+        {summary ? (
+          <p className="text-muted-foreground text-sm">
+            <StatParts parts={summary} />
+          </p>
         ) : null}
-        <AbilityTextView text={ability.text} block={block} describe={describe} />
-      </p>
-      {note || ability.recharge ? (
+      </div>
+      <div className={cn(focus ? 'text-base' : 'text-sm')}>
+        {steps ? (
+          <AbilitySteps steps={steps} block={block} describe={describe} />
+        ) : (
+          <p className="leading-relaxed">
+            <AbilityTextView text={ability.text} block={block} describe={describe} />
+          </p>
+        )}
+      </div>
+      {/* The steps already say when it comes back. */}
+      {note || (ability.recharge && !steps) ? (
         <p className="text-muted-foreground text-sm">
-          {[note, ability.recharge].filter(Boolean).join(' · ')}
+          {[note, steps ? undefined : ability.recharge].filter(Boolean).join(' · ')}
         </p>
       ) : null}
       {count ? (

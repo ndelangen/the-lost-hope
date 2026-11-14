@@ -128,16 +128,14 @@ export default createNPC({
         timing: 'bonus action',
         icon: 'gi/GiSmokeBomb',
         text: [
-          'Lit fuses in his beard fill a 10-ft. radius around him with smoke that heavily obscures it until the start of his next turn. Each creature of his choice in it: Wisdom ',
-          refs.rules.saving_throw,
-          ', ',
-          {
-            dc: 'cha',
-          },
-          '. Failure: ',
-          refs.rules.frightened,
-          '.',
+          'Lit fuses in his beard fill the area with smoke that heavily obscures it until the start of his next turn.',
         ],
+        save: {
+          ability: 'wis',
+          dc: 'cha',
+          target: { area: { shape: refs.rules.emanation, size: 10 }, chosen: true },
+          onFail: { conditions: [refs.rules.frightened] },
+        },
         uses: 1,
         recharge: 'Recharge 5–6',
       },

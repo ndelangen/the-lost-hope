@@ -91,17 +91,16 @@ export default createBeast({
         name: 'Fell Glare',
         timing: 'reaction',
         icon: 'gi/GiSunbeams',
-        text: [
-          'When a creature within 60 ft. hits Devan, it makes a Wisdom ',
-          refs.rules.saving_throw,
-          ', ',
-          {
-            dc: 'cha',
+        text: ['When a creature within 60 ft. hits Devan:'],
+        save: {
+          ability: 'wis',
+          dc: 'cha',
+          target: { creatures: 1, range: 60, which: 'that hit Devan' },
+          onFail: {
+            conditions: [refs.rules.frightened],
+            also: ['It lasts until the end of its next turn.'],
           },
-          '. Failure: ',
-          refs.rules.frightened,
-          ' until the end of its next turn.',
-        ],
+        },
       },
       {
         key: 'healing-touch',

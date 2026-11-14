@@ -93,21 +93,17 @@ export default createNPC({
         timing: 'action',
         icon: 'gi/GiHolySymbol',
         intent: 'damage',
-        text: [
-          'One creature within 60 ft.: Wisdom ',
-          refs.rules.saving_throw,
-          ', ',
-          {
-            dc: 'wis',
+        save: {
+          ability: 'wis',
+          dc: 'wis',
+          target: { creatures: 1, range: 60 },
+          onFail: {
+            damage: [{ dice: '4d8', type: refs.rules.radiant }],
+            conditions: [refs.rules.frightened],
+            also: ['The fear lasts until the end of its next turn.'],
           },
-          '. Failure: 4d8 ',
-          refs.rules.radiant,
-          ' damage and ',
-          refs.rules.frightened,
-          ' until the end of its next turn. Success: ',
-          refs.rules.half_damage,
-          '.',
-        ],
+          onSuccess: 'half',
+        },
       },
       {
         key: 'blessing-of-gruumsh',

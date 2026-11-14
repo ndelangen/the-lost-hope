@@ -38,6 +38,7 @@ import { LOCATION_ICONS } from '#/lib/location-icons.tsx'
 import { ORGANIZATION_ICONS } from '#/lib/organization-icons.tsx'
 import { QUEST_ICONS } from '#/lib/quest-icons.tsx'
 import { SESSION_ICONS } from '#/lib/session-icons.tsx'
+import { allAbilities } from '#/lib/stat-block'
 
 const REF_NAMESPACE = {
   beast: 'beasts',
@@ -384,6 +385,28 @@ describe('stat blocks', () => {
       sharedRefs.filter((ref) => ref === key).length,
     ])
     expect(uses.filter(([, count]) => (count as number) < 2)).toEqual([])
+  })
+
+  it('stores forced saves and areas in the structured `save` field, not in prose', () => {
+    const prose =
+      /(Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma) saving throw|\d+-ft\.(-radius| cone| line| cube)|Success: half/
+    const offenders = [...statBlocks, ...Object.values(creatures).map(({ stats }) => stats)]
+      .flatMap((stats) => allAbilities(stats))
+      .filter((ability) =>
+        prose.test(
+          [...ability.text, ...(ability.save?.onFail.also ?? [])]
+            .map((token) =>
+              typeof token === 'string'
+                ? token
+                : 'ref' in token
+                  ? token.key.replaceAll('_', ' ')
+                  : '',
+            )
+            .join(''),
+        ),
+      )
+      .map((ability) => ability.key)
+    expect(offenders).toEqual([])
   })
 })
 

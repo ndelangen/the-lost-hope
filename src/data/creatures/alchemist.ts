@@ -82,17 +82,15 @@ export default createCreature({
         name: 'Choking Cloud',
         timing: 'action',
         icon: 'gi/GiSmokeBomb',
-        text: [
-          'A 10-ft.-radius cloud within 60 ft. Constitution ',
-          refs.rules.saving_throw,
-          ', ',
-          {
-            dc: 'int',
+        save: {
+          ability: 'con',
+          dc: 'int',
+          target: { area: { shape: refs.rules.sphere, size: 10 }, range: 60 },
+          onFail: {
+            conditions: [refs.rules.poisoned],
+            also: ['It lasts until the end of its next turn.'],
           },
-          '. Failure: ',
-          refs.rules.poisoned,
-          ' until the end of its next turn.',
-        ],
+        },
         uses: 1,
         recharge: 'Recharge 5–6',
       },

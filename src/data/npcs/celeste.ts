@@ -45,17 +45,15 @@ export default createNPC({
         timing: 'action',
         icon: 'gi/GiSpectre',
         intent: 'damage',
-        text: [
-          'One creature within 30 ft.: Constitution ',
-          refs.rules.saving_throw,
-          ', ',
-          {
-            dc: 'wis',
+        save: {
+          ability: 'con',
+          dc: 'wis',
+          target: { creatures: 1, range: 30 },
+          onFail: {
+            damage: [{ dice: '2d6', type: refs.rules.necrotic }],
+            also: ['It can’t regain hit points until the start of her next turn.'],
           },
-          '. Failure: 2d6 ',
-          refs.rules.necrotic,
-          ' damage and it can’t regain HP until the start of her next turn.',
-        ],
+        },
       },
     ],
     source: {

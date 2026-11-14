@@ -94,17 +94,17 @@ export default createNPC({
         name: 'Command of Fear',
         timing: 'action',
         icon: 'gi/GiSkullCrossedBones',
-        text: [
-          'Each creature of his choice within 30 ft.: Wisdom ',
-          refs.rules.saving_throw,
-          ', ',
-          {
-            dc: 'cha',
+        save: {
+          ability: 'wis',
+          dc: 'cha',
+          target: { area: { shape: refs.rules.emanation, size: 30 }, chosen: true },
+          onFail: {
+            conditions: [refs.rules.frightened],
+            also: [
+              'It lasts 1 minute. It repeats the save at the end of each of its turns, ending the fear on a success.',
+            ],
           },
-          '. Failure: ',
-          refs.rules.frightened,
-          ' for 1 minute (repeats the save at the end of each of its turns).',
-        ],
+        },
         uses: 1,
         recharge: 'Recharge 5–6',
       },

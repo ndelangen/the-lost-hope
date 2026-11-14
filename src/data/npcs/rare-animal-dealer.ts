@@ -110,21 +110,19 @@ export default createNPC({
         name: 'Snare Net',
         timing: 'action',
         icon: 'gi/GiSpiderWeb',
-        text: [
-          'One Large or smaller creature within 15 ft.: Dexterity ',
-          refs.rules.saving_throw,
-          ', ',
-          {
-            dc: 'dex',
+        save: {
+          ability: 'dex',
+          dc: 'dex',
+          target: { creatures: 1, range: 15, which: 'that is Large or smaller' },
+          onFail: {
+            conditions: [refs.rules.restrained],
+            also: [
+              'To break free it must beat ',
+              { dc: 'dex' },
+              ' with a Strength or Dexterity check.',
+            ],
           },
-          '. Failure: ',
-          refs.rules.restrained,
-          ' (escape ',
-          {
-            dc: 'dex',
-          },
-          ').',
-        ],
+        },
         uses: 1,
         recharge: 'Short or long rest',
       },

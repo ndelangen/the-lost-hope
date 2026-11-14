@@ -67,17 +67,15 @@ export default createBeast({
         name: 'Grasping Roots',
         timing: 'action',
         icon: 'gi/GiTreeBranch',
-        text: [
-          'One creature within 10 ft.: Strength ',
-          refs.rules.saving_throw,
-          ', ',
-          {
-            dc: 'str',
+        save: {
+          ability: 'str',
+          dc: 'str',
+          target: { creatures: 1, range: 10 },
+          onFail: {
+            conditions: [refs.rules.restrained],
+            also: ['It lasts until the end of its next turn.'],
           },
-          '. Failure: ',
-          refs.rules.restrained,
-          ' until the end of its next turn.',
-        ],
+        },
         uses: 1,
         recharge: 'Recharge 5–6',
       },
