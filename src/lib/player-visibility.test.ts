@@ -100,3 +100,10 @@ describe('player campaign', () => {
     expect(searchEntities('actively hunting him')).toEqual([])
   })
 })
+
+describe('PC combat numbers', () => {
+  it('stay out of the player view', () => {
+    const pc = { name: 'Devan', combat: { ac: 16, passivePerception: 13 } }
+    expect(stripDmFields('pc', pc)).toEqual({ name: 'Devan' })
+  })
+})

@@ -1,5 +1,6 @@
 import type { EntityRef } from '#/definitions/kind'
 import { DEFAULT_AVATAR } from '#/definitions/media'
+import type { PcCombat } from '#/definitions/pc'
 import type { Scene } from '#/definitions/scene'
 import type { OwnOrSharedStatBlock, StatBlock } from '#/definitions/stat-block'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
@@ -12,6 +13,7 @@ import {
   type CreatureRef,
   type Encounter,
   type RosterEntry,
+  type StartingStats,
 } from './encounter'
 
 type CreatureRecord = {
@@ -28,9 +30,11 @@ function creatureRecord(source: CreatureRef): CreatureRecord | undefined {
 
 function pcRecord(source: EntityRef<'pc'>) {
   return Object.hasOwn(SOURCE_REGISTRIES.pc, source.key)
-    ? (SOURCE_REGISTRIES.pc as Readonly<Record<string, { name: string; avatar: string }>>)[
-        source.key
-      ]
+    ? (
+        SOURCE_REGISTRIES.pc as Readonly<
+          Record<string, { name: string; avatar: string; combat?: PcCombat }>
+        >
+      )[source.key]
     : undefined
 }
 
@@ -43,6 +47,10 @@ export type CombatantView = {
   stats?: StatBlock
   /** Numbers derived from the stat block, which ability text refers to. */
   derived?: DerivedStats
+  /** Starting HP and AC: from the stat block, or the numbers a PC's player shared. */
+  start?: StartingStats
+  /** A PC's quick facts for the party strip. */
+  party?: PcCombat
   /** Whether the tracker follows HP and abilities for this entry. */
   tracked: boolean
 }
@@ -58,18 +66,22 @@ export function combatantView(entry: RosterEntry, roster: readonly RosterEntry[]
       name: record?.name ?? entry.source.key,
       kind: 'PC',
       avatar: realAvatar(record?.avatar),
-      tracked: false,
+      start: { maxHp: record?.combat?.maxHp, ac: record?.combat?.ac },
+      party: record?.combat ?? {},
+      tracked: true,
     }
   }
   const record = creatureRecord(entry.source)
   const stats = resolveStatBlock(record?.stats)
+  const derived = stats ? deriveStatBlock(stats) : undefined
   return {
     id: entry.id,
     name: combatantName(entry, roster, record?.name ?? entry.source.key),
     kind: entry.source.ref === 'npc' ? 'NPC' : 'Beast',
     avatar: realAvatar(record?.avatar),
     stats,
-    derived: stats ? deriveStatBlock(stats) : undefined,
+    derived,
+    start: derived ? { maxHp: derived.maxHp, ac: derived.ac } : undefined,
     tracked: true,
   }
 }

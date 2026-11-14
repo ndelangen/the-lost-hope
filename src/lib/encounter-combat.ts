@@ -52,6 +52,12 @@ export const CombatFields = {
   dying: DeathSaves.optional(),
   stable: z.boolean().optional(),
   dead: z.boolean().optional(),
+  /** In its lair: its lair actions come up on initiative 20. */
+  inLair: z.boolean().optional(),
+  /** The lair action used most recently, which can't be used again the next round. */
+  lastLairAction: z
+    .strictObject({ key: z.string(), round: z.number().int().positive() })
+    .optional(),
 }
 
 export type ConditionDuration = z.infer<typeof ConditionDuration>
@@ -273,4 +279,47 @@ export function startOfTurnReminders({
   for (const held of values?.conditions ?? []) reminders.push({ kind: 'condition', held })
   if (values?.concentration) reminders.push({ kind: 'concentrating', on: values.concentration.on })
   return reminders
+}
+
+// --- Lair actions -------------------------------------------------------------------------------
+
+export type LairPrompt = {
+  combatant: string
+  name: string
+  /** What it did this round, once the DM has chosen. */
+  used?: string
+  options: { key: string; name: string; blocked: boolean }[]
+}
+
+/**
+ * Lair actions come up on initiative 20, before anyone else acts in the round. Each creature in
+ * its lair picks one, and can't repeat the one it used last round.
+ */
+export function lairPrompts(
+  creatures: readonly {
+    id: string
+    name: string
+    inLair: boolean
+    actions: readonly { key: string; name: string }[]
+    lastLairAction?: { key: string; round: number }
+  }[],
+  round: number,
+): LairPrompt[] {
+  return creatures
+    .filter((creature) => creature.inLair && creature.actions.length > 0)
+    .map((creature) => ({
+      combatant: creature.id,
+      name: creature.name,
+      used:
+        creature.lastLairAction?.round === round
+          ? creature.actions.find((action) => action.key === creature.lastLairAction?.key)?.name
+          : undefined,
+      options: creature.actions.map((action) => ({
+        key: action.key,
+        name: action.name,
+        blocked:
+          creature.lastLairAction?.round === round - 1 &&
+          creature.lastLairAction.key === action.key,
+      })),
+    }))
 }

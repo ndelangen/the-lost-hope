@@ -7,8 +7,10 @@ import {
   backUp,
   deathSave,
   markDead,
+  recordLairAction,
   removeCondition,
   setConcentration,
+  setInLair,
   setStat,
   startDying,
   stepTurn,
@@ -17,6 +19,7 @@ import {
 import {
   concentrationDc,
   describeDuration,
+  lairPrompts,
   makeCondition,
   rollsToRecharge,
   startOfTurnReminders,
@@ -213,5 +216,45 @@ describe('start-of-turn reminders', () => {
         },
       }).map((reminder) => reminder.kind),
     ).toEqual(['dying', 'condition', 'concentrating'])
+  })
+})
+
+describe('lair actions', () => {
+  const dragon = {
+    id: 'dragon',
+    name: 'Dragon',
+    inLair: true,
+    actions: [
+      { key: 'tremor', name: 'Tremor' },
+      { key: 'smoke', name: 'Smoke' },
+    ],
+  }
+
+  it('prompts creatures in their lair, blocking last round’s choice', () => {
+    const [prompt] = lairPrompts([{ ...dragon, lastLairAction: { key: 'tremor', round: 1 } }], 2)
+    expect(prompt?.options).toEqual([
+      { key: 'tremor', name: 'Tremor', blocked: true },
+      { key: 'smoke', name: 'Smoke', blocked: false },
+    ])
+    expect(prompt?.used).toBeUndefined()
+  })
+
+  it('shows this round’s choice once made', () => {
+    expect(
+      lairPrompts([{ ...dragon, lastLairAction: { key: 'smoke', round: 3 } }], 3)[0]?.used,
+    ).toBe('Smoke')
+  })
+
+  it('skips creatures outside their lair', () => {
+    expect(lairPrompts([{ ...dragon, inLair: false }], 1)).toEqual([])
+  })
+
+  it('records the lair action for the round', () => {
+    const encounter = recordLairAction(setInLair(fight(), m, true), m, 'smoke')
+    expect(encounter.values[m]).toEqual({
+      inLair: true,
+      lastLairAction: { key: 'smoke', round: 1 },
+    })
+    expect(setInLair(encounter, m, false).values[m]?.inLair).toBeUndefined()
   })
 })

@@ -18,9 +18,10 @@ import { IconButton } from './icon-button'
  * initiative list in view. Everything comes from the rules glossary.
  */
 export function DmScreen({ open, onClose }: { open: boolean; onClose: () => void }) {
-  const closeRef = useRef<HTMLButtonElement>(null)
+  // Move focus into the drawer without popping the close button's tooltip.
+  const headingRef = useRef<HTMLHeadingElement>(null)
   useEffect(() => {
-    if (open) closeRef.current?.focus()
+    if (open) headingRef.current?.focus()
   }, [open])
   if (!open) return null
 
@@ -30,10 +31,15 @@ export function DmScreen({ open, onClose }: { open: boolean; onClose: () => void
       className="border-border bg-background fixed inset-y-0 right-0 z-40 flex w-[min(30rem,100vw)] flex-col border-l-2 shadow-2xl md:w-[min(30rem,calc(100vw-17rem))]"
     >
       <header className="border-border flex items-center justify-between gap-3 border-b px-5 py-3">
-        <h2 id="dm-screen-heading" className="flex items-center gap-2 text-xl font-bold">
+        <h2
+          id="dm-screen-heading"
+          ref={headingRef}
+          tabIndex={-1}
+          className="flex items-center gap-2 text-xl font-bold outline-none"
+        >
           <BookOpen aria-hidden className="size-6" /> DM screen
         </h2>
-        <IconButton ref={closeRef} label="Close the DM screen (Esc)" onClick={onClose}>
+        <IconButton label="Close the DM screen (Esc)" onClick={onClose}>
           <X aria-hidden />
         </IconButton>
       </header>
@@ -128,8 +134,8 @@ function Lines({ items }: { items: readonly (readonly [string, string])[] }) {
   return (
     <dl className="grid gap-1.5">
       {items.map(([label, note]) => (
-        <div key={label} className="grid grid-cols-[7.5rem_minmax(0,1fr)] gap-3">
-          <dt className="font-semibold capitalize">{label}</dt>
+        <div key={label} className="grid grid-cols-[8rem_minmax(0,1fr)] items-baseline gap-3">
+          <dt className="font-semibold first-letter:uppercase">{label}</dt>
           <dd className="text-sm leading-snug">{note}</dd>
         </div>
       ))}
