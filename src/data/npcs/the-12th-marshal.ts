@@ -17,7 +17,7 @@ export default createNPC({
     },
   ],
   stats: {
-    size: 'Gargantuan',
+    size: 'gargantuan',
     type: 'dragon',
     cr: '20',
     ac: 20,
@@ -66,7 +66,9 @@ export default createNPC({
         timing: 'trait',
         icon: 'gi/GiHolySymbol',
         text: [
-          'Its worshippers within 120 ft. live far beyond their natural span and have advantage on saves against being ',
+          'Its worshippers within 120 ft. live far beyond their natural span and have ',
+          refs.rules.advantage,
+          ' on saves against being ',
           refs.rules.frightened,
           '.',
         ],

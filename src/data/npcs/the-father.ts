@@ -19,7 +19,7 @@ export default createNPC({
     },
   ],
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'humanoid',
     cr: '8',
     ac: 16,

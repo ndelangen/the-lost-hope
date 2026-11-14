@@ -28,15 +28,6 @@ import { cn } from '#/lib/utils'
 import { useDensity } from './density'
 import { ActionButton } from './icon-button'
 
-const ABILITY_NAME = {
-  str: 'Strength',
-  dex: 'Dexterity',
-  con: 'Constitution',
-  int: 'Intelligence',
-  wis: 'Wisdom',
-  cha: 'Charisma',
-} as const
-
 /**
  * What the DM should do now: reminders for the creature whose turn it is, and what just happened
  * at the turn boundary (conditions that ended, saves to roll, legendary actions refilled).
@@ -200,9 +191,8 @@ function noteText(note: TurnNote, nameOf: (id: string) => string): ReactNode {
     case 'save-to-end':
       return (
         <span>
-          <strong>{nameOf(note.combatant)}</strong> rolls a DC {note.dc}{' '}
-          {ABILITY_NAME[note.ability]} save to end <strong>{note.condition}</strong>. Remove it on a
-          success.
+          <strong>{nameOf(note.combatant)}</strong> rolls a DC {note.dc} {rules[note.ability].name}{' '}
+          save to end <strong>{note.condition}</strong>. Remove it on a success.
         </span>
       )
     case 'legendary-refilled':

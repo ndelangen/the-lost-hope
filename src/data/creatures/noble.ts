@@ -4,7 +4,7 @@ import { create as createCreature } from '#/definitions/creature.ts'
 export default createCreature({
   name: 'Noble',
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'humanoid',
     cr: '1/8',
     ac: 15,

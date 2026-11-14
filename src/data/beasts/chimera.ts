@@ -5,7 +5,7 @@ export default createBeast({
   name: 'Chimera',
   species: 'Chimera',
   stats: {
-    size: 'Large',
+    size: 'large',
     type: 'monstrosity',
     cr: '6',
     ac: 14,

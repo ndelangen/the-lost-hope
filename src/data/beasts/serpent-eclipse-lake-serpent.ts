@@ -8,7 +8,7 @@ export default createBeast({
   location: refs.locations.serpent_eclipse_flooded_cavern,
   notes: [['An enormous dark-blue serpent that moves beneath the water and stone platforms.']],
   stats: {
-    size: 'Gargantuan',
+    size: 'gargantuan',
     type: 'monstrosity',
     cr: '8',
     ac: 15,
@@ -115,7 +115,9 @@ export default createBeast({
           },
           ') and is ',
           refs.rules.restrained,
-          ' while grappled.',
+          ' while ',
+          refs.rules.grappled,
+          '.',
         ],
       },
       {

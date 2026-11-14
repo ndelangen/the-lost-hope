@@ -7,7 +7,7 @@ export default createBeast({
   species: 'Mimic',
   notes: [['A chest-shaped mimic used by ', refs.npcs.bob_the_merchant, ' at his stall.']],
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'monstrosity',
     cr: '2',
     ac: 12,
@@ -30,7 +30,9 @@ export default createBeast({
           refs.rules.grappled,
           ' condition (escape ',
           { dc: 'str' },
-          '), and ability checks to escape have disadvantage.',
+          '), and ability checks to escape have ',
+          refs.rules.disadvantage,
+          '.',
         ],
       },
       {
@@ -47,7 +49,7 @@ export default createBeast({
             { dice: '1d8', type: refs.rules.acid },
           ],
         },
-        text: ['Advantage against a creature it has ', refs.rules.grappled, '.'],
+        text: [refs.rules.advantage, ' against a creature it has ', refs.rules.grappled, '.'],
       },
       {
         key: 'pseudopod',
@@ -68,7 +70,9 @@ export default createBeast({
           refs.rules.grappled,
           ' condition (escape ',
           { dc: 'str' },
-          '), with disadvantage on checks to escape.',
+          '), with ',
+          refs.rules.disadvantage,
+          ' on checks to escape.',
         ],
       },
       {

@@ -8,7 +8,7 @@ export default createNPC({
   species: 'unknown',
   notes: [['A four-armed figure with a red face.']],
   stats: {
-    size: 'Large',
+    size: 'large',
     type: 'humanoid',
     cr: '5',
     ac: 15,

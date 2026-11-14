@@ -13,7 +13,7 @@ export default createNPC({
     ],
   ],
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'fiend',
     cr: '13',
     ac: 16,
@@ -50,7 +50,9 @@ export default createNPC({
         timing: 'trait',
         icon: 'gi/GiMirrorMirror',
         text: [
-          'Wears the face of one of Jim’s murdered friends. Jim has disadvantage on attacks against it.',
+          'Wears the face of one of Jim’s murdered friends. Jim has ',
+          refs.rules.disadvantage,
+          ' on attacks against it.',
         ],
       },
       {

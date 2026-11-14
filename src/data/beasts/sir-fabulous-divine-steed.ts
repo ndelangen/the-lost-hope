@@ -17,7 +17,7 @@ export default createBeast({
     ['His additional abilities and trained skill remain undecided.'],
   ],
   stats: {
-    size: 'Large',
+    size: 'large',
     type: 'celestial',
     cr: '3',
     ac: 16,
@@ -49,7 +49,9 @@ export default createBeast({
         timing: 'trait',
         icon: 'lucide/Link',
         text: [
-          'Devan can ride him; while mounted, Devan’s attacks against creatures smaller than the steed have advantage.',
+          'Devan can ride him; while mounted, Devan’s attacks against creatures smaller than the steed have ',
+          refs.rules.advantage,
+          '.',
         ],
       },
       {
@@ -58,7 +60,8 @@ export default createBeast({
         timing: 'trait',
         icon: 'lucide/UsersRound',
         text: [
-          'Advantage on an attack roll against a creature if at least one ally is within 5 ft. of it and not ',
+          refs.rules.advantage,
+          ' on an attack roll against a creature if at least one ally is within 5 ft. of it and not ',
           refs.rules.incapacitated,
           '.',
         ],

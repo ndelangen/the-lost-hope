@@ -1,17 +1,25 @@
 import {
-  ABILITY_IDS,
-  SKILLS,
   type Ability,
-  type AbilityId,
   type Attack,
   type ChallengeRating,
   type Save,
-  type Skill,
   type StatBlock,
 } from '#/definitions/stat-block'
 
 import type { DerivedStatBlock } from './dm-ability-text'
-import { ruleOf, ruleRef, type RuleRef } from './rules'
+import {
+  ABILITY_KEYS,
+  SENSE_KEYS,
+  SKILL_KEYS,
+  ruleOf,
+  ruleRef,
+  rules,
+  skillAbility,
+  type AbilityId,
+  type RuleRef,
+  type Sense,
+  type Skill,
+} from './rules'
 
 /**
  * Everything a stat block implies but does not store. Stat blocks keep base facts only (scores,
@@ -95,27 +103,6 @@ export function average(notation: string, bonus = 0) {
 export function rollText(notation: string, bonus: number) {
   const flat = bonus === 0 ? '' : ` ${bonus > 0 ? '+' : '−'} ${Math.abs(bonus)}`
   return `${average(notation, bonus)} (${notation}${flat})`
-}
-
-export const SKILL_LABELS: Record<Skill, string> = {
-  acrobatics: 'Acrobatics',
-  animalHandling: 'Animal Handling',
-  arcana: 'Arcana',
-  athletics: 'Athletics',
-  deception: 'Deception',
-  history: 'History',
-  insight: 'Insight',
-  intimidation: 'Intimidation',
-  investigation: 'Investigation',
-  medicine: 'Medicine',
-  nature: 'Nature',
-  perception: 'Perception',
-  performance: 'Performance',
-  persuasion: 'Persuasion',
-  religion: 'Religion',
-  sleightOfHand: 'Sleight of Hand',
-  stealth: 'Stealth',
-  survival: 'Survival',
 }
 
 /** Every ability in the block, including legendary and lair actions. */
@@ -271,23 +258,22 @@ export type DerivedStats = DerivedStatBlock & {
   saves: Record<AbilityId, number>
   skills: { skill: Skill; label: string; bonus: number }[]
   passivePerception: number
-  senses: string
+  /** Special senses with their range in feet, in glossary order. */
+  senses: { sense: Sense; feet: number }[]
 }
 
 /** The numbers a stat block implies: HP, bonuses, DCs, and what ability text refers to. */
 export function deriveStatBlock(stats: StatBlock): DerivedStats {
   const pb = proficiencyBonus(stats.cr)
   const modifiers = Object.fromEntries(
-    ABILITY_IDS.map((id) => [id, modifier(stats.scores[id])]),
+    ABILITY_KEYS.map((id) => [id, modifier(stats.scores[id])]),
   ) as Record<AbilityId, number>
   const { count } = dice(stats.hitDice)
-  const skills = (Object.keys(SKILLS) as Skill[])
-    .filter((skill) => stats.skills?.[skill])
-    .map((skill) => ({
-      skill,
-      label: SKILL_LABELS[skill],
-      bonus: modifiers[SKILLS[skill]] + pb * proficiencyMultiplier(stats.skills?.[skill]),
-    }))
+  const skills = SKILL_KEYS.filter((skill) => stats.skills?.[skill]).map((skill) => ({
+    skill,
+    label: rules[skill].name,
+    bonus: modifiers[skillAbility(skill)] + pb * proficiencyMultiplier(stats.skills?.[skill]),
+  }))
   const passivePerception =
     10 + modifiers.wis + pb * proficiencyMultiplier(stats.skills?.perception)
   return {
@@ -302,7 +288,7 @@ export function deriveStatBlock(stats: StatBlock): DerivedStats {
         },
       ]),
     ),
-    saveDc: Object.fromEntries(ABILITY_IDS.map((id) => [id, 8 + pb + modifiers[id]])) as Record<
+    saveDc: Object.fromEntries(ABILITY_KEYS.map((id) => [id, 8 + pb + modifiers[id]])) as Record<
       AbilityId,
       number
     >,
@@ -314,15 +300,13 @@ export function deriveStatBlock(stats: StatBlock): DerivedStats {
     initiative: modifiers.dex,
     experience: experience(stats.cr),
     saves: Object.fromEntries(
-      ABILITY_IDS.map((id) => [id, modifiers[id] + pb * proficiencyMultiplier(stats.saves?.[id])]),
+      ABILITY_KEYS.map((id) => [id, modifiers[id] + pb * proficiencyMultiplier(stats.saves?.[id])]),
     ) as Record<AbilityId, number>,
     skills,
     passivePerception,
-    senses: [
-      ...Object.entries(stats.senses ?? {}).map(
-        ([sense, feet]) => `${sense.charAt(0).toUpperCase()}${sense.slice(1)} ${feet} ft.`,
-      ),
-      `Passive Perception ${passivePerception}`,
-    ].join(', '),
+    senses: SENSE_KEYS.flatMap((sense) => {
+      const feet = stats.senses?.[sense]
+      return feet === undefined ? [] : [{ sense, feet }]
+    }),
   }
 }

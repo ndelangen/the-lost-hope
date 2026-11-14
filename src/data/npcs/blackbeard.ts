@@ -14,7 +14,7 @@ export default createNPC({
     ],
   ],
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'humanoid',
     cr: '10',
     ac: 18,
@@ -49,7 +49,9 @@ export default createNPC({
         timing: 'trait',
         icon: 'gi/GiSkullCrossedBones',
         text: [
-          'Allies within 30 ft. of him have advantage on saves against being ',
+          'Allies within 30 ft. of him have ',
+          refs.rules.advantage,
+          ' on saves against being ',
           refs.rules.frightened,
           '.',
         ],

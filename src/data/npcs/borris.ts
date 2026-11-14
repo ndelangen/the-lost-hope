@@ -7,7 +7,7 @@ export default createNPC({
   species: 'unknown',
   notes: [['A recurring crime boss and friend of ', refs.pcs.devan, '.']],
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'humanoid',
     cr: '4',
     ac: 16,
@@ -39,7 +39,8 @@ export default createNPC({
         timing: 'trait',
         icon: 'lucide/UsersRound',
         text: [
-          'Advantage on an attack roll against a creature if at least one ally is within 5 ft. of it and not ',
+          refs.rules.advantage,
+          ' on an attack roll against a creature if at least one ally is within 5 ft. of it and not ',
           refs.rules.incapacitated,
           '.',
         ],

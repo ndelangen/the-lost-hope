@@ -14,7 +14,7 @@ export default createNPC({
     ],
   ],
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'humanoid',
     cr: '9',
     ac: 16,
@@ -50,7 +50,8 @@ export default createNPC({
         timing: 'trait',
         icon: 'lucide/Shield',
         text: [
-          'Advantage on saves against being ',
+          refs.rules.advantage,
+          ' on saves against being ',
           refs.rules.charmed,
           ' or ',
           refs.rules.frightened,

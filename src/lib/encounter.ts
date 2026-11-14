@@ -489,5 +489,3 @@ export function combatantName(entry: RosterEntry, roster: readonly RosterEntry[]
   const copies = roster.filter((other) => sameSource(other, entry.source)).length
   return copies > 1 || entry.copy > 1 ? `${name} ${entry.copy}` : name
 }
-
-export const ABILITY_ORDER = ['str', 'dex', 'con', 'int', 'wis', 'cha'] as const

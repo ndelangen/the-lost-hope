@@ -11,7 +11,7 @@ export default createNPC({
     ['Age, appearance, and temperament are all unestablished.'],
   ],
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'beast',
     cr: '1/8',
     ac: 10,

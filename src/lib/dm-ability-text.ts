@@ -1,7 +1,7 @@
 import type { AbilityTextToken } from '#/definitions/stat-block'
 
 import type { DmStep } from './ability-steps'
-import { ruleOf, termLabel, type RuleRef } from './rules'
+import { ruleOf, rules, termLabel, type AbilityId, type RuleRef } from './rules'
 import { plainStatParts, signed, type StatPart } from './stat-block'
 
 /**
@@ -16,7 +16,6 @@ import { plainStatParts, signed, type StatPart } from './stat-block'
 
 export type { AbilityTextToken }
 
-type AbilityId = 'str' | 'dex' | 'con' | 'int' | 'wis' | 'cha'
 type SpeedMode = 'walk' | 'climb' | 'fly' | 'swim' | 'burrow'
 
 /** What the renderer needs from a creature's derived stat block. */
@@ -43,15 +42,6 @@ export type AbilityTextSegment =
   | { kind: 'ability'; key: string; name: string; summary?: readonly StatPart[] }
   | { kind: 'number'; value: string; note: string }
   | { kind: 'rule'; rule: RuleRef; label: string }
-
-const ABILITY_NAME: Record<AbilityId, string> = {
-  str: 'Strength',
-  dex: 'Dexterity',
-  con: 'Constitution',
-  int: 'Intelligence',
-  wis: 'Wisdom',
-  cha: 'Charisma',
-}
 
 export function formatFeet(feet: number) {
   const whole = Math.floor(feet)
@@ -99,11 +89,11 @@ function segmentFor(
   if ('dc' in token) {
     const dc = block.saveDc[token.dc]
     return dc === undefined
-      ? { kind: 'text', text: `${ABILITY_NAME[token.dc]} save` }
+      ? { kind: 'text', text: `${rules[token.dc].name} save` }
       : {
           kind: 'number',
           value: `DC ${dc}`,
-          note: `The target rolls d20 + its ${ABILITY_NAME[token.dc]} saving throw bonus and succeeds on ${dc} or higher.`,
+          note: `The target rolls d20 + its ${rules[token.dc].name} saving throw bonus and succeeds on ${dc} or higher.`,
         }
   }
 
@@ -111,7 +101,7 @@ function segmentFor(
     return {
       kind: 'number',
       value: signed(block.modifier[token.mod]),
-      note: `${ABILITY_NAME[token.mod]} modifier`,
+      note: `${rules[token.mod].name} modifier`,
     }
   }
 

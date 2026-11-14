@@ -30,7 +30,7 @@ export default createNPC({
     },
   ],
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'celestial',
     cr: '12',
     ac: 17,
@@ -72,7 +72,9 @@ export default createNPC({
           refs.rules.charmed,
           ' or ',
           refs.rules.frightened,
-          '. A creature that has signed one of his contracts has disadvantage on saves against his abilities.',
+          '. A creature that has signed one of his contracts has ',
+          refs.rules.disadvantage,
+          ' on saves against his abilities.',
         ],
       },
       {

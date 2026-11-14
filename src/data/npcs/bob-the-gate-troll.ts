@@ -14,7 +14,7 @@ export default createNPC({
     ],
   ],
   stats: {
-    size: 'Large',
+    size: 'large',
     type: 'giant',
     cr: '5',
     ac: 15,

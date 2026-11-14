@@ -7,7 +7,7 @@ export default createBeast({
   species: 'Walking tree-like creatures',
   notes: [['Guardians that roam the forest around ', refs.locations.verdant_haven, ' at night.']],
   stats: {
-    size: 'Huge',
+    size: 'huge',
     type: 'plant',
     cr: '2',
     ac: 13,

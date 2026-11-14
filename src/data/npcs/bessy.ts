@@ -11,7 +11,7 @@ export default createNPC({
     ],
   ],
   stats: {
-    size: 'Large',
+    size: 'large',
     type: 'monstrosity',
     cr: '3',
     ac: 15,

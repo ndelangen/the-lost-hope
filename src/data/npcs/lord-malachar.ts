@@ -7,7 +7,7 @@ export default createNPC({
   species: 'unknown',
   notes: [['The feared ruler of ', refs.locations.shadowpeak, '.']],
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'humanoid',
     cr: '9',
     ac: 18,
@@ -41,7 +41,9 @@ export default createNPC({
         timing: 'trait',
         icon: 'gi/GiPaw',
         text: [
-          'Dire wolves he raised obey his commands and have advantage on attacks while he is within 30 ft.',
+          'Dire wolves he raised obey his commands and have ',
+          refs.rules.advantage,
+          ' on attacks while he is within 30 ft.',
         ],
       },
       {
@@ -115,7 +117,9 @@ export default createNPC({
         icon: 'gi/GiSonicShout',
         intent: 'damage',
         text: [
-          'Up to two allies within 30 ft. that can hear him each make one attack using their reaction.',
+          'Up to two allies within 30 ft. that can hear him each make one attack using their ',
+          refs.rules.reaction,
+          '.',
         ],
       },
     ],

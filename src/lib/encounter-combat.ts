@@ -1,7 +1,7 @@
 import { z } from 'zod'
 
 import type { Effect, EffectText, EffectTrigger } from '#/definitions/effect'
-import { CONDITION_KEYS, type Condition } from '#/lib/rules'
+import { ABILITY_KEYS, CONDITION_KEYS, rules, type Condition } from '#/lib/rules'
 
 /**
  * Combat state that reminds the DM when a rule applies: conditions with durations, concentration,
@@ -10,7 +10,7 @@ import { CONDITION_KEYS, type Condition } from '#/lib/rules'
  */
 
 const ConditionId = z.enum(CONDITION_KEYS)
-const AbilityId = z.enum(['str', 'dex', 'con', 'int', 'wis', 'cha'])
+const AbilityId = z.enum(ABILITY_KEYS)
 
 /** When a condition ends. Turn boundaries refer to roster entries by id. */
 export const ConditionDuration = z.discriminatedUnion('kind', [
@@ -95,15 +95,6 @@ export function makeCondition(
   return { id, condition, duration, appliedRound: round, appliedDuring: active }
 }
 
-const ABILITY_NAME: Record<AbilityId, string> = {
-  str: 'Strength',
-  dex: 'Dexterity',
-  con: 'Constitution',
-  int: 'Intelligence',
-  wis: 'Wisdom',
-  cha: 'Charisma',
-}
-
 /** "until end of Wolfie 1's next turn", "save ends (DC 13 Con)" */
 export function describeDuration(duration: ConditionDuration, nameOf: (id: string) => string) {
   switch (duration.kind) {
@@ -116,7 +107,7 @@ export function describeDuration(duration: ConditionDuration, nameOf: (id: strin
     case 'rounds':
       return `${duration.rounds} ${duration.rounds === 1 ? 'round' : 'rounds'} (ends round ${duration.untilRound})`
     case 'save-ends':
-      return `save ends: DC ${duration.dc} ${ABILITY_NAME[duration.ability]}`
+      return `save ends: DC ${duration.dc} ${rules[duration.ability].name}`
   }
 }
 

@@ -6,7 +6,7 @@ export default createNPC({
   species: 'Goblin',
   notes: [['A mysterious goblin whose identity and role remain unresolved.']],
   stats: {
-    size: 'Small',
+    size: 'small',
     type: 'fey',
     cr: '1',
     ac: 17,
@@ -40,7 +40,9 @@ export default createNPC({
           refs.rules.disengage,
           ' or ',
           refs.rules.hide,
-          ' action as a bonus action.',
+          ' action as a ',
+          refs.rules.bonus_action,
+          '.',
         ],
       },
       {

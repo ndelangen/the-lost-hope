@@ -4,7 +4,7 @@ import { create as createCreature } from '#/definitions/creature.ts'
 export default createCreature({
   name: 'Spy',
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'humanoid',
     cr: '1',
     ac: 12,
@@ -26,7 +26,7 @@ export default createCreature({
       investigation: 'proficient',
       perception: 'proficient',
       persuasion: 'proficient',
-      sleightOfHand: 'proficient',
+      sleight_of_hand: 'proficient',
       stealth: 'expert',
     },
     abilities: [
@@ -51,7 +51,9 @@ export default createCreature({
         timing: 'trait',
         icon: 'gi/GiDaggerRose',
         text: [
-          'Once per turn, deals an extra 2d6 damage when it hits with advantage, or when an ally is within 5 ft. of the target.',
+          'Once per turn, deals an extra 2d6 damage when it hits with ',
+          refs.rules.advantage,
+          ', or when an ally is within 5 ft. of the target.',
         ],
       },
       {

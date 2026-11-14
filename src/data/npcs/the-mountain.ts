@@ -5,7 +5,7 @@ export default createNPC({
   name: 'The Mountain',
   notes: [['A cage fighter known by this epithet.']],
   stats: {
-    size: 'Large',
+    size: 'large',
     type: 'humanoid',
     cr: '5',
     ac: 16,
@@ -38,7 +38,8 @@ export default createNPC({
         timing: 'trait',
         icon: 'gi/GiSonicShout',
         text: [
-          'Advantage on saves against being ',
+          refs.rules.advantage,
+          ' on saves against being ',
           refs.rules.frightened,
           ' while an audience watches.',
         ],

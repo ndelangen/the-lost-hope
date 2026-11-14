@@ -14,7 +14,7 @@ export default createNPC({
     ['He has a shared contract with ', refs.npcs.sarogarth, '.'],
   ],
   stats: {
-    size: 'Small',
+    size: 'small',
     type: 'elemental',
     cr: '2',
     ac: 16,
@@ -43,7 +43,11 @@ export default createNPC({
         timing: 'trait',
         icon: 'lucide/Shield',
         text: [
-          'As a bonus action, pulls into his shell: +4 AC and speed 0 until he comes out as a bonus action.',
+          'As a ',
+          refs.rules.bonus_action,
+          ', pulls into his shell: +4 AC and speed 0 until he comes out as a ',
+          refs.rules.bonus_action,
+          '.',
         ],
       },
       {

@@ -19,7 +19,7 @@ export default createNPC({
     ],
   ],
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'humanoid',
     cr: '6',
     ac: 14,
@@ -65,7 +65,11 @@ export default createNPC({
         timing: 'trait',
         icon: 'lucide/Box',
         text: [
-          'While his chest is within 5 ft. of him, he can take the Dodge action as a bonus action.',
+          'While his chest is within 5 ft. of him, he can take the ',
+          refs.rules.dodge,
+          ' action as a ',
+          refs.rules.bonus_action,
+          '.',
         ],
       },
       {
@@ -113,7 +117,11 @@ export default createNPC({
           onFail: {
             conditions: [refs.rules.charmed],
             also: [
-              'It lasts 1 minute. If he prefers, it takes 4d6 force damage instead of being charmed.',
+              'It lasts 1 minute. If he prefers, it takes 4d6 ',
+              refs.rules.force,
+              ' damage instead of being ',
+              refs.rules.charmed,
+              '.',
             ],
           },
         },

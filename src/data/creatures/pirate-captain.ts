@@ -4,7 +4,7 @@ import { create as createCreature } from '#/definitions/creature.ts'
 export default createCreature({
   name: 'Pirate Captain',
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'humanoid',
     cr: '6',
     ac: 17,
@@ -39,7 +39,9 @@ export default createCreature({
         timing: 'trait',
         icon: 'gi/GiWaterSplash',
         text: [
-          'Never loses footing on a moving deck and has advantage on saves against being knocked ',
+          'Never loses footing on a moving deck and has ',
+          refs.rules.advantage,
+          ' on saves against being knocked ',
           refs.rules.prone,
           '.',
         ],
@@ -105,7 +107,11 @@ export default createCreature({
         timing: 'bonus action',
         icon: 'gi/GiSonicShout',
         intent: 'support',
-        text: ['One ally within 30 ft. that can hear it may use its reaction to make one attack.'],
+        text: [
+          'One ally within 30 ft. that can hear it may use its ',
+          refs.rules.reaction,
+          ' to make one attack.',
+        ],
       },
       {
         key: 'parry',

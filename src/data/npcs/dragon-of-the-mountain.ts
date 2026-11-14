@@ -17,7 +17,7 @@ export default createNPC({
     ],
   ],
   stats: {
-    size: 'Huge',
+    size: 'huge',
     type: 'dragon',
     cr: '17',
     ac: 19,
