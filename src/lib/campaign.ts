@@ -34,6 +34,7 @@ import {
   type Entity,
   type EntityOf,
 } from './campaign-registries'
+import type { LiveEffect } from './effect-reminders'
 import { effectExpiryDay, effectStatus, type EffectStatus } from './effects'
 
 export type { EntityKind }
@@ -679,6 +680,20 @@ export function effectEntry(effect: EntityOf<'effect'>): EffectEntry {
     ended: ended?.kind === 'event' ? ended : undefined,
     expiryDay: effectExpiryDay(effect.data as Effect, beganDay),
   }
+}
+
+/** Active effects in the shape the DM's live reminders work with. */
+export function liveEffects(): LiveEffect[] {
+  return allEntities('effect')
+    .map(effectEntry)
+    .filter((entry) => entry.status === 'active')
+    .map(({ effect, began }) => ({
+      slug: effect.slug,
+      name: effect.data.name,
+      carrier: resolveRef(effect.data.on)?.data.name ?? effect.data.on.key,
+      beganDay: began?.data.day ?? campaignToday(),
+      data: effect.data as Effect,
+    }))
 }
 
 const EFFECT_STATUS_ORDER: Record<EffectStatus, number> = { active: 0, expired: 1, ended: 2 }

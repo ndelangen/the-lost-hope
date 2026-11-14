@@ -6,7 +6,7 @@ import type { ActiveCondition, DeathSaves, DurationChoice } from '#/lib/encounte
 import type { Condition } from '#/lib/rules'
 import { cn } from '#/lib/utils'
 
-import { ConditionMarkers, EffectMarkers } from './condition-markers'
+import { ConditionMarkers, EffectMarkers, WouldDie } from './condition-markers'
 import { ConditionPicker } from './condition-picker'
 import { useDensity } from './density'
 import { ActionButton } from './icon-button'
@@ -55,7 +55,7 @@ export function CombatStatus({
   /** For creatures with lair actions: whether this fight is in its lair. */
   lair?: { inLair: boolean; onChange: (inLair: boolean) => void }
   /** Campaign effects in force, shown read-only beside the fight's conditions. */
-  effects?: readonly Pick<Effect, 'name' | 'icon' | 'rules'>[]
+  effects?: readonly Pick<Effect, 'name' | 'icon' | 'rules' | 'triggers'>[]
 }) {
   const focus = useDensity() === 'focus'
   const [picking, setPicking] = useState(false)
@@ -64,6 +64,7 @@ export function CombatStatus({
   return (
     <section aria-label="Conditions and status" className="grid gap-2">
       <ZeroHp name={name} isPc={isPc} state={state} actions={actions} />
+      {state.down || state.dying ? <WouldDie effects={effects} /> : null}
       <EffectMarkers effects={effects} />
 
       <div className="flex flex-wrap items-center gap-2">

@@ -288003,6 +288003,7 @@
       "sourceUrl": "https://lucide.dev/icons/moon",
       "usedIn": [
         "src/components/campaign-shell/theme-toggle.tsx",
+        "src/components/dm/dm-effects-panel.tsx",
         "src/lib/condition-icons.tsx"
       ]
     },
@@ -294436,6 +294437,7 @@
       "sourceUrl": "https://lucide.dev/icons/rotate-ccw",
       "usedIn": [
         "src/components/correction-form.tsx",
+        "src/components/dm/dm-effects-panel.tsx",
         "src/components/dm/encounter/ability-controls.tsx",
         "src/components/dm/encounter/combatant-panel.tsx",
         "src/routes/dm/encounter/$id.tsx"
@@ -302634,7 +302636,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/sunrise",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/dm-effects-panel.tsx"
+      ]
     },
     {
       "id": "lucide/Sunset",
@@ -309004,6 +309008,7 @@
       "sourceUrl": "https://lucide.dev/icons/x",
       "usedIn": [
         "src/components/campaign-shell.tsx",
+        "src/components/dm/dm-effects-panel.tsx",
         "src/components/dm/encounter/combat-status.tsx",
         "src/components/dm/encounter/condition-markers.tsx",
         "src/components/dm/encounter/dm-screen.tsx",

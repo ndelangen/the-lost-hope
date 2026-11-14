@@ -4,6 +4,7 @@ import { Background } from './content'
 import { makeCreate } from './create'
 import { ENTITY_KINDS, entityRefOf } from './kind'
 import { deriveSlug } from './slug'
+import { DAMAGE_TYPES } from './stat-block'
 
 /** DM-fired moments an effect can ask to be reminded about (see issue #171). */
 export const EFFECT_TRIGGERS = {
