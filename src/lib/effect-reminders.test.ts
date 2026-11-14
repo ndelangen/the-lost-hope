@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 
+import { refs } from '#/data/generated/refs'
 import type { Effect } from '#/definitions/effect'
 
 import {
@@ -25,8 +26,16 @@ const vessel: LiveEffect = {
       { on: 'newDay', reminder: [['Check the storm']] },
     ],
     obligations: [
-      { label: 'Store a spell', within: { days: 1 }, otherwise: [{ dice: '2d8', type: 'force' }] },
-      { label: 'Cast a spell', within: { days: 7 }, otherwise: [{ dice: '3d8', type: 'force' }] },
+      {
+        label: 'Store a spell',
+        within: { days: 1 },
+        otherwise: [{ dice: '2d8', type: refs.rules.force }],
+      },
+      {
+        label: 'Cast a spell',
+        within: { days: 7 },
+        otherwise: [{ dice: '3d8', type: refs.rules.force }],
+      },
     ],
   } as Effect,
 }
