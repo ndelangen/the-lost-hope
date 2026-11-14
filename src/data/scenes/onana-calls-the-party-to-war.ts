@@ -8,6 +8,7 @@ export default createScene({
   references: [
     refs.npcs.the_father,
     refs.organizations.tempest_family,
+    refs.organizations.beasts_and_dwarf,
     refs.locations.fairhaven,
     refs.pcs.cassian_veyl,
     refs.pcs.devan,
@@ -15,7 +16,9 @@ export default createScene({
   ],
   setup: [
     [
-      'The same Tempest soldiers who once escorted the party pick them up: “Come with us, beasts and dwarf! Not a request, I’m afraid!” A floating battle-cruiser carries them to ',
+      'The same Tempest soldiers who once escorted the party pick them up: “Come with us, ',
+      refs.organizations.beasts_and_dwarf,
+      '! Not a request, I’m afraid!” A floating battle-cruiser carries them to ',
       refs.locations.nimbus,
       '.',
     ],
@@ -30,7 +33,23 @@ export default createScene({
     [
       '“But we’re not as defenceless or as unprepared as ',
       refs.locations.fairhaven,
-      ' was. Are you with me, beasts and dwarf? Where is the rest of your party?”',
+      ' was. Are you with me, ',
+      refs.organizations.beasts_and_dwarf,
+      '? Where is the rest of your party?”',
+    ],
+    [
+      'According to ',
+      refs.npcs.onana_tempest,
+      ', ',
+      refs.npcs.the_father,
+      ' is aboard the flying fortress: “I hope he’s on there, because we’re about to bring it down.”',
+    ],
+  ],
+  notes: [
+    [
+      'Attacking the fortress may be the biggest and final mistake the ',
+      refs.organizations.tempest_family,
+      ' makes.',
     ],
   ],
   outcomes: [
@@ -38,6 +57,18 @@ export default createScene({
       when: [['They join the Tempests.']],
       response: [
         ['', refs.npcs.onana_tempest, ' wants to know everything they know about the traitor.'],
+      ],
+    },
+    {
+      when: [['', refs.pcs.cassian_veyl, ' or ', refs.pcs.devan, ' bring up reuniting the party.']],
+      response: [
+        [
+          '',
+          refs.npcs.onana_tempest,
+          ' needs every hand he can get and lends them soldiers to find ',
+          refs.pcs.swift_starblade,
+          '.',
+        ],
       ],
     },
     {
