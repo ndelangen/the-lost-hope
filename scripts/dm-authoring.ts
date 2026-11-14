@@ -37,7 +37,18 @@ type PortraitJob =
 type Registries = Record<string, Readonly<Record<string, { name: string; slug?: string }>>>
 
 const ROOT = process.cwd()
-const CODEX_BIN = process.env.CODEX_BIN ?? 'codex'
+/**
+ * The Codex CLI: `CODEX_BIN` when set, else `codex` on the PATH, else the copy bundled with the
+ * ChatGPT desktop app on macOS.
+ */
+const CODEX_BIN =
+  process.env.CODEX_BIN ??
+  [
+    ...(process.env.PATH ?? '').split(path.delimiter).map((dir) => path.join(dir, 'codex')),
+    '/Applications/ChatGPT.app/Contents/Resources/codex-cli/bin/codex',
+    '/Applications/Codex.app/Contents/Resources/codex',
+  ].find((candidate) => existsSync(candidate)) ??
+  'codex'
 
 /** Runs `codex exec` in the checkout and returns its final message. */
 export async function runCodex({
