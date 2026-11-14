@@ -493,8 +493,19 @@ export const refs = {
     swifts_silver_container: ref('item', 'swifts_silver_container'),
     wolfie_tracking_ring: ref('item', 'wolfie_tracking_ring'),
   },
-  arcs: {},
-  scenes: {},
+  arcs: {
+    the_fiddler_and_the_party_s_possible_futures: ref(
+      'arc',
+      'the_fiddler_and_the_party_s_possible_futures',
+    ),
+    the_flying_fortress: ref('arc', 'the_flying_fortress'),
+    wolfie_after_the_ring: ref('arc', 'wolfie_after_the_ring'),
+  },
+  scenes: {
+    stealing_a_ship_from_the_harbour: ref('scene', 'stealing_a_ship_from_the_harbour'),
+    the_fiddler_s_next_game: ref('scene', 'the_fiddler_s_next_game'),
+    wolfie_wants_solid_ground: ref('scene', 'wolfie_wants_solid_ground'),
+  },
 } as const
 
 export type BeastKey = keyof typeof refs.beasts
