@@ -234,6 +234,7 @@ export const refs = {
     stefanio: ref('npc', 'stefanio'),
     onana_tempest: ref('npc', 'onana_tempest'),
     charles_tempest: ref('npc', 'charles_tempest'),
+    cloaked_snatcher: ref('npc', 'cloaked_snatcher'),
     celeste_tempest: ref('npc', 'celeste_tempest'),
     brend_tempest: ref('npc', 'brend_tempest'),
     selene_tempest: ref('npc', 'selene_tempest'),
@@ -540,9 +541,9 @@ export const refs = {
     wolfie_after_the_ring: ref('arc', 'wolfie_after_the_ring'),
   },
   scenes: {
-    stealing_a_ship_from_the_harbour: ref('scene', 'stealing_a_ship_from_the_harbour'),
-    the_fiddler_s_next_game: ref('scene', 'the_fiddler_s_next_game'),
-    wolfie_wants_solid_ground: ref('scene', 'wolfie_wants_solid_ground'),
+    the_hand_comes_for_jim: ref('scene', 'the_hand_comes_for_jim'),
+    the_green_beam_over_the_sky_islands: ref('scene', 'the_green_beam_over_the_sky_islands'),
+    onana_calls_the_party_to_war: ref('scene', 'onana_calls_the_party_to_war'),
   },
   creatures: {
     alchemist: ref('creature', 'alchemist'),

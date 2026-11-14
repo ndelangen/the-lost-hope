@@ -15,6 +15,7 @@ import celeste_s_mother from './celeste-s-mother.ts'
 import celeste_tempest from './celeste-tempest.ts'
 import celeste from './celeste.ts'
 import charles_tempest from './charles-tempest.ts'
+import cloaked_snatcher from './cloaked-snatcher.ts'
 import crowy from './crowy.ts'
 import dax from './dax.ts'
 import dragon_of_the_mountain from './dragon-of-the-mountain.ts'
@@ -66,6 +67,7 @@ export default {
   stefanio,
   onana_tempest,
   charles_tempest,
+  cloaked_snatcher,
   celeste_tempest,
   brend_tempest,
   selene_tempest,
