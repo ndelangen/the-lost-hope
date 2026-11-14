@@ -1,6 +1,7 @@
 import type { IconType } from 'react-icons'
 import {
   GiBoltEye,
+  GiBottledShadow,
   GiCastleRuins,
   GiCrystalWand,
   GiDonkey,
@@ -26,6 +27,7 @@ import { cn } from '#/lib/utils'
 /** The icons arcs can use. Each arc picks its own, so it can be told apart without its colour. */
 export const ARC_ICONS = {
   'gi/GiBoltEye': GiBoltEye,
+  'gi/GiBottledShadow': GiBottledShadow,
   'gi/GiCastleRuins': GiCastleRuins,
   'gi/GiCrystalWand': GiCrystalWand,
   'gi/GiDonkey': GiDonkey,

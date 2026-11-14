@@ -16,7 +16,7 @@ export default createNPC({
     ],
   ],
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'humanoid',
     cr: '1/2',
     ac: 13,
@@ -33,7 +33,7 @@ export default createNPC({
         icon: 'lucide/UsersRound',
         text: [
           'Advantage on an attack roll against a creature if at least one ally is within 5 ft. of it and not ',
-          { condition: 'incapacitated' },
+          refs.rules.incapacitated,
           '.',
         ],
       },
@@ -46,7 +46,7 @@ export default createNPC({
         attack: {
           kind: 'melee',
           ability: 'str',
-          damage: [{ dice: '1d6', type: 'bludgeoning', addModifier: true }],
+          damage: [{ dice: '1d6', type: refs.rules.bludgeoning, addModifier: true }],
         },
         text: ['A target reduced to 0 hit points is knocked out instead of dying.'],
       },
@@ -59,11 +59,11 @@ export default createNPC({
         attack: {
           kind: 'melee',
           ability: 'str',
-          damage: [{ dice: '1d4', type: 'bludgeoning', addModifier: true }],
+          damage: [{ dice: '1d4', type: refs.rules.bludgeoning, addModifier: true }],
         },
         text: [
           'A Medium or smaller target has the ',
-          { condition: 'grappled' },
+          refs.rules.grappled,
           ' condition (escape ',
           { dc: 'str' },
           ').',

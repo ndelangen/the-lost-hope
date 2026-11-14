@@ -532,6 +532,7 @@ export const refs = {
       'the_fiddler_and_the_party_s_possible_futures',
     ),
     the_flying_fortress: ref('arc', 'the_flying_fortress'),
+    the_leaking_shadow: ref('arc', 'the_leaking_shadow'),
     the_mountain_crossing: ref('arc', 'the_mountain_crossing'),
     the_obsidian_green_rod: ref('arc', 'the_obsidian_green_rod'),
     the_serpent_eclipse: ref('arc', 'the_serpent_eclipse'),
