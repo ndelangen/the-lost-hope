@@ -284121,7 +284121,9 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/loader-circle",
       "usedIn": [
-        "src/components/correction-form.tsx"
+        "src/components/correction-form.tsx",
+        "src/components/dm/npc-draft-editor.tsx",
+        "src/components/dm/npc-portrait-status.tsx"
       ]
     },
     {
@@ -294479,6 +294481,7 @@
         "src/components/dm/dm-effects-panel.tsx",
         "src/components/dm/encounter/ability-controls.tsx",
         "src/components/dm/encounter/combatant-panel.tsx",
+        "src/components/dm/npc-portrait-status.tsx",
         "src/routes/dm/encounter/$id.tsx"
       ]
     },
@@ -295129,7 +295132,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/save",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/npc-draft-editor.tsx"
+      ]
     },
     {
       "id": "lucide/SaveAll",
@@ -298457,6 +298462,7 @@
         "src/components/campaign-shell/sidebar-data.ts",
         "src/components/dm/encounter/ability-controls.tsx",
         "src/components/dm/encounter/party-strip.tsx",
+        "src/components/dm/npc-draft-editor.tsx",
         "src/lib/condition-icons.tsx",
         "src/lib/entity-kind-visuals.ts",
         "src/lib/location-icons.tsx"
@@ -306649,6 +306655,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/user-plus",
       "usedIn": [
+        "src/components/dm/dm-quick-links.tsx",
         "src/components/dm/encounter/add-combatant.tsx"
       ]
     },

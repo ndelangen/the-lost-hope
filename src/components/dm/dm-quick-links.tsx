@@ -1,5 +1,5 @@
 import { Link } from '@tanstack/react-router'
-import { BookOpen, LayoutDashboard, ScrollText, Swords, Sword, Users } from 'lucide-react'
+import { BookOpen, LayoutDashboard, ScrollText, Swords, Sword, UserPlus, Users } from 'lucide-react'
 
 import { entityHref, sortedSessions } from '#/lib/campaign'
 import { cn } from '#/lib/utils'
@@ -27,6 +27,11 @@ export function DmQuickLinks({ stackAt = 'lg' }: { stackAt?: 'lg' | 'xl' }) {
       <Link to="/dm/encounter" className={linkClass}>
         <Sword className="size-4" /> Encounters
       </Link>
+      {import.meta.env.DEV ? (
+        <Link to="/dm/npcs/new" className={linkClass}>
+          <UserPlus className="size-4" /> New NPC
+        </Link>
+      ) : null}
       <Link to="/pcs" className={linkClass}>
         <Users className="size-4" /> PCs
       </Link>
