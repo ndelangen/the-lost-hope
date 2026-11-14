@@ -4,6 +4,7 @@ import { refs } from '#/data/generated/refs'
 import type { RuleCategory } from '#/definitions/rule'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 import { arcs, creatures, scenes } from '#/lib/dm-campaign'
+import { RULE_ICONS } from '#/lib/rule-icons'
 import { rules } from '#/lib/rules'
 
 const ALL_RECORDS = { ...SOURCE_REGISTRIES, arc: arcs, scene: scenes, creature: creatures, rules }
@@ -64,5 +65,14 @@ describe('rules glossary', () => {
       return []
     })
     expect(problems).toEqual([])
+  })
+})
+
+describe('rules glossary icons', () => {
+  it('gives every damage type a registered icon', () => {
+    const terms = Object.values(rules)
+    const damageTypes = terms.filter((rule) => rule.category === 'damageType')
+    expect(damageTypes.filter((rule) => !rule.icon)).toEqual([])
+    expect(terms.filter((rule) => rule.icon && !(rule.icon in RULE_ICONS))).toEqual([])
   })
 })

@@ -3,7 +3,9 @@ import type { ReactNode } from 'react'
 
 import { HoverPreview } from '#/components/ui/hover-preview'
 import { RULE_CATEGORIES } from '#/definitions/rule'
-import { ruleOf, ruleTextSegments, ruleUrl, type RuleRef } from '#/lib/rules'
+import { DAMAGE_TYPE_COLORS } from '#/lib/damage-type-colors'
+import { RULE_ICONS } from '#/lib/rule-icons'
+import { ruleOf, ruleTextSegments, ruleUrl, type DamageType, type RuleRef } from '#/lib/rules'
 import { cn } from '#/lib/utils'
 
 /**
@@ -20,15 +22,22 @@ export function RuleTerm({
   className?: string
 }) {
   const term = ruleOf(rule)
+  const Icon = term.icon ? RULE_ICONS[term.icon] : undefined
+  const color =
+    term.category === 'damageType' ? DAMAGE_TYPE_COLORS[rule.key as DamageType] : undefined
   return (
     <HoverPreview interactive content={<RuleExplanation rule={rule} />}>
       <button
         type="button"
         className={cn(
-          'decoration-muted-foreground/70 focus-visible:ring-ring/50 cursor-help rounded-sm underline decoration-dotted underline-offset-4 outline-none focus-visible:ring-3',
+          'focus-visible:ring-ring/50 cursor-help rounded-sm underline decoration-dotted underline-offset-4 outline-none focus-visible:ring-3',
+          color ? `${color} font-semibold decoration-current/60` : 'decoration-muted-foreground/70',
           className,
         )}
       >
+        {Icon ? (
+          <Icon aria-hidden className="mr-0.5 inline-block size-[1.1em] align-[-0.2em]" />
+        ) : null}
         {children ?? term.name}
       </button>
     </HoverPreview>
@@ -38,6 +47,7 @@ export function RuleTerm({
 /** What a rules term means, with the terms it builds on named and a link to the full rule. */
 export function RuleExplanation({ rule }: { rule: RuleRef }) {
   const term = ruleOf(rule)
+  const url = ruleUrl(term)
   return (
     <span className="grid gap-1.5 py-0.5 text-sm leading-snug font-normal">
       <span className="flex items-baseline justify-between gap-3">
@@ -60,14 +70,16 @@ export function RuleExplanation({ rule }: { rule: RuleRef }) {
           ),
         )}
       </span>
-      <a
-        href={ruleUrl(term)}
-        target="_blank"
-        rel="noreferrer"
-        className="text-primary inline-flex items-center gap-1 text-xs font-medium underline underline-offset-2"
-      >
-        Full rule in the free D&amp;D rules <ExternalLink aria-hidden className="size-3" />
-      </a>
+      {url ? (
+        <a
+          href={url}
+          target="_blank"
+          rel="noreferrer"
+          className="text-primary inline-flex items-center gap-1 text-xs font-medium underline underline-offset-2"
+        >
+          Full rule in the free D&amp;D Basic Rules <ExternalLink aria-hidden className="size-3" />
+        </a>
+      ) : null}
     </span>
   )
 }

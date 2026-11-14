@@ -7,14 +7,17 @@ export const RULE_CATEGORIES = {
   action: 'Action',
   combat: 'Combat',
   damageType: 'Damage type',
+  area: 'Area of effect',
+  statBlock: 'Stat block',
 } as const
 
 export type RuleCategory = keyof typeof RULE_CATEGORIES
 
-/** Chapters of the free official D&D rules (2024) on D&D Beyond that rules link to. */
+/** Chapters of the free official D&D Basic Rules (2024) on D&D Beyond that rules link to. */
 export const FREE_RULES_PAGES = {
   'rules-glossary': 'Rules Glossary',
   'playing-the-game': 'Playing the Game',
+  'how-to-use-a-monster': 'How to Use a Monster',
 } as const
 
 export type FreeRulesPage = keyof typeof FREE_RULES_PAGES
@@ -37,6 +40,10 @@ export const Rule = z.strictObject({
   short: z.string().trim().min(1).optional().describe('Abbreviation used in the UI, e.g. `AC`'),
   category: z.enum(Object.keys(RULE_CATEGORIES) as [RuleCategory, ...RuleCategory[]]),
   summary: RuleText,
+  icon: z
+    .string()
+    .optional()
+    .describe('Icon-catalog id shown inline with the term; every damage type has one'),
   source: z
     .strictObject({
       page: z.enum(Object.keys(FREE_RULES_PAGES) as [FreeRulesPage, ...FreeRulesPage[]]),
@@ -45,7 +52,8 @@ export const Rule = z.strictObject({
         .regex(/^[A-Za-z0-9]+$/)
         .describe('Heading id on that page, e.g. `BlindedCondition`'),
     })
-    .describe('The full rule in the free official rules on D&D Beyond'),
+    .optional()
+    .describe('The full rule in the free official rules on D&D Beyond, when they have one'),
 })
 
 export type Rule = z.infer<typeof Rule>

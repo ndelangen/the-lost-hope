@@ -15,6 +15,7 @@ import {
   study,
   utilize,
 } from './actions.ts'
+import { cone, cube, emanation, half_damage, line, sphere } from './areas.ts'
 import {
   advantage,
   armor_class,
@@ -68,6 +69,15 @@ import {
   slashing,
   thunder,
 } from './damage-types.ts'
+import {
+  lair_action,
+  legendary_action,
+  multiattack,
+  range,
+  reach,
+  recharge,
+  uses_per_day,
+} from './stat-blocks.ts'
 
 export default {
   blinded,
@@ -119,6 +129,19 @@ export default {
   reaction,
   passive_perception,
   cover,
+  reach,
+  range,
+  half_damage,
+  cone,
+  cube,
+  line,
+  sphere,
+  emanation,
+  multiattack,
+  legendary_action,
+  lair_action,
+  recharge,
+  uses_per_day,
   acid,
   bludgeoning,
   cold,

@@ -40,9 +40,10 @@ export function ruleRef(key: RuleKey): RuleRef {
   return { ref: 'rule', key }
 }
 
-/** The full rule in the free official rules on D&D Beyond. */
+/** The full rule in the free official Basic Rules on D&D Beyond, when they cover it. */
 export function ruleUrl(rule: Rule) {
-  return `https://www.dndbeyond.com/sources/dnd/free-rules/${rule.source.page}#${rule.source.anchor}`
+  if (!rule.source) return undefined
+  return `https://www.dndbeyond.com/sources/dnd/br-2024/${rule.source.page}#${rule.source.anchor}`
 }
 
 /**
