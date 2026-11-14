@@ -1,15 +1,18 @@
 import arcRecords from '#/data/arcs/_index'
+import tableRecord from '#/data/dm/table'
 import npcRecords from '#/data/npcs/_index'
 import sceneRecords from '#/data/scenes/_index'
 import type { Arc } from '#/definitions/arc'
 import { ENTITY_KINDS, type EntityRef } from '#/definitions/kind'
 import type { Scene } from '#/definitions/scene'
+import type { Table } from '#/definitions/table'
 import { campaignSessions, resolveRef, sessionSlugForEvent } from '#/lib/campaign'
 import { collectReferences } from '#/lib/campaign-read-model'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 
 export const arcs: Readonly<Record<string, Arc>> = arcRecords
 export const scenes: Readonly<Record<string, Scene>> = sceneRecords
+export const table: Table = tableRecord
 
 export function resolveArc(ref: EntityRef<'arc'>): Arc | undefined {
   return Object.hasOwn(arcs, ref.key) ? arcs[ref.key] : undefined
@@ -37,13 +40,22 @@ export function sessionsForArc(arc: Arc) {
 }
 
 /** Resolve against the full campaign source, which includes records players have not met. */
-function resolveSourceRef(ref: EntityRef) {
+export function resolveSourceRef(ref: EntityRef) {
   return Object.hasOwn(SOURCE_REGISTRIES[ref.ref], ref.key)
-    ? (SOURCE_REGISTRIES[ref.ref] as Record<string, { slug: string }>)[ref.key]
+    ? (
+        SOURCE_REGISTRIES[ref.ref] as Record<
+          string,
+          { slug: string; name: string; avatar?: string }
+        >
+      )[ref.key]
     : undefined
 }
 
-export function validateDmReferences(arcRegistry = arcs, sceneRegistry = scenes): string[] {
+export function validateDmReferences(
+  arcRegistry = arcs,
+  sceneRegistry = scenes,
+  selection: Table = table,
+): string[] {
   const problems: string[] = []
   const slugs = new Set(
     ENTITY_KINDS.flatMap((kind) =>
@@ -74,6 +86,11 @@ export function validateDmReferences(arcRegistry = arcs, sceneRegistry = scenes)
         problems.push(`${arc.name} / ${plot.name}: unknown scene reference ${plot.scene.key}`)
       }
     }
+  }
+
+  for (const ref of [...selection.likely, ...selection.pinned]) {
+    if (!Object.hasOwn(sceneRegistry, ref.key))
+      problems.push(`Table: unknown scene reference ${ref.key}`)
   }
 
   // DM fields such as `background` and `motivations` only exist in the source, so check every
