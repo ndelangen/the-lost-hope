@@ -5,4 +5,5 @@ export default createNPC({
   name: 'Penelope',
   location: refs.locations.fairhaven,
   notes: [['An alchemist who develops original potion formulae.']],
+  stats: refs.creatures.alchemist,
 })

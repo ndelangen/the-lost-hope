@@ -32,7 +32,9 @@ export type CharacterMembership = Pick<Membership, 'rank' | 'status'> & {
   organizationSlug: string
 }
 
-export function characterMemberships(character: PC | NPC): CharacterMembership[] {
+export function characterMemberships(
+  character: Pick<PC | NPC, 'memberships'>,
+): CharacterMembership[] {
   return (character.memberships ?? []).flatMap((membership) => {
     const organization = membershipOrg(membership)
     return organization

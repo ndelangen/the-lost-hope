@@ -10,4 +10,5 @@ export default createNPC({
       '. Her name and exact whereabouts remain unknown.',
     ],
   ],
+  stats: refs.creatures.commoner,
 })

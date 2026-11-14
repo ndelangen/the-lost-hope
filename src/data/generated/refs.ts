@@ -522,6 +522,14 @@ export const refs = {
     the_fiddler_s_next_game: ref('scene', 'the_fiddler_s_next_game'),
     wolfie_wants_solid_ground: ref('scene', 'wolfie_wants_solid_ground'),
   },
+  creatures: {
+    alchemist: ref('creature', 'alchemist'),
+    commoner: ref('creature', 'commoner'),
+    noble: ref('creature', 'noble'),
+    pirate_captain: ref('creature', 'pirate_captain'),
+    spy: ref('creature', 'spy'),
+    tough: ref('creature', 'tough'),
+  },
 } as const
 
 export type BeastKey = keyof typeof refs.beasts
@@ -535,3 +543,4 @@ export type OrganizationKey = keyof typeof refs.organizations
 export type ItemKey = keyof typeof refs.items
 export type ArcKey = keyof typeof refs.arcs
 export type SceneKey = keyof typeof refs.scenes
+export type CreatureKey = keyof typeof refs.creatures

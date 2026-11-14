@@ -19,4 +19,107 @@ export default createNPC({
       '. He promised that every future meeting with the party would feature a different game.',
     ],
   ],
+  stats: {
+    size: 'Medium',
+    type: 'fey',
+    cr: '8',
+    ac: 15,
+    hitDice: '14d8',
+    speed: {
+      walk: 30,
+    },
+    scores: {
+      str: 10,
+      dex: 18,
+      con: 14,
+      int: 16,
+      wis: 16,
+      cha: 20,
+    },
+    saves: {
+      dex: 'proficient',
+      wis: 'proficient',
+      cha: 'proficient',
+    },
+    skills: {
+      deception: 'expert',
+      insight: 'expert',
+      performance: 'expert',
+      sleightOfHand: 'proficient',
+    },
+    damageResistances: ['psychic'],
+    conditionImmunities: ['charmed'],
+    abilities: [
+      {
+        key: 'many-timelines',
+        name: 'Many Timelines',
+        timing: 'trait',
+        icon: 'gi/GiHourglass',
+        text: ['Can’t be surprised. Attack rolls against him can’t have advantage.'],
+      },
+      {
+        key: 'the-dealer',
+        name: 'The Dealer',
+        timing: 'trait',
+        icon: 'gi/GiCardRandom',
+        text: [
+          'Starts each fight with three cards. Drawing one is a bonus action; the DM picks the effect from the Deck of Many More Things.',
+        ],
+        uses: 3,
+        recharge: 'Long rest',
+      },
+      {
+        key: 'multiattack',
+        name: 'Multiattack',
+        timing: 'action',
+        icon: 'gi/GiPowerLightning',
+        intent: 'damage',
+        text: [
+          'Two ',
+          {
+            ability: 'fate-cut',
+          },
+          ' attacks.',
+        ],
+      },
+      {
+        key: 'fate-cut',
+        name: 'Fiddle-Bow Cut',
+        timing: 'action',
+        icon: 'gi/GiMusicalNotes',
+        intent: 'damage',
+        attack: {
+          kind: 'melee',
+          ability: 'dex',
+          damage: [
+            {
+              dice: '2d6',
+              type: 'slashing',
+              addModifier: true,
+            },
+            {
+              dice: '2d6',
+              type: 'psychic',
+            },
+          ],
+        },
+      },
+      {
+        key: 'rewind',
+        name: 'Rewind',
+        timing: 'reaction',
+        icon: 'gi/GiHourglass',
+        text: [
+          'When a creature he can see succeeds on a d20 test, he forces it to reroll and use the lower result.',
+        ],
+        uses: 3,
+        recharge: 'Long rest',
+      },
+    ],
+    source: {
+      adaptedFrom: ['srd-2024_archmage'],
+      changes:
+        'A timeline-seeing dealer: his danger lies in the deck and in rewinding luck, not raw damage. Species unknown; fey chosen for his otherworldly air.',
+    },
+  },
 })

@@ -14,7 +14,7 @@ export const ENTITY_KINDS = [
 
 export type EntityKind = (typeof ENTITY_KINDS)[number]
 
-export const DM_ENTITY_KINDS = ['arc', 'scene'] as const
+export const DM_ENTITY_KINDS = ['arc', 'scene', 'creature'] as const
 
 export type DmEntityKind = (typeof DM_ENTITY_KINDS)[number]
 

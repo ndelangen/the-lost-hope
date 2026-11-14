@@ -112,7 +112,7 @@ export function eventLocation(event: Event): Location | undefined {
   return entity?.kind === 'location' ? entity.data : undefined
 }
 
-export function npcLocation(npc: NPC): Location | undefined {
+export function npcLocation(npc: Pick<NPC, 'location'>): Location | undefined {
   if (!npc.location) return undefined
   const entity = resolveRef(npc.location)
   return entity?.kind === 'location' ? entity.data : undefined
@@ -440,7 +440,10 @@ export function organizationMembers(org: Organization): OrganizationMemberGroup[
 
   const entries: MemberEntry[] = []
 
-  const characters: { kind: 'pc' | 'npc'; record: PC | NPC }[] = [
+  const characters: {
+    kind: 'pc' | 'npc'
+    record: Pick<PC | NPC, 'slug' | 'name' | 'memberships'>
+  }[] = [
     ...Object.values(pcs).map((record) => ({ kind: 'pc' as const, record })),
     ...Object.values(npcs).map((record) => ({ kind: 'npc' as const, record })),
   ]

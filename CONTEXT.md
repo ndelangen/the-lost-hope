@@ -40,3 +40,15 @@ _Avoid_: Avatar, illustration
 **Location map**:
 A spatial diagram showing the geography or layout of a place.
 _Avoid_: Illustration
+
+## Stat blocks
+
+**Stat block**:
+The DM-only 5e statistics of an NPC or beast. It stores base facts (scores, CR, hit dice,
+proficiencies, attack dice); hit points, bonuses, and save DCs are derived from them.
+_Avoid_: Stats sheet, statline
+
+**Creature**:
+A shared stat block for a kind of creature, such as a tough or a noble, referenced by every NPC or
+beast of that kind. Only exists when two or more records share it.
+_Avoid_: Template, monster type

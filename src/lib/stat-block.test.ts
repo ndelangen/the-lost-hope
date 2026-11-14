@@ -1,0 +1,117 @@
+import { describe, expect, it } from 'vitest'
+
+import { StatBlock } from '#/definitions/stat-block'
+
+import {
+  abilitySummary,
+  attackLine,
+  deriveStatBlock,
+  formatSpeed,
+  proficiencyBonus,
+} from './stat-block'
+
+/** SRD 5.2.1 Dire Wolf: the derived numbers must match the printed stat block. */
+const direWolf = StatBlock.parse({
+  size: 'Large',
+  type: 'beast',
+  cr: '1',
+  ac: 14,
+  hitDice: '3d10',
+  speed: { walk: 50 },
+  scores: { str: 17, dex: 15, con: 15, int: 3, wis: 12, cha: 7 },
+  skills: { perception: 'expert', stealth: 'proficient' },
+  senses: { darkvision: 60 },
+  abilities: [
+    {
+      key: 'bite',
+      name: 'Bite',
+      timing: 'action',
+      icon: 'gi/GiFangs',
+      attack: {
+        kind: 'melee',
+        ability: 'str',
+        damage: [{ dice: '1d10', type: 'piercing', addModifier: true }],
+      },
+    },
+    {
+      key: 'howl',
+      name: 'Howl',
+      timing: 'action',
+      icon: 'gi/GiPaw',
+      text: ['Each creature makes a ', { dc: 'con' }, ' Wisdom save.'],
+    },
+  ],
+  source: { adaptedFrom: ['srd-2024_dire-wolf'] },
+})
+
+/** SRD 5.2.1 Giant Spider: a finesse bite with extra poison damage. */
+const giantSpider = StatBlock.parse({
+  size: 'Large',
+  type: 'beast',
+  cr: '1',
+  ac: 14,
+  hitDice: '4d10',
+  speed: { walk: 30, climb: 30 },
+  scores: { str: 14, dex: 16, con: 12, int: 2, wis: 11, cha: 4 },
+  skills: { perception: 'expert', stealth: 'expert' },
+  senses: { darkvision: 60 },
+  abilities: [
+    {
+      key: 'bite',
+      name: 'Bite',
+      timing: 'action',
+      icon: 'gi/GiFangs',
+      attack: {
+        kind: 'melee',
+        ability: 'dex',
+        damage: [
+          { dice: '1d8', type: 'piercing', addModifier: true },
+          { dice: '2d6', type: 'poison' },
+        ],
+      },
+    },
+  ],
+  source: { adaptedFrom: ['srd-2024_giant-spider'] },
+})
+
+describe('derived stat block', () => {
+  it('derives proficiency bonus from challenge rating', () => {
+    expect(['0', '1/2', '4', '5', '8', '9', '17', '30'].map(proficiencyBonus)).toEqual([
+      2, 2, 2, 3, 3, 4, 6, 9,
+    ])
+  })
+
+  it('matches the printed SRD dire wolf', () => {
+    const derived = deriveStatBlock(direWolf)
+    expect(derived.hitPoints).toBe('22 (3d10 + 6)')
+    expect(derived.maxHp).toBe(22)
+    expect(derived.initiative).toBe(2)
+    expect(derived.experience).toBe(200)
+    expect(derived.skills.map(({ label, bonus }) => [label, bonus])).toEqual([
+      ['Perception', 5],
+      ['Stealth', 4],
+    ])
+    expect(derived.senses).toBe('Darkvision 60 ft., Passive Perception 15')
+    expect(derived.saves.str).toBe(3)
+    expect(derived.abilities.bite?.summary).toBe('+5, 8 (1d10 + 3) piercing')
+  })
+
+  it('matches the printed SRD giant spider', () => {
+    const derived = deriveStatBlock(giantSpider)
+    expect(derived.hitPoints).toBe('26 (4d10 + 4)')
+    expect(derived.skills.map(({ bonus }) => bonus)).toEqual([4, 7])
+    expect(derived.passivePerception).toBe(14)
+    expect(attackLine(giantSpider.abilities[0]!.attack!, giantSpider)).toBe(
+      'Melee +5, reach 5 ft. · Hit: 7 (1d8 + 3) piercing plus 7 (2d6) poison',
+    )
+  })
+
+  it('summarises save DCs from ability text', () => {
+    expect(abilitySummary(direWolf.abilities[1]!, direWolf)).toBe('DC 12 Con')
+    expect(deriveStatBlock(direWolf).saveDc.con).toBe(12)
+  })
+
+  it('formats speeds for reading', () => {
+    expect(formatSpeed({ walk: 30, climb: 30 })).toBe('30 ft., climb 30 ft.')
+  })
+})

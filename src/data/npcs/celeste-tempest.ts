@@ -9,4 +9,5 @@ export default createNPC({
   notes: [
     ['A noblewoman whom ', refs.npcs.esia, ' describes as having a polished public reputation.'],
   ],
+  stats: refs.creatures.noble,
 })

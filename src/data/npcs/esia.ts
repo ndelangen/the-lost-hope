@@ -11,4 +11,5 @@ export default createNPC({
       '. Her name is transcribed inconsistently.',
     ],
   ],
+  stats: refs.creatures.commoner,
 })

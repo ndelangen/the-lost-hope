@@ -15,6 +15,12 @@ import { ThemeToggle } from './campaign-shell/theme-toggle'
 export function CampaignShell() {
   const pathname = useRouterState({ select: (state) => state.location.pathname })
   const hasNavigation = pathname !== '/_icons'
+  // A running encounter in combat focus takes the whole screen.
+  const focused = useRouterState({
+    select: (state) =>
+      state.location.pathname.startsWith('/dm/encounter/') &&
+      (state.location.search as { combat?: unknown }).combat === true,
+  })
   const [drawerOpen, setDrawerOpen] = useState(false)
   const [query, setQuery] = useState('')
   const [sidebarCollapsed, setSidebarCollapsed] = usePersistedBoolean(
@@ -95,6 +101,7 @@ export function CampaignShell() {
       navigationOpen={drawerOpen}
       navigationCollapsed={sidebarCollapsed}
       hasNavigation={hasNavigation}
+      focused={focused}
       onDismissNavigation={closeDrawer}
     >
       <Outlet />

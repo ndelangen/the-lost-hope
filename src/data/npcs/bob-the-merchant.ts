@@ -18,4 +18,124 @@ export default createNPC({
       'Other observers have perceived Bob as a normal, exceptionally handsome human man with black hair. His actual nature and the reason for these conflicting appearances remain unknown.',
     ],
   ],
+  stats: {
+    size: 'Medium',
+    type: 'humanoid',
+    cr: '6',
+    ac: 14,
+    hitDice: '13d8',
+    speed: {
+      walk: 30,
+    },
+    scores: {
+      str: 10,
+      dex: 14,
+      con: 14,
+      int: 20,
+      wis: 15,
+      cha: 18,
+    },
+    saves: {
+      int: 'proficient',
+      wis: 'proficient',
+    },
+    skills: {
+      arcana: 'expert',
+      deception: 'proficient',
+      insight: 'proficient',
+      persuasion: 'expert',
+    },
+    senses: {
+      darkvision: 60,
+    },
+    damageResistances: ['fire', 'necrotic'],
+    abilities: [
+      {
+        key: 'two-faces',
+        name: 'Two Faces',
+        timing: 'trait',
+        icon: 'lucide/Eye',
+        text: [
+          'Some see a skeletal merchant with blue flames in his eye sockets; others a handsome black-haired man. Truesight does not settle which is real.',
+        ],
+      },
+      {
+        key: 'mimic-partner',
+        name: 'Mimic Partner',
+        timing: 'trait',
+        icon: 'lucide/Box',
+        text: [
+          'While his chest is within 5 ft. of him, he can take the Dodge action as a bonus action.',
+        ],
+      },
+      {
+        key: 'multiattack',
+        name: 'Multiattack',
+        timing: 'action',
+        icon: 'gi/GiPowerLightning',
+        intent: 'damage',
+        text: [
+          'Three ',
+          {
+            ability: 'arcane-burst',
+          },
+          ' attacks.',
+        ],
+      },
+      {
+        key: 'arcane-burst',
+        name: 'Blue-Flame Burst',
+        timing: 'action',
+        icon: 'gi/GiFlame',
+        intent: 'damage',
+        attack: {
+          kind: 'ranged',
+          ability: 'int',
+          range: [120, 120],
+          damage: [
+            {
+              dice: '2d10',
+              type: 'fire',
+              addModifier: true,
+            },
+          ],
+        },
+      },
+      {
+        key: 'trinket',
+        name: 'Pull a Trinket',
+        timing: 'action',
+        icon: 'gi/GiMagicSwirl',
+        text: [
+          'One creature within 60 ft.: Wisdom saving throw, ',
+          {
+            dc: 'int',
+          },
+          '. Failure: ',
+          {
+            condition: 'charmed',
+          },
+          ' by him for 1 minute, or it takes 4d6 force damage if he prefers.',
+        ],
+        uses: 1,
+        recharge: 'Recharge 5–6',
+      },
+      {
+        key: 'blink',
+        name: 'Blink Behind the Stall',
+        timing: 'reaction',
+        icon: 'gi/GiTeleport',
+        text: [
+          'When he is hit, he teleports up to 30 ft. to a space he can see and the attack misses.',
+        ],
+        uses: 2,
+        recharge: 'Long rest',
+      },
+    ],
+    source: {
+      adaptedFrom: ['srd-2024_mage'],
+      changes:
+        'Homebrew merchant of uncertain nature: mage numbers with blue fire instead of a spell list.',
+    },
+  },
 })

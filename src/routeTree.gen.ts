@@ -28,6 +28,8 @@ import { Route as SessionsIndexRouteImport } from './routes/sessions/index'
 import { Route as BeastsDetailSlugRouteImport } from './routes/beasts/detail.$slug'
 import { Route as DmArcsIndexRouteImport } from './routes/dm/arcs/index'
 import { Route as DmArcsSlugRouteImport } from './routes/dm/arcs/$slug'
+import { Route as DmEncounterIndexRouteImport } from './routes/dm/encounter/index'
+import { Route as DmEncounterIdRouteImport } from './routes/dm/encounter/$id'
 import { Route as DmScenesIndexRouteImport } from './routes/dm/scenes/index'
 import { Route as DmScenesSlugRouteImport } from './routes/dm/scenes/$slug'
 import { Route as EventsDetailSlugRouteImport } from './routes/events/detail.$slug'
@@ -134,6 +136,16 @@ const DmArcsSlugRoute = DmArcsSlugRouteImport.update({
   path: '/dm/arcs/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const DmEncounterIndexRoute = DmEncounterIndexRouteImport.update({
+  id: '/dm/encounter/',
+  path: '/dm/encounter/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DmEncounterIdRoute = DmEncounterIdRouteImport.update({
+  id: '/dm/encounter/$id',
+  path: '/dm/encounter/$id',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const DmScenesIndexRoute = DmScenesIndexRouteImport.update({
   id: '/dm/scenes/',
   path: '/dm/scenes/',
@@ -204,6 +216,7 @@ export interface FileRoutesByFullPath {
   '/sessions/': typeof SessionsIndexRoute
   '/beasts/detail/$slug': typeof BeastsDetailSlugRoute
   '/dm/arcs/$slug': typeof DmArcsSlugRoute
+  '/dm/encounter/$id': typeof DmEncounterIdRoute
   '/dm/scenes/$slug': typeof DmScenesSlugRoute
   '/events/detail/$slug': typeof EventsDetailSlugRoute
   '/items/detail/$slug': typeof ItemsDetailSlugRoute
@@ -214,6 +227,7 @@ export interface FileRoutesByFullPath {
   '/quests/detail/$slug': typeof QuestsDetailSlugRoute
   '/sessions/detail/$slug': typeof SessionsDetailSlugRoute
   '/dm/arcs/': typeof DmArcsIndexRoute
+  '/dm/encounter/': typeof DmEncounterIndexRoute
   '/dm/scenes/': typeof DmScenesIndexRoute
 }
 export interface FileRoutesByTo {
@@ -235,6 +249,7 @@ export interface FileRoutesByTo {
   '/sessions': typeof SessionsIndexRoute
   '/beasts/detail/$slug': typeof BeastsDetailSlugRoute
   '/dm/arcs/$slug': typeof DmArcsSlugRoute
+  '/dm/encounter/$id': typeof DmEncounterIdRoute
   '/dm/scenes/$slug': typeof DmScenesSlugRoute
   '/events/detail/$slug': typeof EventsDetailSlugRoute
   '/items/detail/$slug': typeof ItemsDetailSlugRoute
@@ -245,6 +260,7 @@ export interface FileRoutesByTo {
   '/quests/detail/$slug': typeof QuestsDetailSlugRoute
   '/sessions/detail/$slug': typeof SessionsDetailSlugRoute
   '/dm/arcs': typeof DmArcsIndexRoute
+  '/dm/encounter': typeof DmEncounterIndexRoute
   '/dm/scenes': typeof DmScenesIndexRoute
 }
 export interface FileRoutesById {
@@ -267,6 +283,7 @@ export interface FileRoutesById {
   '/sessions/': typeof SessionsIndexRoute
   '/beasts/detail/$slug': typeof BeastsDetailSlugRoute
   '/dm/arcs/$slug': typeof DmArcsSlugRoute
+  '/dm/encounter/$id': typeof DmEncounterIdRoute
   '/dm/scenes/$slug': typeof DmScenesSlugRoute
   '/events/detail/$slug': typeof EventsDetailSlugRoute
   '/items/detail/$slug': typeof ItemsDetailSlugRoute
@@ -277,6 +294,7 @@ export interface FileRoutesById {
   '/quests/detail/$slug': typeof QuestsDetailSlugRoute
   '/sessions/detail/$slug': typeof SessionsDetailSlugRoute
   '/dm/arcs/': typeof DmArcsIndexRoute
+  '/dm/encounter/': typeof DmEncounterIndexRoute
   '/dm/scenes/': typeof DmScenesIndexRoute
 }
 export interface FileRouteTypes {
@@ -300,6 +318,7 @@ export interface FileRouteTypes {
     | '/sessions/'
     | '/beasts/detail/$slug'
     | '/dm/arcs/$slug'
+    | '/dm/encounter/$id'
     | '/dm/scenes/$slug'
     | '/events/detail/$slug'
     | '/items/detail/$slug'
@@ -310,6 +329,7 @@ export interface FileRouteTypes {
     | '/quests/detail/$slug'
     | '/sessions/detail/$slug'
     | '/dm/arcs/'
+    | '/dm/encounter/'
     | '/dm/scenes/'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -331,6 +351,7 @@ export interface FileRouteTypes {
     | '/sessions'
     | '/beasts/detail/$slug'
     | '/dm/arcs/$slug'
+    | '/dm/encounter/$id'
     | '/dm/scenes/$slug'
     | '/events/detail/$slug'
     | '/items/detail/$slug'
@@ -341,6 +362,7 @@ export interface FileRouteTypes {
     | '/quests/detail/$slug'
     | '/sessions/detail/$slug'
     | '/dm/arcs'
+    | '/dm/encounter'
     | '/dm/scenes'
   id:
     | '__root__'
@@ -362,6 +384,7 @@ export interface FileRouteTypes {
     | '/sessions/'
     | '/beasts/detail/$slug'
     | '/dm/arcs/$slug'
+    | '/dm/encounter/$id'
     | '/dm/scenes/$slug'
     | '/events/detail/$slug'
     | '/items/detail/$slug'
@@ -372,6 +395,7 @@ export interface FileRouteTypes {
     | '/quests/detail/$slug'
     | '/sessions/detail/$slug'
     | '/dm/arcs/'
+    | '/dm/encounter/'
     | '/dm/scenes/'
   fileRoutesById: FileRoutesById
 }
@@ -394,6 +418,7 @@ export interface RootRouteChildren {
   SessionsIndexRoute: typeof SessionsIndexRoute
   BeastsDetailSlugRoute: typeof BeastsDetailSlugRoute
   DmArcsSlugRoute: typeof DmArcsSlugRoute
+  DmEncounterIdRoute: typeof DmEncounterIdRoute
   DmScenesSlugRoute: typeof DmScenesSlugRoute
   EventsDetailSlugRoute: typeof EventsDetailSlugRoute
   ItemsDetailSlugRoute: typeof ItemsDetailSlugRoute
@@ -404,6 +429,7 @@ export interface RootRouteChildren {
   QuestsDetailSlugRoute: typeof QuestsDetailSlugRoute
   SessionsDetailSlugRoute: typeof SessionsDetailSlugRoute
   DmArcsIndexRoute: typeof DmArcsIndexRoute
+  DmEncounterIndexRoute: typeof DmEncounterIndexRoute
   DmScenesIndexRoute: typeof DmScenesIndexRoute
 }
 
@@ -542,6 +568,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DmArcsSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/dm/encounter/': {
+      id: '/dm/encounter/'
+      path: '/dm/encounter'
+      fullPath: '/dm/encounter/'
+      preLoaderRoute: typeof DmEncounterIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dm/encounter/$id': {
+      id: '/dm/encounter/$id'
+      path: '/dm/encounter/$id'
+      fullPath: '/dm/encounter/$id'
+      preLoaderRoute: typeof DmEncounterIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/dm/scenes/': {
       id: '/dm/scenes/'
       path: '/dm/scenes'
@@ -634,6 +674,7 @@ const rootRouteChildren: RootRouteChildren = {
   SessionsIndexRoute: SessionsIndexRoute,
   BeastsDetailSlugRoute: BeastsDetailSlugRoute,
   DmArcsSlugRoute: DmArcsSlugRoute,
+  DmEncounterIdRoute: DmEncounterIdRoute,
   DmScenesSlugRoute: DmScenesSlugRoute,
   EventsDetailSlugRoute: EventsDetailSlugRoute,
   ItemsDetailSlugRoute: ItemsDetailSlugRoute,
@@ -644,6 +685,7 @@ const rootRouteChildren: RootRouteChildren = {
   QuestsDetailSlugRoute: QuestsDetailSlugRoute,
   SessionsDetailSlugRoute: SessionsDetailSlugRoute,
   DmArcsIndexRoute: DmArcsIndexRoute,
+  DmEncounterIndexRoute: DmEncounterIndexRoute,
   DmScenesIndexRoute: DmScenesIndexRoute,
 }
 export const routeTree = rootRouteImport

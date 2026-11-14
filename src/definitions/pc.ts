@@ -17,6 +17,19 @@ export const PreviousPortrait = z.strictObject({
 
 export type PreviousPortrait = z.infer<typeof PreviousPortrait>
 
+/**
+ * DM-only numbers the player shares for running combat. Leave a value out until the player has
+ * given it; the tracker shows a gap rather than a guess.
+ */
+export const PcCombat = z.strictObject({
+  ac: z.number().int().nonnegative().optional(),
+  maxHp: z.number().int().positive().optional(),
+  passivePerception: z.number().int().positive().optional(),
+  spellSaveDc: z.number().int().positive().optional(),
+})
+
+export type PcCombat = z.infer<typeof PcCombat>
+
 export const PC = deriveSlug(
   z.strictObject({
     name: z.string().describe('The character name of the PC'),
@@ -43,6 +56,7 @@ export const PC = deriveSlug(
       .array(Membership)
       .optional()
       .describe('DM only: memberships the party has not discovered'),
+    combat: PcCombat.optional().describe('DM only: AC, max HP, and other numbers for combat'),
     background: Background,
   }),
 )

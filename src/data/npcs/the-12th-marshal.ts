@@ -16,4 +16,169 @@ export default createNPC({
       rank: '12th Marshal',
     },
   ],
+  stats: {
+    size: 'Gargantuan',
+    type: 'dragon',
+    cr: '20',
+    ac: 20,
+    armor: 'natural armor',
+    hitDice: '18d20',
+    speed: {
+      walk: 40,
+      burrow: 40,
+      fly: 80,
+      swim: 40,
+    },
+    scores: {
+      str: 26,
+      dex: 10,
+      con: 26,
+      int: 10,
+      wis: 13,
+      cha: 18,
+    },
+    saves: {
+      dex: 'proficient',
+      wis: 'proficient',
+    },
+    skills: {
+      perception: 'expert',
+      stealth: 'proficient',
+    },
+    senses: {
+      blindsight: 60,
+      darkvision: 120,
+    },
+    damageImmunities: ['cold'],
+    abilities: [
+      {
+        key: 'ice-walk',
+        name: 'Ice Walk',
+        timing: 'trait',
+        icon: 'lucide/Footprints',
+        text: [
+          'Moves across icy surfaces without an ability check; difficult terrain of ice or snow costs no extra movement.',
+        ],
+      },
+      {
+        key: 'worshipped',
+        name: 'Worshipped',
+        timing: 'trait',
+        icon: 'gi/GiHolySymbol',
+        text: [
+          'Its worshippers within 120 ft. live far beyond their natural span and have advantage on saves against being ',
+          {
+            condition: 'frightened',
+          },
+          '.',
+        ],
+      },
+      {
+        key: 'legendary-resistance',
+        name: 'Legendary Resistance',
+        timing: 'trait',
+        icon: 'lucide/Shield',
+        text: ['If it fails a saving throw, it can choose to succeed instead.'],
+        uses: 4,
+        recharge: 'Long rest',
+      },
+      {
+        key: 'multiattack',
+        name: 'Multiattack',
+        timing: 'action',
+        icon: 'gi/GiPowerLightning',
+        intent: 'damage',
+        text: [
+          'Three ',
+          {
+            ability: 'rend',
+          },
+          ' attacks.',
+        ],
+      },
+      {
+        key: 'rend',
+        name: 'Rend',
+        timing: 'action',
+        icon: 'gi/GiClaws',
+        intent: 'damage',
+        attack: {
+          kind: 'melee',
+          ability: 'str',
+          reach: 15,
+          damage: [
+            {
+              dice: '2d8',
+              type: 'slashing',
+              addModifier: true,
+            },
+            {
+              dice: '2d8',
+              type: 'cold',
+            },
+          ],
+        },
+      },
+      {
+        key: 'cold-breath',
+        name: 'Cold Breath',
+        timing: 'action',
+        icon: 'gi/GiIceBolt',
+        intent: 'damage',
+        text: [
+          'Each creature in a 90-ft. cone: Constitution saving throw, ',
+          {
+            dc: 'con',
+          },
+          '. Failure: 14d8 cold damage. Success: half damage.',
+        ],
+        uses: 1,
+        recharge: 'Recharge 5–6',
+      },
+    ],
+    legendary: {
+      uses: 3,
+      actions: [
+        {
+          key: 'frost-pounce',
+          name: 'Frost Pounce',
+          icon: 'gi/GiClaws',
+          intent: 'damage',
+          text: [
+            'Moves up to ',
+            {
+              speed: 'walk',
+              times: 0.5,
+            },
+            ' and makes one ',
+            {
+              ability: 'rend',
+            },
+            ' attack.',
+          ],
+        },
+        {
+          key: 'freezing-gaze',
+          name: 'Freezing Gaze',
+          icon: 'gi/GiIceBolt',
+          text: [
+            'One creature within 60 ft.: Constitution saving throw, ',
+            {
+              dc: 'con',
+            },
+            '. Failure: ',
+            {
+              condition: 'restrained',
+            },
+            ' by ice until the end of its next turn.',
+          ],
+        },
+      ],
+    },
+    source: {
+      adaptedFrom: ['srd-2024_ancient-white-dragon'],
+      changes:
+        'A dragon governor worshipped in the snowy mountains: ancient white dragon numbers with a worshipper aura.',
+    },
+  },
 })

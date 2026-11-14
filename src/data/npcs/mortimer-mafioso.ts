@@ -11,4 +11,5 @@ export default createNPC({
       '.',
     ],
   ],
+  stats: refs.creatures.alchemist,
 })

@@ -69,6 +69,28 @@ canon.
 - NPCs own their motivations. Reference the NPC from prep so you can read the motivation alongside
   the scene. Arc and scene references come from the generated `refs.arcs` and `refs.scenes` namespaces.
 
+## Stat blocks
+
+- Every NPC and beast has a 5e stat block in `stats`; the schema rejects a record without one.
+  Stat blocks are DM-only and stripped from the player site.
+- Store base facts only: size, type, CR, AC, hit dice, speeds, scores, save and skill
+  proficiencies, senses, defences, and abilities. Never store a derived number: proficiency
+  bonus, HP, save and skill bonuses, passive Perception, to-hit bonuses, damage averages, and save
+  DCs come from `src/lib/stat-block.ts`.
+- Attacks use the structured `attack` field (ability, reach or range, damage dice and type).
+  Ability `text` holds only what happens beyond the damage, as tokens: `{ ability: key }` for a
+  sibling ability, `{ speed }`, `{ dc }`, `{ condition }`, and `{ action }`. Never name another
+  ability, a DC, or a speed in plain prose.
+- When two or more records are the same kind of creature (gang toughs, nobles, spies), put one stat
+  block in `src/data/creatures/` and set `stats: refs.creatures.<key>` on each record. A creature
+  with fewer than two users belongs inline on its record. A record that differs from the shared
+  block gets its own.
+- Prefer an SRD 5.2.1 creature (CC-BY-4.0) as the base. `source.adaptedFrom` lists its Open5e keys
+  (`srd-2024_dire-wolf`), and `source.changes` says what differs. A creature that is not in the SRD
+  is homebrew: leave `adaptedFrom` empty and describe the build in `changes`.
+- Pitch new stat blocks at the party's current level and the creature's role in the story. Register
+  each ability icon in `src/lib/ability-icons.tsx` and pick a catalog entry classified `useful`.
+
 ## What players see
 
 - `notes` holds what the players know. It is shown on the public archive.
