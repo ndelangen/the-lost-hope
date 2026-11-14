@@ -45,6 +45,8 @@ export type CombatantView = {
   derived?: DerivedStats
   /** Whether the tracker follows HP and abilities for this entry. */
   tracked: boolean
+  /** The campaign record this combatant stands for, when it has one. */
+  source?: CreatureRef | EntityRef<'pc'>
 }
 
 /** Resolve a roster entry against the full campaign source, including unmet NPCs and beasts. */
@@ -59,6 +61,7 @@ export function combatantView(entry: RosterEntry, roster: readonly RosterEntry[]
       kind: 'PC',
       avatar: realAvatar(record?.avatar),
       tracked: false,
+      source: entry.source,
     }
   }
   const record = creatureRecord(entry.source)
@@ -71,6 +74,7 @@ export function combatantView(entry: RosterEntry, roster: readonly RosterEntry[]
     stats,
     derived: stats ? deriveStatBlock(stats) : undefined,
     tracked: true,
+    source: entry.source,
   }
 }
 

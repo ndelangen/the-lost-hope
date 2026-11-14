@@ -5,12 +5,14 @@ import type { Effect } from '#/definitions/effect'
 import {
   closeReminders,
   dismissReminder,
+  effectsCarriedBy,
   fireTrigger,
   initialLiveState,
   meetObligation,
   obligationKey,
   obligationStatuses,
   pendingReminders,
+  triggerReminders,
   type LiveEffect,
 } from './effect-reminders'
 
@@ -58,5 +60,30 @@ describe('effect reminders', () => {
       due: 13,
       overdue: false,
     })
+  })
+})
+
+describe('effects in an encounter', () => {
+  const carried: LiveEffect = {
+    ...vessel,
+    slug: 'guard',
+    data: {
+      ...vessel.data,
+      on: { ref: 'npc', key: 'bob' },
+      triggers: [{ on: 'encounterStart', reminder: [['Bob raises his ward']] }],
+    } as Effect,
+  }
+  const elsewhere: LiveEffect = {
+    ...carried,
+    slug: 'other',
+    data: { ...carried.data, on: { ref: 'npc', key: 'someone_else' } } as Effect,
+  }
+
+  it('keeps only the effects carried by combatants', () => {
+    const inPlay = effectsCarriedBy([carried, elsewhere], [{ ref: 'npc', key: 'bob' }])
+    expect(inPlay.map((effect) => effect.slug)).toEqual(['guard'])
+    expect(triggerReminders(inPlay, 'encounterStart').map((reminder) => reminder.id)).toEqual([
+      'guard:encounterStart',
+    ])
   })
 })

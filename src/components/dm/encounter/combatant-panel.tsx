@@ -51,6 +51,7 @@ export function CombatantPanel({
   openAbility,
   actions,
   status,
+  effects,
 }: {
   combatant: CombatantView
   isActive: boolean
@@ -60,6 +61,8 @@ export function CombatantPanel({
   actions: CombatantActions
   /** Conditions, concentration, and 0 HP for this combatant. */
   status?: ReactNode
+  /** Lasting campaign effects this combatant carries. */
+  effects?: ReactNode
 }) {
   const focus = useDensity() === 'focus'
   const { stats, derived: block } = combatant
@@ -161,6 +164,7 @@ export function CombatantPanel({
       ) : null}
 
       {status}
+      {effects}
 
       {abilities.length > 0 ? (
         <div className="grid gap-3">

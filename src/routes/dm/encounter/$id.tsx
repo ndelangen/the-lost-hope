@@ -8,10 +8,12 @@ import { AddCombatant } from '#/components/dm/encounter/add-combatant'
 import { AddParty } from '#/components/dm/encounter/add-party'
 import { CombatStatus, type CombatStatusActions } from '#/components/dm/encounter/combat-status'
 import { CombatTable, type CombatantControls } from '#/components/dm/encounter/combat-table'
+import { CombatantEffects } from '#/components/dm/encounter/combatant-effects'
 import { CombatantPanel, type UseActions } from '#/components/dm/encounter/combatant-panel'
 import { EncounterDensity } from '#/components/dm/encounter/density'
 import { DmScreen } from '#/components/dm/encounter/dm-screen'
 import { EncounterRoster, type RosterRow } from '#/components/dm/encounter/encounter-roster'
+import { EncounterStartReminders } from '#/components/dm/encounter/encounter-start-reminders'
 import { FocusToolbar } from '#/components/dm/encounter/focus-toolbar'
 import { ActionButton } from '#/components/dm/encounter/icon-button'
 import { InitiativeRail } from '#/components/dm/encounter/initiative-rail'
@@ -19,8 +21,10 @@ import { InitiativeRow } from '#/components/dm/encounter/initiative-row'
 import { LegendaryRow, type LegendaryGroup } from '#/components/dm/encounter/legendary-row'
 import { ConcentrationPrompt, TurnCard } from '#/components/dm/encounter/turn-card'
 import { newEncounterId, useEncounterStore } from '#/components/dm/encounter/use-encounter-store'
+import { liveEffects } from '#/lib/campaign'
 import { resolveScene } from '#/lib/dm-campaign'
 import { combatantView, currentParty, encounterCandidates } from '#/lib/dm-encounter'
+import { effectsCarriedBy, triggerReminders } from '#/lib/effect-reminders'
 import {
   LEGENDARY_POOL,
   abilityKey,
@@ -70,6 +74,9 @@ const Search = z.strictObject({
     .catch(undefined),
 })
 
+/** Lasting campaign effects that are active now. */
+const activeEffects = liveEffects()
+
 export const Route = createFileRoute('/dm/encounter/$id')({
   validateSearch: Search,
   head: () => ({
@@ -102,6 +109,7 @@ function EncounterRoute() {
   const [turnNotes, setTurnNotes] = useState<TurnNote[]>([])
   const [answered, setAnswered] = useState<ReadonlySet<string>>(new Set())
   const [concentrationCheck, setConcentrationCheck] = useState<{ id: string; dc: number }>()
+  const [startDismissed, setStartDismissed] = useState(false)
 
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
@@ -142,6 +150,14 @@ function EncounterRoute() {
   const scene = encounter.scene ? resolveScene(encounter.scene) : undefined
 
   const combatants = encounter.roster.map((entry) => combatantView(entry, encounter.roster))
+  const effectsInPlay = effectsCarriedBy(
+    activeEffects,
+    combatants.flatMap((combatant) => (combatant.source ? [combatant.source] : [])),
+  )
+  const startReminders =
+    encounter.round === 1 && !startDismissed
+      ? triggerReminders(effectsInPlay, 'encounterStart')
+      : []
   const rows: RosterRow[] = combatants.map((combatant) => {
     const saved = values[combatant.id]
     const live = liveStats(combatant.derived, saved)
@@ -285,6 +301,12 @@ function EncounterRoute() {
         openAbility={openAbility}
         actions={actions}
         status={statusFor(row)}
+        effects={
+          <CombatantEffects
+            effects={row.source ? effectsCarriedBy(effectsInPlay, [row.source]) : []}
+            down={row.combat.down || Boolean(row.combat.dying)}
+          />
+        }
       />
     )
   }
@@ -335,6 +357,10 @@ function EncounterRoute() {
       />
     ) : null
 
+  const startBanner = (
+    <EncounterStartReminders reminders={startReminders} onDismiss={() => setStartDismissed(true)} />
+  )
+
   if (focused) {
     return (
       <EncounterDensity value="focus">
@@ -360,6 +386,7 @@ function EncounterRoute() {
             onToggleScreen={() => setScreenOpen((open) => !open)}
           />
           <DmScreen open={screenOpen} onClose={() => setScreenOpen(false)} />
+          {startBanner}
           {concentrationPrompt}
           {turnCard}
           {legendaryRow}
@@ -443,6 +470,7 @@ function EncounterRoute() {
           onStep={step}
         />
 
+        {startBanner}
         {concentrationPrompt}
         {turnCard}
         {legendaryRow}

@@ -309003,6 +309003,7 @@
         "src/components/dm/encounter/condition-markers.tsx",
         "src/components/dm/encounter/dm-screen.tsx",
         "src/components/dm/encounter/encounter-roster.tsx",
+        "src/components/dm/encounter/encounter-start-reminders.tsx",
         "src/components/dm/encounter/turn-card.tsx",
         "src/components/image-viewer.tsx"
       ]
