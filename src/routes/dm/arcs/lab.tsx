@@ -15,12 +15,14 @@ import {
   branchParents,
   bundleFinished,
   peopleLines,
-  relatedColumns,
+  recentColumns,
 } from './-lab-model'
+import { RelateArcs } from './-lab-relate'
+import { WhoGrid } from './-lab-who'
 
 /** Prototype: six variants of the arcs graph, built from what other storyline tools do. */
 export const Route = createFileRoute('/dm/arcs/lab')({
-  validateSearch: z.object({ v: z.number().int().min(1).max(8).catch(1) }),
+  validateSearch: z.object({ v: z.number().int().min(1).max(9).catch(1) }),
   head: () => ({
     meta: [
       { title: 'Arc graph variants (prototype) | DM' },
@@ -43,14 +45,14 @@ const VARIANTS = [
     name: 'Branching',
     from: 'Git clients',
     about:
-      'An arc that began at an event of an older arc splits off that arc’s line. Columns are chosen so arcs that share events sit next to each other.',
+      'An arc that began at an event of an older arc splits off that arc’s line. The arcs played most recently get the first columns; quiet ones move to the edge.',
   },
   {
     id: 3,
     name: 'Compact log',
     from: 'git log --graph',
     about:
-      'One row per session with every arc played in it, so the whole campaign fits on a screen. Hover a station for its events; icons stand in for names.',
+      'One row per session with every arc played in it, so the whole campaign fits on a screen. Hover a station for its events. Pick two arcs to see what ties them together.',
   },
   {
     id: 4,
@@ -71,7 +73,7 @@ const VARIANTS = [
     name: 'Best of',
     from: 'All of the above',
     about:
-      'Interchanges, branching, related arcs side by side, and hover cards, on the current layout.',
+      'Interchanges, branching and hover cards. Columns go to the arcs played most recently, so an arc that has gone quiet moves to the edge.',
   },
   {
     id: 7,
@@ -87,6 +89,13 @@ const VARIANTS = [
     about:
       'Only open arcs, ranked by how many sessions they have been open, or by how long since they were last played. Slide to choose what counts as long.',
   },
+  {
+    id: 9,
+    name: 'Cast',
+    from: 'Character appearance charts (Plottr, Aeon Timeline, Scrivener)',
+    about:
+      'One row per person, one column per session, darker when they were in more events. Sort by who has been gone longest to find NPCs you have not used in a while.',
+  },
 ] as const
 
 function ArcLab() {
@@ -95,14 +104,16 @@ function ArcLab() {
   const base = useMemo(() => buildStorylines(arcs), [])
   const parents = useMemo(() => branchParents(base), [base])
   const people = useMemo(() => peopleLines(sessions), [sessions])
+  const cast = useMemo(() => peopleLines(sessions, 30), [sessions])
   const [expanded, setExpanded] = useState<Set<string>>(new Set())
   const [selected, setSelected] = useState<string | undefined>()
 
   let lines: LabLine[] = base
-  let columns: ReadonlyMap<string, number> = assignColumns(base)
+  const recent = useMemo(() => recentColumns(base), [base])
+  const [pair, setPair] = useState<{ a?: string; b?: string }>({})
+  let columns: ReadonlyMap<string, number> = recent
   let options: LabOptions = { interchange: 'pill', density: 'arc', hoverCards: false }
   if (v === 2) {
-    columns = relatedColumns(base)
     options = { interchange: 'curve', density: 'arc', branchParents: parents, hoverCards: false }
   } else if (v === 3) {
     options = { interchange: 'pill', density: 'session', hoverCards: true }
@@ -117,7 +128,6 @@ function ArcLab() {
     columns = assignColumns(people)
     options = { interchange: 'pill', density: 'session', hoverCards: true, clusterBy: 'place' }
   } else if (v === 6) {
-    columns = relatedColumns(base)
     options = { interchange: 'pill', density: 'arc', branchParents: parents, hoverCards: true }
   }
 
@@ -125,6 +135,11 @@ function ArcLab() {
     if (line.members) {
       setExpanded((prev) => new Set([...prev, line.key]))
       return
+    }
+    if (v === 3) {
+      setPair(({ a, b }) =>
+        !a || (a && b) ? { a: line.key } : a === line.key ? { a } : { a, b: line.key },
+      )
     }
     setSelected((prev) => (prev === line.key ? undefined : line.key))
   }
@@ -168,6 +183,14 @@ function ArcLab() {
             </button>
           ) : null}
         </div>
+        {v === 3 ? (
+          <RelateArcs
+            storylines={base}
+            a={pair.a}
+            b={pair.b}
+            onChange={(a, b) => setPair({ a, b })}
+          />
+        ) : null}
         {v === 7 ? (
           <FlowGraph
             storylines={base}
@@ -175,6 +198,8 @@ function ArcLab() {
             onSelect={onSelect}
             selected={selected}
           />
+        ) : v === 9 ? (
+          <WhoGrid people={cast} sessions={sessions} />
         ) : v === 8 ? (
           <LongArcs storylines={base} sessions={sessions} onSelect={onSelect} />
         ) : (

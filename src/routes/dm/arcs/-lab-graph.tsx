@@ -80,7 +80,10 @@ export function LabGraph({
   const [hover, setHover] = useState<string | undefined>()
   const [card, setCard] = useState<{ line: LabLine; session?: number; x: number; y: number }>()
   const byKey = new Map(lines.map((line) => [line.key, line]))
-  const open = lines.filter((line) => line.next.length > 0)
+  // Open arcs in column order, so the tips form a staircase and a quiet arc on the edge sinks.
+  const open = lines
+    .filter((line) => line.next.length > 0)
+    .toSorted((a, b) => (columns.get(a.key) ?? 0) - (columns.get(b.key) ?? 0))
 
   const rows: Row[] = []
   const stationRow = (

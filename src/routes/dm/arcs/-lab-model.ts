@@ -236,3 +236,85 @@ function stubArc(key: string, name: string, icon: string): Arc {
     plots: [],
   } as Arc
 }
+
+/**
+ * Columns handed out from the top of the graph down, the way git log does: the arc played most
+ * recently gets the first column, and an open arc that has gone quiet drifts to the edge. Among
+ * free columns, an arc prefers one next to the arcs it shares events with.
+ */
+export function recentColumns(lines: readonly Storyline[]): Map<string, number> {
+  const end = (line: Storyline) =>
+    line.next.length > 0 ? Number.POSITIVE_INFINITY : (line.last ?? line.first ?? 0)
+  const ordered = lines.toSorted(
+    (a, b) =>
+      Number(b.next.length > 0) - Number(a.next.length > 0) ||
+      (b.last ?? b.first ?? 0) - (a.last ?? a.first ?? 0) ||
+      (b.first ?? 0) - (a.first ?? 0),
+  )
+  // The session each column is taken down to; a column frees up below the arc using it.
+  const busyDownTo: number[] = []
+  const columns = new Map<string, number>()
+  for (const line of ordered) {
+    const top = end(line)
+    const partners = line.crossings
+      .map((crossing) => columns.get(crossing.arcKey))
+      .filter((column): column is number => column !== undefined)
+    const free = busyDownTo.flatMap((from, column) => (from > top ? [column] : []))
+    const candidates = [...free, busyDownTo.length]
+    const distance = (column: number) =>
+      partners.length === 0 ? 0 : Math.min(...partners.map((p) => Math.abs(p - column)))
+    const column = candidates.toSorted((a, b) => a - b || distance(a) - distance(b))[0]!
+    busyDownTo[column] = line.first ?? 0
+    columns.set(line.key, column)
+  }
+  return columns
+}
+
+export type Relation = {
+  /** Events both arcs were part of. */
+  shared: string[]
+  /** People, places and things both arcs touch, rarest first, with how many arcs touch them. */
+  common: { ref: EntityRef; arcs: number }[]
+  /** Arcs that share an event with both, so a path runs A → C → B. */
+  bridges: { line: Storyline; viaA: string[]; viaB: string[] }[]
+  /** Records named in one arc's open plots that the other arc already touches: ready-made hooks. */
+  hooks: { from: Storyline; plot: string; ref: EntityRef }[]
+}
+
+/** How two arcs are tied together, to help find a common path between them. */
+export function relateArcs(
+  lines: readonly Storyline[],
+  a: Storyline,
+  b: Storyline,
+  referencesOf: (line: Storyline) => Set<string>,
+): Relation {
+  const refs = new Map(lines.map((line) => [line.key, referencesOf(line)]))
+  const touching = (key: string) => lines.filter((line) => refs.get(line.key)!.has(key)).length
+  const refA = refs.get(a.key)!
+  const refB = refs.get(b.key)!
+  const toRef = (key: string) => {
+    const [ref, slug] = key.split(':') as [EntityRef['ref'], string]
+    return { ref, key: slug } as EntityRef
+  }
+  const common = [...refA]
+    .filter((key) => refB.has(key) && !/^(event|session|pc):/u.test(key))
+    .map((key) => ({ ref: toRef(key), arcs: touching(key) }))
+    // Things nearly every arc touches (the party, the world) tie nothing together.
+    .filter(({ arcs }) => arcs <= Math.max(2, lines.length / 2))
+    .toSorted((x, y) => x.arcs - y.arcs)
+  const crossing = (from: Storyline, to: string) =>
+    from.crossings.find((c) => c.arcKey === to)?.events ?? []
+  const bridges = lines
+    .filter((line) => line !== a && line !== b)
+    .map((line) => ({ line, viaA: crossing(a, line.key), viaB: crossing(b, line.key) }))
+    .filter(({ viaA, viaB }) => viaA.length > 0 && viaB.length > 0)
+  const hooks = [a, b].flatMap((from) => {
+    const other = from === a ? refB : refA
+    return from.next.flatMap((plot) =>
+      collectReferences(plot)
+        .filter((ref) => other.has(`${ref.ref}:${ref.key}`) && !['event', 'pc'].includes(ref.ref))
+        .map((ref) => ({ from, plot: plot.name, ref })),
+    )
+  })
+  return { shared: crossing(a, b.key), common, bridges, hooks }
+}
