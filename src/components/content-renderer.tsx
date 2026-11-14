@@ -1,10 +1,12 @@
 import { EntityReference } from '#/components/entity-reference'
 import { ResponsiveImage } from '#/components/responsive-image'
+import { RuleTerm } from '#/components/rule-term'
 import { Stack } from '#/components/ui/layout'
 import type { Content } from '#/definitions/content.ts'
 import { isEntityRef } from '#/definitions/kind.ts'
 import type { Reference } from '#/definitions/reference.ts'
 import { refLink } from '#/lib/campaign'
+import { isRuleRef, ruleOf, termLabel } from '#/lib/rules'
 import { cn } from '#/lib/utils'
 
 type ContentParagraph = Content[number]
@@ -72,6 +74,10 @@ function ContentPart({ part }: { part: ContentParagraph | ContentAtom }) {
     return <ContentReference reference={part} />
   }
 
+  if (isRuleRef(part)) {
+    return <RuleTerm rule={part} />
+  }
+
   return null
 }
 
@@ -80,9 +86,21 @@ function ContentPart({ part }: { part: ContentParagraph | ContentAtom }) {
  * paragraph — text flows together with references as inline links.
  */
 function InlineRun({ items }: { items: ContentParagraph }) {
+  let before = ''
   return (
     <p className="leading-relaxed">
       {items.map((item, index) => {
+        if (isRuleRef(item)) {
+          const label = termLabel(ruleOf(item), before)
+          before += label
+          return (
+            // oxlint-disable-next-line react/no-array-index-key -- content runs lack stable ids
+            <RuleTerm key={index} rule={item}>
+              {label}
+            </RuleTerm>
+          )
+        }
+        before += typeof item === 'string' ? item : 'x'
         if (typeof item === 'string') {
           // oxlint-disable-next-line react/no-array-index-key -- content runs lack stable ids
           return <span key={index}>{item}</span>
@@ -131,7 +149,8 @@ function isReference(value: unknown): value is Reference {
 /** True when every element is a plain-text/ref atom, i.e. the array is one paragraph. */
 function isInlineRun(items: ContentParagraph): boolean {
   return items.every(
-    (item) => typeof item === 'string' || isReference(item) || isExternalLink(item),
+    (item) =>
+      typeof item === 'string' || isReference(item) || isRuleRef(item) || isExternalLink(item),
   )
 }
 

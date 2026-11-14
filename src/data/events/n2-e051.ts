@@ -17,7 +17,11 @@ export default createEvent({
       refs.locations.blackstone_stables,
       ', and ',
       refs.pcs.devan,
-      ' enthusiastically agreed. A concentration spell made the pups invisible while the party left the estate.',
+      ' enthusiastically agreed. A ',
+      refs.rules.concentration,
+      ' spell made the pups ',
+      refs.rules.invisible,
+      ' while the party left the estate.',
     ],
   ],
 })

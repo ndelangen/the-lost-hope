@@ -105,9 +105,11 @@ describe('Session 14 transcript import', () => {
     expect(events.n2_e147.location).toEqual(refs.locations.serpent_eclipse_far_landing)
     expect(events.n2_e148.location).toEqual(refs.locations.serpent_eclipse_rest_chamber)
     expect(events.n2_e148.notes.flat()).toContainEqual(refs.events.n2_e147)
-    expect(events.n2_e148.notes.flat().at(-1)).toBe(
-      ' gathered around the campfire and took a short rest. The flag remained unfound and the maze trial unfinished.',
-    )
+    expect(events.n2_e148.notes.flat().slice(-3)).toEqual([
+      ' gathered around the campfire and took a ',
+      refs.rules.short_rest,
+      '. The flag remained unfound and the maze trial unfinished.',
+    ])
   })
 
   it('credits Swift with spotting the rockfall opportunity and telling Devan', () => {

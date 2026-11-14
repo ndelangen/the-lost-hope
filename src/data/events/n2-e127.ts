@@ -14,7 +14,11 @@ export default createEvent({
     ],
     [
       refs.pcs.jim,
-      ' fell unconscious and came within one failed death save of dying. ',
+      ' fell ',
+      refs.rules.unconscious,
+      ' and came within one failed ',
+      refs.rules.death_saving_throw,
+      ' of dying. ',
       refs.pcs.devan,
       ' restored him with healing, and ',
       refs.pcs.jim,

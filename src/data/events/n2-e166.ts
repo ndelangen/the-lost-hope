@@ -17,7 +17,9 @@ export default createEvent({
       refs.effects.storm,
       ' hit ',
       refs.pcs.jim,
-      '. The strike dealt four lightning damage and left him convulsing for roughly four minutes.',
+      '. The strike dealt four ',
+      refs.rules.lightning,
+      ' damage and left him convulsing for roughly four minutes.',
     ],
     [
       'At breakfast, the party caught ',

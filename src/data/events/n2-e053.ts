@@ -14,7 +14,9 @@ export default createEvent({
       ' sniped the crystal controlling the captives from afar, shattering it, releasing them, and throwing the mine into absolute chaos.',
     ],
     [
-      'The concentration spell hiding ',
+      'The ',
+      refs.rules.concentration,
+      ' spell hiding ',
       refs.beasts.wolfie,
       ' and ',
       refs.beasts.sir_fabulous,

@@ -35,6 +35,10 @@ export function ruleOf(ref: RuleRef): Rule {
   return rule
 }
 
+export function isRuleRef(value: unknown): value is RuleRef {
+  return !!value && typeof value === 'object' && (value as { ref?: unknown }).ref === 'rule'
+}
+
 /** The ref for a typed glossary key, for places that store keys such as encounter state. */
 export function ruleRef(key: RuleKey): RuleRef {
   return { ref: 'rule', key }

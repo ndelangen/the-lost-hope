@@ -14,7 +14,13 @@ export default createItem({
       ', now a magical returning weapon with a polished obsidian head, an ancient-bark haft, and faint crimson veins.',
     ],
     [
-      'It deals 1d10 bludgeoning damage, can be thrown up to 60 feet, returns to a free hand immediately after the attack, and counts as magical against resistance or immunity. Throwing it reduces its wielder’s speed by 5 feet until the next turn.',
+      'It deals 1d10 ',
+      refs.rules.bludgeoning,
+      ' damage, can be thrown up to 60 feet, returns to a free hand immediately after the attack, and counts as magical against ',
+      refs.rules.resistance,
+      ' or ',
+      refs.rules.immunity,
+      '. Throwing it reduces its wielder’s speed by 5 feet until the next turn.',
     ],
     [
       'On a natural 1, its obsidian head is drawn to the ground after the attack and creatures within 10 feet take 1d10 damage.',

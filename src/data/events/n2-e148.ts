@@ -12,7 +12,9 @@ export default createEvent({
       refs.events.n2_e147,
       ', ',
       refs.organizations.beasts_and_dwarf,
-      ' gathered around the campfire and took a short rest. The flag remained unfound and the maze trial unfinished.',
+      ' gathered around the campfire and took a ',
+      refs.rules.short_rest,
+      '. The flag remained unfound and the maze trial unfinished.',
     ],
   ],
 })

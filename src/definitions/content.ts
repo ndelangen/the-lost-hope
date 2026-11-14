@@ -1,17 +1,19 @@
 import { z } from 'zod'
 
-import { EntityRefSchema } from './kind'
+import { EntityRefSchema, entityRefOf } from './kind'
 import type { EntityRef } from './kind'
 
 /**
  * A piece of renderable content. Arrays are interpreted by their elements:
  * an array of only strings/refs/links is a single **inline run** (one paragraph
  * that mixes text and links); an array that contains nested arrays is a list
- * of **paragraphs**, each element rendered as its own block. Nesting can repeat.
+ * of **paragraphs**, each element rendered as its own block. Nesting can repeat. Rules terms
+ * (`refs.rules.*`) explain themselves in place; they are not campaign records.
  */
 export type Content = (
   | string
   | EntityRef
+  | EntityRef<'rule'>
   | { type: 'link'; label: string; url: string }
   | { type: 'image' | 'video' | 'audio' | 'map'; url: string }
 )[][]
@@ -22,6 +24,7 @@ export const Content = z.lazy(() =>
       z.union([
         z.string(),
         EntityRefSchema,
+        entityRefOf('rule'),
         z.object({
           type: z.literal('link'),
           label: z.string().min(1),

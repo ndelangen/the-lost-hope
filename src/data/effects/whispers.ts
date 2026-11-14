@@ -14,7 +14,9 @@ export default createEffect({
       reminder: [
         [
           refs.pcs.jim,
-          ' must succeed on a saving throw to benefit from the long rest. The exact roll is not recorded.',
+          ' must succeed on a ',
+          refs.rules.saving_throw,
+          ' to benefit from the long rest. The exact roll is not recorded.',
         ],
       ],
     },

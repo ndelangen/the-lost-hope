@@ -15,7 +15,9 @@ export default createEvent({
       refs.npcs.onana_tempest,
       ' joined them. ',
       refs.pcs.swift_starblade,
-      ' drank the thousand-year-old Rainbow Skittles, which was said to grant advantage on skill checks for two days, but not attacks.',
+      ' drank the thousand-year-old Rainbow Skittles, which was said to grant ',
+      refs.rules.advantage,
+      ' on skill checks for two days, but not attacks.',
     ],
   ],
 })
