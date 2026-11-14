@@ -1,11 +1,12 @@
 import { Brain, Castle, Check, HeartCrack, HeartPulse, Plus, Skull, X } from 'lucide-react'
 import { useState } from 'react'
 
+import type { Effect } from '#/definitions/effect'
 import type { Condition } from '#/definitions/rules-glossary'
 import type { ActiveCondition, DeathSaves, DurationChoice } from '#/lib/encounter-combat'
 import { cn } from '#/lib/utils'
 
-import { ConditionMarkers } from './condition-markers'
+import { ConditionMarkers, EffectMarkers } from './condition-markers'
 import { ConditionPicker } from './condition-picker'
 import { useDensity } from './density'
 import { ActionButton } from './icon-button'
@@ -42,6 +43,7 @@ export function CombatStatus({
   nameOf,
   actions,
   lair,
+  effects = [],
 }: {
   name: string
   isPc: boolean
@@ -52,6 +54,8 @@ export function CombatStatus({
   actions: CombatStatusActions
   /** For creatures with lair actions: whether this fight is in its lair. */
   lair?: { inLair: boolean; onChange: (inLair: boolean) => void }
+  /** Campaign effects in force, shown read-only beside the fight's conditions. */
+  effects?: readonly Pick<Effect, 'name' | 'icon' | 'rules'>[]
 }) {
   const focus = useDensity() === 'focus'
   const [picking, setPicking] = useState(false)
@@ -60,6 +64,7 @@ export function CombatStatus({
   return (
     <section aria-label="Conditions and status" className="grid gap-2">
       <ZeroHp name={name} isPc={isPc} state={state} actions={actions} />
+      <EffectMarkers effects={effects} />
 
       <div className="flex flex-wrap items-center gap-2">
         <ConditionMarkers

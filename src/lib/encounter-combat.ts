@@ -1,5 +1,6 @@
 import { z } from 'zod'
 
+import type { Effect, EffectText, EffectTrigger } from '#/definitions/effect'
 import { CONDITIONS, type Condition } from '#/definitions/rules-glossary'
 
 /**
@@ -322,4 +323,38 @@ export function lairPrompts(
           creature.lastLairAction.key === action.key,
       })),
     }))
+}
+
+// --- Campaign effects -----------------------------------------------------------------------------
+
+export type EffectReminder = {
+  combatant: string
+  name: string
+  effect: string
+  icon: string
+  reminder: EffectText
+}
+
+/** The reminders campaign effects ask for at a trigger, such as the start of an encounter. */
+export function effectTriggerReminders(
+  combatants: readonly {
+    id: string
+    name: string
+    effects: readonly Pick<Effect, 'name' | 'icon' | 'triggers'>[]
+  }[],
+  trigger: EffectTrigger,
+): EffectReminder[] {
+  return combatants.flatMap((combatant) =>
+    combatant.effects.flatMap((effect) =>
+      (effect.triggers ?? [])
+        .filter((entry) => entry.on === trigger)
+        .map((entry) => ({
+          combatant: combatant.id,
+          name: combatant.name,
+          effect: effect.name,
+          icon: effect.icon,
+          reminder: entry.reminder,
+        })),
+    ),
+  )
 }

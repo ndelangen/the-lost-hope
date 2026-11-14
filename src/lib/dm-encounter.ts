@@ -3,6 +3,7 @@ import { DEFAULT_AVATAR } from '#/definitions/media'
 import type { PcCombat } from '#/definitions/pc'
 import type { Scene } from '#/definitions/scene'
 import type { OwnOrSharedStatBlock, StatBlock } from '#/definitions/stat-block'
+import { effectsOn, type EntityOf } from '#/lib/campaign'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 import { resolveStatBlock } from '#/lib/dm-campaign'
 import { deriveStatBlock, type DerivedStats } from '#/lib/stat-block'
@@ -32,7 +33,7 @@ function pcRecord(source: EntityRef<'pc'>) {
   return Object.hasOwn(SOURCE_REGISTRIES.pc, source.key)
     ? (
         SOURCE_REGISTRIES.pc as Readonly<
-          Record<string, { name: string; avatar: string; combat?: PcCombat }>
+          Record<string, { name: string; slug: string; avatar: string; combat?: PcCombat }>
         >
       )[source.key]
     : undefined
@@ -51,6 +52,8 @@ export type CombatantView = {
   start?: StartingStats
   /** A PC's quick facts for the party strip. */
   party?: PcCombat
+  /** Campaign effects active on this PC, NPC, or beast, read-only in the fight. */
+  effects: readonly EntityOf<'effect'>['data'][]
   /** Whether the tracker follows HP and abilities for this entry. */
   tracked: boolean
 }
@@ -58,7 +61,7 @@ export type CombatantView = {
 /** Resolve a roster entry against the full campaign source, including unmet NPCs and beasts. */
 export function combatantView(entry: RosterEntry, roster: readonly RosterEntry[]): CombatantView {
   if (entry.kind === 'placeholder')
-    return { id: entry.id, name: entry.label, kind: 'Player', tracked: false }
+    return { id: entry.id, name: entry.label, kind: 'Player', tracked: false, effects: [] }
   if (entry.kind === 'pc') {
     const record = pcRecord(entry.source)
     return {
@@ -68,6 +71,7 @@ export function combatantView(entry: RosterEntry, roster: readonly RosterEntry[]
       avatar: realAvatar(record?.avatar),
       start: { maxHp: record?.combat?.maxHp, ac: record?.combat?.ac },
       party: record?.combat ?? {},
+      effects: record ? activeEffects('pc', record.slug) : [],
       tracked: true,
     }
   }
@@ -82,8 +86,16 @@ export function combatantView(entry: RosterEntry, roster: readonly RosterEntry[]
     stats,
     derived,
     start: derived ? { maxHp: derived.maxHp, ac: derived.ac } : undefined,
+    effects: record ? activeEffects(entry.source.ref, record.slug) : [],
     tracked: true,
   }
+}
+
+/** The campaign effects in force on a record now. */
+function activeEffects(kind: 'pc' | 'npc' | 'beast', slug: string) {
+  return effectsOn(kind, slug)
+    .filter((entry) => entry.status === 'active')
+    .map((entry) => entry.effect.data)
 }
 
 function realAvatar(avatar: string | undefined) {
