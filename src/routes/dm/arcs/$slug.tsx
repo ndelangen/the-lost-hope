@@ -30,7 +30,7 @@ function ArcRoute() {
 
   return (
     <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_12rem]">
-      <div className="grid min-w-0 content-start gap-5">
+      <div className="grid min-w-0 grid-cols-1 content-start gap-5">
         <header className="grid gap-2">
           <p className="text-muted-foreground text-xs uppercase">Arc</p>
           <h1 className="text-3xl font-bold">{arc.name}</h1>

@@ -31,17 +31,17 @@ function ScenesIndex() {
 
   return (
     <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_12rem]">
-      <div className="grid min-w-0 content-start gap-5">
+      <div className="grid min-w-0 grid-cols-1 content-start gap-5">
         <h1 className="text-3xl font-bold">All scenes</h1>
         {locations.length === 0 ? (
           <p className="text-muted-foreground">No scenes prepared yet.</p>
         ) : null}
         {locations.map((locationKey) => (
-          <section key={locationKey} className="grid gap-1">
+          <section key={locationKey} className="grid grid-cols-1 gap-1">
             <h2 className="border-border border-b pb-1 font-semibold">
               {resolveSourceRef({ ref: 'location', key: locationKey })?.name}
             </h2>
-            <ul className="grid">
+            <ul className="grid grid-cols-1">
               {byLocation.get(locationKey)!.map(([key, scene]) => (
                 <DmSceneRow
                   key={key}

@@ -16,7 +16,7 @@ function ArcsIndex() {
   const sorted = Object.values(arcs).toSorted((a, b) => compareEntityNames(a.name, b.name))
   return (
     <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_12rem]">
-      <div className="grid min-w-0 content-start gap-4">
+      <div className="grid min-w-0 grid-cols-1 content-start gap-4">
         <h1 className="text-3xl font-bold">Arcs</h1>
         {sorted.length === 0 ? (
           <p className="text-muted-foreground">No arcs prepared yet.</p>

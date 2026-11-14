@@ -31,12 +31,16 @@ function DmDashboard() {
 
   return (
     <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_12rem]">
-      <div className="grid min-w-0 content-start gap-5">
+      <div className="grid min-w-0 grid-cols-1 content-start gap-5">
         <h1 className="text-3xl font-bold">Likely scenes</h1>
         {groups.map((group) => {
           const location = resolveSourceRef(group.location)
           return (
-            <section key={group.location.key} className="grid gap-1" aria-label={location?.name}>
+            <section
+              key={group.location.key}
+              className="grid grid-cols-1 gap-1"
+              aria-label={location?.name}
+            >
               <div className="border-border flex items-center justify-between gap-3 border-b pb-1">
                 <EntityReference
                   kind="location"
@@ -46,7 +50,7 @@ function DmDashboard() {
                 <DmFaces people={group.party} />
               </div>
               {group.scenes.length > 0 ? (
-                <ul className="grid">
+                <ul className="grid grid-cols-1">
                   {group.scenes.map((item) => (
                     <DmSceneRow
                       key={item.key}
