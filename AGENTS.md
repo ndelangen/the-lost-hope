@@ -103,3 +103,15 @@ campaign lore, entities, sessions, quests, and event timelines.
   duplicate rendering, obsolete components, and superseded boundaries. Do not preserve an old UI
   boundary solely for compatibility.
 - For UI architecture reviews and refactors, use the `review-ui-architecture` skill.
+
+## Agent skills
+
+### Issue tracker
+
+Work is tracked in GitHub issues on this repo and planned with the `wayfinder` skill
+(`wayfinder:map` issues with child tickets). See `docs/agents/issue-tracker.md`.
+
+### Domain docs
+
+Single-context: `CONTEXT.md` at the repo root holds the glossary; ADRs go in `docs/adr/` when one
+is needed.
