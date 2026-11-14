@@ -1,5 +1,4 @@
 import type { Effect, EffectTrigger, EffectText, EffectTextToken } from '#/definitions/effect'
-import type { EntityRef } from '#/definitions/kind'
 
 import { spanDays } from './effects'
 
@@ -70,22 +69,6 @@ export function meetObligation(state: EffectLiveState, id: string): EffectLiveSt
   return { ...state, met: { ...state.met, [id]: state.day } }
 }
 
-/** Every reminder the effects ask for when the trigger happens. */
-export function triggerReminders(
-  effects: readonly LiveEffect[],
-  trigger: EffectTrigger,
-): Reminder[] {
-  return effects.flatMap((effect) =>
-    (effect.data.triggers ?? [])
-      .filter((candidate) => candidate.on === trigger)
-      .map((candidate) => ({
-        id: `${effect.slug}:${candidate.on}`,
-        effect,
-        text: candidate.reminder,
-      })),
-  )
-}
-
 /** The reminders of the trigger the DM fired last that are still showing. */
 export function pendingReminders(
   state: EffectLiveState,
@@ -93,20 +76,15 @@ export function pendingReminders(
 ): Reminder[] {
   const fired = state.fired
   if (!fired) return []
-  return triggerReminders(effects, fired.trigger).filter(
-    (reminder) => !fired.dismissed.includes(reminder.id),
-  )
-}
-
-/** The effects carried by one of the given records. */
-export function effectsCarriedBy(
-  effects: readonly LiveEffect[],
-  carriers: readonly EntityRef[],
-): LiveEffect[] {
-  return effects.filter((effect) =>
-    carriers.some(
-      (carrier) => carrier.ref === effect.data.on.ref && carrier.key === effect.data.on.key,
-    ),
+  return effects.flatMap((effect) =>
+    (effect.data.triggers ?? [])
+      .filter((trigger) => trigger.on === fired.trigger)
+      .map((trigger) => ({
+        id: `${effect.slug}:${trigger.on}`,
+        effect,
+        text: trigger.reminder,
+      }))
+      .filter((reminder) => !fired.dismissed.includes(reminder.id)),
   )
 }
 
