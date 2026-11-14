@@ -97636,7 +97636,9 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/bottled-shadow.html",
       "usedIn": [
+        "src/data/arcs/the-leaking-shadow.ts",
         "src/data/quests/the-cursed-sword.ts",
+        "src/lib/arc-icons.tsx",
         "src/lib/quest-icons.tsx"
       ]
     },
@@ -140483,6 +140485,7 @@
       "classificationReason": "Manually classified as useful from the /_icons review page.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/fist.html",
       "usedIn": [
+        "src/data/npcs/cloaked-snatcher.ts",
         "src/data/npcs/gruumsh-high-priest.ts",
         "src/data/npcs/knukkles.ts",
         "src/data/npcs/skynet-gang-leader.ts",
@@ -141421,6 +141424,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/flanged-mace.html",
       "usedIn": [
         "src/data/creatures/tough.ts",
+        "src/data/npcs/cloaked-snatcher.ts",
         "src/data/npcs/gruumsh-high-priest.ts",
         "src/data/npcs/misha.ts",
         "src/lib/ability-icons.tsx"

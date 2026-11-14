@@ -13,6 +13,31 @@ export default createArc({
       ' want him found alive?',
     ],
   ],
+  notes: [
+    ['Working ideas from brainstorming. Not settled, and the players know none of it.'],
+    [
+      '',
+      refs.npcs.the_father,
+      ' may be a past adventurer who learned the secret of ',
+      refs.npcs.light_13th_marshal,
+      ' and the shadow. He takes the memories that Arcane Dust users lose, so he pushes more drug use to learn more, and in that way rivals Light.',
+    ],
+    [
+      '',
+      refs.organizations.the_eyeless_hand,
+      ' first dealt in the drug for money. Now the drug empire exists to feed a network of information.',
+    ],
+    [
+      'He is out to control the whole world. ',
+      refs.pcs.jim,
+      ' was meant to be his protégé and replacement, which would explain why he wants him found alive.',
+    ],
+    [
+      'Still open: how far the Hand reaches into the ',
+      refs.organizations.marshals_court,
+      ', and who fired the green beam.',
+    ],
+  ],
   quests: [refs.quests.jims_past],
   plots: [
     {

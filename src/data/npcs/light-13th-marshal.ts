@@ -16,6 +16,7 @@ export default createNPC({
     ],
     ['The price of the one favor he grants each new recruit is unstated.'],
     ['He is one of the thirteen world governors and holds the formal rank of 13th Marshal.'],
+    ['He has an enormous amount of paperwork to do and never sleeps.'],
   ],
   memberships: [
     {

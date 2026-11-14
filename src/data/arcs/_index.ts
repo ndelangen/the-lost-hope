@@ -10,6 +10,7 @@ import the_cursed_sword from './the-cursed-sword.ts'
 import the_exotic_animal_dealer from './the-exotic-animal-dealer.ts'
 import the_fiddler_and_the_party_s_possible_futures from './the-fiddler-and-the-party-s-possible-futures.ts'
 import the_flying_fortress from './the-flying-fortress.ts'
+import the_leaking_shadow from './the-leaking-shadow.ts'
 import the_mountain_crossing from './the-mountain-crossing.ts'
 import the_obsidian_green_rod from './the-obsidian-green-rod.ts'
 import the_serpent_eclipse from './the-serpent-eclipse.ts'
@@ -31,6 +32,7 @@ export default {
   the_exotic_animal_dealer,
   the_fiddler_and_the_party_s_possible_futures,
   the_flying_fortress,
+  the_leaking_shadow,
   the_mountain_crossing,
   the_obsidian_green_rod,
   the_serpent_eclipse,
