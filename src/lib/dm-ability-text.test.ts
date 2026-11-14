@@ -9,13 +9,26 @@ import {
   type AbilityTextToken,
   type DerivedStatBlock,
 } from './dm-ability-text'
+import type { StatPart } from './stat-block'
+
+const bite = (dice: string, amount: number, extra?: [string, number, 'acid']): StatPart[] => [
+  { kind: 'value', text: '+5' },
+  { kind: 'text', text: ', ' },
+  { kind: 'damage', amount, roll: dice, type: refs.rules.piercing },
+  ...(extra
+    ? ([
+        { kind: 'text', text: ' plus ' },
+        { kind: 'damage', amount: extra[1], roll: extra[0], type: refs.rules[extra[2]] },
+      ] as StatPart[])
+    : []),
+]
 
 /** Fixture blocks shaped like the derived stat block, independent of creature data. */
 const wolfie: DerivedStatBlock = {
   speed: { walk: 50 },
   abilities: {
-    bite: { key: 'bite', name: 'Bite', summary: '+5, 2d6 + 3 piercing' },
-    pounce: { key: 'pounce', name: 'Pounce', summary: 'DC 13 Str' },
+    bite: { key: 'bite', name: 'Bite', summary: bite('2d6 + 3', 10) },
+    pounce: { key: 'pounce', name: 'Pounce', summary: [{ kind: 'value', text: 'DC 13 Str' }] },
   },
   saveDc: { str: 13 },
   modifier: { str: 3, dex: 2, con: 2, int: -1, wis: 1, cha: -1 },
@@ -24,7 +37,9 @@ const wolfie: DerivedStatBlock = {
 
 const mimic: DerivedStatBlock = {
   speed: { walk: 15 },
-  abilities: { bite: { key: 'bite', name: 'Bite', summary: '+5, 1d8 + 3 piercing plus 1d8 acid' } },
+  abilities: {
+    bite: { key: 'bite', name: 'Bite', summary: bite('1d8 + 3', 7, ['1d8', 4, 'acid']) },
+  },
   saveDc: {},
   modifier: { str: 3, dex: 1, con: 2, int: -3, wis: 1, cha: -1 },
   proficiencyBonus: 2,
@@ -44,14 +59,14 @@ describe('ability text', () => {
       { kind: 'text', text: 'Move up to ' },
       { kind: 'speed', value: '7½ ft.', note: 'Half its speed (15 ft.)' },
       { kind: 'text', text: ' and make a ' },
-      { kind: 'ability', key: 'bite', name: 'Bite', summary: '+5, 1d8 + 3 piercing plus 1d8 acid' },
+      { kind: 'ability', key: 'bite', name: 'Bite', summary: mimic.abilities.bite!.summary },
       { kind: 'text', text: ' attack.' },
     ])
   })
 
   it('reads as plain text with the numbers inline', () => {
     expect(plainAbilityText(abilityTextSegments(lungingBite, wolfie))).toBe(
-      'Move up to 25 ft. and make a Bite (+5, 2d6 + 3 piercing) attack.',
+      'Move up to 25 ft. and make a Bite (+5, 10 (2d6 + 3) piercing) attack.',
     )
   })
 
