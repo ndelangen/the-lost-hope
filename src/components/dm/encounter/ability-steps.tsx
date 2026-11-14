@@ -57,7 +57,12 @@ export function AbilitySteps({
                     return (
                       <span key={key}>
                         <strong className="tabular-nums">{part.amount}</strong>{' '}
-                        <DamageType type={part.type} /> damage{' '}
+                        {part.type ? (
+                          <>
+                            <DamageType type={part.type} />{' '}
+                          </>
+                        ) : null}
+                        damage{' '}
                         <span className="text-muted-foreground tabular-nums">
                           (or roll {part.roll})
                         </span>
@@ -66,7 +71,8 @@ export function AbilitySteps({
                   case 'value':
                     return (
                       <strong key={key} className="tabular-nums">
-                        {part.text}
+                        {/* Keep "60 ft." together on one line. */}
+                        {part.text.replaceAll(' ft.', '\u00a0ft.')}
                       </strong>
                     )
                   default:

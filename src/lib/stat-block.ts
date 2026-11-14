@@ -5,6 +5,7 @@ import {
   type AbilityId,
   type Attack,
   type ChallengeRating,
+  type Save,
   type Skill,
   type StatBlock,
 } from '#/definitions/stat-block'
@@ -135,7 +136,7 @@ export type StatPart =
   | { kind: 'term'; rule: RuleRef; label: string }
   | { kind: 'value'; text: string }
   /** "8 (1d10 + 3) piercing": the average to deal, the dice to roll instead, and the type. */
-  | { kind: 'damage'; amount: number; roll: string; type: RuleRef }
+  | { kind: 'damage'; amount: number; roll: string; type?: RuleRef }
 
 export type DerivedDamage = Extract<StatPart, { kind: 'damage' }>
 
@@ -170,7 +171,30 @@ export function damageLabel(type: RuleRef) {
   return ruleOf(type).name.toLowerCase()
 }
 
-/** "+5, 8 (1d10 + 3) piercing" for attacks, or "Save DC 12" when the text asks for a save. */
+export const SHORT = {
+  str: 'Str',
+  dex: 'Dex',
+  con: 'Con',
+  int: 'Int',
+  wis: 'Wis',
+  cha: 'Cha',
+} as const
+
+/** Damage a failed save deals, with averages; `addModifier` uses the DC's ability. */
+export function deriveSaveDamage(save: Save, stats: StatBlock): DerivedDamage[] {
+  const mod = modifier(stats.scores[save.dc])
+  return (save.onFail.damage ?? []).map((roll) => {
+    const extra = roll.addModifier ? mod : 0
+    return {
+      kind: 'damage',
+      amount: average(roll.dice, extra),
+      roll: `${roll.dice}${flatBonus(extra)}`,
+      type: roll.type,
+    }
+  })
+}
+
+/** "+5, 8 (1d10 + 3) piercing" for attacks, or "DC 21 Dex save, 60 (11d10) fire" for saves. */
 export function abilitySummary(ability: Ability, stats: StatBlock): StatPart[] | undefined {
   if (ability.attack) {
     const derived = deriveAttack(ability.attack, stats)
@@ -182,15 +206,19 @@ export function abilitySummary(ability: Ability, stats: StatBlock): StatPart[] |
       ),
     ]
   }
-  const dc = ability.text.find((token) => typeof token === 'object' && 'dc' in token)
-  if (dc && typeof dc === 'object' && 'dc' in dc)
+  if (ability.save)
     return [
-      // The DC's ability is what the creature uses, not what the target saves with (a dragon's
-      // breath uses Con for the DC, targets save with Dex), so it isn't named here.
-      { kind: 'term', rule: ruleRef('saving_throw'), label: 'Save' },
-      { kind: 'text', text: ' ' },
       { kind: 'term', rule: ruleRef('difficulty_class'), label: 'DC' },
-      { kind: 'value', text: ` ${saveDc(stats, dc.dc)}` },
+      { kind: 'value', text: ` ${saveDc(stats, ability.save.dc)} ${SHORT[ability.save.ability]} ` },
+      { kind: 'term', rule: ruleRef('saving_throw'), label: 'save' },
+      ...(ability.save.onFail.damage
+        ? [
+            { kind: 'text', text: ', ' } as const,
+            ...deriveSaveDamage(ability.save, stats).flatMap((damage, index): StatPart[] =>
+              index === 0 ? [damage] : [{ kind: 'text', text: ' plus ' }, damage],
+            ),
+          ]
+        : []),
     ]
   return undefined
 }
@@ -206,7 +234,7 @@ export function plainStatParts(parts: readonly StatPart[]) {
         case 'term':
           return part.label
         case 'damage':
-          return `${part.amount} (${part.roll}) ${damageLabel(part.type)}`
+          return `${part.amount} (${part.roll})${part.type ? ` ${damageLabel(part.type)}` : ''}`
       }
     })
     .join('')

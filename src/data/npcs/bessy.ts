@@ -76,15 +76,16 @@ export default createNPC({
         name: 'Trampling Charge',
         timing: 'bonus action',
         icon: 'gi/GiBull',
-        text: [
-          'After moving at least 10 ft. straight toward a creature, she shoves it. Strength ',
-          refs.rules.saving_throw,
-          ', ',
-          { dc: 'str' },
-          '. Failure: pushed 10 ft. and ',
-          refs.rules.prone,
-          '.',
-        ],
+        text: ['After moving at least 10 ft. straight toward a creature, she shoves it.'],
+        save: {
+          ability: 'str',
+          dc: 'str',
+          target: { creatures: 1, range: 5, which: 'she charged' },
+          onFail: {
+            conditions: [refs.rules.prone],
+            also: ['It is pushed 10 ft. away before it falls.'],
+          },
+        },
       },
     ],
     source: {

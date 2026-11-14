@@ -63,17 +63,15 @@ export default createNPC({
         name: 'Unsettling Prophecy',
         timing: 'action',
         icon: 'gi/GiCardRandom',
-        text: [
-          'One creature within 30 ft.: Wisdom ',
-          refs.rules.saving_throw,
-          ', ',
-          {
-            dc: 'wis',
+        save: {
+          ability: 'wis',
+          dc: 'wis',
+          target: { creatures: 1, range: 30 },
+          onFail: {
+            conditions: [refs.rules.frightened],
+            also: ['It is afraid of her for 1 minute.'],
           },
-          '. Failure: ',
-          refs.rules.frightened,
-          ' of her for 1 minute.',
-        ],
+        },
         uses: 1,
         recharge: 'Recharge 5–6',
       },

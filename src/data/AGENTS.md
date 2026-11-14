@@ -98,6 +98,12 @@ canon.
   Ability `text` holds only what happens beyond the damage, as tokens: `{ ability: key }` for a
   sibling ability, `{ speed }`, `{ dc }`, `{ condition }`, and `{ action }`. Never name another
   ability, a DC, or a speed in plain prose.
+- An ability that forces a saving throw uses the structured `save` field: the ability the targets
+  save with, the ability its DC is built from, the target (an area shape and size from
+  `refs.rules.cone`/`cube`/`line`/`sphere`/`emanation`, or a number of creatures in range),
+  `onFail` damage and conditions, and `onSuccess` (`half` or `none`). `onFail.also` holds full
+  sentences only for what the structure can't say, such as how long a condition lasts. Never write
+  the save, the area, or the damage in prose; a data test rejects it.
 - When two or more records are the same kind of creature (gang toughs, nobles, spies), put one stat
   block in `src/data/creatures/` and set `stats: refs.creatures.<key>` on each record. A creature
   with fewer than two users belongs inline on its record. A record that differs from the shared

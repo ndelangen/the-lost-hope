@@ -1,9 +1,10 @@
-import type { Ability, AbilityTextToken, Attack, StatBlock } from '#/definitions/stat-block'
+import type { Ability, AbilityTextToken, Attack, Save, StatBlock } from '#/definitions/stat-block'
 
-import { ruleRef, type RuleKey } from './rules'
+import { ruleOf, ruleRef, type RuleKey } from './rules'
 import {
   damageLabel,
   deriveAttack,
+  deriveSaveDamage,
   modifier,
   plainStatParts,
   proficiencyBonus,
@@ -136,13 +137,156 @@ function attackSteps(attack: Attack, stats: StatBlock): DmStep[] {
   ]
 }
 
-function saveDc(stats: StatBlock, tokens: readonly AbilityTextToken[]) {
-  const token = tokens.find((part) => typeof part === 'object' && 'dc' in part)
-  if (!token || typeof token !== 'object' || !('dc' in token)) return undefined
-  return 8 + proficiencyBonus(stats.cr) + modifier(stats.scores[token.dc])
+const ABILITY_NAME = {
+  str: 'Strength',
+  dex: 'Dexterity',
+  con: 'Constitution',
+  int: 'Intelligence',
+  wis: 'Wisdom',
+  cha: 'Charisma',
+} as const
+
+const COUNT = ['zero', 'one', 'two', 'three', 'four', 'five', 'six']
+
+function targetStep(save: Save): DmStep {
+  const { target } = save
+  if ('creatures' in target) {
+    const count = COUNT[target.creatures] ?? String(target.creatures)
+    return {
+      parts: [
+        text('Pick '),
+        value(`${count} ${target.creatures === 1 ? 'creature' : 'creatures'}`),
+        ...(target.which ? [text(` ${target.which}`)] : []),
+        text(' within '),
+        value(`${target.range} ft.`),
+        text('.'),
+      ],
+    }
+  }
+  const { shape, size, width } = target.area
+  const where = target.range
+    ? [text(' anywhere within '), value(`${target.range} ft.`)]
+    : [text(' starting from it')]
+  const chosen = target.chosen
+    ? [text(' It picks which creatures in it are affected; the rest are safe.')]
+    : []
+  const name = (label: string) => term(shape.key as RuleKey, label)
+  switch (shape.key) {
+    case 'emanation':
+      return {
+        parts: [
+          text('Everything within '),
+          value(`${size} ft.`),
+          text(' of it is caught (an '),
+          name('emanation'),
+          text(').'),
+          ...chosen,
+        ],
+      }
+    case 'sphere':
+      return {
+        parts: [
+          text('Choose a point'),
+          ...where,
+          text('. Everything within '),
+          value(`${size} ft.`),
+          text(' of that point is caught (a '),
+          name('sphere'),
+          text(').'),
+          ...chosen,
+        ],
+      }
+    case 'line':
+      return {
+        parts: [
+          text('Choose a '),
+          value(`${size} ft. long, ${width} ft. wide`),
+          text(' '),
+          name('line'),
+          ...where,
+          text('.'),
+          ...chosen,
+        ],
+      }
+    default:
+      return {
+        parts: [
+          text('Choose a '),
+          value(`${size}-ft.`),
+          text(' '),
+          name(ruleOf(shape).name.toLowerCase()),
+          ...where,
+          text('.'),
+          ...chosen,
+        ],
+      }
+  }
 }
 
-function textSteps(ability: Ability, stats: StatBlock, attackKeys: ReadonlySet<string>): DmStep[] {
+function saveSteps(save: Save, stats: StatBlock): DmStep[] {
+  const dc = 8 + proficiencyBonus(stats.cr) + modifier(stats.scores[save.dc])
+  const ability = ABILITY_NAME[save.ability]
+  const who =
+    'creatures' in save.target && save.target.creatures === 1
+      ? 'The target rolls'
+      : 'Every creature in it rolls'
+  const damage = deriveSaveDamage(save, stats)
+  const conditions = save.onFail.conditions ?? []
+  const fail: StepPart[] = [
+    ...(damage.length > 0
+      ? [
+          text('take '),
+          ...damage.flatMap((part, index): StepPart[] =>
+            index === 0 ? [part] : [text(' plus '), part],
+          ),
+        ]
+      : []),
+    ...conditions.flatMap((condition, index): StepPart[] => [
+      text(index === 0 ? (damage.length > 0 ? ' and it has the ' : 'it has the ') : ' and '),
+      term(condition.key as RuleKey, ruleOf(condition).name.toLowerCase()),
+      ...(index === conditions.length - 1
+        ? [text(conditions.length > 1 ? ' conditions' : ' condition')]
+        : []),
+    ]),
+    ...(damage.length > 0 || conditions.length > 0 ? [text('.')] : []),
+    ...(save.onFail.also
+      ? [
+          ...(damage.length > 0 || conditions.length > 0 ? [text(' ')] : []),
+          { kind: 'tokens', tokens: save.onFail.also } as const,
+        ]
+      : []),
+  ]
+  const half = damage.map((part) => Math.floor(part.amount / 2))
+  return [
+    targetStep(save),
+    {
+      parts: [
+        text(`${who} a `),
+        term('difficulty_class', 'DC'),
+        value(` ${dc} ${ability}`),
+        text(' '),
+        term('saving_throw', 'saving throw'),
+        text(`: d20 + its ${ability} save bonus. `),
+        value(`${dc}`),
+        text(' or higher succeeds.'),
+      ],
+    },
+    { parts: [text('Fail: '), ...fail] },
+    save.onSuccess === 'half'
+      ? {
+          parts: [
+            text('Success: take '),
+            term('half_damage', 'half'),
+            text(' ('),
+            value(half.join(' + ')),
+            text(').'),
+          ],
+        }
+      : { parts: [text('Success: nothing happens.')] },
+  ]
+}
+
+function textSteps(ability: Ability, attackKeys: ReadonlySet<string>): DmStep[] {
   if (ability.text.length === 0) return []
   const expand = ability.text.flatMap((token) =>
     typeof token === 'object' && 'ability' in token && attackKeys.has(token.ability)
@@ -160,22 +304,7 @@ function textSteps(ability: Ability, stats: StatBlock, attackKeys: ReadonlySet<s
     ],
     ...(expand.length > 0 ? { expand: [...new Set(expand)] } : {}),
   }
-  const dc = saveDc(stats, ability.text)
-  if (dc === undefined) return [tokens]
-  return [
-    tokens,
-    {
-      parts: [
-        text('For the '),
-        term('saving_throw', 'saving throw'),
-        text(', each creature rolls d20 plus its bonus for the ability named above. '),
-        value(`${dc}`),
-        text(' or higher ('),
-        term('difficulty_class', 'DC'),
-        text(') is a success.'),
-      ],
-    },
-  ]
+  return [tokens]
 }
 
 function usesStep(ability: Ability): DmStep | undefined {
@@ -216,12 +345,30 @@ export function abilitySteps(ability: Ability, stats: StatBlock, source: Ability
       .map((candidate) => candidate.key),
   )
   const uses = usesStep(ability)
-  return [
+  const steps = [
     timingStep(source, stats),
     ...(ability.attack ? attackSteps(ability.attack, stats) : []),
-    ...textSteps(ability, stats, attackKeys),
+    ...textSteps(ability, attackKeys),
+    ...(ability.save ? saveSteps(ability.save, stats) : []),
     ...(uses ? [uses] : []),
   ]
+  return steps.map(tidy)
+}
+
+/** "within 60 ft." followed by "." reads as one full stop. */
+function tidy(step: DmStep): DmStep {
+  const parts = step.parts.map((part, index) => {
+    const before = step.parts[index - 1]
+    if (
+      part.kind === 'text' &&
+      part.text.startsWith('.') &&
+      before?.kind === 'value' &&
+      before.text.endsWith('.')
+    )
+      return text(part.text.slice(1))
+    return part
+  })
+  return { ...step, parts: parts.filter((part) => part.kind !== 'text' || part.text !== '') }
 }
 
 /** Every ability's source, so steps know when each one can be used. */
@@ -239,9 +386,17 @@ export function plainSteps(steps: readonly DmStep[]) {
     step.parts
       .map((part) => {
         if (part.kind === 'tokens')
-          return part.tokens.map((token) => (typeof token === 'string' ? token : '…')).join('')
+          return part.tokens
+            .map((token) =>
+              typeof token === 'string'
+                ? token
+                : 'ref' in token
+                  ? ruleOf(token).name.toLowerCase()
+                  : '…',
+            )
+            .join('')
         if (part.kind === 'damage')
-          return `${part.amount} ${damageLabel(part.type)} damage (or roll ${part.roll})`
+          return `${part.amount}${part.type ? ` ${damageLabel(part.type)}` : ''} damage (or roll ${part.roll})`
         return plainStatParts([part])
       })
       .join(''),

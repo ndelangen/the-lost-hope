@@ -66,17 +66,15 @@ export default createNPC({
         name: 'Scolding',
         timing: 'action',
         icon: 'gi/GiSonicShout',
-        text: [
-          'One creature within 30 ft. that hears her: Wisdom ',
-          refs.rules.saving_throw,
-          ', ',
-          {
-            dc: 'wis',
+        save: {
+          ability: 'wis',
+          dc: 'wis',
+          target: { creatures: 1, range: 30, which: 'that hears her' },
+          onFail: {
+            conditions: [refs.rules.frightened],
+            also: ['It is afraid of her until the end of its next turn.'],
           },
-          '. Failure: ',
-          refs.rules.frightened,
-          ' of her until the end of its next turn.',
-        ],
+        },
         uses: 1,
         recharge: 'Recharge 6',
       },

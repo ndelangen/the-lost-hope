@@ -67,15 +67,17 @@ export default createBeast({
         name: 'Web',
         timing: 'action',
         icon: 'gi/GiSpiderWeb',
-        text: [
-          'Dexterity ',
-          refs.rules.saving_throw,
-          ', ',
-          { dc: 'dex' },
-          ', one creature it can see within 60 ft. Failure: the target has the ',
-          refs.rules.restrained,
-          ' condition until the web is destroyed (AC 10, 5 HP, vulnerable to fire, immune to poison and psychic).',
-        ],
+        save: {
+          ability: 'dex',
+          dc: 'dex',
+          target: { creatures: 1, range: 60, which: 'it can see' },
+          onFail: {
+            conditions: [refs.rules.restrained],
+            also: [
+              'It stays stuck until the web is destroyed: AC 10, 5 HP, vulnerable to fire, immune to poison and psychic.',
+            ],
+          },
+        },
         uses: 1,
         recharge: 'Recharge 5–6',
       },

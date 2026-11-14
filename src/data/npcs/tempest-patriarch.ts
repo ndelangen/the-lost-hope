@@ -105,19 +105,16 @@ export default createNPC({
         timing: 'action',
         icon: 'gi/GiTornado',
         intent: 'damage',
-        text: [
-          'A 20-ft.-radius storm within 120 ft. Each creature in it: Dexterity ',
-          refs.rules.saving_throw,
-          ', ',
-          {
-            dc: 'cha',
+        save: {
+          ability: 'dex',
+          dc: 'cha',
+          target: { area: { shape: refs.rules.sphere, size: 20 }, range: 120 },
+          onFail: {
+            damage: [{ dice: '6d8', type: refs.rules.thunder }],
+            also: ['It is also pushed 10 ft. away.'],
           },
-          '. Failure: 6d8 ',
-          refs.rules.thunder,
-          ' damage and pushed 10 ft. Success: ',
-          refs.rules.half_damage,
-          '.',
-        ],
+          onSuccess: 'half',
+        },
         uses: 1,
         recharge: 'Recharge 5–6',
       },

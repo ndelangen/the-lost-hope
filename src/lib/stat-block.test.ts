@@ -39,7 +39,12 @@ const direWolf = StatBlock.parse({
       name: 'Howl',
       timing: 'action',
       icon: 'gi/GiPaw',
-      text: ['Each creature makes a ', { dc: 'con' }, ' Wisdom save.'],
+      save: {
+        ability: 'wis',
+        dc: 'con',
+        target: { area: { shape: refs.rules.emanation, size: 30 } },
+        onFail: { conditions: [refs.rules.frightened] },
+      },
     },
   ],
   source: { adaptedFrom: ['srd-2024_dire-wolf'] },
@@ -105,13 +110,59 @@ describe('derived stat block', () => {
     const bite = deriveStatBlock(giantSpider).abilities[giantSpider.abilities[0]!.key]!
     expect(plainStatParts(bite.summary!)).toBe('+5, 7 (1d8 + 3) piercing plus 7 (2d6) poison')
     expect(
-      bite.summary!.filter((part) => part.kind === 'damage').map((part) => part.type.key),
+      bite.summary!.filter((part) => part.kind === 'damage').map((part) => part.type?.key),
     ).toEqual(['piercing', 'poison'])
   })
 
   it('summarises save DCs from ability text', () => {
-    expect(plainStatParts(abilitySummary(direWolf.abilities[1]!, direWolf)!)).toBe('Save DC 12')
+    expect(plainStatParts(abilitySummary(direWolf.abilities[1]!, direWolf)!)).toBe('DC 12 Wis save')
     expect(deriveStatBlock(direWolf).saveDc.con).toBe(12)
+  })
+
+  it('rejects an area save without a shape and size, or with a shape that is not an area', () => {
+    const withSave = (target: unknown) =>
+      StatBlock.safeParse({
+        ...giantSpider,
+        abilities: [
+          ...giantSpider.abilities,
+          {
+            key: 'burst',
+            name: 'Burst',
+            timing: 'action',
+            icon: 'gi/GiFireBreath',
+            save: { ability: 'dex', dc: 'con', target, onFail: { conditions: [refs.rules.prone] } },
+          },
+        ],
+      }).success
+    expect(withSave({ area: { shape: refs.rules.cone, size: 15 } })).toBe(true)
+    expect(withSave({ area: { size: 15 } })).toBe(false)
+    expect(withSave({ area: { shape: refs.rules.cone } })).toBe(false)
+    expect(withSave({ area: { shape: refs.rules.fire, size: 15 } })).toBe(false)
+    expect(withSave({ area: { shape: refs.rules.line, size: 60 } })).toBe(false)
+  })
+
+  it('summarises a save with what the target rolls and the damage', () => {
+    const block = StatBlock.parse({
+      ...giantSpider,
+      abilities: [
+        {
+          key: 'breath',
+          name: 'Breath',
+          timing: 'action',
+          icon: 'gi/GiFireBreath',
+          save: {
+            ability: 'dex',
+            dc: 'con',
+            target: { area: { shape: refs.rules.cone, size: 15 } },
+            onFail: { damage: [{ dice: '4d10', type: refs.rules.fire }] },
+            onSuccess: 'half',
+          },
+        },
+      ],
+    })
+    expect(plainStatParts(abilitySummary(block.abilities[0]!, block)!)).toBe(
+      'DC 11 Dex save, 22 (4d10) fire',
+    )
   })
 
   it('formats speeds for reading', () => {

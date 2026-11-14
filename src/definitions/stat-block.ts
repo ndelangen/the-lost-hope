@@ -111,6 +111,77 @@ const Attack = z.discriminatedUnion('kind', [
 
 export type Attack = z.infer<typeof Attack>
 
+/** Area shapes from the rules glossary. */
+export const AREA_SHAPES = ['cone', 'cube', 'line', 'sphere', 'emanation'] as const
+
+const Feet = z.number().int().positive().describe('Feet')
+
+/**
+ * Who a save ability catches: an area (`refs.rules.cone`, `sphere`, …) or a number of creatures in
+ * range. Sizes follow the rules: a cone's length, a cube's side, a sphere's radius, an
+ * emanation's distance from the creature, a line's length plus `width`.
+ */
+const SaveTarget = z.union([
+  z.strictObject({
+    area: z.strictObject({
+      shape: RuleRef.describe(
+        'An area shape: `refs.rules.cone`, `cube`, `line`, `sphere`, `emanation`',
+      ),
+      size: Feet,
+      width: Feet.optional().describe('Lines only'),
+    }),
+    range: Feet.optional().describe(
+      'How far away it can be placed; omit when it starts at the creature',
+    ),
+    chosen: z
+      .boolean()
+      .optional()
+      .describe('Only creatures of its choice in the area are affected'),
+  }),
+  z.strictObject({
+    creatures: z.number().int().positive().describe('How many creatures it picks'),
+    range: Feet,
+    which: z
+      .string()
+      .trim()
+      .min(1)
+      .optional()
+      .describe(
+        'Who qualifies, read after the count, e.g. `it can see`, `that is Large or smaller`',
+      ),
+  }),
+])
+
+/** Damage on a failed save. `addModifier` adds the modifier of the DC's ability. */
+const SaveDamage = Damage.extend({
+  type: RuleRef.optional().describe('A damage type; omit when it varies and say how in `also`'),
+})
+
+/**
+ * A saving throw the ability forces. Every number is derived: the DC from `dc`, damage averages
+ * from the dice. Text tokens are only for riders the structure can't say.
+ */
+const Save = z.strictObject({
+  ability: AbilityId.describe('What the targets save with'),
+  dc: AbilityId.describe('The creature ability the DC is built from: 8 + proficiency + modifier'),
+  target: SaveTarget,
+  onFail: z.strictObject({
+    damage: z.array(SaveDamage).min(1).optional(),
+    conditions: z.array(RuleRef).min(1).optional().describe('Conditions, e.g. `refs.rules.prone`'),
+    also: z
+      .array(AbilityTextToken)
+      .min(1)
+      .optional()
+      .describe('Full sentences for what else happens on a failure, e.g. how long it lasts'),
+  }),
+  onSuccess: z
+    .enum(['half', 'none'])
+    .default('none')
+    .describe('`half`: half the damage and none of the conditions. `none`: nothing happens'),
+})
+
+export type Save = z.infer<typeof Save>
+
 const Ability = z.strictObject({
   key: z
     .string()
@@ -123,6 +194,7 @@ const Ability = z.strictObject({
       'Icon-catalog id depicting this ability, e.g. `gi/GiFangs` — see src/lib/ability-icons.tsx',
     ),
   attack: Attack.optional(),
+  save: Save.optional(),
   text: z
     .array(AbilityTextToken)
     .default([])
@@ -231,7 +303,31 @@ export const StatBlock = z
       keys.add(ability.key)
     }
     for (const ability of all) {
-      for (const token of ability.text) {
+      const save = ability.save
+      if (save && 'area' in save.target) {
+        const { shape, width } = save.target.area
+        if (!(AREA_SHAPES as readonly string[]).includes(shape.key))
+          context.addIssue({
+            code: 'custom',
+            message: `${ability.name}: area shape must be one of ${AREA_SHAPES.join(', ')}`,
+          })
+        if ((shape.key === 'line') !== (width !== undefined))
+          context.addIssue({
+            code: 'custom',
+            message: `${ability.name}: a line needs a width, and only a line has one`,
+          })
+      }
+      if (save && !save.onFail.damage && !save.onFail.conditions && !save.onFail.also)
+        context.addIssue({
+          code: 'custom',
+          message: `${ability.name}: say what a failed save does`,
+        })
+      if (save?.onSuccess === 'half' && !save.onFail.damage)
+        context.addIssue({
+          code: 'custom',
+          message: `${ability.name}: half on a success needs damage on a failure`,
+        })
+      for (const token of [...ability.text, ...(save?.onFail.also ?? [])]) {
         if (typeof token === 'string') continue
         if ('ability' in token && !keys.has(token.ability))
           context.addIssue({

@@ -106,19 +106,17 @@ export default createNPC({
         name: 'Pull a Trinket',
         timing: 'action',
         icon: 'gi/GiMagicSwirl',
-        text: [
-          'One creature within 60 ft.: Wisdom ',
-          refs.rules.saving_throw,
-          ', ',
-          {
-            dc: 'int',
+        save: {
+          ability: 'wis',
+          dc: 'int',
+          target: { creatures: 1, range: 60 },
+          onFail: {
+            conditions: [refs.rules.charmed],
+            also: [
+              'It lasts 1 minute. If he prefers, it takes 4d6 force damage instead of being charmed.',
+            ],
           },
-          '. Failure: ',
-          refs.rules.charmed,
-          ' by him for 1 minute, or it takes 4d6 ',
-          refs.rules.force,
-          ' damage if he prefers.',
-        ],
+        },
         uses: 1,
         recharge: 'Recharge 5–6',
       },

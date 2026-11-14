@@ -29,14 +29,29 @@ describe('ability steps', () => {
     expect(text?.parts[0]).toMatchObject({ kind: 'term', rule: { key: 'multiattack' } })
   })
 
-  it('explains saves with the DC and when the ability comes back', () => {
-    const plain = plainSteps(steps('fire-breath'))
-    expect(plain[2]).toBe(
-      'For the saving throw, each creature rolls d20 plus its bonus for the ability named above. 21 or higher (DC) is a success.',
-    )
-    expect(plain.at(-1)).toBe(
+  it('walks through a breath weapon from its structured save', () => {
+    expect(plainSteps(steps('fire-breath'))).toEqual([
+      'Uses its action on its turn.',
+      'Choose a 60-ft. cone starting from it.',
+      'Every creature in it rolls a DC 21 Dexterity saving throw: d20 + its Dexterity save bonus. 21 or higher succeeds.',
+      'Fail: take 60 fire damage (or roll 11d10).',
+      'Success: take half (30).',
       'After using it, it’s spent. At the start of its turn, roll a d6: on 5–6 it’s ready again (recharge).',
+    ])
+    const terms = steps('fire-breath').flatMap((step) =>
+      step.parts.flatMap((part) => (part.kind === 'term' ? [part.rule.key] : [])),
     )
+    expect(terms).toEqual(
+      expect.arrayContaining(['cone', 'saving_throw', 'difficulty_class', 'half_damage']),
+    )
+  })
+
+  it('names conditions a failed save gives and only the creatures picked', () => {
+    expect(plainSteps(steps('frightful-presence')).slice(1, 4)).toEqual([
+      'Everything within 120 ft. of it is caught (an emanation). It picks which creatures in it are affected; the rest are safe.',
+      'Every creature in it rolls a DC 21 Wisdom saving throw: d20 + its Wisdom save bonus. 21 or higher succeeds.',
+      'Fail: it has the frightened condition. It lasts 1 minute.',
+    ])
   })
 
   it('says when a legendary action can be used and from what pool', () => {
@@ -55,9 +70,9 @@ describe('ability steps', () => {
 
   it('carries damage types as rule refs so they get their icon and colour', () => {
     const hit = steps('rend')[3]!
-    expect(hit.parts.filter((part) => part.kind === 'damage').map((part) => part.type.key)).toEqual(
-      ['slashing', 'fire'],
-    )
+    expect(
+      hit.parts.filter((part) => part.kind === 'damage').map((part) => part.type?.key),
+    ).toEqual(['slashing', 'fire'])
   })
 
   it('links rules words to the glossary', () => {
