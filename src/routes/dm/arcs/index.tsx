@@ -1,11 +1,15 @@
-import { Link, createFileRoute } from '@tanstack/react-router'
+import { createFileRoute } from '@tanstack/react-router'
+import { useMemo, useState } from 'react'
+import { z } from 'zod'
 
-import { ContentRenderer } from '#/components/content-renderer'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
-import { compareEntityNames } from '#/lib/campaign'
+import { DmStorylineDetail } from '#/components/dm/dm-storyline-detail'
+import { DmStorylineGraph } from '#/components/dm/dm-storyline-graph'
 import { arcs } from '#/lib/dm-campaign'
+import { assignColumns, buildStorylines, campaignSessionsInOrder } from '#/lib/dm-storylines'
 
 export const Route = createFileRoute('/dm/arcs/')({
+  validateSearch: z.object({ arc: z.string().optional().catch(undefined) }),
   head: () => ({
     meta: [{ title: 'Arcs | DM' }, { name: 'robots', content: 'noindex, nofollow' }],
   }),
@@ -13,39 +17,41 @@ export const Route = createFileRoute('/dm/arcs/')({
 })
 
 function ArcsIndex() {
-  const sorted = Object.values(arcs).toSorted((a, b) => compareEntityNames(a.name, b.name))
+  const { arc: selectedSlug } = Route.useSearch()
+  const { storylines, sessions, columns } = useMemo(() => {
+    const lines = buildStorylines(arcs)
+    return { storylines: lines, sessions: campaignSessionsInOrder(), columns: assignColumns(lines) }
+  }, [])
+  const [hovered, setHovered] = useState<string | undefined>()
+  const selected = storylines.find((line) => line.arc.slug === selectedSlug)
+
   return (
-    <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_12rem]">
-      <div className="grid min-w-0 grid-cols-1 content-start gap-4">
+    <div className="grid gap-6 xl:grid-cols-[minmax(0,1fr)_20rem]">
+      <div className="grid min-w-0 grid-cols-1 content-start gap-3">
         <h1 className="text-3xl font-bold">Arcs</h1>
-        {sorted.length === 0 ? (
+        {storylines.length === 0 ? (
           <p className="text-muted-foreground">No arcs prepared yet.</p>
-        ) : null}
-        <ul className="divide-border grid divide-y">
-          {sorted.map((arc) => {
-            const open = arc.plots.filter((plot) => plot.status === 'open').length
-            return (
-              <li key={arc.slug} className="grid gap-1 px-1 py-3">
-                <span className="flex items-baseline justify-between gap-3">
-                  <Link
-                    to="/dm/arcs/$slug"
-                    params={{ slug: arc.slug }}
-                    className="font-medium hover:underline"
-                  >
-                    {arc.name}
-                  </Link>
-                  <span className="text-muted-foreground shrink-0 text-xs">
-                    {open} open of {arc.plots.length} plots
-                  </span>
-                </span>
-                <ContentRenderer content={arc.direction} className="text-muted-foreground" />
-              </li>
-            )
-          })}
-        </ul>
+        ) : (
+          <DmStorylineGraph
+            storylines={storylines}
+            sessions={sessions}
+            columns={columns}
+            focus={hovered ?? selected?.key}
+            onFocus={setHovered}
+            selectedSlug={selectedSlug}
+          />
+        )}
       </div>
-      <aside className="min-w-0">
-        <DmQuickLinks />
+      <aside className="order-first grid min-w-0 content-start gap-4 xl:sticky xl:top-20 xl:order-none xl:max-h-[calc(100vh-6rem)] xl:overflow-y-auto">
+        <DmQuickLinks stackAt="xl" />
+        {selected ? (
+          <DmStorylineDetail line={selected} storylines={storylines} />
+        ) : (
+          <p className="text-muted-foreground text-sm">
+            Pick an arc to see where it was played, which arcs it crossed, and where it could go
+            next.
+          </p>
+        )}
       </aside>
     </div>
   )
