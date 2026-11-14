@@ -61,7 +61,7 @@ export default createBeast({
           damage: [
             {
               dice: '1d4',
-              type: 'piercing',
+              type: refs.rules.piercing,
               addModifier: true,
             },
           ],

@@ -35,13 +35,7 @@ export default createNPC({
         name: 'Sure-Footed',
         timing: 'trait',
         icon: 'lucide/Footprints',
-        text: [
-          'Advantage on saves against being knocked ',
-          {
-            condition: 'prone',
-          },
-          '.',
-        ],
+        text: ['Advantage on saves against being knocked ', refs.rules.prone, '.'],
       },
       {
         key: 'ram',
@@ -55,7 +49,7 @@ export default createNPC({
           damage: [
             {
               dice: '1d4',
-              type: 'bludgeoning',
+              type: refs.rules.bludgeoning,
               addModifier: true,
             },
           ],

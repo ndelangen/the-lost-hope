@@ -41,8 +41,8 @@ export default createNPC({
     senses: {
       darkvision: 60,
     },
-    damageVulnerabilities: ['radiant'],
-    damageResistances: ['bludgeoning', 'piercing', 'slashing'],
+    damageVulnerabilities: [refs.rules.radiant],
+    damageResistances: [refs.rules.bludgeoning, refs.rules.piercing, refs.rules.slashing],
     abilities: [
       {
         key: 'stolen-face',
@@ -86,12 +86,12 @@ export default createNPC({
           damage: [
             {
               dice: '2d6',
-              type: 'slashing',
+              type: refs.rules.slashing,
               addModifier: true,
             },
             {
               dice: '2d8',
-              type: 'psychic',
+              type: refs.rules.psychic,
             },
           ],
         },
@@ -111,9 +111,7 @@ export default createNPC({
             dc: 'cha',
           },
           '. Failure: 6d10 psychic damage and ',
-          {
-            condition: 'frightened',
-          },
+          refs.rules.frightened,
           ' until the end of its next turn. Success: half damage.',
         ],
         uses: 1,

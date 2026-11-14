@@ -31,9 +31,9 @@ export default createNPC({
         icon: 'lucide/Link',
         text: [
           'Can’t be ',
-          { condition: 'charmed' },
+          refs.rules.charmed,
           ' or ',
-          { condition: 'frightened' },
+          refs.rules.frightened,
           ' into acting against the Fiddler.',
         ],
       },
@@ -63,7 +63,7 @@ export default createNPC({
         attack: {
           kind: 'melee',
           ability: 'str',
-          damage: [{ dice: '1d8', type: 'slashing', addModifier: true }],
+          damage: [{ dice: '1d8', type: refs.rules.slashing, addModifier: true }],
         },
       },
       {

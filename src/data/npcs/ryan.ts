@@ -54,7 +54,7 @@ export default createNPC({
           damage: [
             {
               dice: '1d8',
-              type: 'slashing',
+              type: refs.rules.slashing,
               addModifier: true,
             },
           ],
@@ -73,7 +73,7 @@ export default createNPC({
           damage: [
             {
               dice: '1d6',
-              type: 'piercing',
+              type: refs.rules.piercing,
               addModifier: true,
             },
           ],

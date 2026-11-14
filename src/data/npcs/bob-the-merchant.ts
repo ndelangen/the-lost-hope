@@ -48,7 +48,7 @@ export default createNPC({
     senses: {
       darkvision: 60,
     },
-    damageResistances: ['fire', 'necrotic'],
+    damageResistances: [refs.rules.fire, refs.rules.necrotic],
     abilities: [
       {
         key: 'two-faces',
@@ -95,7 +95,7 @@ export default createNPC({
           damage: [
             {
               dice: '2d10',
-              type: 'fire',
+              type: refs.rules.fire,
               addModifier: true,
             },
           ],
@@ -112,9 +112,7 @@ export default createNPC({
             dc: 'int',
           },
           '. Failure: ',
-          {
-            condition: 'charmed',
-          },
+          refs.rules.charmed,
           ' by him for 1 minute, or it takes 4d6 force damage if he prefers.',
         ],
         uses: 1,

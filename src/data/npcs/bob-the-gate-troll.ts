@@ -82,7 +82,7 @@ export default createNPC({
           damage: [
             {
               dice: '2d6',
-              type: 'slashing',
+              type: refs.rules.slashing,
               addModifier: true,
             },
           ],

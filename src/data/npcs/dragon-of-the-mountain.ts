@@ -50,7 +50,7 @@ export default createNPC({
       blindsight: 60,
       darkvision: 120,
     },
-    damageImmunities: ['fire'],
+    damageImmunities: [refs.rules.fire],
     abilities: [
       {
         key: 'legendary-resistance',
@@ -88,12 +88,12 @@ export default createNPC({
           damage: [
             {
               dice: '2d8',
-              type: 'slashing',
+              type: refs.rules.slashing,
               addModifier: true,
             },
             {
               dice: '1d8',
-              type: 'fire',
+              type: refs.rules.fire,
             },
           ],
         },
@@ -125,9 +125,7 @@ export default createNPC({
             dc: 'cha',
           },
           '. Failure: ',
-          {
-            condition: 'frightened',
-          },
+          refs.rules.frightened,
           ' for 1 minute.',
         ],
         uses: 1,
@@ -160,9 +158,7 @@ export default createNPC({
               dc: 'str',
             },
             '. Failure: ',
-            {
-              condition: 'prone',
-            },
+            refs.rules.prone,
             '. It then flies up to ',
             {
               speed: 'fly',

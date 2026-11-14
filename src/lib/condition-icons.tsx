@@ -16,7 +16,7 @@ import {
 } from 'lucide-react'
 import type { ComponentType } from 'react'
 
-import type { Condition } from '#/definitions/rules-glossary'
+import type { Condition } from '#/lib/rules'
 
 type ConditionIcon = ComponentType<{ className?: string; 'aria-hidden'?: boolean }>
 

@@ -60,7 +60,7 @@ export default createNPC({
           damage: [
             {
               dice: '1d6',
-              type: 'bludgeoning',
+              type: refs.rules.bludgeoning,
               addModifier: true,
             },
           ],
@@ -77,9 +77,7 @@ export default createNPC({
             dc: 'wis',
           },
           '. Failure: ',
-          {
-            condition: 'poisoned',
-          },
+          refs.rules.poisoned,
           ' and its speed is halved.',
         ],
         uses: 1,

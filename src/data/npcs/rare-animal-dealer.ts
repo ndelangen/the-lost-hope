@@ -80,7 +80,7 @@ export default createNPC({
           damage: [
             {
               dice: '1d4',
-              type: 'slashing',
+              type: refs.rules.slashing,
               addModifier: true,
             },
           ],
@@ -99,7 +99,7 @@ export default createNPC({
           damage: [
             {
               dice: '1d6',
-              type: 'piercing',
+              type: refs.rules.piercing,
               addModifier: true,
             },
           ],
@@ -116,9 +116,7 @@ export default createNPC({
             dc: 'dex',
           },
           '. Failure: ',
-          {
-            condition: 'restrained',
-          },
+          refs.rules.restrained,
           ' (escape ',
           {
             dc: 'dex',

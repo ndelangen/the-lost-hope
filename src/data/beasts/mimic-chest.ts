@@ -17,8 +17,8 @@ export default createBeast({
     scores: { str: 17, dex: 12, con: 15, int: 5, wis: 13, cha: 8 },
     skills: { stealth: 'expert' },
     senses: { darkvision: 60 },
-    damageImmunities: ['acid'],
-    conditionImmunities: ['prone'],
+    damageImmunities: [refs.rules.acid],
+    conditionImmunities: [refs.rules.prone],
     abilities: [
       {
         key: 'adhesive',
@@ -27,7 +27,7 @@ export default createBeast({
         icon: 'lucide/Link',
         text: [
           'Anything that touches the mimic sticks to it. A Huge or smaller creature stuck to it has the ',
-          { condition: 'grappled' },
+          refs.rules.grappled,
           ' condition (escape ',
           { dc: 'str' },
           '), and ability checks to escape have disadvantage.',
@@ -43,11 +43,11 @@ export default createBeast({
           kind: 'melee',
           ability: 'str',
           damage: [
-            { dice: '1d8', type: 'piercing', addModifier: true },
-            { dice: '1d8', type: 'acid' },
+            { dice: '1d8', type: refs.rules.piercing, addModifier: true },
+            { dice: '1d8', type: refs.rules.acid },
           ],
         },
-        text: ['Advantage against a creature it has ', { condition: 'grappled' }, '.'],
+        text: ['Advantage against a creature it has ', refs.rules.grappled, '.'],
       },
       {
         key: 'pseudopod',
@@ -59,13 +59,13 @@ export default createBeast({
           kind: 'melee',
           ability: 'str',
           damage: [
-            { dice: '1d8', type: 'bludgeoning', addModifier: true },
-            { dice: '1d8', type: 'acid' },
+            { dice: '1d8', type: refs.rules.bludgeoning, addModifier: true },
+            { dice: '1d8', type: refs.rules.acid },
           ],
         },
         text: [
           'A Large or smaller target has the ',
-          { condition: 'grappled' },
+          refs.rules.grappled,
           ' condition (escape ',
           { dc: 'str' },
           '), with disadvantage on checks to escape.',

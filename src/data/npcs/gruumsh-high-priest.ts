@@ -77,12 +77,12 @@ export default createNPC({
           damage: [
             {
               dice: '1d6',
-              type: 'bludgeoning',
+              type: refs.rules.bludgeoning,
               addModifier: true,
             },
             {
               dice: '1d8',
-              type: 'radiant',
+              type: refs.rules.radiant,
             },
           ],
         },
@@ -99,9 +99,7 @@ export default createNPC({
             dc: 'wis',
           },
           '. Failure: 4d8 radiant damage and ',
-          {
-            condition: 'frightened',
-          },
+          refs.rules.frightened,
           ' until the end of its next turn. Success: half damage.',
         ],
       },

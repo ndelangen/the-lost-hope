@@ -35,8 +35,8 @@ export default createBeast({
     senses: {
       darkvision: 60,
     },
-    damageImmunities: ['fire', 'poison'],
-    conditionImmunities: ['poisoned'],
+    damageImmunities: [refs.rules.fire, refs.rules.poison],
+    conditionImmunities: [refs.rules.poisoned],
     abilities: [
       {
         key: 'fire-form',
@@ -66,12 +66,12 @@ export default createBeast({
           damage: [
             {
               dice: '1d6',
-              type: 'piercing',
+              type: refs.rules.piercing,
               addModifier: true,
             },
             {
               dice: '1d6',
-              type: 'fire',
+              type: refs.rules.fire,
             },
           ],
         },

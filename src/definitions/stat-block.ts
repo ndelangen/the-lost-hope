@@ -1,7 +1,6 @@
 import { z } from 'zod'
 
 import { entityRefOf } from './kind'
-import { CONDITIONS, STANDARD_ACTIONS, type Condition, type StandardAction } from './rules-glossary'
 
 export const ABILITY_TIMINGS = ['action', 'bonus action', 'reaction', 'trait'] as const
 
@@ -54,21 +53,6 @@ export const SKILLS = {
   survival: 'wis',
 } as const
 export const SENSES = ['blindsight', 'darkvision', 'tremorsense', 'truesight'] as const
-export const DAMAGE_TYPES = [
-  'acid',
-  'bludgeoning',
-  'cold',
-  'fire',
-  'force',
-  'lightning',
-  'necrotic',
-  'piercing',
-  'poison',
-  'psychic',
-  'radiant',
-  'slashing',
-  'thunder',
-] as const
 
 export type AbilityId = (typeof ABILITY_IDS)[number]
 export type Skill = keyof typeof SKILLS
@@ -76,15 +60,16 @@ export type ChallengeRating = (typeof CHALLENGE_RATINGS)[number]
 
 const AbilityId = z.enum(ABILITY_IDS)
 const SpeedMode = z.enum(SPEED_MODES)
-const DamageType = z.enum(DAMAGE_TYPES)
-const ConditionId = z.enum(Object.keys(CONDITIONS) as [Condition, ...Condition[]])
+/** A rules term from the glossary, e.g. `refs.rules.fire` or `refs.rules.prone`. */
+const RuleRef = entityRefOf('rule')
 const Proficiency = z
   .enum(['proficient', 'expert'])
   .describe('Expert doubles the proficiency bonus')
 
 /**
  * Ability rules text as tokens: plain strings, and typed references the tracker answers in place
- * from this stat block — speeds, sibling abilities by key, numbers, conditions, and actions.
+ * from this stat block — speeds, sibling abilities by key, numbers — and rules terms such as
+ * `refs.rules.prone`, which the UI explains in place.
  */
 export const AbilityTextToken = z.union([
   z.string().min(1),
@@ -93,10 +78,7 @@ export const AbilityTextToken = z.union([
   z.strictObject({ dc: AbilityId.describe('Save DC: 8 + proficiency + this modifier') }),
   z.strictObject({ mod: AbilityId }),
   z.strictObject({ pb: z.literal(true) }),
-  z.strictObject({ condition: ConditionId }),
-  z.strictObject({
-    action: z.enum(Object.keys(STANDARD_ACTIONS) as [StandardAction, ...StandardAction[]]),
-  }),
+  RuleRef,
 ])
 
 export type AbilityTextToken = z.infer<typeof AbilityTextToken>
@@ -104,7 +86,7 @@ export type AbilityTextToken = z.infer<typeof AbilityTextToken>
 /** One damage roll, e.g. `1d10` piercing plus the attacking ability modifier. */
 const Damage = z.strictObject({
   dice: z.string().regex(/^\d+d(4|6|8|10|12|20)$/, 'Use dice like `2d6`'),
-  type: DamageType,
+  type: RuleRef.describe('A damage type, e.g. `refs.rules.piercing`'),
   addModifier: z
     .boolean()
     .default(false)
@@ -212,10 +194,10 @@ export const StatBlock = z
       .partialRecord(z.enum(SENSES), z.number().int().positive())
       .optional()
       .describe('Feet'),
-    damageVulnerabilities: z.array(DamageType).optional(),
-    damageResistances: z.array(DamageType).optional(),
-    damageImmunities: z.array(DamageType).optional(),
-    conditionImmunities: z.array(ConditionId).optional(),
+    damageVulnerabilities: z.array(RuleRef).optional().describe('Damage types'),
+    damageResistances: z.array(RuleRef).optional().describe('Damage types'),
+    damageImmunities: z.array(RuleRef).optional().describe('Damage types'),
+    conditionImmunities: z.array(RuleRef).optional().describe('Conditions'),
     abilities: z.array(Ability.extend({ timing: z.enum(ABILITY_TIMINGS) })).default([]),
     legendary: z
       .strictObject({

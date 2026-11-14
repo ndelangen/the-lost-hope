@@ -79,12 +79,12 @@ export default createNPC({
           damage: [
             {
               dice: '1d8',
-              type: 'slashing',
+              type: refs.rules.slashing,
               addModifier: true,
             },
             {
               dice: '2d8',
-              type: 'necrotic',
+              type: refs.rules.necrotic,
             },
           ],
         },
@@ -100,9 +100,7 @@ export default createNPC({
             dc: 'cha',
           },
           '. Failure: ',
-          {
-            condition: 'frightened',
-          },
+          refs.rules.frightened,
           ' for 1 minute (repeats the save at the end of each of its turns).',
         ],
         uses: 1,

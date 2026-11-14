@@ -47,7 +47,7 @@ export default createNPC({
           damage: [
             {
               dice: '1d4',
-              type: 'bludgeoning',
+              type: refs.rules.bludgeoning,
               addModifier: true,
             },
           ],

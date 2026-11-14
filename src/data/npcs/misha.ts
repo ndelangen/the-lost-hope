@@ -51,8 +51,8 @@ export default createNPC({
     senses: {
       darkvision: 120,
     },
-    damageResistances: ['radiant'],
-    conditionImmunities: ['charmed', 'frightened'],
+    damageResistances: [refs.rules.radiant],
+    conditionImmunities: [refs.rules.charmed, refs.rules.frightened],
     abilities: [
       {
         key: 'exalted-restoration',
@@ -96,12 +96,12 @@ export default createNPC({
           damage: [
             {
               dice: '1d6',
-              type: 'bludgeoning',
+              type: refs.rules.bludgeoning,
               addModifier: true,
             },
             {
               dice: '4d8',
-              type: 'radiant',
+              type: refs.rules.radiant,
             },
           ],
         },

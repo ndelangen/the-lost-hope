@@ -1,3 +1,4 @@
+import { refs } from '#/data/generated/refs.ts'
 import { create as createCreature } from '#/definitions/creature.ts'
 
 export default createCreature({
@@ -36,17 +37,11 @@ export default createCreature({
         icon: 'gi/GiSmokeBomb',
         text: [
           'Takes the ',
-          {
-            action: 'dash',
-          },
+          refs.rules.dash,
           ', ',
-          {
-            action: 'disengage',
-          },
+          refs.rules.disengage,
           ', or ',
-          {
-            action: 'hide',
-          },
+          refs.rules.hide,
           ' action.',
         ],
       },
@@ -71,7 +66,7 @@ export default createCreature({
           damage: [
             {
               dice: '1d6',
-              type: 'piercing',
+              type: refs.rules.piercing,
               addModifier: true,
             },
           ],
@@ -90,7 +85,7 @@ export default createCreature({
           damage: [
             {
               dice: '1d6',
-              type: 'piercing',
+              type: refs.rules.piercing,
               addModifier: true,
             },
           ],

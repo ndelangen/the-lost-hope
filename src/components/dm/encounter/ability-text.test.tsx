@@ -1,6 +1,7 @@
 import { renderToStaticMarkup } from 'react-dom/server'
 import { describe, expect, it } from 'vitest'
 
+import { refs } from '#/data/generated/refs'
 import type { DerivedStatBlock } from '#/lib/dm-ability-text'
 
 import { AbilityTextView } from './ability-text'
@@ -26,7 +27,7 @@ describe('AbilityTextView', () => {
           ' attack. On a hit, the target makes a ',
           { dc: 'str' },
           ' Strength save or falls ',
-          { condition: 'prone' },
+          refs.rules.prone,
           '.',
         ]}
       />,

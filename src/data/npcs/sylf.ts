@@ -38,7 +38,7 @@ export default createNPC({
     senses: {
       darkvision: 60,
     },
-    damageResistances: ['cold', 'fire'],
+    damageResistances: [refs.rules.cold, refs.rules.fire],
     abilities: [
       {
         key: 'shell',
@@ -68,12 +68,12 @@ export default createNPC({
           damage: [
             {
               dice: '1d8',
-              type: 'piercing',
+              type: refs.rules.piercing,
               addModifier: true,
             },
             {
               dice: '1d6',
-              type: 'cold',
+              type: refs.rules.cold,
             },
           ],
         },
@@ -89,9 +89,7 @@ export default createNPC({
             dc: 'cha',
           },
           '. Failure: ',
-          {
-            condition: 'charmed',
-          },
+          refs.rules.charmed,
           ' until the end of her next turn.',
         ],
         uses: 1,

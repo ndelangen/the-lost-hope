@@ -1,6 +1,6 @@
-import { CONDITIONS, STANDARD_ACTIONS } from '#/definitions/rules-glossary'
 import type { AbilityTextToken } from '#/definitions/stat-block'
 
+import { ruleOf, termLabel, type RuleRef } from './rules'
 import { signed } from './stat-block'
 
 /**
@@ -41,7 +41,7 @@ export type AbilityTextSegment =
   | { kind: 'speed'; value: string; note: string }
   | { kind: 'ability'; key: string; name: string; summary?: string }
   | { kind: 'number'; value: string; note: string }
-  | { kind: 'rule'; label: string; note: string }
+  | { kind: 'rule'; rule: RuleRef; label: string }
 
 const ABILITY_NAME: Record<AbilityId, string> = {
   str: 'Strength',
@@ -66,8 +66,16 @@ function speedPhrase(mode: SpeedMode, times: number) {
   return `${times} × ${which}`
 }
 
-function segmentFor(token: AbilityTextToken, block: DerivedStatBlock): AbilityTextSegment {
+function segmentFor(
+  token: AbilityTextToken,
+  block: DerivedStatBlock,
+  textBefore: string,
+): AbilityTextSegment {
   if (typeof token === 'string') return { kind: 'text', text: token }
+
+  if ('ref' in token) {
+    return { kind: 'rule', rule: token, label: termLabel(ruleOf(token), textBefore) }
+  }
 
   if ('speed' in token) {
     const times = token.times ?? 1
@@ -106,20 +114,7 @@ function segmentFor(token: AbilityTextToken, block: DerivedStatBlock): AbilityTe
     }
   }
 
-  if ('pb' in token) {
-    return {
-      kind: 'number',
-      value: signed(block.proficiencyBonus),
-      note: 'Proficiency bonus',
-    }
-  }
-
-  if ('condition' in token) {
-    return { kind: 'rule', label: token.condition, note: CONDITIONS[token.condition] }
-  }
-
-  const action = STANDARD_ACTIONS[token.action]
-  return { kind: 'rule', label: action.label, note: action.note }
+  return { kind: 'number', value: signed(block.proficiencyBonus), note: 'Proficiency bonus' }
 }
 
 /** Resolve ability text tokens against the creature's derived stat block. */
@@ -127,7 +122,12 @@ export function abilityTextSegments(
   tokens: readonly AbilityTextToken[],
   block: DerivedStatBlock,
 ): AbilityTextSegment[] {
-  return tokens.map((token) => segmentFor(token, block))
+  let before = ''
+  return tokens.map((token) => {
+    const segment = segmentFor(token, block, before)
+    before += plainAbilityText([segment])
+    return segment
+  })
 }
 
 /** The resolved text as one string, for places that can only show plain text, like tooltips. */

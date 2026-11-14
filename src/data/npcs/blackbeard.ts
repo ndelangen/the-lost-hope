@@ -50,9 +50,7 @@ export default createNPC({
         icon: 'gi/GiSkullCrossedBones',
         text: [
           'Allies within 30 ft. of him have advantage on saves against being ',
-          {
-            condition: 'frightened',
-          },
+          refs.rules.frightened,
           '.',
         ],
       },
@@ -95,12 +93,12 @@ export default createNPC({
           damage: [
             {
               dice: '1d8',
-              type: 'slashing',
+              type: refs.rules.slashing,
               addModifier: true,
             },
             {
               dice: '1d6',
-              type: 'necrotic',
+              type: refs.rules.necrotic,
             },
           ],
         },
@@ -118,7 +116,7 @@ export default createNPC({
           damage: [
             {
               dice: '2d10',
-              type: 'piercing',
+              type: refs.rules.piercing,
               addModifier: true,
             },
           ],
@@ -135,9 +133,7 @@ export default createNPC({
             dc: 'cha',
           },
           '. Failure: ',
-          {
-            condition: 'frightened',
-          },
+          refs.rules.frightened,
           '.',
         ],
         uses: 1,

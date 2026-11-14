@@ -38,7 +38,7 @@ export default createNPC({
     senses: {
       darkvision: 60,
     },
-    damageResistances: ['lightning'],
+    damageResistances: [refs.rules.lightning],
     abilities: [
       {
         key: 'unending-breath',
@@ -73,7 +73,7 @@ export default createNPC({
           damage: [
             {
               dice: '1d8',
-              type: 'piercing',
+              type: refs.rules.piercing,
               addModifier: true,
             },
           ],
@@ -90,9 +90,7 @@ export default createNPC({
             dc: 'cha',
           },
           '. Failure: pushed 15 ft. and ',
-          {
-            condition: 'prone',
-          },
+          refs.rules.prone,
           '.',
         ],
       },
@@ -107,9 +105,7 @@ export default createNPC({
             dc: 'cha',
           },
           '. Failure: ',
-          {
-            condition: 'charmed',
-          },
+          refs.rules.charmed,
           ' until it takes damage.',
         ],
         uses: 1,

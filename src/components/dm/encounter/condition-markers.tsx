@@ -1,12 +1,13 @@
 import { Brain, X } from 'lucide-react'
 
 import { EffectText } from '#/components/effect-text'
+import { RuleExplanation } from '#/components/rule-term'
 import { HoverPreview } from '#/components/ui/hover-preview'
 import type { Effect } from '#/definitions/effect'
-import { CONDITIONS } from '#/definitions/rules-glossary'
 import { CONDITION_ICONS } from '#/lib/condition-icons'
 import { EffectIcon } from '#/lib/effect-icons'
 import { describeDuration, type ActiveCondition } from '#/lib/encounter-combat'
+import { ruleRef } from '#/lib/rules'
 import { cn } from '#/lib/utils'
 
 import { useDensity } from './density'
@@ -68,10 +69,10 @@ export function ConditionMarkers({
         return (
           <span key={held.id} className="inline-flex items-center">
             <HoverPreview
+              interactive
               content={
                 <>
-                  <strong className="capitalize">{held.condition}</strong>
-                  <span>{CONDITIONS[held.condition]}</span>
+                  <RuleExplanation rule={ruleRef(held.condition)} />
                   <span className="text-muted-foreground">
                     {describeDuration(held.duration, nameOf)}
                   </span>

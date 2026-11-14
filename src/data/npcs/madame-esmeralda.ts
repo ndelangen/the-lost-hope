@@ -52,7 +52,7 @@ export default createNPC({
           damage: [
             {
               dice: '2d6',
-              type: 'psychic',
+              type: refs.rules.psychic,
               addModifier: true,
             },
           ],
@@ -69,9 +69,7 @@ export default createNPC({
             dc: 'wis',
           },
           '. Failure: ',
-          {
-            condition: 'frightened',
-          },
+          refs.rules.frightened,
           ' of her for 1 minute.',
         ],
         uses: 1,

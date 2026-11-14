@@ -70,7 +70,7 @@ export default createNPC({
           damage: [
             {
               dice: '1d10',
-              type: 'force',
+              type: refs.rules.force,
               addModifier: true,
             },
           ],

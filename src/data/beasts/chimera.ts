@@ -1,3 +1,4 @@
+import { refs } from '#/data/generated/refs.ts'
 import { create as createBeast } from '#/definitions/beast.ts'
 
 export default createBeast({
@@ -71,7 +72,7 @@ export default createBeast({
           damage: [
             {
               dice: '2d6',
-              type: 'piercing',
+              type: refs.rules.piercing,
               addModifier: true,
             },
           ],
@@ -89,7 +90,7 @@ export default createBeast({
           damage: [
             {
               dice: '1d12',
-              type: 'bludgeoning',
+              type: refs.rules.bludgeoning,
               addModifier: true,
             },
           ],
@@ -107,7 +108,7 @@ export default createBeast({
           damage: [
             {
               dice: '2d6',
-              type: 'slashing',
+              type: refs.rules.slashing,
               addModifier: true,
             },
           ],

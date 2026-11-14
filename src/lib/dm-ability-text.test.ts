@@ -1,5 +1,7 @@
 import { describe, expect, it } from 'vitest'
 
+import { refs } from '#/data/generated/refs'
+
 import {
   abilityTextSegments,
   formatFeet,
@@ -64,13 +66,12 @@ describe('ability text', () => {
   })
 
   it('explains conditions and standard actions', () => {
-    const [prone, , disengage] = abilityTextSegments(
-      [{ condition: 'prone' }, ' or ', { action: 'disengage' }],
+    const [prone, disengage] = abilityTextSegments(
+      ['Knocked ', refs.rules.prone, ' or ', refs.rules.disengage],
       wolfie,
-    )
-    expect(prone).toMatchObject({ kind: 'rule', label: 'prone' })
+    ).filter((segment) => segment.kind === 'rule')
+    expect(prone).toMatchObject({ kind: 'rule', rule: refs.rules.prone, label: 'prone' })
     expect(disengage).toMatchObject({ kind: 'rule', label: 'Disengage' })
-    expect(prone?.kind === 'rule' && prone.note.length > 0).toBe(true)
   })
 
   it('names other speed modes and multiples', () => {

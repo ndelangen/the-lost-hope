@@ -82,7 +82,7 @@ export default createBeast({
           damage: [
             {
               dice: '2d10',
-              type: 'piercing',
+              type: refs.rules.piercing,
               addModifier: true,
             },
           ],
@@ -101,24 +101,20 @@ export default createBeast({
           damage: [
             {
               dice: '2d8',
-              type: 'bludgeoning',
+              type: refs.rules.bludgeoning,
               addModifier: true,
             },
           ],
         },
         text: [
           'A Huge or smaller target has the ',
-          {
-            condition: 'grappled',
-          },
+          refs.rules.grappled,
           ' condition (escape ',
           {
             dc: 'str',
           },
           ') and is ',
-          {
-            condition: 'restrained',
-          },
+          refs.rules.restrained,
           ' while grappled.',
         ],
       },
@@ -127,13 +123,7 @@ export default createBeast({
         name: 'Drag Under',
         timing: 'bonus action',
         icon: 'gi/GiWaterSplash',
-        text: [
-          'Pulls a creature it has ',
-          {
-            condition: 'grappled',
-          },
-          ' underwater with it.',
-        ],
+        text: ['Pulls a creature it has ', refs.rules.grappled, ' underwater with it.'],
       },
     ],
     source: {

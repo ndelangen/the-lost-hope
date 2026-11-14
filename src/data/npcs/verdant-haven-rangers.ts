@@ -45,9 +45,7 @@ export default createNPC({
         icon: 'gi/GiTreeBranch',
         text: [
           'Can take the ',
-          {
-            action: 'hide',
-          },
+          refs.rules.hide,
           ' action when only lightly obscured by foliage, rain, or mist.',
         ],
       },
@@ -81,7 +79,7 @@ export default createNPC({
           damage: [
             {
               dice: '1d6',
-              type: 'piercing',
+              type: refs.rules.piercing,
               addModifier: true,
             },
           ],
@@ -100,7 +98,7 @@ export default createNPC({
           damage: [
             {
               dice: '1d8',
-              type: 'piercing',
+              type: refs.rules.piercing,
               addModifier: true,
             },
           ],

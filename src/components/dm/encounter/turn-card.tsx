@@ -12,7 +12,7 @@ import {
 import type { ReactNode } from 'react'
 
 import { EffectText } from '#/components/effect-text'
-import { CONDITIONS } from '#/definitions/rules-glossary'
+import { RuleTerm } from '#/components/rule-term'
 import { CONDITION_ICONS } from '#/lib/condition-icons'
 import { EffectIcon } from '#/lib/effect-icons'
 import {
@@ -22,6 +22,7 @@ import {
   type TurnNote,
   type TurnReminder,
 } from '#/lib/encounter-combat'
+import { plainRuleText, ruleRef, rules } from '#/lib/rules'
 import { cn } from '#/lib/utils'
 
 import { useDensity } from './density'
@@ -158,8 +159,10 @@ export function TurnCard({
               return (
                 <Item key={reminder.held.id} icon={<Icon aria-hidden className="text-amber-600" />}>
                   <span>
-                    <strong className="capitalize">{reminder.held.condition}</strong>:{' '}
-                    {CONDITIONS[reminder.held.condition]}{' '}
+                    <strong>
+                      <RuleTerm rule={ruleRef(reminder.held.condition)} />
+                    </strong>
+                    : {plainRuleText(rules[reminder.held.condition].summary)}{' '}
                     <span className="text-muted-foreground">
                       ({describeDuration(reminder.held.duration, nameOf)})
                     </span>

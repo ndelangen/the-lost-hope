@@ -1,5 +1,7 @@
 import { describe, expect, it } from 'vitest'
 
+import { refs } from '#/data/generated/refs'
+
 import { StatBlock } from './stat-block'
 
 const scores = { str: 16, dex: 14, con: 14, int: 8, wis: 12, cha: 8 }
@@ -11,7 +13,7 @@ const bite = {
   attack: {
     kind: 'melee',
     ability: 'str',
-    damage: [{ dice: '1d10', type: 'piercing', addModifier: true }],
+    damage: [{ dice: '1d10', type: refs.rules.piercing, addModifier: true }],
   },
 }
 const base = {
@@ -43,9 +45,9 @@ describe('stat block ability text', () => {
       ' attack; ',
       { dc: 'str' },
       ' or ',
-      { condition: 'prone' },
+      refs.rules.prone,
       ', then ',
-      { action: 'disengage' },
+      refs.rules.disengage,
     ])
     expect(parsed.success).toBe(true)
   })
@@ -63,8 +65,8 @@ describe('stat block ability text', () => {
     expect(block([{ speed: 'fly' }]).success).toBe(false)
   })
 
-  it('rejects unknown conditions', () => {
-    expect(block([{ condition: 'sleepy' }]).success).toBe(false)
+  it('accepts only rules terms as references', () => {
+    expect(block([{ ref: 'npc', key: 'barbara' }]).success).toBe(false)
   })
 })
 
@@ -80,8 +82,8 @@ describe('stat block facts', () => {
     expect(block([], { source: { adaptedFrom: [], changes: 'Invented.' } }).success).toBe(true)
   })
 
-  it('rejects non-SRD source keys and unknown damage types', () => {
+  it('rejects non-SRD source keys and damage types given as words', () => {
     expect(block([], { source: { adaptedFrom: ['dire wolf'] } }).success).toBe(false)
-    expect(block([], { damageImmunities: ['sadness'] }).success).toBe(false)
+    expect(block([], { damageImmunities: ['fire'] }).success).toBe(false)
   })
 })

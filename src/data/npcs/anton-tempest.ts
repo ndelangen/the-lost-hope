@@ -66,16 +66,14 @@ export default createNPC({
           damage: [
             {
               dice: '2d6',
-              type: 'bludgeoning',
+              type: refs.rules.bludgeoning,
               addModifier: true,
             },
           ],
         },
         text: [
           'If the target breaks a rule Anton stated this fight, it also has the ',
-          {
-            condition: 'prone',
-          },
+          refs.rules.prone,
           ' condition.',
         ],
       },
@@ -92,7 +90,7 @@ export default createNPC({
           damage: [
             {
               dice: '2d10',
-              type: 'piercing',
+              type: refs.rules.piercing,
               addModifier: true,
             },
           ],

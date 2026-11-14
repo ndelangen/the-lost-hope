@@ -1,3 +1,4 @@
+import { refs } from '#/data/generated/refs.ts'
 import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
@@ -36,13 +37,9 @@ export default createNPC({
         icon: 'gi/GiSmokeBomb',
         text: [
           'Takes the ',
-          {
-            action: 'disengage',
-          },
+          refs.rules.disengage,
           ' or ',
-          {
-            action: 'hide',
-          },
+          refs.rules.hide,
           ' action as a bonus action.',
         ],
       },
@@ -72,7 +69,7 @@ export default createNPC({
           damage: [
             {
               dice: '1d6',
-              type: 'slashing',
+              type: refs.rules.slashing,
               addModifier: true,
             },
           ],

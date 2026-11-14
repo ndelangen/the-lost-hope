@@ -1,3 +1,4 @@
+import { refs } from '#/data/generated/refs.ts'
 import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
@@ -33,9 +34,7 @@ export default createNPC({
         icon: 'lucide/UsersRound',
         text: [
           'Advantage on an attack roll against a creature if at least one ally is within 5 ft. of it and not ',
-          {
-            condition: 'incapacitated',
-          },
+          refs.rules.incapacitated,
           '.',
         ],
       },
@@ -69,7 +68,7 @@ export default createNPC({
           damage: [
             {
               dice: '1d10',
-              type: 'bludgeoning',
+              type: refs.rules.bludgeoning,
               addModifier: true,
             },
           ],
@@ -87,16 +86,14 @@ export default createNPC({
           damage: [
             {
               dice: '1d4',
-              type: 'bludgeoning',
+              type: refs.rules.bludgeoning,
               addModifier: true,
             },
           ],
         },
         text: [
           'A Medium or smaller target has the ',
-          {
-            condition: 'grappled',
-          },
+          refs.rules.grappled,
           ' condition (escape ',
           {
             dc: 'str',

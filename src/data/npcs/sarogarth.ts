@@ -50,7 +50,7 @@ export default createNPC({
       arcana: 'expert',
       history: 'expert',
     },
-    damageResistances: ['psychic'],
+    damageResistances: [refs.rules.psychic],
     abilities: [
       {
         key: 'magic-resistance',
@@ -95,7 +95,7 @@ export default createNPC({
           damage: [
             {
               dice: '4d10',
-              type: 'force',
+              type: refs.rules.force,
               addModifier: true,
             },
           ],

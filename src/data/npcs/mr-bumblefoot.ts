@@ -56,7 +56,7 @@ export default createNPC({
           damage: [
             {
               dice: '1d8',
-              type: 'bludgeoning',
+              type: refs.rules.bludgeoning,
               addModifier: true,
             },
           ],
@@ -74,9 +74,7 @@ export default createNPC({
             times: 2,
           },
           ' this turn without provoking an ',
-          {
-            action: 'opportunity attack',
-          },
+          refs.rules.opportunity_attack,
           '.',
         ],
         uses: 1,

@@ -10,6 +10,7 @@ import {
 } from '#/definitions/stat-block'
 
 import type { DerivedStatBlock } from './dm-ability-text'
+import { ruleOf } from './rules'
 
 /**
  * Everything a stat block implies but does not store. Stat blocks keep base facts only (scores,
@@ -142,7 +143,10 @@ export function deriveAttack(attack: Attack, stats: StatBlock): DerivedAttack {
     distance:
       attack.kind === 'melee' ? `reach ${attack.reach} ft.` : `range ${attack.range.join('/')} ft.`,
     damage: attack.damage
-      .map((roll) => `${rollText(roll.dice, roll.addModifier ? mod : 0)} ${roll.type}`)
+      .map(
+        (roll) =>
+          `${rollText(roll.dice, roll.addModifier ? mod : 0)} ${ruleOf(roll.type).name.toLowerCase()}`,
+      )
       .join(' plus '),
   }
 }

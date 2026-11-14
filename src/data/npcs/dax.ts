@@ -35,7 +35,7 @@ export default createNPC({
     senses: {
       darkvision: 60,
     },
-    damageResistances: ['fire'],
+    damageResistances: [refs.rules.fire],
     abilities: [
       {
         key: 'shell',
@@ -65,12 +65,12 @@ export default createNPC({
           damage: [
             {
               dice: '1d10',
-              type: 'piercing',
+              type: refs.rules.piercing,
               addModifier: true,
             },
             {
               dice: '1d6',
-              type: 'fire',
+              type: refs.rules.fire,
             },
           ],
         },

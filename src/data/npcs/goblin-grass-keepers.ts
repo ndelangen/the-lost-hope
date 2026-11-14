@@ -53,13 +53,9 @@ export default createNPC({
         icon: 'gi/GiSmokeBomb',
         text: [
           'Takes the ',
-          {
-            action: 'disengage',
-          },
+          refs.rules.disengage,
           ' or ',
-          {
-            action: 'hide',
-          },
+          refs.rules.hide,
           ' action as a bonus action.',
         ],
       },
@@ -75,7 +71,7 @@ export default createNPC({
           damage: [
             {
               dice: '1d6',
-              type: 'slashing',
+              type: refs.rules.slashing,
               addModifier: true,
             },
           ],
@@ -94,7 +90,7 @@ export default createNPC({
           damage: [
             {
               dice: '1d4',
-              type: 'bludgeoning',
+              type: refs.rules.bludgeoning,
               addModifier: true,
             },
           ],

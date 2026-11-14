@@ -30,7 +30,7 @@ export default createNPC({
       insight: 'proficient',
       perception: 'proficient',
     },
-    damageResistances: ['necrotic'],
+    damageResistances: [refs.rules.necrotic],
     abilities: [
       {
         key: 'deaths-favour',

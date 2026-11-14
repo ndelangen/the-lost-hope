@@ -47,7 +47,7 @@ export default createBeast({
       blindsight: 10,
       darkvision: 60,
     },
-    damageImmunities: ['fire'],
+    damageImmunities: [refs.rules.fire],
     abilities: [
       {
         key: 'amphibious',
@@ -82,7 +82,7 @@ export default createBeast({
           damage: [
             {
               dice: '1d10',
-              type: 'slashing',
+              type: refs.rules.slashing,
               addModifier: true,
             },
           ],

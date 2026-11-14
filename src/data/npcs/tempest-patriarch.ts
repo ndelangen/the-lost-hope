@@ -42,7 +42,7 @@ export default createNPC({
       intimidation: 'expert',
       persuasion: 'expert',
     },
-    damageResistances: ['lightning', 'thunder'],
+    damageResistances: [refs.rules.lightning, refs.rules.thunder],
     abilities: [
       {
         key: 'too-powerful',
@@ -51,13 +51,9 @@ export default createNPC({
         icon: 'lucide/Shield',
         text: [
           'Advantage on saves against being ',
-          {
-            condition: 'charmed',
-          },
+          refs.rules.charmed,
           ' or ',
-          {
-            condition: 'frightened',
-          },
+          refs.rules.frightened,
           '.',
         ],
       },
@@ -97,7 +93,7 @@ export default createNPC({
           damage: [
             {
               dice: '2d8',
-              type: 'lightning',
+              type: refs.rules.lightning,
               addModifier: true,
             },
           ],

@@ -49,7 +49,7 @@ export default createNPC({
       blindsight: 60,
       darkvision: 120,
     },
-    damageImmunities: ['cold'],
+    damageImmunities: [refs.rules.cold],
     abilities: [
       {
         key: 'ice-walk',
@@ -67,9 +67,7 @@ export default createNPC({
         icon: 'gi/GiHolySymbol',
         text: [
           'Its worshippers within 120 ft. live far beyond their natural span and have advantage on saves against being ',
-          {
-            condition: 'frightened',
-          },
+          refs.rules.frightened,
           '.',
         ],
       },
@@ -109,12 +107,12 @@ export default createNPC({
           damage: [
             {
               dice: '2d8',
-              type: 'slashing',
+              type: refs.rules.slashing,
               addModifier: true,
             },
             {
               dice: '2d8',
-              type: 'cold',
+              type: refs.rules.cold,
             },
           ],
         },
@@ -167,9 +165,7 @@ export default createNPC({
               dc: 'con',
             },
             '. Failure: ',
-            {
-              condition: 'restrained',
-            },
+            refs.rules.restrained,
             ' by ice until the end of its next turn.',
           ],
         },

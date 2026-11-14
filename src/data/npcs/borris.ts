@@ -40,9 +40,7 @@ export default createNPC({
         icon: 'lucide/UsersRound',
         text: [
           'Advantage on an attack roll against a creature if at least one ally is within 5 ft. of it and not ',
-          {
-            condition: 'incapacitated',
-          },
+          refs.rules.incapacitated,
           '.',
         ],
       },
@@ -72,7 +70,7 @@ export default createNPC({
           damage: [
             {
               dice: '1d10',
-              type: 'bludgeoning',
+              type: refs.rules.bludgeoning,
               addModifier: true,
             },
           ],
@@ -92,7 +90,7 @@ export default createNPC({
           damage: [
             {
               dice: '2d10',
-              type: 'piercing',
+              type: refs.rules.piercing,
               addModifier: true,
             },
           ],
@@ -105,9 +103,7 @@ export default createNPC({
         icon: 'gi/GiTwoCoins',
         text: [
           'One ally within 30 ft. that can hear him moves up to its speed without provoking an ',
-          {
-            action: 'opportunity attack',
-          },
+          refs.rules.opportunity_attack,
           '.',
         ],
         uses: 1,

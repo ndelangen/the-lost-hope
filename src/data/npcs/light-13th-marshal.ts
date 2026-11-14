@@ -60,7 +60,7 @@ export default createNPC({
     senses: {
       truesight: 60,
     },
-    damageResistances: ['radiant'],
+    damageResistances: [refs.rules.radiant],
     abilities: [
       {
         key: 'marshals-authority',
@@ -69,13 +69,9 @@ export default createNPC({
         icon: 'gi/GiHolySymbol',
         text: [
           'Can’t be ',
-          {
-            condition: 'charmed',
-          },
+          refs.rules.charmed,
           ' or ',
-          {
-            condition: 'frightened',
-          },
+          refs.rules.frightened,
           '. A creature that has signed one of his contracts has disadvantage on saves against his abilities.',
         ],
       },
@@ -115,7 +111,7 @@ export default createNPC({
           damage: [
             {
               dice: '2d8',
-              type: 'radiant',
+              type: refs.rules.radiant,
               addModifier: true,
             },
           ],
@@ -133,9 +129,7 @@ export default createNPC({
             dc: 'cha',
           },
           '. Failure: 6d8 radiant damage and ',
-          {
-            condition: 'blinded',
-          },
+          refs.rules.blinded,
           ' until the end of its next turn. Success: half damage.',
         ],
         uses: 1,
