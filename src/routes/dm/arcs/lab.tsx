@@ -7,7 +7,9 @@ import { arcs } from '#/lib/dm-campaign'
 import { assignColumns, buildStorylines, campaignSessionsInOrder } from '#/lib/dm-storylines'
 import { cn } from '#/lib/utils'
 
+import { FlowGraph } from './-lab-flow'
 import { type LabOptions, LabGraph } from './-lab-graph'
+import { LongArcs } from './-lab-long'
 import {
   type LabLine,
   branchParents,
@@ -18,7 +20,7 @@ import {
 
 /** Prototype: six variants of the arcs graph, built from what other storyline tools do. */
 export const Route = createFileRoute('/dm/arcs/lab')({
-  validateSearch: z.object({ v: z.number().int().min(1).max(6).catch(1) }),
+  validateSearch: z.object({ v: z.number().int().min(1).max(8).catch(1) }),
   head: () => ({
     meta: [
       { title: 'Arc graph variants (prototype) | DM' },
@@ -70,6 +72,20 @@ const VARIANTS = [
     from: 'All of the above',
     about:
       'Interchanges, branching, related arcs side by side, and hover cards, on the current layout.',
+  },
+  {
+    id: 7,
+    name: 'Flow',
+    from: 'xkcd movie charts, StoryFlow',
+    about:
+      'Arcs have no fixed column. Each session pulls arcs that share an event into a tight group and spaces unrelated ones further apart, so lines drift together while they interact and apart when they stop.',
+  },
+  {
+    id: 8,
+    name: 'Long arcs',
+    from: 'Your request',
+    about:
+      'Only open arcs, ranked by how many sessions they have been open, or by how long since they were last played. Slide to choose what counts as long.',
   },
 ] as const
 
@@ -152,15 +168,26 @@ function ArcLab() {
             </button>
           ) : null}
         </div>
-        <LabGraph
-          key={v}
-          lines={lines}
-          sessions={sessions}
-          columns={columns}
-          options={options}
-          onSelect={onSelect}
-          selected={selected}
-        />
+        {v === 7 ? (
+          <FlowGraph
+            storylines={base}
+            sessions={sessions}
+            onSelect={onSelect}
+            selected={selected}
+          />
+        ) : v === 8 ? (
+          <LongArcs storylines={base} sessions={sessions} onSelect={onSelect} />
+        ) : (
+          <LabGraph
+            key={v}
+            lines={lines}
+            sessions={sessions}
+            columns={columns}
+            options={options}
+            onSelect={onSelect}
+            selected={selected}
+          />
+        )}
       </div>
       <aside className="order-first min-w-0 xl:sticky xl:top-20 xl:order-none xl:max-h-[calc(100vh-6rem)] xl:overflow-y-auto">
         {detail ? (
