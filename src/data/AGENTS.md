@@ -60,6 +60,31 @@ canon.
 - Campaign days may be absent when no event was recorded. A session may span several campaign days,
   and a campaign day may eventually span sessions.
 
+## DM prep
+
+- Arcs own their plots. A plot links to at most one prepared scene and may link to several played
+  events. Use the same event reference wherever it advances another plot or arc.
+- Scenes own the location, setup, and possible outcomes. Events own what happened in play. Linking
+  an event leaves the plot open until the DM closes it.
+- NPCs own their motivations. Reference the NPC from prep so you can read the motivation alongside
+  the scene. Arc and scene references come from the generated `refs.arcs` and `refs.scenes` namespaces.
+
+## What players see
+
+- `notes` holds what the players know. It is shown on the public archive.
+- `background` holds the DM-only truth about a record. NPC `motivations` are DM-only too. The
+  player projection removes every field listed in `DM_FIELDS` (`src/lib/player-visibility.ts`);
+  list any new DM-only field there.
+- A membership the party has not discovered goes in `secretMemberships`, not `memberships`.
+- Never write "Secret:" or "DM note:" prose into `notes`. Put the truth in `background` instead.
+- When players discover part of a `background`, move that part into `notes` and record the
+  discovery as an event. Move it; never keep both copies.
+- Players see an event once a session lists it. An event outside every session is off-screen DM
+  material that a plot owns.
+- Players see an NPC, beast, item, organization, or location once a session event references it
+  outside `background`. Until then it exists only for the DM. Player-facing content must not
+  reference a record players have not met; the reference-integrity test fails when it does.
+
 ## Adding or changing an entity
 
 - Search all of `src/data/` before creating an entity. Names and derived slugs must be unique across

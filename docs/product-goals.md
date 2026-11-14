@@ -16,14 +16,12 @@ The north-star questions are:
 
 ## Audience and scope
 
-- The primary author is currently a player taking and reconciling notes.
-- The intended future audience includes the other players and the DM.
-- This is a retrospective memory and exploration tool, not a campaign-planning tool.
-- DM preparation may be added later, but it should be a separate perspective rather than changing
-  the player-facing history into a planning system.
-- Shared hosting will eventually need to distinguish party knowledge, private character knowledge,
-  and DM-only information. Information that an audience must not know cannot merely be hidden in
-  the UI; it must not be delivered to that audience.
+- The DM prepares the campaign and records what happened in play.
+- The public player archive supports retrospective exploration. The DM view adds arcs, plots,
+  and prepared scenes.
+- Keep unrevealed material out of ordinary player browsing, including pages, search, and previews.
+  Both views can share the campaign source and build. The group handles what each character knows
+  through roleplay.
 
 ## Knowledge-model principles
 

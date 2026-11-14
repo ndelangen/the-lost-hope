@@ -54,14 +54,6 @@ export default createQuest({
       ', while the party remained unaware.',
     ],
     [
-      refs.pcs.fix,
-      ' is secretly a bounty hunter sent by ',
-      refs.organizations.the_eyeless_hand,
-      ' to find ',
-      refs.pcs.jim,
-      '.',
-    ],
-    [
       refs.events.n2_e059,
       ': a drunk ',
       refs.pcs.devan,
@@ -69,7 +61,7 @@ export default createQuest({
       refs.pcs.fix,
       ' that the kenku was named ',
       refs.pcs.jim,
-      ', giving her the identity of her target.',
+      '.',
     ],
     [
       refs.events.n2_e075,

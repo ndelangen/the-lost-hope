@@ -1,6 +1,6 @@
 import { z } from 'zod'
 
-import { Content } from './content'
+import { Background, Content } from './content'
 import { makeCreate } from './create'
 import { deriveSlug } from './slug'
 
@@ -20,6 +20,7 @@ export const Quest = deriveSlug(
     status: z.enum(['open', 'resolved']).default('open'),
     clues: Content,
     conclusion: Content.default([]),
+    background: Background,
   }),
 )
 

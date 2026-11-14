@@ -14,6 +14,7 @@ import { Route as IconsRouteImport } from './routes/[_]icons'
 import { Route as IntroRouteImport } from './routes/intro'
 import { Route as QuestionsRouteImport } from './routes/questions'
 import { Route as BeastsIndexRouteImport } from './routes/beasts/index'
+import { Route as DmIndexRouteImport } from './routes/dm/index'
 import { Route as EventsIndexRouteImport } from './routes/events/index'
 import { Route as ItemsIndexRouteImport } from './routes/items/index'
 import { Route as LocationsIndexRouteImport } from './routes/locations/index'
@@ -25,6 +26,10 @@ import { Route as PcsIndexRouteImport } from './routes/pcs/index'
 import { Route as QuestsIndexRouteImport } from './routes/quests/index'
 import { Route as SessionsIndexRouteImport } from './routes/sessions/index'
 import { Route as BeastsDetailSlugRouteImport } from './routes/beasts/detail.$slug'
+import { Route as DmArcsIndexRouteImport } from './routes/dm/arcs/index'
+import { Route as DmArcsSlugRouteImport } from './routes/dm/arcs/$slug'
+import { Route as DmScenesIndexRouteImport } from './routes/dm/scenes/index'
+import { Route as DmScenesSlugRouteImport } from './routes/dm/scenes/$slug'
 import { Route as EventsDetailSlugRouteImport } from './routes/events/detail.$slug'
 import { Route as ItemsDetailSlugRouteImport } from './routes/items/detail.$slug'
 import { Route as LocationsDetailSlugRouteImport } from './routes/locations/detail.$slug'
@@ -57,6 +62,11 @@ const QuestionsRoute = QuestionsRouteImport.update({
 const BeastsIndexRoute = BeastsIndexRouteImport.update({
   id: '/beasts/',
   path: '/beasts/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DmIndexRoute = DmIndexRouteImport.update({
+  id: '/dm/',
+  path: '/dm/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const EventsIndexRoute = EventsIndexRouteImport.update({
@@ -114,6 +124,26 @@ const BeastsDetailSlugRoute = BeastsDetailSlugRouteImport.update({
   path: '/beasts/detail/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const DmArcsIndexRoute = DmArcsIndexRouteImport.update({
+  id: '/dm/arcs/',
+  path: '/dm/arcs/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DmArcsSlugRoute = DmArcsSlugRouteImport.update({
+  id: '/dm/arcs/$slug',
+  path: '/dm/arcs/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DmScenesIndexRoute = DmScenesIndexRouteImport.update({
+  id: '/dm/scenes/',
+  path: '/dm/scenes/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DmScenesSlugRoute = DmScenesSlugRouteImport.update({
+  id: '/dm/scenes/$slug',
+  path: '/dm/scenes/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const EventsDetailSlugRoute = EventsDetailSlugRouteImport.update({
   id: '/events/detail/$slug',
   path: '/events/detail/$slug',
@@ -163,6 +193,7 @@ export interface FileRoutesByFullPath {
   '/locations/list': typeof LocationsListRoute
   '/locations/map': typeof LocationsMapRoute
   '/beasts/': typeof BeastsIndexRoute
+  '/dm/': typeof DmIndexRoute
   '/events/': typeof EventsIndexRoute
   '/items/': typeof ItemsIndexRoute
   '/locations/': typeof LocationsIndexRoute
@@ -172,6 +203,8 @@ export interface FileRoutesByFullPath {
   '/quests/': typeof QuestsIndexRoute
   '/sessions/': typeof SessionsIndexRoute
   '/beasts/detail/$slug': typeof BeastsDetailSlugRoute
+  '/dm/arcs/$slug': typeof DmArcsSlugRoute
+  '/dm/scenes/$slug': typeof DmScenesSlugRoute
   '/events/detail/$slug': typeof EventsDetailSlugRoute
   '/items/detail/$slug': typeof ItemsDetailSlugRoute
   '/locations/detail/$slug': typeof LocationsDetailSlugRoute
@@ -180,6 +213,8 @@ export interface FileRoutesByFullPath {
   '/pcs/detail/$slug': typeof PcsDetailSlugRoute
   '/quests/detail/$slug': typeof QuestsDetailSlugRoute
   '/sessions/detail/$slug': typeof SessionsDetailSlugRoute
+  '/dm/arcs/': typeof DmArcsIndexRoute
+  '/dm/scenes/': typeof DmScenesIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -189,6 +224,7 @@ export interface FileRoutesByTo {
   '/locations/list': typeof LocationsListRoute
   '/locations/map': typeof LocationsMapRoute
   '/beasts': typeof BeastsIndexRoute
+  '/dm': typeof DmIndexRoute
   '/events': typeof EventsIndexRoute
   '/items': typeof ItemsIndexRoute
   '/locations': typeof LocationsIndexRoute
@@ -198,6 +234,8 @@ export interface FileRoutesByTo {
   '/quests': typeof QuestsIndexRoute
   '/sessions': typeof SessionsIndexRoute
   '/beasts/detail/$slug': typeof BeastsDetailSlugRoute
+  '/dm/arcs/$slug': typeof DmArcsSlugRoute
+  '/dm/scenes/$slug': typeof DmScenesSlugRoute
   '/events/detail/$slug': typeof EventsDetailSlugRoute
   '/items/detail/$slug': typeof ItemsDetailSlugRoute
   '/locations/detail/$slug': typeof LocationsDetailSlugRoute
@@ -206,6 +244,8 @@ export interface FileRoutesByTo {
   '/pcs/detail/$slug': typeof PcsDetailSlugRoute
   '/quests/detail/$slug': typeof QuestsDetailSlugRoute
   '/sessions/detail/$slug': typeof SessionsDetailSlugRoute
+  '/dm/arcs': typeof DmArcsIndexRoute
+  '/dm/scenes': typeof DmScenesIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -216,6 +256,7 @@ export interface FileRoutesById {
   '/locations/list': typeof LocationsListRoute
   '/locations/map': typeof LocationsMapRoute
   '/beasts/': typeof BeastsIndexRoute
+  '/dm/': typeof DmIndexRoute
   '/events/': typeof EventsIndexRoute
   '/items/': typeof ItemsIndexRoute
   '/locations/': typeof LocationsIndexRoute
@@ -225,6 +266,8 @@ export interface FileRoutesById {
   '/quests/': typeof QuestsIndexRoute
   '/sessions/': typeof SessionsIndexRoute
   '/beasts/detail/$slug': typeof BeastsDetailSlugRoute
+  '/dm/arcs/$slug': typeof DmArcsSlugRoute
+  '/dm/scenes/$slug': typeof DmScenesSlugRoute
   '/events/detail/$slug': typeof EventsDetailSlugRoute
   '/items/detail/$slug': typeof ItemsDetailSlugRoute
   '/locations/detail/$slug': typeof LocationsDetailSlugRoute
@@ -233,6 +276,8 @@ export interface FileRoutesById {
   '/pcs/detail/$slug': typeof PcsDetailSlugRoute
   '/quests/detail/$slug': typeof QuestsDetailSlugRoute
   '/sessions/detail/$slug': typeof SessionsDetailSlugRoute
+  '/dm/arcs/': typeof DmArcsIndexRoute
+  '/dm/scenes/': typeof DmScenesIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -244,6 +289,7 @@ export interface FileRouteTypes {
     | '/locations/list'
     | '/locations/map'
     | '/beasts/'
+    | '/dm/'
     | '/events/'
     | '/items/'
     | '/locations/'
@@ -253,6 +299,8 @@ export interface FileRouteTypes {
     | '/quests/'
     | '/sessions/'
     | '/beasts/detail/$slug'
+    | '/dm/arcs/$slug'
+    | '/dm/scenes/$slug'
     | '/events/detail/$slug'
     | '/items/detail/$slug'
     | '/locations/detail/$slug'
@@ -261,6 +309,8 @@ export interface FileRouteTypes {
     | '/pcs/detail/$slug'
     | '/quests/detail/$slug'
     | '/sessions/detail/$slug'
+    | '/dm/arcs/'
+    | '/dm/scenes/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -270,6 +320,7 @@ export interface FileRouteTypes {
     | '/locations/list'
     | '/locations/map'
     | '/beasts'
+    | '/dm'
     | '/events'
     | '/items'
     | '/locations'
@@ -279,6 +330,8 @@ export interface FileRouteTypes {
     | '/quests'
     | '/sessions'
     | '/beasts/detail/$slug'
+    | '/dm/arcs/$slug'
+    | '/dm/scenes/$slug'
     | '/events/detail/$slug'
     | '/items/detail/$slug'
     | '/locations/detail/$slug'
@@ -287,6 +340,8 @@ export interface FileRouteTypes {
     | '/pcs/detail/$slug'
     | '/quests/detail/$slug'
     | '/sessions/detail/$slug'
+    | '/dm/arcs'
+    | '/dm/scenes'
   id:
     | '__root__'
     | '/'
@@ -296,6 +351,7 @@ export interface FileRouteTypes {
     | '/locations/list'
     | '/locations/map'
     | '/beasts/'
+    | '/dm/'
     | '/events/'
     | '/items/'
     | '/locations/'
@@ -305,6 +361,8 @@ export interface FileRouteTypes {
     | '/quests/'
     | '/sessions/'
     | '/beasts/detail/$slug'
+    | '/dm/arcs/$slug'
+    | '/dm/scenes/$slug'
     | '/events/detail/$slug'
     | '/items/detail/$slug'
     | '/locations/detail/$slug'
@@ -313,6 +371,8 @@ export interface FileRouteTypes {
     | '/pcs/detail/$slug'
     | '/quests/detail/$slug'
     | '/sessions/detail/$slug'
+    | '/dm/arcs/'
+    | '/dm/scenes/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -323,6 +383,7 @@ export interface RootRouteChildren {
   LocationsListRoute: typeof LocationsListRoute
   LocationsMapRoute: typeof LocationsMapRoute
   BeastsIndexRoute: typeof BeastsIndexRoute
+  DmIndexRoute: typeof DmIndexRoute
   EventsIndexRoute: typeof EventsIndexRoute
   ItemsIndexRoute: typeof ItemsIndexRoute
   LocationsIndexRoute: typeof LocationsIndexRoute
@@ -332,6 +393,8 @@ export interface RootRouteChildren {
   QuestsIndexRoute: typeof QuestsIndexRoute
   SessionsIndexRoute: typeof SessionsIndexRoute
   BeastsDetailSlugRoute: typeof BeastsDetailSlugRoute
+  DmArcsSlugRoute: typeof DmArcsSlugRoute
+  DmScenesSlugRoute: typeof DmScenesSlugRoute
   EventsDetailSlugRoute: typeof EventsDetailSlugRoute
   ItemsDetailSlugRoute: typeof ItemsDetailSlugRoute
   LocationsDetailSlugRoute: typeof LocationsDetailSlugRoute
@@ -340,6 +403,8 @@ export interface RootRouteChildren {
   PcsDetailSlugRoute: typeof PcsDetailSlugRoute
   QuestsDetailSlugRoute: typeof QuestsDetailSlugRoute
   SessionsDetailSlugRoute: typeof SessionsDetailSlugRoute
+  DmArcsIndexRoute: typeof DmArcsIndexRoute
+  DmScenesIndexRoute: typeof DmScenesIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -377,6 +442,13 @@ declare module '@tanstack/react-router' {
       path: '/beasts'
       fullPath: '/beasts/'
       preLoaderRoute: typeof BeastsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dm/': {
+      id: '/dm/'
+      path: '/dm'
+      fullPath: '/dm/'
+      preLoaderRoute: typeof DmIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/events/': {
@@ -456,6 +528,34 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BeastsDetailSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/dm/arcs/': {
+      id: '/dm/arcs/'
+      path: '/dm/arcs'
+      fullPath: '/dm/arcs/'
+      preLoaderRoute: typeof DmArcsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dm/arcs/$slug': {
+      id: '/dm/arcs/$slug'
+      path: '/dm/arcs/$slug'
+      fullPath: '/dm/arcs/$slug'
+      preLoaderRoute: typeof DmArcsSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dm/scenes/': {
+      id: '/dm/scenes/'
+      path: '/dm/scenes'
+      fullPath: '/dm/scenes/'
+      preLoaderRoute: typeof DmScenesIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dm/scenes/$slug': {
+      id: '/dm/scenes/$slug'
+      path: '/dm/scenes/$slug'
+      fullPath: '/dm/scenes/$slug'
+      preLoaderRoute: typeof DmScenesSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/events/detail/$slug': {
       id: '/events/detail/$slug'
       path: '/events/detail/$slug'
@@ -523,6 +623,7 @@ const rootRouteChildren: RootRouteChildren = {
   LocationsListRoute: LocationsListRoute,
   LocationsMapRoute: LocationsMapRoute,
   BeastsIndexRoute: BeastsIndexRoute,
+  DmIndexRoute: DmIndexRoute,
   EventsIndexRoute: EventsIndexRoute,
   ItemsIndexRoute: ItemsIndexRoute,
   LocationsIndexRoute: LocationsIndexRoute,
@@ -532,6 +633,8 @@ const rootRouteChildren: RootRouteChildren = {
   QuestsIndexRoute: QuestsIndexRoute,
   SessionsIndexRoute: SessionsIndexRoute,
   BeastsDetailSlugRoute: BeastsDetailSlugRoute,
+  DmArcsSlugRoute: DmArcsSlugRoute,
+  DmScenesSlugRoute: DmScenesSlugRoute,
   EventsDetailSlugRoute: EventsDetailSlugRoute,
   ItemsDetailSlugRoute: ItemsDetailSlugRoute,
   LocationsDetailSlugRoute: LocationsDetailSlugRoute,
@@ -540,6 +643,8 @@ const rootRouteChildren: RootRouteChildren = {
   PcsDetailSlugRoute: PcsDetailSlugRoute,
   QuestsDetailSlugRoute: QuestsDetailSlugRoute,
   SessionsDetailSlugRoute: SessionsDetailSlugRoute,
+  DmArcsIndexRoute: DmArcsIndexRoute,
+  DmScenesIndexRoute: DmScenesIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

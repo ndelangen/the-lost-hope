@@ -1,6 +1,6 @@
 import { z } from 'zod'
 
-import { Content } from './content'
+import { Background, Content } from './content'
 import { makeCreate } from './create'
 import { EntityRefSchema } from './kind'
 import { MediaUrl } from './media'
@@ -27,6 +27,7 @@ export const EventSchema = deriveSlug(
     location: EntityRefSchema,
     mark: EventMark,
     image: MediaUrl.optional(),
+    background: Background,
   }),
 )
 

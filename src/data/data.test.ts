@@ -1,9 +1,12 @@
 import { describe, expect, it } from 'vitest'
 
+import arcs from '#/data/arcs/_index.ts'
 import { refs } from '#/data/generated/refs.ts'
 import { ENTITY_KINDS } from '#/definitions/kind.ts'
 import { QUEST_TYPES } from '#/definitions/quest.ts'
 import catalog from '#/icon-catalog/catalog.json'
+import { ARC_ICONS } from '#/lib/arc-icons.tsx'
+import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 import {
   allEntities,
   beasts,
@@ -34,6 +37,18 @@ import { hasPublicAsset } from '#/lib/public-media'
 import { QUEST_ICONS } from '#/lib/quest-icons.tsx'
 import { SESSION_ICONS } from '#/lib/session-icons.tsx'
 
+const REF_NAMESPACE = {
+  beast: 'beasts',
+  pc: 'pcs',
+  npc: 'npcs',
+  location: 'locations',
+  event: 'events',
+  session: 'sessions',
+  quest: 'quests',
+  organization: 'organizations',
+  item: 'items',
+} as const satisfies Record<(typeof ENTITY_KINDS)[number], keyof typeof refs>
+
 const escapeRegExp = (value: string) => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
 
 describe('location import order', () => {
@@ -62,8 +77,6 @@ describe('location import order', () => {
       locations.skynet.slug,
     )
     expect(locationParent(locations.gruumsh_war_temple)?.slug).toBe(locations.skynet.slug)
-    expect(locationParent(locations.night_mothers_church)?.slug).toBe(locations.skynet.slug)
-    expect(locationParent(locations.temple_of_the_watchers)?.slug).toBe(locations.nimbus.slug)
     expect(locationParent(locations.serpent_eclipse_dungeon_entrance)?.slug).toBe(
       locations.temple_of_the_serpent_eclipse.slug,
     )
@@ -145,18 +158,12 @@ describe('location import order', () => {
 })
 
 describe('registry integrity', () => {
-  it('keeps typed ref keys synchronized with registries', () => {
-    expect(Object.keys(beasts).toSorted()).toEqual(Object.keys(refs.beasts).toSorted())
-    expect(Object.keys(events).toSorted()).toEqual(Object.keys(refs.events).toSorted())
-    expect(Object.keys(items).toSorted()).toEqual(Object.keys(refs.items).toSorted())
-    expect(Object.keys(locations).toSorted()).toEqual(Object.keys(refs.locations).toSorted())
-    expect(Object.keys(npcs).toSorted()).toEqual(Object.keys(refs.npcs).toSorted())
-    expect(Object.keys(organizations).toSorted()).toEqual(
-      Object.keys(refs.organizations).toSorted(),
-    )
-    expect(Object.keys(pcs).toSorted()).toEqual(Object.keys(refs.pcs).toSorted())
-    expect(Object.keys(quests).toSorted()).toEqual(Object.keys(refs.quests).toSorted())
-    expect(Object.keys(sessions).toSorted()).toEqual(Object.keys(refs.sessions).toSorted())
+  it('keeps typed ref keys synchronized with the campaign source', () => {
+    for (const kind of ENTITY_KINDS) {
+      expect(Object.keys(SOURCE_REGISTRIES[kind]).toSorted()).toEqual(
+        Object.keys(refs[REF_NAMESPACE[kind]]).toSorted(),
+      )
+    }
   })
 
   it('includes every entity kind in shared collection operations', () => {
@@ -359,6 +366,10 @@ describe('entity icons', () => {
         icons: Object.values(quests).map((quest) => quest.icon),
         registry: QUEST_ICONS,
       },
+      {
+        icons: Object.values(arcs).map((arc) => arc.icon),
+        registry: ARC_ICONS,
+      },
     ]
 
     for (const { icons, registry } of iconGroups) {
@@ -450,12 +461,11 @@ describe('adventuring parties', () => {
 
   it('records the Lucky Palm members and Fix’s other allegiances', () => {
     expect(pcs.fix.memberships?.map(({ organization }) => organization.key).toSorted()).toEqual(
-      [
-        refs.organizations.adventurers_guild.key,
-        refs.organizations.lucky_palm.key,
-        refs.organizations.the_eyeless_hand.key,
-      ].toSorted(),
+      [refs.organizations.adventurers_guild.key, refs.organizations.lucky_palm.key].toSorted(),
     )
+    expect(
+      SOURCE_REGISTRIES.pc.fix.secretMemberships?.map(({ organization }) => organization.key),
+    ).toEqual([refs.organizations.the_eyeless_hand.key])
     expect(
       [npcs.hex, npcs.sneeve].every((npc) =>
         npc.memberships?.some(

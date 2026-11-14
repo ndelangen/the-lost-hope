@@ -1,6 +1,6 @@
 import { z } from 'zod'
 
-import { Content } from './content'
+import { Background, Content } from './content'
 import { makeCreate } from './create'
 import { DEFAULT_AVATAR, MediaUrl } from './media'
 import { Membership } from './organization'
@@ -39,6 +39,11 @@ export const PC = deriveSlug(
       .describe("Languages the character speaks, e.g. ['Common', 'Elvish']"),
     notes: Content.optional().describe('Short narrative flavor — NOT the stat line'),
     memberships: z.array(Membership).optional(),
+    secretMemberships: z
+      .array(Membership)
+      .optional()
+      .describe('DM only: memberships the party has not discovered'),
+    background: Background,
   }),
 )
 

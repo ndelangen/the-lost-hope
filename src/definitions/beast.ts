@@ -1,6 +1,6 @@
 import { z } from 'zod'
 
-import { Content } from './content'
+import { Background, Content } from './content'
 import { makeCreate } from './create'
 import { EntityRefSchema } from './kind'
 import { DEFAULT_AVATAR, MediaUrl } from './media'
@@ -15,6 +15,7 @@ export const Beast = deriveSlug(
     notes: Content.optional().describe(
       'One-line identity/flavor; may mix text and `refs.*` tokens',
     ),
+    background: Background,
   }),
 )
 

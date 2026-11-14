@@ -56,11 +56,6 @@ export default createPC({
       'Jim wants to bring joy, relief, or meaning into the world through music. He is guarded and slow to trust, protective of outcasts and victims, and easily angered by cruelty and abuses of power; when disillusioned, his empathy can turn into bitter mockery, psychological pressure, and retaliation.',
     ],
     [
-      'Secret: Jim knows the true identity of ',
-      refs.npcs.the_father,
-      ' — likely why the Hand wants him back or dead.',
-    ],
-    [
       'He bears an ',
       refs.organizations.the_eyeless_hand,
       ' mark in an undisclosed location (separate from his tongue guild-mark).',
@@ -79,9 +74,16 @@ export default createPC({
     ],
     ['Jim carries party items when no other individual holder is identified.'],
     ['His Sorcerer origin/bloodline has not been disclosed.'],
-    [
-      'DM note: Jim’s human identity remains secret outside Devan, Cassian, and Swift unless the player says otherwise.',
-    ],
     ['Ryan’s first notes described him as a quiet kenku bard.'],
+  ],
+  background: [
+    [
+      'Jim knows the true identity of ',
+      refs.npcs.the_father,
+      ' — likely why the Hand wants him back or dead.',
+    ],
+    [
+      'Jim’s human identity remains secret outside Devan, Cassian, and Swift unless the player says otherwise.',
+    ],
   ],
 })
