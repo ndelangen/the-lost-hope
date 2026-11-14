@@ -3,10 +3,12 @@ import { describe, expect, it } from 'vitest'
 import { refs } from '#/data/generated/refs'
 import { Arc, create as createArc } from '#/definitions/arc'
 import { create as createScene } from '#/definitions/scene'
+import { create as createTable } from '#/definitions/table'
 import { resolveRef, sessionEvents, sessions } from '#/lib/campaign'
 
 import { arcs, scenes, sessionsForArc, validateDmReferences } from './dm-campaign'
 
+const NO_TABLE = createTable({})
 const vipRoom = { ref: 'scene', key: 'game_in_the_vip_room' } as const
 const scene = createScene({
   name: 'Game in the VIP room',
@@ -52,7 +54,9 @@ describe('DM campaign model', () => {
     expect(game.status).toBe('open')
     expect(game.scene).toEqual(vipRoom)
     expect(jim.plots[0]?.events).toEqual([game.events[1]])
-    expect(validateDmReferences({ fiddler, jim }, { game_in_the_vip_room: scene })).toEqual([])
+    expect(
+      validateDmReferences({ fiddler, jim }, { game_in_the_vip_room: scene }, NO_TABLE),
+    ).toEqual([])
     expect(sessionsForArc(fiddler).map(({ data }) => data.number)).toEqual([16, 17])
     expect(sessionsForArc(jim).map(({ data }) => data.number)).toEqual([17])
     expect(sessionEvents(sessions.the_ghost_and_the_gambler).map(({ slug }) => slug)).toEqual(
@@ -70,7 +74,7 @@ describe('DM campaign model', () => {
       Arc.safeParse({ ...input, plots: [{ ...input.plots[0], events: [refs.npcs.the_fiddler] }] })
         .success,
     ).toBe(false)
-    expect(validateDmReferences({ fiddler: createArc(input) }, {})).toEqual([
+    expect(validateDmReferences({ fiddler: createArc(input) }, {}, NO_TABLE)).toEqual([
       'The Fiddler and the party’s possible futures / Another game in the Nimbus casino: unknown scene reference game_in_the_vip_room',
     ])
   })

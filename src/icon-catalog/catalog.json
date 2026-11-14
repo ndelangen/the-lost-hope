@@ -282060,7 +282060,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/layout-dashboard",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/dm-quick-links.tsx"
+      ]
     },
     {
       "id": "lucide/LayoutGrid",
@@ -282544,6 +282546,7 @@
       "usedIn": [
         "src/components/campaign-shell.tsx",
         "src/components/campaign-shell/sidebar.tsx",
+        "src/routes/dm/scenes/$slug.tsx",
         "src/routes/index.tsx"
       ]
     },
@@ -295215,6 +295218,7 @@
       "sourceUrl": "https://lucide.dev/icons/scroll-text",
       "usedIn": [
         "src/components/campaign-shell/sidebar.tsx",
+        "src/components/dm/dm-quick-links.tsx",
         "src/components/home-action-card.test.tsx",
         "src/lib/entity-kind-visuals.ts",
         "src/routes/index.tsx"
@@ -302340,7 +302344,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/swords",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/dm-quick-links.tsx"
+      ]
     },
     {
       "id": "lucide/Syringe",
@@ -306492,6 +306498,7 @@
       "sourceUrl": "https://lucide.dev/icons/users",
       "usedIn": [
         "src/components/campaign-shell/sidebar-data.ts",
+        "src/components/dm/dm-quick-links.tsx",
         "src/lib/entity-kind-visuals.ts",
         "src/routes/index.tsx"
       ]
