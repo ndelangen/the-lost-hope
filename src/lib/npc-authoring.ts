@@ -10,7 +10,12 @@ import { slugFromName } from '#/definitions/slug'
  */
 
 const Token = z.union([
-  z.string(),
+  z
+    .string()
+    .refine(
+      (text) => !text.includes('[[') && !text.includes(']]'),
+      'Write references as [[kind:key]] with a known kind and a lowercase key, e.g. [[npc:the_fiddler]]',
+    ),
   z.strictObject({ ref: z.enum(ENTITY_KINDS), key: z.string().regex(/^[a-z0-9_]+$/) }),
 ])
 
@@ -93,6 +98,20 @@ export const NPC_DRAFT_JSON_SCHEMA = {
 export function npcIdentity(name: string): { slug: string; key: string } {
   const slug = slugFromName(name)
   return { slug, key: slug.replaceAll('-', '_') }
+}
+
+const RESERVED = new Set(
+  'break case catch class const continue debugger default delete do else enum export extends false finally for function if import in instanceof new null return super switch this throw true try typeof var void while with yield let static implements interface package private protected public await'.split(
+    ' ',
+  ),
+)
+
+/** Why a name cannot become a record, or undefined when it can. */
+export function identityProblem(identity: { slug: string; key: string }): string | undefined {
+  if (!identity.slug) return 'Give the NPC a name with letters or numbers in it'
+  if (!/^[a-z_][a-z0-9_]*$/.test(identity.key)) return 'Start the NPC’s name with a letter'
+  if (RESERVED.has(identity.key)) return 'Give the NPC a longer name'
+  return undefined
 }
 
 /** Every campaign reference a draft uses, so the server can check each one resolves. */

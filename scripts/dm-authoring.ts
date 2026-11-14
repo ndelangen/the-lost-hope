@@ -24,15 +24,20 @@ import {
   addNpcToIndex,
   draftPrompt,
   draftReferences,
+  identityProblem,
   npcIdentity,
   npcSourceFile,
 } from '../src/lib/npc-authoring.ts'
 import { GENERATED_REFS_PATH, generateRefs } from './generate-refs.ts'
 
-type PortraitJob =
+type PortraitJob = { description: string } & (
   | { state: 'running'; startedAt: number }
   | { state: 'done' }
   | { state: 'failed'; error: string }
+)
+
+const DRAFT_TIMEOUT_MS = 3 * 60_000
+const PORTRAIT_TIMEOUT_MS = 10 * 60_000
 
 type Registries = Record<string, Readonly<Record<string, { name: string; slug?: string }>>>
 
@@ -56,16 +61,19 @@ export async function runCodex({
   sandbox,
   schema,
   cwd = ROOT,
+  timeoutMs,
 }: {
   prompt: string
   sandbox: 'read-only' | 'workspace-write'
   schema?: object
   cwd?: string
+  timeoutMs: number
 }): Promise<string> {
   const scratch = await mkdtemp(path.join(tmpdir(), 'dm-codex-'))
   try {
     const out = path.join(scratch, 'last-message.txt')
     const args = ['exec', '--sandbox', sandbox, '--output-last-message', out]
+    if (cwd !== ROOT) args.push('--skip-git-repo-check')
     if (schema) {
       const schemaFile = path.join(scratch, 'schema.json')
       await writeFile(schemaFile, JSON.stringify(schema))
@@ -74,6 +82,11 @@ export async function runCodex({
     args.push(prompt)
     await new Promise<void>((resolve, reject) => {
       const child = spawn(CODEX_BIN, args, { cwd, stdio: ['ignore', 'ignore', 'pipe'] })
+      const timer = setTimeout(() => {
+        child.kill('SIGTERM')
+        reject(new Error(`Codex took longer than ${Math.round(timeoutMs / 60_000)} minutes`))
+      }, timeoutMs)
+      child.on('exit', () => clearTimeout(timer))
       let stderr = ''
       child.stderr.on('data', (chunk: Buffer) => {
         stderr = (stderr + chunk.toString()).slice(-4000)
@@ -95,6 +108,37 @@ async function readJson(request: IncomingMessage): Promise<unknown> {
   const chunks: Buffer[] = []
   for await (const chunk of request) chunks.push(chunk as Buffer)
   return JSON.parse(Buffer.concat(chunks).toString('utf8') || '{}')
+}
+
+/**
+ * Only the app's own pages may call these endpoints: they write campaign data and run Codex, so a
+ * page on another site must not be able to trigger them while the dev server is running.
+ */
+function sameOrigin(request: IncomingMessage): boolean {
+  const site = request.headers['sec-fetch-site']
+  if (site !== undefined && site !== 'same-origin') return false
+  const origin = request.headers.origin
+  if (origin !== undefined && new URL(origin).host !== request.headers.host) return false
+  if (request.method === 'POST' && !request.headers['content-type']?.startsWith('application/json'))
+    return false
+  return true
+}
+
+/**
+ * Serialises edits to shared files (the NPC registry, image sources) across concurrent saves and
+ * portrait jobs, and across the plugin instances a Vite restart creates.
+ */
+/** How long the dev server must stay up after a restart before the editor opens a saved NPC. */
+const SETTLE_MS = 3000
+
+/** When the checkout last changed, across dev server restarts. */
+const writes = globalThis as { theLostHopeDmLastWriteAt?: number }
+
+const lock = globalThis as { theLostHopeDmAuthoringLock?: Promise<unknown> }
+function exclusive<T>(task: () => Promise<T>): Promise<T> {
+  const next = (lock.theLostHopeDmAuthoringLock ?? Promise.resolve()).then(task, task)
+  lock.theLostHopeDmAuthoringLock = next.catch(() => undefined)
+  return next
 }
 
 function send(response: ServerResponse, status: number, body: unknown) {
@@ -158,11 +202,10 @@ async function installPortrait(slug: string, png: string) {
 
   const recordPath = path.join(ROOT, 'src/data/npcs', `${slug}.ts`)
   const record = await readFile(recordPath, 'utf8')
-  if (!record.includes('avatar:')) {
-    await writeFile(
-      recordPath,
-      record.replace(/(\n {2}name: .*\n)/, `$1  avatar: '${logicalSource}',\n`),
-    )
+  if (!/^ {2}avatar:/m.test(record)) {
+    const withAvatar = record.replace(/(\n {2}name: .*\n)/, `$1  avatar: '${logicalSource}',\n`)
+    if (withAvatar === record) throw new Error('Could not set the avatar on the NPC record')
+    await writeFile(recordPath, withAvatar)
   }
   await run('bunx', ['oxfmt', sourcesPath, recordPath])
   await run('bun', ['scripts/generate-responsive-images.ts'])
@@ -179,33 +222,59 @@ const portraits: Map<string, PortraitJob> = ((
 /** True once the regenerated refs include the NPC, read from disk so it survives a restart. */
 async function registered(key: string) {
   const generated = await readFile(GENERATED_REFS_PATH, 'utf8')
-  return generated.includes(`ref('npc', '${key}')`)
+  return new RegExp(`ref\\(\\s*'npc',\\s*'${key}',?\\s*\\)`).test(generated)
 }
 
+const REFERENCE_AVATARS = ['sarogarth.png', 'bob-the-merchant.png']
+
 export function dmAuthoringPlugin(): Plugin {
+  /**
+   * Paints a portrait in the background. Codex works in a scratch folder holding only copies of
+   * the reference avatars, so the write-enabled run cannot touch the checkout; the app installs
+   * the result.
+   */
   function startPortrait(npc: { key: string; slug: string; name: string }, description: string) {
+    if (portraits.get(npc.key)?.state === 'running') return
+    portraits.set(npc.key, { state: 'running', startedAt: Date.now(), description })
+    paintPortrait(npc, description)
+  }
+
+  /** The painting itself, for a job already marked running. */
+  function paintPortrait(npc: { key: string; slug: string; name: string }, description: string) {
     const { key, slug } = npc
-    if (portraits.get(key)?.state === 'running') return
-    portraits.set(key, { state: 'running', startedAt: Date.now() })
-    const out = path.join(ROOT, 'output/imagegen/npcs', `${slug}.png`)
     void (async () => {
+      const scratch = await mkdtemp(path.join(tmpdir(), 'dm-portrait-'))
       try {
-        await mkdir(path.dirname(out), { recursive: true })
-        await rm(out, { force: true })
+        await Promise.all(
+          REFERENCE_AVATARS.map((avatar) =>
+            copyFile(
+              path.join(ROOT, 'assets/images/content/npcs', avatar),
+              path.join(scratch, avatar),
+            ),
+          ),
+        )
         await runCodex({
+          cwd: scratch,
           sandbox: 'workspace-write',
+          timeoutMs: PORTRAIT_TIMEOUT_MS,
           prompt: [
-            `Generate a square portrait for ${npc.name}, an NPC in The Lost Hope campaign, with your built-in image generation tool.`,
+            `Generate a square portrait for ${npc.name}, an NPC in a fantasy campaign, with your built-in image generation tool.`,
             `Look: ${description}`,
-            'Match the painted style of the existing campaign avatars in assets/images/content/npcs/ (for example sarogarth.png and bob-the-merchant.png): head and shoulders, face clearly visible, works as a circular thumbnail.',
-            `Save exactly one square PNG to ${path.relative(ROOT, out)}. Do not modify any other file.`,
+            `Match the painted style of ${REFERENCE_AVATARS.join(' and ')} in this folder: head and shoulders, face clearly visible, works as a circular thumbnail.`,
+            'Save exactly one square PNG named portrait.png in this folder.',
           ].join('\n'),
         })
+        const out = path.join(scratch, 'portrait.png')
         if (!existsSync(out)) throw new Error('Codex finished without saving the portrait')
-        await installPortrait(slug, out)
-        portraits.set(key, { state: 'done' })
+        const kept = path.join(ROOT, 'output/imagegen/npcs', `${slug}.png`)
+        await mkdir(path.dirname(kept), { recursive: true })
+        await copyFile(out, kept)
+        await exclusive(() => installPortrait(slug, kept))
+        portraits.set(key, { state: 'done', description })
       } catch (error) {
-        portraits.set(key, { state: 'failed', error: (error as Error).message })
+        portraits.set(key, { state: 'failed', error: (error as Error).message, description })
+      } finally {
+        await rm(scratch, { recursive: true, force: true })
       }
     })()
   }
@@ -214,12 +283,18 @@ export function dmAuthoringPlugin(): Plugin {
     name: 'dm-authoring',
     apply: 'serve',
     configureServer(server) {
+      // Saving restarts the dev server a few times as files change. The editor only opens the new
+      // NPC once this instance has run undisturbed for a moment, so the page does not load midway
+      // through a restart and come up without its scripts.
+      const startedAt = Date.now()
       server.middlewares.use((request, response, next) => {
         void handle(request, response, next)
       })
       async function handle(request: IncomingMessage, response: ServerResponse, next: () => void) {
         const url = new URL(request.url ?? '/', 'http://localhost')
         if (!url.pathname.startsWith('/__dm/npc/')) return next()
+        if (!sameOrigin(request))
+          return send(response, 403, { error: 'Not allowed from this page' })
         try {
           if (url.pathname === '/__dm/npc/context' && request.method === 'GET') {
             const locations = (await registries(server)).location ?? {}
@@ -242,6 +317,7 @@ export function dmAuthoringPlugin(): Plugin {
                 : undefined
             const message = await runCodex({
               sandbox: 'read-only',
+              timeoutMs: DRAFT_TIMEOUT_MS,
               schema: NPC_DRAFT_JSON_SCHEMA,
               prompt: draftPrompt({
                 request: body.request,
@@ -265,6 +341,9 @@ export function dmAuthoringPlugin(): Plugin {
               })
             }
             const draft = parsed.data
+            const identity = npcIdentity(draft.name)
+            const problem = identityProblem(identity)
+            if (problem) return send(response, 422, { error: problem })
             const all = await registries(server)
             const missing = draftReferences(draft).filter(
               ({ ref, key }) => !Object.hasOwn(all[ref] ?? {}, key),
@@ -273,11 +352,6 @@ export function dmAuthoringPlugin(): Plugin {
               return send(response, 422, {
                 error: `Unknown references: ${missing.map(({ ref, key }) => `${ref} ${key}`).join(', ')}`,
               })
-            }
-            const identity = npcIdentity(draft.name)
-            const file = path.join(ROOT, 'src/data/npcs', `${identity.slug}.ts`)
-            if (existsSync(file) || Object.hasOwn(all.npc ?? {}, identity.key)) {
-              return send(response, 409, { error: `An NPC called ${draft.name} already exists` })
             }
 
             // Check the record against the real schema before touching the checkout.
@@ -294,33 +368,56 @@ export function dmAuthoringPlugin(): Plugin {
             })
             if (!record.success) return send(response, 422, { error: record.error.message })
 
+            const file = path.join(ROOT, 'src/data/npcs', `${identity.slug}.ts`)
             const indexPath = path.join(ROOT, 'src/data/npcs/_index.ts')
-            const index = await readFile(indexPath, 'utf8')
-            await writeFile(file, npcSourceFile(draft))
-            try {
-              await writeFile(indexPath, addNpcToIndex(index, identity))
-              await run('bunx', ['oxfmt', file, indexPath])
-              await generateRefs()
-            } catch (error) {
-              await writeFile(indexPath, index)
-              await rm(file, { force: true })
-              throw error
+            const outcome = await exclusive(async () => {
+              const index = await readFile(indexPath, 'utf8')
+              if (existsSync(file) || index.includes(`import ${identity.key} from`)) return 'exists'
+              // Mark the portrait as running before the NPC registers, so the page the editor
+              // opens once it is registered never sees an idle job.
+              portraits.set(identity.key, {
+                state: 'running',
+                startedAt: Date.now(),
+                description: draft.portrait,
+              })
+              await writeFile(file, npcSourceFile(draft))
+              try {
+                await writeFile(indexPath, addNpcToIndex(index, identity))
+                await run('bunx', ['oxfmt', file, indexPath])
+                await generateRefs()
+              } catch (error) {
+                portraits.delete(identity.key)
+                await writeFile(indexPath, index)
+                await rm(file, { force: true })
+                await generateRefs()
+                throw error
+              }
+              return (await registered(identity.key)) ? 'saved' : 'unregistered'
+            })
+            writes.theLostHopeDmLastWriteAt = Date.now()
+            if (outcome !== 'saved') portraits.delete(identity.key)
+            if (outcome === 'exists') {
+              return send(response, 409, { error: `An NPC called ${draft.name} already exists` })
             }
-            if (!(await registered(identity.key))) {
+            if (outcome === 'unregistered') {
               return send(response, 500, { error: 'The NPC was written but did not register' })
             }
-            startPortrait({ ...identity, name: draft.name }, draft.portrait)
+            paintPortrait({ ...identity, name: draft.name }, draft.portrait)
             return send(response, 200, identity)
           }
 
           if (url.pathname === '/__dm/npc/saved' && request.method === 'GET') {
             const { key } = npcIdentity(url.searchParams.get('name') ?? '')
-            return send(response, 200, { key: key && (await registered(key)) ? key : undefined })
+            const settled =
+              Date.now() - Math.max(startedAt, writes.theLostHopeDmLastWriteAt ?? 0) > SETTLE_MS
+            return send(response, 200, {
+              key: settled && key && (await registered(key)) ? key : undefined,
+            })
           }
 
           if (url.pathname === '/__dm/npc/portrait' && request.method === 'GET') {
             const key = url.searchParams.get('key') ?? ''
-            return send(response, 200, portraits.get(key) ?? { state: 'idle' })
+            return send(response, 200, portraits.get(key) ?? { state: 'idle', description: '' })
           }
 
           if (url.pathname === '/__dm/npc/portrait' && request.method === 'POST') {

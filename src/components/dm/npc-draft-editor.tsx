@@ -124,8 +124,9 @@ export function NpcDraftEditor({ partyLocation }: { partyLocation?: string }) {
   }, [])
 
   useEffect(() => {
-    if (request || form) store({ request, location, form })
-  }, [request, location, form])
+    // While saving, storage holds the pending save, which a reload needs to finish it.
+    if (busy !== 'saving' && (request || form)) store({ request, location, form })
+  }, [request, location, form, busy])
 
   const draft = async () => {
     setBusy('drafting')
@@ -170,7 +171,7 @@ export function NpcDraftEditor({ partyLocation }: { partyLocation?: string }) {
   async function finishSave(name: string) {
     setBusy('saving')
     /* oxlint-disable no-await-in-loop -- polling waits for the dev server between attempts */
-    for (let attempt = 0; attempt < 20; attempt++) {
+    for (let attempt = 0; attempt < 90; attempt++) {
       try {
         const response = await fetch(`/__dm/npc/saved?name=${encodeURIComponent(name)}`)
         const { key } = (await response.json()) as { key?: string }
@@ -247,7 +248,10 @@ export function NpcDraftEditor({ partyLocation }: { partyLocation?: string }) {
       ) : null}
 
       {form ? (
-        <section className="border-border bg-card grid gap-3 rounded-xl border p-4">
+        <fieldset
+          disabled={busy !== undefined}
+          className="border-border bg-card grid gap-3 rounded-xl border p-4"
+        >
           <h2 className="text-xl font-bold">Draft</h2>
           <div className="grid gap-3 sm:grid-cols-2">
             <Field label="Name">
@@ -344,7 +348,7 @@ export function NpcDraftEditor({ partyLocation }: { partyLocation?: string }) {
             )}
             Save NPC
           </button>
-        </section>
+        </fieldset>
       ) : null}
     </div>
   )

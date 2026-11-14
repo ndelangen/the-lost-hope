@@ -1,11 +1,12 @@
 import { ImageIcon, LoaderCircle, RotateCcw } from 'lucide-react'
 import { useEffect, useState } from 'react'
 
-type Job =
+type Job = { description: string } & (
   | { state: 'idle' }
   | { state: 'running'; startedAt: number }
   | { state: 'done' }
   | { state: 'failed'; error: string }
+)
 
 const buttonClass =
   'border-border hover:bg-muted inline-flex min-h-12 items-center gap-2 rounded-lg border px-4 text-base font-semibold disabled:opacity-50'
@@ -15,7 +16,7 @@ const buttonClass =
  * current portrait while this runs, and the DM can retry a failed or unwanted portrait.
  */
 export function NpcPortraitStatus({ npcKey }: { npcKey: string }) {
-  const [job, setJob] = useState<Job>({ state: 'idle' })
+  const [job, setJob] = useState<Job>({ state: 'idle', description: '' })
   const [description, setDescription] = useState('')
   const [error, setError] = useState<string>()
 
@@ -24,13 +25,18 @@ export function NpcPortraitStatus({ npcKey }: { npcKey: string }) {
     let timer: ReturnType<typeof setTimeout> | undefined
     const poll = async () => {
       try {
-        const response = await fetch(`/__dm/npc/portrait?key=${encodeURIComponent(npcKey)}`)
+        // A dev server restart can leave a request hanging, so give up and poll again.
+        const response = await fetch(`/__dm/npc/portrait?key=${encodeURIComponent(npcKey)}`, {
+          signal: AbortSignal.timeout(10_000),
+        })
         const next = (await response.json()) as Job
         if (stopped) return
         setJob(next)
+        setDescription((current) => current || next.description)
         if (next.state === 'running') timer = setTimeout(poll, 3000)
       } catch {
-        // The dev server restarted or is reloading; the next render polls again.
+        // Saving restarts the dev server; try again shortly.
+        if (!stopped) timer = setTimeout(poll, 2000)
       }
     }
     void poll()
@@ -42,14 +48,18 @@ export function NpcPortraitStatus({ npcKey }: { npcKey: string }) {
 
   const retry = async () => {
     setError(undefined)
-    const response = await fetch('/__dm/npc/portrait', {
-      method: 'POST',
-      headers: { 'content-type': 'application/json' },
-      body: JSON.stringify({ key: npcKey, description }),
-    })
-    const body = (await response.json()) as Job & { error?: string }
-    if (!response.ok) setError(body.error ?? 'Could not start the portrait')
-    else setJob(body)
+    try {
+      const response = await fetch('/__dm/npc/portrait', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ key: npcKey, description }),
+      })
+      const body = (await response.json()) as Job & { error?: string }
+      if (!response.ok) setError(body.error ?? 'Could not start the portrait')
+      else setJob(body)
+    } catch {
+      setError('The local dev server did not answer. Try again in a moment.')
+    }
   }
 
   return (

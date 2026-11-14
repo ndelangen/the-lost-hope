@@ -5,6 +5,7 @@ import {
   NpcDraft,
   addNpcToIndex,
   draftReferences,
+  identityProblem,
   npcIdentity,
   npcSourceFile,
   paragraphsToText,
@@ -68,5 +69,19 @@ describe('NPC authoring', () => {
     expect(NPC_DRAFT_JSON_SCHEMA.required.toSorted()).toEqual(
       Object.keys(NpcDraft.shape).toSorted(),
     )
+  })
+})
+
+describe('NPC names and references', () => {
+  it('rejects names that cannot become a record key', () => {
+    expect(identityProblem(npcIdentity('???'))).toBeDefined()
+    expect(identityProblem(npcIdentity('13th Marshal'))).toBeDefined()
+    expect(identityProblem(npcIdentity('New'))).toBeDefined()
+    expect(identityProblem(npcIdentity('Mira Quickfingers'))).toBeUndefined()
+  })
+
+  it('rejects reference markers that did not become references', () => {
+    const notes = textToParagraphs('Owes [[npc:The-Fiddler]] a favour.')
+    expect(NpcDraft.shape.notes.safeParse(notes).success).toBe(false)
   })
 })
