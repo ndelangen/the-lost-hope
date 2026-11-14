@@ -56,7 +56,9 @@ export default createNPC({
         timing: 'trait',
         icon: 'gi/GiShadowFollower',
         text: [
-          'Moves through creatures and objects as if they were difficult terrain; takes 1d10 force damage if it ends its turn inside an object.',
+          'Moves through creatures and objects as if they were difficult terrain; takes 1d10 ',
+          refs.rules.force,
+          ' damage if it ends its turn inside an object.',
         ],
       },
       {

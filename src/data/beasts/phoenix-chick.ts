@@ -44,7 +44,9 @@ export default createBeast({
         timing: 'trait',
         icon: 'gi/GiFlame',
         text: [
-          'A creature that touches it or hits it with a melee attack while within 5 ft. takes 1d6 fire damage.',
+          'A creature that touches it or hits it with a melee attack while within 5 ft. takes 1d6 ',
+          refs.rules.fire,
+          ' damage.',
         ],
       },
       {
@@ -83,11 +85,17 @@ export default createBeast({
         icon: 'gi/GiFireRing',
         intent: 'damage',
         text: [
-          'Each creature within 10 ft.: Dexterity saving throw, ',
+          'Each creature within 10 ft.: Dexterity ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'con',
           },
-          '. Failure: 3d6 fire damage. Success: half damage.',
+          '. Failure: 3d6 ',
+          refs.rules.fire,
+          ' damage. Success: ',
+          refs.rules.half_damage,
+          '.',
         ],
         uses: 1,
         recharge: 'Recharge 5–6',

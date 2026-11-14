@@ -52,7 +52,11 @@ export default createNPC({
         icon: 'lucide/HeartPulse',
         intent: 'healing',
         text: [
-          'Regains 15 HP at the start of each of his turns unless he took acid or fire damage since his last turn. He dies only if he starts his turn at 0 HP and does not regenerate.',
+          'Regains 15 HP at the start of each of his turns unless he took ',
+          refs.rules.acid,
+          ' or ',
+          refs.rules.fire,
+          ' damage since his last turn. He dies only if he starts his turn at 0 HP and does not regenerate.',
         ],
       },
       {

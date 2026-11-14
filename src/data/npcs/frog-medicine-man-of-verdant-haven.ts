@@ -72,7 +72,9 @@ export default createNPC({
         timing: 'action',
         icon: 'gi/GiSmokeBomb',
         text: [
-          'A 10-ft.-radius cloud within 60 ft. lasts until the start of his next turn. Each creature in it: Constitution saving throw, ',
+          'A 10-ft.-radius cloud within 60 ft. lasts until the start of his next turn. Each creature in it: Constitution ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'wis',
           },

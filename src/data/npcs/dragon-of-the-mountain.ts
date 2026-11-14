@@ -57,7 +57,7 @@ export default createNPC({
         name: 'Legendary Resistance',
         timing: 'trait',
         icon: 'lucide/Shield',
-        text: ['If it fails a saving throw, it can choose to succeed instead.'],
+        text: ['If it fails a ', refs.rules.saving_throw, ', it can choose to succeed instead.'],
         uses: 3,
         recharge: 'Long rest',
       },
@@ -163,7 +163,9 @@ export default createNPC({
           name: 'Wing Buffet',
           icon: 'gi/GiBatWing',
           text: [
-            'Each creature within 10 ft.: Strength saving throw, ',
+            'Each creature within 10 ft.: Strength ',
+            refs.rules.saving_throw,
+            ', ',
             {
               dc: 'str',
             },

@@ -108,11 +108,15 @@ export default createNPC({
         icon: 'gi/GiCosmicEgg',
         intent: 'damage',
         text: [
-          'A 20-ft.-radius sphere within 150 ft. Each creature in it: Dexterity saving throw, ',
+          'A 20-ft.-radius sphere within 150 ft. Each creature in it: Dexterity ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'int',
           },
-          '. Failure: 8d6 damage of a random type. Success: half damage.',
+          '. Failure: 8d6 damage of a random type. Success: ',
+          refs.rules.half_damage,
+          '.',
         ],
         uses: 2,
         recharge: 'Long rest',

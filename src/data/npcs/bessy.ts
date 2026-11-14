@@ -77,7 +77,9 @@ export default createNPC({
         timing: 'bonus action',
         icon: 'gi/GiBull',
         text: [
-          'After moving at least 10 ft. straight toward a creature, she shoves it. Strength saving throw, ',
+          'After moving at least 10 ft. straight toward a creature, she shoves it. Strength ',
+          refs.rules.saving_throw,
+          ', ',
           { dc: 'str' },
           '. Failure: pushed 10 ft. and ',
           refs.rules.prone,

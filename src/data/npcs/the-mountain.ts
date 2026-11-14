@@ -93,11 +93,15 @@ export default createNPC({
         text: [
           'One creature he has ',
           refs.rules.grappled,
-          ': Strength saving throw, ',
+          ': Strength ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'str',
           },
-          '. Failure: 2d8 + 5 bludgeoning damage and ',
+          '. Failure: 2d8 + 5 ',
+          refs.rules.bludgeoning,
+          ' damage and ',
           refs.rules.prone,
           '.',
         ],

@@ -111,7 +111,9 @@ export default createNPC({
         timing: 'action',
         icon: 'gi/GiSpiderWeb',
         text: [
-          'One Large or smaller creature within 15 ft.: Dexterity saving throw, ',
+          'One Large or smaller creature within 15 ft.: Dexterity ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'dex',
           },

@@ -64,7 +64,9 @@ export default createNPC({
         timing: 'action',
         icon: 'gi/GiCardRandom',
         text: [
-          'One creature within 30 ft.: Wisdom saving throw, ',
+          'One creature within 30 ft.: Wisdom ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'wis',
           },

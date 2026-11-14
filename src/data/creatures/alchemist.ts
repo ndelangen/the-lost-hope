@@ -83,7 +83,9 @@ export default createCreature({
         timing: 'action',
         icon: 'gi/GiSmokeBomb',
         text: [
-          'A 10-ft.-radius cloud within 60 ft. Constitution saving throw, ',
+          'A 10-ft.-radius cloud within 60 ft. Constitution ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'int',
           },

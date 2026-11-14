@@ -68,7 +68,9 @@ export default createBeast({
         timing: 'action',
         icon: 'gi/GiTreeBranch',
         text: [
-          'One creature within 10 ft.: Strength saving throw, ',
+          'One creature within 10 ft.: Strength ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'str',
           },

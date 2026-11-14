@@ -49,7 +49,7 @@ export default createNPC({
         name: 'Legendary Resistance',
         timing: 'trait',
         icon: 'lucide/Shield',
-        text: ['If he fails a saving throw, he can choose to succeed instead.'],
+        text: ['If he fails a ', refs.rules.saving_throw, ', he can choose to succeed instead.'],
         uses: 1,
         recharge: 'Long rest',
       },
@@ -95,7 +95,9 @@ export default createNPC({
         timing: 'action',
         icon: 'gi/GiSkullCrossedBones',
         text: [
-          'Each creature of his choice within 30 ft.: Wisdom saving throw, ',
+          'Each creature of his choice within 30 ft.: Wisdom ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'cha',
           },

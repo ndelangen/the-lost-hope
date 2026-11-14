@@ -68,7 +68,9 @@ export default createBeast({
         timing: 'action',
         icon: 'gi/GiSpiderWeb',
         text: [
-          'Dexterity saving throw, ',
+          'Dexterity ',
+          refs.rules.saving_throw,
+          ', ',
           { dc: 'dex' },
           ', one creature it can see within 60 ft. Failure: the target has the ',
           refs.rules.restrained,

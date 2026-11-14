@@ -45,7 +45,11 @@ export default createNPC({
         name: 'Unending Breath',
         timing: 'trait',
         icon: 'gi/GiTornado',
-        text: ['Can hold his breath indefinitely and is resistant to lightning damage.'],
+        text: [
+          'Can hold his breath indefinitely and is resistant to ',
+          refs.rules.lightning,
+          ' damage.',
+        ],
       },
       {
         key: 'multiattack',
@@ -85,7 +89,9 @@ export default createNPC({
         timing: 'action',
         icon: 'gi/GiWindHole',
         text: [
-          'One creature within 30 ft.: Strength saving throw, ',
+          'One creature within 30 ft.: Strength ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'cha',
           },
@@ -100,7 +106,9 @@ export default createNPC({
         timing: 'bonus action',
         icon: 'gi/GiMoneyStack',
         text: [
-          'Offers a deal to one creature within 30 ft. that can hear him: Wisdom saving throw, ',
+          'Offers a deal to one creature within 30 ft. that can hear him: Wisdom ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'cha',
           },

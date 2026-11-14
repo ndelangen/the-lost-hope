@@ -92,7 +92,9 @@ export default createBeast({
         timing: 'reaction',
         icon: 'gi/GiSunbeams',
         text: [
-          'When a creature within 60 ft. hits Devan, it makes a Wisdom saving throw, ',
+          'When a creature within 60 ft. hits Devan, it makes a Wisdom ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'cha',
           },

@@ -67,7 +67,9 @@ export default createNPC({
         timing: 'action',
         icon: 'gi/GiSonicShout',
         text: [
-          'One creature within 30 ft. that hears her: Wisdom saving throw, ',
+          'One creature within 30 ft. that hears her: Wisdom ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'wis',
           },

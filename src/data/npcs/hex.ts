@@ -82,7 +82,9 @@ export default createNPC({
         timing: 'bonus action',
         icon: 'gi/GiCharm',
         text: [
-          'Curses one creature within 90 ft. for 1 minute. Her attacks deal it an extra 1d6 necrotic damage, and it has disadvantage on checks with one ability of her choice.',
+          'Curses one creature within 90 ft. for 1 minute. Her attacks deal it an extra 1d6 ',
+          refs.rules.necrotic,
+          ' damage, and it has disadvantage on checks with one ability of her choice.',
         ],
       },
       {

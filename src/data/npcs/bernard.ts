@@ -55,7 +55,9 @@ export default createNPC({
           ],
         },
         text: [
-          'If Bernard moved at least 20 ft. straight toward the target first, it takes an extra 1d4 bludgeoning damage.',
+          'If Bernard moved at least 20 ft. straight toward the target first, it takes an extra 1d4 ',
+          refs.rules.bludgeoning,
+          ' damage.',
         ],
       },
     ],

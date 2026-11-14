@@ -84,7 +84,9 @@ export default createNPC({
         timing: 'action',
         icon: 'gi/GiCharm',
         text: [
-          'One creature within 30 ft. that can hear her: Wisdom saving throw, ',
+          'One creature within 30 ft. that can hear her: Wisdom ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'cha',
           },

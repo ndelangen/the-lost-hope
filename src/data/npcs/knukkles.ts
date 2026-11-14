@@ -87,7 +87,9 @@ export default createNPC({
         text: [
           'Each creature Knukkles has ',
           refs.rules.grappled,
-          ' takes 2d6 + 4 bludgeoning damage.',
+          ' takes 2d6 + 4 ',
+          refs.rules.bludgeoning,
+          ' damage.',
         ],
       },
     ],
