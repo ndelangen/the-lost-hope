@@ -227,10 +227,21 @@ export const StatBlock = z
         actions: z.array(Ability).min(1),
       })
       .optional(),
+    lairActions: z
+      .array(Ability)
+      .min(1)
+      .optional()
+      .describe(
+        'In its lair, one of these on initiative 20 each round; not the same one twice in a row',
+      ),
     source: Source,
   })
   .superRefine((block, context) => {
-    const all = [...block.abilities, ...(block.legendary?.actions ?? [])]
+    const all = [
+      ...block.abilities,
+      ...(block.legendary?.actions ?? []),
+      ...(block.lairActions ?? []),
+    ]
     const keys = new Set<string>()
     for (const ability of all) {
       if (keys.has(ability.key))

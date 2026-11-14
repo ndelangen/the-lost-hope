@@ -1,4 +1,4 @@
-import { Brain, Check, HeartCrack, HeartPulse, Plus, Skull, X } from 'lucide-react'
+import { Brain, Castle, Check, HeartCrack, HeartPulse, Plus, Skull, X } from 'lucide-react'
 import { useState } from 'react'
 
 import type { Condition } from '#/definitions/rules-glossary'
@@ -18,6 +18,8 @@ export type CombatState = {
   dead?: boolean
   /** A creature with tracked HP at 0. */
   down: boolean
+  /** Current HP, when known. */
+  hp?: number
 }
 
 export type CombatStatusActions = {
@@ -39,6 +41,7 @@ export function CombatStatus({
   activeId,
   nameOf,
   actions,
+  lair,
 }: {
   name: string
   isPc: boolean
@@ -47,6 +50,8 @@ export function CombatStatus({
   activeId: string | undefined
   nameOf: (id: string) => string
   actions: CombatStatusActions
+  /** For creatures with lair actions: whether this fight is in its lair. */
+  lair?: { inLair: boolean; onChange: (inLair: boolean) => void }
 }) {
   const focus = useDensity() === 'focus'
   const [picking, setPicking] = useState(false)
@@ -63,6 +68,15 @@ export function CombatStatus({
           nameOf={nameOf}
           onRemove={actions.removeCondition}
         />
+        {lair ? (
+          <ActionButton
+            aria-pressed={lair.inLair}
+            onClick={() => lair.onChange(!lair.inLair)}
+            className={cn(lair.inLair && 'border-amber-500/60 bg-amber-500/10')}
+          >
+            <Castle aria-hidden /> {lair.inLair ? 'In its lair' : 'Not in its lair'}
+          </ActionButton>
+        ) : null}
         <ActionButton
           aria-expanded={picking}
           onClick={() => setPicking((value) => !value)}
@@ -165,6 +179,9 @@ function ZeroHp({
         <ActionButton onClick={actions.backUp}>Back up</ActionButton>
       </Banner>
     )
+
+  // A PC with HP above 0 isn't dying; the button appears at 0 HP or when HP isn't tracked.
+  if (!state.dying && state.hp !== undefined && state.hp > 0) return null
 
   if (!state.dying)
     return (
