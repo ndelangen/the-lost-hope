@@ -287597,7 +287597,8 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/moon",
       "usedIn": [
-        "src/components/campaign-shell/theme-toggle.tsx"
+        "src/components/campaign-shell/theme-toggle.tsx",
+        "src/components/dm/dm-effects-panel.tsx"
       ]
     },
     {
@@ -294012,7 +294013,8 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/rotate-ccw",
       "usedIn": [
-        "src/components/correction-form.tsx"
+        "src/components/correction-form.tsx",
+        "src/components/dm/dm-effects-panel.tsx"
       ]
     },
     {
@@ -302196,7 +302198,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/sunrise",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/dm-effects-panel.tsx"
+      ]
     },
     {
       "id": "lucide/Sunset",
@@ -308546,6 +308550,7 @@
       "sourceUrl": "https://lucide.dev/icons/x",
       "usedIn": [
         "src/components/campaign-shell.tsx",
+        "src/components/dm/dm-effects-panel.tsx",
         "src/components/image-viewer.tsx"
       ]
     },
