@@ -60,7 +60,6 @@ export default createArc({
         ],
       ],
       npcs: [refs.npcs.the_fiddler],
-      scene: refs.scenes.the_fiddler_s_next_game,
     },
     {
       name: 'What Devan lost',

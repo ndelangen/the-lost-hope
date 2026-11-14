@@ -53,6 +53,18 @@ export default createArc({
         ],
       ],
       npcs: [refs.npcs.the_father],
+      scene: refs.scenes.the_hand_comes_for_jim,
+    },
+    {
+      name: 'Who still remembers Jim',
+      hook: [
+        [
+          'The green beam struck thousands across the sky islands. Who still cares about ',
+          refs.pcs.jim,
+          ', and what happened to him?',
+        ],
+      ],
+      scene: refs.scenes.the_green_beam_over_the_sky_islands,
     },
   ],
 })

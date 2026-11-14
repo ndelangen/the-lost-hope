@@ -39,5 +39,19 @@ export default createArc({
       ],
       npcs: [refs.npcs.esia, refs.npcs.charles_tempest],
     },
+    {
+      name: 'The Tempests go to war',
+      hook: [
+        [
+          'Talks with ',
+          refs.npcs.the_father,
+          ' have failed. Will the party stand with ',
+          refs.npcs.onana_tempest,
+          '?',
+        ],
+      ],
+      npcs: [refs.npcs.onana_tempest, refs.npcs.the_father],
+      scene: refs.scenes.onana_calls_the_party_to_war,
+    },
   ],
 })

@@ -20,7 +20,6 @@ export default createArc({
     {
       name: 'Reaching the fortress',
       hook: [['', refs.pcs.jim, ' cannot cross by ferry while he looks like a ghost.']],
-      scene: refs.scenes.stealing_a_ship_from_the_harbour,
     },
   ],
 })

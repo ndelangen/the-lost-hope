@@ -47,7 +47,6 @@ export default createArc({
           ' first?',
         ],
       ],
-      scene: refs.scenes.wolfie_wants_solid_ground,
       events: [refs.events.n2_e204],
     },
   ],

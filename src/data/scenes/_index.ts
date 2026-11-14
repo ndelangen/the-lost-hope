@@ -1,9 +1,9 @@
-import stealing_a_ship_from_the_harbour from './stealing-a-ship-from-the-harbour.ts'
-import the_fiddler_s_next_game from './the-fiddler-s-next-game.ts'
-import wolfie_wants_solid_ground from './wolfie-wants-solid-ground.ts'
+import onana_calls_the_party_to_war from './onana-calls-the-party-to-war.ts'
+import the_green_beam_over_the_sky_islands from './the-green-beam-over-the-sky-islands.ts'
+import the_hand_comes_for_jim from './the-hand-comes-for-jim.ts'
 
 export default {
-  stealing_a_ship_from_the_harbour,
-  the_fiddler_s_next_game,
-  wolfie_wants_solid_ground,
+  the_hand_comes_for_jim,
+  the_green_beam_over_the_sky_islands,
+  onana_calls_the_party_to_war,
 }
