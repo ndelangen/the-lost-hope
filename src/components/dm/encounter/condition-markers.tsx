@@ -217,3 +217,23 @@ export function EffectMarkers({
     </span>
   )
 }
+
+/** At 0 HP, the campaign effects that ask to be checked before this combatant dies. */
+export function WouldDie({ effects }: { effects: readonly Pick<Effect, 'name' | 'triggers'>[] }) {
+  const reminders = effects.flatMap((effect) =>
+    (effect.triggers ?? [])
+      .filter((trigger) => trigger.on === 'wouldDie')
+      .map((trigger) => ({ name: effect.name, reminder: trigger.reminder })),
+  )
+  if (reminders.length === 0) return null
+  return (
+    <div className="grid gap-1 rounded-lg border-2 border-red-500/60 bg-red-500/10 px-3 py-2">
+      {reminders.map(({ name, reminder }) => (
+        <div key={name}>
+          <p className="text-sm font-semibold">Would die: {name}</p>
+          <EffectText text={reminder} />
+        </div>
+      ))}
+    </div>
+  )
+}

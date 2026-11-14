@@ -4,6 +4,7 @@ import { Background } from './content'
 import { makeCreate } from './create'
 import { ENTITY_KINDS, entityRefOf } from './kind'
 import { deriveSlug } from './slug'
+import { DAMAGE_TYPES } from './stat-block'
 
 /** DM-fired moments an effect can ask to be reminded about (see issue #171). */
 export const EFFECT_TRIGGERS = {
@@ -14,24 +15,6 @@ export const EFFECT_TRIGGERS = {
 } as const
 
 export type EffectTrigger = keyof typeof EFFECT_TRIGGERS
-
-export const DAMAGE_TYPES = [
-  'acid',
-  'bludgeoning',
-  'cold',
-  'fire',
-  'force',
-  'lightning',
-  'necrotic',
-  'piercing',
-  'poison',
-  'psychic',
-  'radiant',
-  'slashing',
-  'thunder',
-] as const
-
-export type DamageType = (typeof DAMAGE_TYPES)[number]
 
 const Dice = z.string().regex(/^\d+d(4|6|8|10|12|20)$/, 'Use dice like `2d6`')
 
