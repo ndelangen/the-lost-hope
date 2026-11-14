@@ -15,6 +15,7 @@ import { Route as IntroRouteImport } from './routes/intro'
 import { Route as QuestionsRouteImport } from './routes/questions'
 import { Route as BeastsIndexRouteImport } from './routes/beasts/index'
 import { Route as DmIndexRouteImport } from './routes/dm/index'
+import { Route as DmStorylinesRouteImport } from './routes/dm/storylines'
 import { Route as EventsIndexRouteImport } from './routes/events/index'
 import { Route as ItemsIndexRouteImport } from './routes/items/index'
 import { Route as LocationsIndexRouteImport } from './routes/locations/index'
@@ -67,6 +68,11 @@ const BeastsIndexRoute = BeastsIndexRouteImport.update({
 const DmIndexRoute = DmIndexRouteImport.update({
   id: '/dm/',
   path: '/dm/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DmStorylinesRoute = DmStorylinesRouteImport.update({
+  id: '/dm/storylines',
+  path: '/dm/storylines',
   getParentRoute: () => rootRouteImport,
 } as any)
 const EventsIndexRoute = EventsIndexRouteImport.update({
@@ -190,6 +196,7 @@ export interface FileRoutesByFullPath {
   '/_icons': typeof IconsRoute
   '/intro': typeof IntroRoute
   '/questions': typeof QuestionsRoute
+  '/dm/storylines': typeof DmStorylinesRoute
   '/locations/list': typeof LocationsListRoute
   '/locations/map': typeof LocationsMapRoute
   '/beasts/': typeof BeastsIndexRoute
@@ -221,6 +228,7 @@ export interface FileRoutesByTo {
   '/_icons': typeof IconsRoute
   '/intro': typeof IntroRoute
   '/questions': typeof QuestionsRoute
+  '/dm/storylines': typeof DmStorylinesRoute
   '/locations/list': typeof LocationsListRoute
   '/locations/map': typeof LocationsMapRoute
   '/beasts': typeof BeastsIndexRoute
@@ -253,6 +261,7 @@ export interface FileRoutesById {
   '/_icons': typeof IconsRoute
   '/intro': typeof IntroRoute
   '/questions': typeof QuestionsRoute
+  '/dm/storylines': typeof DmStorylinesRoute
   '/locations/list': typeof LocationsListRoute
   '/locations/map': typeof LocationsMapRoute
   '/beasts/': typeof BeastsIndexRoute
@@ -286,6 +295,7 @@ export interface FileRouteTypes {
     | '/_icons'
     | '/intro'
     | '/questions'
+    | '/dm/storylines'
     | '/locations/list'
     | '/locations/map'
     | '/beasts/'
@@ -317,6 +327,7 @@ export interface FileRouteTypes {
     | '/_icons'
     | '/intro'
     | '/questions'
+    | '/dm/storylines'
     | '/locations/list'
     | '/locations/map'
     | '/beasts'
@@ -348,6 +359,7 @@ export interface FileRouteTypes {
     | '/_icons'
     | '/intro'
     | '/questions'
+    | '/dm/storylines'
     | '/locations/list'
     | '/locations/map'
     | '/beasts/'
@@ -380,6 +392,7 @@ export interface RootRouteChildren {
   IconsRoute: typeof IconsRoute
   IntroRoute: typeof IntroRoute
   QuestionsRoute: typeof QuestionsRoute
+  DmStorylinesRoute: typeof DmStorylinesRoute
   LocationsListRoute: typeof LocationsListRoute
   LocationsMapRoute: typeof LocationsMapRoute
   BeastsIndexRoute: typeof BeastsIndexRoute
@@ -449,6 +462,13 @@ declare module '@tanstack/react-router' {
       path: '/dm'
       fullPath: '/dm/'
       preLoaderRoute: typeof DmIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dm/storylines': {
+      id: '/dm/storylines'
+      path: '/dm/storylines'
+      fullPath: '/dm/storylines'
+      preLoaderRoute: typeof DmStorylinesRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/events/': {
@@ -620,6 +640,7 @@ const rootRouteChildren: RootRouteChildren = {
   IconsRoute: IconsRoute,
   IntroRoute: IntroRoute,
   QuestionsRoute: QuestionsRoute,
+  DmStorylinesRoute: DmStorylinesRoute,
   LocationsListRoute: LocationsListRoute,
   LocationsMapRoute: LocationsMapRoute,
   BeastsIndexRoute: BeastsIndexRoute,
