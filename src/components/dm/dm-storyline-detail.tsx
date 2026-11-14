@@ -85,7 +85,7 @@ export function DmStorylineDetail({
                           <Link
                             key={crossing.arcKey}
                             to="/dm/arcs"
-                            search={{ arc: other.arc.slug }}
+                            search={(prev) => ({ ...prev, arc: other.arc.slug })}
                             resetScroll={false}
                             className="hover:bg-muted flex items-center gap-1 rounded-full border px-1.5 text-xs"
                           >

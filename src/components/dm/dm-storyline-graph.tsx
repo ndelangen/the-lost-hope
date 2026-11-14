@@ -13,6 +13,8 @@ type Props = {
   storylines: readonly Storyline[]
   sessions: readonly StorylineSession[]
   columns: ReadonlyMap<string, number>
+  /** The older arc each arc split off from, drawn as a branch at the foot of its line. */
+  parents: ReadonlyMap<string, string>
   focus: string | undefined
   /** Storylines that don't match the active filters, drawn faded rather than hidden. */
   dimmed?: ReadonlySet<string>
@@ -34,20 +36,24 @@ type Row =
 /**
  * Arcs as a git graph. Rows run newest first: what could happen next, then each session with one
  * row per arc played in it. Every arc is a coloured line in its own column, with a dot on each row
- * it was played in. A short branch joins two arcs that share an event, and the line is dashed
- * above an arc's latest session while it still has open plots.
+ * it was played in. A short branch joins two arcs that share an event, an arc that began at an
+ * older arc's event splits off that arc's line, and the line is dashed above an arc's latest
+ * session while it still has open plots.
  */
 export function DmStorylineGraph({
   storylines,
   sessions,
   columns,
+  parents,
   focus,
   dimmed,
   onFocus,
   selectedSlug,
 }: Props) {
   const rows: Row[] = [{ kind: 'header', key: 'next' }]
-  for (const line of storylines) {
+  // Open arcs in column order, so their tips form a staircase and a quiet arc on the edge sinks.
+  const byColumn = storylines.toSorted((a, b) => columns.get(a.key)! - columns.get(b.key)!)
+  for (const line of byColumn) {
     if (line.next.length === 0) continue
     rows.push({
       kind: 'stop',
@@ -107,6 +113,7 @@ export function DmStorylineGraph({
         {spans.map(({ line, top, latest, bottom, continues }) => {
           if (top === -1) return null
           const dashedTo = latest !== -1 ? y(latest) : continues ? height : y(top)
+          const parent = parents.get(line.key)
           return (
             <g key={line.key} opacity={faded(line.key) ? 0.12 : 1}>
               {dashedTo > y(top) ? (
@@ -128,6 +135,14 @@ export function DmStorylineGraph({
                   y2={continues ? height : y(bottom)}
                   stroke={line.color}
                   strokeWidth={focus === line.key ? LINE + 2 : LINE}
+                />
+              ) : null}
+              {parent && columns.has(parent) && !continues ? (
+                <path
+                  d={`M ${x(line.key)} ${y(bottom)} C ${x(line.key)} ${y(bottom) + ROW}, ${x(parent)} ${y(bottom)}, ${x(parent)} ${y(bottom) + ROW}`}
+                  fill="none"
+                  stroke={line.color}
+                  strokeWidth={LINE}
                 />
               ) : null}
             </g>
@@ -239,7 +254,7 @@ function ArcLine({
   return (
     <Link
       to="/dm/arcs"
-      search={{ arc: selected ? undefined : line.arc.slug }}
+      search={(prev) => ({ ...prev, arc: selected ? undefined : line.arc.slug })}
       resetScroll={false}
       onMouseEnter={() => onFocus(line.key)}
       onMouseLeave={() => onFocus(undefined)}

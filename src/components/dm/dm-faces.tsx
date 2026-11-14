@@ -10,7 +10,7 @@ export function DmFaces({
   size = 'sm',
 }: {
   people: readonly EntityRef[]
-  size?: 'sm' | 'md'
+  size?: 'xs' | 'sm' | 'md'
 }) {
   return (
     <div className="flex shrink-0 -space-x-2">
@@ -21,9 +21,12 @@ export function DmFaces({
             key={`${person.ref}:${person.key}`}
             src={record?.avatar ?? DEFAULT_AVATAR}
             alt={record?.name ?? ''}
-            sizes={size === 'sm' ? '28px' : '40px'}
+            sizes={size === 'xs' ? '16px' : size === 'sm' ? '28px' : '40px'}
             maxWidth={64}
-            className={cn('ring-background ring-2', size === 'sm' ? 'size-7' : 'size-10')}
+            className={cn(
+              'ring-background ring-2',
+              size === 'xs' ? 'size-4 ring-1' : size === 'sm' ? 'size-7' : 'size-10',
+            )}
           />
         )
       })}

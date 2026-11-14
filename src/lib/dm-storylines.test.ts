@@ -6,7 +6,9 @@ import { create as createArc } from '#/definitions/arc'
 import { arcs as campaignArcs } from './dm-campaign'
 import {
   applyStorylineFilters,
+  arcAge,
   assignColumns,
+  branchParents,
   buildStorylines,
   campaignSessionsInOrder,
   focusOptions,
@@ -64,12 +66,26 @@ describe('storyline map', () => {
     expect(new Set([early!.color, late!.color, closedLate!.color]).size).toBe(3)
   })
 
-  it('reuses a column once a storyline has ended, but never one still open', () => {
+  it('gives open arcs the first columns and lets older arcs reuse a column below its arc', () => {
     const lines = buildStorylines(arcs, sessions, locationOf)
     const columns = assignColumns(lines)
-    expect(columns.get('early')).toBe(0)
-    expect(columns.get('late')).toBe(1)
-    expect(columns.get('closedLate')).toBe(0)
+    expect(columns.get('late')).toBe(0)
+    expect(columns.get('closedLate')).toBe(1)
+    expect(columns.get('early')).toBe(1)
+  })
+
+  it('moves an open arc that has gone quiet to the edge', () => {
+    const lines = buildStorylines(campaignArcs)
+    const columns = assignColumns(lines)
+    const open = lines.filter((line) => line.next.length > 0)
+    const quietest = open.toSorted((a, b) => (a.last ?? 0) - (b.last ?? 0))[0]!
+    expect(columns.get(quietest.key)).toBe(Math.max(...open.map((l) => columns.get(l.key)!)))
+  })
+
+  it('splits an arc off the older arc whose event it began at', () => {
+    const parents = branchParents(buildStorylines(arcs, sessions, locationOf))
+    expect(parents.get('late')).toBe('early')
+    expect(parents.has('early')).toBe(false)
   })
 
   it('places events in their settlement and maps every campaign arc', () => {
@@ -107,6 +123,18 @@ describe('storyline filters', () => {
     expect(recent.sessions.map((s) => s.number)).toEqual([15, 16, 17])
     expect(recent.matching.has('the_shadowpeak_mine')).toBe(false)
     expect(recent.matching.has('the_tempest_family')).toBe(true)
+  })
+
+  it('finds arcs that have been open long, or left alone long', () => {
+    const latest = allSessions.at(-1)!.number
+    const long = applyStorylineFilters(lines, allSessions, { longerThan: 10 }).matching
+    const quiet = applyStorylineFilters(lines, allSessions, { quietFor: 5 }).matching
+    for (const line of lines) {
+      const age = arcAge(line, latest)
+      expect(long.has(line.key)).toBe(line.next.length > 0 && age.open >= 10)
+      expect(quiet.has(line.key)).toBe(line.next.length > 0 && age.quiet >= 5)
+    }
+    expect(quiet.has('tentacles_and_the_shadow_realm')).toBe(true)
   })
 
   it('offers people and places to focus on, but not the world', () => {

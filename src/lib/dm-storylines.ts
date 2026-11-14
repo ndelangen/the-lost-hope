@@ -38,7 +38,7 @@ export type Storyline = {
 }
 
 /** Distinct line colours, assigned in the order arcs start. They repeat after twenty arcs. */
-const PALETTE = [
+export const PALETTE = [
   '#e6194b',
   '#3cb44b',
   '#4363d8',
@@ -176,22 +176,62 @@ function mostCommon(values: readonly string[]): string | undefined {
 }
 
 /**
- * Give each storyline a column, like branches in a git graph. A storyline holds its column from
- * its first session until its last one, or for good while it still has open plots. When it ends,
- * a later storyline can reuse the column.
+ * Give each storyline a column, handed out from the top of the graph down, the way git log does.
+ * Open arcs come first, the one played most recently taking the first column, so an arc that has
+ * gone quiet drifts to the edge. Among free columns, an arc prefers one next to the arcs it shares
+ * events with. A column frees up below the arc using it, for an older arc to reuse.
  */
 export function assignColumns(storylines: readonly Storyline[]): Map<string, number> {
-  const busyUntil: number[] = []
+  const top = (line: Storyline) =>
+    line.next.length > 0 ? Number.POSITIVE_INFINITY : (line.last ?? line.first ?? 0)
+  const ordered = storylines.toSorted(
+    (a, b) =>
+      top(b) - top(a) ||
+      (b.last ?? b.first ?? 0) - (a.last ?? a.first ?? 0) ||
+      (b.first ?? 0) - (a.first ?? 0),
+  )
+  const busyDownTo: number[] = []
   const columns = new Map<string, number>()
-  for (const line of storylines) {
-    const start = line.first ?? Number.POSITIVE_INFINITY
-    const end = line.next.length > 0 ? Number.POSITIVE_INFINITY : (line.last ?? start)
-    let column = busyUntil.findIndex((until) => until < start)
-    if (column === -1) column = busyUntil.length
-    busyUntil[column] = end
+  for (const line of ordered) {
+    const partners = line.crossings
+      .map((crossing) => columns.get(crossing.arcKey))
+      .filter((column): column is number => column !== undefined)
+    const distance = (column: number) =>
+      partners.length === 0 ? 0 : Math.min(...partners.map((p) => Math.abs(p - column)))
+    const free = busyDownTo.flatMap((from, column) => (from > top(line) ? [column] : []))
+    const column = [...free, busyDownTo.length].toSorted(
+      (a, b) => a - b || distance(a) - distance(b),
+    )[0]!
+    busyDownTo[column] = line.first ?? 0
     columns.set(line.key, column)
   }
   return columns
+}
+
+/** The arc a storyline split off from: an older arc that shares an event with its first stop. */
+export function branchParents(storylines: readonly Storyline[]): Map<string, string> {
+  const parents = new Map<string, string>()
+  for (const line of storylines) {
+    const firstStop = line.stops[0]
+    if (!firstStop || line.first === undefined) continue
+    let best: { key: string; shared: number } | undefined
+    for (const crossing of line.crossings) {
+      const other = storylines.find((l) => l.key === crossing.arcKey)
+      if (!other || other.first === undefined || other.first >= line.first) continue
+      const shared = crossing.events.filter((event) => firstStop.events.includes(event)).length
+      if (shared > 0 && (!best || shared > best.shared)) best = { key: other.key, shared }
+    }
+    if (best) parents.set(line.key, best.key)
+  }
+  return parents
+}
+
+/** How many sessions an arc has been running, and how many since it was last played. */
+export function arcAge(line: Storyline, latest: number) {
+  return {
+    open: line.first === undefined ? 0 : latest - line.first + 1,
+    quiet: latest - (line.last ?? line.first ?? latest),
+  }
 }
 
 /** A record a storyline can be filtered on, written `kind:key` so it fits in a URL. */
@@ -239,20 +279,28 @@ export type StorylineFilters = {
   openOnly?: boolean
   /** Only the most recent sessions. Older rows are left out, and lines run off the bottom. */
   recent?: number
+  /** Only open storylines that have been running for at least this many sessions. */
+  longerThan?: number
+  /** Only open storylines that have not been played for at least this many sessions. */
+  quietFor?: number
 }
 
 /** Which storylines match the filters, and which sessions to show. */
 export function applyStorylineFilters(
   storylines: readonly Storyline[],
   sessions: readonly StorylineSession[],
-  { focus, openOnly, recent }: StorylineFilters,
+  { focus, openOnly, recent, longerThan, quietFor }: StorylineFilters,
 ): { matching: Set<string>; sessions: StorylineSession[] } {
   const shown = recent ? sessions.slice(-recent) : [...sessions]
+  const latest = sessions.at(-1)?.number ?? 0
+  const age = (line: Storyline) => arcAge(line, latest)
   const oldest = shown[0]?.number ?? 0
   const wanted = focus ? focusKey(focus) : undefined
   const matching = new Set(
     storylines
-      .filter((line) => !openOnly || line.next.length > 0)
+      .filter((line) => !(openOnly || longerThan || quietFor) || line.next.length > 0)
+      .filter((line) => !longerThan || age(line).open >= longerThan)
+      .filter((line) => !quietFor || age(line).quiet >= quietFor)
       .filter((line) => line.next.length > 0 || (line.last ?? -1) >= oldest)
       .filter((line) => !wanted || storylineReferences(line).has(wanted))
       .map((line) => line.key),
