@@ -8,6 +8,7 @@ import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 import { resolveStatBlock } from '#/lib/dm-campaign'
 import { deriveStatBlock, type DerivedStats } from '#/lib/stat-block'
 
+import { stepsByAbility } from './ability-steps'
 import {
   addCreature,
   combatantName,
@@ -77,7 +78,7 @@ export function combatantView(entry: RosterEntry, roster: readonly RosterEntry[]
   }
   const record = creatureRecord(entry.source)
   const stats = resolveStatBlock(record?.stats)
-  const derived = stats ? deriveStatBlock(stats) : undefined
+  const derived = stats ? { ...deriveStatBlock(stats), steps: stepsByAbility(stats) } : undefined
   return {
     id: entry.id,
     name: combatantName(entry, roster, record?.name ?? entry.source.key),

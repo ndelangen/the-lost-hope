@@ -1,7 +1,8 @@
 import type { AbilityTextToken } from '#/definitions/stat-block'
 
+import type { DmStep } from './ability-steps'
 import { ruleOf, termLabel, type RuleRef } from './rules'
-import { signed } from './stat-block'
+import { plainStatParts, signed, type StatPart } from './stat-block'
 
 /**
  * Ability text that answers its own questions. Rules text is a list of tokens: plain strings and
@@ -22,10 +23,8 @@ type SpeedMode = 'walk' | 'climb' | 'fly' | 'swim' | 'burrow'
 export type DerivedAbilityFacts = {
   key: string
   name: string
-  /** The numbers that matter at the table, such as "+5, 2d6 + 3 piercing" or "DC 13 Str". */
-  summary?: string
-  /** The full attack line, such as "Melee +5, reach 5 ft. · Hit: 8 (1d10 + 3) piercing". */
-  attack?: string
+  /** The numbers that matter at the table, such as "+5, 8 (2d6 + 3) piercing" or "DC 13 Str save". */
+  summary?: readonly StatPart[]
 }
 
 export type DerivedStatBlock = {
@@ -34,12 +33,14 @@ export type DerivedStatBlock = {
   saveDc: Partial<Record<AbilityId, number>>
   modifier: Record<AbilityId, number>
   proficiencyBonus: number
+  /** Plain DM steps per ability key, from `src/lib/ability-steps.ts`. */
+  steps?: Readonly<Record<string, readonly DmStep[]>>
 }
 
 export type AbilityTextSegment =
   | { kind: 'text'; text: string }
   | { kind: 'speed'; value: string; note: string }
-  | { kind: 'ability'; key: string; name: string; summary?: string }
+  | { kind: 'ability'; key: string; name: string; summary?: readonly StatPart[] }
   | { kind: 'number'; value: string; note: string }
   | { kind: 'rule'; rule: RuleRef; label: string }
 
@@ -141,7 +142,9 @@ export function plainAbilityText(segments: readonly AbilityTextSegment[]) {
         case 'number':
           return segment.value
         case 'ability':
-          return segment.summary ? `${segment.name} (${segment.summary})` : segment.name
+          return segment.summary
+            ? `${segment.name} (${plainStatParts(segment.summary)})`
+            : segment.name
         case 'rule':
           return segment.label
       }

@@ -8,7 +8,17 @@ import { AbilityTextView } from './ability-text'
 
 const wolfie: DerivedStatBlock = {
   speed: { walk: 50 },
-  abilities: { bite: { key: 'bite', name: 'Bite', summary: '+5, 2d6 + 3 piercing' } },
+  abilities: {
+    bite: {
+      key: 'bite',
+      name: 'Bite',
+      summary: [
+        { kind: 'value', text: '+5' },
+        { kind: 'text', text: ', ' },
+        { kind: 'damage', amount: 10, roll: '2d6 + 3', type: refs.rules.piercing },
+      ],
+    },
+  },
   saveDc: { str: 13 },
   modifier: { str: 3, dex: 2, con: 2, int: -1, wis: 1, cha: -1 },
   proficiencyBonus: 2,
@@ -34,7 +44,8 @@ describe('AbilityTextView', () => {
     )
     expect(markup).toContain('25 ft.')
     expect(markup).toContain('Bite')
-    expect(markup).toContain('+5, 2d6 + 3 piercing')
+    expect(markup).toContain('2d6 + 3')
+    expect(markup).toContain('piercing')
     expect(markup).toContain('DC 13')
     expect(markup).toContain('decoration-dotted')
     expect(markup).not.toContain('its speed')

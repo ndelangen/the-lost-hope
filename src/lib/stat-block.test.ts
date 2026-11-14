@@ -5,7 +5,7 @@ import { StatBlock } from '#/definitions/stat-block'
 
 import {
   abilitySummary,
-  attackLine,
+  plainStatParts,
   deriveStatBlock,
   formatSpeed,
   proficiencyBonus,
@@ -94,7 +94,7 @@ describe('derived stat block', () => {
     ])
     expect(derived.senses).toBe('Darkvision 60 ft., Passive Perception 15')
     expect(derived.saves.str).toBe(3)
-    expect(derived.abilities.bite?.summary).toBe('+5, 8 (1d10 + 3) piercing')
+    expect(plainStatParts(derived.abilities.bite!.summary!)).toBe('+5, 8 (1d10 + 3) piercing')
   })
 
   it('matches the printed SRD giant spider', () => {
@@ -102,13 +102,15 @@ describe('derived stat block', () => {
     expect(derived.hitPoints).toBe('26 (4d10 + 4)')
     expect(derived.skills.map(({ bonus }) => bonus)).toEqual([4, 7])
     expect(derived.passivePerception).toBe(14)
-    expect(attackLine(giantSpider.abilities[0]!.attack!, giantSpider)).toBe(
-      'Melee +5, reach 5 ft. · Hit: 7 (1d8 + 3) piercing plus 7 (2d6) poison',
-    )
+    const bite = deriveStatBlock(giantSpider).abilities[giantSpider.abilities[0]!.key]!
+    expect(plainStatParts(bite.summary!)).toBe('+5, 7 (1d8 + 3) piercing plus 7 (2d6) poison')
+    expect(
+      bite.summary!.filter((part) => part.kind === 'damage').map((part) => part.type.key),
+    ).toEqual(['piercing', 'poison'])
   })
 
   it('summarises save DCs from ability text', () => {
-    expect(abilitySummary(direWolf.abilities[1]!, direWolf)).toBe('DC 12 Con')
+    expect(plainStatParts(abilitySummary(direWolf.abilities[1]!, direWolf)!)).toBe('Save DC 12')
     expect(deriveStatBlock(direWolf).saveDc.con).toBe(12)
   })
 
