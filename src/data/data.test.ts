@@ -47,6 +47,7 @@ const REF_NAMESPACE = {
   quest: 'quests',
   organization: 'organizations',
   item: 'items',
+  effect: 'effects',
 } as const satisfies Record<(typeof ENTITY_KINDS)[number], keyof typeof refs>
 
 const escapeRegExp = (value: string) => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
@@ -319,7 +320,9 @@ describe('items', () => {
     expect(items.shadow_sword.currentOwner).toEqual(refs.pcs.jim)
     expect(items.shadow_sword.notes?.flat()).toContainEqual(refs.items.cursed_shadow_sword)
     expect(events.n2_e162.notes.flat()).toContainEqual(refs.items.shadow_sword)
-    expect(items.wolfie_tracking_ring.notes?.flat().join('')).toContain('werewolf-like hybrid')
+    expect(items.wolfie_tracking_ring.notes?.flat()).toContainEqual(
+      refs.effects.werewolf_transformation,
+    )
     expect(quests.the_cursed_sword.clues.flat()).toContainEqual(refs.events.n2_e132)
     expect(events.n2_e132.notes.flat().join('')).toContain(
       '20 GP debt specifically for the pain-removal ritual',

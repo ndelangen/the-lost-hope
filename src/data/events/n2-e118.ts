@@ -10,7 +10,9 @@ export default createEvent({
     [
       'The party booked four separate rooms at ',
       refs.locations.skynet_s_second_best_inn,
-      '. They asked the staff to place the rooms at least sixty feet apart so that the storm following ',
+      '. They asked the staff to place the rooms at least sixty feet apart so that the ',
+      refs.effects.storm,
+      ' following ',
       refs.pcs.jim,
       ' would not strike anyone else.',
     ],

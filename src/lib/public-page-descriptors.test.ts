@@ -11,10 +11,10 @@ import {
 import { canonicalUrl, publicPageHead, socialImagePath } from '#/lib/public-page-metadata'
 
 describe('public page descriptors', () => {
-  it('exhaustively projects 13 static pages and every registry entity', () => {
+  it('exhaustively projects 14 static pages and every registry entity', () => {
     const detailCount = COLLECTIONS.reduce((count, kind) => count + allEntities(kind).length, 0)
-    expect(detailCount).toBe(460)
-    expect(PUBLIC_PAGE_DESCRIPTORS).toHaveLength(13 + detailCount)
+    expect(detailCount).toBe(480)
+    expect(PUBLIC_PAGE_DESCRIPTORS).toHaveLength(14 + detailCount)
     expect(validatePublicPageDescriptors()).toEqual([])
   })
 

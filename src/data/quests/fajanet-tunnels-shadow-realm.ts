@@ -5,7 +5,15 @@ export default createQuest({
   name: 'Do the Fajanet Tunnels connect to the Shadow Realm?',
   icon: 'gi/GiMagicPortal',
   type: 'mystery',
-  notes: [['Do the Fajanet Tunnels connect to the Shadow Realm?']],
+  notes: [
+    [
+      'Do the ',
+      refs.locations.fajanet_tunnels,
+      ' connect to the ',
+      refs.locations.shadow_realm,
+      '?',
+    ],
+  ],
   status: 'resolved',
   clues: [
     [

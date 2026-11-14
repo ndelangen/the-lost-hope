@@ -2,6 +2,7 @@ import { createFileRoute, notFound } from '@tanstack/react-router'
 
 import { CharacterMemberships } from '#/components/character-memberships'
 import { ContentRenderer } from '#/components/content-renderer'
+import { EffectList } from '#/components/effect-list'
 import { EntityContext } from '#/components/entity-context'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail } from '#/components/entity-page'
@@ -10,7 +11,7 @@ import { LocationReference } from '#/components/location-reference'
 import { Inline, Stack } from '#/components/ui/layout'
 import { Pill } from '#/components/ui/pill'
 import { DEFAULT_AVATAR } from '#/definitions/media'
-import { getEntity, npcLocation } from '#/lib/campaign'
+import { effectsOn, getEntity, npcLocation } from '#/lib/campaign'
 import { entityContextData } from '#/lib/entity-context-data'
 import { characterMemberships } from '#/lib/entity-page-data'
 import { publicEntityPageHead } from '#/lib/public-page-metadata'
@@ -69,6 +70,7 @@ function NpcPage() {
     >
       <Stack gap="2xl">
         <CharacterMemberships items={memberships} />
+        <EffectList entries={effectsOn('npc', entity.slug)} />
         {npc.notes ? <ContentRenderer content={npc.notes} /> : null}
       </Stack>
     </EntityDetail>

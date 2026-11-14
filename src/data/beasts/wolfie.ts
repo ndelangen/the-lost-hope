@@ -7,14 +7,6 @@ export default createBeast({
   location: refs.locations.skynet_s_second_best_inn,
   species: 'Dire wolf in a humanoid form',
   notes: [
-    [
-      'One of two pups taken from the stables of ',
-      refs.npcs.lord_malachar,
-      ' by the party. The ',
-      refs.items.one_use_obedience_whip,
-      ' permanently enabled ',
-      refs.beasts.wolfie,
-      ' to understand his handler’s intent and communicate his own wants while retaining free will.',
-    ],
+    ['One of two pups taken from the stables of ', refs.npcs.lord_malachar, ' by the party.'],
   ],
 })

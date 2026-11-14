@@ -8,7 +8,9 @@ export default createEvent({
   mark: { type: 'avatar', url: '/assets/pcs/jim-kenku.jpg' },
   notes: [
     [
-      'That evening, shortly before going to sleep and suffering his first lightning strike the next morning, ',
+      'That evening, shortly before going to sleep and suffering his first ',
+      refs.effects.storm,
+      ' strike the next morning, ',
       refs.pcs.jim,
       ' read the letters on ',
       refs.items.robertos_map_pages,

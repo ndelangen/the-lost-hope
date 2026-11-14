@@ -18,7 +18,9 @@ export default createQuest({
     [refs.events.n2_e155, ' records its appearance on the dungeon altar.'],
     [
       refs.events.n2_e160,
-      ' shows a morning lightning strike leaving ',
+      ' shows a morning strike from the ',
+      refs.effects.storm,
+      ' leaving ',
       refs.pcs.jim,
       ' unharmed while his bed still burned. This supports protection from lightning, but does not establish immunity in other circumstances.',
     ],

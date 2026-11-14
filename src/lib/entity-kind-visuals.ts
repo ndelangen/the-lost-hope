@@ -5,6 +5,7 @@ import {
   MapPin,
   Package,
   Scroll,
+  Sparkles,
   ScrollText,
   User,
   Users,
@@ -23,6 +24,7 @@ export type EntityKindColor =
   | 'rose'
   | 'teal'
   | 'fuchsia'
+  | 'indigo'
 
 export type EntityKindVisual = {
   color: EntityKindColor
@@ -134,5 +136,16 @@ export const ENTITY_KIND_VISUALS: Record<EntityKind, EntityKindVisual> = {
     ringClassName: 'ring-fuchsia-500/40',
     hoverClassName:
       'hover:border-fuchsia-300 hover:bg-fuchsia-50/70 focus-visible:ring-fuchsia-500/40 dark:hover:border-fuchsia-800 dark:hover:bg-fuchsia-950/20',
+  },
+  effect: {
+    color: 'indigo',
+    icon: Sparkles,
+    accentClassName: 'text-indigo-600 dark:text-indigo-300',
+    pillClassName: 'bg-indigo-100 text-indigo-700 dark:bg-indigo-950/50 dark:text-indigo-300',
+    borderClassName: 'border-indigo-300/80 dark:border-indigo-800',
+    surfaceClassName: 'bg-indigo-50/60 dark:bg-indigo-950/20',
+    ringClassName: 'ring-indigo-500/40',
+    hoverClassName:
+      'hover:border-indigo-300 hover:bg-indigo-50/70 focus-visible:ring-indigo-500/40 dark:hover:border-indigo-800 dark:hover:bg-indigo-950/20',
   },
 }

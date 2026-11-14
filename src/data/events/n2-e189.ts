@@ -7,15 +7,18 @@ export default createEvent({
     [
       'The first draw gave ',
       refs.npcs.sarogarth,
-      ' a flying speed equal to his walking speed for one year. ',
+      ' ',
+      refs.effects.flight,
+      '. ',
       refs.pcs.jim,
-      ' drew Whispers, hearing voices only he could hear and suffering penalties involving Wisdom. A daily saving throw was required to benefit from a long rest; the exact roll is unclear in the recording.',
+      ' drew ',
+      refs.effects.whispers,
+      '.',
     ],
     [
-      'The Hunger card gave ',
       refs.pcs.cassian_veyl,
-      ' a life-draining action against a creature within five feet. It deals 1d6 necrotic damage and restores half that amount as hit points. He must use it daily or suffer 2d6 necrotic damage. This is separate from the meat hunger caused by the ',
-      refs.items.wolfie_tracking_ring,
+      ' drew ',
+      refs.effects.hunger,
       '. His later discussion with the DM confirms the recipient despite the missing announcement in the recording.',
     ],
     [

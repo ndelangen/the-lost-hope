@@ -9,14 +9,21 @@ export default createQuest({
   status: 'open',
   clues: [
     [refs.npcs.light_13th_marshal, ' invited all three of us personally, with a letter.'],
-    [refs.npcs.light_13th_marshal, " runs the Adventurers' Guild in this city."],
+    [
+      refs.npcs.light_13th_marshal,
+      ' runs the ',
+      refs.organizations.adventurers_guild,
+      ' in this city.',
+    ],
     [refs.npcs.light_13th_marshal, ' offered each of us one favor.'],
     [
       'Session 4: ',
       refs.npcs.light_13th_marshal,
       ' gave ',
       refs.pcs.jim,
-      " a 'letter of passage' for the mountain top residents.",
+      " a 'letter of passage' for the residents of ",
+      refs.locations.mountain_top,
+      '.',
     ],
     [
       'Session 4: ',

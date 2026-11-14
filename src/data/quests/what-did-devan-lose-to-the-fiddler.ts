@@ -10,7 +10,15 @@ export default createQuest({
   clues: [
     [
       refs.events.n2_e105,
-      ' — during the Fiddler’s three-round game, Devan gained protections against death but felt that an unidentified part of himself had gone missing or fallen asleep.',
+      ' — during ',
+      refs.npcs.the_fiddler,
+      '’s three-round game, ',
+      refs.pcs.devan,
+      ' gained ',
+      refs.effects.protection_against_death,
+      ' but was left with ',
+      refs.effects.something_missing_or_dormant,
+      '.',
     ],
     [
       'Open: what part of ',

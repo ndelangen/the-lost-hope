@@ -1,4 +1,5 @@
 import beastRecords from '#/data/beasts/_index'
+import effectRecords from '#/data/effects/_index'
 import eventRecords from '#/data/events/_index'
 import itemRecords from '#/data/items/_index'
 import locationRecords from '#/data/locations/_index'
@@ -32,6 +33,7 @@ export const SOURCE_REGISTRIES = {
   quest: questRecords,
   organization: organizationRecords,
   item: itemRecords,
+  effect: effectRecords,
 } as const satisfies Record<EntityKind, RegistryRecord>
 
 type SourceRegistries = typeof SOURCE_REGISTRIES
@@ -66,6 +68,7 @@ export const REGISTRIES = {
   quest: player('quest'),
   organization: player('organization'),
   item: player('item'),
+  effect: player('effect'),
 } as const satisfies Record<EntityKind, RegistryRecord>
 
 type Registries = typeof REGISTRIES
@@ -88,6 +91,7 @@ export type DataOf<K extends EntityKind> = EntityOf<K>['data']
 
 export const {
   beast: beasts,
+  effect: effects,
   event: events,
   item: items,
   location: locations,

@@ -18,6 +18,7 @@ const EXPECTED_ENTITY_COLORS = {
   quest: 'rose',
   organization: 'teal',
   item: 'fuchsia',
+  effect: 'indigo',
 } as const satisfies Record<EntityKind, EntityKindColor>
 
 const COLOR_CLASS_PROPERTIES = [

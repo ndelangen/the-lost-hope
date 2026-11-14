@@ -12,7 +12,9 @@ export default createEvent({
       refs.pcs.cassian_veyl,
       ' remained insatiably hungry and recognized the ',
       refs.items.wolfie_tracking_ring,
-      ' as the cause. Having worn it for a full day, he became attuned to it.',
+      ' as the cause: the first sign of his ',
+      refs.effects.werewolf_transformation,
+      '. Having worn it for a full day, he became attuned to it.',
     ],
   ],
 })

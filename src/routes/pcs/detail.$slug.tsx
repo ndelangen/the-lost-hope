@@ -3,6 +3,7 @@ import { createFileRoute, notFound } from '@tanstack/react-router'
 import { CharacterItems } from '#/components/character-items'
 import { CharacterMemberships } from '#/components/character-memberships'
 import { ContentRenderer } from '#/components/content-renderer'
+import { EffectList } from '#/components/effect-list'
 import { EntityContext } from '#/components/entity-context'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail } from '#/components/entity-page'
@@ -11,7 +12,7 @@ import { PreviousPortraits } from '#/components/previous-portraits'
 import { Inline, Stack } from '#/components/ui/layout'
 import { Pill } from '#/components/ui/pill'
 import { DEFAULT_AVATAR } from '#/definitions/media'
-import { getEntity, itemsCarriedBy, itemsOwnedBy, pcStatusLabel } from '#/lib/campaign'
+import { effectsOn, getEntity, itemsCarriedBy, itemsOwnedBy, pcStatusLabel } from '#/lib/campaign'
 import { entityContextData } from '#/lib/entity-context-data'
 import { characterMemberships } from '#/lib/entity-page-data'
 import { publicEntityPageHead } from '#/lib/public-page-metadata'
@@ -91,6 +92,7 @@ function PcPage() {
     >
       <Stack gap="2xl">
         <CharacterMemberships items={memberships} />
+        <EffectList entries={effectsOn('pc', entity.slug)} />
         <CharacterItems owned={ownedItems} carried={carriedItems} />
         {pc.notes ? <ContentRenderer content={pc.notes} /> : null}
       </Stack>

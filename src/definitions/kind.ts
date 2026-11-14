@@ -10,6 +10,7 @@ export const ENTITY_KINDS = [
   'quest',
   'organization',
   'item',
+  'effect',
 ] as const
 
 export type EntityKind = (typeof ENTITY_KINDS)[number]

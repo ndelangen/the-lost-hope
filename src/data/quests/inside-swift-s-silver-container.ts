@@ -14,7 +14,9 @@ export default createQuest({
       refs.pcs.swift_starblade,
       ' gained ',
       refs.items.swifts_silver_container,
-      ' during the Fiddler’s game.',
+      ' during ',
+      refs.events.n2_e105,
+      '.',
     ],
     [
       refs.items.swifts_silver_container,

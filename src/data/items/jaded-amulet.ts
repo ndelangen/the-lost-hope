@@ -14,7 +14,9 @@ export default createItem({
       ' reading “Gotcha.”',
     ],
     [
-      'When Jim prefers not to be recognized, observers cannot readily recognize or place him. The effect does not conceal him when he explicitly reveals his identity, and sustained attention for roughly ten minutes lets observers begin to pick up on who he is.',
+      'When ',
+      refs.pcs.jim,
+      ' prefers not to be recognized, observers cannot readily recognize or place him. The effect does not conceal him when he explicitly reveals his identity, and sustained attention for roughly ten minutes lets observers begin to pick up on who he is.',
     ],
   ],
 })

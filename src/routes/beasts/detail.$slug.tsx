@@ -1,6 +1,7 @@
 import { createFileRoute, notFound } from '@tanstack/react-router'
 
 import { ContentRenderer } from '#/components/content-renderer'
+import { EffectList } from '#/components/effect-list'
 import { EntityContext } from '#/components/entity-context'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail } from '#/components/entity-page'
@@ -9,7 +10,7 @@ import { LocationReference } from '#/components/location-reference'
 import { Inline } from '#/components/ui/layout'
 import { Pill } from '#/components/ui/pill'
 import { DEFAULT_AVATAR } from '#/definitions/media'
-import { getEntity, resolveRef } from '#/lib/campaign'
+import { effectsOn, getEntity, resolveRef } from '#/lib/campaign'
 import { entityContextData } from '#/lib/entity-context-data'
 import { publicEntityPageHead } from '#/lib/public-page-metadata'
 
@@ -58,6 +59,7 @@ function BeastPage() {
         <EntityContext key={`${entity.kind}:${entity.slug}`} data={entityContextData(entity)} />
       }
     >
+      <EffectList entries={effectsOn('beast', entity.slug)} />
       {beast.notes ? <ContentRenderer content={beast.notes} /> : null}
     </EntityDetail>
   )
