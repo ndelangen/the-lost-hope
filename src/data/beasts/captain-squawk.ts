@@ -13,7 +13,7 @@ export default createBeast({
     ],
   ],
   stats: {
-    size: 'Tiny',
+    size: 'tiny',
     type: 'celestial',
     cr: '1/8',
     ac: 12,
@@ -72,7 +72,11 @@ export default createBeast({
         name: 'Distracting Flutter',
         timing: 'bonus action',
         icon: 'gi/GiFeather',
-        text: ['One creature within 5 ft. has disadvantage on its next attack roll.'],
+        text: [
+          'One creature within 5 ft. has ',
+          refs.rules.disadvantage,
+          ' on its next attack roll.',
+        ],
       },
     ],
     source: {

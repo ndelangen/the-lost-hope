@@ -5,8 +5,8 @@ import { RuleTerm } from '#/components/rule-term'
 import { refs } from '#/data/generated/refs'
 import { ABILITY_TIMINGS, type AbilityTiming } from '#/definitions/stat-block'
 import type { CombatantView } from '#/lib/dm-encounter'
-import { ABILITY_ORDER, abilityKey, type LiveStats, type UseCount } from '#/lib/encounter'
-import { ruleOf, type RuleRef } from '#/lib/rules'
+import { abilityKey, type LiveStats, type UseCount } from '#/lib/encounter'
+import { ABILITY_KEYS, ruleOf, ruleRef, type RuleRef } from '#/lib/rules'
 import { formatSpeed, signed, sourceName, sourceUrl } from '#/lib/stat-block'
 import { cn } from '#/lib/utils'
 
@@ -22,15 +22,6 @@ const TIMING = {
   reaction: { label: 'Reactions', Icon: Shield },
   trait: { label: 'Traits', Icon: PawPrint },
 } satisfies Record<AbilityTiming, unknown>
-
-const ABILITY_NAMES = {
-  str: 'Strength',
-  dex: 'Dexterity',
-  con: 'Constitution',
-  int: 'Intelligence',
-  wis: 'Wisdom',
-  cha: 'Charisma',
-} as const
 
 type Fact = { key: string; label: ReactNode; value: ReactNode }
 
@@ -97,9 +88,28 @@ export function CombatantPanel({
           {
             key: 'skills',
             label: 'Skills',
-            value: block.skills.map(({ label, bonus }) => `${label} ${signed(bonus)}`).join(', '),
+            value: joined(
+              block.skills.map(({ skill, bonus }) => (
+                <Fragment key={skill}>
+                  <RuleTerm rule={ruleRef(skill)} /> {signed(bonus)}
+                </Fragment>
+              )),
+            ),
           },
-          { key: 'senses', label: 'Senses', value: block.senses },
+          {
+            key: 'senses',
+            label: 'Senses',
+            value: joined([
+              ...block.senses.map(({ sense, feet }) => (
+                <Fragment key={sense}>
+                  <RuleTerm rule={ruleRef(sense)} /> {feet} ft.
+                </Fragment>
+              )),
+              <Fragment key="passive">
+                <RuleTerm rule={refs.rules.passive_perception} /> {block.passivePerception}
+              </Fragment>,
+            ]),
+          },
           {
             key: 'vulnerable',
             label: <RuleTerm rule={refs.rules.vulnerability}>Vulnerable</RuleTerm>,
@@ -134,9 +144,12 @@ export function CombatantPanel({
           </h2>
           {stats && block ? (
             <p className="text-muted-foreground text-sm">
-              {stats.size} {stats.type} · <RuleTerm rule={refs.rules.challenge_rating} /> {stats.cr}{' '}
-              ({block.experience} XP) · <RuleTerm rule={refs.rules.proficiency_bonus} />{' '}
-              {signed(block.proficiencyBonus)}
+              <RuleTerm rule={ruleRef(stats.size)} />{' '}
+              <RuleTerm rule={ruleRef(stats.type)}>
+                {ruleOf(ruleRef(stats.type)).name.toLowerCase()}
+              </RuleTerm>{' '}
+              · <RuleTerm rule={refs.rules.challenge_rating} /> {stats.cr} ({block.experience} XP) ·{' '}
+              <RuleTerm rule={refs.rules.proficiency_bonus} /> {signed(block.proficiencyBonus)}
             </p>
           ) : null}
         </div>
@@ -257,7 +270,7 @@ export function CombatantPanel({
             <RuleTerm rule={refs.rules.saving_throw}>Saving throws</RuleTerm>
           </h3>
           <dl className="grid grid-cols-3 gap-2">
-            {ABILITY_ORDER.map((ability) => (
+            {ABILITY_KEYS.map((ability) => (
               <div
                 key={ability}
                 className={cn(
@@ -266,7 +279,7 @@ export function CombatantPanel({
                 )}
               >
                 <dt className="text-muted-foreground text-xs">
-                  {ABILITY_NAMES[ability]}
+                  <RuleTerm rule={ruleRef(ability)}>{ruleOf(ruleRef(ability)).name}</RuleTerm>
                   {stats.saves?.[ability] ? ' · proficient' : ''}
                 </dt>
                 <dd className="font-semibold tabular-nums">d20 {signed(block.saves[ability])}</dd>
@@ -329,6 +342,18 @@ function termList(terms: readonly RuleRef[] | undefined) {
     <Fragment key={term.key}>
       {index > 0 ? ', ' : ''}
       <RuleTerm rule={term}>{ruleOf(term).name.toLowerCase()}</RuleTerm>
+    </Fragment>
+  ))
+}
+
+/** Items separated by commas. */
+function joined(items: readonly ReactNode[]) {
+  if (items.length === 0) return undefined
+  return items.map((item, index) => (
+    // oxlint-disable-next-line react/no-array-index-key -- separators follow their item
+    <Fragment key={index}>
+      {index > 0 ? ', ' : ''}
+      {item}
     </Fragment>
   ))
 }

@@ -13,7 +13,7 @@ export default createNPC({
     ],
   ],
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'humanoid',
     cr: '2',
     ac: 18,
@@ -82,7 +82,9 @@ export default createNPC({
         timing: 'reaction',
         icon: 'lucide/Shield',
         text: [
-          'When a creature she can see attacks an ally within 5 ft. of her, she imposes disadvantage on that attack roll.',
+          'When a creature she can see attacks an ally within 5 ft. of her, she imposes ',
+          refs.rules.disadvantage,
+          ' on that attack roll.',
         ],
       },
     ],

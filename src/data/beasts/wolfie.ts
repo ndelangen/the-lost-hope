@@ -10,7 +10,7 @@ export default createBeast({
     ['One of two pups taken from the stables of ', refs.npcs.lord_malachar, ' by the party.'],
   ],
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'monstrosity',
     cr: '2',
     ac: 14,
@@ -26,7 +26,7 @@ export default createBeast({
         name: 'Keen Nose',
         timing: 'trait',
         icon: 'gi/GiNoseSide',
-        text: ['Advantage on Wisdom (Perception) checks that rely on smell.'],
+        text: [refs.rules.advantage, ' on Wisdom (Perception) checks that rely on smell.'],
       },
       {
         key: 'pack-tactics',
@@ -34,7 +34,8 @@ export default createBeast({
         timing: 'trait',
         icon: 'lucide/UsersRound',
         text: [
-          'Advantage on an attack roll against a creature if at least one ally is within 5 ft. of it and not ',
+          refs.rules.advantage,
+          ' on an attack roll against a creature if at least one ally is within 5 ft. of it and not ',
           refs.rules.incapacitated,
           '.',
         ],

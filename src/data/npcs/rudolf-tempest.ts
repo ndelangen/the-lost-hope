@@ -14,7 +14,7 @@ export default createNPC({
     ],
   ],
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'humanoid',
     cr: '3',
     ac: 16,
@@ -38,7 +38,7 @@ export default createNPC({
     skills: {
       arcana: 'expert',
       investigation: 'proficient',
-      sleightOfHand: 'proficient',
+      sleight_of_hand: 'proficient',
     },
     abilities: [
       {
@@ -89,7 +89,9 @@ export default createNPC({
         timing: 'action',
         icon: 'gi/GiGearHammer',
         text: [
-          'A mechanical guardian appears next to him: it imposes disadvantage on the next attack against an ally within 5 ft. of it, then falls apart.',
+          'A mechanical guardian appears next to him: it imposes ',
+          refs.rules.disadvantage,
+          ' on the next attack against an ally within 5 ft. of it, then falls apart.',
         ],
         uses: 1,
         recharge: 'Short or long rest',

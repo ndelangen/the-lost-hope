@@ -16,7 +16,7 @@ export default createNPC({
     },
   ],
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'humanoid',
     cr: '3',
     ac: 12,
@@ -40,7 +40,7 @@ export default createNPC({
     skills: {
       arcana: 'proficient',
       deception: 'proficient',
-      sleightOfHand: 'proficient',
+      sleight_of_hand: 'proficient',
     },
     abilities: [
       {
@@ -84,7 +84,9 @@ export default createNPC({
         text: [
           'Curses one creature within 90 ft. for 1 minute. Her attacks deal it an extra 1d6 ',
           refs.rules.necrotic,
-          ' damage, and it has disadvantage on checks with one ability of her choice.',
+          ' damage, and it has ',
+          refs.rules.disadvantage,
+          ' on checks with one ability of her choice.',
         ],
       },
       {

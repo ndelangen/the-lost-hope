@@ -23,7 +23,7 @@ export default createNPC({
     ],
   ],
   stats: {
-    size: 'Tiny',
+    size: 'tiny',
     type: 'beast',
     cr: '1/4',
     ac: 12,

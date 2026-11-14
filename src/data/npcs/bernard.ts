@@ -6,7 +6,7 @@ export default createNPC({
   location: refs.locations.verdant_haven,
   species: 'Talking goat',
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'beast',
     cr: '0',
     ac: 10,
@@ -35,7 +35,7 @@ export default createNPC({
         name: 'Sure-Footed',
         timing: 'trait',
         icon: 'lucide/Footprints',
-        text: ['Advantage on saves against being knocked ', refs.rules.prone, '.'],
+        text: [refs.rules.advantage, ' on saves against being knocked ', refs.rules.prone, '.'],
       },
       {
         key: 'ram',

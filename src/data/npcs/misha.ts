@@ -23,7 +23,7 @@ export default createNPC({
     },
   ],
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'celestial',
     cr: '10',
     ac: 17,
@@ -68,7 +68,7 @@ export default createNPC({
         name: 'Magic Resistance',
         timing: 'trait',
         icon: 'lucide/Shield',
-        text: ['Advantage on saves against spells and other magical effects.'],
+        text: [refs.rules.advantage, ' on saves against spells and other magical effects.'],
       },
       {
         key: 'multiattack',

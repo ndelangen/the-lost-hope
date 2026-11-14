@@ -17,7 +17,7 @@ export default createNPC({
     ],
   ],
   stats: {
-    size: 'Small',
+    size: 'small',
     type: 'fiend',
     cr: '2',
     ac: 16,
@@ -46,7 +46,11 @@ export default createNPC({
         timing: 'trait',
         icon: 'lucide/Shield',
         text: [
-          'As a bonus action, pulls into her shell: +4 AC and speed 0 until she comes out as a bonus action.',
+          'As a ',
+          refs.rules.bonus_action,
+          ', pulls into her shell: +4 AC and speed 0 until she comes out as a ',
+          refs.rules.bonus_action,
+          '.',
         ],
       },
       {

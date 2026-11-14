@@ -10,6 +10,11 @@ export const RULE_CATEGORIES = {
   area: 'Area of effect',
   statBlock: 'Stat block',
   rest: 'Rest',
+  ability: 'Ability',
+  skill: 'Skill',
+  sense: 'Sense',
+  size: 'Size',
+  creatureType: 'Creature type',
 } as const
 
 export type RuleCategory = keyof typeof RULE_CATEGORIES
@@ -41,6 +46,9 @@ export const Rule = z.strictObject({
   short: z.string().trim().min(1).optional().describe('Abbreviation used in the UI, e.g. `AC`'),
   category: z.enum(Object.keys(RULE_CATEGORIES) as [RuleCategory, ...RuleCategory[]]),
   summary: RuleText,
+  ability: entityRefOf('rule')
+    .optional()
+    .describe('For a skill: the ability it uses, e.g. `refs.rules.dex`'),
   icon: z
     .string()
     .optional()

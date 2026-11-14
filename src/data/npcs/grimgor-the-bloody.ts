@@ -23,7 +23,7 @@ export default createNPC({
     ],
   ],
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'humanoid',
     cr: '8',
     ac: 17,
@@ -68,7 +68,9 @@ export default createNPC({
         timing: 'trait',
         icon: 'gi/GiSkullCrossedBones',
         text: [
-          'Allies of the Church of Gruumsh within 30 ft. of him have advantage on saves against being ',
+          'Allies of the Church of Gruumsh within 30 ft. of him have ',
+          refs.rules.advantage,
+          ' on saves against being ',
           refs.rules.frightened,
           '.',
         ],
@@ -104,7 +106,7 @@ export default createNPC({
             },
           ],
         },
-        text: ['A critical hit also leaves the target ', refs.rules.prone, '.'],
+        text: ['A ', refs.rules.critical_hit, ' also leaves the target ', refs.rules.prone, '.'],
       },
       {
         key: 'javelin',
@@ -131,7 +133,11 @@ export default createNPC({
         timing: 'bonus action',
         icon: 'gi/GiPowerLightning',
         text: [
-          'Until the end of his turn, his attacks have advantage and attacks against him have advantage.',
+          'Until the end of his turn, his attacks have ',
+          refs.rules.advantage,
+          ' and attacks against him have ',
+          refs.rules.advantage,
+          '.',
         ],
       },
       {

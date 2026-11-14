@@ -13,7 +13,7 @@ import {
 
 /** SRD 5.2.1 Dire Wolf: the derived numbers must match the printed stat block. */
 const direWolf = StatBlock.parse({
-  size: 'Large',
+  size: 'large',
   type: 'beast',
   cr: '1',
   ac: 14,
@@ -52,7 +52,7 @@ const direWolf = StatBlock.parse({
 
 /** SRD 5.2.1 Giant Spider: a finesse bite with extra poison damage. */
 const giantSpider = StatBlock.parse({
-  size: 'Large',
+  size: 'large',
   type: 'beast',
   cr: '1',
   ac: 14,
@@ -97,7 +97,8 @@ describe('derived stat block', () => {
       ['Perception', 5],
       ['Stealth', 4],
     ])
-    expect(derived.senses).toBe('Darkvision 60 ft., Passive Perception 15')
+    expect(derived.senses).toEqual([{ sense: 'darkvision', feet: 60 }])
+    expect(derived.passivePerception).toBe(15)
     expect(derived.saves.str).toBe(3)
     expect(plainStatParts(derived.abilities.bite!.summary!)).toBe('+5, 8 (1d10 + 3) piercing')
   })

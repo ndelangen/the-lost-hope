@@ -6,7 +6,7 @@ export default createNPC({
   location: refs.locations.fairhaven,
   notes: [['A fortune teller.']],
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'humanoid',
     cr: '2',
     ac: 12,

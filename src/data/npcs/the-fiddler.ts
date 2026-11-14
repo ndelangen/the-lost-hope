@@ -20,7 +20,7 @@ export default createNPC({
     ],
   ],
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'fey',
     cr: '8',
     ac: 15,
@@ -45,7 +45,7 @@ export default createNPC({
       deception: 'expert',
       insight: 'expert',
       performance: 'expert',
-      sleightOfHand: 'proficient',
+      sleight_of_hand: 'proficient',
     },
     damageResistances: [refs.rules.psychic],
     conditionImmunities: [refs.rules.charmed],
@@ -55,7 +55,11 @@ export default createNPC({
         name: 'Many Timelines',
         timing: 'trait',
         icon: 'gi/GiHourglass',
-        text: ['Can’t be surprised. Attack rolls against him can’t have advantage.'],
+        text: [
+          'Can’t be surprised. Attack rolls against him can’t have ',
+          refs.rules.advantage,
+          '.',
+        ],
       },
       {
         key: 'the-dealer',
@@ -63,7 +67,9 @@ export default createNPC({
         timing: 'trait',
         icon: 'gi/GiCardRandom',
         text: [
-          'Starts each fight with three cards. Drawing one is a bonus action; the DM picks the effect from the Deck of Many More Things.',
+          'Starts each fight with three cards. Drawing one is a ',
+          refs.rules.bonus_action,
+          '; the DM picks the effect from the Deck of Many More Things.',
         ],
         uses: 3,
         recharge: 'Long rest',

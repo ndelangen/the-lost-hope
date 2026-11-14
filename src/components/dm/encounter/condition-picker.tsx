@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 import { CONDITION_ICONS } from '#/lib/condition-icons'
 import type { AbilityId, DurationChoice } from '#/lib/encounter-combat'
-import { CONDITION_KEYS, plainRuleText, rules, type Condition } from '#/lib/rules'
+import { ABILITY_KEYS, CONDITION_KEYS, plainRuleText, rules, type Condition } from '#/lib/rules'
 import { cn } from '#/lib/utils'
 
 import { useDensity } from './density'
@@ -14,15 +14,6 @@ const DURATIONS = [
   { kind: 'rounds', label: 'Rounds' },
   { kind: 'save-ends', label: 'Save ends' },
 ] as const
-
-const ABILITIES: { id: AbilityId; label: string }[] = [
-  { id: 'str', label: 'Str' },
-  { id: 'dex', label: 'Dex' },
-  { id: 'con', label: 'Con' },
-  { id: 'int', label: 'Int' },
-  { id: 'wis', label: 'Wis' },
-  { id: 'cha', label: 'Cha' },
-]
 
 /**
  * Pick how long a condition lasts, then the condition: one click applies it. Turn-based durations
@@ -131,11 +122,13 @@ export function ConditionPicker({
               onChange={(event) => setAbility(event.currentTarget.value as AbilityId)}
               className={control}
             >
-              {ABILITIES.map((option) => (
-                <option key={option.id} value={option.id}>
-                  {option.label}
-                </option>
-              ))}
+              {ABILITY_KEYS.map((id) => ({ id, label: rules[id].short ?? rules[id].name })).map(
+                (option) => (
+                  <option key={option.id} value={option.id}>
+                    {option.label}
+                  </option>
+                ),
+              )}
             </select>
             <span>save at the end of each of its turns</span>
           </div>

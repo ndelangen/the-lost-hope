@@ -12,7 +12,7 @@ export default createNPC({
     ],
   ],
   stats: {
-    size: 'Small',
+    size: 'small',
     type: 'humanoid',
     cr: '1/2',
     ac: 13,
@@ -31,7 +31,7 @@ export default createNPC({
     skills: {
       arcana: 'proficient',
       history: 'expert',
-      sleightOfHand: 'proficient',
+      sleight_of_hand: 'proficient',
     },
     abilities: [
       {
@@ -40,7 +40,9 @@ export default createNPC({
         timing: 'trait',
         icon: 'gi/GiGearHammer',
         text: [
-          'Always has a gadget at hand; advantage on checks to repair, disarm, or improve a mechanism.',
+          'Always has a gadget at hand; ',
+          refs.rules.advantage,
+          ' on checks to repair, disarm, or improve a mechanism.',
         ],
       },
       {

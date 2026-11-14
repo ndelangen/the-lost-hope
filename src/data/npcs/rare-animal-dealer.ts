@@ -16,7 +16,7 @@ export default createNPC({
     ],
   ],
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'humanoid',
     cr: '1',
     ac: 13,
@@ -34,7 +34,7 @@ export default createNPC({
       cha: 13,
     },
     skills: {
-      animalHandling: 'expert',
+      animal_handling: 'expert',
       nature: 'proficient',
       perception: 'proficient',
       survival: 'proficient',
@@ -46,7 +46,8 @@ export default createNPC({
         timing: 'trait',
         icon: 'gi/GiPaw',
         text: [
-          'Advantage on Animal Handling checks; beasts it has handled don’t attack it unless it attacks first.',
+          refs.rules.advantage,
+          ' on Animal Handling checks; beasts it has handled don’t attack it unless it attacks first.',
         ],
       },
       {

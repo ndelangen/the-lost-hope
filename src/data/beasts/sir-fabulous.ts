@@ -21,7 +21,7 @@ export default createBeast({
     ],
   ],
   stats: {
-    size: 'Large',
+    size: 'large',
     type: 'beast',
     cr: '1',
     ac: 14,
@@ -38,7 +38,8 @@ export default createBeast({
         timing: 'trait',
         icon: 'lucide/UsersRound',
         text: [
-          'Advantage on an attack roll against a creature if at least one ally is within 5 ft. of it and not ',
+          refs.rules.advantage,
+          ' on an attack roll against a creature if at least one ally is within 5 ft. of it and not ',
           refs.rules.incapacitated,
           '.',
         ],

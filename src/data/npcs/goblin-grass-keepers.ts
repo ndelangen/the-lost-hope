@@ -14,7 +14,7 @@ export default createNPC({
     ],
   ],
   stats: {
-    size: 'Small',
+    size: 'small',
     type: 'fey',
     cr: '1/4',
     ac: 15,
@@ -44,7 +44,10 @@ export default createNPC({
         name: 'Our Turf',
         timing: 'trait',
         icon: 'gi/GiTreeBranch',
-        text: ['Advantage on attack rolls against a creature standing on their grass.'],
+        text: [
+          refs.rules.advantage,
+          ' on attack rolls against a creature standing on their grass.',
+        ],
       },
       {
         key: 'nimble-escape',
@@ -56,7 +59,9 @@ export default createNPC({
           refs.rules.disengage,
           ' or ',
           refs.rules.hide,
-          ' action as a bonus action.',
+          ' action as a ',
+          refs.rules.bonus_action,
+          '.',
         ],
       },
       {

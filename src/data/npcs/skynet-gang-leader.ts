@@ -5,7 +5,7 @@ export default createNPC({
   name: 'Skynet Gang Leader',
   notes: [['A large, four-armed criminal who leads a local gang.']],
   stats: {
-    size: 'Large',
+    size: 'large',
     type: 'humanoid',
     cr: '4',
     ac: 15,
@@ -33,7 +33,8 @@ export default createNPC({
         timing: 'trait',
         icon: 'lucide/UsersRound',
         text: [
-          'Advantage on an attack roll against a creature if at least one ally is within 5 ft. of it and not ',
+          refs.rules.advantage,
+          ' on an attack roll against a creature if at least one ally is within 5 ft. of it and not ',
           refs.rules.incapacitated,
           '.',
         ],

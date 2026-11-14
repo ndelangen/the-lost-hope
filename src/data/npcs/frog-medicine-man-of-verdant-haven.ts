@@ -7,7 +7,7 @@ export default createNPC({
   species: 'Frogfolk',
   notes: [['A pipe-smoking medicine man.']],
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'humanoid',
     cr: '2',
     ac: 13,
@@ -78,7 +78,7 @@ export default createNPC({
           target: { area: { shape: refs.rules.sphere, size: 10 }, range: 60 },
           onFail: {
             conditions: [refs.rules.poisoned],
-            also: ['Its speed is also halved while it’s poisoned this way.'],
+            also: ['Its speed is also halved while it’s ', refs.rules.poisoned, ' this way.'],
           },
         },
         uses: 1,

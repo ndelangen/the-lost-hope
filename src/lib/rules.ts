@@ -18,6 +18,11 @@ type KeysOfCategory<C extends Rule['category']> = {
 
 export type Condition = KeysOfCategory<'condition'>
 export type DamageType = KeysOfCategory<'damageType'>
+export type AbilityId = KeysOfCategory<'ability'>
+export type Skill = KeysOfCategory<'skill'>
+export type Sense = KeysOfCategory<'sense'>
+export type Size = KeysOfCategory<'size'>
+export type CreatureType = KeysOfCategory<'creatureType'>
 
 function keysOf<C extends Rule['category']>(category: C) {
   return (Object.keys(rules) as RuleKey[]).filter(
@@ -28,6 +33,19 @@ function keysOf<C extends Rule['category']>(category: C) {
 /** Conditions in glossary order, for pickers and validation. */
 export const CONDITION_KEYS = keysOf('condition') as [Condition, ...Condition[]]
 export const DAMAGE_TYPE_KEYS = keysOf('damageType') as [DamageType, ...DamageType[]]
+/** Strength to Charisma, in stat-block order. */
+export const ABILITY_KEYS = keysOf('ability') as [AbilityId, ...AbilityId[]]
+export const SKILL_KEYS = keysOf('skill') as [Skill, ...Skill[]]
+export const SENSE_KEYS = keysOf('sense') as [Sense, ...Sense[]]
+export const SIZE_KEYS = keysOf('size') as [Size, ...Size[]]
+export const CREATURE_TYPE_KEYS = keysOf('creatureType') as [CreatureType, ...CreatureType[]]
+
+/** The ability a skill uses, e.g. Stealth uses Dexterity. */
+export function skillAbility(skill: Skill): AbilityId {
+  const ability = rules[skill].ability
+  if (!ability) throw new Error(`Skill without an ability: ${skill}`)
+  return ability.key as AbilityId
+}
 
 export function ruleOf(ref: RuleRef): Rule {
   const rule = (rules as Readonly<Record<string, Rule>>)[ref.key]

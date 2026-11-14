@@ -10,7 +10,7 @@ export default createNPC({
     ],
   ],
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'humanoid',
     cr: '1/8',
     ac: 10,
@@ -38,7 +38,8 @@ export default createNPC({
         timing: 'trait',
         icon: 'gi/GiBeerStein',
         text: [
-          'Advantage on saves against being ',
+          refs.rules.advantage,
+          ' on saves against being ',
           refs.rules.poisoned,
           '; drugs and drink barely touch her.',
         ],

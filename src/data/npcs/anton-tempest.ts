@@ -8,7 +8,7 @@ export default createNPC({
   ],
   notes: [['An enforcer known for his strict insistence on rules.']],
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'humanoid',
     cr: '3',
     ac: 17,
@@ -37,7 +37,8 @@ export default createNPC({
         timing: 'trait',
         icon: 'gi/GiScrollUnfurled',
         text: [
-          'Advantage on Insight checks to tell whether someone is breaking an agreement or a rule.',
+          refs.rules.advantage,
+          ' on Insight checks to tell whether someone is breaking an agreement or a rule.',
         ],
       },
       {

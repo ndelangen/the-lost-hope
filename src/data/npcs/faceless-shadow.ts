@@ -7,7 +7,7 @@ export default createNPC({
     ['A hovering, faceless shadowy figure seen wielding ', refs.items.cursed_shadow_sword, '.'],
   ],
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'undead',
     cr: '5',
     ac: 14,
@@ -69,7 +69,9 @@ export default createNPC({
         text: [
           'While in dim light or darkness, it can take the ',
           refs.rules.hide,
-          ' action as a bonus action.',
+          ' action as a ',
+          refs.rules.bonus_action,
+          '.',
         ],
       },
       {

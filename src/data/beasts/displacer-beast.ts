@@ -23,7 +23,7 @@ export default createBeast({
     ],
   ],
   stats: {
-    size: 'Large',
+    size: 'large',
     type: 'monstrosity',
     cr: '3',
     ac: 13,
@@ -53,7 +53,9 @@ export default createBeast({
         timing: 'trait',
         icon: 'gi/GiMirrorMirror',
         text: [
-          'Attack rolls against it have disadvantage until it is hit; the effect returns at the start of its next turn.',
+          'Attack rolls against it have ',
+          refs.rules.disadvantage,
+          ' until it is hit; the effect returns at the start of its next turn.',
         ],
       },
       {

@@ -16,7 +16,7 @@ export default createBeast({
     ],
   ],
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'dragon',
     cr: '3',
     ac: 17,

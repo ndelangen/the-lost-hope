@@ -10,7 +10,7 @@ export default createNPC({
     ],
   ],
   stats: {
-    size: 'Small',
+    size: 'small',
     type: 'humanoid',
     cr: '1/8',
     ac: 11,
@@ -51,7 +51,7 @@ export default createNPC({
           target: { creatures: 1, range: 30 },
           onFail: {
             damage: [{ dice: '2d6', type: refs.rules.necrotic }],
-            also: ['It can’t regain hit points until the start of her next turn.'],
+            also: ['It can’t regain ', refs.rules.hit_points, ' until the start of her next turn.'],
           },
         },
       },

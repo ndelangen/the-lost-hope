@@ -6,7 +6,7 @@ export default createNPC({
   location: refs.locations.badesh,
   notes: [['The guard captain of ', refs.locations.badesh, '.']],
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'humanoid',
     cr: '4',
     ac: 18,
@@ -95,7 +95,9 @@ export default createNPC({
         timing: 'reaction',
         icon: 'lucide/Shield',
         text: [
-          'When a creature attacks an ally within 5 ft. of him, he imposes disadvantage on that attack roll.',
+          'When a creature attacks an ally within 5 ft. of him, he imposes ',
+          refs.rules.disadvantage,
+          ' on that attack roll.',
         ],
       },
     ],

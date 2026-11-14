@@ -1,11 +1,11 @@
 import { describe, expect, it } from 'vitest'
 
 import { refs } from '#/data/generated/refs'
-import type { RuleCategory } from '#/definitions/rule'
+import type { Rule, RuleCategory } from '#/definitions/rule'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 import { arcs, creatures, scenes } from '#/lib/dm-campaign'
 import { RULE_ICONS } from '#/lib/rule-icons'
-import { rules } from '#/lib/rules'
+import { ruleOf, rules } from '#/lib/rules'
 
 const ALL_RECORDS = { ...SOURCE_REGISTRIES, arc: arcs, scene: scenes, creature: creatures, rules }
 
@@ -74,5 +74,17 @@ describe('rules glossary icons', () => {
     const damageTypes = terms.filter((rule) => rule.category === 'damageType')
     expect(damageTypes.filter((rule) => !rule.icon)).toEqual([])
     expect(terms.filter((rule) => rule.icon && !(rule.icon in RULE_ICONS))).toEqual([])
+  })
+})
+
+describe('rules glossary skills', () => {
+  it('ties every skill, and only skills, to an ability', () => {
+    const terms = Object.entries(rules) as [string, Rule][]
+    const wrong = terms.filter(([, rule]) =>
+      rule.category === 'skill'
+        ? !rule.ability || ruleOf(rule.ability).category !== 'ability'
+        : rule.ability !== undefined,
+    )
+    expect(wrong.map(([key]) => key)).toEqual([])
   })
 })

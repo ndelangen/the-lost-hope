@@ -5,7 +5,7 @@ export default createNPC({
   name: 'Sylvia’s Brother',
   notes: [['The as-yet unidentified brother of ', refs.npcs.sylvia, '.']],
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'humanoid',
     cr: '1',
     ac: 14,

@@ -17,7 +17,7 @@ const bite = {
   },
 }
 const base = {
-  size: 'Medium',
+  size: 'medium',
   type: 'monstrosity',
   cr: '2',
   ac: 14,

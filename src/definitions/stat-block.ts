@@ -1,30 +1,14 @@
 import { z } from 'zod'
 
+import { ABILITY_KEYS, CREATURE_TYPE_KEYS, SENSE_KEYS, SIZE_KEYS, SKILL_KEYS } from '#/lib/rules'
+
 import { entityRefOf } from './kind'
 
 export const ABILITY_TIMINGS = ['action', 'bonus action', 'reaction', 'trait'] as const
 
 export type AbilityTiming = (typeof ABILITY_TIMINGS)[number]
 
-export const ABILITY_IDS = ['str', 'dex', 'con', 'int', 'wis', 'cha'] as const
 export const SPEED_MODES = ['walk', 'climb', 'fly', 'swim', 'burrow'] as const
-export const SIZES = ['Tiny', 'Small', 'Medium', 'Large', 'Huge', 'Gargantuan'] as const
-export const CREATURE_TYPES = [
-  'aberration',
-  'beast',
-  'celestial',
-  'construct',
-  'dragon',
-  'elemental',
-  'fey',
-  'fiend',
-  'giant',
-  'humanoid',
-  'monstrosity',
-  'ooze',
-  'plant',
-  'undead',
-] as const
 export const CHALLENGE_RATINGS = [
   '0',
   '1/8',
@@ -32,33 +16,9 @@ export const CHALLENGE_RATINGS = [
   '1/2',
   ...Array.from({ length: 30 }, (_, index) => String(index + 1)),
 ] as [string, ...string[]]
-export const SKILLS = {
-  acrobatics: 'dex',
-  animalHandling: 'wis',
-  arcana: 'int',
-  athletics: 'str',
-  deception: 'cha',
-  history: 'int',
-  insight: 'wis',
-  intimidation: 'cha',
-  investigation: 'int',
-  medicine: 'wis',
-  nature: 'int',
-  perception: 'wis',
-  performance: 'cha',
-  persuasion: 'cha',
-  religion: 'int',
-  sleightOfHand: 'dex',
-  stealth: 'dex',
-  survival: 'wis',
-} as const
-export const SENSES = ['blindsight', 'darkvision', 'tremorsense', 'truesight'] as const
-
-export type AbilityId = (typeof ABILITY_IDS)[number]
-export type Skill = keyof typeof SKILLS
 export type ChallengeRating = (typeof CHALLENGE_RATINGS)[number]
 
-const AbilityId = z.enum(ABILITY_IDS)
+const AbilityId = z.enum(ABILITY_KEYS)
 const SpeedMode = z.enum(SPEED_MODES)
 /** A rules term from the glossary, e.g. `refs.rules.fire` or `refs.rules.prone`. */
 const RuleRef = entityRefOf('rule')
@@ -240,8 +200,8 @@ const Source = z
  */
 export const StatBlock = z
   .strictObject({
-    size: z.enum(SIZES),
-    type: z.enum(CREATURE_TYPES),
+    size: z.enum(SIZE_KEYS),
+    type: z.enum(CREATURE_TYPE_KEYS),
     cr: z.enum(CHALLENGE_RATINGS),
     ac: z.number().int().nonnegative(),
     armor: z.string().optional().describe('What gives the AC, e.g. `chain mail, shield`'),
@@ -250,20 +210,11 @@ export const StatBlock = z
       .partialRecord(SpeedMode, z.number().nonnegative())
       .refine((speed) => speed.walk !== undefined, 'Every creature needs a walk speed (0 if none)')
       .describe('Feet'),
-    scores: z.strictObject({
-      str: Score,
-      dex: Score,
-      con: Score,
-      int: Score,
-      wis: Score,
-      cha: Score,
-    }),
+    scores: z.record(AbilityId, Score).describe('Every ability, Strength to Charisma'),
     saves: z.partialRecord(AbilityId, Proficiency).optional(),
-    skills: z
-      .partialRecord(z.enum(Object.keys(SKILLS) as [Skill, ...Skill[]]), Proficiency)
-      .optional(),
+    skills: z.partialRecord(z.enum(SKILL_KEYS), Proficiency).optional(),
     senses: z
-      .partialRecord(z.enum(SENSES), z.number().int().positive())
+      .partialRecord(z.enum(SENSE_KEYS), z.number().int().positive())
       .optional()
       .describe('Feet'),
     damageVulnerabilities: z.array(RuleRef).optional().describe('Damage types'),

@@ -13,7 +13,7 @@ export default createNPC({
     },
   ],
   stats: {
-    size: 'Small',
+    size: 'small',
     type: 'humanoid',
     cr: '5',
     ac: 16,
@@ -48,7 +48,9 @@ export default createNPC({
         timing: 'trait',
         icon: 'gi/GiFist',
         text: [
-          'Counts as Large for carrying, pushing, and grappling, and can throw a Large creature he has grappled up to 15 ft.',
+          'Counts as Large for carrying, pushing, and grappling, and can throw a Large creature he has ',
+          refs.rules.grappled,
+          ' up to 15 ft.',
         ],
       },
       {

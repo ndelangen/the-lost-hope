@@ -1,6 +1,6 @@
 import type { Ability, AbilityTextToken, Attack, Save, StatBlock } from '#/definitions/stat-block'
 
-import { ruleOf, ruleRef, type RuleKey } from './rules'
+import { ruleOf, ruleRef, rules, type RuleKey } from './rules'
 import {
   damageLabel,
   deriveAttack,
@@ -137,15 +137,6 @@ function attackSteps(attack: Attack, stats: StatBlock): DmStep[] {
   ]
 }
 
-const ABILITY_NAME = {
-  str: 'Strength',
-  dex: 'Dexterity',
-  con: 'Constitution',
-  int: 'Intelligence',
-  wis: 'Wisdom',
-  cha: 'Charisma',
-} as const
-
 const COUNT = ['zero', 'one', 'two', 'three', 'four', 'five', 'six']
 
 function targetStep(save: Save): DmStep {
@@ -225,7 +216,7 @@ function targetStep(save: Save): DmStep {
 
 function saveSteps(save: Save, stats: StatBlock): DmStep[] {
   const dc = 8 + proficiencyBonus(stats.cr) + modifier(stats.scores[save.dc])
-  const ability = ABILITY_NAME[save.ability]
+  const ability = rules[save.ability].name
   const who =
     'creatures' in save.target && save.target.creatures === 1
       ? 'The target rolls'

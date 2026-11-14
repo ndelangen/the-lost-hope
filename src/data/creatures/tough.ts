@@ -4,7 +4,7 @@ import { create as createCreature } from '#/definitions/creature.ts'
 export default createCreature({
   name: 'Tough',
   stats: {
-    size: 'Medium',
+    size: 'medium',
     type: 'humanoid',
     cr: '1/2',
     ac: 12,
@@ -19,7 +19,8 @@ export default createCreature({
         timing: 'trait',
         icon: 'lucide/UsersRound',
         text: [
-          'Advantage on an attack roll against a creature if at least one ally is within 5 ft. of it and not ',
+          refs.rules.advantage,
+          ' on an attack roll against a creature if at least one ally is within 5 ft. of it and not ',
           refs.rules.incapacitated,
           '.',
         ],
