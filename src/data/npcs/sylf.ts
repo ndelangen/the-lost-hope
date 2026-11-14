@@ -83,17 +83,15 @@ export default createNPC({
         name: 'Infernal Whisper',
         timing: 'action',
         icon: 'gi/GiCharm',
-        text: [
-          'One creature within 30 ft. that can hear her: Wisdom ',
-          refs.rules.saving_throw,
-          ', ',
-          {
-            dc: 'cha',
+        save: {
+          ability: 'wis',
+          dc: 'cha',
+          target: { creatures: 1, range: 30, which: 'that can hear her' },
+          onFail: {
+            conditions: [refs.rules.charmed],
+            also: ['It lasts until the end of her next turn.'],
           },
-          '. Failure: ',
-          refs.rules.charmed,
-          ' until the end of her next turn.',
-        ],
+        },
         uses: 1,
         recharge: 'Recharge 5–6',
       },

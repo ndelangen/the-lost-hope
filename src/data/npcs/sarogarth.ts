@@ -107,17 +107,16 @@ export default createNPC({
         timing: 'action',
         icon: 'gi/GiCosmicEgg',
         intent: 'damage',
-        text: [
-          'A 20-ft.-radius sphere within 150 ft. Each creature in it: Dexterity ',
-          refs.rules.saving_throw,
-          ', ',
-          {
-            dc: 'int',
+        save: {
+          ability: 'dex',
+          dc: 'int',
+          target: { area: { shape: refs.rules.sphere, size: 20 }, range: 150 },
+          onFail: {
+            damage: [{ dice: '8d6' }],
+            also: ['Roll for the damage type: it’s random each time.'],
           },
-          '. Failure: 8d6 damage of a random type. Success: ',
-          refs.rules.half_damage,
-          '.',
-        ],
+          onSuccess: 'half',
+        },
         uses: 2,
         recharge: 'Long rest',
       },

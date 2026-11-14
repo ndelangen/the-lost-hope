@@ -90,21 +90,15 @@ export default createNPC({
         timing: 'bonus action',
         icon: 'gi/GiStomp',
         intent: 'damage',
-        text: [
-          'One creature he has ',
-          refs.rules.grappled,
-          ': Strength ',
-          refs.rules.saving_throw,
-          ', ',
-          {
-            dc: 'str',
+        save: {
+          ability: 'str',
+          dc: 'str',
+          target: { creatures: 1, range: 5, which: 'he has grappled' },
+          onFail: {
+            damage: [{ dice: '2d8', type: refs.rules.bludgeoning, addModifier: true }],
+            conditions: [refs.rules.prone],
           },
-          '. Failure: 2d8 + 5 ',
-          refs.rules.bludgeoning,
-          ' damage and ',
-          refs.rules.prone,
-          '.',
-        ],
+        },
       },
       {
         key: 'parry',

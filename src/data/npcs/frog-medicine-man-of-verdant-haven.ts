@@ -71,17 +71,16 @@ export default createNPC({
         name: 'Pipe Smoke',
         timing: 'action',
         icon: 'gi/GiSmokeBomb',
-        text: [
-          'A 10-ft.-radius cloud within 60 ft. lasts until the start of his next turn. Each creature in it: Constitution ',
-          refs.rules.saving_throw,
-          ', ',
-          {
-            dc: 'wis',
+        text: ['The cloud lasts until the start of his next turn.'],
+        save: {
+          ability: 'con',
+          dc: 'wis',
+          target: { area: { shape: refs.rules.sphere, size: 10 }, range: 60 },
+          onFail: {
+            conditions: [refs.rules.poisoned],
+            also: ['Its speed is also halved while it’s poisoned this way.'],
           },
-          '. Failure: ',
-          refs.rules.poisoned,
-          ' and its speed is halved.',
-        ],
+        },
         uses: 1,
         recharge: 'Recharge 5–6',
       },

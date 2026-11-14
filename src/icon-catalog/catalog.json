@@ -138506,7 +138506,8 @@
         "src/data/beasts/dragon-children.ts",
         "src/data/npcs/dax.ts",
         "src/data/npcs/dragon-of-the-mountain.ts",
-        "src/lib/ability-icons.tsx"
+        "src/lib/ability-icons.tsx",
+        "src/lib/stat-block.test.ts"
       ]
     },
     {

@@ -5,12 +5,13 @@ import {
   type AbilityId,
   type Attack,
   type ChallengeRating,
+  type Save,
   type Skill,
   type StatBlock,
 } from '#/definitions/stat-block'
 
 import type { DerivedStatBlock } from './dm-ability-text'
-import { ruleOf } from './rules'
+import { ruleOf, ruleRef, type RuleRef } from './rules'
 
 /**
  * Everything a stat block implies but does not store. Stat blocks keep base facts only (scores,
@@ -96,8 +97,6 @@ export function rollText(notation: string, bonus: number) {
   return `${average(notation, bonus)} (${notation}${flat})`
 }
 
-const SHORT = { str: 'Str', dex: 'Dex', con: 'Con', int: 'Int', wis: 'Wis', cha: 'Cha' } as const
-
 export const SKILL_LABELS: Record<Skill, string> = {
   acrobatics: 'Acrobatics',
   animalHandling: 'Animal Handling',
@@ -128,46 +127,117 @@ function proficiencyMultiplier(level: 'proficient' | 'expert' | undefined) {
   return level === 'expert' ? 2 : level === 'proficient' ? 1 : 0
 }
 
+/**
+ * Derived numbers as typed parts, so the screen can explain rules words and give damage types
+ * their icon and colour. Plain strings are only for tooltips and tests (`plainStatParts`).
+ */
+export type StatPart =
+  | { kind: 'text'; text: string }
+  | { kind: 'term'; rule: RuleRef; label: string }
+  | { kind: 'value'; text: string }
+  /** "8 (1d10 + 3) piercing": the average to deal, the dice to roll instead, and the type. */
+  | { kind: 'damage'; amount: number; roll: string; type?: RuleRef }
+
+export type DerivedDamage = Extract<StatPart, { kind: 'damage' }>
+
 export type DerivedAttack = {
+  /** Added to the d20 for the attack roll. */
   bonus: number
-  /** "reach 5 ft." or "range 100/400 ft." */
-  distance: string
-  /** "8 (1d10 + 3) piercing plus 7 (2d6) poison" */
-  damage: string
+  damage: DerivedDamage[]
+}
+
+function flatBonus(bonus: number) {
+  return bonus === 0 ? '' : ` ${bonus > 0 ? '+' : '−'} ${Math.abs(bonus)}`
 }
 
 export function deriveAttack(attack: Attack, stats: StatBlock): DerivedAttack {
   const mod = modifier(stats.scores[attack.ability])
   return {
     bonus: mod + proficiencyBonus(stats.cr),
-    distance:
-      attack.kind === 'melee' ? `reach ${attack.reach} ft.` : `range ${attack.range.join('/')} ft.`,
-    damage: attack.damage
-      .map(
-        (roll) =>
-          `${rollText(roll.dice, roll.addModifier ? mod : 0)} ${ruleOf(roll.type).name.toLowerCase()}`,
-      )
-      .join(' plus '),
+    damage: attack.damage.map((roll) => {
+      const extra = roll.addModifier ? mod : 0
+      return {
+        kind: 'damage',
+        amount: average(roll.dice, extra),
+        roll: `${roll.dice}${flatBonus(extra)}`,
+        type: roll.type,
+      }
+    }),
   }
 }
 
-/** "Melee +5, reach 5 ft. · Hit: 8 (1d10 + 3) piercing" */
-export function attackLine(attack: Attack, stats: StatBlock) {
-  const derived = deriveAttack(attack, stats)
-  const kind = attack.kind === 'melee' ? 'Melee' : 'Ranged'
-  return `${kind} ${signed(derived.bonus)}, ${derived.distance} · Hit: ${derived.damage}`
+/** The damage type as it reads in a sentence: "piercing". */
+export function damageLabel(type: RuleRef) {
+  return ruleOf(type).name.toLowerCase()
 }
 
-/** "+5, 8 (1d10 + 3) piercing" for attacks, or the save DC an ability's text asks for. */
-export function abilitySummary(ability: Ability, stats: StatBlock): string | undefined {
+export const SHORT = {
+  str: 'Str',
+  dex: 'Dex',
+  con: 'Con',
+  int: 'Int',
+  wis: 'Wis',
+  cha: 'Cha',
+} as const
+
+/** Damage a failed save deals, with averages; `addModifier` uses the DC's ability. */
+export function deriveSaveDamage(save: Save, stats: StatBlock): DerivedDamage[] {
+  const mod = modifier(stats.scores[save.dc])
+  return (save.onFail.damage ?? []).map((roll) => {
+    const extra = roll.addModifier ? mod : 0
+    return {
+      kind: 'damage',
+      amount: average(roll.dice, extra),
+      roll: `${roll.dice}${flatBonus(extra)}`,
+      type: roll.type,
+    }
+  })
+}
+
+/** "+5, 8 (1d10 + 3) piercing" for attacks, or "DC 21 Dex save, 60 (11d10) fire" for saves. */
+export function abilitySummary(ability: Ability, stats: StatBlock): StatPart[] | undefined {
   if (ability.attack) {
     const derived = deriveAttack(ability.attack, stats)
-    return `${signed(derived.bonus)}, ${derived.damage}`
+    return [
+      { kind: 'value', text: signed(derived.bonus) },
+      { kind: 'text', text: ', ' },
+      ...derived.damage.flatMap((damage, index): StatPart[] =>
+        index === 0 ? [damage] : [{ kind: 'text', text: ' plus ' }, damage],
+      ),
+    ]
   }
-  const dc = ability.text.find((token) => typeof token === 'object' && 'dc' in token)
-  if (dc && typeof dc === 'object' && 'dc' in dc)
-    return `DC ${saveDc(stats, dc.dc)} ${SHORT[dc.dc]}`
+  if (ability.save)
+    return [
+      { kind: 'term', rule: ruleRef('difficulty_class'), label: 'DC' },
+      { kind: 'value', text: ` ${saveDc(stats, ability.save.dc)} ${SHORT[ability.save.ability]} ` },
+      { kind: 'term', rule: ruleRef('saving_throw'), label: 'save' },
+      ...(ability.save.onFail.damage
+        ? [
+            { kind: 'text', text: ', ' } as const,
+            ...deriveSaveDamage(ability.save, stats).flatMap((damage, index): StatPart[] =>
+              index === 0 ? [damage] : [{ kind: 'text', text: ' plus ' }, damage],
+            ),
+          ]
+        : []),
+    ]
   return undefined
+}
+
+/** Parts as one string, for tooltips and tests. */
+export function plainStatParts(parts: readonly StatPart[]) {
+  return parts
+    .map((part) => {
+      switch (part.kind) {
+        case 'text':
+        case 'value':
+          return part.text
+        case 'term':
+          return part.label
+        case 'damage':
+          return `${part.amount} (${part.roll})${part.type ? ` ${damageLabel(part.type)}` : ''}`
+      }
+    })
+    .join('')
 }
 
 function saveDc(stats: StatBlock, ability: AbilityId) {
@@ -229,7 +299,6 @@ export function deriveStatBlock(stats: StatBlock): DerivedStats {
           key: ability.key,
           name: ability.name,
           summary: abilitySummary(ability, stats),
-          attack: ability.attack ? attackLine(ability.attack, stats) : undefined,
         },
       ]),
     ),

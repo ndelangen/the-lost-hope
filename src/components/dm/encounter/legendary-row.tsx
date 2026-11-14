@@ -19,8 +19,6 @@ export type LegendaryGroup = {
   block: DerivedStatBlock
 }
 
-const NOTE = 'After another creature’s turn. Shared uses. Refill at the start of its turn.'
-
 /** Every creature's legendary actions, within reach between initiative and the roster. */
 export function LegendaryRow({
   groups,
@@ -82,7 +80,6 @@ export function LegendaryRow({
         <AbilityDetail
           title={`${openGroup.name} · ${openAction.name}`}
           ability={openAction}
-          note={NOTE}
           count={openGroup.pool}
           onUse={() => actionsFor(openGroup.id).use(LEGENDARY_POOL, openGroup.pool)}
           onRecharge={() => actionsFor(openGroup.id).recharge(LEGENDARY_POOL, openGroup.pool)}
