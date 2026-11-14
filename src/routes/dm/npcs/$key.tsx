@@ -3,8 +3,10 @@ import { lazy, Suspense } from 'react'
 
 import { ContentRenderer } from '#/components/content-renderer'
 import { DmFaces } from '#/components/dm/dm-faces'
+import { DmHiddenReference } from '#/components/dm/dm-hidden-reference'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
 import { EntityReference } from '#/components/entity-reference'
+import { refLink } from '#/lib/campaign'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 import { creatures, resolveSourceRef, resolveStatBlock } from '#/lib/dm-campaign'
 import { deriveStatBlock } from '#/lib/stat-block'
@@ -54,10 +56,14 @@ function DmNpcRoute() {
             <h1 className="text-2xl font-bold">{npc.name}</h1>
             <p className="text-muted-foreground text-sm">
               {[npc.species, npc.languages?.join(', ')].filter(Boolean).join(' · ')}
-              {location ? (
+              {npc.location && location ? (
                 <>
                   {' · '}
-                  <EntityReference kind="location" slug={location.slug} />
+                  {refLink(npc.location) ? (
+                    <EntityReference kind="location" slug={location.slug} />
+                  ) : (
+                    <DmHiddenReference reference={npc.location} />
+                  )}
                 </>
               ) : null}
             </p>
