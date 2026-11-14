@@ -13,4 +13,98 @@ export default createNPC({
       ' who keep a patch of grass in absolutely perfect condition. Friendly to the city and to strangers, but fiercely protective of their turf. The location of their turf and whether they have a leader are unestablished.',
     ],
   ],
+  stats: {
+    size: 'Small',
+    type: 'fey',
+    cr: '1/4',
+    ac: 15,
+    armor: 'leather armor, shield',
+    hitDice: '3d6',
+    speed: {
+      walk: 30,
+    },
+    scores: {
+      str: 8,
+      dex: 15,
+      con: 10,
+      int: 10,
+      wis: 8,
+      cha: 8,
+    },
+    skills: {
+      stealth: 'expert',
+      nature: 'proficient',
+    },
+    senses: {
+      darkvision: 60,
+    },
+    abilities: [
+      {
+        key: 'our-turf',
+        name: 'Our Turf',
+        timing: 'trait',
+        icon: 'gi/GiTreeBranch',
+        text: ['Advantage on attack rolls against a creature standing on their grass.'],
+      },
+      {
+        key: 'nimble-escape',
+        name: 'Nimble Escape',
+        timing: 'trait',
+        icon: 'gi/GiSmokeBomb',
+        text: [
+          'Takes the ',
+          {
+            action: 'disengage',
+          },
+          ' or ',
+          {
+            action: 'hide',
+          },
+          ' action as a bonus action.',
+        ],
+      },
+      {
+        key: 'shears',
+        name: 'Garden Shears',
+        timing: 'action',
+        icon: 'gi/GiDaggerRose',
+        intent: 'damage',
+        attack: {
+          kind: 'melee',
+          ability: 'dex',
+          damage: [
+            {
+              dice: '1d6',
+              type: 'slashing',
+              addModifier: true,
+            },
+          ],
+        },
+      },
+      {
+        key: 'sling',
+        name: 'Sling',
+        timing: 'action',
+        icon: 'gi/GiSlingshot',
+        intent: 'damage',
+        attack: {
+          kind: 'ranged',
+          ability: 'dex',
+          range: [30, 120],
+          damage: [
+            {
+              dice: '1d4',
+              type: 'bludgeoning',
+              addModifier: true,
+            },
+          ],
+        },
+      },
+    ],
+    source: {
+      adaptedFrom: ['srd-2024_goblin-warrior'],
+      changes:
+        'Goblin warriors with garden shears and slings, deadly on their own turf. One stat block per goblin.',
+    },
+  },
 })

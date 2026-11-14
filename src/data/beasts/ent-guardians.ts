@@ -6,4 +6,86 @@ export default createBeast({
   location: refs.locations.verdant_haven_forest,
   species: 'Walking tree-like creatures',
   notes: [['Guardians that roam the forest around ', refs.locations.verdant_haven, ' at night.']],
+  stats: {
+    size: 'Huge',
+    type: 'plant',
+    cr: '2',
+    ac: 13,
+    armor: 'natural armor',
+    hitDice: '7d12',
+    speed: {
+      walk: 20,
+    },
+    scores: {
+      str: 19,
+      dex: 6,
+      con: 15,
+      int: 10,
+      wis: 10,
+      cha: 7,
+    },
+    damageVulnerabilities: ['fire'],
+    damageResistances: ['bludgeoning', 'piercing'],
+    abilities: [
+      {
+        key: 'false-appearance',
+        name: 'False Appearance',
+        timing: 'trait',
+        icon: 'gi/GiTreeBranch',
+        text: ['While motionless, it is indistinguishable from an ordinary tree.'],
+      },
+      {
+        key: 'forest-ward',
+        name: 'Forest Ward',
+        timing: 'trait',
+        icon: 'gi/GiTreeBranch',
+        text: [
+          'At night in its forest, it can’t be surprised and knows where every creature on the ground within 60 ft. is.',
+        ],
+      },
+      {
+        key: 'slam',
+        name: 'Slam',
+        timing: 'action',
+        icon: 'gi/GiTreeBranch',
+        intent: 'damage',
+        attack: {
+          kind: 'melee',
+          ability: 'str',
+          reach: 10,
+          damage: [
+            {
+              dice: '3d6',
+              type: 'bludgeoning',
+              addModifier: true,
+            },
+          ],
+        },
+      },
+      {
+        key: 'entangle',
+        name: 'Grasping Roots',
+        timing: 'action',
+        icon: 'gi/GiTreeBranch',
+        text: [
+          'One creature within 10 ft.: Strength saving throw, ',
+          {
+            dc: 'str',
+          },
+          '. Failure: ',
+          {
+            condition: 'restrained',
+          },
+          ' until the end of its next turn.',
+        ],
+        uses: 1,
+        recharge: 'Recharge 5–6',
+      },
+    ],
+    source: {
+      adaptedFrom: ['srd-2024_awakened-tree'],
+      changes:
+        'Night guardians of the forest: awakened trees with root grabs and a watchful ward. One stat block per guardian.',
+    },
+  },
 })

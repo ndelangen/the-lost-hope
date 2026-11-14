@@ -7,4 +7,5 @@ export default createNPC({
     { organization: refs.organizations.tempest_family, status: 'active', rank: 'Family member' },
   ],
   notes: [['One of the older siblings.']],
+  stats: refs.creatures.noble,
 })

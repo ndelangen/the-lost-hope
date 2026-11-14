@@ -20,4 +20,5 @@ export default createNPC({
       '.',
     ],
   ],
+  stats: refs.creatures.pirate_captain,
 })

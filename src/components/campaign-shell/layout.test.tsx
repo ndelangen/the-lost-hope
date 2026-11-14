@@ -3,7 +3,12 @@ import { describe, expect, it } from 'vitest'
 
 import { CampaignShellLayout } from './layout'
 
-function renderLayout({ open = false, collapsed = false, hasNavigation = true } = {}) {
+function renderLayout({
+  open = false,
+  collapsed = false,
+  hasNavigation = true,
+  focused = false,
+} = {}) {
   return renderToStaticMarkup(
     <CampaignShellLayout
       header={<span>Header</span>}
@@ -12,6 +17,7 @@ function renderLayout({ open = false, collapsed = false, hasNavigation = true } 
       navigationOpen={open}
       navigationCollapsed={collapsed}
       hasNavigation={hasNavigation}
+      focused={focused}
       onDismissNavigation={() => undefined}
     >
       <span>Content</span>
@@ -46,5 +52,14 @@ describe('CampaignShellLayout', () => {
     expect(markup).not.toContain('<aside')
     expect(markup).not.toContain('Close navigation')
     expect(markup).not.toContain('lg:pl-8')
+  })
+
+  it('drops the header, navigation, and width cap in focus mode', () => {
+    const markup = renderLayout({ focused: true })
+
+    expect(markup).toContain('Content')
+    expect(markup).not.toContain('Header')
+    expect(markup).not.toContain('Navigation')
+    expect(markup).not.toContain('max-w-7xl')
   })
 })

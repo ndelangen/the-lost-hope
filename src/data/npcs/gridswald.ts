@@ -5,4 +5,5 @@ export default createNPC({
   name: 'Gridswald',
   location: refs.locations.verdant_haven,
   notes: [['The mayor of ', refs.locations.verdant_haven, '.']],
+  stats: refs.creatures.noble,
 })

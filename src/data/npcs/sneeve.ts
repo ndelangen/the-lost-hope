@@ -15,4 +15,5 @@ export default createNPC({
       rank: 'Member',
     },
   ],
+  stats: refs.creatures.spy,
 })

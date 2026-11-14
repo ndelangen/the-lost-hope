@@ -71,6 +71,7 @@ Entity plan:
 - Canonical name and derived slug:
 - File and registry key:
 - Structured fields:
+- Stat block (NPCs and beasts): shared `refs.creatures.*` or inline; SRD base and changes:
 - Canonical owner for each new fact:
 - References to add or update:
 - Intentional quest synthesis, if any:
@@ -106,6 +107,13 @@ event prose:
   what happened at the table.
 - One-time gains (ability scores, gold, languages, items), item properties, and conditions that end
   with the fight are not effects.
+
+Every new NPC or beast needs `stats` in the same change; validation fails without it. Follow the
+"Stat blocks" rules in `src/data/AGENTS.md`: search `src/data/creatures/` first and reference a
+shared creature when the new record is the same kind of creature; otherwise adapt an SRD 5.2.1
+creature (Open5e `srd-2024_*` key in `source.adaptedFrom`) or build homebrew, pitched at the party's
+level, and store only base facts so every bonus and DC is derived. When a second record would share
+an inline block, move that block into `src/data/creatures/` and reference it from both.
 
 For events, use the next sequential `n2-e###` ID and a positive integer `day`; sessions alone retain
 full real-world dates. Session event-reference order records event order within a day. Choose `mark`

@@ -1,10 +1,12 @@
 import { describe, expect, it } from 'vitest'
 
 import arcs from '#/data/arcs/_index.ts'
+import creatures from '#/data/creatures/_index.ts'
 import { refs } from '#/data/generated/refs.ts'
 import { ENTITY_KINDS } from '#/definitions/kind.ts'
 import { QUEST_TYPES } from '#/definitions/quest.ts'
 import catalog from '#/icon-catalog/catalog.json'
+import { ABILITY_ICONS } from '#/lib/ability-icons.tsx'
 import { ARC_ICONS } from '#/lib/arc-icons.tsx'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 import {
@@ -354,7 +356,42 @@ describe('beasts', () => {
   })
 })
 
+const statBlocks = [
+  ...Object.values(SOURCE_REGISTRIES.npc),
+  ...Object.values(SOURCE_REGISTRIES.beast),
+].flatMap(({ stats }) => ('ref' in stats ? [] : [stats]))
+
+const abilityIcons = [...statBlocks, ...Object.values(creatures).map(({ stats }) => stats)].flatMap(
+  (stats) =>
+    stats.abilities
+      .map((ability) => ability.icon)
+      .concat((stats.legendary?.actions ?? []).map((ability) => ability.icon)),
+)
+
+describe('stat blocks', () => {
+  const sharedRefs = [
+    ...Object.values(SOURCE_REGISTRIES.npc),
+    ...Object.values(SOURCE_REGISTRIES.beast),
+  ].flatMap(({ stats }) => ('ref' in stats ? [stats.key] : []))
+
+  it('resolves every shared creature reference', () => {
+    expect(sharedRefs.filter((key) => !Object.hasOwn(creatures, key))).toEqual([])
+  })
+
+  it('shares a creature stat block only when two or more records use it', () => {
+    const uses = Object.keys(creatures).map((key) => [
+      key,
+      sharedRefs.filter((ref) => ref === key).length,
+    ])
+    expect(uses.filter(([, count]) => (count as number) < 2)).toEqual([])
+  })
+})
+
 describe('entity icons', () => {
+  it('depicts every stat-block ability with a supported icon', () => {
+    expect(abilityIcons.filter((icon) => !(icon in ABILITY_ICONS))).toEqual([])
+  })
+
   it('gives locations, organizations, and quests unique supported icons', () => {
     const iconGroups = [
       {
@@ -395,6 +432,7 @@ describe('entity icons', () => {
       ),
       ...Object.values(quests).map((quest) => quest.icon),
       ...Object.values(sessions).map((session) => session.icon),
+      ...abilityIcons,
     ]
 
     expect(

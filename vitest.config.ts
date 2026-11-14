@@ -1,5 +1,5 @@
 import viteReact from '@vitejs/plugin-react'
-import { defineConfig } from 'vitest/config'
+import { configDefaults, defineConfig } from 'vitest/config'
 
 export default defineConfig({
   define: {
@@ -9,4 +9,6 @@ export default defineConfig({
   resolve: {
     dedupe: ['react', 'react-dom'],
   },
+  // output/ is local scratch (see AGENTS.md); tooling never checks it.
+  test: { exclude: [...configDefaults.exclude, 'output/**'] },
 })

@@ -16,4 +16,116 @@ export default createBeast({
     ],
     ['His additional abilities and trained skill remain undecided.'],
   ],
+  stats: {
+    size: 'Large',
+    type: 'celestial',
+    cr: '3',
+    ac: 16,
+    armor: 'natural armor',
+    hitDice: '7d10',
+    speed: {
+      walk: 60,
+    },
+    scores: {
+      str: 18,
+      dex: 15,
+      con: 16,
+      int: 6,
+      wis: 13,
+      cha: 10,
+    },
+    skills: {
+      perception: 'expert',
+      stealth: 'proficient',
+    },
+    senses: {
+      darkvision: 60,
+    },
+    damageResistances: ['radiant'],
+    abilities: [
+      {
+        key: 'bonded-mount',
+        name: 'Bonded Mount',
+        timing: 'trait',
+        icon: 'lucide/Link',
+        text: [
+          'Devan can ride him; while mounted, Devan’s attacks against creatures smaller than the steed have advantage.',
+        ],
+      },
+      {
+        key: 'pack-tactics',
+        name: 'Pack Tactics',
+        timing: 'trait',
+        icon: 'lucide/UsersRound',
+        text: [
+          'Advantage on an attack roll against a creature if at least one ally is within 5 ft. of it and not ',
+          {
+            condition: 'incapacitated',
+          },
+          '.',
+        ],
+      },
+      {
+        key: 'bite',
+        name: 'Divine Bite',
+        timing: 'action',
+        icon: 'gi/GiFangs',
+        intent: 'damage',
+        attack: {
+          kind: 'melee',
+          ability: 'str',
+          damage: [
+            {
+              dice: '1d10',
+              type: 'piercing',
+              addModifier: true,
+            },
+            {
+              dice: '1d8',
+              type: 'radiant',
+            },
+          ],
+        },
+        text: [
+          'If the target is Large or smaller, it has the ',
+          {
+            condition: 'prone',
+          },
+          ' condition.',
+        ],
+      },
+      {
+        key: 'fell-glare',
+        name: 'Fell Glare',
+        timing: 'reaction',
+        icon: 'gi/GiSunbeams',
+        text: [
+          'When a creature within 60 ft. hits Devan, it makes a Wisdom saving throw, ',
+          {
+            dc: 'cha',
+          },
+          '. Failure: ',
+          {
+            condition: 'frightened',
+          },
+          ' until the end of its next turn.',
+        ],
+      },
+      {
+        key: 'healing-touch',
+        name: 'Healing Touch',
+        timing: 'bonus action',
+        icon: 'lucide/HeartPulse',
+        intent: 'healing',
+        text: ['Touches Devan or another creature, which regains 2d8 + 2 HP.'],
+        uses: 1,
+        recharge: 'Long rest',
+      },
+    ],
+    source: {
+      adaptedFrom: ['srd-2024_dire-wolf'],
+      changes:
+        'Sir Fabulous after the divine change: a celestial steed for Devan with otherworldly-steed abilities. His trained skill is still undecided.',
+    },
+  },
 })
