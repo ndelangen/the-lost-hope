@@ -105,11 +105,19 @@ export default createNPC({
         icon: 'gi/GiFireBreath',
         intent: 'damage',
         text: [
-          'Each creature in a 60-ft. cone: Dexterity saving throw, ',
+          'Each creature in a 60-ft. ',
+          refs.rules.cone,
+          ': Dexterity ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'con',
           },
-          '. Failure: 11d10 fire damage. Success: half damage.',
+          '. Failure: 11d10 ',
+          refs.rules.fire,
+          ' damage. Success: ',
+          refs.rules.half_damage,
+          '.',
         ],
         uses: 1,
         recharge: 'Recharge 5–6',
@@ -120,7 +128,9 @@ export default createNPC({
         timing: 'action',
         icon: 'gi/GiDragonBreath',
         text: [
-          'Each creature of its choice within 120 ft.: Wisdom saving throw, ',
+          'Each creature of its choice within 120 ft.: Wisdom ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'cha',
           },

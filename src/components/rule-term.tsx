@@ -38,7 +38,7 @@ export function RuleTerm({
         {Icon ? (
           <Icon aria-hidden className="mr-0.5 inline-block size-[1.1em] align-[-0.2em]" />
         ) : null}
-        {children ?? term.name}
+        {children ?? term.short ?? term.name}
       </button>
     </HoverPreview>
   )
