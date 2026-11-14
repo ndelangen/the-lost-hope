@@ -13,6 +13,8 @@ export default createScene({
     refs.pcs.cassian_veyl,
     refs.pcs.devan,
     refs.beasts.wolfie,
+    refs.pcs.jim,
+    refs.items.beasts_and_dwarf_s_airship,
   ],
   setup: [
     [
@@ -54,20 +56,28 @@ export default createScene({
   ],
   outcomes: [
     {
-      when: [['They join the Tempests.']],
+      when: [['', refs.npcs.onana_tempest, ' learns they travelled with ', refs.pcs.jim, '.']],
       response: [
-        ['', refs.npcs.onana_tempest, ' wants to know everything they know about the traitor.'],
+        [
+          refs.pcs.jim,
+          '’s presence and hiding brought this war to the sky islands. ',
+          refs.npcs.onana_tempest,
+          ' sends them away with their completed ',
+          refs.items.beasts_and_dwarf_s_airship,
+          ': ',
+          refs.pcs.jim,
+          '’s final departing gift.',
+        ],
       ],
     },
     {
       when: [['', refs.pcs.cassian_veyl, ' or ', refs.pcs.devan, ' bring up reuniting the party.']],
       response: [
         [
-          '',
           refs.npcs.onana_tempest,
-          ' needs every hand he can get and lends them soldiers to find ',
+          ' wants them gone either way, so his soldiers bring ',
           refs.pcs.swift_starblade,
-          '.',
+          ' to the airship before it leaves.',
         ],
       ],
     },
