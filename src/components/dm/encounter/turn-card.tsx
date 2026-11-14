@@ -1,9 +1,27 @@
-import { Brain, Check, Crown, Dices, HeartCrack, Hourglass, ShieldQuestion, X } from 'lucide-react'
+import {
+  Brain,
+  Castle,
+  Check,
+  Crown,
+  Dices,
+  HeartCrack,
+  Hourglass,
+  ShieldQuestion,
+  X,
+} from 'lucide-react'
 import type { ReactNode } from 'react'
 
+import { EffectText } from '#/components/effect-text'
 import { CONDITIONS } from '#/definitions/rules-glossary'
 import { CONDITION_ICONS } from '#/lib/condition-icons'
-import { describeDuration, type TurnNote, type TurnReminder } from '#/lib/encounter-combat'
+import { EffectIcon } from '#/lib/effect-icons'
+import {
+  describeDuration,
+  type EffectReminder,
+  type LairPrompt,
+  type TurnNote,
+  type TurnReminder,
+} from '#/lib/encounter-combat'
 import { cn } from '#/lib/utils'
 
 import { useDensity } from './density'
@@ -29,6 +47,9 @@ export function TurnCard({
   nameOf,
   onRecharge,
   onDismissRecharge,
+  lair = [],
+  onLairAction,
+  effectReminders = [],
 }: {
   name: string
   reminders: readonly TurnReminder[]
@@ -36,9 +57,20 @@ export function TurnCard({
   nameOf: (id: string) => string
   onRecharge: (useKey: string) => void
   onDismissRecharge: (useKey: string) => void
+  /** Lair actions on initiative 20, shown at the top of the round. */
+  lair?: readonly LairPrompt[]
+  onLairAction?: (combatant: string, key: string) => void
+  /** Campaign effects that ask for a reminder as the encounter starts. */
+  effectReminders?: readonly EffectReminder[]
 }) {
   const focus = useDensity() === 'focus'
-  if (reminders.length === 0 && notes.length === 0) return null
+  if (
+    reminders.length === 0 &&
+    notes.length === 0 &&
+    lair.length === 0 &&
+    effectReminders.length === 0
+  )
+    return null
 
   return (
     <section
@@ -52,6 +84,45 @@ export function TurnCard({
         {name}’s turn: keep in mind
       </h2>
       <ul className="grid gap-1.5">
+        {effectReminders.map((item) => (
+          <Item
+            key={`effect-${item.combatant}-${item.effect}`}
+            icon={<EffectIcon icon={item.icon} className="size-5 text-sky-600" />}
+          >
+            <span className="grid gap-1">
+              <span>
+                Encounter starts: <strong>{item.name}</strong> · {item.effect}
+              </span>
+              <EffectText text={item.reminder} className="text-muted-foreground" />
+            </span>
+          </Item>
+        ))}
+        {lair.map((prompt) => (
+          <Item
+            key={`lair-${prompt.combatant}`}
+            icon={<Castle aria-hidden className="text-amber-600" />}
+            strong
+          >
+            <span>
+              Initiative 20: <strong>{prompt.name}</strong>{' '}
+              {prompt.used ? `used ${prompt.used} this round.` : 'takes a lair action.'}
+            </span>
+            {prompt.used ? null : (
+              <span className="flex flex-wrap gap-2">
+                {prompt.options.map((option) => (
+                  <ActionButton
+                    key={option.key}
+                    disabled={option.blocked}
+                    title={option.blocked ? 'Used last round' : undefined}
+                    onClick={() => onLairAction?.(prompt.combatant, option.key)}
+                  >
+                    {option.name}
+                  </ActionButton>
+                ))}
+              </span>
+            )}
+          </Item>
+        ))}
         {notes.map((note, index) => (
           // oxlint-disable-next-line react/no-array-index-key -- notes are positional
           <Item key={`note-${index}`} icon={noteIcon(note)}>

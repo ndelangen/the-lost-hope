@@ -297,7 +297,7 @@ export function deleteEncounter(store: EncounterStore, id: string): EncounterSto
 export type LiveStats = { hp?: number; maxHp?: number; ac?: number }
 
 /** Starting values from the creature's derived stat block. */
-export type StartingStats = { maxHp: number; ac: number }
+export type StartingStats = { maxHp?: number; ac?: number }
 
 export function liveStats(start: StartingStats | undefined, saved: CombatantValues | undefined) {
   const maxHp = saved?.maxHp ?? start?.maxHp
@@ -454,6 +454,20 @@ export function markDead(encounter: Encounter, id: string, dead: boolean): Encou
   return updateValues(encounter, id, ({ dying: _d, stable: _s, dead: _x, ...values }) =>
     dead ? { ...values, dead: true } : values,
   )
+}
+
+export function setInLair(encounter: Encounter, id: string, inLair: boolean): Encounter {
+  return updateValues(encounter, id, ({ inLair: _previous, ...values }) =>
+    inLair ? { ...values, inLair: true } : values,
+  )
+}
+
+/** Record this round's lair action. */
+export function recordLairAction(encounter: Encounter, id: string, key: string): Encounter {
+  return updateValues(encounter, id, (values) => ({
+    ...values,
+    lastLairAction: { key, round: encounter.round },
+  }))
 }
 
 /** Restore a combatant's starting values from the campaign record. */

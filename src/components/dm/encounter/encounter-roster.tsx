@@ -84,6 +84,7 @@ export function EncounterRoster({
                     <ConditionBadges
                       conditions={row.combat.conditions}
                       concentration={row.combat.concentration}
+                      effects={row.effects}
                       out={
                         row.combat.dead
                           ? 'dead'
