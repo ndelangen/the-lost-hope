@@ -1,7 +1,7 @@
 import { z } from 'zod'
 
 import type { EntityRef } from '#/definitions/kind'
-import type { Condition } from '#/definitions/rules-glossary'
+import type { Condition } from '#/lib/rules'
 
 import {
   CombatFields,

@@ -77,12 +77,12 @@ export default createNPC({
           damage: [
             {
               dice: '1d6',
-              type: 'bludgeoning',
+              type: refs.rules.bludgeoning,
               addModifier: true,
             },
             {
               dice: '1d8',
-              type: 'radiant',
+              type: refs.rules.radiant,
             },
           ],
         },
@@ -94,15 +94,19 @@ export default createNPC({
         icon: 'gi/GiHolySymbol',
         intent: 'damage',
         text: [
-          'One creature within 60 ft.: Wisdom saving throw, ',
+          'One creature within 60 ft.: Wisdom ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'wis',
           },
-          '. Failure: 4d8 radiant damage and ',
-          {
-            condition: 'frightened',
-          },
-          ' until the end of its next turn. Success: half damage.',
+          '. Failure: 4d8 ',
+          refs.rules.radiant,
+          ' damage and ',
+          refs.rules.frightened,
+          ' until the end of its next turn. Success: ',
+          refs.rules.half_damage,
+          '.',
         ],
       },
       {

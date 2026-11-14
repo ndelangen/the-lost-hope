@@ -1,6 +1,7 @@
 import { Play } from 'lucide-react'
 import { useId, useRef, useState, type ReactNode } from 'react'
 
+import { RuleTerm } from '#/components/rule-term'
 import { HoverPreview } from '#/components/ui/hover-preview'
 import type { StatBlock } from '#/definitions/stat-block'
 import {
@@ -80,16 +81,7 @@ function Segment({
         </HoverPreview>
       )
     case 'rule':
-      return (
-        <HoverPreview content={segment.note}>
-          <button
-            type="button"
-            className="decoration-muted-foreground focus-visible:ring-ring/50 cursor-help rounded-sm underline decoration-dotted underline-offset-4 outline-none focus-visible:ring-3"
-          >
-            {segment.label}
-          </button>
-        </HoverPreview>
-      )
+      return <RuleTerm rule={segment.rule}>{segment.label}</RuleTerm>
     case 'ability':
       return <AbilityChip segment={segment} chip={chip} referenced={describe?.(segment.key)} />
   }

@@ -60,7 +60,7 @@ export default createNPC({
     senses: {
       truesight: 60,
     },
-    damageResistances: ['radiant'],
+    damageResistances: [refs.rules.radiant],
     abilities: [
       {
         key: 'marshals-authority',
@@ -69,13 +69,9 @@ export default createNPC({
         icon: 'gi/GiHolySymbol',
         text: [
           'Can’t be ',
-          {
-            condition: 'charmed',
-          },
+          refs.rules.charmed,
           ' or ',
-          {
-            condition: 'frightened',
-          },
+          refs.rules.frightened,
           '. A creature that has signed one of his contracts has disadvantage on saves against his abilities.',
         ],
       },
@@ -84,7 +80,7 @@ export default createNPC({
         name: 'Legendary Resistance',
         timing: 'trait',
         icon: 'lucide/Shield',
-        text: ['If he fails a saving throw, he can choose to succeed instead.'],
+        text: ['If he fails a ', refs.rules.saving_throw, ', he can choose to succeed instead.'],
         uses: 3,
         recharge: 'Long rest',
       },
@@ -115,7 +111,7 @@ export default createNPC({
           damage: [
             {
               dice: '2d8',
-              type: 'radiant',
+              type: refs.rules.radiant,
               addModifier: true,
             },
           ],
@@ -128,15 +124,19 @@ export default createNPC({
         icon: 'gi/GiSunbeams',
         intent: 'damage',
         text: [
-          'Each creature of his choice within 30 ft.: Constitution saving throw, ',
+          'Each creature of his choice within 30 ft.: Constitution ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'cha',
           },
-          '. Failure: 6d8 radiant damage and ',
-          {
-            condition: 'blinded',
-          },
-          ' until the end of its next turn. Success: half damage.',
+          '. Failure: 6d8 ',
+          refs.rules.radiant,
+          ' damage and ',
+          refs.rules.blinded,
+          ' until the end of its next turn. Success: ',
+          refs.rules.half_damage,
+          '.',
         ],
         uses: 1,
         recharge: 'Recharge 5–6',

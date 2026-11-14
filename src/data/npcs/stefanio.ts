@@ -52,7 +52,7 @@ export default createNPC({
           damage: [
             {
               dice: '2d10',
-              type: 'force',
+              type: refs.rules.force,
               addModifier: true,
             },
           ],
@@ -73,7 +73,7 @@ export default createNPC({
           damage: [
             {
               dice: '1d4',
-              type: 'piercing',
+              type: refs.rules.piercing,
               addModifier: true,
             },
           ],

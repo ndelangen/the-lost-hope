@@ -13,7 +13,7 @@ export default createEffect({
     [
       refs.pcs.jim,
       ' is bound within 100 feet of where he drew the card. If he tries to leave, he is teleported back and takes ',
-      { dice: '2d6', type: 'force' },
+      { dice: '2d6', type: refs.rules.force },
       ' damage.',
     ],
   ],

@@ -38,14 +38,18 @@ export default createNPC({
     senses: {
       darkvision: 60,
     },
-    damageResistances: ['lightning'],
+    damageResistances: [refs.rules.lightning],
     abilities: [
       {
         key: 'unending-breath',
         name: 'Unending Breath',
         timing: 'trait',
         icon: 'gi/GiTornado',
-        text: ['Can hold his breath indefinitely and is resistant to lightning damage.'],
+        text: [
+          'Can hold his breath indefinitely and is resistant to ',
+          refs.rules.lightning,
+          ' damage.',
+        ],
       },
       {
         key: 'multiattack',
@@ -73,7 +77,7 @@ export default createNPC({
           damage: [
             {
               dice: '1d8',
-              type: 'piercing',
+              type: refs.rules.piercing,
               addModifier: true,
             },
           ],
@@ -85,14 +89,14 @@ export default createNPC({
         timing: 'action',
         icon: 'gi/GiWindHole',
         text: [
-          'One creature within 30 ft.: Strength saving throw, ',
+          'One creature within 30 ft.: Strength ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'cha',
           },
           '. Failure: pushed 15 ft. and ',
-          {
-            condition: 'prone',
-          },
+          refs.rules.prone,
           '.',
         ],
       },
@@ -102,14 +106,14 @@ export default createNPC({
         timing: 'bonus action',
         icon: 'gi/GiMoneyStack',
         text: [
-          'Offers a deal to one creature within 30 ft. that can hear him: Wisdom saving throw, ',
+          'Offers a deal to one creature within 30 ft. that can hear him: Wisdom ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'cha',
           },
           '. Failure: ',
-          {
-            condition: 'charmed',
-          },
+          refs.rules.charmed,
           ' until it takes damage.',
         ],
         uses: 1,

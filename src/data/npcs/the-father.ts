@@ -46,7 +46,7 @@ export default createNPC({
       perception: 'proficient',
       stealth: 'expert',
     },
-    damageResistances: ['poison'],
+    damageResistances: [refs.rules.poison],
     abilities: [
       {
         key: 'evasion',
@@ -96,12 +96,12 @@ export default createNPC({
           damage: [
             {
               dice: '1d6',
-              type: 'piercing',
+              type: refs.rules.piercing,
               addModifier: true,
             },
             {
               dice: '3d6',
-              type: 'poison',
+              type: refs.rules.poison,
             },
           ],
         },
@@ -119,12 +119,12 @@ export default createNPC({
           damage: [
             {
               dice: '1d4',
-              type: 'piercing',
+              type: refs.rules.piercing,
               addModifier: true,
             },
             {
               dice: '3d6',
-              type: 'poison',
+              type: refs.rules.poison,
             },
           ],
         },
@@ -136,17 +136,11 @@ export default createNPC({
         icon: 'gi/GiInvisible',
         text: [
           'Takes the ',
-          {
-            action: 'hide',
-          },
+          refs.rules.hide,
           ' or ',
-          {
-            action: 'disengage',
-          },
+          refs.rules.disengage,
           ' action; in dim light he becomes ',
-          {
-            condition: 'invisible',
-          },
+          refs.rules.invisible,
           ' until he attacks.',
         ],
       },

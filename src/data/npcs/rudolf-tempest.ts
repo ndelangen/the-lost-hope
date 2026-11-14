@@ -77,7 +77,7 @@ export default createNPC({
           damage: [
             {
               dice: '1d10',
-              type: 'lightning',
+              type: refs.rules.lightning,
               addModifier: true,
             },
           ],

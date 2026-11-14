@@ -47,7 +47,7 @@ export default createBeast({
       blindsight: 10,
       darkvision: 60,
     },
-    damageImmunities: ['fire'],
+    damageImmunities: [refs.rules.fire],
     abilities: [
       {
         key: 'amphibious',
@@ -82,7 +82,7 @@ export default createBeast({
           damage: [
             {
               dice: '1d10',
-              type: 'slashing',
+              type: refs.rules.slashing,
               addModifier: true,
             },
           ],
@@ -95,11 +95,17 @@ export default createBeast({
         icon: 'gi/GiFireBreath',
         intent: 'damage',
         text: [
-          'Each creature in a 15-ft. cone: Dexterity saving throw, ',
+          'Each creature in a 15-ft. cone: Dexterity ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'con',
           },
-          '. Failure: 4d10 fire damage. Success: half damage.',
+          '. Failure: 4d10 ',
+          refs.rules.fire,
+          ' damage. Success: ',
+          refs.rules.half_damage,
+          '.',
         ],
         uses: 1,
         recharge: 'Recharge 5–6',

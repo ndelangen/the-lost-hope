@@ -30,7 +30,7 @@ export default createNPC({
       insight: 'proficient',
       perception: 'proficient',
     },
-    damageResistances: ['necrotic'],
+    damageResistances: [refs.rules.necrotic],
     abilities: [
       {
         key: 'deaths-favour',
@@ -46,11 +46,15 @@ export default createNPC({
         icon: 'gi/GiSpectre',
         intent: 'damage',
         text: [
-          'One creature within 30 ft.: Constitution saving throw, ',
+          'One creature within 30 ft.: Constitution ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'wis',
           },
-          '. Failure: 2d6 necrotic damage and it can’t regain HP until the start of her next turn.',
+          '. Failure: 2d6 ',
+          refs.rules.necrotic,
+          ' damage and it can’t regain HP until the start of her next turn.',
         ],
       },
     ],

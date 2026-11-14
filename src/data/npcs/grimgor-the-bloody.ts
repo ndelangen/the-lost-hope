@@ -69,9 +69,7 @@ export default createNPC({
         icon: 'gi/GiSkullCrossedBones',
         text: [
           'Allies of the Church of Gruumsh within 30 ft. of him have advantage on saves against being ',
-          {
-            condition: 'frightened',
-          },
+          refs.rules.frightened,
           '.',
         ],
       },
@@ -101,18 +99,12 @@ export default createNPC({
           damage: [
             {
               dice: '1d12',
-              type: 'slashing',
+              type: refs.rules.slashing,
               addModifier: true,
             },
           ],
         },
-        text: [
-          'A critical hit also leaves the target ',
-          {
-            condition: 'prone',
-          },
-          '.',
-        ],
+        text: ['A critical hit also leaves the target ', refs.rules.prone, '.'],
       },
       {
         key: 'javelin',
@@ -127,7 +119,7 @@ export default createNPC({
           damage: [
             {
               dice: '1d6',
-              type: 'piercing',
+              type: refs.rules.piercing,
               addModifier: true,
             },
           ],

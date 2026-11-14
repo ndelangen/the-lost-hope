@@ -2,8 +2,8 @@ import { Brain, Castle, Check, HeartCrack, HeartPulse, Plus, Skull, X } from 'lu
 import { useState } from 'react'
 
 import type { Effect } from '#/definitions/effect'
-import type { Condition } from '#/definitions/rules-glossary'
 import type { ActiveCondition, DeathSaves, DurationChoice } from '#/lib/encounter-combat'
+import type { Condition } from '#/lib/rules'
 import { cn } from '#/lib/utils'
 
 import { ConditionMarkers, EffectMarkers, WouldDie } from './condition-markers'

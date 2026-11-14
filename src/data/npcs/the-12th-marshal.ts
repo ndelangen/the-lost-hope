@@ -49,7 +49,7 @@ export default createNPC({
       blindsight: 60,
       darkvision: 120,
     },
-    damageImmunities: ['cold'],
+    damageImmunities: [refs.rules.cold],
     abilities: [
       {
         key: 'ice-walk',
@@ -67,9 +67,7 @@ export default createNPC({
         icon: 'gi/GiHolySymbol',
         text: [
           'Its worshippers within 120 ft. live far beyond their natural span and have advantage on saves against being ',
-          {
-            condition: 'frightened',
-          },
+          refs.rules.frightened,
           '.',
         ],
       },
@@ -78,7 +76,7 @@ export default createNPC({
         name: 'Legendary Resistance',
         timing: 'trait',
         icon: 'lucide/Shield',
-        text: ['If it fails a saving throw, it can choose to succeed instead.'],
+        text: ['If it fails a ', refs.rules.saving_throw, ', it can choose to succeed instead.'],
         uses: 4,
         recharge: 'Long rest',
       },
@@ -109,12 +107,12 @@ export default createNPC({
           damage: [
             {
               dice: '2d8',
-              type: 'slashing',
+              type: refs.rules.slashing,
               addModifier: true,
             },
             {
               dice: '2d8',
-              type: 'cold',
+              type: refs.rules.cold,
             },
           ],
         },
@@ -126,11 +124,17 @@ export default createNPC({
         icon: 'gi/GiIceBolt',
         intent: 'damage',
         text: [
-          'Each creature in a 90-ft. cone: Constitution saving throw, ',
+          'Each creature in a 90-ft. cone: Constitution ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'con',
           },
-          '. Failure: 14d8 cold damage. Success: half damage.',
+          '. Failure: 14d8 ',
+          refs.rules.cold,
+          ' damage. Success: ',
+          refs.rules.half_damage,
+          '.',
         ],
         uses: 1,
         recharge: 'Recharge 5–6',
@@ -162,14 +166,14 @@ export default createNPC({
           name: 'Freezing Gaze',
           icon: 'gi/GiIceBolt',
           text: [
-            'One creature within 60 ft.: Constitution saving throw, ',
+            'One creature within 60 ft.: Constitution ',
+            refs.rules.saving_throw,
+            ', ',
             {
               dc: 'con',
             },
             '. Failure: ',
-            {
-              condition: 'restrained',
-            },
+            refs.rules.restrained,
             ' by ice until the end of its next turn.',
           ],
         },

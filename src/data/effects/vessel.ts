@@ -14,11 +14,15 @@ export default createEffect({
     ],
   ],
   obligations: [
-    { label: 'Store a spell', within: { hours: 24 }, otherwise: [{ dice: '2d8', type: 'force' }] },
+    {
+      label: 'Store a spell',
+      within: { hours: 24 },
+      otherwise: [{ dice: '2d8', type: refs.rules.force }],
+    },
     {
       label: 'Cast the stored spell',
       within: { days: 7 },
-      otherwise: [{ dice: '3d8', type: 'force' }],
+      otherwise: [{ dice: '3d8', type: refs.rules.force }],
     },
   ],
 })

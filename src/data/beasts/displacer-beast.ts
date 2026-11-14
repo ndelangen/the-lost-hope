@@ -83,12 +83,12 @@ export default createBeast({
           damage: [
             {
               dice: '1d6',
-              type: 'bludgeoning',
+              type: refs.rules.bludgeoning,
               addModifier: true,
             },
             {
               dice: '1d6',
-              type: 'piercing',
+              type: refs.rules.piercing,
             },
           ],
         },
@@ -105,9 +105,7 @@ export default createBeast({
             times: 0.5,
           },
           ' without provoking an ',
-          {
-            action: 'opportunity attack',
-          },
+          refs.rules.opportunity_attack,
           '.',
         ],
       },

@@ -56,7 +56,7 @@ export default createNPC({
         attack: {
           kind: 'melee',
           ability: 'str',
-          damage: [{ dice: '2d6', type: 'bludgeoning', addModifier: true }],
+          damage: [{ dice: '2d6', type: refs.rules.bludgeoning, addModifier: true }],
         },
       },
       {
@@ -68,7 +68,7 @@ export default createNPC({
         attack: {
           kind: 'melee',
           ability: 'str',
-          damage: [{ dice: '1d8', type: 'piercing', addModifier: true }],
+          damage: [{ dice: '1d8', type: refs.rules.piercing, addModifier: true }],
         },
       },
       {
@@ -77,10 +77,12 @@ export default createNPC({
         timing: 'bonus action',
         icon: 'gi/GiBull',
         text: [
-          'After moving at least 10 ft. straight toward a creature, she shoves it. Strength saving throw, ',
+          'After moving at least 10 ft. straight toward a creature, she shoves it. Strength ',
+          refs.rules.saving_throw,
+          ', ',
           { dc: 'str' },
           '. Failure: pushed 10 ft. and ',
-          { condition: 'prone' },
+          refs.rules.prone,
           '.',
         ],
       },

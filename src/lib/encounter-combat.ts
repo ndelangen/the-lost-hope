@@ -1,7 +1,7 @@
 import { z } from 'zod'
 
 import type { Effect, EffectText, EffectTrigger } from '#/definitions/effect'
-import { CONDITIONS, type Condition } from '#/definitions/rules-glossary'
+import { CONDITION_KEYS, type Condition } from '#/lib/rules'
 
 /**
  * Combat state that reminds the DM when a rule applies: conditions with durations, concentration,
@@ -9,7 +9,7 @@ import { CONDITIONS, type Condition } from '#/definitions/rules-glossary'
  * is pure; `src/lib/encounter.ts` stores it and the encounter screen shows it.
  */
 
-const ConditionId = z.enum(Object.keys(CONDITIONS) as [Condition, ...Condition[]])
+const ConditionId = z.enum(CONDITION_KEYS)
 const AbilityId = z.enum(['str', 'dex', 'con', 'int', 'wis', 'cha'])
 
 /** When a condition ends. Turn boundaries refer to roster entries by id. */

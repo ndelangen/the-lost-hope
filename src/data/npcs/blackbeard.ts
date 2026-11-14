@@ -50,9 +50,7 @@ export default createNPC({
         icon: 'gi/GiSkullCrossedBones',
         text: [
           'Allies within 30 ft. of him have advantage on saves against being ',
-          {
-            condition: 'frightened',
-          },
+          refs.rules.frightened,
           '.',
         ],
       },
@@ -61,7 +59,7 @@ export default createNPC({
         name: 'Legendary Resistance',
         timing: 'trait',
         icon: 'lucide/Shield',
-        text: ['If he fails a saving throw, he can choose to succeed instead.'],
+        text: ['If he fails a ', refs.rules.saving_throw, ', he can choose to succeed instead.'],
         uses: 2,
         recharge: 'Long rest',
       },
@@ -95,12 +93,12 @@ export default createNPC({
           damage: [
             {
               dice: '1d8',
-              type: 'slashing',
+              type: refs.rules.slashing,
               addModifier: true,
             },
             {
               dice: '1d6',
-              type: 'necrotic',
+              type: refs.rules.necrotic,
             },
           ],
         },
@@ -118,7 +116,7 @@ export default createNPC({
           damage: [
             {
               dice: '2d10',
-              type: 'piercing',
+              type: refs.rules.piercing,
               addModifier: true,
             },
           ],
@@ -130,14 +128,14 @@ export default createNPC({
         timing: 'bonus action',
         icon: 'gi/GiSmokeBomb',
         text: [
-          'Lit fuses in his beard fill a 10-ft. radius around him with smoke that heavily obscures it until the start of his next turn. Each creature of his choice in it: Wisdom saving throw, ',
+          'Lit fuses in his beard fill a 10-ft. radius around him with smoke that heavily obscures it until the start of his next turn. Each creature of his choice in it: Wisdom ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'cha',
           },
           '. Failure: ',
-          {
-            condition: 'frightened',
-          },
+          refs.rules.frightened,
           '.',
         ],
         uses: 1,

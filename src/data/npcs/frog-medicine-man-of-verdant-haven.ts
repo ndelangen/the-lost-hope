@@ -60,7 +60,7 @@ export default createNPC({
           damage: [
             {
               dice: '1d6',
-              type: 'bludgeoning',
+              type: refs.rules.bludgeoning,
               addModifier: true,
             },
           ],
@@ -72,14 +72,14 @@ export default createNPC({
         timing: 'action',
         icon: 'gi/GiSmokeBomb',
         text: [
-          'A 10-ft.-radius cloud within 60 ft. lasts until the start of his next turn. Each creature in it: Constitution saving throw, ',
+          'A 10-ft.-radius cloud within 60 ft. lasts until the start of his next turn. Each creature in it: Constitution ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'wis',
           },
           '. Failure: ',
-          {
-            condition: 'poisoned',
-          },
+          refs.rules.poisoned,
           ' and its speed is halved.',
         ],
         uses: 1,

@@ -80747,7 +80747,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/sbed/acid.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/rules/damage-types.ts",
+        "src/lib/rule-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiAcidBlob",
@@ -119611,7 +119614,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/crossed-slashes.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/rules/damage-types.ts",
+        "src/lib/rule-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiCrossedSwords",
@@ -123410,7 +123416,9 @@
       "sourceUrl": "https://game-icons.net/1x1/sbed/death-skull.html",
       "usedIn": [
         "src/data/npcs/celeste.ts",
-        "src/lib/ability-icons.tsx"
+        "src/data/rules/damage-types.ts",
+        "src/lib/ability-icons.tsx",
+        "src/lib/rule-icons.tsx"
       ]
     },
     {
@@ -138150,7 +138158,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/sbed/fire.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/rules/damage-types.ts",
+        "src/lib/rule-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiFireAce",
@@ -171362,7 +171373,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/lightning-trio.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/rules/damage-types.ts",
+        "src/lib/rule-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiLightProjector",
@@ -178985,7 +178999,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/mighty-force.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/rules/damage-types.ts",
+        "src/lib/rule-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiMightyHorn",
@@ -193083,7 +193100,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/piercing-sword.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/rules/damage-types.ts",
+        "src/lib/rule-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiPieSlice",
@@ -196214,7 +196234,9 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/poison-bottle.html",
       "usedIn": [
         "src/data/creatures/alchemist.ts",
-        "src/lib/ability-icons.tsx"
+        "src/data/rules/damage-types.ts",
+        "src/lib/ability-icons.tsx",
+        "src/lib/rule-icons.tsx"
       ]
     },
     {
@@ -198965,7 +198987,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/psychic-waves.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/rules/damage-types.ts",
+        "src/lib/rule-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiPterodactylus",
@@ -217919,7 +217944,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/snowflake-1.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/rules/damage-types.ts",
+        "src/lib/rule-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiSnowflake2",
@@ -218852,7 +218880,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/skoll/sound-waves.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/rules/damage-types.ts",
+        "src/lib/rule-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiSouthAfrica",
@@ -228894,7 +228925,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/sun-radiations.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/rules/damage-types.ts",
+        "src/lib/rule-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiSunrise",
@@ -246726,7 +246760,9 @@
         "src/data/npcs/anton-tempest.ts",
         "src/data/npcs/bessy.ts",
         "src/data/npcs/borris.ts",
-        "src/lib/ability-icons.tsx"
+        "src/data/rules/damage-types.ts",
+        "src/lib/ability-icons.tsx",
+        "src/lib/rule-icons.tsx"
       ]
     },
     {
@@ -272568,7 +272604,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/external-link",
-      "usedIn": []
+      "usedIn": [
+        "src/components/rule-term.tsx"
+      ]
     },
     {
       "id": "lucide/Eye",

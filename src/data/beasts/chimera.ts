@@ -1,3 +1,4 @@
+import { refs } from '#/data/generated/refs.ts'
 import { create as createBeast } from '#/definitions/beast.ts'
 
 export default createBeast({
@@ -71,7 +72,7 @@ export default createBeast({
           damage: [
             {
               dice: '2d6',
-              type: 'piercing',
+              type: refs.rules.piercing,
               addModifier: true,
             },
           ],
@@ -89,7 +90,7 @@ export default createBeast({
           damage: [
             {
               dice: '1d12',
-              type: 'bludgeoning',
+              type: refs.rules.bludgeoning,
               addModifier: true,
             },
           ],
@@ -107,7 +108,7 @@ export default createBeast({
           damage: [
             {
               dice: '2d6',
-              type: 'slashing',
+              type: refs.rules.slashing,
               addModifier: true,
             },
           ],
@@ -120,11 +121,17 @@ export default createBeast({
         icon: 'gi/GiFireBreath',
         intent: 'damage',
         text: [
-          'Each creature in a 15-ft. cone: Dexterity saving throw, ',
+          'Each creature in a 15-ft. cone: Dexterity ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'con',
           },
-          '. Failure: 7d8 fire damage. Success: half damage.',
+          '. Failure: 7d8 ',
+          refs.rules.fire,
+          ' damage. Success: ',
+          refs.rules.half_damage,
+          '.',
         ],
         uses: 1,
         recharge: 'Recharge 5–6',

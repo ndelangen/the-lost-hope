@@ -41,7 +41,7 @@ export default createBeast({
     senses: {
       darkvision: 60,
     },
-    damageResistances: ['radiant'],
+    damageResistances: [refs.rules.radiant],
     abilities: [
       {
         key: 'bonded-mount',
@@ -59,9 +59,7 @@ export default createBeast({
         icon: 'lucide/UsersRound',
         text: [
           'Advantage on an attack roll against a creature if at least one ally is within 5 ft. of it and not ',
-          {
-            condition: 'incapacitated',
-          },
+          refs.rules.incapacitated,
           '.',
         ],
       },
@@ -77,22 +75,16 @@ export default createBeast({
           damage: [
             {
               dice: '1d10',
-              type: 'piercing',
+              type: refs.rules.piercing,
               addModifier: true,
             },
             {
               dice: '1d8',
-              type: 'radiant',
+              type: refs.rules.radiant,
             },
           ],
         },
-        text: [
-          'If the target is Large or smaller, it has the ',
-          {
-            condition: 'prone',
-          },
-          ' condition.',
-        ],
+        text: ['If the target is Large or smaller, it has the ', refs.rules.prone, ' condition.'],
       },
       {
         key: 'fell-glare',
@@ -100,14 +92,14 @@ export default createBeast({
         timing: 'reaction',
         icon: 'gi/GiSunbeams',
         text: [
-          'When a creature within 60 ft. hits Devan, it makes a Wisdom saving throw, ',
+          'When a creature within 60 ft. hits Devan, it makes a Wisdom ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'cha',
           },
           '. Failure: ',
-          {
-            condition: 'frightened',
-          },
+          refs.rules.frightened,
           ' until the end of its next turn.',
         ],
       },

@@ -63,16 +63,14 @@ export default createNPC({
           damage: [
             {
               dice: '1d6',
-              type: 'bludgeoning',
+              type: refs.rules.bludgeoning,
               addModifier: true,
             },
           ],
         },
         text: [
           'If two fists hit the same Medium or smaller target this turn, it has the ',
-          {
-            condition: 'grappled',
-          },
+          refs.rules.grappled,
           ' condition (escape ',
           {
             dc: 'str',
@@ -88,10 +86,10 @@ export default createNPC({
         intent: 'damage',
         text: [
           'Each creature Knukkles has ',
-          {
-            condition: 'grappled',
-          },
-          ' takes 2d6 + 4 bludgeoning damage.',
+          refs.rules.grappled,
+          ' takes 2d6 + 4 ',
+          refs.rules.bludgeoning,
+          ' damage.',
         ],
       },
     ],

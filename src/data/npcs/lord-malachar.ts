@@ -49,7 +49,7 @@ export default createNPC({
         name: 'Legendary Resistance',
         timing: 'trait',
         icon: 'lucide/Shield',
-        text: ['If he fails a saving throw, he can choose to succeed instead.'],
+        text: ['If he fails a ', refs.rules.saving_throw, ', he can choose to succeed instead.'],
         uses: 1,
         recharge: 'Long rest',
       },
@@ -79,12 +79,12 @@ export default createNPC({
           damage: [
             {
               dice: '1d8',
-              type: 'slashing',
+              type: refs.rules.slashing,
               addModifier: true,
             },
             {
               dice: '2d8',
-              type: 'necrotic',
+              type: refs.rules.necrotic,
             },
           ],
         },
@@ -95,14 +95,14 @@ export default createNPC({
         timing: 'action',
         icon: 'gi/GiSkullCrossedBones',
         text: [
-          'Each creature of his choice within 30 ft.: Wisdom saving throw, ',
+          'Each creature of his choice within 30 ft.: Wisdom ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'cha',
           },
           '. Failure: ',
-          {
-            condition: 'frightened',
-          },
+          refs.rules.frightened,
           ' for 1 minute (repeats the save at the end of each of its turns).',
         ],
         uses: 1,

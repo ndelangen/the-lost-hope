@@ -1,3 +1,4 @@
+import { refs } from '#/data/generated/refs.ts'
 import { create as createCreature } from '#/definitions/creature.ts'
 
 export default createCreature({
@@ -19,7 +20,7 @@ export default createCreature({
         icon: 'lucide/UsersRound',
         text: [
           'Advantage on an attack roll against a creature if at least one ally is within 5 ft. of it and not ',
-          { condition: 'incapacitated' },
+          refs.rules.incapacitated,
           '.',
         ],
       },
@@ -32,7 +33,7 @@ export default createCreature({
         attack: {
           kind: 'melee',
           ability: 'str',
-          damage: [{ dice: '1d6', type: 'bludgeoning', addModifier: true }],
+          damage: [{ dice: '1d6', type: refs.rules.bludgeoning, addModifier: true }],
         },
       },
       {
@@ -45,7 +46,7 @@ export default createCreature({
           kind: 'ranged',
           ability: 'dex',
           range: [100, 400],
-          damage: [{ dice: '1d10', type: 'piercing', addModifier: true }],
+          damage: [{ dice: '1d10', type: refs.rules.piercing, addModifier: true }],
         },
       },
     ],

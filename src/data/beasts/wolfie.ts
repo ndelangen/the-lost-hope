@@ -35,7 +35,7 @@ export default createBeast({
         icon: 'lucide/UsersRound',
         text: [
           'Advantage on an attack roll against a creature if at least one ally is within 5 ft. of it and not ',
-          { condition: 'incapacitated' },
+          refs.rules.incapacitated,
           '.',
         ],
       },
@@ -56,13 +56,9 @@ export default createBeast({
         attack: {
           kind: 'melee',
           ability: 'str',
-          damage: [{ dice: '1d10', type: 'piercing', addModifier: true }],
+          damage: [{ dice: '1d10', type: refs.rules.piercing, addModifier: true }],
         },
-        text: [
-          'If the target is Medium or smaller, it has the ',
-          { condition: 'prone' },
-          ' condition.',
-        ],
+        text: ['If the target is Medium or smaller, it has the ', refs.rules.prone, ' condition.'],
       },
       {
         key: 'claw',
@@ -73,7 +69,7 @@ export default createBeast({
         attack: {
           kind: 'melee',
           ability: 'dex',
-          damage: [{ dice: '1d6', type: 'slashing', addModifier: true }],
+          damage: [{ dice: '1d6', type: refs.rules.slashing, addModifier: true }],
         },
       },
       {
@@ -86,7 +82,7 @@ export default createBeast({
           'Moves up to ',
           { speed: 'walk', times: 0.5 },
           ' straight toward a creature without provoking an ',
-          { action: 'opportunity attack' },
+          refs.rules.opportunity_attack,
           ', then makes one ',
           { ability: 'bite' },
           '.',

@@ -1,9 +1,12 @@
 import { PawPrint, RotateCcw, Shield, Swords, Zap } from 'lucide-react'
-import type { ReactNode } from 'react'
+import { Fragment, type ReactNode } from 'react'
 
+import { RuleTerm } from '#/components/rule-term'
+import { refs } from '#/data/generated/refs'
 import { ABILITY_TIMINGS, type AbilityTiming } from '#/definitions/stat-block'
 import type { CombatantView } from '#/lib/dm-encounter'
 import { ABILITY_ORDER, abilityKey, type LiveStats, type UseCount } from '#/lib/encounter'
+import { ruleOf, type RuleRef } from '#/lib/rules'
 import { formatSpeed, signed, sourceName, sourceUrl } from '#/lib/stat-block'
 import { cn } from '#/lib/utils'
 
@@ -28,6 +31,8 @@ const ABILITY_NAMES = {
   wis: 'Wisdom',
   cha: 'Charisma',
 } as const
+
+type Fact = { key: string; label: ReactNode; value: ReactNode }
 
 export type UseActions = {
   use: (key: string, count: UseCount) => void
@@ -65,25 +70,52 @@ export function CombatantPanel({
   const { stats, derived: block } = combatant
   const abilities = stats?.abilities ?? []
   const open = abilities.find((ability) => abilityKey(ability.timing, ability.name) === openAbility)
-  const facts =
+  const immune = [...(stats?.damageImmunities ?? []), ...(stats?.conditionImmunities ?? [])]
+  const facts: readonly Fact[] =
     stats && block
-      ? ([
-          ['Hit points', block.hitPoints],
-          ['Armor', stats.armor ? `${stats.ac}, ${stats.armor}` : String(stats.ac)],
-          ['Initiative', signed(block.initiative)],
-          ['Speed', formatSpeed(stats.speed)],
-          [
-            'Skills',
-            block.skills.map(({ label, bonus }) => `${label} ${signed(bonus)}`).join(', '),
-          ],
-          ['Senses', block.senses],
-          ['Vulnerable', stats.damageVulnerabilities?.join(', ')],
-          ['Resistant', stats.damageResistances?.join(', ')],
-          [
-            'Immune',
-            [...(stats.damageImmunities ?? []), ...(stats.conditionImmunities ?? [])].join(', '),
-          ],
-        ] as const)
+      ? [
+          {
+            key: 'hp',
+            label: <RuleTerm rule={refs.rules.hit_points}>Hit points</RuleTerm>,
+            value: block.hitPoints,
+          },
+          {
+            key: 'ac',
+            label: <RuleTerm rule={refs.rules.armor_class}>Armor</RuleTerm>,
+            value: stats.armor ? `${stats.ac}, ${stats.armor}` : String(stats.ac),
+          },
+          {
+            key: 'initiative',
+            label: <RuleTerm rule={refs.rules.initiative} />,
+            value: signed(block.initiative),
+          },
+          {
+            key: 'speed',
+            label: <RuleTerm rule={refs.rules.speed} />,
+            value: formatSpeed(stats.speed),
+          },
+          {
+            key: 'skills',
+            label: 'Skills',
+            value: block.skills.map(({ label, bonus }) => `${label} ${signed(bonus)}`).join(', '),
+          },
+          { key: 'senses', label: 'Senses', value: block.senses },
+          {
+            key: 'vulnerable',
+            label: <RuleTerm rule={refs.rules.vulnerability}>Vulnerable</RuleTerm>,
+            value: termList(stats.damageVulnerabilities),
+          },
+          {
+            key: 'resistant',
+            label: <RuleTerm rule={refs.rules.resistance}>Resistant</RuleTerm>,
+            value: termList(stats.damageResistances),
+          },
+          {
+            key: 'immune',
+            label: <RuleTerm rule={refs.rules.immunity}>Immune</RuleTerm>,
+            value: termList(immune),
+          },
+        ]
       : []
 
   return (
@@ -102,7 +134,8 @@ export function CombatantPanel({
           </h2>
           {stats && block ? (
             <p className="text-muted-foreground text-sm">
-              {stats.size} {stats.type} · CR {stats.cr} ({block.experience} XP) · PB{' '}
+              {stats.size} {stats.type} · <RuleTerm rule={refs.rules.challenge_rating} /> {stats.cr}{' '}
+              ({block.experience} XP) · <RuleTerm rule={refs.rules.proficiency_bonus} />{' '}
               {signed(block.proficiencyBonus)}
             </p>
           ) : null}
@@ -142,8 +175,8 @@ export function CombatantPanel({
               )}
             >
               <Shield aria-hidden className="text-muted-foreground size-5" />
-              <span aria-hidden className="text-muted-foreground text-sm font-medium">
-                AC
+              <span className="text-muted-foreground text-sm font-medium">
+                <RuleTerm rule={refs.rules.armor_class} />
               </span>
               <EditableNumber
                 label={`Armor class of ${combatant.name}`}
@@ -221,7 +254,7 @@ export function CombatantPanel({
       {stats && block ? (
         <section aria-labelledby="saves-heading" className="grid gap-1">
           <h3 id="saves-heading" className="text-muted-foreground text-xs font-semibold uppercase">
-            Saving throws
+            <RuleTerm rule={refs.rules.saving_throw}>Saving throws</RuleTerm>
           </h3>
           <dl className="grid grid-cols-3 gap-2">
             {ABILITY_ORDER.map((ability) => (
@@ -246,11 +279,11 @@ export function CombatantPanel({
         </section>
       ) : null}
 
-      {facts.some(([, value]) => value) ? (
+      {facts.some(({ value }) => value) ? (
         <dl className="grid gap-1 text-sm">
-          {facts.map(([label, value]) =>
+          {facts.map(({ key, label, value }) =>
             value ? (
-              <div key={label} className="flex gap-2">
+              <div key={key} className="flex gap-2">
                 <dt className="text-muted-foreground w-20 shrink-0">{label}</dt>
                 <dd className="min-w-0">{value}</dd>
               </div>
@@ -287,4 +320,15 @@ export function CombatantPanel({
       ) : null}
     </section>
   )
+}
+
+/** Rules terms as a comma-separated list, each explained in place. */
+function termList(terms: readonly RuleRef[] | undefined) {
+  if (!terms?.length) return undefined
+  return terms.map((term, index) => (
+    <Fragment key={term.key}>
+      {index > 0 ? ', ' : ''}
+      <RuleTerm rule={term}>{ruleOf(term).name.toLowerCase()}</RuleTerm>
+    </Fragment>
+  ))
 }

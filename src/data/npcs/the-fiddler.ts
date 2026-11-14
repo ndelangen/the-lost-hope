@@ -47,8 +47,8 @@ export default createNPC({
       performance: 'expert',
       sleightOfHand: 'proficient',
     },
-    damageResistances: ['psychic'],
-    conditionImmunities: ['charmed'],
+    damageResistances: [refs.rules.psychic],
+    conditionImmunities: [refs.rules.charmed],
     abilities: [
       {
         key: 'many-timelines',
@@ -94,12 +94,12 @@ export default createNPC({
           damage: [
             {
               dice: '2d6',
-              type: 'slashing',
+              type: refs.rules.slashing,
               addModifier: true,
             },
             {
               dice: '2d6',
-              type: 'psychic',
+              type: refs.rules.psychic,
             },
           ],
         },

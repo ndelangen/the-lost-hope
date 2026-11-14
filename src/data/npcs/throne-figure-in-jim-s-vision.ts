@@ -41,8 +41,8 @@ export default createNPC({
     senses: {
       darkvision: 60,
     },
-    damageVulnerabilities: ['radiant'],
-    damageResistances: ['bludgeoning', 'piercing', 'slashing'],
+    damageVulnerabilities: [refs.rules.radiant],
+    damageResistances: [refs.rules.bludgeoning, refs.rules.piercing, refs.rules.slashing],
     abilities: [
       {
         key: 'stolen-face',
@@ -86,12 +86,12 @@ export default createNPC({
           damage: [
             {
               dice: '2d6',
-              type: 'slashing',
+              type: refs.rules.slashing,
               addModifier: true,
             },
             {
               dice: '2d8',
-              type: 'psychic',
+              type: refs.rules.psychic,
             },
           ],
         },
@@ -106,15 +106,19 @@ export default createNPC({
         icon: 'gi/GiCrystalBall',
         intent: 'damage',
         text: [
-          'One creature within 60 ft.: Wisdom saving throw, ',
+          'One creature within 60 ft.: Wisdom ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'cha',
           },
-          '. Failure: 6d10 psychic damage and ',
-          {
-            condition: 'frightened',
-          },
-          ' until the end of its next turn. Success: half damage.',
+          '. Failure: 6d10 ',
+          refs.rules.psychic,
+          ' damage and ',
+          refs.rules.frightened,
+          ' until the end of its next turn. Success: ',
+          refs.rules.half_damage,
+          '.',
         ],
         uses: 1,
         recharge: 'Recharge 5–6',

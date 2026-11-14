@@ -12,12 +12,16 @@ export default createEffect({
       'Action: ',
       refs.pcs.cassian_veyl,
       ' drains a creature within 5 feet for ',
-      { dice: '1d6', type: 'necrotic' },
+      { dice: '1d6', type: refs.rules.necrotic },
       ' damage and regains hit points equal to half the damage dealt.',
     ],
     ['This is separate from his ', refs.effects.werewolf_transformation, '.'],
   ],
   obligations: [
-    { label: 'Use the drain', within: { days: 1 }, otherwise: [{ dice: '2d6', type: 'necrotic' }] },
+    {
+      label: 'Use the drain',
+      within: { days: 1 },
+      otherwise: [{ dice: '2d6', type: refs.rules.necrotic }],
+    },
   ],
 })

@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 
+import { refs } from '#/data/generated/refs'
 import { StatBlock } from '#/definitions/stat-block'
 
 import {
@@ -30,7 +31,7 @@ const direWolf = StatBlock.parse({
       attack: {
         kind: 'melee',
         ability: 'str',
-        damage: [{ dice: '1d10', type: 'piercing', addModifier: true }],
+        damage: [{ dice: '1d10', type: refs.rules.piercing, addModifier: true }],
       },
     },
     {
@@ -65,8 +66,8 @@ const giantSpider = StatBlock.parse({
         kind: 'melee',
         ability: 'dex',
         damage: [
-          { dice: '1d8', type: 'piercing', addModifier: true },
-          { dice: '2d6', type: 'poison' },
+          { dice: '1d8', type: refs.rules.piercing, addModifier: true },
+          { dice: '2d6', type: refs.rules.poison },
         ],
       },
     },

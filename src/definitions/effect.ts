@@ -4,7 +4,6 @@ import { Background } from './content'
 import { makeCreate } from './create'
 import { ENTITY_KINDS, entityRefOf } from './kind'
 import { deriveSlug } from './slug'
-import { DAMAGE_TYPES } from './stat-block'
 
 /** DM-fired moments an effect can ask to be reminded about (see issue #171). */
 export const EFFECT_TRIGGERS = {
@@ -19,8 +18,8 @@ export type EffectTrigger = keyof typeof EFFECT_TRIGGERS
 const Dice = z.string().regex(/^\d+d(4|6|8|10|12|20)$/, 'Use dice like `2d6`')
 
 /**
- * Rules text as read at the table: plain strings, typed references to campaign records, and
- * damage rolls the DM tool can show and roll in place.
+ * Rules text as read at the table: plain strings, typed references to campaign records and rules
+ * terms, and damage rolls the DM tool can show and roll in place.
  */
 export const EffectTextToken = z.union([
   z.string().min(1),
@@ -28,7 +27,11 @@ export const EffectTextToken = z.union([
     ref: z.enum(ENTITY_KINDS),
     key: z.string().min(1),
   }),
-  z.strictObject({ dice: Dice, type: z.enum(DAMAGE_TYPES) }),
+  entityRefOf('rule'),
+  z.strictObject({
+    dice: Dice,
+    type: entityRefOf('rule').describe('A damage type, e.g. `refs.rules.force`'),
+  }),
 ])
 
 export type EffectTextToken = z.infer<typeof EffectTextToken>
@@ -59,7 +62,9 @@ const Obligation = z.strictObject({
   otherwise: z
     .array(EffectTextToken)
     .min(1)
-    .describe('What happens when the span runs out, e.g. `[{ dice: "2d8", type: "force" }]`'),
+    .describe(
+      'What happens when the span runs out, e.g. `[{ dice: "2d8", type: refs.rules.force }]`',
+    ),
 })
 
 const Reminder = z.strictObject({

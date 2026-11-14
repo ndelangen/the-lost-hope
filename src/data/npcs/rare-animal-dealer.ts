@@ -80,7 +80,7 @@ export default createNPC({
           damage: [
             {
               dice: '1d4',
-              type: 'slashing',
+              type: refs.rules.slashing,
               addModifier: true,
             },
           ],
@@ -99,7 +99,7 @@ export default createNPC({
           damage: [
             {
               dice: '1d6',
-              type: 'piercing',
+              type: refs.rules.piercing,
               addModifier: true,
             },
           ],
@@ -111,14 +111,14 @@ export default createNPC({
         timing: 'action',
         icon: 'gi/GiSpiderWeb',
         text: [
-          'One Large or smaller creature within 15 ft.: Dexterity saving throw, ',
+          'One Large or smaller creature within 15 ft.: Dexterity ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'dex',
           },
           '. Failure: ',
-          {
-            condition: 'restrained',
-          },
+          refs.rules.restrained,
           ' (escape ',
           {
             dc: 'dex',

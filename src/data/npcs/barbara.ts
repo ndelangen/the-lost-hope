@@ -30,7 +30,7 @@ export default createNPC({
       insight: 'proficient',
       intimidation: 'proficient',
     },
-    damageResistances: ['poison'],
+    damageResistances: [refs.rules.poison],
     abilities: [
       {
         key: 'iron-liver',
@@ -39,9 +39,7 @@ export default createNPC({
         icon: 'gi/GiBeerStein',
         text: [
           'Advantage on saves against being ',
-          {
-            condition: 'poisoned',
-          },
+          refs.rules.poisoned,
           '; drugs and drink barely touch her.',
         ],
       },
@@ -57,7 +55,7 @@ export default createNPC({
           damage: [
             {
               dice: '1d4',
-              type: 'bludgeoning',
+              type: refs.rules.bludgeoning,
               addModifier: true,
             },
           ],
@@ -69,14 +67,14 @@ export default createNPC({
         timing: 'action',
         icon: 'gi/GiSonicShout',
         text: [
-          'One creature within 30 ft. that hears her: Wisdom saving throw, ',
+          'One creature within 30 ft. that hears her: Wisdom ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'wis',
           },
           '. Failure: ',
-          {
-            condition: 'frightened',
-          },
+          refs.rules.frightened,
           ' of her until the end of its next turn.',
         ],
         uses: 1,

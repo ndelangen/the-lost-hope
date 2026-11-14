@@ -1,3 +1,4 @@
+import { refs } from '#/data/generated/refs.ts'
 import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
@@ -38,9 +39,7 @@ export default createNPC({
         icon: 'gi/GiSonicShout',
         text: [
           'Advantage on saves against being ',
-          {
-            condition: 'frightened',
-          },
+          refs.rules.frightened,
           ' while an audience watches.',
         ],
       },
@@ -70,16 +69,14 @@ export default createNPC({
           damage: [
             {
               dice: '1d8',
-              type: 'bludgeoning',
+              type: refs.rules.bludgeoning,
               addModifier: true,
             },
           ],
         },
         text: [
           'If two fists hit the same target this turn, it has the ',
-          {
-            condition: 'grappled',
-          },
+          refs.rules.grappled,
           ' condition (escape ',
           {
             dc: 'str',
@@ -95,17 +92,17 @@ export default createNPC({
         intent: 'damage',
         text: [
           'One creature he has ',
-          {
-            condition: 'grappled',
-          },
-          ': Strength saving throw, ',
+          refs.rules.grappled,
+          ': Strength ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'str',
           },
-          '. Failure: 2d8 + 5 bludgeoning damage and ',
-          {
-            condition: 'prone',
-          },
+          '. Failure: 2d8 + 5 ',
+          refs.rules.bludgeoning,
+          ' damage and ',
+          refs.rules.prone,
           '.',
         ],
       },

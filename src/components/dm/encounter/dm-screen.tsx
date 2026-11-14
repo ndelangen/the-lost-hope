@@ -1,15 +1,16 @@
 import { BookOpen, X } from 'lucide-react'
 import { useEffect, useRef, type ReactNode } from 'react'
 
+import { RuleTerm } from '#/components/rule-term'
+import { refs } from '#/data/generated/refs'
 import {
   ADVANTAGE_SOURCES,
-  COVER,
   DIFFICULTY_CLASSES,
   FALLING,
   IMPROVISED_DAMAGE,
-  STANDARD_ACTIONS,
   TURN_PARTS,
 } from '#/definitions/rules-glossary'
+import { plainRuleText, ruleRef, rules, type RuleKey } from '#/lib/rules'
 
 import { IconButton } from './icon-button'
 
@@ -17,6 +18,8 @@ import { IconButton } from './icon-button'
  * A beginner DM screen that slides over the stat panel side in combat focus, leaving the
  * initiative list in view. Everything comes from the rules glossary.
  */
+const ACTIONS = (Object.keys(rules) as RuleKey[]).filter((key) => rules[key].category === 'action')
+
 export function DmScreen({ open, onClose }: { open: boolean; onClose: () => void }) {
   // Move focus into the drawer without popping the close button's tooltip.
   const headingRef = useRef<HTMLHeadingElement>(null)
@@ -45,11 +48,17 @@ export function DmScreen({ open, onClose }: { open: boolean; onClose: () => void
       </header>
       <div className="grid content-start gap-6 overflow-y-auto px-5 py-4">
         <Section title="On its turn">
-          <Lines items={TURN_PARTS.map(({ label, note }) => [label, note])} />
+          <Lines items={TURN_PARTS.map(({ label, note }) => [label, label, note])} />
         </Section>
 
         <Section title="Actions">
-          <Lines items={Object.values(STANDARD_ACTIONS).map(({ label, note }) => [label, note])} />
+          <Lines
+            items={ACTIONS.map((key) => [
+              key,
+              <RuleTerm key={key} rule={ruleRef(key)} />,
+              plainRuleText(rules[key].summary),
+            ])}
+          />
         </Section>
 
         <Section title="Advantage">
@@ -58,11 +67,15 @@ export function DmScreen({ open, onClose }: { open: boolean; onClose: () => void
             Disadvantage
           </h4>
           <Bullets items={ADVANTAGE_SOURCES.disadvantage} />
-          <p className="text-muted-foreground text-sm">{ADVANTAGE_SOURCES.note}</p>
+          <p className="text-muted-foreground text-sm">
+            <RuleTerm rule={refs.rules.advantage} /> and{' '}
+            <RuleTerm rule={refs.rules.disadvantage}>disadvantage</RuleTerm> cancel out, however
+            many of each apply.
+          </p>
         </Section>
 
-        <Section title="Cover">
-          <Lines items={COVER.map(({ label, note }) => [label, note])} />
+        <Section title={<RuleTerm rule={refs.rules.cover} />}>
+          <p className="text-sm leading-snug">{plainRuleText(rules.cover.summary)}</p>
         </Section>
 
         <Section title="Difficulty">
@@ -112,14 +125,14 @@ export function DmScreen({ open, onClose }: { open: boolean; onClose: () => void
         </Section>
 
         <Section title="Falling">
-          <Lines items={FALLING.map(({ label, note }) => [label, note])} />
+          <Lines items={FALLING.map(({ label, note }) => [label, label, note])} />
         </Section>
       </div>
     </aside>
   )
 }
 
-function Section({ title, children }: { title: string; children: ReactNode }) {
+function Section({ title, children }: { title: ReactNode; children: ReactNode }) {
   return (
     <section className="grid gap-2">
       <h3 className="text-muted-foreground text-xs font-semibold tracking-wide uppercase">
@@ -130,11 +143,12 @@ function Section({ title, children }: { title: string; children: ReactNode }) {
   )
 }
 
-function Lines({ items }: { items: readonly (readonly [string, string])[] }) {
+/** Labelled lines, each keyed by its first element. */
+function Lines({ items }: { items: readonly (readonly [string, ReactNode, ReactNode])[] }) {
   return (
     <dl className="grid gap-1.5">
-      {items.map(([label, note]) => (
-        <div key={label} className="grid grid-cols-[8rem_minmax(0,1fr)] items-baseline gap-3">
+      {items.map(([key, label, note]) => (
+        <div key={key} className="grid grid-cols-[8rem_minmax(0,1fr)] items-baseline gap-3">
           <dt className="font-semibold first-letter:uppercase">{label}</dt>
           <dd className="text-sm leading-snug">{note}</dd>
         </div>

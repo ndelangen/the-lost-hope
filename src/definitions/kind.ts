@@ -19,12 +19,19 @@ export const DM_ENTITY_KINDS = ['arc', 'scene', 'creature'] as const
 
 export type DmEntityKind = (typeof DM_ENTITY_KINDS)[number]
 
-export type EntityRef<K extends EntityKind | DmEntityKind = EntityKind> = {
+/** Rules reference shared by player and DM views: game terms, not campaign records. */
+export const GLOSSARY_KINDS = ['rule'] as const
+
+export type GlossaryKind = (typeof GLOSSARY_KINDS)[number]
+
+export type AnyKind = EntityKind | DmEntityKind | GlossaryKind
+
+export type EntityRef<K extends AnyKind = EntityKind> = {
   ref: K
   key: string
 }
 
-export function entityRefOf<K extends EntityKind | DmEntityKind>(kind: K) {
+export function entityRefOf<K extends AnyKind>(kind: K) {
   return z.strictObject({ ref: z.literal(kind), key: z.string().min(1) })
 }
 

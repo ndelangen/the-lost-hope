@@ -52,7 +52,7 @@ export default createNPC({
           damage: [
             {
               dice: '2d6',
-              type: 'psychic',
+              type: refs.rules.psychic,
               addModifier: true,
             },
           ],
@@ -64,14 +64,14 @@ export default createNPC({
         timing: 'action',
         icon: 'gi/GiCardRandom',
         text: [
-          'One creature within 30 ft.: Wisdom saving throw, ',
+          'One creature within 30 ft.: Wisdom ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'wis',
           },
           '. Failure: ',
-          {
-            condition: 'frightened',
-          },
+          refs.rules.frightened,
           ' of her for 1 minute.',
         ],
         uses: 1,

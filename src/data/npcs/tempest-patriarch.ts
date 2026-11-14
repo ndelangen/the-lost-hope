@@ -42,7 +42,7 @@ export default createNPC({
       intimidation: 'expert',
       persuasion: 'expert',
     },
-    damageResistances: ['lightning', 'thunder'],
+    damageResistances: [refs.rules.lightning, refs.rules.thunder],
     abilities: [
       {
         key: 'too-powerful',
@@ -51,13 +51,9 @@ export default createNPC({
         icon: 'lucide/Shield',
         text: [
           'Advantage on saves against being ',
-          {
-            condition: 'charmed',
-          },
+          refs.rules.charmed,
           ' or ',
-          {
-            condition: 'frightened',
-          },
+          refs.rules.frightened,
           '.',
         ],
       },
@@ -66,7 +62,7 @@ export default createNPC({
         name: 'Legendary Resistance',
         timing: 'trait',
         icon: 'lucide/Shield',
-        text: ['If he fails a saving throw, he can choose to succeed instead.'],
+        text: ['If he fails a ', refs.rules.saving_throw, ', he can choose to succeed instead.'],
         uses: 1,
         recharge: 'Long rest',
       },
@@ -97,7 +93,7 @@ export default createNPC({
           damage: [
             {
               dice: '2d8',
-              type: 'lightning',
+              type: refs.rules.lightning,
               addModifier: true,
             },
           ],
@@ -110,11 +106,17 @@ export default createNPC({
         icon: 'gi/GiTornado',
         intent: 'damage',
         text: [
-          'A 20-ft.-radius storm within 120 ft. Each creature in it: Dexterity saving throw, ',
+          'A 20-ft.-radius storm within 120 ft. Each creature in it: Dexterity ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'cha',
           },
-          '. Failure: 6d8 thunder damage and pushed 10 ft. Success: half damage.',
+          '. Failure: 6d8 ',
+          refs.rules.thunder,
+          ' damage and pushed 10 ft. Success: ',
+          refs.rules.half_damage,
+          '.',
         ],
         uses: 1,
         recharge: 'Recharge 5–6',

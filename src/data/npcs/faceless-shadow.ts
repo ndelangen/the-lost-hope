@@ -31,17 +31,24 @@ export default createNPC({
       darkvision: 60,
     },
     damageResistances: [
-      'acid',
-      'cold',
-      'fire',
-      'lightning',
-      'thunder',
-      'bludgeoning',
-      'piercing',
-      'slashing',
+      refs.rules.acid,
+      refs.rules.cold,
+      refs.rules.fire,
+      refs.rules.lightning,
+      refs.rules.thunder,
+      refs.rules.bludgeoning,
+      refs.rules.piercing,
+      refs.rules.slashing,
     ],
-    damageImmunities: ['necrotic', 'poison'],
-    conditionImmunities: ['grappled', 'paralyzed', 'petrified', 'poisoned', 'prone', 'restrained'],
+    damageImmunities: [refs.rules.necrotic, refs.rules.poison],
+    conditionImmunities: [
+      refs.rules.grappled,
+      refs.rules.paralyzed,
+      refs.rules.petrified,
+      refs.rules.poisoned,
+      refs.rules.prone,
+      refs.rules.restrained,
+    ],
     abilities: [
       {
         key: 'incorporeal',
@@ -49,7 +56,9 @@ export default createNPC({
         timing: 'trait',
         icon: 'gi/GiShadowFollower',
         text: [
-          'Moves through creatures and objects as if they were difficult terrain; takes 1d10 force damage if it ends its turn inside an object.',
+          'Moves through creatures and objects as if they were difficult terrain; takes 1d10 ',
+          refs.rules.force,
+          ' damage if it ends its turn inside an object.',
         ],
       },
       {
@@ -59,9 +68,7 @@ export default createNPC({
         icon: 'gi/GiInvisible',
         text: [
           'While in dim light or darkness, it can take the ',
-          {
-            action: 'hide',
-          },
+          refs.rules.hide,
           ' action as a bonus action.',
         ],
       },
@@ -91,12 +98,12 @@ export default createNPC({
           damage: [
             {
               dice: '1d8',
-              type: 'slashing',
+              type: refs.rules.slashing,
               addModifier: true,
             },
             {
               dice: '2d6',
-              type: 'necrotic',
+              type: refs.rules.necrotic,
             },
           ],
         },

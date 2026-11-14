@@ -1,3 +1,4 @@
+import { refs } from '#/data/generated/refs.ts'
 import { create as createCreature } from '#/definitions/creature.ts'
 
 export default createCreature({
@@ -27,7 +28,7 @@ export default createCreature({
       medicine: 'proficient',
       nature: 'expert',
     },
-    damageResistances: ['poison'],
+    damageResistances: [refs.rules.poison],
     abilities: [
       {
         key: 'potion-belt',
@@ -69,7 +70,7 @@ export default createCreature({
           damage: [
             {
               dice: '2d6',
-              type: 'fire',
+              type: refs.rules.fire,
               addModifier: true,
             },
           ],
@@ -82,14 +83,14 @@ export default createCreature({
         timing: 'action',
         icon: 'gi/GiSmokeBomb',
         text: [
-          'A 10-ft.-radius cloud within 60 ft. Constitution saving throw, ',
+          'A 10-ft.-radius cloud within 60 ft. Constitution ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'int',
           },
           '. Failure: ',
-          {
-            condition: 'poisoned',
-          },
+          refs.rules.poisoned,
           ' until the end of its next turn.',
         ],
         uses: 1,

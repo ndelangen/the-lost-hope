@@ -24,8 +24,8 @@ export default createBeast({
       wis: 10,
       cha: 7,
     },
-    damageVulnerabilities: ['fire'],
-    damageResistances: ['bludgeoning', 'piercing'],
+    damageVulnerabilities: [refs.rules.fire],
+    damageResistances: [refs.rules.bludgeoning, refs.rules.piercing],
     abilities: [
       {
         key: 'false-appearance',
@@ -56,7 +56,7 @@ export default createBeast({
           damage: [
             {
               dice: '3d6',
-              type: 'bludgeoning',
+              type: refs.rules.bludgeoning,
               addModifier: true,
             },
           ],
@@ -68,14 +68,14 @@ export default createBeast({
         timing: 'action',
         icon: 'gi/GiTreeBranch',
         text: [
-          'One creature within 10 ft.: Strength saving throw, ',
+          'One creature within 10 ft.: Strength ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'str',
           },
           '. Failure: ',
-          {
-            condition: 'restrained',
-          },
+          refs.rules.restrained,
           ' until the end of its next turn.',
         ],
         uses: 1,

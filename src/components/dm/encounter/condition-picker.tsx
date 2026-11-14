@@ -1,8 +1,8 @@
 import { useState } from 'react'
 
-import { CONDITIONS, type Condition } from '#/definitions/rules-glossary'
 import { CONDITION_ICONS } from '#/lib/condition-icons'
 import type { AbilityId, DurationChoice } from '#/lib/encounter-combat'
+import { CONDITION_KEYS, plainRuleText, rules, type Condition } from '#/lib/rules'
 import { cn } from '#/lib/utils'
 
 import { useDensity } from './density'
@@ -147,13 +147,13 @@ export function ConditionPicker({
           Condition
         </legend>
         <div className={cn('grid gap-1.5', focus ? 'grid-cols-3 xl:grid-cols-5' : 'grid-cols-2')}>
-          {(Object.keys(CONDITIONS) as Condition[]).map((condition) => {
+          {CONDITION_KEYS.map((condition) => {
             const Icon = CONDITION_ICONS[condition]
             return (
               <button
                 key={condition}
                 type="button"
-                title={CONDITIONS[condition]}
+                title={plainRuleText(rules[condition].summary)}
                 onClick={() => onApply(condition, choice())}
                 className={cn(
                   'border-border bg-card hover:bg-amber-500/10 hover:border-amber-500/50 flex items-center gap-2 rounded-lg border px-2.5 text-left capitalize',
@@ -161,7 +161,7 @@ export function ConditionPicker({
                 )}
               >
                 <Icon aria-hidden />
-                {condition}
+                {rules[condition].name}
               </button>
             )
           })}

@@ -56,7 +56,7 @@ export default createNPC({
           damage: [
             {
               dice: '1d8',
-              type: 'bludgeoning',
+              type: refs.rules.bludgeoning,
               addModifier: true,
             },
           ],
@@ -74,9 +74,7 @@ export default createNPC({
             times: 2,
           },
           ' this turn without provoking an ',
-          {
-            action: 'opportunity attack',
-          },
+          refs.rules.opportunity_attack,
           '.',
         ],
         uses: 1,
@@ -89,11 +87,17 @@ export default createNPC({
         icon: 'gi/GiGearHammer',
         intent: 'damage',
         text: [
-          'Each creature in a 15-ft. cone: Dexterity saving throw, ',
+          'Each creature in a 15-ft. cone: Dexterity ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'int',
           },
-          '. Failure: 2d8 piercing damage. Success: half damage.',
+          '. Failure: 2d8 ',
+          refs.rules.piercing,
+          ' damage. Success: ',
+          refs.rules.half_damage,
+          '.',
         ],
         uses: 1,
         recharge: 'Recharge 5–6',

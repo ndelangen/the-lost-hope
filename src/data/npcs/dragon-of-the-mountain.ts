@@ -50,14 +50,14 @@ export default createNPC({
       blindsight: 60,
       darkvision: 120,
     },
-    damageImmunities: ['fire'],
+    damageImmunities: [refs.rules.fire],
     abilities: [
       {
         key: 'legendary-resistance',
         name: 'Legendary Resistance',
         timing: 'trait',
         icon: 'lucide/Shield',
-        text: ['If it fails a saving throw, it can choose to succeed instead.'],
+        text: ['If it fails a ', refs.rules.saving_throw, ', it can choose to succeed instead.'],
         uses: 3,
         recharge: 'Long rest',
       },
@@ -88,12 +88,12 @@ export default createNPC({
           damage: [
             {
               dice: '2d8',
-              type: 'slashing',
+              type: refs.rules.slashing,
               addModifier: true,
             },
             {
               dice: '1d8',
-              type: 'fire',
+              type: refs.rules.fire,
             },
           ],
         },
@@ -105,11 +105,19 @@ export default createNPC({
         icon: 'gi/GiFireBreath',
         intent: 'damage',
         text: [
-          'Each creature in a 60-ft. cone: Dexterity saving throw, ',
+          'Each creature in a 60-ft. ',
+          refs.rules.cone,
+          ': Dexterity ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'con',
           },
-          '. Failure: 11d10 fire damage. Success: half damage.',
+          '. Failure: 11d10 ',
+          refs.rules.fire,
+          ' damage. Success: ',
+          refs.rules.half_damage,
+          '.',
         ],
         uses: 1,
         recharge: 'Recharge 5–6',
@@ -120,14 +128,14 @@ export default createNPC({
         timing: 'action',
         icon: 'gi/GiDragonBreath',
         text: [
-          'Each creature of its choice within 120 ft.: Wisdom saving throw, ',
+          'Each creature of its choice within 120 ft.: Wisdom ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'cha',
           },
           '. Failure: ',
-          {
-            condition: 'frightened',
-          },
+          refs.rules.frightened,
           ' for 1 minute.',
         ],
         uses: 1,
@@ -155,14 +163,14 @@ export default createNPC({
           name: 'Wing Buffet',
           icon: 'gi/GiBatWing',
           text: [
-            'Each creature within 10 ft.: Strength saving throw, ',
+            'Each creature within 10 ft.: Strength ',
+            refs.rules.saving_throw,
+            ', ',
             {
               dc: 'str',
             },
             '. Failure: ',
-            {
-              condition: 'prone',
-            },
+            refs.rules.prone,
             '. It then flies up to ',
             {
               speed: 'fly',

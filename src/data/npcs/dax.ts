@@ -35,7 +35,7 @@ export default createNPC({
     senses: {
       darkvision: 60,
     },
-    damageResistances: ['fire'],
+    damageResistances: [refs.rules.fire],
     abilities: [
       {
         key: 'shell',
@@ -65,12 +65,12 @@ export default createNPC({
           damage: [
             {
               dice: '1d10',
-              type: 'piercing',
+              type: refs.rules.piercing,
               addModifier: true,
             },
             {
               dice: '1d6',
-              type: 'fire',
+              type: refs.rules.fire,
             },
           ],
         },
@@ -82,11 +82,17 @@ export default createNPC({
         icon: 'gi/GiFireBreath',
         intent: 'damage',
         text: [
-          'Each creature in a 10-ft. cone: Constitution saving throw, ',
+          'Each creature in a 10-ft. cone: Constitution ',
+          refs.rules.saving_throw,
+          ', ',
           {
             dc: 'con',
           },
-          '. Failure: 3d6 fire damage. Success: half damage.',
+          '. Failure: 3d6 ',
+          refs.rules.fire,
+          ' damage. Success: ',
+          refs.rules.half_damage,
+          '.',
         ],
         uses: 1,
         recharge: 'Recharge 5–6',
