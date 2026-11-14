@@ -11,10 +11,13 @@ import {
 } from 'lucide-react'
 import type { ReactNode } from 'react'
 
+import { EffectText } from '#/components/effect-text'
 import { CONDITIONS } from '#/definitions/rules-glossary'
 import { CONDITION_ICONS } from '#/lib/condition-icons'
+import { EffectIcon } from '#/lib/effect-icons'
 import {
   describeDuration,
+  type EffectReminder,
   type LairPrompt,
   type TurnNote,
   type TurnReminder,
@@ -46,6 +49,7 @@ export function TurnCard({
   onDismissRecharge,
   lair = [],
   onLairAction,
+  effectReminders = [],
 }: {
   name: string
   reminders: readonly TurnReminder[]
@@ -56,9 +60,17 @@ export function TurnCard({
   /** Lair actions on initiative 20, shown at the top of the round. */
   lair?: readonly LairPrompt[]
   onLairAction?: (combatant: string, key: string) => void
+  /** Campaign effects that ask for a reminder as the encounter starts. */
+  effectReminders?: readonly EffectReminder[]
 }) {
   const focus = useDensity() === 'focus'
-  if (reminders.length === 0 && notes.length === 0 && lair.length === 0) return null
+  if (
+    reminders.length === 0 &&
+    notes.length === 0 &&
+    lair.length === 0 &&
+    effectReminders.length === 0
+  )
+    return null
 
   return (
     <section
@@ -72,6 +84,19 @@ export function TurnCard({
         {name}’s turn: keep in mind
       </h2>
       <ul className="grid gap-1.5">
+        {effectReminders.map((item) => (
+          <Item
+            key={`effect-${item.combatant}-${item.effect}`}
+            icon={<EffectIcon icon={item.icon} className="size-5 text-sky-600" />}
+          >
+            <span className="grid gap-1">
+              <span>
+                Encounter starts: <strong>{item.name}</strong> · {item.effect}
+              </span>
+              <EffectText text={item.reminder} className="text-muted-foreground" />
+            </span>
+          </Item>
+        ))}
         {lair.map((prompt) => (
           <Item
             key={`lair-${prompt.combatant}`}

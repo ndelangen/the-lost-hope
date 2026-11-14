@@ -121826,7 +121826,8 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/cursed-star.html",
       "usedIn": [
         "src/data/effects/cassian-s-unidentified-curse.ts",
-        "src/lib/effect-icons.tsx"
+        "src/lib/effect-icons.tsx",
+        "src/lib/encounter-combat.test.ts"
       ]
     },
     {

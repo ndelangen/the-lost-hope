@@ -59,6 +59,7 @@ import {
 } from '#/lib/encounter'
 import {
   concentrationDc,
+  effectTriggerReminders,
   lairPrompts,
   startOfTurnReminders,
   type TurnNote,
@@ -250,6 +251,7 @@ function EncounterRoute() {
       activeId={encounter.active}
       nameOf={nameOf}
       actions={combatActionsFor(row.id)}
+      effects={row.effects}
       lair={
         row.stats?.lairActions
           ? {
@@ -353,6 +355,11 @@ function EncounterRoute() {
               ),
               encounter.round,
             )
+          : []
+      }
+      effectReminders={
+        encounter.round === 1 && encounter.roster[0]?.id === encounter.active
+          ? effectTriggerReminders(rows, 'encounterStart')
           : []
       }
       onLairAction={(combatant, key) =>

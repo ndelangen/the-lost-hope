@@ -19,6 +19,7 @@ import {
 import {
   concentrationDc,
   describeDuration,
+  effectTriggerReminders,
   lairPrompts,
   makeCondition,
   rollsToRecharge,
@@ -256,5 +257,39 @@ describe('lair actions', () => {
       lastLairAction: { key: 'smoke', round: 1 },
     })
     expect(setInLair(encounter, m, false).values[m]?.inLair).toBeUndefined()
+  })
+})
+
+describe('campaign effect reminders', () => {
+  const reminder = [['Check whether the curse flares.']]
+  const combatants = [
+    {
+      id: 'pc:cassian',
+      name: 'Cassian',
+      effects: [
+        {
+          name: 'Curse',
+          icon: 'gi/GiCursedStar',
+          triggers: [
+            { on: 'encounterStart' as const, reminder },
+            { on: 'longRest' as const, reminder: [['Rest note.']] },
+          ],
+        },
+        { name: 'Quiet', icon: 'gi/GiCursedStar' },
+      ],
+    },
+  ]
+
+  it('collects the reminders for one trigger', () => {
+    expect(effectTriggerReminders(combatants, 'encounterStart')).toEqual([
+      {
+        combatant: 'pc:cassian',
+        name: 'Cassian',
+        effect: 'Curse',
+        icon: 'gi/GiCursedStar',
+        reminder,
+      },
+    ])
+    expect(effectTriggerReminders(combatants, 'newDay')).toEqual([])
   })
 })
