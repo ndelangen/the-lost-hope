@@ -58,7 +58,7 @@ function DmDashboard() {
                 </ul>
               ) : (
                 <p className="text-muted-foreground px-1 py-2 text-sm">
-                  No scenes selected here yet. Ask Codex to prep this location.
+                  No scenes selected here yet.
                 </p>
               )}
             </section>
