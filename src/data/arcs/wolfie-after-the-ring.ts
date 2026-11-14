@@ -37,7 +37,15 @@ export default createArc({
     },
     {
       name: 'What Wolfie has become',
-      status: 'closed',
+      hook: [
+        [
+          '',
+          refs.beasts.wolfie,
+          ' walks and talks now. What does he ask of ',
+          refs.pcs.cassian_veyl,
+          ' first?',
+        ],
+      ],
       scene: refs.scenes.wolfie_wants_solid_ground,
       events: [refs.events.n2_e204],
     },
