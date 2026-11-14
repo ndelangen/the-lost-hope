@@ -3,6 +3,7 @@ import { create as createArc } from '#/definitions/arc.ts'
 
 export default createArc({
   name: 'The mountain crossing',
+  icon: 'gi/GiMountainCave',
   direction: [['The road from Fajanet over the holy mountain to Badesh.']],
   quests: [refs.quests.mountain_holy_site, refs.quests.dino_migration],
   plots: [

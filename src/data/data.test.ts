@@ -1,9 +1,11 @@
 import { describe, expect, it } from 'vitest'
 
+import arcs from '#/data/arcs/_index.ts'
 import { refs } from '#/data/generated/refs.ts'
 import { ENTITY_KINDS } from '#/definitions/kind.ts'
 import { QUEST_TYPES } from '#/definitions/quest.ts'
 import catalog from '#/icon-catalog/catalog.json'
+import { ARC_ICONS } from '#/lib/arc-icons.tsx'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 import {
   allEntities,
@@ -363,6 +365,10 @@ describe('entity icons', () => {
       {
         icons: Object.values(quests).map((quest) => quest.icon),
         registry: QUEST_ICONS,
+      },
+      {
+        icons: Object.values(arcs).map((arc) => arc.icon),
+        registry: ARC_ICONS,
       },
     ]
 

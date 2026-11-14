@@ -31,6 +31,7 @@ describe('DM campaign model', () => {
   it('allows the same event in several arcs while the session owns play order', () => {
     const fiddler = createArc({
       name: 'The Fiddler and the party’s possible futures',
+      icon: 'gi/GiViolin',
       direction: [['Explore how the dealer knows the party.']],
       quests: [refs.quests.find_the_fiddler],
       sessions: [refs.sessions.the_ghost_and_the_gambler],
@@ -45,6 +46,7 @@ describe('DM campaign model', () => {
     })
     const jim = createArc({
       name: 'Jim and the Eyeless Hand',
+      icon: 'gi/GiViolin',
       direction: [['Follow the implications of the Fiddler’s questions.']],
       plots: [{ name: 'The hint to Jim', events: [refs.events.n2_e198] }],
     })
@@ -67,6 +69,7 @@ describe('DM campaign model', () => {
   it('rejects a reference to the wrong kind and reports dangling scene refs', () => {
     const input = {
       name: 'The Fiddler and the party’s possible futures',
+      icon: 'gi/GiViolin',
       direction: [['Explore how the dealer knows the party.']],
       plots: [{ name: 'Another game in the Nimbus casino', scene: vipRoom }],
     }
@@ -82,6 +85,7 @@ describe('DM campaign model', () => {
   it('keeps the prepared location when play takes place somewhere else', () => {
     const arc = createArc({
       name: 'The Fiddler and the party’s possible futures',
+      icon: 'gi/GiViolin',
       direction: [['Explore the second smoke trail.']],
       plots: [{ name: 'Follow the smoke', scene: vipRoom, events: [refs.events.n2_e178] }],
     })

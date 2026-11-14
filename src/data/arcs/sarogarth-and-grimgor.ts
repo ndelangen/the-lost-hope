@@ -3,6 +3,7 @@ import { create as createArc } from '#/definitions/arc.ts'
 
 export default createArc({
   name: 'Sarogarth and Grimgor',
+  icon: 'gi/GiOrcHead',
   direction: [
     [
       'What does ',

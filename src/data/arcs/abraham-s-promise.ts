@@ -3,6 +3,7 @@ import { create as createArc } from '#/definitions/arc.ts'
 
 export default createArc({
   name: 'Abraham’s promise',
+  icon: 'gi/GiDonkey',
   direction: [
     [
       'Where does ',

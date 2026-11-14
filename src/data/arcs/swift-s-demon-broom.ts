@@ -3,6 +3,7 @@ import { create as createArc } from '#/definitions/arc.ts'
 
 export default createArc({
   name: 'Swift’s demon broom',
+  icon: 'gi/GiMagicBroom',
   direction: [
     [
       'Can ',

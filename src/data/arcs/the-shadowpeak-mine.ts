@@ -3,6 +3,7 @@ import { create as createArc } from '#/definitions/arc.ts'
 
 export default createArc({
   name: 'The ShadowPeak mine',
+  icon: 'gi/GiMiner',
   direction: [['The slave mine under ShadowPeak and the people the party freed from it.']],
   plots: [
     {

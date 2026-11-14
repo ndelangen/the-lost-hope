@@ -5,6 +5,7 @@ import { DmFaces } from '#/components/dm/dm-faces'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
 import { EntityReference } from '#/components/entity-reference'
 import { Pill } from '#/components/ui/pill'
+import { ArcIcon } from '#/lib/arc-icons'
 import { resolveRef } from '#/lib/campaign'
 import { arcs, resolveScene, sessionsForArc } from '#/lib/dm-campaign'
 
@@ -33,7 +34,10 @@ function ArcRoute() {
       <div className="grid min-w-0 grid-cols-1 content-start gap-5">
         <header className="grid gap-2">
           <p className="text-muted-foreground text-xs uppercase">Arc</p>
-          <h1 className="text-3xl font-bold">{arc.name}</h1>
+          <h1 className="flex items-center gap-3 text-3xl font-bold">
+            <ArcIcon icon={arc.icon} className="size-8" />
+            {arc.name}
+          </h1>
           <ContentRenderer content={arc.direction} />
           {sessions.length > 0 ? (
             <p className="text-muted-foreground flex flex-wrap gap-2 text-sm">

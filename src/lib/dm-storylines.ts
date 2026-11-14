@@ -1,5 +1,6 @@
 import type { Arc } from '#/definitions/arc'
 import type { EntityRef } from '#/definitions/kind'
+import { collectReferences } from '#/lib/campaign-read-model'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 
 /**
@@ -191,4 +192,85 @@ export function assignColumns(storylines: readonly Storyline[]): Map<string, num
     columns.set(line.key, column)
   }
   return columns
+}
+
+/** A record a storyline can be filtered on, written `kind:key` so it fits in a URL. */
+export type FocusKey = `${EntityRef['ref']}:${string}`
+
+export function focusKey(ref: EntityRef): FocusKey {
+  return `${ref.ref}:${ref.key}`
+}
+
+export function parseFocusKey(value: string): EntityRef | undefined {
+  const [ref, key] = value.split(':')
+  if (!ref || !key || !Object.hasOwn(SOURCE_REGISTRIES, ref)) return undefined
+  return { ref: ref as EntityRef['ref'], key }
+}
+
+/**
+ * Everything a storyline touches: the records its arc and plots name, everything its played
+ * events reference (DM-only fields included), and every place those events happened in, up the
+ * location tree, so focusing on Skynet also finds what happened at the inn.
+ */
+export function storylineReferences(line: Storyline): Set<FocusKey> {
+  const events = SOURCE_REGISTRIES.event as Record<string, object>
+  const locations = SOURCE_REGISTRIES.location as Record<string, SourceLocation>
+  const found = new Set<FocusKey>()
+  const add = (ref: EntityRef) => {
+    found.add(focusKey(ref))
+    if (ref.ref !== 'location') return
+    for (let key = locations[ref.key]?.parent?.key; key; key = locations[key]?.parent?.key) {
+      found.add(`location:${key}`)
+    }
+  }
+  for (const ref of collectReferences(line.arc)) add(ref)
+  for (const stop of line.stops) {
+    for (const event of stop.events) {
+      for (const ref of collectReferences(events[event])) add(ref)
+    }
+  }
+  return found
+}
+
+export type StorylineFilters = {
+  /** Only storylines that touch this record. */
+  focus?: EntityRef
+  /** Only storylines that still have open plots. */
+  openOnly?: boolean
+  /** Only the most recent sessions. Older rows are left out, and lines run off the bottom. */
+  recent?: number
+}
+
+/** Which storylines match the filters, and which sessions to show. */
+export function applyStorylineFilters(
+  storylines: readonly Storyline[],
+  sessions: readonly StorylineSession[],
+  { focus, openOnly, recent }: StorylineFilters,
+): { matching: Set<string>; sessions: StorylineSession[] } {
+  const shown = recent ? sessions.slice(-recent) : [...sessions]
+  const oldest = shown[0]?.number ?? 0
+  const wanted = focus ? focusKey(focus) : undefined
+  const matching = new Set(
+    storylines
+      .filter((line) => !openOnly || line.next.length > 0)
+      .filter((line) => line.next.length > 0 || (line.last ?? -1) >= oldest)
+      .filter((line) => !wanted || storylineReferences(line).has(wanted))
+      .map((line) => line.key),
+  )
+  return { matching, sessions: shown }
+}
+
+/** Every record the storylines touch, for the focus picker. The world itself is left out. */
+export function focusOptions(storylines: readonly Storyline[]): EntityRef[] {
+  const keys = new Set<FocusKey>()
+  for (const line of storylines) for (const key of storylineReferences(line)) keys.add(key)
+  return [...keys]
+    .map((key) => parseFocusKey(key))
+    .filter((ref): ref is EntityRef => ref !== undefined)
+    .filter((ref) => ref.ref !== 'event' && ref.ref !== 'session')
+    .filter(
+      (ref) =>
+        (SOURCE_REGISTRIES.location as Record<string, SourceLocation>)[ref.key]?.parent ||
+        ref.ref !== 'location',
+    )
 }

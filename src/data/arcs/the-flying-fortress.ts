@@ -3,6 +3,7 @@ import { create as createArc } from '#/definitions/arc.ts'
 
 export default createArc({
   name: 'The flying fortress',
+  icon: 'gi/GiElvenCastle',
   direction: [['Why does the second smoke trail point at a flying fortress, and who is aboard?']],
   plots: [
     {

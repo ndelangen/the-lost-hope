@@ -4,7 +4,14 @@ import { refs } from '#/data/generated/refs'
 import { create as createArc } from '#/definitions/arc'
 
 import { arcs as campaignArcs } from './dm-campaign'
-import { assignColumns, buildStorylines, placeOf } from './dm-storylines'
+import {
+  applyStorylineFilters,
+  assignColumns,
+  buildStorylines,
+  campaignSessionsInOrder,
+  focusOptions,
+  placeOf,
+} from './dm-storylines'
 
 const sessions = [
   { key: 'one', number: 1, name: 'One', events: [refs.events.n2_e001, refs.events.n2_e002] },
@@ -16,6 +23,7 @@ const locationOf = () => 'fajanet_guildhall'
 const arcs = {
   early: createArc({
     name: 'Early',
+    icon: 'gi/GiViolin',
     direction: [['Ends in session two.']],
     plots: [
       { name: 'Start', status: 'closed', events: [refs.events.n2_e001] },
@@ -24,6 +32,7 @@ const arcs = {
   }),
   late: createArc({
     name: 'Late',
+    icon: 'gi/GiViolin',
     direction: [['Starts in session three and is still open.']],
     plots: [
       { name: 'Meet', status: 'closed', events: [refs.events.n2_e004, refs.events.n2_e003] },
@@ -32,6 +41,7 @@ const arcs = {
   }),
   closedLate: createArc({
     name: 'Closed late',
+    icon: 'gi/GiViolin',
     direction: [['Only session three.']],
     plots: [{ name: 'Once', status: 'closed', events: [refs.events.n2_e005] }],
   }),
@@ -69,5 +79,40 @@ describe('storyline map', () => {
     const lines = buildStorylines(campaignArcs)
     expect(lines).toHaveLength(Object.keys(campaignArcs).length)
     expect(lines.every((line) => line.stops.length > 0)).toBe(true)
+  })
+})
+
+describe('storyline filters', () => {
+  const lines = buildStorylines(campaignArcs)
+  const allSessions = campaignSessionsInOrder()
+
+  it('focuses on a person or a place, including places inside it', () => {
+    const devan = applyStorylineFilters(lines, allSessions, { focus: refs.pcs.devan }).matching
+    expect(devan.has('sarogarth_and_grimgor')).toBe(true)
+    expect(devan.has('the_exotic_animal_dealer')).toBe(false)
+
+    const skynet = applyStorylineFilters(lines, allSessions, {
+      focus: refs.locations.skynet,
+    }).matching
+    expect(skynet.has('the_serpent_eclipse')).toBe(true)
+    expect(skynet.has('the_mountain_crossing')).toBe(false)
+  })
+
+  it('keeps only open storylines, and only recent sessions', () => {
+    const open = applyStorylineFilters(lines, allSessions, { openOnly: true }).matching
+    expect(open.has('the_exotic_animal_dealer')).toBe(false)
+    expect(open.has('the_flying_fortress')).toBe(true)
+
+    const recent = applyStorylineFilters(lines, allSessions, { recent: 3 })
+    expect(recent.sessions.map((s) => s.number)).toEqual([15, 16, 17])
+    expect(recent.matching.has('the_shadowpeak_mine')).toBe(false)
+    expect(recent.matching.has('the_tempest_family')).toBe(true)
+  })
+
+  it('offers people and places to focus on, but not the world', () => {
+    const options = focusOptions(lines).map((ref) => `${ref.ref}:${ref.key}`)
+    expect(options).toContain('pc:jim')
+    expect(options).toContain('location:skynet')
+    expect(options).not.toContain('location:world')
   })
 })

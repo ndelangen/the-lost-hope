@@ -3,6 +3,7 @@ import { create as createArc } from '#/definitions/arc.ts'
 
 export default createArc({
   name: 'The cursed shadow sword',
+  icon: 'gi/GiRelicBlade',
   direction: [
     [
       'What is bound to the ',

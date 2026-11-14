@@ -25,6 +25,7 @@ const sceneRef = (key: keyof typeof scenes) => ({ ref: 'scene', key }) as const
 const arcs = {
   fiddler: createArc({
     name: 'The Fiddler',
+    icon: 'gi/GiViolin',
     direction: [['Who is the dealer?']],
     plots: [{ name: 'Another game', scene: sceneRef('game') }],
   }),

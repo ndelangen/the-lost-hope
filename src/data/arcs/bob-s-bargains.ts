@@ -3,6 +3,7 @@ import { create as createArc } from '#/definitions/arc.ts'
 
 export default createArc({
   name: 'Bob’s bargains',
+  icon: 'gi/GiShop',
   direction: [['What is ', refs.npcs.bob_the_merchant, ', and what do his bargains really cost?']],
   quests: [
     refs.quests.what_is_up_with_bob_the_merchant,

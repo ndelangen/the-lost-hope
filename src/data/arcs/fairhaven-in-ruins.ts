@@ -3,6 +3,7 @@ import { create as createArc } from '#/definitions/arc.ts'
 
 export default createArc({
   name: 'Fairhaven in ruins',
+  icon: 'gi/GiCastleRuins',
   direction: [
     [
       'Who destroyed Fairhaven, and what part did ',

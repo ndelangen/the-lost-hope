@@ -3,6 +3,7 @@ import { create as createArc } from '#/definitions/arc.ts'
 
 export default createArc({
   name: 'The exotic animal dealer',
+  icon: 'gi/GiHawkEmblem',
   direction: [['Recover the escaped animals for the ', refs.npcs.rare_animal_dealer, '.']],
   quests: [refs.quests.rare_animal_dealer],
   plots: [

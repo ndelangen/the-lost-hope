@@ -3,6 +3,7 @@ import { create as createArc } from '#/definitions/arc.ts'
 
 export default createArc({
   name: 'Tentacles and the shadow realm',
+  icon: 'gi/GiFloatingTentacles',
   direction: [
     ['What takes people at night in Fajanet, and how does it connect to the shadow realm?'],
   ],

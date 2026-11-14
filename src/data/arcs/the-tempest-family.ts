@@ -3,6 +3,7 @@ import { create as createArc } from '#/definitions/arc.ts'
 
 export default createArc({
   name: 'The Tempest family',
+  icon: 'gi/GiBoltEye',
   direction: [['Who rules Tempest, who owes them, and where does the party stand?']],
   quests: [refs.quests.settle_the_shipwright_s_favors],
   plots: [

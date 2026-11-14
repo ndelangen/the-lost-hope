@@ -3,6 +3,7 @@ import { create as createArc } from '#/definitions/arc.ts'
 
 export default createArc({
   name: 'The obsidian green rod',
+  icon: 'gi/GiCrystalWand',
   direction: [
     ['What is the ', refs.items.obsidian_green_rod, ' the party took from the dying dungeon?'],
   ],

@@ -20,6 +20,11 @@ export const Plot = deriveSlug(
 export const Arc = deriveSlug(
   z.strictObject({
     name: z.string().trim().min(1),
+    icon: z
+      .string()
+      .describe(
+        "A unique icon-catalog id for this arc's symbol, e.g. `gi/GiViolin` — see src/lib/arc-icons.tsx.",
+      ),
     direction: Content,
     notes: Content.optional(),
     quests: z.array(entityRefOf('quest')).default([]),

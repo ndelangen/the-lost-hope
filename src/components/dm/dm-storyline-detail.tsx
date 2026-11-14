@@ -2,6 +2,7 @@ import { Link } from '@tanstack/react-router'
 
 import { ContentRenderer } from '#/components/content-renderer'
 import { EntityReference } from '#/components/entity-reference'
+import { ArcIcon } from '#/lib/arc-icons'
 import { resolveSourceRef } from '#/lib/dm-campaign'
 import type { Storyline } from '#/lib/dm-storylines'
 
@@ -24,8 +25,9 @@ export function DmStorylineDetail({
           <Link
             to="/dm/arcs/$slug"
             params={{ slug: line.arc.slug }}
-            className="text-xl font-semibold hover:underline"
+            className="flex items-center gap-2 text-xl font-semibold hover:underline"
           >
+            <ArcIcon icon={line.arc.icon} className="size-5" />
             {line.arc.name}
           </Link>
           <div className="text-muted-foreground text-sm">

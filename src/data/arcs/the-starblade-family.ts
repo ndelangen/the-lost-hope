@@ -3,6 +3,7 @@ import { create as createArc } from '#/definitions/arc.ts'
 
 export default createArc({
   name: 'The Starblade family',
+  icon: 'gi/GiGriffinShield',
   direction: [
     ['What is ', refs.pcs.swift_starblade, '’s family history, and who became her enemy?'],
   ],

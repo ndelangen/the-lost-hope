@@ -3,6 +3,7 @@ import { create as createArc } from '#/definitions/arc.ts'
 
 export default createArc({
   name: 'Light and the marshals',
+  icon: 'gi/GiHeraldicSun',
   direction: [
     [
       'What is ',

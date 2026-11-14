@@ -3,6 +3,7 @@ import { create as createArc } from '#/definitions/arc.ts'
 
 export default createArc({
   name: 'The Fiddler and the party’s possible futures',
+  icon: 'gi/GiViolin',
   direction: [
     [
       'How does ',

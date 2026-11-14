@@ -3,6 +3,7 @@ import { create as createArc } from '#/definitions/arc.ts'
 
 export default createArc({
   name: 'Wolfie and Cassian’s ring',
+  icon: 'gi/GiWolfHowl',
   direction: [
     [
       'What has the ring made of ',

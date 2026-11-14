@@ -3,6 +3,7 @@ import { create as createArc } from '#/definitions/arc.ts'
 
 export default createArc({
   name: 'Jim and the Eyeless Hand',
+  icon: 'gi/GiEyeball',
   direction: [
     [
       'Who is ',

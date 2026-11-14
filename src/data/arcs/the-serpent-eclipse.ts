@@ -3,6 +3,7 @@ import { create as createArc } from '#/definitions/arc.ts'
 
 export default createArc({
   name: 'The Serpent Eclipse dungeon',
+  icon: 'gi/GiSeaSerpent',
   direction: [
     [
       'The party’s first dungeon, sponsored by ',
