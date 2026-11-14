@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Fix delivers potions to Lord Malachar',
   day: 17,
   location: refs.locations.blackstone_stables,
-  mark: { type: 'avatar', url: '/assets/pcs/placeholder.svg' },
+  mark: { type: 'avatar', of: refs.pcs.fix },
   notes: [
     [
       'The next morning, ',

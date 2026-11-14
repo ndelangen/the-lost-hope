@@ -1,8 +1,9 @@
 import campaign from '#/data/index.ts'
 import type { Effect } from '#/definitions/effect.ts'
-import type { Event, EventMark } from '#/definitions/event.ts'
+import type { Event } from '#/definitions/event.ts'
 import { isEntityRef, type EntityKind, type EntityRef } from '#/definitions/kind.ts'
 import type { Location, LocationType } from '#/definitions/location.ts'
+import { DEFAULT_AVATAR } from '#/definitions/media.ts'
 import type { NPC } from '#/definitions/npc.ts'
 import type { Membership } from '#/definitions/organization.ts'
 import { MEMBERSHIP_STATUSES } from '#/definitions/organization.ts'
@@ -537,7 +538,7 @@ export type SessionTimelineEntry =
       day: number
       slug: string
       name: string
-      mark: EventMark
+      mark: EventMarkVisual
     }
 
 export type SessionTimelineSection = {
@@ -559,7 +560,7 @@ export function sessionTimelineSections(): SessionTimelineSection[] {
           day: event.day,
           slug: event.slug,
           name: event.name,
-          mark: event.mark,
+          mark: eventMarkVisual(event),
         })
       }
     }
@@ -692,4 +693,24 @@ export function effectsOn(kind: EntityKind, slug: string): EffectEntry[] {
         EFFECT_STATUS_ORDER[a.status] - EFFECT_STATUS_ORDER[b.status] ||
         (b.began?.data.day ?? 0) - (a.began?.data.day ?? 0),
     )
+}
+
+export type EventMarkVisual = { type: 'avatar'; url: string } | { type: 'icon'; name: string }
+
+/**
+ * The picture that marks an event: an icon, or the portrait of the referenced character as it
+ * looked on the event's campaign day. A PC's previous portrait applies up to its `until` day.
+ */
+export function eventMarkVisual(event: Pick<Event, 'mark' | 'day'>): EventMarkVisual {
+  const { mark } = event
+  if (mark.type === 'icon') return mark
+  const subject = resolveRef(mark.of)
+  if (!subject || !('avatar' in subject.data)) return { type: 'avatar', url: DEFAULT_AVATAR }
+  const earlier =
+    subject.kind === 'pc'
+      ? (subject.data.previousPortraits ?? [])
+          .filter((portrait) => portrait.until !== undefined && portrait.until >= event.day)
+          .toSorted((a, b) => (a.until ?? 0) - (b.until ?? 0))[0]
+      : undefined
+  return { type: 'avatar', url: earlier?.url ?? subject.data.avatar }
 }

@@ -5,7 +5,7 @@ export default createEvent({
   name: 'The party carries the sleeping Cassian in the Bag of Holding',
   day: 22,
   location: refs.locations.serpent_eclipse_rest_chamber,
-  mark: { type: 'avatar', url: '/assets/pcs/cassian.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.cassian_veyl },
   notes: [
     [
       refs.pcs.cassian_veyl,

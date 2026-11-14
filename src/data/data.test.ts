@@ -27,13 +27,13 @@ import {
   sortedEvents,
   validateReferences,
   itemsCarriedBy,
+  eventMarkVisual,
   itemsOwnedBy,
 } from '#/lib/campaign.ts'
 import { EVENT_ICONS } from '#/lib/event-icons.tsx'
 import { ITEM_ICONS } from '#/lib/item-icons.tsx'
 import { LOCATION_ICONS } from '#/lib/location-icons.tsx'
 import { ORGANIZATION_ICONS } from '#/lib/organization-icons.tsx'
-import { hasPublicAsset } from '#/lib/public-media'
 import { QUEST_ICONS } from '#/lib/quest-icons.tsx'
 import { SESSION_ICONS } from '#/lib/session-icons.tsx'
 
@@ -503,32 +503,18 @@ describe('reference integrity', () => {
 })
 
 describe('campaign chronology', () => {
-  it('keeps local event avatars synchronized with existing PC assets', () => {
-    const avatarMarks = Object.values(events).flatMap((event) =>
-      event.mark.type === 'avatar' ? [event.mark] : [],
-    )
-
-    expect(
-      avatarMarks.every(({ url }) => (url.startsWith('/assets/') ? hasPublicAsset(url) : true)),
-    ).toBe(true)
-    expect(events.n2_e023.mark).toEqual({ type: 'avatar', url: pcs.mr_peace.avatar })
-    expect(events.n2_e076.mark).toEqual({ type: 'avatar', url: pcs.devan.avatar })
+  it('marks events with the referenced character’s portrait', () => {
+    expect(eventMarkVisual(events.n2_e023)).toEqual({ type: 'avatar', url: pcs.mr_peace.avatar })
+    expect(eventMarkVisual(events.n2_e076)).toEqual({ type: 'avatar', url: pcs.devan.avatar })
+    expect(eventMarkVisual(events.n2_e070)).toEqual({ type: 'avatar', url: pcs.theron.avatar })
   })
 
-  it('preserves Jim’s kenku portrait on events before his human identity reveal', () => {
+  it('shows Jim’s portrait as he looked on each event’s campaign day', () => {
     expect(pcs.jim.avatar).toBe('/assets/pcs/jim-ghost.png')
-    expect(pcs.jim.previousPortraits?.map(({ url }) => url)).toEqual([
-      '/assets/pcs/jim.jpg',
-      '/assets/pcs/jim-kenku.jpg',
+    expect(pcs.jim.previousPortraits?.map(({ url, until }) => [url, until])).toEqual([
+      ['/assets/pcs/jim.jpg', 24],
+      ['/assets/pcs/jim-kenku.jpg', 20],
     ])
-    const kenkuPortrait = pcs.jim.previousPortraits?.find(
-      ({ url }) => url === '/assets/pcs/jim-kenku.jpg',
-    )
-    expect(kenkuPortrait).toEqual({
-      url: '/assets/pcs/jim-kenku.jpg',
-      description: 'Jim wearing his former kenku disguise',
-    })
-    expect(hasPublicAsset(kenkuPortrait?.url ?? '')).toBe(true)
 
     const preRevealEvents = [
       events.n2_e002,
@@ -541,10 +527,14 @@ describe('campaign chronology', () => {
       events.n2_e108,
       events.n2_e122,
     ]
-    expect(preRevealEvents.map((event) => event.mark)).toEqual(
-      preRevealEvents.map(() => ({ type: 'avatar', url: kenkuPortrait?.url })),
+    expect(preRevealEvents.map(eventMarkVisual)).toEqual(
+      preRevealEvents.map(() => ({ type: 'avatar', url: '/assets/pcs/jim-kenku.jpg' })),
     )
-    expect(events.n2_e119.mark).toEqual({ type: 'avatar', url: '/assets/pcs/jim.jpg' })
+    expect(eventMarkVisual(events.n2_e119)).toEqual({ type: 'avatar', url: '/assets/pcs/jim.jpg' })
+    expect(eventMarkVisual({ ...events.n2_e119, day: 25 })).toEqual({
+      type: 'avatar',
+      url: '/assets/pcs/jim-ghost.png',
+    })
   })
 
   it('gives every icon-backed event a supported icon unique within its session', () => {

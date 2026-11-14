@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Fix joins Lucky Palm and the guild under a fake tattoo',
   day: 13,
   location: refs.locations.fairhaven_guildhall,
-  mark: { type: 'avatar', url: '/assets/pcs/placeholder.svg' },
+  mark: { type: 'avatar', of: refs.pcs.fix },
   notes: [
     [
       'Early in the morning, as everyone was getting up, ',

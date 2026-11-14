@@ -5,7 +5,7 @@ export default createEvent({
   name: "Cassian proposes seeking Onana's backing",
   day: 24,
   location: refs.locations.skynet,
-  mark: { type: 'avatar', url: '/assets/pcs/cassian.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.cassian_veyl },
   notes: [
     [
       'After leaving the shipyard, ',

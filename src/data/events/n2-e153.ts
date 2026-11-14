@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Jim survives the Zodiac Dagger and rejects a soul bargain',
   day: 22,
   location: refs.locations.serpent_eclipse_crystal_oasis,
-  mark: { type: 'avatar', url: '/assets/pcs/jim.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.jim },
   notes: [
     [
       refs.npcs.sarogarth,

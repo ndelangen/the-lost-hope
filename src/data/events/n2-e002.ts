@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Jim receives a letter from Light',
   day: 1,
   location: refs.locations.the_boat_to_fajanet_celesta,
-  mark: { type: 'avatar', url: '/assets/pcs/jim-kenku.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.jim },
   notes: [
     [
       refs.pcs.jim,

@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Cassian buys a protective cloak and a spell-storing ring',
   day: 24,
   location: refs.locations.skynet,
-  mark: { type: 'avatar', url: '/assets/pcs/cassian.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.cassian_veyl },
   notes: [
     [
       'At a magical-artifact shop, ',

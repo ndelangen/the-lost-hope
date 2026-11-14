@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Swift refuses the demon broom for 100 GP',
   day: 13,
   location: refs.locations.giggles_and_gadgets,
-  mark: { type: 'avatar', url: '/assets/pcs/swift.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.swift_starblade },
   notes: [
     [
       'After taming ',

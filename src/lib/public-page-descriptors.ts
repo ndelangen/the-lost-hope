@@ -9,11 +9,13 @@ import {
   entityHref,
   entityTeaser,
   eventLocation,
+  eventMarkVisual,
   locationParent,
   npcLocation,
   pcStatLine,
   sessionNumber,
   type Entity,
+  type EventMarkVisual,
 } from '#/lib/campaign'
 
 export const SITE_ORIGIN = 'https://the-lost-hope.netlify.app'
@@ -163,9 +165,7 @@ function imageCandidate(entity: Entity): string | undefined {
     case 'beast':
       return entity.data.avatar
     case 'event':
-      return (
-        entity.data.image ?? (entity.data.mark.type === 'avatar' ? entity.data.mark.url : undefined)
-      )
+      return entity.data.image ?? avatarUrl(eventMarkVisual(entity.data))
     case 'location':
       return locationIllustrationImageCandidate(entity.data.illustration)
     default:
@@ -279,4 +279,8 @@ export function validatePublicPageDescriptors(): string[] {
     errors.push(`Expected 494 public pages, found ${PUBLIC_PAGE_DESCRIPTORS.length}`)
   }
   return errors
+}
+
+function avatarUrl(mark: EventMarkVisual): string | undefined {
+  return mark.type === 'avatar' ? mark.url : undefined
 }

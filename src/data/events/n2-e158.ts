@@ -5,7 +5,7 @@ export default createEvent({
   name: 'The party gives Sarogarth a room at the inn',
   day: 22,
   location: refs.locations.skynet_s_second_best_inn,
-  mark: { type: 'avatar', url: '/assets/pcs/jim.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.jim },
   notes: [
     [
       refs.npcs.sarogarth,

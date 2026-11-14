@@ -5,7 +5,7 @@ export default createEvent({
   name: 'The high priest removes Cassian’s curse',
   day: 21,
   location: refs.locations.gruumsh_temple_ritual_room,
-  mark: { type: 'avatar', url: '/assets/pcs/cassian.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.cassian_veyl },
   notes: [
     [
       refs.pcs.cassian_veyl,

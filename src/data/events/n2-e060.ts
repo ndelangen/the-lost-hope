@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Penelope shows the party her original recipes',
   day: 13,
   location: refs.locations.penelope_s_underground_workshop,
-  mark: { type: 'avatar', url: '/assets/pcs/placeholder.svg' },
+  mark: { type: 'avatar', of: refs.npcs.penelope },
   notes: [
     [
       refs.npcs.penelope,

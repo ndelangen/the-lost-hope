@@ -5,7 +5,7 @@ export default createEvent({
   name: 'The high priest frees Jim from pain and cleanses the Shadow Sword',
   day: 21,
   location: refs.locations.gruumsh_temple_ritual_room,
-  mark: { type: 'avatar', url: '/assets/pcs/jim.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.jim },
   notes: [
     [
       refs.pcs.jim,

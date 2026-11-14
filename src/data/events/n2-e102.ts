@@ -5,7 +5,7 @@ export default createEvent({
   name: 'The party is arrested for reckless donkey driving',
   day: 10,
   location: refs.locations.badesh,
-  mark: { type: 'avatar', url: '/assets/pcs/placeholder.svg' },
+  mark: { type: 'avatar', of: refs.npcs.ryan },
   notes: [
     [
       'After reaching ',

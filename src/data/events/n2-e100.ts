@@ -5,7 +5,7 @@ export default createEvent({
   name: "Cassian ruins Sylvia's caviar and works off the damage",
   day: 18,
   location: refs.locations.the_flying_whale,
-  mark: { type: 'avatar', url: '/assets/pcs/cassian.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.cassian_veyl },
   notes: [
     [
       refs.pcs.cassian_veyl,

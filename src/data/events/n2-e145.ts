@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Jim briefly incapacitates the serpent',
   day: 22,
   location: refs.locations.serpent_eclipse_flooded_cavern,
-  mark: { type: 'avatar', url: '/assets/pcs/jim.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.jim },
   notes: [
     [
       refs.pcs.jim,

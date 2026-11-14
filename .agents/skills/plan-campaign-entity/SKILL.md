@@ -3,7 +3,8 @@ name: plan-campaign-entity
 description: >-
   Plan or implement structured campaign-canon changes under src/data without duplicate canon, slug
   collisions, dangling refs, or misplaced facts. Use for creating, editing, importing, or renaming
-  beasts, PCs, NPCs, locations, events, sessions, quests, or organizations. Do not use for read-only
+  beasts, PCs, NPCs, locations, events, sessions, quests, organizations, items, or lasting effects.
+  Do not use for read-only
   lore questions or engineering changes outside campaign data.
 ---
 
@@ -92,12 +93,27 @@ for an unresolved decision that materially changes the model.
 - Update every old key, slug, and display-name occurrence during a rename; do not add aliases or
   compatibility shims for old code or URLs.
 
+For lasting effects (a curse, a card's boon or bane, a bargain, a transformation that outlives the
+scene), create or update an effect record in `src/data/effects/` instead of describing its mechanics in
+event prose:
+
+- A new effect: set `on`, `cause` when known, `began` to the introducing event, and `rules`; add
+  `duration`, `triggers`, `obligations`, and `removal` when the source states them. The introducing
+  event references it (`refs.effects.*`) and says only what happened.
+- An effect lifted in play: set `ended` to that event and have the event reference the effect. Never
+  store a status; an effect that simply runs out needs only its `duration`.
+- A later ruling that changes how an effect works: update the effect's `rules`, and keep the event to
+  what happened at the table.
+- One-time gains (ability scores, gold, languages, items), item properties, and conditions that end
+  with the fight are not effects.
+
 For events, use the next sequential `n2-e###` ID and a positive integer `day`; sessions alone retain
 full real-world dates. Session event-reference order records event order within a day. Choose `mark`
 from references in `notes`:
 
-- Exactly one PC: use that PC's avatar.
-- Exactly one NPC and no PCs: use that NPC's avatar.
+- Exactly one PC: `{ type: 'avatar', of: refs.pcs.* }`. The app shows the portrait the PC had on the
+  event's day (a previous portrait applies up to its `until` day); never put an image path in a mark.
+- Exactly one NPC and no PCs: `{ type: 'avatar', of: refs.npcs.* }`.
 - Otherwise: use a thematic icon already supported by `src/lib/event-icons.tsx`, or add the icon
   there in the same change.
 

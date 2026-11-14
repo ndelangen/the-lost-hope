@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Swift frees and steals the demon broom',
   day: 14,
   location: refs.locations.giggles_and_gadgets,
-  mark: { type: 'avatar', url: '/assets/pcs/swift.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.swift_starblade },
   notes: [
     [
       'During the destruction of ',

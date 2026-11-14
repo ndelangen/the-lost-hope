@@ -1,14 +1,15 @@
 import type { Content } from '#/definitions/content'
-import type { EventMark } from '#/definitions/event'
 import { isEntityRef, type EntityRef } from '#/definitions/kind'
 import type { QuestType } from '#/definitions/quest'
 import type { Session } from '#/definitions/session'
 import {
   eventLocation,
+  eventMarkVisual,
   locationParent,
   resolveRef,
   reverseLinks,
   sessionDays,
+  type EventMarkVisual,
 } from '#/lib/campaign'
 
 export type SessionJournalReference = {
@@ -38,7 +39,7 @@ export type SessionJournalEvent = {
   slug: string
   name: string
   notes: Content
-  mark: EventMark
+  mark: EventMarkVisual
   location?: SessionJournalLocation
   transition?: {
     slug: string
@@ -80,7 +81,7 @@ export function sessionJournalData(session: Session): SessionJournalDay[] {
         slug: event.slug,
         name: event.name,
         notes: event.notes,
-        mark: event.mark,
+        mark: eventMarkVisual(event),
         location: location
           ? {
               slug: location.slug,

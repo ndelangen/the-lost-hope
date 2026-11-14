@@ -5,7 +5,7 @@ export default createEvent({
   name: "Abraham's cart leads the escape",
   day: 17,
   location: refs.locations.shadowpeak,
-  mark: { type: 'avatar', url: '/assets/pcs/jim-kenku.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.jim },
   notes: [
     [
       refs.pcs.jim,

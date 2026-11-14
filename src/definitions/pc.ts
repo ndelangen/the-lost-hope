@@ -13,6 +13,14 @@ export const PC_STATUSES = ['active', 'retired', 'occasional'] as const
 export const PreviousPortrait = z.strictObject({
   url: MediaUrl.describe('The historical portrait image'),
   description: z.string().trim().min(1).describe('Accessible and visible portrait description'),
+  until: z
+    .number()
+    .int()
+    .positive()
+    .optional()
+    .describe(
+      'Last campaign day this portrait showed the character. Event marks on or before that day use it.',
+    ),
 })
 
 export type PreviousPortrait = z.infer<typeof PreviousPortrait>

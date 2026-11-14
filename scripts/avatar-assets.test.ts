@@ -5,7 +5,6 @@ import sharp from 'sharp'
 import { describe, expect, it } from 'vitest'
 
 import beasts from '../src/data/beasts/_index'
-import events from '../src/data/events/_index'
 import npcs from '../src/data/npcs/_index'
 import pcs from '../src/data/pcs/_index'
 import { DEFAULT_AVATAR } from '../src/definitions/media'
@@ -20,9 +19,6 @@ const avatars = [
     ),
     ...Object.values(pcs).flatMap((pc) =>
       (pc.previousPortraits ?? []).map((portrait) => portrait.url),
-    ),
-    ...Object.values(events).flatMap((event) =>
-      event.mark.type === 'avatar' ? [event.mark.url] : [],
     ),
   ]),
 ]

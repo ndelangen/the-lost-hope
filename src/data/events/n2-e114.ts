@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Cassian reclaims his possessions from the Fiddler’s table',
   day: 20,
   location: refs.locations.gambling_deck,
-  mark: { type: 'avatar', url: '/assets/pcs/cassian.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.cassian_veyl },
   notes: [
     [
       refs.pcs.cassian_veyl,

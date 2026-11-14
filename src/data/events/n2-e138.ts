@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Cassian understands Wolfie',
   day: 22,
   location: refs.locations.skynet_s_second_best_inn,
-  mark: { type: 'avatar', url: '/assets/pcs/cassian.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.cassian_veyl },
   notes: [
     [
       'As the party prepared to leave, ',

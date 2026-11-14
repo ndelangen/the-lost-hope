@@ -2,12 +2,17 @@ import { z } from 'zod'
 
 import { Background, Content } from './content'
 import { makeCreate } from './create'
-import { EntityRefSchema } from './kind'
+import { EntityRefSchema, entityRefOf } from './kind'
 import { MediaUrl } from './media'
 import { deriveSlug } from './slug'
 
 export const EventMark = z.discriminatedUnion('type', [
-  z.object({ type: z.literal('avatar'), url: MediaUrl }),
+  z.strictObject({
+    type: z.literal('avatar'),
+    of: z
+      .union([entityRefOf('pc'), entityRefOf('npc'), entityRefOf('beast')])
+      .describe('Whose portrait marks the event, as it looked on the event’s campaign day'),
+  }),
   z.object({
     type: z.literal('icon'),
     name: z

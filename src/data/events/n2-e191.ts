@@ -13,5 +13,5 @@ export default createEvent({
   ],
   day: 24,
   location: refs.locations.nimbus,
-  mark: { type: 'avatar', url: '/assets/pcs/swift.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.swift_starblade },
 })

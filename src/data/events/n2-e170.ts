@@ -5,7 +5,7 @@ export default createEvent({
   name: "The party breakfasts at Onana Tempest's estate",
   day: 24,
   location: refs.locations.tempest,
-  mark: { type: 'avatar', url: '/assets/pcs/swift.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.swift_starblade },
   notes: [
     [
       'Two water genasi attendants welcomed the party into the estate. Inside were gardens, a fountain, elaborate woodwork, and floating suits of armour. The party discussed an invisibility scheme but decided to wait rather than carry it out.',

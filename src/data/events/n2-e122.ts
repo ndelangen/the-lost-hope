@@ -5,7 +5,7 @@ export default createEvent({
   name: 'The Eyeless Hand reveals it can still find Jim',
   day: 20,
   location: refs.locations.skynet_s_second_best_inn,
-  mark: { type: 'avatar', url: '/assets/pcs/jim-kenku.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.jim },
   notes: [
     [
       'That evening, shortly before going to sleep and suffering his first ',

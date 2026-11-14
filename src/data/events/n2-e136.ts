@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Swift summons a rainbow parrot',
   day: 22,
   location: refs.locations.skynet_s_second_best_inn,
-  mark: { type: 'avatar', url: '/assets/pcs/swift.jpg' },
+  mark: { type: 'avatar', of: refs.pcs.swift_starblade },
   notes: [
     [
       refs.pcs.swift_starblade,
