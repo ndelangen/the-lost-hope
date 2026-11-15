@@ -40,6 +40,12 @@ export default createScene({
   ],
   notes: [
     [
+      refs.pcs.fix,
+      ' is not aboard the cruiser of ',
+      refs.npcs.onana_tempest,
+      ', but may show up again on the cruiser the party boards.',
+    ],
+    [
       'First draft. The numbers and the deck map still need to be prepared once the plan for the battle is settled.',
     ],
   ],
