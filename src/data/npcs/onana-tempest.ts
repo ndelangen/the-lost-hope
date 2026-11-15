@@ -114,6 +114,21 @@ export default createNPC({
         recharge: 'Recharge 5–6',
       },
       {
+        key: 'zone-of-truth',
+        name: 'Zone of Truth',
+        timing: 'action',
+        icon: 'gi/GiCrystalBall',
+        text: ['He knows who failed. A creature can still stay silent or dodge the question.'],
+        save: {
+          ability: 'cha',
+          dc: 'cha',
+          target: { area: { shape: refs.rules.sphere, size: 10 }, range: 60 },
+          onFail: { also: ['It cannot tell a deliberate lie while it is in the zone.'] },
+        },
+        uses: 1,
+        recharge: 'Long rest',
+      },
+      {
         key: 'parry',
         name: 'Parry',
         timing: 'reaction',
@@ -125,7 +140,8 @@ export default createNPC({
     ],
     source: {
       adaptedFrom: ['srd-2024_noble'],
-      changes: 'An air genasi merchant and dungeon owner: a stronger noble with wind tricks.',
+      changes:
+        'An air genasi merchant and dungeon owner: a stronger noble with wind tricks and a small Zone of Truth.',
     },
   },
 })

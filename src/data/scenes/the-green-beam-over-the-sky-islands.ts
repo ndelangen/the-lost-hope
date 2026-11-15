@@ -4,7 +4,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 export default createScene({
   name: 'The green beam over the sky islands',
   location: refs.locations.skynet_s_second_best_inn,
-  npcs: [refs.npcs.abraham, refs.npcs.esia],
+  npcs: [refs.npcs.abraham],
   references: [
     refs.npcs.maren_of_fairhaven,
     refs.npcs.old_pell,
@@ -12,6 +12,7 @@ export default createScene({
     refs.npcs.tempest_soldier,
     refs.pcs.cassian_veyl,
     refs.pcs.devan,
+    refs.pcs.swift_starblade,
     refs.beasts.wolfie,
     refs.pcs.jim,
     refs.npcs.the_father,
@@ -78,16 +79,12 @@ export default createScene({
       ],
     },
     {
-      when: [['They head to the shipyard.']],
-      response: [['They try to get their airship from ', refs.npcs.esia, ' early.']],
+      when: [['They want to see where the beam hit, or to find ', refs.pcs.swift_starblade, '.']],
+      response: [['The only way across is the ferry. Run “The clogged ferry landing”.']],
     },
     {
-      when: [['They push through the crowds.']],
-      response: [
-        [
-          'Persuasion or Intimidation to clear the way, or they try to make their way anyway. Either way, the Tempest soldiers find them first.',
-        ],
-      ],
+      when: [['They head to the shipyard for their airship.']],
+      response: [['Run “The ents hold the shipyard”.']],
     },
   ],
 })

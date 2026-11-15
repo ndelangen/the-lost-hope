@@ -231,9 +231,11 @@ export const refs = {
   },
   npcs: {
     captain_garran: ref('npc', 'captain_garran'),
+    corwin_hale: ref('npc', 'corwin_hale'),
     maren_of_fairhaven: ref('npc', 'maren_of_fairhaven'),
     old_pell: ref('npc', 'old_pell'),
     sergeant_bruna_kell: ref('npc', 'sergeant_bruna_kell'),
+    shipyard_ent: ref('npc', 'shipyard_ent'),
     silas_wren: ref('npc', 'silas_wren'),
     tempest_soldier: ref('npc', 'tempest_soldier'),
     the_fiddler_s_knight: ref('npc', 'the_fiddler_s_knight'),
@@ -558,7 +560,11 @@ export const refs = {
     borris_shutters_the_casino: ref('scene', 'borris_shutters_the_casino'),
     the_hand_comes_for_jim: ref('scene', 'the_hand_comes_for_jim'),
     the_green_beam_over_the_sky_islands: ref('scene', 'the_green_beam_over_the_sky_islands'),
+    the_clogged_ferry_landing: ref('scene', 'the_clogged_ferry_landing'),
+    the_ents_hold_the_shipyard: ref('scene', 'the_ents_hold_the_shipyard'),
+    boarded_by_the_battle_cruiser: ref('scene', 'boarded_by_the_battle_cruiser'),
     onana_calls_the_party_to_war: ref('scene', 'onana_calls_the_party_to_war'),
+    taking_back_a_battle_cruiser: ref('scene', 'taking_back_a_battle_cruiser'),
   },
   creatures: {
     alchemist: ref('creature', 'alchemist'),

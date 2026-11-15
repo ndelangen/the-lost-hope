@@ -40,18 +40,45 @@ export default createArc({
       npcs: [refs.npcs.esia, refs.npcs.charles_tempest],
     },
     {
+      name: 'The crossing is shut',
+      hook: [['The beam took a ferry, and the army is taking the other. How do they get across?']],
+      npcs: [refs.npcs.sergeant_bruna_kell, refs.npcs.maren_of_fairhaven],
+      scene: refs.scenes.the_clogged_ferry_landing,
+    },
+    {
+      name: 'Taking the airship early',
+      hook: [['The airship is not finished, and nobody in the party can fly it.']],
+      npcs: [refs.npcs.esia, refs.npcs.shipyard_ent, refs.npcs.corwin_hale],
+      scene: refs.scenes.the_ents_hold_the_shipyard,
+    },
+    {
+      name: 'Impounded',
+      hook: [['', refs.npcs.onana_tempest, ' is seizing every vessel for the war, theirs too.']],
+      npcs: [refs.npcs.captain_garran],
+      scene: refs.scenes.boarded_by_the_battle_cruiser,
+    },
+    {
       name: 'The Tempests go to war',
       hook: [
         [
-          'Talks with ',
-          refs.npcs.the_father,
-          ' have failed. Will the party stand with ',
           refs.npcs.onana_tempest,
-          '?',
+          ' will return their vessel for a promise to help. Will the party stand with him?',
         ],
       ],
       npcs: [refs.npcs.onana_tempest, refs.npcs.the_father],
       scene: refs.scenes.onana_calls_the_party_to_war,
+    },
+    {
+      name: 'A fleet at war with itself',
+      hook: [
+        [
+          'Some of the twenty battle-cruisers answer to ',
+          refs.organizations.the_eyeless_hand,
+          '. Can the party take one back?',
+        ],
+      ],
+      npcs: [refs.npcs.onana_tempest],
+      scene: refs.scenes.taking_back_a_battle_cruiser,
     },
   ],
 })

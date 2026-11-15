@@ -18,6 +18,7 @@ import celeste_tempest from './celeste-tempest.ts'
 import celeste from './celeste.ts'
 import charles_tempest from './charles-tempest.ts'
 import cloaked_snatcher from './cloaked-snatcher.ts'
+import corwin_hale from './corwin-hale.ts'
 import crowy from './crowy.ts'
 import dax from './dax.ts'
 import dragon_of_the_mountain from './dragon-of-the-mountain.ts'
@@ -52,6 +53,7 @@ import sarogarth from './sarogarth.ts'
 import selene_tempest from './selene-tempest.ts'
 import sergeant_bruna_kell from './sergeant-bruna-kell.ts'
 import sering_ravenwood from './sering-ravenwood.ts'
+import shipyard_ent from './shipyard-ent.ts'
 import silas_wren from './silas-wren.ts'
 import skynet_gang_leader from './skynet-gang-leader.ts'
 import sneeve from './sneeve.ts'
@@ -73,9 +75,11 @@ import verdant_haven_rangers from './verdant-haven-rangers.ts'
 
 export default {
   captain_garran,
+  corwin_hale,
   maren_of_fairhaven,
   old_pell,
   sergeant_bruna_kell,
+  shipyard_ent,
   silas_wren,
   tempest_soldier,
   the_fiddler_s_knight,
