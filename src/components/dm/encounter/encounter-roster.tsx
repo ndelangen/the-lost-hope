@@ -1,5 +1,7 @@
 import { X } from 'lucide-react'
 
+import { RuleTerm } from '#/components/rule-term'
+import { refs } from '#/data/generated/refs'
 import type { CombatantView } from '#/lib/dm-encounter'
 import type { LiveStats } from '#/lib/encounter'
 import { cn } from '#/lib/utils'
@@ -47,10 +49,10 @@ export function EncounterRoster({
                 Combatant
               </th>
               <th scope="col" className="py-1 text-right font-medium">
-                HP
+                <RuleTerm rule={refs.rules.hit_points} />
               </th>
               <th scope="col" className="py-1 text-right font-medium">
-                AC
+                <RuleTerm rule={refs.rules.armor_class} />
               </th>
               <th scope="col" className="sr-only">
                 Remove
