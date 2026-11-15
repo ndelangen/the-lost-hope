@@ -34,7 +34,7 @@ export default createScene({
       when: [['', refs.pcs.swift_starblade, ' steps away.']],
       response: [
         [
-          'The cloaked men keep their word and let her go. Every one of them turns on ',
+          'The cloaked men keep their word and let him go. Every one of them turns on ',
           refs.pcs.jim,
           '.',
         ],
@@ -44,7 +44,7 @@ export default createScene({
       when: [['', refs.pcs.swift_starblade, ' fights.']],
       response: [
         [
-          'Combat. Four men hold her off while the rest go for ',
+          'Combat. Four men hold him off while the rest go for ',
           refs.pcs.jim,
           '. Run the encounter from this scene.',
         ],
@@ -65,6 +65,45 @@ export default createScene({
           ' hears:',
         ],
         ['“I’m so sorry. I hope you all make it. Don’t trust Light.”'],
+        [
+          'When the light fades, all that remains of ',
+          refs.pcs.jim,
+          ' are his belongings and his tongue, still bearing his guild tattoo.',
+        ],
+      ],
+    },
+    {
+      when: [
+        [
+          '',
+          refs.pcs.swift_starblade,
+          ' makes the History check or argues to keep caring about ',
+          refs.pcs.jim,
+          '.',
+        ],
+      ],
+      response: [['He takes the tongue, and with it a clue to what the guild mark really is.']],
+    },
+    {
+      when: [['', refs.pcs.swift_starblade, ' gathers what is left on the docks.']],
+      response: [
+        [
+          'Whatever he remembers, the gear is worth taking: ',
+          refs.items.shadow_sword,
+          ', ',
+          refs.items.dagger_of_the_zodiac_signs,
+          ', ',
+          refs.items.dagger_of_passive_aggression,
+          ', ',
+          refs.items.obsidian_green_rod,
+          ', ',
+          refs.items.robertos_map_pages,
+          ', ',
+          refs.items.pocket_holy_text_of_grimgor,
+          ' and ',
+          refs.items.nimbus_dungeon_stamp_card,
+          '.',
+        ],
         ['Cut to the group on Skynet.'],
       ],
     },
@@ -76,7 +115,7 @@ export default createScene({
         refs.pcs.jim,
         ' alive and ',
         refs.pcs.swift_starblade,
-        ' out of the way. Four pin her down with saps and grabs; nine grapple ',
+        ' out of the way. Four pin him down with saps and grabs; nine grapple ',
         refs.pcs.jim,
         ' and try to drag him off. Saps knock out rather than kill.',
       ],
