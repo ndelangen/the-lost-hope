@@ -35,7 +35,11 @@ export default createArc({
     [
       'He cannot tell adventurers to stay away from the fuel and the drug, because the warning would raise suspicion. He accepts that some of them will be lost too.',
     ],
-    ['Why he told ', refs.pcs.cassian_veyl, ', and nobody else, that he is a necessary evil:'],
+    [
+      'Why he told ',
+      refs.pcs.cassian_veyl,
+      ', and nobody else, that he is a necessary evil. When he said it is not recorded yet, so it has no event:',
+    ],
     [
       'He makes the harm sustainable. Because he records the loss, the fuel and the drug cost people less than they should, so the world never has to stop using them. Without him millions would be lost at once. With him it never ends.',
     ],

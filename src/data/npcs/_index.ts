@@ -11,6 +11,7 @@ import bob_the_merchant from './bob-the-merchant.ts'
 import borris from './borris.ts'
 import brend_tempest from './brend-tempest.ts'
 import brodus from './brodus.ts'
+import captain_blackthorn from './captain-blackthorn.ts'
 import captain_garran from './captain-garran.ts'
 import celeste_s_mother from './celeste-s-mother.ts'
 import celeste_tempest from './celeste-tempest.ts'
@@ -42,6 +43,7 @@ import old_pell from './old-pell.ts'
 import onana_tempest from './onana-tempest.ts'
 import penelope from './penelope.ts'
 import rare_animal_dealer from './rare-animal-dealer.ts'
+import rhys_s_parents from './rhys-s-parents.ts'
 import roberto from './roberto.ts'
 import rudolf_tempest from './rudolf-tempest.ts'
 import ryan from './ryan.ts'
@@ -64,6 +66,7 @@ import the_12th_marshal from './the-12th-marshal.ts'
 import the_father from './the-father.ts'
 import the_fiddler_s_knight from './the-fiddler-s-knight.ts'
 import the_fiddler from './the-fiddler.ts'
+import the_merchant_skipper from './the-merchant-skipper.ts'
 import the_mountain from './the-mountain.ts'
 import throne_figure_in_jim_s_vision from './throne-figure-in-jim-s-vision.ts'
 import verdant_haven_rangers from './verdant-haven-rangers.ts'
@@ -139,4 +142,7 @@ export default {
   the_mountain,
   verdant_haven_rangers,
   light_13th_marshal,
+  captain_blackthorn,
+  the_merchant_skipper,
+  rhys_s_parents,
 }

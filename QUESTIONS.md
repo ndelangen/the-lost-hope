@@ -446,19 +446,15 @@ Every question must include **what we already know** — many sit unanswered acr
 - Which campaign day does Session 17 continue?
   - The opening resumes the smoke-trail decision from Session 16 without an overnight rest. The import therefore continues provisional Campaign Day 24. A full reconciliation of Session 16's inconsistent inn-night count is still needed. The real play date is 5 November 2026.
 
-- **When did Light tell Cassian he is a necessary evil?**
-  - _Context:_ Light said this to Cassian alone. The remark is known from the author's memory and has no event yet. What he meant by it is DM-only background on the Light and the marshals arc.
-  - _Why asking:_ It should be an event in the right session, linked to that arc.
-
-- **Where were the dwarf and elf war and "the 13th Marshal keeps the others in check" established?**
-  - _Context:_ The author recalls both being mentioned: a great war of machine against magic that the elves lost, and Light keeping the other marshals in check. Neither appears in the imported sessions. They are recorded as DM-only working ideas on The leaking shadow and Light and the marshals arcs.
-  - _Why asking:_ If the players heard them in play, they belong in events and public notes too.
+- **Was a great war between dwarves and elves, and the 13th Marshal keeping the other marshals in check, mentioned in play?**
+  - _Context:_ The author recalls both being mentioned. Neither appears in the imported sessions.
+  - _Why asking:_ If they were said at the table, they belong in an event.
 
 - **What does the guild tattoo look like?**
   - _Context:_ The author recalls it being described as a grim reaper strangling a shadow, but is not sure. No event records the design.
-  - _Why asking:_ The design may carry meaning for the hidden story on the Light and the marshals arc, so it should be recorded on the Adventurers' Guild once confirmed.
+  - _Why asking:_ The design should be recorded on the Adventurers' Guild once confirmed.
   - _Session:_ 1 ([n2-e011](/events/the-guild-tattoo-ritual))
 
 - **Is Cassian a human or a sheep-like humanoid?**
-  - _Context:_ The data records his species as "Sheep-like humanoid". His D&D Beyond sheet lists Human, with curly blond hair, blue eyes, and fair skin.
+  - _Context:_ The data records his species as "Sheep-like humanoid". His D&D Beyond sheet lists Human.
   - _Why asking:_ The `species` field owns this fact and one of the two sources is out of date.
