@@ -40,10 +40,13 @@ export default createArc({
       ' to put down the pen. On the day Light stops writing, the memories the Father holds are the only record left in the world, and whoever owns the only memory owns everything. Light does not know this. The party can find it out, and must then convince Light that he cannot carry out his plan yet.',
     ],
     [
-      'Still open: how far the Hand reaches into the ',
-      refs.organizations.marshals_court,
-      ', and who fired the green beam.',
+      'Settled: ',
+      refs.npcs.the_father,
+      ' fires the green beam from the flying fortress to capture ',
+      refs.pcs.jim,
+      ' and holds him there. The damage it does is an accident of the power needed to take a ghost who carries a guild tattoo.',
     ],
+    ['Still open: how far the Hand reaches into the ', refs.organizations.marshals_court, '.'],
   ],
   quests: [refs.quests.jims_past],
   plots: [
@@ -91,7 +94,7 @@ export default createArc({
       name: 'Who still remembers Jim',
       hook: [
         [
-          'The green beam struck thousands across the sky islands. Who still cares about ',
+          'A green pulse swept the sky islands and took memories. Who still cares about ',
           refs.pcs.jim,
           ', and what happened to him?',
         ],
