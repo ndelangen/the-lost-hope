@@ -4,7 +4,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 export default createScene({
   name: 'The Hand comes for Jim',
   location: refs.locations.nimbus,
-  npcs: [refs.npcs.cloaked_snatcher],
+  npcs: [refs.npcs.silas_wren, refs.npcs.cloaked_snatcher],
   references: [
     refs.pcs.jim,
     refs.pcs.swift_starblade,
@@ -17,7 +17,9 @@ export default createScene({
       refs.pcs.swift_starblade,
       ' and ',
       refs.pcs.jim,
-      ' walk towards the docks. A voice speaks from just behind ',
+      ' walk towards the docks. ',
+      refs.npcs.silas_wren,
+      ' speaks from just behind ',
       refs.pcs.swift_starblade,
       ':',
     ],

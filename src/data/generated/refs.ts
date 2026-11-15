@@ -230,6 +230,12 @@ export const refs = {
     n2_e148: ref('event', 'n2_e148'),
   },
   npcs: {
+    captain_garran: ref('npc', 'captain_garran'),
+    maren_of_fairhaven: ref('npc', 'maren_of_fairhaven'),
+    old_pell: ref('npc', 'old_pell'),
+    sergeant_bruna_kell: ref('npc', 'sergeant_bruna_kell'),
+    silas_wren: ref('npc', 'silas_wren'),
+    tempest_soldier: ref('npc', 'tempest_soldier'),
     the_fiddler_s_knight: ref('npc', 'the_fiddler_s_knight'),
     stefanio: ref('npc', 'stefanio'),
     onana_tempest: ref('npc', 'onana_tempest'),
@@ -542,6 +548,7 @@ export const refs = {
     wolfie_after_the_ring: ref('arc', 'wolfie_after_the_ring'),
   },
   scenes: {
+    borris_shutters_the_casino: ref('scene', 'borris_shutters_the_casino'),
     the_hand_comes_for_jim: ref('scene', 'the_hand_comes_for_jim'),
     the_green_beam_over_the_sky_islands: ref('scene', 'the_green_beam_over_the_sky_islands'),
     onana_calls_the_party_to_war: ref('scene', 'onana_calls_the_party_to_war'),
@@ -549,6 +556,7 @@ export const refs = {
   creatures: {
     alchemist: ref('creature', 'alchemist'),
     commoner: ref('creature', 'commoner'),
+    guard: ref('creature', 'guard'),
     noble: ref('creature', 'noble'),
     pirate_captain: ref('creature', 'pirate_captain'),
     spy: ref('creature', 'spy'),

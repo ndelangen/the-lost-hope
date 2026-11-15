@@ -6,6 +6,10 @@ export default createScene({
   location: refs.locations.skynet_s_second_best_inn,
   npcs: [refs.npcs.abraham, refs.npcs.esia],
   references: [
+    refs.npcs.maren_of_fairhaven,
+    refs.npcs.old_pell,
+    refs.npcs.sergeant_bruna_kell,
+    refs.npcs.tempest_soldier,
     refs.pcs.cassian_veyl,
     refs.pcs.devan,
     refs.beasts.wolfie,
@@ -34,8 +38,31 @@ export default createScene({
     [
       'The populations of all three sky islands are in chaos. The normally calm streets are packed, and the usual links between the islands are clogged.',
     ],
+    [
+      'There are few civilians left on the streets. ',
+      refs.npcs.old_pell,
+      ' boards up his shop, and ',
+      refs.npcs.maren_of_fairhaven,
+      ' pushes towards the ferries with her child. ',
+      refs.npcs.sergeant_bruna_kell,
+      ' shouts for recruits from a crate while ',
+      refs.npcs.tempest_soldier,
+      's drill and load supplies for the rollout.',
+    ],
   ],
   outcomes: [
+    {
+      when: [['They help ', refs.npcs.maren_of_fairhaven, ' or ', refs.npcs.old_pell, '.']],
+      response: [
+        ['A friendly face in the chaos, and someone who points them through the back streets.'],
+      ],
+    },
+    {
+      when: [['They talk to ', refs.npcs.sergeant_bruna_kell, '.']],
+      response: [
+        ['She tries to sign them up. Signing gets them a pass through the clogged links.'],
+      ],
+    },
     {
       when: [['They head to the shipyard.']],
       response: [['They try to get their airship from ', refs.npcs.esia, ' early.']],
