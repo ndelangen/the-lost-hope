@@ -9,8 +9,8 @@ export default createScene({
     refs.pcs.fix,
     refs.pcs.swift_starblade,
     refs.pcs.jim,
-    refs.pcs.devan,
-    refs.organizations.the_eyeless_hand,
+    refs.items.jaded_amulet,
+    refs.organizations.beasts_and_dwarf,
   ],
   setup: [
     [
@@ -34,55 +34,107 @@ export default createScene({
     ],
   ],
   notes: [
+    ['Keep this short. The goal of the session is to bring the party back together.'],
     [
       refs.pcs.fix,
       ' was hunting ',
       refs.pcs.jim,
-      ' and tried to intimidate ',
+      ' and kept insisting that ',
+      refs.organizations.beasts_and_dwarf,
+      ' had a kenku companion. ',
       refs.npcs.borris,
-      ' into giving him up. It did not go well, and ',
+      ' got annoyed, ',
+      refs.pcs.fix,
+      ' would not let it go, and ',
       refs.npcs.borris,
-      ' killed her.',
+      ' killed them.',
     ],
     [
-      'She does not stay dead. Through her necromancer connection she rises again after the party moves on, with ',
+      refs.npcs.borris,
+      ' does not know that ',
       refs.pcs.jim,
-      ' in her sights. Bring her back whenever the hunt for him needs a new face.',
+      ' is the one being hunted: when they met, ',
+      refs.pcs.jim,
+      ' was wearing the ',
+      refs.items.jaded_amulet,
+      ' and looked like a kenku. Let the players put it together themselves.',
     ],
     [
-      'Play this before the docks ambush. ',
       refs.npcs.borris,
-      ' knew ',
+      ' volunteers nothing. He only answers when asked, then makes an excuse to get back inside.',
+    ],
+    [
       refs.pcs.jim,
-      ', so he rolls the DC 11 History check too once the beam strikes.',
+      ' barely speaks: the voices from his past are getting louder. Give him a muttered word or two at most.',
+    ],
+    [
+      refs.pcs.fix,
+      ' does not stay dead. Through their necromancer connection they come to a minute later, scurry off, and follow ',
+      refs.pcs.jim,
+      ' and ',
+      refs.pcs.swift_starblade,
+      ' to the docks.',
     ],
   ],
   outcomes: [
     {
-      when: [['They ask what happened.']],
+      when: [['They greet ', refs.npcs.borris, ' or ask how he is.']],
       response: [
         [
-          '“She came asking about your ghost friend. Pushed too hard.” He looks straight at ',
+          '“Closing up. War’s bad for business, unless you’re selling swords.” He nods at the strongboxes: “Everything I own that matters is going in a crate tonight.”',
+        ],
+      ],
+    },
+    {
+      when: [['They ask about the body.']],
+      response: [
+        [
+          '“Some delusional bounty hunter. Kept asking about someone in your party. A kenku, if you can believe it. Too persistent, and now too dead.”',
+        ],
+      ],
+    },
+    {
+      when: [['They press him about the bounty hunter or the kenku.']],
+      response: [
+        [
+          'He shrugs: “Didn’t say who was paying. Didn’t get the chance.” Then: “If I were you, I’d get off this rock before the fighting starts.” A guard calls him, and he goes back inside.',
+        ],
+      ],
+    },
+    {
+      when: [['They ask about the war.']],
+      response: [
+        [
+          '“The Tempests are hiring anyone who can hold a spear. Smart people are leaving.” Then he remembers something urgent indoors.',
+        ],
+      ],
+    },
+    {
+      when: [['They wait by the body.']],
+      response: [
+        [
+          'After a minute, ',
+          refs.pcs.fix,
+          ' gasps back to life, coughing blood. Lines: “Not again…” “You didn’t see me. You didn’t see anything.” On spotting ',
           refs.pcs.jim,
-          ': “People are looking for you. Get off this rock.”',
+          ', they stare a moment too long: “Funny. I could swear I know you.” Then they scurry off down the alley.',
+        ],
+        [
+          refs.pcs.fix,
+          ' follows ',
+          refs.pcs.jim,
+          ' and ',
+          refs.pcs.swift_starblade,
+          ' to the docks at a distance. A DC 13 Wisdom (Perception) check spots them.',
         ],
       ],
     },
     {
-      when: [['They ask about the people hunting ', refs.pcs.jim, '.']],
+      when: [['They walk on.']],
       response: [
         [
-          '“The Hand doesn’t gamble, it collects.” He knows the cloaked men around the docks are the Hand, but not who sent them.',
-        ],
-      ],
-    },
-    {
-      when: [['They need a way off the island.']],
-      response: [
-        [
-          'As a friend of ',
-          refs.pcs.devan,
-          ', he offers a seat on his own boat out, for a favour later.',
+          refs.pcs.fix,
+          ' comes to behind them and follows to the docks unseen, unless someone looks back and passes a DC 13 Wisdom (Perception) check.',
         ],
       ],
     },
