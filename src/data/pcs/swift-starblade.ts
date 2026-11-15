@@ -53,7 +53,7 @@ export default createPC({
     ['From the player’s own backstory. The other players do not know it.'],
     [
       'Rhys was born in ',
-      refs.locations.rhys_s_home_village,
+      refs.locations.greenhollow,
       '. As a half-elf he always stood with one foot in each world, but in his youth it never felt like a burden. That changed with the Second Great War between the dwarves and the elves.',
     ],
     [
@@ -62,12 +62,12 @@ export default createPC({
       ' saw no way out and, in despair and to survive, sold their son to ',
       refs.npcs.the_merchant_skipper,
       '. It was an act of necessity, not cruelty. Rhys was still young when he was taken to work as a hand on ',
-      refs.locations.the_merchant_ship_that_bought_rhys,
+      refs.locations.the_patient_heron,
       '.',
     ],
     [
       'For a year he knew only life at sea: hard labour, little rest, and learning to read people in order to survive. It ended when pirates raided the ship. The crew was slaughtered or thrown overboard, and Rhys was taken as loot. Aboard ',
-      refs.locations.blackthorn_s_ship,
+      refs.locations.the_briar_queen,
       ' he left his old name behind and became known as Swift.',
     ],
     [
@@ -77,7 +77,7 @@ export default createPC({
     ],
     [
       'He escaped to ',
-      refs.locations.the_port_where_swift_went_free,
+      refs.locations.saltmere,
       '. There he heard what had become of his home village: nobody he had ever known survived. That knowledge broke something in him.',
     ],
     [
@@ -88,7 +88,7 @@ export default createPC({
       refs.npcs.sylvia,
       ' describes a multigenerational Starblade pirate family, which does not match this backstory. The family may be ',
       refs.npcs.captain_blackthorn,
-      '’s crew, or she may be wrong or lying. The village, the parents, the skipper, both ships, and the port are unnamed, and their map positions are guesses.',
+      '’s crew, or she may be wrong or lying. The backstory leaves the village, both ships, and the port unnamed. Their names were invented by the DM, and their map positions are guesses. The parents and the skipper are still unnamed.',
     ],
   ],
 })

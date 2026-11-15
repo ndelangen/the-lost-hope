@@ -2,9 +2,9 @@ import { refs } from '#/data/generated/refs.ts'
 import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
-  name: 'The Merchant Ship That Bought Rhys',
-  type: 'route',
+  name: 'Saltmere',
+  type: 'settlement',
   parent: refs.locations.world,
-  at: [765, 250],
-  notes: [['A trading ship under ', refs.npcs.the_merchant_skipper, '. Its name is not recorded.']],
+  at: [765, 410],
+  notes: [['A port city near the waters ', refs.npcs.captain_blackthorn, ' sailed.']],
 })
