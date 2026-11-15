@@ -21,11 +21,10 @@ export default createNPC({
     [
       'He is the armoured man who led the escort in ',
       refs.events.n2_e168,
-      '. He collects the party for ',
+      '. He impounds vessels for ',
       refs.npcs.onana_tempest,
       ' with his soldiers and the battle-cruiser.',
     ],
-    ['What he says: “Come with us, beasts and dwarf! Not a request, I’m afraid!”'],
   ],
   stats: {
     size: 'medium',

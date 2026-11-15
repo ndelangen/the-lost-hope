@@ -7,11 +7,13 @@ export default createScene({
   npcs: [refs.npcs.onana_tempest, refs.npcs.captain_garran],
   references: [
     refs.npcs.the_father,
+    refs.organizations.the_eyeless_hand,
     refs.organizations.tempest_family,
     refs.organizations.beasts_and_dwarf,
     refs.locations.fairhaven,
     refs.pcs.cassian_veyl,
     refs.pcs.devan,
+    refs.pcs.swift_starblade,
     refs.beasts.wolfie,
     refs.pcs.jim,
     refs.items.beasts_and_dwarf_s_airship,
@@ -19,43 +21,76 @@ export default createScene({
   setup: [
     [
       refs.npcs.captain_garran,
-      ' and the soldiers who once escorted the party pick them up: “Come with us, ',
-      refs.organizations.beasts_and_dwarf,
-      '! Not a request, I’m afraid!” A floating battle-cruiser carries them to ',
-      refs.locations.nimbus,
-      '.',
-    ],
-    [
+      ' brings the party to ',
       refs.npcs.onana_tempest,
-      ' tells them ',
-      refs.npcs.the_father,
-      ' has escalated: supposedly an extremely high-level traitor was here. The ',
-      refs.organizations.tempest_family,
-      ' had cooperated, but no deal could be made, and now it is all-out war.',
+      ' on the deck of his battle-cruiser as it turns towards ',
+      refs.locations.nimbus,
+      '. He talks fast and does not sit down.',
+    ],
+    ['“I do not have much time. Sorry for taking your vessel. It is war now.”'],
+    [
+      '“',
+      refs.organizations.the_eyeless_hand,
+      ' is determined to do to us what they did to ',
+      refs.locations.fairhaven,
+      '. They won’t succeed.”',
     ],
     [
-      '“But we’re not as defenceless or as unprepared as ',
-      refs.locations.fairhaven,
-      ' was. Are you with me, ',
+      'He casts a small Zone of Truth around the party and asks: “Are you affiliated with ',
+      refs.organizations.the_eyeless_hand,
+      ', or have you recently used arcane dust?”',
+    ],
+    ['“Where is the rest of your party?”'],
+    [
+      '“We do not have time to chat now, ',
       refs.organizations.beasts_and_dwarf,
-      '? Where is the rest of your party?”',
+      '. Once the war is over I will tell you more. Right now I have twenty battle-cruisers, but some are somehow under the control of ',
+      refs.organizations.the_eyeless_hand,
+      '. I will give you back your vessel if you promise to help me with this war.”',
+    ],
+  ],
+  notes: [
+    [
+      'Zone of Truth: everyone in it makes the save from his stat block. Whoever fails cannot tell a deliberate lie, but may stay silent or dodge the question. ',
+      refs.npcs.onana_tempest,
+      ' knows who failed.',
+    ],
+    [
+      'The plan: the party reunites, boards one of the cruisers under the control of ',
+      refs.organizations.the_eyeless_hand,
+      ', and flips it back by killing the Hand’s crew.',
     ],
     [
       'According to ',
       refs.npcs.onana_tempest,
       ', ',
       refs.npcs.the_father,
-      ' is aboard the flying fortress: “I hope he’s on there, because we’re about to bring it down.”',
-    ],
-  ],
-  notes: [
-    [
-      'Attacking the fortress may be the biggest and final mistake the ',
+      ' is aboard the flying fortress: “I hope he’s on there, because we’re about to bring it down.” Attacking the fortress may be the biggest and final mistake the ',
       refs.organizations.tempest_family,
       ' makes.',
     ],
   ],
   outcomes: [
+    {
+      when: [['They promise to help.']],
+      response: [
+        [
+          'He gives ',
+          refs.items.beasts_and_dwarf_s_airship,
+          ' back and points out the nearest cruiser firing on its own side. Run “Taking back a battle-cruiser”.',
+        ],
+      ],
+    },
+    {
+      when: [['They ask about the rest of the party.']],
+      response: [
+        [
+          'His soldiers saw a half-elf near the docks when the beam struck. The cruiser sets down at the docks to collect ',
+          refs.pcs.swift_starblade,
+          '.',
+        ],
+      ],
+    },
     {
       when: [['', refs.npcs.onana_tempest, ' learns they travelled with ', refs.pcs.jim, '.']],
       response: [
@@ -63,7 +98,7 @@ export default createScene({
           refs.pcs.jim,
           '’s presence and hiding brought this war to the sky islands. ',
           refs.npcs.onana_tempest,
-          ' sends them away with their completed ',
+          ' needs every blade today, so the offer stands. Once the war is over he sends them away with ',
           refs.items.beasts_and_dwarf_s_airship,
           ': ',
           refs.pcs.jim,
@@ -72,19 +107,10 @@ export default createScene({
       ],
     },
     {
-      when: [['', refs.pcs.cassian_veyl, ' or ', refs.pcs.devan, ' bring up reuniting the party.']],
+      when: [['They fight.']],
       response: [
-        [
-          refs.npcs.onana_tempest,
-          ' wants them gone either way, so his soldiers bring ',
-          refs.pcs.swift_starblade,
-          ' to the airship before it leaves.',
-        ],
+        ['They can, but more soldiers keep jumping in. They can see at least forty on deck.'],
       ],
-    },
-    {
-      when: [['They ask about the rest of the party.']],
-      response: [['His soldiers saw a half-elf near the docks when the beam struck.']],
     },
   ],
 })
