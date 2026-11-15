@@ -35,9 +35,11 @@ export default createScene({
     [
       'Everyone who cared about ',
       refs.pcs.jim,
-      ' rolls a DC 11 History check. On a failure they lose all interest in ',
+      ' makes a DC 15 Wisdom ',
+      refs.rules.saving_throw,
+      '. A player who can argue why their character would hold on to him gets +5. On a failure they lose all interest in ',
       refs.pcs.jim,
-      ', unless the player convinces the DM otherwise.',
+      '.',
     ],
     [
       'Anyone who did not care about ',
