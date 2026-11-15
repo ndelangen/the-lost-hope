@@ -19,6 +19,7 @@ import grimgor_s_skull_breaker from './grimgor-s-skull-breaker.ts'
 import jaded_amulet from './jaded-amulet.ts'
 import jim_s_kenku_suit from './jim-s-kenku-suit.ts'
 import lights_unidentified_drops from './lights-unidentified-drops.ts'
+import master_of_puppets from './master-of-puppets.ts'
 import mimic_cloak from './mimic-cloak.ts'
 import nimbus_casino_vip_card from './nimbus-casino-vip-card.ts'
 import nimbus_dungeon_stamp_card from './nimbus-dungeon-stamp-card.ts'
@@ -28,6 +29,7 @@ import phoenix_feather from './phoenix-feather.ts'
 import pocket_holy_text_of_grimgor from './pocket-holy-text-of-grimgor.ts'
 import purple_dragon_horn from './purple-dragon-horn.ts'
 import rare_dragon_scales from './rare-dragon-scales.ts'
+import ride_the_lightning from './ride-the-lightning.ts'
 import ring_of_spell_storing from './ring-of-spell-storing.ts'
 import robertos_map_pages from './robertos-map-pages.ts'
 import serpent_eclipse_trial_disk from './serpent-eclipse-trial-disk.ts'
@@ -46,6 +48,8 @@ export default {
   cloak_of_protection,
   ring_of_spell_storing,
   beasts_and_dwarf_s_airship,
+  master_of_puppets,
+  ride_the_lightning,
 
   devan_s_wandering_priest_robe,
   devan_s_corrected_holy_text,

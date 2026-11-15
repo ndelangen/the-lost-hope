@@ -478,6 +478,8 @@ export const refs = {
     cloak_of_protection: ref('item', 'cloak_of_protection'),
     ring_of_spell_storing: ref('item', 'ring_of_spell_storing'),
     beasts_and_dwarf_s_airship: ref('item', 'beasts_and_dwarf_s_airship'),
+    master_of_puppets: ref('item', 'master_of_puppets'),
+    ride_the_lightning: ref('item', 'ride_the_lightning'),
     devan_s_wandering_priest_robe: ref('item', 'devan_s_wandering_priest_robe'),
     devan_s_corrected_holy_text: ref('item', 'devan_s_corrected_holy_text'),
     pocket_holy_text_of_grimgor: ref('item', 'pocket_holy_text_of_grimgor'),
