@@ -14,6 +14,9 @@ export default createScene({
     refs.pcs.devan,
     refs.beasts.wolfie,
     refs.pcs.jim,
+    refs.npcs.the_father,
+    refs.organizations.the_eyeless_hand,
+    refs.pcs.fix,
     refs.locations.nimbus,
   ],
   setup: [
@@ -29,11 +32,22 @@ export default createScene({
       '.',
     ],
     [
-      'Everyone who knows ',
+      'Everyone who cared about ',
       refs.pcs.jim,
       ' rolls a DC 11 History check. On a failure they lose all interest in ',
       refs.pcs.jim,
       ', unless the player convinces the DM otherwise.',
+    ],
+    [
+      'Anyone who did not care about ',
+      refs.pcs.jim,
+      ' does not roll: the beam cannot make someone stop caring who never did. ',
+      refs.npcs.the_father,
+      ' is immune. Agents of ',
+      refs.organizations.the_eyeless_hand,
+      ', such as ',
+      refs.pcs.fix,
+      ', can be affected, but they will be re-instructed eventually, so the hunt for him goes on.',
     ],
     [
       'The populations of all three sky islands are in chaos. The normally calm streets are packed, and the usual links between the islands are clogged.',
