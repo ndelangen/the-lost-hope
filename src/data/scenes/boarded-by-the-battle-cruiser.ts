@@ -39,6 +39,9 @@ export default createScene({
   ],
   notes: [
     [
+      'Mini-mystery, no answer needed: from the airship or the cruiser, looking down, one perfectly round patch of ocean lies completely flat and still among the waves.',
+    ],
+    [
       refs.npcs.captain_garran,
       ' led the escort in ',
       refs.events.n2_e168,
