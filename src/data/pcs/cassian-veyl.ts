@@ -11,6 +11,7 @@ export default createPC({
   class: 'Warlock',
   subclass: 'Great Old One Patron',
   level: 5,
+  combat: { ac: 16, maxHp: 43, passivePerception: 13 },
   languages: ['Sylvan', 'Undercommon'],
   memberships: [
     {
