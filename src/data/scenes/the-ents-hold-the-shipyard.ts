@@ -29,6 +29,9 @@ export default createScene({
   ],
   notes: [
     [
+      'Mini-mystery, no answer needed: every ent at the shipyard has rows of carved notches on one arm. As the party departs, each of them carves one more.',
+    ],
+    [
       'To pilot the unfinished ship, the players must say how. A good argument, such as having sailed a ship before, earns a roll. No argument, no roll.',
     ],
     [

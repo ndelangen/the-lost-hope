@@ -14,10 +14,13 @@ export default createScene({
     refs.pcs.cassian_veyl,
     refs.pcs.devan,
     refs.items.beasts_and_dwarf_s_airship,
+    refs.items.master_of_puppets,
+    refs.items.ride_the_lightning,
   ],
   setup: [
     [
-      'The cruiser sets down at the wrecked docks of ',
+      refs.items.master_of_puppets,
+      ' sets down at the wrecked docks of ',
       refs.locations.nimbus,
       ' just long enough to collect ',
       refs.pcs.swift_starblade,
@@ -28,7 +31,9 @@ export default createScene({
       refs.organizations.tempest_family,
       ' fire on each other. ',
       refs.npcs.onana_tempest,
-      ' points out the nearest one shooting at its own side.',
+      ' points out the nearest one shooting at its own side: ',
+      refs.items.ride_the_lightning,
+      '.',
     ],
     [
       'The party boards it and has to kill every member of ',

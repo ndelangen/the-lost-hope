@@ -10,6 +10,7 @@ export default createScene({
     refs.organizations.beasts_and_dwarf,
     refs.organizations.tempest_family,
     refs.items.beasts_and_dwarf_s_airship,
+    refs.items.master_of_puppets,
     refs.pcs.cassian_veyl,
     refs.pcs.devan,
   ],
@@ -17,9 +18,11 @@ export default createScene({
     [
       'Wherever the party is, in the air on ',
       refs.items.beasts_and_dwarf_s_airship,
-      ', still on the slip at the shipyard, or on the ferry, a battle-cruiser of the ',
+      ', still on the slip at the shipyard, or on the ferry, ',
+      refs.items.master_of_puppets,
+      ', a battle-cruiser of the ',
       refs.organizations.tempest_family,
-      ' slides alongside and blots out the sky. Grappling lines thump into the hull, and soldiers drop onto the deck. At least forty more stand at the cruiser’s rail.',
+      ', slides alongside and blots out the sky. Grappling lines thump into the hull, and soldiers drop onto the deck. At least forty more stand at the cruiser’s rail.',
     ],
     [
       refs.npcs.captain_garran,
@@ -38,6 +41,9 @@ export default createScene({
     ['If they hesitate: “Sorry, not a request, I’m afraid. Come with us now.”'],
   ],
   notes: [
+    [
+      'Mini-mystery, no answer needed: from the airship or the cruiser, looking down, one perfectly round patch of ocean lies completely flat and still among the waves.',
+    ],
     [
       refs.npcs.captain_garran,
       ' led the escort in ',
