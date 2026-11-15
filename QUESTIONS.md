@@ -453,3 +453,8 @@ Every question must include **what we already know** — many sit unanswered acr
 - **Where were the dwarf and elf war and "the 13th Marshal keeps the others in check" established?**
   - _Context:_ The author recalls both being mentioned: a great war of machine against magic that the elves lost, and Light keeping the other marshals in check. Neither appears in the imported sessions. They are recorded as DM-only working ideas on The leaking shadow and Light and the marshals arcs.
   - _Why asking:_ If the players heard them in play, they belong in events and public notes too.
+
+- **What does the guild tattoo look like?**
+  - _Context:_ The author recalls it being described as a grim reaper strangling a shadow, but is not sure. No event records the design.
+  - _Why asking:_ The design may carry meaning for the hidden story on the Light and the marshals arc, so it should be recorded on the Adventurers' Guild once confirmed.
+  - _Session:_ 1 ([n2-e011](/events/the-guild-tattoo-ritual))

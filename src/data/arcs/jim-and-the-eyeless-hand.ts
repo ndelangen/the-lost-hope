@@ -33,6 +33,13 @@ export default createArc({
       ' was meant to be his protégé and replacement, which would explain why he wants him found alive.',
     ],
     [
+      'Settled: ',
+      refs.npcs.the_father,
+      ' wants ',
+      refs.npcs.light_13th_marshal,
+      ' to put down the pen. On the day Light stops writing, the memories the Father holds are the only record left in the world, and whoever owns the only memory owns everything. Light does not know this. The party can find it out, and must then convince Light that he cannot carry out his plan yet.',
+    ],
+    [
       'Still open: how far the Hand reaches into the ',
       refs.organizations.marshals_court,
       ', and who fired the green beam.',
