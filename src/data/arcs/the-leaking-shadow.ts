@@ -19,7 +19,7 @@ export default createArc({
       ' into the world. Collected shadow can be converted into two things: a fuel for dwarven machines, and the drug Arcane Dust.',
     ],
     [
-      'Long ago the dwarves and the elves fought a great war of machine against magic. The elves lost, and the shadow fuel is part of why the machines won.',
+      'The dwarves and the elves fought the Second Great War, machine against magic, and it ended within living memory. The elves lost, and the shadow fuel is part of why the machines won. Nothing records a first great war yet.',
     ],
     [
       'Arcane Dust is as strong and as addictive as the worst drugs there are. It makes its users lost: they lose memories, then their sense of self, then control.',

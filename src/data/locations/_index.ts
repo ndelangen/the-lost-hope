@@ -1,6 +1,7 @@
 import badesh_forest from './badesh-forest.ts'
 import badesh from './badesh.ts'
 import blackstone_stables from './blackstone-stables.ts'
+import blackthorn_s_ship from './blackthorn-s-ship.ts'
 import bob_s_stall from './bob-s-stall.ts'
 import continent_of_the_dead from './continent-of-the-dead.ts'
 import ethium from './ethium.ts'
@@ -45,6 +46,7 @@ import penelope_s_underground_workshop from './penelope-s-underground-workshop.t
 import puzzle_room from './puzzle-room.ts'
 import rare_animal_dealer_s_premises from './rare-animal-dealer-s-premises.ts'
 import reve from './reve.ts'
+import rhys_s_home_village from './rhys-s-home-village.ts'
 import sea_of_unknown from './sea-of-unknown.ts'
 import serpent_eclipse_crystal_oasis from './serpent-eclipse-crystal-oasis.ts'
 import serpent_eclipse_dungeon_entrance from './serpent-eclipse-dungeon-entrance.ts'
@@ -78,7 +80,9 @@ import the_boat_to_fajanet_celesta from './the-boat-to-fajanet-celesta.ts'
 import the_crater_bridge from './the-crater-bridge.ts'
 import the_flying_whale from './the-flying-whale.ts'
 import the_green_light from './the-green-light.ts'
+import the_merchant_ship_that_bought_rhys from './the-merchant-ship-that-bought-rhys.ts'
 import the_nest from './the-nest.ts'
+import the_port_where_swift_went_free from './the-port-where-swift-went-free.ts'
 import the_sullen_monk from './the-sullen-monk.ts'
 import three_sky_kingdoms from './three-sky-kingdoms.ts'
 import trapdoor from './trapdoor.ts'
@@ -178,4 +182,8 @@ export default {
   verdant_haven,
   verdant_haven_church,
   verdant_haven_forest,
+  rhys_s_home_village,
+  the_merchant_ship_that_bought_rhys,
+  blackthorn_s_ship,
+  the_port_where_swift_went_free,
 }

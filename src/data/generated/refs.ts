@@ -299,6 +299,9 @@ export const refs = {
     the_mountain: ref('npc', 'the_mountain'),
     verdant_haven_rangers: ref('npc', 'verdant_haven_rangers'),
     light_13th_marshal: ref('npc', 'light_13th_marshal'),
+    captain_blackthorn: ref('npc', 'captain_blackthorn'),
+    the_merchant_skipper: ref('npc', 'the_merchant_skipper'),
+    rhys_s_parents: ref('npc', 'rhys_s_parents'),
   },
   pcs: {
     cassian_veyl: ref('pc', 'cassian_veyl'),
@@ -405,6 +408,10 @@ export const refs = {
     verdant_haven: ref('location', 'verdant_haven'),
     verdant_haven_church: ref('location', 'verdant_haven_church'),
     verdant_haven_forest: ref('location', 'verdant_haven_forest'),
+    rhys_s_home_village: ref('location', 'rhys_s_home_village'),
+    the_merchant_ship_that_bought_rhys: ref('location', 'the_merchant_ship_that_bought_rhys'),
+    blackthorn_s_ship: ref('location', 'blackthorn_s_ship'),
+    the_port_where_swift_went_free: ref('location', 'the_port_where_swift_went_free'),
   },
   quests: {
     find_the_fiddler: ref('quest', 'find_the_fiddler'),
