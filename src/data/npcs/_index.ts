@@ -11,6 +11,7 @@ import bob_the_merchant from './bob-the-merchant.ts'
 import borris from './borris.ts'
 import brend_tempest from './brend-tempest.ts'
 import brodus from './brodus.ts'
+import captain_garran from './captain-garran.ts'
 import celeste_s_mother from './celeste-s-mother.ts'
 import celeste_tempest from './celeste-tempest.ts'
 import celeste from './celeste.ts'
@@ -32,10 +33,12 @@ import knukkles from './knukkles.ts'
 import light_13th_marshal from './light-13th-marshal.ts'
 import lord_malachar from './lord-malachar.ts'
 import madame_esmeralda from './madame-esmeralda.ts'
+import maren_of_fairhaven from './maren-of-fairhaven.ts'
 import mayor_of_fairhaven from './mayor-of-fairhaven.ts'
 import misha from './misha.ts'
 import mortimer_mafioso from './mortimer-mafioso.ts'
 import mr_bumblefoot from './mr-bumblefoot.ts'
+import old_pell from './old-pell.ts'
 import onana_tempest from './onana-tempest.ts'
 import penelope from './penelope.ts'
 import rare_animal_dealer from './rare-animal-dealer.ts'
@@ -45,7 +48,9 @@ import ryan from './ryan.ts'
 import samantha from './samantha.ts'
 import sarogarth from './sarogarth.ts'
 import selene_tempest from './selene-tempest.ts'
+import sergeant_bruna_kell from './sergeant-bruna-kell.ts'
 import sering_ravenwood from './sering-ravenwood.ts'
+import silas_wren from './silas-wren.ts'
 import skynet_gang_leader from './skynet-gang-leader.ts'
 import sneeve from './sneeve.ts'
 import stefanio from './stefanio.ts'
@@ -54,6 +59,7 @@ import sylf from './sylf.ts'
 import sylvia_s_brother from './sylvia-s-brother.ts'
 import sylvia from './sylvia.ts'
 import tempest_patriarch from './tempest-patriarch.ts'
+import tempest_soldier from './tempest-soldier.ts'
 import the_12th_marshal from './the-12th-marshal.ts'
 import the_father from './the-father.ts'
 import the_fiddler_s_knight from './the-fiddler-s-knight.ts'
@@ -63,6 +69,12 @@ import throne_figure_in_jim_s_vision from './throne-figure-in-jim-s-vision.ts'
 import verdant_haven_rangers from './verdant-haven-rangers.ts'
 
 export default {
+  captain_garran,
+  maren_of_fairhaven,
+  old_pell,
+  sergeant_bruna_kell,
+  silas_wren,
+  tempest_soldier,
   the_fiddler_s_knight,
   stefanio,
   onana_tempest,

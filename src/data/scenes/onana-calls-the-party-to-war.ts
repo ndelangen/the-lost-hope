@@ -4,7 +4,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 export default createScene({
   name: 'Onana calls the party to war',
   location: refs.locations.nimbus,
-  npcs: [refs.npcs.onana_tempest],
+  npcs: [refs.npcs.onana_tempest, refs.npcs.captain_garran],
   references: [
     refs.npcs.the_father,
     refs.organizations.tempest_family,
@@ -18,7 +18,8 @@ export default createScene({
   ],
   setup: [
     [
-      'The same Tempest soldiers who once escorted the party pick them up: “Come with us, ',
+      refs.npcs.captain_garran,
+      ' and the soldiers who once escorted the party pick them up: “Come with us, ',
       refs.organizations.beasts_and_dwarf,
       '! Not a request, I’m afraid!” A floating battle-cruiser carries them to ',
       refs.locations.nimbus,
