@@ -8,6 +8,7 @@ export default createLocation({
   type: 'dungeon',
   parent: refs.locations.serpent_eclipse_maze,
   at: [360, 740],
+  map: { url: '/assets/maps/serpent-eclipse-flooded-cavern.jpg', width: 1536, height: 1024 },
   notes: [
     [
       'A broad, deep pool below the ',

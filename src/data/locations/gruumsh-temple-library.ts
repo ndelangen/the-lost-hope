@@ -3,10 +3,12 @@ import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
   name: 'Gruumsh Temple Library',
+  illustration: '/assets/locations/gruumsh-temple-library-illustration.png',
   icon: 'lucide/Library',
   type: 'building',
   parent: refs.locations.gruumsh_war_temple,
-  at: [275, 220],
+  at: [276, 287],
+  map: { url: '/assets/maps/gruumsh-temple-library.jpg', width: 1536, height: 1024 },
   notes: [
     [
       'The library of the ',

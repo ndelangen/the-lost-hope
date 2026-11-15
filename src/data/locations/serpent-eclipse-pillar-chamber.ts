@@ -8,6 +8,7 @@ export default createLocation({
   type: 'dungeon',
   parent: refs.locations.serpent_eclipse_maze,
   at: [775, 190],
+  map: { url: '/assets/maps/serpent-eclipse-pillar-chamber.jpg', width: 1536, height: 1024 },
   notes: [
     [
       'A rounded chamber containing three pillars marked with a sun, a rock, and a winding symbol, with a separate brazier. A curving passage leads toward the ',

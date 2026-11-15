@@ -3,10 +3,12 @@ import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
   name: 'Gruumsh War Temple',
+  illustration: '/assets/locations/gruumsh-war-temple-illustration.png',
   icon: 'gi/GiTempleDoor',
   type: 'building',
   parent: refs.locations.skynet,
-  at: [225, 180],
+  at: [983, 481],
+  map: { url: '/assets/maps/gruumsh-war-temple.jpg', width: 1536, height: 1024 },
   notes: [
     [
       'A temple of the ',

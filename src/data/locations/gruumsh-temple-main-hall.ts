@@ -3,10 +3,12 @@ import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
   name: 'Gruumsh Temple Main Hall',
+  illustration: '/assets/locations/gruumsh-temple-main-hall-illustration.png',
   icon: 'gi/GiThroneKing',
   type: 'building',
   parent: refs.locations.gruumsh_war_temple,
-  at: [525, 350],
+  at: [691, 369],
+  map: { url: '/assets/maps/gruumsh-temple-main-hall.jpg', width: 1536, height: 1024 },
   notes: [
     [
       'The initial gathering hall of the ',

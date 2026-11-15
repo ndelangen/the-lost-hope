@@ -7,7 +7,7 @@ export default createLocation({
   illustration: '/assets/locations/serpent-eclipse-three-door-chamber-illustration.png',
   type: 'dungeon',
   parent: refs.locations.temple_of_the_serpent_eclipse,
-  at: [525, 350],
+  at: [983, 225],
   connections: [
     {
       id: 'door-i',

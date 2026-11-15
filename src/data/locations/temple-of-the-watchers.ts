@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'gi/GiAllSeeingEye',
   type: 'building',
   parent: refs.locations.nimbus,
-  at: [345, 510],
+  at: [505, 746],
   notes: [
     [
       'A church on ',

@@ -7,7 +7,13 @@ export default createLocation({
   illustration: '/assets/locations/temple-of-the-serpent-eclipse-illustration.png',
   type: 'dungeon',
   parent: refs.locations.skynet,
-  at: [725, 500],
+  at: [1375, 620],
+  map: {
+    url: '/assets/maps/temple-of-the-serpent-eclipse.jpg',
+    width: 1536,
+    height: 1024,
+    schematicPositions: true,
+  },
   notes: [
     [
       'A dungeon entered with authorization from a noble authority or the ',

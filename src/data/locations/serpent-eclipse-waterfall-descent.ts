@@ -8,6 +8,7 @@ export default createLocation({
   type: 'dungeon',
   parent: refs.locations.serpent_eclipse_maze,
   at: [180, 440],
+  map: { url: '/assets/maps/serpent-eclipse-waterfall-descent.jpg', width: 1536, height: 1024 },
   notes: [
     [
       'A waterfall shaft with three hanging vines above the ',

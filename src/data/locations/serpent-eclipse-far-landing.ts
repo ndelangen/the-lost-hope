@@ -3,10 +3,12 @@ import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
   name: 'Serpent Eclipse Far Landing',
+  illustration: '/assets/locations/serpent-eclipse-far-landing-illustration.png',
   icon: 'gi/GiStonePath',
   type: 'dungeon',
   parent: refs.locations.serpent_eclipse_maze,
   at: [725, 640],
+  map: { url: '/assets/maps/serpent-eclipse-far-landing.jpg', width: 1536, height: 1024 },
   notes: [
     [
       'A broad, dry stone platform at the far side of the ',

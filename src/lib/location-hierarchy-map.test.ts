@@ -28,8 +28,8 @@ describe('buildLocationHierarchyMap', () => {
     expect(model.points).toEqual([
       expect.objectContaining({
         slug: locations.serpent_eclipse_shadow_arena.slug,
-        left: 50,
-        top: 50,
+        left: (1398 / 1536) * 100,
+        top: (563 / 1024) * 100,
       }),
     ])
   })
@@ -74,6 +74,8 @@ describe('buildLocationHierarchyMap', () => {
         icon: 'gi/GiMagicPortal',
         connection: { type: 'portal', label: 'Return portal' },
         current: false,
+        left: 50,
+        top: (164 / 1024) * 100,
       }),
     ])
     expect(locationConnections(chamber).map(({ destination }) => destination.slug)).not.toContain(
@@ -122,17 +124,17 @@ describe('buildLocationHierarchyMap', () => {
       current: true,
     })
     expect(model.points.find((point) => point.slug === locations.nimbus.slug)?.left).toBeCloseTo(
-      (275 / 1050) * 100,
+      22,
+      1,
     )
     expect(model.points.find((point) => point.slug === locations.nimbus.slug)?.top).toBeCloseTo(
-      25.71,
-      2,
+      17,
+      1,
     )
-    expect(model.points.find((point) => point.slug === locations.skynet.slug)).toMatchObject({
-      left: 50,
-      top: 50,
-      current: false,
-    })
+    const skynet = model.points.find((point) => point.slug === locations.skynet.slug)
+    expect(skynet?.left).toBeCloseTo(55, 1)
+    expect(skynet?.top).toBeCloseTo(45, 1)
+    expect(skynet?.current).toBe(false)
   })
 
   it('preserves the distinct positions assigned by campaign data', () => {
