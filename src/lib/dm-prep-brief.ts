@@ -20,7 +20,7 @@ import {
 import { isRuleRef, ruleOf } from './rules'
 
 /** How a record is written in a brief: its name, then the generated ref to use in data. */
-function refText(ref: EntityRef<EntityKind | DmEntityKind>): string {
+export function refText(ref: EntityRef<EntityKind | DmEntityKind>): string {
   const name =
     ref.ref === 'scene'
       ? resolveScene({ ref: 'scene', key: ref.key })?.name

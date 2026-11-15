@@ -3,6 +3,22 @@
 This repository is the campaign companion for **The Lost Hope**: a client-side React app for
 campaign lore, entities, sessions, quests, and event timelines.
 
+## Campaign knowledge server
+
+Use the `campaign` MCP server (`.mcp.json`, started automatically by Claude Code with
+`bun run mcp`) for all story work: planning events, scenes, sessions and arcs, answering canon
+questions, and checking ideas. It is faster and more complete than reading `src/data/` files,
+because it follows `refs.*` links and backlinks, derives what the party has met, and reloads when
+data changes.
+
+- Start with `overview`. Read records with `get`, `links`, `timeline`, `motives` and `arc`.
+- Run `check_idea` on every suggestion before proposing it, and resolve each warning: a
+  contradicted event or motivation, a retired PC, a dead NPC, or a reveal of a record the party has
+  not met.
+- Only campaign data is canon. Brainstormed ideas in chat are not canon until written into the
+  data, and `open_questions` are unknowns: do not invent their answers as fact.
+- The server is read-only. Edit canon in `src/data/` following `src/data/AGENTS.md`.
+
 ## Toolchain
 
 - Use Bun for dependency management and scripts. The lockfile and Netlify build both use Bun.
