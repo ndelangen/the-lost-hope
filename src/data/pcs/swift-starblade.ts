@@ -11,6 +11,7 @@ export default createPC({
   class: 'Rogue',
   subclass: 'Arcane Trickster',
   level: 5,
+  combat: { ac: 15, maxHp: 28, passivePerception: 14, spellSaveDc: 11 },
   memberships: [
     {
       organization: refs.organizations.beasts_and_dwarf,

@@ -16,6 +16,7 @@ export default createPC({
   species: 'Half-Orc',
   class: 'Paladin',
   level: 5,
+  combat: { ac: 18, maxHp: 44, passivePerception: 15, spellSaveDc: 13 },
   memberships: [
     {
       organization: refs.organizations.adventurers_guild,
