@@ -42,6 +42,7 @@ export default createArc({
     },
     {
       name: 'Bob collects',
+      status: 'closed',
       hook: [
         [
           '',
@@ -52,6 +53,7 @@ export default createArc({
         ],
       ],
       npcs: [refs.npcs.bob_the_merchant],
+      events: [refs.events.n2_e115],
     },
   ],
 })

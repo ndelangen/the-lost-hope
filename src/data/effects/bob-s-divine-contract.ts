@@ -7,6 +7,7 @@ export default createEffect({
   on: refs.pcs.jim,
   cause: refs.npcs.bob_the_merchant,
   began: refs.events.n2_e095,
+  ended: refs.events.n2_e115,
   rules: [
     [
       refs.npcs.bob_the_merchant,
