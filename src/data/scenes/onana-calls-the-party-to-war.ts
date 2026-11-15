@@ -82,6 +82,21 @@ export default createScene({
       ],
     },
     {
+      when: [['A party member answers yes in the Zone of Truth.']],
+      response: [
+        [
+          'The discussion ends there. That party member is detained, and the rest of the party is evicted onto the docks of ',
+          refs.locations.nimbus,
+          '.',
+        ],
+        [
+          'The detained one may escape. The battle-cruiser is loading supplies at the same docks, so they end up there too, hopefully to meet ',
+          refs.pcs.swift_starblade,
+          '.',
+        ],
+      ],
+    },
+    {
       when: [['They ask about the rest of the party.']],
       response: [
         [
