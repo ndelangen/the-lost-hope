@@ -23,7 +23,7 @@ export default createScene({
       refs.pcs.jim,
       ' pass ',
       refs.npcs.borris,
-      '’s casino again. It is closing its doors: guards carry strongboxes out, and the snail racetrack is being crated up.',
+      '’s casino again. It is shut in the middle of the afternoon: the shutters are down, and two guards stand at the door.',
     ],
     [
       'Two guards drag a body out of the back room and dump it in the alley. It is ',
@@ -61,8 +61,9 @@ export default createScene({
     ],
     [
       refs.npcs.borris,
-      ' volunteers nothing. He only answers when asked, then makes an excuse to get back inside.',
+      ' is not thrilled to talk and volunteers nothing. If they talk to him, he passes the warning along: someone came asking about their party. Then he makes an excuse to get back inside.',
     ],
+    ['Nobody talks about war yet. The war starts with the pulse, in the next scene.'],
     [
       refs.pcs.jim,
       ' barely speaks: the voices from his past are getting louder. Give him a muttered word or two at most.',
@@ -79,17 +80,13 @@ export default createScene({
   outcomes: [
     {
       when: [['They greet ', refs.npcs.borris, ' or ask how he is.']],
-      response: [
-        [
-          '“Closing up. War’s bad for business, unless you’re selling swords.” He nods at the strongboxes: “Everything I own that matters is going in a crate tonight.”',
-        ],
-      ],
+      response: [['“We’re closed. Had a mess to clean up.” He does not invite them in.']],
     },
     {
       when: [['They ask about the body.']],
       response: [
         [
-          '“Some delusional bounty hunter. Kept asking about someone in your party. A kenku, if you can believe it. Too persistent, and now too dead.”',
+          '“Some delusional bounty hunter. Kept asking about someone in your party. A kenku, if you can believe it. Too persistent, and now too dead.” Then, grudgingly: “Watch your backs. Where one comes asking, more follow.”',
         ],
       ],
     },
@@ -97,15 +94,7 @@ export default createScene({
       when: [['They press him about the bounty hunter or the kenku.']],
       response: [
         [
-          'He shrugs: “Didn’t say who was paying. Didn’t get the chance.” Then: “If I were you, I’d get off this rock before the fighting starts.” A guard calls him, and he goes back inside.',
-        ],
-      ],
-    },
-    {
-      when: [['They ask about the war.']],
-      response: [
-        [
-          '“The Tempests are hiring anyone who can hold a spear. Smart people are leaving.” Then he remembers something urgent indoors.',
+          'He shrugs: “Didn’t say who was paying. Didn’t get the chance.” A guard calls him, and he goes back inside.',
         ],
       ],
     },
