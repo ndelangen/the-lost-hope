@@ -4,7 +4,7 @@ import { create as createPC } from '#/definitions/pc.ts'
 export default createPC({
   name: 'Devan',
   player: 'Niek',
-  url: '',
+  url: 'https://www.dndbeyond.com/characters/163997469',
   avatar: '/assets/pcs/devan.jpg',
   previousPortraits: [
     {
@@ -16,6 +16,7 @@ export default createPC({
   species: 'Half-Orc',
   class: 'Paladin',
   level: 5,
+  combat: { ac: 18, maxHp: 44, passivePerception: 15, spellSaveDc: 13 },
   memberships: [
     {
       organization: refs.organizations.adventurers_guild,

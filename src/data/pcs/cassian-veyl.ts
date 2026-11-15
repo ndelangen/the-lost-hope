@@ -4,13 +4,14 @@ import { create as createPC } from '#/definitions/pc.ts'
 export default createPC({
   name: 'Cassian Veyl',
   player: 'Jareign',
-  url: '',
+  url: 'https://www.dndbeyond.com/characters/167740681',
   avatar: '/assets/pcs/cassian.jpg',
   status: 'active',
   species: 'Sheep-like humanoid',
   class: 'Warlock',
   subclass: 'Great Old One Patron',
   level: 5,
+  combat: { ac: 16, maxHp: 43, passivePerception: 13, spellSaveDc: 15 },
   languages: ['Sylvan', 'Undercommon'],
   memberships: [
     {

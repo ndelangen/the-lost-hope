@@ -23,6 +23,7 @@ export default createPC({
   class: 'Bard / Sorcerer',
   subclass: 'College of Tragedy',
   level: 5,
+  combat: { ac: 14, maxHp: 32, passivePerception: 11, spellSaveDc: 14 },
   memberships: [
     {
       organization: refs.organizations.adventurers_guild,

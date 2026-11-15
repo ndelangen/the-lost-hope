@@ -4,13 +4,14 @@ import { create as createPC } from '#/definitions/pc.ts'
 export default createPC({
   name: 'Swift Starblade',
   player: 'SuperJohan4k',
-  url: '',
+  url: 'https://www.dndbeyond.com/characters/164067115',
   avatar: '/assets/pcs/swift.jpg',
   status: 'active',
   species: 'Half-Elf',
   class: 'Rogue',
   subclass: 'Arcane Trickster',
   level: 5,
+  combat: { ac: 15, maxHp: 28, passivePerception: 14, spellSaveDc: 11 },
   memberships: [
     {
       organization: refs.organizations.beasts_and_dwarf,
