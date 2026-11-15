@@ -4,7 +4,7 @@ import { create as createPC } from '#/definitions/pc.ts'
 export default createPC({
   name: 'Cassian Veyl',
   player: 'Jareign',
-  url: '',
+  url: 'https://www.dndbeyond.com/characters/167740681',
   avatar: '/assets/pcs/cassian.jpg',
   status: 'active',
   species: 'Sheep-like humanoid',

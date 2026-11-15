@@ -4,7 +4,7 @@ import { create as createPC } from '#/definitions/pc.ts'
 export default createPC({
   name: 'Swift Starblade',
   player: 'SuperJohan4k',
-  url: '',
+  url: 'https://www.dndbeyond.com/characters/164067115',
   avatar: '/assets/pcs/swift.jpg',
   status: 'active',
   species: 'Half-Elf',
