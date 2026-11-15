@@ -146452,7 +146452,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/galleon.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/ride-the-lightning.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiGalley",
@@ -199634,7 +199637,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/puppet.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/master-of-puppets.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiPurpleTentacle",

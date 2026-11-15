@@ -102,7 +102,7 @@ export default createScene({
         [
           '',
           refs.pcs.swift_starblade,
-          ' makes the History check or argues to keep caring about ',
+          ' makes the saving throw against the pulse and still cares about ',
           refs.pcs.jim,
           '.',
         ],
