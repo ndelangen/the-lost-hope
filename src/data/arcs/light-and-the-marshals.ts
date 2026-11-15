@@ -22,7 +22,18 @@ export default createArc({
       'The other twelve marshals see him as a thing that has to go on but must never grow too strong. They forced him into a kind of exile: he is not supposed to hold land and may not go wherever he wants. They use the fuel and the drug on purpose to flood him with more records than he can keep.',
     ],
     [
-      'He is not really powerful enough for this, and he is looking for a way out. That is why he recruits adventurers.',
+      'He is not really powerful enough for this and cannot keep it up. He no longer has the power to keep even the promises he makes to his adventurers.',
+    ],
+    [
+      'His plan is to put down the pen. When he stops writing, the true cost lands on everyone at once: a huge part of the world is lost, and what remains is forced to give up shadow. He has tried everything else with earlier parties, and he believes this is the only way left.',
+    ],
+    [
+      'That is why he recruits adventurers all over the world through the ',
+      refs.organizations.adventurers_guild,
+      '. When he stops, its members are meant to be the hope that is still standing.',
+    ],
+    [
+      'He cannot tell adventurers to stay away from the fuel and the drug, because the warning would raise suspicion. He accepts that some of them will be lost too.',
     ],
     ['Why he told ', refs.pcs.cassian_veyl, ', and nobody else, that he is a necessary evil:'],
     [
@@ -37,7 +48,7 @@ export default createArc({
     [
       'He made ',
       refs.npcs.the_father,
-      '. An earlier recruit learned his secret and turned it into a weapon, and he is taking the same risk again with this party.',
+      '. One of those earlier attempts taught a recruit his secret, and the recruit turned it into a weapon.',
     ],
     [
       'Still open: why the twelve cannot simply kill him, and whether the tentacles in ',
