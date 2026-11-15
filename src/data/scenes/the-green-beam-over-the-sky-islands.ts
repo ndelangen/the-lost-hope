@@ -27,9 +27,9 @@ export default createScene({
       refs.pcs.cassian_veyl,
       ' and ',
       refs.pcs.devan,
-      ' see a bright green beam strike the docks of ',
+      ' feel a green pulse wash over the islands, then see a bright green beam strike the docks of ',
       refs.locations.nimbus,
-      '.',
+      ' and part of it explode outwards across the harbour.',
     ],
     [
       'Everyone who cared about ',
@@ -47,7 +47,7 @@ export default createScene({
       refs.organizations.the_eyeless_hand,
       ', such as ',
       refs.pcs.fix,
-      ', can be affected, but they will be re-instructed eventually, so the hunt for him goes on.',
+      ', can be affected, but they will be re-instructed eventually.',
     ],
     [
       'The populations of all three sky islands are in chaos. The normally calm streets are packed, and the usual links between the islands are clogged.',

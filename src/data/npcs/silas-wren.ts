@@ -38,7 +38,7 @@ export default createNPC({
     ],
     ['He does not know who ', refs.npcs.the_father, ' really is. Nobody he knows does.'],
     [
-      'When the green beam strikes, pick his reaction to fit who fired it. If it was not the Hand: “That wasn’t us,” and for once he sounds afraid. If it was: he says nothing and melts into the crowd.',
+      'He knows the beam is the fallback plan. When it strikes, he glances up at the flying fortress, says nothing, and melts into the crowd.',
     ],
   ],
   stats: {

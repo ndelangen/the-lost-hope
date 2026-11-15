@@ -21,5 +21,18 @@ export default createArc({
       name: 'Reaching the fortress',
       hook: [['', refs.pcs.jim, ' cannot cross by ferry while he looks like a ghost.']],
     },
+    {
+      name: 'Jim aboard the fortress',
+      hook: [
+        [
+          '',
+          refs.npcs.the_father,
+          ' holds ',
+          refs.pcs.jim,
+          ' on the flying fortress. Who remembers him well enough to come looking?',
+        ],
+      ],
+      npcs: [refs.npcs.the_father],
+    },
   ],
 })

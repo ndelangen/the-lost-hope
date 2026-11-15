@@ -31,6 +31,20 @@ export default createScene({
       ' is overcome by voices from his past and stumbles. Thirteen men in cloaks close in around the two of them.',
     ],
   ],
+  notes: [
+    [
+      'Hidden truth: ',
+      refs.npcs.the_father,
+      ' fires the beam from the flying fortress. It captures ',
+      refs.pcs.jim,
+      ' and teleports him aboard, without his tongue. The players only see him vanish and his gear fall.',
+    ],
+    [
+      'The destruction is not deliberate. Because ',
+      refs.pcs.jim,
+      ' is ethereal and carries the guild tattoo, the weapon needed far more power to take him, and the overflow bounced into the docks.',
+    ],
+  ],
   outcomes: [
     {
       when: [['', refs.pcs.swift_starblade, ' steps away.']],
@@ -60,7 +74,9 @@ export default createScene({
       when: [['', refs.pcs.jim, ' comes within sight of the flying fortress.']],
       response: [
         [
-          'A bright green beam locks onto him, then scatters and strikes thousands of people across the three sky islands. ',
+          'A green pulse rolls out across the three sky islands, and people stagger as their memories slip. Then a bright green beam locks onto ',
+          refs.pcs.jim,
+          '. Part of it bounces off and tears through the docks and the streets beyond. ',
           refs.pcs.jim,
           '’s last words, the only ones ',
           refs.pcs.swift_starblade,
@@ -68,9 +84,9 @@ export default createScene({
         ],
         ['“I’m so sorry. I hope you all make it. Don’t trust Light.”'],
         [
-          'When the light fades, all that remains of ',
+          'When the light fades, ',
           refs.pcs.jim,
-          ' are his belongings and his tongue, still bearing his guild tattoo.',
+          ' is gone. His belongings clatter onto the planks, along with his tongue, still bearing his guild tattoo.',
         ],
       ],
     },
@@ -126,7 +142,7 @@ export default createScene({
       [
         'They break off and melt into the crowd the moment ',
         refs.pcs.jim,
-        ' is gone or the green beam strikes.',
+        ' is gone or the green beam strikes. They knew the beam was coming.',
       ],
     ],
     terrain: [
