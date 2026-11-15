@@ -8,6 +8,7 @@ import {
   linksOf,
   list,
   mentionsIn,
+  met,
   openQuestions,
   overview,
   resolveQuery,
@@ -95,6 +96,12 @@ describe('campaign knowledge', () => {
     expect(text).toContain('Possible state change in S9, day 15')
     expect(text).toContain('The party has not met Knukkles')
     expect(text).toContain('is retired, not an active PC')
+  })
+
+  it('lists who has met a character from shared played events', () => {
+    const text = met('refs.npcs.roberto')
+    expect(text).toContain('Devan (refs.pcs.devan) [pc, active]')
+    expect(text).not.toContain('(refs.npcs.roberto) [')
   })
 
   it('summarises the campaign and its open questions', () => {

@@ -635,6 +635,42 @@ export function motives(query: string): string {
   ].join('\n\n')
 }
 
+/**
+ * Who has met a record: the characters named alongside it in the same played events, from the
+ * player-facing part of each event. Being named together is evidence of a meeting, not proof.
+ */
+export function met(query: string): string {
+  const ref = resolveOne(query)
+  if (typeof ref === 'string') return ref
+  const marker = JSON.stringify(ref).slice(1, -1)
+  const together = new Map<string, { ref: KnowledgeRef; events: string[] }>()
+  for (const event of chronology()) {
+    const shown = stripDmFields('event', event.record)
+    if (!JSON.stringify(shown).includes(marker)) continue
+    const named: KnowledgeRef[] = []
+    collect(shown, named)
+    for (const other of named) {
+      if (!['pc', 'npc', 'beast'].includes(other.ref) || refId(other) === refId(ref)) continue
+      const entry = together.get(refId(other)) ?? { ref: other, events: [] }
+      if (!entry.events.includes(event.key)) entry.events.push(event.key)
+      together.set(refId(other), entry)
+    }
+  }
+  if (together.size === 0) return `No played event names ${name(ref)} together with a character.`
+  const rows = [...together.values()].toSorted(
+    (a, b) => b.events.length - a.events.length || name(a.ref).localeCompare(name(b.ref)),
+  )
+  return [
+    `# Who has met ${name(ref)} (${rows.length})`,
+    'Characters named in the same played events (player-facing notes only). Being named together is not always a meeting, for example the Father on an order; read the first event when it matters.',
+    ...rows.map(({ ref: other, events }) => {
+      const first = eventLabel(events[0]!)
+      const last = events.length > 1 ? `; latest ${eventLabel(events.at(-1)!)}` : ''
+      return `- ${name(other)} [${other.ref}${other.ref === 'pc' ? `, ${String(recordOf(other)!.status)}` : ''}]: ${events.length} event(s), first ${first}${last}`
+    }),
+  ].join('\n')
+}
+
 export function arc(query?: string): string {
   const storylines = buildStorylines(arcs)
   if (!query) {

@@ -11,7 +11,7 @@ questions, and checking ideas. It is faster and more complete than reading `src/
 because it follows `refs.*` links and backlinks, derives what the party has met, and reloads when
 data changes.
 
-- Start with `overview`. Read records with `get`, `links`, `timeline`, `motives` and `arc`.
+- Start with `overview`. Read records with `get`, `links`, `timeline`, `motives`, `met` and `arc`.
 - Run `check_idea` on every suggestion before proposing it, and resolve each warning: a
   contradicted event or motivation, a retired PC, a dead NPC, or a reveal of a record the party has
   not met.

@@ -104,6 +104,12 @@ export const TOOLS = {
       'Motivations, DM-only background, secret memberships and last appearance of an NPC, or of every NPC around a record (an arc, scene, location, organization or event). Use before suggesting what an NPC does.',
     input: { record },
   },
+  met: {
+    title: 'Who has met a character',
+    description:
+      'Every PC, NPC and beast named in the same played events as a record, with how many events they shared and the first and latest. Use for "who knows Jim" questions, such as who rolls a check about him.',
+    input: { record },
+  },
   arc: {
     title: 'Arcs and plots',
     description:
