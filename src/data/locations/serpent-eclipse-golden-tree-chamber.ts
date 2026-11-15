@@ -8,6 +8,7 @@ export default createLocation({
   type: 'dungeon',
   parent: refs.locations.serpent_eclipse_maze,
   at: [1280, 190],
+  map: { url: '/assets/maps/serpent-eclipse-golden-tree-chamber.jpg', width: 1536, height: 1024 },
   notes: [
     [
       'The entrance chamber contains an ancient tree bearing golden apples above a platform of roots, with fairies nearby and three paths leading away. Eating its fruit can compel someone to keep eating.',

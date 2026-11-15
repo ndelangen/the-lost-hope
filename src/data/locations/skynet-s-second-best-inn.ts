@@ -7,7 +7,13 @@ export default createLocation({
   illustration: '/assets/locations/skynet-s-second-best-inn-illustration.png',
   type: 'building',
   parent: refs.locations.skynet,
-  at: [825, 180],
+  at: [722, 348],
+  map: {
+    url: '/assets/maps/skynet-s-second-best-inn.jpg',
+    width: 1536,
+    height: 1024,
+    schematicPositions: true,
+  },
   notes: [
     [
       'An upscale three-storey inn with private bathrooms, hammocks, a library, an alchemical shop, a massage parlour, a barbershop, dining, and dungeon insurance. Its proper name has not yet been established.',

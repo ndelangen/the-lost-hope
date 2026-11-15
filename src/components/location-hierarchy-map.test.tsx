@@ -130,9 +130,9 @@ describe('location hierarchy map', () => {
     }
     render(<LocationMapPlot map={model} label="Dungeon map" />)
     const figure = screen.getByLabelText('Dungeon map')
-    expect(figure.style.aspectRatio).toBe(`${width} / ${height}`)
-    expect(figure.className).not.toContain('min-h-64')
     const image = figure.querySelector('img')
+    expect(image?.parentElement?.style.aspectRatio).toBe(`${width} / ${height}`)
+    expect(image?.parentElement?.className).not.toContain('min-h-64')
     expect(image?.className).toContain('object-contain')
     expect(image?.getAttribute('loading')).toBe('lazy')
     expect(image?.getAttribute('sizes')).toBe('auto, (min-width: 1024px) 720px, calc(100vw - 2rem)')
@@ -141,6 +141,7 @@ describe('location hierarchy map', () => {
     expect(image?.getAttribute('height')).toBe(String(height))
     expect(screen.queryByText('Schematic map')).toBeNull()
     const pin = screen.getByRole('link').parentElement
+    expect(pin?.parentElement).toBe(image?.parentElement)
     expect(pin?.style.left).toBe('25%')
     expect(pin?.style.top).toBe('75%')
   })

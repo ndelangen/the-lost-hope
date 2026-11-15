@@ -6,7 +6,7 @@ export default createLocation({
   icon: 'lucide/MoonStar',
   type: 'building',
   parent: refs.locations.skynet,
-  at: [525, 170],
+  at: [1075, 328],
   notes: [
     [
       'A church associated with the Night Mothers. It stands beside the ',

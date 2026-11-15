@@ -3,10 +3,12 @@ import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
   name: 'Gruumsh Temple Blood Hall',
+  illustration: '/assets/locations/gruumsh-temple-blood-hall-illustration.png',
   icon: 'gi/GiBlood',
   type: 'building',
   parent: refs.locations.gruumsh_war_temple,
-  at: [525, 560],
+  at: [691, 676],
+  map: { url: '/assets/maps/gruumsh-temple-blood-hall.jpg', width: 1536, height: 1024 },
   notes: [
     [
       'A communal feast room in the ',

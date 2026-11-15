@@ -8,7 +8,8 @@ export default createLocation({
   type: 'dungeon',
   parent: refs.locations.temple_of_the_serpent_eclipse,
   // Schematic placement in the temple; the oasis is not located on the approved maze artwork.
-  at: [895, 180],
+  at: [1367, 389],
+  map: { url: '/assets/maps/serpent-eclipse-crystal-oasis.jpg', width: 1536, height: 1024 },
   notes: [
     [
       'A green chamber reached through an anti-magic passage beyond the ',

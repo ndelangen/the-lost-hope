@@ -90,6 +90,7 @@ const locationFields = {
       url: MediaUrl,
       width: z.number().int().positive(),
       height: z.number().int().positive(),
+      schematicPositions: z.boolean().optional(),
     })
     .refine(({ width, height }) => width * 2 === height * 3, {
       message:

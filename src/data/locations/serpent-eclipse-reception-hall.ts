@@ -3,10 +3,12 @@ import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
   name: 'Serpent Eclipse Reception Hall',
+  illustration: '/assets/locations/serpent-eclipse-reception-hall-illustration.png',
   icon: 'gi/GiDesk',
   type: 'dungeon',
   parent: refs.locations.temple_of_the_serpent_eclipse,
-  at: [335, 350],
+  at: [737, 543],
+  map: { url: '/assets/maps/serpent-eclipse-reception-hall.jpg', width: 1536, height: 1024 },
   notes: [
     [
       'The information and administration area immediately inside the ',
