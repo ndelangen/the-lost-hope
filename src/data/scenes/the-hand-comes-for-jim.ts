@@ -44,6 +44,13 @@ export default createScene({
       refs.pcs.jim,
       ' is ethereal and carries the guild tattoo, the weapon needed far more power to take him, and the overflow bounced into the docks.',
     ],
+    [
+      'Casualties (rolled in prep): the memory pulse kills no one. The bounce kills 27 civilians and injures 76 more. It strikes the ferry mid-crossing, the same ferry whose ferryman refused to take ',
+      refs.pcs.jim,
+      ' aboard (',
+      refs.events.n2_e203,
+      ').',
+    ],
   ],
   outcomes: [
     {

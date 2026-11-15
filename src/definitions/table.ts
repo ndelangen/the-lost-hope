@@ -11,7 +11,9 @@ export const Table = z.strictObject({
   likely: z
     .array(entityRefOf('scene'))
     .default([])
-    .describe('Scenes the party is likely to reach next session'),
+    .describe(
+      'Scenes the party is likely to reach next session, in the order the DM plans to run them',
+    ),
   pinned: z
     .array(entityRefOf('scene'))
     .default([])

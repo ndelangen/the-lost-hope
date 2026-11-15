@@ -3,10 +3,11 @@ import { createFileRoute } from '@tanstack/react-router'
 import { DmEffectsPanel } from '#/components/dm/dm-effects-panel'
 import { DmLocationBranch } from '#/components/dm/dm-location-branch'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
+import { DmSceneRow } from '#/components/dm/dm-scene-row'
 import { useEffectLiveState } from '#/components/dm/use-effect-live-state'
 import { campaignEvents, campaignToday, liveEffects, pcs } from '#/lib/campaign'
 import { arcs, scenes, sourceLocationParent, table } from '#/lib/dm-campaign'
-import { buildDashboard, lastKnownLocations, playedEvent } from '#/lib/dm-dashboard'
+import { buildDashboard, lastKnownLocations, playedEvent, runningOrder } from '#/lib/dm-dashboard'
 import {
   closeReminders,
   dismissReminder,
@@ -38,6 +39,7 @@ function DmDashboard() {
       .map(({ data }) => playedEvent(data)),
   )
   const tree = buildDashboard({ table, scenes, arcs, party, parentOf: sourceLocationParent })
+  const order = runningOrder({ table, scenes, arcs })
   const live = useEffectLiveState(campaignToday())
 
   return (
@@ -57,7 +59,22 @@ function DmDashboard() {
             }}
           />
         ) : null}
-        <h1 className="text-3xl font-bold">Likely scenes</h1>
+        <h1 className="text-3xl font-bold">Running order</h1>
+        {order.length > 0 ? (
+          <ol className="marker:text-muted-foreground grid list-decimal grid-cols-1 pl-6 marker:font-semibold">
+            {order.map((item) => (
+              <DmSceneRow
+                key={item.key}
+                scene={item.scene}
+                pinned={item.pinned}
+                plots={item.plots}
+              />
+            ))}
+          </ol>
+        ) : (
+          <p className="text-muted-foreground">No likely scenes selected yet.</p>
+        )}
+        <h2 className="text-xl font-bold">By location</h2>
         {tree.map((node) => (
           <DmLocationBranch key={node.location.key} node={node} depth={0} />
         ))}
