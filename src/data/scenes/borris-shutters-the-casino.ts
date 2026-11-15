@@ -6,38 +6,73 @@ export default createScene({
   location: refs.locations.nimbus,
   npcs: [refs.npcs.borris],
   references: [
+    refs.pcs.fix,
     refs.pcs.swift_starblade,
-    refs.pcs.devan,
     refs.pcs.jim,
+    refs.pcs.devan,
     refs.organizations.the_eyeless_hand,
   ],
   setup: [
     [
+      'Read aloud: It is about four in the afternoon, and the weather has cleared. For the first time, you can see what lies beneath the sky islands, and watch it slide slowly past below you. It has always been cloudy down there. Now the view is clear, and it is all… ocean. The islands hover over a vast, vast ocean.',
+    ],
+    [
+      'On their way to the docks, ',
+      refs.pcs.swift_starblade,
+      ' and ',
+      refs.pcs.jim,
+      ' pass ',
       refs.npcs.borris,
-      '’s casino is closing its doors. Guards carry strongboxes out the back, the snail racetrack is being crated up, and ',
+      '’s casino again. It is closing its doors: guards carry strongboxes out, and the snail racetrack is being crated up.',
+    ],
+    [
+      'Two guards drag a body out of the back room and dump it in the alley. It is ',
+      refs.pcs.fix,
+      '. ',
       refs.npcs.borris,
-      ' stands in the middle of it with fresh blood on his knuckles, shouting orders.',
+      ' follows, wiping fresh blood off his knuckles.',
     ],
   ],
   notes: [
     [
-      'Use this wherever the party is on ',
-      refs.locations.nimbus,
-      ', most likely ',
-      refs.pcs.swift_starblade,
-      ' after the docks. ',
+      refs.pcs.fix,
+      ' was hunting ',
+      refs.pcs.jim,
+      ' and tried to intimidate ',
+      refs.npcs.borris,
+      ' into giving him up. It did not go well, and ',
+      refs.npcs.borris,
+      ' killed her.',
+    ],
+    [
+      'She does not stay dead. Through her necromancer connection she rises again after the party moves on, with ',
+      refs.pcs.jim,
+      ' in her sights. Bring her back whenever the hunt for him needs a new face.',
+    ],
+    [
+      'Play this before the docks ambush. ',
       refs.npcs.borris,
       ' knew ',
       refs.pcs.jim,
-      ', so he rolls the DC 11 History check too.',
+      ', so he rolls the DC 11 History check too once the beam strikes.',
     ],
   ],
   outcomes: [
     {
-      when: [['They ask about the cloaked men.']],
+      when: [['They ask what happened.']],
       response: [
         [
-          '“Those weren’t customers. The Hand doesn’t gamble, it collects.” He knows who they are, but not who sent them.',
+          '“She came asking about your ghost friend. Pushed too hard.” He looks straight at ',
+          refs.pcs.jim,
+          ': “People are looking for you. Get off this rock.”',
+        ],
+      ],
+    },
+    {
+      when: [['They ask about the people hunting ', refs.pcs.jim, '.']],
+      response: [
+        [
+          '“The Hand doesn’t gamble, it collects.” He knows the cloaked men around the docks are the Hand, but not who sent them.',
         ],
       ],
     },
@@ -48,14 +83,6 @@ export default createScene({
           'As a friend of ',
           refs.pcs.devan,
           ', he offers a seat on his own boat out, for a favour later.',
-        ],
-      ],
-    },
-    {
-      when: [['The new player chose to be the prisoner from his back room.']],
-      response: [
-        [
-          'He drags them out by the collar: “Take this one off the islands for me. I’m done asking questions, and I don’t want them found here.”',
         ],
       ],
     },

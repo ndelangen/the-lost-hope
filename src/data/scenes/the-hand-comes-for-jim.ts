@@ -14,9 +14,6 @@ export default createScene({
   ],
   setup: [
     [
-      'Read aloud: It is about four in the afternoon, and the weather has cleared. For the first time, you can see what lies beneath the sky islands, and watch it slide slowly past below you. It has always been cloudy down there. Now the view is clear, and it is all… ocean. The islands hover over a vast, vast ocean.',
-    ],
-    [
       refs.pcs.swift_starblade,
       ' and ',
       refs.pcs.jim,
