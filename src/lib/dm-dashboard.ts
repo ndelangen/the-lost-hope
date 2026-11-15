@@ -61,6 +61,24 @@ export function playedEvent(event: { location: EntityRef; notes: unknown }): Pla
   return { location: event.location, refs: collectReferences(event.notes) }
 }
 
+/** The likely scenes in the order the DM plans to run them, whatever location they happen in. */
+export function runningOrder({
+  table,
+  scenes,
+  arcs,
+}: {
+  table: Table
+  scenes: Readonly<Record<string, Scene>>
+  arcs: Readonly<Record<string, Arc>>
+}): DashboardScene[] {
+  const plots = plotsByScene(arcs)
+  const pinned = new Set(table.pinned.map((ref) => ref.key))
+  return table.likely.flatMap(({ key }) => {
+    const scene = scenes[key]
+    return scene ? [{ key, scene, pinned: pinned.has(key), plots: plots.get(key) ?? [] }] : []
+  })
+}
+
 type Node = {
   location: EntityRef<'location'>
   party: EntityRef<'pc'>[]

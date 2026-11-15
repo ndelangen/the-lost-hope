@@ -6,7 +6,12 @@ import { create as createScene } from '#/definitions/scene'
 import { create as createTable } from '#/definitions/table'
 
 import { sourceLocationParent, validateDmReferences } from './dm-campaign'
-import { type DashboardLocationNode, buildDashboard, lastKnownLocations } from './dm-dashboard'
+import {
+  type DashboardLocationNode,
+  buildDashboard,
+  lastKnownLocations,
+  runningOrder,
+} from './dm-dashboard'
 
 const outline = (nodes: readonly DashboardLocationNode[]): unknown[] =>
   nodes.map((node) => [node.location.key, outline(node.children)])
@@ -73,6 +78,18 @@ describe('DM dashboard', () => {
       ['game', true],
     ])
     expect(nimbus!.scenes[1]!.plots[0]!.plot.name).toBe('Another game')
+  })
+
+  it('lists the likely scenes in planned play order across locations', () => {
+    const table = createTable({
+      likely: [sceneRef('harbour'), sceneRef('stables'), sceneRef('game')],
+      pinned: [sceneRef('game')],
+    })
+    expect(runningOrder({ table, scenes, arcs }).map((s) => [s.key, s.pinned])).toEqual([
+      ['harbour', false],
+      ['stables', false],
+      ['game', true],
+    ])
   })
 
   it('rejects a table that selects a scene that does not exist', () => {
