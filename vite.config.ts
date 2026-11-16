@@ -7,9 +7,12 @@ import type { Plugin } from 'vite'
 
 import { dmAuthoringPlugin } from './scripts/dm-authoring.ts'
 import { generateRefs, REFERENCE_SOURCE_PATHS } from './scripts/generate-refs.ts'
+import { HANDOUT_PATHS } from './src/lib/handouts.ts'
 import { PUBLIC_PAGE_DESCRIPTORS, SITE_ORIGIN } from './src/lib/public-page-descriptors.ts'
 
 const PUBLIC_PAGE_PATHS = new Set(PUBLIC_PAGE_DESCRIPTORS.map(({ path }) => path))
+// Handouts are prerendered so their QR codes work on the live site, but stay out of the sitemap.
+const PRERENDERED_PATHS = new Set([...PUBLIC_PAGE_PATHS, ...HANDOUT_PATHS])
 
 function generatedRefsPlugin(): Plugin {
   const sourcePaths = new Set(REFERENCE_SOURCE_PATHS)
@@ -47,14 +50,17 @@ const config = defineConfig(({ mode }) => {
       generatedRefsPlugin(),
       dmAuthoringPlugin(),
       tanstackStart({
-        pages: PUBLIC_PAGE_DESCRIPTORS.map(({ path }) => ({ path })),
+        pages: [
+          ...PUBLIC_PAGE_DESCRIPTORS.map(({ path }) => ({ path })),
+          ...HANDOUT_PATHS.map((path) => ({ path, sitemap: { exclude: true } })),
+        ],
         prerender: {
           enabled: true,
           autoSubfolderIndex: false,
           autoStaticPathsDiscovery: false,
           crawlLinks: false,
           failOnError: true,
-          filter: ({ path }) => PUBLIC_PAGE_PATHS.has(path),
+          filter: ({ path }) => PRERENDERED_PATHS.has(path),
         },
         sitemap: { enabled: true, host: SITE_ORIGIN },
         spa: { enabled: false },
