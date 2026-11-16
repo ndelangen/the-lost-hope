@@ -20,18 +20,18 @@ export function DmNpcBrief({ npc }: { npc: EntityRef<'npc'> }) {
   const met = refLink(npc) !== undefined
 
   return (
-    <div className="grid gap-2 text-left">
-      <div className="flex items-center gap-3">
-        <Avatar src={record.avatar} alt="" sizes="56px" maxWidth={128} className="size-14" />
-        <div className="grid min-w-0 gap-0.5">
+    <div className="grid gap-2 text-left text-sm">
+      <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
+        <Avatar src={record.avatar} alt="" sizes="40px" maxWidth={64} className="size-10" />
+        <div className="flex min-w-0 flex-1 flex-wrap items-baseline gap-x-2">
           <Link
             to="/dm/npcs/$key"
             params={{ key: npc.key }}
-            className="text-primary w-fit text-base font-semibold underline-offset-4 hover:underline"
+            className="text-primary font-semibold underline-offset-4 hover:underline"
           >
             {record.name}
           </Link>
-          <span className="text-muted-foreground flex flex-wrap items-center gap-x-2 text-xs">
+          <span className="text-muted-foreground inline-flex items-center gap-2 text-xs">
             {record.species ? <span>{record.species}</span> : null}
             {met ? null : (
               <span className="inline-flex items-center gap-1">
@@ -40,32 +40,38 @@ export function DmNpcBrief({ npc }: { npc: EntityRef<'npc'> }) {
             )}
           </span>
         </div>
+        <div className="text-muted-foreground [&_p]:text-xs">
+          <StatBlockSummary stats={record.stats} />
+        </div>
       </div>
-      {record.notes ? <ContentRenderer content={record.notes} /> : null}
-      {record.motivations ? (
-        <BriefPart title="Wants">
-          <ContentRenderer content={record.motivations} />
-        </BriefPart>
-      ) : null}
-      {record.background ? (
-        <BriefPart title="Voice and what they offer">
-          <ContentRenderer content={record.background} />
-        </BriefPart>
-      ) : null}
-      <BriefPart title="Stats">
-        <StatBlockSummary stats={record.stats} />
-      </BriefPart>
+      <dl className="grid gap-x-3 gap-y-1.5 sm:grid-cols-[5.5rem_minmax(0,1fr)]">
+        {record.notes ? (
+          <BriefPart title="Who">
+            <ContentRenderer content={record.notes} />
+          </BriefPart>
+        ) : null}
+        {record.motivations ? (
+          <BriefPart title="Wants">
+            <ContentRenderer content={record.motivations} />
+          </BriefPart>
+        ) : null}
+        {record.background ? (
+          <BriefPart title="Voice, offer">
+            <ContentRenderer content={record.background} className="gap-1" />
+          </BriefPart>
+        ) : null}
+      </dl>
     </div>
   )
 }
 
 function BriefPart({ title, children }: { title: string; children: ReactNode }) {
   return (
-    <section className="grid gap-0.5">
-      <h4 className="text-muted-foreground text-[0.7rem] font-semibold tracking-wide uppercase">
+    <>
+      <dt className="text-muted-foreground pt-0.5 text-[0.7rem] font-semibold tracking-wide uppercase">
         {title}
-      </h4>
-      {children}
-    </section>
+      </dt>
+      <dd>{children}</dd>
+    </>
   )
 }

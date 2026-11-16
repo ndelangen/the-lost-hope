@@ -50,7 +50,7 @@ function FoldingBranch({
         <div className="grid gap-3 px-3 pb-3 pl-11">
           <ContentRenderer content={branch.response} className="text-muted-foreground" />
           {showCast && branch.npcs.length > 0 ? (
-            <ul className="grid gap-2 md:grid-cols-2">
+            <ul className="grid gap-2">
               {branch.npcs.map((npc) => (
                 <li key={npc.key} className="border-border bg-card rounded-lg border p-3">
                   <DmNpcBrief npc={npc} />
