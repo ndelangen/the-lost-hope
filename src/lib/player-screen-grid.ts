@@ -8,19 +8,30 @@ import { z } from 'zod'
 export const PlayerScreenGrid = z.strictObject({
   on: z.boolean(),
   /** One square's side. */
-  cell: z.number().min(0.005).max(0.5),
+  cell: z.number().min(0.01).max(0.5),
   /** Where the grid's lines start from the picture's left and top edges, within one square. */
   x: z.number().nonnegative(),
   y: z.number().nonnegative(),
+  /** How strongly the lines show, from barely there (0.05) to solid (1). */
+  opacity: z.number().min(0.05).max(1).default(0.35),
 })
 
 export type PlayerScreenGrid = z.infer<typeof PlayerScreenGrid>
 
-export const MIN_GRID_CELL = 0.005
+export const MIN_GRID_CELL = 0.01
 export const MAX_GRID_CELL = 0.5
 
 /** A grid the DM has not aligned yet: 24 squares across, starting at the top-left corner. */
-export const DEFAULT_PLAYER_SCREEN_GRID: PlayerScreenGrid = { on: false, cell: 1 / 24, x: 0, y: 0 }
+export const DEFAULT_PLAYER_SCREEN_GRID: PlayerScreenGrid = {
+  on: false,
+  cell: 1 / 24,
+  x: 0,
+  y: 0,
+  opacity: 0.35,
+}
+
+export const MIN_SQUARES_ACROSS = 1 / MAX_GRID_CELL
+export const MAX_SQUARES_ACROSS = 1 / MIN_GRID_CELL
 
 function wrap(offset: number, cell: number): number {
   const wrapped = ((offset % cell) + cell) % cell
@@ -28,13 +39,17 @@ function wrap(offset: number, cell: number): number {
   return wrapped >= cell - 1e-9 ? 0 : wrapped
 }
 
-/** Moves the grid by a number of squares across (dx) and down (dy). */
-export function moveGrid(grid: PlayerScreenGrid, dx: number, dy: number): PlayerScreenGrid {
-  return {
-    ...grid,
-    x: wrap(grid.x + dx * grid.cell, grid.cell),
-    y: wrap(grid.y + dy * grid.cell, grid.cell),
-  }
+/**
+ * Places the grid's lines a fraction of a square in from the picture's left (`across`) and top
+ * (`down`) edges, as the DM's sliders do. A whole square is the same as none.
+ */
+export function placeGrid(grid: PlayerScreenGrid, across: number, down: number): PlayerScreenGrid {
+  return { ...grid, x: wrap(across * grid.cell, grid.cell), y: wrap(down * grid.cell, grid.cell) }
+}
+
+/** How far into a square the grid's lines start, across and down, for the DM's sliders. */
+export function gridPlacement(grid: PlayerScreenGrid): { across: number; down: number } {
+  return { across: grid.x / grid.cell, down: grid.y / grid.cell }
 }
 
 /** Moves the grid by a distance in picture widths, as when the DM drags it on the preview. */
@@ -66,6 +81,15 @@ export function scaleGrid(
 /** How many squares fit across the picture, for the DM's controls. */
 export function gridSquaresAcross(grid: PlayerScreenGrid): number {
   return 1 / grid.cell
+}
+
+/** Fits `squares` squares across the picture, keeping the middle of the picture still. */
+export function sizeGrid(
+  grid: PlayerScreenGrid,
+  squares: number,
+  aspect: number,
+): PlayerScreenGrid {
+  return scaleGrid(grid, 1 / squares / grid.cell, aspect)
 }
 
 /**

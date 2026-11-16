@@ -255471,9 +255471,7 @@
       "classification": "questionable",
       "classificationReason": "Manually classified as questionable from the /_icons review page.",
       "sourceUrl": "https://lucide.dev/icons/arrow-down",
-      "usedIn": [
-        "src/components/player-screen/grid-controls.tsx"
-      ]
+      "usedIn": []
     },
     {
       "id": "lucide/ArrowDown01",
@@ -256058,8 +256056,7 @@
       "sourceUrl": "https://lucide.dev/icons/arrow-left",
       "usedIn": [
         "src/components/dm/encounter/focus-toolbar.tsx",
-        "src/components/dm/encounter/initiative-row.tsx",
-        "src/components/player-screen/grid-controls.tsx"
+        "src/components/dm/encounter/initiative-row.tsx"
       ]
     },
     {
@@ -256235,8 +256232,7 @@
       "sourceUrl": "https://lucide.dev/icons/arrow-right",
       "usedIn": [
         "src/components/dm/encounter/focus-toolbar.tsx",
-        "src/components/dm/encounter/initiative-row.tsx",
-        "src/components/player-screen/grid-controls.tsx"
+        "src/components/dm/encounter/initiative-row.tsx"
       ]
     },
     {
@@ -256435,9 +256431,7 @@
       "classification": "questionable",
       "classificationReason": "Manually classified as questionable from the /_icons review page.",
       "sourceUrl": "https://lucide.dev/icons/arrow-up",
-      "usedIn": [
-        "src/components/player-screen/grid-controls.tsx"
-      ]
+      "usedIn": []
     },
     {
       "id": "lucide/ArrowUp01",
@@ -287688,8 +287682,7 @@
       "sourceUrl": "https://lucide.dev/icons/minus",
       "usedIn": [
         "src/components/dm/encounter/hp-control.tsx",
-        "src/components/dm/ship-damage-clock.tsx",
-        "src/components/player-screen/grid-controls.tsx"
+        "src/components/dm/ship-damage-clock.tsx"
       ]
     },
     {
@@ -292716,7 +292709,6 @@
         "src/components/dm/encounter/combat-status.tsx",
         "src/components/dm/encounter/hp-control.tsx",
         "src/components/dm/ship-damage-clock.tsx",
-        "src/components/player-screen/grid-controls.tsx",
         "src/routes/dm/encounter/index.tsx"
       ]
     },
