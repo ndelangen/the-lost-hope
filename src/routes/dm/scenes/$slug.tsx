@@ -6,6 +6,7 @@ import { DmFaces } from '#/components/dm/dm-faces'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
 import { NpcStatLine } from '#/components/dm/npc-stat-line'
 import { SceneBranches } from '#/components/dm/scene-branches'
+import { ShipDamageClock } from '#/components/dm/ship-damage-clock'
 import { EntityReference } from '#/components/entity-reference'
 import { ImageViewer } from '#/components/image-viewer'
 import { ShowToPlayersButton } from '#/components/player-screen/show-to-players-button'
@@ -42,6 +43,7 @@ function SceneRoute() {
   const pinned = table.pinned.some((ref) => ref.key === key)
   const location = resolveSourceRef(scene.location)
   const branches = buildSceneBranches(scene.outcomes)
+  const vessel = scene.shipDamage ? resolveSourceRef(scene.shipDamage.vessel) : undefined
 
   return (
     <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_12rem]">
@@ -164,6 +166,10 @@ function SceneRoute() {
           <h2 className="text-muted-foreground text-xs font-semibold uppercase">Setup</h2>
           <ContentRenderer content={scene.setup} />
         </section>
+
+        {scene.shipDamage && vessel ? (
+          <ShipDamageClock sceneKey={key} vesselName={vessel.name} ship={scene.shipDamage} />
+        ) : null}
 
         {scene.outcomes.length > 0 ? (
           <section className="grid gap-2">

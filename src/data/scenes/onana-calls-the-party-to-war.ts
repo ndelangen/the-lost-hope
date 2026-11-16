@@ -68,6 +68,15 @@ export default createScene({
       ' knows who failed.',
     ],
     [
+      'If the party outran the cruiser, it is docked next to their vessel at ',
+      refs.locations.nimbus,
+      ' and ',
+      refs.pcs.swift_starblade,
+      ' is with them. He stands in the Zone of Truth too, and he is the one who was on the docks when the beam struck. ',
+      refs.npcs.onana_tempest,
+      ' skips “Where is the rest of your party?”, and nobody needs collecting afterwards.',
+    ],
+    [
       'The plan: the party reunites, boards one of the cruisers under the control of ',
       refs.organizations.the_eyeless_hand,
       ', and flips it back by killing the Hand’s crew.',

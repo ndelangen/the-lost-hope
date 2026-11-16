@@ -565,6 +565,7 @@ export const refs = {
     the_green_beam_over_the_sky_islands: ref('scene', 'the_green_beam_over_the_sky_islands'),
     the_clogged_ferry_landing: ref('scene', 'the_clogged_ferry_landing'),
     the_ents_hold_the_shipyard: ref('scene', 'the_ents_hold_the_shipyard'),
+    running_from_the_battle_cruiser: ref('scene', 'running_from_the_battle_cruiser'),
     boarded_by_the_battle_cruiser: ref('scene', 'boarded_by_the_battle_cruiser'),
     onana_calls_the_party_to_war: ref('scene', 'onana_calls_the_party_to_war'),
     taking_back_a_battle_cruiser: ref('scene', 'taking_back_a_battle_cruiser'),
