@@ -45,7 +45,7 @@ export default createPC({
       refs.npcs.esia,
       ' at her shipyard on ',
       refs.locations.skynet,
-      ' as her test pilot and technician. That is why he knows ships well enough to jump-start the ferry.',
+      ' as her test pilot and technician: he tests her airships and does the artificer work on them. The work is not steady, but he needs little, since he does not eat or sleep. That is why he is on the island, and why he knows ships well enough to jump-start the ferry.',
     ],
     [
       'Open for the DM: the backstory says the elves were nearly wiped out; the campaign so far only says they lost, and elves still live in the world.',
