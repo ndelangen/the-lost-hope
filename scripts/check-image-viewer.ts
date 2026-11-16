@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict'
 import { spawn } from 'node:child_process'
 import { setTimeout as delay } from 'node:timers/promises'
+import { stripVTControlCharacters } from 'node:util'
 
 import { chromium } from 'playwright'
 
@@ -25,7 +26,7 @@ try {
   let ready = false
   for (let attempt = 0; attempt < 100; attempt++) {
     assert(server.exitCode === null, `Preview server exited: ${serverOutput}`)
-    if (serverOutput.includes(origin)) {
+    if (stripVTControlCharacters(serverOutput).includes(origin)) {
       ready = true
       break
     }
