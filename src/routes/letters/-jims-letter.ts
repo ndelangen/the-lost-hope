@@ -10,17 +10,18 @@ export type LetterSection = {
 }
 
 /**
- * Jim's farewell letter, left on Roberto's map pages. Everything but the footer is sealed: each
- * personal section under the word its recipient holds, and the shared opening and closing under
- * all four words joined in section order. The plain text is kept out of the repository (sealed
- * with `scripts/seal-letter.ts`).
+ * Jim's farewell letter, left on Roberto's map pages. Everything but the header is sealed: the
+ * shared part under all four words joined in section order, and each personal section under the
+ * word its recipient holds. The plain text is kept out of the repository (sealed with
+ * `scripts/seal-letter.ts`).
  */
 export const JIMS_LETTER = {
+  header: 'Decryption instructions on page 4 of the Book of Groomsh.',
   sharedLabel: 'For all four of you. Your four words as one, in the order of this letter.',
-  opening: {
-    salt: 'p0RvU7q7J2giUDTlJic8DA==',
-    iv: 'tZsIkvBqsKBlBDwn',
-    data: '/LwLzDkYc2jtvKqVsnx+e105vJFzy3suv+nGgiZndFcJsouUQ0/2pxVRqelZY4q/3XG5DymOmhHqHaw4Y+6dYOg02ai+B/8JFaMskJpN9olrUl7avC9/LzhCQWkMFYQmdlZxFFzkZiISQQm0JeWztSqL0q+atY6pSUCUK/YYtlrFXncB1w8/HpDmtGQRknol6ZkU+faZ/KIwZHs3lfAjOQIPNiQEXsgcVmYk1TRwPdlcPWLRDdw+wTJ5yARidOYEsZnPZnZwNCwY/xPSyDIJa6kZu4FShhvPYNhqtsnXcagIJ8CmoxIpk/VZPr+c+rorQI3qsUW9U9rR+6Zca40WttQ9bsh3U867yT3rdSpV/7NHdZNm46jZ06/Qqs80X7QyjeaO1hVQr8lak35udTvrdL4ur9xo7IhpP/jkkkqTpBV3JLQcYcMQWISUKhUqhOuXXiYb4tYu+V5nXNJHHhC2KffkHVifpjiIunCUreFOF/az/ZwDr+Q/tiPEOWS7M2c=',
+  shared: {
+    salt: 'byojBngu5Wbat6AUaQk5yg==',
+    iv: 'SXOouqjYF7fC/uDX',
+    data: 'UokyAB4IE+zeFNNGlpZVWZr2UXthSHydMOqq5BZveLEHfBKpldQRhwFmFP9u8iVKxvKlsEMOjBvYalLCOR2CNnnankm55N+2QpWQqjqZnocSxqfGPl1JPzVSyDMMZd/AtWly07KX6ds1XTTKxVll15SD+kZne9px8kws3a7sheb3sfu92OmHlb6i3ipNvCQEwarGpeKsBva6rhd19xyPL66QpHsGyhqNPncVNbeH8yANZPyCTqwcPIeSgrrF0UVl/oj44OUQyDWVEf/AkSmJC0LFznjmQh0cCfaQjtvAzN9bKgUsLoTW9TiZxzPsMb0lLdED2fICVS/uF37vd+EHiEGhgtlecPI5mp5N+Nj3xXbf5uhxQ/3zQUFzvr/HTEcv42gpEDLfs7Wa0XpEOkzRkiN5gKABzk45o+mKOgc677GeOGWRciH8bbwUmYTlAItNlQfxtFGimTHjSu6+BeKEfCuGqv+jvH0PUkO81+OlLIL1ocRDjsNb7wRqoSaCfjKq2o5UrBudvF+ILjguA0Lh4R67YEGCt0DA20I6FGOFYY5GBY7+IV7TpJEzcmUlCg3H8P+L0VljvLEzkP8vl3uFxaQEfNY2H3Dk0Ce4Pwb0nv3y5nfjhWAKzPzwRuhFgoDMsvczGN+ipSGl9HbygK71hwlzdt/hriC9A6JbTwgNiv1KuwZg6NnnYPyVA3SNFFtHXL9lXhYYICzrD868l8wsZucACGSLk/Vpip+z1linxlH231elV4Wal+AXiejE1/oZ4JNH',
   },
   sections: [
     {
@@ -28,19 +29,19 @@ export const JIMS_LETTER = {
       recipient: refs.pcs.devan,
       clue: 'For the one whose stone heard Roberto’s last answer. What did you name it?',
       sealed: {
-        salt: '6xGo3uYamQExv+HoiNWnkQ==',
-        iv: '3eAS4AlRCpllgONU',
-        data: 'dPmB2/Bi2/RigJXEu01gvAnUL5fOOHcsK+aABgbKAXl+zkEiAwLO98Vd5ii26SgBxeLlqPtcHAOLCGr1DZsExdeDk8l7YAsI9JQ4cwy0hJLNroiBK4Ql+Fu9yMajTXH2PQ==',
+        salt: 'hW2ckJqN4pW1ydMXjIxHIw==',
+        iv: 'sBgFIT28TVnOlOo6',
+        data: 'Jni9ICqCLxsU2pqsooGKqMRZx28/MtOioOTkIavxmJLTRL4s96eUPpkgpjAFnLg07G39UBFapXzWzhGX6s0Jdxg1FCXZf8wUwQQ3iA6VK1WkY4IshgKw+IISzFnb2U9f5BHYd00MiP52tLnhdLCaTA==',
       },
     },
     {
       id: 'cassian',
       recipient: refs.pcs.cassian_veyl,
-      clue: 'For the one who believed he was cured. What does your stomach refuse?',
+      clue: 'For the one who believed he was cured. What does your stomach still refuse?',
       sealed: {
-        salt: 'xrn/iuEoplAmuyZTUyrMLw==',
-        iv: 'Wmkn5LNDT2Km9Tws',
-        data: '80KGrmTJ12ikJoXhQlggIxQGA+CWEyXYDcYYJhbOf3Eke0DIctUG7KTDq9x3Tf4AqRAsWnJPPRwCoScpQneejW5tR5tJTpd0N9zUv6IW4czL8RwMfwaOscvgDDqcATHndqtvTdKcQWuQWuUyEnWvI1Y=',
+        salt: 'mngBZv94Tr4vWz6dAPqLzA==',
+        iv: 'aC34uKntdlkYU+y8',
+        data: 'ufJp4YVGv1jIAKIyXSi4GR/twJkz0Y0jkqspYeAXeenIXDXSY7SNil2jwaIkGfzegovQawR1wUojeP/YTjVfI4SD8uvF7oVDeKhN+8CYWPBzeO4idXjuFmDvyuxDEjX6/227g/nc8h2j1ib8T3Ogsw==',
       },
     },
     {
@@ -48,9 +49,9 @@ export const JIMS_LETTER = {
       recipient: refs.pcs.swift_starblade,
       clue: 'For the captain whose bird flew me a rope. What kind of bird?',
       sealed: {
-        salt: '1i/659CVrXEZmLn9oqyaqA==',
-        iv: 'c777HfMxRLI76erN',
-        data: 'QyFL8lMOWMkHi3+1nnvLuyqMWyHVMYjsjXBWhe4dpF7Qg/Jz0Q4UZ0LucRNU/PC4/0A3+k3CUa/q4xDZP179oojUhp1TtXC1imuFHraCNFpolcnIxoggNAALB8nTPjE6H9goNSeZubnMQ2Npiccf',
+        salt: '4/OgHYoPB9e1IlhESXhbTA==',
+        iv: '5Ksgm6+1R86u5tWw',
+        data: 'h1inmBDoDfn9foZ1JQsF03c63sT3bCaZZhCsg4Au2B0s97tO/tl8KmfgBodhyecrSCE5EW45LsRhzK6iEfiC8WkOpaqdCgtyIEoAVlcgHyMt6dm1+GgIlePaNOuDKjHCnYTULvhZy6fNwHlr8kABAP0gt5P02w==',
       },
     },
     {
@@ -58,16 +59,10 @@ export const JIMS_LETTER = {
       recipient: refs.npcs.crowy,
       clue: 'For the bird in the cage, the first night at the Sullen Monk. What did I give you?',
       sealed: {
-        salt: 'hxS/CcKu0nleuMynIpohKg==',
-        iv: 'CUCEVAvz0rlfswvy',
-        data: 'HT73mqx8SO9dO6AJ8iMltfntOeY6FK1ISOI4U85U3UyyqkLYp6Q1OS29r4gg5pjiivultkCLFCGLlIRMZhoKU6gTGacUwNJc/LLvSDkkhaNbx70E8+bzilvFWlM1tPDmCMdLr9KBTQ==',
+        salt: 'EVuhFlpEO9UK1dIg69q6Gw==',
+        iv: 'koU/WIUdcPKPrzOP',
+        data: 'gRcnlWP2WDwtB5S2TNRX70DBADuV4KKoZ3SQy9Dsn6abAVtnOxLIhmTsptviq0IxDezMJ6oa2w6iM1WDcxDLeLOXaZEf3xRPczjFRzovinz6i7dMsQBvRKEgBEtAgIEH+kmeAvU12UxSuy+jo9ctVGRR+j480QRjwuakQF9S',
       },
     },
   ] satisfies LetterSection[],
-  closing: {
-    salt: '3BhDYO+oixIUo4XyFUR0CA==',
-    iv: 'USc5KROMEyFBG9yr',
-    data: '1XG0aOPxlgBKUsbp8vThD3bg0t0aNiNuqhyhIPTzpSQOx94gLJ/v7ib1sn4cbJPP3v6QeSjItD3SOzqx2c8J9Z+XIgel66SDDtXPA3PWgWgUAvZ8pCP0P8jfR+dwdbEDDVLVSItwoP6LZoDKI9mptwF+f33LO72OKAkPT0Po00UrS8hSpo5cfatNosWGPhYIty2wrviZ6ri9l2RjKO6R6fa2we+G4Sp6w/TGjyOFEQzVNP8mr8XLQtuKJGLUpoBwyyLF7OlPZ7Kl/4Zldq4d4g0nn5sClwRTRU+DAolyNxKfOWhzeORl3TbtlbYCwKLP3kPHs7nciZ1JN3i79kGK34lW2jRMLw==',
-  },
-  footer: 'Decryption instructions on page 4 of the Book of Groomsh.',
 }

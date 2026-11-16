@@ -42,7 +42,7 @@ function JimsLetterPage() {
   const [words, setWords] = useState<Record<string, string>>({})
   const [unsealed, setUnsealed] = useState<Record<string, string>>({})
   const [attempts, setAttempts] = useState<Record<string, Attempt>>({})
-  const [shared, setShared] = useState<{ opening: string; closing: string } | null>(null)
+  const [shared, setShared] = useState<string | null>(null)
   const partRefs = useRef<Record<string, HTMLElement | null>>({})
 
   async function tryWord(section: LetterSection, word: string, announceWrong: boolean) {
@@ -74,14 +74,11 @@ function JimsLetterPage() {
   useEffect(() => {
     if (!allSpoken || shared !== null) return
     const key = JIMS_LETTER.sections.map((section) => words[section.id] ?? '').join('')
-    void Promise.all([
-      unsealText(JIMS_LETTER.opening, key),
-      unsealText(JIMS_LETTER.closing, key),
-    ]).then(([opening, closing]) => {
-      if (opening === null || closing === null) return
-      setShared({ opening, closing })
+    void unsealText(JIMS_LETTER.shared, key).then((text) => {
+      if (text === null) return
+      setShared(text)
       setTimeout(
-        () => partRefs.current.opening?.scrollIntoView({ behavior: 'smooth', block: 'start' }),
+        () => partRefs.current.shared?.scrollIntoView({ behavior: 'smooth', block: 'start' }),
         50,
       )
     })
@@ -94,12 +91,16 @@ function JimsLetterPage() {
           style={HAND}
           className="flex flex-col gap-6 text-[1.7rem] leading-snug sm:text-[1.95rem]"
         >
+          <p style={PRINT} className="text-lg italic">
+            {JIMS_LETTER.header}
+          </p>
+
           <LetterPart
             label={JIMS_LETTER.sharedLabel}
-            sealedLength={sealedLength(JIMS_LETTER.opening)}
-            text={shared?.opening}
+            sealedLength={sealedLength(JIMS_LETTER.shared)}
+            text={shared ?? undefined}
             partRef={(node) => {
-              partRefs.current.opening = node
+              partRefs.current.shared = node
             }}
           />
 
@@ -114,17 +115,6 @@ function JimsLetterPage() {
               }}
             />
           ))}
-
-          <LetterPart
-            label={JIMS_LETTER.sharedLabel}
-            sealedLength={sealedLength(JIMS_LETTER.closing)}
-            text={shared?.closing}
-            partRef={() => {}}
-          />
-
-          <p style={PRINT} className="border-t border-[#7a5a32]/30 pt-5 text-lg italic">
-            {JIMS_LETTER.footer}
-          </p>
         </div>
       </OldPaper>
 
@@ -175,7 +165,7 @@ function JimsLetterPage() {
             )
           })}
           <p style={PRINT} className="text-base italic opacity-80">
-            The shared parts return once all four words are spoken.
+            The part for all four of you returns once every word is spoken.
           </p>
           <button
             type="submit"
@@ -203,10 +193,7 @@ function LetterPart({
   partRef: (node: HTMLElement | null) => void
 }) {
   return (
-    <section
-      ref={partRef}
-      className="flex flex-col gap-1 border-t border-[#7a5a32]/30 pt-5 first:border-t-0 first:pt-0"
-    >
+    <section ref={partRef} className="flex flex-col gap-1 border-t border-[#7a5a32]/30 pt-5">
       <p style={PRINT} className="text-base italic opacity-75 sm:text-lg">
         {label}
       </p>
