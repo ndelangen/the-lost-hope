@@ -97,18 +97,20 @@ export default createScene({
           ' is gone. His belongings clatter onto the planks, along with his tongue, still bearing his guild tattoo.',
         ],
       ],
-    },
-    {
-      when: [
-        [
-          '',
-          refs.pcs.swift_starblade,
-          ' makes the saving throw against the pulse and still cares about ',
-          refs.pcs.jim,
-          '.',
-        ],
+      followUps: [
+        {
+          when: [
+            [
+              '',
+              refs.pcs.swift_starblade,
+              ' makes the saving throw against the pulse and still cares about ',
+              refs.pcs.jim,
+              '.',
+            ],
+          ],
+          response: [['He takes the tongue, and with it a clue to what the guild mark really is.']],
+        },
       ],
-      response: [['He takes the tongue, and with it a clue to what the guild mark really is.']],
     },
     {
       when: [['', refs.pcs.swift_starblade, ' gathers what is left on the docks.']],

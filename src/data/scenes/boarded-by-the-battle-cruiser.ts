@@ -3,6 +3,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 
 export default createScene({
   name: 'Boarded by the battle-cruiser',
+  illustration: '/assets/scenes/boarded-by-the-battle-cruiser.png',
   location: refs.locations.skynet,
   npcs: [refs.npcs.captain_garran, refs.npcs.tempest_soldier],
   references: [
