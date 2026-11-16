@@ -2,6 +2,7 @@ import assert from 'node:assert/strict'
 import { spawn } from 'node:child_process'
 import { mkdir } from 'node:fs/promises'
 import { setTimeout as delay } from 'node:timers/promises'
+import { stripVTControlCharacters } from 'node:util'
 
 import { chromium } from 'playwright'
 
@@ -23,11 +24,15 @@ server.stderr.on('data', (chunk) => {
 
 /* oxlint-disable no-await-in-loop -- serial navigation checks share one preview server */
 try {
-  for (let attempt = 0; attempt < 100 && !serverOutput.includes(origin); attempt++) {
+  for (let attempt = 0; attempt < 100; attempt++) {
     assert(server.exitCode === null, `Preview exited: ${serverOutput}`)
+    if (stripVTControlCharacters(serverOutput).includes(origin)) break
     await delay(100)
   }
-  assert(serverOutput.includes(origin), `Preview did not become ready: ${serverOutput}`)
+  assert(
+    stripVTControlCharacters(serverOutput).includes(origin),
+    `Preview did not become ready: ${serverOutput}`,
+  )
   await mkdir('output/verification/location-connections', { recursive: true })
   const browser = await chromium.launch({ headless: true })
   try {
