@@ -1,7 +1,7 @@
 import { join } from 'node:path'
 
 export const RESPONSIVE_IMAGE_WIDTHS = [
-  32, 64, 128, 192, 256, 384, 512, 640, 768, 960, 1024, 1280,
+  32, 64, 128, 192, 256, 384, 512, 640, 768, 960, 1024, 1280, 1536,
 ] as const
 
 export const RESPONSIVE_IMAGE_ENCODING = {

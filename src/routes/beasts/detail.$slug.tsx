@@ -13,6 +13,7 @@ import { Pill } from '#/components/ui/pill'
 import { DEFAULT_AVATAR } from '#/definitions/media'
 import { effectsOn, getEntity, resolveRef } from '#/lib/campaign'
 import { entityContextData } from '#/lib/entity-context-data'
+import { avatarOnPlayerScreen } from '#/lib/player-screen-state'
 import { publicEntityPageHead } from '#/lib/public-page-metadata'
 
 export const Route = createFileRoute('/beasts/detail/$slug')({
@@ -46,6 +47,7 @@ function BeastPage() {
             title={beast.name}
             eyebrow="Beast portrait"
             accessibleLabel={`portrait of ${beast.name}`}
+            playerScreen={avatarOnPlayerScreen('beast', entity.slug)}
           />
         ),
       }}
