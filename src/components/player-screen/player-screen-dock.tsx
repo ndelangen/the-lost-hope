@@ -1,5 +1,16 @@
 import { useRouterState } from '@tanstack/react-router'
-import { ChevronLeft, ChevronRight, EyeOff, Monitor, MonitorOff, MonitorUp, X } from 'lucide-react'
+import {
+  ChevronLeft,
+  ChevronRight,
+  EyeOff,
+  Monitor,
+  MonitorOff,
+  MonitorUp,
+  RectangleHorizontal,
+  RotateCcw,
+  RotateCw,
+  X,
+} from 'lucide-react'
 import { useEffect, useMemo, useRef, useState } from 'react'
 
 import { ResponsiveImage } from '#/components/responsive-image'
@@ -20,6 +31,7 @@ import {
   showOnPlayerScreen,
   stepPlayerScreen,
   type PlayerScreenImage,
+  type PlayerScreenRotation,
   type PlayerScreenState,
 } from '#/lib/player-screen-state'
 import { cn } from '#/lib/utils'
@@ -75,6 +87,7 @@ export function PlayerScreenDock() {
           onShow={show}
           onJump={(index) => update((current) => jumpPlayerScreen(current, index))}
           onCaptions={(value) => update((state) => ({ ...state, captions: value }))}
+          onRotate={(value) => update((state) => ({ ...state, rotation: value }))}
           onClose={() => setOpen(false)}
         />
       ) : null}
@@ -152,6 +165,16 @@ function HistoryButton({
   )
 }
 
+const ROTATIONS: ReadonlyArray<{
+  value: PlayerScreenRotation
+  label: string
+  Icon: typeof RotateCcw
+}> = [
+  { value: -90, label: 'Left', Icon: RotateCcw },
+  { value: 0, label: 'Upright', Icon: RectangleHorizontal },
+  { value: 90, label: 'Right', Icon: RotateCw },
+]
+
 const GROUP_LABEL: Record<PlayerScreenGroup, string> = {
   Scenes: 'Scene',
   Maps: 'Map',
@@ -168,6 +191,7 @@ function PlayerScreenPanel({
   onShow,
   onJump,
   onCaptions,
+  onRotate,
   onClose,
 }: {
   state: PlayerScreenState
@@ -175,6 +199,7 @@ function PlayerScreenPanel({
   onShow: (selection: PlayerScreenImage | null) => void
   onJump: (index: number) => void
   onCaptions: (value: boolean) => void
+  onRotate: (value: PlayerScreenRotation) => void
   onClose: () => void
 }) {
   const showing = playerScreenShowing(state)
@@ -244,6 +269,30 @@ function PlayerScreenPanel({
           Show names
         </label>
       </div>
+
+      <fieldset className="border-border flex items-center gap-2 border-b p-3">
+        <legend className="sr-only">Turn the picture</legend>
+        <span className="text-muted-foreground w-12 shrink-0 text-xs font-semibold uppercase">
+          Turn
+        </span>
+        {ROTATIONS.map(({ value, label, Icon }) => (
+          <button
+            key={value}
+            type="button"
+            onClick={() => onRotate(value)}
+            aria-pressed={state.rotation === value}
+            className={cn(
+              'flex h-12 flex-1 items-center justify-center gap-2 rounded-lg border text-sm font-medium',
+              state.rotation === value
+                ? 'border-primary bg-primary/10 text-foreground'
+                : 'border-border hover:bg-muted',
+            )}
+          >
+            <Icon className="size-4" aria-hidden />
+            {label}
+          </button>
+        ))}
+      </fieldset>
 
       <div className="flex min-h-0 flex-1 flex-col gap-4 overflow-y-auto p-3">
         <ShownHistory state={state} onJump={onJump} />

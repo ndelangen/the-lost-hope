@@ -34,12 +34,21 @@ export const PlayerScreenState = z
     index: z.number().int().nonnegative(),
     /** Name the record under the image. Only records the party has met are ever named. */
     captions: z.boolean(),
+    /** Turns the whole picture sideways, for handouts and portrait art on a landscape monitor. */
+    rotation: z.union([z.literal(0), z.literal(90), z.literal(-90)]).default(0),
   })
   .refine((state) => state.index < state.history.length, { path: ['index'] })
 
 export type PlayerScreenState = z.infer<typeof PlayerScreenState>
 
-export const EMPTY_PLAYER_SCREEN: PlayerScreenState = { history: [null], index: 0, captions: true }
+export const EMPTY_PLAYER_SCREEN: PlayerScreenState = {
+  history: [null],
+  index: 0,
+  captions: true,
+  rotation: 0,
+}
+
+export type PlayerScreenRotation = PlayerScreenState['rotation']
 
 export function parsePlayerScreenState(raw: string | null): PlayerScreenState {
   if (!raw) return EMPTY_PLAYER_SCREEN

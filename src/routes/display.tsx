@@ -44,7 +44,11 @@ function PlayerScreenPage() {
       {image && showing ? (
         <figure
           key={playerScreenImageId(showing)}
-          className="animate-in fade-in absolute inset-0 m-0 duration-700"
+          className={cn(
+            'animate-in fade-in absolute top-1/2 left-1/2 m-0 -translate-x-1/2 -translate-y-1/2 duration-700',
+            state.rotation === 0 ? 'h-dvh w-dvw' : 'h-dvw w-dvh',
+          )}
+          style={state.rotation === 0 ? undefined : { rotate: `${state.rotation}deg` }}
         >
           <ResponsiveImage
             src={image.src}

@@ -293761,7 +293761,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/rectangle-horizontal",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/player-screen-dock.tsx"
+      ]
     },
     {
       "id": "lucide/RectangleVertical",
@@ -294515,6 +294517,7 @@
         "src/components/dm/encounter/ability-controls.tsx",
         "src/components/dm/encounter/combatant-panel.tsx",
         "src/components/dm/npc-portrait-status.tsx",
+        "src/components/player-screen/player-screen-dock.tsx",
         "src/routes/dm/encounter/$id.tsx"
       ]
     },
@@ -294617,7 +294620,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/rotate-cw",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/player-screen-dock.tsx"
+      ]
     },
     {
       "id": "lucide/RotateCwSquare",

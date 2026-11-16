@@ -127,7 +127,7 @@ describe('player screen history', () => {
     const withBorris = togglePlayerScreen(showOnPlayerScreen(EMPTY_PLAYER_SCREEN, map), borris)
     expect(playerScreenShowing(withBorris)).toEqual(borris)
     expect(playerScreenShowing(togglePlayerScreen(withBorris, borris))).toEqual(map)
-    const onlyBorris = togglePlayerScreen({ history: [borris], index: 0, captions: true }, borris)
+    const onlyBorris = togglePlayerScreen({ ...EMPTY_PLAYER_SCREEN, history: [borris] }, borris)
     expect(playerScreenShowing(onlyBorris)).toBeNull()
   })
 
@@ -145,5 +145,17 @@ describe('player screen history', () => {
     const shown = showOnPlayerScreen(showOnPlayerScreen(EMPTY_PLAYER_SCREEN, map), borris)
     expect(playerScreenShowing(jumpPlayerScreen(shown, 0))).toBeNull()
     expect(jumpPlayerScreen(shown, 9)).toBe(shown)
+  })
+})
+
+describe('player screen rotation', () => {
+  it('reads a stored screen saved before rotation existed as upright', () => {
+    expect(parsePlayerScreenState('{"history":[null],"index":0,"captions":true}').rotation).toBe(0)
+  })
+
+  it('rejects angles other than a quarter turn', () => {
+    expect(
+      parsePlayerScreenState('{"history":[null],"index":0,"captions":true,"rotation":45}'),
+    ).toEqual(EMPTY_PLAYER_SCREEN)
   })
 })
