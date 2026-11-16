@@ -16,7 +16,7 @@ export type LetterSection = {
  * `scripts/seal-letter.ts`).
  */
 export const JIMS_LETTER = {
-  header: 'Decryption instructions on page 4 of the Book of Groomsh.',
+  header: 'Decryption instructions on page 4 of the Book of Gruumsh.',
   sharedLabel: 'For all four of you. Your four words as one, in the order of this letter.',
   shared: {
     salt: 'byojBngu5Wbat6AUaQk5yg==',
