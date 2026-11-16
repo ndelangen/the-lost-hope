@@ -20,6 +20,6 @@ export default createEvent({
     ],
   ],
   day: 24,
-  location: refs.locations.nimbus,
+  location: refs.locations.borris_s_gambling_den,
   mark: { type: 'avatar', of: refs.pcs.jim },
 })

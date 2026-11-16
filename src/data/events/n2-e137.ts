@@ -4,7 +4,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 export default createEvent({
   name: 'Cassian tests his luck with cheesecake',
   day: 22,
-  location: refs.locations.skynet_s_second_best_inn,
+  location: refs.locations.dining_room_at_skynet_s_second_best_inn,
   mark: { type: 'avatar', of: refs.pcs.cassian_veyl },
   notes: [
     [

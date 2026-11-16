@@ -52,6 +52,7 @@ export type PlayerVisibleKeys = {
  * - An event is visible when a session lists it; an event outside every session is off-screen.
  * - Any other record is visible once a visible event references it outside its DM fields. That
  *   event is the record's first recorded appearance.
+ * - Confirmed landmarks on the public maps can be visible before an event references them.
  * - A visible location makes its parent locations visible.
  */
 export function playerVisibleKeys(registries: SourceRegistries): PlayerVisibleKeys {
@@ -73,6 +74,12 @@ export function playerVisibleKeys(registries: SourceRegistries): PlayerVisibleKe
     for (const ref of collectReferences(event)) {
       if (ref.ref === 'event' || ALWAYS_VISIBLE.has(ref.ref)) continue
       if (Object.hasOwn(registries[ref.ref], ref.key)) visible[ref.ref].add(ref.key)
+    }
+  }
+
+  for (const [key, location] of Object.entries(registries.location)) {
+    if ('publicMapLandmark' in location && location.publicMapLandmark === true) {
+      visible.location.add(key)
     }
   }
 

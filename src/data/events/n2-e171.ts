@@ -4,7 +4,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 export default createEvent({
   name: 'Onana rewards the party and forbids further dungeon deaths',
   day: 24,
-  location: refs.locations.tempest,
+  location: refs.locations.onana_tempest_s_estate,
   mark: { type: 'icon', name: 'gi/GiTrade' },
   notes: [
     [

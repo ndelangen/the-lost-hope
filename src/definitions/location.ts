@@ -57,6 +57,10 @@ export const LocationIllustrationUrl = MediaUrl.refine(
 
 const locationFields = {
   name: z.string(),
+  publicMapLandmark: z
+    .literal(true)
+    .optional()
+    .describe('A public map landmark the campaign can show before the party encounters it.'),
   connections: z
     .array(LocationConnection)
     .refine((connections) => new Set(connections.map(({ id }) => id)).size === connections.length, {

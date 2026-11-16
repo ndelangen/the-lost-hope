@@ -38,6 +38,6 @@ export default createEvent({
     ],
   ],
   day: 24,
-  location: refs.locations.nimbus,
+  location: refs.locations.nimbus_sky_bridge_landing,
   mark: { type: 'icon', name: 'gi/GiFloatingPlatforms' },
 })

@@ -4,7 +4,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 export default createEvent({
   name: 'Sarogarth opens a portal back to Skynet',
   day: 24,
-  location: refs.locations.skynet,
+  location: refs.locations.skynet_market_square,
   mark: { type: 'icon', name: 'gi/GiDoorway' },
   notes: [
     [

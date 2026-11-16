@@ -4,7 +4,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 export default createScene({
   name: 'The clogged ferry landing',
   illustration: '/assets/scenes/the-clogged-ferry-landing.png',
-  location: refs.locations.skynet,
+  location: refs.locations.skynet_sky_bridge_landing,
   npcs: [refs.npcs.maren_of_fairhaven, refs.npcs.sergeant_bruna_kell, refs.npcs.tempest_soldier],
   references: [
     refs.pcs.cassian_veyl,

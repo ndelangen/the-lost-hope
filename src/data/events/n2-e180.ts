@@ -4,7 +4,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 export default createEvent({
   name: "The shipwright explains the ents' final voyages",
   day: 24,
-  location: refs.locations.skynet,
+  location: refs.locations.skynet_airship_shipyard,
   mark: { type: 'avatar', of: refs.npcs.esia },
   notes: [
     [

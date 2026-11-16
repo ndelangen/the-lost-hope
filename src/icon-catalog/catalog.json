@@ -32560,7 +32560,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://fontawesome.com/v5/icons/horse-head",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/stables-at-skynet-s-second-best-inn.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "fa/FaHospital",
@@ -84121,7 +84124,10 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "duplicateOf": "lucide/Anvil",
       "sourceUrl": "https://game-icons.net/1x1/lorc/anvil.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/bessy-s-nimbus-stall.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiAnvilImpact",
@@ -121127,7 +121133,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/crystal-shine.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/skynet-magic-artifact-shop.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiCrystalShrine",
@@ -128057,7 +128066,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/double-street-lights.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/skynet-market-square.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiDoughRoller",
@@ -162221,7 +162233,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/indian-palace.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/onana-tempest-s-estate.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiInfernoBomb",
@@ -174851,10 +174866,12 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/magic-swirl.html",
       "usedIn": [
         "src/data/creatures/mage.ts",
+        "src/data/locations/stefanio-s-magic-shop.ts",
         "src/data/npcs/bob-the-merchant.ts",
         "src/data/npcs/hex.ts",
         "src/data/npcs/sarogarth.ts",
-        "src/lib/ability-icons.tsx"
+        "src/lib/ability-icons.tsx",
+        "src/lib/location-icons.tsx"
       ]
     },
     {
@@ -181559,7 +181576,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/mooring-bollard.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/skynet-sky-bridge-landing.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiMorbidHumour",
@@ -213020,7 +213040,9 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/ship-bow.html",
       "usedIn": [
         "src/data/items/beasts-and-dwarf-s-airship.ts",
-        "src/lib/item-icons.tsx"
+        "src/data/locations/tempest-sky-bridge-landing.ts",
+        "src/lib/item-icons.tsx",
+        "src/lib/location-icons.tsx"
       ]
     },
     {
@@ -213078,8 +213100,10 @@
       "usedIn": [
         "src/data/events/n2-e041.ts",
         "src/data/events/n2-e179.ts",
+        "src/data/locations/skynet-airship-shipyard.ts",
         "src/data/sessions/the-tempest-bargain.ts",
         "src/lib/event-icons.tsx",
+        "src/lib/location-icons.tsx",
         "src/lib/session-icons.tsx"
       ]
     },
@@ -237040,7 +237064,9 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/token.html",
       "usedIn": [
         "src/data/items/nimbus-casino-vip-card.ts",
-        "src/lib/item-icons.tsx"
+        "src/data/locations/borris-s-gambling-den.ts",
+        "src/lib/item-icons.tsx",
+        "src/lib/location-icons.tsx"
       ]
     },
     {
@@ -242434,8 +242460,10 @@
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/two-coins.html",
       "usedIn": [
+        "src/data/locations/skynet-coin-dealer.ts",
         "src/data/npcs/borris.ts",
-        "src/lib/ability-icons.tsx"
+        "src/lib/ability-icons.tsx",
+        "src/lib/location-icons.tsx"
       ]
     },
     {
@@ -251955,7 +251983,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/wooden-pier.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/nimbus-sky-bridge-landing.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiWoodenSign",
@@ -254693,7 +254724,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/anchor",
-      "usedIn": []
+      "usedIn": [
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "lucide/Angry",
@@ -258578,7 +258611,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/bed-double",
-      "usedIn": []
+      "usedIn": [
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "lucide/BedSingle",
@@ -302432,7 +302467,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/store",
-      "usedIn": []
+      "usedIn": [
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "lucide/StretchHorizontal",
@@ -307403,7 +307440,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/utensils",
-      "usedIn": []
+      "usedIn": [
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "lucide/UtensilsCrossed",
