@@ -287649,7 +287649,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/monitor",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/player-screen-dock.tsx"
+      ]
     },
     {
       "id": "lucide/MonitorCheck",
@@ -287697,7 +287699,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/monitor-check",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/show-to-players-button.tsx"
+      ]
     },
     {
       "id": "lucide/MonitorCog",
@@ -287789,7 +287793,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/monitor-off",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/player-screen-dock.tsx"
+      ]
     },
     {
       "id": "lucide/MonitorPause",
@@ -287981,7 +287987,10 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/monitor-up",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/player-screen-dock.tsx",
+        "src/components/player-screen/show-to-players-button.tsx"
+      ]
     },
     {
       "id": "lucide/MonitorX",
@@ -309081,7 +309090,8 @@
         "src/components/dm/encounter/dm-screen.tsx",
         "src/components/dm/encounter/encounter-roster.tsx",
         "src/components/dm/encounter/turn-card.tsx",
-        "src/components/image-viewer.tsx"
+        "src/components/image-viewer.tsx",
+        "src/components/player-screen/player-screen-dock.tsx"
       ]
     },
     {
