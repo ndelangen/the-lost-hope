@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Corwin Hale',
+  avatar: '/assets/npcs/corwin-hale-portrait.png',
   species: 'Human',
   notes: [
     [

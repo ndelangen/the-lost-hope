@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Ryan',
+  avatar: '/assets/npcs/ryan-portrait.png',
   location: refs.locations.badesh,
   notes: [['The guard captain of ', refs.locations.badesh, '.']],
   stats: {

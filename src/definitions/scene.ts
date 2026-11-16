@@ -3,6 +3,7 @@ import { z } from 'zod'
 import { Content } from './content'
 import { makeCreate } from './create'
 import { EntityRefSchema, entityRefOf } from './kind'
+import { MediaUrl } from './media'
 import { deriveSlug } from './slug'
 
 /** Prep for when a scene turns into a fight, pinned at the top of its encounter in combat focus. */
@@ -20,6 +21,7 @@ export const Scene = deriveSlug(
   z.strictObject({
     name: z.string().trim().min(1),
     location: entityRefOf('location'),
+    illustration: MediaUrl.optional(),
     setup: Content,
     notes: Content.optional(),
     npcs: z.array(entityRefOf('npc')).default([]),

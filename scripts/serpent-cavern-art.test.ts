@@ -21,7 +21,9 @@ describe('serpent cavern artwork', () => {
       refs.locations.serpent_eclipse_maze,
     )
     expect(locations.serpent_eclipse_maze.map.url).toBe('/assets/maps/serpent-eclipse-maze.jpg')
-    expect(beasts.serpent_eclipse_lake_serpent.avatar).toBe(avatar)
+    expect(beasts.serpent_eclipse_lake_serpent.previousPortraits).toContainEqual(
+      expect.objectContaining({ url: avatar }),
+    )
     expect(beasts.serpent_eclipse_lake_serpent.location).toEqual(
       refs.locations.serpent_eclipse_flooded_cavern,
     )

@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Sergeant Bruna Kell',
+  avatar: '/assets/npcs/sergeant-bruna-kell-portrait.png',
   species: 'Dwarf',
   memberships: [
     { organization: refs.organizations.tempest_family, status: 'active', rank: 'Sergeant' },

@@ -8,6 +8,7 @@ import { EntityDetail } from '#/components/entity-page'
 import { ImageViewer } from '#/components/image-viewer'
 import { LocationMapLegend, LocationMapPlot } from '#/components/location-hierarchy-map'
 import { LocationReference } from '#/components/location-reference'
+import { PortraitGallery } from '#/components/portrait-gallery'
 import { Grid, Inline, Stack } from '#/components/ui/layout'
 import { Pill } from '#/components/ui/pill'
 import { DEFAULT_LOCATION_ILLUSTRATION } from '#/definitions/media'
@@ -118,6 +119,13 @@ function LocationDetailPage() {
             previewMaxWidth={1280}
             className="aspect-[16/7] min-h-64 w-full"
           />
+          {location.additionalPortraits ? (
+            <PortraitGallery
+              kind="additional"
+              subject={location.name}
+              portraits={location.additionalPortraits}
+            />
+          ) : null}
         </Stack>
         {parent && contextMap ? (
           <Grid gap="2xl" lgTemplate="content-aside" align="start">

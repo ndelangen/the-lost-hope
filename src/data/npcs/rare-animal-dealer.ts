@@ -3,7 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Rare-Animal Dealer',
-  avatar: '/assets/npcs/rare-animal-dealer.png',
+  avatar: '/assets/npcs/rare-animal-dealer-portrait.png',
   location: refs.locations.fajanet,
   species: 'unknown',
   notes: [

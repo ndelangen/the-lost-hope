@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Barbara',
+  avatar: '/assets/npcs/barbara-portrait.png',
   location: refs.locations.nimbus,
   notes: [
     [

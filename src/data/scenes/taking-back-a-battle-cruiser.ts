@@ -3,6 +3,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 
 export default createScene({
   name: 'Taking back a battle-cruiser',
+  illustration: '/assets/scenes/taking-back-a-battle-cruiser.png',
   location: refs.locations.nimbus,
   npcs: [refs.npcs.cloaked_snatcher, refs.npcs.onana_tempest],
   references: [

@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Mr. Bumblefoot',
+  avatar: '/assets/npcs/mr-bumblefoot-portrait.png',
   location: refs.locations.giggles_and_gadgets,
   notes: [
     [

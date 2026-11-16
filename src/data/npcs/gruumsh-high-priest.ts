@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Gruumsh High Priest',
+  avatar: '/assets/npcs/gruumsh-high-priest-portrait.png',
   location: refs.locations.gruumsh_war_temple,
   notes: [['Notably short, but strong enough to lift and throw a troll.']],
   memberships: [

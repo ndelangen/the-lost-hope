@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Blackbeard',
+  avatar: '/assets/npcs/blackbeard-portrait.png',
   location: refs.locations.sea_of_unknown,
   notes: [
     [

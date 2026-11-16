@@ -8,6 +8,7 @@ import { EntityCorrectionSubmission } from '#/components/entity-correction-submi
 import { EntityDetail } from '#/components/entity-page'
 import { ImageViewer } from '#/components/image-viewer'
 import { LocationReference } from '#/components/location-reference'
+import { PortraitGallery } from '#/components/portrait-gallery'
 import { Inline, Stack } from '#/components/ui/layout'
 import { Pill } from '#/components/ui/pill'
 import { DEFAULT_AVATAR } from '#/definitions/media'
@@ -60,6 +61,9 @@ function NpcPage() {
             <p className="text-muted-foreground text-sm">
               <span className="font-medium">Languages:</span> {npc.languages.join(', ')}
             </p>
+          ) : null}
+          {npc.previousPortraits ? (
+            <PortraitGallery kind="previous" subject={npc.name} portraits={npc.previousPortraits} />
           ) : null}
         </Stack>
       }

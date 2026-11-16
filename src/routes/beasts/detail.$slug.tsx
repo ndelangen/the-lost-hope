@@ -7,7 +7,8 @@ import { EntityCorrectionSubmission } from '#/components/entity-correction-submi
 import { EntityDetail } from '#/components/entity-page'
 import { ImageViewer } from '#/components/image-viewer'
 import { LocationReference } from '#/components/location-reference'
-import { Inline } from '#/components/ui/layout'
+import { PortraitGallery } from '#/components/portrait-gallery'
+import { Inline, Stack } from '#/components/ui/layout'
 import { Pill } from '#/components/ui/pill'
 import { DEFAULT_AVATAR } from '#/definitions/media'
 import { effectsOn, getEntity, resolveRef } from '#/lib/campaign'
@@ -49,10 +50,26 @@ function BeastPage() {
         ),
       }}
       headerContent={
-        <Inline gap="sm" wrap>
-          {beast.species ? <Pill variant="outline">{beast.species}</Pill> : null}
-          {home ? <LocationReference slug={home.slug} /> : null}
-        </Inline>
+        <Stack gap="md">
+          <Inline gap="sm" wrap>
+            {beast.species ? <Pill variant="outline">{beast.species}</Pill> : null}
+            {home ? <LocationReference slug={home.slug} /> : null}
+          </Inline>
+          {beast.additionalPortraits ? (
+            <PortraitGallery
+              kind="additional"
+              subject={beast.name}
+              portraits={beast.additionalPortraits}
+            />
+          ) : null}
+          {beast.previousPortraits ? (
+            <PortraitGallery
+              kind="previous"
+              subject={beast.name}
+              portraits={beast.previousPortraits}
+            />
+          ) : null}
+        </Stack>
       }
       correction={<EntityCorrectionSubmission entity={entity} />}
       context={

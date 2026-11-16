@@ -1,23 +1,28 @@
-import { ImageViewer } from '#/components/image-viewer'
-import { DEFAULT_AVATAR } from '#/definitions/media'
-import type { PreviousPortrait } from '#/definitions/pc'
+import { useId } from 'react'
 
-export function PreviousPortraits({
-  characterName,
+import { ImageViewer } from '#/components/image-viewer'
+import { DEFAULT_AVATAR, type Portrait } from '#/definitions/media'
+
+export function PortraitGallery({
+  subject,
+  kind,
   portraits,
 }: {
-  characterName: string
-  portraits: PreviousPortrait[]
+  subject: string
+  kind: 'previous' | 'additional'
+  portraits: Portrait[]
 }) {
+  const headingId = useId()
+  const label = kind === 'previous' ? 'Previous' : 'Additional'
   if (portraits.length === 0) return null
 
   return (
-    <section aria-labelledby="previous-portraits-heading">
+    <section aria-labelledby={headingId}>
       <h2
-        id="previous-portraits-heading"
+        id={headingId}
         className="text-muted-foreground text-xs font-semibold tracking-wider uppercase"
       >
-        Previous portraits
+        {label} portraits
       </h2>
       <div className="mt-2 flex flex-wrap gap-3">
         {portraits.map((portrait) => (
@@ -28,7 +33,9 @@ export function PreviousPortraits({
                 fallbackSrc={DEFAULT_AVATAR}
                 alt={portrait.description}
                 title={portrait.description}
-                eyebrow={`Previous portrait of ${characterName}`}
+                eyebrow={
+                  kind === 'previous' ? `Previous portrait of ${subject}` : 'Additional portrait'
+                }
                 accessibleLabel={`portrait of ${portrait.description}`}
                 previewSizes="64px"
                 previewMaxWidth={128}

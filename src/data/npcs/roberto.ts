@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Roberto',
+  avatar: '/assets/npcs/roberto-portrait.png',
   location: refs.locations.verdant_haven_forest,
   notes: [
     ['A mapmaker who carried the book from which ', refs.items.robertos_map_pages, ' were taken.'],

@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Shipyard Ent',
+  avatar: '/assets/npcs/shipyard-ent-portrait.png',
   species: 'Ent',
   notes: [
     [

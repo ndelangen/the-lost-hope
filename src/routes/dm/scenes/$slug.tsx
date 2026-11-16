@@ -5,6 +5,7 @@ import { ContentRenderer } from '#/components/content-renderer'
 import { DmFaces } from '#/components/dm/dm-faces'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
 import { EntityReference } from '#/components/entity-reference'
+import { ImageViewer } from '#/components/image-viewer'
 import { arcs, npcMotivations, resolveSourceRef, scenes, table } from '#/lib/dm-campaign'
 import { plotsByScene } from '#/lib/dm-dashboard'
 
@@ -63,6 +64,19 @@ function SceneRoute() {
             ) : null}
           </p>
         </header>
+
+        {scene.illustration ? (
+          <ImageViewer
+            src={scene.illustration}
+            alt={scene.name}
+            title={scene.name}
+            eyebrow="Scene illustration"
+            accessibleLabel={`illustration of ${scene.name}`}
+            previewSizes="(min-width: 1024px) 800px, calc(100vw - 4rem)"
+            previewMaxWidth={960}
+            className="aspect-[3/2] w-full overflow-hidden rounded-lg"
+          />
+        ) : null}
 
         {scene.npcs.length > 0 ? (
           <section className="grid gap-2">

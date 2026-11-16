@@ -3,6 +3,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 
 export default createScene({
   name: 'The ents hold the shipyard',
+  illustration: '/assets/scenes/the-ents-hold-the-shipyard.png',
   location: refs.locations.skynet,
   npcs: [refs.npcs.esia, refs.npcs.shipyard_ent, refs.npcs.corwin_hale],
   references: [

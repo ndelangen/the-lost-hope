@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Maren of Fairhaven',
+  avatar: '/assets/npcs/maren-of-fairhaven-portrait.png',
   species: 'Human',
   notes: [
     [

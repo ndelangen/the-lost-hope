@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Bernard',
+  avatar: '/assets/npcs/bernard-portrait.png',
   location: refs.locations.verdant_haven,
   species: 'Talking goat',
   stats: {

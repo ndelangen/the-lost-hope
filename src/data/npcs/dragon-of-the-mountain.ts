@@ -3,7 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Dragon of the Mountain',
-  avatar: '/assets/npcs/dragon-of-the-mountain.png',
+  avatar: '/assets/npcs/dragon-of-the-mountain-portrait.png',
   location: refs.locations.mountain_top,
   species: 'Dragon',
   languages: ['Common'],

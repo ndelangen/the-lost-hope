@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: "The Fiddler's Knight",
+  avatar: '/assets/npcs/the-fiddler-s-knight-portrait.png',
   notes: [
     [
       'An unnamed woman summoned by the Knight card of the ',

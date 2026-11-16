@@ -8,7 +8,7 @@ import { EntityContext } from '#/components/entity-context'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail } from '#/components/entity-page'
 import { ImageViewer } from '#/components/image-viewer'
-import { PreviousPortraits } from '#/components/previous-portraits'
+import { PortraitGallery } from '#/components/portrait-gallery'
 import { Inline, Stack } from '#/components/ui/layout'
 import { Pill } from '#/components/ui/pill'
 import { DEFAULT_AVATAR } from '#/definitions/media'
@@ -66,7 +66,7 @@ function PcPage() {
           </Inline>
           <p className="text-muted-foreground text-sm">Played by {pc.player}</p>
           {pc.previousPortraits?.length ? (
-            <PreviousPortraits characterName={pc.name} portraits={pc.previousPortraits} />
+            <PortraitGallery kind="previous" subject={pc.name} portraits={pc.previousPortraits} />
           ) : null}
           {pc.languages?.length ? (
             <p className="text-muted-foreground text-sm">

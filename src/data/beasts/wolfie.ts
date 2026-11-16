@@ -3,6 +3,9 @@ import { create as createBeast } from '#/definitions/beast.ts'
 
 export default createBeast({
   name: 'Wolfie',
+  additionalPortraits: [
+    { url: '/assets/beasts/wolfie-upright.png', description: 'Wolfie in his upright form' },
+  ],
   avatar: '/assets/npcs/wolfie.png',
   location: refs.locations.skynet_s_second_best_inn,
   species: 'Dire wolf in a humanoid form',

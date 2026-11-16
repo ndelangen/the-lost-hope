@@ -3,6 +3,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 
 export default createScene({
   name: 'The green beam over the sky islands',
+  illustration: '/assets/scenes/the-green-beam-over-the-sky-islands.png',
   location: refs.locations.skynet_s_second_best_inn,
   npcs: [refs.npcs.abraham],
   references: [

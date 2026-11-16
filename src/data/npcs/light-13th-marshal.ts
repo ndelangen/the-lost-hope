@@ -3,7 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Light 13th Marshal',
-  avatar: '/assets/npcs/light.png',
+  avatar: '/assets/npcs/light-13th-marshal-portrait.png',
   location: refs.locations.fajanet_guildhall,
   species: 'unknown',
   notes: [

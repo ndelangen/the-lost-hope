@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Sering Ravenwood',
+  avatar: '/assets/npcs/sering-ravenwood-portrait.png',
   location: refs.locations.fairhaven,
   stats: refs.creatures.commoner,
 })

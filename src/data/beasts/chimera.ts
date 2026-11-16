@@ -3,6 +3,7 @@ import { create as createBeast } from '#/definitions/beast.ts'
 
 export default createBeast({
   name: 'Chimera',
+  avatar: '/assets/beasts/chimera-portrait.png',
   species: 'Chimera',
   stats: {
     size: 'large',

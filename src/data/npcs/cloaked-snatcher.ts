@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Cloaked Snatcher',
+  avatar: '/assets/npcs/cloaked-snatcher-portrait.png',
   secretMemberships: [
     { organization: refs.organizations.the_eyeless_hand, status: 'active', rank: 'Member' },
   ],

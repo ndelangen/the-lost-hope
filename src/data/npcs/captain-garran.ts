@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Captain Garran',
+  avatar: '/assets/npcs/captain-garran-portrait.png',
   species: 'Human',
   memberships: [
     { organization: refs.organizations.tempest_family, status: 'active', rank: 'Captain' },

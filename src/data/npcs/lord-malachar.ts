@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Lord Malachar',
+  avatar: '/assets/npcs/lord-malachar-portrait.png',
   location: refs.locations.the_blackstone,
   species: 'unknown',
   notes: [['The feared ruler of ', refs.locations.shadowpeak, '.']],

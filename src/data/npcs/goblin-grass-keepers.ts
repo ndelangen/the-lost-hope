@@ -3,7 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Goblin Grass-Keepers',
-  avatar: '/assets/npcs/goblin-grass-keepers.png',
+  avatar: '/assets/npcs/goblin-grass-keepers-portrait.png',
   location: refs.locations.fajanet,
   species: 'Goblin',
   notes: [

@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Sneeve',
+  avatar: '/assets/npcs/sneeve-portrait.png',
   memberships: [
     {
       organization: refs.organizations.adventurers_guild,

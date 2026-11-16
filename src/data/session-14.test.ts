@@ -67,7 +67,9 @@ describe('Session 14 transcript import', () => {
 
   it('keeps Swift and his familiar distinct from Jim and Crowy', () => {
     expect(beasts.captain_squawk.name).toBe('Captain Squawk')
-    expect(beasts.captain_squawk.avatar).toBe('/assets/beasts/captain-squawk.jpg')
+    expect(beasts.captain_squawk.previousPortraits).toContainEqual(
+      expect.objectContaining({ url: '/assets/beasts/captain-squawk.jpg' }),
+    )
     expect(beasts.captain_squawk.notes?.flat()).toContainEqual(refs.pcs.swift_starblade)
     expect(events.n2_e136.notes.flat()).toContainEqual(refs.beasts.captain_squawk)
     expect(events.n2_e136.notes.flat()).not.toContainEqual(refs.pcs.jim)

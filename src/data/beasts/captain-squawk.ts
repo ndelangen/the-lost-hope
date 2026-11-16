@@ -3,7 +3,10 @@ import { create as createBeast } from '#/definitions/beast.ts'
 
 export default createBeast({
   name: 'Captain Squawk',
-  avatar: '/assets/beasts/captain-squawk.jpg',
+  avatar: '/assets/beasts/captain-squawk-portrait.png',
+  previousPortraits: [
+    { url: '/assets/beasts/captain-squawk.jpg', description: 'Previous beast portrait' },
+  ],
   species: 'Parrot familiar',
   notes: [
     [

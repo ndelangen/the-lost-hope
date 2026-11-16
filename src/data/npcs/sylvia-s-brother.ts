@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Sylvia’s Brother',
+  avatar: '/assets/npcs/sylvia-s-brother-portrait.png',
   notes: [['The as-yet unidentified brother of ', refs.npcs.sylvia, '.']],
   stats: {
     size: 'medium',

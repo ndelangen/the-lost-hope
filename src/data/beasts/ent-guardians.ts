@@ -3,6 +3,7 @@ import { create as createBeast } from '#/definitions/beast.ts'
 
 export default createBeast({
   name: 'Ent Guardians',
+  avatar: '/assets/beasts/ent-guardians-portrait.png',
   location: refs.locations.verdant_haven_forest,
   species: 'Walking tree-like creatures',
   notes: [['Guardians that roam the forest around ', refs.locations.verdant_haven, ' at night.']],

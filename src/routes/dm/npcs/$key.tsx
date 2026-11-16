@@ -6,6 +6,7 @@ import { DmFaces } from '#/components/dm/dm-faces'
 import { DmHiddenReference } from '#/components/dm/dm-hidden-reference'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
 import { EntityReference } from '#/components/entity-reference'
+import { PortraitGallery } from '#/components/portrait-gallery'
 import { RuleTerm } from '#/components/rule-term'
 import { refs } from '#/data/generated/refs'
 import { refLink } from '#/lib/campaign'
@@ -77,6 +78,10 @@ function DmNpcRoute() {
           <Suspense fallback={null}>
             <PortraitStatus npcKey={key} />
           </Suspense>
+        ) : null}
+
+        {npc.previousPortraits ? (
+          <PortraitGallery kind="previous" subject={npc.name} portraits={npc.previousPortraits} />
         ) : null}
 
         <Section title="What players can learn">
