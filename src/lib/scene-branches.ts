@@ -1,12 +1,12 @@
-import type { Content } from '#/definitions/content'
+import type { DmContent } from '#/definitions/content'
 import { isEntityRef, type EntityRef } from '#/definitions/kind'
 import type { SceneOutcome } from '#/definitions/scene'
 
 /** A scene branch ready to display, with a stable id and how many follow-ups it hides. */
 export type SceneBranch = {
   id: string
-  when: Content
-  response: Content
+  when: DmContent
+  response: DmContent
   /** The NPCs this branch names, in order of first mention, so the DM can play them in place. */
   npcs: EntityRef<'npc'>[]
   followUps: SceneBranch[]
@@ -15,7 +15,7 @@ export type SceneBranch = {
 }
 
 /** Every NPC a piece of content names, in order of first mention and without repeats. */
-export function npcsIn(...contents: Content[]): EntityRef<'npc'>[] {
+export function npcsIn(...contents: DmContent[]): EntityRef<'npc'>[] {
   const seen = new Set<string>()
   const npcs: EntityRef<'npc'>[] = []
   for (const paragraph of contents.flat()) {

@@ -111,14 +111,20 @@ export default createScene({
       when: [['The ship takes off.']],
       response: [
         [
-          'Halfway across, the battle-cruiser bears down on them. Run “Running from the battle-cruiser”.',
+          'Halfway across, the battle-cruiser bears down on them. Run ',
+          refs.scenes.running_from_the_battle_cruiser,
+          '.',
         ],
       ],
     },
     {
       when: [['The timer runs out with the ship still on the slip.']],
       response: [
-        ['The battle-cruiser arrives over the yard. Run “Boarded by the battle-cruiser”.'],
+        [
+          'The battle-cruiser arrives over the yard. Run ',
+          refs.scenes.boarded_by_the_battle_cruiser,
+          '.',
+        ],
       ],
     },
   ],

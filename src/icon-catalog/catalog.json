@@ -272750,6 +272750,7 @@
       "sourceUrl": "https://lucide.dev/icons/eye-off",
       "usedIn": [
         "src/components/campaign-shell/dm-controls.tsx",
+        "src/components/dm/dm-npc-reference.tsx",
         "src/components/player-screen/player-screen-dock.tsx",
         "src/lib/condition-icons.tsx"
       ]
@@ -303050,6 +303051,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/swords",
       "usedIn": [
+        "src/components/dm/dm-hidden-reference.tsx",
         "src/components/dm/dm-quick-links.tsx",
         "src/components/dm/encounter/combatant-panel.tsx",
         "src/routes/dm/encounter/index.tsx"
