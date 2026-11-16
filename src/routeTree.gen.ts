@@ -20,6 +20,8 @@ import { Route as DmIndexRouteImport } from './routes/dm/index'
 import { Route as EffectsIndexRouteImport } from './routes/effects/index'
 import { Route as EventsIndexRouteImport } from './routes/events/index'
 import { Route as ItemsIndexRouteImport } from './routes/items/index'
+import { Route as LettersBookOfGruumshRouteImport } from './routes/letters/book-of-gruumsh'
+import { Route as LettersJimRouteImport } from './routes/letters/jim'
 import { Route as LocationsIndexRouteImport } from './routes/locations/index'
 import { Route as LocationsListRouteImport } from './routes/locations/list'
 import { Route as LocationsMapRouteImport } from './routes/locations/map'
@@ -100,6 +102,16 @@ const EventsIndexRoute = EventsIndexRouteImport.update({
 const ItemsIndexRoute = ItemsIndexRouteImport.update({
   id: '/items/',
   path: '/items/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LettersBookOfGruumshRoute = LettersBookOfGruumshRouteImport.update({
+  id: '/letters/book-of-gruumsh',
+  path: '/letters/book-of-gruumsh',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LettersJimRoute = LettersJimRouteImport.update({
+  id: '/letters/jim',
+  path: '/letters/jim',
   getParentRoute: () => rootRouteImport,
 } as any)
 const LocationsIndexRoute = LocationsIndexRouteImport.update({
@@ -240,6 +252,8 @@ export interface FileRoutesByFullPath {
   '/display': typeof DisplayRoute
   '/intro': typeof IntroRoute
   '/questions': typeof QuestionsRoute
+  '/letters/book-of-gruumsh': typeof LettersBookOfGruumshRoute
+  '/letters/jim': typeof LettersJimRoute
   '/locations/list': typeof LocationsListRoute
   '/locations/map': typeof LocationsMapRoute
   '/beasts/': typeof BeastsIndexRoute
@@ -278,6 +292,8 @@ export interface FileRoutesByTo {
   '/display': typeof DisplayRoute
   '/intro': typeof IntroRoute
   '/questions': typeof QuestionsRoute
+  '/letters/book-of-gruumsh': typeof LettersBookOfGruumshRoute
+  '/letters/jim': typeof LettersJimRoute
   '/locations/list': typeof LocationsListRoute
   '/locations/map': typeof LocationsMapRoute
   '/beasts': typeof BeastsIndexRoute
@@ -318,6 +334,8 @@ export interface FileRoutesById {
   '/display': typeof DisplayRoute
   '/intro': typeof IntroRoute
   '/questions': typeof QuestionsRoute
+  '/letters/book-of-gruumsh': typeof LettersBookOfGruumshRoute
+  '/letters/jim': typeof LettersJimRoute
   '/locations/list': typeof LocationsListRoute
   '/locations/map': typeof LocationsMapRoute
   '/beasts/': typeof BeastsIndexRoute
@@ -359,6 +377,8 @@ export interface FileRouteTypes {
     | '/display'
     | '/intro'
     | '/questions'
+    | '/letters/book-of-gruumsh'
+    | '/letters/jim'
     | '/locations/list'
     | '/locations/map'
     | '/beasts/'
@@ -397,6 +417,8 @@ export interface FileRouteTypes {
     | '/display'
     | '/intro'
     | '/questions'
+    | '/letters/book-of-gruumsh'
+    | '/letters/jim'
     | '/locations/list'
     | '/locations/map'
     | '/beasts'
@@ -436,6 +458,8 @@ export interface FileRouteTypes {
     | '/display'
     | '/intro'
     | '/questions'
+    | '/letters/book-of-gruumsh'
+    | '/letters/jim'
     | '/locations/list'
     | '/locations/map'
     | '/beasts/'
@@ -476,6 +500,8 @@ export interface RootRouteChildren {
   DisplayRoute: typeof DisplayRoute
   IntroRoute: typeof IntroRoute
   QuestionsRoute: typeof QuestionsRoute
+  LettersBookOfGruumshRoute: typeof LettersBookOfGruumshRoute
+  LettersJimRoute: typeof LettersJimRoute
   LocationsListRoute: typeof LocationsListRoute
   LocationsMapRoute: typeof LocationsMapRoute
   BeastsIndexRoute: typeof BeastsIndexRoute
@@ -577,6 +603,20 @@ declare module '@tanstack/react-router' {
       path: '/items'
       fullPath: '/items/'
       preLoaderRoute: typeof ItemsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/letters/book-of-gruumsh': {
+      id: '/letters/book-of-gruumsh'
+      path: '/letters/book-of-gruumsh'
+      fullPath: '/letters/book-of-gruumsh'
+      preLoaderRoute: typeof LettersBookOfGruumshRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/letters/jim': {
+      id: '/letters/jim'
+      path: '/letters/jim'
+      fullPath: '/letters/jim'
+      preLoaderRoute: typeof LettersJimRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/locations/': {
@@ -798,6 +838,8 @@ const rootRouteChildren: RootRouteChildren = {
   DisplayRoute: DisplayRoute,
   IntroRoute: IntroRoute,
   QuestionsRoute: QuestionsRoute,
+  LettersBookOfGruumshRoute: LettersBookOfGruumshRoute,
+  LettersJimRoute: LettersJimRoute,
   LocationsListRoute: LocationsListRoute,
   LocationsMapRoute: LocationsMapRoute,
   BeastsIndexRoute: BeastsIndexRoute,

@@ -694,16 +694,17 @@ export function effectEntry(effect: EntityOf<'effect'>): EffectEntry {
   }
 }
 
-/** Active effects in the shape the DM's live reminders work with. */
+/** Effects active on the latest recorded day, in the shape the DM's live reminders work with. */
 export function liveEffects(): LiveEffect[] {
   return allEntities('effect')
     .map(effectEntry)
     .filter((entry) => entry.status === 'active')
-    .map(({ effect, began }) => ({
+    .map(({ effect, began, expiryDay }) => ({
       slug: effect.slug,
       name: effect.data.name,
       carrier: resolveRef(effect.data.on)?.data.name ?? effect.data.on.key,
       beganDay: began?.data.day ?? campaignToday(),
+      expiryDay,
       data: effect.data as Effect,
     }))
 }
