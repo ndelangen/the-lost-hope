@@ -177,3 +177,10 @@ export function updatePlayerScreenGrid(
   const grid = change(playerScreenGridFor(state, selection))
   return { ...state, grids: { ...state.grids, [playerScreenImageId(selection)]: grid } }
 }
+
+/** Forgets everything shown before, keeping only what is on the player screen now. */
+export function clearPlayerScreenHistory(state: PlayerScreenState): PlayerScreenState {
+  return state.history.length < 2
+    ? state
+    : { ...state, history: [playerScreenShowing(state)], index: 0 }
+}

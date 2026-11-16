@@ -48,7 +48,7 @@ export function GridControls({
           onClick={() => onChange((current) => ({ ...current, on: !current.on }))}
           aria-pressed={grid.on}
           className={cn(
-            'flex h-12 flex-1 items-center justify-center gap-2 rounded-lg border text-sm font-medium',
+            'flex h-9 flex-1 items-center justify-center gap-2 rounded-lg border text-sm font-medium',
             grid.on
               ? 'border-primary bg-primary/10 text-foreground'
               : 'border-border hover:bg-muted',
@@ -61,7 +61,7 @@ export function GridControls({
           <button
             type="button"
             onClick={() => onChange(() => ({ ...DEFAULT_PLAYER_SCREEN_GRID, on: true }))}
-            className="border-border hover:bg-muted flex h-12 items-center gap-2 rounded-lg border px-3 text-sm font-medium"
+            className="border-border hover:bg-muted flex h-9 items-center gap-2 rounded-lg border px-3 text-sm font-medium"
           >
             <RotateCcw className="size-4" aria-hidden />
             Reset
@@ -145,8 +145,8 @@ function GridSlider({
 }) {
   const id = useId()
   return (
-    <div className="flex h-12 items-center gap-3">
-      <label htmlFor={id} className="w-24 shrink-0 text-sm font-medium">
+    <div className="flex h-9 items-center gap-3">
+      <label htmlFor={id} className="w-20 shrink-0 text-xs font-medium">
         {label}
       </label>
       <input
@@ -157,11 +157,11 @@ function GridSlider({
         max={max}
         step={step}
         onChange={(event) => onChange(event.target.valueAsNumber)}
-        className="accent-primary h-12 min-w-0 flex-1 cursor-pointer"
+        className="accent-primary h-9 min-w-0 flex-1 cursor-pointer"
       />
       <output
         htmlFor={id}
-        className="text-muted-foreground w-20 shrink-0 text-right text-sm tabular-nums"
+        className="text-muted-foreground w-20 shrink-0 text-right text-xs whitespace-nowrap tabular-nums"
       >
         {display}
       </output>
@@ -188,7 +188,7 @@ function GridPreview({
     <div className="grid place-items-center rounded-lg bg-black p-1">
       <div
         className="relative max-w-full cursor-move touch-none overflow-hidden"
-        style={{ aspectRatio: `${width} / ${height}`, height: '10rem' }}
+        style={{ aspectRatio: `${width} / ${height}`, height: '7rem' }}
         title="Drag to move the grid"
         onPointerDown={(event) => {
           event.currentTarget.setPointerCapture(event.pointerId)

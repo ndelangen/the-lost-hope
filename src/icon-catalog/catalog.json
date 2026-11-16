@@ -305333,6 +305333,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/trash-2",
       "usedIn": [
+        "src/components/player-screen/player-screen-dock.tsx",
         "src/routes/dm/encounter/index.tsx"
       ]
     },
