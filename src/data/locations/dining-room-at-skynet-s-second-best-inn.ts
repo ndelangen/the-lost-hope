@@ -8,4 +8,9 @@ export default createLocation({
   type: 'district',
   parent: refs.locations.skynet_s_second_best_inn,
   at: [207, 249],
+  map: {
+    url: '/assets/maps/dining-room-at-skynet-s-second-best-inn.jpg',
+    width: 1536,
+    height: 1024,
+  },
 })

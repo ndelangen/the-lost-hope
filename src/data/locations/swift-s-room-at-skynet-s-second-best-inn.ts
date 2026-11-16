@@ -9,5 +9,10 @@ export default createLocation({
   parent: refs.locations.skynet_s_second_best_inn,
   // Use the margin because the room’s floor and position are unknown.
   at: [1115, 922],
+  map: {
+    url: '/assets/maps/swift-s-room-at-skynet-s-second-best-inn.jpg',
+    width: 1536,
+    height: 1024,
+  },
   notes: [[refs.pcs.swift_starblade, ' stayed in this room.']],
 })

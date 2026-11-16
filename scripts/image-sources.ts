@@ -93,6 +93,24 @@ export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
     repositoryPath: 'assets/images/maps/skynet-s-second-best-inn-and-stables.png',
   },
   {
+    id: 'location-map-dining-room-at-skynet-s-second-best-inn',
+    role: 'map',
+    logicalSource: '/assets/maps/dining-room-at-skynet-s-second-best-inn.jpg',
+    repositoryPath: 'assets/images/maps/dining-room-at-skynet-s-second-best-inn.png',
+  },
+  {
+    id: 'location-map-stables-at-skynet-s-second-best-inn',
+    role: 'map',
+    logicalSource: '/assets/maps/stables-at-skynet-s-second-best-inn.jpg',
+    repositoryPath: 'assets/images/maps/stables-at-skynet-s-second-best-inn.png',
+  },
+  {
+    id: 'location-map-swift-s-room-at-skynet-s-second-best-inn',
+    role: 'map',
+    logicalSource: '/assets/maps/swift-s-room-at-skynet-s-second-best-inn.jpg',
+    repositoryPath: 'assets/images/maps/swift-s-room-at-skynet-s-second-best-inn.png',
+  },
+  {
     id: 'location-illustration-bessy-s-nimbus-stall',
     role: 'illustration',
     logicalSource: '/assets/locations/bessy-s-nimbus-stall-illustration.png',
