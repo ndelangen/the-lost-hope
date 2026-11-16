@@ -272624,6 +272624,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/external-link",
       "usedIn": [
+        "src/components/dm/encounter/combatant-panel.tsx",
         "src/components/rule-term.tsx"
       ]
     },
@@ -295815,6 +295816,7 @@
       "usedIn": [
         "src/components/campaign-shell/sidebar.tsx",
         "src/components/dm/dm-quick-links.tsx",
+        "src/components/dm/encounter/combatant-panel.tsx",
         "src/components/home-action-card.test.tsx",
         "src/lib/entity-kind-visuals.ts",
         "src/routes/index.tsx"
