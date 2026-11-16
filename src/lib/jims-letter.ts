@@ -1,9 +1,21 @@
 import { refs } from '#/data/generated/refs.ts'
 import type { EntityRef } from '#/definitions/kind'
-import type { SealedText } from '#/lib/sealed-text'
+import { normalizePassword, unsealText, type SealedText } from '#/lib/sealed-text'
+
+export const LETTER_SECTION_IDS = ['devan', 'cassian', 'swift', 'crowy'] as const
+export type LetterSectionId = (typeof LETTER_SECTION_IDS)[number]
+
+/** The words typed so far, by the section they open. */
+export type LetterWords = Partial<Record<LetterSectionId, string>>
+
+/** What the typed words have unsealed: each opened section's text, and the shared part. */
+export type UnsealedLetter = {
+  sections: Partial<Record<LetterSectionId, string>>
+  shared: string | undefined
+}
 
 export type LetterSection = {
-  id: string
+  id: LetterSectionId
   recipient: EntityRef
   clue: string
   sealed: SealedText
@@ -65,4 +77,36 @@ export const JIMS_LETTER = {
       },
     },
   ] satisfies LetterSection[],
+}
+
+const unsealCache = new Map<string, Promise<string | null>>()
+
+function unsealOnce(sealed: SealedText, word: string): Promise<string | null> {
+  const key = `${sealed.data.slice(0, 24)}:${normalizePassword(word)}`
+  let result = unsealCache.get(key)
+  if (!result) {
+    result = unsealText(sealed, word)
+    unsealCache.set(key, result)
+  }
+  return result
+}
+
+/** Unseals every part of the letter the words open; the shared part needs all four. */
+export async function unsealLetter(words: LetterWords): Promise<UnsealedLetter> {
+  const opened = await Promise.all(
+    JIMS_LETTER.sections.map(async (section) => {
+      const word = words[section.id]
+      if (!word || normalizePassword(word).length === 0) return [section.id, undefined] as const
+      return [section.id, (await unsealOnce(section.sealed, word)) ?? undefined] as const
+    }),
+  )
+  const sections = Object.fromEntries(opened.filter(([, text]) => text !== undefined))
+  const allOpen = JIMS_LETTER.sections.every((section) => sections[section.id] !== undefined)
+  const shared = allOpen
+    ? ((await unsealOnce(
+        JIMS_LETTER.shared,
+        JIMS_LETTER.sections.map((section) => words[section.id] ?? '').join(''),
+      )) ?? undefined)
+    : undefined
+  return { sections, shared }
 }
