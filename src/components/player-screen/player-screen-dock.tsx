@@ -1,5 +1,5 @@
 import { useRouterState } from '@tanstack/react-router'
-import { EyeOff, Monitor, MonitorOff, MonitorUp, X } from 'lucide-react'
+import { ChevronLeft, ChevronRight, EyeOff, Monitor, MonitorOff, MonitorUp, X } from 'lucide-react'
 import { useEffect, useMemo, useRef, useState } from 'react'
 
 import { ResponsiveImage } from '#/components/responsive-image'
@@ -12,7 +12,16 @@ import {
   type PlayerScreenGroup,
   type PlayerScreenOption,
 } from '#/lib/player-screen'
-import { samePlayerScreenImage, type PlayerScreenImage } from '#/lib/player-screen-state'
+import {
+  canStepPlayerScreen,
+  jumpPlayerScreen,
+  playerScreenShowing,
+  samePlayerScreenImage,
+  showOnPlayerScreen,
+  stepPlayerScreen,
+  type PlayerScreenImage,
+  type PlayerScreenState,
+} from '#/lib/player-screen-state'
 import { cn } from '#/lib/utils'
 
 import { openPlayerScreen, usePlayerScreen, usePlayerScreenPresent } from './use-player-screen'
@@ -20,7 +29,8 @@ import { openPlayerScreen, usePlayerScreen, usePlayerScreenPresent } from './use
 /** The DM's small control for choosing what the players' monitor shows, from any page. */
 export function PlayerScreenDock() {
   const [open, setOpen] = useState(false)
-  const [{ showing, captions }, update] = usePlayerScreen()
+  const [state, update] = usePlayerScreen()
+  const showing = playerScreenShowing(state)
   const present = usePlayerScreenPresent()
   const current = showing ? resolvePlayerScreenImage(showing) : undefined
   const panelRef = useRef<HTMLDivElement>(null)
@@ -42,54 +52,103 @@ export function PlayerScreenDock() {
   }, [open])
 
   const show = (selection: PlayerScreenImage | null) =>
-    update((state) => ({ ...state, showing: selection }))
+    update((current) => showOnPlayerScreen(current, selection))
+  const step = (direction: -1 | 1) => update((current) => stepPlayerScreen(current, direction))
+
+  // [ and ] step through the history from anywhere, except while the DM is typing.
+  useEffect(() => {
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.metaKey || event.ctrlKey || event.altKey || isTyping(event.target)) return
+      if (event.key === '[') update((current) => stepPlayerScreen(current, -1))
+      else if (event.key === ']') update((current) => stepPlayerScreen(current, 1))
+    }
+    window.addEventListener('keydown', onKeyDown)
+    return () => window.removeEventListener('keydown', onKeyDown)
+  }, [update])
 
   return (
     <div ref={panelRef} className="fixed right-4 bottom-4 z-[150] flex flex-col items-end gap-3">
       {open ? (
         <PlayerScreenPanel
-          showing={showing}
-          captions={captions}
+          state={state}
           present={present}
           onShow={show}
+          onJump={(index) => update((current) => jumpPlayerScreen(current, index))}
           onCaptions={(value) => update((state) => ({ ...state, captions: value }))}
           onClose={() => setOpen(false)}
         />
       ) : null}
-      <button
-        type="button"
-        onClick={() => setOpen((value) => !value)}
-        aria-expanded={open}
-        aria-label="Player screen controls"
-        className="bg-card text-card-foreground border-border hover:bg-muted flex h-14 items-center gap-3 rounded-full border py-1.5 pr-5 pl-1.5 shadow-lg transition-colors"
-      >
-        <span className="relative grid h-11 w-16 place-items-center overflow-hidden rounded-full bg-black">
-          {current ? (
-            <ResponsiveImage
-              src={current.src}
-              alt=""
-              sizes="64px"
-              maxWidth={128}
-              className="size-full object-cover"
-            />
-          ) : (
-            <MonitorOff className="size-5 text-white/60" aria-hidden />
-          )}
-        </span>
-        <span className="flex flex-col items-start leading-tight">
-          <span className="flex items-center gap-1.5 text-sm font-semibold">
-            <span
-              className={cn('size-2 rounded-full', present ? 'bg-emerald-500' : 'bg-zinc-400')}
-              aria-hidden
-            />
-            Player screen
+      <div className="bg-card text-card-foreground border-border flex items-center gap-1 rounded-full border p-1 shadow-lg">
+        <HistoryButton direction={-1} state={state} onStep={step} />
+        <HistoryButton direction={1} state={state} onStep={step} />
+        <button
+          type="button"
+          onClick={() => setOpen((value) => !value)}
+          aria-expanded={open}
+          aria-label="Player screen controls"
+          className="hover:bg-muted flex h-12 items-center gap-3 rounded-full py-0.5 pr-4 pl-0.5 transition-colors"
+        >
+          <span className="relative grid h-11 w-16 place-items-center overflow-hidden rounded-full bg-black">
+            {current ? (
+              <ResponsiveImage
+                src={current.src}
+                alt=""
+                sizes="64px"
+                maxWidth={128}
+                className="size-full object-cover"
+              />
+            ) : (
+              <MonitorOff className="size-5 text-white/60" aria-hidden />
+            )}
           </span>
-          <span className="text-muted-foreground max-w-40 truncate text-xs">
-            {current ? current.name : 'Blank'}
+          <span className="flex flex-col items-start leading-tight">
+            <span className="flex items-center gap-1.5 text-sm font-semibold">
+              <span
+                className={cn('size-2 rounded-full', present ? 'bg-emerald-500' : 'bg-zinc-400')}
+                aria-hidden
+              />
+              Player screen
+            </span>
+            <span className="text-muted-foreground max-w-40 truncate text-xs">
+              {current ? current.name : 'Blank'}
+            </span>
           </span>
-        </span>
-      </button>
+        </button>
+      </div>
     </div>
+  )
+}
+
+function isTyping(target: EventTarget | null): boolean {
+  return (
+    target instanceof HTMLElement &&
+    (target.isContentEditable || ['INPUT', 'TEXTAREA', 'SELECT'].includes(target.tagName))
+  )
+}
+
+/** Steps the player screen back or forward through what it has shown. */
+function HistoryButton({
+  direction,
+  state,
+  onStep,
+}: {
+  direction: -1 | 1
+  state: PlayerScreenState
+  onStep: (direction: -1 | 1) => void
+}) {
+  const Icon = direction === -1 ? ChevronLeft : ChevronRight
+  const label = direction === -1 ? 'Back' : 'Forward'
+  return (
+    <button
+      type="button"
+      onClick={() => onStep(direction)}
+      disabled={!canStepPlayerScreen(state, direction)}
+      aria-label={`${label}: show the ${direction === -1 ? 'previous' : 'next'} picture`}
+      title={`${label} (${direction === -1 ? '[' : ']'})`}
+      className="hover:bg-muted grid size-12 shrink-0 place-items-center rounded-full disabled:opacity-35 disabled:hover:bg-transparent"
+    >
+      <Icon className="size-6" aria-hidden />
+    </button>
   )
 }
 
@@ -104,20 +163,22 @@ const GROUP_LABEL: Record<PlayerScreenGroup, string> = {
 const GROUPS: readonly PlayerScreenGroup[] = ['Scenes', 'Maps', 'Places', 'Characters', 'Creatures']
 
 function PlayerScreenPanel({
-  showing,
-  captions,
+  state,
   present,
   onShow,
+  onJump,
   onCaptions,
   onClose,
 }: {
-  showing: PlayerScreenImage | null
-  captions: boolean
+  state: PlayerScreenState
   present: boolean
   onShow: (selection: PlayerScreenImage | null) => void
+  onJump: (index: number) => void
   onCaptions: (value: boolean) => void
   onClose: () => void
 }) {
+  const showing = playerScreenShowing(state)
+  const { captions } = state
   const [query, setQuery] = useState('')
   const pathname = useRouterState({ select: (state) => state.location.pathname })
   const options = useMemo(() => playerScreenOptions(), [])
@@ -144,7 +205,7 @@ function PlayerScreenPanel({
           type="button"
           onClick={() => void openPlayerScreen()}
           className={cn(
-            'flex h-11 items-center gap-2 rounded-lg px-3 text-sm font-medium',
+            'flex h-12 items-center gap-2 rounded-lg px-3 text-sm font-medium',
             present
               ? 'border-border hover:bg-muted border'
               : 'bg-primary text-primary-foreground hover:bg-primary/90',
@@ -157,7 +218,7 @@ function PlayerScreenPanel({
           type="button"
           onClick={onClose}
           aria-label="Close player screen controls"
-          className="hover:bg-muted grid size-11 place-items-center rounded-lg"
+          className="hover:bg-muted grid size-12 place-items-center rounded-lg"
         >
           <X className="size-5" aria-hidden />
         </button>
@@ -168,12 +229,12 @@ function PlayerScreenPanel({
           type="button"
           onClick={() => onShow(null)}
           disabled={!showing}
-          className="border-border hover:bg-muted flex h-11 flex-1 items-center justify-center gap-2 rounded-lg border text-sm font-medium disabled:opacity-50"
+          className="border-border hover:bg-muted flex h-12 flex-1 items-center justify-center gap-2 rounded-lg border text-sm font-medium disabled:opacity-50"
         >
           <MonitorOff className="size-4" aria-hidden />
           Blank the screen
         </button>
-        <label className="border-border flex h-11 flex-1 cursor-pointer items-center justify-center gap-2 rounded-lg border text-sm font-medium">
+        <label className="border-border flex h-12 flex-1 cursor-pointer items-center justify-center gap-2 rounded-lg border text-sm font-medium">
           <input
             type="checkbox"
             checked={captions}
@@ -185,6 +246,7 @@ function PlayerScreenPanel({
       </div>
 
       <div className="flex min-h-0 flex-1 flex-col gap-4 overflow-y-auto p-3">
+        <ShownHistory state={state} onJump={onJump} />
         {onThisPage.length > 0 && !query ? (
           <OptionGroup
             title="On this page"
@@ -199,7 +261,7 @@ function PlayerScreenPanel({
           onChange={(event) => setQuery(event.target.value)}
           placeholder="Find a map, place, NPC or scene"
           aria-label="Find a picture to show"
-          className="h-11"
+          className="h-12"
         />
         {GROUPS.map((group) => {
           const groupOptions = matches.filter((option) => option.group === group)
@@ -222,6 +284,64 @@ function PlayerScreenPanel({
         <EyeOff className="mr-1 inline size-3.5 align-[-2px]" aria-hidden />
         marks records the party has not met. Their names never appear on the player screen.
       </p>
+    </section>
+  )
+}
+
+/** What the player screen has shown, newest first, so the DM can jump back to any of it. */
+function ShownHistory({
+  state,
+  onJump,
+}: {
+  state: PlayerScreenState
+  onJump: (index: number) => void
+}) {
+  if (state.history.length < 2) return null
+  const entries = state.history.map((selection, index) => ({ selection, index })).toReversed()
+  return (
+    <section aria-label="Shown so far" className="flex flex-col gap-2">
+      <h3 className="text-muted-foreground text-xs font-semibold tracking-wider uppercase">
+        Shown so far
+      </h3>
+      <ol className="-mx-1 flex gap-2 overflow-x-auto px-1 pb-1">
+        {entries.map(({ selection, index }) => {
+          const resolved = selection ? resolvePlayerScreenImage(selection) : undefined
+          const active = index === state.index
+          const name = resolved?.name ?? 'Blank'
+          return (
+            <li key={index} className="shrink-0">
+              <button
+                type="button"
+                onClick={() => onJump(index)}
+                aria-current={active ? 'true' : undefined}
+                aria-label={active ? `${name}, showing now` : `Show ${name} again`}
+                title={name}
+                className={cn(
+                  'flex w-20 flex-col gap-1 rounded-lg p-1 text-left',
+                  active ? 'bg-primary/10 ring-primary ring-2' : 'hover:bg-muted',
+                  index > state.index && 'opacity-60',
+                )}
+              >
+                <span className="grid aspect-[3/2] w-full place-items-center overflow-hidden rounded-md bg-black">
+                  {resolved ? (
+                    <ResponsiveImage
+                      src={resolved.src}
+                      alt=""
+                      sizes="80px"
+                      maxWidth={192}
+                      loading="lazy"
+                      className="size-full object-cover"
+                    />
+                  ) : (
+                    <MonitorOff className="size-4 text-white/60" aria-hidden />
+                  )}
+                </span>
+                <span className="truncate text-[11px] leading-tight font-medium">{name}</span>
+              </button>
+            </li>
+          )
+        })}
+      </ol>
     </section>
   )
 }

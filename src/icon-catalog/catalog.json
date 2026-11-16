@@ -264913,6 +264913,7 @@
         "src/components/campaign-shell/sidebar.tsx",
         "src/components/dm/scene-branches.tsx",
         "src/components/locations-index.tsx",
+        "src/components/player-screen/player-screen-dock.tsx",
         "src/components/questions-page.tsx"
       ]
     },
@@ -272699,6 +272700,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/eye-off",
       "usedIn": [
+        "src/components/player-screen/player-screen-dock.tsx",
         "src/lib/condition-icons.tsx"
       ]
     },
@@ -292344,7 +292346,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/pin",
-      "usedIn": []
+      "usedIn": [
+        "src/routes/dm/scenes/$slug.tsx"
+      ]
     },
     {
       "id": "lucide/PinOff",

@@ -5,15 +5,12 @@ import { ContentRenderer } from '#/components/content-renderer'
 import { DmFaces } from '#/components/dm/dm-faces'
 import { DmHiddenReference } from '#/components/dm/dm-hidden-reference'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
+import { NpcStatLine } from '#/components/dm/npc-stat-line'
 import { EntityReference } from '#/components/entity-reference'
 import { PortraitGallery } from '#/components/portrait-gallery'
-import { RuleTerm } from '#/components/rule-term'
-import { refs } from '#/data/generated/refs'
 import { refLink } from '#/lib/campaign'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
-import { creatures, resolveSourceRef, resolveStatBlock } from '#/lib/dm-campaign'
-import { ruleOf, ruleRef } from '#/lib/rules'
-import { deriveStatBlock } from '#/lib/stat-block'
+import { resolveSourceRef, resolveStatBlock } from '#/lib/dm-campaign'
 
 const npcs: Readonly<
   Record<string, (typeof SOURCE_REGISTRIES.npc)[keyof typeof SOURCE_REGISTRIES.npc]>
@@ -45,10 +42,7 @@ export const Route = createFileRoute('/dm/npcs/$key')({
 function DmNpcRoute() {
   const { key } = Route.useLoaderData()
   const npc = npcs[key]!
-  const stats = resolveStatBlock(npc.stats)
-  const block = stats ? deriveStatBlock(stats) : undefined
   const location = npc.location ? resolveSourceRef(npc.location) : undefined
-  const shared = 'ref' in npc.stats ? creatures[npc.stats.key] : undefined
 
   return (
     <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_12rem]">
@@ -93,18 +87,9 @@ function DmNpcRoute() {
         <Section title="Background">
           {npc.background ? <ContentRenderer content={npc.background} /> : <Empty />}
         </Section>
-        {stats && block ? (
+        {resolveStatBlock(npc.stats) ? (
           <Section title="Stat block">
-            <p className="text-sm">
-              {shared ? `${shared.name} · ` : ''}
-              <RuleTerm rule={ruleRef(stats.size)} />{' '}
-              <RuleTerm rule={ruleRef(stats.type)}>
-                {ruleOf(ruleRef(stats.type)).name.toLowerCase()}
-              </RuleTerm>{' '}
-              · <RuleTerm rule={refs.rules.challenge_rating} /> {stats.cr} ·{' '}
-              <RuleTerm rule={refs.rules.armor_class} /> {stats.ac} · {block.hitPoints}{' '}
-              <RuleTerm rule={refs.rules.hit_points} />
-            </p>
+            <NpcStatLine npc={npc} />
           </Section>
         ) : null}
       </article>

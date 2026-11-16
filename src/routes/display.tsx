@@ -8,7 +8,7 @@ import {
 } from '#/components/player-screen/use-player-screen'
 import { ResponsiveImage } from '#/components/responsive-image'
 import { resolvePlayerScreenImage } from '#/lib/player-screen'
-import { playerScreenImageId } from '#/lib/player-screen-state'
+import { playerScreenImageId, playerScreenShowing } from '#/lib/player-screen-state'
 import { cn } from '#/lib/utils'
 
 /** The player-facing screen: a bare, full-window picture the DM picks from another window. */
@@ -20,7 +20,9 @@ export const Route = createFileRoute('/display')({
 })
 
 function PlayerScreenPage() {
-  const [{ showing, captions }] = usePlayerScreen()
+  const [state] = usePlayerScreen()
+  const showing = playerScreenShowing(state)
+  const captions = state.captions
   useAnnouncePlayerScreen()
   const image = showing ? resolvePlayerScreenImage(showing) : undefined
   const caption = captions ? image?.playerCaption : undefined

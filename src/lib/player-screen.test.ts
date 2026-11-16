@@ -9,7 +9,18 @@ import {
   playerScreenOptionsForPage,
   resolvePlayerScreenImage,
 } from './player-screen'
-import { EMPTY_PLAYER_SCREEN, parsePlayerScreenState } from './player-screen-state'
+import {
+  EMPTY_PLAYER_SCREEN,
+  PLAYER_SCREEN_HISTORY_LIMIT,
+  canStepPlayerScreen,
+  jumpPlayerScreen,
+  parsePlayerScreenState,
+  playerScreenShowing,
+  showOnPlayerScreen,
+  stepPlayerScreen,
+  togglePlayerScreen,
+  type PlayerScreenImage,
+} from './player-screen-state'
 
 const options = playerScreenOptions()
 const npcOptions = options.filter((option) => option.selection.ref.ref === 'npc')
@@ -71,5 +82,68 @@ describe('player screen', () => {
     expect(parsePlayerScreenState('{"showing":{"image":"avatar","url":"/x.png"}}')).toEqual(
       EMPTY_PLAYER_SCREEN,
     )
+    expect(parsePlayerScreenState('{"history":[null],"index":3,"captions":true}')).toEqual(
+      EMPTY_PLAYER_SCREEN,
+    )
+  })
+})
+
+const borris: PlayerScreenImage = { image: 'avatar', ref: { ref: 'npc', key: 'borris' } }
+const map: PlayerScreenImage = { image: 'map', ref: { ref: 'location', key: 'nimbus' } }
+const scene: PlayerScreenImage = {
+  image: 'illustration',
+  ref: { ref: 'scene', key: 'borris_shutters_the_casino' },
+}
+
+describe('player screen history', () => {
+  it('steps back and forward through what was shown', () => {
+    const shown = showOnPlayerScreen(showOnPlayerScreen(EMPTY_PLAYER_SCREEN, map), borris)
+    expect(playerScreenShowing(shown)).toEqual(borris)
+    const back = stepPlayerScreen(shown, -1)
+    expect(playerScreenShowing(back)).toEqual(map)
+    expect(playerScreenShowing(stepPlayerScreen(back, -1))).toBeNull()
+    expect(playerScreenShowing(stepPlayerScreen(back, 1))).toEqual(borris)
+    expect(canStepPlayerScreen(shown, 1)).toBe(false)
+    expect(stepPlayerScreen(shown, 1)).toBe(shown)
+  })
+
+  it('drops the pictures stepped back from when a new one is shown', () => {
+    const back = stepPlayerScreen(
+      showOnPlayerScreen(showOnPlayerScreen(EMPTY_PLAYER_SCREEN, map), borris),
+      -1,
+    )
+    const next = showOnPlayerScreen(back, scene)
+    expect(next.history).toEqual([null, map, scene])
+    expect(canStepPlayerScreen(next, 1)).toBe(false)
+  })
+
+  it('does not record the picture already on screen twice', () => {
+    const shown = showOnPlayerScreen(EMPTY_PLAYER_SCREEN, map)
+    expect(showOnPlayerScreen(shown, map)).toBe(shown)
+    expect(showOnPlayerScreen(EMPTY_PLAYER_SCREEN, null)).toBe(EMPTY_PLAYER_SCREEN)
+  })
+
+  it('puts back what was showing when a show button is pressed again', () => {
+    const withBorris = togglePlayerScreen(showOnPlayerScreen(EMPTY_PLAYER_SCREEN, map), borris)
+    expect(playerScreenShowing(withBorris)).toEqual(borris)
+    expect(playerScreenShowing(togglePlayerScreen(withBorris, borris))).toEqual(map)
+    const onlyBorris = togglePlayerScreen({ history: [borris], index: 0, captions: true }, borris)
+    expect(playerScreenShowing(onlyBorris)).toBeNull()
+  })
+
+  it('keeps a bounded history', () => {
+    let state = EMPTY_PLAYER_SCREEN
+    for (let index = 0; index < PLAYER_SCREEN_HISTORY_LIMIT + 5; index += 1) {
+      state = showOnPlayerScreen(state, index % 2 ? map : borris)
+    }
+    expect(state.history).toHaveLength(PLAYER_SCREEN_HISTORY_LIMIT)
+    expect(state.index).toBe(PLAYER_SCREEN_HISTORY_LIMIT - 1)
+    expect(parsePlayerScreenState(JSON.stringify(state))).toEqual(state)
+  })
+
+  it('jumps to any entry in the history', () => {
+    const shown = showOnPlayerScreen(showOnPlayerScreen(EMPTY_PLAYER_SCREEN, map), borris)
+    expect(playerScreenShowing(jumpPlayerScreen(shown, 0))).toBeNull()
+    expect(jumpPlayerScreen(shown, 9)).toBe(shown)
   })
 })
