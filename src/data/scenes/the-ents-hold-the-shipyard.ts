@@ -7,6 +7,7 @@ export default createScene({
   location: refs.locations.skynet,
   npcs: [refs.npcs.esia, refs.npcs.shipyard_ent, refs.npcs.corwin_hale],
   references: [
+    refs.pcs.auren,
     refs.items.beasts_and_dwarf_s_airship,
     refs.npcs.tempest_soldier,
     refs.pcs.cassian_veyl,
@@ -23,6 +24,12 @@ export default createScene({
       'On the slip sits ',
       refs.items.beasts_and_dwarf_s_airship,
       ', nearly finished. The crystal is not fully charged and the cannons are not installed.',
+    ],
+    [
+      refs.npcs.esia,
+      '’s test pilot and technician, ',
+      refs.pcs.auren,
+      ', a warforged in runic plating, is up on the slip working on the ship’s crystal. If he did not already join the party at the ferry landing, this is where the new player joins.',
     ],
     [
       'Start a real-life timer once the party is inside the yard. The soldiers are moments away, and the players only have until it runs out to decide what to do.',
@@ -74,7 +81,9 @@ export default createScene({
       when: [['They ask ', refs.npcs.esia, ' for the ship early.']],
       response: [
         [
-          'She agrees: better with them than impounded. She warns them about the crystal and the cannons, and she cannot spare anyone to fly it.',
+          'She agrees: better with them than impounded. She warns them about the crystal and the cannons. She cannot spare anyone from the yard, except ',
+          refs.pcs.auren,
+          ', who has flown every test of this hull. She sends him with the ship, so he has a job aboard for the whole journey.',
         ],
       ],
     },
@@ -82,7 +91,9 @@ export default createScene({
       when: [['They try to fly it themselves.']],
       response: [
         [
-          'Each argued approach earns one DC 15 check. One success lurches the ship off the slip in a wobbling climb. On a failure nothing moves, and the timer keeps running.',
+          'Each argued approach earns one DC 15 check. One success lurches the ship off the slip in a wobbling climb. On a failure nothing moves, and the timer keeps running. ',
+          refs.pcs.auren,
+          ' has flown this hull before, so he needs no argument: at the helm he makes the check with advantage.',
         ],
       ],
     },
