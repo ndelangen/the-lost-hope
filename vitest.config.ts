@@ -10,5 +10,15 @@ export default defineConfig({
     dedupe: ['react', 'react-dom'],
   },
   // output/ is local scratch (see AGENTS.md); tooling never checks it.
-  test: { exclude: [...configDefaults.exclude, 'output/**'] },
+  test: {
+    exclude: [...configDefaults.exclude, 'output/**'],
+    coverage: {
+      include: ['src/**/*.{ts,tsx}', 'netlify/{functions,lib}/**/*.ts'],
+      exclude: ['src/data/**', 'src/generated/**', 'src/routeTree.gen.ts', '**/*.d.ts'],
+      reportsDirectory: 'output/coverage',
+      reporter: ['text-summary', 'json-summary', 'html', 'lcovonly'],
+      reportOnFailure: true,
+      thresholds: { statements: 45, branches: 80, functions: 70, lines: 45 },
+    },
+  },
 })
