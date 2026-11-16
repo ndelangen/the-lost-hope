@@ -27,7 +27,8 @@
     {
       "matchPackageNames": ["vitest", "@vitest/coverage-v8"],
       "groupName": "Vitest",
-      "groupSlug": "vitest"
+      "groupSlug": "vitest",
+      "minimumGroupSize": 2
     }
   ]
 }
