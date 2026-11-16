@@ -21,7 +21,8 @@ import { LegendaryRow, type LegendaryGroup } from '#/components/dm/encounter/leg
 import { PartyStrip } from '#/components/dm/encounter/party-strip'
 import { ConcentrationPrompt, TurnCard } from '#/components/dm/encounter/turn-card'
 import { newEncounterId, useEncounterStore } from '#/components/dm/encounter/use-encounter-store'
-import { resolveScene } from '#/lib/dm-campaign'
+import { ShipDamageClock } from '#/components/dm/ship-damage-clock'
+import { resolveScene, resolveSourceRef } from '#/lib/dm-campaign'
 import { combatantView, currentParty, encounterCandidates } from '#/lib/dm-encounter'
 import {
   LEGENDARY_POOL,
@@ -150,6 +151,14 @@ function EncounterRoute() {
   const updateEncounter = (change: (current: Encounter) => Encounter) =>
     update((current) => updateEncounterIn(current, id, change))
   const scene = encounter.scene ? resolveScene(encounter.scene) : undefined
+  const shipDamage =
+    encounter.scene && scene?.shipDamage
+      ? {
+          sceneKey: encounter.scene.key,
+          ship: scene.shipDamage,
+          vesselName: resolveSourceRef(scene.shipDamage.vessel)?.name,
+        }
+      : undefined
 
   const combatants = encounter.roster.map((entry) => combatantView(entry, encounter.roster))
   const rows: RosterRow[] = combatants.map((combatant) => {
@@ -411,6 +420,13 @@ function EncounterRoute() {
           />
           <DmScreen open={screenOpen} onClose={() => setScreenOpen(false)} />
           {scene ? <EncounterNotes sceneName={scene.name} notes={scene.combat} /> : null}
+          {shipDamage?.vesselName ? (
+            <ShipDamageClock
+              sceneKey={shipDamage.sceneKey}
+              vesselName={shipDamage.vesselName}
+              ship={shipDamage.ship}
+            />
+          ) : null}
           <PartyStrip
             party={rows.filter((row) => row.kind === 'PC')}
             active={encounter.active}

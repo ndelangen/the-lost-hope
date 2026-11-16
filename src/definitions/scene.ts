@@ -35,6 +35,32 @@ export const SceneOutcome: z.ZodType<SceneOutcome, SceneOutcomeInput> = z.lazy((
   }),
 )
 
+const ShipSector = z.strictObject({
+  name: z.string().trim().min(1),
+  escapePods: z.boolean().describe('Whether this sector has a way off the ship'),
+})
+
+/**
+ * A vessel that breaks up in real time while a scene is fought aboard it. Every interval a die
+ * picks one slice of the ship, counted from the bow, and the DM chooses whether its port or its
+ * starboard sector is hit. A sector that has taken all its hit points is destroyed, and the vessel
+ * is lost once both sectors of one slice are destroyed, because that cuts it in two.
+ */
+export const SceneShipDamage = z
+  .strictObject({
+    vessel: entityRefOf('item'),
+    everySeconds: z.number().int().positive().describe('Real-time seconds between hits'),
+    hitDamage: z.number().int().positive().describe('Damage one hit deals to its sector'),
+    sectorHitPoints: z.number().int().positive().describe('Damage that destroys a sector'),
+    port: z.array(ShipSector).min(1).describe('Port sectors, from bow to stern'),
+    starboard: z.array(ShipSector).min(1).describe('Starboard sectors, from bow to stern'),
+  })
+  .refine((ship) => ship.port.length === ship.starboard.length, {
+    message: 'Port and starboard need the same number of sectors',
+  })
+
+export type SceneShipDamage = z.infer<typeof SceneShipDamage>
+
 export const Scene = deriveSlug(
   z.strictObject({
     name: z.string().trim().min(1),
@@ -46,6 +72,7 @@ export const Scene = deriveSlug(
     references: z.array(EntityRefSchema).default([]),
     outcomes: z.array(SceneOutcome).default([]),
     combat: SceneCombatNotes.optional(),
+    shipDamage: SceneShipDamage.optional(),
   }),
 )
 
