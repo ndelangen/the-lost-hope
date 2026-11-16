@@ -45,6 +45,7 @@ import { responsiveImageFor } from '#/lib/public-media'
 import { cn } from '#/lib/utils'
 
 import { GridControls } from './grid-controls'
+import { JimsLetterWordsControl } from './jims-letter-words-control'
 import { openPlayerScreen, usePlayerScreen, usePlayerScreenPresent } from './use-player-screen'
 
 /** The DM's small control for choosing what the players' monitor shows, from any page. */
@@ -339,6 +340,9 @@ function PlayerScreenPanel({
       </fieldset>
 
       <div className="flex min-h-0 flex-1 flex-col gap-3 overflow-y-auto p-2">
+        {showing?.image === 'handout' && showing.ref.key === 'jims_letter' ? (
+          <JimsLetterWordsControl />
+        ) : null}
         <ShownHistory state={state} onJump={onJump} onClear={onClear} />
         {showing && src && size ? (
           <GridControls

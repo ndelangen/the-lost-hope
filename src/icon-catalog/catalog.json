@@ -264608,7 +264608,8 @@
       "sourceUrl": "https://lucide.dev/icons/check",
       "usedIn": [
         "src/components/dm/encounter/combat-status.tsx",
-        "src/components/dm/encounter/turn-card.tsx"
+        "src/components/dm/encounter/turn-card.tsx",
+        "src/components/player-screen/jims-letter-words-control.tsx"
       ]
     },
     {
@@ -284312,7 +284313,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/lock",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/jims-letter-words-control.tsx"
+      ]
     },
     {
       "id": "lucide/LockKeyhole",
