@@ -2,6 +2,7 @@ import { ChevronRight } from 'lucide-react'
 
 import { ContentRenderer } from '#/components/content-renderer'
 import { DmNpcBrief } from '#/components/dm/dm-npc-brief'
+import { Card } from '#/components/ui/card'
 import type { SceneBranch } from '#/lib/scene-branches'
 
 const followUpLabel = (count: number) => `${count} follow-up${count === 1 ? '' : 's'}`
@@ -52,8 +53,10 @@ function FoldingBranch({
           {showCast && branch.npcs.length > 0 ? (
             <ul className="grid gap-2">
               {branch.npcs.map((npc) => (
-                <li key={npc.key} className="border-border bg-card rounded-lg border p-3">
-                  <DmNpcBrief npc={npc} />
+                <li key={npc.key}>
+                  <Card className="p-4">
+                    <DmNpcBrief npc={npc} />
+                  </Card>
                 </li>
               ))}
             </ul>
