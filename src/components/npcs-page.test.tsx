@@ -14,8 +14,8 @@ vi.mock('#/components/entity-reference', () => ({
   ),
 }))
 
-function names(): string[] {
-  return screen.getAllByRole('heading', { level: 3 }).map((heading) => heading.textContent ?? '')
+function firstNpcName(): string | null | undefined {
+  return document.querySelector('h3')?.textContent
 }
 
 afterEach(() => {
@@ -29,15 +29,15 @@ describe('NPC sorting preference', () => {
     const view = render(<NpcsPage />)
     const select = screen.getByRole('combobox', { name: 'Sort NPCs' })
     expect((select as HTMLSelectElement).value).toBe('appearance')
-    expect(names()[0]).toBe('Light 13th Marshal')
+    expect(firstNpcName()).toBe('Light 13th Marshal')
 
     fireEvent.change(select, { target: { value: 'name' } })
-    expect(names()[0]).toBe('The 12th Marshal')
+    expect(firstNpcName()).toBe('The 12th Marshal')
     expect(localStorage.getItem(NPC_SORT_STORAGE_KEY)).toBe('name')
     view.unmount()
 
     const next = render(<NpcsPage />)
-    expect(names()[0]).toBe('The 12th Marshal')
+    expect(firstNpcName()).toBe('The 12th Marshal')
     fireEvent.change(screen.getByRole('combobox', { name: 'Sort NPCs' }), {
       target: { value: 'appearance' },
     })
@@ -45,13 +45,13 @@ describe('NPC sorting preference', () => {
     next.unmount()
 
     render(<NpcsPage />)
-    expect(names()[0]).toBe('Light 13th Marshal')
+    expect(firstNpcName()).toBe('Light 13th Marshal')
   })
 
   it('falls back to first appearance for an invalid stored preference', () => {
     localStorage.setItem(NPC_SORT_STORAGE_KEY, 'unexpected')
     render(<NpcsPage />)
-    expect(names()[0]).toBe('Light 13th Marshal')
+    expect(firstNpcName()).toBe('Light 13th Marshal')
   })
 
   it('keeps sorting usable when reading and writing storage are blocked', () => {
@@ -62,12 +62,12 @@ describe('NPC sorting preference', () => {
       throw new Error('blocked')
     })
     render(<NpcsPage />)
-    expect(names()[0]).toBe('Light 13th Marshal')
+    expect(firstNpcName()).toBe('Light 13th Marshal')
 
     fireEvent.change(screen.getByRole('combobox', { name: 'Sort NPCs' }), {
       target: { value: 'name' },
     })
-    expect(names()[0]).toBe('The 12th Marshal')
+    expect(firstNpcName()).toBe('The 12th Marshal')
   })
 
   it('hydrates the default markup before restoring a saved choice without overwriting it', async () => {
