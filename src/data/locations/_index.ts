@@ -84,6 +84,7 @@ import skynet_airship_shipyard from './skynet-airship-shipyard.ts'
 import skynet_coin_dealer from './skynet-coin-dealer.ts'
 import skynet_magic_artifact_shop from './skynet-magic-artifact-shop.ts'
 import skynet_market_square from './skynet-market-square.ts'
+import skynet_nimbus_crossing from './skynet-nimbus-crossing.ts'
 import skynet_s_second_best_inn from './skynet-s-second-best-inn.ts'
 import skynet_sky_bridge_landing from './skynet-sky-bridge-landing.ts'
 import skynet from './skynet.ts'
@@ -182,6 +183,7 @@ export default {
   shadowpeak_residential_district,
   skynet,
   skynet_sky_bridge_landing,
+  skynet_nimbus_crossing,
   skynet_airship_shipyard,
   skynet_magic_artifact_shop,
   skynet_coin_dealer,

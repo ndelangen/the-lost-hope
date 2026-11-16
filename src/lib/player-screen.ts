@@ -185,7 +185,13 @@ export function playerScreenOptionsForPage(
       const scene = scenes[key]
       // Then the characters and places the scene mentions, such as Jim when the Hand comes for him.
       if (scene)
-        related.push(scene.location, ...scene.battleMaps, ...scene.npcs, ...scene.references)
+        related.push(
+          scene.location,
+          ...scene.alternateLocations,
+          ...scene.battleMaps,
+          ...scene.npcs,
+          ...scene.references,
+        )
     }
     const seen = new Set<string>()
     return related.flatMap((ref) =>

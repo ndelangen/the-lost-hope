@@ -1,9 +1,11 @@
 import { EntityReference } from '#/components/entity-reference'
+import { refLink } from '#/lib/campaign'
 import { resolveSourceRef } from '#/lib/dm-campaign'
 import type { DashboardLocationNode } from '#/lib/dm-dashboard'
 import { cn } from '#/lib/utils'
 
 import { DmFaces } from './dm-faces'
+import { DmHiddenReference } from './dm-hidden-reference'
 import { DmSceneRow } from './dm-scene-row'
 
 /** One place in the location tree: its heading, the party there, its scenes, then the places inside it. */
@@ -22,6 +24,7 @@ export function DmLocationBranch({
     node = node.children[0]!
   }
   const location = resolveSourceRef(node.location)
+  const visible = refLink(node.location)
   return (
     <section
       className={cn('grid grid-cols-1 gap-1', depth > 0 && 'border-border ml-2 border-l pl-3')}
@@ -39,11 +42,15 @@ export function DmLocationBranch({
               {resolveSourceRef(step.location)?.name} ›
             </span>
           ))}
-          <EntityReference
-            kind="location"
-            slug={location?.slug ?? ''}
-            className={depth === 0 ? 'font-semibold' : 'text-sm font-semibold'}
-          />
+          {visible ? (
+            <EntityReference
+              kind="location"
+              slug={visible.slug}
+              className={depth === 0 ? 'font-semibold' : 'text-sm font-semibold'}
+            />
+          ) : (
+            <DmHiddenReference reference={node.location} />
+          )}
         </p>
         <DmFaces people={node.party} />
       </div>
