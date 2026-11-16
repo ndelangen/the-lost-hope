@@ -8,5 +8,6 @@ export default createLocation({
   type: 'district',
   parent: refs.locations.nimbus,
   at: [270, 708],
+  map: { url: '/assets/maps/nimbus-harbour.jpg', width: 1536, height: 1024 },
   notes: [['Docks along Nimbus’s western edge.']],
 })
