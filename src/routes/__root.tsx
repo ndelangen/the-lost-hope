@@ -1,9 +1,18 @@
 import { HeadContent, Link, Scripts, createRootRoute } from '@tanstack/react-router'
+import { createIsomorphicFn } from '@tanstack/react-start'
+import { getRequestHeader } from '@tanstack/react-start/server'
 import type { ReactNode } from 'react'
 
 import { CampaignShell } from '#/components/campaign-shell'
+import { DM_MODE_AVAILABLE } from '#/components/dm-mode'
+import { parseUiPreferences } from '#/lib/ui-preferences'
 
 import '../styles.css'
+
+/** Read the shell preferences from the request so the server render already matches them. */
+const loadUiPreferences = createIsomorphicFn()
+  .server(() => parseUiPreferences(getRequestHeader('cookie') ?? '', DM_MODE_AVAILABLE))
+  .client(() => parseUiPreferences(document.cookie, DM_MODE_AVAILABLE))
 
 export const Route = createRootRoute({
   head: () => ({
@@ -13,6 +22,7 @@ export const Route = createRootRoute({
     ],
     links: [{ rel: 'icon', href: '/favicon.ico' }],
   }),
+  loader: () => loadUiPreferences(),
   component: RootComponent,
   notFoundComponent: NotFoundPage,
 })
@@ -20,9 +30,10 @@ export const Route = createRootRoute({
 const THEME_SCRIPT = `(() => { try { const stored = localStorage.getItem('dag:theme'); const dark = stored === 'dark' || (stored !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches); document.documentElement.classList.toggle('dark', dark); } catch {} })()`
 
 function RootComponent() {
+  const preferences = Route.useLoaderData()
   return (
     <RootDocument>
-      <CampaignShell />
+      <CampaignShell initialPreferences={preferences} />
     </RootDocument>
   )
 }

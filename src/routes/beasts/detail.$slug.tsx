@@ -1,6 +1,7 @@
 import { createFileRoute, notFound } from '@tanstack/react-router'
 
 import { ContentRenderer } from '#/components/content-renderer'
+import { DmFields } from '#/components/dm/dm-fields'
 import { EffectList } from '#/components/effect-list'
 import { EntityContext } from '#/components/entity-context'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
@@ -71,6 +72,7 @@ function BeastPage() {
           ) : null}
         </Stack>
       }
+      dm={<DmFields kind="beast" slug={entity.slug} />}
       correction={<EntityCorrectionSubmission entity={entity} />}
       context={
         <EntityContext key={`${entity.kind}:${entity.slug}`} data={entityContextData(entity)} />

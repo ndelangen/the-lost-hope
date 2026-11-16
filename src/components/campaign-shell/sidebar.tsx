@@ -1,14 +1,5 @@
 import { Link, useRouterState } from '@tanstack/react-router'
-import {
-  BookOpen,
-  ChevronDown,
-  ChevronRight,
-  Globe,
-  Home,
-  PanelLeftClose,
-  PanelLeftOpen,
-  ScrollText,
-} from 'lucide-react'
+import { BookOpen, ChevronDown, ChevronRight, Globe, Home, ScrollText } from 'lucide-react'
 import { useEffect } from 'react'
 
 import { EntityReference } from '#/components/entity-reference'
@@ -29,10 +20,9 @@ import { usePersistedSet } from './storage'
 type SidebarProps = {
   collapsed: boolean
   onNavigate: () => void
-  onToggleCollapsed?: () => void
 }
 
-export function Sidebar({ collapsed, onNavigate, onToggleCollapsed }: SidebarProps) {
+export function Sidebar({ collapsed, onNavigate }: SidebarProps) {
   const pathname = useRouterState({ select: (state) => state.location.pathname })
   const routeState = sidebarRouteState(pathname)
   const [expandedItems, toggleItem, expandItem] = usePersistedSet(
@@ -47,33 +37,16 @@ export function Sidebar({ collapsed, onNavigate, onToggleCollapsed }: SidebarPro
   return (
     <Stack as="nav" gap={collapsed ? 'sm' : 'xl'}>
       <Stack gap="2xs" className={cn(!collapsed && 'pr-1')}>
-        {collapsed ? (
-          <Stack gap="2xs">
-            {collapsed && onToggleCollapsed ? (
-              <SidebarToggle collapsed onToggle={onToggleCollapsed} />
-            ) : null}
-            <NavLink
-              to="/"
-              active={pathname === '/'}
-              collapsed={collapsed}
-              title="Overview"
-              onNavigate={onNavigate}
-            >
-              <Home className="size-4 shrink-0" />
-              {!collapsed ? <span>Overview</span> : null}
-            </NavLink>
-          </Stack>
-        ) : (
-          <Grid gap="2xs" template="content-auto" align="center">
-            <NavLink to="/" active={pathname === '/'} title="Overview" onNavigate={onNavigate}>
-              <Home className="size-4 shrink-0" />
-              <span>Overview</span>
-            </NavLink>
-            {onToggleCollapsed ? (
-              <SidebarToggle collapsed={false} onToggle={onToggleCollapsed} />
-            ) : null}
-          </Grid>
-        )}
+        <NavLink
+          to="/"
+          active={pathname === '/'}
+          collapsed={collapsed}
+          title="Overview"
+          onNavigate={onNavigate}
+        >
+          <Home className="size-4 shrink-0" />
+          {!collapsed ? <span>Overview</span> : null}
+        </NavLink>
         <NavLink
           to="/intro"
           active={pathname === '/intro'}
@@ -256,23 +229,5 @@ export function Sidebar({ collapsed, onNavigate, onToggleCollapsed }: SidebarPro
         )}
       </Stack>
     </Stack>
-  )
-}
-
-function SidebarToggle({ collapsed, onToggle }: { collapsed: boolean; onToggle: () => void }) {
-  return (
-    <button
-      type="button"
-      onClick={onToggle}
-      className={cn(
-        'text-muted-foreground hover:text-foreground hover:bg-muted hidden h-7 shrink-0 rounded-md lg:block',
-        collapsed ? 'w-full' : 'w-7',
-      )}
-      aria-label={collapsed ? 'Expand sidebar' : 'Collapse sidebar'}
-    >
-      <Inline as="span" gap="none" justify="center" className="size-full">
-        {collapsed ? <PanelLeftOpen className="size-4" /> : <PanelLeftClose className="size-4" />}
-      </Inline>
-    </button>
   )
 }

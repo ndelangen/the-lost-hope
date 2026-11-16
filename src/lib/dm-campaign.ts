@@ -5,7 +5,7 @@ import npcRecords from '#/data/npcs/_index'
 import sceneRecords from '#/data/scenes/_index'
 import type { Arc } from '#/definitions/arc'
 import type { Creature } from '#/definitions/creature'
-import { ENTITY_KINDS, type EntityRef } from '#/definitions/kind'
+import { ENTITY_KINDS, type EntityKind, type EntityRef } from '#/definitions/kind'
 import type { Scene } from '#/definitions/scene'
 import type { OwnOrSharedStatBlock, StatBlock } from '#/definitions/stat-block'
 import type { Table } from '#/definitions/table'
@@ -125,4 +125,12 @@ export function validateDmReferences(
   }
 
   return problems
+}
+
+/** The complete source record, DM fields included, behind a player page's slug. */
+export function sourceRecordBySlug(kind: EntityKind, slug: string) {
+  const entry = Object.entries(
+    SOURCE_REGISTRIES[kind] as Readonly<Record<string, { slug: string }>>,
+  ).find(([, record]) => record.slug === slug)
+  return entry ? { key: entry[0], record: entry[1] } : undefined
 }

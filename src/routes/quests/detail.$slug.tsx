@@ -1,5 +1,6 @@
 import { createFileRoute, notFound } from '@tanstack/react-router'
 
+import { DmFields } from '#/components/dm/dm-fields'
 import { EntityContext } from '#/components/entity-context'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail } from '#/components/entity-page'
@@ -38,6 +39,7 @@ function QuestPage() {
       headerAside={
         <Pill variant={quest.status === 'open' ? 'warning' : 'success'}>{quest.status}</Pill>
       }
+      dm={<DmFields kind="quest" slug={entity.slug} />}
       correction={<EntityCorrectionSubmission entity={entity} />}
       context={
         <EntityContext key={`${entity.kind}:${entity.slug}`} data={entityContextData(entity)} />

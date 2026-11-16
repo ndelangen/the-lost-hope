@@ -1,6 +1,7 @@
 import { createFileRoute, notFound } from '@tanstack/react-router'
 
 import { ContentRenderer } from '#/components/content-renderer'
+import { DmFields } from '#/components/dm/dm-fields'
 import { EntityContext } from '#/components/entity-context'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail } from '#/components/entity-page'
@@ -37,6 +38,7 @@ function ItemPage() {
         variant: 'icon',
         content: <ItemIcon icon={item.icon} className="size-10" />,
       }}
+      dm={<DmFields kind="item" slug={entity.slug} />}
       correction={<EntityCorrectionSubmission entity={entity} />}
       context={
         <EntityContext key={`${entity.kind}:${entity.slug}`} data={entityContextData(entity)} />
