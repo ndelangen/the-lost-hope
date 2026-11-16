@@ -8,6 +8,7 @@ export default createLocation({
   type: 'building',
   parent: refs.locations.nimbus,
   at: [903, 524],
+  map: { url: '/assets/maps/borris-s-gambling-den.jpg', width: 1536, height: 1024 },
   notes: [
     [
       'A casino run by ',

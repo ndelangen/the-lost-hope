@@ -4,8 +4,9 @@ import { create as createScene } from '#/definitions/scene.ts'
 export default createScene({
   name: 'Borris shutters the casino',
   illustration: '/assets/scenes/borris-shutters-the-casino.png',
-  location: refs.locations.nimbus,
-  npcs: [refs.npcs.borris],
+  location: refs.locations.borris_s_gambling_den,
+  battleMaps: [refs.locations.borris_s_gambling_den],
+  npcs: [refs.npcs.borris, refs.npcs.crowy],
   references: [
     refs.pcs.fix,
     refs.pcs.swift_starblade,
@@ -24,7 +25,9 @@ export default createScene({
       refs.pcs.jim,
       ' pass ',
       refs.npcs.borris,
-      '’s casino again. It is shut in the middle of the afternoon: the shutters are down, and two guards stand at the door.',
+      '’s casino again, with ',
+      refs.npcs.crowy,
+      ' along. It is shut in the middle of the afternoon: the shutters are down, and two guards stand at the door.',
     ],
     [
       'Two guards drag a body out of the back room and dump it in the alley. It is ',
@@ -36,6 +39,17 @@ export default createScene({
   ],
   notes: [
     ['Keep this short. The goal of the session is to bring the party back together.'],
+    [
+      refs.npcs.crowy,
+      ' can call attention to ',
+      refs.npcs.borris,
+      ': a squawk of his name, or a flap towards the alley. Use it if the players look set to walk past.',
+    ],
+    [
+      'Once they walk on, ',
+      refs.npcs.crowy,
+      ' can also warn them that they are being followed, and urge them to run.',
+    ],
     [
       refs.pcs.fix,
       ' was hunting ',

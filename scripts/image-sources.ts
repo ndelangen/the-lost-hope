@@ -57,6 +57,18 @@ export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
     repositoryPath: 'assets/images/maps/beasts-and-dwarf-s-airship.png',
   },
   {
+    id: 'location-map-borris-s-gambling-den',
+    role: 'map',
+    logicalSource: '/assets/maps/borris-s-gambling-den.jpg',
+    repositoryPath: 'assets/images/maps/borris-s-gambling-den.png',
+  },
+  {
+    id: 'location-map-nimbus-harbour-ferry-quay',
+    role: 'map',
+    logicalSource: '/assets/maps/nimbus-harbour-ferry-quay.jpg',
+    repositoryPath: 'assets/images/maps/nimbus-harbour-ferry-quay.png',
+  },
+  {
     id: 'location-map-three-sky-kingdoms',
     role: 'map',
     logicalSource: '/assets/maps/three-sky-kingdoms.jpg',
