@@ -7,6 +7,7 @@ import revin_grumblefist from './revin-grumblefist.ts'
 import swift_starblade from './swift-starblade.ts'
 import theron from './theron.ts'
 import victor_dranzig from './victor-dranzig.ts'
+import warius from './warius.ts'
 import william_greenhove from './william-greenhove.ts'
 
 export default {
@@ -19,5 +20,6 @@ export default {
   swift_starblade,
   theron,
   victor_dranzig,
+  warius,
   william_greenhove,
 }

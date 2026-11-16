@@ -315,6 +315,7 @@ export const refs = {
     swift_starblade: ref('pc', 'swift_starblade'),
     theron: ref('pc', 'theron'),
     victor_dranzig: ref('pc', 'victor_dranzig'),
+    warius: ref('pc', 'warius'),
     william_greenhove: ref('pc', 'william_greenhove'),
   },
   locations: {
