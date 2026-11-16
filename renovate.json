@@ -1,0 +1,33 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended", "helpers:pinGitHubActionDigests"],
+  "timezone": "Europe/Amsterdam",
+  "schedule": ["before 7am on monday"],
+  "prConcurrentLimit": 1,
+  "prHourlyLimit": 1,
+  "minimumReleaseAge": "3 days",
+  "automerge": false,
+  "dependencyDashboard": true,
+  "vulnerabilityAlerts": {
+    "groupName": "Security fixes",
+    "groupSlug": "security-fixes",
+    "prConcurrentLimit": 1
+  },
+  "enabledManagers": ["bun", "github-actions"],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "digest"],
+      "groupName": "Routine dependencies",
+      "groupSlug": "routine-dependencies"
+    },
+    {
+      "matchUpdateTypes": ["major"],
+      "dependencyDashboardApproval": true
+    },
+    {
+      "matchPackageNames": ["vitest", "@vitest/coverage-v8"],
+      "groupName": "Vitest",
+      "groupSlug": "vitest"
+    }
+  ]
+}
