@@ -1,7 +1,7 @@
 import { join } from 'node:path'
 
 export const RESPONSIVE_IMAGE_WIDTHS = [
-  32, 64, 128, 192, 256, 384, 512, 640, 768, 960, 1024, 1280,
+  32, 64, 128, 192, 256, 384, 512, 640, 768, 960, 1024, 1280, 1536,
 ] as const
 
 export const RESPONSIVE_IMAGE_ENCODING = {
@@ -467,6 +467,12 @@ export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
     role: 'avatar',
     logicalSource: '/assets/npcs/wolfie.png',
     repositoryPath: 'assets/images/content/npcs/wolfie.png',
+  },
+  {
+    id: 'auren',
+    role: 'avatar',
+    logicalSource: '/assets/pcs/auren.jpg',
+    repositoryPath: 'assets/images/content/pcs/auren.jpg',
   },
   {
     id: 'cassian',
@@ -1085,6 +1091,12 @@ export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
     role: 'avatar',
     logicalSource: '/assets/beasts/wolfie-upright.png',
     repositoryPath: 'assets/images/content/beasts/wolfie-upright.png',
+  },
+  {
+    id: 'handout-book-of-gruumsh-page-4',
+    role: 'illustration',
+    logicalSource: '/assets/handouts/book-of-gruumsh-page-4.jpg',
+    repositoryPath: 'assets/images/handouts/book-of-gruumsh-page-4.png',
   },
 ]
 

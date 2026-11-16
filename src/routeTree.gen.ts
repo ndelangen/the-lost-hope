@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as IconsRouteImport } from './routes/[_]icons'
+import { Route as DisplayRouteImport } from './routes/display'
 import { Route as DmRouteRouteImport } from './routes/dm/route'
 import { Route as IntroRouteImport } from './routes/intro'
 import { Route as QuestionsRouteImport } from './routes/questions'
@@ -19,6 +20,8 @@ import { Route as DmIndexRouteImport } from './routes/dm/index'
 import { Route as EffectsIndexRouteImport } from './routes/effects/index'
 import { Route as EventsIndexRouteImport } from './routes/events/index'
 import { Route as ItemsIndexRouteImport } from './routes/items/index'
+import { Route as LettersBookOfGruumshRouteImport } from './routes/letters/book-of-gruumsh'
+import { Route as LettersJimRouteImport } from './routes/letters/jim'
 import { Route as LocationsIndexRouteImport } from './routes/locations/index'
 import { Route as LocationsListRouteImport } from './routes/locations/list'
 import { Route as LocationsMapRouteImport } from './routes/locations/map'
@@ -54,6 +57,11 @@ const IndexRoute = IndexRouteImport.update({
 const IconsRoute = IconsRouteImport.update({
   id: '/_icons',
   path: '/_icons',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DisplayRoute = DisplayRouteImport.update({
+  id: '/display',
+  path: '/display',
   getParentRoute: () => rootRouteImport,
 } as any)
 const DmRouteRoute = DmRouteRouteImport.update({
@@ -94,6 +102,16 @@ const EventsIndexRoute = EventsIndexRouteImport.update({
 const ItemsIndexRoute = ItemsIndexRouteImport.update({
   id: '/items/',
   path: '/items/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LettersBookOfGruumshRoute = LettersBookOfGruumshRouteImport.update({
+  id: '/letters/book-of-gruumsh',
+  path: '/letters/book-of-gruumsh',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LettersJimRoute = LettersJimRouteImport.update({
+  id: '/letters/jim',
+  path: '/letters/jim',
   getParentRoute: () => rootRouteImport,
 } as any)
 const LocationsIndexRoute = LocationsIndexRouteImport.update({
@@ -231,8 +249,11 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/dm': typeof DmRouteRouteWithChildren
   '/_icons': typeof IconsRoute
+  '/display': typeof DisplayRoute
   '/intro': typeof IntroRoute
   '/questions': typeof QuestionsRoute
+  '/letters/book-of-gruumsh': typeof LettersBookOfGruumshRoute
+  '/letters/jim': typeof LettersJimRoute
   '/locations/list': typeof LocationsListRoute
   '/locations/map': typeof LocationsMapRoute
   '/beasts/': typeof BeastsIndexRoute
@@ -268,8 +289,11 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/_icons': typeof IconsRoute
+  '/display': typeof DisplayRoute
   '/intro': typeof IntroRoute
   '/questions': typeof QuestionsRoute
+  '/letters/book-of-gruumsh': typeof LettersBookOfGruumshRoute
+  '/letters/jim': typeof LettersJimRoute
   '/locations/list': typeof LocationsListRoute
   '/locations/map': typeof LocationsMapRoute
   '/beasts': typeof BeastsIndexRoute
@@ -307,8 +331,11 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/dm': typeof DmRouteRouteWithChildren
   '/_icons': typeof IconsRoute
+  '/display': typeof DisplayRoute
   '/intro': typeof IntroRoute
   '/questions': typeof QuestionsRoute
+  '/letters/book-of-gruumsh': typeof LettersBookOfGruumshRoute
+  '/letters/jim': typeof LettersJimRoute
   '/locations/list': typeof LocationsListRoute
   '/locations/map': typeof LocationsMapRoute
   '/beasts/': typeof BeastsIndexRoute
@@ -347,8 +374,11 @@ export interface FileRouteTypes {
     | '/'
     | '/dm'
     | '/_icons'
+    | '/display'
     | '/intro'
     | '/questions'
+    | '/letters/book-of-gruumsh'
+    | '/letters/jim'
     | '/locations/list'
     | '/locations/map'
     | '/beasts/'
@@ -384,8 +414,11 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/_icons'
+    | '/display'
     | '/intro'
     | '/questions'
+    | '/letters/book-of-gruumsh'
+    | '/letters/jim'
     | '/locations/list'
     | '/locations/map'
     | '/beasts'
@@ -422,8 +455,11 @@ export interface FileRouteTypes {
     | '/'
     | '/dm'
     | '/_icons'
+    | '/display'
     | '/intro'
     | '/questions'
+    | '/letters/book-of-gruumsh'
+    | '/letters/jim'
     | '/locations/list'
     | '/locations/map'
     | '/beasts/'
@@ -461,8 +497,11 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   DmRouteRoute: typeof DmRouteRouteWithChildren
   IconsRoute: typeof IconsRoute
+  DisplayRoute: typeof DisplayRoute
   IntroRoute: typeof IntroRoute
   QuestionsRoute: typeof QuestionsRoute
+  LettersBookOfGruumshRoute: typeof LettersBookOfGruumshRoute
+  LettersJimRoute: typeof LettersJimRoute
   LocationsListRoute: typeof LocationsListRoute
   LocationsMapRoute: typeof LocationsMapRoute
   BeastsIndexRoute: typeof BeastsIndexRoute
@@ -501,6 +540,13 @@ declare module '@tanstack/react-router' {
       path: '/_icons'
       fullPath: '/_icons'
       preLoaderRoute: typeof IconsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/display': {
+      id: '/display'
+      path: '/display'
+      fullPath: '/display'
+      preLoaderRoute: typeof DisplayRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/dm': {
@@ -557,6 +603,20 @@ declare module '@tanstack/react-router' {
       path: '/items'
       fullPath: '/items/'
       preLoaderRoute: typeof ItemsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/letters/book-of-gruumsh': {
+      id: '/letters/book-of-gruumsh'
+      path: '/letters/book-of-gruumsh'
+      fullPath: '/letters/book-of-gruumsh'
+      preLoaderRoute: typeof LettersBookOfGruumshRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/letters/jim': {
+      id: '/letters/jim'
+      path: '/letters/jim'
+      fullPath: '/letters/jim'
+      preLoaderRoute: typeof LettersJimRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/locations/': {
@@ -775,8 +835,11 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   DmRouteRoute: DmRouteRouteWithChildren,
   IconsRoute: IconsRoute,
+  DisplayRoute: DisplayRoute,
   IntroRoute: IntroRoute,
   QuestionsRoute: QuestionsRoute,
+  LettersBookOfGruumshRoute: LettersBookOfGruumshRoute,
+  LettersJimRoute: LettersJimRoute,
   LocationsListRoute: LocationsListRoute,
   LocationsMapRoute: LocationsMapRoute,
   BeastsIndexRoute: BeastsIndexRoute,
