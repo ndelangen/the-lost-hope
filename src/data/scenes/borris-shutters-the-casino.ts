@@ -80,7 +80,11 @@ export default createScene({
   outcomes: [
     {
       when: [['They greet ', refs.npcs.borris, ' or ask how he is.']],
-      response: [['“We’re closed. Had a mess to clean up.” He does not invite them in.']],
+      response: [
+        [
+          '“I sense more trouble brewing. I’m closing the casino for the rest of the day.” He does not invite them in.',
+        ],
+      ],
     },
     {
       when: [['They ask about the body.']],
