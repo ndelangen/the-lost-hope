@@ -4,7 +4,8 @@ import { create as createScene } from '#/definitions/scene.ts'
 export default createScene({
   name: 'The ents hold the shipyard',
   illustration: '/assets/scenes/the-ents-hold-the-shipyard.png',
-  location: refs.locations.skynet,
+  location: refs.locations.skynet_airship_shipyard,
+  battleMaps: [refs.locations.beasts_and_dwarf_s_airship_decks],
   npcs: [refs.npcs.esia, refs.npcs.shipyard_ent, refs.npcs.corwin_hale],
   references: [
     refs.pcs.auren,

@@ -321,6 +321,12 @@ export const refs = {
     william_greenhove: ref('pc', 'william_greenhove'),
   },
   locations: {
+    ride_the_lightning_main_deck: ref('location', 'ride_the_lightning_main_deck'),
+    master_of_puppets_main_deck: ref('location', 'master_of_puppets_main_deck'),
+    ride_the_lightning_gun_deck: ref('location', 'ride_the_lightning_gun_deck'),
+    master_of_puppets_gun_deck: ref('location', 'master_of_puppets_gun_deck'),
+    sky_bridge_ferry: ref('location', 'sky_bridge_ferry'),
+    beasts_and_dwarf_s_airship_decks: ref('location', 'beasts_and_dwarf_s_airship_decks'),
     serpent_eclipse_crystal_oasis: ref('location', 'serpent_eclipse_crystal_oasis'),
     world: ref('location', 'world'),
     continent_of_the_dead: ref('location', 'continent_of_the_dead'),

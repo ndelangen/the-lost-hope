@@ -5,6 +5,11 @@ export default createScene({
   name: 'Boarded by the battle-cruiser',
   illustration: '/assets/scenes/boarded-by-the-battle-cruiser.png',
   location: refs.locations.skynet,
+  battleMaps: [
+    refs.locations.beasts_and_dwarf_s_airship_decks,
+    refs.locations.sky_bridge_ferry,
+    refs.locations.master_of_puppets_main_deck,
+  ],
   npcs: [refs.npcs.captain_garran, refs.npcs.tempest_soldier],
   references: [
     refs.npcs.onana_tempest,

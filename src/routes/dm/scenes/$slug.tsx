@@ -3,6 +3,7 @@ import { ChevronRight, Pin, Sword } from 'lucide-react'
 
 import { ContentRenderer } from '#/components/content-renderer'
 import { DmFaces } from '#/components/dm/dm-faces'
+import { DmHiddenReference } from '#/components/dm/dm-hidden-reference'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
 import { SceneBranches } from '#/components/dm/scene-branches'
 import { ShipDamageClock } from '#/components/dm/ship-damage-clock'
@@ -10,6 +11,8 @@ import { StatBlockSummary } from '#/components/dm/stat-block-summary'
 import { EntityReference } from '#/components/entity-reference'
 import { ImageViewer } from '#/components/image-viewer'
 import { ShowToPlayersButton } from '#/components/player-screen/show-to-players-button'
+import type { Location } from '#/definitions/location'
+import { refLink } from '#/lib/campaign'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 import { arcs, resolveSourceRef, scenes, table } from '#/lib/dm-campaign'
 import { plotsByScene } from '#/lib/dm-dashboard'
@@ -20,6 +23,7 @@ import { buildSceneBranches } from '#/lib/scene-branches'
 const npcRecords: Readonly<
   Record<string, (typeof SOURCE_REGISTRIES.npc)[keyof typeof SOURCE_REGISTRIES.npc]>
 > = SOURCE_REGISTRIES.npc
+const locationRecords: Readonly<Partial<Record<string, Location>>> = SOURCE_REGISTRIES.location
 
 export const Route = createFileRoute('/dm/scenes/$slug')({
   loader: ({ params }) => {
@@ -41,7 +45,11 @@ function SceneRoute() {
   const scene = scenes[key]!
   const plots = plotsByScene(arcs).get(key) ?? []
   const pinned = table.pinned.some((ref) => ref.key === key)
-  const location = resolveSourceRef(scene.location)
+  const location = refLink(scene.location)
+  const battleMaps = scene.battleMaps.flatMap((ref) => {
+    const place = Object.hasOwn(locationRecords, ref.key) ? locationRecords[ref.key] : undefined
+    return place ? [{ ref, place }] : []
+  })
   const branches = buildSceneBranches(scene.outcomes)
   const vessel = scene.shipDamage ? resolveSourceRef(scene.shipDamage.vessel) : undefined
 
@@ -74,8 +82,15 @@ function SceneRoute() {
           <p className="text-sm">
             at{' '}
             {location ? (
-              <EntityReference kind="location" slug={location.slug} className="font-medium" />
-            ) : null}
+              <EntityReference
+                kind="location"
+                slug={location.slug}
+                label={location.name}
+                className="font-medium"
+              />
+            ) : (
+              <DmHiddenReference reference={scene.location} />
+            )}
           </p>
         </header>
 
@@ -91,6 +106,30 @@ function SceneRoute() {
             className="aspect-[3/2] w-full overflow-hidden rounded-lg"
             playerScreen={{ image: 'illustration', ref: { ref: 'scene', key } }}
           />
+        ) : null}
+
+        {battleMaps.length > 0 ? (
+          <section className="grid gap-2">
+            <h2 className="text-muted-foreground text-xs font-semibold uppercase">Battlemaps</h2>
+            <ul className="grid gap-3 sm:grid-cols-2">
+              {battleMaps.map(({ ref, place }) => (
+                <li key={ref.key} className="min-w-0">
+                  <ImageViewer
+                    src={place.map.url}
+                    alt={place.name}
+                    title={place.name}
+                    eyebrow="Battlemap"
+                    accessibleLabel={`battlemap of ${place.name}`}
+                    previewSizes="(min-width: 1024px) 400px, (min-width: 640px) 45vw, 90vw"
+                    previewMaxWidth={768}
+                    className="aspect-[3/2] h-auto w-full rounded-lg"
+                    playerScreen={{ image: 'map', ref }}
+                  />
+                  <p className="mt-1 text-sm font-medium">{place.name}</p>
+                </li>
+              ))}
+            </ul>
+          </section>
         ) : null}
 
         {scene.npcs.length > 0 ? (

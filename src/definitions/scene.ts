@@ -72,6 +72,7 @@ export const Scene = deriveSlug(
   z.strictObject({
     name: z.string().trim().min(1),
     location: entityRefOf('location'),
+    battleMaps: z.array(entityRefOf('location')).default([]),
     illustration: MediaUrl.optional(),
     setup: Content,
     notes: Content.optional(),
