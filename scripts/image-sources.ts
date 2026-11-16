@@ -469,6 +469,12 @@ export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
     repositoryPath: 'assets/images/content/npcs/wolfie.png',
   },
   {
+    id: 'auren',
+    role: 'avatar',
+    logicalSource: '/assets/pcs/auren.jpg',
+    repositoryPath: 'assets/images/content/pcs/auren.jpg',
+  },
+  {
     id: 'cassian',
     role: 'avatar',
     logicalSource: '/assets/pcs/cassian.jpg',
