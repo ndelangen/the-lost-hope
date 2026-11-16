@@ -40,17 +40,24 @@ const ShipSector = z.strictObject({
   escapePods: z.boolean().describe('Whether this sector has a way off the ship'),
 })
 
+/** The dice a hit's damage can be rolled on, by their number of sides. 1 is a fixed 1 damage. */
+export const SHIP_DAMAGE_DICE = [1, 2, 3, 4, 6] as const
+export type ShipDamageDie = (typeof SHIP_DAMAGE_DICE)[number]
+
 /**
  * A vessel that breaks up in real time while a scene is fought aboard it. Every interval a die
  * picks one slice of the ship, counted from the bow, and the DM chooses whether its port or its
- * starboard sector is hit. A sector that has taken all its hit points is destroyed, and the vessel
- * is lost once both sectors of one slice are destroyed, because that cuts it in two.
+ * starboard sector is hit. The hit's damage is rolled on the damage die. A sector that has taken
+ * all its hit points is destroyed, and the vessel is lost once both sectors of one slice are
+ * destroyed, because that cuts it in two.
  */
 export const SceneShipDamage = z
   .strictObject({
     vessel: entityRefOf('item'),
     everySeconds: z.number().int().positive().describe('Real-time seconds between hits'),
-    hitDamage: z.number().int().positive().describe('Damage one hit deals to its sector'),
+    damageDie: z
+      .union(SHIP_DAMAGE_DICE.map((sides) => z.literal(sides)))
+      .describe('Sides of the die rolled for one hit. The DM can pick another at the table'),
     sectorHitPoints: z.number().int().positive().describe('Damage that destroys a sector'),
     port: z.array(ShipSector).min(1).describe('Port sectors, from bow to stern'),
     starboard: z.array(ShipSector).min(1).describe('Starboard sectors, from bow to stern'),

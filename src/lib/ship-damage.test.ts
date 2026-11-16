@@ -12,7 +12,9 @@ import {
   parseShipDamage,
   pauseTimer,
   remainingMs,
+  rollDamage,
   rollSlice,
+  setDamageDie,
   shipSectors,
   sliceStatuses,
   startTimer,
@@ -23,7 +25,7 @@ const sector = (name: string, escapePods = true) => ({ name, escapePods })
 const ship = SceneShipDamage.parse({
   vessel: { ref: 'item', key: 'cruiser' },
   everySeconds: 180,
-  hitDamage: 1,
+  damageDie: 1,
   sectorHitPoints: 5,
   port: [
     sector('Port bow'),
@@ -39,9 +41,9 @@ const ship = SceneShipDamage.parse({
   ],
 })
 
-/** Sector indexes: port 0 to 3 from the bow, then starboard 4 to 7. */
+/** One damage on each listed sector. Indexes: port 0 to 3 from the bow, then starboard 4 to 7. */
 function hits(indexes: number[], from = initialShipDamage(ship)) {
-  return indexes.reduce((state, index) => hitSector(state, ship, index), from)
+  return indexes.reduce((state, index) => hitSector(state, ship, index, 1), from)
 }
 
 describe('ship damage', () => {
@@ -110,9 +112,27 @@ describe('ship damage', () => {
 
   it('settles an owed hit when a sector is hit, but not on a manual correction', () => {
     const owing = { ...initialShipDamage(ship), owed: 2 }
-    expect(hitSector(owing, ship, 0)).toMatchObject({ owed: 1, damage: [1, 0, 0, 0, 0, 0, 0, 0] })
+    expect(hitSector(owing, ship, 0, 3)).toMatchObject({
+      owed: 1,
+      damage: [3, 0, 0, 0, 0, 0, 0, 0],
+    })
     expect(adjustSector(owing, ship, 0, 1).owed).toBe(2)
     expect(adjustSector(owing, ship, 0, -1).damage[0]).toBe(0)
+  })
+
+  it('rolls a hit on the damage die, and a die of 1 is always 1 damage', () => {
+    expect(rollDamage(1, 0.999)).toBe(1)
+    expect(rollDamage(4, 0)).toBe(1)
+    expect(rollDamage(4, 0.5)).toBe(3)
+    expect(rollDamage(6, 0.999)).toBe(6)
+  })
+
+  it('warns that a high roll can cut the ship once the die can finish the last side', () => {
+    const oneSide = hits([1, 1, 1, 1, 1, 5, 5])
+    expect(sliceStatuses(ship, oneSide)[1]).toBe('holding')
+    expect(sliceStatuses(ship, setDamageDie(oneSide, 2))[1]).toBe('holding')
+    expect(sliceStatuses(ship, setDamageDie(oneSide, 3))[1]).toBe('threatened')
+    expect(sliceStatuses(ship, setDamageDie(hits([5, 5], oneSide), 6))[1]).toBe('critical')
   })
 
   it('rolls the die for a slice', () => {
@@ -130,7 +150,14 @@ describe('ship damage', () => {
     expect(parseShipDamage(JSON.stringify(stored), ship)).toEqual({
       ...stored,
       damage: [1, 5, 0, 0, 0, 0, 0, 0],
+      damageDie: 1,
     })
+  })
+
+  it('remembers the die picked at the table, and falls back to the scene for an unknown one', () => {
+    const picked = setDamageDie(initialShipDamage(ship), 4)
+    expect(parseShipDamage(JSON.stringify(picked), ship).damageDie).toBe(4)
+    expect(parseShipDamage(JSON.stringify({ ...picked, damageDie: 5 }), ship).damageDie).toBe(1)
   })
 
   it('formats the countdown, rounding up', () => {

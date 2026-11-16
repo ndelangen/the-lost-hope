@@ -1,4 +1,4 @@
-import type { SceneShipDamage } from '#/definitions/scene'
+import { SHIP_DAMAGE_DICE, type SceneShipDamage, type ShipDamageDie } from '#/definitions/scene'
 
 /**
  * Where a ship-damage clock stands at the table. Times are epoch milliseconds, so the clock keeps
@@ -13,6 +13,8 @@ export type ShipDamageState = {
   remainingMs: number
   /** Hits that have fired and still need a sector. */
   owed: number
+  /** The die the DM rolls a hit's damage on at the table. It starts as the scene's die. */
+  damageDie: ShipDamageDie
 }
 
 export type ShipSide = 'port' | 'starboard'
@@ -43,7 +45,12 @@ export function initialShipDamage(ship: SceneShipDamage): ShipDamageState {
     damage: Array.from({ length: sliceCount(ship) * 2 }, () => 0),
     remainingMs: periodMs(ship),
     owed: 0,
+    damageDie: ship.damageDie,
   }
+}
+
+function isDamageDie(value: unknown): value is ShipDamageDie {
+  return SHIP_DAMAGE_DICE.some((sides) => sides === value)
 }
 
 /** Read stored state, falling back to a fresh clock when it does not fit this ship. */
@@ -67,6 +74,7 @@ export function parseShipDamage(raw: string | null, ship: SceneShipDamage): Ship
       endsAt: typeof parsed.endsAt === 'number' ? parsed.endsAt : undefined,
       remainingMs: Math.min(Math.max(parsed.remainingMs, 0), periodMs(ship)),
       owed: Math.max(0, Math.trunc(parsed.owed)),
+      damageDie: isDamageDie(parsed.damageDie) ? parsed.damageDie : fresh.damageDie,
     }
   } catch {
     return fresh
@@ -109,15 +117,29 @@ function withDamage(state: ShipDamageState, ship: SceneShipDamage, index: number
   return state.damage.map((value, at) => (at === index ? next : value))
 }
 
-/** One hit lands on a sector: it takes the ship's hit damage and settles one owed hit. */
+/** Pick the die that hits are rolled on from now on. */
+export function setDamageDie(state: ShipDamageState, damageDie: ShipDamageDie): ShipDamageState {
+  return { ...state, damageDie }
+}
+
+/**
+ * Roll a hit's damage on a die with this many sides. `random` is a number from 0 up to but not
+ * including 1.
+ */
+export function rollDamage(die: ShipDamageDie, random: number): number {
+  return Math.floor(random * die) + 1
+}
+
+/** One hit lands on a sector: it takes the rolled damage and settles one owed hit. */
 export function hitSector(
   state: ShipDamageState,
   ship: SceneShipDamage,
   index: number,
+  damage: number,
 ): ShipDamageState {
   return {
     ...state,
-    damage: withDamage(state, ship, index, ship.hitDamage),
+    damage: withDamage(state, ship, index, damage),
     owed: Math.max(0, state.owed - 1),
   }
 }
@@ -154,9 +176,11 @@ export function shipSectors(ship: SceneShipDamage, state: ShipDamageState): Ship
 export type SliceStatus =
   /** Both sectors stand. */
   | 'intact'
-  /** One sector is destroyed, so every further hit here lands on the other. */
+  /** One sector is destroyed, and the other survives the next hit whatever the die shows. */
   | 'holding'
-  /** One sector is destroyed and the next hit destroys the other. */
+  /** One sector is destroyed, and a high roll on the next hit destroys the other. */
+  | 'threatened'
+  /** One sector is destroyed, and the next hit destroys the other whatever the die shows. */
   | 'critical'
   /** Both sectors are destroyed: the ship is cut in two here. */
   | 'broken'
@@ -169,9 +193,10 @@ export function sliceStatuses(ship: SceneShipDamage, state: ShipDamageState): Sl
     const standing = pair.filter((sector) => !sector.destroyed)
     if (standing.length === 0) return 'broken'
     if (standing.length === pair.length) return 'intact'
-    return standing.every((sector) => sector.damage + ship.hitDamage >= ship.sectorHitPoints)
-      ? 'critical'
-      : 'holding'
+    const fallsTo = (damage: number) =>
+      standing.every((sector) => sector.damage + damage >= ship.sectorHitPoints)
+    if (fallsTo(1)) return 'critical'
+    return fallsTo(state.damageDie) ? 'threatened' : 'holding'
   })
 }
 

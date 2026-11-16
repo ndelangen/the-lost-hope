@@ -12,7 +12,7 @@ import {
 } from 'lucide-react'
 import { useCallback, useEffect, useRef, useState } from 'react'
 
-import type { SceneShipDamage } from '#/definitions/scene'
+import { SHIP_DAMAGE_DICE, type SceneShipDamage, type ShipDamageDie } from '#/definitions/scene'
 import {
   adjustSector,
   brokenSlice,
@@ -21,7 +21,9 @@ import {
   initialShipDamage,
   pauseTimer,
   remainingMs,
+  rollDamage,
   rollSlice,
+  setDamageDie,
   shipSectors,
   sliceCount,
   sliceStatuses,
@@ -38,8 +40,59 @@ const SIDE_LABEL = { port: 'Port', starboard: 'Starboard' } as const
 
 const SLICE_WARNING: Partial<Record<SliceStatus, string>> = {
   holding: 'Holding by one side',
+  threatened: 'A high roll cuts the ship',
   critical: 'Next hit cuts the ship',
   broken: 'Cut in two',
+}
+
+/** How a damage die reads on its button: a die of one side is a plain 1. */
+function dieLabel(die: ShipDamageDie) {
+  return die === 1 ? '1' : `d${die}`
+}
+
+function DamageDiePicker({
+  value,
+  disabled,
+  onChange,
+}: {
+  value: ShipDamageDie
+  disabled: boolean
+  onChange: (die: ShipDamageDie) => void
+}) {
+  return (
+    <fieldset disabled={disabled} className="flex flex-wrap items-center gap-x-3 gap-y-2">
+      <legend className="sr-only">Damage per hit</legend>
+      <span aria-hidden className="text-sm font-semibold">
+        Damage per hit
+      </span>
+      <div className="border-border flex overflow-hidden rounded-xl border-2">
+        {SHIP_DAMAGE_DICE.map((die) => (
+          <label
+            key={die}
+            className={cn(
+              'border-border has-focus-visible:ring-ring/50 grid h-12 min-w-14 cursor-pointer place-items-center border-l-2 px-3 text-base font-bold tabular-nums first:border-l-0 has-focus-visible:ring-3',
+              die === value ? 'bg-primary text-primary-foreground' : 'hover:bg-muted',
+            )}
+          >
+            <input
+              type="radio"
+              name="ship-damage-die"
+              className="sr-only"
+              checked={die === value}
+              onChange={() => onChange(die)}
+              aria-label={die === 1 ? 'Always 1 damage' : `Roll a d${die}`}
+            />
+            {dieLabel(die)}
+          </label>
+        ))}
+      </div>
+      <span className="text-muted-foreground text-sm">
+        {value === 1
+          ? 'Every hit deals 1 damage.'
+          : `The clock rolls a d${value} for every hit you tap.`}
+      </span>
+    </fieldset>
+  )
 }
 
 /** Three short beeps, so a hit is heard across the table. */
@@ -176,6 +229,7 @@ export function ShipDamageClock({
   const soundOn = useRef(sound)
   soundOn.current = sound
   const [rolled, setRolled] = useState<number>()
+  const [lastHit, setLastHit] = useState<string>()
   const [confirmReset, setConfirmReset] = useState(false)
   const [open, setOpen] = useState(true)
 
@@ -200,6 +254,7 @@ export function ShipDamageClock({
   const statuses = sliceStatuses(ship, shown)
   const broken = brokenSlice(ship, shown)
   const critical = statuses.indexOf('critical')
+  const threatened = statuses.indexOf('threatened')
   const running = shown.endsAt !== undefined
   const slices = sliceCount(ship)
   const die = `d${slices}`
@@ -215,9 +270,14 @@ export function ShipDamageClock({
     }
     update((current, at) => startTimer(current, at))
   }
-  const hit = (index: number) => {
+  const hit = (sector: ShipSectorView) => {
+    const damage = rollDamage(shown.damageDie, Math.random())
+    const destroyed = sector.damage + damage >= ship.sectorHitPoints
     setRolled(undefined)
-    update((current) => hitSector(current, ship, index))
+    setLastHit(
+      `${sector.name} takes ${damage} damage${shown.damageDie === 1 ? '' : ` on the d${shown.damageDie}`}${destroyed ? ' and is destroyed' : ''}.`,
+    )
+    update((current) => hitSector(current, ship, sector.index, damage))
   }
 
   const choices =
@@ -268,7 +328,10 @@ export function ShipDamageClock({
           )}
           <ActionButton
             size="lg"
-            onClick={() => setRolled(rollSlice(ship, Math.random()))}
+            onClick={() => {
+              setLastHit(undefined)
+              setRolled(rollSlice(ship, Math.random()))
+            }}
             disabled={locked}
           >
             <Dices aria-hidden /> Roll the {die}
@@ -287,6 +350,7 @@ export function ShipDamageClock({
               onClick={() => {
                 reset()
                 setRolled(undefined)
+                setLastHit(undefined)
                 setConfirmReset(false)
               }}
             >
@@ -330,11 +394,25 @@ export function ShipDamageClock({
               <p className="rounded-xl border-2 border-red-500/60 bg-red-500/10 px-4 py-2 font-semibold text-red-700 dark:text-red-300">
                 One more hit on slice {critical + 1} cuts the ship in two. Time for the escape pods.
               </p>
+            ) : threatened !== -1 ? (
+              <p className="rounded-xl border-2 border-red-500/60 bg-red-500/10 px-4 py-2 font-semibold text-red-700 dark:text-red-300">
+                A high roll on slice {threatened + 1} cuts the ship in two. Time for the escape
+                pods.
+              </p>
             ) : null}
             {rollText ? <p className="px-1 font-semibold">{rollText}</p> : null}
           </>
         )}
+        {lastHit ? <p className="px-1 font-semibold">{lastHit}</p> : null}
       </div>
+
+      {open ? (
+        <DamageDiePicker
+          value={shown.damageDie}
+          disabled={locked}
+          onChange={(die) => update((current) => setDamageDie(current, die))}
+        />
+      ) : null}
 
       <div
         hidden={!open}
@@ -388,7 +466,7 @@ export function ShipDamageClock({
                 hitPoints={ship.sectorHitPoints}
                 rolled={rolled === sector.slice}
                 locked={locked}
-                onHit={() => hit(sector.index)}
+                onHit={() => hit(sector)}
                 onAdjust={(delta) =>
                   update((current) => adjustSector(current, ship, sector.index, delta))
                 }

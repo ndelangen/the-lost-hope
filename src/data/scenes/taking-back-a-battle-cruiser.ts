@@ -67,6 +67,9 @@ export default createScene({
       'When the players see the cruiser is about to be destroyed, they should bail out in the escape pods. Make the warnings loud: describe every hit, and once a slice holds by one side only, let it groan and sag in plain sight.',
     ],
     [
+      'The clock deals 1 damage per hit, which breaks the ship after roughly 85 minutes of play. For a faster clock, pick a damage die in the tracker: with a d2 the ship breaks after about 55 minutes, with a d3 after about 40, with a d4 after about 35, and with a d6 after about 20. You can change the die in the middle of the fight, for example to a bigger one when the scene drags.',
+    ],
+    [
       'When a sector is destroyed, everyone in it makes a DC 13 ',
       refs.rules.dex,
       ' ',
@@ -142,7 +145,7 @@ export default createScene({
   shipDamage: {
     vessel: refs.items.ride_the_lightning,
     everySeconds: 180,
-    hitDamage: 1,
+    damageDie: 1,
     sectorHitPoints: 5,
     port: [
       { name: 'Port bow', escapePods: true },
