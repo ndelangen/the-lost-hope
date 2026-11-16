@@ -37,9 +37,12 @@ async function audit(): Promise<void> {
 
   const expectedPaths = new Set(PUBLIC_PAGE_DESCRIPTORS.map(({ path }) => path))
   const pagesData = JSON.parse(await readFile(join(OUTPUT_DIRECTORY, 'pages.json'), 'utf8')) as {
-    pages: Array<{ path: string }>
+    pages: Array<{ path: string; sitemap?: { exclude?: boolean } }>
   }
-  const builtPaths = pagesData.pages.map(({ path }) => path)
+  // Handouts are prerendered for their QR codes but deliberately unlisted.
+  const builtPaths = pagesData.pages
+    .filter(({ sitemap }) => sitemap?.exclude !== true)
+    .map(({ path }) => path)
   assert(
     builtPaths.length === expectedPaths.size,
     `Expected 494 sitemap pages, found ${builtPaths.length}`,

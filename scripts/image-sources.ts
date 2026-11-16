@@ -1086,6 +1086,12 @@ export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
     logicalSource: '/assets/beasts/wolfie-upright.png',
     repositoryPath: 'assets/images/content/beasts/wolfie-upright.png',
   },
+  {
+    id: 'handout-book-of-gruumsh-page-4',
+    role: 'illustration',
+    logicalSource: '/assets/handouts/book-of-gruumsh-page-4.jpg',
+    repositoryPath: 'assets/images/handouts/book-of-gruumsh-page-4.png',
+  },
 ]
 
 const SOURCE_BY_LOGICAL_PATH = new Map(
