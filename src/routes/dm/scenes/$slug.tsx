@@ -4,9 +4,9 @@ import { ChevronRight, Pin, Sword } from 'lucide-react'
 import { ContentRenderer } from '#/components/content-renderer'
 import { DmFaces } from '#/components/dm/dm-faces'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
-import { NpcStatLine } from '#/components/dm/npc-stat-line'
 import { SceneBranches } from '#/components/dm/scene-branches'
 import { ShipDamageClock } from '#/components/dm/ship-damage-clock'
+import { StatBlockSummary } from '#/components/dm/stat-block-summary'
 import { EntityReference } from '#/components/entity-reference'
 import { ImageViewer } from '#/components/image-viewer'
 import { ShowToPlayersButton } from '#/components/player-screen/show-to-players-button'
@@ -143,7 +143,7 @@ function SceneRoute() {
                             </NpcDetail>
                           ) : null}
                           <NpcDetail title="Stat block">
-                            <NpcStatLine npc={record} />
+                            <StatBlockSummary stats={record.stats} />
                           </NpcDetail>
                           <Link
                             to="/dm/npcs/$key"

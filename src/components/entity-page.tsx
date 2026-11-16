@@ -105,6 +105,7 @@ export function EntityDetail({
   headerContext,
   headerAside,
   headerContent,
+  dm,
   correction,
   context,
   children,
@@ -116,6 +117,8 @@ export function EntityDetail({
   headerContext?: ReactNode
   headerAside?: ReactNode
   headerContent?: ReactNode
+  /** DM-only fields, shown under the header in DM mode. */
+  dm?: ReactNode
   correction: ReactNode
   context: ReactNode
   children?: ReactNode
@@ -133,6 +136,7 @@ export function EntityDetail({
       >
         {headerContent}
       </EntityDetailHeader>
+      {dm}
       {children}
       {context}
       {correction}

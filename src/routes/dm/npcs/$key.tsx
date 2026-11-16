@@ -5,7 +5,7 @@ import { ContentRenderer } from '#/components/content-renderer'
 import { DmFaces } from '#/components/dm/dm-faces'
 import { DmHiddenReference } from '#/components/dm/dm-hidden-reference'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
-import { NpcStatLine } from '#/components/dm/npc-stat-line'
+import { StatBlockSummary } from '#/components/dm/stat-block-summary'
 import { EntityReference } from '#/components/entity-reference'
 import { ShowToPlayersButton } from '#/components/player-screen/show-to-players-button'
 import { PortraitGallery } from '#/components/portrait-gallery'
@@ -98,7 +98,7 @@ function DmNpcRoute() {
         </Section>
         {resolveStatBlock(npc.stats) ? (
           <Section title="Stat block">
-            <NpcStatLine npc={npc} />
+            <StatBlockSummary stats={npc.stats} />
           </Section>
         ) : null}
       </article>

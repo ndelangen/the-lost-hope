@@ -272747,6 +272747,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/eye-off",
       "usedIn": [
+        "src/components/campaign-shell/dm-controls.tsx",
         "src/components/player-screen/player-screen-dock.tsx",
         "src/lib/condition-icons.tsx"
       ]
@@ -282671,6 +282672,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/layout-dashboard",
       "usedIn": [
+        "src/components/campaign-shell/dm-controls.tsx",
         "src/components/dm/dm-quick-links.tsx"
       ]
     },
@@ -290592,7 +290594,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/panel-left-close",
       "usedIn": [
-        "src/components/campaign-shell/sidebar.tsx"
+        "src/components/campaign-shell.tsx"
       ]
     },
     {
@@ -290682,7 +290684,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/panel-left-open",
       "usedIn": [
-        "src/components/campaign-shell/sidebar.tsx"
+        "src/components/campaign-shell.tsx"
       ]
     },
     {

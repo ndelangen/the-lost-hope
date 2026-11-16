@@ -16,20 +16,6 @@ export function writeStoredSet(key: string, value: Set<string>) {
   localStorage.setItem(key, JSON.stringify([...value]))
 }
 
-export function readStoredBoolean(key: string): boolean | null {
-  try {
-    const raw = localStorage.getItem(key)
-    if (raw === null) return null
-    return raw === 'true'
-  } catch {
-    return null
-  }
-}
-
-export function writeStoredBoolean(key: string, value: boolean) {
-  localStorage.setItem(key, String(value))
-}
-
 export function usePersistedSet(
   key: string,
   fallback: () => Set<string>,
@@ -66,21 +52,4 @@ export function usePersistedSet(
   }, [])
 
   return [set, toggle, expand]
-}
-
-export function usePersistedBoolean(key: string, fallback: boolean) {
-  const [value, setValue] = useState(fallback)
-  const [restored, setRestored] = useState(false)
-
-  useEffect(() => {
-    const stored = readStoredBoolean(key)
-    if (stored !== null) setValue(stored)
-    setRestored(true)
-  }, [key])
-
-  useEffect(() => {
-    if (restored) writeStoredBoolean(key, value)
-  }, [key, restored, value])
-
-  return [value, setValue] as const
 }

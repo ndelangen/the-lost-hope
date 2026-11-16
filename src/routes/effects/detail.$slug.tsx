@@ -1,6 +1,7 @@
 import { createFileRoute, notFound } from '@tanstack/react-router'
 import type { ReactNode } from 'react'
 
+import { DmFields } from '#/components/dm/dm-fields'
 import { EffectStatusPill } from '#/components/effect-list'
 import { EffectText, EffectTokens } from '#/components/effect-text'
 import { EntityContext } from '#/components/entity-context'
@@ -37,6 +38,7 @@ function EffectPage() {
       kind="effect"
       title={effect.name}
       visual={{ variant: 'icon', content: <EffectIcon icon={effect.icon} className="size-10" /> }}
+      dm={<DmFields kind="effect" slug={entity.slug} />}
       correction={<EntityCorrectionSubmission entity={entity} />}
       context={
         <EntityContext key={`${entity.kind}:${entity.slug}`} data={entityContextData(entity)} />

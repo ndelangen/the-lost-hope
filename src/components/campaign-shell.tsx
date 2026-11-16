@@ -1,16 +1,23 @@
 import { Link, Outlet, useRouterState } from '@tanstack/react-router'
-import { Menu, Scroll, X } from 'lucide-react'
+import { Menu, PanelLeftClose, PanelLeftOpen, Scroll, X } from 'lucide-react'
 import { lazy, Suspense, useCallback, useEffect, useRef, useState } from 'react'
 
+import { DM_MODE_AVAILABLE, DmModeContext } from '#/components/dm-mode'
 import { Inline, Stack } from '#/components/ui/layout'
 import { campaign } from '#/lib/campaign'
+import type { UiPreferences } from '#/lib/ui-preferences'
+import { cn } from '#/lib/utils'
 
 import { CampaignSearch } from './campaign-shell/campaign-search'
+import { DmControls } from './campaign-shell/dm-controls'
 import { CampaignShellLayout } from './campaign-shell/layout'
 import { Sidebar } from './campaign-shell/sidebar'
-import { usePersistedBoolean } from './campaign-shell/storage'
 import { useTheme } from './campaign-shell/theme'
 import { ThemeToggle } from './campaign-shell/theme-toggle'
+import { useUiPreferences } from './campaign-shell/ui-preferences'
+
+const headerButtonClass =
+  'border-border text-muted-foreground hover:bg-muted hover:text-foreground focus-visible:ring-ring/50 size-9 shrink-0 items-center justify-center rounded-md border transition-colors focus-visible:ring-2 focus-visible:outline-none'
 
 /** The DM's player-screen picker is a table tool for local dev; the public site never ships it. */
 const PlayerScreenDock = import.meta.env.DEV
@@ -21,7 +28,7 @@ const PlayerScreenDock = import.meta.env.DEV
     )
   : undefined
 
-export function CampaignShell() {
+export function CampaignShell({ initialPreferences }: { initialPreferences: UiPreferences }) {
   const pathname = useRouterState({ select: (state) => state.location.pathname })
   const hasNavigation = pathname !== '/_icons'
   // A running encounter in combat focus takes the whole screen.
@@ -32,10 +39,7 @@ export function CampaignShell() {
   })
   const [drawerOpen, setDrawerOpen] = useState(false)
   const [query, setQuery] = useState('')
-  const [sidebarCollapsed, setSidebarCollapsed] = usePersistedBoolean(
-    'dag:sidebar:collapsed',
-    false,
-  )
+  const [{ dmMode, navigationCollapsed }, setPreference] = useUiPreferences(initialPreferences)
   const { theme, toggleTheme } = useTheme()
   const drawerRef = useRef<HTMLElement>(null)
   const closeDrawer = useCallback(() => setDrawerOpen(false), [])
@@ -61,15 +65,31 @@ export function CampaignShell() {
     <Inline justify="between" gap="md" className="h-14">
       <Inline gap="md">
         {hasNavigation ? (
-          <button
-            type="button"
-            onClick={() => setDrawerOpen((value) => !value)}
-            className="border-border rounded-md border p-1.5 lg:hidden"
-            aria-label="Toggle navigation"
-            aria-expanded={drawerOpen}
-          >
-            {drawerOpen ? <X className="size-4" /> : <Menu className="size-4" />}
-          </button>
+          <>
+            <button
+              type="button"
+              onClick={() => setDrawerOpen((value) => !value)}
+              className={cn(headerButtonClass, 'inline-flex lg:hidden')}
+              aria-label="Toggle navigation"
+              aria-expanded={drawerOpen}
+            >
+              {drawerOpen ? <X className="size-4" /> : <Menu className="size-4" />}
+            </button>
+            <button
+              type="button"
+              onClick={() => setPreference('navigationCollapsed', !navigationCollapsed)}
+              className={cn(headerButtonClass, 'hidden lg:inline-flex')}
+              aria-label={navigationCollapsed ? 'Expand navigation' : 'Collapse navigation'}
+              aria-expanded={!navigationCollapsed}
+              title={navigationCollapsed ? 'Expand navigation' : 'Collapse navigation'}
+            >
+              {navigationCollapsed ? (
+                <PanelLeftOpen className="size-4" aria-hidden />
+              ) : (
+                <PanelLeftClose className="size-4" aria-hidden />
+              )}
+            </button>
+          </>
         ) : null}
         <Link to="/" className="font-semibold tracking-tight">
           <Inline as="span" inline gap="sm">
@@ -84,6 +104,9 @@ export function CampaignShell() {
           onQueryChange={setQuery}
           className="relative hidden w-full max-w-xs sm:block"
         />
+        {DM_MODE_AVAILABLE ? (
+          <DmControls dmMode={dmMode} onToggleDmMode={() => setPreference('dmMode', !dmMode)} />
+        ) : null}
         <ThemeToggle theme={theme} onToggle={toggleTheme} />
       </Inline>
     </Inline>
@@ -94,11 +117,7 @@ export function CampaignShell() {
       {drawerOpen ? (
         <CampaignSearch query={query} onQueryChange={setQuery} onNavigate={closeDrawer} />
       ) : null}
-      <Sidebar
-        collapsed={drawerOpen ? false : sidebarCollapsed}
-        onNavigate={closeDrawer}
-        onToggleCollapsed={drawerOpen ? undefined : () => setSidebarCollapsed((value) => !value)}
-      />
+      <Sidebar collapsed={drawerOpen ? false : navigationCollapsed} onNavigate={closeDrawer} />
     </Stack>
   )
 
@@ -111,12 +130,14 @@ export function CampaignShell() {
       navigation={navigation}
       navigationRef={drawerRef}
       navigationOpen={drawerOpen}
-      navigationCollapsed={sidebarCollapsed}
+      navigationCollapsed={navigationCollapsed}
       hasNavigation={hasNavigation}
       focused={focused}
       onDismissNavigation={closeDrawer}
     >
-      <Outlet />
+      <DmModeContext value={dmMode}>
+        <Outlet />
+      </DmModeContext>
       {PlayerScreenDock ? (
         <Suspense fallback={null}>
           <PlayerScreenDock />
