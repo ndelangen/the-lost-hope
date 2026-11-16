@@ -1,6 +1,7 @@
 import alchemist from './alchemist.ts'
 import commoner from './commoner.ts'
 import guard from './guard.ts'
+import mage from './mage.ts'
 import noble from './noble.ts'
 import pirate_captain from './pirate-captain.ts'
 import spy from './spy.ts'
@@ -10,6 +11,7 @@ export default {
   alchemist,
   commoner,
   guard,
+  mage,
   noble,
   pirate_captain,
   spy,

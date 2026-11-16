@@ -140761,6 +140761,7 @@
       "sourceUrl": "https://game-icons.net/1x1/carl-olsen/flame.html",
       "usedIn": [
         "src/data/beasts/phoenix-chick.ts",
+        "src/data/creatures/mage.ts",
         "src/data/npcs/bob-the-merchant.ts",
         "src/lib/ability-icons.tsx"
       ]
@@ -174849,6 +174850,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/magic-swirl.html",
       "usedIn": [
+        "src/data/creatures/mage.ts",
         "src/data/npcs/bob-the-merchant.ts",
         "src/data/npcs/hex.ts",
         "src/data/npcs/sarogarth.ts",
@@ -176846,7 +176848,10 @@
       "classification": "useful",
       "classificationReason": "Manually classified as useful from the /_icons review page.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/mecha-head.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/arcs/the-weapon-that-woke-up.ts",
+        "src/lib/arc-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiMechaMask",
@@ -197971,6 +197976,7 @@
         "src/data/beasts/serpent-eclipse-lake-serpent.ts",
         "src/data/beasts/wolfie.ts",
         "src/data/creatures/alchemist.ts",
+        "src/data/creatures/mage.ts",
         "src/data/creatures/pirate-captain.ts",
         "src/data/npcs/anton-tempest.ts",
         "src/data/npcs/bessy.ts",

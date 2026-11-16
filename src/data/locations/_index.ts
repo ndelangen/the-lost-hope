@@ -24,6 +24,7 @@ import fajanet from './fajanet.ts'
 import feywild from './feywild.ts'
 import flying_bazaar_crafting_area from './flying-bazaar-crafting-area.ts'
 import flying_bazaar_kitchen from './flying-bazaar-kitchen.ts'
+import foundry_nine from './foundry-nine.ts'
 import gambling_deck from './gambling-deck.ts'
 import giggles_and_gadgets from './giggles-and-gadgets.ts'
 import greenhollow from './greenhollow.ts'
@@ -128,6 +129,7 @@ export default {
   fajanet_guildhall_bathroom,
   flying_bazaar_crafting_area,
   flying_bazaar_kitchen,
+  foundry_nine,
   holy_site,
   lower_stables,
   jim_s_room_at_skynet_s_second_best_inn,
