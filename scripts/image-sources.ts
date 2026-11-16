@@ -21,6 +21,42 @@ export type ResponsiveImageSource = {
 
 export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
   {
+    id: 'location-map-ride-the-lightning-main-deck',
+    role: 'map',
+    logicalSource: '/assets/maps/ride-the-lightning-main-deck.jpg',
+    repositoryPath: 'assets/images/maps/ride-the-lightning-main-deck.png',
+  },
+  {
+    id: 'location-map-master-of-puppets-main-deck',
+    role: 'map',
+    logicalSource: '/assets/maps/master-of-puppets-main-deck.jpg',
+    repositoryPath: 'assets/images/maps/master-of-puppets-main-deck.png',
+  },
+  {
+    id: 'location-map-ride-the-lightning-gun-deck',
+    role: 'map',
+    logicalSource: '/assets/maps/ride-the-lightning-gun-deck.jpg',
+    repositoryPath: 'assets/images/maps/ride-the-lightning-gun-deck.png',
+  },
+  {
+    id: 'location-map-master-of-puppets-gun-deck',
+    role: 'map',
+    logicalSource: '/assets/maps/master-of-puppets-gun-deck.jpg',
+    repositoryPath: 'assets/images/maps/master-of-puppets-gun-deck.png',
+  },
+  {
+    id: 'location-map-sky-bridge-ferry',
+    role: 'map',
+    logicalSource: '/assets/maps/sky-bridge-ferry.jpg',
+    repositoryPath: 'assets/images/maps/sky-bridge-ferry.png',
+  },
+  {
+    id: 'location-map-beasts-and-dwarf-s-airship',
+    role: 'map',
+    logicalSource: '/assets/maps/beasts-and-dwarf-s-airship.jpg',
+    repositoryPath: 'assets/images/maps/beasts-and-dwarf-s-airship.png',
+  },
+  {
     id: 'location-map-three-sky-kingdoms',
     role: 'map',
     logicalSource: '/assets/maps/three-sky-kingdoms.jpg',

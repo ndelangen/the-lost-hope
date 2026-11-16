@@ -4,7 +4,11 @@ import { create as createScene } from '#/definitions/scene.ts'
 export default createScene({
   name: 'Onana calls the party to war',
   illustration: '/assets/scenes/onana-calls-the-party-to-war.png',
-  location: refs.locations.nimbus,
+  location: refs.locations.master_of_puppets_main_deck,
+  battleMaps: [
+    refs.locations.master_of_puppets_main_deck,
+    refs.locations.master_of_puppets_gun_deck,
+  ],
   npcs: [refs.npcs.onana_tempest, refs.npcs.captain_garran],
   references: [
     refs.npcs.the_father,

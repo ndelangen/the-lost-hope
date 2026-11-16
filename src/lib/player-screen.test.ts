@@ -75,6 +75,18 @@ describe('player screen', () => {
     expect(npcsWithArt.filter((npc) => !keys.has(npc.key))).toEqual([])
   })
 
+  it('offers both cruiser decks once without player captions', () => {
+    const scene = scenes.taking_back_a_battle_cruiser!
+    const onPage = playerScreenOptionsForPage(options, `/dm/scenes/${scene.slug}`)
+    const maps = onPage.filter((option) => option.group === 'Maps')
+
+    expect(maps.map((option) => option.selection.ref.key)).toEqual([
+      'ride_the_lightning_main_deck',
+      'ride_the_lightning_gun_deck',
+    ])
+    expect(maps.every((option) => option.playerCaption === undefined)).toBe(true)
+  })
+
   it('finds pictures by name', () => {
     const first = npcOptions[0]!
     expect(filterPlayerScreenOptions(options, first.name)).toContainEqual(first)

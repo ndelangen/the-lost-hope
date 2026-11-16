@@ -163,8 +163,8 @@ const PAGE_KINDS: ReadonlyArray<
 ]
 
 /**
- * The pictures of the record on the page the DM is looking at. A scene also offers its location
- * and the NPCs in it, which are what the DM most often shows while running it.
+ * The pictures of the record on the page the DM is looking at, including maps and other records
+ * associated with a scene.
  */
 export function playerScreenOptionsForPage(
   options: readonly PlayerScreenOption[],
@@ -184,12 +184,18 @@ export function playerScreenOptionsForPage(
     if (kind === 'scene') {
       const scene = scenes[key]
       // Then the characters and places the scene mentions, such as Jim when the Hand comes for him.
-      if (scene) related.push(scene.location, ...scene.npcs, ...scene.references)
+      if (scene)
+        related.push(scene.location, ...scene.battleMaps, ...scene.npcs, ...scene.references)
     }
+    const seen = new Set<string>()
     return related.flatMap((ref) =>
-      options.filter(
-        (option) => option.selection.ref.ref === ref.ref && option.selection.ref.key === ref.key,
-      ),
+      options.filter((option) => {
+        if (option.selection.ref.ref !== ref.ref || option.selection.ref.key !== ref.key)
+          return false
+        if (seen.has(option.id)) return false
+        seen.add(option.id)
+        return true
+      }),
     )
   }
   return []

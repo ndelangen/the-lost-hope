@@ -1,5 +1,6 @@
 import badesh_forest from './badesh-forest.ts'
 import badesh from './badesh.ts'
+import beasts_and_dwarf_s_airship_decks from './beasts-and-dwarf-s-airship-decks.ts'
 import bessy_s_nimbus_stall from './bessy-s-nimbus-stall.ts'
 import blackstone_stables from './blackstone-stables.ts'
 import bob_s_stall from './bob-s-stall.ts'
@@ -39,6 +40,8 @@ import gruumsh_war_temple from './gruumsh-war-temple.ts'
 import holy_site from './holy-site.ts'
 import jim_s_room_at_skynet_s_second_best_inn from './jim-s-room-at-skynet-s-second-best-inn.ts'
 import lower_stables from './lower-stables.ts'
+import master_of_puppets_gun_deck from './master-of-puppets-gun-deck.ts'
+import master_of_puppets_main_deck from './master-of-puppets-main-deck.ts'
 import mortimer_s_shop from './mortimer-s-shop.ts'
 import mortimer_s_underground_workshop from './mortimer-s-underground-workshop.ts'
 import mountain_cliff from './mountain-cliff.ts'
@@ -54,6 +57,8 @@ import penelope_s_underground_workshop from './penelope-s-underground-workshop.t
 import puzzle_room from './puzzle-room.ts'
 import rare_animal_dealer_s_premises from './rare-animal-dealer-s-premises.ts'
 import reve from './reve.ts'
+import ride_the_lightning_gun_deck from './ride-the-lightning-gun-deck.ts'
+import ride_the_lightning_main_deck from './ride-the-lightning-main-deck.ts'
 import saltmere from './saltmere.ts'
 import sea_of_unknown from './sea-of-unknown.ts'
 import serpent_eclipse_crystal_oasis from './serpent-eclipse-crystal-oasis.ts'
@@ -74,6 +79,7 @@ import shadow_realm from './shadow-realm.ts'
 import shadowpeak_mining_operation from './shadowpeak-mining-operation.ts'
 import shadowpeak_residential_district from './shadowpeak-residential-district.ts'
 import shadowpeak from './shadowpeak.ts'
+import sky_bridge_ferry from './sky-bridge-ferry.ts'
 import skynet_airship_shipyard from './skynet-airship-shipyard.ts'
 import skynet_coin_dealer from './skynet-coin-dealer.ts'
 import skynet_magic_artifact_shop from './skynet-magic-artifact-shop.ts'
@@ -110,6 +116,12 @@ import verdant_haven from './verdant-haven.ts'
 import world from './world.ts'
 
 export default {
+  ride_the_lightning_main_deck,
+  master_of_puppets_main_deck,
+  ride_the_lightning_gun_deck,
+  master_of_puppets_gun_deck,
+  sky_bridge_ferry,
+  beasts_and_dwarf_s_airship_decks,
   serpent_eclipse_crystal_oasis,
   world,
   continent_of_the_dead,
