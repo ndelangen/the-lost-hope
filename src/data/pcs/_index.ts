@@ -1,3 +1,4 @@
+import auren from './auren.ts'
 import cassian_veyl from './cassian-veyl.ts'
 import devan from './devan.ts'
 import fix from './fix.ts'
@@ -19,5 +20,6 @@ export default {
   swift_starblade,
   theron,
   victor_dranzig,
+  auren,
   william_greenhove,
 }
