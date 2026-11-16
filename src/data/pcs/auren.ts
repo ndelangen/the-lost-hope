@@ -1,3 +1,4 @@
+import { refs } from '#/data/generated/refs.ts'
 import { create as createPC } from '#/definitions/pc.ts'
 
 export default createPC({
@@ -34,7 +35,14 @@ export default createPC({
       'His defining thought: “I was created to obey. I was named to serve. But now, for the first time, I choose who I am.”',
     ],
     [
-      'Open for the DM: his master and the factory have no names yet, and how he joins the party is not settled. The backstory says the elves were nearly wiped out; the campaign so far only says they lost, and elves still live in the world.',
+      'Before he joins the party he works for ',
+      refs.npcs.esia,
+      ' at her shipyard on ',
+      refs.locations.skynet,
+      ' as her test pilot and technician. That is why he knows ships well enough to jump-start the ferry.',
+    ],
+    [
+      'Open for the DM: his master and the factory have no names yet. The backstory says the elves were nearly wiped out; the campaign so far only says they lost, and elves still live in the world.',
     ],
   ],
 })
