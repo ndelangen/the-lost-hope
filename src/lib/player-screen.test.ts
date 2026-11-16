@@ -54,12 +54,11 @@ describe('player screen', () => {
     )!
     const onPage = playerScreenOptionsForPage(options, `/dm/scenes/${scene.slug}`)
     expect(onPage[0]?.selection).toEqual({ image: 'illustration', ref: { ref: 'scene', key } })
-    const refs = new Set(onPage.map((option) => option.selection.ref.key))
-    for (const npc of scene.npcs) {
-      if (npcOptions.some((option) => option.selection.ref.key === npc.key)) {
-        expect(refs.has(npc.key)).toBe(true)
-      }
-    }
+    const keys = new Set(onPage.map((option) => option.selection.ref.key))
+    const npcsWithArt = scene.npcs.filter((npc) =>
+      npcOptions.some((option) => option.selection.ref.key === npc.key),
+    )
+    expect(npcsWithArt.filter((npc) => !keys.has(npc.key))).toEqual([])
   })
 
   it('finds pictures by name', () => {
