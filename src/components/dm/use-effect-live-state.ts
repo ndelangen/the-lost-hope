@@ -8,10 +8,18 @@ function readState(fallbackDay: number): EffectLiveState {
   try {
     const raw = localStorage.getItem(STORAGE_KEY)
     const parsed = raw ? (JSON.parse(raw) as Partial<EffectLiveState>) : undefined
-    if (parsed && typeof parsed.day === 'number' && parsed.met && typeof parsed.met === 'object') {
+    if (
+      parsed &&
+      typeof parsed.day === 'number' &&
+      parsed.met &&
+      typeof parsed.met === 'object' &&
+      parsed.ended &&
+      typeof parsed.ended === 'object'
+    ) {
       return {
         day: Math.max(parsed.day, fallbackDay),
         met: parsed.met,
+        ended: parsed.ended,
         fired: parsed.fired,
       }
     }
