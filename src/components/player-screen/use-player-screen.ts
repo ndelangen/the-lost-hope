@@ -105,7 +105,31 @@ export function usePlayerScreenPresent(): boolean {
 
 export const PLAYER_SCREEN_WINDOW_NAME = 'lost-hope-player-screen'
 
-/** Opens the player screen, or brings the open one forward, without leaving this page. */
-export function openPlayerScreen(): void {
-  window.open('/display', PLAYER_SCREEN_WINDOW_NAME, 'popup,width=1280,height=800')
+type ScreenArea = { availLeft: number; availTop: number; availWidth: number; availHeight: number }
+type ScreenDetails = { screens: readonly ScreenArea[]; currentScreen: ScreenArea }
+type WindowWithScreens = Window & { getScreenDetails?: () => Promise<ScreenDetails> }
+
+/** The screen the DM is not using, when the browser can tell (Chromium browsers such as Brave). */
+async function otherScreen(): Promise<ScreenArea | undefined> {
+  const getScreenDetails = (window as WindowWithScreens).getScreenDetails
+  if (!getScreenDetails) return undefined
+  try {
+    const details = await getScreenDetails.call(window)
+    return details.screens.find((screen) => screen !== details.currentScreen)
+  } catch {
+    // The DM declined window management, or the browser does not offer it.
+    return undefined
+  }
+}
+
+/**
+ * Opens the player screen on the other monitor, filling it, or brings the open one forward. Where
+ * the browser cannot place windows, it opens a window for the DM to drag across.
+ */
+export async function openPlayerScreen(): Promise<void> {
+  const screen = await otherScreen()
+  const features = screen
+    ? `popup,left=${screen.availLeft},top=${screen.availTop},width=${screen.availWidth},height=${screen.availHeight}`
+    : 'popup,width=1280,height=800'
+  window.open('/display', PLAYER_SCREEN_WINDOW_NAME, features)
 }

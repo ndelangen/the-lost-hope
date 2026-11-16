@@ -26,6 +26,10 @@ function PlayerScreenPage() {
   const caption = captions ? image?.playerCaption : undefined
   const idle = useIdleCursor()
   const fullscreen = useIsFullscreen()
+  useEffect(() => {
+    window.addEventListener('keydown', onKeyDown)
+    return () => window.removeEventListener('keydown', onKeyDown)
+  }, [])
 
   return (
     <div
@@ -67,11 +71,15 @@ function PlayerScreenPage() {
           )}
         >
           <Maximize className="size-5" aria-hidden />
-          Go full screen
+          Go full screen (F)
         </button>
       )}
     </div>
   )
+}
+
+function onKeyDown(event: KeyboardEvent) {
+  if (event.key === 'f' || event.key === 'F') toggleFullscreen()
 }
 
 function toggleFullscreen() {

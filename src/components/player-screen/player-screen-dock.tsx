@@ -142,7 +142,7 @@ function PlayerScreenPanel({
         </div>
         <button
           type="button"
-          onClick={openPlayerScreen}
+          onClick={() => void openPlayerScreen()}
           className={cn(
             'flex h-11 items-center gap-2 rounded-lg px-3 text-sm font-medium',
             present
@@ -151,7 +151,7 @@ function PlayerScreenPanel({
           )}
         >
           <MonitorUp className="size-4" aria-hidden />
-          {present ? 'Bring forward' : 'Open player screen'}
+          {present ? 'Bring forward' : 'Open on players’ screen'}
         </button>
         <button
           type="button"
