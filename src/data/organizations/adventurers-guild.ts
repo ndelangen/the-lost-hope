@@ -12,4 +12,11 @@ export default createOrganization({
       'Each recruit is inducted with a guild-mark tattoo and granted a single favor from the guildmaster.',
     ],
   ],
+  background: [
+    [
+      'The guild tattoo resists getting lost. It is a record of the member written on the body, so no tattooed guild member can fall under the control of ',
+      refs.npcs.the_father,
+      '.',
+    ],
+  ],
 })

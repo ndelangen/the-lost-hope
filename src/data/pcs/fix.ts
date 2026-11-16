@@ -41,7 +41,14 @@ export default createPC({
       '. She is actively hunting him.',
     ],
     [
-      'She has a special connection to an unidentified organization of necromancers. Players suspect this connection prevented her from receiving a normal guild tattoo, but that explanation is unconfirmed and the player characters do not know about it.',
+      'She has a special connection to an unidentified organization of necromancers. Players suspect this connection prevented her from receiving a normal guild tattoo, and the player characters do not know about it.',
+    ],
+    [
+      'The real reason she could not receive a guild tattoo is that she was already under the control of ',
+      refs.npcs.the_father,
+      ', which the tattoo of the ',
+      refs.organizations.adventurers_guild,
+      ' does not allow. Her fake tattoo gives her none of its protection.',
     ],
   ],
 })
