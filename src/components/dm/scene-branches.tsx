@@ -1,22 +1,38 @@
 import { ChevronRight } from 'lucide-react'
 
 import { ContentRenderer } from '#/components/content-renderer'
+import { DmNpcBrief } from '#/components/dm/dm-npc-brief'
 import type { SceneBranch } from '#/lib/scene-branches'
 
 const followUpLabel = (count: number) => `${count} follow-up${count === 1 ? '' : 's'}`
 
 /** A scene's "if…" branches as a folding tree: follow-ups sit inside the branch they depend on. */
-export function SceneBranches({ branches }: { branches: SceneBranch[] }) {
+export function SceneBranches({
+  branches,
+  showCast = false,
+}: {
+  branches: SceneBranch[]
+  /** Show a brief for each NPC a branch names, inside that branch. */
+  showCast?: boolean
+}) {
   return (
     <ul className="grid gap-2">
       {branches.map((branch) => (
-        <FoldingBranch key={branch.id} branch={branch} depth={0} />
+        <FoldingBranch key={branch.id} branch={branch} depth={0} showCast={showCast} />
       ))}
     </ul>
   )
 }
 
-function FoldingBranch({ branch, depth }: { branch: SceneBranch; depth: number }) {
+function FoldingBranch({
+  branch,
+  depth,
+  showCast,
+}: {
+  branch: SceneBranch
+  depth: number
+  showCast: boolean
+}) {
   return (
     <li>
       <details open={depth === 0} className="group bg-muted/50 rounded-md">
@@ -33,12 +49,26 @@ function FoldingBranch({ branch, depth }: { branch: SceneBranch; depth: number }
         </summary>
         <div className="grid gap-3 px-3 pb-3 pl-11">
           <ContentRenderer content={branch.response} className="text-muted-foreground" />
+          {showCast && branch.npcs.length > 0 ? (
+            <ul className="grid gap-2 md:grid-cols-2">
+              {branch.npcs.map((npc) => (
+                <li key={npc.key} className="border-border bg-card rounded-lg border p-3">
+                  <DmNpcBrief npc={npc} />
+                </li>
+              ))}
+            </ul>
+          ) : null}
           {branch.followUps.length > 0 ? (
             <div className="border-border grid gap-2 border-l-2 pl-3">
               <p className="text-muted-foreground text-xs font-semibold uppercase">Then, if…</p>
               <ul className="grid gap-2">
                 {branch.followUps.map((child) => (
-                  <FoldingBranch key={child.id} branch={child} depth={depth + 1} />
+                  <FoldingBranch
+                    key={child.id}
+                    branch={child}
+                    depth={depth + 1}
+                    showCast={showCast}
+                  />
                 ))}
               </ul>
             </div>

@@ -33,6 +33,7 @@ export function HoverPreview({
   side = 'top',
   interactive = false,
   className,
+  previewClassName,
   style,
 }: {
   children: ReactNode
@@ -40,6 +41,7 @@ export function HoverPreview({
   side?: PreviewSide
   interactive?: boolean
   className?: string
+  previewClassName?: string
   style?: CSSProperties
 }) {
   const id = useId()
@@ -192,6 +194,7 @@ export function HoverPreview({
                 'border-border bg-card text-foreground fixed z-[100] w-max rounded-lg border px-3 py-2 text-xs shadow-lg',
                 interactive ? 'max-w-72' : 'pointer-events-none max-w-64',
                 position ? 'opacity-100' : 'opacity-0',
+                previewClassName,
               )}
             >
               {content}

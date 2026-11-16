@@ -1,4 +1,4 @@
-import { createContext, useContext, type ComponentType } from 'react'
+import { createContext, useContext, type ComponentType, type ReactNode } from 'react'
 
 import { EntityReference } from '#/components/entity-reference'
 import { ResponsiveImage } from '#/components/responsive-image'
@@ -17,6 +17,14 @@ import { cn } from '#/lib/utils'
  */
 export const HiddenReferenceContext = createContext<
   ComponentType<{ reference: Reference }> | undefined
+>(undefined)
+
+/**
+ * Lets a page render some references its own way, such as NPCs as cards on a DM scene page.
+ * Returning undefined keeps the standard rendering.
+ */
+export const ReferenceOverrideContext = createContext<
+  ((reference: Reference) => ReactNode | undefined) | undefined
 >(undefined)
 
 type ContentParagraph = Content[number]
@@ -148,6 +156,8 @@ function ContentExternalLink({ link }: { link: ExternalLink }) {
 
 function ContentReference({ reference }: { reference: Reference }) {
   const Hidden = useContext(HiddenReferenceContext)
+  const override = useContext(ReferenceOverrideContext)?.(reference)
+  if (override !== undefined) return override
   const link = refLink(reference)
   if (!link) return Hidden ? <Hidden reference={reference} /> : null
   return <EntityReference kind={link.kind} slug={link.slug} label={link.name} />
