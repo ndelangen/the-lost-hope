@@ -4,7 +4,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 export default createEvent({
   name: 'The party arrives on Nimbus',
   day: 20,
-  location: refs.locations.nimbus,
+  location: refs.locations.nimbus_harbour,
   mark: { type: 'icon', name: 'gi/GiFloatingPlatforms' },
   notes: [
     [

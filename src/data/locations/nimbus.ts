@@ -14,7 +14,7 @@ export default createLocation({
   type: 'settlement',
   parent: refs.locations.three_sky_kingdoms,
   at: [338, 174],
-  map: { url: '/assets/maps/nimbus.jpg', width: 1536, height: 1024 },
+  map: { url: '/assets/maps/nimbus.jpg', width: 1536, height: 1024, schematicPositions: true },
   notes: [
     [
       'The first inhabited ',

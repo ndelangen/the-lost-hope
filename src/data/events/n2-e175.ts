@@ -4,7 +4,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 export default createEvent({
   name: 'The party helps Sarogarth sell an ancient coin',
   day: 24,
-  location: refs.locations.skynet,
+  location: refs.locations.skynet_coin_dealer,
   mark: { type: 'avatar', of: refs.pcs.devan },
   notes: [
     [

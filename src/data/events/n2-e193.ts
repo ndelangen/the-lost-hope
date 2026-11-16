@@ -22,12 +22,12 @@ export default createEvent({
       ' his 1,000-gold roulette share.',
     ],
     [
-      'The original chest remained at the casino on ',
-      refs.locations.nimbus,
+      'The original chest remained at ',
+      refs.locations.borris_s_gambling_den,
       '. The DM ruled that it could not be taken away inside the replacement bag.',
     ],
   ],
   day: 24,
-  location: refs.locations.nimbus,
+  location: refs.locations.borris_s_gambling_den,
   mark: { type: 'icon', name: 'gi/GiTrade' },
 })

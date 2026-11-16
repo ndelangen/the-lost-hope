@@ -8,7 +8,7 @@ export default createLocation({
   type: 'settlement',
   parent: refs.locations.three_sky_kingdoms,
   at: [1260, 840],
-  map: { url: '/assets/maps/tempest.jpg', width: 1536, height: 1024 },
+  map: { url: '/assets/maps/tempest.jpg', width: 1536, height: 1024, schematicPositions: true },
   notes: [
     [
       'The noble rulers of the sky islands reside here. A colosseum provides entertainment through combat.',

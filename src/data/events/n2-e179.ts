@@ -4,7 +4,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 export default createEvent({
   name: 'The party commissions an airship for gold and two favors',
   day: 24,
-  location: refs.locations.skynet,
+  location: refs.locations.skynet_airship_shipyard,
   mark: { type: 'icon', name: 'gi/GiShipWheel' },
   notes: [
     [
