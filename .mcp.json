@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "campaign": {
+      "command": "bun",
+      "args": ["scripts/campaign-mcp/server.ts"]
+    }
+  }
+}

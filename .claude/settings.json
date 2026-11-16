@@ -1,0 +1,6 @@
+{
+  "enabledMcpjsonServers": ["campaign"],
+  "permissions": {
+    "allow": ["mcp__campaign"]
+  }
+}
