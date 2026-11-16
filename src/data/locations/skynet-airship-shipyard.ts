@@ -8,4 +8,5 @@ export default createLocation({
   type: 'district',
   parent: refs.locations.skynet,
   at: [250, 658],
+  map: { url: '/assets/maps/skynet-airship-shipyard.jpg', width: 1536, height: 1024 },
 })

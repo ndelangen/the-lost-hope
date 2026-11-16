@@ -39,10 +39,22 @@ export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
     repositoryPath: 'assets/images/maps/nimbus.png',
   },
   {
+    id: 'location-map-nimbus-harbour',
+    role: 'map',
+    logicalSource: '/assets/maps/nimbus-harbour.jpg',
+    repositoryPath: 'assets/images/maps/nimbus-harbour.png',
+  },
+  {
     id: 'location-map-skynet',
     role: 'map',
     logicalSource: '/assets/maps/skynet.jpg',
     repositoryPath: 'assets/images/maps/skynet.png',
+  },
+  {
+    id: 'location-map-skynet-airship-shipyard',
+    role: 'map',
+    logicalSource: '/assets/maps/skynet-airship-shipyard.jpg',
+    repositoryPath: 'assets/images/maps/skynet-airship-shipyard.png',
   },
   {
     id: 'location-illustration-skynet',
@@ -55,6 +67,12 @@ export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
     role: 'map',
     logicalSource: '/assets/maps/tempest.jpg',
     repositoryPath: 'assets/images/maps/tempest.png',
+  },
+  {
+    id: 'location-map-onana-tempest-s-estate',
+    role: 'map',
+    logicalSource: '/assets/maps/onana-tempest-s-estate.jpg',
+    repositoryPath: 'assets/images/maps/onana-tempest-s-estate.png',
   },
   {
     id: 'location-map-gruumsh-war-temple',
