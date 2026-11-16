@@ -396,6 +396,7 @@ export const refs = {
     shadowpeak_residential_district: ref('location', 'shadowpeak_residential_district'),
     skynet: ref('location', 'skynet'),
     skynet_sky_bridge_landing: ref('location', 'skynet_sky_bridge_landing'),
+    skynet_nimbus_crossing: ref('location', 'skynet_nimbus_crossing'),
     skynet_airship_shipyard: ref('location', 'skynet_airship_shipyard'),
     skynet_magic_artifact_shop: ref('location', 'skynet_magic_artifact_shop'),
     skynet_coin_dealer: ref('location', 'skynet_coin_dealer'),
