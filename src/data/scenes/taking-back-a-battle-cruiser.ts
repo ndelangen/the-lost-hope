@@ -20,12 +20,13 @@ export default createScene({
   ],
   setup: [
     [
+      'If ',
+      refs.pcs.swift_starblade,
+      ' is not with the party yet, ',
       refs.items.master_of_puppets,
       ' sets down at the wrecked docks of ',
       refs.locations.nimbus,
-      ' just long enough to collect ',
-      refs.pcs.swift_starblade,
-      '. The party is whole again.',
+      ' just long enough to collect him. The party is whole again.',
     ],
     [
       'Above the islands the fleet is turning on itself: cruisers in the colours of the ',
