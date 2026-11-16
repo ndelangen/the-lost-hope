@@ -54,7 +54,7 @@ export default createScene({
       when: [['Three successes.']],
       response: [
         [
-          'They get aboard as the ramp lifts. In the middle of the crossing the battle-cruiser comes alongside and boards the ferry. Run “Boarded by the battle-cruiser” on the ferry deck.',
+          'They get aboard as the ramp lifts. In the middle of the crossing the battle-cruiser bears down on the ferry. Run “Running from the battle-cruiser” on the ferry deck.',
         ],
       ],
     },

@@ -96,11 +96,17 @@ export default createScene({
       ],
     },
     {
-      when: [['The timer runs out, or the ship takes off.']],
+      when: [['The ship takes off.']],
       response: [
         [
-          'The battle-cruiser arrives, over the yard or alongside them in the air. Run “Boarded by the battle-cruiser”.',
+          'Halfway across, the battle-cruiser bears down on them. Run “Running from the battle-cruiser”.',
         ],
+      ],
+    },
+    {
+      when: [['The timer runs out with the ship still on the slip.']],
+      response: [
+        ['The battle-cruiser arrives over the yard. Run “Boarded by the battle-cruiser”.'],
       ],
     },
   ],
