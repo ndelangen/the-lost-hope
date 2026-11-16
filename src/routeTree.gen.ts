@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as IconsRouteImport } from './routes/[_]icons'
+import { Route as DisplayRouteImport } from './routes/display'
 import { Route as DmRouteRouteImport } from './routes/dm/route'
 import { Route as IntroRouteImport } from './routes/intro'
 import { Route as QuestionsRouteImport } from './routes/questions'
@@ -54,6 +55,11 @@ const IndexRoute = IndexRouteImport.update({
 const IconsRoute = IconsRouteImport.update({
   id: '/_icons',
   path: '/_icons',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DisplayRoute = DisplayRouteImport.update({
+  id: '/display',
+  path: '/display',
   getParentRoute: () => rootRouteImport,
 } as any)
 const DmRouteRoute = DmRouteRouteImport.update({
@@ -231,6 +237,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/dm': typeof DmRouteRouteWithChildren
   '/_icons': typeof IconsRoute
+  '/display': typeof DisplayRoute
   '/intro': typeof IntroRoute
   '/questions': typeof QuestionsRoute
   '/locations/list': typeof LocationsListRoute
@@ -268,6 +275,7 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/_icons': typeof IconsRoute
+  '/display': typeof DisplayRoute
   '/intro': typeof IntroRoute
   '/questions': typeof QuestionsRoute
   '/locations/list': typeof LocationsListRoute
@@ -307,6 +315,7 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/dm': typeof DmRouteRouteWithChildren
   '/_icons': typeof IconsRoute
+  '/display': typeof DisplayRoute
   '/intro': typeof IntroRoute
   '/questions': typeof QuestionsRoute
   '/locations/list': typeof LocationsListRoute
@@ -347,6 +356,7 @@ export interface FileRouteTypes {
     | '/'
     | '/dm'
     | '/_icons'
+    | '/display'
     | '/intro'
     | '/questions'
     | '/locations/list'
@@ -384,6 +394,7 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/_icons'
+    | '/display'
     | '/intro'
     | '/questions'
     | '/locations/list'
@@ -422,6 +433,7 @@ export interface FileRouteTypes {
     | '/'
     | '/dm'
     | '/_icons'
+    | '/display'
     | '/intro'
     | '/questions'
     | '/locations/list'
@@ -461,6 +473,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   DmRouteRoute: typeof DmRouteRouteWithChildren
   IconsRoute: typeof IconsRoute
+  DisplayRoute: typeof DisplayRoute
   IntroRoute: typeof IntroRoute
   QuestionsRoute: typeof QuestionsRoute
   LocationsListRoute: typeof LocationsListRoute
@@ -501,6 +514,13 @@ declare module '@tanstack/react-router' {
       path: '/_icons'
       fullPath: '/_icons'
       preLoaderRoute: typeof IconsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/display': {
+      id: '/display'
+      path: '/display'
+      fullPath: '/display'
+      preLoaderRoute: typeof DisplayRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/dm': {
@@ -775,6 +795,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   DmRouteRoute: DmRouteRouteWithChildren,
   IconsRoute: IconsRoute,
+  DisplayRoute: DisplayRoute,
   IntroRoute: IntroRoute,
   QuestionsRoute: QuestionsRoute,
   LocationsListRoute: LocationsListRoute,

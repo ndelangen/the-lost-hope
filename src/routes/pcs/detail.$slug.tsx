@@ -15,6 +15,7 @@ import { DEFAULT_AVATAR } from '#/definitions/media'
 import { effectsOn, getEntity, itemsCarriedBy, itemsOwnedBy, pcStatusLabel } from '#/lib/campaign'
 import { entityContextData } from '#/lib/entity-context-data'
 import { characterMemberships } from '#/lib/entity-page-data'
+import { avatarOnPlayerScreen } from '#/lib/player-screen-state'
 import { publicEntityPageHead } from '#/lib/public-page-metadata'
 
 export const Route = createFileRoute('/pcs/detail/$slug')({
@@ -50,6 +51,7 @@ function PcPage() {
             title={pc.name}
             eyebrow="Player character portrait"
             accessibleLabel={`portrait of ${pc.name}`}
+            playerScreen={avatarOnPlayerScreen('pc', entity.slug)}
           />
         ),
       }}

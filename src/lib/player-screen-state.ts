@@ -1,0 +1,78 @@
+import { z } from 'zod'
+
+import { entityRefForSlug } from '#/lib/campaign'
+
+/**
+ * What the DM puts on the player-facing screen: a record and which of its images to show. The
+ * screen resolves the picture from the record, so a selection never carries an image URL.
+ */
+export const PlayerScreenImage = z.discriminatedUnion('image', [
+  z.strictObject({
+    image: z.literal('avatar'),
+    ref: z.strictObject({ ref: z.enum(['pc', 'npc', 'beast']), key: z.string().min(1) }),
+  }),
+  z.strictObject({
+    image: z.literal('map'),
+    ref: z.strictObject({ ref: z.literal('location'), key: z.string().min(1) }),
+  }),
+  z.strictObject({
+    image: z.literal('illustration'),
+    ref: z.strictObject({ ref: z.enum(['location', 'scene']), key: z.string().min(1) }),
+  }),
+])
+
+export type PlayerScreenImage = z.infer<typeof PlayerScreenImage>
+
+export const PlayerScreenState = z.strictObject({
+  showing: PlayerScreenImage.nullable(),
+  /** Name the record under the image. Only records the party has met are ever named. */
+  captions: z.boolean(),
+})
+
+export type PlayerScreenState = z.infer<typeof PlayerScreenState>
+
+export const EMPTY_PLAYER_SCREEN: PlayerScreenState = { showing: null, captions: true }
+
+export function parsePlayerScreenState(raw: string | null): PlayerScreenState {
+  if (!raw) return EMPTY_PLAYER_SCREEN
+  try {
+    const parsed = PlayerScreenState.safeParse(JSON.parse(raw))
+    return parsed.success ? parsed.data : EMPTY_PLAYER_SCREEN
+  } catch {
+    return EMPTY_PLAYER_SCREEN
+  }
+}
+
+export function playerScreenImageId(selection: PlayerScreenImage): string {
+  return `${selection.image}:${selection.ref.ref}:${selection.ref.key}`
+}
+
+export function samePlayerScreenImage(
+  a: PlayerScreenImage | null | undefined,
+  b: PlayerScreenImage | null | undefined,
+): boolean {
+  return !!a && !!b && playerScreenImageId(a) === playerScreenImageId(b)
+}
+
+export const PLAYER_SCREEN_STORAGE_KEY = 'dag:player-screen'
+/** The player screen announces itself here so the DM's controls know a screen is open. */
+export const PLAYER_SCREEN_CHANNEL = 'dag:player-screen'
+export const PLAYER_SCREEN_HEARTBEAT_MS = 1500
+
+/** A character or creature portrait on a player page, as a player-screen selection. */
+export function avatarOnPlayerScreen(
+  kind: 'pc' | 'npc' | 'beast',
+  slug: string,
+): PlayerScreenImage | undefined {
+  const ref = entityRefForSlug(kind, slug)
+  return ref ? { image: 'avatar', ref } : undefined
+}
+
+/** A location's map or illustration on its page, as a player-screen selection. */
+export function locationOnPlayerScreen(
+  slug: string,
+  image: 'map' | 'illustration',
+): PlayerScreenImage | undefined {
+  const ref = entityRefForSlug('location', slug)
+  return ref ? { image, ref } : undefined
+}

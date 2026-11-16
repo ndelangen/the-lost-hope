@@ -78,6 +78,7 @@ function SceneRoute() {
             previewSizes="(min-width: 1024px) 800px, calc(100vw - 4rem)"
             previewMaxWidth={960}
             className="aspect-[3/2] w-full overflow-hidden rounded-lg"
+            playerScreen={{ image: 'illustration', ref: { ref: 'scene', key } }}
           />
         ) : null}
 
