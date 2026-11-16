@@ -255471,7 +255471,9 @@
       "classification": "questionable",
       "classificationReason": "Manually classified as questionable from the /_icons review page.",
       "sourceUrl": "https://lucide.dev/icons/arrow-down",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/grid-controls.tsx"
+      ]
     },
     {
       "id": "lucide/ArrowDown01",
@@ -256056,7 +256058,8 @@
       "sourceUrl": "https://lucide.dev/icons/arrow-left",
       "usedIn": [
         "src/components/dm/encounter/focus-toolbar.tsx",
-        "src/components/dm/encounter/initiative-row.tsx"
+        "src/components/dm/encounter/initiative-row.tsx",
+        "src/components/player-screen/grid-controls.tsx"
       ]
     },
     {
@@ -256232,7 +256235,8 @@
       "sourceUrl": "https://lucide.dev/icons/arrow-right",
       "usedIn": [
         "src/components/dm/encounter/focus-toolbar.tsx",
-        "src/components/dm/encounter/initiative-row.tsx"
+        "src/components/dm/encounter/initiative-row.tsx",
+        "src/components/player-screen/grid-controls.tsx"
       ]
     },
     {
@@ -256431,7 +256435,9 @@
       "classification": "questionable",
       "classificationReason": "Manually classified as questionable from the /_icons review page.",
       "sourceUrl": "https://lucide.dev/icons/arrow-up",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/grid-controls.tsx"
+      ]
     },
     {
       "id": "lucide/ArrowUp01",
@@ -279201,7 +279207,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/grid-3x3",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/grid-controls.tsx"
+      ]
     },
     {
       "id": "lucide/Grip",
@@ -287680,7 +287688,8 @@
       "sourceUrl": "https://lucide.dev/icons/minus",
       "usedIn": [
         "src/components/dm/encounter/hp-control.tsx",
-        "src/components/dm/ship-damage-clock.tsx"
+        "src/components/dm/ship-damage-clock.tsx",
+        "src/components/player-screen/grid-controls.tsx"
       ]
     },
     {
@@ -292707,6 +292716,7 @@
         "src/components/dm/encounter/combat-status.tsx",
         "src/components/dm/encounter/hp-control.tsx",
         "src/components/dm/ship-damage-clock.tsx",
+        "src/components/player-screen/grid-controls.tsx",
         "src/routes/dm/encounter/index.tsx"
       ]
     },
@@ -294574,6 +294584,7 @@
         "src/components/dm/encounter/combatant-panel.tsx",
         "src/components/dm/npc-portrait-status.tsx",
         "src/components/dm/ship-damage-clock.tsx",
+        "src/components/player-screen/grid-controls.tsx",
         "src/components/player-screen/player-screen-dock.tsx",
         "src/routes/dm/encounter/$id.tsx"
       ]

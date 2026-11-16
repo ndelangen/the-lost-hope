@@ -24,19 +24,25 @@ import {
   type PlayerScreenGroup,
   type PlayerScreenOption,
 } from '#/lib/player-screen'
+import type { PlayerScreenGrid } from '#/lib/player-screen-grid'
 import {
   canStepPlayerScreen,
   jumpPlayerScreen,
+  playerScreenGridFor,
+  playerScreenImageId,
   playerScreenShowing,
   samePlayerScreenImage,
   showOnPlayerScreen,
   stepPlayerScreen,
+  updatePlayerScreenGrid,
   type PlayerScreenImage,
   type PlayerScreenRotation,
   type PlayerScreenState,
 } from '#/lib/player-screen-state'
+import { responsiveImageFor } from '#/lib/public-media'
 import { cn } from '#/lib/utils'
 
+import { GridControls } from './grid-controls'
 import { openPlayerScreen, usePlayerScreen, usePlayerScreenPresent } from './use-player-screen'
 
 /** The DM's small control for choosing what the players' monitor shows, from any page. */
@@ -89,6 +95,12 @@ export function PlayerScreenDock() {
           onJump={(index) => update((current) => jumpPlayerScreen(current, index))}
           onCaptions={(value) => update((state) => ({ ...state, captions: value }))}
           onRotate={(value) => update((state) => ({ ...state, rotation: value }))}
+          onGrid={(change) =>
+            update((state) => {
+              const selection = playerScreenShowing(state)
+              return selection ? updatePlayerScreenGrid(state, selection, change) : state
+            })
+          }
           onClose={() => setOpen(false)}
         />
       ) : null}
@@ -215,6 +227,7 @@ function PlayerScreenPanel({
   onJump,
   onCaptions,
   onRotate,
+  onGrid,
   onClose,
 }: {
   state: PlayerScreenState
@@ -223,6 +236,7 @@ function PlayerScreenPanel({
   onJump: (index: number) => void
   onCaptions: (value: boolean) => void
   onRotate: (value: PlayerScreenRotation) => void
+  onGrid: (change: (grid: PlayerScreenGrid) => PlayerScreenGrid) => void
   onClose: () => void
 }) {
   const showing = playerScreenShowing(state)
@@ -235,6 +249,8 @@ function PlayerScreenPanel({
     [options, pathname],
   )
   const matches = useMemo(() => filterPlayerScreenOptions(options, query), [options, query])
+  const src = showing ? resolvePlayerScreenImage(showing)?.src : undefined
+  const size = src ? responsiveImageFor(src) : undefined
 
   return (
     <section
@@ -318,6 +334,16 @@ function PlayerScreenPanel({
       </fieldset>
 
       <div className="flex min-h-0 flex-1 flex-col gap-4 overflow-y-auto p-3">
+        {showing && src && size ? (
+          <GridControls
+            key={playerScreenImageId(showing)}
+            grid={playerScreenGridFor(state, showing)}
+            src={src}
+            width={size.width}
+            height={size.height}
+            onChange={onGrid}
+          />
+        ) : null}
         <ShownHistory state={state} onJump={onJump} />
         {onThisPage.length > 0 && !query ? (
           <OptionGroup
