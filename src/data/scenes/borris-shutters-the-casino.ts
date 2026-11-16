@@ -86,21 +86,25 @@ export default createScene({
           '“I sense more trouble brewing. I’m closing the casino for the rest of the day.” He does not invite them in.',
         ],
       ],
-    },
-    {
-      when: [['They ask about the body.']],
-      response: [
-        [
-          '“Some delusional bounty hunter. Kept asking about someone in your party. A kenku, if you can believe it. Too persistent, and now too dead.” Then, grudgingly: “Watch your backs. Where one comes asking, more follow.”',
-        ],
-      ],
-    },
-    {
-      when: [['They press him about the bounty hunter or the kenku.']],
-      response: [
-        [
-          'He shrugs: “Didn’t say who was paying. Didn’t get the chance.” A guard calls him, and he goes back inside.',
-        ],
+      followUps: [
+        {
+          when: [['They ask about the body.']],
+          response: [
+            [
+              '“Some delusional bounty hunter. Kept asking about someone in your party. A kenku, if you can believe it. Too persistent, and now too dead.” Then, grudgingly: “Watch your backs. Where one comes asking, more follow.”',
+            ],
+          ],
+          followUps: [
+            {
+              when: [['They press him about the bounty hunter or the kenku.']],
+              response: [
+                [
+                  'He shrugs: “Didn’t say who was paying. Didn’t get the chance.” A guard calls him, and he goes back inside.',
+                ],
+              ],
+            },
+          ],
+        },
       ],
     },
     {

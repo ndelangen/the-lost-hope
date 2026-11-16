@@ -4,10 +4,12 @@ import { Pin, Sword } from 'lucide-react'
 import { ContentRenderer } from '#/components/content-renderer'
 import { DmFaces } from '#/components/dm/dm-faces'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
+import { SceneBranches } from '#/components/dm/scene-branches'
 import { EntityReference } from '#/components/entity-reference'
 import { ImageViewer } from '#/components/image-viewer'
 import { arcs, npcMotivations, resolveSourceRef, scenes, table } from '#/lib/dm-campaign'
 import { plotsByScene } from '#/lib/dm-dashboard'
+import { buildSceneBranches } from '#/lib/scene-branches'
 
 export const Route = createFileRoute('/dm/scenes/$slug')({
   loader: ({ params }) => {
@@ -30,6 +32,7 @@ function SceneRoute() {
   const plots = plotsByScene(arcs).get(key) ?? []
   const pinned = table.pinned.some((ref) => ref.key === key)
   const location = resolveSourceRef(scene.location)
+  const branches = buildSceneBranches(scene.outcomes)
 
   return (
     <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_12rem]">
@@ -108,19 +111,7 @@ function SceneRoute() {
         {scene.outcomes.length > 0 ? (
           <section className="grid gap-2">
             <h2 className="text-muted-foreground text-xs font-semibold uppercase">If…</h2>
-            <dl className="grid gap-2">
-              {scene.outcomes.map((outcome, index) => (
-                // oxlint-disable-next-line react/no-array-index-key -- outcomes have no ids
-                <div key={index} className="bg-muted/50 grid gap-1 rounded-md p-3">
-                  <dt className="font-medium">
-                    <ContentRenderer content={outcome.when} />
-                  </dt>
-                  <dd className="text-muted-foreground">
-                    <ContentRenderer content={outcome.response} />
-                  </dd>
-                </div>
-              ))}
-            </dl>
+            <SceneBranches branches={branches} />
           </section>
         ) : null}
 
