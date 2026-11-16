@@ -264608,7 +264608,8 @@
       "sourceUrl": "https://lucide.dev/icons/check",
       "usedIn": [
         "src/components/dm/encounter/combat-status.tsx",
-        "src/components/dm/encounter/turn-card.tsx"
+        "src/components/dm/encounter/turn-card.tsx",
+        "src/components/player-screen/jims-letter-words-control.tsx"
       ]
     },
     {
@@ -279201,7 +279202,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/grid-3x3",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/grid-controls.tsx"
+      ]
     },
     {
       "id": "lucide/Grip",
@@ -284310,7 +284313,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/lock",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/jims-letter-words-control.tsx"
+      ]
     },
     {
       "id": "lucide/LockKeyhole",
@@ -294574,6 +294579,7 @@
         "src/components/dm/encounter/combatant-panel.tsx",
         "src/components/dm/npc-portrait-status.tsx",
         "src/components/dm/ship-damage-clock.tsx",
+        "src/components/player-screen/grid-controls.tsx",
         "src/components/player-screen/player-screen-dock.tsx",
         "src/routes/dm/encounter/$id.tsx"
       ]
@@ -305330,6 +305336,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/trash-2",
       "usedIn": [
+        "src/components/player-screen/player-screen-dock.tsx",
         "src/routes/dm/encounter/index.tsx"
       ]
     },

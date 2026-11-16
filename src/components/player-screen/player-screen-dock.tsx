@@ -10,6 +10,7 @@ import {
   RotateCcw,
   RotateCw,
   ScrollText,
+  Trash2,
   X,
 } from 'lucide-react'
 import { type ComponentProps, useEffect, useMemo, useRef, useState } from 'react'
@@ -24,19 +25,27 @@ import {
   type PlayerScreenGroup,
   type PlayerScreenOption,
 } from '#/lib/player-screen'
+import type { PlayerScreenGrid } from '#/lib/player-screen-grid'
 import {
   canStepPlayerScreen,
+  clearPlayerScreenHistory,
   jumpPlayerScreen,
+  playerScreenGridFor,
+  playerScreenImageId,
   playerScreenShowing,
   samePlayerScreenImage,
   showOnPlayerScreen,
   stepPlayerScreen,
+  updatePlayerScreenGrid,
   type PlayerScreenImage,
   type PlayerScreenRotation,
   type PlayerScreenState,
 } from '#/lib/player-screen-state'
+import { responsiveImageFor } from '#/lib/public-media'
 import { cn } from '#/lib/utils'
 
+import { GridControls } from './grid-controls'
+import { JimsLetterWordsControl } from './jims-letter-words-control'
 import { openPlayerScreen, usePlayerScreen, usePlayerScreenPresent } from './use-player-screen'
 
 /** The DM's small control for choosing what the players' monitor shows, from any page. */
@@ -87,8 +96,15 @@ export function PlayerScreenDock() {
           present={present}
           onShow={show}
           onJump={(index) => update((current) => jumpPlayerScreen(current, index))}
+          onClear={() => update(clearPlayerScreenHistory)}
           onCaptions={(value) => update((state) => ({ ...state, captions: value }))}
           onRotate={(value) => update((state) => ({ ...state, rotation: value }))}
+          onGrid={(change) =>
+            update((state) => {
+              const selection = playerScreenShowing(state)
+              return selection ? updatePlayerScreenGrid(state, selection, change) : state
+            })
+          }
           onClose={() => setOpen(false)}
         />
       ) : null}
@@ -100,9 +116,9 @@ export function PlayerScreenDock() {
           onClick={() => setOpen((value) => !value)}
           aria-expanded={open}
           aria-label="Player screen controls"
-          className="hover:bg-muted flex h-12 items-center gap-3 rounded-full py-0.5 pr-4 pl-0.5 transition-colors"
+          className="hover:bg-muted flex h-9 items-center gap-3 rounded-full py-0.5 pr-4 pl-0.5 transition-colors"
         >
-          <span className="relative grid h-11 w-16 place-items-center overflow-hidden rounded-full bg-black">
+          <span className="relative grid h-8 w-12 place-items-center overflow-hidden rounded-full bg-black">
             {current ? (
               <PlayerScreenThumb
                 src={current.src}
@@ -159,9 +175,9 @@ function HistoryButton({
       disabled={!canStepPlayerScreen(state, direction)}
       aria-label={`${label}: show the ${direction === -1 ? 'previous' : 'next'} picture`}
       title={`${label} (${direction === -1 ? '[' : ']'})`}
-      className="hover:bg-muted grid size-12 shrink-0 place-items-center rounded-full disabled:opacity-35 disabled:hover:bg-transparent"
+      className="hover:bg-muted grid size-9 shrink-0 place-items-center rounded-full disabled:opacity-35 disabled:hover:bg-transparent"
     >
-      <Icon className="size-6" aria-hidden />
+      <Icon className="size-5" aria-hidden />
     </button>
   )
 }
@@ -213,16 +229,20 @@ function PlayerScreenPanel({
   present,
   onShow,
   onJump,
+  onClear,
   onCaptions,
   onRotate,
+  onGrid,
   onClose,
 }: {
   state: PlayerScreenState
   present: boolean
   onShow: (selection: PlayerScreenImage | null) => void
   onJump: (index: number) => void
+  onClear: () => void
   onCaptions: (value: boolean) => void
   onRotate: (value: PlayerScreenRotation) => void
+  onGrid: (change: (grid: PlayerScreenGrid) => PlayerScreenGrid) => void
   onClose: () => void
 }) {
   const showing = playerScreenShowing(state)
@@ -235,16 +255,18 @@ function PlayerScreenPanel({
     [options, pathname],
   )
   const matches = useMemo(() => filterPlayerScreenOptions(options, query), [options, query])
+  const src = showing ? resolvePlayerScreenImage(showing)?.src : undefined
+  const size = src ? responsiveImageFor(src) : undefined
 
   return (
     <section
       aria-label="Player screen"
-      className="bg-card text-card-foreground border-border flex max-h-[min(44rem,calc(100dvh-6rem))] w-[min(30rem,calc(100vw-2rem))] flex-col overflow-hidden rounded-2xl border shadow-2xl"
+      className="bg-card text-card-foreground border-border flex max-h-[min(48rem,calc(100dvh-6rem))] w-[min(26rem,calc(100vw-2rem))] flex-col overflow-hidden rounded-2xl border shadow-2xl"
     >
-      <header className="border-border flex items-center gap-3 border-b p-3">
+      <header className="border-border flex items-center gap-3 border-b p-2">
         <Monitor className="text-muted-foreground size-5 shrink-0" aria-hidden />
         <div className="min-w-0 flex-1">
-          <h2 className="text-base font-semibold">Player screen</h2>
+          <h2 className="text-sm font-semibold">Player screen</h2>
           <p className="text-muted-foreground text-xs">
             {present ? 'Open in another window' : 'Not open yet'}
           </p>
@@ -253,7 +275,7 @@ function PlayerScreenPanel({
           type="button"
           onClick={() => void openPlayerScreen()}
           className={cn(
-            'flex h-12 items-center gap-2 rounded-lg px-3 text-sm font-medium',
+            'flex h-9 items-center gap-2 rounded-lg px-3 text-sm font-medium',
             present
               ? 'border-border hover:bg-muted border'
               : 'bg-primary text-primary-foreground hover:bg-primary/90',
@@ -266,23 +288,23 @@ function PlayerScreenPanel({
           type="button"
           onClick={onClose}
           aria-label="Close player screen controls"
-          className="hover:bg-muted grid size-12 place-items-center rounded-lg"
+          className="hover:bg-muted grid size-9 place-items-center rounded-lg"
         >
           <X className="size-5" aria-hidden />
         </button>
       </header>
 
-      <div className="border-border flex items-stretch gap-2 border-b p-3">
+      <div className="border-border flex items-stretch gap-2 border-b p-2">
         <button
           type="button"
           onClick={() => onShow(null)}
           disabled={!showing}
-          className="border-border hover:bg-muted flex h-12 flex-1 items-center justify-center gap-2 rounded-lg border text-sm font-medium disabled:opacity-50"
+          className="border-border hover:bg-muted flex h-9 flex-1 items-center justify-center gap-2 rounded-lg border text-sm font-medium disabled:opacity-50"
         >
           <MonitorOff className="size-4" aria-hidden />
           Blank the screen
         </button>
-        <label className="border-border flex h-12 flex-1 cursor-pointer items-center justify-center gap-2 rounded-lg border text-sm font-medium">
+        <label className="border-border flex h-9 flex-1 cursor-pointer items-center justify-center gap-2 rounded-lg border text-sm font-medium">
           <input
             type="checkbox"
             checked={captions}
@@ -293,7 +315,7 @@ function PlayerScreenPanel({
         </label>
       </div>
 
-      <fieldset className="border-border flex items-center gap-2 border-b p-3">
+      <fieldset className="border-border flex items-center gap-2 border-b p-2">
         <legend className="sr-only">Turn the picture</legend>
         <span className="text-muted-foreground w-12 shrink-0 text-xs font-semibold uppercase">
           Turn
@@ -305,7 +327,7 @@ function PlayerScreenPanel({
             onClick={() => onRotate(value)}
             aria-pressed={state.rotation === value}
             className={cn(
-              'flex h-12 flex-1 items-center justify-center gap-2 rounded-lg border text-sm font-medium',
+              'flex h-9 flex-1 items-center justify-center gap-2 rounded-lg border text-sm font-medium',
               state.rotation === value
                 ? 'border-primary bg-primary/10 text-foreground'
                 : 'border-border hover:bg-muted',
@@ -317,8 +339,21 @@ function PlayerScreenPanel({
         ))}
       </fieldset>
 
-      <div className="flex min-h-0 flex-1 flex-col gap-4 overflow-y-auto p-3">
-        <ShownHistory state={state} onJump={onJump} />
+      <div className="flex min-h-0 flex-1 flex-col gap-3 overflow-y-auto p-2">
+        {showing?.image === 'handout' && showing.ref.key === 'jims_letter' ? (
+          <JimsLetterWordsControl />
+        ) : null}
+        <ShownHistory state={state} onJump={onJump} onClear={onClear} />
+        {showing && src && size ? (
+          <GridControls
+            key={playerScreenImageId(showing)}
+            grid={playerScreenGridFor(state, showing)}
+            src={src}
+            width={size.width}
+            height={size.height}
+            onChange={onGrid}
+          />
+        ) : null}
         {onThisPage.length > 0 && !query ? (
           <OptionGroup
             title="On this page"
@@ -333,7 +368,7 @@ function PlayerScreenPanel({
           onChange={(event) => setQuery(event.target.value)}
           placeholder="Find a map, place, NPC or scene"
           aria-label="Find a picture to show"
-          className="h-12"
+          className="h-9"
         />
         {GROUPS.map((group) => {
           const groupOptions = matches.filter((option) => option.group === group)
@@ -360,60 +395,82 @@ function PlayerScreenPanel({
   )
 }
 
-/** What the player screen has shown, newest first, so the DM can jump back to any of it. */
+/** What the player screen has shown, newest first, so the DM can show any of it again or clear it. */
 function ShownHistory({
   state,
   onJump,
+  onClear,
 }: {
   state: PlayerScreenState
   onJump: (index: number) => void
+  onClear: () => void
 }) {
-  if (state.history.length < 2) return null
   const entries = state.history.map((selection, index) => ({ selection, index })).toReversed()
   return (
-    <section aria-label="Shown so far" className="flex flex-col gap-2">
-      <h3 className="text-muted-foreground text-xs font-semibold tracking-wider uppercase">
-        Shown so far
-      </h3>
-      <ol className="-mx-1 flex gap-2 overflow-x-auto px-1 pb-1">
-        {entries.map(({ selection, index }) => {
-          const resolved = selection ? resolvePlayerScreenImage(selection) : undefined
-          const active = index === state.index
-          const name = resolved?.name ?? 'Blank'
-          return (
-            <li key={index} className="shrink-0">
-              <button
-                type="button"
-                onClick={() => onJump(index)}
-                aria-current={active ? 'true' : undefined}
-                aria-label={active ? `${name}, showing now` : `Show ${name} again`}
-                title={name}
-                className={cn(
-                  'flex w-20 flex-col gap-1 rounded-lg p-1 text-left',
-                  active ? 'bg-primary/10 ring-primary ring-2' : 'hover:bg-muted',
-                  index > state.index && 'opacity-60',
-                )}
-              >
-                <span className="grid aspect-[3/2] w-full place-items-center overflow-hidden rounded-md bg-black">
-                  {resolved ? (
-                    <PlayerScreenThumb
-                      src={resolved.src}
-                      alt=""
-                      sizes="80px"
-                      maxWidth={192}
-                      loading="lazy"
-                      className="size-full object-cover"
-                    />
-                  ) : (
-                    <MonitorOff className="size-4 text-white/60" aria-hidden />
+    <section aria-label="Shown so far" className="flex flex-col gap-1">
+      <div className="flex items-center justify-between gap-2">
+        <h3 className="text-muted-foreground text-xs font-semibold tracking-wider uppercase">
+          Shown so far
+        </h3>
+        <button
+          type="button"
+          onClick={onClear}
+          disabled={state.history.length < 2}
+          className="text-muted-foreground hover:bg-muted hover:text-foreground flex h-8 items-center gap-1.5 rounded-md px-2 text-xs font-medium disabled:opacity-40 disabled:hover:bg-transparent"
+        >
+          <Trash2 className="size-3.5" aria-hidden />
+          Clear history
+        </button>
+      </div>
+      {state.history.length < 2 && !state.history[0] ? (
+        <p className="text-muted-foreground py-1 text-xs">Nothing shown yet.</p>
+      ) : (
+        <ol className="flex max-h-44 flex-col overflow-y-auto">
+          {entries.map(({ selection, index }) => {
+            const resolved = selection ? resolvePlayerScreenImage(selection) : undefined
+            const active = index === state.index
+            const name = resolved?.name ?? 'Blank screen'
+            return (
+              <li key={index}>
+                <button
+                  type="button"
+                  onClick={() => onJump(index)}
+                  aria-current={active ? 'true' : undefined}
+                  aria-label={active ? `${name}, showing now` : `Show ${name} again`}
+                  className={cn(
+                    'flex w-full items-center gap-2 rounded-md p-1 text-left',
+                    active ? 'bg-primary/10' : 'hover:bg-muted',
+                    index > state.index && 'opacity-60',
                   )}
-                </span>
-                <span className="truncate text-[11px] leading-tight font-medium">{name}</span>
-              </button>
-            </li>
-          )
-        })}
-      </ol>
+                >
+                  <span className="grid h-8 w-12 shrink-0 place-items-center overflow-hidden rounded bg-black">
+                    {resolved ? (
+                      <PlayerScreenThumb
+                        src={resolved.src}
+                        alt=""
+                        sizes="48px"
+                        maxWidth={128}
+                        loading="lazy"
+                        className="size-full object-cover"
+                      />
+                    ) : (
+                      <MonitorOff className="size-3.5 text-white/60" aria-hidden />
+                    )}
+                  </span>
+                  <span className="min-w-0 flex-1 truncate text-xs font-medium">{name}</span>
+                  {active ? (
+                    <span className="text-primary shrink-0 text-[11px] font-semibold">Showing</span>
+                  ) : resolved ? (
+                    <span className="text-muted-foreground shrink-0 text-[11px]">
+                      {GROUP_LABEL[resolved.group]}
+                    </span>
+                  ) : null}
+                </button>
+              </li>
+            )
+          })}
+        </ol>
+      )}
     </section>
   )
 }
@@ -436,7 +493,7 @@ function OptionGroup({
       <h3 className="text-muted-foreground text-xs font-semibold tracking-wider uppercase">
         {title}
       </h3>
-      <ul className="grid grid-cols-3 gap-2">
+      <ul className="grid grid-cols-4 gap-2">
         {options.map((option) => {
           const active = samePlayerScreenImage(option.selection, showing)
           return (

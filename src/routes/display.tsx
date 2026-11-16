@@ -2,13 +2,20 @@ import { createFileRoute } from '@tanstack/react-router'
 import { Maximize } from 'lucide-react'
 import { lazy, Suspense, useEffect, useState } from 'react'
 
+import { GridOverlay } from '#/components/player-screen/grid-overlay'
 import {
   useAnnouncePlayerScreen,
   usePlayerScreen,
 } from '#/components/player-screen/use-player-screen'
 import { ResponsiveImage } from '#/components/responsive-image'
 import { resolvePlayerScreenImage } from '#/lib/player-screen'
-import { playerScreenImageId, playerScreenShowing } from '#/lib/player-screen-state'
+import { DEFAULT_PLAYER_SCREEN_GRID } from '#/lib/player-screen-grid'
+import {
+  playerScreenGridFor,
+  playerScreenImageId,
+  playerScreenShowing,
+} from '#/lib/player-screen-state'
+import { responsiveImageFor } from '#/lib/public-media'
 import { cn } from '#/lib/utils'
 
 const JimsLetterOnScreen = lazy(() =>
@@ -32,6 +39,8 @@ function PlayerScreenPage() {
   useAnnouncePlayerScreen()
   const image = showing ? resolvePlayerScreenImage(showing) : undefined
   const caption = captions ? image?.playerCaption : undefined
+  const size = image?.src ? responsiveImageFor(image.src) : undefined
+  const grid = showing ? playerScreenGridFor(state, showing) : DEFAULT_PLAYER_SCREEN_GRID
   const idle = useIdleCursor()
   const fullscreen = useIsFullscreen()
   useEffect(() => {
@@ -64,12 +73,30 @@ function PlayerScreenPage() {
         <figure
           key={playerScreenImageId(showing)}
           className={cn(
-            'animate-in fade-in absolute top-1/2 left-1/2 m-0 -translate-x-1/2 -translate-y-1/2 duration-700',
+            'animate-in fade-in absolute top-1/2 left-1/2 m-0 -translate-x-1/2 -translate-y-1/2 [container-type:size] duration-700',
             state.rotation === 0 ? 'h-dvh w-dvw' : 'h-dvw w-dvh',
           )}
           style={state.rotation === 0 ? undefined : { rotate: `${state.rotation}deg` }}
         >
-          {image.src ? (
+          {image.src && size ? (
+            // A box the picture's own shape, so the grid lines up with the art at any size.
+            <div
+              className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+              style={{
+                width: `min(100cqw, 100cqh * ${size.width / size.height})`,
+                aspectRatio: `${size.width} / ${size.height}`,
+              }}
+            >
+              <ResponsiveImage
+                src={image.src}
+                alt={caption ?? ''}
+                sizes="100vw"
+                loading="eager"
+                className="absolute inset-0 size-full"
+              />
+              {grid.on ? <GridOverlay grid={grid} width={size.width} height={size.height} /> : null}
+            </div>
+          ) : image.src ? (
             <ResponsiveImage
               src={image.src}
               alt={caption ?? ''}

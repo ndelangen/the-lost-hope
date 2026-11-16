@@ -13,6 +13,7 @@ import {
   EMPTY_PLAYER_SCREEN,
   PLAYER_SCREEN_HISTORY_LIMIT,
   canStepPlayerScreen,
+  clearPlayerScreenHistory,
   jumpPlayerScreen,
   parsePlayerScreenState,
   playerScreenShowing,
@@ -194,5 +195,20 @@ describe('player screen on a scene page', () => {
     )
     expect(keys.has('npc:silas_wren')).toBe(true)
     expect(keys.has('pc:jim')).toBe(true)
+  })
+})
+
+describe('clearing the player screen history', () => {
+  it('keeps only what is on screen now', () => {
+    const a: PlayerScreenImage = { image: 'map', ref: { ref: 'location', key: 'a' } }
+    const b: PlayerScreenImage = { image: 'map', ref: { ref: 'location', key: 'b' } }
+    const shown = stepPlayerScreen(
+      showOnPlayerScreen(showOnPlayerScreen(EMPTY_PLAYER_SCREEN, a), b),
+      -1,
+    )
+    const cleared = clearPlayerScreenHistory(shown)
+    expect(cleared.history).toEqual([a])
+    expect(cleared.index).toBe(0)
+    expect(clearPlayerScreenHistory(EMPTY_PLAYER_SCREEN)).toBe(EMPTY_PLAYER_SCREEN)
   })
 })

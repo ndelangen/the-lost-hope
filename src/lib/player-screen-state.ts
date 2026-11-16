@@ -2,6 +2,7 @@ import { z } from 'zod'
 
 import { entityRefForSlug } from '#/lib/campaign'
 import { HANDOUTS, type HandoutKey } from '#/lib/handouts'
+import { DEFAULT_PLAYER_SCREEN_GRID, PlayerScreenGrid } from '#/lib/player-screen-grid'
 
 const HANDOUT_KEYS = Object.keys(HANDOUTS) as [HandoutKey, ...HandoutKey[]]
 
@@ -43,6 +44,8 @@ export const PlayerScreenState = z
     captions: z.boolean(),
     /** Turns the whole picture sideways, for handouts and portrait art on a landscape monitor. */
     rotation: z.union([z.literal(0), z.literal(90), z.literal(-90)]).default(0),
+    /** Each picture's battle grid, by picture id, so a map keeps its alignment between showings. */
+    grids: z.record(z.string(), PlayerScreenGrid).default({}),
   })
   .refine((state) => state.index < state.history.length, { path: ['index'] })
 
@@ -53,6 +56,7 @@ export const EMPTY_PLAYER_SCREEN: PlayerScreenState = {
   index: 0,
   captions: true,
   rotation: 0,
+  grids: {},
 }
 
 export type PlayerScreenRotation = PlayerScreenState['rotation']
@@ -153,4 +157,30 @@ export function jumpPlayerScreen(state: PlayerScreenState, index: number): Playe
   return index >= 0 && index < state.history.length && index !== state.index
     ? { ...state, index }
     : state
+}
+
+/** The grid over a picture: the one the DM aligned for it, or a fresh one that is off. */
+export function playerScreenGridFor(
+  state: PlayerScreenState,
+  selection: PlayerScreenImage,
+): PlayerScreenGrid {
+  const id = playerScreenImageId(selection)
+  return Object.hasOwn(state.grids, id) ? state.grids[id]! : DEFAULT_PLAYER_SCREEN_GRID
+}
+
+/** Changes the grid over one picture and remembers it for the next time that picture is shown. */
+export function updatePlayerScreenGrid(
+  state: PlayerScreenState,
+  selection: PlayerScreenImage,
+  change: (grid: PlayerScreenGrid) => PlayerScreenGrid,
+): PlayerScreenState {
+  const grid = change(playerScreenGridFor(state, selection))
+  return { ...state, grids: { ...state.grids, [playerScreenImageId(selection)]: grid } }
+}
+
+/** Forgets everything shown before, keeping only what is on the player screen now. */
+export function clearPlayerScreenHistory(state: PlayerScreenState): PlayerScreenState {
+  return state.history.length < 2
+    ? state
+    : { ...state, history: [playerScreenShowing(state)], index: 0 }
 }
