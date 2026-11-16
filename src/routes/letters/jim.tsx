@@ -42,8 +42,8 @@ function JimsLetterPage() {
   const [words, setWords] = useState<Record<string, string>>({})
   const [unsealed, setUnsealed] = useState<Record<string, string>>({})
   const [attempts, setAttempts] = useState<Record<string, Attempt>>({})
-  const [finale, setFinale] = useState<string | null>(null)
-  const sectionRefs = useRef<Record<string, HTMLElement | null>>({})
+  const [shared, setShared] = useState<{ opening: string; closing: string } | null>(null)
+  const partRefs = useRef<Record<string, HTMLElement | null>>({})
 
   async function tryWord(section: LetterSection, word: string, announceWrong: boolean) {
     if (unsealed[section.id] || normalizePassword(word).length === 0) return
@@ -55,7 +55,7 @@ function JimsLetterPage() {
     }
     setAttempts((current) => ({ ...current, [section.id]: 'idle' }))
     setUnsealed((current) => ({ ...current, [section.id]: text }))
-    sectionRefs.current[section.id]?.scrollIntoView({ behavior: 'smooth', block: 'center' })
+    partRefs.current[section.id]?.scrollIntoView({ behavior: 'smooth', block: 'center' })
   }
 
   // Typing the right word is enough; a short pause avoids testing every keystroke.
@@ -72,17 +72,20 @@ function JimsLetterPage() {
 
   const allSpoken = JIMS_LETTER.sections.every((section) => unsealed[section.id])
   useEffect(() => {
-    if (!allSpoken || finale !== null) return
+    if (!allSpoken || shared !== null) return
     const key = JIMS_LETTER.sections.map((section) => words[section.id] ?? '').join('')
-    void unsealText(JIMS_LETTER.finale.sealed, key).then((text) => {
-      if (text === null) return
-      setFinale(text)
+    void Promise.all([
+      unsealText(JIMS_LETTER.opening, key),
+      unsealText(JIMS_LETTER.closing, key),
+    ]).then(([opening, closing]) => {
+      if (opening === null || closing === null) return
+      setShared({ opening, closing })
       setTimeout(
-        () => sectionRefs.current.finale?.scrollIntoView({ behavior: 'smooth', block: 'center' }),
+        () => partRefs.current.opening?.scrollIntoView({ behavior: 'smooth', block: 'start' }),
         50,
       )
     })
-  }, [allSpoken, finale, words])
+  }, [allSpoken, shared, words])
 
   return (
     <div className="mx-auto flex max-w-3xl flex-col gap-10 py-6">
@@ -91,45 +94,37 @@ function JimsLetterPage() {
           style={HAND}
           className="flex flex-col gap-6 text-[1.7rem] leading-snug sm:text-[1.95rem]"
         >
-          <p className="text-[2.1rem] font-bold sm:text-[2.4rem]">{JIMS_LETTER.greeting}</p>
-          {JIMS_LETTER.opening.map((paragraph) => (
-            <p key={paragraph}>{paragraph}</p>
-          ))}
+          <LetterPart
+            label={JIMS_LETTER.sharedLabel}
+            sealedLength={sealedLength(JIMS_LETTER.opening)}
+            text={shared?.opening}
+            partRef={(node) => {
+              partRefs.current.opening = node
+            }}
+          />
 
           {JIMS_LETTER.sections.map((section) => (
-            <section
+            <LetterPart
               key={section.id}
-              ref={(node) => {
-                sectionRefs.current[section.id] = node
+              label={`For ${recipientName(section)}. ${section.clue}`}
+              sealedLength={sealedLength(section.sealed)}
+              text={unsealed[section.id]}
+              partRef={(node) => {
+                partRefs.current[section.id] = node
               }}
-              className="flex flex-col gap-1 border-t border-[#7a5a32]/30 pt-5"
-            >
-              <p style={PRINT} className="text-base italic opacity-75 sm:text-lg">
-                {section.clue}
-              </p>
-              {unsealed[section.id] ? (
-                <InkReveal text={unsealed[section.id] ?? ''} />
-              ) : (
-                <SealedScrawl length={sealedLength(section.sealed)} />
-              )}
-            </section>
+            />
           ))}
 
-          <section
-            ref={(node) => {
-              sectionRefs.current.finale = node
-            }}
-            className="flex flex-col gap-1 border-t border-[#7a5a32]/30 pt-5"
-          >
-            <p style={PRINT} className="text-base italic opacity-75 sm:text-lg">
-              {JIMS_LETTER.finale.clue}
-            </p>
-            {finale ? (
-              <InkReveal text={finale} className="text-[1.85rem] sm:text-[2.1rem]" />
-            ) : (
-              <SealedScrawl length={sealedLength(JIMS_LETTER.finale.sealed)} />
-            )}
-          </section>
+          <LetterPart
+            label={JIMS_LETTER.sharedLabel}
+            sealedLength={sealedLength(JIMS_LETTER.closing)}
+            text={shared?.closing}
+            partRef={() => {}}
+          />
+
+          <p style={PRINT} className="border-t border-[#7a5a32]/30 pt-5 text-lg italic">
+            {JIMS_LETTER.footer}
+          </p>
         </div>
       </OldPaper>
 
@@ -179,6 +174,9 @@ function JimsLetterPage() {
               </label>
             )
           })}
+          <p style={PRINT} className="text-base italic opacity-80">
+            The shared parts return once all four words are spoken.
+          </p>
           <button
             type="submit"
             style={PRINT}
@@ -189,5 +187,30 @@ function JimsLetterPage() {
         </form>
       </OldPaper>
     </div>
+  )
+}
+
+/** One sealed part of the letter, labelled with whose word opens it. */
+function LetterPart({
+  label,
+  sealedLength: length,
+  text,
+  partRef,
+}: {
+  label: string
+  sealedLength: number
+  text: string | undefined
+  partRef: (node: HTMLElement | null) => void
+}) {
+  return (
+    <section
+      ref={partRef}
+      className="flex flex-col gap-1 border-t border-[#7a5a32]/30 pt-5 first:border-t-0 first:pt-0"
+    >
+      <p style={PRINT} className="text-base italic opacity-75 sm:text-lg">
+        {label}
+      </p>
+      {text ? <InkReveal text={text} /> : <SealedScrawl length={length} />}
+    </section>
   )
 }
