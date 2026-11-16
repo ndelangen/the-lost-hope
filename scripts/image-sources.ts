@@ -907,6 +907,12 @@ export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
     repositoryPath: 'assets/images/content/npcs/sergeant-bruna-kell-portrait.png',
   },
   {
+    id: 'scenes-boarded-by-the-battle-cruiser',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/boarded-by-the-battle-cruiser.png',
+    repositoryPath: 'assets/images/content/scenes/boarded-by-the-battle-cruiser.png',
+  },
+  {
     id: 'scenes-onana-calls-the-party-to-war',
     role: 'illustration',
     logicalSource: '/assets/scenes/onana-calls-the-party-to-war.png',
