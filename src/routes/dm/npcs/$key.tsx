@@ -7,10 +7,12 @@ import { DmHiddenReference } from '#/components/dm/dm-hidden-reference'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
 import { StatBlockSummary } from '#/components/dm/stat-block-summary'
 import { EntityReference } from '#/components/entity-reference'
+import { ShowToPlayersButton } from '#/components/player-screen/show-to-players-button'
 import { PortraitGallery } from '#/components/portrait-gallery'
 import { refLink } from '#/lib/campaign'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 import { resolveSourceRef, resolveStatBlock } from '#/lib/dm-campaign'
+import { resolvePlayerScreenImage } from '#/lib/player-screen'
 
 const npcs: Readonly<
   Record<string, (typeof SOURCE_REGISTRIES.npc)[keyof typeof SOURCE_REGISTRIES.npc]>
@@ -49,7 +51,7 @@ function DmNpcRoute() {
       <article className="border-border bg-card grid min-w-0 content-start gap-5 rounded-xl border p-6">
         <header className="flex items-start gap-4">
           <DmFaces people={[{ ref: 'npc', key }]} size="md" />
-          <div className="grid gap-1">
+          <div className="grid min-w-0 flex-1 gap-1">
             <p className="text-muted-foreground text-xs font-semibold uppercase">NPC · DM view</p>
             <h1 className="text-2xl font-bold">{npc.name}</h1>
             <p className="text-muted-foreground text-sm">
@@ -66,6 +68,13 @@ function DmNpcRoute() {
               ) : null}
             </p>
           </div>
+          {import.meta.env.DEV &&
+          resolvePlayerScreenImage({ image: 'avatar', ref: { ref: 'npc', key } }) ? (
+            <ShowToPlayersButton
+              selection={{ image: 'avatar', ref: { ref: 'npc', key } }}
+              tone="card"
+            />
+          ) : null}
         </header>
 
         {PortraitStatus ? (

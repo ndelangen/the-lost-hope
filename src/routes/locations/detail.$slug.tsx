@@ -27,6 +27,7 @@ import {
   buildLocationHierarchyMap,
 } from '#/lib/location-hierarchy-map'
 import { LocationTypeIcon, locationTypeLabel } from '#/lib/location-icons'
+import { locationOnPlayerScreen } from '#/lib/player-screen-state'
 import { publicEntityPageHead } from '#/lib/public-page-metadata'
 
 export const Route = createFileRoute('/locations/detail/$slug')({
@@ -120,6 +121,7 @@ function LocationDetailPage() {
             previewSizes="(min-width: 1280px) 1100px, calc(100vw - 2rem)"
             previewMaxWidth={1280}
             className="aspect-[16/7] min-h-64 w-full"
+            playerScreen={locationOnPlayerScreen(entity.slug, 'illustration')}
           />
           {location.additionalPortraits ? (
             <PortraitGallery

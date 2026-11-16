@@ -4,7 +4,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 export default createEvent({
   name: 'Onana describes the Tempest family and debt slavery',
   day: 24,
-  location: refs.locations.tempest,
+  location: refs.locations.onana_tempest_s_estate,
   mark: { type: 'icon', name: 'gi/GiScales' },
   notes: [
     [

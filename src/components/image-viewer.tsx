@@ -2,7 +2,9 @@ import { Expand, X } from 'lucide-react'
 import { useCallback, useEffect, useId, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 
+import { ShowToPlayersButton } from '#/components/player-screen/show-to-players-button'
 import { ResponsiveImage } from '#/components/responsive-image'
+import type { PlayerScreenImage } from '#/lib/player-screen-state'
 import { cn } from '#/lib/utils'
 
 type ImageViewerProps = {
@@ -16,6 +18,8 @@ type ImageViewerProps = {
   previewSizes?: string
   previewMaxWidth?: number
   viewerSizes?: string
+  /** The record and picture this is, so the DM can put it on the player screen in local dev. */
+  playerScreen?: PlayerScreenImage
 }
 
 export function ImageViewer({
@@ -29,6 +33,7 @@ export function ImageViewer({
   previewSizes = '160px',
   previewMaxWidth = 384,
   viewerSizes = '100vw',
+  playerScreen,
 }: ImageViewerProps) {
   const [open, setOpen] = useState(false)
   const dialogRef = useRef<HTMLDialogElement>(null)
@@ -148,6 +153,13 @@ export function ImageViewer({
                   {title}
                 </h2>
               </div>
+
+              {playerScreen && import.meta.env.DEV ? (
+                <ShowToPlayersButton
+                  selection={playerScreen}
+                  className="absolute top-5 right-20 z-40 sm:top-8 sm:right-24"
+                />
+              ) : null}
 
               <button
                 ref={closeRef}

@@ -1,4 +1,6 @@
 import {
+  Anchor,
+  BedDouble,
   Building2,
   Castle,
   Cloud,
@@ -15,11 +17,21 @@ import {
   Route,
   Ship,
   Sparkles,
+  Store,
   Trees,
+  Utensils,
   type LucideIcon,
 } from 'lucide-react'
 import type { ComponentType } from 'react'
-import { FaDice, FaGlobe, FaHorse, FaMap, FaMapMarkerAlt, FaStoreAlt } from 'react-icons/fa'
+import {
+  FaDice,
+  FaGlobe,
+  FaHorse,
+  FaHorseHead,
+  FaMap,
+  FaMapMarkerAlt,
+  FaStoreAlt,
+} from 'react-icons/fa'
 import {
   GiAncientRuins,
   GiAlienEgg,
@@ -97,6 +109,17 @@ import {
   GiWhirlwind,
   GiBlood,
   GiOasis,
+  GiAnvil,
+  GiCrystalShine,
+  GiDoubleStreetLights,
+  GiIndianPalace,
+  GiMagicSwirl,
+  GiShipWheel,
+  GiToken,
+  GiShipBow,
+  GiMooringBollard,
+  GiWoodenPier,
+  GiTwoCoins,
 } from 'react-icons/gi'
 
 import { LOCATION_TYPE_LABELS, type LocationType } from '#/definitions/location.ts'
@@ -135,6 +158,22 @@ type LocationGlyph = ComponentType<{ className?: string; 'aria-hidden'?: boolean
  */
 export const LOCATION_ICONS: Record<string, LocationGlyph> = {
   'gi/GiOasis': GiOasis,
+  'fa/FaHorseHead': FaHorseHead,
+  'gi/GiAnvil': GiAnvil,
+  'gi/GiCrystalShine': GiCrystalShine,
+  'gi/GiDoubleStreetLights': GiDoubleStreetLights,
+  'gi/GiIndianPalace': GiIndianPalace,
+  'gi/GiMagicSwirl': GiMagicSwirl,
+  'gi/GiShipWheel': GiShipWheel,
+  'gi/GiToken': GiToken,
+  'gi/GiShipBow': GiShipBow,
+  'gi/GiMooringBollard': GiMooringBollard,
+  'gi/GiWoodenPier': GiWoodenPier,
+  'gi/GiTwoCoins': GiTwoCoins,
+  'lucide/Anchor': Anchor,
+  'lucide/BedDouble': BedDouble,
+  'lucide/Store': Store,
+  'lucide/Utensils': Utensils,
   'fa/FaDice': FaDice,
   'fa/FaGlobe': FaGlobe,
   'fa/FaHorse': FaHorse,

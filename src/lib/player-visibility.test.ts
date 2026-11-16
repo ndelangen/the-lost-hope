@@ -61,6 +61,24 @@ describe('player visibility', () => {
     expect([...visible.npc]).toEqual(['met'])
   })
 
+  it('shows public map landmarks without an encounter and reveals their ancestors', () => {
+    const withLandmark = {
+      ...registries,
+      location: {
+        ...registries.location,
+        ferry: { parent: ref('location', 'elsewhere'), publicMapLandmark: true },
+        hidden: { parent: ref('location', 'elsewhere') },
+      },
+    }
+    expect([...playerVisibleKeys(withLandmark).location].toSorted()).toEqual([
+      'city',
+      'elsewhere',
+      'ferry',
+      'tavern',
+      'world',
+    ])
+  })
+
   it('shows the parents of a visible location', () => {
     expect([...visible.location].toSorted()).toEqual(['city', 'tavern', 'world'])
   })

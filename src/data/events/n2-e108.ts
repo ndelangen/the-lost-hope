@@ -4,7 +4,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 export default createEvent({
   name: 'Jim finds the Jaded Amulet in a pie',
   day: 20,
-  location: refs.locations.skynet_s_second_best_inn,
+  location: refs.locations.dining_room_at_skynet_s_second_best_inn,
   mark: { type: 'avatar', of: refs.pcs.jim },
   notes: [
     [

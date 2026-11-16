@@ -1,5 +1,5 @@
 import { createHash } from 'node:crypto'
-import { mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises'
+import { mkdir, readFile, readdir, rm, stat, writeFile } from 'node:fs/promises'
 import { dirname, join } from 'node:path'
 
 import pngToIco from 'png-to-ico'
@@ -15,6 +15,7 @@ import {
 
 const ROOT = process.cwd()
 const OUTPUT_DIRECTORY = join(ROOT, 'public/assets/generated-images')
+const CACHE_FILE = join(ROOT, 'node_modules/.cache/responsive-images.json')
 const GENERATED_MODULE = join(ROOT, 'src/generated/responsive-images.ts')
 const PIPELINE_VERSION = 'responsive-jpeg-v2|sharp@0.35.3|accurate-shrink'
 
@@ -49,9 +50,31 @@ function candidateWidths(sourceWidth: number): number[] {
   )
 }
 
+/** Candidates from the previous run, keyed by source digest, so unchanged sources are reused. */
+async function readCache(): Promise<Record<string, Candidate[]>> {
+  try {
+    return JSON.parse(await readFile(CACHE_FILE, 'utf8')) as Record<string, Candidate[]>
+  } catch {
+    return {}
+  }
+}
+
+async function allExist(candidates: readonly Candidate[]): Promise<boolean> {
+  const present = await Promise.all(
+    candidates.map((candidate) =>
+      stat(join(ROOT, 'public', candidate.src)).then(
+        (file) => file.size === candidate.bytes,
+        () => false,
+      ),
+    ),
+  )
+  return candidates.length > 0 && present.every(Boolean)
+}
+
 async function generateContentImages(): Promise<Record<string, GeneratedImage>> {
-  await rm(OUTPUT_DIRECTORY, { recursive: true, force: true })
   await mkdir(OUTPUT_DIRECTORY, { recursive: true })
+  const previous = await readCache()
+  const cache: Record<string, Candidate[]> = {}
 
   const generated: Record<string, GeneratedImage> = {}
   for (const source of RESPONSIVE_IMAGE_SOURCES) {
@@ -68,6 +91,17 @@ async function generateContentImages(): Promise<Record<string, GeneratedImage>> 
       .update(JSON.stringify(RESPONSIVE_IMAGE_ENCODING))
       .digest('hex')
       .slice(0, 16)
+    const cacheKey = `${source.id}.${digest}.${RESPONSIVE_IMAGE_WIDTHS.join(',')}`
+    const cached = previous[cacheKey]
+    if (cached && (await allExist(cached))) {
+      cache[cacheKey] = cached
+      generated[source.logicalSource] = {
+        ...dimensions,
+        ...RESPONSIVE_IMAGE_ENCODING,
+        candidates: cached,
+      }
+      continue
+    }
     const candidates: Candidate[] = []
 
     for (const width of candidateWidths(dimensions.width)) {
@@ -92,12 +126,25 @@ async function generateContentImages(): Promise<Record<string, GeneratedImage>> 
       })
     }
 
+    cache[cacheKey] = candidates
     generated[source.logicalSource] = {
       ...dimensions,
       ...RESPONSIVE_IMAGE_ENCODING,
       candidates,
     }
   }
+
+  // Remove derivatives of sources that changed or were removed.
+  const current = new Set(
+    Object.values(cache).flatMap((candidates) =>
+      candidates.map((candidate) => candidate.src.split('/').at(-1)),
+    ),
+  )
+  for (const file of await readdir(OUTPUT_DIRECTORY)) {
+    if (!current.has(file)) await rm(join(OUTPUT_DIRECTORY, file), { force: true })
+  }
+  await mkdir(dirname(CACHE_FILE), { recursive: true })
+  await writeFile(CACHE_FILE, JSON.stringify(cache))
   return generated
 }
 

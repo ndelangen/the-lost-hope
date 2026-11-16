@@ -50,6 +50,6 @@ export default createEvent({
     ],
   ],
   day: 24,
-  location: refs.locations.skynet,
+  location: refs.locations.stables_at_skynet_s_second_best_inn,
   mark: { type: 'icon', name: 'gi/GiDirewolf' },
 })

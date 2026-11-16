@@ -4,7 +4,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 export default createScene({
   name: 'The clogged ferry landing',
   illustration: '/assets/scenes/the-clogged-ferry-landing.png',
-  location: refs.locations.skynet,
+  location: refs.locations.skynet_sky_bridge_landing,
   npcs: [refs.npcs.maren_of_fairhaven, refs.npcs.sergeant_bruna_kell, refs.npcs.tempest_soldier],
   references: [
     refs.pcs.cassian_veyl,
@@ -54,7 +54,7 @@ export default createScene({
       when: [['Three successes.']],
       response: [
         [
-          'They get aboard as the ramp lifts. In the middle of the crossing the battle-cruiser comes alongside and boards the ferry. Run “Boarded by the battle-cruiser” on the ferry deck.',
+          'They get aboard as the ramp lifts. In the middle of the crossing the battle-cruiser bears down on the ferry. Run “Running from the battle-cruiser” on the ferry deck.',
         ],
       ],
     },

@@ -13,7 +13,7 @@ import { canonicalUrl, publicPageHead, socialImagePath } from '#/lib/public-page
 describe('public page descriptors', () => {
   it('exhaustively projects 14 static pages and every registry entity', () => {
     const detailCount = COLLECTIONS.reduce((count, kind) => count + allEntities(kind).length, 0)
-    expect(detailCount).toBe(480)
+    expect(detailCount).toBe(497)
     expect(PUBLIC_PAGE_DESCRIPTORS).toHaveLength(14 + detailCount)
     expect(validatePublicPageDescriptors()).toEqual([])
   })

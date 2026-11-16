@@ -1,6 +1,6 @@
 import { Link, Outlet, useRouterState } from '@tanstack/react-router'
 import { Menu, PanelLeftClose, PanelLeftOpen, Scroll, X } from 'lucide-react'
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { lazy, Suspense, useCallback, useEffect, useRef, useState } from 'react'
 
 import { DM_MODE_AVAILABLE, DmModeContext } from '#/components/dm-mode'
 import { Inline, Stack } from '#/components/ui/layout'
@@ -18,6 +18,15 @@ import { useUiPreferences } from './campaign-shell/ui-preferences'
 
 const headerButtonClass =
   'border-border text-muted-foreground hover:bg-muted hover:text-foreground focus-visible:ring-ring/50 size-9 shrink-0 items-center justify-center rounded-md border transition-colors focus-visible:ring-2 focus-visible:outline-none'
+
+/** The DM's player-screen picker is a table tool for local dev; the public site never ships it. */
+const PlayerScreenDock = import.meta.env.DEV
+  ? lazy(() =>
+      import('#/components/player-screen/player-screen-dock').then((module) => ({
+        default: module.PlayerScreenDock,
+      })),
+    )
+  : undefined
 
 export function CampaignShell({ initialPreferences }: { initialPreferences: UiPreferences }) {
   const pathname = useRouterState({ select: (state) => state.location.pathname })
@@ -112,6 +121,9 @@ export function CampaignShell({ initialPreferences }: { initialPreferences: UiPr
     </Stack>
   )
 
+  // The player screen is a bare picture on the players' monitor.
+  if (pathname === '/display') return <Outlet />
+
   return (
     <CampaignShellLayout
       header={header}
@@ -126,6 +138,11 @@ export function CampaignShell({ initialPreferences }: { initialPreferences: UiPr
       <DmModeContext value={dmMode}>
         <Outlet />
       </DmModeContext>
+      {PlayerScreenDock ? (
+        <Suspense fallback={null}>
+          <PlayerScreenDock />
+        </Suspense>
+      ) : null}
     </CampaignShellLayout>
   )
 }

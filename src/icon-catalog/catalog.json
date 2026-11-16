@@ -32560,7 +32560,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://fontawesome.com/v5/icons/horse-head",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/stables-at-skynet-s-second-best-inn.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "fa/FaHospital",
@@ -84121,7 +84124,10 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "duplicateOf": "lucide/Anvil",
       "sourceUrl": "https://game-icons.net/1x1/lorc/anvil.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/bessy-s-nimbus-stall.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiAnvilImpact",
@@ -121127,7 +121133,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/crystal-shine.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/skynet-magic-artifact-shop.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiCrystalShrine",
@@ -128057,7 +128066,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/double-street-lights.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/skynet-market-square.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiDoughRoller",
@@ -140761,6 +140773,7 @@
       "sourceUrl": "https://game-icons.net/1x1/carl-olsen/flame.html",
       "usedIn": [
         "src/data/beasts/phoenix-chick.ts",
+        "src/data/creatures/mage.ts",
         "src/data/npcs/bob-the-merchant.ts",
         "src/lib/ability-icons.tsx"
       ]
@@ -162220,7 +162233,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/indian-palace.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/onana-tempest-s-estate.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiInfernoBomb",
@@ -174849,10 +174865,13 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/magic-swirl.html",
       "usedIn": [
+        "src/data/creatures/mage.ts",
+        "src/data/locations/stefanio-s-magic-shop.ts",
         "src/data/npcs/bob-the-merchant.ts",
         "src/data/npcs/hex.ts",
         "src/data/npcs/sarogarth.ts",
-        "src/lib/ability-icons.tsx"
+        "src/lib/ability-icons.tsx",
+        "src/lib/location-icons.tsx"
       ]
     },
     {
@@ -176846,7 +176865,10 @@
       "classification": "useful",
       "classificationReason": "Manually classified as useful from the /_icons review page.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/mecha-head.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/arcs/the-weapon-that-woke-up.ts",
+        "src/lib/arc-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiMechaMask",
@@ -181554,7 +181576,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/mooring-bollard.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/skynet-sky-bridge-landing.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiMorbidHumour",
@@ -197971,6 +197996,7 @@
         "src/data/beasts/serpent-eclipse-lake-serpent.ts",
         "src/data/beasts/wolfie.ts",
         "src/data/creatures/alchemist.ts",
+        "src/data/creatures/mage.ts",
         "src/data/creatures/pirate-captain.ts",
         "src/data/npcs/anton-tempest.ts",
         "src/data/npcs/bessy.ts",
@@ -213014,7 +213040,9 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/ship-bow.html",
       "usedIn": [
         "src/data/items/beasts-and-dwarf-s-airship.ts",
-        "src/lib/item-icons.tsx"
+        "src/data/locations/tempest-sky-bridge-landing.ts",
+        "src/lib/item-icons.tsx",
+        "src/lib/location-icons.tsx"
       ]
     },
     {
@@ -213072,8 +213100,10 @@
       "usedIn": [
         "src/data/events/n2-e041.ts",
         "src/data/events/n2-e179.ts",
+        "src/data/locations/skynet-airship-shipyard.ts",
         "src/data/sessions/the-tempest-bargain.ts",
         "src/lib/event-icons.tsx",
+        "src/lib/location-icons.tsx",
         "src/lib/session-icons.tsx"
       ]
     },
@@ -237034,7 +237064,9 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/token.html",
       "usedIn": [
         "src/data/items/nimbus-casino-vip-card.ts",
-        "src/lib/item-icons.tsx"
+        "src/data/locations/borris-s-gambling-den.ts",
+        "src/lib/item-icons.tsx",
+        "src/lib/location-icons.tsx"
       ]
     },
     {
@@ -242428,8 +242460,10 @@
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/two-coins.html",
       "usedIn": [
+        "src/data/locations/skynet-coin-dealer.ts",
         "src/data/npcs/borris.ts",
-        "src/lib/ability-icons.tsx"
+        "src/lib/ability-icons.tsx",
+        "src/lib/location-icons.tsx"
       ]
     },
     {
@@ -251949,7 +251983,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/wooden-pier.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/nimbus-sky-bridge-landing.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiWoodenSign",
@@ -254687,7 +254724,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/anchor",
-      "usedIn": []
+      "usedIn": [
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "lucide/Angry",
@@ -258572,7 +258611,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/bed-double",
-      "usedIn": []
+      "usedIn": [
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "lucide/BedSingle",
@@ -258737,7 +258778,9 @@
       "classification": "questionable",
       "classificationReason": "Manually classified as questionable from the /_icons review page.",
       "sourceUrl": "https://lucide.dev/icons/bell",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/ship-damage-clock.tsx"
+      ]
     },
     {
       "id": "lucide/BellDot",
@@ -258893,7 +258936,9 @@
       "classification": "questionable",
       "classificationReason": "Manually classified as questionable from the /_icons review page.",
       "sourceUrl": "https://lucide.dev/icons/bell-off",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/ship-damage-clock.tsx"
+      ]
     },
     {
       "id": "lucide/BellPlus",
@@ -264747,7 +264792,8 @@
       "usedIn": [
         "src/components/campaign-shell/sidebar.tsx",
         "src/components/dm/encounter/combat-table.tsx",
-        "src/components/dm/encounter/encounter-notes.tsx"
+        "src/components/dm/encounter/encounter-notes.tsx",
+        "src/components/dm/ship-damage-clock.tsx"
       ]
     },
     {
@@ -264913,6 +264959,7 @@
         "src/components/campaign-shell/sidebar.tsx",
         "src/components/dm/scene-branches.tsx",
         "src/components/locations-index.tsx",
+        "src/components/player-screen/player-screen-dock.tsx",
         "src/components/questions-page.tsx"
       ]
     },
@@ -271370,7 +271417,8 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/dices",
       "usedIn": [
-        "src/components/dm/encounter/turn-card.tsx"
+        "src/components/dm/encounter/turn-card.tsx",
+        "src/components/dm/ship-damage-clock.tsx"
       ]
     },
     {
@@ -272700,6 +272748,7 @@
       "sourceUrl": "https://lucide.dev/icons/eye-off",
       "usedIn": [
         "src/components/campaign-shell/dm-controls.tsx",
+        "src/components/player-screen/player-screen-dock.tsx",
         "src/lib/condition-icons.tsx"
       ]
     },
@@ -282981,7 +283030,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/life-buoy",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/ship-damage-clock.tsx"
+      ]
     },
     {
       "id": "lucide/Ligature",
@@ -287628,7 +287679,8 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/minus",
       "usedIn": [
-        "src/components/dm/encounter/hp-control.tsx"
+        "src/components/dm/encounter/hp-control.tsx",
+        "src/components/dm/ship-damage-clock.tsx"
       ]
     },
     {
@@ -287651,7 +287703,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/monitor",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/player-screen-dock.tsx"
+      ]
     },
     {
       "id": "lucide/MonitorCheck",
@@ -287699,7 +287753,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/monitor-check",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/show-to-players-button.tsx"
+      ]
     },
     {
       "id": "lucide/MonitorCog",
@@ -287791,7 +287847,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/monitor-off",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/player-screen-dock.tsx"
+      ]
     },
     {
       "id": "lucide/MonitorPause",
@@ -287983,7 +288041,10 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/monitor-up",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/player-screen-dock.tsx",
+        "src/components/player-screen/show-to-players-button.tsx"
+      ]
     },
     {
       "id": "lucide/MonitorX",
@@ -291292,7 +291353,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/pause",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/ship-damage-clock.tsx"
+      ]
     },
     {
       "id": "lucide/PawPrint",
@@ -292337,7 +292400,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/pin",
-      "usedIn": []
+      "usedIn": [
+        "src/routes/dm/scenes/$slug.tsx"
+      ]
     },
     {
       "id": "lucide/PinOff",
@@ -292524,7 +292589,8 @@
       "sourceUrl": "https://lucide.dev/icons/play",
       "usedIn": [
         "src/components/dm/encounter/ability-controls.tsx",
-        "src/components/dm/encounter/ability-text.tsx"
+        "src/components/dm/encounter/ability-text.tsx",
+        "src/components/dm/ship-damage-clock.tsx"
       ]
     },
     {
@@ -292640,6 +292706,7 @@
         "src/components/dm/encounter/add-combatant.tsx",
         "src/components/dm/encounter/combat-status.tsx",
         "src/components/dm/encounter/hp-control.tsx",
+        "src/components/dm/ship-damage-clock.tsx",
         "src/routes/dm/encounter/index.tsx"
       ]
     },
@@ -293750,7 +293817,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/rectangle-horizontal",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/player-screen-dock.tsx"
+      ]
     },
     {
       "id": "lucide/RectangleVertical",
@@ -294504,6 +294573,8 @@
         "src/components/dm/encounter/ability-controls.tsx",
         "src/components/dm/encounter/combatant-panel.tsx",
         "src/components/dm/npc-portrait-status.tsx",
+        "src/components/dm/ship-damage-clock.tsx",
+        "src/components/player-screen/player-screen-dock.tsx",
         "src/routes/dm/encounter/$id.tsx"
       ]
     },
@@ -294606,7 +294677,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/rotate-cw",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/player-screen-dock.tsx"
+      ]
     },
     {
       "id": "lucide/RotateCwSquare",
@@ -295821,6 +295894,7 @@
         "src/components/dm/dm-quick-links.tsx",
         "src/components/dm/encounter/combatant-panel.tsx",
         "src/components/home-action-card.test.tsx",
+        "src/components/player-screen/player-screen-dock.tsx",
         "src/lib/entity-kind-visuals.ts",
         "src/routes/index.tsx"
       ]
@@ -302395,7 +302469,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/store",
-      "usedIn": []
+      "usedIn": [
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "lucide/StretchHorizontal",
@@ -307366,7 +307442,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/utensils",
-      "usedIn": []
+      "usedIn": [
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "lucide/UtensilsCrossed",
@@ -309083,7 +309161,8 @@
         "src/components/dm/encounter/dm-screen.tsx",
         "src/components/dm/encounter/encounter-roster.tsx",
         "src/components/dm/encounter/turn-card.tsx",
-        "src/components/image-viewer.tsx"
+        "src/components/image-viewer.tsx",
+        "src/components/player-screen/player-screen-dock.tsx"
       ]
     },
     {

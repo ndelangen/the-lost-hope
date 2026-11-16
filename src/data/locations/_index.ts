@@ -1,8 +1,11 @@
 import badesh_forest from './badesh-forest.ts'
 import badesh from './badesh.ts'
+import bessy_s_nimbus_stall from './bessy-s-nimbus-stall.ts'
 import blackstone_stables from './blackstone-stables.ts'
 import bob_s_stall from './bob-s-stall.ts'
+import borris_s_gambling_den from './borris-s-gambling-den.ts'
 import continent_of_the_dead from './continent-of-the-dead.ts'
+import dining_room_at_skynet_s_second_best_inn from './dining-room-at-skynet-s-second-best-inn.ts'
 import ethium from './ethium.ts'
 import fairhaven_city_gate from './fairhaven-city-gate.ts'
 import fairhaven_courthouse from './fairhaven-courthouse.ts'
@@ -24,6 +27,7 @@ import fajanet from './fajanet.ts'
 import feywild from './feywild.ts'
 import flying_bazaar_crafting_area from './flying-bazaar-crafting-area.ts'
 import flying_bazaar_kitchen from './flying-bazaar-kitchen.ts'
+import foundry_nine from './foundry-nine.ts'
 import gambling_deck from './gambling-deck.ts'
 import giggles_and_gadgets from './giggles-and-gadgets.ts'
 import greenhollow from './greenhollow.ts'
@@ -40,7 +44,11 @@ import mortimer_s_underground_workshop from './mortimer-s-underground-workshop.t
 import mountain_cliff from './mountain-cliff.ts'
 import mountain_top from './mountain-top.ts'
 import night_mothers_church from './night-mothers-church.ts'
+import nimbus_harbour from './nimbus-harbour.ts'
+import nimbus_market from './nimbus-market.ts'
+import nimbus_sky_bridge_landing from './nimbus-sky-bridge-landing.ts'
 import nimbus from './nimbus.ts'
+import onana_tempest_s_estate from './onana-tempest-s-estate.ts'
 import penelope_s_alchemy_shop from './penelope-s-alchemy-shop.ts'
 import penelope_s_underground_workshop from './penelope-s-underground-workshop.ts'
 import puzzle_room from './puzzle-room.ts'
@@ -66,11 +74,20 @@ import shadow_realm from './shadow-realm.ts'
 import shadowpeak_mining_operation from './shadowpeak-mining-operation.ts'
 import shadowpeak_residential_district from './shadowpeak-residential-district.ts'
 import shadowpeak from './shadowpeak.ts'
+import skynet_airship_shipyard from './skynet-airship-shipyard.ts'
+import skynet_coin_dealer from './skynet-coin-dealer.ts'
+import skynet_magic_artifact_shop from './skynet-magic-artifact-shop.ts'
+import skynet_market_square from './skynet-market-square.ts'
 import skynet_s_second_best_inn from './skynet-s-second-best-inn.ts'
+import skynet_sky_bridge_landing from './skynet-sky-bridge-landing.ts'
 import skynet from './skynet.ts'
 import snowy_mountain_ruin from './snowy-mountain-ruin.ts'
 import snowy_mountains from './snowy-mountains.ts'
+import stables_at_skynet_s_second_best_inn from './stables-at-skynet-s-second-best-inn.ts'
+import stefanio_s_magic_shop from './stefanio-s-magic-shop.ts'
+import swift_s_room_at_skynet_s_second_best_inn from './swift-s-room-at-skynet-s-second-best-inn.ts'
 import sylvia_s_quarters from './sylvia-s-quarters.ts'
+import tempest_sky_bridge_landing from './tempest-sky-bridge-landing.ts'
 import tempest from './tempest.ts'
 import temple_of_the_serpent_eclipse from './temple-of-the-serpent-eclipse.ts'
 import temple_of_the_watchers from './temple-of-the-watchers.ts'
@@ -128,6 +145,7 @@ export default {
   fajanet_guildhall_bathroom,
   flying_bazaar_crafting_area,
   flying_bazaar_kitchen,
+  foundry_nine,
   holy_site,
   lower_stables,
   jim_s_room_at_skynet_s_second_best_inn,
@@ -136,12 +154,26 @@ export default {
   mortimer_s_shop,
   mortimer_s_underground_workshop,
   nimbus,
+  nimbus_sky_bridge_landing,
+  bessy_s_nimbus_stall,
+  stefanio_s_magic_shop,
+  nimbus_market,
+  nimbus_harbour,
+  borris_s_gambling_den,
   skynet_s_second_best_inn,
+  swift_s_room_at_skynet_s_second_best_inn,
+  stables_at_skynet_s_second_best_inn,
+  dining_room_at_skynet_s_second_best_inn,
   night_mothers_church,
   shadowpeak,
   shadowpeak_mining_operation,
   shadowpeak_residential_district,
   skynet,
+  skynet_sky_bridge_landing,
+  skynet_airship_shipyard,
+  skynet_magic_artifact_shop,
+  skynet_coin_dealer,
+  skynet_market_square,
   snowy_mountain_ruin,
   snowy_mountains,
   the_blackstone,
@@ -172,6 +204,8 @@ export default {
   the_flying_whale,
   sylvia_s_quarters,
   tempest,
+  tempest_sky_bridge_landing,
+  onana_tempest_s_estate,
   three_sky_kingdoms,
   temple_of_the_serpent_eclipse,
   temple_of_the_watchers,

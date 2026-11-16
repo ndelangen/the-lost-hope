@@ -28,6 +28,6 @@ export default createEvent({
     ],
   ],
   day: 24,
-  location: refs.locations.nimbus,
+  location: refs.locations.stefanio_s_magic_shop,
   mark: { type: 'icon', name: 'gi/GiBlast' },
 })

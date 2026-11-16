@@ -17,13 +17,13 @@ export default createScene({
   ],
   setup: [
     [
-      'Wherever the party is, in the air on ',
+      'Wherever the chase ended, in the air on ',
       refs.items.beasts_and_dwarf_s_airship,
-      ', still on the slip at the shipyard, or on the ferry, ',
+      ', on the ferry, or with the ship still on the slip at the shipyard, ',
       refs.items.master_of_puppets,
       ', a battle-cruiser of the ',
       refs.organizations.tempest_family,
-      ', slides alongside and blots out the sky. Grappling lines thump into the hull, and soldiers drop onto the deck. At least forty more stand at the cruiser’s rail.',
+      ', lies alongside and blots out the sky. Boarding planks slam down, and soldiers drop onto the deck. At least forty more stand at the cruiser’s rail.',
     ],
     [
       refs.npcs.captain_garran,
@@ -68,9 +68,11 @@ export default createScene({
       response: [['“Take it up with ', refs.npcs.onana_tempest, '.” He changes nothing.']],
     },
     {
-      when: [['They try to outrun the cruiser.']],
+      when: [['They try to break away again.']],
       response: [
-        ['The cruiser is faster. It puts a warning shot across their bow and grapples on again.'],
+        [
+          'The chase is over. The lines hold, and the cruiser is faster than anything they can fly.',
+        ],
       ],
     },
     {

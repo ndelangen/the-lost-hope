@@ -1,7 +1,7 @@
 import { join } from 'node:path'
 
 export const RESPONSIVE_IMAGE_WIDTHS = [
-  32, 64, 128, 192, 256, 384, 512, 640, 768, 960, 1024, 1280,
+  32, 64, 128, 192, 256, 384, 512, 640, 768, 960, 1024, 1280, 1536,
 ] as const
 
 export const RESPONSIVE_IMAGE_ENCODING = {
@@ -72,7 +72,88 @@ export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
     id: 'location-map-skynet-s-second-best-inn',
     role: 'map',
     logicalSource: '/assets/maps/skynet-s-second-best-inn.jpg',
-    repositoryPath: 'assets/images/maps/skynet-s-second-best-inn.png',
+    repositoryPath: 'assets/images/maps/skynet-s-second-best-inn-and-stables.png',
+  },
+  {
+    id: 'location-illustration-bessy-s-nimbus-stall',
+    role: 'illustration',
+    logicalSource: '/assets/locations/bessy-s-nimbus-stall-illustration.png',
+    repositoryPath: 'assets/images/content/locations/bessy-s-nimbus-stall-illustration.png',
+  },
+  {
+    id: 'location-illustration-borris-s-gambling-den',
+    role: 'illustration',
+    logicalSource: '/assets/locations/borris-s-gambling-den-illustration.png',
+    repositoryPath: 'assets/images/content/scenes/borris-shutters-the-casino.png',
+  },
+  {
+    id: 'location-illustration-dining-room-at-skynet-s-second-best-inn',
+    role: 'illustration',
+    logicalSource: '/assets/locations/dining-room-at-skynet-s-second-best-inn-illustration.png',
+    repositoryPath:
+      'assets/images/content/locations/dining-room-at-skynet-s-second-best-inn-illustration.png',
+  },
+  {
+    id: 'location-illustration-nimbus-harbour',
+    role: 'illustration',
+    logicalSource: '/assets/locations/nimbus-harbour-illustration.png',
+    repositoryPath: 'assets/images/content/locations/nimbus-harbour-illustration.png',
+  },
+  {
+    id: 'location-illustration-nimbus-market',
+    role: 'illustration',
+    logicalSource: '/assets/locations/nimbus-market-illustration.png',
+    repositoryPath: 'assets/images/content/locations/nimbus-market-illustration.png',
+  },
+  {
+    id: 'location-illustration-onana-tempest-s-estate',
+    role: 'illustration',
+    logicalSource: '/assets/locations/onana-tempest-s-estate-illustration.png',
+    repositoryPath: 'assets/images/content/locations/onana-tempest-s-estate-illustration.png',
+  },
+  {
+    id: 'location-illustration-skynet-airship-shipyard',
+    role: 'illustration',
+    logicalSource: '/assets/locations/skynet-airship-shipyard-illustration.png',
+    repositoryPath: 'assets/images/content/locations/skynet-airship-shipyard-illustration.png',
+  },
+  {
+    id: 'location-illustration-skynet-coin-dealer',
+    role: 'illustration',
+    logicalSource: '/assets/locations/skynet-coin-dealer-illustration.png',
+    repositoryPath: 'assets/images/content/locations/skynet-coin-dealer-illustration.png',
+  },
+  {
+    id: 'location-illustration-skynet-magic-artifact-shop',
+    role: 'illustration',
+    logicalSource: '/assets/locations/skynet-magic-artifact-shop-illustration.png',
+    repositoryPath: 'assets/images/content/locations/skynet-magic-artifact-shop-illustration.png',
+  },
+  {
+    id: 'location-illustration-skynet-market-square',
+    role: 'illustration',
+    logicalSource: '/assets/locations/skynet-market-square-illustration.png',
+    repositoryPath: 'assets/images/content/locations/skynet-market-square-illustration.png',
+  },
+  {
+    id: 'location-illustration-stables-at-skynet-s-second-best-inn',
+    role: 'illustration',
+    logicalSource: '/assets/locations/stables-at-skynet-s-second-best-inn-illustration.png',
+    repositoryPath:
+      'assets/images/content/locations/stables-at-skynet-s-second-best-inn-illustration.png',
+  },
+  {
+    id: 'location-illustration-stefanio-s-magic-shop',
+    role: 'illustration',
+    logicalSource: '/assets/locations/stefanio-s-magic-shop-illustration.png',
+    repositoryPath: 'assets/images/content/locations/stefanio-s-magic-shop-illustration.png',
+  },
+  {
+    id: 'location-illustration-swift-s-room-at-skynet-s-second-best-inn',
+    role: 'illustration',
+    logicalSource: '/assets/locations/swift-s-room-at-skynet-s-second-best-inn-illustration.png',
+    repositoryPath:
+      'assets/images/content/locations/swift-s-room-at-skynet-s-second-best-inn-illustration.png',
   },
   {
     id: 'location-map-temple-of-the-serpent-eclipse',
@@ -467,6 +548,12 @@ export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
     role: 'avatar',
     logicalSource: '/assets/npcs/wolfie.png',
     repositoryPath: 'assets/images/content/npcs/wolfie.png',
+  },
+  {
+    id: 'auren',
+    role: 'avatar',
+    logicalSource: '/assets/pcs/auren.jpg',
+    repositoryPath: 'assets/images/content/pcs/auren.jpg',
   },
   {
     id: 'cassian',

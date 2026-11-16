@@ -334,6 +334,16 @@ export function getEntity<K extends EntityKind>(kind: K, slug: string): EntityOf
   return campaignModel.entities[kind].bySlug.get(slug)
 }
 
+/** The reference to the record a player page shows, for links and controls keyed by reference. */
+export function entityRefForSlug<K extends EntityKind>(
+  kind: K,
+  slug: string,
+): EntityRef<K> | undefined {
+  const registry: Readonly<Record<string, { slug: string }>> = REGISTRIES[kind]
+  const key = Object.keys(registry).find((candidate) => registry[candidate]?.slug === slug)
+  return key ? { ref: kind, key } : undefined
+}
+
 export type ReferenceValidationError = {
   ref: EntityRef
   path: string

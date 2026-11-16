@@ -86,6 +86,15 @@ export default createPC({
       ' — likely why the Hand wants him back or dead.',
     ],
     [
+      'Jim could have killed himself at any time. He never did, because ',
+      refs.npcs.the_father,
+      ' can raise people from the dead easily. He was looking for a way to die that would make that impossible. That is what he was after when he played the ',
+      refs.items.deck_of_many_more_things,
+      ' in ',
+      refs.events.n2_e105,
+      '. The worst card in the deck would have been the best outcome for him.',
+    ],
+    [
       'Jim’s human identity remains secret outside Devan, Cassian, and Swift unless the player says otherwise.',
     ],
   ],

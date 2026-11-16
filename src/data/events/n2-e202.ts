@@ -12,6 +12,6 @@ export default createEvent({
     ],
   ],
   day: 24,
-  location: refs.locations.nimbus,
+  location: refs.locations.nimbus_market,
   mark: { type: 'avatar', of: refs.pcs.cassian_veyl },
 })

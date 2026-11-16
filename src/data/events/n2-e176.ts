@@ -4,7 +4,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 export default createEvent({
   name: 'Cassian buys a protective cloak and a spell-storing ring',
   day: 24,
-  location: refs.locations.skynet,
+  location: refs.locations.skynet_magic_artifact_shop,
   mark: { type: 'avatar', of: refs.pcs.cassian_veyl },
   notes: [
     [

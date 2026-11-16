@@ -1,4 +1,5 @@
 import abraham from './abraham.ts'
+import aeliana from './aeliana.ts'
 import alberto from './alberto.ts'
 import anton_tempest from './anton-tempest.ts'
 import barbara from './barbara.ts'
@@ -35,6 +36,7 @@ import knukkles from './knukkles.ts'
 import light_13th_marshal from './light-13th-marshal.ts'
 import lord_malachar from './lord-malachar.ts'
 import madame_esmeralda from './madame-esmeralda.ts'
+import magister_orrin_valdrek from './magister-orrin-valdrek.ts'
 import maren_of_fairhaven from './maren-of-fairhaven.ts'
 import mayor_of_fairhaven from './mayor-of-fairhaven.ts'
 import misha from './misha.ts'
@@ -105,6 +107,7 @@ export default {
   sylf,
   dax,
   abraham,
+  aeliana,
   alberto,
   misha,
   bernard,
@@ -127,6 +130,7 @@ export default {
   knukkles,
   lord_malachar,
   madame_esmeralda,
+  magister_orrin_valdrek,
   mayor_of_fairhaven,
   mortimer_mafioso,
   mr_bumblefoot,

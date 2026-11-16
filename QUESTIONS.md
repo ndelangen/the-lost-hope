@@ -450,11 +450,6 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Context:_ The author recalls both being mentioned. Neither appears in the imported sessions.
   - _Why asking:_ If they were said at the table, they belong in an event.
 
-- **What does the guild tattoo look like?**
-  - _Context:_ The author recalls it being described as a grim reaper strangling a shadow, but is not sure. No event records the design.
-  - _Why asking:_ The design should be recorded on the Adventurers' Guild once confirmed.
-  - _Session:_ 1 ([n2-e011](/events/the-guild-tattoo-ritual))
-
 - **Is Cassian a human or a sheep-like humanoid?**
   - _Context:_ The data records his species as "Sheep-like humanoid". His D&D Beyond sheet lists Human.
   - _Why asking:_ The `species` field owns this fact and one of the two sources is out of date.

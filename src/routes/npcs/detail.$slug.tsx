@@ -16,6 +16,7 @@ import { DEFAULT_AVATAR } from '#/definitions/media'
 import { effectsOn, getEntity, npcLocation } from '#/lib/campaign'
 import { entityContextData } from '#/lib/entity-context-data'
 import { characterMemberships } from '#/lib/entity-page-data'
+import { avatarOnPlayerScreen } from '#/lib/player-screen-state'
 import { publicEntityPageHead } from '#/lib/public-page-metadata'
 
 export const Route = createFileRoute('/npcs/detail/$slug')({
@@ -49,6 +50,7 @@ function NpcPage() {
             title={npc.name}
             eyebrow="NPC portrait"
             accessibleLabel={`portrait of ${npc.name}`}
+            playerScreen={avatarOnPlayerScreen('npc', entity.slug)}
           />
         ),
       }}

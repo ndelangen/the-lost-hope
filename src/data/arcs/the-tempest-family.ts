@@ -52,6 +52,16 @@ export default createArc({
       scene: refs.scenes.the_ents_hold_the_shipyard,
     },
     {
+      name: 'A shadow on the crossing',
+      hook: [
+        [
+          'A battle-cruiser orders them to heave to and casts its hooks. Do they run, cut loose, talk, or stop?',
+        ],
+      ],
+      npcs: [refs.npcs.captain_garran, refs.npcs.corwin_hale],
+      scene: refs.scenes.running_from_the_battle_cruiser,
+    },
+    {
       name: 'Impounded',
       hook: [['', refs.npcs.onana_tempest, ' is seizing every vessel for the war, theirs too.']],
       npcs: [refs.npcs.captain_garran],

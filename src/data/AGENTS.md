@@ -127,8 +127,8 @@ canon.
 - Players see an event once a session lists it. An event outside every session is off-screen DM
   material that a plot owns.
 - Players see an NPC, beast, item, organization, or location once a session event references it
-  outside `background`. Until then it exists only for the DM. Player-facing content must not
-  reference a record players have not met; the reference-integrity test fails when it does.
+  outside `background`. The DM can also mark a known landmark on a public map with
+  `publicMapLandmark: true`. Player-facing content must only reference visible records.
 
 ## Adding or changing an entity
 

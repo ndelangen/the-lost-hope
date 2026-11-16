@@ -4,7 +4,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 export default createEvent({
   name: 'A drake carriage carries the party to Tempest',
   day: 24,
-  location: refs.locations.tempest,
+  location: refs.locations.onana_tempest_s_estate,
   mark: { type: 'avatar', of: refs.pcs.devan },
   notes: [
     [

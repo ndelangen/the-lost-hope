@@ -7,13 +7,13 @@ export default createEvent({
     [
       'The guards called ',
       refs.npcs.borris,
-      ' through a communication crystal. He recognised the party, waived the one-silver entry fee, and welcomed them into his casino. Its public gaming floor led to a separate VIP room with gaming tables, snail races with little carts, and tables offering drugs.',
+      ' through a communication crystal. He recognised the party, waived the one-silver entry fee, and welcomed them inside.',
     ],
     [
       'He was bloodied and said he had a meeting to finish. The DM described it as an interrogation. The party received complimentary scotch.',
     ],
   ],
   day: 24,
-  location: refs.locations.nimbus,
+  location: refs.locations.borris_s_gambling_den,
   mark: { type: 'avatar', of: refs.npcs.borris },
 })
