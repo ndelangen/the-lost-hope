@@ -1,16 +1,25 @@
 import { Link, createFileRoute, notFound } from '@tanstack/react-router'
-import { Pin, Sword } from 'lucide-react'
+import { ChevronRight, Pin, Sword } from 'lucide-react'
 
 import { ContentRenderer } from '#/components/content-renderer'
 import { DmFaces } from '#/components/dm/dm-faces'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
+import { NpcStatLine } from '#/components/dm/npc-stat-line'
 import { SceneBranches } from '#/components/dm/scene-branches'
 import { ShipDamageClock } from '#/components/dm/ship-damage-clock'
 import { EntityReference } from '#/components/entity-reference'
 import { ImageViewer } from '#/components/image-viewer'
-import { arcs, npcMotivations, resolveSourceRef, scenes, table } from '#/lib/dm-campaign'
+import { ShowToPlayersButton } from '#/components/player-screen/show-to-players-button'
+import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
+import { arcs, resolveSourceRef, scenes, table } from '#/lib/dm-campaign'
 import { plotsByScene } from '#/lib/dm-dashboard'
+import { resolvePlayerScreenImage } from '#/lib/player-screen'
+import type { PlayerScreenImage } from '#/lib/player-screen-state'
 import { buildSceneBranches } from '#/lib/scene-branches'
+
+const npcRecords: Readonly<
+  Record<string, (typeof SOURCE_REGISTRIES.npc)[keyof typeof SOURCE_REGISTRIES.npc]>
+> = SOURCE_REGISTRIES.npc
 
 export const Route = createFileRoute('/dm/scenes/$slug')({
   loader: ({ params }) => {
@@ -80,6 +89,7 @@ function SceneRoute() {
             previewSizes="(min-width: 1024px) 800px, calc(100vw - 4rem)"
             previewMaxWidth={960}
             className="aspect-[3/2] w-full overflow-hidden rounded-lg"
+            playerScreen={{ image: 'illustration', ref: { ref: 'scene', key } }}
           />
         ) : null}
 
@@ -88,16 +98,63 @@ function SceneRoute() {
             <h2 className="text-muted-foreground text-xs font-semibold uppercase">NPCs</h2>
             <ul className="grid gap-3">
               {scene.npcs.map((npc) => {
-                const motivations = npcMotivations(npc)
+                const record = Object.hasOwn(npcRecords, npc.key) ? npcRecords[npc.key] : undefined
+                const portrait: PlayerScreenImage = { image: 'avatar', ref: npc }
+                const canShow = import.meta.env.DEV && resolvePlayerScreenImage(portrait)
                 return (
-                  <li key={npc.key} className="flex gap-3">
-                    <DmFaces people={[npc]} size="md" />
-                    <div className="grid gap-1">
-                      <p className="font-medium">{resolveSourceRef(npc)?.name}</p>
-                      {motivations ? (
-                        <ContentRenderer content={motivations} className="text-muted-foreground" />
-                      ) : null}
+                  <li key={npc.key} className="border-border grid gap-3 rounded-lg border p-3">
+                    <div className="flex flex-wrap items-start gap-3">
+                      <DmFaces people={[npc]} size="md" />
+                      <div className="grid min-w-0 flex-1 basis-60 gap-1">
+                        <Link
+                          to="/dm/npcs/$key"
+                          params={{ key: npc.key }}
+                          className="w-fit font-medium hover:underline"
+                        >
+                          {record?.name ?? resolveSourceRef(npc)?.name}
+                        </Link>
+                        {record?.motivations ? (
+                          <ContentRenderer
+                            content={record.motivations}
+                            className="text-muted-foreground"
+                          />
+                        ) : null}
+                      </div>
+                      {canShow ? <ShowToPlayersButton selection={portrait} tone="card" /> : null}
                     </div>
+                    {record ? (
+                      <details className="group">
+                        <summary className="text-muted-foreground hover:text-foreground flex h-12 w-fit cursor-pointer list-none items-center gap-2 text-sm font-medium">
+                          <ChevronRight
+                            className="size-4 transition-transform group-open:rotate-90"
+                            aria-hidden
+                          />
+                          Details on {record.name}
+                        </summary>
+                        <div className="grid gap-3 pt-1 pl-6">
+                          {record.notes ? (
+                            <NpcDetail title="What players can learn">
+                              <ContentRenderer content={record.notes} />
+                            </NpcDetail>
+                          ) : null}
+                          {record.background ? (
+                            <NpcDetail title="Background">
+                              <ContentRenderer content={record.background} />
+                            </NpcDetail>
+                          ) : null}
+                          <NpcDetail title="Stat block">
+                            <NpcStatLine npc={record} />
+                          </NpcDetail>
+                          <Link
+                            to="/dm/npcs/$key"
+                            params={{ key: npc.key }}
+                            className="text-sm font-medium underline-offset-4 hover:underline"
+                          >
+                            Open {record.name}’s DM page
+                          </Link>
+                        </div>
+                      </details>
+                    ) : null}
                   </li>
                 )
               })}
@@ -132,5 +189,14 @@ function SceneRoute() {
         <DmQuickLinks />
       </aside>
     </div>
+  )
+}
+
+function NpcDetail({ title, children }: { title: string; children: React.ReactNode }) {
+  return (
+    <section className="grid gap-1">
+      <h3 className="text-muted-foreground text-xs font-semibold uppercase">{title}</h3>
+      {children}
+    </section>
   )
 }

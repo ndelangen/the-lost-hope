@@ -264918,6 +264918,7 @@
         "src/components/campaign-shell/sidebar.tsx",
         "src/components/dm/scene-branches.tsx",
         "src/components/locations-index.tsx",
+        "src/components/player-screen/player-screen-dock.tsx",
         "src/components/questions-page.tsx"
       ]
     },
@@ -272705,6 +272706,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/eye-off",
       "usedIn": [
+        "src/components/player-screen/player-screen-dock.tsx",
         "src/lib/condition-icons.tsx"
       ]
     },
@@ -287658,7 +287660,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/monitor",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/player-screen-dock.tsx"
+      ]
     },
     {
       "id": "lucide/MonitorCheck",
@@ -287706,7 +287710,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/monitor-check",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/show-to-players-button.tsx"
+      ]
     },
     {
       "id": "lucide/MonitorCog",
@@ -287798,7 +287804,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/monitor-off",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/player-screen-dock.tsx"
+      ]
     },
     {
       "id": "lucide/MonitorPause",
@@ -287990,7 +287998,10 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/monitor-up",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/player-screen-dock.tsx",
+        "src/components/player-screen/show-to-players-button.tsx"
+      ]
     },
     {
       "id": "lucide/MonitorX",
@@ -292346,7 +292357,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/pin",
-      "usedIn": []
+      "usedIn": [
+        "src/routes/dm/scenes/$slug.tsx"
+      ]
     },
     {
       "id": "lucide/PinOff",
@@ -293761,7 +293774,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/rectangle-horizontal",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/player-screen-dock.tsx"
+      ]
     },
     {
       "id": "lucide/RectangleVertical",
@@ -294516,6 +294531,7 @@
         "src/components/dm/encounter/combatant-panel.tsx",
         "src/components/dm/npc-portrait-status.tsx",
         "src/components/dm/ship-damage-clock.tsx",
+        "src/components/player-screen/player-screen-dock.tsx",
         "src/routes/dm/encounter/$id.tsx"
       ]
     },
@@ -294618,7 +294634,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/rotate-cw",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/player-screen-dock.tsx"
+      ]
     },
     {
       "id": "lucide/RotateCwSquare",
@@ -295833,6 +295851,7 @@
         "src/components/dm/dm-quick-links.tsx",
         "src/components/dm/encounter/combatant-panel.tsx",
         "src/components/home-action-card.test.tsx",
+        "src/components/player-screen/player-screen-dock.tsx",
         "src/lib/entity-kind-visuals.ts",
         "src/routes/index.tsx"
       ]
@@ -309095,7 +309114,8 @@
         "src/components/dm/encounter/dm-screen.tsx",
         "src/components/dm/encounter/encounter-roster.tsx",
         "src/components/dm/encounter/turn-card.tsx",
-        "src/components/image-viewer.tsx"
+        "src/components/image-viewer.tsx",
+        "src/components/player-screen/player-screen-dock.tsx"
       ]
     },
     {

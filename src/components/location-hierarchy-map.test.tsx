@@ -136,7 +136,7 @@ describe('location hierarchy map', () => {
     expect(image?.className).toContain('object-contain')
     expect(image?.getAttribute('loading')).toBe('lazy')
     expect(image?.getAttribute('sizes')).toBe('auto, (min-width: 1024px) 720px, calc(100vw - 2rem)')
-    expect(image?.getAttribute('srcset')).toContain(`${Math.min(width, 1280)}w`)
+    expect(image?.getAttribute('srcset')).toContain(`${Math.min(width, 1536)}w`)
     expect(image?.getAttribute('width')).toBe(String(width))
     expect(image?.getAttribute('height')).toBe(String(height))
     expect(screen.queryByText('Schematic map')).toBeNull()
