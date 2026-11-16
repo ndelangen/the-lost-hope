@@ -104,40 +104,50 @@ export default createScene({
       ],
     },
     {
-      when: [['Round three, no lines left, and they break away.']],
+      when: [['Round three, they break away.']],
       response: [
         [
-          'They skip the boarding. They slide out from under the cruiser and set down on the wrecked docks of ',
-          refs.locations.nimbus,
-          ' on their own terms. ',
-          refs.pcs.swift_starblade,
-          ' is there, and the party is whole again.',
-        ],
-        [
-          refs.items.master_of_puppets,
-          ' pursues and simply docks next to them. ',
-          refs.npcs.captain_garran,
-          ' walks down the gangway, more impressed than annoyed, recognises them, and asks all of them aboard for a word with ',
-          refs.npcs.onana_tempest,
-          '. His soldiers ring their vessel on the quay.',
-        ],
-        [
-          'Skip “Boarded by the battle-cruiser” and run “',
-          refs.npcs.onana_tempest,
-          ' calls the party to war” with ',
-          refs.pcs.swift_starblade,
-          ' present.',
+          'If lines still hold, each character first gets one last try at a line, DC 15. Then count the tokens.',
         ],
       ],
-    },
-    {
-      when: [['Round three, lines still hold, and they try to break away.']],
-      response: [
-        [
-          'Each character gets one last try at a line, DC 15. If the last token goes, they slip free as the planks swing out: use the outcome above. If not, they are caught and reach ',
-          refs.locations.nimbus,
-          ' in tow with a scarred hull. Run “Boarded by the battle-cruiser”.',
-        ],
+      followUps: [
+        {
+          when: [['No line holds them.']],
+          response: [
+            [
+              'They skip the boarding. They slide out from under the cruiser and set down on the wrecked docks of ',
+              refs.locations.nimbus,
+              ' on their own terms. ',
+              refs.pcs.swift_starblade,
+              ' is there, and the party is whole again.',
+            ],
+            [
+              refs.items.master_of_puppets,
+              ' pursues and simply docks next to them. ',
+              refs.npcs.captain_garran,
+              ' walks down the gangway, more impressed than annoyed, recognises them, and asks all of them aboard for a word with ',
+              refs.npcs.onana_tempest,
+              '. His soldiers ring their vessel on the quay.',
+            ],
+            [
+              'Skip “Boarded by the battle-cruiser” and run “',
+              refs.npcs.onana_tempest,
+              ' calls the party to war” with ',
+              refs.pcs.swift_starblade,
+              ' present.',
+            ],
+          ],
+        },
+        {
+          when: [['A line still holds.']],
+          response: [
+            [
+              'They are caught and reach ',
+              refs.locations.nimbus,
+              ' in tow with a scarred hull. Run “Boarded by the battle-cruiser”.',
+            ],
+          ],
+        },
       ],
     },
     {
