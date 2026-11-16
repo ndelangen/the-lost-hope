@@ -24,7 +24,12 @@ export default createNPC({
     ],
   ],
   background: [
-    ['Working ideas from brainstorming. Not settled.'],
+    [
+      'He can raise people from the dead easily, through necromancers who work for him. Death is no escape from him, and a deal with those necromancers puts a person under his control, as it did ',
+      refs.pcs.fix,
+      '.',
+    ],
+    ['Everything below is working ideas from brainstorming. Not settled.'],
     [
       'He may be a past adventurer who learned the secret of ',
       refs.npcs.light_13th_marshal,
