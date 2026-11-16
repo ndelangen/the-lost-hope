@@ -11,6 +11,7 @@ export default createOrganization({
     [
       'Each recruit is inducted with a guild-mark tattoo and granted a single favor from the guildmaster.',
     ],
+    ['The guild tattoo depicts a grim reaper strangling a shadow.'],
   ],
   background: [
     [
