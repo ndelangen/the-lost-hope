@@ -126,10 +126,6 @@ export function DmEffectsPanel({
         <ul className="divide-border divide-y" aria-label="Effects in force">
           {effects.map((effect) => (
             <li key={effect.slug} className="flex flex-wrap items-center gap-3 py-2">
-              <EffectIcon
-                icon={effect.data.icon}
-                className="size-6 text-indigo-600 dark:text-indigo-300"
-              />
               <div className="grid min-w-0 flex-1 gap-0.5">
                 <p className="text-sm">
                   <EntityReference kind="effect" slug={effect.slug} label={effect.name} />
