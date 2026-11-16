@@ -3,7 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Samantha',
-  avatar: '/assets/npcs/tavern-owner.png',
+  avatar: '/assets/npcs/samantha-portrait.png',
   location: refs.locations.the_nest,
   species: 'unknown',
   notes: [

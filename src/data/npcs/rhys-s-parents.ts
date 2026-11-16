@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Rhys’s Parents',
+  avatar: '/assets/npcs/rhys-s-parents-portrait.png',
   location: refs.locations.greenhollow,
   notes: [['The unnamed parents of ', refs.pcs.swift_starblade, '.']],
   stats: refs.creatures.commoner,

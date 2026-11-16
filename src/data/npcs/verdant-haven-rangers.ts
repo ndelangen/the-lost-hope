@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Verdant Haven Rangers',
+  avatar: '/assets/npcs/verdant-haven-rangers-portrait.png',
   location: refs.locations.verdant_haven,
   species: 'Wood elves',
   notes: [

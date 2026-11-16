@@ -3,7 +3,8 @@ import { create as createBeast } from '#/definitions/beast.ts'
 
 export default createBeast({
   name: 'Sir Fabulous',
-  avatar: '/assets/npcs/wolfie.png',
+  avatar: '/assets/beasts/sir-fabulous-portrait.png',
+  previousPortraits: [{ url: '/assets/npcs/wolfie.png', description: 'Previous beast portrait' }],
   location: refs.locations.the_blackstone,
   species: 'Dire wolf',
   notes: [

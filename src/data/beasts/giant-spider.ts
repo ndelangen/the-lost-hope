@@ -3,7 +3,7 @@ import { create as createBeast } from '#/definitions/beast.ts'
 
 export default createBeast({
   name: 'Giant Spider',
-  avatar: '/assets/npcs/giant-spider.png',
+  avatar: '/assets/beasts/giant-spider-portrait.png',
   location: refs.locations.fajanet_tunnels,
   species: 'Giant Spider',
   notes: [

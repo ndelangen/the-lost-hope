@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Celeste',
+  avatar: '/assets/npcs/celeste-portrait.png',
   location: refs.locations.verdant_haven,
   notes: [
     [

@@ -5,6 +5,7 @@ import sharp from 'sharp'
 import { describe, expect, it } from 'vitest'
 
 import beasts from '../src/data/beasts/_index'
+import locations from '../src/data/locations/_index'
 import npcs from '../src/data/npcs/_index'
 import pcs from '../src/data/pcs/_index'
 import { DEFAULT_AVATAR } from '../src/definitions/media'
@@ -20,10 +21,23 @@ const avatars = [
     ...Object.values(pcs).flatMap((pc) =>
       (pc.previousPortraits ?? []).map((portrait) => portrait.url),
     ),
+    ...[...Object.values(npcs), ...Object.values(beasts)].flatMap((entity) =>
+      (entity.previousPortraits ?? []).map((portrait) => portrait.url),
+    ),
+    ...[...Object.values(beasts), ...Object.values(locations)].flatMap((entity) =>
+      (entity.additionalPortraits ?? []).map((portrait) => portrait.url),
+    ),
   ]),
 ]
 
 describe('avatar assets', () => {
+  it('keeps both of Wolfie’s forms available and the pup portrait primary', () => {
+    expect(beasts.wolfie.avatar).toBe('/assets/npcs/wolfie.png')
+    expect(beasts.wolfie.additionalPortraits).toContainEqual(
+      expect.objectContaining({ url: '/assets/beasts/wolfie-upright.png' }),
+    )
+  })
+
   it.each(avatars)('keeps the source and delivered avatar square: %s', async (avatar) => {
     const source = responsiveImageSourcePath(process.cwd(), avatar)
     // Unavailable local artwork uses the canonical square placeholder. Remote images must

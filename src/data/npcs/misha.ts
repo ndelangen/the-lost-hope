@@ -3,7 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Misha',
-  avatar: '/assets/npcs/angel-of-the-mountain.png',
+  avatar: '/assets/npcs/misha-portrait.png',
   location: refs.locations.mountain_top,
   species: 'Angel',
   notes: [

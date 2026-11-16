@@ -3,7 +3,7 @@ import { create as createBeast } from '#/definitions/beast.ts'
 
 export default createBeast({
   name: 'Dragon Children',
-  avatar: '/assets/npcs/dragon-children.png',
+  avatar: '/assets/beasts/dragon-children-portrait.png',
   location: refs.locations.mountain_top,
   species: 'Dragon',
   notes: [

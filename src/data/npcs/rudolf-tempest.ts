@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Rudolf Tempest',
+  avatar: '/assets/npcs/rudolf-tempest-portrait.png',
   memberships: [
     { organization: refs.organizations.tempest_family, status: 'active', rank: 'Family member' },
   ],

@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Borris',
+  avatar: '/assets/npcs/borris-portrait.png',
   location: refs.locations.the_sullen_monk,
   species: 'unknown',
   notes: [['A recurring crime boss and friend of ', refs.pcs.devan, '.']],

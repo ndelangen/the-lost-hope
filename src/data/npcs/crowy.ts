@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Crowy',
+  avatar: '/assets/npcs/crowy-portrait.png',
   species: 'Talking crow',
   languages: ['Common'],
   notes: [

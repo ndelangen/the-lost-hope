@@ -3,7 +3,7 @@ import { create as createBeast } from '#/definitions/beast.ts'
 
 export default createBeast({
   name: 'Displacer Beast',
-  avatar: '/assets/npcs/displacer-beast.png',
+  avatar: '/assets/beasts/displacer-beast-portrait.png',
   location: refs.locations.fajanet,
   species: 'Displacer Beast (Monstrosity)',
   notes: [

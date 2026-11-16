@@ -3,7 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'The Father',
-  avatar: '/assets/npcs/the-father.png',
+  avatar: '/assets/npcs/the-father-portrait.png',
   notes: [
     [
       'The secret leader of ',

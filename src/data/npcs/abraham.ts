@@ -3,7 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Abraham',
-  avatar: '/assets/npcs/abraham.png',
+  avatar: '/assets/npcs/abraham-portrait.png',
   location: refs.locations.badesh_forest,
   species: 'Donkey',
   notes: [

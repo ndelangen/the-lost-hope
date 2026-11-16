@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Skynet Gang Leader',
+  avatar: '/assets/npcs/skynet-gang-leader-portrait.png',
   notes: [['A large, four-armed criminal who leads a local gang.']],
   stats: {
     size: 'large',

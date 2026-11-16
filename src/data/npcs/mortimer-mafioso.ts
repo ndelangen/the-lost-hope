@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Mortimer Mafioso',
+  avatar: '/assets/npcs/mortimer-mafioso-portrait.png',
   location: refs.locations.mortimer_s_shop,
   notes: [
     [

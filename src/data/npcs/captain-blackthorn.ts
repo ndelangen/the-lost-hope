@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Captain Blackthorn',
+  avatar: '/assets/npcs/captain-blackthorn-portrait.png',
   location: refs.locations.the_briar_queen,
   notes: [['A pirate captain.']],
   motivations: [

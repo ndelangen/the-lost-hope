@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'The Fiddler',
+  avatar: '/assets/npcs/the-fiddler-portrait.png',
   location: refs.locations.gambling_deck,
   notes: [
     [

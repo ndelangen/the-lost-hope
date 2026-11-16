@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'The 12th Marshal',
+  avatar: '/assets/npcs/the-12th-marshal-portrait.png',
   species: 'Dragon',
   notes: [
     [

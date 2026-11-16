@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Madame Esmeralda',
+  avatar: '/assets/npcs/madame-esmeralda-portrait.png',
   location: refs.locations.fairhaven,
   notes: [['A fortune teller.']],
   stats: {

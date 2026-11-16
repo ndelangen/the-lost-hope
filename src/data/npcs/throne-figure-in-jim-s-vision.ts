@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: "Throne Figure in Jim's Vision",
+  avatar: '/assets/npcs/throne-figure-in-jim-s-vision-portrait.png',
   notes: [
     [
       'An unidentified being that wears the face of one of ',

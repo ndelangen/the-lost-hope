@@ -3,9 +3,9 @@
 import { cleanup, fireEvent, render, screen } from '@testing-library/react'
 import { afterEach, describe, expect, it } from 'vitest'
 
-import { PreviousPortraits } from './previous-portraits'
+import { PortraitGallery } from './portrait-gallery'
 
-describe('PreviousPortraits', () => {
+describe('PortraitGallery', () => {
   afterEach(() => {
     cleanup()
     document.body.style.overflow = ''
@@ -13,8 +13,9 @@ describe('PreviousPortraits', () => {
 
   it('shows described thumbnails that open in the portrait viewer', () => {
     render(
-      <PreviousPortraits
-        characterName="Jim"
+      <PortraitGallery
+        kind="previous"
+        subject="Jim"
         portraits={[
           {
             url: '/assets/pcs/jim-kenku.jpg',

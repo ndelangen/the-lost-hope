@@ -3,7 +3,7 @@ import { z } from 'zod'
 import { Background, Content } from './content'
 import { makeCreate } from './create'
 import { EntityRefSchema } from './kind'
-import { DEFAULT_AVATAR, MediaUrl } from './media'
+import { DEFAULT_AVATAR, MediaUrl, Portrait } from './media'
 import { Membership } from './organization'
 import { deriveSlug } from './slug'
 import { OwnOrSharedStatBlock } from './stat-block'
@@ -12,6 +12,7 @@ export const NPC = deriveSlug(
   z.strictObject({
     name: z.string().describe('The name of the NPC'),
     avatar: MediaUrl.default(DEFAULT_AVATAR).describe('The avatar of the NPC'),
+    previousPortraits: z.array(Portrait).optional(),
     location: EntityRefSchema.optional().describe('The home location of the NPC'),
     species: z.string().optional(),
     languages: z

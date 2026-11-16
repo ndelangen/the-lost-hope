@@ -3,6 +3,12 @@ import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
   name: 'Nimbus',
+  additionalPortraits: [
+    {
+      url: '/assets/locations/nimbus-ferry-worker-portrait.png',
+      description: 'Nimbus ferry worker',
+    },
+  ],
   icon: 'lucide/Cloud',
   illustration: '/assets/locations/nimbus-illustration.png',
   type: 'settlement',

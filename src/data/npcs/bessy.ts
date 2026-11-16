@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Bessy',
+  avatar: '/assets/npcs/bessy-portrait.png',
   location: refs.locations.flying_bazaar_crafting_area,
   species: 'Minotaur',
   notes: [

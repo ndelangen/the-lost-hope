@@ -3,7 +3,10 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Sylvia',
-  avatar: '/assets/npcs/sylvia.png',
+  avatar: '/assets/npcs/sylvia-portrait.png',
+  previousPortraits: [
+    { url: '/assets/npcs/sylvia.png', description: 'Previous character portrait' },
+  ],
   location: refs.locations.the_flying_whale,
   species: 'Human',
   notes: [

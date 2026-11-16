@@ -3,7 +3,7 @@ import { z } from 'zod'
 import { Background, Content } from './content'
 import { makeCreate } from './create'
 import { EntityRefSchema } from './kind'
-import { DEFAULT_LOCATION_ILLUSTRATION, MediaUrl } from './media'
+import { DEFAULT_LOCATION_ILLUSTRATION, MediaUrl, Portrait } from './media'
 import { deriveSlug } from './slug'
 
 export const LOCATION_TYPES = [
@@ -75,6 +75,7 @@ const locationFields = {
     .describe(
       'Self-hosted artistic depiction of the location. Defaults to the shared location placeholder and does not establish campaign canon.',
     ),
+  additionalPortraits: z.array(Portrait).optional(),
   aliases: z
     .array(z.string())
     .optional()

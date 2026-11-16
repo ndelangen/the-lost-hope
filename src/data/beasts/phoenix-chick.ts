@@ -3,7 +3,7 @@ import { create as createBeast } from '#/definitions/beast.ts'
 
 export default createBeast({
   name: "Phoenix Chick (Jim's phoenix)",
-  avatar: '/assets/npcs/phoenix-chick.png',
+  avatar: '/assets/beasts/phoenix-chick-portrait.png',
   location: refs.locations.fajanet,
   species: 'Phoenix',
   notes: [

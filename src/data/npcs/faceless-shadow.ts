@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Faceless Shadow',
+  avatar: '/assets/npcs/faceless-shadow-portrait.png',
   notes: [
     ['A hovering, faceless shadowy figure seen wielding ', refs.items.cursed_shadow_sword, '.'],
   ],

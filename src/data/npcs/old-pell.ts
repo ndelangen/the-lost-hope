@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Old Pell',
+  avatar: '/assets/npcs/old-pell-portrait.png',
   species: 'Gnome',
   notes: [
     [

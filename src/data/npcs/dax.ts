@@ -3,7 +3,8 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Dax',
-  avatar: '/assets/npcs/dax.png',
+  avatar: '/assets/npcs/dax-portrait.png',
+  previousPortraits: [{ url: '/assets/npcs/dax.png', description: 'Previous character portrait' }],
   species: 'Elemental spirit',
   notes: [
     [

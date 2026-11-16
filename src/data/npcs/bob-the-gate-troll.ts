@@ -3,7 +3,10 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Bob the gate troll',
-  avatar: '/assets/npcs/bob-the-gate-troll.png',
+  avatar: '/assets/npcs/bob-the-gate-troll-portrait.png',
+  previousPortraits: [
+    { url: '/assets/npcs/bob-the-gate-troll.png', description: 'Previous character portrait' },
+  ],
   location: refs.locations.fajanet,
   species: 'Troll',
   notes: [

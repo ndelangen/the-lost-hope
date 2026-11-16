@@ -3,6 +3,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 
 export default createScene({
   name: 'Borris shutters the casino',
+  illustration: '/assets/scenes/borris-shutters-the-casino.png',
   location: refs.locations.nimbus,
   npcs: [refs.npcs.borris],
   references: [

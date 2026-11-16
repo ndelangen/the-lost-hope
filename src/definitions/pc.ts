@@ -2,7 +2,7 @@ import { z } from 'zod'
 
 import { Background, Content } from './content'
 import { makeCreate } from './create'
-import { DEFAULT_AVATAR, MediaUrl } from './media'
+import { DEFAULT_AVATAR, MediaUrl, Portrait } from './media'
 import { Membership } from './organization'
 import { deriveSlug } from './slug'
 
@@ -10,9 +10,7 @@ export { DEFAULT_AVATAR, DEFAULT_AVATAR as DEFAULT_PC_AVATAR } from './media'
 
 export const PC_STATUSES = ['active', 'retired', 'occasional'] as const
 
-export const PreviousPortrait = z.strictObject({
-  url: MediaUrl.describe('The historical portrait image'),
-  description: z.string().trim().min(1).describe('Accessible and visible portrait description'),
+export const PreviousPortrait = Portrait.extend({
   until: z
     .number()
     .int()

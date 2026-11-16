@@ -8,3 +8,10 @@ export const DEFAULT_LOCATION_ILLUSTRATION = '/assets/locations/placeholder.svg'
 
 /** Accepts absolute URLs and site-relative asset paths. */
 export const MediaUrl = z.string().min(1)
+
+export const Portrait = z.strictObject({
+  url: MediaUrl,
+  description: z.string().trim().min(1),
+})
+
+export type Portrait = z.infer<typeof Portrait>

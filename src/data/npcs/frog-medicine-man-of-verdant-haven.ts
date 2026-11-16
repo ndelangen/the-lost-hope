@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Frog Medicine Man of Verdant Haven',
+  avatar: '/assets/npcs/frog-medicine-man-of-verdant-haven-portrait.png',
   location: refs.locations.verdant_haven,
   species: 'Frogfolk',
   notes: [['A pipe-smoking medicine man.']],

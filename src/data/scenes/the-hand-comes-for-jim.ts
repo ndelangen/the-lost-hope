@@ -3,6 +3,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 
 export default createScene({
   name: 'The Hand comes for Jim',
+  illustration: '/assets/scenes/the-hand-comes-for-jim.png',
   location: refs.locations.nimbus,
   npcs: [refs.npcs.silas_wren, refs.npcs.cloaked_snatcher],
   references: [

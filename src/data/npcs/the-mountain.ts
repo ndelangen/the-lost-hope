@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'The Mountain',
+  avatar: '/assets/npcs/the-mountain-portrait.png',
   notes: [['A cage fighter known by this epithet.']],
   stats: {
     size: 'large',
