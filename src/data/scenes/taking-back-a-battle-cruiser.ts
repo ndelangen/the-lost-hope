@@ -80,7 +80,9 @@ export default createScene({
       refs.organizations.the_eyeless_hand,
       ' caught in a destroyed sector are gone.',
     ],
-    ['The enemy numbers and the deck map still need to be prepared.'],
+    [
+      'The sector names, the two sectors without escape pods, the DC of the save and the fall damage are first choices, so change them freely. The enemy numbers and the deck map still need to be prepared.',
+    ],
   ],
   outcomes: [
     {
