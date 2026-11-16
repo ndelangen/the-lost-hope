@@ -4,7 +4,12 @@ import { EffectText, EffectTokens } from '#/components/effect-text'
 import { EntityReference } from '#/components/entity-reference'
 import { EFFECT_TRIGGERS, type EffectTrigger } from '#/definitions/effect'
 import { EffectIcon } from '#/lib/effect-icons'
-import type { EffectLiveState, ObligationStatus, Reminder } from '#/lib/effect-reminders'
+import type {
+  EffectLiveState,
+  LiveEffect,
+  ObligationStatus,
+  Reminder,
+} from '#/lib/effect-reminders'
 import { cn } from '#/lib/utils'
 
 export type EffectPanelActions = {
@@ -12,6 +17,8 @@ export type EffectPanelActions = {
   dismiss: (id: string) => void
   close: () => void
   meet: (id: string) => void
+  end: (slug: string) => void
+  restore: (slug: string) => void
   reset: () => void
 }
 
@@ -21,11 +28,15 @@ const buttonClass =
 /** Live effect reminders and obligation clocks for the DM during play. */
 export function DmEffectsPanel({
   state,
+  effects,
+  endedEffects,
   reminders,
   obligations,
   actions,
 }: {
   state: EffectLiveState
+  effects: readonly LiveEffect[]
+  endedEffects: readonly LiveEffect[]
   reminders: readonly Reminder[]
   obligations: readonly ObligationStatus[]
   actions: EffectPanelActions
@@ -111,8 +122,69 @@ export function DmEffectsPanel({
         </output>
       ) : null}
 
+      {effects.length > 0 ? (
+        <ul className="divide-border divide-y" aria-label="Effects in force">
+          {effects.map((effect) => (
+            <li key={effect.slug} className="flex flex-wrap items-center gap-3 py-2">
+              <EffectIcon
+                icon={effect.data.icon}
+                className="size-6 text-indigo-600 dark:text-indigo-300"
+              />
+              <div className="grid min-w-0 flex-1 gap-0.5">
+                <p className="text-sm">
+                  <EntityReference kind="effect" slug={effect.slug} label={effect.name} />
+                  <span className="text-muted-foreground"> · on {effect.carrier}</span>
+                </p>
+                <p className="text-muted-foreground text-sm">{lastsLabel(effect, state.day)}</p>
+              </div>
+              <button
+                type="button"
+                className={cn(buttonClass, 'text-sm')}
+                onClick={() => actions.end(effect.slug)}
+              >
+                End
+              </button>
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p className="text-muted-foreground text-sm">
+          No lasting effects in force on day {state.day}.
+        </p>
+      )}
+
+      {endedEffects.length > 0 ? (
+        <div className="grid gap-2 rounded-lg bg-amber-50 p-3 dark:bg-amber-950/30">
+          <p className="text-sm">
+            <span className="font-semibold">Ended at the table.</span> Record these in the session
+            import, or they come back after a reset.
+          </p>
+          <ul className="grid gap-2">
+            {endedEffects.map((effect) => (
+              <li key={effect.slug} className="flex flex-wrap items-center gap-3">
+                <EffectIcon icon={effect.data.icon} className="text-muted-foreground size-6" />
+                <p className="min-w-0 flex-1 text-sm">
+                  <span className="font-semibold">{effect.name}</span>
+                  <span className="text-muted-foreground">
+                    {' '}
+                    · on {effect.carrier} · ended day {state.ended[effect.slug]}
+                  </span>
+                </p>
+                <button
+                  type="button"
+                  className={cn(buttonClass, 'text-sm')}
+                  onClick={() => actions.restore(effect.slug)}
+                >
+                  Undo
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ) : null}
+
       {obligations.length > 0 ? (
-        <ul className="divide-border divide-y">
+        <ul className="divide-border divide-y" aria-label="Obligations">
           {obligations.map((obligation) => (
             <li key={obligation.id} className="flex flex-wrap items-center gap-3 py-2">
               <EffectIcon
@@ -152,6 +224,12 @@ export function DmEffectsPanel({
       ) : null}
     </section>
   )
+}
+
+function lastsLabel(effect: LiveEffect, day: number): string {
+  if (effect.expiryDay === undefined) return 'Lasts until something ends it'
+  if (effect.expiryDay === day + 1) return 'Last day today'
+  return `Lasts through day ${effect.expiryDay - 1}`
 }
 
 function dueLabel(obligation: ObligationStatus, day: number): string {

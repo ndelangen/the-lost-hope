@@ -1,6 +1,6 @@
 import type { Effect, EffectTrigger, EffectText, EffectTextToken } from '#/definitions/effect'
 
-import { spanDays } from './effects'
+import { effectStatus, spanDays } from './effects'
 
 /**
  * Browser-local live state for effects during play (see issue #171). Campaign source stays
@@ -11,6 +11,8 @@ export type EffectLiveState = {
   day: number
   /** The live day each obligation was last met, keyed by `obligationKey`. */
   met: Record<string, number>
+  /** The live day the DM ended each effect at the table, keyed by effect slug. */
+  ended: Record<string, number>
   /** The trigger the DM fired last, whose reminders are showing. */
   fired?: { trigger: EffectTrigger; day: number; dismissed: string[] }
 }
@@ -23,6 +25,8 @@ export type LiveEffect = {
   carrier: string
   /** Campaign day of the event in which it began. */
   beganDay: number
+  /** Campaign day it expires on, when it has a duration. */
+  expiryDay: number | undefined
   data: Effect
 }
 
@@ -45,7 +49,7 @@ export function obligationKey(effectSlug: string, label: string): string {
 }
 
 export function initialLiveState(day: number): EffectLiveState {
-  return { day, met: {} }
+  return { day, met: {}, ended: {} }
 }
 
 /** Fires a trigger. A new campaign day also advances the live day. */
@@ -67,6 +71,37 @@ export function closeReminders(state: EffectLiveState): EffectLiveState {
 
 export function meetObligation(state: EffectLiveState, id: string): EffectLiveState {
   return { ...state, met: { ...state.met, [id]: state.day } }
+}
+
+/** Ends an effect at the table. Campaign source still needs its `ended` event at import. */
+export function endEffect(state: EffectLiveState, slug: string): EffectLiveState {
+  return { ...state, ended: { ...state.ended, [slug]: state.day } }
+}
+
+/** Undoes ending an effect at the table. */
+export function restoreEffect(state: EffectLiveState, slug: string): EffectLiveState {
+  const { [slug]: _, ...ended } = state.ended
+  return { ...state, ended }
+}
+
+/** The effects still in force on the live day: not expired and not ended at the table. */
+export function effectsInPlay(
+  state: EffectLiveState,
+  effects: readonly LiveEffect[],
+): LiveEffect[] {
+  return effects.filter(
+    (effect) =>
+      !(effect.slug in state.ended) &&
+      effectStatus(effect.data, effect.beganDay, state.day) === 'active',
+  )
+}
+
+/** The effects the DM ended at the table, so they can be restored or recorded at import. */
+export function effectsEndedAtTable(
+  state: EffectLiveState,
+  effects: readonly LiveEffect[],
+): LiveEffect[] {
+  return effects.filter((effect) => effect.slug in state.ended)
 }
 
 /** The reminders of the trigger the DM fired last that are still showing. */

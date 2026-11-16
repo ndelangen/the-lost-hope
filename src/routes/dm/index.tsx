@@ -11,13 +11,15 @@ import { buildDashboard, lastKnownLocations, playedEvent, runningOrder } from '#
 import {
   closeReminders,
   dismissReminder,
+  effectsEndedAtTable,
+  effectsInPlay,
+  endEffect,
   fireTrigger,
   meetObligation,
   obligationStatuses,
   pendingReminders,
+  restoreEffect,
 } from '#/lib/effect-reminders'
-
-const effectsInPlay = liveEffects()
 
 export const Route = createFileRoute('/dm/')({
   head: () => ({
@@ -41,6 +43,8 @@ function DmDashboard() {
   const tree = buildDashboard({ table, scenes, arcs, party, parentOf: sourceLocationParent })
   const order = runningOrder({ table, scenes, arcs })
   const live = useEffectLiveState(campaignToday())
+  const candidates = liveEffects()
+  const inPlay = live.state ? effectsInPlay(live.state, candidates) : []
 
   return (
     <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_12rem]">
@@ -48,13 +52,17 @@ function DmDashboard() {
         {live.state ? (
           <DmEffectsPanel
             state={live.state}
-            reminders={pendingReminders(live.state, effectsInPlay)}
-            obligations={obligationStatuses(live.state, effectsInPlay)}
+            effects={inPlay}
+            endedEffects={effectsEndedAtTable(live.state, candidates)}
+            reminders={pendingReminders(live.state, inPlay)}
+            obligations={obligationStatuses(live.state, inPlay)}
             actions={{
               fire: (trigger) => live.update((state) => fireTrigger(state, trigger)),
               dismiss: (id) => live.update((state) => dismissReminder(state, id)),
               close: () => live.update(closeReminders),
               meet: (id) => live.update((state) => meetObligation(state, id)),
+              end: (slug) => live.update((state) => endEffect(state, slug)),
+              restore: (slug) => live.update((state) => restoreEffect(state, slug)),
               reset: live.reset,
             }}
           />

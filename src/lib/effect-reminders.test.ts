@@ -6,12 +6,16 @@ import type { Effect } from '#/definitions/effect'
 import {
   closeReminders,
   dismissReminder,
+  effectsEndedAtTable,
+  effectsInPlay,
+  endEffect,
   fireTrigger,
   initialLiveState,
   meetObligation,
   obligationKey,
   obligationStatuses,
   pendingReminders,
+  restoreEffect,
   type LiveEffect,
 } from './effect-reminders'
 
@@ -20,6 +24,7 @@ const vessel: LiveEffect = {
   name: 'Vessel',
   carrier: 'Jim',
   beganDay: 10,
+  expiryDay: undefined,
   data: {
     triggers: [
       { on: 'longRest', reminder: [['Regain a stored spell']] },
@@ -67,5 +72,34 @@ describe('effect reminders', () => {
       due: 13,
       overdue: false,
     })
+  })
+
+  it('drops a timed effect once New day reaches its expiry', () => {
+    const blessing: LiveEffect = {
+      slug: 'blessing',
+      name: 'Blessing',
+      carrier: 'Swift',
+      beganDay: 10,
+      expiryDay: 12,
+      data: { duration: { days: 2 } } as Effect,
+    }
+    const dayTen = initialLiveState(10)
+    const dayEleven = fireTrigger(dayTen, 'newDay')
+    const dayTwelve = fireTrigger(dayEleven, 'newDay')
+    expect(effectsInPlay(dayEleven, [blessing, vessel])).toEqual([blessing, vessel])
+    expect(effectsInPlay(dayTwelve, [blessing, vessel])).toEqual([vessel])
+    const fired = pendingReminders(dayTwelve, effectsInPlay(dayTwelve, [blessing, vessel]))
+    expect(fired.map((reminder) => reminder.effect.slug)).toEqual(['vessel'])
+  })
+
+  it('ends an effect at the table until the DM undoes it', () => {
+    const ended = endEffect(fireTrigger(initialLiveState(10), 'newDay'), 'vessel')
+    expect(ended.ended).toEqual({ vessel: 11 })
+    expect(effectsInPlay(ended, [vessel])).toEqual([])
+    expect(effectsEndedAtTable(ended, [vessel])).toEqual([vessel])
+    expect(obligationStatuses(ended, effectsInPlay(ended, [vessel]))).toEqual([])
+    const restored = restoreEffect(ended, 'vessel')
+    expect(effectsInPlay(restored, [vessel])).toEqual([vessel])
+    expect(effectsEndedAtTable(restored, [vessel])).toEqual([])
   })
 })
