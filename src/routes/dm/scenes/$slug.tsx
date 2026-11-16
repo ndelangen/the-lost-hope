@@ -13,7 +13,7 @@ import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 import { arcs, resolveSourceRef, scenes, table } from '#/lib/dm-campaign'
 import { plotsByScene } from '#/lib/dm-dashboard'
 import { resolvePlayerScreenImage } from '#/lib/player-screen'
-import { avatarOnPlayerScreen } from '#/lib/player-screen-state'
+import type { PlayerScreenImage } from '#/lib/player-screen-state'
 import { buildSceneBranches } from '#/lib/scene-branches'
 
 const npcRecords: Readonly<
@@ -97,9 +97,8 @@ function SceneRoute() {
             <ul className="grid gap-3">
               {scene.npcs.map((npc) => {
                 const record = Object.hasOwn(npcRecords, npc.key) ? npcRecords[npc.key] : undefined
-                const portrait = avatarOnPlayerScreen('npc', record?.slug ?? '')
-                const canShow =
-                  import.meta.env.DEV && portrait && resolvePlayerScreenImage(portrait)
+                const portrait: PlayerScreenImage = { image: 'avatar', ref: npc }
+                const canShow = import.meta.env.DEV && resolvePlayerScreenImage(portrait)
                 return (
                   <li key={npc.key} className="border-border grid gap-3 rounded-lg border p-3">
                     <div className="flex flex-wrap items-start gap-3">

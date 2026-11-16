@@ -47,6 +47,19 @@ function PlayerScreenPage() {
       )}
       onDoubleClick={toggleFullscreen}
     >
+      {image?.src && showing ? (
+        // Fills the edges a picture leaves when its shape differs from the screen's.
+        <ResponsiveImage
+          key={`backdrop:${playerScreenImageId(showing)}`}
+          src={image.src}
+          alt=""
+          sizes="640px"
+          maxWidth={640}
+          loading="eager"
+          aria-hidden
+          className="animate-in fade-in absolute inset-0 size-full scale-125 object-cover blur-[100px] brightness-75 duration-700"
+        />
+      ) : null}
       {image && showing ? (
         <figure
           key={playerScreenImageId(showing)}

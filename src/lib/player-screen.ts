@@ -1,4 +1,4 @@
-import type { EntityRef } from '#/definitions/kind'
+import type { AnyKind, EntityRef } from '#/definitions/kind'
 import { DEFAULT_AVATAR, DEFAULT_LOCATION_ILLUSTRATION } from '#/definitions/media'
 import { PLAYER_VISIBLE_KEYS, SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 import { scenes } from '#/lib/dm-campaign'
@@ -180,10 +180,11 @@ export function playerScreenOptionsForPage(
         ? id
         : Object.entries(registry).find(([, entry]) => (entry as Named).slug === id)?.[0]
     if (!key) return []
-    const related: EntityRef<'npc' | 'location' | 'pc' | 'beast' | 'scene'>[] = [{ ref: kind, key }]
+    const related: EntityRef<AnyKind>[] = [{ ref: kind, key }]
     if (kind === 'scene') {
       const scene = scenes[key]
-      if (scene) related.push(scene.location, ...scene.npcs)
+      // Then the characters and places the scene mentions, such as Jim when the Hand comes for him.
+      if (scene) related.push(scene.location, ...scene.npcs, ...scene.references)
     }
     return related.flatMap((ref) =>
       options.filter(

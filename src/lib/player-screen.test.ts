@@ -181,3 +181,18 @@ describe('player screen handouts', () => {
     ).toEqual(EMPTY_PLAYER_SCREEN)
   })
 })
+
+describe('player screen on a scene page', () => {
+  it('offers the scene’s unmet NPCs and the characters it mentions', () => {
+    const scene = Object.values(scenes).find(
+      (candidate) => candidate.slug === 'the-hand-comes-for-jim',
+    )!
+    const keys = new Set(
+      playerScreenOptionsForPage(options, `/dm/scenes/${scene.slug}`).map(
+        (option) => `${option.selection.ref.ref}:${option.selection.ref.key}`,
+      ),
+    )
+    expect(keys.has('npc:silas_wren')).toBe(true)
+    expect(keys.has('pc:jim')).toBe(true)
+  })
+})
