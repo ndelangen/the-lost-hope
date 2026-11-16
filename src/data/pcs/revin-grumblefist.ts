@@ -4,7 +4,7 @@ import { create as createPC } from '#/definitions/pc.ts'
 export default createPC({
   name: 'Revin "klapper" Grumblefist',
   player: 'Matthijs',
-  url: '',
+  url: 'https://www.dndbeyond.com/characters/159958404',
   avatar: '/assets/pcs/revin.png',
   status: 'retired',
   species: 'Dwarf',

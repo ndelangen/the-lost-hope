@@ -1,4 +1,4 @@
-import { PawPrint, RotateCcw, Shield, Swords, Zap } from 'lucide-react'
+import { ExternalLink, PawPrint, RotateCcw, ScrollText, Shield, Swords, Zap } from 'lucide-react'
 import { Fragment, type ReactNode } from 'react'
 
 import { RuleTerm } from '#/components/rule-term'
@@ -154,6 +154,18 @@ export function CombatantPanel({
           ) : null}
         </div>
         <div className="flex items-center gap-2">
+          {combatant.sheetUrl ? (
+            <a
+              href={combatant.sheetUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="border-border hover:bg-muted flex h-9 items-center gap-1.5 rounded-lg border px-3 text-sm font-semibold"
+            >
+              <ScrollText aria-hidden className="size-4" />
+              Character sheet
+              <ExternalLink aria-hidden className="text-muted-foreground size-3.5" />
+            </a>
+          ) : null}
           {combatant.tracked ? (
             <IconButton
               label="Reset to starting HP and uses"

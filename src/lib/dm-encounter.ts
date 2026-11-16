@@ -34,7 +34,10 @@ function pcRecord(source: EntityRef<'pc'>) {
   return Object.hasOwn(SOURCE_REGISTRIES.pc, source.key)
     ? (
         SOURCE_REGISTRIES.pc as Readonly<
-          Record<string, { name: string; slug: string; avatar: string; combat?: PcCombat }>
+          Record<
+            string,
+            { name: string; slug: string; avatar: string; url: string; combat?: PcCombat }
+          >
         >
       )[source.key]
     : undefined
@@ -53,6 +56,8 @@ export type CombatantView = {
   start?: StartingStats
   /** A PC's quick facts for the party strip. */
   party?: PcCombat
+  /** A PC's online character sheet, for anything the quick facts don't cover. */
+  sheetUrl?: string
   /** Campaign effects active on this PC, NPC, or beast, read-only in the fight. */
   effects: readonly EntityOf<'effect'>['data'][]
   /** Whether the tracker follows HP and abilities for this entry. */
@@ -72,6 +77,7 @@ export function combatantView(entry: RosterEntry, roster: readonly RosterEntry[]
       avatar: realAvatar(record?.avatar),
       start: { maxHp: record?.combat?.maxHp, ac: record?.combat?.ac },
       party: record?.combat ?? {},
+      sheetUrl: record?.url || undefined,
       effects: record ? activeEffects('pc', record.slug) : [],
       tracked: true,
     }
