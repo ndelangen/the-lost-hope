@@ -11,6 +11,37 @@ export default createNPC({
       '; his true identity is a closely guarded secret.',
     ],
   ],
+  motivations: [
+    [
+      'He wants ',
+      refs.npcs.light_13th_marshal,
+      ' to put down the pen. On the day Light stops writing, the memories the Father holds are the only record left in the world, and whoever owns the only memory owns everything. Light does not know this. The party can find it out, and must then convince Light that he cannot carry out his plan yet.',
+    ],
+    [
+      'He fires the green beam from the flying fortress to capture ',
+      refs.pcs.jim,
+      ' and holds him there. The damage it does is an accident of the power needed to take a ghost who carries a guild tattoo.',
+    ],
+  ],
+  background: [
+    ['Working ideas from brainstorming. Not settled.'],
+    [
+      'He may be a past adventurer who learned the secret of ',
+      refs.npcs.light_13th_marshal,
+      ' and the shadow. He takes the memories that Arcane Dust users lose, so he pushes more drug use to learn more, and in that way rivals Light.',
+    ],
+    [
+      '',
+      refs.organizations.the_eyeless_hand,
+      ' first dealt in the drug for money. Now the drug empire exists to feed a network of information.',
+    ],
+    [
+      'He is out to control the whole world. ',
+      refs.pcs.jim,
+      ' was meant to be his protégé and replacement, which would explain why he wants him found alive.',
+    ],
+    ['Still open: how far the Hand reaches into the ', refs.organizations.marshals_court, '.'],
+  ],
   memberships: [
     {
       organization: refs.organizations.the_eyeless_hand,

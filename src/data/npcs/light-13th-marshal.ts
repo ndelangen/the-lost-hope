@@ -18,6 +18,54 @@ export default createNPC({
     ['He is one of the thirteen world governors and holds the formal rank of 13th Marshal.'],
     ['He has an enormous amount of paperwork to do and never sleeps.'],
   ],
+  motivations: [
+    [
+      'He wants the loss to stop, and he knows he cannot keep his work up. His plan is to put down the pen. When he stops writing, the true cost lands on everyone at once: a huge part of the world is lost, and what remains is forced to give up shadow. He has tried everything else with earlier parties, and he believes this is the only way left.',
+    ],
+    [
+      'That is why he recruits adventurers all over the world through the ',
+      refs.organizations.adventurers_guild,
+      '. When he stops, its members are meant to be the hope that is still standing.',
+    ],
+    [
+      'He cannot tell adventurers to stay away from the fuel and the drug, because the warning would raise suspicion. He accepts that some of them will be lost too.',
+    ],
+  ],
+  background: [
+    [
+      'Writing is remembering. He records every use of shadow fuel and Arcane Dust. If he remembers, the users remember, and what he has written down is not lost. That is the paperwork, and it is why he never sleeps.',
+    ],
+    [
+      'The other twelve marshals see him as a thing that has to go on but must never grow too strong. They forced him into a kind of exile: he is not supposed to hold land and may not go wherever he wants. They use the fuel and the drug on purpose to flood him with more records than he can keep.',
+    ],
+    [
+      'He is not really powerful enough for this. He no longer has the power to keep even the promises he makes to his adventurers.',
+    ],
+    [
+      'He told ',
+      refs.pcs.cassian_veyl,
+      ', and nobody else, that he is a necessary evil. When he said it is not recorded yet, so it has no event. He meant four things.',
+    ],
+    [
+      'He makes the harm sustainable. Because he records the loss, the fuel and the drug cost people less than they should, so the world never has to stop using them. Without him millions would be lost at once. With him it never ends.',
+    ],
+    [
+      'He cannot keep up, so he chooses. Whatever he does not get to is lost, and he decides who is remembered. He lets go of the people nobody will miss.',
+    ],
+    [
+      'What he remembers, he holds. Someone whose self survives in his files partly belongs to him. That is the weight behind his favours and contracts.',
+    ],
+    [
+      'He made ',
+      refs.npcs.the_father,
+      '. One of his earlier attempts taught a recruit his secret, and the recruit turned it into a weapon.',
+    ],
+    [
+      'Still open: why the twelve cannot simply kill him, and whether the tentacles in ',
+      refs.locations.fajanet,
+      ' are what takes the people he lets go.',
+    ],
+  ],
   memberships: [
     {
       organization: refs.organizations.adventurers_guild,
