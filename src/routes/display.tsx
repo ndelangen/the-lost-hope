@@ -1,6 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { Maximize } from 'lucide-react'
-import { useEffect, useState } from 'react'
+import { lazy, Suspense, useEffect, useState } from 'react'
 
 import {
   useAnnouncePlayerScreen,
@@ -10,6 +10,12 @@ import { ResponsiveImage } from '#/components/responsive-image'
 import { resolvePlayerScreenImage } from '#/lib/player-screen'
 import { playerScreenImageId, playerScreenShowing } from '#/lib/player-screen-state'
 import { cn } from '#/lib/utils'
+
+const JimsLetterOnScreen = lazy(() =>
+  import('#/components/player-screen/jims-letter-on-screen').then((module) => ({
+    default: module.JimsLetterOnScreen,
+  })),
+)
 
 /** The player-facing screen: a bare, full-window picture the DM picks from another window. */
 export const Route = createFileRoute('/display')({
@@ -50,13 +56,19 @@ function PlayerScreenPage() {
           )}
           style={state.rotation === 0 ? undefined : { rotate: `${state.rotation}deg` }}
         >
-          <ResponsiveImage
-            src={image.src}
-            alt={caption ?? ''}
-            sizes="100vw"
-            loading="eager"
-            className="absolute inset-0 size-full object-contain"
-          />
+          {image.src ? (
+            <ResponsiveImage
+              src={image.src}
+              alt={caption ?? ''}
+              sizes="100vw"
+              loading="eager"
+              className="absolute inset-0 size-full object-contain"
+            />
+          ) : (
+            <Suspense fallback={null}>
+              <JimsLetterOnScreen />
+            </Suspense>
+          )}
           {caption ? (
             <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/85 via-black/40 to-transparent px-[4vw] pt-24 pb-[3vw]">
               <span className="text-[clamp(2rem,4.5vw,5rem)] font-bold tracking-tight [text-shadow:0_4px_24px_rgb(0_0_0/0.8)]">

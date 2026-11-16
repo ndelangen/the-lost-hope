@@ -1,6 +1,9 @@
 import { z } from 'zod'
 
 import { entityRefForSlug } from '#/lib/campaign'
+import { HANDOUTS, type HandoutKey } from '#/lib/handouts'
+
+const HANDOUT_KEYS = Object.keys(HANDOUTS) as [HandoutKey, ...HandoutKey[]]
 
 /**
  * What the DM puts on the player-facing screen: a record and which of its images to show. The
@@ -18,6 +21,10 @@ export const PlayerScreenImage = z.discriminatedUnion('image', [
   z.strictObject({
     image: z.literal('illustration'),
     ref: z.strictObject({ ref: z.enum(['location', 'scene']), key: z.string().min(1) }),
+  }),
+  z.strictObject({
+    image: z.literal('handout'),
+    ref: z.strictObject({ ref: z.literal('handout'), key: z.enum(HANDOUT_KEYS) }),
   }),
 ])
 

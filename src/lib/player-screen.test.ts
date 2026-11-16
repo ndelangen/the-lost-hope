@@ -42,9 +42,11 @@ describe('player screen', () => {
   })
 
   it('offers only real artwork, never placeholders or missing files', () => {
-    for (const option of options) {
-      expect(option.src).not.toContain('placeholder')
-      expect(option.src).not.toContain('placehold.co')
+    const pictures = options.flatMap((option) => (option.src ? [option.src] : []))
+    expect(pictures.length).toBe(options.length - 1) // Jim's letter is drawn, not a picture.
+    for (const src of pictures) {
+      expect(src).not.toContain('placeholder')
+      expect(src).not.toContain('placehold.co')
     }
     expect(
       resolvePlayerScreenImage({ image: 'avatar', ref: { ref: 'npc', key: 'no_such_npc' } }),
@@ -156,6 +158,26 @@ describe('player screen rotation', () => {
   it('rejects angles other than a quarter turn', () => {
     expect(
       parsePlayerScreenState('{"history":[null],"index":0,"captions":true,"rotation":45}'),
+    ).toEqual(EMPTY_PLAYER_SCREEN)
+  })
+})
+
+describe('player screen handouts', () => {
+  it('offers the handouts first, by key, without naming them on screen', () => {
+    const handouts = options.filter((option) => option.group === 'Handouts')
+    expect(handouts.map((option) => option.selection.ref.key).toSorted()).toEqual([
+      'book_of_gruumsh_page_4',
+      'jims_letter',
+    ])
+    expect(options[0]?.group).toBe('Handouts')
+    for (const handout of handouts) expect(handout.playerCaption).toBeUndefined()
+  })
+
+  it('rejects a handout key that is not registered', () => {
+    expect(
+      parsePlayerScreenState(
+        '{"history":[{"image":"handout","ref":{"ref":"handout","key":"nope"}}],"index":0,"captions":true}',
+      ),
     ).toEqual(EMPTY_PLAYER_SCREEN)
   })
 })

@@ -9,9 +9,10 @@ import {
   RectangleHorizontal,
   RotateCcw,
   RotateCw,
+  ScrollText,
   X,
 } from 'lucide-react'
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { type ComponentProps, useEffect, useMemo, useRef, useState } from 'react'
 
 import { ResponsiveImage } from '#/components/responsive-image'
 import { SearchInput } from '#/components/ui/search-input'
@@ -103,7 +104,7 @@ export function PlayerScreenDock() {
         >
           <span className="relative grid h-11 w-16 place-items-center overflow-hidden rounded-full bg-black">
             {current ? (
-              <ResponsiveImage
+              <PlayerScreenThumb
                 src={current.src}
                 alt=""
                 sizes="64px"
@@ -176,6 +177,7 @@ const ROTATIONS: ReadonlyArray<{
 ]
 
 const GROUP_LABEL: Record<PlayerScreenGroup, string> = {
+  Handouts: 'Handout',
   Scenes: 'Scene',
   Maps: 'Map',
   Places: 'Place',
@@ -183,7 +185,28 @@ const GROUP_LABEL: Record<PlayerScreenGroup, string> = {
   Creatures: 'Creature',
 }
 
-const GROUPS: readonly PlayerScreenGroup[] = ['Scenes', 'Maps', 'Places', 'Characters', 'Creatures']
+const GROUPS: readonly PlayerScreenGroup[] = [
+  'Handouts',
+  'Scenes',
+  'Maps',
+  'Places',
+  'Characters',
+  'Creatures',
+]
+
+/** A small preview of a picture; handouts the screen draws itself show as a sheet of paper. */
+function PlayerScreenThumb({
+  src,
+  className,
+  ...props
+}: Omit<ComponentProps<typeof ResponsiveImage>, 'src'> & { src: string | undefined }) {
+  if (src) return <ResponsiveImage src={src} className={className} {...props} />
+  return (
+    <span className={cn('grid place-items-center bg-amber-100 text-amber-900', className)}>
+      <ScrollText className="size-1/2 max-h-8 max-w-8" aria-hidden />
+    </span>
+  )
+}
 
 function PlayerScreenPanel({
   state,
@@ -373,7 +396,7 @@ function ShownHistory({
               >
                 <span className="grid aspect-[3/2] w-full place-items-center overflow-hidden rounded-md bg-black">
                   {resolved ? (
-                    <ResponsiveImage
+                    <PlayerScreenThumb
                       src={resolved.src}
                       alt=""
                       sizes="80px"
@@ -429,7 +452,7 @@ function OptionGroup({
                 )}
               >
                 <span className="relative block aspect-[3/2] w-full overflow-hidden rounded-md bg-black">
-                  <ResponsiveImage
+                  <PlayerScreenThumb
                     src={option.src}
                     alt=""
                     sizes="144px"

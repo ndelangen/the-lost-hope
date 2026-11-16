@@ -2,13 +2,21 @@ import type { EntityRef } from '#/definitions/kind'
 import { DEFAULT_AVATAR, DEFAULT_LOCATION_ILLUSTRATION } from '#/definitions/media'
 import { PLAYER_VISIBLE_KEYS, SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 import { scenes } from '#/lib/dm-campaign'
+import { HANDOUTS, type HandoutKey } from '#/lib/handouts'
 import { playerScreenImageId, type PlayerScreenImage } from '#/lib/player-screen-state'
 import { hasPublicAsset } from '#/lib/public-media'
 
-export type PlayerScreenGroup = 'Scenes' | 'Maps' | 'Places' | 'Characters' | 'Creatures'
+export type PlayerScreenGroup =
+  | 'Handouts'
+  | 'Scenes'
+  | 'Maps'
+  | 'Places'
+  | 'Characters'
+  | 'Creatures'
 
 export type ResolvedPlayerScreenImage = {
-  src: string
+  /** The picture; absent for a handout the screen draws itself, such as Jim's letter. */
+  src?: string
   /** The record's name, for the DM's own controls. */
   name: string
   slug: string
@@ -41,6 +49,13 @@ function isMet(ref: EntityRef<'pc' | 'npc' | 'beast' | 'location'>): boolean {
 export function resolvePlayerScreenImage(
   selection: PlayerScreenImage,
 ): ResolvedPlayerScreenImage | undefined {
+  if (selection.image === 'handout') {
+    const handout = HANDOUTS[selection.ref.key]
+    const src = 'image' in handout ? realImage(handout.image) : undefined
+    if ('image' in handout && !src) return undefined
+    // Handouts are props the players hold; their names stay off the screen.
+    return { src, name: handout.name, slug: selection.ref.key, group: 'Handouts', met: true }
+  }
   if (selection.ref.ref === 'scene') {
     const scene = record<Named & { illustration?: string }>(scenes, selection.ref.key)
     const src = realImage(scene?.illustration)
@@ -85,6 +100,7 @@ export type PlayerScreenOption = ResolvedPlayerScreenImage & {
 }
 
 const GROUP_ORDER: readonly PlayerScreenGroup[] = [
+  'Handouts',
   'Scenes',
   'Maps',
   'Places',
@@ -95,6 +111,9 @@ const GROUP_ORDER: readonly PlayerScreenGroup[] = [
 /** Every picture the DM can put on the player screen, grouped, and by name within a group. */
 export function playerScreenOptions(): PlayerScreenOption[] {
   const selections: PlayerScreenImage[] = [
+    ...(Object.keys(HANDOUTS) as HandoutKey[]).map(
+      (key): PlayerScreenImage => ({ image: 'handout', ref: { ref: 'handout', key } }),
+    ),
     ...Object.keys(scenes).map(
       (key): PlayerScreenImage => ({ image: 'illustration', ref: { ref: 'scene', key } }),
     ),

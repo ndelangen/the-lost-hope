@@ -295837,6 +295837,7 @@
         "src/components/dm/dm-quick-links.tsx",
         "src/components/dm/encounter/combatant-panel.tsx",
         "src/components/home-action-card.test.tsx",
+        "src/components/player-screen/player-screen-dock.tsx",
         "src/lib/entity-kind-visuals.ts",
         "src/routes/index.tsx"
       ]
