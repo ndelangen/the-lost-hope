@@ -41,14 +41,16 @@ export default createPC({
       '. She is actively hunting him.',
     ],
     [
-      'She has a special connection to an unidentified organization of necromancers. Players suspect this connection prevented her from receiving a normal guild tattoo, and the player characters do not know about it.',
+      'She made a deal with an unidentified organization of necromancers. That deal is how she came under the control of ',
+      refs.npcs.the_father,
+      ', who raises the dead through them. Players suspect the necromancer connection prevented her from receiving a normal guild tattoo. They are right, but the player characters do not know it, and nobody at the table knows the Father is behind it.',
     ],
     [
-      'The real reason she could not receive a guild tattoo is that she was already under the control of ',
-      refs.npcs.the_father,
-      ', which the tattoo of the ',
+      'The tattoo of the ',
       refs.organizations.adventurers_guild,
-      ' does not allow. Her fake tattoo gives her none of its protection.',
+      ' does not take on someone the Father already controls, so hers is fake and gives her none of its protection. The shadow that revived her in ',
+      refs.events.n2_e057,
+      ' was the deal at work.',
     ],
   ],
 })
