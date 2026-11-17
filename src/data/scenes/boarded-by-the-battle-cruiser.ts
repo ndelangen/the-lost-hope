@@ -13,15 +13,6 @@ export default createScene({
     refs.locations.skynet_airship_shipyard,
   ],
   npcs: [refs.npcs.captain_garran, refs.npcs.tempest_soldier],
-  references: [
-    refs.npcs.onana_tempest,
-    refs.organizations.beasts_and_dwarf,
-    refs.organizations.tempest_family,
-    refs.items.beasts_and_dwarf_s_airship,
-    refs.items.master_of_puppets,
-    refs.pcs.cassian_veyl,
-    refs.pcs.devan,
-  ],
   setup: [
     [
       'Wherever the chase ended, in the air on ',
@@ -90,6 +81,10 @@ export default createScene({
         ],
       ],
     },
+  ],
+  opponents: [
+    { creature: refs.npcs.captain_garran, count: 1 },
+    { creature: refs.npcs.tempest_soldier, count: 6 },
   ],
   combat: {
     tactics: [

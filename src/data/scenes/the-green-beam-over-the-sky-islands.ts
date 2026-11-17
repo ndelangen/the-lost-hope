@@ -6,23 +6,6 @@ export default createScene({
   illustration: '/assets/scenes/the-green-beam-over-the-sky-islands.png',
   location: refs.locations.three_sky_kingdoms,
   npcs: [refs.npcs.abraham, refs.npcs.crowy],
-  references: [
-    refs.npcs.maren_of_fairhaven,
-    refs.npcs.old_pell,
-    refs.npcs.sergeant_bruna_kell,
-    refs.npcs.tempest_soldier,
-    refs.pcs.cassian_veyl,
-    refs.pcs.devan,
-    refs.pcs.swift_starblade,
-    refs.beasts.wolfie,
-    refs.pcs.jim,
-    refs.npcs.the_father,
-    refs.organizations.the_eyeless_hand,
-    refs.pcs.fix,
-    refs.locations.nimbus,
-    refs.locations.skynet,
-    refs.locations.tempest,
-  ],
   setup: [
     [
       'A green pulse washes over all three sky islands at once. Everyone on ',

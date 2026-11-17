@@ -11,6 +11,7 @@ import {
   arcs,
   creatures,
   npcMotivations,
+  plotCast,
   resolveArc,
   resolveScene,
   resolveSourceRef,
@@ -89,7 +90,7 @@ function arcSection(line: Storyline, latest: number): string {
     if (plot.hook) out.push(indent(`Hook: ${sourceText(plot.hook)}`))
     if (plot.notes) out.push(indent(`Notes: ${sourceText(plot.notes)}`))
     if (plot.scene) out.push(indent(`Scene: ${refText(plot.scene)}`))
-    for (const npc of plot.npcs) {
+    for (const npc of plotCast(plot)) {
       const motivations = npcMotivations(npc)
       out.push(
         indent(`NPC: ${refText(npc)}${motivations ? ` wants ${sourceText(motivations)}` : ''}`),

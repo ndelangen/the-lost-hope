@@ -10,18 +10,6 @@ export default createScene({
     refs.locations.ride_the_lightning_gun_deck,
   ],
   npcs: [refs.npcs.cloaked_snatcher, refs.npcs.onana_tempest],
-  references: [
-    refs.organizations.the_eyeless_hand,
-    refs.organizations.tempest_family,
-    refs.organizations.beasts_and_dwarf,
-    refs.pcs.swift_starblade,
-    refs.pcs.fix,
-    refs.pcs.cassian_veyl,
-    refs.pcs.devan,
-    refs.items.beasts_and_dwarf_s_airship,
-    refs.items.master_of_puppets,
-    refs.items.ride_the_lightning,
-  ],
   setup: [
     [
       'If ',
@@ -51,13 +39,13 @@ export default createScene({
     [
       'The ship-damage clock: the loyal cruisers keep firing back at ',
       refs.items.ride_the_lightning,
-      ' while the party fights aboard it. Start a 3-minute timer on repeat. Each time it runs out, roll a d4 for the slice of the ship, counted from the bow, and choose whether the port or the starboard sector of that slice is hit. That sector takes 1 damage. At 5 damage it is destroyed.',
+      ' while the party fights aboard it. The clock on this page times the hits and rolls the slice of the ship, counted from the bow. You choose whether the port or the starboard sector of that slice is hit.',
     ],
     [
       'The choice of side is yours, to make it more or less dangerous. You can always hit the side the party is not in, unless that side is already destroyed: then the hit lands on the side that is left.',
     ],
     [
-      'If both sectors of one slice are destroyed, the ship is cut in two and lost. Every sector has escape pods, except the crystal chamber and the helm.',
+      'If both sectors of one slice are destroyed, the ship is cut in two and lost. The clock shows which sectors have escape pods.',
     ],
   ],
   notes: [
@@ -71,7 +59,7 @@ export default createScene({
       'When the players see the cruiser is about to be destroyed, they should bail out in the escape pods. Make the warnings loud: describe every hit, and once a slice holds by one side only, let it groan and sag in plain sight.',
     ],
     [
-      'The clock deals 1 damage per hit, which breaks the ship after roughly 85 minutes of play. For a faster clock, pick a damage die in the tracker: with a d2 the ship breaks after about 55 minutes, with a d3 after about 40, with a d4 after about 35, and with a d6 after about 20. You can change the die in the middle of the fight, for example to a bigger one when the scene drags.',
+      'For a faster clock, pick a bigger damage die in the tracker. You can change the die in the middle of the fight, for example when the scene drags.',
     ],
     [
       'When a sector is destroyed, everyone in it makes a DC 13 ',
@@ -84,9 +72,7 @@ export default createScene({
       refs.organizations.the_eyeless_hand,
       ' caught in a destroyed sector are gone.',
     ],
-    [
-      'The sector names, the two sectors without escape pods, the DC of the save and the fall damage are first choices, so change them freely. The enemy numbers still need to be prepared.',
-    ],
+    ['The DC of the save and the fall damage are first choices, so change them freely.'],
   ],
   outcomes: [
     {
@@ -123,15 +109,20 @@ export default createScene({
     },
     {
       when: [['They withdraw or lose.']],
-      response: [['The cruiser keeps firing on the Tempest line.']],
+      response: [
+        ['The cruiser keeps firing on the ships of the ', refs.organizations.tempest_family, '.'],
+      ],
     },
   ],
+  opponents: [{ creature: refs.npcs.cloaked_snatcher, count: 8 }],
   combat: {
     tactics: [
       [
         'The crew of ',
         refs.organizations.the_eyeless_hand,
-        ' wears Tempest livery. They hold the helm and the guns, and they fight as ',
+        ' wears the livery of the ',
+        refs.organizations.tempest_family,
+        '. They hold the helm and the guns, and they fight as ',
         refs.npcs.cloaked_snatcher,
         's do.',
       ],
@@ -144,7 +135,9 @@ export default createScene({
     ],
     exits: [
       [
-        'The boarding lines back to their own vessel, and the escape pods in every sector except the crystal chamber and the helm.',
+        'The boarding lines back to their own vessel, and the escape pods in the sectors of ',
+        refs.items.ride_the_lightning,
+        ' that have them.',
       ],
     ],
   },
@@ -153,17 +146,5 @@ export default createScene({
     everySeconds: 180,
     damageDie: 1,
     sectorHitPoints: 5,
-    port: [
-      { name: 'Port bow', escapePods: true },
-      { name: 'Port battery', escapePods: true },
-      { name: 'Crystal chamber', escapePods: false },
-      { name: 'Helm', escapePods: false },
-    ],
-    starboard: [
-      { name: 'Starboard bow', escapePods: true },
-      { name: 'Starboard battery', escapePods: true },
-      { name: 'Barracks', escapePods: true },
-      { name: 'Stern hold', escapePods: true },
-    ],
   },
 })

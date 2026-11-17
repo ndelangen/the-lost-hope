@@ -2,7 +2,7 @@ import { z } from 'zod'
 
 import { DmContent } from './content'
 import { makeCreate } from './create'
-import { EntityRefSchema, entityRefOf } from './kind'
+import { entityRefOf } from './kind'
 import { MediaUrl } from './media'
 import { deriveSlug } from './slug'
 
@@ -35,38 +35,36 @@ export const SceneOutcome: z.ZodType<SceneOutcome, SceneOutcomeInput> = z.lazy((
   }),
 )
 
-const ShipSector = z.strictObject({
-  name: z.string().trim().min(1),
-  escapePods: z.boolean().describe('Whether this sector has a way off the ship'),
-})
-
 /** The dice a hit's damage can be rolled on, by their number of sides. 1 is a fixed 1 damage. */
 export const SHIP_DAMAGE_DICE = [1, 2, 3, 4, 6] as const
 export type ShipDamageDie = (typeof SHIP_DAMAGE_DICE)[number]
 
 /**
- * A vessel that breaks up in real time while a scene is fought aboard it. Every interval a die
- * picks one slice of the ship, counted from the bow, and the DM chooses whether its port or its
- * starboard sector is hit. The hit's damage is rolled on the damage die. A sector that has taken
- * all its hit points is destroyed, and the vessel is lost once both sectors of one slice are
- * destroyed, because that cuts it in two.
+ * How fast a vessel breaks up in real time while a scene is fought aboard it. The vessel's own
+ * record owns its hull: the sectors and where the escape pods are. Every interval a die picks one
+ * slice of the hull, counted from the bow, and the DM chooses whether its port or its starboard
+ * sector is hit. The hit's damage is rolled on the damage die. A sector that has taken all its hit
+ * points is destroyed, and the vessel is lost once both sectors of one slice are destroyed,
+ * because that cuts it in two.
  */
-export const SceneShipDamage = z
-  .strictObject({
-    vessel: entityRefOf('item'),
-    everySeconds: z.number().int().positive().describe('Real-time seconds between hits'),
-    damageDie: z
-      .union(SHIP_DAMAGE_DICE.map((sides) => z.literal(sides)))
-      .describe('Sides of the die rolled for one hit. The DM can pick another at the table'),
-    sectorHitPoints: z.number().int().positive().describe('Damage that destroys a sector'),
-    port: z.array(ShipSector).min(1).describe('Port sectors, from bow to stern'),
-    starboard: z.array(ShipSector).min(1).describe('Starboard sectors, from bow to stern'),
-  })
-  .refine((ship) => ship.port.length === ship.starboard.length, {
-    message: 'Port and starboard need the same number of sectors',
-  })
+export const SceneShipDamage = z.strictObject({
+  vessel: entityRefOf('item').describe('The vessel, whose record has a hull'),
+  everySeconds: z.number().int().positive().describe('Real-time seconds between hits'),
+  damageDie: z
+    .union(SHIP_DAMAGE_DICE.map((sides) => z.literal(sides)))
+    .describe('Sides of the die rolled for one hit. The DM can pick another at the table'),
+  sectorHitPoints: z.number().int().positive().describe('Damage that destroys a sector'),
+})
 
 export type SceneShipDamage = z.infer<typeof SceneShipDamage>
+
+/** Who fights the party when the scene turns into a fight, and how many of them. */
+export const SceneOpponent = z.strictObject({
+  creature: z.union([entityRefOf('npc'), entityRefOf('beast')]),
+  count: z.number().int().positive().default(1),
+})
+
+export type SceneOpponent = z.infer<typeof SceneOpponent>
 
 export const Scene = deriveSlug(
   z.strictObject({
@@ -78,8 +76,11 @@ export const Scene = deriveSlug(
     setup: DmContent,
     notes: DmContent.optional(),
     npcs: z.array(entityRefOf('npc')).default([]),
-    references: z.array(EntityRefSchema).default([]),
     outcomes: z.array(SceneOutcome).default([]),
+    opponents: z
+      .array(SceneOpponent)
+      .default([])
+      .describe('The starting roster of the encounter run from this scene'),
     combat: SceneCombatNotes.optional(),
     shipDamage: SceneShipDamage.optional(),
   }),
