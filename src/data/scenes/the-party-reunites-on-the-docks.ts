@@ -13,11 +13,7 @@ export default createScene({
       refs.locations.nimbus,
       ', with orders to report back to ',
       refs.npcs.captain_garran,
-      ' quickly. ',
-      refs.pcs.auren,
-      ' takes up the swords ',
-      refs.pcs.jim,
-      ' left behind, and there may be time to remember him.',
+      ' quickly. They have some time to discuss what has happened, until he runs out of patience.',
     ],
   ],
   beats: [
@@ -37,7 +33,7 @@ export default createScene({
             ],
             [
               refs.pcs.swift_starblade,
-              ' tells the others what happened here. Give his player the floor.',
+              ' tells the others what happened here. Give his player the floor, and give the party some time to discuss it.',
             ],
           ],
         },
@@ -63,54 +59,45 @@ export default createScene({
               refs.pcs.jim,
               ' vanished. ',
               refs.pcs.auren,
-              ' takes up ',
-              refs.items.shadow_sword,
-              ' and ',
+              ' is drawn to ',
               refs.items.dagger_of_the_zodiac_signs,
-              ', and merges with them.',
+              ' and ',
+              refs.items.shadow_sword,
+              ', and merges with them on the spot.',
             ],
           ],
         },
       ],
     },
     {
-      title: 'Remembering Jim',
-      onlyIf: [
-        [
-          'There is time and the players want it. The letter can also be decoded and read between sessions.',
-        ],
-      ],
+      title: 'Jim’s letter',
+      onlyIf: [['They wish to read it now. It can also wait until between sessions.']],
       lines: [
-        { do: [['Give them room to reflect on losing ', refs.pcs.jim, '.']] },
         {
           do: [
             [
-              refs.pcs.swift_starblade,
-              '’s player reads out what he has decoded of the letter from ',
+              'Make some time to read the decrypted letter from ',
               refs.pcs.jim,
-              '. The shared part needs all four words, and now everyone who has one is here, ',
-              refs.npcs.crowy,
-              ' included.',
+              '. If ',
+              refs.pcs.swift_starblade,
+              '’s player has not finished decoding it, hand them the letter decoded.',
             ],
           ],
         },
       ],
-      outcomes: [
-        {
-          when: [['They would rather have the outcome than the puzzle.']],
-          response: [['Hand them the whole letter decoded.']],
-        },
-      ],
     },
     {
-      title: 'Reporting back',
+      title: 'Garran runs out of patience',
       lines: [
+        { do: [['Use this at any point, whenever you want to move on.']] },
+        {
+          speaker: refs.npcs.captain_garran,
+          say: [['DIDN’T I FUCKING TELL YOU THAT WE’RE SHORT ON TIME?!?!']],
+        },
         {
           do: [
             [
-              'The party reports back to ',
-              refs.npcs.captain_garran,
-              ', whole again. He leads them to ',
+              'He leads them to ',
               refs.locations.master_of_puppets_commanders_office,
               ' without saying who is waiting. Run ',
               refs.scenes.onana_calls_the_party_to_war,
@@ -120,6 +107,7 @@ export default createScene({
         },
         {
           note: [
+            ['If they report back on their own before he yells, skip the yell.'],
             [
               'That ',
               refs.npcs.onana_tempest,
