@@ -91260,6 +91260,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/battle-axe.html",
       "usedIn": [
+        "src/data/npcs/dust-lost-sailor.ts",
         "src/data/npcs/grimgor-the-bloody.ts",
         "src/lib/ability-icons.tsx"
       ]
@@ -101481,6 +101482,7 @@
       "usedIn": [
         "src/data/beasts/chimera.ts",
         "src/data/npcs/bessy.ts",
+        "src/data/npcs/dust-lost-sailor.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -154533,6 +154535,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/healing.html",
       "usedIn": [
         "src/data/npcs/captain-garran.ts",
+        "src/data/npcs/korrag-stonevow.ts",
         "src/data/npcs/misha.ts",
         "src/data/npcs/silas-wren.ts",
         "src/lib/ability-icons.tsx"
@@ -166592,6 +166595,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/kneeling.html",
       "usedIn": [
+        "src/data/npcs/korrag-stonevow.ts",
         "src/data/npcs/silas-wren.ts",
         "src/lib/ability-icons.tsx"
       ]
@@ -198035,6 +198039,7 @@
         "src/data/npcs/gruumsh-high-priest.ts",
         "src/data/npcs/hex.ts",
         "src/data/npcs/knukkles.ts",
+        "src/data/npcs/korrag-stonevow.ts",
         "src/data/npcs/light-13th-marshal.ts",
         "src/data/npcs/lord-malachar.ts",
         "src/data/npcs/misha.ts",
@@ -211010,6 +211015,7 @@
         "src/data/events/n2-e073.ts",
         "src/data/events/n2-e126.ts",
         "src/data/events/n2-e195.ts",
+        "src/data/npcs/dust-lost-sailor.ts",
         "src/data/npcs/faceless-shadow.ts",
         "src/data/sessions/fairhaven-shadows.ts",
         "src/lib/ability-icons.tsx",
@@ -211065,6 +211071,7 @@
         "src/data/events/n2-e078.ts",
         "src/data/events/n2-e127.ts",
         "src/data/locations/serpent-eclipse-shadow-arena.ts",
+        "src/data/npcs/korrag-stonevow.ts",
         "src/data/npcs/silas-wren.ts",
         "src/lib/ability-icons.tsx",
         "src/lib/event-icons.tsx",
@@ -218839,6 +218846,7 @@
       "usedIn": [
         "src/data/creatures/pirate-captain.ts",
         "src/data/npcs/barbara.ts",
+        "src/data/npcs/dust-lost-sailor.ts",
         "src/data/npcs/lord-malachar.ts",
         "src/data/npcs/ryan.ts",
         "src/data/npcs/the-mountain.ts",
@@ -246849,6 +246857,7 @@
         "src/data/npcs/anton-tempest.ts",
         "src/data/npcs/bessy.ts",
         "src/data/npcs/borris.ts",
+        "src/data/npcs/korrag-stonevow.ts",
         "src/data/rules/damage-types.ts",
         "src/lib/ability-icons.tsx",
         "src/lib/rule-icons.tsx"

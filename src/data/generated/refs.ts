@@ -245,6 +245,9 @@ export const refs = {
     onana_tempest: ref('npc', 'onana_tempest'),
     charles_tempest: ref('npc', 'charles_tempest'),
     cloaked_snatcher: ref('npc', 'cloaked_snatcher'),
+    ilsa_corrow: ref('npc', 'ilsa_corrow'),
+    korrag_stonevow: ref('npc', 'korrag_stonevow'),
+    dust_lost_sailor: ref('npc', 'dust_lost_sailor'),
     celeste_tempest: ref('npc', 'celeste_tempest'),
     brend_tempest: ref('npc', 'brend_tempest'),
     selene_tempest: ref('npc', 'selene_tempest'),
@@ -605,6 +608,7 @@ export const refs = {
     boarded_by_the_battle_cruiser: ref('scene', 'boarded_by_the_battle_cruiser'),
     onana_calls_the_party_to_war: ref('scene', 'onana_calls_the_party_to_war'),
     taking_back_a_battle_cruiser: ref('scene', 'taking_back_a_battle_cruiser'),
+    garran_comes_for_the_cruiser: ref('scene', 'garran_comes_for_the_cruiser'),
   },
   creatures: {
     alchemist: ref('creature', 'alchemist'),

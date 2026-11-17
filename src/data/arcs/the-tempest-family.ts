@@ -85,5 +85,15 @@ export default createArc({
       ],
       scene: refs.scenes.taking_back_a_battle_cruiser,
     },
+    {
+      name: 'Whose cruiser now?',
+      hook: [
+        [
+          refs.npcs.captain_garran,
+          ' wants to take over the cruiser the party just won back. Will they hand it over, or run with it?',
+        ],
+      ],
+      scene: refs.scenes.garran_comes_for_the_cruiser,
+    },
   ],
 })
