@@ -71,7 +71,7 @@ export default createScene({
         {
           note: [
             [
-              'When this happens is up to the players, not you. Play this beat the moment ',
+              'When this happens is up to the players, not you. Near the end suits you best, because the boom is your trigger to send them aboard. Play this beat the moment ',
               refs.pcs.auren,
               ' touches the blades, wherever you are in the scene.',
             ],
@@ -115,6 +115,25 @@ export default createScene({
             ['The party has to explain it in a way he finds acceptable.'],
           ],
         },
+        {
+          speaker: refs.npcs.captain_garran,
+          say: [
+            [
+              'That’s enough mucking around and looking at a pile of clothes! Get inside the command ship NOW! ',
+              refs.npcs.onana_tempest,
+              ' wants to see you, hurry up!',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              'This is the first time anyone says that ',
+              refs.npcs.onana_tempest,
+              ' is here. Until this line he was only a name behind the orders.',
+            ],
+          ],
+        },
       ],
     },
     {
@@ -142,20 +161,11 @@ export default createScene({
           do: [
             [
               refs.npcs.captain_garran,
-              ' takes the whole party aboard and leads them to ',
+              ' takes the whole party aboard, to ',
               refs.locations.master_of_puppets_commanders_office,
-              ' without saying who is waiting. Run ',
+              '. Run ',
               refs.scenes.onana_calls_the_party_to_war,
               '.',
-            ],
-          ],
-        },
-        {
-          note: [
-            [
-              'That ',
-              refs.npcs.onana_tempest,
-              ' is aboard is the reveal that opens the next scene. Until then he is only a name behind the orders.',
             ],
           ],
         },

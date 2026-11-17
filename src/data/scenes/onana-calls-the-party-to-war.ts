@@ -43,7 +43,9 @@ export default createScene({
         {
           note: [
             [
-              'This is the reveal: nobody told them that ',
+              'Until the last order of ',
+              refs.npcs.captain_garran,
+              ' on the docks, nobody told them that ',
               refs.npcs.onana_tempest,
               ' himself is aboard. Let it land before he speaks.',
             ],
