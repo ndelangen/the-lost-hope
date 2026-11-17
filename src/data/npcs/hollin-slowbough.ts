@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Hollin Slowbough',
+  avatar: '/assets/npcs/hollin-slowbough-portrait.png',
   location: refs.locations.skynet_airship_shipyard,
   species: 'Ent',
   notes: [

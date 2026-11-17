@@ -754,6 +754,12 @@ export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
     repositoryPath: 'assets/images/content/npcs/old-pell-portrait.png',
   },
   {
+    id: 'npcs-hollin-slowbough-portrait',
+    role: 'avatar',
+    logicalSource: '/assets/npcs/hollin-slowbough-portrait.png',
+    repositoryPath: 'assets/images/content/npcs/hollin-slowbough-portrait.png',
+  },
+  {
     id: 'npcs-shipyard-ent-portrait',
     role: 'avatar',
     logicalSource: '/assets/npcs/shipyard-ent-portrait.png',
