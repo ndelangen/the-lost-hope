@@ -109,6 +109,15 @@ export default createScene({
           refs.scenes.boarding_ride_the_lightning,
           '.',
         ],
+        [
+          'He also has ',
+          refs.npcs.captain_garran,
+          ' hand out Potions of Healing from the ship’s stores, as many as they ask for. Each one restores 2d4 + 2 ',
+          refs.rules.hit_points,
+          ' and takes a ',
+          refs.rules.bonus_action,
+          ' to drink. Nobody has rested today, so let them drink before they board.',
+        ],
       ],
     },
     {

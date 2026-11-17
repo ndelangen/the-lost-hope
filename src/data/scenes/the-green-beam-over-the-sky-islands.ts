@@ -109,8 +109,37 @@ export default createScene({
       refs.scenes.the_hand_comes_for_jim,
       ', and he remembers it either way.',
     ],
+    [
+      refs.beasts.wolfie,
+      ' and ',
+      refs.npcs.abraham,
+      ' are at the stables. What happens to them is up to the party: ask before they leave.',
+    ],
   ],
   outcomes: [
+    {
+      when: [['They head for ', refs.locations.tempest, ' to find ', refs.npcs.onana_tempest, '.']],
+      response: [
+        [
+          'That way is a sky bridge too, and it is clogged just the same. Run ',
+          refs.scenes.the_clogged_ferry_landing,
+          '.',
+        ],
+      ],
+    },
+    {
+      when: [['They stay where they are.']],
+      response: [
+        [
+          refs.npcs.captain_garran,
+          ' and his soldiers come to collect them, as they did before (',
+          refs.events.n2_e168,
+          '). Run ',
+          refs.scenes.onana_calls_the_party_to_war,
+          '.',
+        ],
+      ],
+    },
     {
       when: [['They help ', refs.npcs.maren_of_fairhaven, ' or ', refs.npcs.old_pell, '.']],
       response: [

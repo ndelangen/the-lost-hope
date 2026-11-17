@@ -44,11 +44,11 @@ export default createScene({
       ' wants it back.',
     ],
     [
-      'The deck: the ',
+      'It starts easy and tightens room by room. The bow: four ',
       refs.npcs.cloaked_snatcher,
-      's come forward to meet them at the bow. The Crystal chamber, the room before the Helm: ',
+      's come forward to meet them, and go down fast. The batteries: four more guard the guns, another quick win. The Crystal chamber, the room before the Helm: ',
       refs.npcs.korrag_stonevow,
-      ' guards the only way through, alone. The Helm: ',
+      ' guards the only way through, alone, and this is where it gets tense. The Helm, the hardest fight: ',
       refs.npcs.ilsa_corrow,
       ', the Finger of ',
       refs.organizations.the_eyeless_hand,
@@ -97,6 +97,18 @@ export default createScene({
       ' in one go, so spread her attacks around. Easier: take two ',
       refs.npcs.dust_lost_sailor,
       's off the map, or have her cast only one Fireball. Harder: a bigger damage die on the clock, or she joins the fight on round one.',
+    ],
+    [
+      'The curve is deliberate. The bow and the batteries are easy slaughters: let the players enjoy them, and describe every kill big. The tension starts at ',
+      refs.npcs.korrag_stonevow,
+      ' and peaks at the Helm.',
+    ],
+    [
+      'Supplies in the middle of the fight: ',
+      refs.npcs.captain_garran,
+      ' can fire a boarding torpedo packed with supplies into whatever part of the ship the party holds. It opens like the others, with Potions of Healing inside. Use it when the party is running dry, or when a player thinks to signal for it. ',
+      refs.npcs.crowy,
+      ' can carry the request across.',
     ],
     [
       'Reaching ',
@@ -256,7 +268,7 @@ export default createScene({
     { creature: refs.npcs.ilsa_corrow, count: 1 },
     { creature: refs.npcs.korrag_stonevow, count: 1 },
     { creature: refs.npcs.dust_lost_sailor, count: 2 },
-    { creature: refs.npcs.cloaked_snatcher, count: 4 },
+    { creature: refs.npcs.cloaked_snatcher, count: 8 },
   ],
   combat: {
     tactics: [
