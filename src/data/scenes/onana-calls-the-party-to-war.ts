@@ -40,10 +40,10 @@ export default createScene({
       '. They won’t succeed.”',
     ],
     [
-      'He casts a small Zone of Truth around the party and asks: “Are you affiliated with ',
-      refs.organizations.the_eyeless_hand,
-      ', or have you recently used arcane dust?”',
+      'He casts a small Zone of Truth around the party and puts the same two questions to each party member in the room, one at a time.',
     ],
+    ['“Are you associated with ', refs.organizations.the_eyeless_hand, ' in any way?”'],
+    ['“Are you, or have you been, under the influence of arcane dust recently?”'],
     ['“Where is the rest of your party?”'],
     [
       '“We do not have time to chat now, ',
@@ -71,6 +71,14 @@ export default createScene({
       'Zone of Truth: everyone in it makes the save from his stat block. Whoever fails cannot tell a deliberate lie, but may stay silent or dodge the question. ',
       refs.npcs.onana_tempest,
       ' knows who failed.',
+    ],
+    [
+      'The arcane dust question is a major hint. Ask it word for word, of every party member: “under the influence” is not the same as “used”.',
+    ],
+    [
+      'The questions are mild, so nobody has much reason to lie. ',
+      refs.pcs.cassian_veyl,
+      ' is the likeliest to resist the spell. If he does, tell his player he could lie if he wanted to, and leave what he does with that to him.',
     ],
     [
       'If the party outran the cruiser, it is docked next to their vessel at ',
