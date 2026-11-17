@@ -30,18 +30,17 @@ export default createScene({
         {
           do: [
             [
-              'The party crosses on the deck of ',
+              'The party stands on the top deck of ',
               refs.items.master_of_puppets,
-              ', among the soldiers, with their own vessel in tow behind it.',
-            ],
-            [
-              'The docks of ',
+              ', with their own vessel in tow behind it. They can see the damage done to ',
               refs.locations.nimbus,
-              ' come into view, and with them what the beam did. The damage and the dead are in ',
-              refs.scenes.the_hand_comes_for_jim,
-              '.',
+              ' closer now: destruction in many parts of the island, including the harbour.',
             ],
+            ['Depending on ', refs.pcs.swift_starblade, ', they can see him waving already.'],
           ],
+        },
+        {
+          note: [['The damage and the dead are in ', refs.scenes.the_hand_comes_for_jim, '.']],
         },
       ],
     },
@@ -56,23 +55,25 @@ export default createScene({
               ' sends soldiers out to find out what struck here.',
             ],
             [
-              'He orders ',
-              refs.organizations.beasts_and_dwarf,
-              ' to find the rest of their party immediately and then report back to him. Their vessel stays impounded for now.',
-            ],
-            ['He stresses it again: there is not much time, so they should hurry.'],
-          ],
-        },
-        {
-          note: [
-            [
-              'Finding the others is for the players to do: ',
+              'He sends ',
               refs.pcs.cassian_veyl,
               ' and ',
               refs.pcs.devan,
-              ' know who they are looking for.',
+              ' off to find the rest of their party and return as soon as possible. Their vessel stays impounded for now.',
             ],
           ],
+        },
+        {
+          speaker: refs.npcs.captain_garran,
+          say: [['There isn’t much time, don’t go fuck around.']],
+        },
+        { do: [['He looks at ', refs.pcs.auren, '.']] },
+        {
+          speaker: refs.npcs.captain_garran,
+          say: [['I guess you’re with them now?'], ['Go on, hurry the fuck up then.']],
+        },
+        {
+          note: [['Finding the others is for the players to do.']],
         },
       ],
     },
