@@ -50,3 +50,13 @@ export function isEntityRef(value: unknown): value is EntityRef {
     ENTITY_KINDS.includes((value as EntityRef).ref)
   )
 }
+
+/** A pointer to a prepared scene, which only DM prose (`DmContent`) can hold. */
+export function isSceneRef(value: unknown): value is EntityRef<'scene'> {
+  return (
+    !!value &&
+    typeof value === 'object' &&
+    (value as EntityRef<'scene'>).ref === 'scene' &&
+    typeof (value as EntityRef<'scene'>).key === 'string'
+  )
+}

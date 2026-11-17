@@ -5,7 +5,7 @@ export default createScene({
   name: 'Running from the battle-cruiser',
   location: refs.locations.skynet_nimbus_crossing,
   battleMaps: [refs.locations.beasts_and_dwarf_s_airship_decks, refs.locations.sky_bridge_ferry],
-  npcs: [refs.npcs.corwin_hale, refs.npcs.captain_garran, refs.npcs.tempest_soldier],
+  npcs: [refs.npcs.captain_garran, refs.npcs.tempest_soldier],
   references: [
     refs.npcs.onana_tempest,
     refs.items.master_of_puppets,
@@ -68,13 +68,6 @@ export default createScene({
       ' or fire on the rope. Nobody falls to their death: a character who fails by 5 or more over the side ends up dangling from a line and spends round three climbing back.',
     ],
     [
-      'If ',
-      refs.npcs.corwin_hale,
-      ' is flying, he rolls each round too, with +5. ',
-      refs.pcs.swift_starblade,
-      ' is not aboard, so hand his player those rolls.',
-    ],
-    [
       'On the ferry the helmsman wants to obey the signal. Round one then starts with the party talking or forcing him out of it.',
     ],
     [
@@ -90,7 +83,9 @@ export default createScene({
         [
           'The chase ends. The cruiser comes alongside gently, and ',
           refs.npcs.captain_garran,
-          ' is at his friendliest. Run “Boarded by the battle-cruiser”.',
+          ' is at his friendliest. Run ',
+          refs.scenes.boarded_by_the_battle_cruiser,
+          '.',
         ],
       ],
     },
@@ -100,7 +95,9 @@ export default createScene({
         [
           'The cruiser does not slow down, but ',
           refs.npcs.captain_garran,
-          ' is at the rail waving by round three. Run “Boarded by the battle-cruiser” and start from the moment he recognises them.',
+          ' is at the rail waving by round three. Run ',
+          refs.scenes.boarded_by_the_battle_cruiser,
+          ' and start from the moment he recognises them.',
         ],
       ],
     },
@@ -131,9 +128,11 @@ export default createScene({
               '. His soldiers ring their vessel on the quay.',
             ],
             [
-              'Skip “Boarded by the battle-cruiser” and run “',
-              refs.npcs.onana_tempest,
-              ' calls the party to war” with ',
+              'Skip ',
+              refs.scenes.boarded_by_the_battle_cruiser,
+              ' and run ',
+              refs.scenes.onana_calls_the_party_to_war,
+              ' with ',
               refs.pcs.swift_starblade,
               ' present.',
             ],
@@ -145,7 +144,9 @@ export default createScene({
             [
               'They are caught and reach ',
               refs.locations.nimbus,
-              ' in tow with a scarred hull. Run “Boarded by the battle-cruiser”.',
+              ' in tow with a scarred hull. Run ',
+              refs.scenes.boarded_by_the_battle_cruiser,
+              '.',
             ],
           ],
         },
@@ -155,7 +156,9 @@ export default createScene({
       when: [['Round three, they get ready to fight.']],
       response: [
         [
-          'Each character gets one prepared action before the first soldiers land. Then run “Boarded by the battle-cruiser” with its combat notes.',
+          'Each character gets one prepared action before the first soldiers land. Then run ',
+          refs.scenes.boarded_by_the_battle_cruiser,
+          ' with its combat notes.',
         ],
       ],
     },
@@ -165,7 +168,9 @@ export default createScene({
         [
           'Hiding below, bluffing, or jumping across to the cruiser all end the same way: ',
           refs.npcs.captain_garran,
-          ' recognises them. Reward a good idea with his respect, then run “Boarded by the battle-cruiser”.',
+          ' recognises them. Reward a good idea with his respect, then run ',
+          refs.scenes.boarded_by_the_battle_cruiser,
+          '.',
         ],
       ],
     },

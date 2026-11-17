@@ -6,7 +6,7 @@ export default createScene({
   illustration: '/assets/scenes/the-ents-hold-the-shipyard.png',
   location: refs.locations.skynet_airship_shipyard,
   battleMaps: [refs.locations.beasts_and_dwarf_s_airship_decks],
-  npcs: [refs.npcs.esia, refs.npcs.shipyard_ent, refs.npcs.corwin_hale],
+  npcs: [refs.npcs.esia, refs.npcs.shipyard_ent],
   references: [
     refs.pcs.auren,
     refs.items.beasts_and_dwarf_s_airship,
@@ -102,8 +102,10 @@ export default createScene({
       when: [['They look for help, or the timer is nearly out.']],
       response: [
         [
-          refs.npcs.corwin_hale,
-          ' calls out from the crowd at the gate and offers to fly the ship for free. The ents let him through on the party’s word.',
+          refs.npcs.esia,
+          ' shouts for ',
+          refs.pcs.auren,
+          ' if he is not at the helm already: he has flown every test of this hull. There is nobody else in the yard to spare.',
         ],
       ],
     },
@@ -111,14 +113,20 @@ export default createScene({
       when: [['The ship takes off.']],
       response: [
         [
-          'Halfway across, the battle-cruiser bears down on them. Run “Running from the battle-cruiser”.',
+          'Halfway across, the battle-cruiser bears down on them. Run ',
+          refs.scenes.running_from_the_battle_cruiser,
+          '.',
         ],
       ],
     },
     {
       when: [['The timer runs out with the ship still on the slip.']],
       response: [
-        ['The battle-cruiser arrives over the yard. Run “Boarded by the battle-cruiser”.'],
+        [
+          'The battle-cruiser arrives over the yard. Run ',
+          refs.scenes.boarded_by_the_battle_cruiser,
+          '.',
+        ],
       ],
     },
   ],

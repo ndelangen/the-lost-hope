@@ -18,37 +18,34 @@ export type Content = (
   | { type: 'image' | 'video' | 'audio' | 'map'; url: string }
 )[][]
 
-export const Content = z.lazy(() =>
-  z.array(
-    z.array(
-      z.union([
-        z.string(),
-        EntityRefSchema,
-        entityRefOf('rule'),
-        z.object({
-          type: z.literal('link'),
-          label: z.string().min(1),
-          url: z.string().url(),
-        }),
-        z.object({
-          type: z.literal('image'),
-          url: z.string(),
-        }),
-        z.object({
-          type: z.literal('video'),
-          url: z.string(),
-        }),
-        z.object({
-          type: z.literal('audio'),
-          url: z.string(),
-        }),
-        z.object({
-          type: z.literal('map'),
-          url: z.string(),
-        }),
-      ]),
-    ),
-  ),
+type ContentAtom = Content[number][number]
+
+/**
+ * Prose on DM-only records such as scenes. It is {@link Content} that can also point at prepared
+ * scenes (`refs.scenes.*`), which only exist on the DM side and so never appear in player content.
+ */
+export type DmContent = (ContentAtom | EntityRef<'scene'>)[][]
+
+const contentAtoms = () =>
+  [
+    z.string(),
+    EntityRefSchema,
+    entityRefOf('rule'),
+    z.object({
+      type: z.literal('link'),
+      label: z.string().min(1),
+      url: z.string().url(),
+    }),
+    z.object({ type: z.literal('image'), url: z.string() }),
+    z.object({ type: z.literal('video'), url: z.string() }),
+    z.object({ type: z.literal('audio'), url: z.string() }),
+    z.object({ type: z.literal('map'), url: z.string() }),
+  ] as const
+
+export const Content = z.lazy(() => z.array(z.array(z.union(contentAtoms()))))
+
+export const DmContent = z.lazy(() =>
+  z.array(z.array(z.union([...contentAtoms(), entityRefOf('scene')]))),
 )
 
 /**

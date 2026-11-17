@@ -6,7 +6,12 @@ export default createScene({
   illustration: '/assets/scenes/the-clogged-ferry-landing.png',
   location: refs.locations.skynet_sky_bridge_landing,
   battleMaps: [refs.locations.skynet_sky_bridge_landing, refs.locations.sky_bridge_ferry],
-  npcs: [refs.npcs.maren_of_fairhaven, refs.npcs.sergeant_bruna_kell, refs.npcs.tempest_soldier],
+  npcs: [
+    refs.npcs.maren_of_fairhaven,
+    refs.npcs.sergeant_bruna_kell,
+    refs.npcs.corwin_hale,
+    refs.npcs.tempest_soldier,
+  ],
   references: [
     refs.pcs.auren,
     refs.npcs.esia,
@@ -27,6 +32,10 @@ export default createScene({
     [
       refs.npcs.maren_of_fairhaven,
       ' is at the rope line with her child, begging for a single place.',
+    ],
+    [
+      refs.npcs.corwin_hale,
+      ', a ferry helmsman, shoves through the crowd away from the quay, refusing everyone who begs him to fly.',
     ],
     [
       'The ferry will not lift. The bounce of the beam drained its crystal, and the soldiers have sent for ',
@@ -70,7 +79,9 @@ export default createScene({
         [
           'They get aboard as the ramp lifts. ',
           refs.pcs.auren,
-          ' jump-starts the crystal and swings aboard after them, because nobody else can keep it running. In the middle of the crossing the battle-cruiser bears down on the ferry. Run “Running from the battle-cruiser” on the ferry deck.',
+          ' jump-starts the crystal and swings aboard after them, because nobody else can keep it running. In the middle of the crossing the battle-cruiser bears down on the ferry. Run ',
+          refs.scenes.running_from_the_battle_cruiser,
+          ' on the ferry deck.',
         ],
       ],
     },
@@ -80,7 +91,9 @@ export default createScene({
         [
           'The ferry leaves without them. ',
           refs.pcs.auren,
-          ' gets the crystal running, and the soldiers shove him off the ramp: they want no war machine aboard. Stranded on the quay with the party, he tells them the shipyard still has hulls the army has not taken, and he knows the way. Run “The ents hold the shipyard”, and he is already with them.',
+          ' gets the crystal running, and the soldiers shove him off the ramp: they want no war machine aboard. Stranded on the quay with the party, he tells them the shipyard still has hulls the army has not taken, and he knows the way. Run ',
+          refs.scenes.the_ents_hold_the_shipyard,
+          ', and he is already with them.',
         ],
       ],
     },

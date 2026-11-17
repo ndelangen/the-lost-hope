@@ -26,3 +26,19 @@ describe('buildSceneBranches', () => {
     expect(e?.descendantCount).toBe(0)
   })
 })
+
+describe('npcsIn', () => {
+  const npc = (key: string) => ({ ref: 'npc', key }) as const
+
+  it('lists the NPCs a branch names once each, in order of first mention', () => {
+    const [only] = buildSceneBranches([
+      {
+        when: [['They help ', npc('maren'), ' or ', npc('pell'), '.']],
+        response: [[npc('pell'), ' points them on, past ', { ref: 'location', key: 'docks' }]],
+        followUps: [],
+      },
+    ])
+
+    expect(only?.npcs).toEqual([npc('maren'), npc('pell')])
+  })
+})

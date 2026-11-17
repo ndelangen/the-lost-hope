@@ -64,9 +64,9 @@ export default createScene({
       when: [['They go along.']],
       response: [
         [
-          'A boarding plank takes them across to the cruiser. Run “',
-          refs.npcs.onana_tempest,
-          ' calls the party to war”.',
+          'A boarding plank takes them across to the cruiser. Run ',
+          refs.scenes.onana_calls_the_party_to_war,
+          '.',
         ],
       ],
     },

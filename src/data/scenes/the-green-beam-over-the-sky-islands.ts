@@ -122,11 +122,13 @@ export default createScene({
     },
     {
       when: [['They want to see where the beam hit, or to find ', refs.pcs.swift_starblade, '.']],
-      response: [['The only way across is the ferry. Run “The clogged ferry landing”.']],
+      response: [
+        ['The only way across is the ferry. Run ', refs.scenes.the_clogged_ferry_landing, '.'],
+      ],
     },
     {
       when: [['They head to the shipyard for their airship.']],
-      response: [['Run “The ents hold the shipyard”.']],
+      response: [['Run ', refs.scenes.the_ents_hold_the_shipyard, '.']],
     },
   ],
 })
