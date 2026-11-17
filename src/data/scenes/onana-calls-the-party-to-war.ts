@@ -132,9 +132,7 @@ export default createScene({
       response: [
         [
           refs.npcs.onana_tempest,
-          ' tells them the truth, which is in the background of ',
-          refs.items.long_rest_in_a_bottle,
-          '. He does not bring it up himself. Whether they still drink is their call: let the silence sit.',
+          ' tells them the truth about it, shown below. He does not bring it up himself. Whether they still drink is their call: let the silence sit.',
         ],
       ],
     },

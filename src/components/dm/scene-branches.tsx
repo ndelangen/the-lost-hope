@@ -1,6 +1,7 @@
 import { ChevronRight } from 'lucide-react'
 
 import { ContentRenderer } from '#/components/content-renderer'
+import { DmItemBrief } from '#/components/dm/dm-item-brief'
 import { DmNpcBrief } from '#/components/dm/dm-npc-brief'
 import { Card } from '#/components/ui/card'
 import type { SceneBranch } from '#/lib/scene-branches'
@@ -9,7 +10,8 @@ const followUpLabel = (count: number) => `${count} follow-up${count === 1 ? '' :
 
 /**
  * A scene's "if…" branches as a folding tree: follow-ups sit inside the branch they depend on,
- * and every NPC a branch names gets a brief inside it, so the DM can play them without leaving.
+ * and every NPC a branch names, and every item with a truth players cannot see, gets a brief
+ * inside it, so the DM can play them without leaving.
  */
 export function SceneBranches({ branches }: { branches: SceneBranch[] }) {
   return (
@@ -38,10 +40,17 @@ function FoldingBranch({ branch, depth }: { branch: SceneBranch; depth: number }
         </summary>
         <div className="grid gap-3 px-3 pb-3 pl-11">
           <ContentRenderer content={branch.response} className="text-muted-foreground" />
-          {branch.npcs.length > 0 ? (
+          {branch.npcs.length + branch.items.length > 0 ? (
             <ul className="grid gap-2">
+              {branch.items.map((item) => (
+                <li key={`item:${item.key}`}>
+                  <Card className="p-4">
+                    <DmItemBrief item={item} />
+                  </Card>
+                </li>
+              ))}
               {branch.npcs.map((npc) => (
-                <li key={npc.key}>
+                <li key={`npc:${npc.key}`}>
                   <Card className="p-4">
                     <DmNpcBrief npc={npc} />
                   </Card>
