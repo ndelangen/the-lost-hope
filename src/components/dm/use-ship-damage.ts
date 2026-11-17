@@ -1,6 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 
-import type { SceneShipDamage } from '#/definitions/scene'
 import {
   advanceTimer,
   brokenSlice,
@@ -8,12 +7,13 @@ import {
   parseShipDamage,
   pauseTimer,
   type ShipDamageState,
+  type ShipUnderFire,
 } from '#/lib/ship-damage'
 
 const STORAGE_PREFIX = 'the-lost-hope:dm-ship-damage:'
 const TICK_MS = 250
 
-function readState(key: string, ship: SceneShipDamage): ShipDamageState {
+function readState(key: string, ship: ShipUnderFire): ShipDamageState {
   try {
     return parseShipDamage(localStorage.getItem(STORAGE_PREFIX + key), ship)
   } catch {
@@ -26,7 +26,7 @@ function readState(key: string, ship: SceneShipDamage): ShipDamageState {
  * the same ship. While the timer runs it advances itself and calls `onHitDue` whenever a new hit
  * fires. State loads after mount, so `state` is undefined on the first frame.
  */
-export function useShipDamage(sceneKey: string, ship: SceneShipDamage, onHitDue: () => void) {
+export function useShipDamage(sceneKey: string, ship: ShipUnderFire, onHitDue: () => void) {
   const [state, setState] = useState<ShipDamageState>()
   const [now, setNow] = useState(() => Date.now())
   const hitDue = useRef(onHitDue)

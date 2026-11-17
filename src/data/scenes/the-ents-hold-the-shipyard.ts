@@ -7,22 +7,14 @@ export default createScene({
   location: refs.locations.skynet_airship_shipyard,
   battleMaps: [refs.locations.beasts_and_dwarf_s_airship_decks],
   npcs: [refs.npcs.esia, refs.npcs.hollin_slowbough, refs.npcs.shipyard_ent],
-  references: [
-    refs.pcs.auren,
-    refs.items.beasts_and_dwarf_s_airship,
-    refs.npcs.tempest_soldier,
-    refs.pcs.cassian_veyl,
-    refs.pcs.devan,
-    refs.locations.nimbus,
-  ],
   setup: [
     [
-      'A crowd presses against the shipyard gate, hoping for a hull off the island. Six ',
+      'A crowd presses against the shipyard gate, hoping for a hull off the island. A line of ',
       refs.npcs.shipyard_ent,
       's stand shoulder to shoulder across it and push people back. The soldiers have not reached the yard yet.',
     ],
     [
-      'One of the six is ',
+      'One of them is ',
       refs.npcs.hollin_slowbough,
       '. He recognises the party from their last visit and slowly says their names.',
     ],
@@ -134,6 +126,10 @@ export default createScene({
         ],
       ],
     },
+  ],
+  opponents: [
+    { creature: refs.npcs.hollin_slowbough },
+    { creature: refs.npcs.shipyard_ent, count: 5 },
   ],
   combat: {
     tactics: [
