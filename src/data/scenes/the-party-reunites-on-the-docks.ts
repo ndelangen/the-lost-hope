@@ -54,16 +54,23 @@ export default createScene({
         {
           do: [
             [
-              refs.pcs.swift_starblade,
-              ' has the gear that fell when ',
-              refs.pcs.jim,
-              ' vanished. ',
               refs.pcs.auren,
               ' is drawn to ',
               refs.items.dagger_of_the_zodiac_signs,
               ' and ',
               refs.items.shadow_sword,
-              ', and merges with them on the spot.',
+              ', the two blades ',
+              refs.pcs.swift_starblade,
+              ' would not touch, and merges with them on the spot.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              'You need this to happen: the merge is what buffs ',
+              refs.pcs.auren,
+              ' up for the fight ahead.',
             ],
           ],
         },

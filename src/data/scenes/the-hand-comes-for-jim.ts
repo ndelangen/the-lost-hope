@@ -197,7 +197,8 @@ export default createScene({
         {
           do: [
             [
-              'Whatever he remembers, the gear is worth taking: ',
+              refs.pcs.swift_starblade,
+              ' can investigate the gear that fell: ',
               refs.items.shadow_sword,
               ', ',
               refs.items.dagger_of_the_zodiac_signs,
@@ -214,14 +215,43 @@ export default createScene({
               '.',
             ],
             [
-              'In the pile is a coded letter from ',
-              refs.pcs.jim,
-              '. Hand ',
-              refs.pcs.swift_starblade,
-              '’s player the printed letter. Its one plain line points at page 4 of the ',
+              'Make sure he finds the ',
               refs.items.pocket_holy_text_of_grimgor,
-              ', which lies in the same pile: hand him that page too.',
+              ': the coded letter from ',
+              refs.pcs.jim,
+              ' is inside it. Hand ',
+              refs.pcs.swift_starblade,
+              '’s player the printed letter. Its one plain line points at page 4 of the same book: hand him that page too.',
             ],
+            ['Have him find the tongue as well, still bearing the guild tattoo.'],
+            [
+              'Tell his player that ',
+              refs.pcs.swift_starblade,
+              ' is repulsed by ',
+              refs.items.dagger_of_the_zodiac_signs,
+              ' and ',
+              refs.items.shadow_sword,
+              '. He feels it is really, really dangerous for him to touch them, and he cannot explain why. The touch alone makes him roll ',
+              refs.rules.con,
+              ' ',
+              refs.rules.saving_throw,
+              's.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              'The two blades are meant for ',
+              refs.pcs.auren,
+              ', who merges with them in ',
+              refs.scenes.the_party_reunites_on_the_docks,
+              '.',
+            ],
+          ],
+        },
+        {
+          do: [
             [
               'Decoding it is his job while you run the group on ',
               refs.locations.skynet,
