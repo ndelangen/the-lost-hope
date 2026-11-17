@@ -76,6 +76,18 @@ const config = defineConfig(({ mode }) => {
     define: {
       CORRECTIONS_ACCESS_CODE_DIGEST: JSON.stringify(accessCodeHash),
     },
+    // Vite discovers these while serving the first page and then re-bundles dependencies and
+    // reloads the browser mid-load. Listing them up front avoids that reload.
+    optimizeDeps: {
+      include: [
+        '@tanstack/history',
+        '@tanstack/router-core',
+        '@tanstack/router-core/ssr/client',
+        '@tanstack/router-core/ssr/server',
+        'h3-v2',
+        'seroval',
+      ],
+    },
     preview: {
       host: '127.0.0.1',
     },

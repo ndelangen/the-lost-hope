@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useLayoutEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 
 export const THEME_STORAGE_KEY = 'dag:theme'
 
@@ -29,27 +29,35 @@ function applyTheme(theme: Theme) {
   document.documentElement.classList.toggle('dark', theme === 'dark')
 }
 
+/**
+ * The root document's inline script sets the theme class before the first paint, so the page never
+ * shows the wrong theme. This hook only mirrors that class in state and changes it on request: it
+ * must not apply the initial server-rendered state, which would flash the light theme at hydration.
+ */
 export function useTheme() {
   const [theme, setTheme] = useState<Theme>('light')
 
-  useLayoutEffect(() => applyTheme(theme), [theme])
+  const changeTheme = useCallback((nextTheme: Theme) => {
+    applyTheme(nextTheme)
+    setTheme(nextTheme)
+  }, [])
 
   useEffect(() => {
     const systemPreference = window.matchMedia('(prefers-color-scheme: dark)')
-    setTheme(resolveTheme(readStoredTheme(), systemPreference.matches))
+    changeTheme(resolveTheme(readStoredTheme(), systemPreference.matches))
     const followSystemPreference = (event: MediaQueryListEvent) => {
-      if (readStoredTheme() === null) setTheme(event.matches ? 'dark' : 'light')
+      if (readStoredTheme() === null) changeTheme(event.matches ? 'dark' : 'light')
     }
 
     systemPreference.addEventListener('change', followSystemPreference)
     return () => systemPreference.removeEventListener('change', followSystemPreference)
-  }, [])
+  }, [changeTheme])
 
   const toggleTheme = useCallback(() => {
     const nextTheme = theme === 'dark' ? 'light' : 'dark'
     writeStoredTheme(nextTheme)
-    setTheme(nextTheme)
-  }, [theme])
+    changeTheme(nextTheme)
+  }, [changeTheme, theme])
 
   return { theme, toggleTheme }
 }
