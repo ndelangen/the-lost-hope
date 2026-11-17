@@ -130,6 +130,29 @@ export default createNPC({
         recharge: 'Long rest',
       },
       {
+        key: 'detect-thoughts',
+        name: 'Detect Thoughts',
+        timing: 'action',
+        icon: 'gi/GiTelepathy',
+        text: [
+          'For 1 minute (',
+          refs.rules.concentration,
+          ') he reads the surface thoughts of one creature within 30 ft., and it does not notice. As an action he can switch to another creature, or probe one deeper with the save below. A probed creature feels it whether it fails or not, and a success ends the spell.',
+        ],
+        save: {
+          ability: 'wis',
+          dc: 'cha',
+          target: { creatures: 1, range: 30 },
+          onFail: {
+            also: [
+              'He learns its reasoning, its emotional state, and whatever looms large in its mind.',
+            ],
+          },
+        },
+        uses: 1,
+        recharge: 'Long rest',
+      },
+      {
         key: 'parry',
         name: 'Parry',
         timing: 'reaction',
@@ -142,7 +165,7 @@ export default createNPC({
     source: {
       adaptedFrom: ['srd-2024_noble'],
       changes:
-        'An air genasi merchant and dungeon owner: a stronger noble with wind tricks and a small Zone of Truth.',
+        'An air genasi merchant and dungeon owner: a stronger noble with wind tricks, a small Zone of Truth and Detect Thoughts.',
     },
   },
 })
