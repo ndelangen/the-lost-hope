@@ -26,6 +26,9 @@ export default createNPC({
       refs.npcs.onana_tempest,
       ' with his soldiers and the battle-cruiser.',
     ],
+    [
+      'What he says: “I’ve seen worse.” (his key phrase) “Do not fight. You will lose. The outcome will be the same, just bloodier.”',
+    ],
   ],
   stats: {
     size: 'medium',
