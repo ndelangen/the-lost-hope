@@ -43,14 +43,6 @@ export default createScene({
             ],
           ],
         },
-        {
-          note: [
-            [
-              refs.npcs.crowy,
-              ' can warn them that they are being followed, and urges them to run. Running takes them towards the docks, and into sight of the flying fortress.',
-            ],
-          ],
-        },
       ],
       outcomes: [
         {
@@ -73,224 +65,36 @@ export default createScene({
             ],
           ],
         },
-        {
-          when: [['The men try to grapple ', refs.pcs.jim, '.']],
-          response: [['He tears free and flees towards the docks.']],
-        },
       ],
     },
     {
-      title: 'The beam takes Jim',
+      title: 'The run to the docks',
       lines: [
         {
           do: [
             [
-              'A green pulse rolls out across the three sky islands, and people stagger as their memories slip. Then a bright green beam locks onto ',
+              'The men try to grapple ',
               refs.pcs.jim,
-              '. Part of it bounces off and tears through the docks and the streets beyond. ',
-              refs.pcs.jim,
-              '’s last words, the only ones ',
-              refs.pcs.swift_starblade,
-              ' hears:',
-            ],
-          ],
-        },
-        {
-          speaker: refs.pcs.jim,
-          say: [['I’m so sorry. I hope you all make it. Don’t trust Light.']],
-        },
-        {
-          note: [
-            ['“Light” in ', refs.pcs.jim, '’s last words is ', refs.npcs.light_13th_marshal, '.'],
-          ],
-        },
-        {
-          do: [
-            [
-              'When the light fades, ',
-              refs.pcs.jim,
-              ' is gone. His belongings clatter onto the planks, along with his tongue, still bearing his guild tattoo.',
-            ],
-            [
-              'The beam also hits ',
-              refs.npcs.crowy,
-              '. He drops to the planks, critically wounded and dying.',
+              '. He tears free and flees towards the docks.',
             ],
           ],
         },
         {
           note: [
             [
-              'Hidden truth: ',
-              refs.npcs.the_father,
-              ' fires the beam from the flying fortress. It captures ',
-              refs.pcs.jim,
-              ' and teleports him aboard, without his tongue. The players only see him vanish and his gear fall.',
-            ],
-            [
-              'The destruction is not deliberate. Because ',
-              refs.pcs.jim,
-              ' is ethereal and carries the guild tattoo, the weapon needed far more power to take him, and the overflow bounced into the docks.',
-            ],
-            [
-              'Casualties (rolled in prep): the memory pulse kills no one. The bounce kills 27 civilians and injures 76 more. It strikes the ferry mid-crossing, the same ferry whose ferryman refused to take ',
-              refs.pcs.jim,
-              ' aboard (',
-              refs.events.n2_e203,
-              ').',
-            ],
-          ],
-        },
-      ],
-      outcomes: [
-        {
-          when: [['', refs.pcs.swift_starblade, ' saves ', refs.npcs.crowy, '.']],
-          response: [
-            [
-              'Any healing does it, and so does a DC 10 ',
-              refs.rules.wis,
-              ' (',
-              refs.rules.medicine,
-              ') check to stop the bleeding. ',
               refs.npcs.crowy,
-              ' comes to and will not forget who saved him. Once he can fly, he heads for ',
-              refs.pcs.devan,
-              ' and ',
-              refs.pcs.cassian_veyl,
-              '.',
-            ],
-          ],
-        },
-        {
-          when: [['', refs.pcs.swift_starblade, ' leaves ', refs.npcs.crowy, ' where he fell.']],
-          response: [
-            [
-              'A bystander scoops him up and saves him. ',
-              refs.npcs.crowy,
-              ' will not forget that ',
-              refs.pcs.swift_starblade,
-              ' walked away. Once he can fly, he heads for ',
-              refs.pcs.devan,
-              ' and ',
-              refs.pcs.cassian_veyl,
-              '.',
-            ],
-          ],
-        },
-        {
-          when: [
-            [
-              '',
-              refs.pcs.swift_starblade,
-              ' makes the saving throw against the pulse and still cares about ',
-              refs.pcs.jim,
-              '.',
-            ],
-          ],
-          response: [['He takes the tongue, and with it a clue to what the guild mark really is.']],
-        },
-      ],
-    },
-    {
-      title: 'What is left on the docks',
-      lines: [
-        {
-          do: [
-            [
-              refs.pcs.swift_starblade,
-              ' can investigate the gear that fell: ',
-              refs.items.shadow_sword,
-              ', ',
-              refs.items.dagger_of_the_zodiac_signs,
-              ', ',
-              refs.items.dagger_of_passive_aggression,
-              ', ',
-              refs.items.obsidian_green_rod,
-              ', ',
-              refs.items.robertos_map_pages,
-              ', ',
-              refs.items.pocket_holy_text_of_grimgor,
-              ' and ',
-              refs.items.nimbus_dungeon_stamp_card,
-              '.',
-            ],
-            [
-              'Make sure he finds the ',
-              refs.items.pocket_holy_text_of_grimgor,
-              ': the coded letter from ',
-              refs.pcs.jim,
-              ' is inside it. Hand ',
-              refs.pcs.swift_starblade,
-              '’s player the printed letter. Its one plain line points at page 4 of the same book: hand him that page too.',
-            ],
-            ['Have him find the tongue as well, still bearing the guild tattoo.'],
-            [
-              'Tell his player that ',
-              refs.pcs.swift_starblade,
-              ' is repulsed by ',
-              refs.items.dagger_of_the_zodiac_signs,
-              ' and ',
-              refs.items.shadow_sword,
-              '. He feels it is really, really dangerous for him to touch them, and he cannot explain why.',
-            ],
-          ],
-        },
-        {
-          note: [
-            [
-              'He cannot touch ',
-              refs.items.dagger_of_the_zodiac_signs,
-              ' at all: it would kill him instantly, with no save. His subconscious knows it and stops his hand before he can try.',
-            ],
-            [
-              'The letter calls it the Book of Gruumsh. That is this book: it is the holy text of the ',
-              refs.organizations.church_of_gruumsh,
-              '.',
-            ],
-            [
-              'The two blades are meant for ',
-              refs.pcs.auren,
-              ', who merges with them in ',
-              refs.scenes.the_party_reunites_on_the_docks,
-              '.',
+              ' can warn them that they are being followed, and urges them to run. Running takes them towards the docks, and into sight of the flying fortress.',
             ],
           ],
         },
         {
           do: [
             [
-              'Decoding it is his job while you run the group on ',
-              refs.locations.skynet,
-              '. Cut back to him between their scenes and ask how far he is. His own part opens with his own word. The shared part needs all four words, and one of them is the word of ',
-              refs.npcs.crowy,
-              ', so it will most likely wait until the party is back together.',
-            ],
-          ],
-        },
-        {
-          note: [
-            [
-              'If he failed the save against the pulse, he does not remember ',
+              'When ',
               refs.pcs.jim,
-              '. Hand him the letter anyway: a stranger who knows him this well is the better mystery.',
-            ],
-          ],
-        },
-        { do: [['Cut to the group on ', refs.locations.skynet, '.']] },
-      ],
-      outcomes: [
-        {
-          when: [['The player gets stuck, or would rather skip the puzzle.']],
-          response: [
-            [
-              'Help in steps, so he keeps something to do. First fill in the table for his own word with him. Then give him his own part decoded. Only then give him the whole letter decoded.',
-            ],
-            [
-              'The whole letter at once is the fastest way out, but it leaves him waiting while you run ',
-              refs.locations.skynet,
-              '. If you do it, give his other moments on the docks more room: saving ',
-              refs.npcs.crowy,
-              ', the tongue, and what he does with the gear.',
+              ' comes within sight of the flying fortress, stop here. Run ',
+              refs.scenes.the_green_pulse_over_the_sky_islands,
+              ' with the whole table.',
             ],
           ],
         },

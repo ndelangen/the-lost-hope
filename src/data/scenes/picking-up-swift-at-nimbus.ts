@@ -40,7 +40,13 @@ export default createScene({
           ],
         },
         {
-          note: [['The damage and the dead are in ', refs.scenes.the_hand_comes_for_jim, '.']],
+          note: [
+            [
+              'The damage and the dead are in ',
+              refs.scenes.the_green_beam_over_the_sky_islands,
+              '.',
+            ],
+          ],
         },
       ],
     },
@@ -85,7 +91,7 @@ export default createScene({
             [
               refs.pcs.swift_starblade,
               ' is where ',
-              refs.scenes.the_hand_comes_for_jim,
+              refs.scenes.the_green_beam_over_the_sky_islands,
               ' left him. Ask his player what the others see when they find him.',
             ],
           ],
@@ -96,7 +102,7 @@ export default createScene({
               'Who still remembers ',
               refs.pcs.jim,
               ' was decided by the saves in ',
-              refs.scenes.the_green_beam_over_the_sky_islands,
+              refs.scenes.the_green_pulse_over_the_sky_islands,
               '.',
             ],
           ],

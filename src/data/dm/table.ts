@@ -5,6 +5,7 @@ export default createTable({
   likely: [
     refs.scenes.borris_shutters_the_casino,
     refs.scenes.the_hand_comes_for_jim,
+    refs.scenes.the_green_pulse_over_the_sky_islands,
     refs.scenes.the_green_beam_over_the_sky_islands,
     refs.scenes.the_clogged_ferry_landing,
     refs.scenes.the_ents_hold_the_shipyard,

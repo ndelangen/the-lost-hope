@@ -71,6 +71,20 @@ export default createArc({
           ', and what happened to him?',
         ],
       ],
+      scene: refs.scenes.the_green_pulse_over_the_sky_islands,
+    },
+    {
+      name: 'Taken',
+      hook: [
+        [
+          'Two beams from the flying fortress, and ',
+          refs.pcs.jim,
+          ' is gone. What does ',
+          refs.pcs.swift_starblade,
+          ' do with what is left on the docks?',
+        ],
+      ],
+      npcs: [refs.npcs.the_father],
       scene: refs.scenes.the_green_beam_over_the_sky_islands,
     },
     {
