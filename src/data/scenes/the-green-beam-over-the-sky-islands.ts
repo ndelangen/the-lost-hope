@@ -3,7 +3,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 
 export default createScene({
   name: 'The green beam over the sky islands',
-  illustration: '/assets/scenes/the-green-beam-over-the-sky-islands.png',
+  illustration: '/assets/scenes/the-green-pulse-over-the-sky-islands.png',
   location: refs.locations.three_sky_kingdoms,
   npcs: [refs.npcs.abraham, refs.npcs.crowy],
   setup: [
@@ -31,6 +31,7 @@ export default createScene({
       refs.locations.skynet,
       '.',
     ],
+    [{ type: 'image', url: '/assets/scenes/the-green-beam-over-the-sky-islands.png' }],
     ['Read aloud:'],
     [
       '“There is a special field of connection. Something you cannot really feel the presence of, though some people say they can. This field is what binds people: a network.”',
