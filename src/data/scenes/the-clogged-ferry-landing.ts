@@ -5,7 +5,7 @@ export default createScene({
   name: 'The clogged ferry landing',
   illustration: '/assets/scenes/the-clogged-ferry-landing.png',
   location: refs.locations.skynet_sky_bridge_landing,
-  battleMaps: [refs.locations.sky_bridge_ferry],
+  battleMaps: [refs.locations.skynet_sky_bridge_landing, refs.locations.sky_bridge_ferry],
   npcs: [refs.npcs.maren_of_fairhaven, refs.npcs.sergeant_bruna_kell, refs.npcs.tempest_soldier],
   references: [
     refs.pcs.auren,

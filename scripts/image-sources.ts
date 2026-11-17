@@ -21,6 +21,24 @@ export type ResponsiveImageSource = {
 
 export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
   {
+    id: 'location-map-nimbus-sky-bridge-landing',
+    role: 'map',
+    logicalSource: '/assets/maps/nimbus-sky-bridge-landing.jpg',
+    repositoryPath: 'assets/images/maps/nimbus-sky-bridge-landing.png',
+  },
+  {
+    id: 'location-map-skynet-sky-bridge-landing',
+    role: 'map',
+    logicalSource: '/assets/maps/skynet-sky-bridge-landing.jpg',
+    repositoryPath: 'assets/images/maps/skynet-sky-bridge-landing.png',
+  },
+  {
+    id: 'location-illustration-skynet-sky-bridge-landing',
+    role: 'illustration',
+    logicalSource: '/assets/locations/skynet-sky-bridge-landing-illustration.png',
+    repositoryPath: 'assets/images/content/locations/skynet-sky-bridge-landing-illustration.png',
+  },
+  {
     id: 'location-map-night-mothers-church',
     role: 'map',
     logicalSource: '/assets/maps/night-mothers-church.jpg',
