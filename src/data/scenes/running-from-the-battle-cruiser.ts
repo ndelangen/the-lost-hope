@@ -5,7 +5,7 @@ export default createScene({
   name: 'Running from the battle-cruiser',
   location: refs.locations.skynet_nimbus_crossing,
   battleMaps: [refs.locations.beasts_and_dwarf_s_airship_decks, refs.locations.sky_bridge_ferry],
-  npcs: [refs.npcs.corwin_hale, refs.npcs.captain_garran, refs.npcs.tempest_soldier],
+  npcs: [refs.npcs.captain_garran, refs.npcs.tempest_soldier],
   references: [
     refs.npcs.onana_tempest,
     refs.items.master_of_puppets,
@@ -66,13 +66,6 @@ export default createScene({
       ' to slip the hook, ',
       refs.rules.arcana,
       ' or fire on the rope. Nobody falls to their death: a character who fails by 5 or more over the side ends up dangling from a line and spends round three climbing back.',
-    ],
-    [
-      'If ',
-      refs.npcs.corwin_hale,
-      ' is flying, he rolls each round too, with +5. ',
-      refs.pcs.swift_starblade,
-      ' is not aboard, so hand his player those rolls.',
     ],
     [
       'On the ferry the helmsman wants to obey the signal. Round one then starts with the party talking or forcing him out of it.',
