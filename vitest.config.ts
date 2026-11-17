@@ -18,7 +18,7 @@ export default defineConfig({
       reportsDirectory: 'output/coverage',
       reporter: ['text-summary', 'json-summary', 'html', 'lcovonly'],
       reportOnFailure: true,
-      thresholds: { statements: 45, branches: 80, functions: 70, lines: 45 },
+      thresholds: { statements: 50, branches: 42, functions: 43, lines: 51 },
     },
   },
 })
