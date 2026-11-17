@@ -3,16 +3,13 @@ import { ChevronRight, Pin, Sword } from 'lucide-react'
 
 import { ContentRenderer } from '#/components/content-renderer'
 import { DmFaces } from '#/components/dm/dm-faces'
-import { DmHiddenReference } from '#/components/dm/dm-hidden-reference'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
 import { SceneBranches } from '#/components/dm/scene-branches'
 import { ShipDamageClock } from '#/components/dm/ship-damage-clock'
 import { StatBlockSummary } from '#/components/dm/stat-block-summary'
-import { EntityReference } from '#/components/entity-reference'
 import { ImageViewer } from '#/components/image-viewer'
 import { ShowToPlayersButton } from '#/components/player-screen/show-to-players-button'
 import type { Location } from '#/definitions/location'
-import { refLink } from '#/lib/campaign'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 import { arcs, resolveSourceRef, scenes, table } from '#/lib/dm-campaign'
 import { plotsByScene } from '#/lib/dm-dashboard'
@@ -45,7 +42,7 @@ function SceneRoute() {
   const scene = scenes[key]!
   const plots = plotsByScene(arcs).get(key) ?? []
   const pinned = table.pinned.some((ref) => ref.key === key)
-  const location = refLink(scene.location)
+  const locations = [scene.location, ...scene.alternateLocations]
   const battleMaps = scene.battleMaps.flatMap((ref) => {
     const place = Object.hasOwn(locationRecords, ref.key) ? locationRecords[ref.key] : undefined
     return place ? [{ ref, place }] : []
@@ -79,19 +76,9 @@ function SceneRoute() {
             <Sword className="size-4" /> Run encounter
             {scene.npcs.length > 0 ? ' with this scene’s NPCs' : ''}
           </Link>
-          <p className="text-sm">
-            at{' '}
-            {location ? (
-              <EntityReference
-                kind="location"
-                slug={location.slug}
-                label={location.name}
-                className="font-medium"
-              />
-            ) : (
-              <DmHiddenReference reference={scene.location} />
-            )}
-          </p>
+          <ContentRenderer
+            content={[locations.flatMap((ref, index) => [index === 0 ? 'at ' : ' or ', ref])]}
+          />
         </header>
 
         {scene.illustration ? (

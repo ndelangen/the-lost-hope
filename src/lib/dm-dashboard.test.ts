@@ -80,6 +80,30 @@ describe('DM dashboard', () => {
     expect(nimbus!.scenes[1]!.plots[0]!.plot.name).toBe('Another game')
   })
 
+  it('places boarding under both possible vessel decks', () => {
+    const key = 'boarded_by_the_battle_cruiser'
+    const location = refs.locations.beasts_and_dwarf_s_airship_decks
+    const alternate = refs.locations.sky_bridge_ferry
+    const boarding = createScene({
+      name: 'Boarded by the battle-cruiser',
+      location,
+      alternateLocations: [alternate],
+      setup: [['Boarders come aboard.']],
+    })
+    const tree = buildDashboard({
+      table: createTable({ likely: [{ ref: 'scene', key }] }),
+      scenes: { [key]: boarding },
+      arcs: {},
+      party: new Map(),
+      parentOf: sourceLocationParent,
+    })
+
+    expect(tree.map((node) => [node.location, node.scenes.map((scene) => scene.key)])).toEqual([
+      [location, [key]],
+      [alternate, [key]],
+    ])
+  })
+
   it('lists the likely scenes in planned play order across locations', () => {
     const table = createTable({
       likely: [sceneRef('harbour'), sceneRef('stables'), sceneRef('game')],

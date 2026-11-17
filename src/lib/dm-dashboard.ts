@@ -105,8 +105,8 @@ function finish(list: readonly Node[]): DashboardLocationNode[] {
 }
 
 /**
- * Arrange the DM's selected scenes and the party in the location tree. Each scene appears once,
- * under the location it happens in, and every ancestor of that location is a node too, so the
+ * Arrange the DM's selected scenes and the party in the location tree. Each scene appears under
+ * each of its possible locations, and every ancestor of those locations is a node too, so the
  * inn sits inside Skynet inside the Three Sky Kingdoms. The top of the tree (the world) is left
  * out. Branches holding the party come first, in party order; the rest follow in selection order.
  */
@@ -146,12 +146,11 @@ export function buildDashboard({
   for (const key of keys) {
     const scene = scenes[key]
     if (!scene) continue
-    nodeFor(scene.location).scenes.push({
-      key,
-      scene,
-      pinned: pinned.has(key),
-      plots: plots.get(key) ?? [],
-    })
+    const row = { key, scene, pinned: pinned.has(key), plots: plots.get(key) ?? [] }
+    for (const location of [scene.location, ...scene.alternateLocations]) {
+      const node = nodeFor(location)
+      if (!node.scenes.includes(row)) node.scenes.push(row)
+    }
   }
 
   return finish(roots)

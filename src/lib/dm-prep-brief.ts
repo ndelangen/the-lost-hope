@@ -93,8 +93,9 @@ function arcSection(line: Storyline, latest: number): string {
 function sceneSection(ref: EntityRef<'scene'>, pinned: boolean): string {
   const scene = resolveScene(ref)
   if (!scene) return `- ${ref.key} (missing)`
+  const places = [scene.location, ...scene.alternateLocations].map(refText).join(' or ')
   return [
-    `- **${scene.name}** (refs.scenes.${ref.key})${pinned ? ', pinned' : ''} at ${refText(scene.location)}`,
+    `- **${scene.name}** (refs.scenes.${ref.key})${pinned ? ', pinned' : ''} at ${places}`,
     indent(sourceText(scene.setup)),
   ].join('\n')
 }

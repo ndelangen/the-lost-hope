@@ -15,6 +15,9 @@ const locations = SOURCE_REGISTRIES.location as Record<string, { name: string; i
 export function DmOverviewSceneRow({ item }: { item: OverviewScene }) {
   const { scene } = item
   const place = locations[scene.location.key]
+  const placeNames = [scene.location, ...scene.alternateLocations]
+    .map(({ key }) => locations[key]?.name ?? key)
+    .join(' or ')
   return (
     <li>
       <Link
@@ -43,7 +46,9 @@ export function DmOverviewSceneRow({ item }: { item: OverviewScene }) {
           <div className="text-muted-foreground flex min-w-0 items-center gap-1.5 text-xs">
             <span className="flex max-w-[45%] shrink-0 items-center gap-1">
               <LocationIcon icon={place?.icon} />
-              <span className="truncate">{place?.name ?? scene.location.key}</span>
+              <span className="truncate" title={placeNames}>
+                {placeNames}
+              </span>
             </span>
             <span aria-hidden>·</span>
             {item.plots.length === 0 ? (
