@@ -8,6 +8,7 @@
  * - `GET  /__dm/npc/saved?name=`     whether an NPC with that name is registered
  * - `GET  /__dm/npc/portrait?key=`   the background portrait job for a saved NPC
  * - `POST /__dm/npc/portrait`        starts or retries that job
+ * - `POST /__dm/tokens`              adds or removes one of a PC's DM or curse tokens
  */
 import { spawn } from 'node:child_process'
 import { existsSync } from 'node:fs'
@@ -18,6 +19,7 @@ import path from 'node:path'
 
 import type { Plugin, ViteDevServer } from 'vite'
 
+import type { Tokens } from '../src/definitions/tokens.ts'
 import {
   NPC_DRAFT_JSON_SCHEMA,
   NpcDraft,
@@ -28,6 +30,7 @@ import {
   npcIdentity,
   npcSourceFile,
 } from '../src/lib/npc-authoring.ts'
+import { adjustTokens, tokensSource, withCounts } from '../src/lib/pc-tokens.ts'
 import { GENERATED_REFS_PATH, generateRefs } from './generate-refs.ts'
 
 type PortraitJob = { description: string } & (
@@ -227,6 +230,9 @@ async function registered(key: string) {
 
 const REFERENCE_AVATARS = ['sarogarth.png', 'bob-the-merchant.png']
 
+const TOKENS_MODULE = '/src/data/dm/tokens.ts'
+const TOKENS_PATH = path.resolve('src/data/dm/tokens.ts')
+
 export function dmAuthoringPlugin(): Plugin {
   /**
    * Paints a portrait in the background. Codex works in a scratch folder holding only copies of
@@ -279,9 +285,22 @@ export function dmAuthoringPlugin(): Plugin {
     })()
   }
 
+  /**
+   * Until when the token record is being stepped. The dashboard already shows the saved count, so
+   * the browser skips the page reload each step would cause; the server still reloads the record.
+   */
+  let tokenWritesUntil = 0
+  let lastTokens: Tokens | undefined
+
   return {
     name: 'dm-authoring',
     apply: 'serve',
+    hotUpdate({ file, modules }) {
+      if (this.environment.name !== 'client' || file !== TOKENS_PATH) return
+      if (tokenWritesUntil < Date.now()) return
+      for (const module of modules) this.environment.moduleGraph.invalidateModule(module)
+      return []
+    },
     configureServer(server) {
       // Saving restarts the dev server a few times as files change. The editor only opens the new
       // NPC once this instance has run undisturbed for a moment, so the page does not load midway
@@ -292,7 +311,7 @@ export function dmAuthoringPlugin(): Plugin {
       })
       async function handle(request: IncomingMessage, response: ServerResponse, next: () => void) {
         const url = new URL(request.url ?? '/', 'http://localhost')
-        if (!url.pathname.startsWith('/__dm/npc/')) return next()
+        if (!url.pathname.startsWith('/__dm/npc/') && url.pathname !== '/__dm/tokens') return next()
         if (!sameOrigin(request))
           return send(response, 403, { error: 'Not allowed from this page' })
         try {
@@ -429,6 +448,38 @@ export function dmAuthoringPlugin(): Plugin {
             if (!npc?.slug) return send(response, 404, { error: `Unknown NPC ${body.key}` })
             startPortrait({ key: body.key, slug: npc.slug, name: npc.name }, body.description)
             return send(response, 202, portraits.get(body.key))
+          }
+
+          if (url.pathname === '/__dm/tokens' && request.method === 'POST') {
+            const body = (await readJson(request)) as {
+              key?: string
+              kind?: string
+              delta?: number
+            }
+            const kind = body.kind === 'dm' || body.kind === 'curse' ? body.kind : undefined
+            if (!kind || (body.delta !== 1 && body.delta !== -1)) {
+              return send(response, 422, { error: 'Add or remove one DM or curse token' })
+            }
+            const delta = body.delta
+            const key = body.key ?? ''
+            if (!Object.hasOwn((await registries(server)).pc ?? {}, key)) {
+              return send(response, 404, { error: `Unknown PC ${key}` })
+            }
+            const counts = await exclusive(async () => {
+              const { default: current } = (await server.ssrLoadModule(TOKENS_MODULE)) as {
+                default: Tokens
+              }
+              // Steps arrive faster than the server reloads the record, so a quick follow-up step
+              // builds on the previous write.
+              const tokens = lastTokens && tokenWritesUntil > Date.now() ? lastTokens : current
+              const held = tokens.holdings.find(({ pc }) => pc.key === key)
+              const next = adjustTokens(held, kind, delta)
+              lastTokens = withCounts(tokens, key, next)
+              tokenWritesUntil = Date.now() + 5000
+              await writeFile(TOKENS_PATH, tokensSource(lastTokens))
+              return next
+            })
+            return send(response, 200, { counts })
           }
 
           return send(response, 404, { error: 'Unknown DM authoring endpoint' })

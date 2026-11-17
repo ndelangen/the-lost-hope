@@ -1,5 +1,12 @@
-import { useCallback, useEffect, useState, useSyncExternalStore } from 'react'
+import { useCallback, useEffect, useRef, useState, useSyncExternalStore } from 'react'
 
+import {
+  PLAYER_SCREEN_PING_MS,
+  PLAYER_SCREEN_POINTER_CHANNEL,
+  parsePlayerScreenPointer,
+  type PictureSpot,
+  type PlayerScreenPointer,
+} from '#/lib/player-screen-pointer'
 import {
   EMPTY_PLAYER_SCREEN,
   PLAYER_SCREEN_CHANNEL,
@@ -132,4 +139,60 @@ export async function openPlayerScreen(): Promise<void> {
     ? `popup,left=${screen.availLeft},top=${screen.availTop},width=${screen.availWidth},height=${screen.availHeight}`
     : 'popup,width=1280,height=800'
   window.open('/display', PLAYER_SCREEN_WINDOW_NAME, features)
+}
+
+/** Sends the DM's pointing to the player screen. */
+export function usePlayerScreenPointerSender(): (pointer: PlayerScreenPointer) => void {
+  const channel = useRef<BroadcastChannel | null>(null)
+  useEffect(() => {
+    if (typeof BroadcastChannel === 'undefined') return
+    channel.current = new BroadcastChannel(PLAYER_SCREEN_POINTER_CHANNEL)
+    return () => {
+      channel.current?.close()
+      channel.current = null
+    }
+  }, [])
+  // oxlint-disable-next-line unicorn/require-post-message-target-origin -- BroadcastChannel has no target origin
+  return useCallback((pointer: PlayerScreenPointer) => channel.current?.postMessage(pointer), [])
+}
+
+export type PointerMarks = {
+  /** Where the laser dot is now, or `null` when the DM is not holding it. */
+  laser: PictureSpot | null
+  /** Pings still fading out, oldest first. */
+  pings: ReadonlyArray<{ id: number; spot: PictureSpot }>
+}
+
+const NO_MARKS: PointerMarks = { laser: null, pings: [] }
+
+/** The DM's pointing at `picture`, as the player screen draws it. */
+export function usePlayerScreenPointer(picture: string | undefined): PointerMarks {
+  const [marks, setMarks] = useState<PointerMarks>(NO_MARKS)
+  useEffect(() => {
+    setMarks(NO_MARKS)
+    if (!picture || typeof BroadcastChannel === 'undefined') return
+    const channel = new BroadcastChannel(PLAYER_SCREEN_POINTER_CHANNEL)
+    const timers = new Set<number>()
+    let nextId = 0
+    channel.addEventListener('message', (event: MessageEvent) => {
+      const pointer = parsePlayerScreenPointer(event.data)
+      if (!pointer || pointer.picture !== picture) return
+      if (pointer.kind === 'laser') setMarks((now) => ({ ...now, laser: pointer.spot }))
+      else if (pointer.kind === 'laser-off') setMarks((now) => ({ ...now, laser: null }))
+      else {
+        const id = nextId++
+        setMarks((now) => ({ ...now, pings: [...now.pings, { id, spot: pointer.spot }] }))
+        const timer = window.setTimeout(() => {
+          timers.delete(timer)
+          setMarks((now) => ({ ...now, pings: now.pings.filter((ping) => ping.id !== id) }))
+        }, PLAYER_SCREEN_PING_MS)
+        timers.add(timer)
+      }
+    })
+    return () => {
+      for (const timer of timers) window.clearTimeout(timer)
+      channel.close()
+    }
+  }, [picture])
+  return marks
 }
