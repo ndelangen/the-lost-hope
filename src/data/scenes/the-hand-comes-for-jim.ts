@@ -231,16 +231,17 @@ export default createScene({
               refs.items.dagger_of_the_zodiac_signs,
               ' and ',
               refs.items.shadow_sword,
-              '. He feels it is really, really dangerous for him to touch them, and he cannot explain why. The touch alone makes him roll ',
-              refs.rules.con,
-              ' ',
-              refs.rules.saving_throw,
-              's.',
+              '. He feels it is really, really dangerous for him to touch them, and he cannot explain why.',
             ],
           ],
         },
         {
           note: [
+            [
+              'He cannot touch ',
+              refs.items.dagger_of_the_zodiac_signs,
+              ' at all: it would kill him instantly, with no save. His subconscious knows it and stops his hand before he can try.',
+            ],
             [
               'The letter calls it the Book of Gruumsh. That is this book: it is the holy text of the ',
               refs.organizations.church_of_gruumsh,
