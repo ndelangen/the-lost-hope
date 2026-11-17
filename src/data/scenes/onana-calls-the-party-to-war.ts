@@ -109,6 +109,31 @@ export default createScene({
           refs.scenes.boarding_ride_the_lightning,
           '.',
         ],
+        [
+          'He also has ',
+          refs.npcs.captain_garran,
+          ' give each of them three Potions of Healing and one ',
+          refs.items.long_rest_in_a_bottle,
+          ', from his own reserve. A Potion of Healing restores 2d4 + 2 ',
+          refs.rules.hit_points,
+          ' and takes a ',
+          refs.rules.bonus_action,
+          ' to drink.',
+        ],
+        [
+          'Nobody has rested today. When they drink the ',
+          refs.items.long_rest_in_a_bottle,
+          ' is up to them: before they board, or in the middle of the fight. The day does not move: press “Long rest”, not “New day”.',
+        ],
+      ],
+    },
+    {
+      when: [['They ask what is in the ', refs.items.long_rest_in_a_bottle, ', now or later.']],
+      response: [
+        [
+          refs.npcs.onana_tempest,
+          ' tells them the truth about it, shown below. He does not bring it up himself. Whether they still drink is their call: let the silence sit.',
+        ],
       ],
     },
     {

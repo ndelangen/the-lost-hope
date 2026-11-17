@@ -9,6 +9,7 @@ import { ShipDamageClock } from '#/components/dm/ship-damage-clock'
 import { StatBlockSummary } from '#/components/dm/stat-block-summary'
 import { ImageViewer } from '#/components/image-viewer'
 import { ShowToPlayersButton } from '#/components/player-screen/show-to-players-button'
+import type { Item } from '#/definitions/item'
 import type { Location } from '#/definitions/location'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 import { arcs, resolveSourceRef, sceneShipUnderFire, scenes, table } from '#/lib/dm-campaign'
@@ -21,6 +22,7 @@ const npcRecords: Readonly<
   Record<string, (typeof SOURCE_REGISTRIES.npc)[keyof typeof SOURCE_REGISTRIES.npc]>
 > = SOURCE_REGISTRIES.npc
 const locationRecords: Readonly<Partial<Record<string, Location>>> = SOURCE_REGISTRIES.location
+const itemRecords: Readonly<Partial<Record<string, Item>>> = SOURCE_REGISTRIES.item
 
 export const Route = createFileRoute('/dm/scenes/$slug')({
   loader: ({ params }) => {
@@ -47,7 +49,11 @@ function SceneRoute() {
     const place = Object.hasOwn(locationRecords, ref.key) ? locationRecords[ref.key] : undefined
     return place ? [{ ref, place }] : []
   })
-  const branches = buildSceneBranches(scene.outcomes)
+  const branches = buildSceneBranches(
+    scene.outcomes,
+    (item) =>
+      Object.hasOwn(itemRecords, item.key) && itemRecords[item.key]?.background !== undefined,
+  )
   const ship = sceneShipUnderFire(scene)
   const vessel = ship ? resolveSourceRef(ship.vessel) : undefined
 

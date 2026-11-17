@@ -197642,7 +197642,9 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/potion-ball.html",
       "usedIn": [
         "src/data/creatures/alchemist.ts",
-        "src/lib/ability-icons.tsx"
+        "src/data/items/long-rest-in-a-bottle.ts",
+        "src/lib/ability-icons.tsx",
+        "src/lib/item-icons.tsx"
       ]
     },
     {
@@ -277617,6 +277619,7 @@
       "sourceUrl": "https://lucide.dev/icons/eye-off",
       "usedIn": [
         "src/components/campaign-shell/dm-controls.tsx",
+        "src/components/dm/dm-item-brief.tsx",
         "src/components/player-screen/player-screen-dock.tsx",
         "src/lib/condition-icons.tsx"
       ]

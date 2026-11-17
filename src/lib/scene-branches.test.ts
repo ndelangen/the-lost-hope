@@ -12,10 +12,10 @@ const branch = (text: string, followUps: SceneOutcome[] = []): SceneOutcome => (
 
 describe('buildSceneBranches', () => {
   it('gives nested branches outline ids and counts everything a skipped branch hides', () => {
-    const [a, e] = buildSceneBranches([
-      branch('A', [branch('B', [branch('C')]), branch('D')]),
-      branch('E'),
-    ])
+    const [a, e] = buildSceneBranches(
+      [branch('A', [branch('B', [branch('C')]), branch('D')]), branch('E')],
+      () => false,
+    )
 
     expect(a?.id).toBe('1')
     expect(a?.descendantCount).toBe(3)
@@ -27,18 +27,40 @@ describe('buildSceneBranches', () => {
   })
 })
 
-describe('npcsIn', () => {
+describe('who and what a branch names', () => {
   const npc = (key: string) => ({ ref: 'npc', key }) as const
+  const item = (key: string) => ({ ref: 'item', key }) as const
 
   it('lists the NPCs a branch names once each, in order of first mention', () => {
-    const [only] = buildSceneBranches([
-      {
-        when: [['They help ', npc('maren'), ' or ', npc('pell'), '.']],
-        response: [[npc('pell'), ' points them on, past ', { ref: 'location', key: 'docks' }]],
-        followUps: [],
-      },
-    ])
+    const [only] = buildSceneBranches(
+      [
+        {
+          when: [['They help ', npc('maren'), ' or ', npc('pell'), '.']],
+          response: [[npc('pell'), ' points them on, past ', { ref: 'location', key: 'docks' }]],
+          followUps: [],
+        },
+      ],
+      () => false,
+    )
 
     expect(only?.npcs).toEqual([npc('maren'), npc('pell')])
+  })
+
+  it('lists only the items that hold a secret, in follow-ups too', () => {
+    const [only] = buildSceneBranches(
+      [
+        {
+          when: [['They take the ', item('draught'), ' and the ', item('rope'), '.']],
+          response: [['The ', item('draught'), ' works.']],
+          followUps: [
+            { when: [['They drink the ', item('draught'), '.']], response: [['…']], followUps: [] },
+          ],
+        },
+      ],
+      (named) => named.key === 'draught',
+    )
+
+    expect(only?.items).toEqual([item('draught')])
+    expect(only?.followUps[0]?.items).toEqual([item('draught')])
   })
 })
