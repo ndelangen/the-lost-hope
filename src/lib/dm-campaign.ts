@@ -1,7 +1,6 @@
 import arcRecords from '#/data/arcs/_index'
 import creatureRecords from '#/data/creatures/_index'
 import tableRecord from '#/data/dm/table'
-import itemRecords from '#/data/items/_index'
 import npcRecords from '#/data/npcs/_index'
 import sceneRecords from '#/data/scenes/_index'
 import type { Arc, Plot } from '#/definitions/arc'
@@ -14,6 +13,7 @@ import { campaignSessions, resolveRef, sessionSlugForEvent } from '#/lib/campaig
 import { collectReferences } from '#/lib/campaign-read-model'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 import type { ShipUnderFire } from '#/lib/ship-damage'
+import { vesselHull } from '#/lib/ship-decks'
 
 export const arcs: Readonly<Record<string, Arc>> = arcRecords
 export const scenes: Readonly<Record<string, Scene>> = sceneRecords
@@ -70,12 +70,8 @@ export function plotCast(plot: Plot): EntityRef<'npc'>[] {
 /** A scene's ship-damage pacing with its vessel's hull, when the vessel has one. */
 export function sceneShipUnderFire(scene: Scene): ShipUnderFire | undefined {
   const damage = scene.shipDamage
-  if (!damage) return undefined
-  const vessel = Object.hasOwn(itemRecords, damage.vessel.key)
-    ? itemRecords[damage.vessel.key as keyof typeof itemRecords]
-    : undefined
-  const hull = vessel && 'hull' in vessel ? vessel.hull : undefined
-  return hull ? { ...damage, ...hull } : undefined
+  const vessel = damage ? vesselHull(damage.vessel.key) : undefined
+  return damage && vessel ? { ...damage, ...vessel.hull } : undefined
 }
 
 export function npcMotivations(ref: EntityRef<'npc'>) {

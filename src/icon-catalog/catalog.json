@@ -227138,7 +227138,9 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/stone-pile.html",
-      "usedIn": []
+      "usedIn": [
+        "src/components/ship/difficult-terrain-badge.tsx"
+      ]
     },
     {
       "id": "gi/GiStoneSpear",

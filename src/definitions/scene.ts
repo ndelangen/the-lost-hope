@@ -41,7 +41,7 @@ export type ShipDamageDie = (typeof SHIP_DAMAGE_DICE)[number]
 
 /**
  * How fast a vessel breaks up in real time while a scene is fought aboard it. The vessel's own
- * record owns its hull: the sectors and where the escape pods are. Every interval a die picks one
+ * record owns its hull: the sectors, their hit points and where the escape pods are. Every interval a die picks one
  * slice of the hull, counted from the bow, and the DM chooses whether its port or its starboard
  * sector is hit. The hit's damage is rolled on the damage die. A sector that has taken all its hit
  * points is destroyed, and the vessel is lost once both sectors of one slice are destroyed,
@@ -53,7 +53,6 @@ export const SceneShipDamage = z.strictObject({
   damageDie: z
     .union(SHIP_DAMAGE_DICE.map((sides) => z.literal(sides)))
     .describe('Sides of the die rolled for one hit. The DM can pick another at the table'),
-  sectorHitPoints: z.number().int().positive().describe('Damage that destroys a sector'),
 })
 
 export type SceneShipDamage = z.infer<typeof SceneShipDamage>
