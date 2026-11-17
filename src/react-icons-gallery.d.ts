@@ -6,6 +6,6 @@ declare module 'react-icons/gi?icon-gallery' {
   export * from 'react-icons/gi'
 }
 
-declare module 'lucide-react?icon-gallery' {
+declare module 'lucide-react/dist/esm/lucide-react.mjs?icon-gallery' {
   export * from 'lucide-react'
 }

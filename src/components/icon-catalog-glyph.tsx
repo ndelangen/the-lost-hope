@@ -1,4 +1,4 @@
-import { icons as LucideIcons } from 'lucide-react?icon-gallery'
+import { icons as LucideIcons } from 'lucide-react/dist/esm/lucide-react.mjs?icon-gallery'
 import { useEffect, useState, type ComponentType } from 'react'
 
 import type { IconCatalogEntry } from '#/icon-catalog/types'
