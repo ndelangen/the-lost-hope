@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Ilsa Corrow',
+  avatar: '/assets/npcs/ilsa-corrow-portrait.png',
   species: 'Human',
   secretMemberships: [
     { organization: refs.organizations.the_eyeless_hand, status: 'active', rank: 'Finger' },

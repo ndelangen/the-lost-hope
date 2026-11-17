@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Korrag Stonevow',
+  avatar: '/assets/npcs/korrag-stonevow-portrait.png',
   species: 'Orc',
   secretMemberships: [
     { organization: refs.organizations.the_eyeless_hand, status: 'active', rank: 'Dust-Lost' },
