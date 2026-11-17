@@ -3,7 +3,7 @@ import creatureRecords from '#/data/creatures/_index'
 import tableRecord from '#/data/dm/table'
 import npcRecords from '#/data/npcs/_index'
 import sceneRecords from '#/data/scenes/_index'
-import type { Arc } from '#/definitions/arc'
+import type { Arc, Plot } from '#/definitions/arc'
 import type { Creature } from '#/definitions/creature'
 import { ENTITY_KINDS, type EntityKind, type EntityRef, isSceneRef } from '#/definitions/kind'
 import type { Scene } from '#/definitions/scene'
@@ -12,6 +12,8 @@ import type { Table } from '#/definitions/table'
 import { campaignSessions, resolveRef, sessionSlugForEvent } from '#/lib/campaign'
 import { collectReferences } from '#/lib/campaign-read-model'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
+import type { ShipUnderFire } from '#/lib/ship-damage'
+import { vesselHull } from '#/lib/ship-decks'
 
 export const arcs: Readonly<Record<string, Arc>> = arcRecords
 export const scenes: Readonly<Record<string, Scene>> = sceneRecords
@@ -30,6 +32,46 @@ export function resolveArc(ref: EntityRef<'arc'>): Arc | undefined {
 
 export function resolveScene(ref: EntityRef<'scene'>): Scene | undefined {
   return Object.hasOwn(scenes, ref.key) ? scenes[ref.key] : undefined
+}
+
+/**
+ * Every record a scene mentions, in order of first mention: its places, cast and opponents, then
+ * whatever its setup, notes, outcomes and fight prep link to.
+ */
+export function sceneMentions(scene: Scene): EntityRef[] {
+  const found = collectReferences([
+    scene.location,
+    scene.alternateLocations,
+    scene.battleMaps,
+    scene.npcs,
+    scene.opponents.map((opponent) => opponent.creature),
+    scene.setup,
+    scene.notes,
+    scene.outcomes,
+    scene.combat,
+    scene.shipDamage?.vessel,
+  ])
+  const seen = new Set<string>()
+  return found.filter((ref) => {
+    const id = `${ref.ref}:${ref.key}`
+    if (seen.has(id)) return false
+    seen.add(id)
+    return true
+  })
+}
+
+/** A plot's NPCs: its own, then its scene's cast, which the plot does not repeat. */
+export function plotCast(plot: Plot): EntityRef<'npc'>[] {
+  const scene = plot.scene ? resolveScene(plot.scene) : undefined
+  const keys = new Set(plot.npcs.map((npc) => npc.key))
+  return [...plot.npcs, ...(scene?.npcs ?? []).filter((npc) => !keys.has(npc.key))]
+}
+
+/** A scene's ship-damage pacing with its vessel's hull, when the vessel has one. */
+export function sceneShipUnderFire(scene: Scene): ShipUnderFire | undefined {
+  const damage = scene.shipDamage
+  const vessel = damage ? vesselHull(damage.vessel.key) : undefined
+  return damage && vessel ? { ...damage, ...vessel.hull } : undefined
 }
 
 export function npcMotivations(ref: EntityRef<'npc'>) {

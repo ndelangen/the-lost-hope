@@ -13,16 +13,15 @@ export default createScene({
     refs.locations.skynet_airship_shipyard,
   ],
   npcs: [refs.npcs.captain_garran, refs.npcs.tempest_soldier],
-  references: [
-    refs.npcs.onana_tempest,
-    refs.organizations.beasts_and_dwarf,
-    refs.organizations.tempest_family,
-    refs.items.beasts_and_dwarf_s_airship,
-    refs.items.master_of_puppets,
-    refs.pcs.cassian_veyl,
-    refs.pcs.devan,
-  ],
   setup: [
+    [
+      refs.pcs.cassian_veyl,
+      ', ',
+      refs.pcs.devan,
+      ' and ',
+      refs.pcs.auren,
+      ' are the ones on the ship.',
+    ],
     [
       'Wherever the chase ended, in the air on ',
       refs.items.beasts_and_dwarf_s_airship,
@@ -91,6 +90,10 @@ export default createScene({
       ],
     },
   ],
+  opponents: [
+    { creature: refs.npcs.captain_garran, count: 1 },
+    { creature: refs.npcs.tempest_soldier, count: 6 },
+  ],
   combat: {
     tactics: [
       [
@@ -109,7 +112,7 @@ export default createScene({
     ],
     reinforcements: [
       [
-        'Six more soldiers jump across at the end of every round. The party can see forty or more on the cruiser’s deck.',
+        'They keep coming: two more soldiers jump across at the end of every round, with no end to them. Put two tokens on the table each round so the players see the tide rising. Forty or more still stand on the cruiser’s deck.',
       ],
     ],
     exits: [['None worth taking: over the side is the ocean, far below.']],

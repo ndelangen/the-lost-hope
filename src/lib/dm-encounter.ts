@@ -150,7 +150,10 @@ export function currentParty(): PartyMember[] {
     }))
 }
 
-/** A scene supplies its linked NPCs as the starting roster. */
+/** A scene's opponents, each as many times as its count, are the starting roster. */
 export function sceneRoster(scene: Scene) {
-  return (encounter: Encounter) => scene.npcs.reduce<Encounter>(addCreature, encounter)
+  return (encounter: Encounter) =>
+    scene.opponents
+      .flatMap(({ creature, count }) => Array.from({ length: count }, () => creature))
+      .reduce<Encounter>(addCreature, encounter)
 }

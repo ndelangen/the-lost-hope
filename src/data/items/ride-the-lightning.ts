@@ -7,6 +7,21 @@ export default createItem({
   currentOwner: refs.organizations.tempest_family,
   carriedBy: null,
   craftedBy: null,
+  hull: {
+    sectorHitPoints: 5,
+    port: [
+      { name: 'Port bow', escapePods: true },
+      { name: 'Port battery', escapePods: true },
+      { name: 'Crystal chamber', escapePods: false },
+      { name: 'Helm', escapePods: false },
+    ],
+    starboard: [
+      { name: 'Starboard bow', escapePods: true },
+      { name: 'Starboard battery', escapePods: true },
+      { name: 'Barracks', escapePods: true },
+      { name: 'Stern hold', escapePods: true },
+    ],
+  },
   notes: [['A flying battle-cruiser of the ', refs.organizations.tempest_family, '.']],
   background: [
     [
