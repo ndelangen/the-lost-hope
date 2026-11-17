@@ -20,59 +20,140 @@ export default createScene({
       refs.pcs.devan,
       ' and ',
       refs.pcs.auren,
-      ' are the ones on the ship.',
-    ],
-    [
-      'Wherever the chase ended, in the air on ',
-      refs.items.beasts_and_dwarf_s_airship,
-      ', on the ferry, or with the ship still on the slip at the shipyard, ',
+      ' are the ones on the ship. ',
       refs.items.master_of_puppets,
-      ', a battle-cruiser of the ',
-      refs.organizations.tempest_family,
-      ', lies alongside and blots out the sky. Boarding planks slam down, and soldiers drop onto the deck. At least forty more stand at the cruiser’s rail.',
-    ],
-    [
+      ' has caught it. ',
       refs.npcs.captain_garran,
-      ': “This vessel is impounded for use in the war, by the authority of ',
-      refs.npcs.onana_tempest,
-      '.”',
-    ],
-    [
-      'Then he sees who he is talking to: “Oh hey, it’s ',
-      refs.organizations.beasts_and_dwarf,
-      '! We brought you to ',
-      refs.npcs.onana_tempest,
-      ' before, remember us?”',
-    ],
-    ['“Here, follow us. I’m sure ', refs.npcs.onana_tempest, ' would like a word.”'],
-    ['If they hesitate: “Sorry, not a request, I’m afraid. Come with us now.”'],
-  ],
-  notes: [
-    [
-      'Mini-mystery, no answer needed: from the airship or the cruiser, looking down, one perfectly round patch of ocean lies completely flat and still among the waves.',
-    ],
-    [
-      refs.npcs.captain_garran,
-      ' led the escort in ',
-      refs.events.n2_e168,
-      '. He is friendly, and he does not negotiate. Everyone aboard comes along, and the vessel is taken in tow.',
+      ' impounds the vessel, questions them where they stand, and takes them aboard.',
     ],
   ],
-  outcomes: [
+  beats: [
     {
-      when: [['They go along.']],
-      response: [
-        [
-          'A boarding plank takes them across to the cruiser. Run ',
-          refs.scenes.onana_calls_the_party_to_war,
-          '.',
-        ],
+      title: 'The cruiser comes alongside',
+      lines: [
+        {
+          do: [
+            [
+              'Wherever the chase ended, in the air on ',
+              refs.items.beasts_and_dwarf_s_airship,
+              ', on the ferry, or with the ship still on the slip at the shipyard, ',
+              refs.items.master_of_puppets,
+              ', a battle-cruiser of the ',
+              refs.organizations.tempest_family,
+              ', lies alongside and blots out the sky. Boarding planks slam down, and soldiers drop onto the deck. At least forty more stand at the cruiser’s rail.',
+            ],
+          ],
+        },
+        {
+          speaker: refs.npcs.captain_garran,
+          say: [
+            [
+              'This vessel is impounded for use in the war, by the authority of ',
+              refs.npcs.onana_tempest,
+              '.',
+            ],
+          ],
+        },
+        { do: [['Then he sees who he is talking to.']] },
+        {
+          speaker: refs.npcs.captain_garran,
+          say: [
+            [
+              'Oh hey, it’s ',
+              refs.organizations.beasts_and_dwarf,
+              '! We brought you to ',
+              refs.npcs.onana_tempest,
+              ' before, remember us?',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              refs.npcs.captain_garran,
+              ' led the escort in ',
+              refs.events.n2_e168,
+              '. He is friendly, and he does not negotiate. Everyone aboard comes along, and the vessel is taken in tow.',
+            ],
+          ],
+        },
+      ],
+      outcomes: [
+        {
+          when: [['They argue that the ship is theirs.']],
+          response: [['“Take it up with ', refs.npcs.onana_tempest, '.” He changes nothing.']],
+        },
       ],
     },
     {
-      when: [['They argue that the ship is theirs.']],
-      response: [['“Take it up with ', refs.npcs.onana_tempest, '.” He changes nothing.']],
+      title: 'The captain’s questions',
+      lines: [
+        {
+          speaker: refs.npcs.captain_garran,
+          say: [['Where is the rest of your party?']],
+        },
+        {
+          do: [
+            [
+              'Whatever they answer, his soldiers saw a half-elf near the docks of ',
+              refs.locations.nimbus,
+              ' when the beam struck. He decides on the spot: the cruiser collects ',
+              refs.pcs.swift_starblade,
+              ' before anyone sees ',
+              refs.npcs.onana_tempest,
+              '.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              'This is why he asks now and not later: ',
+              refs.pcs.swift_starblade,
+              ' waits less, and he is in the room when ',
+              refs.npcs.onana_tempest,
+              ' questions the party.',
+            ],
+          ],
+        },
+      ],
     },
+    {
+      title: 'Brought aboard',
+      lines: [
+        {
+          speaker: refs.npcs.captain_garran,
+          say: [['Here, follow us. I’m sure ', refs.npcs.onana_tempest, ' would like a word.']],
+        },
+        {
+          note: [
+            [
+              'Mini-mystery, no answer needed: from the airship or the cruiser, looking down, one perfectly round patch of ocean lies completely flat and still among the waves.',
+            ],
+          ],
+        },
+      ],
+      outcomes: [
+        {
+          when: [['They hesitate.']],
+          response: [['“Sorry, not a request, I’m afraid. Come with us now.”']],
+        },
+        {
+          when: [['They go along.']],
+          response: [
+            [
+              'A boarding plank takes them across to the cruiser, and it turns for ',
+              refs.locations.nimbus,
+              ' with their vessel in tow. Run ',
+              refs.scenes.picking_up_swift_at_nimbus,
+              '.',
+            ],
+          ],
+        },
+      ],
+    },
+  ],
+  outcomes: [
     {
       when: [['They try to break away again.']],
       response: [

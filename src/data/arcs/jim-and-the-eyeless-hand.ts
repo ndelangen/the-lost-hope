@@ -73,5 +73,16 @@ export default createArc({
       ],
       scene: refs.scenes.the_green_beam_over_the_sky_islands,
     },
+    {
+      name: 'What Jim left behind',
+      hook: [
+        [
+          'His swords and a coded letter are what is left of ',
+          refs.pcs.jim,
+          '. Who takes them up, and who reads it?',
+        ],
+      ],
+      scene: refs.scenes.the_party_reunites_on_the_docks,
+    },
   ],
 })

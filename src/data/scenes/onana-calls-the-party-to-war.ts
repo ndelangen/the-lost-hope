@@ -13,11 +13,11 @@ export default createScene({
   setup: [
     [
       refs.npcs.captain_garran,
-      ' brings the party to ',
+      ' brings the whole party to ',
       refs.npcs.onana_tempest,
       ' in his office aboard his battle-cruiser, ',
       refs.items.master_of_puppets,
-      ', as it turns towards ',
+      ', docked at ',
       refs.locations.nimbus,
       '. He talks fast and does not sit down.',
     ],
@@ -30,11 +30,8 @@ export default createScene({
         {
           note: [
             [
-              'If the party outran the cruiser, it is docked next to their vessel at ',
-              refs.locations.nimbus,
-              ' and ',
               refs.pcs.swift_starblade,
-              ' is with them. He stands in the Zone of Truth too, and he is the one who was on the docks when the beam struck.',
+              ' is in the room and stands in the Zone of Truth too. He is the one who was on the docks when the beam struck.',
             ],
           ],
         },
@@ -213,36 +210,7 @@ export default createScene({
               '.',
             ],
             [
-              'The detained one may escape. The battle-cruiser is loading supplies at the same docks, so they end up there too, hopefully to meet ',
-              refs.pcs.swift_starblade,
-              '.',
-            ],
-          ],
-        },
-      ],
-    },
-    {
-      title: 'The rest of the party',
-      onlyIf: [
-        [
-          refs.pcs.swift_starblade,
-          ' is not with them. When he is, nobody needs collecting afterwards.',
-        ],
-      ],
-      lines: [
-        {
-          speaker: refs.npcs.onana_tempest,
-          say: [['Where is the rest of your party?']],
-        },
-      ],
-      outcomes: [
-        {
-          when: [['They ask about the rest of the party.']],
-          response: [
-            [
-              'His soldiers saw a half-elf near the docks when the beam struck. The cruiser sets down at the docks to collect ',
-              refs.pcs.swift_starblade,
-              '.',
+              'The detained one may escape. The battle-cruiser is loading supplies at the same docks, so they end up there too, back with the others.',
             ],
           ],
         },

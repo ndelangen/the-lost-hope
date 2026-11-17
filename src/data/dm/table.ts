@@ -10,6 +10,8 @@ export default createTable({
     refs.scenes.the_ents_hold_the_shipyard,
     refs.scenes.running_from_the_battle_cruiser,
     refs.scenes.boarded_by_the_battle_cruiser,
+    refs.scenes.picking_up_swift_at_nimbus,
+    refs.scenes.the_party_reunites_on_the_docks,
     refs.scenes.onana_calls_the_party_to_war,
     refs.scenes.boarding_ride_the_lightning,
     refs.scenes.taking_back_a_battle_cruiser,

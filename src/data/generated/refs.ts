@@ -608,6 +608,8 @@ export const refs = {
     the_ents_hold_the_shipyard: ref('scene', 'the_ents_hold_the_shipyard'),
     running_from_the_battle_cruiser: ref('scene', 'running_from_the_battle_cruiser'),
     boarded_by_the_battle_cruiser: ref('scene', 'boarded_by_the_battle_cruiser'),
+    picking_up_swift_at_nimbus: ref('scene', 'picking_up_swift_at_nimbus'),
+    the_party_reunites_on_the_docks: ref('scene', 'the_party_reunites_on_the_docks'),
     onana_calls_the_party_to_war: ref('scene', 'onana_calls_the_party_to_war'),
     boarding_ride_the_lightning: ref('scene', 'boarding_ride_the_lightning'),
     taking_back_a_battle_cruiser: ref('scene', 'taking_back_a_battle_cruiser'),
