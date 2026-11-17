@@ -3,6 +3,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
   name: 'Nimbus Harbour Ferry Quay',
+  illustration: '/assets/locations/nimbus-harbour-ferry-quay-illustration.png',
   icon: 'gi/GiCargoCrane',
   type: 'landmark',
   parent: refs.locations.nimbus_harbour,

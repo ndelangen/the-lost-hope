@@ -3,6 +3,7 @@ import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
   name: 'Ride the Lightning Gun Deck',
+  illustration: '/assets/locations/ride-the-lightning-gun-deck-illustration.png',
   map: { url: '/assets/maps/ride-the-lightning-gun-deck.jpg', width: 2172, height: 1448 },
   deck: {
     vessel: refs.items.ride_the_lightning,
