@@ -5,7 +5,7 @@ export default createScene({
   name: 'The green beam over the sky islands',
   illustration: '/assets/scenes/the-green-beam-over-the-sky-islands.png',
   location: refs.locations.skynet_s_second_best_inn,
-  npcs: [refs.npcs.abraham],
+  npcs: [refs.npcs.abraham, refs.npcs.crowy],
   references: [
     refs.npcs.maren_of_fairhaven,
     refs.npcs.old_pell,
@@ -89,6 +89,24 @@ export default createScene({
       ' shouts for recruits from a crate while ',
       refs.npcs.tempest_soldier,
       's drill and load supplies for the rollout.',
+    ],
+  ],
+  notes: [
+    [
+      refs.npcs.crowy,
+      ' was with ',
+      refs.pcs.swift_starblade,
+      ' and ',
+      refs.pcs.jim,
+      ' on ',
+      refs.locations.nimbus,
+      ', and the beam critically wounded him. Once he is revived there, he flies across to ',
+      refs.pcs.devan,
+      ' and ',
+      refs.pcs.cassian_veyl,
+      '. Bring him in a little after the beam, still singed. Who saved him is decided in ',
+      refs.scenes.the_hand_comes_for_jim,
+      ', and he remembers it either way.',
     ],
   ],
   outcomes: [
