@@ -2,11 +2,11 @@ import type { EntityKind } from '#/definitions/kind'
 import { GENERATED_SOCIAL_IMAGE_PATHS } from '#/generated/social-image-paths'
 import {
   PUBLIC_PAGE_DESCRIPTORS,
-  SITE_ORIGIN,
   publicEntityPageDescriptor,
   publicPageDescriptor,
   type PublicPageDescriptor,
 } from '#/lib/public-page-descriptors'
+import { SITE_ORIGIN } from '#/lib/site-origin'
 
 const SOCIAL_IMAGE_PATHS = GENERATED_SOCIAL_IMAGE_PATHS as Readonly<Record<string, string>>
 
