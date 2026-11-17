@@ -52,4 +52,22 @@ describe('ContentRenderer', () => {
     expect(markup).toContain('Night Mother')
     expect(markup).toContain('players have not met yet')
   })
+
+  it('shows a scene pointer only through the DM renderer for hidden records', () => {
+    const content = [['Run ', { ref: 'scene', key: 'the_clogged_ferry_landing' }, '.']] as const
+    const DmStub = ({ reference }: { reference: { ref: string; key: string } }) => (
+      <a href={`#${reference.ref}:${reference.key}`}>scene link</a>
+    )
+
+    expect(renderToStaticMarkup(<ContentRenderer content={content.map((p) => [...p])} />)).toBe(
+      renderToStaticMarkup(<ContentRenderer content={[['Run ', '.']]} />),
+    )
+    expect(
+      renderToStaticMarkup(
+        <HiddenReferenceContext value={DmStub}>
+          <ContentRenderer content={content.map((p) => [...p])} />
+        </HiddenReferenceContext>,
+      ),
+    ).toContain('href="#scene:the_clogged_ferry_landing"')
+  })
 })

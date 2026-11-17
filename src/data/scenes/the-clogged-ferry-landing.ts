@@ -79,7 +79,9 @@ export default createScene({
         [
           'They get aboard as the ramp lifts. ',
           refs.pcs.auren,
-          ' jump-starts the crystal and swings aboard after them, because nobody else can keep it running. In the middle of the crossing the battle-cruiser bears down on the ferry. Run “Running from the battle-cruiser” on the ferry deck.',
+          ' jump-starts the crystal and swings aboard after them, because nobody else can keep it running. In the middle of the crossing the battle-cruiser bears down on the ferry. Run ',
+          refs.scenes.running_from_the_battle_cruiser,
+          ' on the ferry deck.',
         ],
       ],
     },
@@ -89,7 +91,9 @@ export default createScene({
         [
           'The ferry leaves without them. ',
           refs.pcs.auren,
-          ' gets the crystal running, and the soldiers shove him off the ramp: they want no war machine aboard. Stranded on the quay with the party, he tells them the shipyard still has hulls the army has not taken, and he knows the way. Run “The ents hold the shipyard”, and he is already with them.',
+          ' gets the crystal running, and the soldiers shove him off the ramp: they want no war machine aboard. Stranded on the quay with the party, he tells them the shipyard still has hulls the army has not taken, and he knows the way. Run ',
+          refs.scenes.the_ents_hold_the_shipyard,
+          ', and he is already with them.',
         ],
       ],
     },

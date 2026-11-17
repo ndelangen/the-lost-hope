@@ -4,27 +4,38 @@ import { EntityReference } from '#/components/entity-reference'
 import { ResponsiveImage } from '#/components/responsive-image'
 import { RuleTerm } from '#/components/rule-term'
 import { Stack } from '#/components/ui/layout'
-import type { Content } from '#/definitions/content.ts'
-import { isEntityRef } from '#/definitions/kind.ts'
+import type { Content, DmContent } from '#/definitions/content.ts'
+import { isEntityRef, isSceneRef, type EntityRef } from '#/definitions/kind.ts'
 import type { Reference } from '#/definitions/reference.ts'
 import { refLink } from '#/lib/campaign'
 import { isRuleRef, ruleOf, termLabel } from '#/lib/rules'
 import { cn } from '#/lib/utils'
 
+/** A reference to a record players cannot see: one they have not met, or a prepared scene. */
+export type HiddenReference = Reference | EntityRef<'scene'>
+
 /**
- * How content renders a reference to a record players have not met. The player app leaves it out;
+ * How content renders a reference to a record players cannot see. The player app leaves it out;
  * DM pages provide a renderer that names and links it.
  */
 export const HiddenReferenceContext = createContext<
-  ComponentType<{ reference: Reference }> | undefined
+  ComponentType<{ reference: HiddenReference }> | undefined
 >(undefined)
 
-type ContentParagraph = Content[number]
+/** Player content, or DM content that may also point at prepared scenes. */
+type AnyContent = Content | DmContent
+type ContentParagraph = DmContent[number]
 type ContentAtom = ContentParagraph[number]
 type ExternalLink = Extract<ContentAtom, { type: 'link' }>
 type Media = Extract<ContentAtom, { type: 'image' | 'video' | 'audio' | 'map' }>
 
-export function ContentRenderer({ content, className }: { content: Content; className?: string }) {
+export function ContentRenderer({
+  content,
+  className,
+}: {
+  content: AnyContent
+  className?: string
+}) {
   return (
     <Stack gap="md" className={cn('text-sm leading-relaxed', className)}>
       {content.map((item, index) => (
@@ -84,6 +95,10 @@ function ContentPart({ part }: { part: ContentParagraph | ContentAtom }) {
     return <ContentReference reference={part} />
   }
 
+  if (isSceneRef(part)) {
+    return <SceneReference reference={part} />
+  }
+
   if (isRuleRef(part)) {
     return <RuleTerm rule={part} />
   }
@@ -121,6 +136,12 @@ function InlineRun({ items }: { items: ContentParagraph }) {
             <ContentReference key={index} reference={item} />
           )
         }
+        if (isSceneRef(item)) {
+          return (
+            // oxlint-disable-next-line react/no-array-index-key -- content runs lack stable ids
+            <SceneReference key={index} reference={item} />
+          )
+        }
         if (isExternalLink(item)) {
           return (
             // oxlint-disable-next-line react/no-array-index-key -- content runs lack stable ids
@@ -153,6 +174,12 @@ function ContentReference({ reference }: { reference: Reference }) {
   return <EntityReference kind={link.kind} slug={link.slug} label={link.name} />
 }
 
+/** Scenes are DM-only, so only a DM page's hidden-reference renderer can show them. */
+function SceneReference({ reference }: { reference: EntityRef<'scene'> }) {
+  const Hidden = useContext(HiddenReferenceContext)
+  return Hidden ? <Hidden reference={reference} /> : null
+}
+
 function isReference(value: unknown): value is Reference {
   return isEntityRef(value)
 }
@@ -161,7 +188,11 @@ function isReference(value: unknown): value is Reference {
 function isInlineRun(items: ContentParagraph): boolean {
   return items.every(
     (item) =>
-      typeof item === 'string' || isReference(item) || isRuleRef(item) || isExternalLink(item),
+      typeof item === 'string' ||
+      isReference(item) ||
+      isSceneRef(item) ||
+      isRuleRef(item) ||
+      isExternalLink(item),
   )
 }
 
