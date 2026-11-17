@@ -28,7 +28,7 @@
     "dm:brief": "bun scripts/dm-prep-brief.ts",
     "mcp": "bun scripts/campaign-mcp/server.ts",
     "audit:delivery": "bun scripts/audit-delivery-footprint.ts",
-    "typecheck": "bun run generate:images && bun run generate:social-paths && tsc --noEmit",
+    "typecheck": "bun run generate:images && bun run generate:social-paths && node node_modules/typescript-7/bin/tsc --noEmit",
     "lint": "oxlint",
     "lint:fix": "oxlint --fix",
     "fmt": "oxfmt",
@@ -83,7 +83,8 @@
     "png-to-ico": "^3.0.2",
     "satori": "0.33.5",
     "sharp": "^0.35.3",
-    "typescript": "^7.0.0",
+    "typescript": "^6.0.3",
+    "typescript-7": "npm:typescript@^7.0.2",
     "vite": "^8.0.0",
     "vitest": "5.1.0"
   }

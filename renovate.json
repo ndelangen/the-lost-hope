@@ -7,7 +7,9 @@
   "prHourlyLimit": 1,
   "minimumReleaseAge": "3 days",
   "automerge": false,
-  "dependencyDashboard": { "enabled": true },
+  "dependencyDashboard": {
+    "enabled": true
+  },
   "vulnerabilityAlerts": {
     "groupName": "Security fixes",
     "groupSlug": "security-fixes",
@@ -29,6 +31,11 @@
       "groupName": "Vitest",
       "groupSlug": "vitest",
       "minimumGroupSize": 2
+    },
+    {
+      "description": "The typescript package stays on 6.x for the TypeScript API that Netlify's Vite plugin needs (via typescript-estree). Type checking runs on TypeScript 7 through the typescript-7 alias.",
+      "matchDepNames": ["typescript"],
+      "allowedVersions": "<7"
     }
   ]
 }

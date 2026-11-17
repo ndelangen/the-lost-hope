@@ -1,7 +1,7 @@
 import { RuleTerm } from '#/components/rule-term'
 import { DAMAGE_TYPE_COLORS } from '#/lib/damage-type-colors'
 import { RULE_ICONS } from '#/lib/rule-icons'
-import { ruleOf, type DamageType, type RuleRef } from '#/lib/rules'
+import { ruleOf, type DamageType as DamageTypeKey, type RuleRef } from '#/lib/rules'
 import { damageLabel, type StatPart } from '#/lib/stat-block'
 import { cn } from '#/lib/utils'
 
@@ -63,7 +63,7 @@ export function DamageType({ type, interactive = true }: { type: RuleRef; intera
   const term = ruleOf(type)
   const Icon = term.icon ? RULE_ICONS[term.icon] : undefined
   return (
-    <span className={cn('font-semibold', DAMAGE_TYPE_COLORS[type.key as DamageType])}>
+    <span className={cn('font-semibold', DAMAGE_TYPE_COLORS[type.key as DamageTypeKey])}>
       {Icon ? (
         <Icon aria-hidden className="mr-0.5 inline-block size-[1.1em] align-[-0.2em]" />
       ) : null}
