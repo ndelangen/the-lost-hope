@@ -5,6 +5,7 @@ export default createScene({
   name: 'The Hand comes for Jim',
   illustration: '/assets/scenes/the-hand-comes-for-jim.png',
   location: refs.locations.nimbus_sky_bridge_landing,
+  battleMaps: [refs.locations.nimbus_sky_bridge_landing],
   npcs: [refs.npcs.silas_wren, refs.npcs.cloaked_snatcher],
   references: [
     refs.pcs.jim,
