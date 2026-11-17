@@ -80,11 +80,14 @@ describe('player screen', () => {
     const onPage = playerScreenOptionsForPage(options, `/dm/scenes/${scene.slug}`)
     const maps = onPage.filter((option) => option.group === 'Maps')
 
-    expect(maps.map((option) => option.selection.ref.key)).toEqual([
+    // The decks come first; places the scene's text mentions, such as Nimbus, follow.
+    const keys = maps.map((option) => option.selection.ref.key)
+    expect(keys.slice(0, 2)).toEqual([
       'ride_the_lightning_main_deck',
       'ride_the_lightning_gun_deck',
     ])
-    expect(maps.every((option) => option.playerCaption === undefined)).toBe(true)
+    expect(new Set(keys).size).toBe(keys.length)
+    expect(maps.slice(0, 2).every((option) => option.playerCaption === undefined)).toBe(true)
   })
 
   it('finds pictures by name', () => {

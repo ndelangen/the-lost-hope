@@ -1,5 +1,7 @@
 import boarded_by_the_battle_cruiser from './boarded-by-the-battle-cruiser.ts'
+import boarding_ride_the_lightning from './boarding-ride-the-lightning.ts'
 import borris_shutters_the_casino from './borris-shutters-the-casino.ts'
+import garran_comes_for_the_cruiser from './garran-comes-for-the-cruiser.ts'
 import onana_calls_the_party_to_war from './onana-calls-the-party-to-war.ts'
 import running_from_the_battle_cruiser from './running-from-the-battle-cruiser.ts'
 import taking_back_a_battle_cruiser from './taking-back-a-battle-cruiser.ts'
@@ -17,5 +19,7 @@ export default {
   running_from_the_battle_cruiser,
   boarded_by_the_battle_cruiser,
   onana_calls_the_party_to_war,
+  boarding_ride_the_lightning,
   taking_back_a_battle_cruiser,
+  garran_comes_for_the_cruiser,
 }

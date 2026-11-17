@@ -42,10 +42,12 @@ import {
   type PlayerScreenState,
 } from '#/lib/player-screen-state'
 import { responsiveImageFor } from '#/lib/public-media'
+import { shipDeckMap } from '#/lib/ship-decks'
 import { cn } from '#/lib/utils'
 
 import { GridControls } from './grid-controls'
 import { JimsLetterWordsControl } from './jims-letter-words-control'
+import { ShipDamageControl } from './ship-damage-control'
 import { openPlayerScreen, usePlayerScreen, usePlayerScreenPresent } from './use-player-screen'
 
 /** The DM's small control for choosing what the players' monitor shows, from any page. */
@@ -257,6 +259,7 @@ function PlayerScreenPanel({
   const matches = useMemo(() => filterPlayerScreenOptions(options, query), [options, query])
   const src = showing ? resolvePlayerScreenImage(showing)?.src : undefined
   const size = src ? responsiveImageFor(src) : undefined
+  const deck = showing?.image === 'map' ? shipDeckMap(showing.ref.key) : undefined
 
   return (
     <section
@@ -343,6 +346,7 @@ function PlayerScreenPanel({
         {showing?.image === 'handout' && showing.ref.key === 'jims_letter' ? (
           <JimsLetterWordsControl />
         ) : null}
+        {deck ? <ShipDamageControl deck={deck} /> : null}
         <ShownHistory state={state} onJump={onJump} onClear={onClear} />
         {showing && src && size ? (
           <GridControls
