@@ -93,26 +93,27 @@ export default createScene({
           say: [['Where is the rest of your party?']],
         },
         {
-          do: [
-            [
-              'Whatever they answer, his soldiers saw a half-elf near the docks of ',
-              refs.locations.nimbus,
-              ' when the beam struck. He decides on the spot: the cruiser collects ',
-              refs.pcs.swift_starblade,
-              ' before anyone sees ',
-              refs.npcs.onana_tempest,
-              '.',
-            ],
-          ],
-        },
-        {
           note: [
             [
-              'This is why he asks now and not later: ',
-              refs.pcs.swift_starblade,
-              ' waits less, and he is in the room when ',
-              refs.npcs.onana_tempest,
-              ' questions the party.',
+              'He wants the rest of the party found, and he does not know where they are. ',
+              refs.pcs.cassian_veyl,
+              ' and ',
+              refs.pcs.devan,
+              ' do: on ',
+              refs.locations.nimbus,
+              '. This is the clear sign that the party has to be whole again, so let the players push to meet up.',
+            ],
+            ['It suits him: his people want to look at the place where the beam struck anyway.'],
+          ],
+        },
+        { do: [['He tells them there is not much time, and shouts his order up to the cruiser.']] },
+        {
+          speaker: refs.npcs.captain_garran,
+          say: [
+            [
+              'Immediate course for ',
+              refs.locations.nimbus,
+              ' docking west! Dock us close to the impact crater!',
             ],
           ],
         },

@@ -36,12 +36,15 @@ export const SceneOutcome: z.ZodType<SceneOutcome, SceneOutcomeInput> = z.lazy((
 )
 
 /**
- * One line of a beat, in the order it happens. `say` is spoken at the table: by the NPC in
- * `speaker`, or by the DM to the players when there is none. `do` is something that happens or
+ * One line of a beat, in the order it happens. `say` is spoken at the table: by the character
+ * in `speaker`, or by the DM to the players when there is none. `do` is something that happens or
  * that the DM does. `note` is something to keep in mind while it plays.
  */
 export const SceneLine = z.union([
-  z.strictObject({ say: DmContent, speaker: entityRefOf('npc').optional() }),
+  z.strictObject({
+    say: DmContent,
+    speaker: z.union([entityRefOf('npc'), entityRefOf('pc')]).optional(),
+  }),
   z.strictObject({ do: DmContent }),
   z.strictObject({ note: DmContent }),
 ])
@@ -101,14 +104,16 @@ export const Scene = deriveSlug(
     alternateLocations: z.array(entityRefOf('location')).default([]),
     battleMaps: z.array(entityRefOf('location')).default([]),
     illustration: MediaUrl.optional(),
-    setup: DmContent,
+    setup: DmContent.describe('The situation the scene opens on, in a paragraph or two'),
     beats: z
       .array(SceneBeat)
       .default([])
-      .describe('The script, top to bottom. Prototype: when present the page shows it'),
-    notes: DmContent.optional(),
+      .describe('The script: the moments of the scene in the order they are played'),
     npcs: z.array(entityRefOf('npc')).default([]),
-    outcomes: z.array(SceneOutcome).default([]),
+    outcomes: z
+      .array(SceneOutcome)
+      .default([])
+      .describe('Branches that can happen at any moment of the scene'),
     opponents: z
       .array(SceneOpponent)
       .default([])

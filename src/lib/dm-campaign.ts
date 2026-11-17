@@ -50,7 +50,6 @@ export function sceneMentions(scene: Scene): EntityRef[] {
     scene.opponents.map((opponent) => opponent.creature),
     scene.setup,
     scene.beats,
-    scene.notes,
     scene.outcomes,
     scene.combat,
     scene.shipDamage?.vessel,

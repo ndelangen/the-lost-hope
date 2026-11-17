@@ -23,6 +23,15 @@ const scene = createScene({
   location: refs.locations.nimbus,
   npcs: [refs.npcs.the_fiddler],
   setup: [[refs.npcs.the_fiddler, ' offers another game.']],
+  beats: [
+    {
+      title: 'The wager',
+      lines: [
+        { speaker: refs.npcs.the_fiddler, say: [['Another game?']] },
+        { note: [[refs.npcs.borris, ' is watching.']] },
+      ],
+    },
+  ],
   outcomes: [
     { when: [['A player takes the wager.']], response: [['Agree on the stakes.']] },
     { when: [['A player declines.']], response: [['Continue with the willing players.']] },
@@ -58,7 +67,18 @@ describe('DM campaign model', () => {
   })
 
   it('derives what a scene mentions from its fields and its text, each once', () => {
-    expect(sceneMentions(scene)).toEqual([refs.locations.nimbus, refs.npcs.the_fiddler])
+    expect(sceneMentions(scene)).toEqual([
+      refs.locations.nimbus,
+      refs.npcs.the_fiddler,
+      refs.npcs.borris,
+    ])
+  })
+
+  it('gives every prepared scene a script to play', () => {
+    const withoutScript = Object.entries(scenes)
+      .filter(([, entry]) => entry.beats.length === 0)
+      .map(([key]) => key)
+    expect(withoutScript).toEqual([])
   })
 
   it('gives every ship-damage scene a vessel with a hull', () => {

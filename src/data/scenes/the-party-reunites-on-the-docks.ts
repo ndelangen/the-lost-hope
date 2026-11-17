@@ -11,9 +11,9 @@ export default createScene({
     [
       'The whole party stands on the docks of ',
       refs.locations.nimbus,
-      ' while ',
-      refs.items.master_of_puppets,
-      ' loads supplies. ',
+      ', with orders to report back to ',
+      refs.npcs.captain_garran,
+      ' quickly. ',
       refs.pcs.auren,
       ' takes up the swords ',
       refs.pcs.jim,
@@ -34,6 +34,19 @@ export default createScene({
               ' and ',
               refs.pcs.swift_starblade,
               ' have not met: let their players introduce them.',
+            ],
+            [
+              refs.pcs.swift_starblade,
+              ' tells the others what happened here. Give his player the floor.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              'Meanwhile ',
+              refs.npcs.captain_garran,
+              ' and his soldiers survey the site and help civilians, so the party has this moment to itself.',
             ],
           ],
         },
@@ -90,15 +103,16 @@ export default createScene({
       ],
     },
     {
-      title: 'Called back aboard',
+      title: 'Reporting back',
       lines: [
         {
           do: [
             [
+              'The party reports back to ',
               refs.npcs.captain_garran,
-              ' comes for all of them: ',
+              ', whole again. He takes them straight to ',
               refs.npcs.onana_tempest,
-              ' will see them now. Run ',
+              '. Run ',
               refs.scenes.onana_calls_the_party_to_war,
               '.',
             ],

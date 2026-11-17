@@ -51,16 +51,28 @@ export default createScene({
         {
           do: [
             [
-              'The cruiser sets down at the docks and starts loading supplies. ',
+              'The cruiser docks on the west side, close to the impact crater. ',
               refs.npcs.captain_garran,
-              ' sends soldiers out to find out what struck here, and to find the half-elf.',
+              ' sends soldiers out to find out what struck here.',
             ],
+            [
+              'He orders ',
+              refs.organizations.beasts_and_dwarf,
+              ' to find the rest of their party immediately and then report back: ',
+              refs.npcs.onana_tempest,
+              ' wants to see them. Their vessel stays impounded for now.',
+            ],
+            ['He stresses it again: there is not much time, so they should hurry.'],
           ],
         },
         {
           note: [
             [
-              'The party is free to look around with them. Loading takes a while, so nobody hurries them back aboard yet.',
+              'Finding the others is for the players to do: ',
+              refs.pcs.cassian_veyl,
+              ' and ',
+              refs.pcs.devan,
+              ' know who they are looking for.',
             ],
           ],
         },

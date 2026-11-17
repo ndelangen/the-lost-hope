@@ -211,16 +211,9 @@ function SceneRoute() {
         {scene.outcomes.length > 0 ? (
           <section className="grid gap-2">
             <h2 className="text-muted-foreground text-xs font-semibold uppercase">
-              {script.length > 0 ? 'At any time, if…' : 'If…'}
+              At any time, if…
             </h2>
             <SceneBranches branches={branches} />
-          </section>
-        ) : null}
-
-        {scene.notes ? (
-          <section className="grid gap-1">
-            <h2 className="text-muted-foreground text-xs font-semibold uppercase">Notes</h2>
-            <ContentRenderer content={scene.notes} />
           </section>
         ) : null}
       </article>
