@@ -11,9 +11,11 @@ export default createItem({
     [
       'A rare draught from the private reserve of ',
       refs.npcs.onana_tempest,
-      '. It takes a minute to work, and then the drinker feels as if they have had a full ',
+      '. The drinker feels as if they have had a full ',
       refs.rules.long_rest,
-      ', with everything that brings. No time passes.',
+      ', with everything that brings. No time passes. Drinking it takes a ',
+      refs.rules.bonus_action,
+      ', so it works in the middle of a fight too.',
     ],
   ],
   background: [

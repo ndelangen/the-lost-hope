@@ -121,9 +121,9 @@ export default createScene({
           ' to drink.',
         ],
         [
-          'Nobody has rested today, so let them drink the ',
+          'Nobody has rested today. When they drink the ',
           refs.items.long_rest_in_a_bottle,
-          ' before they board. It is still the same day: press “Long rest”, not “New day”.',
+          ' is up to them: before they board, or in the middle of the fight. The day does not move: press “Long rest”, not “New day”.',
         ],
       ],
     },
