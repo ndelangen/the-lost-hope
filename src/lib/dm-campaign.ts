@@ -1,6 +1,7 @@
 import arcRecords from '#/data/arcs/_index'
 import creatureRecords from '#/data/creatures/_index'
 import tableRecord from '#/data/dm/table'
+import tokenRecord from '#/data/dm/tokens'
 import npcRecords from '#/data/npcs/_index'
 import sceneRecords from '#/data/scenes/_index'
 import type { Arc, Plot } from '#/definitions/arc'
@@ -9,6 +10,7 @@ import { ENTITY_KINDS, type EntityKind, type EntityRef, isSceneRef } from '#/def
 import type { Scene } from '#/definitions/scene'
 import type { OwnOrSharedStatBlock, StatBlock } from '#/definitions/stat-block'
 import type { Table } from '#/definitions/table'
+import type { Tokens } from '#/definitions/tokens'
 import { campaignSessions, resolveRef, sessionSlugForEvent } from '#/lib/campaign'
 import { collectReferences } from '#/lib/campaign-read-model'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
@@ -18,6 +20,7 @@ import { vesselHull } from '#/lib/ship-decks'
 export const arcs: Readonly<Record<string, Arc>> = arcRecords
 export const scenes: Readonly<Record<string, Scene>> = sceneRecords
 export const table: Table = tableRecord
+export const tokens: Tokens = tokenRecord
 export const creatures: Readonly<Record<string, Creature>> = creatureRecords
 
 /** A record's stat block: its own, or the shared creature's it references. */
