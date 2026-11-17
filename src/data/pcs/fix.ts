@@ -3,6 +3,7 @@ import { create as createPC } from '#/definitions/pc.ts'
 
 export default createPC({
   name: 'Fix',
+  avatar: '/assets/pcs/fix-portrait.png',
   player: 'Eefiene',
   url: '',
   status: 'occasional',

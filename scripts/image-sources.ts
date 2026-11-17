@@ -21,6 +21,24 @@ export type ResponsiveImageSource = {
 
 export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
   {
+    id: 'pcs-fix-portrait',
+    role: 'avatar',
+    logicalSource: '/assets/pcs/fix-portrait.png',
+    repositoryPath: 'assets/images/content/pcs/fix-portrait.png',
+  },
+  {
+    id: 'npcs-korrag-stonevow-portrait',
+    role: 'avatar',
+    logicalSource: '/assets/npcs/korrag-stonevow-portrait.png',
+    repositoryPath: 'assets/images/content/npcs/korrag-stonevow-portrait.png',
+  },
+  {
+    id: 'npcs-ilsa-corrow-portrait',
+    role: 'avatar',
+    logicalSource: '/assets/npcs/ilsa-corrow-portrait.png',
+    repositoryPath: 'assets/images/content/npcs/ilsa-corrow-portrait.png',
+  },
+  {
     id: 'npcs-dust-lost-sailor-portrait',
     role: 'avatar',
     logicalSource: '/assets/npcs/dust-lost-sailor-portrait.png',
