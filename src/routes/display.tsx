@@ -3,9 +3,11 @@ import { Maximize } from 'lucide-react'
 import { lazy, Suspense, useEffect, useState } from 'react'
 
 import { GridOverlay } from '#/components/player-screen/grid-overlay'
+import { PointerMarksOverlay } from '#/components/player-screen/pointer-marks'
 import {
   useAnnouncePlayerScreen,
   usePlayerScreen,
+  usePlayerScreenPointer,
 } from '#/components/player-screen/use-player-screen'
 import { ResponsiveImage } from '#/components/responsive-image'
 import { ShipDamageDecals } from '#/components/ship/ship-damage-decals'
@@ -44,6 +46,7 @@ function PlayerScreenPage() {
   const size = image?.src ? responsiveImageFor(image.src) : undefined
   const deck = showing?.image === 'map' ? shipDeckMap(showing.ref.key) : undefined
   const grid = showing ? playerScreenGridFor(state, showing) : DEFAULT_PLAYER_SCREEN_GRID
+  const marks = usePlayerScreenPointer(showing ? playerScreenImageId(showing) : undefined)
   const idle = useIdleCursor()
   const fullscreen = useIsFullscreen()
   useEffect(() => {
@@ -101,6 +104,7 @@ function PlayerScreenPage() {
                 <ShipDamageDecals deck={deck} width={size.width} height={size.height} />
               ) : null}
               {grid.on ? <GridOverlay grid={grid} width={size.width} height={size.height} /> : null}
+              <PointerMarksOverlay marks={marks} size="8vmin" />
             </div>
           ) : image.src ? (
             <ResponsiveImage
