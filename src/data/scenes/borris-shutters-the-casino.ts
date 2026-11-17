@@ -43,16 +43,26 @@ export default createScene({
       ],
     },
     {
-      title: 'The body in the alley',
+      title: 'The crate in the alley',
       lines: [
         {
           do: [
             [
-              'Two guards drag a body out of the back room and dump it in the alley. It is ',
-              refs.pcs.fix,
-              '. ',
               refs.npcs.borris,
-              ' follows, wiping fresh blood off his knuckles.',
+              ' is in the alley beside the casino, wiping fresh blood off his knuckles. He places a canister over a crate.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              'He has put the body of ',
+              refs.pcs.fix,
+              ' into that crate. The players do not see it. It is up to ',
+              refs.pcs.swift_starblade,
+              ' and ',
+              refs.pcs.jim,
+              ' to investigate.',
             ],
           ],
         },
@@ -114,7 +124,7 @@ export default createScene({
           ],
           followUps: [
             {
-              when: [['They ask about the body.']],
+              when: [['They ask about the crate or the blood.']],
               response: [
                 [
                   '“Some delusional bounty hunter. Kept asking about someone in your party. A kenku, if you can believe it. Too persistent, and now too dead.” Then, grudgingly: “Watch your backs. Where one comes asking, more follow.”',
@@ -134,23 +144,32 @@ export default createScene({
           ],
         },
         {
-          when: [['They wait by the body.']],
+          when: [['They stand still long enough.']],
           response: [
             [
-              'After a minute, ',
-              refs.pcs.fix,
-              ' gasps back to life, coughing blood. Lines: “Not again…” “You didn’t see me. You didn’t see anything.” On spotting ',
-              refs.pcs.jim,
-              ', they stare a moment too long: “Funny. I could swear I know you.” Then they scurry off down the alley.',
+              'The crate briefly gets darker. Then a big gasp, then mumbling, and clearly someone inside the crate is trying to get out.',
             ],
-            [
-              refs.pcs.fix,
-              ' follows ',
-              refs.pcs.jim,
-              ' and ',
-              refs.pcs.swift_starblade,
-              ' to the docks at a distance. A DC 13 Wisdom (Perception) check spots them.',
-            ],
+          ],
+          followUps: [
+            {
+              when: [['They open the crate.']],
+              response: [
+                [
+                  refs.pcs.fix,
+                  ' climbs out, coughing blood. Lines: “Not again…” “You didn’t see me. You didn’t see anything.” On spotting ',
+                  refs.pcs.jim,
+                  ', they stare a moment too long: “Funny. I could swear I know you.” Then they scurry off down the alley.',
+                ],
+                [
+                  refs.pcs.fix,
+                  ' follows ',
+                  refs.pcs.jim,
+                  ' and ',
+                  refs.pcs.swift_starblade,
+                  ' to the docks at a distance. A DC 13 Wisdom (Perception) check spots them.',
+                ],
+              ],
+            },
           ],
         },
       ],
@@ -162,7 +181,7 @@ export default createScene({
           note: [
             [
               refs.pcs.fix,
-              ' does not stay dead. Through their necromancer connection they come to a minute later, scurry off, and follow ',
+              ' does not stay dead. Through their necromancer connection they come to a minute later, get out of the crate, and follow ',
               refs.pcs.jim,
               ' and ',
               refs.pcs.swift_starblade,
