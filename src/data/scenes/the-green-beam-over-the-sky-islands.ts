@@ -104,7 +104,9 @@ export default createScene({
       refs.pcs.devan,
       ' and ',
       refs.pcs.cassian_veyl,
-      '. Bring him in a little after the beam, still singed. Who saved him is decided in “The Hand comes for Jim”, and he remembers it either way.',
+      '. Bring him in a little after the beam, still singed. Who saved him is decided in ',
+      refs.scenes.the_hand_comes_for_jim,
+      ', and he remembers it either way.',
     ],
   ],
   outcomes: [
