@@ -1,0 +1,129 @@
+import { refs } from '#/data/generated/refs.ts'
+import { create as createNPC } from '#/definitions/npc.ts'
+
+export default createNPC({
+  name: 'Korrag Stonevow',
+  species: 'Orc',
+  secretMemberships: [
+    { organization: refs.organizations.the_eyeless_hand, status: 'active', rank: 'Dust-Lost' },
+  ],
+  motivations: [
+    [
+      'Obey the voice of ',
+      refs.npcs.ilsa_corrow,
+      '. He no longer knows why, or who he was before the dust.',
+    ],
+  ],
+  background: [
+    [
+      'An orc paladin from the old squad of ',
+      refs.pcs.devan,
+      ', and his best mate in that life: the connection ',
+      refs.pcs.devan,
+      ' lost.',
+    ],
+    [
+      'Arcane Dust took his memories first, so he does not recognise ',
+      refs.pcs.devan,
+      ' at all. ',
+      refs.organizations.the_eyeless_hand,
+      ' keeps him dosed and uses him as muscle aboard ',
+      refs.items.ride_the_lightning,
+      '. What the dust took may come back, a piece at a time.',
+    ],
+  ],
+  stats: {
+    size: 'medium',
+    type: 'humanoid',
+    cr: '4',
+    ac: 18,
+    armor: 'chain mail, shield',
+    hitDice: '10d8',
+    speed: { walk: 30 },
+    scores: { str: 18, dex: 10, con: 16, int: 9, wis: 11, cha: 15 },
+    saves: { wis: 'proficient', cha: 'proficient' },
+    skills: { athletics: 'proficient', intimidation: 'proficient' },
+    senses: { darkvision: 120 },
+    abilities: [
+      {
+        key: 'relentless-endurance',
+        name: 'Relentless Endurance',
+        timing: 'trait',
+        icon: 'gi/GiKneeling',
+        text: [
+          'When he drops to 0 ',
+          refs.rules.hit_points,
+          ' but is not killed outright, he drops to 1 instead.',
+        ],
+        uses: 1,
+        recharge: 'Long rest',
+      },
+      {
+        key: 'multiattack',
+        name: 'Multiattack',
+        timing: 'action',
+        icon: 'gi/GiPowerLightning',
+        intent: 'damage',
+        text: ['Two ', { ability: 'warhammer' }, ' attacks.'],
+      },
+      {
+        key: 'warhammer',
+        name: 'Warhammer',
+        timing: 'action',
+        icon: 'gi/GiWarhammer',
+        intent: 'damage',
+        attack: {
+          kind: 'melee',
+          ability: 'str',
+          damage: [{ dice: '1d8', type: refs.rules.bludgeoning, addModifier: true }],
+        },
+      },
+      {
+        key: 'dust-smite',
+        name: 'Dust Smite',
+        timing: 'bonus action',
+        icon: 'gi/GiShadowGrasp',
+        intent: 'damage',
+        text: [
+          'Right after his ',
+          { ability: 'warhammer' },
+          ' hits, the faith the dust has twisted pours through it: the hit deals an extra 2d8 ',
+          refs.rules.necrotic,
+          ' damage.',
+        ],
+        uses: 2,
+        recharge: 'Long rest',
+      },
+      {
+        key: 'lay-on-hands',
+        name: 'Lay on Hands',
+        timing: 'bonus action',
+        icon: 'gi/GiHealing',
+        intent: 'healing',
+        text: [
+          'He touches himself or an ally within 5 ft. and restores 15 ',
+          refs.rules.hit_points,
+          '.',
+        ],
+        uses: 1,
+        recharge: 'Long rest',
+      },
+      {
+        key: 'shield-the-squad',
+        name: 'Shield the Squad',
+        timing: 'reaction',
+        icon: 'lucide/Shield',
+        text: [
+          'When a creature he can see attacks an ally within 5 ft. of him, he imposes ',
+          refs.rules.disadvantage,
+          ' on the attack roll. An old squad habit the dust never took.',
+        ],
+      },
+    ],
+    source: {
+      adaptedFrom: ['srd-2024_knight'],
+      changes:
+        'An orc paladin of about 5th level, on Arcane Dust: chain mail and shield, a warhammer with a necrotic smite twice a day, Lay on Hands, Relentless Endurance, and a Protection-style reaction left over from his squad days.',
+    },
+  },
+})
