@@ -69,9 +69,9 @@ export default createArc({
         [
           'The cruiser puts in at the docks of ',
           refs.locations.nimbus,
-          ' for ',
+          ' to look at where the beam struck. Can the party find ',
           refs.pcs.swift_starblade,
-          '. What do they find where the beam struck?',
+          ' before the captain loses patience?',
         ],
       ],
       scene: refs.scenes.picking_up_swift_at_nimbus,

@@ -30,8 +30,9 @@ export default createScene({
         {
           note: [
             [
+              'The whole party is in the room, and every one of them stands in the Zone of Truth. ',
               refs.pcs.swift_starblade,
-              ' is in the room and stands in the Zone of Truth too. He is the one who was on the docks when the beam struck.',
+              ' is the one who was on the docks when the beam struck.',
             ],
           ],
         },
@@ -245,7 +246,7 @@ export default createScene({
         {
           note: [
             [
-              'The plan: the party reunites, boards one of the cruisers under the control of ',
+              'The plan: the party boards one of the cruisers under the control of ',
               refs.organizations.the_eyeless_hand,
               ', and flips it back by killing the Hand’s crew.',
             ],

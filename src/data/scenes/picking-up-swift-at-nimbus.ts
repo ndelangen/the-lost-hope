@@ -18,7 +18,7 @@ export default createScene({
       refs.pcs.auren,
       ' to the docks of ',
       refs.locations.nimbus,
-      ', to look at what the beam did there and to collect ',
+      ', where the soldiers look at what the beam did and the party goes to find ',
       refs.pcs.swift_starblade,
       '.',
     ],
