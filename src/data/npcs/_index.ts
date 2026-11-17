@@ -32,6 +32,7 @@ import gridswald from './gridswald.ts'
 import grimgor_the_bloody from './grimgor-the-bloody.ts'
 import gruumsh_high_priest from './gruumsh-high-priest.ts'
 import hex from './hex.ts'
+import hollin_slowbough from './hollin-slowbough.ts'
 import knukkles from './knukkles.ts'
 import light_13th_marshal from './light-13th-marshal.ts'
 import lord_malachar from './lord-malachar.ts'
@@ -82,6 +83,7 @@ export default {
   old_pell,
   sergeant_bruna_kell,
   shipyard_ent,
+  hollin_slowbough,
   silas_wren,
   tempest_soldier,
   the_fiddler_s_knight,

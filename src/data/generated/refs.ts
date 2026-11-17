@@ -25,6 +25,7 @@ export const refs = {
   },
   events: {
     n2_e204: ref('event', 'n2_e204'),
+    n2_e205: ref('event', 'n2_e205'),
     n2_e203: ref('event', 'n2_e203'),
     n2_e202: ref('event', 'n2_e202'),
     n2_e201: ref('event', 'n2_e201'),
@@ -236,6 +237,7 @@ export const refs = {
     old_pell: ref('npc', 'old_pell'),
     sergeant_bruna_kell: ref('npc', 'sergeant_bruna_kell'),
     shipyard_ent: ref('npc', 'shipyard_ent'),
+    hollin_slowbough: ref('npc', 'hollin_slowbough'),
     silas_wren: ref('npc', 'silas_wren'),
     tempest_soldier: ref('npc', 'tempest_soldier'),
     the_fiddler_s_knight: ref('npc', 'the_fiddler_s_knight'),
