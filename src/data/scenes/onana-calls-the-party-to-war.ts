@@ -4,7 +4,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 export default createScene({
   name: 'Onana calls the party to war',
   illustration: '/assets/scenes/onana-calls-the-party-to-war.png',
-  location: refs.locations.master_of_puppets_main_deck,
+  location: refs.locations.master_of_puppets_commanders_office,
   battleMaps: [
     refs.locations.master_of_puppets_main_deck,
     refs.locations.master_of_puppets_gun_deck,
@@ -15,7 +15,7 @@ export default createScene({
       refs.npcs.captain_garran,
       ' brings the party to ',
       refs.npcs.onana_tempest,
-      ' on the deck of his battle-cruiser, ',
+      ' in his office aboard his battle-cruiser, ',
       refs.items.master_of_puppets,
       ', as it turns towards ',
       refs.locations.nimbus,
@@ -27,6 +27,9 @@ export default createScene({
       ', welcome to my battle-cruiser, ',
       refs.items.master_of_puppets,
       '.” He thinks to himself: interesting how well that name applies to this situation.',
+    ],
+    [
+      'A jukebox in the corner is playing. If anyone looks at it: “Yeah, we have little use for a bard here.”',
     ],
     ['“Anyway. I do not have much time. Sorry for taking your vessel. We are at war now.”'],
     [
@@ -51,6 +54,19 @@ export default createScene({
     ],
   ],
   notes: [
+    [
+      'The bard line is a quiet hint at ',
+      refs.pcs.jim,
+      ', the party’s bard, who is gone. Do not explain it; let it land.',
+    ],
+    [
+      refs.pcs.auren,
+      ' has never seen a machine like the jukebox. Let him study it while the others talk: an ',
+      refs.rules.arcana,
+      ' or tinker’s check shows how the arm, the discs and the turntable work together. ',
+      refs.npcs.onana_tempest,
+      ' is too busy to mind.',
+    ],
     [
       'Zone of Truth: everyone in it makes the save from his stat block. Whoever fails cannot tell a deliberate lie, but may stay silent or dodge the question. ',
       refs.npcs.onana_tempest,
@@ -90,7 +106,7 @@ export default createScene({
           ' back and points out ',
           refs.items.ride_the_lightning,
           ', the nearest cruiser firing on its own side. Run ',
-          refs.scenes.taking_back_a_battle_cruiser,
+          refs.scenes.boarding_ride_the_lightning,
           '.',
         ],
       ],

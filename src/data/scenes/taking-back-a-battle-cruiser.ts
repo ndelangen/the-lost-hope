@@ -9,7 +9,14 @@ export default createScene({
     refs.locations.ride_the_lightning_main_deck,
     refs.locations.ride_the_lightning_gun_deck,
   ],
-  npcs: [refs.npcs.cloaked_snatcher, refs.npcs.onana_tempest],
+  npcs: [
+    refs.npcs.ilsa_corrow,
+    refs.npcs.korrag_stonevow,
+    refs.npcs.dust_lost_sailor,
+    refs.npcs.cloaked_snatcher,
+    refs.npcs.onana_tempest,
+    refs.npcs.captain_garran,
+  ],
   setup: [
     [
       'If ',
@@ -30,11 +37,31 @@ export default createScene({
       '.',
     ],
     [
-      'The party boards it and has to kill every member of ',
-      refs.organizations.the_eyeless_hand,
-      ' in its crew to hand the ship back to ',
+      'The party comes aboard at the bow (',
+      refs.scenes.boarding_ride_the_lightning,
+      '). Whoever holds the helm holds the ship, and ',
       refs.npcs.onana_tempest,
-      '.',
+      ' wants it back.',
+    ],
+    [
+      'The deck: the ',
+      refs.npcs.cloaked_snatcher,
+      's come forward to meet them at the bow. The Crystal chamber, the room before the Helm: ',
+      refs.npcs.korrag_stonevow,
+      ' guards the only way through, alone. The Helm: ',
+      refs.npcs.ilsa_corrow,
+      ', the Finger of ',
+      refs.organizations.the_eyeless_hand,
+      ', holds the wheel with the ',
+      refs.npcs.dust_lost_sailor,
+      's. She hears the fight start and keeps the guns firing.',
+    ],
+    [
+      'When ',
+      refs.pcs.devan,
+      ' first sees ',
+      refs.npcs.korrag_stonevow,
+      ', read: “The orc at the Finger’s side wears a shield you painted yourself, a lifetime ago. Korrag. Your best mate in the old squad. His eyes are veined with grey, and they pass over you like you are a stranger.”',
     ],
     [
       'The ship-damage clock: the loyal cruisers keep firing back at ',
@@ -49,6 +76,64 @@ export default createScene({
     ],
   ],
   notes: [
+    [
+      'Running it: roll initiative once for each group (the ',
+      refs.npcs.cloaked_snatcher,
+      's, the ',
+      refs.npcs.dust_lost_sailor,
+      's, and one each for ',
+      refs.npcs.ilsa_corrow,
+      ' and ',
+      refs.npcs.korrag_stonevow,
+      '), so you only track a few turns. Start the clock when the party lands. Put ',
+      refs.npcs.ilsa_corrow,
+      ' and her group on the map from the start, but they only move once someone reaches the helm or she is attacked.',
+    ],
+    [
+      'This is meant to be a High-difficulty fight, close to deadly. ',
+      refs.npcs.ilsa_corrow,
+      '’s Fireball can drop ',
+      refs.pcs.swift_starblade,
+      ' in one go, so spread her attacks around. Easier: take two ',
+      refs.npcs.dust_lost_sailor,
+      's off the map, or have her cast only one Fireball. Harder: a bigger damage die on the clock, or she joins the fight on round one.',
+    ],
+    [
+      'Reaching ',
+      refs.npcs.korrag_stonevow,
+      ': on his turn, ',
+      refs.pcs.devan,
+      ' can spend his action on a shared memory, an old squad call, or his name. Roll ',
+      refs.rules.persuasion,
+      ', DC 15. Each success breaks through for a moment: ',
+      refs.npcs.korrag_stonevow,
+      ' loses his next turn. After three successes he remembers. Other characters can help with a good line, which gives ',
+      refs.pcs.devan,
+      ' ',
+      refs.rules.advantage,
+      '.',
+    ],
+    [
+      'Her last trick: when ',
+      refs.npcs.ilsa_corrow,
+      ' drops below half her ',
+      refs.rules.hit_points,
+      ', she runs for the Crystal chamber to overload it. If she spends a full turn there, the crystal fails: see the outcomes. Say plainly where she is going, so the players can race her.',
+    ],
+    [
+      'Sabotaging the crystal: in the Crystal chamber, an action and a DC 15 ',
+      refs.rules.arcana,
+      ' check, or 20 damage to the crystal (AC 13).',
+    ],
+    [
+      'An escape pod: it costs an action to climb in and launch. That character is out of the fight.',
+    ],
+    [
+      refs.npcs.crowy,
+      ' can scout the deck before they land and warn them about the helm, or carry a message to ',
+      refs.items.master_of_puppets,
+      '.',
+    ],
     [
       refs.pcs.fix,
       ' is not aboard the cruiser of ',
@@ -79,12 +164,54 @@ export default createScene({
   ],
   outcomes: [
     {
-      when: [['They clear the deck.']],
+      when: [
+        [
+          'They take the helm: ',
+          refs.npcs.ilsa_corrow,
+          ' is down and one of them holds the wheel.',
+        ],
+      ],
       response: [
         [
-          'The cruiser stops firing on its own side and rejoins the line of ',
-          refs.npcs.onana_tempest,
-          '.',
+          'The guns fall silent and the loyal cruisers stop firing: stop the clock. The ',
+          refs.npcs.dust_lost_sailor,
+          's drop their weapons and stand there, lost.',
+        ],
+        ['Run ', refs.scenes.garran_comes_for_the_cruiser, '.'],
+      ],
+    },
+    {
+      when: [[refs.pcs.devan, ' reaches ', refs.npcs.korrag_stonevow, '.']],
+      response: [
+        [
+          refs.npcs.korrag_stonevow,
+          ' remembers, in pieces. He drops his warhammer, or turns it on ',
+          refs.npcs.ilsa_corrow,
+          '. He still craves the dust, and he will need help.',
+        ],
+      ],
+    },
+    {
+      when: [['They kill ', refs.npcs.korrag_stonevow, '.']],
+      response: [
+        [
+          'As he falls, the grey leaves his eyes for one breath, and he says ',
+          refs.pcs.devan,
+          '’s name.',
+        ],
+      ],
+    },
+    {
+      when: [['The crystal fails, by their hand or hers.']],
+      response: [
+        [
+          'The ship loses its lift and starts to fall. Everyone aboard has three rounds to reach an escape pod or ',
+          refs.items.beasts_and_dwarf_s_airship,
+          '. ',
+          refs.items.ride_the_lightning,
+          ' is lost, but ',
+          refs.organizations.the_eyeless_hand,
+          ' loses it too.',
         ],
       ],
     },
@@ -111,36 +238,64 @@ export default createScene({
       ],
     },
     {
-      when: [['They withdraw or lose.']],
+      when: [['They all go down.']],
       response: [
-        ['The cruiser keeps firing on the ships of the ', refs.organizations.tempest_family, '.'],
+        [
+          'The ',
+          refs.npcs.cloaked_snatcher,
+          's knock them out rather than kill them, and they wake tied up in the Stern hold. ',
+          refs.npcs.captain_garran,
+          '’s boarders find them there, and the cruiser keeps firing on the ships of the ',
+          refs.organizations.tempest_family,
+          ' until he takes it.',
+        ],
       ],
     },
   ],
-  opponents: [{ creature: refs.npcs.cloaked_snatcher, count: 8 }],
+  opponents: [
+    { creature: refs.npcs.ilsa_corrow, count: 1 },
+    { creature: refs.npcs.korrag_stonevow, count: 1 },
+    { creature: refs.npcs.dust_lost_sailor, count: 2 },
+    { creature: refs.npcs.cloaked_snatcher, count: 4 },
+  ],
   combat: {
     tactics: [
       [
-        'The crew of ',
-        refs.organizations.the_eyeless_hand,
-        ' wears the livery of the ',
-        refs.organizations.tempest_family,
-        '. They hold the helm and the guns, and they fight as ',
+        'The ',
         refs.npcs.cloaked_snatcher,
-        's do.',
+        's work in pairs and gang up on whoever stands alone. The ',
+        refs.npcs.dust_lost_sailor,
+        's charge the nearest target and never take cover.',
+      ],
+      [
+        refs.npcs.ilsa_corrow,
+        ' fights from the Helm at range, with her sailors as a wall: Fireball on a cluster, then Arcane Burst on whoever is hurt. ',
+        refs.npcs.korrag_stonevow,
+        ' holds the Crystal chamber and fights there as ',
+        refs.pcs.devan,
+        ' would: shield up, smiting, covering any ally beside him.',
       ],
     ],
-    morale: [['They do not surrender.']],
+    morale: [
+      [
+        'The Hand does not surrender. The ',
+        refs.npcs.dust_lost_sailor,
+        's fight until ',
+        refs.npcs.ilsa_corrow,
+        ' falls, then stop. Below half her hit points, she runs for the Crystal chamber (see the notes).',
+      ],
+    ],
     terrain: [
       [
-        'An open deck with rigging and gun ports, tilting whenever the ship is hit. A fall goes all the way to the ocean.',
+        'An open deck with rigging and gun ports, tilting whenever the ship is hit. A fall goes all the way to the ocean. The helm stands aft and raised, with stairs on both sides.',
       ],
     ],
     exits: [
       [
-        'The boarding lines back to their own vessel, and the escape pods in the sectors of ',
+        refs.items.beasts_and_dwarf_s_airship,
+        ' alongside, the escape pods in the sectors of ',
         refs.items.ride_the_lightning,
-        ' that have them.',
+        ' that have them, or bringing the ship down by its crystal.',
       ],
     ],
   },
