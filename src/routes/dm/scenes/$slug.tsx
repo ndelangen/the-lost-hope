@@ -56,6 +56,10 @@ function SceneRoute() {
     Object.hasOwn(itemRecords, item.key) && itemRecords[item.key]?.background !== undefined
   const branches = buildSceneBranches(scene.outcomes, hasSecret)
   const script = buildSceneScript(scene.beats, hasSecret)
+  const sceneImage: PlayerScreenImage = { image: 'illustration', ref: { ref: 'scene', key } }
+  // The player screen only runs in local dev, and only shows scenes that have a picture.
+  const picture =
+    import.meta.env.DEV && resolvePlayerScreenImage(sceneImage) ? sceneImage : undefined
   const ship = sceneShipUnderFire(scene)
   const vessel = ship ? resolveSourceRef(ship.vessel) : undefined
 
@@ -206,7 +210,9 @@ function SceneRoute() {
           <ShipDamageClock sceneKey={key} vesselName={vessel.name} ship={ship} />
         ) : null}
 
-        {script.length > 0 ? <SceneScript sceneKey={key} script={script} /> : null}
+        {script.length > 0 ? (
+          <SceneScript sceneKey={key} script={script} picture={picture} />
+        ) : null}
 
         {scene.outcomes.length > 0 ? (
           <section className="grid gap-2">

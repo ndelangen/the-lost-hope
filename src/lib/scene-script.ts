@@ -2,6 +2,7 @@ import type { DmContent } from '#/definitions/content'
 import type { EntityRef } from '#/definitions/kind'
 import type { SceneBeat, SceneLine } from '#/definitions/scene'
 
+import { resolveGroupSave, type GroupSave } from './group-save'
 import { buildSceneBranches, type SceneBranch } from './scene-branches'
 
 /** A beat of a scene's script ready to display, numbered in playing order. */
@@ -12,6 +13,8 @@ export type ScriptBeat = {
   /** When the beat is played. Only optional beats have one, and only they can be skipped. */
   onlyIf: DmContent | undefined
   lines: SceneLine[]
+  /** A save everyone listed makes during this beat, tracked roll by roll. */
+  groupSave: GroupSave | undefined
   /** The "if" branches that belong to this moment. */
   branches: SceneBranch[]
 }
@@ -26,6 +29,7 @@ export function buildSceneScript(
     title: beat.title,
     onlyIf: beat.onlyIf,
     lines: beat.lines,
+    groupSave: beat.groupSave ? resolveGroupSave(beat.groupSave) : undefined,
     branches: buildSceneBranches(beat.outcomes, hasSecret, `${index + 1}.`),
   }))
 }

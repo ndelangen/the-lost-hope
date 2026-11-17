@@ -266652,6 +266652,7 @@
       "usedIn": [
         "src/components/dm/encounter/combat-status.tsx",
         "src/components/dm/encounter/turn-card.tsx",
+        "src/components/dm/group-save-tracker.tsx",
         "src/components/dm/scene-script.tsx",
         "src/components/player-screen/jims-letter-words-control.tsx"
       ]
@@ -273767,7 +273768,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/copy",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/group-save-tracker.tsx"
+      ]
     },
     {
       "id": "lucide/CopyCheck",
@@ -275888,6 +275891,7 @@
       "sourceUrl": "https://lucide.dev/icons/dices",
       "usedIn": [
         "src/components/dm/encounter/turn-card.tsx",
+        "src/components/dm/group-save-tracker.tsx",
         "src/components/dm/ship-damage-clock.tsx"
       ]
     },
@@ -290747,7 +290751,10 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/link-2",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/group-save-tracker.tsx",
+        "src/components/player-screen/group-save-on-screen.tsx"
+      ]
     },
     {
       "id": "lucide/Link2Off",
@@ -296252,6 +296259,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/monitor-check",
       "usedIn": [
+        "src/components/dm/group-save-tracker.tsx",
         "src/components/player-screen/show-to-players-button.tsx"
       ]
     },
@@ -296603,6 +296611,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/monitor-up",
       "usedIn": [
+        "src/components/dm/group-save-tracker.tsx",
         "src/components/player-screen/player-screen-dock.tsx",
         "src/components/player-screen/show-to-players-button.tsx"
       ]
@@ -304006,6 +304015,7 @@
         "src/components/dm/dm-effects-panel.tsx",
         "src/components/dm/encounter/ability-controls.tsx",
         "src/components/dm/encounter/combatant-panel.tsx",
+        "src/components/dm/group-save-tracker.tsx",
         "src/components/dm/npc-portrait-status.tsx",
         "src/components/dm/scene-script.tsx",
         "src/components/dm/ship-damage-clock.tsx",
@@ -320675,7 +320685,10 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/unlink-2",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/group-save-tracker.tsx",
+        "src/components/player-screen/group-save-on-screen.tsx"
+      ]
     },
     {
       "id": "lucide/Unplug",

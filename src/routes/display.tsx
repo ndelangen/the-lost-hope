@@ -1,8 +1,9 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { Maximize } from 'lucide-react'
-import { lazy, Suspense, useEffect, useState } from 'react'
+import { lazy, Suspense, useEffect, useMemo, useState } from 'react'
 
 import { GridOverlay } from '#/components/player-screen/grid-overlay'
+import { GroupSaveOnScreen } from '#/components/player-screen/group-save-on-screen'
 import { PointerMarksOverlay } from '#/components/player-screen/pointer-marks'
 import {
   useAnnouncePlayerScreen,
@@ -11,6 +12,7 @@ import {
 } from '#/components/player-screen/use-player-screen'
 import { ResponsiveImage } from '#/components/responsive-image'
 import { ShipDamageDecals } from '#/components/ship/ship-damage-decals'
+import { sceneGroupSaves } from '#/lib/group-save'
 import { resolvePlayerScreenImage } from '#/lib/player-screen'
 import { DEFAULT_PLAYER_SCREEN_GRID } from '#/lib/player-screen-grid'
 import {
@@ -45,6 +47,8 @@ function PlayerScreenPage() {
   const caption = captions ? image?.playerCaption : undefined
   const size = image?.src ? responsiveImageFor(image.src) : undefined
   const deck = showing?.image === 'map' ? shipDeckMap(showing.ref.key) : undefined
+  const sceneKey = showing?.ref.ref === 'scene' ? showing.ref.key : undefined
+  const groupSaves = useMemo(() => (sceneKey ? sceneGroupSaves(sceneKey) : []), [sceneKey])
   const grid = showing ? playerScreenGridFor(state, showing) : DEFAULT_PLAYER_SCREEN_GRID
   const marks = usePlayerScreenPointer(showing ? playerScreenImageId(showing) : undefined)
   const idle = useIdleCursor()
@@ -128,6 +132,11 @@ function PlayerScreenPage() {
           ) : null}
         </figure>
       ) : null}
+      {image
+        ? groupSaves.map(({ storageKey, save }) => (
+            <GroupSaveOnScreen key={storageKey} storageKey={storageKey} save={save} />
+          ))
+        : null}
 
       {fullscreen ? null : (
         <button

@@ -1,6 +1,8 @@
 import { z } from 'zod'
 
-import { DmContent } from './content'
+import { ABILITY_KEYS } from '#/lib/rules'
+
+import { Content, DmContent } from './content'
 import { makeCreate } from './create'
 import { entityRefOf } from './kind'
 import { MediaUrl } from './media'
@@ -52,6 +54,32 @@ export const SceneLine = z.union([
 export type SceneLine = z.infer<typeof SceneLine>
 
 /**
+ * A saving throw that several characters make at the same moment, each on their own roll. The DM
+ * fills in the rolls at the table and can put the list on the player screen, so `title`, `passed`
+ * and `failed` are words the players read. Players roll for their own characters; the DM rolls
+ * for the rest, with the save bonus from each stat block.
+ */
+export const SceneGroupSave = z.strictObject({
+  title: Content.describe('Heading over the list on the player screen'),
+  ability: z.enum(ABILITY_KEYS).describe('What everyone saves with'),
+  dc: z.number().int().positive(),
+  reasonBonus: z
+    .number()
+    .int()
+    .positive()
+    .optional()
+    .describe('Added to a roll when a player gives a good reason for that character'),
+  rollers: z
+    .array(z.union([entityRefOf('pc'), entityRefOf('npc'), entityRefOf('beast')]))
+    .min(1)
+    .describe('Everyone who rolls, in the order they are listed'),
+  passed: z.string().trim().min(1).describe('Shown beside someone who made the save'),
+  failed: z.string().trim().min(1).describe('Shown beside someone who failed it'),
+})
+
+export type SceneGroupSave = z.infer<typeof SceneGroupSave>
+
+/**
  * One moment of a scene. A scene's beats are its script: the DM plays them top to bottom. A beat
  * with `onlyIf` is optional and is skipped when that does not hold. Its outcomes are the branches
  * that belong to this moment.
@@ -62,6 +90,7 @@ export const SceneBeat = z.strictObject({
     'When this beat is played. Leave out for one always played',
   ),
   lines: z.array(SceneLine).min(1),
+  groupSave: SceneGroupSave.optional().describe('A save everyone listed makes during this beat'),
   outcomes: z.array(SceneOutcome).default([]),
 })
 

@@ -4,16 +4,28 @@ import { useEffect, useRef } from 'react'
 import { ContentRenderer } from '#/components/content-renderer'
 import { SceneBranches } from '#/components/dm/scene-branches'
 import type { SceneLine } from '#/definitions/scene'
+import { groupSaveStorageKey } from '#/lib/group-save'
+import type { PlayerScreenImage } from '#/lib/player-screen-state'
 import { currentBeat, type BeatStatus, type ScriptBeat } from '#/lib/scene-script'
 import { cn } from '#/lib/utils'
 
+import { GroupSaveTracker } from './group-save-tracker'
 import { useSceneScript } from './use-scene-script'
 
 /**
  * A scene's script: its beats top to bottom, each one ticked off as it is played or skipped, so
  * the DM always sees where the scene is and what comes next.
  */
-export function SceneScript({ sceneKey, script }: { sceneKey: string; script: ScriptBeat[] }) {
+export function SceneScript({
+  sceneKey,
+  script,
+  picture,
+}: {
+  sceneKey: string
+  script: ScriptBeat[]
+  /** The scene's picture on the player screen, which a beat's group save is drawn over. */
+  picture: PlayerScreenImage | undefined
+}) {
   const { progress, mark, startOver } = useSceneScript(sceneKey, script.length)
   const current = currentBeat(script, progress)
   const played = script.length - script.filter((beat) => progress[beat.number] === undefined).length
@@ -64,6 +76,15 @@ export function SceneScript({ sceneKey, script }: { sceneKey: string; script: Sc
                 <OpenBeat
                   beat={beat}
                   current={beat.number === current}
+                  groupSave={
+                    beat.groupSave ? (
+                      <GroupSaveTracker
+                        storageKey={groupSaveStorageKey(sceneKey, beat.number)}
+                        save={beat.groupSave}
+                        picture={picture}
+                      />
+                    ) : null
+                  }
                   onDone={() => finish(beat.number, 'done')}
                   onSkip={() => finish(beat.number, 'skipped')}
                 />
@@ -97,11 +118,14 @@ function BeatNumber({ children, tone }: { children: React.ReactNode; tone: 'curr
 function OpenBeat({
   beat,
   current,
+  groupSave,
   onDone,
   onSkip,
 }: {
   beat: ScriptBeat
   current: boolean
+  /** The tracker of the beat's group save, when it has one. */
+  groupSave: React.ReactNode
   onDone: () => void
   onSkip: () => void
 }) {
@@ -133,6 +157,8 @@ function OpenBeat({
           </li>
         ))}
       </ul>
+
+      {groupSave}
 
       {beat.branches.length > 0 ? (
         <div className="grid gap-2">

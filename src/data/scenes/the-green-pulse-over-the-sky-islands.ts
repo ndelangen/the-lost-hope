@@ -52,19 +52,58 @@ export default createScene({
     },
     {
       title: 'Who still remembers Jim',
+      groupSave: {
+        title: [['Who still cares about ', refs.pcs.jim, '?']],
+        ability: 'wis',
+        dc: 15,
+        reasonBonus: 5,
+        rollers: [
+          refs.pcs.swift_starblade,
+          refs.pcs.cassian_veyl,
+          refs.pcs.devan,
+          refs.npcs.crowy,
+          refs.npcs.abraham,
+          refs.beasts.wolfie,
+          refs.npcs.sarogarth,
+        ],
+        passed: 'Still cares',
+        failed: 'No longer cares',
+      },
       lines: [
         {
           do: [
             [
               'Everyone who cared about ',
               refs.pcs.jim,
-              ' makes a DC 15 ',
-              refs.rules.wis,
-              ' ',
-              refs.rules.saving_throw,
-              ', with +5 for a player who says why their character wants to stay connected. On a failure they lose all interest in ',
+              ' makes the saving throw below. On a failure they lose all interest in ',
               refs.pcs.jim,
               '.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              'Your call whether it counts as caring: ',
+              refs.npcs.the_fiddler,
+              ', who keeps reading ',
+              refs.pcs.jim,
+              '’s future.',
+            ],
+            [
+              'Met him, but have no bond to lose, so no roll: ',
+              refs.npcs.onana_tempest,
+              ', ',
+              refs.npcs.esia,
+              ', ',
+              refs.npcs.stefanio,
+              ', ',
+              refs.npcs.hollin_slowbough,
+              ' and ',
+              refs.npcs.borris,
+              '. ',
+              refs.pcs.auren,
+              ' has not met him in play.',
             ],
           ],
         },

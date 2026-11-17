@@ -74,6 +74,10 @@ canon.
 - A vessel's layout (`hull` sectors, their hit points and escape pods) lives on its item. A deck
   map's location says where each sector lies on that map (`deck`). A scene's `shipDamage` holds
   only the pacing, and the clock shows the numbers, so the scene text does not repeat them.
+- A save that many characters make at the same moment is a beat's `groupSave`: who rolls, the
+  ability, the DC and the bonus for a good reason. The tracker and the player screen show the list
+  and the numbers, so the beat's lines do not repeat them. The rolls made at the table stay in the
+  DM's browser until they are written up as an event.
 - NPCs own their motivations. Reference the NPC from prep so you can read the motivation alongside
   the scene. Arc and scene references come from the generated `refs.arcs` and `refs.scenes` namespaces.
 - When scene prose sends the DM to another prepared scene, reference it (`'Run ', refs.scenes.x`)
