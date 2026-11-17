@@ -42,13 +42,11 @@ export default createArc({
     {
       name: 'The crossing is shut',
       hook: [['The beam took a ferry, and the army is taking the other. How do they get across?']],
-      npcs: [refs.npcs.sergeant_bruna_kell, refs.npcs.maren_of_fairhaven, refs.npcs.corwin_hale],
       scene: refs.scenes.the_clogged_ferry_landing,
     },
     {
       name: 'Taking the airship early',
       hook: [['The airship is not finished, and nobody in the party can fly it.']],
-      npcs: [refs.npcs.esia, refs.npcs.shipyard_ent],
       scene: refs.scenes.the_ents_hold_the_shipyard,
     },
     {
@@ -58,13 +56,11 @@ export default createArc({
           'A battle-cruiser orders them to heave to and casts its hooks. Do they run, cut loose, talk, or stop?',
         ],
       ],
-      npcs: [refs.npcs.captain_garran],
       scene: refs.scenes.running_from_the_battle_cruiser,
     },
     {
       name: 'Impounded',
       hook: [['', refs.npcs.onana_tempest, ' is seizing every vessel for the war, theirs too.']],
-      npcs: [refs.npcs.captain_garran],
       scene: refs.scenes.boarded_by_the_battle_cruiser,
     },
     {
@@ -75,8 +71,19 @@ export default createArc({
           ' will return their vessel for a promise to help. Will the party stand with him?',
         ],
       ],
-      npcs: [refs.npcs.onana_tempest, refs.npcs.the_father],
+      npcs: [refs.npcs.the_father],
       scene: refs.scenes.onana_calls_the_party_to_war,
+    },
+    {
+      name: 'Getting aboard',
+      hook: [
+        [
+          'A boarding torpedo that holds one person at a time, or a way of their own. How does the party get onto ',
+          refs.items.ride_the_lightning,
+          '?',
+        ],
+      ],
+      scene: refs.scenes.boarding_ride_the_lightning,
     },
     {
       name: 'A fleet at war with itself',
@@ -87,8 +94,17 @@ export default createArc({
           '. Can the party take one back?',
         ],
       ],
-      npcs: [refs.npcs.onana_tempest],
       scene: refs.scenes.taking_back_a_battle_cruiser,
+    },
+    {
+      name: 'Whose cruiser now?',
+      hook: [
+        [
+          refs.npcs.captain_garran,
+          ' wants to take over the cruiser the party just won back. Will they hand it over, or run with it?',
+        ],
+      ],
+      scene: refs.scenes.garran_comes_for_the_cruiser,
     },
   ],
 })

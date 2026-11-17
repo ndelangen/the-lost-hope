@@ -202,9 +202,11 @@ import n2_e201 from './n2-e201.ts'
 import n2_e202 from './n2-e202.ts'
 import n2_e203 from './n2-e203.ts'
 import n2_e204 from './n2-e204.ts'
+import n2_e205 from './n2-e205.ts'
 
 export default {
   n2_e204,
+  n2_e205,
   n2_e203,
   n2_e202,
   n2_e201,

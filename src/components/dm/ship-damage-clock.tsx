@@ -12,10 +12,12 @@ import {
 } from 'lucide-react'
 import { useCallback, useEffect, useRef, useState } from 'react'
 
-import { SHIP_DAMAGE_DICE, type SceneShipDamage, type ShipDamageDie } from '#/definitions/scene'
+import { DifficultTerrainBadge } from '#/components/ship/difficult-terrain-badge'
+import { SHIP_DAMAGE_DICE, type ShipDamageDie } from '#/definitions/scene'
 import {
   adjustSector,
   brokenSlice,
+  estimatedMinutesToBreak,
   formatCountdown,
   hitSector,
   initialShipDamage,
@@ -29,6 +31,7 @@ import {
   sliceStatuses,
   startTimer,
   type ShipSectorView,
+  type ShipUnderFire,
   type SliceStatus,
 } from '#/lib/ship-damage'
 import { cn } from '#/lib/utils'
@@ -53,10 +56,13 @@ function dieLabel(die: ShipDamageDie) {
 function DamageDiePicker({
   value,
   disabled,
+  minutes,
   onChange,
 }: {
   value: ShipDamageDie
   disabled: boolean
+  /** Roughly how long a fresh ship lasts on the chosen die. */
+  minutes: number
   onChange: (die: ShipDamageDie) => void
 }) {
   return (
@@ -89,7 +95,8 @@ function DamageDiePicker({
       <span className="text-muted-foreground text-sm">
         {value === 1
           ? 'Every hit deals 1 damage.'
-          : `The clock rolls a d${value} for every hit you tap.`}
+          : `The clock rolls a d${value} for every hit you tap.`}{' '}
+        A fresh ship lasts about {minutes} minutes.
       </span>
     </fieldset>
   )
@@ -167,9 +174,7 @@ function SectorTile({
         </span>
         <span className="text-muted-foreground flex flex-wrap items-center gap-x-2 gap-y-0.5 text-xs">
           {sector.destroyed ? (
-            <span className="font-semibold text-red-600 uppercase dark:text-red-400">
-              Destroyed
-            </span>
+            <DifficultTerrainBadge />
           ) : (
             <span className="tabular-nums">
               {sector.damage}/{hitPoints} damage
@@ -222,7 +227,7 @@ export function ShipDamageClock({
 }: {
   sceneKey: string
   vesselName: string
-  ship: SceneShipDamage
+  ship: ShipUnderFire
 }) {
   const audio = useRef<AudioContext | null>(null)
   const [sound, setSound] = useState(true)
@@ -410,6 +415,7 @@ export function ShipDamageClock({
         <DamageDiePicker
           value={shown.damageDie}
           disabled={locked}
+          minutes={estimatedMinutesToBreak(ship, shown.damageDie)}
           onChange={(die) => update((current) => setDamageDie(current, die))}
         />
       ) : null}

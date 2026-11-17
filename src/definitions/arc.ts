@@ -33,5 +33,7 @@ export const Arc = deriveSlug(
   }),
 )
 
+export type Plot = z.infer<typeof Plot>
+
 export const create = makeCreate(Arc)
 export type Arc = z.infer<typeof Arc>

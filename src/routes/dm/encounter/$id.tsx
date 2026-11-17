@@ -22,7 +22,7 @@ import { PartyStrip } from '#/components/dm/encounter/party-strip'
 import { ConcentrationPrompt, TurnCard } from '#/components/dm/encounter/turn-card'
 import { newEncounterId, useEncounterStore } from '#/components/dm/encounter/use-encounter-store'
 import { ShipDamageClock } from '#/components/dm/ship-damage-clock'
-import { resolveScene, resolveSourceRef } from '#/lib/dm-campaign'
+import { resolveScene, resolveSourceRef, sceneShipUnderFire } from '#/lib/dm-campaign'
 import { combatantView, currentParty, encounterCandidates } from '#/lib/dm-encounter'
 import {
   LEGENDARY_POOL,
@@ -151,12 +151,13 @@ function EncounterRoute() {
   const updateEncounter = (change: (current: Encounter) => Encounter) =>
     update((current) => updateEncounterIn(current, id, change))
   const scene = encounter.scene ? resolveScene(encounter.scene) : undefined
+  const ship = scene ? sceneShipUnderFire(scene) : undefined
   const shipDamage =
-    encounter.scene && scene?.shipDamage
+    encounter.scene && ship
       ? {
           sceneKey: encounter.scene.key,
-          ship: scene.shipDamage,
-          vesselName: resolveSourceRef(scene.shipDamage.vessel)?.name,
+          ship,
+          vesselName: resolveSourceRef(ship.vessel)?.name,
         }
       : undefined
 

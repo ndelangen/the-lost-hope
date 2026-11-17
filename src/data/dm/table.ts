@@ -11,6 +11,8 @@ export default createTable({
     refs.scenes.running_from_the_battle_cruiser,
     refs.scenes.boarded_by_the_battle_cruiser,
     refs.scenes.onana_calls_the_party_to_war,
+    refs.scenes.boarding_ride_the_lightning,
     refs.scenes.taking_back_a_battle_cruiser,
+    refs.scenes.garran_comes_for_the_cruiser,
   ],
 })

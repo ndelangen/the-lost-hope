@@ -7,13 +7,6 @@ export default createScene({
   location: refs.locations.borris_s_gambling_den,
   battleMaps: [refs.locations.borris_s_gambling_den],
   npcs: [refs.npcs.borris, refs.npcs.crowy],
-  references: [
-    refs.pcs.fix,
-    refs.pcs.swift_starblade,
-    refs.pcs.jim,
-    refs.items.jaded_amulet,
-    refs.organizations.beasts_and_dwarf,
-  ],
   setup: [
     [
       'Read aloud: It is about four in the afternoon, and the weather has cleared. For the first time, you can see what lies beneath the sky islands, and watch it slide slowly past below you. It has always been cloudy down there. Now the view is clear, and it is all… ocean. The islands hover over a vast, vast ocean.',

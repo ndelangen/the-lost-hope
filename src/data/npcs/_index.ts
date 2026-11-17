@@ -23,6 +23,7 @@ import corwin_hale from './corwin-hale.ts'
 import crowy from './crowy.ts'
 import dax from './dax.ts'
 import dragon_of_the_mountain from './dragon-of-the-mountain.ts'
+import dust_lost_sailor from './dust-lost-sailor.ts'
 import esia from './esia.ts'
 import faceless_shadow from './faceless-shadow.ts'
 import frog_medicine_man_of_verdant_haven from './frog-medicine-man-of-verdant-haven.ts'
@@ -32,7 +33,10 @@ import gridswald from './gridswald.ts'
 import grimgor_the_bloody from './grimgor-the-bloody.ts'
 import gruumsh_high_priest from './gruumsh-high-priest.ts'
 import hex from './hex.ts'
+import hollin_slowbough from './hollin-slowbough.ts'
+import ilsa_corrow from './ilsa-corrow.ts'
 import knukkles from './knukkles.ts'
+import korrag_stonevow from './korrag-stonevow.ts'
 import light_13th_marshal from './light-13th-marshal.ts'
 import lord_malachar from './lord-malachar.ts'
 import madame_esmeralda from './madame-esmeralda.ts'
@@ -82,6 +86,7 @@ export default {
   old_pell,
   sergeant_bruna_kell,
   shipyard_ent,
+  hollin_slowbough,
   silas_wren,
   tempest_soldier,
   the_fiddler_s_knight,
@@ -89,6 +94,9 @@ export default {
   onana_tempest,
   charles_tempest,
   cloaked_snatcher,
+  ilsa_corrow,
+  korrag_stonevow,
+  dust_lost_sailor,
   celeste_tempest,
   brend_tempest,
   selene_tempest,

@@ -40,6 +40,7 @@ import gruumsh_war_temple from './gruumsh-war-temple.ts'
 import holy_site from './holy-site.ts'
 import jim_s_room_at_skynet_s_second_best_inn from './jim-s-room-at-skynet-s-second-best-inn.ts'
 import lower_stables from './lower-stables.ts'
+import master_of_puppets_commanders_office from './master-of-puppets-commanders-office.ts'
 import master_of_puppets_gun_deck from './master-of-puppets-gun-deck.ts'
 import master_of_puppets_main_deck from './master-of-puppets-main-deck.ts'
 import mortimer_s_shop from './mortimer-s-shop.ts'
@@ -121,6 +122,7 @@ export default {
   ride_the_lightning_main_deck,
   master_of_puppets_main_deck,
   ride_the_lightning_gun_deck,
+  master_of_puppets_commanders_office,
   master_of_puppets_gun_deck,
   sky_bridge_ferry,
   beasts_and_dwarf_s_airship_decks,
