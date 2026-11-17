@@ -210,7 +210,7 @@ export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
     id: 'location-illustration-borris-s-gambling-den',
     role: 'illustration',
     logicalSource: '/assets/locations/borris-s-gambling-den-illustration.png',
-    repositoryPath: 'assets/images/content/scenes/borris-shutters-the-casino.png',
+    repositoryPath: 'assets/images/content/locations/borris-s-gambling-den-illustration.png',
   },
   {
     id: 'location-illustration-dining-room-at-skynet-s-second-best-inn',
