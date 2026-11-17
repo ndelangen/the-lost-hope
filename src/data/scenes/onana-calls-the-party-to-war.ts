@@ -41,6 +41,15 @@ export default createScene({
       title: 'Welcome aboard',
       lines: [
         {
+          note: [
+            [
+              'This is the reveal: nobody told them that ',
+              refs.npcs.onana_tempest,
+              ' himself is aboard. Let it land before he speaks.',
+            ],
+          ],
+        },
+        {
           speaker: refs.npcs.onana_tempest,
           say: [
             [

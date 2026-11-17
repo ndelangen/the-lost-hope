@@ -136,9 +136,7 @@ export default createScene({
                   refs.items.master_of_puppets,
                   ' pursues and simply docks next to them. ',
                   refs.npcs.captain_garran,
-                  ' walks down the gangway, more impressed than annoyed, recognises them, and asks all of them aboard for a word with ',
-                  refs.npcs.onana_tempest,
-                  '. His soldiers ring their vessel on the quay.',
+                  ' walks down the gangway, more impressed than annoyed, recognises them, and orders all of them aboard without saying who is waiting. His soldiers ring their vessel on the quay.',
                 ],
                 [
                   'Skip ',

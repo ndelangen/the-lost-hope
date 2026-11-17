@@ -58,9 +58,7 @@ export default createScene({
             [
               'He orders ',
               refs.organizations.beasts_and_dwarf,
-              ' to find the rest of their party immediately and then report back: ',
-              refs.npcs.onana_tempest,
-              ' wants to see them. Their vessel stays impounded for now.',
+              ' to find the rest of their party immediately and then report back to him. Their vessel stays impounded for now.',
             ],
             ['He stresses it again: there is not much time, so they should hurry.'],
           ],

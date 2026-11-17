@@ -110,11 +110,20 @@ export default createScene({
             [
               'The party reports back to ',
               refs.npcs.captain_garran,
-              ', whole again. He takes them straight to ',
-              refs.npcs.onana_tempest,
-              '. Run ',
+              ', whole again. He leads them to ',
+              refs.locations.master_of_puppets_commanders_office,
+              ' without saying who is waiting. Run ',
               refs.scenes.onana_calls_the_party_to_war,
               '.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              'That ',
+              refs.npcs.onana_tempest,
+              ' is aboard is the reveal that opens the next scene. Until then he is only a name behind the orders.',
             ],
           ],
         },

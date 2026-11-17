@@ -81,7 +81,7 @@ export default createScene({
       outcomes: [
         {
           when: [['They argue that the ship is theirs.']],
-          response: [['“Take it up with ', refs.npcs.onana_tempest, '.” He changes nothing.']],
+          response: [['“Orders of ', refs.npcs.onana_tempest, '.” He changes nothing.']],
         },
       ],
     },
@@ -106,28 +106,38 @@ export default createScene({
             ['It suits him: his people want to look at the place where the beam struck anyway.'],
           ],
         },
-        { do: [['He tells them there is not much time, and shouts his order up to the cruiser.']] },
+      ],
+    },
+    {
+      title: 'Course for Nimbus',
+      lines: [
+        { do: [['He shouts up to the cruiser.']] },
         {
           speaker: refs.npcs.captain_garran,
           say: [
             [
-              'Immediate course for ',
+              'Set immediate course to ',
               refs.locations.nimbus,
-              ' docking west! Dock us close to the impact crater!',
+              ' docks west! We’ll investigate the impact site, assist where we can, and ',
+              refs.organizations.beasts_and_dwarf,
+              ' will search for their missing party members.',
             ],
           ],
         },
-      ],
-    },
-    {
-      title: 'Brought aboard',
-      lines: [
+        { do: [['Then, to the party.']] },
         {
           speaker: refs.npcs.captain_garran,
-          say: [['Here, follow us. I’m sure ', refs.npcs.onana_tempest, ' would like a word.']],
+          say: [['Get on board, we’ll haul your vessel in, we do not have much time!']],
         },
         {
           note: [
+            [
+              'He names ',
+              refs.npcs.onana_tempest,
+              ' only as the authority behind his orders. Nobody says that ',
+              refs.npcs.onana_tempest,
+              ' is aboard, and no meeting is announced: that is a reveal for later.',
+            ],
             [
               'Mini-mystery, no answer needed: from the airship or the cruiser, looking down, one perfectly round patch of ocean lies completely flat and still among the waves.',
             ],
