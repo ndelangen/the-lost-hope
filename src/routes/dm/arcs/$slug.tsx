@@ -7,7 +7,7 @@ import { EntityReference } from '#/components/entity-reference'
 import { Pill } from '#/components/ui/pill'
 import { ArcIcon } from '#/lib/arc-icons'
 import { resolveRef } from '#/lib/campaign'
-import { arcs, resolveScene, sessionsForArc } from '#/lib/dm-campaign'
+import { arcs, plotCast, resolveScene, sessionsForArc } from '#/lib/dm-campaign'
 
 export const Route = createFileRoute('/dm/arcs/$slug')({
   loader: ({ params }) => {
@@ -62,7 +62,7 @@ function ArcRoute() {
                   <div className="flex items-center justify-between gap-3">
                     <h3 className="font-semibold">{plot.name}</h3>
                     <div className="flex items-center gap-3">
-                      <DmFaces people={plot.npcs} />
+                      <DmFaces people={plotCast(plot)} />
                       <Pill variant={plot.status === 'open' ? 'warning' : 'secondary'}>
                         {plot.status}
                       </Pill>

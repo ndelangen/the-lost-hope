@@ -12,15 +12,6 @@ export default createScene({
     refs.npcs.corwin_hale,
     refs.npcs.tempest_soldier,
   ],
-  references: [
-    refs.pcs.auren,
-    refs.npcs.esia,
-    refs.pcs.cassian_veyl,
-    refs.pcs.devan,
-    refs.pcs.swift_starblade,
-    refs.locations.nimbus,
-    refs.organizations.tempest_family,
-  ],
   setup: [
     [
       'The ferry landing on ',

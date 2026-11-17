@@ -6,7 +6,15 @@ import { create as createScene } from '#/definitions/scene'
 import { create as createTable } from '#/definitions/table'
 import { resolveRef, sessionEvents, sessions } from '#/lib/campaign'
 
-import { arcs, scenes, sessionsForArc, validateDmReferences } from './dm-campaign'
+import {
+  arcs,
+  plotCast,
+  sceneMentions,
+  sceneShipUnderFire,
+  scenes,
+  sessionsForArc,
+  validateDmReferences,
+} from './dm-campaign'
 
 const NO_TABLE = createTable({})
 const vipRoom = { ref: 'scene', key: 'game_in_the_vip_room' } as const
@@ -26,6 +34,38 @@ describe('DM campaign model', () => {
     expect(Object.keys(arcs)).toEqual(Object.keys(refs.arcs))
     expect(Object.keys(scenes)).toEqual(Object.keys(refs.scenes))
     expect(validateDmReferences()).toEqual([])
+  })
+
+  it('lets a plot name only the NPCs its scene does not already cast', () => {
+    const repeated = Object.values(arcs).flatMap((arc) =>
+      arc.plots.flatMap((plot) => {
+        const cast = plot.scene ? (scenes[plot.scene.key]?.npcs ?? []) : []
+        return plot.npcs
+          .filter((npc) => cast.some((member) => member.key === npc.key))
+          .map((npc) => `${plot.name}: ${npc.key}`)
+      }),
+    )
+    expect(repeated).toEqual([])
+  })
+
+  it('derives a plot’s cast from its own NPCs and its scene’s', () => {
+    const plot = arcs.the_tempest_family!.plots.find((p) => p.name === 'The Tempests go to war')!
+    expect(plotCast(plot).map((npc) => npc.key)).toEqual([
+      'the_father',
+      'onana_tempest',
+      'captain_garran',
+    ])
+  })
+
+  it('derives what a scene mentions from its fields and its text, each once', () => {
+    expect(sceneMentions(scene)).toEqual([refs.locations.nimbus, refs.npcs.the_fiddler])
+  })
+
+  it('gives every ship-damage scene a vessel with a hull', () => {
+    const withoutHull = Object.entries(scenes)
+      .filter(([, entry]) => entry.shipDamage && !sceneShipUnderFire(entry))
+      .map(([key]) => key)
+    expect(withoutHull).toEqual([])
   })
 
   it('allows the same event in several arcs while the session owns play order', () => {

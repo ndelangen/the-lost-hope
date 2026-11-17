@@ -11,7 +11,7 @@ import { ImageViewer } from '#/components/image-viewer'
 import { ShowToPlayersButton } from '#/components/player-screen/show-to-players-button'
 import type { Location } from '#/definitions/location'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
-import { arcs, resolveSourceRef, scenes, table } from '#/lib/dm-campaign'
+import { arcs, resolveSourceRef, sceneShipUnderFire, scenes, table } from '#/lib/dm-campaign'
 import { plotsByScene } from '#/lib/dm-dashboard'
 import { resolvePlayerScreenImage } from '#/lib/player-screen'
 import type { PlayerScreenImage } from '#/lib/player-screen-state'
@@ -48,7 +48,8 @@ function SceneRoute() {
     return place ? [{ ref, place }] : []
   })
   const branches = buildSceneBranches(scene.outcomes)
-  const vessel = scene.shipDamage ? resolveSourceRef(scene.shipDamage.vessel) : undefined
+  const ship = sceneShipUnderFire(scene)
+  const vessel = ship ? resolveSourceRef(ship.vessel) : undefined
 
   return (
     <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_12rem]">
@@ -74,7 +75,7 @@ function SceneRoute() {
             className="border-border hover:bg-muted flex w-fit items-center gap-2 rounded-md border px-3 py-1.5 text-sm"
           >
             <Sword className="size-4" /> Run encounter
-            {scene.npcs.length > 0 ? ' with this scene’s NPCs' : ''}
+            {scene.opponents.length > 0 ? ' against this scene’s opponents' : ''}
           </Link>
           <ContentRenderer
             content={[locations.flatMap((ref, index) => [index === 0 ? 'at ' : ' or ', ref])]}
@@ -193,8 +194,8 @@ function SceneRoute() {
           <ContentRenderer content={scene.setup} />
         </section>
 
-        {scene.shipDamage && vessel ? (
-          <ShipDamageClock sceneKey={key} vesselName={vessel.name} ship={scene.shipDamage} />
+        {ship && vessel ? (
+          <ShipDamageClock sceneKey={key} vesselName={vessel.name} ship={ship} />
         ) : null}
 
         {scene.outcomes.length > 0 ? (
