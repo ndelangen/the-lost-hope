@@ -7,6 +7,7 @@ export default createScene({
   battleMaps: [
     refs.locations.master_of_puppets_gun_deck,
     refs.locations.master_of_puppets_main_deck,
+    refs.locations.beasts_and_dwarf_s_airship_decks,
   ],
   npcs: [refs.npcs.onana_tempest, refs.npcs.captain_garran],
   setup: [
