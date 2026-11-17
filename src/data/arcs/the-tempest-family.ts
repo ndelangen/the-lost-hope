@@ -42,13 +42,13 @@ export default createArc({
     {
       name: 'The crossing is shut',
       hook: [['The beam took a ferry, and the army is taking the other. How do they get across?']],
-      npcs: [refs.npcs.sergeant_bruna_kell, refs.npcs.maren_of_fairhaven],
+      npcs: [refs.npcs.sergeant_bruna_kell, refs.npcs.maren_of_fairhaven, refs.npcs.corwin_hale],
       scene: refs.scenes.the_clogged_ferry_landing,
     },
     {
       name: 'Taking the airship early',
       hook: [['The airship is not finished, and nobody in the party can fly it.']],
-      npcs: [refs.npcs.esia, refs.npcs.shipyard_ent, refs.npcs.corwin_hale],
+      npcs: [refs.npcs.esia, refs.npcs.shipyard_ent],
       scene: refs.scenes.the_ents_hold_the_shipyard,
     },
     {
@@ -58,7 +58,7 @@ export default createArc({
           'A battle-cruiser orders them to heave to and casts its hooks. Do they run, cut loose, talk, or stop?',
         ],
       ],
-      npcs: [refs.npcs.captain_garran, refs.npcs.corwin_hale],
+      npcs: [refs.npcs.captain_garran],
       scene: refs.scenes.running_from_the_battle_cruiser,
     },
     {

@@ -6,7 +6,12 @@ export default createScene({
   illustration: '/assets/scenes/the-clogged-ferry-landing.png',
   location: refs.locations.skynet_sky_bridge_landing,
   battleMaps: [refs.locations.skynet_sky_bridge_landing, refs.locations.sky_bridge_ferry],
-  npcs: [refs.npcs.maren_of_fairhaven, refs.npcs.sergeant_bruna_kell, refs.npcs.tempest_soldier],
+  npcs: [
+    refs.npcs.maren_of_fairhaven,
+    refs.npcs.sergeant_bruna_kell,
+    refs.npcs.corwin_hale,
+    refs.npcs.tempest_soldier,
+  ],
   references: [
     refs.pcs.auren,
     refs.npcs.esia,
@@ -27,6 +32,10 @@ export default createScene({
     [
       refs.npcs.maren_of_fairhaven,
       ' is at the rope line with her child, begging for a single place.',
+    ],
+    [
+      refs.npcs.corwin_hale,
+      ', a ferry helmsman, shoves through the crowd away from the quay, refusing everyone who begs him to fly.',
     ],
     [
       'The ferry will not lift. The bounce of the beam drained its crystal, and the soldiers have sent for ',
