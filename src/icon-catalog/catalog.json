@@ -237125,6 +237125,7 @@
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/token.html",
       "usedIn": [
+        "src/components/dm/party-tokens.tsx",
         "src/data/items/nimbus-casino-vip-card.ts",
         "src/data/locations/borris-s-gambling-den.ts",
         "src/lib/item-icons.tsx",
@@ -296098,6 +296099,7 @@
       "sourceUrl": "https://lucide.dev/icons/minus",
       "usedIn": [
         "src/components/dm/encounter/hp-control.tsx",
+        "src/components/dm/party-tokens.tsx",
         "src/components/dm/ship-damage-clock.tsx"
       ]
     },
@@ -301914,6 +301916,7 @@
         "src/components/dm/encounter/add-combatant.tsx",
         "src/components/dm/encounter/combat-status.tsx",
         "src/components/dm/encounter/hp-control.tsx",
+        "src/components/dm/party-tokens.tsx",
         "src/components/dm/ship-damage-clock.tsx",
         "src/routes/dm/encounter/index.tsx"
       ]
