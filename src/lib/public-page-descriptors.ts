@@ -18,7 +18,6 @@ import {
   type EventMarkVisual,
 } from '#/lib/campaign'
 
-export const SITE_ORIGIN = 'https://the-lost-hope.netlify.app'
 export const SOCIAL_PREVIEW_VERSION = 'world-window-v1'
 
 export type PublicPageKind = 'home' | 'intro' | 'questions' | 'collection' | 'locations' | 'detail'

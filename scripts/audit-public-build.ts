@@ -11,9 +11,9 @@ import { getEntity, locationParent } from '../src/lib/campaign'
 import { publicAssetUrl } from '../src/lib/public-media'
 import {
   PUBLIC_PAGE_DESCRIPTORS,
-  SITE_ORIGIN,
   validatePublicPageDescriptors,
 } from '../src/lib/public-page-descriptors'
+import { SITE_ORIGIN } from '../src/lib/site-origin'
 import { jpegFrame } from './jpeg'
 
 const ROOT = process.cwd()

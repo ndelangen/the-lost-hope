@@ -215,8 +215,8 @@ async function installPortrait(slug: string, png: string) {
 }
 
 /**
- * Writing campaign data restarts the Vite server (the config imports the registries), which
- * recreates this plugin. Jobs live on `globalThis` so a running portrait survives the restart.
+ * Jobs live on `globalThis` so a running portrait survives a Vite server restart (editing the
+ * config or a file it imports), which recreates this plugin.
  */
 const portraits: Map<string, PortraitJob> = ((
   globalThis as { theLostHopeDmPortraitJobs?: Map<string, PortraitJob> }
