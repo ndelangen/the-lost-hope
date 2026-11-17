@@ -40,7 +40,7 @@ export default createScene({
       '. They won’t succeed.”',
     ],
     [
-      'He casts a small Zone of Truth around the party and puts the same two questions to each party member in the room, one at a time.',
+      'He casts a small Zone of Truth around the party and then Detect Thoughts, both in plain sight. He puts the same two questions to each party member in the room, one at a time, and reads that one’s thoughts as they answer.',
     ],
     ['“Are you associated with ', refs.organizations.the_eyeless_hand, ' in any way?”'],
     ['“Are you, or have you been, under the influence of arcane dust recently?”'],
@@ -71,6 +71,25 @@ export default createScene({
       'Zone of Truth: everyone in it makes the save from his stat block. Whoever fails cannot tell a deliberate lie, but may stay silent or dodge the question. ',
       refs.npcs.onana_tempest,
       ' knows who failed.',
+    ],
+    [
+      'After each question, ask the player: “',
+      refs.npcs.onana_tempest,
+      ' asks you this question and probes your mind for your true thoughts about it. What is your character truly thinking right now?” Let ',
+      refs.npcs.onana_tempest,
+      ' react to the thought, not to the spoken answer.',
+    ],
+    [
+      'Detect Thoughts: reading surface thoughts needs no save. He only probes deeper when someone resisted the Zone of Truth and their answer sounds off. That is the ',
+      refs.rules.wis,
+      ' save in his stat block, and the target feels it either way.',
+    ],
+    [
+      'A character can recognise Detect Thoughts as he casts it with a DC 17 ',
+      refs.rules.arcana,
+      ' check. ',
+      refs.pcs.auren,
+      ' is the likeliest to make it.',
     ],
     [
       'The arcane dust question is a major hint. Ask it word for word, of every party member: “under the influence” is not the same as “used”.',
