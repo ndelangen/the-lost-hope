@@ -157,6 +157,9 @@ export default createScene({
       refs.organizations.the_eyeless_hand,
       ' caught in a destroyed sector are gone.',
     ],
+    [
+      'A destroyed sector stays on the map as difficult terrain: torn, burning deck. Track damage from the player-screen dock while a deck map is showing, and the map shows it to the players.',
+    ],
     ['The DC of the save and the fall damage are first choices, so change them freely.'],
   ],
   outcomes: [
@@ -300,6 +303,5 @@ export default createScene({
     vessel: refs.items.ride_the_lightning,
     everySeconds: 180,
     damageDie: 1,
-    sectorHitPoints: 5,
   },
 })

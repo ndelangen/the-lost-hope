@@ -71,7 +71,8 @@ canon.
 - A scene's `npcs` is its cast. A scene that can turn into a fight lists who fights and how many in
   `opponents`, which seeds the encounter. Do not restate those counts in prose.
 - A plot lists only NPCs its scene does not already cast. The plot's full cast is derived.
-- A vessel's layout (`hull` sectors and escape pods) lives on its item. A scene's `shipDamage` holds
+- A vessel's layout (`hull` sectors, their hit points and escape pods) lives on its item. A deck
+  map's location says where each sector lies on that map (`deck`). A scene's `shipDamage` holds
   only the pacing, and the clock shows the numbers, so the scene text does not repeat them.
 - NPCs own their motivations. Reference the NPC from prep so you can read the motivation alongside
   the scene. Arc and scene references come from the generated `refs.arcs` and `refs.scenes` namespaces.
