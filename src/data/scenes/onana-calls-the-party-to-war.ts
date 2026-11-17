@@ -112,11 +112,29 @@ export default createScene({
         [
           'He also has ',
           refs.npcs.captain_garran,
-          ' hand out Potions of Healing from the ship’s stores, as many as they ask for. Each one restores 2d4 + 2 ',
+          ' give each of them three Potions of Healing and one ',
+          refs.items.long_rest_in_a_bottle,
+          ', from his own reserve. A Potion of Healing restores 2d4 + 2 ',
           refs.rules.hit_points,
           ' and takes a ',
           refs.rules.bonus_action,
-          ' to drink. Nobody has rested today, so let them drink before they board.',
+          ' to drink.',
+        ],
+        [
+          'Nobody has rested today, so let them drink the ',
+          refs.items.long_rest_in_a_bottle,
+          ' before they board. It is still the same day: press “Long rest”, not “New day”.',
+        ],
+      ],
+    },
+    {
+      when: [['They ask what is in the ', refs.items.long_rest_in_a_bottle, ', now or later.']],
+      response: [
+        [
+          refs.npcs.onana_tempest,
+          ' tells them the truth, which is in the background of ',
+          refs.items.long_rest_in_a_bottle,
+          '. He does not bring it up himself. Whether they still drink is their call: let the silence sit.',
         ],
       ],
     },

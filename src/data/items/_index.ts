@@ -19,6 +19,7 @@ import grimgor_s_skull_breaker from './grimgor-s-skull-breaker.ts'
 import jaded_amulet from './jaded-amulet.ts'
 import jim_s_kenku_suit from './jim-s-kenku-suit.ts'
 import lights_unidentified_drops from './lights-unidentified-drops.ts'
+import long_rest_in_a_bottle from './long-rest-in-a-bottle.ts'
 import master_of_puppets from './master-of-puppets.ts'
 import mimic_cloak from './mimic-cloak.ts'
 import nimbus_casino_vip_card from './nimbus-casino-vip-card.ts'
@@ -50,6 +51,7 @@ export default {
   beasts_and_dwarf_s_airship,
   master_of_puppets,
   ride_the_lightning,
+  long_rest_in_a_bottle,
 
   devan_s_wandering_priest_robe,
   devan_s_corrected_holy_text,

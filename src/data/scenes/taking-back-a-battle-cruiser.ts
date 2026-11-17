@@ -106,7 +106,7 @@ export default createScene({
     [
       'Supplies in the middle of the fight: ',
       refs.npcs.captain_garran,
-      ' can fire a boarding torpedo packed with supplies into whatever part of the ship the party holds. It opens like the others, with Potions of Healing inside. Use it when the party is running dry, or when a player thinks to signal for it. ',
+      ' can fire a boarding torpedo packed with supplies into whatever part of the ship the party holds. It opens like the others, with Potions of Healing inside. This is your call, not something they can count on: watch how they are doing, and send it when the fight is going badly and they would rather go on than bail out through the escape pods. A player can also think to signal for it. ',
       refs.npcs.crowy,
       ' can carry the request across.',
     ],
