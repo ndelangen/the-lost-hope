@@ -236,6 +236,7 @@ export const refs = {
     old_pell: ref('npc', 'old_pell'),
     sergeant_bruna_kell: ref('npc', 'sergeant_bruna_kell'),
     shipyard_ent: ref('npc', 'shipyard_ent'),
+    hollin_slowbough: ref('npc', 'hollin_slowbough'),
     silas_wren: ref('npc', 'silas_wren'),
     tempest_soldier: ref('npc', 'tempest_soldier'),
     the_fiddler_s_knight: ref('npc', 'the_fiddler_s_knight'),

@@ -6,7 +6,7 @@ export default createScene({
   illustration: '/assets/scenes/the-ents-hold-the-shipyard.png',
   location: refs.locations.skynet_airship_shipyard,
   battleMaps: [refs.locations.beasts_and_dwarf_s_airship_decks],
-  npcs: [refs.npcs.esia, refs.npcs.shipyard_ent],
+  npcs: [refs.npcs.esia, refs.npcs.hollin_slowbough, refs.npcs.shipyard_ent],
   references: [
     refs.pcs.auren,
     refs.items.beasts_and_dwarf_s_airship,
@@ -20,6 +20,13 @@ export default createScene({
       'A crowd presses against the shipyard gate, hoping for a hull off the island. Six ',
       refs.npcs.shipyard_ent,
       's stand shoulder to shoulder across it and push people back. The soldiers have not reached the yard yet.',
+    ],
+    [
+      'One of the six is ',
+      refs.npcs.hollin_slowbough,
+      ', the old holly ent ',
+      refs.pcs.jim,
+      ' spoke with on the party’s last visit. He recognises the party and slowly says their names.',
     ],
     [
       'On the slip sits ',
