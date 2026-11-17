@@ -226748,6 +226748,7 @@
         "src/data/npcs/abraham.ts",
         "src/data/npcs/bob-the-gate-troll.ts",
         "src/data/npcs/dragon-of-the-mountain.ts",
+        "src/data/npcs/hollin-slowbough.ts",
         "src/data/npcs/shipyard-ent.ts",
         "src/data/npcs/the-mountain.ts",
         "src/lib/ability-icons.tsx"
@@ -239092,6 +239093,7 @@
       "usedIn": [
         "src/data/beasts/ent-guardians.ts",
         "src/data/npcs/goblin-grass-keepers.ts",
+        "src/data/npcs/hollin-slowbough.ts",
         "src/data/npcs/shipyard-ent.ts",
         "src/data/npcs/verdant-haven-rangers.ts",
         "src/lib/ability-icons.tsx"
