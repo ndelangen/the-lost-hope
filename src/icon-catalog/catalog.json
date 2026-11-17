@@ -272750,7 +272750,6 @@
       "sourceUrl": "https://lucide.dev/icons/eye-off",
       "usedIn": [
         "src/components/campaign-shell/dm-controls.tsx",
-        "src/components/dm/dm-npc-reference.tsx",
         "src/components/player-screen/player-screen-dock.tsx",
         "src/lib/condition-icons.tsx"
       ]

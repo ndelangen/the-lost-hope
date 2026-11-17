@@ -4,11 +4,13 @@ import { create as createScene } from '#/definitions/scene.ts'
 export default createScene({
   name: 'Boarded by the battle-cruiser',
   illustration: '/assets/scenes/boarded-by-the-battle-cruiser.png',
-  location: refs.locations.skynet,
+  location: refs.locations.beasts_and_dwarf_s_airship_decks,
+  alternateLocations: [refs.locations.sky_bridge_ferry],
   battleMaps: [
     refs.locations.beasts_and_dwarf_s_airship_decks,
     refs.locations.sky_bridge_ferry,
     refs.locations.master_of_puppets_main_deck,
+    refs.locations.skynet_airship_shipyard,
   ],
   npcs: [refs.npcs.captain_garran, refs.npcs.tempest_soldier],
   references: [

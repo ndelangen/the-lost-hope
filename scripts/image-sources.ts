@@ -21,6 +21,48 @@ export type ResponsiveImageSource = {
 
 export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
   {
+    id: 'location-map-nimbus-sky-bridge-landing',
+    role: 'map',
+    logicalSource: '/assets/maps/nimbus-sky-bridge-landing.jpg',
+    repositoryPath: 'assets/images/maps/nimbus-sky-bridge-landing.png',
+  },
+  {
+    id: 'location-map-skynet-sky-bridge-landing',
+    role: 'map',
+    logicalSource: '/assets/maps/skynet-sky-bridge-landing.jpg',
+    repositoryPath: 'assets/images/maps/skynet-sky-bridge-landing.png',
+  },
+  {
+    id: 'location-illustration-skynet-sky-bridge-landing',
+    role: 'illustration',
+    logicalSource: '/assets/locations/skynet-sky-bridge-landing-illustration.png',
+    repositoryPath: 'assets/images/content/locations/skynet-sky-bridge-landing-illustration.png',
+  },
+  {
+    id: 'location-map-night-mothers-church',
+    role: 'map',
+    logicalSource: '/assets/maps/night-mothers-church.jpg',
+    repositoryPath: 'assets/images/maps/night-mothers-church.png',
+  },
+  {
+    id: 'location-illustration-night-mothers-church',
+    role: 'illustration',
+    logicalSource: '/assets/locations/night-mothers-church-illustration.png',
+    repositoryPath: 'assets/images/content/locations/night-mothers-church-illustration.png',
+  },
+  {
+    id: 'location-map-temple-of-the-watchers',
+    role: 'map',
+    logicalSource: '/assets/maps/temple-of-the-watchers.jpg',
+    repositoryPath: 'assets/images/maps/temple-of-the-watchers.png',
+  },
+  {
+    id: 'location-illustration-temple-of-the-watchers',
+    role: 'illustration',
+    logicalSource: '/assets/locations/temple-of-the-watchers-illustration.png',
+    repositoryPath: 'assets/images/content/locations/temple-of-the-watchers-illustration.png',
+  },
+  {
     id: 'location-map-ride-the-lightning-main-deck',
     role: 'map',
     logicalSource: '/assets/maps/ride-the-lightning-main-deck.jpg',

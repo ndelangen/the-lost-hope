@@ -7,33 +7,21 @@ import type { SceneBranch } from '#/lib/scene-branches'
 
 const followUpLabel = (count: number) => `${count} follow-up${count === 1 ? '' : 's'}`
 
-/** A scene's "if…" branches as a folding tree: follow-ups sit inside the branch they depend on. */
-export function SceneBranches({
-  branches,
-  showCast = false,
-}: {
-  branches: SceneBranch[]
-  /** Show a brief for each NPC a branch names, inside that branch. */
-  showCast?: boolean
-}) {
+/**
+ * A scene's "if…" branches as a folding tree: follow-ups sit inside the branch they depend on,
+ * and every NPC a branch names gets a brief inside it, so the DM can play them without leaving.
+ */
+export function SceneBranches({ branches }: { branches: SceneBranch[] }) {
   return (
     <ul className="grid gap-2">
       {branches.map((branch) => (
-        <FoldingBranch key={branch.id} branch={branch} depth={0} showCast={showCast} />
+        <FoldingBranch key={branch.id} branch={branch} depth={0} />
       ))}
     </ul>
   )
 }
 
-function FoldingBranch({
-  branch,
-  depth,
-  showCast,
-}: {
-  branch: SceneBranch
-  depth: number
-  showCast: boolean
-}) {
+function FoldingBranch({ branch, depth }: { branch: SceneBranch; depth: number }) {
   return (
     <li>
       <details open={depth === 0} className="group bg-muted/50 rounded-md">
@@ -50,7 +38,7 @@ function FoldingBranch({
         </summary>
         <div className="grid gap-3 px-3 pb-3 pl-11">
           <ContentRenderer content={branch.response} className="text-muted-foreground" />
-          {showCast && branch.npcs.length > 0 ? (
+          {branch.npcs.length > 0 ? (
             <ul className="grid gap-2">
               {branch.npcs.map((npc) => (
                 <li key={npc.key}>
@@ -66,12 +54,7 @@ function FoldingBranch({
               <p className="text-muted-foreground text-xs font-semibold uppercase">Then, if…</p>
               <ul className="grid gap-2">
                 {branch.followUps.map((child) => (
-                  <FoldingBranch
-                    key={child.id}
-                    branch={child}
-                    depth={depth + 1}
-                    showCast={showCast}
-                  />
+                  <FoldingBranch key={child.id} branch={child} depth={depth + 1} />
                 ))}
               </ul>
             </div>
