@@ -28,7 +28,7 @@ const GAME_ICONS_METADATA_PATH = path.join(ROOT, 'src/icon-catalog/upstream/game
 const LUCIDE_ICONS_DIR = path.join(ROOT, 'node_modules/lucide-react/dist/esm/icons')
 const LUCIDE_DYNAMIC_IMPORTS_PATH = path.join(
   ROOT,
-  'node_modules/lucide-react/dist/esm/dynamicIconImports.js',
+  'node_modules/lucide-react/dist/esm/dynamicIconImports.mjs',
 )
 const FONT_AWESOME_BRANDS_DIR = path.join(
   ROOT,
@@ -121,12 +121,12 @@ async function filesBelow(directory: string): Promise<Array<string>> {
 }
 
 async function lucideSeeds(): Promise<Array<IconMetadataSeed>> {
-  const iconFiles = (await readdir(LUCIDE_ICONS_DIR)).filter((file) => file.endsWith('.js'))
+  const iconFiles = (await readdir(LUCIDE_ICONS_DIR)).filter((file) => file.endsWith('.mjs'))
   const dynamicImports = await readFile(LUCIDE_DYNAMIC_IMPORTS_PATH, 'utf8')
   const aliasesByFile = new Map<string, Array<string>>()
 
   for (const match of dynamicImports.matchAll(
-    /"(?<alias>[^"]+)": \(\) => import\('\.\/icons\/(?<file>[^']+)\.js'\)/gu,
+    /"(?<alias>[^"]+)": \(\) => import\('\.\/icons\/(?<file>[^']+)\.mjs'\)/gu,
   )) {
     const alias = match.groups?.alias
     const file = match.groups?.file
@@ -140,11 +140,9 @@ async function lucideSeeds(): Promise<Array<IconMetadataSeed>> {
     await Promise.all(
       iconFiles.map(async (file) => {
         const source = await readFile(path.join(LUCIDE_ICONS_DIR, file), 'utf8')
-        const match = /const (?<componentName>\w+) = createLucideIcon\(\s*"(?<slug>[^"]+)"/u.exec(
-          source,
-        )
-        const componentName = match?.groups?.componentName
-        const slug = match?.groups?.slug
+        const componentName = /const (?<componentName>\w+) = createLucideIcon\(/u.exec(source)
+          ?.groups?.componentName
+        const slug = /name: "(?<slug>[^"]+)"/u.exec(source)?.groups?.slug
         if (!componentName || !slug) return undefined
 
         const aliases = (aliasesByFile.get(slug) ?? []).filter((alias) => alias !== slug)

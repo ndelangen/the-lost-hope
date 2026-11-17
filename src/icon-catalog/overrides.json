@@ -2411,11 +2411,11 @@
     "classification": "questionable",
     "classificationReason": "Manually classified as questionable from the /_icons review page."
   },
-  "lucide/Angry": {
+  "lucide/FaceAngry": {
     "classification": "questionable",
     "classificationReason": "Manually classified as questionable from the /_icons review page."
   },
-  "lucide/Annoyed": {
+  "lucide/FaceExpressionless": {
     "classification": "questionable",
     "classificationReason": "Manually classified as questionable from the /_icons review page."
   },
@@ -2651,7 +2651,7 @@
     "classification": "questionable",
     "classificationReason": "Manually classified as questionable from the /_icons review page."
   },
-  "lucide/BatteryWarning": {
+  "lucide/BatteryExclamationPoint": {
     "classification": "questionable",
     "classificationReason": "Manually classified as questionable from the /_icons review page."
   },
@@ -2719,7 +2719,7 @@
     "classification": "marked-for-deletion",
     "classificationReason": "Manually marked for deletion from the /_icons review page."
   },
-  "lucide/Bold": {
+  "lucide/LetterB": {
     "classification": "questionable",
     "classificationReason": "Manually classified as questionable from the /_icons review page."
   },
@@ -2791,14 +2791,6 @@
     "classification": "marked-for-deletion",
     "classificationReason": "Manually marked for deletion from the /_icons review page."
   },
-  "lucide/Codepen": {
-    "classification": "questionable",
-    "classificationReason": "Manually classified as questionable from the /_icons review page."
-  },
-  "lucide/Codesandbox": {
-    "classification": "questionable",
-    "classificationReason": "Manually classified as questionable from the /_icons review page."
-  },
   "lucide/Computer": {
     "classification": "marked-for-deletion",
     "classificationReason": "Manually marked for deletion from the /_icons review page."
@@ -2807,11 +2799,11 @@
     "classification": "marked-for-deletion",
     "classificationReason": "Manually marked for deletion from the /_icons review page."
   },
-  "lucide/FileCode2": {
+  "lucide/FileCodeCorner": {
     "classification": "marked-for-deletion",
     "classificationReason": "Manually marked for deletion from the /_icons review page."
   },
-  "lucide/Fingerprint": {
+  "lucide/FingerprintPattern": {
     "classification": "marked-for-deletion",
     "classificationReason": "Manually marked for deletion from the /_icons review page."
   },

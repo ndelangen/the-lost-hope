@@ -5,7 +5,7 @@ export default createEvent({
   name: 'Jim receives a final-warning letter',
   day: 2,
   location: refs.locations.fajanet_guildhall,
-  mark: { type: 'icon', name: 'lucide/MailWarning' },
+  mark: { type: 'icon', name: 'lucide/MailExclamationPoint' },
   notes: [
     [
       'Back at the ',

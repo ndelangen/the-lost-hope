@@ -1,4 +1,4 @@
-import { MailWarning, Toilet } from 'lucide-react'
+import { MailExclamationPoint, Toilet } from 'lucide-react'
 import type { ComponentType } from 'react'
 import { FaHandshake, FaMapMarkerAlt, FaPrescriptionBottleAlt, FaUsersSlash } from 'react-icons/fa'
 import {
@@ -90,7 +90,7 @@ export const EVENT_ICONS: Record<string, EventIcon> = {
   'fa/FaMapMarkerAlt': FaMapMarkerAlt,
   'fa/FaPrescriptionBottleAlt': FaPrescriptionBottleAlt,
   'fa/FaUsersSlash': FaUsersSlash,
-  'lucide/MailWarning': MailWarning,
+  'lucide/MailExclamationPoint': MailExclamationPoint,
   'lucide/Toilet': Toilet,
   'gi/GiAngelWings': GiAngelWings,
   'gi/GiBarricade': GiBarricade,
