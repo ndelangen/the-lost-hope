@@ -83863,7 +83863,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/anthem.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/npcs/captain-garran.ts",
+        "src/lib/ability-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiAntiAircraftGun",
@@ -143903,7 +143906,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/foot-trip.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/npcs/captain-garran.ts",
+        "src/lib/ability-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiFootyField",
@@ -154526,6 +154532,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/healing.html",
       "usedIn": [
+        "src/data/npcs/captain-garran.ts",
         "src/data/npcs/misha.ts",
         "src/data/npcs/silas-wren.ts",
         "src/lib/ability-icons.tsx"
@@ -166783,7 +166790,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/knight-banner.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/npcs/captain-garran.ts",
+        "src/lib/ability-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiKnockedOutStars",
@@ -201401,7 +201411,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/rally-the-troops.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/npcs/captain-garran.ts",
+        "src/lib/ability-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiRam",
