@@ -2,7 +2,9 @@ import { useRouterState } from '@tanstack/react-router'
 import {
   ChevronLeft,
   ChevronRight,
+  Crosshair,
   EyeOff,
+  Maximize2,
   Monitor,
   MonitorOff,
   MonitorUp,
@@ -47,6 +49,8 @@ import { cn } from '#/lib/utils'
 
 import { GridControls } from './grid-controls'
 import { JimsLetterWordsControl } from './jims-letter-words-control'
+import { PointerSurface } from './pointer-surface'
+import { PointingView } from './pointing-view'
 import { ShipDamageControl } from './ship-damage-control'
 import { openPlayerScreen, usePlayerScreen, usePlayerScreenPresent } from './use-player-screen'
 
@@ -57,6 +61,8 @@ export function PlayerScreenDock() {
   const showing = playerScreenShowing(state)
   const present = usePlayerScreenPresent()
   const current = showing ? resolvePlayerScreenImage(showing) : undefined
+  const pointable = pointablePicture(state)
+  const [pointing, setPointing] = useState(false)
   const panelRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -85,6 +91,7 @@ export function PlayerScreenDock() {
       if (event.metaKey || event.ctrlKey || event.altKey || isTyping(event.target)) return
       if (event.key === '[') update((current) => stepPlayerScreen(current, -1))
       else if (event.key === ']') update((current) => stepPlayerScreen(current, 1))
+      else if (event.key === 'p' || event.key === 'P') setPointing((value) => !value)
     }
     window.addEventListener('keydown', onKeyDown)
     return () => window.removeEventListener('keydown', onKeyDown)
@@ -92,6 +99,9 @@ export function PlayerScreenDock() {
 
   return (
     <div ref={panelRef} className="fixed right-4 bottom-4 z-[150] flex flex-col items-end gap-3">
+      {pointing && pointable ? (
+        <PointingView {...pointable} onClose={() => setPointing(false)} />
+      ) : null}
       {open ? (
         <PlayerScreenPanel
           state={state}
@@ -99,6 +109,7 @@ export function PlayerScreenDock() {
           onShow={show}
           onJump={(index) => update((current) => jumpPlayerScreen(current, index))}
           onClear={() => update(clearPlayerScreenHistory)}
+          onPoint={() => setPointing(true)}
           onCaptions={(value) => update((state) => ({ ...state, captions: value }))}
           onRotate={(value) => update((state) => ({ ...state, rotation: value }))}
           onGrid={(change) =>
@@ -113,6 +124,16 @@ export function PlayerScreenDock() {
       <div className="bg-card text-card-foreground border-border flex items-center gap-1 rounded-full border p-1 shadow-lg">
         <HistoryButton direction={-1} state={state} onStep={step} />
         <HistoryButton direction={1} state={state} onStep={step} />
+        <button
+          type="button"
+          onClick={() => setPointing(true)}
+          disabled={!pointable}
+          aria-label="Point at the picture on the player screen"
+          title={pointable ? 'Point (P)' : 'Show a picture to point at it'}
+          className="hover:bg-muted grid size-9 shrink-0 place-items-center rounded-full disabled:opacity-35 disabled:hover:bg-transparent"
+        >
+          <Crosshair className="size-5" aria-hidden />
+        </button>
         <button
           type="button"
           onClick={() => setOpen((value) => !value)}
@@ -149,6 +170,23 @@ export function PlayerScreenDock() {
       </div>
     </div>
   )
+}
+
+/** The picture on the player screen, with what the DM needs to point at it, if it can be pointed at. */
+function pointablePicture(state: PlayerScreenState) {
+  const showing = playerScreenShowing(state)
+  const image = showing ? resolvePlayerScreenImage(showing) : undefined
+  const size = image?.src ? responsiveImageFor(image.src) : undefined
+  if (!showing || !image?.src || !size) return undefined
+  return {
+    picture: playerScreenImageId(showing),
+    name: image.name,
+    src: image.src,
+    width: size.width,
+    height: size.height,
+    grid: playerScreenGridFor(state, showing),
+    deck: showing.image === 'map' ? shipDeckMap(showing.ref.key) : undefined,
+  }
 }
 
 function isTyping(target: EventTarget | null): boolean {
@@ -232,6 +270,7 @@ function PlayerScreenPanel({
   onShow,
   onJump,
   onClear,
+  onPoint,
   onCaptions,
   onRotate,
   onGrid,
@@ -242,6 +281,7 @@ function PlayerScreenPanel({
   onShow: (selection: PlayerScreenImage | null) => void
   onJump: (index: number) => void
   onClear: () => void
+  onPoint: () => void
   onCaptions: (value: boolean) => void
   onRotate: (value: PlayerScreenRotation) => void
   onGrid: (change: (grid: PlayerScreenGrid) => PlayerScreenGrid) => void
@@ -260,6 +300,7 @@ function PlayerScreenPanel({
   const src = showing ? resolvePlayerScreenImage(showing)?.src : undefined
   const size = src ? responsiveImageFor(src) : undefined
   const deck = showing?.image === 'map' ? shipDeckMap(showing.ref.key) : undefined
+  const pointable = pointablePicture(state)
 
   return (
     <section
@@ -347,6 +388,7 @@ function PlayerScreenPanel({
           <JimsLetterWordsControl />
         ) : null}
         {deck ? <ShipDamageControl deck={deck} /> : null}
+        {pointable ? <PointSection pointable={pointable} onPoint={onPoint} /> : null}
         <ShownHistory state={state} onJump={onJump} onClear={onClear} />
         {showing && src && size ? (
           <GridControls
@@ -395,6 +437,44 @@ function PlayerScreenPanel({
         <EyeOff className="mr-1 inline size-3.5 align-[-2px]" aria-hidden />
         marks records the party has not met. Their names never appear on the player screen.
       </p>
+    </section>
+  )
+}
+
+/** A copy of the picture on the player screen to ping or laser-point at, and a way to make it big. */
+function PointSection({
+  pointable,
+  onPoint,
+}: {
+  pointable: NonNullable<ReturnType<typeof pointablePicture>>
+  onPoint: () => void
+}) {
+  return (
+    <section aria-label="Point" className="flex flex-col gap-2">
+      <div className="flex items-center gap-2">
+        <span className="text-muted-foreground w-12 shrink-0 text-xs font-semibold uppercase">
+          Point
+        </span>
+        <p className="text-muted-foreground min-w-0 flex-1 text-xs leading-tight">
+          Click to ping. Hold and drag for a laser.
+        </p>
+        <button
+          type="button"
+          onClick={onPoint}
+          className="border-border hover:bg-muted flex h-9 items-center gap-2 rounded-lg border px-3 text-sm font-medium"
+        >
+          <Maximize2 className="size-4" aria-hidden />
+          Big view (P)
+        </button>
+      </div>
+      <div className="grid place-items-center rounded-lg bg-black p-1">
+        <PointerSurface
+          {...pointable}
+          markSize="2.25rem"
+          className="max-w-full"
+          style={{ height: '12rem' }}
+        />
+      </div>
     </section>
   )
 }

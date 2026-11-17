@@ -197,3 +197,49 @@
     animation: none;
   }
 }
+
+/* The DM's ping on the player screen: rings that grow from the spot and fade. */
+.player-screen-ping {
+  translate: -50% -50%;
+  opacity: 0;
+  animation-name: player-screen-ping;
+  animation-timing-function: cubic-bezier(0.2, 0.7, 0.3, 1);
+  animation-fill-mode: both;
+}
+
+@keyframes player-screen-ping {
+  from {
+    scale: 0.3;
+    opacity: 1;
+  }
+  to {
+    scale: 2.6;
+    opacity: 0;
+  }
+}
+
+.player-screen-ping-core {
+  translate: -50% -50%;
+  animation-name: player-screen-ping-core;
+  animation-timing-function: ease-in;
+  animation-fill-mode: both;
+}
+
+@keyframes player-screen-ping-core {
+  0% {
+    scale: 0;
+    opacity: 1;
+  }
+  10% {
+    scale: 1.2;
+  }
+  20%,
+  70% {
+    scale: 1;
+    opacity: 1;
+  }
+  to {
+    scale: 1;
+    opacity: 0;
+  }
+}

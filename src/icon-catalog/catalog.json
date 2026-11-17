@@ -274625,7 +274625,10 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/crosshair",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/player-screen-dock.tsx",
+        "src/components/player-screen/pointing-view.tsx"
+      ]
     },
     {
       "id": "lucide/Crown",
@@ -293859,7 +293862,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/maximize-2",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/player-screen-dock.tsx"
+      ]
     },
     {
       "id": "lucide/Medal",
@@ -324511,7 +324516,8 @@
         "src/components/dm/encounter/encounter-roster.tsx",
         "src/components/dm/encounter/turn-card.tsx",
         "src/components/image-viewer.tsx",
-        "src/components/player-screen/player-screen-dock.tsx"
+        "src/components/player-screen/player-screen-dock.tsx",
+        "src/components/player-screen/pointing-view.tsx"
       ]
     },
     {
