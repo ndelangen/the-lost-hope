@@ -12,6 +12,7 @@ import {
 } from 'lucide-react'
 import { useCallback, useEffect, useRef, useState } from 'react'
 
+import { DifficultTerrainBadge } from '#/components/ship/difficult-terrain-badge'
 import { SHIP_DAMAGE_DICE, type ShipDamageDie } from '#/definitions/scene'
 import {
   adjustSector,
@@ -173,9 +174,7 @@ function SectorTile({
         </span>
         <span className="text-muted-foreground flex flex-wrap items-center gap-x-2 gap-y-0.5 text-xs">
           {sector.destroyed ? (
-            <span className="font-semibold text-red-600 uppercase dark:text-red-400">
-              Destroyed
-            </span>
+            <DifficultTerrainBadge />
           ) : (
             <span className="tabular-nums">
               {sector.damage}/{hitPoints} damage

@@ -8,6 +8,7 @@ export default createItem({
   carriedBy: null,
   craftedBy: null,
   hull: {
+    sectorHitPoints: 5,
     port: [
       { name: 'Port bow', escapePods: true },
       { name: 'Port battery', escapePods: true },
