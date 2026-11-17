@@ -796,6 +796,12 @@ export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
     repositoryPath: 'assets/images/content/scenes/the-green-beam-over-the-sky-islands.png',
   },
   {
+    id: 'scenes-the-green-pulse-over-the-sky-islands',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-green-pulse-over-the-sky-islands.png',
+    repositoryPath: 'assets/images/content/scenes/the-green-pulse-over-the-sky-islands.png',
+  },
+  {
     id: 'npcs-silas-wren-portrait',
     role: 'avatar',
     logicalSource: '/assets/npcs/silas-wren-portrait.png',

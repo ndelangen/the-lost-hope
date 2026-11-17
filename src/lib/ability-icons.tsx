@@ -84,12 +84,32 @@ import {
   GiSaberAndPistol,
   GiCosmicEgg,
   GiWhiplash,
+  GiGhostAlly,
+  GiHealingShield,
+  GiKneeling,
+  GiRuneSword,
+  GiShadowGrasp,
+  GiSpikedHalo,
+  GiAnthem,
+  GiFootTrip,
+  GiKnightBanner,
+  GiRallyTheTroops,
 } from 'react-icons/gi'
 
 type AbilityIcon = ComponentType<{ className?: string; 'aria-hidden'?: boolean }>
 
 /** Curated icon-catalog registry for stat-block abilities. Icons depict the individual ability. */
 export const ABILITY_ICONS: Record<string, AbilityIcon> = {
+  'gi/GiAnthem': GiAnthem,
+  'gi/GiFootTrip': GiFootTrip,
+  'gi/GiKnightBanner': GiKnightBanner,
+  'gi/GiRallyTheTroops': GiRallyTheTroops,
+  'gi/GiGhostAlly': GiGhostAlly,
+  'gi/GiHealingShield': GiHealingShield,
+  'gi/GiKneeling': GiKneeling,
+  'gi/GiRuneSword': GiRuneSword,
+  'gi/GiShadowGrasp': GiShadowGrasp,
+  'gi/GiSpikedHalo': GiSpikedHalo,
   'gi/GiAngelWings': GiAngelWings,
   'gi/GiBatWing': GiBatWing,
   'gi/GiBattleAxe': GiBattleAxe,

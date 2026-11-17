@@ -1,15 +1,20 @@
 import { describe, expect, it } from 'vitest'
 
-import { SceneShipDamage } from '#/definitions/scene'
+import { ShipHull } from '#/definitions/item'
+import { SHIP_DAMAGE_DICE, SceneShipDamage } from '#/definitions/scene'
 
 import {
   adjustSector,
   advanceTimer,
   brokenSlice,
+  estimatedMinutesToBreak,
   formatCountdown,
   hitSector,
   initialShipDamage,
-  parseShipDamage,
+  parseHullDamage,
+  parseShipClock,
+  setSectorDamage,
+  setSectorDestroyed,
   pauseTimer,
   remainingMs,
   rollDamage,
@@ -18,28 +23,33 @@ import {
   shipSectors,
   sliceStatuses,
   startTimer,
+  type ShipUnderFire,
 } from './ship-damage'
 
 const sector = (name: string, escapePods = true) => ({ name, escapePods })
 
-const ship = SceneShipDamage.parse({
-  vessel: { ref: 'item', key: 'cruiser' },
-  everySeconds: 180,
-  damageDie: 1,
-  sectorHitPoints: 5,
-  port: [
-    sector('Port bow'),
-    sector('Port battery'),
-    sector('Crystal chamber', false),
-    sector('Helm', false),
-  ],
-  starboard: [
-    sector('Starboard bow'),
-    sector('Starboard battery'),
-    sector('Barracks'),
-    sector('Stern hold'),
-  ],
-})
+const ship: ShipUnderFire = {
+  ...SceneShipDamage.parse({
+    vessel: { ref: 'item', key: 'cruiser' },
+    everySeconds: 180,
+    damageDie: 1,
+  }),
+  ...ShipHull.parse({
+    sectorHitPoints: 5,
+    port: [
+      sector('Port bow'),
+      sector('Port battery'),
+      sector('Crystal chamber', false),
+      sector('Helm', false),
+    ],
+    starboard: [
+      sector('Starboard bow'),
+      sector('Starboard battery'),
+      sector('Barracks'),
+      sector('Stern hold'),
+    ],
+  }),
+}
 
 /** One damage on each listed sector. Indexes: port 0 to 3 from the bow, then starboard 4 to 7. */
 function hits(indexes: number[], from = initialShipDamage(ship)) {
@@ -83,10 +93,17 @@ describe('ship damage', () => {
     expect(sliceStatuses(ship, hits([5], nearly))[1]).toBe('broken')
   })
 
+  it('estimates how long a fresh ship lasts on each damage die', () => {
+    const minutes = SHIP_DAMAGE_DICE.map((die) => estimatedMinutesToBreak(ship, die))
+    expect(minutes[0]).toBeGreaterThan(75)
+    expect(minutes[0]).toBeLessThan(95)
+    expect(minutes).toEqual(minutes.toSorted((a, b) => b - a))
+  })
+
   it('refuses a ship whose sides differ in length', () => {
-    expect(SceneShipDamage.safeParse({ ...ship, starboard: ship.starboard.slice(1) }).success).toBe(
-      false,
-    )
+    expect(
+      ShipHull.safeParse({ port: ship.port, starboard: ship.starboard.slice(1) }).success,
+    ).toBe(false)
   })
 
   it('runs the timer on repeat and owes one hit for every interval that passed', () => {
@@ -141,23 +158,43 @@ describe('ship damage', () => {
     expect(rollSlice(ship, 0.999)).toBe(3)
   })
 
-  it('starts fresh when stored state does not fit the ship', () => {
-    const fresh = initialShipDamage(ship)
-    expect(parseShipDamage(null, ship)).toEqual(fresh)
-    expect(parseShipDamage('not json', ship)).toEqual(fresh)
-    expect(parseShipDamage(JSON.stringify({ ...fresh, damage: [1, 2] }), ship)).toEqual(fresh)
-    const stored = { damage: [1, 9, 0, 0, 0, 0, 0, 0], endsAt: 5, remainingMs: 10, owed: 1 }
-    expect(parseShipDamage(JSON.stringify(stored), ship)).toEqual({
-      ...stored,
+  it('starts fresh when stored hull damage does not fit the ship', () => {
+    const fresh = { damage: initialShipDamage(ship).damage }
+    expect(parseHullDamage(null, ship)).toEqual(fresh)
+    expect(parseHullDamage('not json', ship)).toEqual(fresh)
+    expect(parseHullDamage(JSON.stringify({ damage: [1, 2] }), ship)).toEqual(fresh)
+    expect(parseHullDamage(JSON.stringify({ damage: [1, 9, 0, 0, 0, 0, 0, 0] }), ship)).toEqual({
       damage: [1, 5, 0, 0, 0, 0, 0, 0],
+    })
+  })
+
+  it('reads a stored clock, and falls back to the scene for an unknown die', () => {
+    const stored = { endsAt: 5, remainingMs: 10, owed: 1, damageDie: 4 }
+    expect(parseShipClock(JSON.stringify(stored), ship)).toEqual(stored)
+    expect(parseShipClock(JSON.stringify({ ...stored, damageDie: 5 }), ship).damageDie).toBe(1)
+    expect(parseShipClock('not json', ship)).toEqual({
+      remainingMs: 180_000,
+      owed: 0,
       damageDie: 1,
     })
   })
 
-  it('remembers the die picked at the table, and falls back to the scene for an unknown one', () => {
-    const picked = setDamageDie(initialShipDamage(ship), 4)
-    expect(parseShipDamage(JSON.stringify(picked), ship).damageDie).toBe(4)
-    expect(parseShipDamage(JSON.stringify({ ...picked, damageDie: 5 }), ship).damageDie).toBe(1)
+  it('sets a sector’s damage by hand within its hit points', () => {
+    const fresh = initialShipDamage(ship)
+    expect(setSectorDamage(fresh, ship, 2, 3).damage[2]).toBe(3)
+    expect(setSectorDamage(fresh, ship, 2, 12).damage[2]).toBe(5)
+    expect(setSectorDamage(fresh, ship, 2, -4).damage[2]).toBe(0)
+  })
+
+  it('marks a sector destroyed through its damage, so the two never disagree', () => {
+    const destroyed = setSectorDestroyed(initialShipDamage(ship), ship, 5, true)
+    expect(shipSectors(ship, destroyed)[5]?.destroyed).toBe(true)
+    expect(destroyed.damage[5]).toBe(5)
+    const standing = setSectorDestroyed(destroyed, ship, 5, false)
+    expect(shipSectors(ship, standing)[5]?.destroyed).toBe(false)
+    expect(standing.damage[5]).toBe(4)
+    const worn = setSectorDamage(initialShipDamage(ship), ship, 1, 2)
+    expect(setSectorDestroyed(worn, ship, 1, false)).toBe(worn)
   })
 
   it('formats the countdown, rounding up', () => {
