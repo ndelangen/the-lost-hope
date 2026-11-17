@@ -83863,7 +83863,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/anthem.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/npcs/captain-garran.ts",
+        "src/lib/ability-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiAntiAircraftGun",
@@ -143903,7 +143906,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/foot-trip.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/npcs/captain-garran.ts",
+        "src/lib/ability-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiFootyField",
@@ -147739,7 +147745,9 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/ghost-ally.html",
       "usedIn": [
+        "src/data/npcs/silas-wren.ts",
         "src/data/sessions/the-ghost-and-the-gambler.ts",
+        "src/lib/ability-icons.tsx",
         "src/lib/session-icons.tsx"
       ]
     },
@@ -154524,7 +154532,9 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/healing.html",
       "usedIn": [
+        "src/data/npcs/captain-garran.ts",
         "src/data/npcs/misha.ts",
+        "src/data/npcs/silas-wren.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -154577,7 +154587,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/healing-shield.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/npcs/silas-wren.ts",
+        "src/lib/ability-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiHealthCapsule",
@@ -158186,6 +158199,7 @@
       "usedIn": [
         "src/data/npcs/gruumsh-high-priest.ts",
         "src/data/npcs/light-13th-marshal.ts",
+        "src/data/npcs/silas-wren.ts",
         "src/data/npcs/the-12th-marshal.ts",
         "src/data/quests/mountain-holy-site.ts",
         "src/lib/ability-icons.tsx",
@@ -166577,7 +166591,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/kneeling.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/npcs/silas-wren.ts",
+        "src/lib/ability-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiKneePad",
@@ -166773,7 +166790,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/knight-banner.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/npcs/captain-garran.ts",
+        "src/lib/ability-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiKnockedOutStars",
@@ -180016,6 +180036,7 @@
       "usedIn": [
         "src/data/beasts/displacer-beast.ts",
         "src/data/npcs/misha.ts",
+        "src/data/npcs/silas-wren.ts",
         "src/data/npcs/throne-figure-in-jim-s-vision.ts",
         "src/lib/ability-icons.tsx"
       ]
@@ -198022,7 +198043,6 @@
         "src/data/npcs/rudolf-tempest.ts",
         "src/data/npcs/ryan.ts",
         "src/data/npcs/sarogarth.ts",
-        "src/data/npcs/silas-wren.ts",
         "src/data/npcs/skynet-gang-leader.ts",
         "src/data/npcs/sylvia-s-brother.ts",
         "src/data/npcs/tempest-patriarch.ts",
@@ -201391,7 +201411,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/rally-the-troops.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/npcs/captain-garran.ts",
+        "src/lib/ability-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiRam",
@@ -206247,7 +206270,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/rune-sword.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/npcs/silas-wren.ts",
+        "src/lib/ability-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiRunningNinja",
@@ -211039,6 +211065,8 @@
         "src/data/events/n2-e078.ts",
         "src/data/events/n2-e127.ts",
         "src/data/locations/serpent-eclipse-shadow-arena.ts",
+        "src/data/npcs/silas-wren.ts",
+        "src/lib/ability-icons.tsx",
         "src/lib/event-icons.tsx",
         "src/lib/location-icons.tsx"
       ]
@@ -221246,7 +221274,10 @@
       "useCases": [],
       "classification": "useful",
       "classificationReason": "Manually classified as useful from the /_icons review page.",
-      "usedIn": []
+      "usedIn": [
+        "src/data/npcs/silas-wren.ts",
+        "src/lib/ability-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiSpikedMace",
