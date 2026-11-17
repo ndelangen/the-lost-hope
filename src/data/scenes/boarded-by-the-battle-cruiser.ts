@@ -15,6 +15,14 @@ export default createScene({
   npcs: [refs.npcs.captain_garran, refs.npcs.tempest_soldier],
   setup: [
     [
+      refs.pcs.cassian_veyl,
+      ', ',
+      refs.pcs.devan,
+      ' and ',
+      refs.pcs.auren,
+      ' are the ones on the ship.',
+    ],
+    [
       'Wherever the chase ended, in the air on ',
       refs.items.beasts_and_dwarf_s_airship,
       ', on the ferry, or with the ship still on the slip at the shipyard, ',
@@ -104,7 +112,7 @@ export default createScene({
     ],
     reinforcements: [
       [
-        'Six more soldiers jump across at the end of every round. The party can see forty or more on the cruiser’s deck.',
+        'They keep coming: two more soldiers jump across at the end of every round, with no end to them. Put two tokens on the table each round so the players see the tide rising. Forty or more still stand on the cruiser’s deck.',
       ],
     ],
     exits: [['None worth taking: over the side is the ocean, far below.']],
