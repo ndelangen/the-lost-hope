@@ -175,7 +175,45 @@ export default createScene({
           refs.items.nimbus_dungeon_stamp_card,
           '.',
         ],
+        [
+          'In the pile is a coded letter from ',
+          refs.pcs.jim,
+          '. Hand ',
+          refs.pcs.swift_starblade,
+          '’s player the printed letter. Its one plain line points at page 4 of the ',
+          refs.items.pocket_holy_text_of_grimgor,
+          ', which lies in the same pile: hand him that page too.',
+        ],
+        [
+          'Decoding it is his job while you run the group on ',
+          refs.locations.skynet,
+          '. Cut back to him between their scenes and ask how far he is. His own part opens with his own word. The shared part needs all four words, and one of them is the word of ',
+          refs.npcs.crowy,
+          ', so it will most likely wait until the party is back together.',
+        ],
+        [
+          'If he failed the save against the pulse, he does not remember ',
+          refs.pcs.jim,
+          '. Hand him the letter anyway: a stranger who knows him this well is the better mystery.',
+        ],
         ['Cut to the group on ', refs.locations.skynet, '.'],
+      ],
+      followUps: [
+        {
+          when: [['The player gets stuck, or would rather skip the puzzle.']],
+          response: [
+            [
+              'Help in steps, so he keeps something to do. First fill in the table for his own word with him. Then give him his own part decoded. Only then give him the whole letter decoded.',
+            ],
+            [
+              'The whole letter at once is the fastest way out, but it leaves him waiting while you run ',
+              refs.locations.skynet,
+              '. If you do it, give his other moments on the docks more room: saving ',
+              refs.npcs.crowy,
+              ', the tongue, and what he does with the gear.',
+            ],
+          ],
+        },
       ],
     },
   ],
