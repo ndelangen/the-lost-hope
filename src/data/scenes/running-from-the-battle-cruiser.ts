@@ -3,6 +3,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 
 export default createScene({
   name: 'Running from the battle-cruiser',
+  illustration: '/assets/scenes/running-from-the-battle-cruiser.png',
   location: refs.locations.skynet_nimbus_crossing,
   battleMaps: [refs.locations.beasts_and_dwarf_s_airship_decks, refs.locations.sky_bridge_ferry],
   npcs: [refs.npcs.captain_garran, refs.npcs.tempest_soldier],

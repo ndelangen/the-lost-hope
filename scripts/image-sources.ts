@@ -21,6 +21,86 @@ export type ResponsiveImageSource = {
 
 export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
   {
+    id: 'npcs-dust-lost-sailor-portrait',
+    role: 'avatar',
+    logicalSource: '/assets/npcs/dust-lost-sailor-portrait.png',
+    repositoryPath: 'assets/images/content/npcs/dust-lost-sailor-portrait.png',
+  },
+  {
+    id: 'scenes-running-from-the-battle-cruiser',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/running-from-the-battle-cruiser.png',
+    repositoryPath: 'assets/images/content/scenes/running-from-the-battle-cruiser.png',
+  },
+  {
+    id: 'scenes-boarding-ride-the-lightning',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/boarding-ride-the-lightning.png',
+    repositoryPath: 'assets/images/content/scenes/boarding-ride-the-lightning.png',
+  },
+  {
+    id: 'location-illustration-nimbus-harbour-ferry-quay',
+    role: 'illustration',
+    logicalSource: '/assets/locations/nimbus-harbour-ferry-quay-illustration.png',
+    repositoryPath: 'assets/images/content/locations/nimbus-harbour-ferry-quay-illustration.png',
+  },
+  {
+    id: 'location-illustration-sky-bridge-ferry',
+    role: 'illustration',
+    logicalSource: '/assets/locations/sky-bridge-ferry-illustration.png',
+    repositoryPath: 'assets/images/content/locations/sky-bridge-ferry-illustration.png',
+  },
+  {
+    id: 'location-illustration-beasts-and-dwarf-s-airship-decks',
+    role: 'illustration',
+    logicalSource: '/assets/locations/beasts-and-dwarf-s-airship-decks-illustration.png',
+    repositoryPath:
+      'assets/images/content/locations/beasts-and-dwarf-s-airship-decks-illustration.png',
+  },
+  {
+    id: 'location-illustration-skynet-nimbus-crossing',
+    role: 'illustration',
+    logicalSource: '/assets/locations/skynet-nimbus-crossing-illustration.png',
+    repositoryPath: 'assets/images/content/locations/skynet-nimbus-crossing-illustration.png',
+  },
+  {
+    id: 'location-map-skynet-nimbus-crossing',
+    role: 'map',
+    logicalSource: '/assets/maps/skynet-nimbus-crossing.jpg',
+    repositoryPath: 'assets/images/maps/skynet-nimbus-crossing.png',
+  },
+  {
+    id: 'location-illustration-master-of-puppets-commanders-office',
+    role: 'illustration',
+    logicalSource: '/assets/locations/master-of-puppets-commanders-office-illustration.png',
+    repositoryPath:
+      'assets/images/content/locations/master-of-puppets-commanders-office-illustration.png',
+  },
+  {
+    id: 'location-map-master-of-puppets-commanders-office',
+    role: 'map',
+    logicalSource: '/assets/maps/master-of-puppets-commanders-office.jpg',
+    repositoryPath: 'assets/images/maps/master-of-puppets-commanders-office.png',
+  },
+  {
+    id: 'location-illustration-master-of-puppets-gun-deck',
+    role: 'illustration',
+    logicalSource: '/assets/locations/master-of-puppets-gun-deck-illustration.png',
+    repositoryPath: 'assets/images/content/locations/master-of-puppets-gun-deck-illustration.png',
+  },
+  {
+    id: 'location-illustration-ride-the-lightning-main-deck',
+    role: 'illustration',
+    logicalSource: '/assets/locations/ride-the-lightning-main-deck-illustration.png',
+    repositoryPath: 'assets/images/content/locations/ride-the-lightning-main-deck-illustration.png',
+  },
+  {
+    id: 'location-illustration-ride-the-lightning-gun-deck',
+    role: 'illustration',
+    logicalSource: '/assets/locations/ride-the-lightning-gun-deck-illustration.png',
+    repositoryPath: 'assets/images/content/locations/ride-the-lightning-gun-deck-illustration.png',
+  },
+  {
     id: 'location-map-nimbus-sky-bridge-landing',
     role: 'map',
     logicalSource: '/assets/maps/nimbus-sky-bridge-landing.jpg',

@@ -3,6 +3,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 
 export default createScene({
   name: 'Boarding Ride the Lightning',
+  illustration: '/assets/scenes/boarding-ride-the-lightning.png',
   location: refs.locations.master_of_puppets_gun_deck,
   battleMaps: [
     refs.locations.master_of_puppets_gun_deck,
