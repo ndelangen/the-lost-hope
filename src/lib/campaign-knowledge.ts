@@ -9,7 +9,7 @@ import {
 } from '#/definitions/kind'
 import { campaignToday, effectEntry, getEntity } from '#/lib/campaign'
 import { PLAYER_VISIBLE_KEYS, SOURCE_REGISTRIES } from '#/lib/campaign-registries'
-import { arcs, creatures, scenes, table } from '#/lib/dm-campaign'
+import { arcs, creatures, plotCast, scenes, table } from '#/lib/dm-campaign'
 import { refText, sourceText } from '#/lib/dm-prep-brief'
 import { buildStorylines, campaignSessionsInOrder } from '#/lib/dm-storylines'
 import { DM_FIELDS, stripDmFields } from '#/lib/player-visibility'
@@ -705,7 +705,8 @@ export function arc(query?: string): string {
     if (plot.hook) out.push(`hook: ${sourceText(plot.hook)}`)
     if (plot.notes) out.push(`notes: ${sourceText(plot.notes)}`)
     if (plot.scene) out.push(`scene: ${name(plot.scene)}`)
-    if (plot.npcs.length) out.push(`npcs: ${plot.npcs.map(name).join(', ')}`)
+    const cast = plotCast(plot)
+    if (cast.length) out.push(`npcs: ${cast.map(name).join(', ')}`)
     for (const event of plot.events) out.push(`- played: ${eventLabel(event.key)}`)
   }
   return out.join('\n')
