@@ -17,6 +17,7 @@ import {
   Users,
 } from 'lucide-react'
 import type { ReactNode } from 'react'
+import { renderToStaticMarkup } from 'react-dom/server'
 import satori from 'satori'
 import sharp from 'sharp'
 /* oxlint-disable no-await-in-loop -- generation is intentionally deterministic and memory-bounded */
@@ -37,7 +38,8 @@ const GENERATED_MODULE = join(ROOT, 'src/generated/social-image-paths.ts')
 const GENERATED_PUBLIC_ASSETS_MODULE = join(ROOT, 'src/generated/public-asset-paths.ts')
 const GENERATED_PUBLIC_PAGE_PATHS = join(ROOT, PUBLIC_PAGE_PATHS_FILE)
 const FONT_DIRECTORY = join(ROOT, 'assets/fonts/inter')
-const RENDERER_VERSIONS = 'satori@0.33.5|@resvg/resvg-js@2.6.2|sharp@0.35.3|jpeg-q85-v1'
+const RENDERER_VERSIONS =
+  'satori@0.33.5|@resvg/resvg-js@2.6.2|sharp@0.35.3|jpeg-q85-v1|lucide-svg-v1'
 
 type Font = {
   name: string
@@ -148,6 +150,10 @@ function titleSize(title: string): number {
 
 function card(page: PublicPageDescriptor, imageDataUrl: string | undefined): ReactNode {
   const Icon = iconFor(page)
+  const iconMarkup = renderToStaticMarkup(
+    <Icon width={66} height={66} strokeWidth={1.7} color="#ffffff" />,
+  )
+  const iconUrl = `data:image/svg+xml;base64,${Buffer.from(iconMarkup).toString('base64')}`
   return (
     <div
       style={{
@@ -316,7 +322,7 @@ function card(page: PublicPageDescriptor, imageDataUrl: string | undefined): Rea
               backgroundColor: 'rgba(0,0,0,.28)',
             }}
           >
-            <Icon width={66} height={66} strokeWidth={1.7} color="#ffffff" />
+            <img src={iconUrl} width={66} height={66} alt="" />
           </div>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '18px' }}>
