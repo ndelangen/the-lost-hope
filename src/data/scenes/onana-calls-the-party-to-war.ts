@@ -10,21 +10,6 @@ export default createScene({
     refs.locations.master_of_puppets_gun_deck,
   ],
   npcs: [refs.npcs.onana_tempest, refs.npcs.captain_garran],
-  references: [
-    refs.npcs.the_father,
-    refs.organizations.the_eyeless_hand,
-    refs.organizations.tempest_family,
-    refs.organizations.beasts_and_dwarf,
-    refs.locations.fairhaven,
-    refs.pcs.cassian_veyl,
-    refs.pcs.devan,
-    refs.pcs.swift_starblade,
-    refs.beasts.wolfie,
-    refs.pcs.jim,
-    refs.items.beasts_and_dwarf_s_airship,
-    refs.items.master_of_puppets,
-    refs.items.ride_the_lightning,
-  ],
   setup: [
     [
       refs.npcs.captain_garran,

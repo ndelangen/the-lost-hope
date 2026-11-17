@@ -7,13 +7,6 @@ export default createScene({
   location: refs.locations.nimbus_sky_bridge_landing,
   battleMaps: [refs.locations.nimbus_sky_bridge_landing],
   npcs: [refs.npcs.silas_wren, refs.npcs.cloaked_snatcher],
-  references: [
-    refs.pcs.jim,
-    refs.pcs.swift_starblade,
-    refs.organizations.the_eyeless_hand,
-    refs.npcs.the_father,
-    refs.npcs.light_13th_marshal,
-  ],
   setup: [
     [
       refs.pcs.swift_starblade,
@@ -30,10 +23,13 @@ export default createScene({
     ],
     [
       refs.pcs.jim,
-      ' is overcome by voices from his past and stumbles. Thirteen men in cloaks close in around the two of them.',
+      ' is overcome by voices from his past and stumbles. Cloaked agents of ',
+      refs.organizations.the_eyeless_hand,
+      ' close in around the two of them.',
     ],
   ],
   notes: [
+    ['“Light” in ', refs.pcs.jim, '’s last words is ', refs.npcs.light_13th_marshal, '.'],
     [
       'Hidden truth: ',
       refs.npcs.the_father,
@@ -133,9 +129,13 @@ export default createScene({
           refs.items.nimbus_dungeon_stamp_card,
           '.',
         ],
-        ['Cut to the group on Skynet.'],
+        ['Cut to the group on ', refs.locations.skynet, '.'],
       ],
     },
+  ],
+  opponents: [
+    { creature: refs.npcs.silas_wren, count: 1 },
+    { creature: refs.npcs.cloaked_snatcher, count: 12 },
   ],
   combat: {
     tactics: [
@@ -144,7 +144,7 @@ export default createScene({
         refs.pcs.jim,
         ' alive and ',
         refs.pcs.swift_starblade,
-        ' out of the way. Four pin him down with saps and grabs; nine grapple ',
+        ' out of the way. Four pin him down with saps and grabs; the rest grapple ',
         refs.pcs.jim,
         ' and try to drag him off. Saps knock out rather than kill.',
       ],

@@ -5,6 +5,23 @@ import { makeCreate } from './create'
 import { EntityRefSchema } from './kind'
 import { deriveSlug } from './slug'
 
+const ShipSector = z.strictObject({
+  name: z.string().trim().min(1),
+  escapePods: z.boolean().describe('Whether this sector has a way off the ship'),
+})
+
+/** A vessel's layout, in slices from bow to stern, each with a port and a starboard sector. */
+export const ShipHull = z
+  .strictObject({
+    port: z.array(ShipSector).min(1).describe('Port sectors, from bow to stern'),
+    starboard: z.array(ShipSector).min(1).describe('Starboard sectors, from bow to stern'),
+  })
+  .refine((hull) => hull.port.length === hull.starboard.length, {
+    message: 'Port and starboard need the same number of sectors',
+  })
+
+export type ShipHull = z.infer<typeof ShipHull>
+
 export const Item = deriveSlug(
   z.strictObject({
     name: z.string().describe('The canonical name of the item'),
@@ -28,6 +45,7 @@ export const Item = deriveSlug(
       .positive()
       .optional()
       .describe('The number represented when this item is a stack rather than a unique object'),
+    hull: ShipHull.optional().describe('A vessel’s sectors, for fights aboard it'),
     notes: Content.optional().describe('Identity or flavor not represented by structured fields'),
     background: Background,
   }),

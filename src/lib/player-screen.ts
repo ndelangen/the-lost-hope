@@ -1,7 +1,7 @@
 import type { AnyKind, EntityRef } from '#/definitions/kind'
 import { DEFAULT_AVATAR, DEFAULT_LOCATION_ILLUSTRATION } from '#/definitions/media'
 import { PLAYER_VISIBLE_KEYS, SOURCE_REGISTRIES } from '#/lib/campaign-registries'
-import { scenes } from '#/lib/dm-campaign'
+import { sceneMentions, scenes } from '#/lib/dm-campaign'
 import { HANDOUTS, type HandoutKey } from '#/lib/handouts'
 import { playerScreenImageId, type PlayerScreenImage } from '#/lib/player-screen-state'
 import { hasPublicAsset } from '#/lib/public-media'
@@ -184,14 +184,7 @@ export function playerScreenOptionsForPage(
     if (kind === 'scene') {
       const scene = scenes[key]
       // Then the characters and places the scene mentions, such as Jim when the Hand comes for him.
-      if (scene)
-        related.push(
-          scene.location,
-          ...scene.alternateLocations,
-          ...scene.battleMaps,
-          ...scene.npcs,
-          ...scene.references,
-        )
+      if (scene) related.push(...sceneMentions(scene))
     }
     const seen = new Set<string>()
     return related.flatMap((ref) =>

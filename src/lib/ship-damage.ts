@@ -1,4 +1,8 @@
+import type { ShipHull } from '#/definitions/item'
 import { SHIP_DAMAGE_DICE, type SceneShipDamage, type ShipDamageDie } from '#/definitions/scene'
+
+/** A scene's damage pacing together with the hull of the vessel it is fought aboard. */
+export type ShipUnderFire = SceneShipDamage & ShipHull
 
 /**
  * Where a ship-damage clock stands at the table. Times are epoch milliseconds, so the clock keeps
@@ -32,15 +36,15 @@ export type ShipSectorView = {
 }
 
 /** How many slices the ship has from bow to stern, which is also the size of the die. */
-export function sliceCount(ship: SceneShipDamage) {
+export function sliceCount(ship: ShipUnderFire) {
   return ship.port.length
 }
 
-function periodMs(ship: SceneShipDamage) {
+function periodMs(ship: ShipUnderFire) {
   return ship.everySeconds * 1000
 }
 
-export function initialShipDamage(ship: SceneShipDamage): ShipDamageState {
+export function initialShipDamage(ship: ShipUnderFire): ShipDamageState {
   return {
     damage: Array.from({ length: sliceCount(ship) * 2 }, () => 0),
     remainingMs: periodMs(ship),
@@ -54,7 +58,7 @@ function isDamageDie(value: unknown): value is ShipDamageDie {
 }
 
 /** Read stored state, falling back to a fresh clock when it does not fit this ship. */
-export function parseShipDamage(raw: string | null, ship: SceneShipDamage): ShipDamageState {
+export function parseShipDamage(raw: string | null, ship: ShipUnderFire): ShipDamageState {
   const fresh = initialShipDamage(ship)
   if (!raw) return fresh
   try {
@@ -102,7 +106,7 @@ export function remainingMs(state: ShipDamageState, now: number) {
  */
 export function advanceTimer(
   state: ShipDamageState,
-  ship: SceneShipDamage,
+  ship: ShipUnderFire,
   now: number,
 ): ShipDamageState {
   if (state.endsAt === undefined || now < state.endsAt) return state
@@ -110,7 +114,7 @@ export function advanceTimer(
   return { ...state, endsAt: state.endsAt + fired * periodMs(ship), owed: state.owed + fired }
 }
 
-function withDamage(state: ShipDamageState, ship: SceneShipDamage, index: number, delta: number) {
+function withDamage(state: ShipDamageState, ship: ShipUnderFire, index: number, delta: number) {
   const current = state.damage[index]
   if (current === undefined) return state.damage
   const next = Math.min(ship.sectorHitPoints, Math.max(0, current + delta))
@@ -133,7 +137,7 @@ export function rollDamage(die: ShipDamageDie, random: number): number {
 /** One hit lands on a sector: it takes the rolled damage and settles one owed hit. */
 export function hitSector(
   state: ShipDamageState,
-  ship: SceneShipDamage,
+  ship: ShipUnderFire,
   index: number,
   damage: number,
 ): ShipDamageState {
@@ -147,7 +151,7 @@ export function hitSector(
 /** Correct a sector by hand, without settling a hit. */
 export function adjustSector(
   state: ShipDamageState,
-  ship: SceneShipDamage,
+  ship: ShipUnderFire,
   index: number,
   delta: number,
 ): ShipDamageState {
@@ -155,7 +159,7 @@ export function adjustSector(
 }
 
 /** Every sector with its damage: port from bow to stern, then starboard. */
-export function shipSectors(ship: SceneShipDamage, state: ShipDamageState): ShipSectorView[] {
+export function shipSectors(ship: ShipUnderFire, state: ShipDamageState): ShipSectorView[] {
   return (['port', 'starboard'] as const).flatMap((side, row) =>
     ship[side].map((sector, slice) => {
       const index = row * ship.port.length + slice
@@ -186,7 +190,7 @@ export type SliceStatus =
   | 'broken'
 
 /** How each slice holds together, from bow to stern. */
-export function sliceStatuses(ship: SceneShipDamage, state: ShipDamageState): SliceStatus[] {
+export function sliceStatuses(ship: ShipUnderFire, state: ShipDamageState): SliceStatus[] {
   const sectors = shipSectors(ship, state)
   return ship.port.map((_, slice) => {
     const pair = sectors.filter((sector) => sector.slice === slice)
@@ -201,7 +205,7 @@ export function sliceStatuses(ship: SceneShipDamage, state: ShipDamageState): Sl
 }
 
 /** The slice where the ship is cut in two, from 0 at the bow. Undefined while it holds together. */
-export function brokenSlice(ship: SceneShipDamage, state: ShipDamageState): number | undefined {
+export function brokenSlice(ship: ShipUnderFire, state: ShipDamageState): number | undefined {
   const slice = sliceStatuses(ship, state).indexOf('broken')
   return slice === -1 ? undefined : slice
 }
@@ -210,7 +214,7 @@ export function brokenSlice(ship: SceneShipDamage, state: ShipDamageState): numb
  * Roll the die for the slice that is hit, from 0 at the bow. `random` is a number from 0 up to but
  * not including 1.
  */
-export function rollSlice(ship: SceneShipDamage, random: number): number {
+export function rollSlice(ship: ShipUnderFire, random: number): number {
   return Math.floor(random * sliceCount(ship))
 }
 
@@ -218,4 +222,40 @@ export function rollSlice(ship: SceneShipDamage, random: number): number {
 export function formatCountdown(ms: number) {
   const seconds = Math.ceil(Math.max(0, ms) / 1000)
   return `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, '0')}`
+}
+
+/**
+ * Roughly how many minutes of play a fresh ship lasts on a damage die, when the DM spreads the
+ * hits to keep it afloat: each hit goes to the weaker-hit side of the rolled slice. Averaged over
+ * a fixed set of simulated fights.
+ */
+export function estimatedMinutesToBreak(ship: ShipUnderFire, die: ShipDamageDie, runs = 2000) {
+  // mulberry32, seeded, so every render gives the same estimate.
+  let seed = 1
+  const random = () => {
+    seed = (seed + 0x6d2b79f5) | 0
+    let t = Math.imul(seed ^ (seed >>> 15), 1 | seed)
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296
+  }
+  const slices = sliceCount(ship)
+  let totalHits = 0
+  for (let run = 0; run < runs; run += 1) {
+    const damage = Array.from({ length: slices * 2 }, () => 0)
+    const down = (index: number) => damage[index]! >= ship.sectorHitPoints
+    for (;;) {
+      totalHits += 1
+      const slice = rollSlice(ship, random())
+      const port = slice
+      const starboard = slices + slice
+      const target = down(port)
+        ? starboard
+        : down(starboard) || damage[port]! <= damage[starboard]!
+          ? port
+          : starboard
+      damage[target] = damage[target]! + rollDamage(die, random())
+      if (down(port) && down(starboard)) break
+    }
+  }
+  return Math.round(((totalHits / runs) * ship.everySeconds) / 60)
 }

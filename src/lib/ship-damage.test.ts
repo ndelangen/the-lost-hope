@@ -1,11 +1,13 @@
 import { describe, expect, it } from 'vitest'
 
-import { SceneShipDamage } from '#/definitions/scene'
+import { ShipHull } from '#/definitions/item'
+import { SHIP_DAMAGE_DICE, SceneShipDamage } from '#/definitions/scene'
 
 import {
   adjustSector,
   advanceTimer,
   brokenSlice,
+  estimatedMinutesToBreak,
   formatCountdown,
   hitSector,
   initialShipDamage,
@@ -18,28 +20,33 @@ import {
   shipSectors,
   sliceStatuses,
   startTimer,
+  type ShipUnderFire,
 } from './ship-damage'
 
 const sector = (name: string, escapePods = true) => ({ name, escapePods })
 
-const ship = SceneShipDamage.parse({
-  vessel: { ref: 'item', key: 'cruiser' },
-  everySeconds: 180,
-  damageDie: 1,
-  sectorHitPoints: 5,
-  port: [
-    sector('Port bow'),
-    sector('Port battery'),
-    sector('Crystal chamber', false),
-    sector('Helm', false),
-  ],
-  starboard: [
-    sector('Starboard bow'),
-    sector('Starboard battery'),
-    sector('Barracks'),
-    sector('Stern hold'),
-  ],
-})
+const ship: ShipUnderFire = {
+  ...SceneShipDamage.parse({
+    vessel: { ref: 'item', key: 'cruiser' },
+    everySeconds: 180,
+    damageDie: 1,
+    sectorHitPoints: 5,
+  }),
+  ...ShipHull.parse({
+    port: [
+      sector('Port bow'),
+      sector('Port battery'),
+      sector('Crystal chamber', false),
+      sector('Helm', false),
+    ],
+    starboard: [
+      sector('Starboard bow'),
+      sector('Starboard battery'),
+      sector('Barracks'),
+      sector('Stern hold'),
+    ],
+  }),
+}
 
 /** One damage on each listed sector. Indexes: port 0 to 3 from the bow, then starboard 4 to 7. */
 function hits(indexes: number[], from = initialShipDamage(ship)) {
@@ -83,10 +90,17 @@ describe('ship damage', () => {
     expect(sliceStatuses(ship, hits([5], nearly))[1]).toBe('broken')
   })
 
+  it('estimates how long a fresh ship lasts on each damage die', () => {
+    const minutes = SHIP_DAMAGE_DICE.map((die) => estimatedMinutesToBreak(ship, die))
+    expect(minutes[0]).toBeGreaterThan(75)
+    expect(minutes[0]).toBeLessThan(95)
+    expect(minutes).toEqual(minutes.toSorted((a, b) => b - a))
+  })
+
   it('refuses a ship whose sides differ in length', () => {
-    expect(SceneShipDamage.safeParse({ ...ship, starboard: ship.starboard.slice(1) }).success).toBe(
-      false,
-    )
+    expect(
+      ShipHull.safeParse({ port: ship.port, starboard: ship.starboard.slice(1) }).success,
+    ).toBe(false)
   })
 
   it('runs the timer on repeat and owes one hit for every interval that passed', () => {

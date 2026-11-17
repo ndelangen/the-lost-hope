@@ -7,15 +7,6 @@ export default createScene({
   location: refs.locations.skynet_sky_bridge_landing,
   battleMaps: [refs.locations.skynet_sky_bridge_landing, refs.locations.sky_bridge_ferry],
   npcs: [refs.npcs.maren_of_fairhaven, refs.npcs.sergeant_bruna_kell, refs.npcs.tempest_soldier],
-  references: [
-    refs.pcs.auren,
-    refs.npcs.esia,
-    refs.pcs.cassian_veyl,
-    refs.pcs.devan,
-    refs.pcs.swift_starblade,
-    refs.locations.nimbus,
-    refs.organizations.tempest_family,
-  ],
   setup: [
     [
       'The ferry landing on ',

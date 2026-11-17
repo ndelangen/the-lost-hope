@@ -6,16 +6,6 @@ export default createScene({
   location: refs.locations.skynet_nimbus_crossing,
   battleMaps: [refs.locations.beasts_and_dwarf_s_airship_decks, refs.locations.sky_bridge_ferry],
   npcs: [refs.npcs.corwin_hale, refs.npcs.captain_garran, refs.npcs.tempest_soldier],
-  references: [
-    refs.npcs.onana_tempest,
-    refs.items.master_of_puppets,
-    refs.items.beasts_and_dwarf_s_airship,
-    refs.organizations.tempest_family,
-    refs.locations.nimbus,
-    refs.pcs.cassian_veyl,
-    refs.pcs.devan,
-    refs.pcs.swift_starblade,
-  ],
   setup: [
     [
       'Halfway across to ',

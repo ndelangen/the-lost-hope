@@ -6,21 +6,6 @@ export default createScene({
   illustration: '/assets/scenes/the-green-beam-over-the-sky-islands.png',
   location: refs.locations.skynet_s_second_best_inn,
   npcs: [refs.npcs.abraham],
-  references: [
-    refs.npcs.maren_of_fairhaven,
-    refs.npcs.old_pell,
-    refs.npcs.sergeant_bruna_kell,
-    refs.npcs.tempest_soldier,
-    refs.pcs.cassian_veyl,
-    refs.pcs.devan,
-    refs.pcs.swift_starblade,
-    refs.beasts.wolfie,
-    refs.pcs.jim,
-    refs.npcs.the_father,
-    refs.organizations.the_eyeless_hand,
-    refs.pcs.fix,
-    refs.locations.nimbus,
-  ],
   setup: [
     [
       'From ',
