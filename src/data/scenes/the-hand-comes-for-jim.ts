@@ -242,6 +242,11 @@ export default createScene({
         {
           note: [
             [
+              'The letter calls it the Book of Gruumsh. That is this book: it is the holy text of the ',
+              refs.organizations.church_of_gruumsh,
+              '.',
+            ],
+            [
               'The two blades are meant for ',
               refs.pcs.auren,
               ', who merges with them in ',
