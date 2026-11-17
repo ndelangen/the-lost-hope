@@ -329,6 +329,7 @@ export const refs = {
     ride_the_lightning_main_deck: ref('location', 'ride_the_lightning_main_deck'),
     master_of_puppets_main_deck: ref('location', 'master_of_puppets_main_deck'),
     ride_the_lightning_gun_deck: ref('location', 'ride_the_lightning_gun_deck'),
+    master_of_puppets_commanders_office: ref('location', 'master_of_puppets_commanders_office'),
     master_of_puppets_gun_deck: ref('location', 'master_of_puppets_gun_deck'),
     sky_bridge_ferry: ref('location', 'sky_bridge_ferry'),
     beasts_and_dwarf_s_airship_decks: ref('location', 'beasts_and_dwarf_s_airship_decks'),
