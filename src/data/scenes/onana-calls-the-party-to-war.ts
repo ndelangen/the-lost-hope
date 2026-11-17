@@ -73,11 +73,19 @@ export default createScene({
       ' knows who failed.',
     ],
     [
-      'After each question, ask the player: “',
+      'The thoughts go on paper. Before the scene, give every player a card with their character’s name on it. When ',
       refs.npcs.onana_tempest,
-      ' asks you this question and probes your mind for your true thoughts about it. What is your character truly thinking right now?” Let ',
+      ' asks, tell them all at once: “',
       refs.npcs.onana_tempest,
-      ' react to the thought, not to the spoken answer.',
+      ' asks you this question and probes your mind for your true thoughts about it. Write down what your character is truly thinking right now.” One sentence for each question, about thirty seconds.',
+    ],
+    [
+      'They answer aloud in turn while the others write, so the table hears the spoken answers and only you see the thoughts. Read the cards silently, then play the reaction of ',
+      refs.npcs.onana_tempest,
+      ' to each character out loud: he reacts to the thought, not to the spoken answer.',
+    ],
+    [
+      'Keep the cards. The recording will not hold the thoughts, so they are the only record for the session notes.',
     ],
     [
       'Detect Thoughts: reading surface thoughts needs no save. He only probes deeper when someone resisted the Zone of Truth and their answer sounds off. That is the ',
