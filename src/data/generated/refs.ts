@@ -25,6 +25,7 @@ export const refs = {
   },
   events: {
     n2_e204: ref('event', 'n2_e204'),
+    n2_e205: ref('event', 'n2_e205'),
     n2_e203: ref('event', 'n2_e203'),
     n2_e202: ref('event', 'n2_e202'),
     n2_e201: ref('event', 'n2_e201'),

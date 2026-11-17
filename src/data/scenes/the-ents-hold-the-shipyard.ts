@@ -24,9 +24,7 @@ export default createScene({
     [
       'One of the six is ',
       refs.npcs.hollin_slowbough,
-      ', the old holly ent ',
-      refs.pcs.jim,
-      ' spoke with on the party’s last visit. He recognises the party and slowly says their names.',
+      '. He recognises the party from their last visit and slowly says their names.',
     ],
     [
       'On the slip sits ',
