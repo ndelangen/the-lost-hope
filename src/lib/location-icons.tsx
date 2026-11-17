@@ -125,7 +125,7 @@ import {
 import { LOCATION_TYPE_LABELS, type LocationType } from '#/definitions/location.ts'
 import { cn } from '#/lib/utils'
 
-export const LOCATION_TYPE_ICONS: Record<LocationType, LucideIcon> = {
+const LOCATION_TYPE_ICONS: Record<LocationType, LucideIcon> = {
   settlement: Building2,
   region: Map,
   district: Building2,
@@ -147,7 +147,7 @@ export function locationTypeLabel(type: LocationType, plural = false): string {
 }
 
 /** Placeholder shown when a location has no `icon`. */
-export const LOCATION_ICON_PLACEHOLDER = 'fa/FaMapMarkerAlt'
+const LOCATION_ICON_PLACEHOLDER = 'fa/FaMapMarkerAlt'
 
 type LocationGlyph = ComponentType<{ className?: string; 'aria-hidden'?: boolean }>
 
@@ -266,7 +266,7 @@ export const LOCATION_ICONS: Record<string, LocationGlyph> = {
   [LOCATION_ICON_PLACEHOLDER]: FaMapMarkerAlt,
 }
 
-export function resolveLocationIcon(icon?: string): LocationGlyph {
+function resolveLocationIcon(icon?: string): LocationGlyph {
   return (icon ? LOCATION_ICONS[icon] : undefined) ?? LOCATION_ICONS[LOCATION_ICON_PLACEHOLDER]
 }
 

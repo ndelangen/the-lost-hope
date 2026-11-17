@@ -8,7 +8,7 @@ export const ABILITY_TIMINGS = ['action', 'bonus action', 'reaction', 'trait'] a
 
 export type AbilityTiming = (typeof ABILITY_TIMINGS)[number]
 
-export const SPEED_MODES = ['walk', 'climb', 'fly', 'swim', 'burrow'] as const
+const SPEED_MODES = ['walk', 'climb', 'fly', 'swim', 'burrow'] as const
 export const CHALLENGE_RATINGS = [
   '0',
   '1/8',
@@ -72,7 +72,7 @@ const Attack = z.discriminatedUnion('kind', [
 export type Attack = z.infer<typeof Attack>
 
 /** Area shapes from the rules glossary. */
-export const AREA_SHAPES = ['cone', 'cube', 'line', 'sphere', 'emanation'] as const
+const AREA_SHAPES = ['cone', 'cube', 'line', 'sphere', 'emanation'] as const
 
 const Feet = z.number().int().positive().describe('Feet')
 
@@ -295,7 +295,6 @@ export const StatBlock = z
   })
 
 export type StatBlock = z.infer<typeof StatBlock>
-export type TimedAbility = StatBlock['abilities'][number]
 
 /**
  * An NPC's or beast's statistics: its own stat block, or a reference to the shared creature it is

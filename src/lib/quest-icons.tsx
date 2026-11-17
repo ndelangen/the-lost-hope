@@ -55,7 +55,7 @@ export const QUEST_ICONS = {
 
 const DEFAULT_ICON = GiMagicPortal
 
-export function resolveQuestIcon(icon: string): IconType {
+function resolveQuestIcon(icon: string): IconType {
   return QUEST_ICONS[icon as keyof typeof QUEST_ICONS] ?? DEFAULT_ICON
 }
 

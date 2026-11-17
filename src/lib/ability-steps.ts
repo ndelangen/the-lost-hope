@@ -28,7 +28,7 @@ export type DmStep = {
 }
 
 /** Where an ability sits in the stat block, which decides when the DM may use it. */
-export type AbilitySource = 'action' | 'bonus action' | 'reaction' | 'trait' | 'legendary' | 'lair'
+type AbilitySource = 'action' | 'bonus action' | 'reaction' | 'trait' | 'legendary' | 'lair'
 
 const text = (value: string): StepPart => ({ kind: 'text', text: value })
 const value = (shown: string): StepPart => ({ kind: 'value', text: shown })

@@ -68,7 +68,7 @@ export function placeTrail(location: LocationRef, parentOf: ParentOf): LocationR
   return trail
 }
 
-export type ArcSceneGroup = {
+type ArcSceneGroup = {
   /** Undefined for scenes no plot points at. */
   arc?: { key: string; arc: Arc }
   scenes: readonly OverviewScene[]
@@ -101,7 +101,7 @@ export function groupScenesByArc(scenes: readonly OverviewScene[]): ArcSceneGrou
   ]
 }
 
-export type PlaceSceneGroup = {
+type PlaceSceneGroup = {
   /** The settlement or site the scenes happen in. */
   place: LocationRef
   /** The places holding it, outermost first. */

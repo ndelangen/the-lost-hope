@@ -7,7 +7,7 @@ import { DEFAULT_AVATAR, MediaUrl, Portrait } from './media'
 import { deriveSlug } from './slug'
 import { OwnOrSharedStatBlock } from './stat-block'
 
-export const Beast = deriveSlug(
+const Beast = deriveSlug(
   z.strictObject({
     name: z.string().describe('The name of the Beast'),
     avatar: MediaUrl.default(DEFAULT_AVATAR).describe('The avatar of the Beast'),

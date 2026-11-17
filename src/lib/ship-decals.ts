@@ -1,12 +1,12 @@
 /** A point on a map, in map pixels. */
-export type MapPoint = readonly [number, number]
+type MapPoint = readonly [number, number]
 
-export type Scorch = { x: number; y: number; r: number }
-export type Crack = { points: MapPoint[]; width: number }
-export type Ember = { x: number; y: number; r: number }
+type Scorch = { x: number; y: number; r: number }
+type Crack = { points: MapPoint[]; width: number }
+type Ember = { x: number; y: number; r: number }
 
 /** The marks drawn over one compartment of a deck map. */
-export type CompartmentDecals = {
+type CompartmentDecals = {
   scorches: Scorch[]
   cracks: Crack[]
   embers: Ember[]

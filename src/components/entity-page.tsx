@@ -232,15 +232,6 @@ export function EntityDetailHeader({
   )
 }
 
-export function EntityNotFound({ kind }: { kind: EntityKind }) {
-  return (
-    <Stack gap="lg">
-      <EntityBackLink kind={kind} />
-      <p className="text-destructive">Entry not found.</p>
-    </Stack>
-  )
-}
-
 function EntityBackLink({ kind }: { kind: EntityKind }) {
   return (
     <Link to={collectionTo(kind)} className="text-muted-foreground hover:text-foreground text-sm">

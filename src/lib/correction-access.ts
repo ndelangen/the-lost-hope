@@ -4,14 +4,14 @@ export const CORRECTION_ACCESS_STORAGE_KEY = 'dag:corrections:access-code'
 
 const CORRECTION_ACCESS_SYNC_EVENT = 'dag:corrections:access-code-change'
 
-export type CorrectionAccessStatus = 'checking' | 'locked' | 'unlocked' | 'revoked'
+type CorrectionAccessStatus = 'checking' | 'locked' | 'unlocked' | 'revoked'
 
 type CorrectionAccessState = {
   status: CorrectionAccessStatus
   accessCode: string
 }
 
-export async function hashCorrectionAccessCode(value: string): Promise<string> {
+async function hashCorrectionAccessCode(value: string): Promise<string> {
   const digest = await globalThis.crypto.subtle.digest('SHA-256', new TextEncoder().encode(value))
   return Array.from(new Uint8Array(digest), (byte) => byte.toString(16).padStart(2, '0')).join('')
 }

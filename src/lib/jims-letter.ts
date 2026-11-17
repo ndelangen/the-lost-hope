@@ -2,7 +2,7 @@ import { refs } from '#/data/generated/refs.ts'
 import type { EntityRef } from '#/definitions/kind'
 import { normalizePassword, unsealText, type SealedText } from '#/lib/sealed-text'
 
-export const LETTER_SECTION_IDS = ['devan', 'cassian', 'swift', 'crowy'] as const
+const LETTER_SECTION_IDS = ['devan', 'cassian', 'swift', 'crowy'] as const
 export type LetterSectionId = (typeof LETTER_SECTION_IDS)[number]
 
 /** The words typed so far, by the section they open. */

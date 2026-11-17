@@ -235,7 +235,7 @@ export function arcAge(line: Storyline, latest: number) {
 }
 
 /** A record a storyline can be filtered on, written `kind:key` so it fits in a URL. */
-export type FocusKey = `${EntityRef['ref']}:${string}`
+type FocusKey = `${EntityRef['ref']}:${string}`
 
 export function focusKey(ref: EntityRef): FocusKey {
   return `${ref.ref}:${ref.key}`
@@ -272,7 +272,7 @@ export function storylineReferences(line: Storyline): Set<FocusKey> {
   return found
 }
 
-export type StorylineFilters = {
+type StorylineFilters = {
   /** Only storylines that touch this record. */
   focus?: EntityRef
   /** Only storylines that still have open plots. */

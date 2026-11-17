@@ -18,7 +18,7 @@ export const PlayerScreenGrid = z.strictObject({
 
 export type PlayerScreenGrid = z.infer<typeof PlayerScreenGrid>
 
-export const MIN_GRID_CELL = 0.01
+const MIN_GRID_CELL = 0.01
 export const MAX_GRID_CELL = 0.5
 
 /** A grid the DM has not aligned yet: 24 squares across, starting at the top-left corner. */

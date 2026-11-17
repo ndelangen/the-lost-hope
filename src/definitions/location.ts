@@ -46,7 +46,7 @@ export const LocationConnection = z.strictObject({
 
 export type LocationConnection = z.infer<typeof LocationConnection>
 
-export const LocationIllustrationUrl = MediaUrl.refine(
+const LocationIllustrationUrl = MediaUrl.refine(
   (value) =>
     LOCATION_ILLUSTRATION_PATH.test(value) && !value.split('/').some((segment) => segment === '..'),
   {

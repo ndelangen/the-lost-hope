@@ -23,7 +23,7 @@ import {
 type StoryEntityKind = 'session' | 'event'
 export type SidebarCollectionKind = Exclude<EntityKind, StoryEntityKind>
 
-export type SidebarNavItem = {
+type SidebarNavItem = {
   slug: string
   name: string
   avatar?: string
@@ -166,13 +166,11 @@ export const sidebarSessions = sortedSessions().map((session) => ({
   ),
 }))
 
-export function isSidebarCollectionKind(
-  kind: EntityKind | undefined,
-): kind is SidebarCollectionKind {
+function isSidebarCollectionKind(kind: EntityKind | undefined): kind is SidebarCollectionKind {
   return sidebarCollections.some((collection) => collection.kind === kind)
 }
 
-export type SidebarRouteState = {
+type SidebarRouteState = {
   activeKind?: EntityKind
   activeSlug?: string
   expansionIds: string[]

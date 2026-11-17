@@ -6,11 +6,9 @@ import { DEFAULT_AVATAR, MediaUrl, Portrait } from './media'
 import { Membership } from './organization'
 import { deriveSlug } from './slug'
 
-export { DEFAULT_AVATAR, DEFAULT_AVATAR as DEFAULT_PC_AVATAR } from './media'
+const PC_STATUSES = ['active', 'retired', 'occasional'] as const
 
-export const PC_STATUSES = ['active', 'retired', 'occasional'] as const
-
-export const PreviousPortrait = Portrait.extend({
+const PreviousPortrait = Portrait.extend({
   until: z
     .number()
     .int()

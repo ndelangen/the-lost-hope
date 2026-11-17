@@ -4,7 +4,7 @@ import type { TokenHolding, Tokens } from '#/definitions/tokens'
 export type TokenKind = 'dm' | 'curse'
 export type TokenCounts = Pick<TokenHolding, TokenKind>
 
-export const NO_TOKENS: TokenCounts = { dm: 0, curse: 0 }
+const NO_TOKENS: TokenCounts = { dm: 0, curse: 0 }
 
 /** Adds `delta` tokens of one kind, never going below zero. */
 export function adjustTokens(counts: TokenCounts | undefined, kind: TokenKind, delta: number) {

@@ -9,7 +9,7 @@ export function slugFromName(name: string): string {
     .replace(/^-+|-+$/g, '')
 }
 
-export function stripSlug(value: unknown): unknown {
+function stripSlug(value: unknown): unknown {
   if (!value || typeof value !== 'object' || Array.isArray(value) || !('name' in value)) {
     return value
   }

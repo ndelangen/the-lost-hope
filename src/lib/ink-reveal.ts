@@ -1,5 +1,5 @@
 /** Timing for handwriting that appears letter by letter, each letter flickering before it settles. */
-export type InkTiming = {
+type InkTiming = {
   /** Milliseconds between one letter starting and the next. */
   stagger: number
   /** Milliseconds a letter flickers through random glyphs before it settles. */
@@ -8,7 +8,7 @@ export type InkTiming = {
 
 export const INK_TIMING: InkTiming = { stagger: 26, flicker: 300 }
 
-export type InkGlyph = {
+type InkGlyph = {
   char: string
   state: 'hidden' | 'flickering' | 'settled'
   /** The glyph shown while flickering. */

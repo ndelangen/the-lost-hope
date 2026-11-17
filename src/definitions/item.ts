@@ -26,7 +26,7 @@ export const ShipHull = z
 
 export type ShipHull = z.infer<typeof ShipHull>
 
-export const Item = deriveSlug(
+const Item = deriveSlug(
   z.strictObject({
     name: z.string().describe('The canonical name of the item'),
     icon: z

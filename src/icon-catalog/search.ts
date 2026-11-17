@@ -1,6 +1,6 @@
 import type { IconCatalogEntry, IconClassification, IconSource } from './types'
 
-export type IconCatalogSearchOptions = {
+type IconCatalogSearchOptions = {
   query?: string
   classifications?: ReadonlyArray<IconClassification>
   sources?: ReadonlyArray<IconSource>
@@ -31,7 +31,7 @@ type IndexedEntry = {
   tokens: ReadonlyArray<WeightedToken>
 }
 
-export type IconCatalogSearchIndex = {
+type IconCatalogSearchIndex = {
   search: (options?: IconCatalogSearchOptions) => Array<IconCatalogEntry>
 }
 

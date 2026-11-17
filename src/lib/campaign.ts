@@ -30,7 +30,6 @@ import {
   quests,
   REGISTRIES,
   sessions,
-  type DataOf,
   type Entity,
   type EntityOf,
 } from './campaign-registries'
@@ -39,20 +38,7 @@ import { effectExpiryDay, effectStatus, type EffectStatus } from './effects'
 import { isRuleRef, ruleOf, termLabel } from './rules'
 
 export type { EntityKind }
-export type { DataOf, Entity, EntityOf, ReverseLink, SessionDay }
-
-export type {
-  BeastKey,
-  EffectKey,
-  EventKey,
-  LocationKey,
-  NpcKey,
-  OrganizationKey,
-  ItemKey,
-  PcKey,
-  QuestKey,
-  SessionKey,
-} from '#/data/generated/refs.ts'
+export type { Entity, EntityOf }
 
 export const COLLECTIONS: readonly EntityKind[] = [
   'session',
@@ -80,7 +66,7 @@ export const COLLECTION_LABELS: Record<EntityKind, string> = {
   effect: 'Effects',
 }
 
-export const COLLECTION_PATH: Record<EntityKind, string> = {
+const COLLECTION_PATH: Record<EntityKind, string> = {
   session: 'sessions',
   event: 'events',
   location: 'locations',
@@ -253,7 +239,7 @@ export function entityTeaser(entity: Entity): string {
 }
 
 /** Route pattern for an entity kind's detail page. */
-export type EntityTo =
+type EntityTo =
   | '/pcs/detail/$slug'
   | '/npcs/detail/$slug'
   | '/beasts/detail/$slug'
@@ -266,7 +252,7 @@ export type EntityTo =
   | '/effects/detail/$slug'
 
 /** Route pattern for an entity kind's collection/index page. */
-export type CollectionTo =
+type CollectionTo =
   | '/pcs'
   | '/npcs'
   | '/locations'
@@ -344,7 +330,7 @@ export function entityRefForSlug<K extends EntityKind>(
   return key ? { ref: kind, key } : undefined
 }
 
-export type ReferenceValidationError = {
+type ReferenceValidationError = {
   ref: EntityRef
   path: string
 }
@@ -454,12 +440,12 @@ export function nonActivePcs(): readonly EntityOf<'pc'>[] {
   return campaignModel.groups.nonActivePcs
 }
 
-export type OrganizationMember = {
+type OrganizationMember = {
   kind: 'pc' | 'npc'
   slug: string
 }
 
-export type OrganizationMemberGroup = {
+type OrganizationMemberGroup = {
   status: (typeof MEMBERSHIP_STATUSES)[number]
   ranks: {
     rank: string

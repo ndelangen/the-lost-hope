@@ -20,7 +20,7 @@ import { useDensity } from './density'
 import { ActionButton } from './icon-button'
 import { StatParts } from './stat-parts'
 
-export type AbilityText = readonly AbilityTextToken[]
+type AbilityText = readonly AbilityTextToken[]
 
 /** What a referenced ability's popover shows: its full text and, when limited, a Use button. */
 export type ReferencedAbility = {

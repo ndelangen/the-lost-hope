@@ -19,7 +19,7 @@ import {
   type LocationMapModel,
 } from '#/lib/locations-view-data'
 
-export type LocationsView = 'map' | 'list'
+type LocationsView = 'map' | 'list'
 
 function ViewSwitch({
   value,

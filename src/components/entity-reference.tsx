@@ -86,14 +86,6 @@ export function EntityReference({
   )
 }
 
-/** Shared preview content for compact navigation and other purpose-built links. */
-export function EntityReferencePreview({
-  kind,
-  slug,
-}: Pick<EntityReferenceProps, 'kind' | 'slug'>) {
-  return referencePresentation(kind, slug).preview
-}
-
 function referencePresentation(
   kind: EntityKind,
   slug: string,

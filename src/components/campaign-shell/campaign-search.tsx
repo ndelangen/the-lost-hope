@@ -21,7 +21,7 @@ type CampaignSearchProps = {
   inputClassName?: string
 }
 
-export const CAMPAIGN_SEARCH_PLACEHOLDERS = [
+const CAMPAIGN_SEARCH_PLACEHOLDERS = [
   'Search for events…',
   'Search for PCs…',
   'Search for NPCs…',

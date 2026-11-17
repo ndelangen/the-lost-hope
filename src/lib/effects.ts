@@ -1,5 +1,4 @@
 import type { Effect, Span } from '#/definitions/effect'
-import type { EntityKind } from '#/definitions/kind'
 
 export type EffectStatus = 'active' | 'ended' | 'expired'
 
@@ -49,9 +48,4 @@ export function effectStatus(
   if (effect.ended) return 'ended'
   const expiry = effectExpiryDay(effect, beganDay)
   return expiry !== undefined && currentDay >= expiry ? 'expired' : 'active'
-}
-
-/** True when the effect is carried by the given record. */
-export function effectIsOn(effect: Pick<Effect, 'on'>, kind: EntityKind, key: string): boolean {
-  return effect.on.ref === kind && effect.on.key === key
 }
