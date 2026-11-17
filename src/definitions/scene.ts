@@ -35,6 +35,35 @@ export const SceneOutcome: z.ZodType<SceneOutcome, SceneOutcomeInput> = z.lazy((
   }),
 )
 
+/**
+ * One line of a beat, in the order it happens. `say` is spoken at the table: by the NPC in
+ * `speaker`, or by the DM to the players when there is none. `do` is something that happens or
+ * that the DM does. `note` is something to keep in mind while it plays.
+ */
+export const SceneLine = z.union([
+  z.strictObject({ say: DmContent, speaker: entityRefOf('npc').optional() }),
+  z.strictObject({ do: DmContent }),
+  z.strictObject({ note: DmContent }),
+])
+
+export type SceneLine = z.infer<typeof SceneLine>
+
+/**
+ * One moment of a scene. A scene's beats are its script: the DM plays them top to bottom. A beat
+ * with `onlyIf` is optional and is skipped when that does not hold. Its outcomes are the branches
+ * that belong to this moment.
+ */
+export const SceneBeat = z.strictObject({
+  title: z.string().trim().min(1),
+  onlyIf: DmContent.optional().describe(
+    'When this beat is played. Leave out for one always played',
+  ),
+  lines: z.array(SceneLine).min(1),
+  outcomes: z.array(SceneOutcome).default([]),
+})
+
+export type SceneBeat = z.infer<typeof SceneBeat>
+
 /** The dice a hit's damage can be rolled on, by their number of sides. 1 is a fixed 1 damage. */
 export const SHIP_DAMAGE_DICE = [1, 2, 3, 4, 6] as const
 export type ShipDamageDie = (typeof SHIP_DAMAGE_DICE)[number]
@@ -73,6 +102,10 @@ export const Scene = deriveSlug(
     battleMaps: z.array(entityRefOf('location')).default([]),
     illustration: MediaUrl.optional(),
     setup: DmContent,
+    beats: z
+      .array(SceneBeat)
+      .default([])
+      .describe('The script, top to bottom. Prototype: when present the page shows it'),
     notes: DmContent.optional(),
     npcs: z.array(entityRefOf('npc')).default([]),
     outcomes: z.array(SceneOutcome).default([]),

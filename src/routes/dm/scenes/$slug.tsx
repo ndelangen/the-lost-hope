@@ -5,11 +5,13 @@ import { ContentRenderer } from '#/components/content-renderer'
 import { DmFaces } from '#/components/dm/dm-faces'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
 import { SceneBranches } from '#/components/dm/scene-branches'
+import { SceneScript } from '#/components/dm/scene-script'
 import { ShipDamageClock } from '#/components/dm/ship-damage-clock'
 import { StatBlockSummary } from '#/components/dm/stat-block-summary'
 import { ImageViewer } from '#/components/image-viewer'
 import { ShowToPlayersButton } from '#/components/player-screen/show-to-players-button'
 import type { Item } from '#/definitions/item'
+import type { EntityRef } from '#/definitions/kind'
 import type { Location } from '#/definitions/location'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 import { arcs, resolveSourceRef, sceneShipUnderFire, scenes, table } from '#/lib/dm-campaign'
@@ -17,6 +19,7 @@ import { plotsByScene } from '#/lib/dm-dashboard'
 import { resolvePlayerScreenImage } from '#/lib/player-screen'
 import type { PlayerScreenImage } from '#/lib/player-screen-state'
 import { buildSceneBranches } from '#/lib/scene-branches'
+import { buildSceneScript } from '#/lib/scene-script'
 
 const npcRecords: Readonly<
   Record<string, (typeof SOURCE_REGISTRIES.npc)[keyof typeof SOURCE_REGISTRIES.npc]>
@@ -49,11 +52,10 @@ function SceneRoute() {
     const place = Object.hasOwn(locationRecords, ref.key) ? locationRecords[ref.key] : undefined
     return place ? [{ ref, place }] : []
   })
-  const branches = buildSceneBranches(
-    scene.outcomes,
-    (item) =>
-      Object.hasOwn(itemRecords, item.key) && itemRecords[item.key]?.background !== undefined,
-  )
+  const hasSecret = (item: EntityRef<'item'>) =>
+    Object.hasOwn(itemRecords, item.key) && itemRecords[item.key]?.background !== undefined
+  const branches = buildSceneBranches(scene.outcomes, hasSecret)
+  const script = buildSceneScript(scene.beats, hasSecret)
   const ship = sceneShipUnderFire(scene)
   const vessel = ship ? resolveSourceRef(ship.vessel) : undefined
 
@@ -204,9 +206,13 @@ function SceneRoute() {
           <ShipDamageClock sceneKey={key} vesselName={vessel.name} ship={ship} />
         ) : null}
 
+        {script.length > 0 ? <SceneScript sceneKey={key} script={script} /> : null}
+
         {scene.outcomes.length > 0 ? (
           <section className="grid gap-2">
-            <h2 className="text-muted-foreground text-xs font-semibold uppercase">If…</h2>
+            <h2 className="text-muted-foreground text-xs font-semibold uppercase">
+              {script.length > 0 ? 'At any time, if…' : 'If…'}
+            </h2>
             <SceneBranches branches={branches} />
           </section>
         ) : null}

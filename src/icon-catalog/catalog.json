@@ -266652,6 +266652,7 @@
       "usedIn": [
         "src/components/dm/encounter/combat-status.tsx",
         "src/components/dm/encounter/turn-card.tsx",
+        "src/components/dm/scene-script.tsx",
         "src/components/player-screen/jims-letter-words-control.tsx"
       ]
     },
@@ -287821,7 +287822,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/info",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/scene-script.tsx"
+      ]
     },
     {
       "id": "lucide/InspectionPanel",
@@ -297665,7 +297668,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/move-right",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/scene-script.tsx"
+      ]
     },
     {
       "id": "lucide/MoveUp",
@@ -304002,6 +304007,7 @@
         "src/components/dm/encounter/ability-controls.tsx",
         "src/components/dm/encounter/combatant-panel.tsx",
         "src/components/dm/npc-portrait-status.tsx",
+        "src/components/dm/scene-script.tsx",
         "src/components/dm/ship-damage-clock.tsx",
         "src/components/player-screen/grid-controls.tsx",
         "src/components/player-screen/player-screen-dock.tsx",
@@ -308535,7 +308541,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/skip-forward",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/scene-script.tsx"
+      ]
     },
     {
       "id": "lucide/Skull",
@@ -320529,7 +320537,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/undo-2",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/scene-script.tsx"
+      ]
     },
     {
       "id": "lucide/UndoDot",
