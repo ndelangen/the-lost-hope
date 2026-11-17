@@ -4,7 +4,10 @@ import { create as createScene } from '#/definitions/scene.ts'
 export default createScene({
   name: 'Boarding Ride the Lightning',
   location: refs.locations.master_of_puppets_gun_deck,
-  battleMaps: [refs.locations.ride_the_lightning_main_deck],
+  battleMaps: [
+    refs.locations.master_of_puppets_gun_deck,
+    refs.locations.master_of_puppets_main_deck,
+  ],
   npcs: [refs.npcs.onana_tempest, refs.npcs.captain_garran],
   setup: [
     [
