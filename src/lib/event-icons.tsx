@@ -171,7 +171,7 @@ export const EVENT_ICONS: Record<string, EventIcon> = {
 
 const DEFAULT_ICON = EVENT_ICONS['fa/FaMapMarkerAlt']
 
-export function resolveEventIcon(name: string): EventIcon {
+function resolveEventIcon(name: string): EventIcon {
   return EVENT_ICONS[name] ?? DEFAULT_ICON
 }
 

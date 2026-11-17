@@ -4,13 +4,13 @@ import { isEntityRef, type EntityKind, type EntityRef } from '#/definitions/kind
 
 import type { DataOf, Entity, EntityOf } from './campaign-registries'
 
-export type EntityCollectionIndex<K extends EntityKind> = {
+type EntityCollectionIndex<K extends EntityKind> = {
   all: readonly EntityOf<K>[]
   byKey: ReadonlyMap<string, EntityOf<K>>
   bySlug: ReadonlyMap<string, EntityOf<K>>
 }
 
-export type EntityIndexes = {
+type EntityIndexes = {
   [K in EntityKind]: EntityCollectionIndex<K>
 }
 
@@ -41,7 +41,7 @@ type CampaignEntityGroups = {
   resolvedQuests: readonly EntityOf<'quest'>[]
 }
 
-export type CampaignReadModel = {
+type CampaignReadModel = {
   entities: EntityIndexes
   groups: CampaignEntityGroups
   reverseLinksByEntity: ReadonlyMap<Entity, readonly ReverseLink[]>

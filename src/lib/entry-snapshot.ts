@@ -1,7 +1,7 @@
 import { isEntityRef, type EntityKind, type EntityRef } from '#/definitions/kind'
 import { entityHref, resolveRef, type Entity } from '#/lib/campaign'
 
-export type SnapshotScalar = string | number | boolean | null
+type SnapshotScalar = string | number | boolean | null
 
 export type SnapshotValue = SnapshotScalar | SnapshotValue[] | { [key: string]: SnapshotValue }
 

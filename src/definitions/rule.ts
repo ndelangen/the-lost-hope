@@ -20,13 +20,13 @@ export const RULE_CATEGORIES = {
 export type RuleCategory = keyof typeof RULE_CATEGORIES
 
 /** Chapters of the free official D&D Basic Rules (2024) on D&D Beyond that rules link to. */
-export const FREE_RULES_PAGES = {
+const FREE_RULES_PAGES = {
   'rules-glossary': 'Rules Glossary',
   'playing-the-game': 'Playing the Game',
   'how-to-use-a-monster': 'How to Use a Monster',
 } as const
 
-export type FreeRulesPage = keyof typeof FREE_RULES_PAGES
+type FreeRulesPage = keyof typeof FREE_RULES_PAGES
 
 /** A short explanation: plain text and references to other rules terms it builds on. */
 export const RuleText = z

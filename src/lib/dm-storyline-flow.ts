@@ -2,10 +2,10 @@ import type { Storyline, StorylineSession } from '#/lib/dm-storylines'
 
 /** Space between arcs that share an event in a session, and between groups that don't. */
 export const FLOW_TIGHT = 12
-export const FLOW_LOOSE = 26
+const FLOW_LOOSE = 26
 
 export type FlowSlot = { key: string; x: number; played: boolean; group: number }
-export type FlowRow = { session: StorylineSession | undefined; slots: FlowSlot[] }
+type FlowRow = { session: StorylineSession | undefined; slots: FlowSlot[] }
 
 /** Arcs that share an event in this session, as groups of keys. Arcs not played stand alone. */
 function groupsIn(active: readonly Storyline[], session: number): string[][] {

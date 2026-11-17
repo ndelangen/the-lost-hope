@@ -38,7 +38,7 @@ export const SOURCE_REGISTRIES = {
 
 type SourceRegistries = typeof SOURCE_REGISTRIES
 
-export type SourceData<K extends EntityKind> = K extends EntityKind
+type SourceData<K extends EntityKind> = K extends EntityKind
   ? SourceRegistries[K][keyof SourceRegistries[K]]
   : never
 

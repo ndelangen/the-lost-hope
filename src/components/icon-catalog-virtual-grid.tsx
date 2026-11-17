@@ -11,10 +11,10 @@ import {
 import { IconCatalogCard } from '#/components/icon-catalog-card'
 import type { IconCatalogEntry, IconClassification } from '#/icon-catalog/types'
 
-export const ICON_CARD_HEIGHT = 140
-export const ICON_GRID_GAP = 12
+const ICON_CARD_HEIGHT = 140
+const ICON_GRID_GAP = 12
 export const ICON_GRID_ROW_HEIGHT = ICON_CARD_HEIGHT + ICON_GRID_GAP
-export const ICON_GRID_OVERSCAN_ROWS = 3
+const ICON_GRID_OVERSCAN_ROWS = 3
 
 type Viewport = {
   scrollY: number
@@ -23,7 +23,7 @@ type Viewport = {
   containerTop: number
 }
 
-export type IconGridRowRange = {
+type IconGridRowRange = {
   start: number
   end: number
 }

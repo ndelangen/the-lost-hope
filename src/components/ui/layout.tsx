@@ -3,7 +3,7 @@ import type { ElementType, HTMLAttributes, ReactNode } from 'react'
 
 import { cn } from '#/lib/utils'
 
-export const LAYOUT_GAPS = {
+const LAYOUT_GAPS = {
   none: 'gap-0',
   '3xs': 'gap-0.5',
   '2xs': 'gap-1',
@@ -17,7 +17,7 @@ export const LAYOUT_GAPS = {
   '4xl': 'gap-12',
 } as const
 
-export type LayoutGap = keyof typeof LAYOUT_GAPS
+type LayoutGap = keyof typeof LAYOUT_GAPS
 
 const insetClasses: Record<LayoutGap, string> = {
   none: 'p-0',

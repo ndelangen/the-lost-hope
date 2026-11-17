@@ -84,7 +84,7 @@ const XP: Record<string, number> = {
 }
 
 /** Experience points for defeating a creature of this challenge rating. */
-export function experience(cr: ChallengeRating) {
+function experience(cr: ChallengeRating) {
   return XP[cr] ?? 0
 }
 
@@ -94,13 +94,13 @@ function dice(notation: string) {
 }
 
 /** Average of a dice expression plus a flat bonus, rounded down, as stat blocks print it. */
-export function average(notation: string, bonus = 0) {
+function average(notation: string, bonus = 0) {
   const { count, faces } = dice(notation)
   return Math.floor((count * (faces + 1)) / 2) + bonus
 }
 
 /** "22 (3d10 + 6)" */
-export function rollText(notation: string, bonus: number) {
+function rollText(notation: string, bonus: number) {
   const flat = bonus === 0 ? '' : ` ${bonus > 0 ? '+' : '−'} ${Math.abs(bonus)}`
   return `${average(notation, bonus)} (${notation}${flat})`
 }
@@ -125,9 +125,9 @@ export type StatPart =
   /** "8 (1d10 + 3) piercing": the average to deal, the dice to roll instead, and the type. */
   | { kind: 'damage'; amount: number; roll: string; type?: RuleRef }
 
-export type DerivedDamage = Extract<StatPart, { kind: 'damage' }>
+type DerivedDamage = Extract<StatPart, { kind: 'damage' }>
 
-export type DerivedAttack = {
+type DerivedAttack = {
   /** Added to the d20 for the attack roll. */
   bonus: number
   damage: DerivedDamage[]
@@ -158,7 +158,7 @@ export function damageLabel(type: RuleRef) {
   return ruleOf(type).name.toLowerCase()
 }
 
-export const SHORT = {
+const SHORT = {
   str: 'Str',
   dex: 'Dex',
   con: 'Con',

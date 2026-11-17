@@ -41,7 +41,7 @@ type SourceRegistries = {
   [K in EntityKind]: Readonly<Record<string, object>>
 }
 
-export type PlayerVisibleKeys = {
+type PlayerVisibleKeys = {
   readonly [K in EntityKind]: ReadonlySet<string>
 }
 

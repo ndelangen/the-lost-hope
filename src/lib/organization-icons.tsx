@@ -14,7 +14,7 @@ import {
 import { cn } from '#/lib/utils'
 
 /** Placeholder shown when an organization has no `icon`. */
-export const ORGANIZATION_ICON_PLACEHOLDER = 'fa/FaBuilding'
+const ORGANIZATION_ICON_PLACEHOLDER = 'fa/FaBuilding'
 
 /**
  * Curated react-icons registry for per-organization glyphs. Keys use

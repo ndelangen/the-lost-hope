@@ -15,7 +15,7 @@ export type SceneBranch = {
 }
 
 /** Every NPC a piece of content names, in order of first mention and without repeats. */
-export function npcsIn(...contents: DmContent[]): EntityRef<'npc'>[] {
+function npcsIn(...contents: DmContent[]): EntityRef<'npc'>[] {
   const seen = new Set<string>()
   const npcs: EntityRef<'npc'>[] = []
   for (const paragraph of contents.flat()) {

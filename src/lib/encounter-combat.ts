@@ -13,7 +13,7 @@ const ConditionId = z.enum(CONDITION_KEYS)
 const AbilityId = z.enum(ABILITY_KEYS)
 
 /** When a condition ends. Turn boundaries refer to roster entries by id. */
-export const ConditionDuration = z.discriminatedUnion('kind', [
+const ConditionDuration = z.discriminatedUnion('kind', [
   z.strictObject({ kind: z.literal('until-removed') }),
   z.strictObject({ kind: z.literal('end-of-turn'), of: z.string() }),
   z.strictObject({ kind: z.literal('start-of-turn'), of: z.string() }),

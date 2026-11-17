@@ -4,7 +4,7 @@ import { entityCollectionItems, type EntityCardItem } from '#/lib/entity-page-da
 
 export type NpcSortOrder = 'appearance' | 'name'
 
-export type NpcAppearanceEvent = {
+type NpcAppearanceEvent = {
   day: number
   npcSlugs: readonly string[]
 }

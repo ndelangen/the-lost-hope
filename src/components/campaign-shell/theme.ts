@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react'
 
-export const THEME_STORAGE_KEY = 'dag:theme'
+const THEME_STORAGE_KEY = 'dag:theme'
 
 export type Theme = 'light' | 'dark'
 

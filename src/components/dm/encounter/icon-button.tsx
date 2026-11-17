@@ -38,7 +38,7 @@ const TONE = {
   ghost: 'text-muted-foreground hover:bg-muted hover:text-foreground border-transparent',
 } as const
 
-export type IconButtonTone = keyof typeof TONE
+type IconButtonTone = keyof typeof TONE
 
 /** An icon-only control whose name and details appear in a hover/focus tooltip. */
 export const IconButton = forwardRef<

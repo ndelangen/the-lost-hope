@@ -56,7 +56,7 @@ const EncounterStore = z.strictObject({ encounters: z.array(Encounter) })
 
 export type CreatureRef = EntityRef<'npc'> | EntityRef<'beast'>
 export type RosterEntry = z.infer<typeof RosterEntry>
-export type CombatantValues = z.infer<typeof CombatantValues>
+type CombatantValues = z.infer<typeof CombatantValues>
 export type Encounter = z.infer<typeof Encounter>
 export type EncounterStore = z.infer<typeof EncounterStore>
 
@@ -216,7 +216,7 @@ export function addParty(encounter: Encounter, pcs: readonly EntityRef<'pc'>[]):
 
 // --- Prepared encounters ------------------------------------------------------------------------
 
-export type NewEncounter = {
+type NewEncounter = {
   id: string
   name: string
   scene?: EntityRef<'scene'>

@@ -28,7 +28,7 @@ export type SessionCalendarYear = {
   sessionCount: number
 }
 
-export type SessionCalendarDisplayRow =
+type SessionCalendarDisplayRow =
   | { kind: 'months'; months: SessionCalendarMonth[] }
   | { kind: 'quiet'; fromMonth: string; throughMonth: string }
 

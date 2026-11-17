@@ -22,7 +22,7 @@ import {
 
 import { cn } from '#/lib/utils'
 
-export const SESSION_ICON_PLACEHOLDER = 'gi/GiJourney'
+const SESSION_ICON_PLACEHOLDER = 'gi/GiJourney'
 
 export const SESSION_ICONS = {
   'gi/GiGhostAlly': GiGhostAlly,
@@ -46,7 +46,7 @@ export const SESSION_ICONS = {
   [SESSION_ICON_PLACEHOLDER]: GiJourney,
 } as const satisfies Record<string, IconType>
 
-export function resolveSessionIcon(icon?: string): IconType {
+function resolveSessionIcon(icon?: string): IconType {
   return (
     (icon ? SESSION_ICONS[icon as keyof typeof SESSION_ICONS] : undefined) ??
     SESSION_ICONS[SESSION_ICON_PLACEHOLDER]

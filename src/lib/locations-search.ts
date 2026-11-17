@@ -6,7 +6,7 @@ export const locationsSearchSchema = z.object({
   filter: z.string().optional(),
 })
 
-export type LocationsSearch = z.infer<typeof locationsSearchSchema>
+type LocationsSearch = z.infer<typeof locationsSearchSchema>
 
 export function parseLocationFilter(filter?: string): Set<LocationType> {
   if (filter === undefined) return new Set(LOCATION_TYPES)

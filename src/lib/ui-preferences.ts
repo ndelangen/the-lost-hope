@@ -6,12 +6,10 @@ export type UiPreferences = {
   navigationCollapsed: boolean
 }
 
-export const UI_PREFERENCE_COOKIES = {
+const UI_PREFERENCE_COOKIES = {
   dmMode: 'tlh-dm-mode',
   navigationCollapsed: 'tlh-navigation-collapsed',
 } as const satisfies Record<keyof UiPreferences, string>
-
-export const DEFAULT_UI_PREFERENCES: UiPreferences = { dmMode: false, navigationCollapsed: false }
 
 const ONE_YEAR_SECONDS = 60 * 60 * 24 * 365
 

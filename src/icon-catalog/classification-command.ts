@@ -2,7 +2,7 @@ import type { IconClassification } from './types'
 
 export type IconClassificationSelectionLists = Record<IconClassification, ReadonlyArray<string>>
 
-export type ParsedIconClassificationCommand = {
+type ParsedIconClassificationCommand = {
   selections: IconClassificationSelectionLists
   dryRun: boolean
   help: boolean
@@ -28,7 +28,7 @@ function shellQuote(value: string): string {
   return `'${value.replaceAll("'", `'"'"'`)}'`
 }
 
-export function emptyIconClassificationSelections(): Record<IconClassification, Array<string>> {
+function emptyIconClassificationSelections(): Record<IconClassification, Array<string>> {
   return {
     useful: [],
     questionable: [],

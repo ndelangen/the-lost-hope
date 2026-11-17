@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react'
 
-export function readStoredSet(key: string): Set<string> | null {
+function readStoredSet(key: string): Set<string> | null {
   try {
     const raw = localStorage.getItem(key)
     if (!raw) return null
@@ -12,7 +12,7 @@ export function readStoredSet(key: string): Set<string> | null {
   }
 }
 
-export function writeStoredSet(key: string, value: Set<string>) {
+function writeStoredSet(key: string, value: Set<string>) {
   localStorage.setItem(key, JSON.stringify([...value]))
 }
 

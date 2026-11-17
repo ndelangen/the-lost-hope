@@ -1,12 +1,12 @@
 import type { EntrySnapshotV1 } from '#/lib/entry-snapshot'
 
-export type QuestionCorrectionContext = {
+type QuestionCorrectionContext = {
   type: 'question'
   itemNumber: number
   itemMarkdown: string
 }
 
-export type EntryCorrectionContext = {
+type EntryCorrectionContext = {
   type: 'entry'
   snapshot: EntrySnapshotV1
 }
@@ -19,7 +19,7 @@ export type CorrectionSubmission = {
   text: string
 }
 
-export type CorrectionSubmissionResult =
+type CorrectionSubmissionResult =
   | { ok: true }
   | {
       ok: false

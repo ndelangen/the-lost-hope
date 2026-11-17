@@ -188,7 +188,7 @@ export function sourceRecordBySlug(kind: EntityKind, slug: string) {
 }
 
 /** Every `refs.scenes.*` pointer anywhere inside a value, such as a scene's own prose. */
-export function collectSceneReferences(value: unknown, out: EntityRef<'scene'>[] = []) {
+function collectSceneReferences(value: unknown, out: EntityRef<'scene'>[] = []) {
   if (!value || typeof value !== 'object') return out
   if (Array.isArray(value)) {
     for (const item of value) collectSceneReferences(item, out)

@@ -722,7 +722,7 @@ function unique(values: ReadonlyArray<string>): Array<string> {
   return [...new Set(values.map((value) => value.trim()).filter(Boolean))]
 }
 
-export function wordsFromComponentName(componentName: string, source: IconSource): Array<string> {
+function wordsFromComponentName(componentName: string, source: IconSource): Array<string> {
   let name = componentName
   if (source === 'fa') name = name.replace(/^Fa/u, '')
   if (source === 'gi') name = name.replace(/^Gi/u, '')

@@ -5,7 +5,7 @@ import { Stack } from '#/components/ui/layout'
 
 export type CorrectionFormStatus = 'idle' | 'sending' | 'success' | 'error'
 
-export function correctionTextLength(value: string): number {
+function correctionTextLength(value: string): number {
   return Array.from(value.trim()).length
 }
 

@@ -22,9 +22,9 @@ import { splitQuestionsMarkdown } from '#/lib/questions'
  * pasted straight into campaign data.
  */
 
-export const KNOWLEDGE_KINDS = [...ENTITY_KINDS, ...DM_ENTITY_KINDS] as const
-export type KnowledgeKind = EntityKind | DmEntityKind
-export type KnowledgeRef = EntityRef<KnowledgeKind>
+const KNOWLEDGE_KINDS = [...ENTITY_KINDS, ...DM_ENTITY_KINDS] as const
+type KnowledgeKind = EntityKind | DmEntityKind
+type KnowledgeRef = EntityRef<KnowledgeKind>
 
 type SourceRecord = { name: string; slug: string } & Record<string, unknown>
 
@@ -124,7 +124,7 @@ function resolveOne(query: string): KnowledgeRef | string {
 
 // ─── The link graph ─────────────────────────────────────────────────────────────────────────────
 
-export type Link = {
+type Link = {
   from: KnowledgeRef
   to: KnowledgeRef
   /** The top-level field the reference sits in, e.g. `notes` or `plots`. */
@@ -216,7 +216,7 @@ function eventsInvolving(ref: KnowledgeRef): KnowledgeRef[] {
     .filter((event, index, all) => all.findIndex((e) => e.key === event.key) === index)
 }
 
-export type Visibility =
+type Visibility =
   | { status: 'player-known'; firstSeen?: KnowledgeRef }
   | { status: 'dm-only'; reason: string }
 

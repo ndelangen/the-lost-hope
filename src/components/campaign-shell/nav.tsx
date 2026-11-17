@@ -61,15 +61,7 @@ type EntityNavRowProps = {
   onNavigate?: () => void
 }
 
-export function EntityNavRow({
-  kind,
-  slug,
-  name,
-  active,
-  avatar,
-  meta,
-  onNavigate,
-}: EntityNavRowProps) {
+function EntityNavRow({ kind, slug, name, active, avatar, meta, onNavigate }: EntityNavRowProps) {
   return (
     <li>
       <EntityReference

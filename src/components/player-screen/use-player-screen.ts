@@ -110,7 +110,7 @@ export function usePlayerScreenPresent(): boolean {
   return present
 }
 
-export const PLAYER_SCREEN_WINDOW_NAME = 'lost-hope-player-screen'
+const PLAYER_SCREEN_WINDOW_NAME = 'lost-hope-player-screen'
 
 type ScreenArea = { availLeft: number; availTop: number; availWidth: number; availHeight: number }
 type ScreenDetails = { screens: readonly ScreenArea[]; currentScreen: ScreenArea }

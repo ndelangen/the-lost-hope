@@ -58,7 +58,7 @@ export const SceneShipDamage = z.strictObject({
 export type SceneShipDamage = z.infer<typeof SceneShipDamage>
 
 /** Who fights the party when the scene turns into a fight, and how many of them. */
-export const SceneOpponent = z.strictObject({
+const SceneOpponent = z.strictObject({
   creature: z.union([entityRefOf('npc'), entityRefOf('beast')]),
   count: z.number().int().positive().default(1),
 })

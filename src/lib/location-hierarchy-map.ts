@@ -17,7 +17,7 @@ export type LocationHierarchyMapModel = {
   points: LocationHierarchyMapPoint[]
 }
 
-export const LOCATION_MAP_EDGE_INSET_RATIO = 0.08
+const LOCATION_MAP_EDGE_INSET_RATIO = 0.08
 export const LOCATION_MAP_MIN_POINT_SEPARATION_RATIO = 0.15
 
 export function buildLocationHierarchyMap(

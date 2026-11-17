@@ -6,7 +6,7 @@ import { EntityRefSchema, entityRefOf } from './kind'
 import { MediaUrl } from './media'
 import { deriveSlug } from './slug'
 
-export const EventMark = z.discriminatedUnion('type', [
+const EventMark = z.discriminatedUnion('type', [
   z.strictObject({
     type: z.literal('avatar'),
     of: z

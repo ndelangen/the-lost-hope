@@ -21,8 +21,8 @@ export type DamageType = KeysOfCategory<'damageType'>
 export type AbilityId = KeysOfCategory<'ability'>
 export type Skill = KeysOfCategory<'skill'>
 export type Sense = KeysOfCategory<'sense'>
-export type Size = KeysOfCategory<'size'>
-export type CreatureType = KeysOfCategory<'creatureType'>
+type Size = KeysOfCategory<'size'>
+type CreatureType = KeysOfCategory<'creatureType'>
 
 function keysOf<C extends Rule['category']>(category: C) {
   return (Object.keys(rules) as RuleKey[]).filter(
@@ -32,7 +32,6 @@ function keysOf<C extends Rule['category']>(category: C) {
 
 /** Conditions in glossary order, for pickers and validation. */
 export const CONDITION_KEYS = keysOf('condition') as [Condition, ...Condition[]]
-export const DAMAGE_TYPE_KEYS = keysOf('damageType') as [DamageType, ...DamageType[]]
 /** Strength to Charisma, in stat-block order. */
 export const ABILITY_KEYS = keysOf('ability') as [AbilityId, ...AbilityId[]]
 export const SKILL_KEYS = keysOf('skill') as [Skill, ...Skill[]]
@@ -82,7 +81,7 @@ export function termLabel(rule: Rule, textBefore: string) {
     : rule.name.toLowerCase()
 }
 
-export type RuleTextSegment =
+type RuleTextSegment =
   | { kind: 'text'; text: string }
   | { kind: 'rule'; rule: RuleRef; label: string }
 

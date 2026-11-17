@@ -12,7 +12,7 @@ import type {
 } from '#/lib/effect-reminders'
 import { cn } from '#/lib/utils'
 
-export type EffectPanelActions = {
+type EffectPanelActions = {
   fire: (trigger: EffectTrigger) => void
   dismiss: (id: string) => void
   close: () => void
