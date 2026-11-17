@@ -379,6 +379,7 @@ export const refs = {
     stefanio_s_magic_shop: ref('location', 'stefanio_s_magic_shop'),
     nimbus_market: ref('location', 'nimbus_market'),
     nimbus_harbour: ref('location', 'nimbus_harbour'),
+    nimbus_harbour_ferry_quay: ref('location', 'nimbus_harbour_ferry_quay'),
     borris_s_gambling_den: ref('location', 'borris_s_gambling_den'),
     skynet_s_second_best_inn: ref('location', 'skynet_s_second_best_inn'),
     swift_s_room_at_skynet_s_second_best_inn: ref(

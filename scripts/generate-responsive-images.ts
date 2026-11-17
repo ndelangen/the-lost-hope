@@ -1,10 +1,11 @@
 import { createHash } from 'node:crypto'
 import { mkdir, readFile, readdir, rm, stat, writeFile } from 'node:fs/promises'
+import { availableParallelism } from 'node:os'
 import { dirname, join } from 'node:path'
 
 import pngToIco from 'png-to-ico'
 import sharp, { type Metadata } from 'sharp'
-/* oxlint-disable no-await-in-loop -- bounded sequential encoding keeps peak memory predictable */
+/* oxlint-disable no-await-in-loop -- one worker per core keeps peak memory bounded */
 
 import {
   APP_ICON_BACKGROUND,
@@ -71,67 +72,81 @@ async function allExist(candidates: readonly Candidate[]): Promise<boolean> {
   return candidates.length > 0 && present.every(Boolean)
 }
 
+type ImageSource = (typeof RESPONSIVE_IMAGE_SOURCES)[number]
+
+type EncodedSource = { cacheKey: string; image: GeneratedImage }
+
+/** Encodes one source's candidates, reusing the previous run's files when the source is unchanged. */
+async function encodeSource(
+  source: ImageSource,
+  previous: Record<string, Candidate[]>,
+): Promise<EncodedSource> {
+  const sourceBytes = await readFile(join(ROOT, source.repositoryPath))
+  const dimensions = orientedDimensions(await sharp(sourceBytes).metadata())
+  if (source.role === 'avatar' && dimensions.width !== dimensions.height) {
+    throw new Error(
+      `Avatar source must be square: ${source.repositoryPath} (${dimensions.width}x${dimensions.height})`,
+    )
+  }
+  const digest = createHash('sha256')
+    .update(sourceBytes)
+    .update(PIPELINE_VERSION)
+    .update(JSON.stringify(RESPONSIVE_IMAGE_ENCODING))
+    .digest('hex')
+    .slice(0, 16)
+  const cacheKey = `${source.id}.${digest}.${RESPONSIVE_IMAGE_WIDTHS.join(',')}`
+  const cached = previous[cacheKey]
+  if (cached && (await allExist(cached))) {
+    return { cacheKey, image: { ...dimensions, ...RESPONSIVE_IMAGE_ENCODING, candidates: cached } }
+  }
+
+  const candidates: Candidate[] = []
+  for (const width of candidateWidths(dimensions.width)) {
+    const output = await sharp(sourceBytes)
+      .rotate()
+      // JPEG shrink-on-load can round a dimension before the final resize.
+      .resize({ width, withoutEnlargement: true, fastShrinkOnLoad: false })
+      .flatten({ background: APP_ICON_BACKGROUND })
+      .jpeg({
+        quality: RESPONSIVE_IMAGE_ENCODING.quality,
+        progressive: RESPONSIVE_IMAGE_ENCODING.progressive,
+        chromaSubsampling: RESPONSIVE_IMAGE_ENCODING.chromaSubsampling,
+      })
+      .toBuffer({ resolveWithObject: true })
+    const fileName = `${source.id}.${digest}.w${output.info.width}.jpg`
+    await writeFile(join(OUTPUT_DIRECTORY, fileName), output.data)
+    candidates.push({
+      src: `/assets/generated-images/${fileName}`,
+      width: output.info.width,
+      height: output.info.height,
+      bytes: output.data.byteLength,
+    })
+  }
+  return { cacheKey, image: { ...dimensions, ...RESPONSIVE_IMAGE_ENCODING, candidates } }
+}
+
+/** Encodes sources on one worker per CPU core; results keep the source order. */
+async function encodeSources(previous: Record<string, Candidate[]>): Promise<EncodedSource[]> {
+  const results: EncodedSource[] = Array.from({ length: RESPONSIVE_IMAGE_SOURCES.length })
+  let next = 0
+  const worker = async (): Promise<void> => {
+    while (next < RESPONSIVE_IMAGE_SOURCES.length) {
+      const index = next++
+      results[index] = await encodeSource(RESPONSIVE_IMAGE_SOURCES[index], previous)
+    }
+  }
+  await Promise.all(Array.from({ length: availableParallelism() }, worker))
+  return results
+}
+
 async function generateContentImages(): Promise<Record<string, GeneratedImage>> {
   await mkdir(OUTPUT_DIRECTORY, { recursive: true })
-  const previous = await readCache()
+  const encoded = await encodeSources(await readCache())
   const cache: Record<string, Candidate[]> = {}
-
   const generated: Record<string, GeneratedImage> = {}
-  for (const source of RESPONSIVE_IMAGE_SOURCES) {
-    const sourceBytes = await readFile(join(ROOT, source.repositoryPath))
-    const dimensions = orientedDimensions(await sharp(sourceBytes).metadata())
-    if (source.role === 'avatar' && dimensions.width !== dimensions.height) {
-      throw new Error(
-        `Avatar source must be square: ${source.repositoryPath} (${dimensions.width}x${dimensions.height})`,
-      )
-    }
-    const digest = createHash('sha256')
-      .update(sourceBytes)
-      .update(PIPELINE_VERSION)
-      .update(JSON.stringify(RESPONSIVE_IMAGE_ENCODING))
-      .digest('hex')
-      .slice(0, 16)
-    const cacheKey = `${source.id}.${digest}.${RESPONSIVE_IMAGE_WIDTHS.join(',')}`
-    const cached = previous[cacheKey]
-    if (cached && (await allExist(cached))) {
-      cache[cacheKey] = cached
-      generated[source.logicalSource] = {
-        ...dimensions,
-        ...RESPONSIVE_IMAGE_ENCODING,
-        candidates: cached,
-      }
-      continue
-    }
-    const candidates: Candidate[] = []
-
-    for (const width of candidateWidths(dimensions.width)) {
-      const output = await sharp(sourceBytes)
-        .rotate()
-        // JPEG shrink-on-load can round a dimension before the final resize.
-        .resize({ width, withoutEnlargement: true, fastShrinkOnLoad: false })
-        .flatten({ background: APP_ICON_BACKGROUND })
-        .jpeg({
-          quality: RESPONSIVE_IMAGE_ENCODING.quality,
-          progressive: RESPONSIVE_IMAGE_ENCODING.progressive,
-          chromaSubsampling: RESPONSIVE_IMAGE_ENCODING.chromaSubsampling,
-        })
-        .toBuffer({ resolveWithObject: true })
-      const fileName = `${source.id}.${digest}.w${output.info.width}.jpg`
-      await writeFile(join(OUTPUT_DIRECTORY, fileName), output.data)
-      candidates.push({
-        src: `/assets/generated-images/${fileName}`,
-        width: output.info.width,
-        height: output.info.height,
-        bytes: output.data.byteLength,
-      })
-    }
-
-    cache[cacheKey] = candidates
-    generated[source.logicalSource] = {
-      ...dimensions,
-      ...RESPONSIVE_IMAGE_ENCODING,
-      candidates,
-    }
+  for (const [index, { cacheKey, image }] of encoded.entries()) {
+    cache[cacheKey] = image.candidates
+    generated[RESPONSIVE_IMAGE_SOURCES[index].logicalSource] = image
   }
 
   // Remove derivatives of sources that changed or were removed.

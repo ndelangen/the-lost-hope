@@ -6,7 +6,7 @@ import npcRecords from '#/data/npcs/_index'
 import sceneRecords from '#/data/scenes/_index'
 import type { Arc, Plot } from '#/definitions/arc'
 import type { Creature } from '#/definitions/creature'
-import { ENTITY_KINDS, type EntityKind, type EntityRef } from '#/definitions/kind'
+import { ENTITY_KINDS, type EntityKind, type EntityRef, isSceneRef } from '#/definitions/kind'
 import type { Scene } from '#/definitions/scene'
 import type { OwnOrSharedStatBlock, StatBlock } from '#/definitions/stat-block'
 import type { Table } from '#/definitions/table'
@@ -141,6 +141,13 @@ export function validateDmReferences(
     }
   }
 
+  for (const scene of Object.values(sceneRegistry)) {
+    for (const ref of collectSceneReferences(scene)) {
+      if (!Object.hasOwn(sceneRegistry, ref.key))
+        problems.push(`${scene.name}: unknown scene reference ${ref.key}`)
+    }
+  }
+
   for (const arc of Object.values(arcRegistry)) {
     const plotSlugs = new Set<string>()
     for (const plot of arc.plots) {
@@ -179,4 +186,19 @@ export function sourceRecordBySlug(kind: EntityKind, slug: string) {
     SOURCE_REGISTRIES[kind] as Readonly<Record<string, { slug: string }>>,
   ).find(([, record]) => record.slug === slug)
   return entry ? { key: entry[0], record: entry[1] } : undefined
+}
+
+/** Every `refs.scenes.*` pointer anywhere inside a value, such as a scene's own prose. */
+export function collectSceneReferences(value: unknown, out: EntityRef<'scene'>[] = []) {
+  if (!value || typeof value !== 'object') return out
+  if (Array.isArray(value)) {
+    for (const item of value) collectSceneReferences(item, out)
+    return out
+  }
+  if (isSceneRef(value)) {
+    out.push(value)
+    return out
+  }
+  for (const item of Object.values(value)) collectSceneReferences(item, out)
+  return out
 }

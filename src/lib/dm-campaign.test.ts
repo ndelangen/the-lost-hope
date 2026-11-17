@@ -122,6 +122,18 @@ describe('DM campaign model', () => {
     ])
   })
 
+  it('reports a scene whose prose points at a scene that does not exist', () => {
+    const pointing = createScene({
+      name: 'The way out',
+      location: refs.locations.nimbus,
+      setup: [['Run ', { ref: 'scene', key: 'no_such_scene' }, '.']],
+    })
+
+    expect(validateDmReferences({}, { the_way_out: pointing }, NO_TABLE)).toEqual([
+      'The way out: unknown scene reference no_such_scene',
+    ])
+  })
+
   it('keeps the prepared location when play takes place somewhere else', () => {
     const arc = createArc({
       name: 'The Fiddler and the party’s possible futures',

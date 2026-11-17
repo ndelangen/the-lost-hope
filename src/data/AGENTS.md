@@ -75,6 +75,9 @@ canon.
   only the pacing, and the clock shows the numbers, so the scene text does not repeat them.
 - NPCs own their motivations. Reference the NPC from prep so you can read the motivation alongside
   the scene. Arc and scene references come from the generated `refs.arcs` and `refs.scenes` namespaces.
+- When scene prose sends the DM to another prepared scene, reference it (`'Run ', refs.scenes.x`)
+  instead of quoting its name. Scene prose is `DmContent`, the only content that may hold
+  `refs.scenes.*`; player-facing content never can.
 - When importing a played session, read `bun run dm:brief` first, link each new event to the plots
   it advanced, and update those plots' `notes`. The `$plan-campaign-entity` skill has the steps.
 

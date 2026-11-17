@@ -5,14 +5,17 @@ export default createScene({
   name: 'The Hand comes for Jim',
   illustration: '/assets/scenes/the-hand-comes-for-jim.png',
   location: refs.locations.nimbus_sky_bridge_landing,
-  battleMaps: [refs.locations.nimbus_sky_bridge_landing],
-  npcs: [refs.npcs.silas_wren, refs.npcs.cloaked_snatcher],
+  alternateLocations: [refs.locations.nimbus_harbour_ferry_quay],
+  battleMaps: [refs.locations.nimbus_sky_bridge_landing, refs.locations.nimbus_harbour_ferry_quay],
+  npcs: [refs.npcs.silas_wren, refs.npcs.cloaked_snatcher, refs.npcs.crowy],
   setup: [
     [
       refs.pcs.swift_starblade,
       ' and ',
       refs.pcs.jim,
-      ' walk towards the docks. ',
+      ' walk towards the docks, with ',
+      refs.npcs.crowy,
+      ' along. ',
       refs.npcs.silas_wren,
       ' speaks from just behind ',
       refs.pcs.swift_starblade,
@@ -30,6 +33,10 @@ export default createScene({
   ],
   notes: [
     ['“Light” in ', refs.pcs.jim, '’s last words is ', refs.npcs.light_13th_marshal, '.'],
+    [
+      refs.npcs.crowy,
+      ' can warn them that they are being followed, and urges them to run. Running takes them towards the docks, and into sight of the flying fortress.',
+    ],
     [
       'Hidden truth: ',
       refs.npcs.the_father,
@@ -93,8 +100,47 @@ export default createScene({
           refs.pcs.jim,
           ' is gone. His belongings clatter onto the planks, along with his tongue, still bearing his guild tattoo.',
         ],
+        [
+          'The beam also hits ',
+          refs.npcs.crowy,
+          '. He drops to the planks, critically wounded and dying.',
+        ],
       ],
       followUps: [
+        {
+          when: [['', refs.pcs.swift_starblade, ' saves ', refs.npcs.crowy, '.']],
+          response: [
+            [
+              'Any healing does it, and so does a DC 10 ',
+              refs.rules.wis,
+              ' (',
+              refs.rules.medicine,
+              ') check to stop the bleeding. ',
+              refs.npcs.crowy,
+              ' comes to and will not forget who saved him. Once he can fly, he heads for ',
+              refs.pcs.devan,
+              ' and ',
+              refs.pcs.cassian_veyl,
+              '.',
+            ],
+          ],
+        },
+        {
+          when: [['', refs.pcs.swift_starblade, ' leaves ', refs.npcs.crowy, ' where he fell.']],
+          response: [
+            [
+              'A bystander scoops him up and saves him. ',
+              refs.npcs.crowy,
+              ' will not forget that ',
+              refs.pcs.swift_starblade,
+              ' walked away. Once he can fly, he heads for ',
+              refs.pcs.devan,
+              ' and ',
+              refs.pcs.cassian_veyl,
+              '.',
+            ],
+          ],
+        },
         {
           when: [
             [

@@ -5,7 +5,7 @@ export default createScene({
   name: 'The green beam over the sky islands',
   illustration: '/assets/scenes/the-green-beam-over-the-sky-islands.png',
   location: refs.locations.skynet_s_second_best_inn,
-  npcs: [refs.npcs.abraham],
+  npcs: [refs.npcs.abraham, refs.npcs.crowy],
   setup: [
     [
       'From ',
@@ -76,6 +76,24 @@ export default createScene({
       's drill and load supplies for the rollout.',
     ],
   ],
+  notes: [
+    [
+      refs.npcs.crowy,
+      ' was with ',
+      refs.pcs.swift_starblade,
+      ' and ',
+      refs.pcs.jim,
+      ' on ',
+      refs.locations.nimbus,
+      ', and the beam critically wounded him. Once he is revived there, he flies across to ',
+      refs.pcs.devan,
+      ' and ',
+      refs.pcs.cassian_veyl,
+      '. Bring him in a little after the beam, still singed. Who saved him is decided in ',
+      refs.scenes.the_hand_comes_for_jim,
+      ', and he remembers it either way.',
+    ],
+  ],
   outcomes: [
     {
       when: [['They help ', refs.npcs.maren_of_fairhaven, ' or ', refs.npcs.old_pell, '.']],
@@ -91,11 +109,13 @@ export default createScene({
     },
     {
       when: [['They want to see where the beam hit, or to find ', refs.pcs.swift_starblade, '.']],
-      response: [['The only way across is the ferry. Run “The clogged ferry landing”.']],
+      response: [
+        ['The only way across is the ferry. Run ', refs.scenes.the_clogged_ferry_landing, '.'],
+      ],
     },
     {
       when: [['They head to the shipyard for their airship.']],
-      response: [['Run “The ents hold the shipyard”.']],
+      response: [['Run ', refs.scenes.the_ents_hold_the_shipyard, '.']],
     },
   ],
 })

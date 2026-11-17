@@ -1,4 +1,10 @@
-import { type DmEntityKind, type EntityKind, type EntityRef, isEntityRef } from '#/definitions/kind'
+import {
+  type DmEntityKind,
+  type EntityKind,
+  type EntityRef,
+  isEntityRef,
+  isSceneRef,
+} from '#/definitions/kind'
 import { campaignToday, effectEntry, getEntity } from '#/lib/campaign'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 import {
@@ -39,11 +45,14 @@ export function refText(ref: EntityRef<EntityKind | DmEntityKind>): string {
 export function sourceText(content: unknown): string {
   if (content === undefined || content === null) return ''
   if (typeof content === 'string') return content
-  if (isEntityRef(content)) return refText(content)
+  if (isEntityRef(content) || isSceneRef(content)) return refText(content)
   if (isRuleRef(content)) return `${ruleOf(content).name} (refs.rules.${content.key})`
   if (Array.isArray(content)) {
     // A paragraph is an array of strings and refs; a Content value is an array of paragraphs.
-    return content.every((part) => typeof part === 'string' || isEntityRef(part) || isRuleRef(part))
+    return content.every(
+      (part) =>
+        typeof part === 'string' || isEntityRef(part) || isSceneRef(part) || isRuleRef(part),
+    )
       ? content.map(sourceText).join('')
       : content.map(sourceText).filter(Boolean).join('\n')
   }

@@ -7,7 +7,7 @@ export default createNPC({
   species: 'Human',
   notes: [
     [
-      'A weathered ferry helmsman in a wind-bleached coat, who has flown the crossing between ',
+      'A weathered ferry helmsman in a wind-bleached coat. He has flown the crossing between ',
       refs.locations.skynet,
       ' and ',
       refs.locations.nimbus,
@@ -16,14 +16,15 @@ export default createNPC({
   ],
   motivations: [
     [
-      'Reach the docks of ',
-      refs.locations.nimbus,
-      '. His crew was on the crossing when the beam struck, and he was off shift. He will fly anything for free to get there, and he is good at it.',
+      'Get away from the crossing. He watched the other ferry get hit by the beam and sink, and nothing will make him fly today.',
     ],
   ],
   background: [
     [
-      'What he says: “You need a pilot? Twenty years on that crossing. Get me to the Nimbus docks and I’ll fly her for nothing.”',
+      'He refuses service to everyone, soldiers and civilians alike, and runs from the ferry landing.',
+    ],
+    [
+      'What he says: “I saw her go down. I’m not flying. Not for you, not for them, not for anyone.”',
     ],
   ],
   stats: refs.creatures.commoner,

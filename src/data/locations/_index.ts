@@ -47,6 +47,7 @@ import mortimer_s_underground_workshop from './mortimer-s-underground-workshop.t
 import mountain_cliff from './mountain-cliff.ts'
 import mountain_top from './mountain-top.ts'
 import night_mothers_church from './night-mothers-church.ts'
+import nimbus_harbour_ferry_quay from './nimbus-harbour-ferry-quay.ts'
 import nimbus_harbour from './nimbus-harbour.ts'
 import nimbus_market from './nimbus-market.ts'
 import nimbus_sky_bridge_landing from './nimbus-sky-bridge-landing.ts'
@@ -172,6 +173,7 @@ export default {
   stefanio_s_magic_shop,
   nimbus_market,
   nimbus_harbour,
+  nimbus_harbour_ferry_quay,
   borris_s_gambling_den,
   skynet_s_second_best_inn,
   swift_s_room_at_skynet_s_second_best_inn,
