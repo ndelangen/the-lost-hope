@@ -245,12 +245,12 @@
         "tabletop"
       ],
       "sourceCategories": [
-        "brand/logo"
+        "style/solid"
       ],
       "categories": [],
       "useCases": [],
-      "classification": "marked-for-deletion",
-      "classificationReason": "Brand or product logo with no campaign or generic UI role.",
+      "classification": "questionable",
+      "classificationReason": "Not an obvious fantasy or canonical UI choice; retained for manual review.",
       "sourceUrl": "https://fontawesome.com/v5/icons/acquisitions-incorporated",
       "usedIn": []
     },
@@ -44035,12 +44035,12 @@
         "tabletop"
       ],
       "sourceCategories": [
-        "brand/logo"
+        "style/solid"
       ],
       "categories": [],
       "useCases": [],
-      "classification": "marked-for-deletion",
-      "classificationReason": "Brand or product logo with no campaign or generic UI role.",
+      "classification": "questionable",
+      "classificationReason": "Not an obvious fantasy or canonical UI choice; retained for manual review.",
       "sourceUrl": "https://fontawesome.com/v5/icons/penny-arcade",
       "usedIn": []
     },
