@@ -607,6 +607,7 @@ export const refs = {
     running_from_the_battle_cruiser: ref('scene', 'running_from_the_battle_cruiser'),
     boarded_by_the_battle_cruiser: ref('scene', 'boarded_by_the_battle_cruiser'),
     onana_calls_the_party_to_war: ref('scene', 'onana_calls_the_party_to_war'),
+    boarding_ride_the_lightning: ref('scene', 'boarding_ride_the_lightning'),
     taking_back_a_battle_cruiser: ref('scene', 'taking_back_a_battle_cruiser'),
     garran_comes_for_the_cruiser: ref('scene', 'garran_comes_for_the_cruiser'),
   },

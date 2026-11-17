@@ -75,6 +75,17 @@ export default createArc({
       scene: refs.scenes.onana_calls_the_party_to_war,
     },
     {
+      name: 'Getting aboard',
+      hook: [
+        [
+          'A boarding torpedo that holds one person at a time, or a way of their own. How does the party get onto ',
+          refs.items.ride_the_lightning,
+          '?',
+        ],
+      ],
+      scene: refs.scenes.boarding_ride_the_lightning,
+    },
+    {
       name: 'A fleet at war with itself',
       hook: [
         [

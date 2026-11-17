@@ -90,7 +90,7 @@ export default createScene({
           ' back and points out ',
           refs.items.ride_the_lightning,
           ', the nearest cruiser firing on its own side. Run ',
-          refs.scenes.taking_back_a_battle_cruiser,
+          refs.scenes.boarding_ride_the_lightning,
           '.',
         ],
       ],
