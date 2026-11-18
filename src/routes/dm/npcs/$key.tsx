@@ -1,11 +1,11 @@
 import { createFileRoute, notFound } from '@tanstack/react-router'
-import { lazy, Suspense, useState } from 'react'
+import { lazy, Suspense } from 'react'
 
 import { ContentRenderer } from '#/components/content-renderer'
 import { DmFaces } from '#/components/dm/dm-faces'
 import { DmHiddenReference } from '#/components/dm/dm-hidden-reference'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
-import { StatBlockSheet, type StatBlockLayout } from '#/components/dm/stat-block-sheet'
+import { StatBlockSheet } from '#/components/dm/stat-block-sheet'
 import { EntityReference } from '#/components/entity-reference'
 import { ShowToPlayersButton } from '#/components/player-screen/show-to-players-button'
 import { PortraitGallery } from '#/components/portrait-gallery'
@@ -48,8 +48,6 @@ function DmNpcRoute() {
   const location = npc.location ? resolveSourceRef(npc.location) : undefined
   const stats = resolveStatBlock(npc.stats)
   const shared = 'ref' in npc.stats ? creatures[npc.stats.key] : undefined
-  // Preview only: both layouts side by side until one is chosen.
-  const [layout, setLayout] = useState<StatBlockLayout>('written')
 
   return (
     <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_12rem]">
@@ -103,23 +101,7 @@ function DmNpcRoute() {
         </Section>
         {stats ? (
           <Section title={shared ? `Stat block · shared ${shared.name}` : 'Stat block'}>
-            <div className="flex gap-2 text-sm">
-              {(['written', 'icons'] as const).map((option) => (
-                <button
-                  key={option}
-                  type="button"
-                  onClick={() => setLayout(option)}
-                  className={
-                    layout === option
-                      ? 'bg-primary text-primary-foreground rounded-md px-3 py-1 font-semibold'
-                      : 'border-border rounded-md border px-3 py-1'
-                  }
-                >
-                  {option === 'written' ? 'Option A: written out' : 'Option B: icons'}
-                </button>
-              ))}
-            </div>
-            <StatBlockSheet stats={stats} block={playableStats(stats)} layout={layout} />
+            <StatBlockSheet stats={stats} block={playableStats(stats)} />
           </Section>
         ) : null}
       </article>

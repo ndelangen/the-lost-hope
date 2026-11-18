@@ -106,6 +106,7 @@ export function AbilityDetail({
   uses,
   block,
   describe,
+  className,
 }: {
   title: ReactNode
   ability: Ability
@@ -114,6 +115,7 @@ export function AbilityDetail({
   block: DerivedStatBlock
   /** Full text and Use for abilities this text refers to. */
   describe?: (key: string) => ReferencedAbility | undefined
+  className?: string
 }) {
   const focus = useDensity() === 'focus'
   const summary = block.abilities[ability.key]?.summary
@@ -123,6 +125,7 @@ export function AbilityDetail({
       className={cn(
         'border-border bg-muted/40 grid rounded-xl border',
         focus ? 'gap-3 p-4' : 'gap-2 p-3',
+        className,
       )}
     >
       <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">

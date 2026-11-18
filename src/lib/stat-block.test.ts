@@ -4,6 +4,7 @@ import { refs } from '#/data/generated/refs'
 import { StatBlock } from '#/definitions/stat-block'
 
 import {
+  abilityKind,
   abilitySummary,
   plainStatParts,
   deriveStatBlock,
@@ -168,5 +169,16 @@ describe('derived stat block', () => {
 
   it('formats speeds for reading', () => {
     expect(formatSpeed({ walk: 30, climb: 30 })).toBe('30 ft., climb 30 ft.')
+  })
+})
+
+describe('ability kind', () => {
+  it('names attack rolls by kind, then saves, then what the ability is for', () => {
+    const [bite] = direWolf.abilities
+    expect(abilityKind(bite!)).toBe('melee')
+    const base = { key: 'x', name: 'X', icon: 'gi/GiFangs', text: [] }
+    expect(abilityKind({ ...base, intent: 'damage' as const })).toBe('attack')
+    expect(abilityKind({ ...base, intent: 'healing' as const })).toBe('healing')
+    expect(abilityKind({ ...base, intent: 'support' as const })).toBe('other')
   })
 })
