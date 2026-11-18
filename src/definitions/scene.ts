@@ -60,8 +60,8 @@ const GroupSaveRoller = z.union([entityRefOf('pc'), entityRefOf('npc'), entityRe
  * fills in the rolls at the table and can put the list on the player screen, so `title`, `passed`
  * and `failed` are words the players read. Players roll for their own characters; the DM rolls
  * for the rest, with the save bonus from each stat block. Someone whose outcome is fixed is listed
- * with `always`. Everyone listed appears on the player screen, by name only once the party has
- * met them.
+ * with `always`. Everyone listed appears on the player screen by name and portrait, whether or not
+ * the party has met them in a played event, so list only those the players may see.
  */
 export const SceneGroupSave = z.strictObject({
   title: Content.describe('Heading over the list on the player screen'),

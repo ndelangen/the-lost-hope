@@ -96,7 +96,7 @@ function prefersReducedMotion(): boolean {
  * already there when the line appears waits its turn, so a whole page lands as one ripple.
  */
 function useReveal(row: GroupSaveRow, order: number): Reveal {
-  const target = row.always ?? row.total
+  const target = row.total
   const [reveal, setReveal] = useState<Reveal>({ phase: 'waiting', face: 20 })
   const appearedAt = useRef<number | undefined>(undefined)
 
@@ -113,21 +113,15 @@ function useReveal(row: GroupSaveRow, order: number): Reveal {
 
     const withThePage = performance.now() - appearedAt.current < 300
     const lead = withThePage ? PAGE_IN_MS + order * RIPPLE_MS : 0
-    const tumbles = typeof target === 'number'
-    setReveal((current) => ({ ...current, phase: tumbles ? 'tumbling' : 'waiting' }))
-    const tumble = tumbles
-      ? setInterval(
-          () => setReveal((current) => ({ ...current, face: 1 + Math.floor(Math.random() * 20) })),
-          FACE_MS,
-        )
-      : undefined
-    const land = setTimeout(
-      () => {
-        clearInterval(tumble)
-        setReveal((current) => ({ ...current, phase: 'landed' }))
-      },
-      (tumbles || withThePage ? TUMBLE_MS : 0) + lead,
+    setReveal((current) => ({ ...current, phase: 'tumbling' }))
+    const tumble = setInterval(
+      () => setReveal((current) => ({ ...current, face: 1 + Math.floor(Math.random() * 20) })),
+      FACE_MS,
     )
+    const land = setTimeout(() => {
+      clearInterval(tumble)
+      setReveal((current) => ({ ...current, phase: 'landed' }))
+    }, TUMBLE_MS + lead)
     return () => {
       clearInterval(tumble)
       clearTimeout(land)
@@ -197,7 +191,7 @@ function ScreenRow({ row, save, order }: { row: GroupSaveRow; save: GroupSave; o
           failed && 'text-white/60',
         )}
       >
-        {row.met ? row.name : ''}
+        {row.name}
       </span>
       {phase === 'tumbling' ? (
         <span className="flex shrink-0 items-center gap-[2vmin]">
@@ -207,7 +201,7 @@ function ScreenRow({ row, save, order }: { row: GroupSaveRow; save: GroupSave; o
           <span className="w-[26vmin]" />
         </span>
       ) : !landed ? (
-        <span className="text-[2.6vmin] text-white/45">{row.always ? '' : 'Not rolled yet'}</span>
+        <span className="text-[2.6vmin] text-white/45">Not rolled yet</span>
       ) : (
         <span className="flex shrink-0 items-center gap-[2vmin]">
           <span className="animate-in zoom-in-50 w-[7vmin] text-right text-[5.4vmin] leading-none font-bold tabular-nums duration-300">

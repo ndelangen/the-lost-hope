@@ -36,7 +36,6 @@ const save: GroupSave = {
       kind: 'pc',
       name: 'Hero',
       avatar: undefined,
-      met: true,
       bonus: undefined,
       dmRolls: false,
       always: undefined,
@@ -46,7 +45,6 @@ const save: GroupSave = {
       kind: 'npc',
       name: 'Crow',
       avatar: undefined,
-      met: true,
       bonus: 2,
       dmRolls: true,
       always: undefined,
@@ -56,7 +54,6 @@ const save: GroupSave = {
       kind: 'beast',
       name: 'Wolf',
       avatar: undefined,
-      met: false,
       bonus: -1,
       dmRolls: true,
       always: undefined,
@@ -135,7 +132,6 @@ describe('fixed outcomes', () => {
         kind: 'npc',
         name: 'Zealot',
         avatar: undefined,
-        met: false,
         bonus: 0,
         dmRolls: true,
         always: 'passed',
@@ -145,7 +141,6 @@ describe('fixed outcomes', () => {
         kind: 'pc',
         name: 'Old friend',
         avatar: undefined,
-        met: true,
         bonus: undefined,
         dmRolls: true,
         always: undefined,
@@ -158,9 +153,22 @@ describe('fixed outcomes', () => {
     const state = rollGroupSaveRest(parseGroupSaveState(stored, withFixed), withFixed, always(1))
     expect(state.entries['npc:zealot']).toBeUndefined()
     expect(groupSaveRows(withFixed, state)[3]).toMatchObject({
-      total: undefined,
+      roll: undefined,
       outcome: 'passed',
     })
+  })
+
+  it('shows a roll that fits the fixed outcome: a 20 on the die, or a 1', () => {
+    const shown = (always: 'passed' | 'failed', bonus: number) =>
+      groupSaveRows(
+        { ...save, rollers: [{ ...withFixed.rollers[3]!, always, bonus }] },
+        EMPTY_GROUP_SAVE,
+      )[0]?.total
+    expect(shown('passed', 0)).toBe(20)
+    expect(shown('passed', 9)).toBe(29)
+    expect(shown('passed', -6)).toBe(15)
+    expect(shown('failed', 2)).toBe(3)
+    expect(shown('failed', 14)).toBe(14)
   })
 
   it('rolls a plain d20 for a PC nobody is playing', () => {
@@ -184,7 +192,6 @@ describe('pages on the player screen', () => {
       kind: 'npc' as const,
       name: `N${index}`,
       avatar: undefined,
-      met: true,
       bonus: 0,
       dmRolls: true,
       always: undefined,
@@ -287,6 +294,7 @@ describe('group saves in campaign data', () => {
       ),
     )
     expect(always).toEqual({
+      'npc:light_13th_marshal': 'passed',
       'npc:silas_wren': 'passed',
       'npc:cloaked_snatcher': 'failed',
       'npc:the_father': 'passed',
@@ -298,7 +306,7 @@ describe('group saves in campaign data', () => {
     const [pulse] = sceneGroupSaves('the_green_pulse_over_the_sky_islands')
     const dmRolls = (id: string) => pulse?.save.rollers.find((roller) => roller.id === id)?.dmRolls
     expect(dmRolls('pc:swift_starblade')).toBe(false)
-    expect(dmRolls('pc:william_greenhove')).toBe(true)
+    expect(dmRolls('pc:fix')).toBe(true)
     expect(dmRolls('npc:crowy')).toBe(true)
   })
 })

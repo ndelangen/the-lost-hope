@@ -260,7 +260,7 @@ function TrackerRow({
         <span className="truncate font-semibold">{row.name}</span>
         <span className="text-muted-foreground truncate text-xs">
           {row.always
-            ? 'Never rolls'
+            ? 'Fixed: shown as a roll'
             : die
               ? `The die, save ${signed(row.bonus ?? 0)}`
               : row.dmRolls
@@ -317,9 +317,7 @@ function TrackerRow({
           )}
         </>
       )}
-      <span className="text-right text-lg font-bold tabular-nums">
-        {row.always ? '' : (row.total ?? '–')}
-      </span>
+      <span className="text-right text-lg font-bold tabular-nums">{row.total ?? '–'}</span>
       {row.outcome === 'pending' ? (
         <span />
       ) : (

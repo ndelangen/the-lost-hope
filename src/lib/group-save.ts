@@ -1,7 +1,7 @@
 import { isEntityRef } from '#/definitions/kind'
 import type { SceneGroupSave } from '#/definitions/scene'
 import type { OwnOrSharedStatBlock } from '#/definitions/stat-block'
-import { PLAYER_VISIBLE_KEYS, SOURCE_REGISTRIES } from '#/lib/campaign-registries'
+import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 import { resolveSourceRef, resolveStatBlock, scenes } from '#/lib/dm-campaign'
 import { rules } from '#/lib/rules'
 import { deriveStatBlock, signed } from '#/lib/stat-block'
@@ -22,8 +22,6 @@ export type GroupSaveRoller = {
   kind: 'pc' | 'npc' | 'beast'
   name: string
   avatar: string | undefined
-  /** Whether the party has met them, so the player screen can print their name. */
-  met: boolean
   /**
    * The save bonus added to the die, from the stat block. A PC has none here: the number filled in
    * for them is their total.
@@ -31,7 +29,7 @@ export type GroupSaveRoller = {
   bonus: number | undefined
   /** Whether the DM rolls for them: everyone but the PCs who are being played. */
   dmRolls: boolean
-  /** A fixed outcome. Nobody rolls for them. */
+  /** A fixed outcome. Nobody rolls for them, but the list shows a roll that fits it. */
   always: 'passed' | 'failed' | undefined
 }
 
@@ -83,7 +81,6 @@ export function resolveGroupSave(save: SceneGroupSave): GroupSave {
           kind: ref.ref,
           name: record.name,
           avatar: record.avatar,
-          met: PLAYER_VISIBLE_KEYS[ref.ref].has(ref.key),
           bonus: stats ? deriveStatBlock(stats).saves[save.ability] : undefined,
           dmRolls: ref.ref !== 'pc' || pcs[ref.key]?.status !== 'active',
           always: 'who' in entry ? entry.always : undefined,
@@ -261,7 +258,10 @@ export function rollGroupSaveRest(
 export type GroupSaveRow = GroupSaveRoller & {
   roll: number | undefined
   reason: boolean
-  /** The roll with the save bonus and the reason bonus added. */
+  /**
+   * The roll with the save bonus and the reason bonus added. For a fixed outcome it is the roll
+   * the list shows for them.
+   */
   total: number | undefined
   outcome: GroupSaveOutcome
   /** The page of the player screen this line is on, from 0. */
@@ -272,11 +272,16 @@ export function groupSaveRows(save: GroupSave, state: GroupSaveState): GroupSave
   return save.rollers.map((roller, index) => {
     const page = Math.floor(index / GROUP_SAVE_PAGE_SIZE)
     if (roller.always) {
+      // Nobody rolls for them, but the list shows a roll that fits: a 20 or a 1 on the die.
+      const shown =
+        roller.always === 'passed'
+          ? Math.max(20 + (roller.bonus ?? 0), save.dc)
+          : Math.min(1 + (roller.bonus ?? 0), save.dc - 1)
       return {
         ...roller,
         roll: undefined,
         reason: false,
-        total: undefined,
+        total: shown,
         outcome: roller.always,
         page,
       }

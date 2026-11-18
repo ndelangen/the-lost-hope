@@ -77,7 +77,8 @@ canon.
 - A save that many characters make at the same moment is a beat's `groupSave`: who rolls, the
   ability, the DC and the bonus for a good reason. Someone whose outcome is fixed is listed as
   `{ who, always }`. The tracker and the player screen show the list and the numbers, so the
-  beat's lines do not repeat them. The rolls made at the table stay in the
+  beat's lines do not repeat them. The player screen names everyone listed, met or not, so list
+  only those the players may see. The rolls made at the table stay in the
   DM's browser until they are written up as an event.
 - NPCs own their motivations. Reference the NPC from prep so you can read the motivation alongside
   the scene. Arc and scene references come from the generated `refs.arcs` and `refs.scenes` namespaces.
