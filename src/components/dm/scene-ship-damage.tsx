@@ -1,10 +1,12 @@
 import { Pin, PinOff } from 'lucide-react'
 
 import type { ShipUnderFire } from '#/lib/ship-damage'
+import type { RoomFight } from '#/lib/ship-rooms'
 
 import { ActionButton } from './encounter/icon-button'
 import { ShipDamageClock } from './ship-damage-clock'
 import { usePinnedShipClock } from './use-pinned-ship-clock'
+import { useShipRooms } from './use-ship-rooms'
 
 /**
  * A scene's ship-damage clock in its place on the page, or a note that it is pinned to the corner
@@ -14,12 +16,16 @@ export function SceneShipDamage({
   sceneKey,
   vesselName,
   ship,
+  onNotes,
 }: {
   sceneKey: string
   vesselName: string
   ship: ShipUnderFire
+  /** Open the notes of a fight's beat, on a page that shows them. */
+  onNotes?: (fight: RoomFight) => void
 }) {
   const [pinned, setPinned] = usePinnedShipClock()
+  const { rooms, run } = useShipRooms(sceneKey, ship)
   if (pinned?.key === sceneKey) {
     return (
       <section
@@ -46,6 +52,7 @@ export function SceneShipDamage({
       ship={ship}
       pinned={false}
       onPinChange={(pin) => setPinned(pin ? { ref: 'scene', key: sceneKey } : undefined)}
+      roomControls={{ rooms, onRun: run, onNotes }}
     />
   )
 }

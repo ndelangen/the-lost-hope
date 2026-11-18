@@ -49,3 +49,22 @@ export function mismatchedDecks(): string[] {
     .filter(([key, location]) => 'deck' in location && location.deck && !shipDeckMap(key))
     .map(([key]) => key)
 }
+
+/**
+ * The decks of a vessel: every location whose map is one of its decks, in the order of the
+ * campaign's locations. A deck is named without the vessel's name in front, as "Main Deck".
+ */
+export function vesselDecks(
+  vesselKey: string,
+): { deck: { ref: 'location'; key: string }; name: string }[] {
+  const vesselName = vesselHull(vesselKey)?.name
+  return Object.entries(locationRecords).flatMap(([key, location]) => {
+    const deck = 'deck' in location ? location.deck : undefined
+    if (!deck || deck.vessel.key !== vesselKey) return []
+    const name =
+      vesselName && location.name.startsWith(`${vesselName} `)
+        ? location.name.slice(vesselName.length + 1)
+        : location.name
+    return [{ deck: { ref: 'location' as const, key }, name }]
+  })
+}

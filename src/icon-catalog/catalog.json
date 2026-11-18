@@ -266659,6 +266659,7 @@
         "src/components/dm/encounter/turn-card.tsx",
         "src/components/dm/group-save-tracker.tsx",
         "src/components/dm/scene-script.tsx",
+        "src/components/dm/ship-room-fight.tsx",
         "src/components/player-screen/jims-letter-words-control.tsx"
       ]
     },
@@ -298294,7 +298295,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/notebook-text",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/ship-room-fight.tsx"
+      ]
     },
     {
       "id": "lucide/NotepadText",
@@ -317076,6 +317079,7 @@
         "src/components/dm/encounter/combatant-panel.tsx",
         "src/components/dm/encounter/encounter-fights.tsx",
         "src/components/dm/scene-script.tsx",
+        "src/components/dm/ship-room-fight.tsx",
         "src/routes/dm/encounter/index.tsx"
       ]
     },
@@ -324570,7 +324574,8 @@
         "src/components/dm/encounter/turn-card.tsx",
         "src/components/image-viewer.tsx",
         "src/components/player-screen/player-screen-dock.tsx",
-        "src/components/player-screen/pointing-view.tsx"
+        "src/components/player-screen/pointing-view.tsx",
+        "src/routes/dm/scenes/$slug.tsx"
       ]
     },
     {

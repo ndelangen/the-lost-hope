@@ -76,6 +76,10 @@ canon.
   encounter lists those fights and brings one in on a click. Scene-level `opponents` are only
   those present from the start. The counts and tactics live in the `fight`, not in the beat's
   lines or the scene's `combat` notes.
+- Aboard a vessel under fire, a fight's `where` places it on the ship: a `deck` (the deck map's
+  location), a `slice` counted from the bow, and a `side` when it is in one room only. Without a
+  slice it is anywhere on that deck. A fight with no `where` follows the party. The ship's
+  schematic then shows the fight in its rooms, so the room is not repeated in the beat's lines.
 - A plot lists only NPCs its scene does not already cast. The plot's full cast is derived.
 - A vessel's layout (`hull` sectors, their hit points and escape pods) lives on its item. A deck
   map's location says where each sector lies on that map (`deck`). A scene's `shipDamage` holds

@@ -176,6 +176,7 @@ export default createScene({
     {
       title: 'The bow',
       fight: {
+        where: [{ deck: refs.locations.ride_the_lightning_main_deck, slice: 1 }],
         opponents: [{ creature: refs.npcs.cloaked_snatcher, count: 4 }],
         tactics: [['They work in pairs and gang up on whoever stands alone.']],
       },
@@ -197,6 +198,7 @@ export default createScene({
     {
       title: 'The batteries',
       fight: {
+        where: [{ deck: refs.locations.ride_the_lightning_main_deck, slice: 2 }],
         opponents: [{ creature: refs.npcs.cloaked_snatcher, count: 4 }],
         tactics: [['They fight like the ones at the bow.']],
       },
@@ -213,6 +215,7 @@ export default createScene({
     {
       title: 'The lower deck',
       fight: {
+        where: [{ deck: refs.locations.ride_the_lightning_gun_deck }],
         opponents: [{ creature: refs.npcs.cloaked_snatcher, count: 4 }],
         repeats: true,
         tactics: [
@@ -248,6 +251,7 @@ export default createScene({
     {
       title: 'The Barracks',
       fight: {
+        where: [{ deck: refs.locations.ride_the_lightning_main_deck, slice: 3, side: 'port' }],
         allies: [{ creature: refs.npcs.tempest_soldier, count: 4 }],
         tactics: [
           ['Cutting one soldier loose takes an action. Roll initiative once for all of them.'],
@@ -410,6 +414,7 @@ export default createScene({
     {
       title: 'The Helm',
       fight: {
+        where: [{ deck: refs.locations.ride_the_lightning_main_deck, slice: 4, side: 'starboard' }],
         opponents: [
           { creature: refs.npcs.ilsa_corrow, count: 1 },
           { creature: refs.npcs.silas_wren, count: 1 },

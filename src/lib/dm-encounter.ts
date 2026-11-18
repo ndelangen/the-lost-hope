@@ -2,7 +2,7 @@ import type { DmContent } from '#/definitions/content'
 import type { EntityRef } from '#/definitions/kind'
 import { DEFAULT_AVATAR } from '#/definitions/media'
 import type { PcCombat } from '#/definitions/pc'
-import type { Scene, SceneBeatFight, SceneOpponent } from '#/definitions/scene'
+import type { FightPlace, Scene, SceneBeatFight, SceneOpponent } from '#/definitions/scene'
 import type { OwnOrSharedStatBlock, StatBlock } from '#/definitions/stat-block'
 import { effectsOn, type EntityOf } from '#/lib/campaign'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
@@ -195,6 +195,8 @@ export type SceneFight = FightLineUp & {
   key: string
   onlyIf: DmContent | undefined
   creatures: CreatureRef[]
+  /** The rooms of the vessel it is fought in. Empty when it is not tied to a room. */
+  where: FightPlace[]
 }
 
 /** The fights of a scene, in the order of its script. */
@@ -207,6 +209,7 @@ export function sceneFights(scene: Scene): SceneFight[] {
             onlyIf: beat.onlyIf,
             ...fightLineUp(beat.fight),
             creatures: creaturesOf([...beat.fight.opponents, ...beat.fight.allies]),
+            where: beat.fight.where,
           },
         ]
       : [],

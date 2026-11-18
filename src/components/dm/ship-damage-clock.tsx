@@ -12,7 +12,7 @@ import {
   Plus,
   RotateCcw,
 } from 'lucide-react'
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react'
 
 import { DifficultTerrainBadge } from '#/components/ship/difficult-terrain-badge'
 import { SHIP_DAMAGE_DICE, type ShipDamageDie } from '#/definitions/scene'
@@ -36,9 +36,11 @@ import {
   type ShipUnderFire,
   type SliceStatus,
 } from '#/lib/ship-damage'
+import type { RoomFight, ShipRooms } from '#/lib/ship-rooms'
 import { cn } from '#/lib/utils'
 
 import { ActionButton, IconButton } from './encounter/icon-button'
+import { ShipRoomFight } from './ship-room-fight'
 import { useShipDamage } from './use-ship-damage'
 
 const SIDE_LABEL = { port: 'Port', starboard: 'Starboard' } as const
@@ -125,6 +127,7 @@ function SectorTile({
   locked,
   onHit,
   onAdjust,
+  children,
 }: {
   sector: ShipSectorView
   hitPoints: number
@@ -133,13 +136,16 @@ function SectorTile({
   locked: boolean
   onHit: () => void
   onAdjust: (delta: number) => void
+  /** What is in this room, under its damage controls. */
+  children?: ReactNode
 }) {
   const worn = !sector.destroyed && sector.damage * 2 > hitPoints
   const place = `${sector.name}, ${SIDE_LABEL[sector.side].toLowerCase()} side of slice ${sector.slice + 1}`
   return (
     <div
       className={cn(
-        'bg-card grid min-w-0 grid-rows-[1fr_auto] overflow-hidden rounded-xl border-2',
+        // Its three rows are the rows of the whole side, so the controls of a side line up.
+        'bg-card row-span-3 grid min-w-0 grid-cols-[minmax(0,1fr)] grid-rows-subgrid gap-y-0 overflow-hidden rounded-xl border-2',
         sector.destroyed
           ? 'border-red-500/60 bg-red-500/10'
           : worn
@@ -153,7 +159,7 @@ function SectorTile({
         onClick={onHit}
         disabled={sector.destroyed || locked}
         aria-label={`Hit ${place}: ${sector.damage} of ${hitPoints} damage`}
-        className="hover:bg-muted focus-visible:ring-ring/50 grid min-h-24 grid-rows-[1fr_auto_auto] gap-2 p-3 text-left transition-colors outline-none focus-visible:ring-3 disabled:pointer-events-none"
+        className="hover:bg-muted focus-visible:ring-ring/50 grid min-h-24 content-start gap-2 p-3 text-left transition-colors outline-none focus-visible:ring-3 disabled:pointer-events-none"
       >
         <span
           className={cn(
@@ -213,8 +219,19 @@ function SectorTile({
           <Plus aria-hidden className="size-5" />
         </button>
       </div>
+      {children ? (
+        <div className="border-border grid content-start gap-3 border-t-2 p-2">{children}</div>
+      ) : null}
     </div>
   )
+}
+
+/** The fights of a scene in the rooms of the ship, and what the DM can do with one. */
+export type ShipRoomControls = {
+  rooms: ShipRooms
+  onRun: (fight: RoomFight) => void
+  /** Open the notes of a fight's beat, on pages that show them. */
+  onNotes?: (fight: RoomFight) => void
 }
 
 /**
@@ -228,12 +245,15 @@ export function ShipDamageClock({
   ship,
   pinned,
   onPinChange,
+  roomControls,
 }: {
   sceneKey: string
   vesselName: string
   ship: ShipUnderFire
   pinned: boolean
   onPinChange: (pinned: boolean) => void
+  /** The scene's fights by room, each with its button to run it. */
+  roomControls?: ShipRoomControls
 }) {
   const audio = useRef<AudioContext | null>(null)
   const [sound, setSound] = useState(true)
@@ -243,6 +263,19 @@ export function ShipDamageClock({
   const [lastHit, setLastHit] = useState<string>()
   const [confirmReset, setConfirmReset] = useState(false)
   const [open, setOpen] = useState(!pinned)
+  const [deckKey, setDeckKey] = useState<string>()
+  const decks = roomControls?.rooms.decks ?? []
+  const deck = decks.find(({ deck: ref }) => ref.key === deckKey) ?? decks[0]
+  const roomFight = (fight: RoomFight, layout: 'tile' | 'bar') =>
+    roomControls ? (
+      <ShipRoomFight
+        key={fight.key}
+        fight={fight}
+        layout={layout}
+        onRun={() => roomControls.onRun(fight)}
+        onNotes={roomControls.onNotes ? () => roomControls.onNotes?.(fight) : undefined}
+      />
+    ) : null
 
   // Browsers only allow sound after a click. The first click anywhere prepares the alarm, so a
   // clock that moved to the dock or came back after a reload still beeps.
@@ -457,6 +490,40 @@ export function ShipDamageClock({
         />
       ) : null}
 
+      {open && decks.length > 1 ? (
+        <fieldset className="flex flex-wrap items-center gap-x-3 gap-y-2">
+          <legend className="sr-only">Deck</legend>
+          <span aria-hidden className="text-sm font-semibold">
+            Deck
+          </span>
+          <div className="border-border flex overflow-hidden rounded-xl border-2">
+            {decks.map(({ deck: ref, name }) => (
+              <label
+                key={ref.key}
+                className={cn(
+                  'border-border has-focus-visible:ring-ring/50 grid h-12 cursor-pointer place-items-center border-l-2 px-4 text-base font-bold first:border-l-0 has-focus-visible:ring-3',
+                  ref.key === deck?.deck.key
+                    ? 'bg-primary text-primary-foreground'
+                    : 'hover:bg-muted',
+                )}
+              >
+                <input
+                  type="radio"
+                  name="ship-deck"
+                  className="sr-only"
+                  checked={ref.key === deck?.deck.key}
+                  onChange={() => setDeckKey(ref.key)}
+                />
+                {name}
+              </label>
+            ))}
+          </div>
+          <span className="text-muted-foreground text-sm">
+            The damage is the same ship on every deck.
+          </span>
+        </fieldset>
+      ) : null}
+
       <div
         hidden={!open}
         className={cn('items-stretch gap-2', open && 'grid')}
@@ -497,7 +564,7 @@ export function ShipDamageClock({
         {(['starboard', 'port'] as const).map((side) => [
           <span
             key={side}
-            className="text-muted-foreground rotate-180 self-center text-xs font-semibold tracking-wide uppercase [writing-mode:vertical-rl]"
+            className="text-muted-foreground row-span-3 rotate-180 self-center text-xs font-semibold tracking-wide uppercase [writing-mode:vertical-rl]"
           >
             {SIDE_LABEL[side]}
           </span>,
@@ -514,10 +581,33 @@ export function ShipDamageClock({
                 onAdjust={(delta) =>
                   update((current) => adjustSector(current, ship, sector.index, delta))
                 }
-              />
+              >
+                {deck?.bySector.get(sector.index)?.map((fight) => roomFight(fight, 'tile'))}
+              </SectorTile>
             )),
         ])}
       </div>
+
+      {open && roomControls && (deck?.deckWide.length || roomControls.rooms.anywhere.length) ? (
+        <div className="grid gap-2">
+          {deck?.deckWide.length ? (
+            <div className="grid gap-2">
+              <p className="text-muted-foreground text-xs font-semibold tracking-wide uppercase">
+                Anywhere on this deck
+              </p>
+              {deck.deckWide.map((fight) => roomFight(fight, 'bar'))}
+            </div>
+          ) : null}
+          {roomControls.rooms.anywhere.length ? (
+            <div className="grid gap-2">
+              <p className="text-muted-foreground text-xs font-semibold tracking-wide uppercase">
+                Wherever the party is
+              </p>
+              {roomControls.rooms.anywhere.map((fight) => roomFight(fight, 'bar'))}
+            </div>
+          ) : null}
+        </div>
+      ) : null}
     </section>
   )
 }

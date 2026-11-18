@@ -1,7 +1,36 @@
 import { resolveScene, resolveSourceRef, sceneShipUnderFire } from '#/lib/dm-campaign'
+import type { ShipUnderFire } from '#/lib/ship-damage'
 
 import { ShipDamageClock } from './ship-damage-clock'
 import { usePinnedShipClock } from './use-pinned-ship-clock'
+import { useShipRooms } from './use-ship-rooms'
+
+/** The pinned clock with the scene's fights in its rooms, so a fight can be run from any page. */
+function PinnedClock({
+  sceneKey,
+  vesselName,
+  ship,
+  onUnpin,
+}: {
+  sceneKey: string
+  vesselName: string
+  ship: ShipUnderFire
+  onUnpin: () => void
+}) {
+  const { rooms, run } = useShipRooms(sceneKey, ship)
+  return (
+    <ShipDamageClock
+      sceneKey={sceneKey}
+      vesselName={vesselName}
+      ship={ship}
+      pinned
+      onPinChange={(pin) => {
+        if (!pin) onUnpin()
+      }}
+      roomControls={{ rooms, onRun: run }}
+    />
+  )
+}
 
 /**
  * The pinned ship-damage clock, floating at the bottom of every page, combat focus included, so
@@ -17,15 +46,12 @@ export function ShipDamageDock() {
   return (
     <div className="pointer-events-none fixed bottom-4 left-4 z-[140] flex max-h-[calc(100dvh-2rem)] flex-col items-start justify-end">
       <div className="pointer-events-auto min-h-0 overflow-y-auto overscroll-contain rounded-2xl">
-        <ShipDamageClock
+        <PinnedClock
           key={pinned.key}
           sceneKey={pinned.key}
           vesselName={vesselName}
           ship={ship}
-          pinned
-          onPinChange={(pin) => {
-            if (!pin) setPinned(undefined)
-          }}
+          onUnpin={() => setPinned(undefined)}
         />
       </div>
     </div>

@@ -150,6 +150,41 @@ function OpenBeat({
         ) : null}
       </header>
 
+      <BeatBody beat={beat} groupSave={groupSave} />
+
+      <footer className="flex flex-wrap gap-3">
+        <button
+          type="button"
+          onClick={onDone}
+          className="bg-primary text-primary-foreground hover:bg-primary/90 flex h-12 items-center gap-2 rounded-xl px-5 text-base font-semibold"
+        >
+          <Check className="size-5" aria-hidden /> Done
+        </button>
+        {beat.onlyIf ? (
+          <button
+            type="button"
+            onClick={onSkip}
+            className="border-border hover:bg-muted flex h-12 items-center gap-2 rounded-xl border px-5 text-base font-semibold"
+          >
+            <SkipForward className="size-5" aria-hidden /> Skip
+          </button>
+        ) : null}
+      </footer>
+    </article>
+  )
+}
+
+/** What a beat holds: its lines in order, a group save, who joins the fight, and its branches. */
+export function BeatBody({
+  beat,
+  groupSave = null,
+}: {
+  beat: ScriptBeat
+  /** The tracker of the beat's group save, when it has one and the page tracks it. */
+  groupSave?: React.ReactNode
+}) {
+  return (
+    <>
       <ul className="grid gap-4">
         {beat.lines.map((line, index) => (
           // oxlint-disable-next-line react/no-array-index-key -- a beat's lines have no ids and never reorder
@@ -177,26 +212,7 @@ function OpenBeat({
           <SceneBranches branches={beat.branches} />
         </div>
       ) : null}
-
-      <footer className="flex flex-wrap gap-3">
-        <button
-          type="button"
-          onClick={onDone}
-          className="bg-primary text-primary-foreground hover:bg-primary/90 flex h-12 items-center gap-2 rounded-xl px-5 text-base font-semibold"
-        >
-          <Check className="size-5" aria-hidden /> Done
-        </button>
-        {beat.onlyIf ? (
-          <button
-            type="button"
-            onClick={onSkip}
-            className="border-border hover:bg-muted flex h-12 items-center gap-2 rounded-xl border px-5 text-base font-semibold"
-          >
-            <SkipForward className="size-5" aria-hidden /> Skip
-          </button>
-        ) : null}
-      </footer>
-    </article>
+    </>
   )
 }
 
