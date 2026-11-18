@@ -301482,6 +301482,8 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/pin",
       "usedIn": [
+        "src/components/dm/scene-ship-damage.tsx",
+        "src/components/dm/ship-damage-clock.tsx",
         "src/routes/dm/scenes/$slug.tsx"
       ]
     },
@@ -301521,7 +301523,10 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/pin-off",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/scene-ship-damage.tsx",
+        "src/components/dm/ship-damage-clock.tsx"
+      ]
     },
     {
       "id": "lucide/Pipette",
