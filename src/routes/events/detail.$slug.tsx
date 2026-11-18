@@ -7,6 +7,7 @@ import { EntityContext } from '#/components/entity-context'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityKindPill } from '#/components/entity-kind-pill'
 import { EntityDetail } from '#/components/entity-page'
+import { ForetoldList } from '#/components/foretold-list'
 import { ImageViewer } from '#/components/image-viewer'
 import { LocationReference } from '#/components/location-reference'
 import { Inline, Stack } from '#/components/ui/layout'
@@ -80,6 +81,12 @@ function EventPage() {
         <h2 className="text-lg font-semibold">What happened</h2>
         <ContentRenderer content={event.notes} />
       </Stack>
+      {event.foretold ? (
+        <Stack as="section" gap="md">
+          <h2 className="text-lg font-semibold">Foretold</h2>
+          <ForetoldList foretold={event.foretold} />
+        </Stack>
+      ) : null}
     </EntityDetail>
   )
 }

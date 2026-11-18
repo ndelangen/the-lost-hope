@@ -6,6 +6,7 @@ import { EntityContext } from '#/components/entity-context'
 import { EntityCorrectionSubmission } from '#/components/entity-correction-submission'
 import { EntityDetail } from '#/components/entity-page'
 import { EntityReference } from '#/components/entity-reference'
+import { ForetoldList } from '#/components/foretold-list'
 import { Grid, Stack } from '#/components/ui/layout'
 import { getEntity, refLink } from '#/lib/campaign'
 import { entityContextData } from '#/lib/entity-context-data'
@@ -52,6 +53,12 @@ function ItemPage() {
       </Grid>
 
       {item.notes ? <ContentRenderer content={item.notes} /> : null}
+      {item.foretold ? (
+        <Stack as="section" gap="md">
+          <h2 className="text-lg font-semibold">Foretold</h2>
+          <ForetoldList foretold={item.foretold} />
+        </Stack>
+      ) : null}
     </EntityDetail>
   )
 }

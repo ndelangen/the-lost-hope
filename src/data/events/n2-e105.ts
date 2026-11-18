@@ -68,27 +68,7 @@ export default createEvent({
     [
       'Before the party left, ',
       refs.npcs.the_fiddler,
-      ' asked ',
-      refs.pcs.swift_starblade,
-      ' whether he still had his own ship or airship. ',
-      refs.pcs.swift_starblade,
-      ' answered “not anymore.” ',
-      refs.npcs.the_fiddler,
-      ' then asked ',
-      refs.pcs.jim,
-      ' whether he was already “the new father,” and ',
-      refs.pcs.jim,
-      ' said he was not to the best of his knowledge.',
-    ],
-    [
-      refs.npcs.the_fiddler,
-      ' asked ',
-      refs.pcs.devan,
-      ' whether he was already “the high priest of war.” ',
-      refs.pcs.devan,
-      ' said not yet but that he was working on it. ',
-      refs.npcs.the_fiddler,
-      ' described the future position as an orc-lord role with divine benefits, flying robes, and command of an alliance of roughly ten thousand orcs.',
+      ' asked about the futures he seemed to know.',
     ],
     [
       refs.npcs.the_fiddler,
@@ -110,5 +90,45 @@ export default createEvent({
       refs.pcs.cassian_veyl,
       '.',
     ],
+  ],
+  foretold: [
+    {
+      what: [
+        [
+          refs.npcs.the_fiddler,
+          ' asked ',
+          refs.pcs.swift_starblade,
+          ' whether he still had his own ship or airship. ',
+          refs.pcs.swift_starblade,
+          ' answered “not anymore.”',
+        ],
+      ],
+    },
+    {
+      what: [
+        [
+          refs.npcs.the_fiddler,
+          ' asked ',
+          refs.pcs.jim,
+          ' whether he was already “the new father,” and ',
+          refs.pcs.jim,
+          ' said he was not to the best of his knowledge.',
+        ],
+      ],
+    },
+    {
+      what: [
+        [
+          refs.npcs.the_fiddler,
+          ' asked ',
+          refs.pcs.devan,
+          ' whether he was already “the high priest of war.” ',
+          refs.pcs.devan,
+          ' said not yet but that he was working on it. ',
+          refs.npcs.the_fiddler,
+          ' described the future position as an orc-lord role with divine benefits, flying robes, and command of an alliance of roughly ten thousand orcs.',
+        ],
+      ],
+    },
   ],
 })

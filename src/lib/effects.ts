@@ -1,4 +1,5 @@
-import type { Effect, Span } from '#/definitions/effect'
+import type { Effect } from '#/definitions/effect'
+import type { Span } from '#/definitions/span'
 
 export type EffectStatus = 'active' | 'ended' | 'expired'
 

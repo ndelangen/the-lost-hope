@@ -12,6 +12,7 @@ import {
   type EntityKind,
 } from '#/lib/campaign'
 import { collectReferences } from '#/lib/campaign-read-model'
+import { eventProse } from '#/lib/foretold'
 
 export type ContextEntity = { kind: EntityKind; slug: string; name: string }
 export type ContextConnection = {
@@ -165,7 +166,8 @@ export function entityContextData(entity: Entity): EntityContextData {
     .toSorted((a, b) => a.data.day - b.data.day)
     .flatMap((event): ContextHistoryEntry[] => {
       if (same(identity(event), focus)) return []
-      const mentioned = references(event.data.notes, focus)
+      const prose = eventProse(event.data)
+      const mentioned = references(prose, focus)
       const place = eventLocation(event.data)
       const atLocation = focus.kind === 'location' && place?.slug === focus.slug
       const sessionSlug = sessionSlugForEvent(event.slug)
@@ -182,10 +184,8 @@ export function entityContextData(entity: Entity): EntityContextData {
             ? { ...identity(session), number: sessionNumber(session.slug) }
             : undefined,
           location: place ? { kind: 'location', slug: place.slug, name: place.name } : undefined,
-          passages: mentioned
-            ? event.data.notes.filter((paragraph) => references(paragraph, focus))
-            : event.data.notes,
-          mentions: peopleIn(event.data.notes).filter((person) => !same(person, focus)),
+          passages: mentioned ? prose.filter((paragraph) => references(paragraph, focus)) : prose,
+          mentions: peopleIn(prose).filter((person) => !same(person, focus)),
           reason: mentioned
             ? 'mentioned'
             : atLocation

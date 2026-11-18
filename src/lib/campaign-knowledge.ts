@@ -1,5 +1,6 @@
 import { readFileSync } from 'node:fs'
 
+import type { Event } from '#/definitions/event'
 import {
   DM_ENTITY_KINDS,
   ENTITY_KINDS,
@@ -12,6 +13,7 @@ import { PLAYER_VISIBLE_KEYS, SOURCE_REGISTRIES } from '#/lib/campaign-registrie
 import { arcs, creatures, plotCast, scenes, table } from '#/lib/dm-campaign'
 import { refText, sourceText } from '#/lib/dm-prep-brief'
 import { buildStorylines, campaignSessionsInOrder } from '#/lib/dm-storylines'
+import { eventProse } from '#/lib/foretold'
 import { DM_FIELDS, stripDmFields } from '#/lib/player-visibility'
 import { splitQuestionsMarkdown } from '#/lib/questions'
 
@@ -549,7 +551,7 @@ export function timeline(
       `- day ${event.day}: ${name({ ref: 'event', key: event.key })} at ${name(event.record.location)}`,
     )
     if (options.detail) {
-      out.push(indent(sourceText(event.record.notes), '    '))
+      out.push(indent(sourceText(eventProse(event.record as unknown as Event)), '    '))
       if (event.record.background) {
         out.push(indent(`[DM-only background] ${sourceText(event.record.background)}`, '    '))
       }
@@ -562,7 +564,7 @@ export function timeline(
     out.push('', `## Off-screen events, DM-only (${offscreen.length})`)
     for (const [key, event] of offscreen) {
       out.push(`- day ${event.day}: ${name({ ref: 'event', key })}`)
-      if (options.detail) out.push(indent(sourceText(event.notes), '    '))
+      if (options.detail) out.push(indent(sourceText(eventProse(event)), '    '))
     }
   }
   return out.join('\n')
@@ -780,7 +782,7 @@ function stateChangeIn(event: KnowledgeRef, ref: KnowledgeRef): string | undefin
   if (!['pc', 'npc', 'beast', 'location', 'item'].includes(ref.ref)) return undefined
   const eventRecord = recordOf(event)!
   const marker = `(refs.${ref.ref}s.${ref.key})`
-  const text = [eventRecord.name, sourceText(eventRecord.notes)].join('. ')
+  const text = [eventRecord.name, sourceText(eventProse(eventRecord as Event))].join('. ')
   return text
     .split(/(?<=[.!?])\s+/u)
     .find((sentence) => sentence.includes(marker) && fate.test(sentence))

@@ -25,7 +25,14 @@ export default createEvent({
       refs.npcs.the_fiddler,
       ' warned the party not to enter the third dungeon on their second day among the ',
       refs.locations.three_sky_kingdoms,
-      '. He also promised that every future meeting would feature a different game.',
+      '.',
     ],
+  ],
+  foretold: [
+    {
+      what: [
+        [refs.npcs.the_fiddler, ' brings a different game to every future meeting with the party.'],
+      ],
+    },
   ],
 })

@@ -35,6 +35,7 @@ import {
 } from './campaign-registries'
 import type { LiveEffect } from './effect-reminders'
 import { effectExpiryDay, effectStatus, type EffectStatus } from './effects'
+import { eventProse, type ForetoldSource } from './foretold'
 import { isRuleRef, ruleOf, termLabel } from './rules'
 
 export type { EntityKind }
@@ -386,14 +387,14 @@ export function itemsCarriedBy(kind: EntityKind, slug: string): readonly EntityO
 }
 
 /**
- * Derive the PCs present in a session purely from references in its events' notes, deduped
+ * Derive the PCs present in a session purely from references in its events' prose, deduped
  * by slug and resolved to the canonical PC record (so avatars/defaults apply).
  */
 export function sessionPcs(session: Session): PC[] {
   const seen = new Set<string>()
   const result: PC[] = []
   for (const event of sessionEvents(session)) {
-    for (const ref of collectReferences(event.notes)) {
+    for (const ref of collectReferences(eventProse(event))) {
       if (ref.ref !== 'pc' || seen.has(ref.key)) continue
       seen.add(ref.key)
       const entity = resolveRef(ref)
@@ -730,4 +731,23 @@ export function eventMarkVisual(event: Pick<Event, 'mark' | 'day'>): EventMarkVi
           .toSorted((a, b) => (a.until ?? 0) - (b.until ?? 0))[0]
       : undefined
   return { type: 'avatar', url: earlier?.url ?? subject.data.avatar }
+}
+
+/** Every event and item that owns a promise or foretelling, for the DM dashboard's list. */
+export function foretoldSources(): ForetoldSource[] {
+  return [
+    ...allEntities('event').map((event) => ({
+      kind: 'event' as const,
+      slug: event.slug,
+      name: event.data.name,
+      day: event.data.day,
+      foretold: event.data.foretold,
+    })),
+    ...allEntities('item').map((item) => ({
+      kind: 'item' as const,
+      slug: item.slug,
+      name: item.data.name,
+      foretold: item.data.foretold,
+    })),
+  ].filter((source) => source.foretold)
 }

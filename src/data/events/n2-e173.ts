@@ -25,7 +25,18 @@ export default createEvent({
     [
       'Asked about reaching the ',
       refs.locations.feywild,
-      ', he described a cloud bridge that opens at intervals. He said its appearances could be predicted with nearly ninety percent certainty, and discussed links to the moon. The party did not use the bridge.',
+      ', he described a cloud bridge. The party did not use the bridge.',
     ],
+  ],
+  foretold: [
+    {
+      what: [
+        [
+          'The cloud bridge to the ',
+          refs.locations.feywild,
+          ' opens again. It opens at intervals, its appearances can be predicted with nearly ninety percent certainty, and it has links to the moon.',
+        ],
+      ],
+    },
   ],
 })

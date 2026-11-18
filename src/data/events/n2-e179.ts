@@ -17,7 +17,13 @@ export default createEvent({
       ' at its highest point. Installation of the rod was not recorded.',
     ],
     [
-      'A roll selected a mermaid figurehead, but the party removed it while negotiating the price. The quote fell from 4,600 gold through several revisions to an agreement of 3,950 gold and two favors. The individual contributions are unclear. Construction began, with completion expected within three days. It was not delivered during this session.',
+      'A roll selected a mermaid figurehead, but the party removed it while negotiating the price. The quote fell from 4,600 gold through several revisions to an agreement of 3,950 gold and two favors. The individual contributions are unclear. Construction began.',
     ],
+  ],
+  foretold: [
+    {
+      what: [[refs.items.beasts_and_dwarf_s_airship, ' is finished.']],
+      when: { type: 'within', span: { days: 3 } },
+    },
   ],
 })
