@@ -603,7 +603,7 @@ export default createScene({
     ],
     terrain: [
       [
-        'An open deck with rigging and gun ports, tilting whenever the ship is hit. A fall goes all the way to the ocean. The helm stands aft and raised, with stairs on both sides.',
+        'Closed rooms under a roof: there is a deck above, with nothing on it. The ship tilts whenever it is hit. The helm stands aft and raised, with stairs on both sides.',
       ],
     ],
     exits: [
