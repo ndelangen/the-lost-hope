@@ -170,12 +170,12 @@ export default createScene({
       lines: [{ do: [['The batteries: four more guard the guns, another quick win.']] }],
     },
     {
-      title: 'The Control room',
+      title: 'The Crystal chamber',
       lines: [
         {
           do: [
             [
-              'The Control room, the room before the Helm: ',
+              'The Crystal chamber, the room before the Helm: ',
               refs.npcs.korrag_stonevow,
               ' guards the only way through, alone, and this is where it gets tense.',
             ],
@@ -374,7 +374,7 @@ export default createScene({
         refs.npcs.ilsa_corrow,
         ' fights from the Helm at range, with her sailors as a wall: Fireball on a cluster, then Arcane Burst on whoever is hurt. ',
         refs.npcs.korrag_stonevow,
-        ' holds the Control room and fights there as ',
+        ' holds the Crystal chamber and fights there as ',
         refs.pcs.devan,
         ' would: shield up, smiting, covering any ally beside him.',
       ],
