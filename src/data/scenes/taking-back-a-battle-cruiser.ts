@@ -380,15 +380,37 @@ export default createScene({
         {
           do: [
             [
-              'When ',
               refs.npcs.silas_wren,
-              ' is the only one of them left, he bails: he jumps out of a window. On his way out:',
+              ' does not stay to the end. He bails before he gets too far down, or when he is the only one of them left: he jumps out of a window. As he leaves, he says to ',
+              refs.npcs.ilsa_corrow,
+              ':',
             ],
           ],
         },
         {
           speaker: refs.npcs.silas_wren,
-          say: [['We’ll meet again, ', refs.organizations.beasts_and_dwarf, '!']],
+          say: [
+            [
+              'See you on the other side, my dear! Until next time, ',
+              refs.organizations.beasts_and_dwarf,
+              '!',
+            ],
+          ],
+        },
+        { do: [['He waves.']] },
+        {
+          do: [
+            [refs.npcs.ilsa_corrow, ' does not bail. She goes down with the ship, and says why:'],
+          ],
+        },
+        {
+          speaker: refs.npcs.ilsa_corrow,
+          say: [
+            [
+              refs.npcs.the_father,
+              ' will just pull me back from death, like he did to so many others.',
+            ],
+          ],
         },
         {
           note: [
