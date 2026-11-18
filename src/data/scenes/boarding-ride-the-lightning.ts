@@ -102,7 +102,14 @@ export default createScene({
         {
           do: [
             [
-              'When a torpedo hits, it damages an enemy in the room who stands close to where it comes through. Spreading over port and starboard catches more of them.',
+              'When a torpedo comes through, it blasts a 15-foot ',
+              refs.rules.cone,
+              ' into the room from the breach. Every creature in it takes 2d6 ',
+              refs.rules.bludgeoning,
+              ' damage. That softens up the first room so the party can land on its feet, and spreading over port and starboard catches more of the enemy.',
+            ],
+            [
+              'The blast does not spare friends: a party member who landed on that side and did not stand aside takes the same 2d6.',
             ],
             [
               'Each landing is a DC 13 ',
@@ -119,6 +126,18 @@ export default createScene({
               ' on everything. ',
               refs.pcs.devan,
               ' in his armour counts as Large here.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              'They are on the clock while they wait their turn: the ship-damage clock in ',
+              refs.scenes.taking_back_a_battle_cruiser,
+              ' starts when the first of them lands, and a sector takes a hit every three minutes.',
+            ],
+            [
+              'The first torpedo into each bow sector also damages that sector. The rule is with the clock.',
             ],
           ],
         },

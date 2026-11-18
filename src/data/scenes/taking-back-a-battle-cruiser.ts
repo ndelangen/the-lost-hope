@@ -50,7 +50,7 @@ export default createScene({
               refs.npcs.ilsa_corrow,
               ' and ',
               refs.npcs.korrag_stonevow,
-              '), so you only track a few turns. Start the clock when the party lands. Put ',
+              '), so you only track a few turns. Start the clock when the first of them lands. Put ',
               refs.npcs.ilsa_corrow,
               ' and her group on the map from the start, but they only move once someone reaches the helm or she is attacked.',
             ],
@@ -108,6 +108,9 @@ export default createScene({
             ],
             [
               'If both sectors of one slice are destroyed, the ship is cut in two and lost. The clock shows which sectors have escape pods.',
+            ],
+            [
+              'Torpedoes hurt the ship too. The first torpedo to hit a sector deals 1 damage to that sector; later ones into the same sector do not. That goes for the boarding torpedoes and for a supply torpedo alike. Add it to that sector by hand.',
             ],
           ],
         },
@@ -292,7 +295,7 @@ export default createScene({
         [
           'Supplies in the middle of the fight: ',
           refs.npcs.captain_garran,
-          ' can fire a boarding torpedo packed with supplies into whatever part of the ship the party holds. It opens like the others, with Potions of Healing inside. This is your call, not something they can count on: watch how they are doing, and send it when the fight is going badly and they would rather go on than bail out through the escape pods. A player can also think to signal for it. ',
+          ' can fire a boarding torpedo packed with supplies into whatever part of the ship the party holds. It opens like the others, with Potions of Healing inside. If it is the first torpedo into that sector, it damages the sector like any other. This is your call, not something they can count on: watch how they are doing, and send it when the fight is going badly and they would rather go on than bail out through the escape pods. A player can also think to signal for it. ',
           refs.npcs.crowy,
           ' can carry the request across.',
         ],
