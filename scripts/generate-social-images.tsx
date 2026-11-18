@@ -219,6 +219,7 @@ function card(page: PublicPageDescriptor, imageDataUrl: string | undefined): Rea
           width: '1200px',
           height: '630px',
           padding: '52px 62px 48px',
+          boxSizing: 'border-box',
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'space-between',
@@ -230,6 +231,7 @@ function card(page: PublicPageDescriptor, imageDataUrl: string | undefined): Rea
               style={{
                 width: '38px',
                 height: '38px',
+                boxSizing: 'border-box',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
@@ -313,6 +315,7 @@ function card(page: PublicPageDescriptor, imageDataUrl: string | undefined): Rea
             style={{
               width: '148px',
               height: '148px',
+              boxSizing: 'border-box',
               flexShrink: 0,
               display: 'flex',
               alignItems: 'center',
