@@ -137,6 +137,9 @@ export default createScene({
               'A destroyed sector stays on the map as difficult terrain: torn, burning deck. Track damage from the player-screen dock while a deck map is showing, and the map shows it to the players.',
             ],
             ['The DC of the save and the fall damage are first choices, so change them freely.'],
+            [
+              'No hits land while the party is in the crystal room: pause the clock for as long as you play out time in there. The beat of that room says why.',
+            ],
           ],
         },
         {
@@ -211,7 +214,7 @@ export default createScene({
         {
           note: [
             [
-              'Sabotaging the crystal: in the Crystal chamber, an action and a DC 15 ',
+              'Sabotaging the crystal: in the crystal room, an action and a DC 15 ',
               refs.rules.arcana,
               ' check, or 20 damage to the crystal (AC 13).',
             ],
@@ -243,6 +246,54 @@ export default createScene({
       ],
     },
     {
+      title: 'The crystal room',
+      onlyIf: [['They go in to the crystal itself.']],
+      lines: [
+        {
+          do: [
+            [
+              'The crystal sits in a room of its own at the centre of the ship. It is cramped, there are no enemies in it, and the hits on the hull never reach it.',
+            ],
+          ],
+        },
+        { say: [['The moment you step in, you feel strange.']] },
+        {
+          do: [
+            [
+              'There is not much room: they have to squeeze around the crystal one by one. Each of them rolls ',
+              refs.rules.athletics,
+              ', and the roll sets how long the crossing takes them: the lower, the longer.',
+            ],
+            [
+              'Then describe each crossing as the others see it from where they stand. The closer someone gets to the crystal, the faster they move, so the one who struggled longest was round it in a blink.',
+            ],
+            [
+              'While they are in here, no explosions shake the hull. Let that be noticeable: the hits that kept coming have simply stopped. Pause the clock while you play out what happens in this room.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              'What is going on is in the background of ',
+              refs.items.ride_the_lightning,
+              '. Do not explain it. The clues are not obvious on purpose: the players have to investigate, and work out the rest for themselves.',
+            ],
+          ],
+        },
+      ],
+      outcomes: [
+        {
+          when: [['They work it out and take a ', refs.rules.long_rest, ' in the room.']],
+          response: [
+            [
+              'They get the full rest, and outside it is as if no time has passed at all. When they come out, start the clock again from where it stood.',
+            ],
+          ],
+        },
+      ],
+    },
+    {
       title: 'The Helm',
       lines: [
         {
@@ -265,7 +316,7 @@ export default createScene({
               refs.npcs.ilsa_corrow,
               ' drops below half her ',
               refs.rules.hit_points,
-              ', she runs for the Crystal chamber to overload it. If she spends a full turn there, the crystal fails: see the outcomes. Say plainly where she is going, so the players can race her.',
+              ', she runs for the crystal room to overload it. If she spends a full turn there, the crystal fails: see the outcomes. Say plainly where she is going, so the players can race her.',
             ],
           ],
         },
@@ -385,7 +436,7 @@ export default createScene({
         refs.npcs.dust_lost_sailor,
         's fight until ',
         refs.npcs.ilsa_corrow,
-        ' falls, then stop. Below half her hit points, she runs for the Crystal chamber (see the Helm in the script).',
+        ' falls, then stop. Below half her hit points, she runs for the crystal room (see the Helm in the script).',
       ],
     ],
     terrain: [
