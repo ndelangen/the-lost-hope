@@ -71,7 +71,10 @@ export default createScene({
         },
         {
           speaker: refs.pcs.jim,
-          say: [['I’m so sorry. I hope you all make it. Don’t trust Light.']],
+          say: [
+            ['I’m so sorry. I hope you all make it. Don’t trust Light.'],
+            ['Swifty, listen to me! Take the ship and run!'],
+          ],
         },
         {
           note: [
@@ -81,7 +84,7 @@ export default createScene({
         {
           do: [
             [
-              'His body just disappears, and all his gear drops to the ground, along with his tongue, still bearing his guild tattoo.',
+              'The beam cuts him off. His body just disappears, and all his gear drops to the ground, along with his tongue, still bearing his guild tattoo.',
             ],
             [
               'The beam also hits ',
