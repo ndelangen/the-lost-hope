@@ -174,6 +174,9 @@ export default createScene({
               refs.npcs.cloaked_snatcher,
               's come forward to meet them, and go down fast.',
             ],
+            [
+              'If the party investigates the front compartments, they can find the passage to the lower deck.',
+            ],
           ],
         },
       ],
@@ -184,7 +187,9 @@ export default createScene({
     },
     {
       title: 'The lower deck',
-      onlyIf: [['They go below instead of fighting their way along the top level.']],
+      onlyIf: [
+        ['They find the passage and go below instead of fighting their way along the top level.'],
+      ],
       lines: [
         {
           do: [
@@ -195,6 +200,7 @@ export default createScene({
               refs.npcs.cloaked_snatcher,
               's. They are busy reloading and firing the cannons, and that keeps them distracted.',
             ],
+            ['Its map is with the battlemaps of this scene: put it on the player screen.'],
             [
               'If the party engages them, they attack in groups of four. Add each group to the encounter as it turns on the party.',
             ],
@@ -232,14 +238,13 @@ export default createScene({
       ],
     },
     {
-      title: 'The Crystal chamber',
+      title: 'Korrag, just before the bridge',
       lines: [
         {
           do: [
             [
-              'The Crystal chamber, the room before the Helm: ',
               refs.npcs.korrag_stonevow,
-              ' guards the only way through, alone, and this is where it gets tense.',
+              ' is not tied to a room. He meets the party wherever they are, just before they enter the bridge. For example, he comes down the stairs as they want to go up. He is alone, and this is where it gets tense.',
             ],
           ],
         },
@@ -267,15 +272,6 @@ export default createScene({
               ' ',
               refs.rules.advantage,
               '.',
-            ],
-          ],
-        },
-        {
-          note: [
-            [
-              'Sabotaging the crystal: in the crystal room, an action and a DC 15 ',
-              refs.rules.arcana,
-              ' check, or 20 damage to the crystal (AC 13).',
             ],
           ],
         },
@@ -337,6 +333,15 @@ export default createScene({
               'What is going on is in the background of ',
               refs.items.ride_the_lightning,
               '. Do not explain it. The clues are not obvious on purpose: the players have to investigate, and work out the rest for themselves.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              'Sabotaging the crystal: an action and a DC 15 ',
+              refs.rules.arcana,
+              ' check, or 20 damage to the crystal (AC 13).',
             ],
           ],
         },
@@ -501,7 +506,7 @@ export default createScene({
         refs.npcs.ilsa_corrow,
         ' fights from the Helm at range, with her sailors as a wall: Fireball on a cluster, then Arcane Burst on whoever is hurt. ',
         refs.npcs.korrag_stonevow,
-        ' holds the Crystal chamber and fights there as ',
+        ' fights as ',
         refs.pcs.devan,
         ' would: shield up, smiting, covering any ally beside him.',
       ],
