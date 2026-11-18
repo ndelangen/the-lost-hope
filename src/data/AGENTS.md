@@ -88,6 +88,17 @@ canon.
 - When importing a played session, read `bun run dm:brief` first, link each new event to the plots
   it advanced, and update those plots' `notes`. The `$plan-campaign-entity` skill has the steps.
 
+## Promises and foretellings
+
+- Something promised, foretold, or bound to happen later (a delivery, a vow, a prophecy, a lock that
+  opens under a full moon) is a `foretold` entry on the event that made it, or on the item when it
+  is the item's own nature. The entry owns the text and the timing; do not repeat either in `notes`.
+- `when` is `within` or `after` a span counted from the event's day, or `fullMoon`. Omit it when no
+  time was set. Write `what` without the timing: the pages and the DM dashboard show it.
+- Once it happens, set `cameTrue` to that event. Do not delete the entry.
+- The DM dashboard derives the list of what is still to come. Only canon goes here: a hint or
+  question counts when an NPC said it in play, never a guess about what it means.
+
 ## Effects
 
 - A lasting effect on a PC, NPC, or beast (a curse, a card's boon or bane, a bargain, a

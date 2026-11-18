@@ -4,6 +4,7 @@ import { Background } from './content'
 import { makeCreate } from './create'
 import { ENTITY_KINDS, entityRefOf } from './kind'
 import { deriveSlug } from './slug'
+import { Span } from './span'
 
 /** DM-fired moments an effect can ask to be reminded about (see issue #171). */
 export const EFFECT_TRIGGERS = {
@@ -40,17 +41,6 @@ export type EffectTextToken = z.infer<typeof EffectTextToken>
 export const EffectText = z.array(z.array(EffectTextToken).min(1)).min(1)
 
 export type EffectText = z.infer<typeof EffectText>
-
-const Span = z
-  .strictObject({
-    hours: z.number().int().positive().optional(),
-    days: z.number().int().positive().optional(),
-    months: z.number().int().positive().optional(),
-    years: z.number().int().positive().optional(),
-  })
-  .refine((span) => Object.values(span).some(Boolean), 'Give at least one unit')
-
-export type Span = z.infer<typeof Span>
 
 /**
  * "Do this within a span or suffer the consequence." The DM tool keeps when the clock last reset

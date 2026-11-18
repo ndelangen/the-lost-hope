@@ -1,4 +1,5 @@
 import type { Content } from '#/definitions/content'
+import type { Foretold } from '#/definitions/foretold'
 import { isEntityRef, type EntityRef } from '#/definitions/kind'
 import type { QuestType } from '#/definitions/quest'
 import type { Session } from '#/definitions/session'
@@ -11,6 +12,7 @@ import {
   sessionDays,
   type EventMarkVisual,
 } from '#/lib/campaign'
+import { eventProse } from '#/lib/foretold'
 
 export type SessionJournalReference = {
   kind: 'pc' | 'npc' | 'beast'
@@ -39,6 +41,7 @@ export type SessionJournalEvent = {
   slug: string
   name: string
   notes: Content
+  foretold: readonly Foretold[]
   mark: EventMarkVisual
   location?: SessionJournalLocation
   transition?: {
@@ -65,7 +68,7 @@ export function sessionJournalData(session: Session): SessionJournalDay[] {
       eventIndex += 1
       const location = eventLocation(event)
       const parent = location ? locationParent(location) : undefined
-      const referencedEntities = referencesIn(event.notes).flatMap((reference) => {
+      const referencedEntities = referencesIn(eventProse(event)).flatMap((reference) => {
         const entity = resolveRef(reference)
         return entity ? [entity] : []
       })
@@ -81,6 +84,7 @@ export function sessionJournalData(session: Session): SessionJournalDay[] {
         slug: event.slug,
         name: event.name,
         notes: event.notes,
+        foretold: event.foretold ?? [],
         mark: eventMarkVisual(event),
         location: location
           ? {

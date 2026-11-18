@@ -1,13 +1,14 @@
 import { createFileRoute } from '@tanstack/react-router'
 
 import { DmEffectsPanel } from '#/components/dm/dm-effects-panel'
+import { DmForetoldPanel } from '#/components/dm/dm-foretold-panel'
 import { DmLocationBranch } from '#/components/dm/dm-location-branch'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
 import { DmSceneRow } from '#/components/dm/dm-scene-row'
 import { PartyTokens } from '#/components/dm/party-tokens'
 import { useEffectLiveState } from '#/components/dm/use-effect-live-state'
 import { useTokenCounts } from '#/components/dm/use-token-counts'
-import { campaignEvents, campaignToday, liveEffects, pcs } from '#/lib/campaign'
+import { campaignEvents, campaignToday, foretoldSources, liveEffects, pcs } from '#/lib/campaign'
 import { arcs, scenes, sourceLocationParent, table, tokens } from '#/lib/dm-campaign'
 import { buildDashboard, lastKnownLocations, playedEvent, runningOrder } from '#/lib/dm-dashboard'
 import {
@@ -22,6 +23,7 @@ import {
   pendingReminders,
   restoreEffect,
 } from '#/lib/effect-reminders'
+import { foretoldEntries } from '#/lib/foretold'
 import { tokenRows } from '#/lib/pc-tokens'
 
 export const Route = createFileRoute('/dm/')({
@@ -49,6 +51,8 @@ function DmDashboard() {
   const candidates = liveEffects()
   const inPlay = live.state ? effectsInPlay(live.state, candidates) : []
   const tokenCounts = useTokenCounts(tokenRows(pcs, tokens))
+  const today = live.state?.day ?? campaignToday()
+  const foretold = foretoldEntries(foretoldSources(), today)
 
   return (
     <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_12rem]">
@@ -71,6 +75,7 @@ function DmDashboard() {
             }}
           />
         ) : null}
+        <DmForetoldPanel pending={foretold.pending} cameTrue={foretold.cameTrue} today={today} />
         <h1 className="text-3xl font-bold">Running order</h1>
         {order.length > 0 ? (
           <ol className="marker:text-muted-foreground grid list-decimal grid-cols-1 pl-6 marker:font-semibold">

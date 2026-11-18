@@ -2,6 +2,7 @@ import { z } from 'zod'
 
 import { Background, Content } from './content'
 import { makeCreate } from './create'
+import { Foretold } from './foretold'
 import { EntityRefSchema, entityRefOf } from './kind'
 import { MediaUrl } from './media'
 import { deriveSlug } from './slug'
@@ -32,6 +33,11 @@ export const EventSchema = deriveSlug(
     location: EntityRefSchema,
     mark: EventMark,
     image: MediaUrl.optional(),
+    foretold: z
+      .array(Foretold)
+      .min(1)
+      .optional()
+      .describe('What was promised or foretold in this event, still to come or come true'),
     background: Background,
   }),
 )

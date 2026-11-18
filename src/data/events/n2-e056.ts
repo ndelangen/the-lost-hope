@@ -15,12 +15,7 @@ export default createEvent({
       refs.pcs.fix,
       ' for 55 GP from the party’s shared funds.',
     ],
-    [
-      refs.npcs.abraham,
-      ' agreed only after ',
-      refs.pcs.jim,
-      ' promised to help him earn recognition from his peers. Who those peers are remains unclear, and the promise has no deadline.',
-    ],
+    [refs.npcs.abraham, ' agreed only after ', refs.pcs.jim, ' made him a promise.'],
     [
       'If ',
       refs.pcs.jim,
@@ -32,5 +27,17 @@ export default createEvent({
       refs.npcs.abraham,
       '’s peers and tell them stories of his heroic rescues.',
     ],
+  ],
+  foretold: [
+    {
+      what: [
+        [
+          refs.pcs.jim,
+          ' helps ',
+          refs.npcs.abraham,
+          ' earn recognition from his peers. Who those peers are remains unclear.',
+        ],
+      ],
+    },
   ],
 })

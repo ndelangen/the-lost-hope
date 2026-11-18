@@ -1,9 +1,11 @@
 import type { Arc } from '#/definitions/arc'
+import type { Event } from '#/definitions/event'
 import type { EntityRef } from '#/definitions/kind'
 import type { Scene } from '#/definitions/scene'
 import type { Table } from '#/definitions/table'
 
 import { collectReferences } from './campaign-read-model'
+import { eventProse } from './foretold'
 
 export type ScenePlot = { arc: Arc; arcKey: string; plot: Arc['plots'][number] }
 
@@ -57,8 +59,8 @@ export function lastKnownLocations(
   return locations
 }
 
-export function playedEvent(event: { location: EntityRef; notes: unknown }): PlayedEvent {
-  return { location: event.location, refs: collectReferences(event.notes) }
+export function playedEvent(event: Pick<Event, 'location' | 'notes' | 'foretold'>): PlayedEvent {
+  return { location: event.location, refs: collectReferences(eventProse(event)) }
 }
 
 /** The likely scenes in the order the DM plans to run them, whatever location they happen in. */
