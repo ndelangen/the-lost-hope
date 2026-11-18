@@ -56,6 +56,7 @@ export default createScene({
             ],
           ],
         },
+        { say: [['Roll for ', refs.rules.initiative, '!']] },
         {
           do: [
             [
@@ -72,9 +73,9 @@ export default createScene({
         {
           do: [
             [
-              'The torpedo: one launch per round. Each party member picks their own bow, port or starboard, so the party may split over the two. Have everyone roll ',
+              'The torpedo: one launch per round. Each party member picks their own bow, port or starboard, so the party may split over the two. The ',
               refs.rules.initiative,
-              ' now: that roll is the order they go into the torpedo. Whoever lands first is alone at their bow until the next one arrives there.',
+              ' they just rolled is the order they go into the torpedo. Whoever lands first is alone at their bow until the next one arrives there.',
             ],
             [
               'A natural 1 on that roll: the torpedo of that rider hits the other bow, not the one they picked.',
