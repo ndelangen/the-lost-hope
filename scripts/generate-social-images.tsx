@@ -39,7 +39,7 @@ const GENERATED_PUBLIC_ASSETS_MODULE = join(ROOT, 'src/generated/public-asset-pa
 const GENERATED_PUBLIC_PAGE_PATHS = join(ROOT, PUBLIC_PAGE_PATHS_FILE)
 const FONT_DIRECTORY = join(ROOT, 'assets/fonts/inter')
 const RENDERER_VERSIONS =
-  'satori@0.33.5|@resvg/resvg-js@2.6.2|sharp@0.35.3|jpeg-q85-v1|lucide-svg-v1'
+  'satori@0.63.2|@resvg/resvg-js@2.6.2|sharp@0.35.3|jpeg-q85-v1|lucide-svg-v1'
 
 type Font = {
   name: string
