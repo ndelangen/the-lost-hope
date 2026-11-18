@@ -218,7 +218,7 @@ export default createScene({
         {
           do: [
             [
-              'In the Barracks the party finds ',
+              'In the Barracks the party finds four ',
               refs.npcs.tempest_soldier,
               's, tied up. If the party releases them, they help in the fight. Add them to the encounter then.',
             ],

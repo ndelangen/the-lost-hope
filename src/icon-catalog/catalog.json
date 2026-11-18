@@ -99976,14 +99976,15 @@
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/broadsword.html",
       "usedIn": [
-        "src/data/creatures/guard.ts",
         "src/data/npcs/blackbeard.ts",
         "src/data/npcs/captain-garran.ts",
         "src/data/npcs/faceless-shadow.ts",
         "src/data/npcs/giggles.ts",
         "src/data/npcs/lord-malachar.ts",
         "src/data/npcs/ryan.ts",
+        "src/data/npcs/sergeant-bruna-kell.ts",
         "src/data/npcs/sylvia-s-brother.ts",
+        "src/data/npcs/tempest-soldier.ts",
         "src/data/npcs/the-fiddler-s-knight.ts",
         "src/lib/ability-icons.tsx"
       ]
@@ -154547,6 +154548,7 @@
         "src/data/npcs/korrag-stonevow.ts",
         "src/data/npcs/misha.ts",
         "src/data/npcs/silas-wren.ts",
+        "src/data/npcs/tempest-soldier.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -198067,6 +198069,7 @@
         "src/data/npcs/skynet-gang-leader.ts",
         "src/data/npcs/sylvia-s-brother.ts",
         "src/data/npcs/tempest-patriarch.ts",
+        "src/data/npcs/tempest-soldier.ts",
         "src/data/npcs/the-12th-marshal.ts",
         "src/data/npcs/the-father.ts",
         "src/data/npcs/the-fiddler-s-knight.ts",

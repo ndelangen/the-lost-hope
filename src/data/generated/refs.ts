@@ -619,7 +619,6 @@ export const refs = {
   creatures: {
     alchemist: ref('creature', 'alchemist'),
     commoner: ref('creature', 'commoner'),
-    guard: ref('creature', 'guard'),
     mage: ref('creature', 'mage'),
     noble: ref('creature', 'noble'),
     pirate_captain: ref('creature', 'pirate_captain'),
