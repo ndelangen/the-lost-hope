@@ -73,12 +73,36 @@ export default createScene({
         {
           do: [
             [
-              'The torpedo: one launch per round. Each party member picks their own bow, port or starboard, so the party may split over the two. The ',
+              'The torpedo: one launch per round. The ',
               refs.rules.initiative,
-              ' they just rolled is the order they go into the torpedo. Whoever lands first is alone at their bow until the next one arrives there.',
+              ' they just rolled is the order they go into the torpedo.',
             ],
+            ['Before each launch, he asks the rider which side of the bow to aim for.'],
+          ],
+        },
+        { speaker: refs.npcs.captain_garran, say: [['Port or starboard?']] },
+        {
+          do: [
             [
-              'A natural 1 on that roll: the torpedo of that rider hits the other bow, not the one they picked.',
+              'Each rider picks their own side, so the party may spread over the two. A natural 1 on their ',
+              refs.rules.initiative,
+              ' roll: the torpedo misses and hits the other side.',
+            ],
+            ['Just as the first torpedo launches, he adds one more thing.'],
+          ],
+        },
+        {
+          speaker: refs.npcs.captain_garran,
+          say: [
+            [
+              'Oh, you might want to get out at once, and stand aside. The next torpedo might be behind you.',
+            ],
+          ],
+        },
+        {
+          do: [
+            [
+              'When a torpedo hits, it damages an enemy in the room who stands close to where it comes through. Spreading over port and starboard catches more of them.',
             ],
             [
               'Each landing is a DC 13 ',
