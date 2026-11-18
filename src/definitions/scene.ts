@@ -1,6 +1,8 @@
 import { z } from 'zod'
 
-import { DmContent } from './content'
+import { ABILITY_KEYS } from '#/lib/rules'
+
+import { Content, DmContent } from './content'
 import { makeCreate } from './create'
 import { entityRefOf } from './kind'
 import { MediaUrl } from './media'
@@ -34,6 +36,79 @@ export const SceneOutcome: z.ZodType<SceneOutcome, SceneOutcomeInput> = z.lazy((
       .describe('Follow-ups that only happen after this one'),
   }),
 )
+
+/**
+ * One line of a beat, in the order it happens. `say` is spoken at the table: by the character
+ * in `speaker`, or by the DM to the players when there is none. `do` is something that happens or
+ * that the DM does. `note` is something to keep in mind while it plays.
+ */
+export const SceneLine = z.union([
+  z.strictObject({
+    say: DmContent,
+    speaker: z.union([entityRefOf('npc'), entityRefOf('pc')]).optional(),
+  }),
+  z.strictObject({ do: DmContent }),
+  z.strictObject({ note: DmContent }),
+])
+
+export type SceneLine = z.infer<typeof SceneLine>
+
+const GroupSaveRoller = z.union([entityRefOf('pc'), entityRefOf('npc'), entityRefOf('beast')])
+
+/**
+ * A saving throw that several characters make at the same moment, each on their own roll. The DM
+ * fills in the rolls at the table and can put the list on the player screen, so `title`, `passed`
+ * and `failed` are words the players read. Players roll for their own characters; the DM rolls
+ * for the rest, with the save bonus from each stat block. Someone whose outcome is fixed is listed
+ * with `always`. Everyone listed appears on the player screen by name and portrait, whether or not
+ * the party has met them in a played event, so list only those the players may see.
+ */
+export const SceneGroupSave = z.strictObject({
+  title: Content.describe('Heading over the list on the player screen'),
+  ability: z.enum(ABILITY_KEYS).describe('What everyone saves with'),
+  dc: z.number().int().positive(),
+  reasonBonus: z
+    .number()
+    .int()
+    .positive()
+    .optional()
+    .describe('Added to a roll when a player gives a good reason for that character'),
+  rollers: z
+    .array(
+      z.union([
+        GroupSaveRoller,
+        z.strictObject({
+          who: GroupSaveRoller,
+          always: z
+            .enum(['passed', 'failed'])
+            .describe('The outcome is fixed: nobody rolls for them'),
+        }),
+      ]),
+    )
+    .min(1)
+    .describe('Everyone on the list, in the order they are listed'),
+  passed: z.string().trim().min(1).describe('Shown beside someone who made the save'),
+  failed: z.string().trim().min(1).describe('Shown beside someone who failed it'),
+})
+
+export type SceneGroupSave = z.infer<typeof SceneGroupSave>
+
+/**
+ * One moment of a scene. A scene's beats are its script: the DM plays them top to bottom. A beat
+ * with `onlyIf` is optional and is skipped when that does not hold. Its outcomes are the branches
+ * that belong to this moment.
+ */
+export const SceneBeat = z.strictObject({
+  title: z.string().trim().min(1),
+  onlyIf: DmContent.optional().describe(
+    'When this beat is played. Leave out for one always played',
+  ),
+  lines: z.array(SceneLine).min(1),
+  groupSave: SceneGroupSave.optional().describe('A save everyone listed makes during this beat'),
+  outcomes: z.array(SceneOutcome).default([]),
+})
+
+export type SceneBeat = z.infer<typeof SceneBeat>
 
 /** The dice a hit's damage can be rolled on, by their number of sides. 1 is a fixed 1 damage. */
 export const SHIP_DAMAGE_DICE = [1, 2, 3, 4, 6] as const
@@ -72,10 +147,16 @@ export const Scene = deriveSlug(
     alternateLocations: z.array(entityRefOf('location')).default([]),
     battleMaps: z.array(entityRefOf('location')).default([]),
     illustration: MediaUrl.optional(),
-    setup: DmContent,
-    notes: DmContent.optional(),
+    setup: DmContent.describe('The situation the scene opens on, in a paragraph or two'),
+    beats: z
+      .array(SceneBeat)
+      .default([])
+      .describe('The script: the moments of the scene in the order they are played'),
     npcs: z.array(entityRefOf('npc')).default([]),
-    outcomes: z.array(SceneOutcome).default([]),
+    outcomes: z
+      .array(SceneOutcome)
+      .default([])
+      .describe('Branches that can happen at any moment of the scene'),
     opponents: z
       .array(SceneOpponent)
       .default([])

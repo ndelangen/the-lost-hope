@@ -15,202 +15,121 @@ export default createScene({
       refs.pcs.jim,
       ' walk towards the docks, with ',
       refs.npcs.crowy,
-      ' along. ',
-      refs.npcs.silas_wren,
-      ' speaks from just behind ',
-      refs.pcs.swift_starblade,
-      ':',
-    ],
-    [
-      '“Do not get involved, Starblade. We’re not here for you. If you step away now, you won’t be harmed. We’re here for Jim only. It’s time he comes home.”',
-    ],
-    [
-      refs.pcs.jim,
-      ' is overcome by voices from his past and stumbles. Cloaked agents of ',
-      refs.organizations.the_eyeless_hand,
-      ' close in around the two of them.',
+      ' along.',
     ],
   ],
-  notes: [
-    ['“Light” in ', refs.pcs.jim, '’s last words is ', refs.npcs.light_13th_marshal, '.'],
-    [
-      refs.npcs.crowy,
-      ' can warn them that they are being followed, and urges them to run. Running takes them towards the docks, and into sight of the flying fortress.',
-    ],
-    [
-      'Hidden truth: ',
-      refs.npcs.the_father,
-      ' fires the beam from the flying fortress. It captures ',
-      refs.pcs.jim,
-      ' and teleports him aboard, without his tongue. The players only see him vanish and his gear fall.',
-    ],
-    [
-      'The destruction is not deliberate. Because ',
-      refs.pcs.jim,
-      ' is ethereal and carries the guild tattoo, the weapon needed far more power to take him, and the overflow bounced into the docks.',
-    ],
-    [
-      'Casualties (rolled in prep): the memory pulse kills no one. The bounce kills 27 civilians and injures 76 more. It strikes the ferry mid-crossing, the same ferry whose ferryman refused to take ',
-      refs.pcs.jim,
-      ' aboard (',
-      refs.events.n2_e203,
-      ').',
-    ],
-  ],
-  outcomes: [
+  beats: [
     {
-      when: [['', refs.pcs.swift_starblade, ' steps away.']],
-      response: [
-        [
-          'The cloaked men keep their word and let him go. Every one of them turns on ',
-          refs.pcs.jim,
-          '.',
-        ],
-      ],
-    },
-    {
-      when: [['', refs.pcs.swift_starblade, ' fights.']],
-      response: [
-        [
-          'Combat. Four men hold him off while the rest go for ',
-          refs.pcs.jim,
-          '. Run the encounter from this scene.',
-        ],
-      ],
-    },
-    {
-      when: [['The men try to grapple ', refs.pcs.jim, '.']],
-      response: [['He tears free and flees towards the docks.']],
-    },
-    {
-      when: [['', refs.pcs.jim, ' comes within sight of the flying fortress.']],
-      response: [
-        [
-          'A green pulse rolls out across the three sky islands, and people stagger as their memories slip. Then a bright green beam locks onto ',
-          refs.pcs.jim,
-          '. Part of it bounces off and tears through the docks and the streets beyond. ',
-          refs.pcs.jim,
-          '’s last words, the only ones ',
-          refs.pcs.swift_starblade,
-          ' hears:',
-        ],
-        ['“I’m so sorry. I hope you all make it. Don’t trust Light.”'],
-        [
-          'When the light fades, ',
-          refs.pcs.jim,
-          ' is gone. His belongings clatter onto the planks, along with his tongue, still bearing his guild tattoo.',
-        ],
-        [
-          'The beam also hits ',
-          refs.npcs.crowy,
-          '. He drops to the planks, critically wounded and dying.',
-        ],
-      ],
-      followUps: [
+      title: 'The voice behind Swift',
+      lines: [
         {
-          when: [['', refs.pcs.swift_starblade, ' saves ', refs.npcs.crowy, '.']],
-          response: [
+          do: [[refs.npcs.silas_wren, ' speaks from just behind ', refs.pcs.swift_starblade, '.']],
+        },
+        {
+          speaker: refs.npcs.silas_wren,
+          say: [
             [
-              'Any healing does it, and so does a DC 10 ',
-              refs.rules.wis,
-              ' (',
-              refs.rules.medicine,
-              ') check to stop the bleeding. ',
-              refs.npcs.crowy,
-              ' comes to and will not forget who saved him. Once he can fly, he heads for ',
-              refs.pcs.devan,
-              ' and ',
-              refs.pcs.cassian_veyl,
+              'Do not get involved, Starblade. We’re not here for you. If you step away now, you won’t be harmed. We’re here for Jim only. It’s time he comes home.',
+            ],
+          ],
+        },
+        {
+          speaker: refs.npcs.silas_wren,
+          say: [
+            [
+              'Or join us. ',
+              refs.organizations.the_eyeless_hand,
+              ' can give you a full complement of crew, loyal to the bone. Even your ',
+              refs.items.demon_possessed_flying_broom,
+              ', returned to you.',
+            ],
+            ['Hold that thought.'],
+          ],
+        },
+        {
+          do: [
+            [
+              'He does not wait for an answer. He turns ',
+              refs.rules.invisible,
+              ' on the last word and is gone.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              'The offer is a plant, and it doubles as the distraction that lets his men close in. Do not let ',
+              refs.pcs.swift_starblade,
+              ' answer, and do not explain it. What it is for is in the motivations of ',
+              refs.npcs.silas_wren,
+              ', and it pays off in ',
+              refs.scenes.onana_calls_the_party_to_war,
               '.',
             ],
           ],
         },
         {
-          when: [['', refs.pcs.swift_starblade, ' leaves ', refs.npcs.crowy, ' where he fell.']],
-          response: [
+          do: [
             [
-              'A bystander scoops him up and saves him. ',
-              refs.npcs.crowy,
-              ' will not forget that ',
-              refs.pcs.swift_starblade,
-              ' walked away. Once he can fly, he heads for ',
-              refs.pcs.devan,
-              ' and ',
-              refs.pcs.cassian_veyl,
-              '.',
+              refs.pcs.jim,
+              ' is overcome by voices from his past and stumbles. Cloaked agents of ',
+              refs.organizations.the_eyeless_hand,
+              ' close in around the two of them.',
             ],
           ],
         },
+      ],
+      outcomes: [
         {
-          when: [
+          when: [['', refs.pcs.swift_starblade, ' steps away.']],
+          response: [
             [
-              '',
-              refs.pcs.swift_starblade,
-              ' makes the saving throw against the pulse and still cares about ',
+              'The cloaked men keep their word and let him go. Every one of them turns on ',
               refs.pcs.jim,
               '.',
             ],
           ],
-          response: [['He takes the tongue, and with it a clue to what the guild mark really is.']],
+        },
+        {
+          when: [['', refs.pcs.swift_starblade, ' fights.']],
+          response: [
+            [
+              'Combat. Four men hold him off while the rest go for ',
+              refs.pcs.jim,
+              '. Run the encounter from this scene.',
+            ],
+          ],
         },
       ],
     },
     {
-      when: [['', refs.pcs.swift_starblade, ' gathers what is left on the docks.']],
-      response: [
-        [
-          'Whatever he remembers, the gear is worth taking: ',
-          refs.items.shadow_sword,
-          ', ',
-          refs.items.dagger_of_the_zodiac_signs,
-          ', ',
-          refs.items.dagger_of_passive_aggression,
-          ', ',
-          refs.items.obsidian_green_rod,
-          ', ',
-          refs.items.robertos_map_pages,
-          ', ',
-          refs.items.pocket_holy_text_of_grimgor,
-          ' and ',
-          refs.items.nimbus_dungeon_stamp_card,
-          '.',
-        ],
-        [
-          'In the pile is a coded letter from ',
-          refs.pcs.jim,
-          '. Hand ',
-          refs.pcs.swift_starblade,
-          '’s player the printed letter. Its one plain line points at page 4 of the ',
-          refs.items.pocket_holy_text_of_grimgor,
-          ', which lies in the same pile: hand him that page too.',
-        ],
-        [
-          'Decoding it is his job while you run the group on ',
-          refs.locations.skynet,
-          '. Cut back to him between their scenes and ask how far he is. His own part opens with his own word. The shared part needs all four words, and one of them is the word of ',
-          refs.npcs.crowy,
-          ', so it will most likely wait until the party is back together.',
-        ],
-        [
-          'If he failed the save against the pulse, he does not remember ',
-          refs.pcs.jim,
-          '. Hand him the letter anyway: a stranger who knows him this well is the better mystery.',
-        ],
-        ['Cut to the group on ', refs.locations.skynet, '.'],
-      ],
-      followUps: [
+      title: 'The run to the docks',
+      lines: [
         {
-          when: [['The player gets stuck, or would rather skip the puzzle.']],
-          response: [
+          do: [
             [
-              'Help in steps, so he keeps something to do. First fill in the table for his own word with him. Then give him his own part decoded. Only then give him the whole letter decoded.',
+              'The men try to grapple ',
+              refs.pcs.jim,
+              '. He tears free and flees towards the docks.',
             ],
+          ],
+        },
+        {
+          note: [
             [
-              'The whole letter at once is the fastest way out, but it leaves him waiting while you run ',
-              refs.locations.skynet,
-              '. If you do it, give his other moments on the docks more room: saving ',
               refs.npcs.crowy,
-              ', the tongue, and what he does with the gear.',
+              ' can warn them that they are being followed, and urges them to run. Running takes them towards the docks, and into sight of the flying fortress.',
+            ],
+          ],
+        },
+        {
+          do: [
+            [
+              'When ',
+              refs.pcs.jim,
+              ' comes within sight of the flying fortress, stop here. Run ',
+              refs.scenes.the_green_pulse_over_the_sky_islands,
+              ' with the whole table.',
             ],
           ],
         },

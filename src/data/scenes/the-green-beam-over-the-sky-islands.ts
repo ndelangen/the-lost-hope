@@ -3,164 +3,386 @@ import { create as createScene } from '#/definitions/scene.ts'
 
 export default createScene({
   name: 'The green beam over the sky islands',
-  illustration: '/assets/scenes/the-green-pulse-over-the-sky-islands.png',
+  illustration: '/assets/scenes/the-green-beam-over-the-sky-islands.png',
   location: refs.locations.three_sky_kingdoms,
   npcs: [refs.npcs.abraham, refs.npcs.crowy],
   setup: [
     [
-      'A green pulse washes over all three sky islands at once. Everyone on ',
-      refs.locations.nimbus,
-      ', ',
-      refs.locations.skynet,
-      ' and ',
-      refs.locations.tempest,
-      ' feels it, wherever they are. Run this scene for the whole party together, even while it is split.',
-    ],
-    [
-      'Then a bright green beam strikes the docks of ',
-      refs.locations.nimbus,
-      ', and part of it explodes outwards across the harbour. ',
       refs.pcs.swift_starblade,
-      ' is close by on ',
+      ' is on the docks of ',
       refs.locations.nimbus,
+      ', close to ',
+      refs.pcs.jim,
       '. ',
       refs.pcs.cassian_veyl,
       ' and ',
       refs.pcs.devan,
-      ' see it from ',
+      ' are in the stables on ',
       refs.locations.skynet,
-      '.',
-    ],
-    [{ type: 'image', url: '/assets/scenes/the-green-beam-over-the-sky-islands.png' }],
-    ['Read aloud:'],
-    [
-      '“There is a special field of connection. Something you cannot really feel the presence of, though some people say they can. This field is what binds people: a network.”',
-    ],
-    [
-      '“Sometimes this field is particularly strong, such as between a parent and a child. But often this field, these connections, these threads if you will, are not noticed much until the strings snap.”',
-    ],
-    [
-      '“Every snap vibrates the field, and can often be felt from afar. Right now, you can feel this web vibrate to its breaking point. Something is pulled out of the web by brute force.”',
-    ],
-    ['“Your connection to ', refs.pcs.jim, ' is lost.”'],
-    [
-      '“You get one chance to keep this connection, but you must want it enough. Tell me why your character would want to stay connected, and I will give you a +5 on your ',
-      refs.rules.wis,
-      ' ',
-      refs.rules.saving_throw,
-      ' to remember ',
-      refs.pcs.jim,
-      '.”',
-    ],
-    ['“And spoiler alert: if ', refs.pcs.jim, ' loses connection with everything, that is BAD!”'],
-    [
-      'Everyone who cared about ',
-      refs.pcs.jim,
-      ' makes a DC 15 ',
-      refs.rules.wis,
-      ' ',
-      refs.rules.saving_throw,
-      ', with +5 for a player who says why their character wants to stay connected. On a failure they lose all interest in ',
-      refs.pcs.jim,
-      '.',
-    ],
-    [
-      'Anyone who did not care about ',
-      refs.pcs.jim,
-      ' does not roll: the beam cannot make someone stop caring who never did. ',
-      refs.npcs.the_father,
-      ' is immune. Agents of ',
-      refs.organizations.the_eyeless_hand,
-      ', such as ',
-      refs.pcs.fix,
-      ', can be affected, but they will be re-instructed eventually.',
-    ],
-    [
-      'The populations of all three sky islands are in chaos. The normally calm streets are packed, and the usual links between the islands are clogged.',
-    ],
-    [
-      'On ',
-      refs.locations.skynet,
-      ', there are few civilians left on the streets. ',
-      refs.npcs.old_pell,
-      ' boards up his shop, and ',
-      refs.npcs.maren_of_fairhaven,
-      ' pushes towards the ferries with her child. ',
-      refs.npcs.sergeant_bruna_kell,
-      ' shouts for recruits from a crate while ',
-      refs.npcs.tempest_soldier,
-      's drill and load supplies for the rollout.',
+      '. Run this scene for the whole party together, even while it is split.',
     ],
   ],
-  notes: [
-    [
-      refs.npcs.crowy,
-      ' was with ',
-      refs.pcs.swift_starblade,
-      ' and ',
-      refs.pcs.jim,
-      ' on ',
-      refs.locations.nimbus,
-      ', and the beam critically wounded him. Once he is revived there, he flies across to ',
-      refs.pcs.devan,
-      ' and ',
-      refs.pcs.cassian_veyl,
-      '. Bring him in a little after the beam, still singed. Who saved him is decided in ',
-      refs.scenes.the_hand_comes_for_jim,
-      ', and he remembers it either way.',
-    ],
-    [
-      refs.beasts.wolfie,
-      ' and ',
-      refs.npcs.abraham,
-      ' are at the stables. What happens to them is up to the party: ask before they leave.',
-    ],
-  ],
-  outcomes: [
+  beats: [
     {
-      when: [['They head for ', refs.locations.tempest, ' to find ', refs.npcs.onana_tempest, '.']],
-      response: [
-        [
-          'That way is a sky bridge too, and it is clogged just the same. Run ',
-          refs.scenes.the_clogged_ferry_landing,
-          '.',
-        ],
+      title: 'The first beam',
+      lines: [
+        {
+          do: [
+            [
+              'A bright green beam strikes the docks of ',
+              refs.locations.nimbus,
+              ', and part of it explodes outwards across the harbour. Describe it to ',
+              refs.pcs.swift_starblade,
+              '’s player: he is there to see it first hand.',
+            ],
+            [{ type: 'image', url: '/assets/scenes/the-green-beam-over-the-sky-islands.png' }],
+          ],
+        },
+        {
+          do: [
+            [
+              'On ',
+              refs.locations.skynet,
+              ', the sound and the shock bring ',
+              refs.pcs.devan,
+              ' and ',
+              refs.pcs.cassian_veyl,
+              ' out of the stables to see what it was.',
+            ],
+          ],
+        },
       ],
     },
     {
-      when: [['They stay where they are.']],
-      response: [
-        [
-          refs.npcs.captain_garran,
-          ' and his soldiers come to collect them, as they did before (',
-          refs.events.n2_e168,
-          '). Run ',
-          refs.scenes.onana_calls_the_party_to_war,
-          '.',
-        ],
+      title: 'The second beam',
+      lines: [
+        {
+          do: [
+            [
+              'Now all of them see it. ',
+              refs.pcs.swift_starblade,
+              ' sees it up close: a second beam locks onto ',
+              refs.pcs.jim,
+              '. His last words, the only ones ',
+              refs.pcs.swift_starblade,
+              ' hears:',
+            ],
+          ],
+        },
+        {
+          speaker: refs.pcs.jim,
+          say: [['I’m so sorry. I hope you all make it. Don’t trust Light.']],
+        },
+        {
+          note: [
+            ['“Light” in ', refs.pcs.jim, '’s last words is ', refs.npcs.light_13th_marshal, '.'],
+          ],
+        },
+        {
+          do: [
+            [
+              'His body just disappears, and all his gear drops to the ground, along with his tongue, still bearing his guild tattoo.',
+            ],
+            [
+              'The beam also hits ',
+              refs.npcs.crowy,
+              '. He drops to the planks, critically wounded and dying.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              'Hidden truth: ',
+              refs.npcs.the_father,
+              ' fires the beam from the flying fortress. It captures ',
+              refs.pcs.jim,
+              ' and teleports him aboard, without his tongue. The players only see him vanish and his gear fall.',
+            ],
+            [
+              'The destruction is not deliberate. Because ',
+              refs.pcs.jim,
+              ' is ethereal and carries the guild tattoo, the weapon needed far more power to take him, and the overflow bounced into the docks.',
+            ],
+            [
+              'Casualties (rolled in prep): the memory pulse kills no one. The bounce kills 27 civilians and injures 76 more. It strikes the ferry mid-crossing, the same ferry whose ferryman refused to take ',
+              refs.pcs.jim,
+              ' aboard (',
+              refs.events.n2_e203,
+              ').',
+            ],
+          ],
+        },
+      ],
+      outcomes: [
+        {
+          when: [['', refs.pcs.swift_starblade, ' saves ', refs.npcs.crowy, '.']],
+          response: [
+            [
+              'Any healing does it, and so does a DC 10 ',
+              refs.rules.wis,
+              ' (',
+              refs.rules.medicine,
+              ') check to stop the bleeding. ',
+              refs.npcs.crowy,
+              ' comes to and will not forget who saved him. Once he can fly, he heads for ',
+              refs.pcs.devan,
+              ' and ',
+              refs.pcs.cassian_veyl,
+              '.',
+            ],
+          ],
+        },
+        {
+          when: [['', refs.pcs.swift_starblade, ' leaves ', refs.npcs.crowy, ' where he fell.']],
+          response: [
+            [
+              'A bystander scoops him up and saves him. ',
+              refs.npcs.crowy,
+              ' will not forget that ',
+              refs.pcs.swift_starblade,
+              ' walked away. Once he can fly, he heads for ',
+              refs.pcs.devan,
+              ' and ',
+              refs.pcs.cassian_veyl,
+              '.',
+            ],
+          ],
+        },
+        {
+          when: [
+            [
+              '',
+              refs.pcs.swift_starblade,
+              ' made the saving throw in ',
+              refs.scenes.the_green_pulse_over_the_sky_islands,
+              ' and still cares about ',
+              refs.pcs.jim,
+              '.',
+            ],
+          ],
+          response: [['He takes the tongue, and with it a clue to what the guild mark really is.']],
+        },
       ],
     },
     {
-      when: [['They help ', refs.npcs.maren_of_fairhaven, ' or ', refs.npcs.old_pell, '.']],
-      response: [
-        ['A friendly face in the chaos, and someone who points them through the back streets.'],
+      title: 'What is left on the docks',
+      lines: [
+        {
+          do: [
+            [
+              'The ',
+              refs.items.pocket_holy_text_of_grimgor,
+              ' falls to the ground too, with a handwritten letter visible in it, flipping slightly towards ',
+              refs.pcs.swift_starblade,
+              '.',
+            ],
+            [
+              refs.pcs.swift_starblade,
+              ' can investigate the gear that fell: ',
+              refs.items.shadow_sword,
+              ', ',
+              refs.items.dagger_of_the_zodiac_signs,
+              ', ',
+              refs.items.dagger_of_passive_aggression,
+              ', ',
+              refs.items.obsidian_green_rod,
+              ', ',
+              refs.items.robertos_map_pages,
+              ', ',
+              refs.items.pocket_holy_text_of_grimgor,
+              ' and ',
+              refs.items.nimbus_dungeon_stamp_card,
+              '.',
+            ],
+            [
+              'If he noses around the gear, tell him that for some reason he picks up the ',
+              refs.items.pocket_holy_text_of_grimgor,
+              ' and the written pages. Then hand his player the printed sheets: the coded letter from ',
+              refs.pcs.jim,
+              ', and page 4 of the book, which the one plain line of the letter points at.',
+            ],
+            ['Have him find the tongue as well, still bearing the guild tattoo.'],
+            [
+              'Tell his player that ',
+              refs.pcs.swift_starblade,
+              ' is repulsed by ',
+              refs.items.dagger_of_the_zodiac_signs,
+              ' and ',
+              refs.items.shadow_sword,
+              '. He feels it is really, really dangerous for him to touch them, and he cannot explain why.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              'He cannot touch ',
+              refs.items.dagger_of_the_zodiac_signs,
+              ' at all: it would kill him instantly, with no save. His subconscious knows it and stops his hand before he can try.',
+            ],
+            [
+              'The letter calls it the Book of Gruumsh. That is this book: it is the holy text of the ',
+              refs.organizations.church_of_gruumsh,
+              '.',
+            ],
+            [
+              'The two blades are meant for ',
+              refs.pcs.auren,
+              ', who merges with them in ',
+              refs.scenes.the_party_reunites_on_the_docks,
+              '.',
+            ],
+          ],
+        },
+        {
+          do: [
+            [
+              'Decoding it is his job while you run the group on ',
+              refs.locations.skynet,
+              '. Cut back to him between their scenes and ask how far he is. His own part opens with his own word. The shared part needs all four words, and one of them is the word of ',
+              refs.npcs.crowy,
+              ', so it will most likely wait until the party is back together.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              'If he failed the save against the pulse, he does not remember ',
+              refs.pcs.jim,
+              '. Hand him the letter anyway: a stranger who knows him this well is the better mystery.',
+            ],
+          ],
+        },
+        { do: [['Switch to ', refs.pcs.devan, ' and ', refs.pcs.cassian_veyl, '.']] },
+      ],
+      outcomes: [
+        {
+          when: [['The player gets stuck, or would rather skip the puzzle.']],
+          response: [
+            [
+              'Help in steps, so he keeps something to do. First fill in the table for his own word with him. Then give him his own part decoded. Only then give him the whole letter decoded.',
+            ],
+            [
+              'The whole letter at once is the fastest way out, but it leaves him waiting while you run ',
+              refs.locations.skynet,
+              '. If you do it, give his other moments on the docks more room: saving ',
+              refs.npcs.crowy,
+              ', the tongue, and what he does with the gear.',
+            ],
+          ],
+        },
       ],
     },
     {
-      when: [['They talk to ', refs.npcs.sergeant_bruna_kell, '.']],
-      response: [
-        ['She tries to sign them up. Signing gets them a pass through the clogged links.'],
+      title: 'Crowy arrives',
+      lines: [
+        {
+          do: [
+            [
+              refs.npcs.crowy,
+              ' was with ',
+              refs.pcs.swift_starblade,
+              ' and ',
+              refs.pcs.jim,
+              ' on ',
+              refs.locations.nimbus,
+              ', and the beam critically wounded him. Once he is revived there, he flies across to ',
+              refs.pcs.devan,
+              ' and ',
+              refs.pcs.cassian_veyl,
+              '. Bring him in a little after the beam, still singed. He remembers who saved him.',
+            ],
+          ],
+        },
       ],
     },
     {
-      when: [['They want to see where the beam hit, or to find ', refs.pcs.swift_starblade, '.']],
-      response: [
-        ['The only way across is the ferry. Run ', refs.scenes.the_clogged_ferry_landing, '.'],
+      title: 'Chaos on the islands',
+      lines: [
+        {
+          do: [
+            [
+              'The populations of all three sky islands are in chaos. The normally calm streets are packed, and the usual links between the islands are clogged.',
+            ],
+            [
+              'On ',
+              refs.locations.skynet,
+              ', there are few civilians left on the streets. ',
+              refs.npcs.old_pell,
+              ' boards up his shop, and ',
+              refs.npcs.maren_of_fairhaven,
+              ' pushes towards the ferries with her child. ',
+              refs.npcs.sergeant_bruna_kell,
+              ' shouts for recruits from a crate while ',
+              refs.npcs.tempest_soldier,
+              's drill and load supplies for the rollout.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              refs.beasts.wolfie,
+              ' and ',
+              refs.npcs.abraham,
+              ' are at the stables. What happens to them is up to the party: ask before they leave.',
+            ],
+          ],
+        },
       ],
-    },
-    {
-      when: [['They head to the shipyard for their airship.']],
-      response: [['Run ', refs.scenes.the_ents_hold_the_shipyard, '.']],
+      outcomes: [
+        {
+          when: [
+            ['They head for ', refs.locations.tempest, ' to find ', refs.npcs.onana_tempest, '.'],
+          ],
+          response: [
+            [
+              'That way is a sky bridge too, and it is clogged just the same. Run ',
+              refs.scenes.the_clogged_ferry_landing,
+              '.',
+            ],
+          ],
+        },
+        {
+          when: [['They stay where they are.']],
+          response: [
+            [
+              refs.npcs.captain_garran,
+              ' and his soldiers come to collect them, as they did before (',
+              refs.events.n2_e168,
+              '). Run ',
+              refs.scenes.boarded_by_the_battle_cruiser,
+              ' from his questions on.',
+            ],
+          ],
+        },
+        {
+          when: [['They help ', refs.npcs.maren_of_fairhaven, ' or ', refs.npcs.old_pell, '.']],
+          response: [
+            ['A friendly face in the chaos, and someone who points them through the back streets.'],
+          ],
+        },
+        {
+          when: [['They talk to ', refs.npcs.sergeant_bruna_kell, '.']],
+          response: [
+            ['She tries to sign them up. Signing gets them a pass through the clogged links.'],
+          ],
+        },
+        {
+          when: [
+            ['They want to see where the beam hit, or to find ', refs.pcs.swift_starblade, '.'],
+          ],
+          response: [
+            ['The only way across is the ferry. Run ', refs.scenes.the_clogged_ferry_landing, '.'],
+          ],
+        },
+        {
+          when: [['They head to the shipyard for their airship.']],
+          response: [['Run ', refs.scenes.the_ents_hold_the_shipyard, '.']],
+        },
+      ],
     },
   ],
 })

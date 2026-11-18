@@ -64,6 +64,19 @@ export default createArc({
       scene: refs.scenes.boarded_by_the_battle_cruiser,
     },
     {
+      name: 'Collecting the rest',
+      hook: [
+        [
+          'The cruiser puts in at the docks of ',
+          refs.locations.nimbus,
+          ' to look at where the beam struck. Can the party find ',
+          refs.pcs.swift_starblade,
+          ' before the captain loses patience?',
+        ],
+      ],
+      scene: refs.scenes.picking_up_swift_at_nimbus,
+    },
+    {
       name: 'The Tempests go to war',
       hook: [
         [
