@@ -72,7 +72,12 @@ export default createScene({
         {
           do: [
             [
-              'The torpedo: one launch per round, at the bow the players chose and in the order they chose. Whoever lands first is alone at the bow until the next one arrives, which makes the order a real choice.',
+              'The torpedo: one launch per round. Each party member picks their own bow, port or starboard, so the party may split over the two. Have everyone roll ',
+              refs.rules.initiative,
+              ' now: that roll is the order they go into the torpedo. Whoever lands first is alone at their bow until the next one arrives there.',
+            ],
+            [
+              'A natural 1 on that roll: the torpedo of that rider hits the other bow, not the one they picked.',
             ],
             [
               'Each landing is a DC 13 ',
