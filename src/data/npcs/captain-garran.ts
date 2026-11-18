@@ -27,7 +27,7 @@ export default createNPC({
       ' with his soldiers and the battle-cruiser.',
     ],
     [
-      'What he says: “I’ve seen worse.” (his key phrase) “Do not fight. You will lose. The outcome will be the same, just bloodier.”',
+      'What he says: “I’ve seen worse.” (his key phrase) “Do not fight. You will lose. The outcome will be the same, just bloodier.” “Save it for the war, we have our home to defend!” (to break up a fight)',
     ],
   ],
   stats: {

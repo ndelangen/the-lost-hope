@@ -214,6 +214,7 @@ export default createScene({
             ],
           ],
         },
+        { say: [['Every instinct says touching it kills you.']] },
         {
           note: [
             [
