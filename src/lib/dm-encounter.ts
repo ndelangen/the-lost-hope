@@ -1,7 +1,8 @@
+import type { DmContent } from '#/definitions/content'
 import type { EntityRef } from '#/definitions/kind'
 import { DEFAULT_AVATAR } from '#/definitions/media'
 import type { PcCombat } from '#/definitions/pc'
-import type { Scene } from '#/definitions/scene'
+import type { Scene, SceneBeatFight, SceneOpponent } from '#/definitions/scene'
 import type { OwnOrSharedStatBlock, StatBlock } from '#/definitions/stat-block'
 import { effectsOn, type EntityOf } from '#/lib/campaign'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
@@ -153,7 +154,61 @@ export function currentParty(): PartyMember[] {
 /** A scene's opponents, each as many times as its count, are the starting roster. */
 export function sceneRoster(scene: Scene) {
   return (encounter: Encounter) =>
-    scene.opponents
-      .flatMap(({ creature, count }) => Array.from({ length: count }, () => creature))
-      .reduce<Encounter>(addCreature, encounter)
+    creaturesOf(scene.opponents).reduce<Encounter>(addCreature, encounter)
+}
+
+function creaturesOf(groups: readonly SceneOpponent[]): CreatureRef[] {
+  return groups.flatMap(({ creature, count }) => Array.from({ length: count }, () => creature))
+}
+
+/** One kind of creature in a fight, named and counted for display. */
+export type FightGroup = { creature: CreatureRef; name: string; count: number }
+
+/** A beat's fight ready to display: who is in it, on which side, and how to play them. */
+export type FightLineUp = {
+  opponents: FightGroup[]
+  allies: FightGroup[]
+  repeats: boolean
+  tactics: DmContent | undefined
+}
+
+function fightGroups(groups: readonly SceneOpponent[]): FightGroup[] {
+  return groups.map(({ creature, count }) => ({
+    creature,
+    name: creatureRecord(creature)?.name ?? creature.key,
+    count,
+  }))
+}
+
+export function fightLineUp(fight: SceneBeatFight): FightLineUp {
+  return {
+    opponents: fightGroups(fight.opponents),
+    allies: fightGroups(fight.allies),
+    repeats: fight.repeats,
+    tactics: fight.tactics,
+  }
+}
+
+/** A fight the encounter can bring in: a beat's line-up, and everyone who joins the roster with it. */
+export type SceneFight = FightLineUp & {
+  /** The title of its beat, which tells the fights of one scene apart. */
+  key: string
+  onlyIf: DmContent | undefined
+  creatures: CreatureRef[]
+}
+
+/** The fights of a scene, in the order of its script. */
+export function sceneFights(scene: Scene): SceneFight[] {
+  return scene.beats.flatMap((beat) =>
+    beat.fight
+      ? [
+          {
+            key: beat.title,
+            onlyIf: beat.onlyIf,
+            ...fightLineUp(beat.fight),
+            creatures: creaturesOf([...beat.fight.opponents, ...beat.fight.allies]),
+          },
+        ]
+      : [],
+  )
 }

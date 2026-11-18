@@ -1,7 +1,8 @@
-import { Check, Info, MoveRight, RotateCcw, SkipForward, Undo2 } from 'lucide-react'
+import { Check, Info, MoveRight, RotateCcw, SkipForward, Swords, Undo2 } from 'lucide-react'
 import { useEffect, useRef } from 'react'
 
 import { ContentRenderer } from '#/components/content-renderer'
+import { FightLineUp } from '#/components/dm/fight-line-up'
 import { SceneBranches } from '#/components/dm/scene-branches'
 import type { SceneLine } from '#/definitions/scene'
 import { groupSaveStorageKey } from '#/lib/group-save'
@@ -159,6 +160,16 @@ function OpenBeat({
       </ul>
 
       {groupSave}
+
+      {beat.fight ? (
+        <div className="border-border bg-muted/30 grid gap-2 rounded-lg border p-3">
+          <p className="text-muted-foreground flex items-center gap-2 text-xs font-semibold uppercase">
+            <Swords className="size-4" aria-hidden />
+            {beat.fight.repeats ? 'Joins the fight, one group each time' : 'Joins the fight'}
+          </p>
+          <FightLineUp lineUp={beat.fight} />
+        </div>
+      ) : null}
 
       {beat.branches.length > 0 ? (
         <div className="grid gap-2">

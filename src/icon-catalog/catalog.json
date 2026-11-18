@@ -266655,6 +266655,7 @@
       "sourceUrl": "https://lucide.dev/icons/check",
       "usedIn": [
         "src/components/dm/encounter/combat-status.tsx",
+        "src/components/dm/encounter/encounter-fights.tsx",
         "src/components/dm/encounter/turn-card.tsx",
         "src/components/dm/group-save-tracker.tsx",
         "src/components/dm/scene-script.tsx",
@@ -267092,6 +267093,7 @@
       "usedIn": [
         "src/components/campaign-shell/sidebar.tsx",
         "src/components/dm/encounter/combat-table.tsx",
+        "src/components/dm/encounter/encounter-fights.tsx",
         "src/components/dm/encounter/encounter-notes.tsx",
         "src/components/dm/ship-damage-clock.tsx"
       ]
@@ -317067,6 +317069,8 @@
         "src/components/dm/dm-hidden-reference.tsx",
         "src/components/dm/dm-quick-links.tsx",
         "src/components/dm/encounter/combatant-panel.tsx",
+        "src/components/dm/encounter/encounter-fights.tsx",
+        "src/components/dm/scene-script.tsx",
         "src/routes/dm/encounter/index.tsx"
       ]
     },

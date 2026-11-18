@@ -50,7 +50,7 @@ export default createScene({
               'Run it as one encounter in the tracker, played as a string of short fights. The players keep the initiative they rolled for boarding for the whole ship. Between rooms, drop out of turns and let them move and talk freely: the clock keeps running.',
             ],
             [
-              'The enemies of a room roll initiative when its door opens, once for each group (the ',
+              'The encounter lists every room. When a door opens, bring that room in there, and its enemies join the roster. They roll initiative then, once for each group (the ',
               refs.npcs.cloaked_snatcher,
               's, the ',
               refs.npcs.dust_lost_sailor,
@@ -175,13 +175,17 @@ export default createScene({
     },
     {
       title: 'The bow',
+      fight: {
+        opponents: [{ creature: refs.npcs.cloaked_snatcher, count: 4 }],
+        tactics: [['They work in pairs and gang up on whoever stands alone.']],
+      },
       lines: [
         {
           do: [
             [
-              'The bow: four ',
+              'The bow: the ',
               refs.npcs.cloaked_snatcher,
-              's come forward to meet them, and go down fast. Two stand in each bow sector.',
+              's here come forward to meet them, and go down fast. Half of them stand in each bow sector.',
             ],
             [
               'If the party investigates the front compartments, they can find the passage to the lower deck.',
@@ -192,16 +196,31 @@ export default createScene({
     },
     {
       title: 'The batteries',
+      fight: {
+        opponents: [{ creature: refs.npcs.cloaked_snatcher, count: 4 }],
+        tactics: [['They fight like the ones at the bow.']],
+      },
       lines: [
         {
           do: [
-            ['The batteries: four more guard the guns, another quick win. Two stand on each side.'],
+            [
+              'The batteries: more of them guard the guns, another quick win. Half of them stand on each side.',
+            ],
           ],
         },
       ],
     },
     {
       title: 'The lower deck',
+      fight: {
+        opponents: [{ creature: refs.npcs.cloaked_snatcher, count: 4 }],
+        repeats: true,
+        tactics: [
+          [
+            'Only one group at a time: the rest keep working the guns. A new group turns on the party only if the party attacks again. If the players walk through without engaging anyone, let them.',
+          ],
+        ],
+      },
       onlyIf: [
         ['They find the passage and go below instead of fighting their way along the top level.'],
       ],
@@ -217,17 +236,10 @@ export default createScene({
             ],
             ['Its map is with the battlemaps of this scene: put it on the player screen.'],
             [
-              'If the party engages them, they attack in groups of four. Add each group to the encounter as it turns on the party.',
+              'If the party engages them, they attack one group at a time. Bring a group into the encounter each time one turns on the party.',
             ],
             [
               'This can be the easy way: by the lower deck the party skips the top level and goes straight to the bridge section.',
-            ],
-          ],
-        },
-        {
-          note: [
-            [
-              'Only one group at a time: the rest keep working the guns. A new group turns on the party only if the party attacks again. If the players walk through without engaging anyone, let them.',
             ],
           ],
         },
@@ -235,19 +247,22 @@ export default createScene({
     },
     {
       title: 'The Barracks',
+      fight: {
+        allies: [{ creature: refs.npcs.tempest_soldier, count: 4 }],
+        tactics: [
+          ['Cutting one soldier loose takes an action. Roll initiative once for all of them.'],
+        ],
+      },
       onlyIf: [['They go into the Barracks.']],
       lines: [
         {
           do: [
             [
-              'In the Barracks the party finds four ',
+              'In the Barracks the party finds ',
               refs.npcs.tempest_soldier,
-              's, tied up. There are no enemies in here. If the party releases them, they help in the fight. Add them to the encounter then.',
+              's, tied up. There are no enemies in here. If the party releases them, they help in the fight. Bring them into the encounter then.',
             ],
           ],
-        },
-        {
-          note: [['Cutting one soldier loose takes an action. Roll initiative once for all four.']],
         },
         {
           note: [
@@ -264,6 +279,16 @@ export default createScene({
     },
     {
       title: 'Korrag, just before the bridge',
+      fight: {
+        opponents: [{ creature: refs.npcs.korrag_stonevow, count: 1 }],
+        tactics: [
+          [
+            'He fights as ',
+            refs.pcs.devan,
+            ' would: shield up, smiting, covering any ally beside him.',
+          ],
+        ],
+      },
       lines: [
         {
           do: [
@@ -384,6 +409,27 @@ export default createScene({
     },
     {
       title: 'The Helm',
+      fight: {
+        opponents: [
+          { creature: refs.npcs.ilsa_corrow, count: 1 },
+          { creature: refs.npcs.silas_wren, count: 1 },
+          { creature: refs.npcs.dust_lost_sailor, count: 2 },
+        ],
+        tactics: [
+          [
+            refs.npcs.ilsa_corrow,
+            ' fights from the wheel at range, with her sailors as a wall: Fireball on a cluster, then Arcane Burst on whoever is hurt. The ',
+            refs.npcs.dust_lost_sailor,
+            's charge the nearest target and never take cover.',
+          ],
+          [
+            refs.npcs.silas_wren,
+            ' takes people out of the fight without blood: Hold Person on whoever hits hardest, and his blade knocks out instead of killing. He keeps ',
+            refs.npcs.ilsa_corrow,
+            ' on her feet with Healing Word. Spirit Guardians is your dial: leave it out unless the bridge is going too easily.',
+          ],
+        ],
+      },
       lines: [
         {
           do: [
@@ -398,7 +444,7 @@ export default createScene({
             ],
             [
               refs.npcs.silas_wren,
-              ' is on the bridge with her. Where they stand: the two ',
+              ' is on the bridge with her. Where they stand: the ',
               refs.npcs.dust_lost_sailor,
               's hold the stairs, she is at the wheel, and he stands beside her.',
             ],
@@ -538,37 +584,7 @@ export default createScene({
       ],
     },
   ],
-  opponents: [
-    { creature: refs.npcs.ilsa_corrow, count: 1 },
-    { creature: refs.npcs.silas_wren, count: 1 },
-    { creature: refs.npcs.korrag_stonevow, count: 1 },
-    { creature: refs.npcs.dust_lost_sailor, count: 2 },
-    { creature: refs.npcs.cloaked_snatcher, count: 8 },
-  ],
   combat: {
-    tactics: [
-      [
-        'The ',
-        refs.npcs.cloaked_snatcher,
-        's work in pairs and gang up on whoever stands alone. The ',
-        refs.npcs.dust_lost_sailor,
-        's charge the nearest target and never take cover.',
-      ],
-      [
-        refs.npcs.ilsa_corrow,
-        ' fights from the Helm at range, with her sailors as a wall: Fireball on a cluster, then Arcane Burst on whoever is hurt. ',
-        refs.npcs.korrag_stonevow,
-        ' fights as ',
-        refs.pcs.devan,
-        ' would: shield up, smiting, covering any ally beside him.',
-      ],
-      [
-        refs.npcs.silas_wren,
-        ' takes people out of the fight without blood: Hold Person on whoever hits hardest, and his blade knocks out instead of killing. He keeps ',
-        refs.npcs.ilsa_corrow,
-        ' on her feet with Healing Word. Spirit Guardians is your dial: leave it out unless the bridge is going too easily.',
-      ],
-    ],
     morale: [
       [
         'The Hand does not surrender. The ',

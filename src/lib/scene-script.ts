@@ -2,6 +2,7 @@ import type { DmContent } from '#/definitions/content'
 import type { EntityRef } from '#/definitions/kind'
 import type { SceneBeat, SceneLine } from '#/definitions/scene'
 
+import { fightLineUp, type FightLineUp } from './dm-encounter'
 import { resolveGroupSave, type GroupSave } from './group-save'
 import { buildSceneBranches, type SceneBranch } from './scene-branches'
 
@@ -15,6 +16,8 @@ export type ScriptBeat = {
   lines: SceneLine[]
   /** A save everyone listed makes during this beat, tracked roll by roll. */
   groupSave: GroupSave | undefined
+  /** Who joins the fight when this beat is played. */
+  fight: FightLineUp | undefined
   /** The "if" branches that belong to this moment. */
   branches: SceneBranch[]
 }
@@ -30,6 +33,7 @@ export function buildSceneScript(
     onlyIf: beat.onlyIf,
     lines: beat.lines,
     groupSave: beat.groupSave ? resolveGroupSave(beat.groupSave) : undefined,
+    fight: beat.fight ? fightLineUp(beat.fight) : undefined,
     branches: buildSceneBranches(beat.outcomes, hasSecret, `${index + 1}.`),
   }))
 }
