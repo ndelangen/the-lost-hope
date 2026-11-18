@@ -73,10 +73,11 @@ export default createScene({
         {
           do: [
             [
-              'The boarding is round one of the fight. The enemies in the sectors about to be hit roll ',
-              refs.rules.initiative,
-              ' too.',
+              'The boarding is round one of the fight, so run it in the encounter of ',
+              refs.scenes.taking_back_a_battle_cruiser,
+              ', not of this scene: open that one before the first launch and keep it for the rest of the fight. It has the enemies and the ship-damage clock.',
             ],
+            ['The enemies in the sectors about to be hit roll ', refs.rules.initiative, ' too.'],
             [
               'For this round, skip every enemy who rolled higher than the best roll of a player. They were just wandering about, perhaps looking out of a window: rolling too high costs them their first turn.',
             ],

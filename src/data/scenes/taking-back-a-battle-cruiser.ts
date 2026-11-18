@@ -104,7 +104,7 @@ export default createScene({
               ' while the party fights aboard it. The clock on this page times the hits and rolls the slice of the ship, counted from the bow. You choose whether the port or the starboard sector of that slice is hit.',
             ],
             [
-              'The clock runs in real time, every three minutes, and it does not stop while the players debate or take long over their actions. It is the ticking clock that puts the encounter under pressure.',
+              'The clock runs in real time, and it does not stop while the players debate or take long over their actions. It is the ticking clock that puts the encounter under pressure.',
             ],
             [
               'The choice of side is yours, to make it more or less dangerous. You can always hit the side the party is not in, unless that side is already destroyed: then the hit lands on the side that is left.',
