@@ -6,7 +6,7 @@ import { DmFaces } from '#/components/dm/dm-faces'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
 import { SceneBranches } from '#/components/dm/scene-branches'
 import { SceneScript } from '#/components/dm/scene-script'
-import { ShipDamageClock } from '#/components/dm/ship-damage-clock'
+import { SceneShipDamage } from '#/components/dm/scene-ship-damage'
 import { StatBlockSummary } from '#/components/dm/stat-block-summary'
 import { ImageViewer } from '#/components/image-viewer'
 import { ShowToPlayersButton } from '#/components/player-screen/show-to-players-button'
@@ -207,7 +207,7 @@ function SceneRoute() {
         </section>
 
         {ship && vessel ? (
-          <ShipDamageClock sceneKey={key} vesselName={vessel.name} ship={ship} />
+          <SceneShipDamage sceneKey={key} vesselName={vessel.name} ship={ship} />
         ) : null}
 
         {script.length > 0 ? (

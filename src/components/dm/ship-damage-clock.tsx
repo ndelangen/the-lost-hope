@@ -6,6 +6,8 @@ import {
   LifeBuoy,
   Minus,
   Pause,
+  Pin,
+  PinOff,
   Play,
   Plus,
   RotateCcw,
@@ -218,16 +220,20 @@ function SectorTile({
 /**
  * The at-the-table tracker for a vessel that breaks up during a fight: a repeating countdown, the
  * ship as a grid of sectors the DM taps after the die picks a slice, and the moment it is cut in
- * two.
+ * two. Pinned, it floats in the corner of every page and starts folded down to its timer.
  */
 export function ShipDamageClock({
   sceneKey,
   vesselName,
   ship,
+  pinned,
+  onPinChange,
 }: {
   sceneKey: string
   vesselName: string
   ship: ShipUnderFire
+  pinned: boolean
+  onPinChange: (pinned: boolean) => void
 }) {
   const audio = useRef<AudioContext | null>(null)
   const [sound, setSound] = useState(true)
@@ -236,7 +242,22 @@ export function ShipDamageClock({
   const [rolled, setRolled] = useState<number>()
   const [lastHit, setLastHit] = useState<string>()
   const [confirmReset, setConfirmReset] = useState(false)
-  const [open, setOpen] = useState(true)
+  const [open, setOpen] = useState(!pinned)
+
+  // Browsers only allow sound after a click. The first click anywhere prepares the alarm, so a
+  // clock that moved to the dock or came back after a reload still beeps.
+  useEffect(() => {
+    const prepare = () => {
+      try {
+        audio.current ??= new AudioContext()
+        void audio.current.resume()
+      } catch {
+        // No audio: the banner still shows the hit.
+      }
+    }
+    addEventListener('pointerdown', prepare, { once: true })
+    return () => removeEventListener('pointerdown', prepare)
+  }, [])
 
   const onHitDue = useCallback(() => {
     if (soundOn.current && audio.current) soundAlarm(audio.current)
@@ -299,15 +320,22 @@ export function ShipDamageClock({
   return (
     <section
       aria-label={`Ship damage for ${vesselName}`}
-      className="border-border bg-card grid gap-4 rounded-2xl border-2 p-4"
+      className={cn(
+        'border-border bg-card grid rounded-2xl border-2',
+        pinned ? 'gap-3 p-3 shadow-2xl' : 'gap-4 p-4',
+        // Folded down in the dock it is one bar; opened it is wide enough for the sectors.
+        pinned && (open ? 'w-[min(52rem,calc(100vw-2rem))]' : 'w-fit max-w-[calc(100vw-2rem)]'),
+      )}
     >
       <header className="flex flex-wrap items-center gap-x-4 gap-y-3">
         <div className="grid gap-0.5">
           <h2 className="text-lg leading-tight font-bold">Ship damage · {vesselName}</h2>
-          <p className="text-muted-foreground text-sm">
-            A hit every {formatCountdown(ship.everySeconds * 1000)}. Roll a {die} for the slice,
-            then tap the side you choose. {ship.sectorHitPoints} damage destroys a sector.
-          </p>
+          {pinned && !open ? null : (
+            <p className="text-muted-foreground text-sm">
+              A hit every {formatCountdown(ship.everySeconds * 1000)}. Roll a {die} for the slice,
+              then tap the side you choose. {ship.sectorHitPoints} damage destroys a sector.
+            </p>
+          )}
         </div>
         <div className="ml-auto flex flex-wrap items-center gap-2">
           <output
@@ -370,6 +398,15 @@ export function ShipDamageClock({
               <RotateCcw aria-hidden />
             </IconButton>
           )}
+          <IconButton
+            size="lg"
+            label={pinned ? 'Unpin: put the clock back on its page' : 'Pin to every page'}
+            tip={pinned ? 'Unpin' : 'Pin: keep it on screen on every page, also in combat focus'}
+            aria-pressed={pinned}
+            onClick={() => onPinChange(!pinned)}
+          >
+            {pinned ? <PinOff aria-hidden /> : <Pin aria-hidden />}
+          </IconButton>
           <IconButton
             size="lg"
             label={open ? 'Hide the sectors' : 'Show the sectors'}

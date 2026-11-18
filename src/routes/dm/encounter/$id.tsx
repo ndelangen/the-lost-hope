@@ -21,7 +21,7 @@ import { LegendaryRow, type LegendaryGroup } from '#/components/dm/encounter/leg
 import { PartyStrip } from '#/components/dm/encounter/party-strip'
 import { ConcentrationPrompt, TurnCard } from '#/components/dm/encounter/turn-card'
 import { newEncounterId, useEncounterStore } from '#/components/dm/encounter/use-encounter-store'
-import { ShipDamageClock } from '#/components/dm/ship-damage-clock'
+import { SceneShipDamage } from '#/components/dm/scene-ship-damage'
 import { resolveScene, resolveSourceRef, sceneShipUnderFire } from '#/lib/dm-campaign'
 import { combatantView, currentParty, encounterCandidates } from '#/lib/dm-encounter'
 import {
@@ -422,7 +422,7 @@ function EncounterRoute() {
           <DmScreen open={screenOpen} onClose={() => setScreenOpen(false)} />
           {scene ? <EncounterNotes sceneName={scene.name} notes={scene.combat} /> : null}
           {shipDamage?.vesselName ? (
-            <ShipDamageClock
+            <SceneShipDamage
               sceneKey={shipDamage.sceneKey}
               vesselName={shipDamage.vesselName}
               ship={shipDamage.ship}
