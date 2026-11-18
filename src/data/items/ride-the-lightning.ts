@@ -29,5 +29,6 @@ export default createItem({
       refs.organizations.the_eyeless_hand,
       '. It is the cruiser the party is asked to take back.',
     ],
+    ['It is experimental. A new, unique type of crystal makes it the fastest ship that exists.'],
   ],
 })

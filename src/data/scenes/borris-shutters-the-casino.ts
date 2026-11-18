@@ -22,6 +22,19 @@ export default createScene({
   ],
   beats: [
     {
+      title: 'Before you start',
+      lines: [
+        {
+          say: [
+            ['Tonight opens with a big event. After that, it is yours again.'],
+            [
+              'We also have a new player tonight. Please do not reject their character: that would make things exceptionally hard for all of us.',
+            ],
+          ],
+        },
+      ],
+    },
+    {
       title: 'The view below',
       lines: [
         {
