@@ -111,20 +111,23 @@ const GROUP_ORDER: readonly PlayerScreenGroup[] = [
 /** Every picture the DM can put on the player screen, grouped, and by name within a group. */
 export function playerScreenOptions(): PlayerScreenOption[] {
   const selections: PlayerScreenImage[] = [
-    ...(Object.keys(HANDOUTS) as HandoutKey[]).map(
-      (key): PlayerScreenImage => ({ image: 'handout', ref: { ref: 'handout', key } }),
-    ),
-    ...Object.keys(scenes).map(
-      (key): PlayerScreenImage => ({ image: 'illustration', ref: { ref: 'scene', key } }),
-    ),
+    ...(Object.keys(HANDOUTS) as HandoutKey[]).map((key): PlayerScreenImage => ({
+      image: 'handout',
+      ref: { ref: 'handout', key },
+    })),
+    ...Object.keys(scenes).map((key): PlayerScreenImage => ({
+      image: 'illustration',
+      ref: { ref: 'scene', key },
+    })),
     ...Object.keys(SOURCE_REGISTRIES.location).flatMap((key): PlayerScreenImage[] => [
       { image: 'map', ref: { ref: 'location', key } },
       { image: 'illustration', ref: { ref: 'location', key } },
     ]),
     ...(['pc', 'npc', 'beast'] as const).flatMap((kind) =>
-      Object.keys(SOURCE_REGISTRIES[kind]).map(
-        (key): PlayerScreenImage => ({ image: 'avatar', ref: { ref: kind, key } }),
-      ),
+      Object.keys(SOURCE_REGISTRIES[kind]).map((key): PlayerScreenImage => ({
+        image: 'avatar',
+        ref: { ref: kind, key },
+      })),
     ),
   ]
 
