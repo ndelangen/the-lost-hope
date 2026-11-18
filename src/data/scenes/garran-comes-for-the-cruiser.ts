@@ -37,6 +37,13 @@ export default createScene({
               refs.npcs.captain_garran,
               ' does not wait long: his first soldiers step onto the planks while they argue.',
             ],
+            [
+              'Any ',
+              refs.npcs.tempest_soldier,
+              's the party freed from the Barracks are still aboard: see the Barracks in ',
+              refs.scenes.taking_back_a_battle_cruiser,
+              '.',
+            ],
           ],
         },
       ],

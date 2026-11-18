@@ -11,9 +11,11 @@ export default createScene({
   ],
   npcs: [
     refs.npcs.ilsa_corrow,
+    refs.npcs.silas_wren,
     refs.npcs.korrag_stonevow,
     refs.npcs.dust_lost_sailor,
     refs.npcs.cloaked_snatcher,
+    refs.npcs.tempest_soldier,
     refs.npcs.onana_tempest,
     refs.npcs.captain_garran,
   ],
@@ -42,12 +44,17 @@ export default createScene({
         {
           do: [
             [
+              'The fight goes in steps, room by room. Every room is closed by default. You can have a door open at any time, by chance or because someone opens it on purpose.',
+            ],
+            [
               'Running it: roll initiative once for each group (the ',
               refs.npcs.cloaked_snatcher,
               's, the ',
               refs.npcs.dust_lost_sailor,
               's, and one each for ',
               refs.npcs.ilsa_corrow,
+              ', ',
+              refs.npcs.silas_wren,
               ' and ',
               refs.npcs.korrag_stonevow,
               '), so you only track a few turns. Start the clock the moment the first player hits. Put ',
@@ -72,6 +79,9 @@ export default createScene({
               ' in one go, so spread her attacks around. Easier: take two ',
               refs.npcs.dust_lost_sailor,
               's off the map, or have her cast only one Fireball. Harder: a bigger damage die on the clock, or she joins the fight on round one.',
+            ],
+            [
+              'The doors are the dial you can turn in the middle of the fight. Shut, each fight stays in its own room. Open one, and the next room joins in.',
             ],
           ],
         },
@@ -171,6 +181,55 @@ export default createScene({
     {
       title: 'The batteries',
       lines: [{ do: [['The batteries: four more guard the guns, another quick win.']] }],
+    },
+    {
+      title: 'The lower deck',
+      onlyIf: [['They go below instead of fighting their way along the top level.']],
+      lines: [
+        {
+          do: [
+            [
+              'Down on ',
+              refs.locations.ride_the_lightning_gun_deck,
+              ' there are about sixty ',
+              refs.npcs.cloaked_snatcher,
+              's. They are busy reloading and firing the cannons, and that keeps them distracted.',
+            ],
+            [
+              'If the party engages them, they attack in groups of four. Add each group to the encounter as it turns on the party.',
+            ],
+            [
+              'This can be the easy way: by the lower deck the party skips the top level and goes straight to the bridge section.',
+            ],
+          ],
+        },
+      ],
+    },
+    {
+      title: 'The Barracks',
+      onlyIf: [['They go into the Barracks.']],
+      lines: [
+        {
+          do: [
+            [
+              'In the Barracks the party finds ',
+              refs.npcs.tempest_soldier,
+              's, tied up. If the party releases them, they help in the fight. Add them to the encounter then.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              'Freed soldiers are still aboard when the fight is over, and they serve ',
+              refs.npcs.onana_tempest,
+              '. That makes keeping the ship for themselves a lot less easy for the party (',
+              refs.scenes.garran_comes_for_the_cruiser,
+              '). Do not solve that for them: present the problem, and let the players work out how to handle it.',
+            ],
+          ],
+        },
+      ],
     },
     {
       title: 'The Crystal chamber',
@@ -307,7 +366,21 @@ export default createScene({
               refs.npcs.dust_lost_sailor,
               's. She hears the fight start and keeps the guns firing.',
             ],
+            [refs.npcs.silas_wren, ' is on the bridge with her.'],
           ],
+        },
+        {
+          do: [
+            [
+              'When ',
+              refs.npcs.silas_wren,
+              ' is the only one of them left, he bails: he jumps out of a window. On his way out:',
+            ],
+          ],
+        },
+        {
+          speaker: refs.npcs.silas_wren,
+          say: [['We’ll meet again, ', refs.organizations.beasts_and_dwarf, '!']],
         },
         {
           note: [
@@ -327,7 +400,9 @@ export default createScene({
             [
               'They take the helm: ',
               refs.npcs.ilsa_corrow,
-              ' is down and one of them holds the wheel.',
+              ' is down, ',
+              refs.npcs.silas_wren,
+              ' is down or gone, and one of them holds the wheel.',
             ],
           ],
           response: [
@@ -408,6 +483,7 @@ export default createScene({
   ],
   opponents: [
     { creature: refs.npcs.ilsa_corrow, count: 1 },
+    { creature: refs.npcs.silas_wren, count: 1 },
     { creature: refs.npcs.korrag_stonevow, count: 1 },
     { creature: refs.npcs.dust_lost_sailor, count: 2 },
     { creature: refs.npcs.cloaked_snatcher, count: 8 },
@@ -436,7 +512,9 @@ export default createScene({
         refs.npcs.dust_lost_sailor,
         's fight until ',
         refs.npcs.ilsa_corrow,
-        ' falls, then stop. Below half her hit points, she runs for the crystal room (see the Helm in the script).',
+        ' falls, then stop. Below half her hit points, she runs for the crystal room (see the Helm in the script). ',
+        refs.npcs.silas_wren,
+        ' does not stay to the end (see the Helm in the script).',
       ],
     ],
     terrain: [
