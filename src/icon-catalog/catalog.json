@@ -264114,7 +264114,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/calendar-clock",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/dm-foretold-panel.tsx"
+      ]
     },
     {
       "id": "lucide/CalendarCog",
@@ -286700,7 +286702,9 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/hourglass",
       "usedIn": [
-        "src/components/dm/encounter/turn-card.tsx"
+        "src/components/dm/dm-foretold-panel.tsx",
+        "src/components/dm/encounter/turn-card.tsx",
+        "src/components/foretold-list.tsx"
       ]
     },
     {
@@ -296700,6 +296704,8 @@
       "usedIn": [
         "src/components/campaign-shell/theme-toggle.tsx",
         "src/components/dm/dm-effects-panel.tsx",
+        "src/components/dm/dm-foretold-panel.tsx",
+        "src/components/foretold-list.tsx",
         "src/lib/condition-icons.tsx"
       ]
     },
@@ -309123,9 +309129,11 @@
       "sourceUrl": "https://lucide.dev/icons/sparkles",
       "usedIn": [
         "src/components/campaign-shell/sidebar-data.ts",
+        "src/components/dm/dm-foretold-panel.tsx",
         "src/components/dm/encounter/ability-controls.tsx",
         "src/components/dm/encounter/party-strip.tsx",
         "src/components/dm/npc-draft-editor.tsx",
+        "src/components/foretold-list.tsx",
         "src/lib/condition-icons.tsx",
         "src/lib/entity-kind-visuals.ts",
         "src/lib/location-icons.tsx"

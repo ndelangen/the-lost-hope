@@ -1,6 +1,7 @@
 import { campaignEvents, compareEntityNames, resolveRef } from '#/lib/campaign'
 import { collectReferences } from '#/lib/campaign-read-model'
 import { entityCollectionItems, type EntityCardItem } from '#/lib/entity-page-data'
+import { eventProse } from '#/lib/foretold'
 
 export type NpcSortOrder = 'appearance' | 'name'
 
@@ -56,7 +57,7 @@ export function buildNpcCollectionItems(
 export function npcCollectionItems(order: NpcSortOrder): EntityCardItem[] {
   const events = campaignEvents().map((event) => ({
     day: event.data.day,
-    npcSlugs: collectReferences(event.data.notes).flatMap((ref) => {
+    npcSlugs: collectReferences(eventProse(event.data)).flatMap((ref) => {
       if (ref.ref !== 'npc') return []
       const npc = resolveRef(ref)
       return npc?.kind === 'npc' ? [npc.slug] : []

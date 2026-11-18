@@ -21,6 +21,13 @@ export default createScene({
       title: 'The field of connection',
       lines: [
         {
+          do: [
+            [
+              'Have all the players join hands, and put your own hand in too. Let the calm settle before you start reading.',
+            ],
+          ],
+        },
+        {
           say: [
             [
               'There is a special field of connection. Something you cannot really feel the presence of, though some people say they can. This field is what binds people: a network.',
@@ -31,7 +38,19 @@ export default createScene({
             [
               'Every snap vibrates the field, and can often be felt from afar. Right now, you can feel this web vibrate to its breaking point. Something is pulled out of the web by brute force.',
             ],
-            ['Your connection to ', refs.pcs.jim, ' is lost.'],
+          ],
+        },
+        {
+          note: [
+            ['Take your time over the parent and the child. It is the line this table will feel.'],
+          ],
+        },
+        {
+          do: [['As you say the next line, yank your hand out of the circle.']],
+        },
+        { say: [['Your connection to ', refs.pcs.jim, ' is lost.']] },
+        {
+          say: [
             [
               'You get one chance to keep this connection, but you must want it enough. Tell me why your character would want to stay connected, and I will give you a +5 on your ',
               refs.rules.wis,
@@ -88,6 +107,15 @@ export default createScene({
               'Everyone who cared about ',
               refs.pcs.jim,
               ' makes the saving throw below. On a failure they lose all interest in ',
+              refs.pcs.jim,
+              '.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              'For the PCs, honour the dice if their players wish: a failed save then really means that character has lost all interest in ',
               refs.pcs.jim,
               '.',
             ],

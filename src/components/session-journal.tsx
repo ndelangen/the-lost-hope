@@ -3,6 +3,7 @@ import { MapPin } from 'lucide-react'
 import { ContentRenderer } from '#/components/content-renderer'
 import { EntityReference } from '#/components/entity-reference'
 import { EventReference } from '#/components/event-reference'
+import { ForetoldList } from '#/components/foretold-list'
 import { LocationReference } from '#/components/location-reference'
 import { Avatar } from '#/components/ui/avatar'
 import { Inline, Stack } from '#/components/ui/layout'
@@ -158,6 +159,11 @@ function JournalEvent({ event }: { event: SessionJournalEvent }) {
                 JOURNAL_COPY_COLORS,
               )}
             />
+            {event.foretold.length > 0 ? (
+              <div className="mt-5">
+                <ForetoldList foretold={event.foretold} />
+              </div>
+            ) : null}
             <JournalQuests quests={event.quests} />
           </div>
         </div>

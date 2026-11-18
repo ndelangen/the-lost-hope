@@ -2,6 +2,7 @@ import { z } from 'zod'
 
 import { Background, Content } from './content'
 import { makeCreate } from './create'
+import { Foretold } from './foretold'
 import { EntityRefSchema } from './kind'
 import { deriveSlug } from './slug'
 
@@ -51,6 +52,15 @@ const Item = deriveSlug(
       .describe('The number represented when this item is a stack rather than a unique object'),
     hull: ShipHull.optional().describe('A vessel’s sectors, for fights aboard it'),
     notes: Content.optional().describe('Identity or flavor not represented by structured fields'),
+    foretold: z
+      .array(
+        Foretold.refine((entry) => entry.when?.type !== 'within' && entry.when?.type !== 'after', {
+          message: 'An item has no day to count from; promise spans belong on the event',
+        }),
+      )
+      .min(1)
+      .optional()
+      .describe('What the item is bound to do later, such as open under a full moon'),
     background: Background,
   }),
 )

@@ -30,9 +30,7 @@ export default createEvent({
     ],
     [
       refs.npcs.the_fiddler,
-      ' asked whether ',
-      refs.beasts.wolfie,
-      ' was already walking on two legs, then suggested he might be confusing timelines. He warned ',
+      ' warned ',
       refs.pcs.devan,
       ' that drugs after his recent blood ritual could provoke a killing spree whose glory would not go to ',
       refs.npcs.grimgor_the_bloody,
@@ -44,4 +42,17 @@ export default createEvent({
   day: 24,
   location: refs.locations.borris_s_gambling_den,
   mark: { type: 'icon', name: 'gi/GiScales' },
+  foretold: [
+    {
+      what: [
+        [
+          refs.npcs.the_fiddler,
+          ' asked whether ',
+          refs.beasts.wolfie,
+          ' was already walking on two legs, then suggested he might be confusing timelines.',
+        ],
+      ],
+      cameTrue: refs.events.n2_e204,
+    },
+  ],
 })

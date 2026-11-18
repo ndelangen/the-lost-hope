@@ -23,14 +23,7 @@ export default createEvent({
       refs.pcs.jim,
       ' commissioned permanent magic that would let selected people see him under another appearance and fail to recognize him. The price was 250 GP, of which he paid 30 GP immediately.',
     ],
-    [
-      refs.npcs.bob_the_merchant,
-      ' promised delivery after four months. ',
-      refs.pcs.jim,
-      ' signed ',
-      refs.effects.bob_s_divine_contract,
-      ' for the balance.',
-    ],
+    [refs.pcs.jim, ' signed ', refs.effects.bob_s_divine_contract, ' for the balance.'],
     [
       refs.npcs.bob_the_merchant,
       ' also gave ',
@@ -39,5 +32,19 @@ export default createEvent({
       refs.items.wolfie_tracking_ring,
       '.',
     ],
+  ],
+  foretold: [
+    {
+      what: [
+        [
+          refs.npcs.bob_the_merchant,
+          ' delivers the disguise magic ',
+          refs.pcs.jim,
+          ' commissioned.',
+        ],
+      ],
+      when: { type: 'after', span: { months: 4 } },
+      cameTrue: refs.events.n2_e115,
+    },
   ],
 })

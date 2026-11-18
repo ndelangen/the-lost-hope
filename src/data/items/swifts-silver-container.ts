@@ -13,7 +13,13 @@ export default createItem({
       refs.pcs.swift_starblade,
       ' during ',
       refs.events.n2_e105,
-      '. It can only be opened under a full moon and contains an unrevealed valuable item.',
+      '. It holds an unrevealed valuable item.',
     ],
+  ],
+  foretold: [
+    {
+      what: [[refs.pcs.swift_starblade, ' can open it. It opens at no other time.']],
+      when: { type: 'fullMoon' },
+    },
   ],
 })

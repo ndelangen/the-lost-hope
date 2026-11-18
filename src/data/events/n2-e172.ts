@@ -9,18 +9,28 @@ export default createEvent({
   notes: [
     [
       refs.npcs.onana_tempest,
-      " agreed to cover the party's existing bill, quoted at 300 gold, and arrange cheaper accommodation on ",
-      refs.locations.skynet,
-      ' in place of ',
-      refs.locations.skynet_s_second_best_inn,
-      '.',
+      " agreed to cover the party's existing bill, quoted at 300 gold, and to find them cheaper lodging.",
     ],
     [
       'The party requested a building that would withstand ',
       refs.pcs.jim,
       "'s ",
       refs.effects.storm,
-      ', plenty of meat, and no cheesecake. The replacement inn was not named and the party did not check in during this session.',
+      ', plenty of meat, and no cheesecake.',
     ],
+  ],
+  foretold: [
+    {
+      what: [
+        [
+          refs.npcs.onana_tempest,
+          ' arranges cheaper accommodation on ',
+          refs.locations.skynet,
+          ' in place of ',
+          refs.locations.skynet_s_second_best_inn,
+          '. The replacement inn was not named.',
+        ],
+      ],
+    },
   ],
 })

@@ -17,7 +17,7 @@ export default createNPC({
       refs.npcs.the_fiddler,
       ' chooses and runs dangerous games with the ',
       refs.items.deck_of_many_more_things,
-      '. He promised that every future meeting with the party would feature a different game.',
+      '.',
     ],
   ],
   stats: {
