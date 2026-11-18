@@ -67,6 +67,11 @@ export default createScene({
           note: [
             ['It starts easy and tightens room by room.'],
             [
+              'The enemies aboard are softer than a ',
+              refs.npcs.tempest_soldier,
+              ': they are drugged up, and less emotionally invested.',
+            ],
+            [
               'The curve is deliberate. The bow and the batteries are easy slaughters: let the players enjoy them, and describe every kill big. The tension starts at ',
               refs.npcs.korrag_stonevow,
               ' and peaks at the Helm.',
@@ -76,9 +81,7 @@ export default createScene({
               refs.npcs.ilsa_corrow,
               '’s Fireball can drop ',
               refs.pcs.swift_starblade,
-              ' in one go, so spread her attacks around. Easier: take two ',
-              refs.npcs.dust_lost_sailor,
-              's off the map, or have her cast only one Fireball. Harder: a bigger damage die on the clock, or she joins the fight on round one.',
+              ' in one go, so spread her attacks around. Easier: have her cast only one Fireball. Harder: a bigger damage die on the clock, or she joins the fight on round one.',
             ],
             [
               'The doors are the dial you can turn in the middle of the fight. Shut, each fight stays in its own room. Open one, and the next room joins in.',

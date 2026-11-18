@@ -101480,7 +101480,6 @@
       "usedIn": [
         "src/data/beasts/chimera.ts",
         "src/data/npcs/bessy.ts",
-        "src/data/npcs/dust-lost-sailor.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
