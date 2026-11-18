@@ -493,7 +493,8 @@ export function ShipDamageClock({
             </span>
           </div>
         ))}
-        {(['port', 'starboard'] as const).map((side) => [
+        {/* Starboard on top, as on the deck maps with the bow to the left. */}
+        {(['starboard', 'port'] as const).map((side) => [
           <span
             key={side}
             className="text-muted-foreground rotate-180 self-center text-xs font-semibold tracking-wide uppercase [writing-mode:vertical-rl]"
