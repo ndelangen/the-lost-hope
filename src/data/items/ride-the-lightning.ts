@@ -10,7 +10,7 @@ export default createItem({
   hull: {
     sectorHitPoints: 5,
     // Matches the deck maps, bow to the left: the helm's wheel is at the starboard stern, the
-    // bunks and the stern cargo are on the port side.
+    // bunks and the stern cargo are on the port side. The crystal room in the centre is never hit.
     port: [
       { name: 'Port bow', escapePods: true },
       { name: 'Port battery', escapePods: true },
@@ -20,7 +20,7 @@ export default createItem({
     starboard: [
       { name: 'Starboard bow', escapePods: true },
       { name: 'Starboard battery', escapePods: true },
-      { name: 'Crystal chamber', escapePods: false },
+      { name: 'Control room', escapePods: false },
       { name: 'Helm', escapePods: false },
     ],
   },
