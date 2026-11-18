@@ -34,6 +34,41 @@ export default createScene({
           ],
         },
         {
+          speaker: refs.npcs.silas_wren,
+          say: [
+            [
+              'Or join us. ',
+              refs.organizations.the_eyeless_hand,
+              ' can give you a full complement of crew, loyal to the bone. Even your ',
+              refs.items.demon_possessed_flying_broom,
+              ', returned to you.',
+            ],
+            ['Hold that thought.'],
+          ],
+        },
+        {
+          do: [
+            [
+              'He does not wait for an answer. He turns ',
+              refs.rules.invisible,
+              ' on the last word and is gone.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              'The offer is a plant, and it doubles as the distraction that lets his men close in. Do not let ',
+              refs.pcs.swift_starblade,
+              ' answer, and do not explain it. What it is for is in the motivations of ',
+              refs.npcs.silas_wren,
+              ', and it pays off in ',
+              refs.scenes.onana_calls_the_party_to_war,
+              '.',
+            ],
+          ],
+        },
+        {
           do: [
             [
               refs.pcs.jim,

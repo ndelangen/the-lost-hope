@@ -162,6 +162,23 @@ export default createScene({
           say: [['Are you associated with ', refs.organizations.the_eyeless_hand, ' in any way?']],
         },
         {
+          note: [
+            [
+              'This first question is the one ',
+              refs.npcs.silas_wren,
+              ' was aiming at. In ',
+              refs.scenes.the_hand_comes_for_jim,
+              ' he offered ',
+              refs.pcs.swift_starblade,
+              ' a place in ',
+              refs.organizations.the_eyeless_hand,
+              ' and told him to hold that thought. Look for it on ',
+              refs.pcs.swift_starblade,
+              '’s card: Detect Thoughts reads whatever is on his mind as he answers.',
+            ],
+          ],
+        },
+        {
           speaker: refs.npcs.onana_tempest,
           say: [['Are you, or have you been, under the influence of arcane dust recently?']],
         },

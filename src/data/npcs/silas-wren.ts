@@ -23,6 +23,19 @@ export default createNPC({
       refs.pcs.jim,
       ' as a boy and still thinks of him fondly. To him this is a rescue, not an arrest.',
     ],
+    [
+      'Leave ',
+      refs.pcs.swift_starblade,
+      ' holding the thought of working with ',
+      refs.organizations.the_eyeless_hand,
+      '. He offers him a crew and his ',
+      refs.items.demon_possessed_flying_broom,
+      ' back, and vanishes before he can answer. He does not want a recruit: he wants that doubt in ',
+      refs.pcs.swift_starblade,
+      '’s mind when ',
+      refs.npcs.onana_tempest,
+      ' tests the party, so that they fail it.',
+    ],
   ],
   background: [
     [
@@ -78,7 +91,7 @@ export default createNPC({
           { ability: 'spiritual-weapon' },
           ' or ',
           { ability: 'spirit-guardians' },
-          '. Also prepared, for outside a fight: Guidance, Thaumaturgy, Minor Illusion, Disguise Self, Pass without Trace and Dispel Magic (his last 3rd-level slot).',
+          '. Also prepared, for outside a fight: Guidance, Thaumaturgy, Minor Illusion, Disguise Self, Invisibility, Pass without Trace and Dispel Magic (his last 3rd-level slot).',
         ],
       },
       {
