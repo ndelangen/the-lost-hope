@@ -9,12 +9,14 @@ export default createScene({
     refs.locations.master_of_puppets_gun_deck,
     refs.locations.master_of_puppets_main_deck,
     refs.locations.beasts_and_dwarf_s_airship_decks,
+    refs.locations.ride_the_lightning_main_deck,
+    refs.locations.ride_the_lightning_gun_deck,
   ],
   npcs: [refs.npcs.onana_tempest, refs.npcs.captain_garran],
   setup: [
     [
       refs.items.ride_the_lightning,
-      ' is firing on its own side, and its guns cover every approach. The party has to get aboard. However they do it, they come in at the bow.',
+      ' is firing on its own side, and its guns cover every approach. The party has to get aboard. However they do it, they come in at the bow, on the port or the starboard side.',
     ],
   ],
   beats: [
@@ -25,7 +27,7 @@ export default createScene({
           do: [
             [
               refs.npcs.captain_garran,
-              ' shows them the way his crew does it: a boarding torpedo, a narrow iron shell fired from the gun deck of ',
+              ' shows them an experimental boarding torpedo: a narrow iron shell fired from the gun deck of ',
               refs.items.master_of_puppets,
               ' that punches through a ship’s bow and opens like a flower. It holds one person, and the launcher fires one at a time.',
             ],
@@ -33,6 +35,27 @@ export default createScene({
         },
         { do: [['He looks at ', refs.pcs.devan, '.']] },
         { speaker: refs.npcs.captain_garran, say: [['It’ll be a squeeze.']] },
+        {
+          do: [
+            [
+              'He lets them see the layout of ',
+              refs.items.ride_the_lightning,
+              '. Put ',
+              refs.locations.ride_the_lightning_main_deck,
+              ' or ',
+              refs.locations.ride_the_lightning_gun_deck,
+              ' on the player screen, from the battle maps of this scene.',
+            ],
+          ],
+        },
+        {
+          speaker: refs.npcs.captain_garran,
+          say: [
+            [
+              'Starboard bow or port bow? And in which order? It’s experimental, and it fires one of you at a time.',
+            ],
+          ],
+        },
         {
           do: [
             [
@@ -49,7 +72,7 @@ export default createScene({
         {
           do: [
             [
-              'The torpedo: one launch per round, and the players choose who goes first. Whoever lands first is alone at the bow until the next one arrives, which makes the order a real choice.',
+              'The torpedo: one launch per round, at the bow the players chose and in the order they chose. Whoever lands first is alone at the bow until the next one arrives, which makes the order a real choice.',
             ],
             [
               'Each landing is a DC 13 ',
