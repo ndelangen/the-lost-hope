@@ -283,15 +283,7 @@ export default createScene({
         {
           when: [['They promise to help.']],
           response: [
-            [
-              'He gives ',
-              refs.items.beasts_and_dwarf_s_airship,
-              ' back and points out ',
-              refs.items.ride_the_lightning,
-              ', the nearest cruiser firing on its own side. Run ',
-              refs.scenes.boarding_ride_the_lightning,
-              '.',
-            ],
+            ['He gives ', refs.items.beasts_and_dwarf_s_airship, ' back. Then play the next beat.'],
             [
               'He also has ',
               refs.npcs.captain_garran,
@@ -323,6 +315,45 @@ export default createScene({
             },
           ],
         },
+      ],
+    },
+    {
+      title: 'Why this ship',
+      onlyIf: [['They promise to help.']],
+      lines: [
+        {
+          do: [
+            [
+              'He points out ',
+              refs.items.ride_the_lightning,
+              ', the nearest cruiser firing on its own side.',
+            ],
+          ],
+        },
+        {
+          speaker: refs.npcs.onana_tempest,
+          say: [
+            [
+              'That one is experimental. It carries a new, unique type of crystal, which makes it the fastest ship that exists right now.',
+            ],
+            [
+              'So we need to catch it now, whilst it is still here, or we’ll never be able to catch up to it.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              'A key plot point, and a clear hint: whoever controls this ship can outrun the soldiers, and may even be able to catch up to the flying fortress.',
+            ],
+            [
+              'It is aimed at ',
+              refs.pcs.swift_starblade,
+              ': the fastest ship there is, and a very large one. The hope is that he wants it really badly. What he does about that is up to him.',
+            ],
+          ],
+        },
+        { do: [['Run ', refs.scenes.boarding_ride_the_lightning, '.']] },
       ],
     },
   ],

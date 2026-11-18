@@ -91,7 +91,7 @@ export default createScene({
         {
           do: [
             [
-              'That player picks their own side, and the torpedo launches and hits. A natural 1 on their ',
+              'That player picks their own side, and the torpedo launches and hits. Spreading out or landing together is the party’s choice, for their own reasons. A natural 1 on their ',
               refs.rules.initiative,
               ' roll: it misses and hits the other side.',
             ],
@@ -113,7 +113,7 @@ export default createScene({
               refs.rules.cone,
               ' into the room from the breach. Every creature in it takes 2d6 ',
               refs.rules.bludgeoning,
-              ' damage and is knocked back 10 feet. That softens up the first room so the party can land on its feet, and spreading over port and starboard catches more of the enemy.',
+              ' damage and is knocked back 10 feet. That softens up the first room so the party can land on its feet.',
             ],
             [
               'The blast does not spare friends: a party member who landed on that side and did not stand aside takes the same.',
