@@ -11,6 +11,10 @@ const statBlocks: Record<
   Readonly<Record<string, { stats: OwnOrSharedStatBlock } | undefined>>
 > = SOURCE_REGISTRIES
 
+const pcs: Readonly<Record<string, { status: string } | undefined>> = SOURCE_REGISTRIES.pc
+
+export type GroupSaveOutcome = 'pending' | 'passed' | 'failed'
+
 /** One character in a group save, ready to list. */
 export type GroupSaveRoller = {
   /** Kind and key, such as `npc:crowy`. */
@@ -21,10 +25,14 @@ export type GroupSaveRoller = {
   /** Whether the party has met them, so the player screen can print their name. */
   met: boolean
   /**
-   * The save bonus added to the die, from the stat block. A PC has none here: their player rolls
-   * and reports a total that already includes it.
+   * The save bonus added to the die, from the stat block. A PC has none here: the number filled in
+   * for them is their total.
    */
   bonus: number | undefined
+  /** Whether the DM rolls for them: everyone but the PCs who are being played. */
+  dmRolls: boolean
+  /** A fixed outcome. Nobody rolls for them. */
+  always: 'passed' | 'failed' | undefined
 }
 
 /** A beat's group save with everything looked up, ready for the DM's tracker and the player screen. */
@@ -63,7 +71,8 @@ export function resolveGroupSave(save: SceneGroupSave): GroupSave {
     reasonBonus: save.reasonBonus,
     passed: save.passed,
     failed: save.failed,
-    rollers: save.rollers.flatMap((ref): GroupSaveRoller[] => {
+    rollers: save.rollers.flatMap((entry): GroupSaveRoller[] => {
+      const ref = 'who' in entry ? entry.who : entry
       const record = resolveSourceRef(ref)
       if (!record) return []
       const stats =
@@ -76,6 +85,8 @@ export function resolveGroupSave(save: SceneGroupSave): GroupSave {
           avatar: record.avatar,
           met: PLAYER_VISIBLE_KEYS[ref.ref].has(ref.key),
           bonus: stats ? deriveStatBlock(stats).saves[save.ability] : undefined,
+          dmRolls: ref.ref !== 'pc' || pcs[ref.key]?.status !== 'active',
+          always: 'who' in entry ? entry.always : undefined,
         },
       ]
     }),
@@ -103,19 +114,34 @@ export function sceneGroupSaves(sceneKey: string): { storageKey: string; save: G
   )
 }
 
+/** How many characters the player screen lists at once. */
+export const GROUP_SAVE_PAGE_SIZE = 8
+
+export function groupSavePageCount(save: GroupSave): number {
+  return Math.max(1, Math.ceil(save.rollers.length / GROUP_SAVE_PAGE_SIZE))
+}
+
+/** The page of the player screen a character is listed on, from 0. */
+export function groupSavePageOf(save: GroupSave, id: string): number {
+  const index = save.rollers.findIndex((roller) => roller.id === id)
+  return index < 0 ? 0 : Math.floor(index / GROUP_SAVE_PAGE_SIZE)
+}
+
 /**
  * What the DM filled in for one character. `roll` is the die alone for someone with a stat block,
- * and the player's own total for a PC.
+ * and the total for a PC.
  */
 export type GroupSaveEntry = { roll?: number; reason: boolean }
 
 export type GroupSaveState = {
   /** Whether the list is drawn over the scene's picture on the player screen. */
   onScreen: boolean
+  /** The page of the list the player screen shows, from 0. */
+  page: number
   entries: Readonly<Partial<Record<string, GroupSaveEntry>>>
 }
 
-export const EMPTY_GROUP_SAVE: GroupSaveState = { onScreen: false, entries: {} }
+export const EMPTY_GROUP_SAVE: GroupSaveState = { onScreen: false, page: 0, entries: {} }
 
 /** A number the DM typed, kept only when it can be a roll. */
 function validRoll(value: unknown): number | undefined {
@@ -124,7 +150,13 @@ function validRoll(value: unknown): number | undefined {
     : undefined
 }
 
-/** Stored rolls read back, keeping only real entries of characters the save still lists. */
+function validPage(value: unknown, save: GroupSave): number {
+  return typeof value === 'number' && Number.isInteger(value) && value >= 0
+    ? Math.min(value, groupSavePageCount(save) - 1)
+    : 0
+}
+
+/** Stored rolls read back, keeping only real entries of characters who still roll. */
 export function parseGroupSaveState(raw: string | null, save: GroupSave): GroupSaveState {
   if (!raw) return EMPTY_GROUP_SAVE
   let stored: unknown
@@ -134,10 +166,15 @@ export function parseGroupSaveState(raw: string | null, save: GroupSave): GroupS
     return EMPTY_GROUP_SAVE
   }
   if (typeof stored !== 'object' || stored === null) return EMPTY_GROUP_SAVE
-  const { onScreen, entries } = stored as { onScreen?: unknown; entries?: unknown }
+  const { onScreen, page, entries } = stored as {
+    onScreen?: unknown
+    page?: unknown
+    entries?: unknown
+  }
   const kept: Partial<Record<string, GroupSaveEntry>> = {}
   if (typeof entries === 'object' && entries !== null) {
     for (const roller of save.rollers) {
+      if (roller.always) continue
       const entry = (entries as Record<string, unknown>)[roller.id]
       if (typeof entry !== 'object' || entry === null) continue
       const { roll, reason } = entry as { roll?: unknown; reason?: unknown }
@@ -145,7 +182,7 @@ export function parseGroupSaveState(raw: string | null, save: GroupSave): GroupS
       kept[roller.id] = { ...(valid === undefined ? {} : { roll: valid }), reason: reason === true }
     }
   }
-  return { onScreen: onScreen === true, entries: kept }
+  return { onScreen: onScreen === true, page: validPage(page, save), entries: kept }
 }
 
 function entryOf(state: GroupSaveState, id: string): GroupSaveEntry {
@@ -179,16 +216,25 @@ export function setGroupSaveOnScreen(state: GroupSaveState, onScreen: boolean): 
   return { ...state, onScreen }
 }
 
-/** Forget every roll and reason, leaving the player screen as it is. */
+/** Turn the player screen to another page of the list. */
+export function setGroupSavePage(
+  state: GroupSaveState,
+  save: GroupSave,
+  page: number,
+): GroupSaveState {
+  return { ...state, page: validPage(page, save) }
+}
+
+/** Forget every roll and reason and go back to the first page, for a fresh run. */
 export function clearGroupSave(state: GroupSaveState): GroupSaveState {
-  return { ...state, entries: {} }
+  return { ...state, page: 0, entries: {} }
 }
 
 function d20(random: () => number): number {
   return Math.floor(random() * 20) + 1
 }
 
-/** Roll the die for one character the DM rolls for, replacing any roll they had. */
+/** Roll the die for one character, replacing any roll they had. */
 export function rollGroupSaveFor(
   state: GroupSaveState,
   id: string,
@@ -197,7 +243,7 @@ export function rollGroupSaveFor(
   return setGroupSaveRoll(state, id, d20(random))
 }
 
-/** Roll for everyone the DM rolls for who has no roll yet. Players' characters are left alone. */
+/** Roll for everyone the DM rolls for who has no roll yet. The players' own characters are left alone. */
 export function rollGroupSaveRest(
   state: GroupSaveState,
   save: GroupSave,
@@ -205,13 +251,11 @@ export function rollGroupSaveRest(
 ): GroupSaveState {
   let next = state
   for (const roller of save.rollers) {
-    if (roller.bonus === undefined || entryOf(next, roller.id).roll !== undefined) continue
+    if (!roller.dmRolls || roller.always || entryOf(next, roller.id).roll !== undefined) continue
     next = rollGroupSaveFor(next, roller.id, random)
   }
   return next
 }
-
-export type GroupSaveOutcome = 'pending' | 'passed' | 'failed'
 
 /** One line of the list: a character, what was rolled for them, and how it came out. */
 export type GroupSaveRow = GroupSaveRoller & {
@@ -220,10 +264,23 @@ export type GroupSaveRow = GroupSaveRoller & {
   /** The roll with the save bonus and the reason bonus added. */
   total: number | undefined
   outcome: GroupSaveOutcome
+  /** The page of the player screen this line is on, from 0. */
+  page: number
 }
 
 export function groupSaveRows(save: GroupSave, state: GroupSaveState): GroupSaveRow[] {
-  return save.rollers.map((roller) => {
+  return save.rollers.map((roller, index) => {
+    const page = Math.floor(index / GROUP_SAVE_PAGE_SIZE)
+    if (roller.always) {
+      return {
+        ...roller,
+        roll: undefined,
+        reason: false,
+        total: undefined,
+        outcome: roller.always,
+        page,
+      }
+    }
     const { roll, reason } = entryOf(state, roller.id)
     const total =
       roll === undefined
@@ -235,6 +292,7 @@ export function groupSaveRows(save: GroupSave, state: GroupSaveState): GroupSave
       reason,
       total,
       outcome: total === undefined ? 'pending' : total >= save.dc ? 'passed' : 'failed',
+      page,
     }
   })
 }
@@ -242,6 +300,8 @@ export function groupSaveRows(save: GroupSave, state: GroupSaveState): GroupSave
 /** The rolls as plain text, for the DM to keep and later turn into a played event. */
 export function groupSaveSummary(save: GroupSave, rows: readonly GroupSaveRow[]): string {
   const lines = rows.map((row) => {
+    if (row.always)
+      return `${row.name}: no roll. ${row.always === 'passed' ? save.passed : save.failed}`
     if (row.roll === undefined || row.total === undefined) return `${row.name}: not rolled`
     const parts = [
       row.bonus === undefined ? `total ${row.roll}` : `d20 ${row.roll} ${signed(row.bonus)} save`,

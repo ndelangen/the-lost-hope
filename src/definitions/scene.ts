@@ -53,11 +53,15 @@ export const SceneLine = z.union([
 
 export type SceneLine = z.infer<typeof SceneLine>
 
+const GroupSaveRoller = z.union([entityRefOf('pc'), entityRefOf('npc'), entityRefOf('beast')])
+
 /**
  * A saving throw that several characters make at the same moment, each on their own roll. The DM
  * fills in the rolls at the table and can put the list on the player screen, so `title`, `passed`
  * and `failed` are words the players read. Players roll for their own characters; the DM rolls
- * for the rest, with the save bonus from each stat block.
+ * for the rest, with the save bonus from each stat block. Someone whose outcome is fixed is listed
+ * with `always`. Everyone listed appears on the player screen, by name only once the party has
+ * met them.
  */
 export const SceneGroupSave = z.strictObject({
   title: Content.describe('Heading over the list on the player screen'),
@@ -70,9 +74,19 @@ export const SceneGroupSave = z.strictObject({
     .optional()
     .describe('Added to a roll when a player gives a good reason for that character'),
   rollers: z
-    .array(z.union([entityRefOf('pc'), entityRefOf('npc'), entityRefOf('beast')]))
+    .array(
+      z.union([
+        GroupSaveRoller,
+        z.strictObject({
+          who: GroupSaveRoller,
+          always: z
+            .enum(['passed', 'failed'])
+            .describe('The outcome is fixed: nobody rolls for them'),
+        }),
+      ]),
+    )
     .min(1)
-    .describe('Everyone who rolls, in the order they are listed'),
+    .describe('Everyone on the list, in the order they are listed'),
   passed: z.string().trim().min(1).describe('Shown beside someone who made the save'),
   failed: z.string().trim().min(1).describe('Shown beside someone who failed it'),
 })
