@@ -1,4 +1,5 @@
 import { Play, RotateCcw, Sparkles } from 'lucide-react'
+import type { ReactNode } from 'react'
 
 import type { Ability } from '#/definitions/stat-block'
 import { ABILITY_ICONS } from '#/lib/ability-icons'
@@ -88,30 +89,33 @@ export function AbilityButton({
   )
 }
 
-/** The rules text of an open ability, with use and manual-recharge controls when it is limited. */
-export function AbilityDetail({
-  title,
-  ability,
-  note,
-  count,
-  onUse,
-  onRecharge,
-  onSetUses,
-  onSetMaxUses,
-  block,
-  describe,
-}: {
-  title: string
-  ability: Ability
-  note?: string
-  count?: UseCount
+/** A limited ability's uses left in a fight, and the controls that spend, recharge, or correct them. */
+export type AbilityUses = {
+  count: UseCount
   onUse: () => void
   onRecharge: () => void
   onSetUses: (value: number) => void
   onSetMaxUses: (value: number) => void
+}
+
+/** The rules text of an ability, with use and manual-recharge controls when a fight tracks its uses. */
+export function AbilityDetail({
+  title,
+  ability,
+  note,
+  uses,
+  block,
+  describe,
+  className,
+}: {
+  title: ReactNode
+  ability: Ability
+  note?: string
+  uses?: AbilityUses
   block: DerivedStatBlock
   /** Full text and Use for abilities this text refers to. */
   describe?: (key: string) => ReferencedAbility | undefined
+  className?: string
 }) {
   const focus = useDensity() === 'focus'
   const summary = block.abilities[ability.key]?.summary
@@ -121,6 +125,7 @@ export function AbilityDetail({
       className={cn(
         'border-border bg-muted/40 grid rounded-xl border',
         focus ? 'gap-3 p-4' : 'gap-2 p-3',
+        className,
       )}
     >
       <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
@@ -146,7 +151,7 @@ export function AbilityDetail({
           {[note, steps ? undefined : ability.recharge].filter(Boolean).join(' · ')}
         </p>
       ) : null}
-      {count ? (
+      {uses ? (
         <div className="flex flex-wrap items-center gap-3">
           <div
             className={cn(
@@ -156,9 +161,9 @@ export function AbilityDetail({
           >
             <EditableNumber
               label={`Uses left of ${ability.name}`}
-              value={count.uses}
+              value={uses.count.uses}
               min={0}
-              onCommit={onSetUses}
+              onCommit={uses.onSetUses}
               className={cn(
                 'font-bold tabular-nums',
                 focus ? 'h-9 w-10 text-xl' : 'h-7 w-8 text-base',
@@ -167,9 +172,9 @@ export function AbilityDetail({
             <span className="text-muted-foreground">/</span>
             <EditableNumber
               label={`Maximum uses of ${ability.name}`}
-              value={count.maxUses}
+              value={uses.count.maxUses}
               min={0}
-              onCommit={onSetMaxUses}
+              onCommit={uses.onSetMaxUses}
               className={cn(
                 'text-muted-foreground tabular-nums',
                 focus ? 'h-9 w-9 text-base' : 'h-7 w-7 text-sm',
@@ -177,10 +182,10 @@ export function AbilityDetail({
             />
             <span className="text-muted-foreground text-sm">uses left</span>
           </div>
-          <ActionButton tone="primary" disabled={count.uses === 0} onClick={onUse}>
+          <ActionButton tone="primary" disabled={uses.count.uses === 0} onClick={uses.onUse}>
             <Play aria-hidden /> Use
           </ActionButton>
-          <ActionButton disabled={count.uses >= count.maxUses} onClick={onRecharge}>
+          <ActionButton disabled={uses.count.uses >= uses.count.maxUses} onClick={uses.onRecharge}>
             <RotateCcw aria-hidden /> Recharge
           </ActionButton>
         </div>

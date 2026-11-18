@@ -310,3 +310,15 @@ export function deriveStatBlock(stats: StatBlock): DerivedStats {
     }),
   }
 }
+
+/** What an ability is at a glance, so a stat block can colour and label it. */
+export type AbilityKind = 'melee' | 'ranged' | 'attack' | 'save' | 'healing' | 'other'
+
+/** An attack roll by its kind, then a forced save, then what it is for. */
+export function abilityKind(ability: Ability): AbilityKind {
+  if (ability.attack) return ability.attack.kind
+  if (ability.save) return 'save'
+  if (ability.intent === 'damage') return 'attack'
+  if (ability.intent === 'healing') return 'healing'
+  return 'other'
+}

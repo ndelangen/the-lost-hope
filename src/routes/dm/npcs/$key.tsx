@@ -5,13 +5,14 @@ import { ContentRenderer } from '#/components/content-renderer'
 import { DmFaces } from '#/components/dm/dm-faces'
 import { DmHiddenReference } from '#/components/dm/dm-hidden-reference'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
-import { StatBlockSummary } from '#/components/dm/stat-block-summary'
+import { StatBlockSheet } from '#/components/dm/stat-block-sheet'
 import { EntityReference } from '#/components/entity-reference'
 import { ShowToPlayersButton } from '#/components/player-screen/show-to-players-button'
 import { PortraitGallery } from '#/components/portrait-gallery'
 import { refLink } from '#/lib/campaign'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
-import { resolveSourceRef, resolveStatBlock } from '#/lib/dm-campaign'
+import { creatures, resolveSourceRef, resolveStatBlock } from '#/lib/dm-campaign'
+import { playableStats } from '#/lib/dm-encounter'
 import { resolvePlayerScreenImage } from '#/lib/player-screen'
 
 const npcs: Readonly<
@@ -45,6 +46,8 @@ function DmNpcRoute() {
   const { key } = Route.useLoaderData()
   const npc = npcs[key]!
   const location = npc.location ? resolveSourceRef(npc.location) : undefined
+  const stats = resolveStatBlock(npc.stats)
+  const shared = 'ref' in npc.stats ? creatures[npc.stats.key] : undefined
 
   return (
     <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_12rem]">
@@ -96,9 +99,9 @@ function DmNpcRoute() {
         <Section title="Background">
           {npc.background ? <ContentRenderer content={npc.background} /> : <Empty />}
         </Section>
-        {resolveStatBlock(npc.stats) ? (
-          <Section title="Stat block">
-            <StatBlockSummary stats={npc.stats} />
+        {stats ? (
+          <Section title={shared ? `Stat block · shared ${shared.name}` : 'Stat block'}>
+            <StatBlockSheet stats={stats} block={playableStats(stats)} />
           </Section>
         ) : null}
       </article>
