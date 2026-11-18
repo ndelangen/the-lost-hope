@@ -47,7 +47,10 @@ export default createScene({
               'The fight goes in steps, room by room. Every room is closed by default. You can have a door open at any time, by chance or because someone opens it on purpose.',
             ],
             [
-              'Running it: roll initiative once for each group (the ',
+              'Run it as one encounter in the tracker, played as a string of short fights. The players keep the initiative they rolled for boarding for the whole ship. Between rooms, drop out of turns and let them move and talk freely: the clock keeps running.',
+            ],
+            [
+              'The enemies of a room roll initiative when its door opens, once for each group (the ',
               refs.npcs.cloaked_snatcher,
               's, the ',
               refs.npcs.dust_lost_sailor,
@@ -57,7 +60,10 @@ export default createScene({
               refs.npcs.silas_wren,
               ' and ',
               refs.npcs.korrag_stonevow,
-              '), so you only track a few turns. Start the clock the moment the first player hits. Put ',
+              '), so you only track a few turns.',
+            ],
+            [
+              'Start the clock the moment the first player hits. Put ',
               refs.npcs.ilsa_corrow,
               ' and her group on the map from the start, but they only move once someone reaches the helm or she is attacked.',
             ],
@@ -175,7 +181,7 @@ export default createScene({
             [
               'The bow: four ',
               refs.npcs.cloaked_snatcher,
-              's come forward to meet them, and go down fast.',
+              's come forward to meet them, and go down fast. Two stand in each bow sector.',
             ],
             [
               'If the party investigates the front compartments, they can find the passage to the lower deck.',
@@ -186,7 +192,13 @@ export default createScene({
     },
     {
       title: 'The batteries',
-      lines: [{ do: [['The batteries: four more guard the guns, another quick win.']] }],
+      lines: [
+        {
+          do: [
+            ['The batteries: four more guard the guns, another quick win. Two stand on each side.'],
+          ],
+        },
+      ],
     },
     {
       title: 'The lower deck',
@@ -212,6 +224,13 @@ export default createScene({
             ],
           ],
         },
+        {
+          note: [
+            [
+              'Only one group at a time: the rest keep working the guns. A new group turns on the party only if the party attacks again. If the players walk through without engaging anyone, let them.',
+            ],
+          ],
+        },
       ],
     },
     {
@@ -223,9 +242,12 @@ export default createScene({
             [
               'In the Barracks the party finds four ',
               refs.npcs.tempest_soldier,
-              's, tied up. If the party releases them, they help in the fight. Add them to the encounter then.',
+              's, tied up. There are no enemies in here. If the party releases them, they help in the fight. Add them to the encounter then.',
             ],
           ],
+        },
+        {
+          note: [['Cutting one soldier loose takes an action. Roll initiative once for all four.']],
         },
         {
           note: [
@@ -374,7 +396,12 @@ export default createScene({
               refs.npcs.dust_lost_sailor,
               's. She hears the fight start and keeps the guns firing.',
             ],
-            [refs.npcs.silas_wren, ' is on the bridge with her.'],
+            [
+              refs.npcs.silas_wren,
+              ' is on the bridge with her. Where they stand: the two ',
+              refs.npcs.dust_lost_sailor,
+              's hold the stairs, she is at the wheel, and he stands beside her.',
+            ],
           ],
         },
         {
@@ -534,6 +561,12 @@ export default createScene({
         ' fights as ',
         refs.pcs.devan,
         ' would: shield up, smiting, covering any ally beside him.',
+      ],
+      [
+        refs.npcs.silas_wren,
+        ' takes people out of the fight without blood: Hold Person on whoever hits hardest, and his blade knocks out instead of killing. He keeps ',
+        refs.npcs.ilsa_corrow,
+        ' on her feet with Healing Word. Spirit Guardians is your dial: leave it out unless the bridge is going too easily.',
       ],
     ],
     morale: [
