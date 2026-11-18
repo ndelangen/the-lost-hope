@@ -50,7 +50,7 @@ export default createScene({
               refs.npcs.ilsa_corrow,
               ' and ',
               refs.npcs.korrag_stonevow,
-              '), so you only track a few turns. Start the clock when the first of them lands. Put ',
+              '), so you only track a few turns. Start the clock the moment the first player hits. Put ',
               refs.npcs.ilsa_corrow,
               ' and her group on the map from the start, but they only move once someone reaches the helm or she is attacked.',
             ],
@@ -102,6 +102,9 @@ export default createScene({
               'The ship-damage clock: the loyal cruisers keep firing back at ',
               refs.items.ride_the_lightning,
               ' while the party fights aboard it. The clock on this page times the hits and rolls the slice of the ship, counted from the bow. You choose whether the port or the starboard sector of that slice is hit.',
+            ],
+            [
+              'The clock runs in real time, every three minutes, and it does not stop while the players debate or take long over their actions. It is the ticking clock that puts the encounter under pressure.',
             ],
             [
               'The choice of side is yours, to make it more or less dangerous. You can always hit the side the party is not in, unless that side is already destroyed: then the hit lands on the side that is left.',

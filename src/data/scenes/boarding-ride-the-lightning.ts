@@ -73,20 +73,27 @@ export default createScene({
         {
           do: [
             [
-              'The torpedo: one launch per round. The ',
+              'The boarding is round one of the fight. The enemies in the sectors about to be hit roll ',
               refs.rules.initiative,
-              ' they just rolled is the order they go into the torpedo.',
+              ' too.',
             ],
-            ['Before each launch, he asks the rider which side of the bow to aim for.'],
+            [
+              'For this round, skip every enemy who rolled higher than the best roll of a player. They were just wandering about, perhaps looking out of a window: rolling too high costs them their first turn.',
+            ],
+            [
+              'Then go down the order. On a player’s turn, ',
+              refs.npcs.captain_garran,
+              ' asks them which side to aim for.',
+            ],
           ],
         },
         { speaker: refs.npcs.captain_garran, say: [['Port or starboard?']] },
         {
           do: [
             [
-              'Each rider picks their own side, so the party may spread over the two. A natural 1 on their ',
+              'That player picks their own side, and the torpedo launches and hits. A natural 1 on their ',
               refs.rules.initiative,
-              ' roll: the torpedo misses and hits the other side.',
+              ' roll: it misses and hits the other side.',
             ],
             ['Just as the first torpedo launches, he adds one more thing.'],
           ],
@@ -102,15 +109,25 @@ export default createScene({
         {
           do: [
             [
-              'When a torpedo comes through, it blasts a 15-foot ',
+              'The hit: the torpedo blasts a 15-foot ',
               refs.rules.cone,
               ' into the room from the breach. Every creature in it takes 2d6 ',
               refs.rules.bludgeoning,
-              ' damage. That softens up the first room so the party can land on its feet, and spreading over port and starboard catches more of the enemy.',
+              ' damage and is knocked back 10 feet. That softens up the first room so the party can land on its feet, and spreading over port and starboard catches more of the enemy.',
             ],
             [
-              'The blast does not spare friends: a party member who landed on that side and did not stand aside takes the same 2d6.',
+              'The blast does not spare friends: a party member who landed on that side and did not stand aside takes the same.',
             ],
+            [
+              'Then that player takes their turn: an action, then their movement, then a ',
+              refs.rules.bonus_action,
+              '. Getting out of the torpedo is the Disembark action. It is very advisable, but it is their choice. While still strapped in they cannot move.',
+            ],
+            ['By the end of round one the whole party is aboard.'],
+          ],
+        },
+        {
+          do: [
             [
               'Each landing is a DC 13 ',
               refs.rules.dex,
@@ -132,9 +149,9 @@ export default createScene({
         {
           note: [
             [
-              'They are on the clock while they wait their turn: the ship-damage clock in ',
+              'The ship-damage clock in ',
               refs.scenes.taking_back_a_battle_cruiser,
-              ' starts when the first of them lands, and a sector takes a hit every three minutes.',
+              ' starts the moment the first player hits.',
             ],
             [
               'The first torpedo into each bow sector also damages that sector. The rule is with the clock.',
