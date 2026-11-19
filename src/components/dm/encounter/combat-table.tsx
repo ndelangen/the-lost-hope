@@ -75,7 +75,7 @@ export function CombatTable({
                     open && 'rotate-180',
                   )}
                 />
-                <span className={cn('truncate text-lg', current ? 'font-bold' : 'font-semibold')}>
+                <span className={cn('line-clamp-2 text-lg leading-tight break-words', current ? 'font-bold' : 'font-semibold')}>
                   {row.name}
                 </span>
                 {row.tracked ? null : (

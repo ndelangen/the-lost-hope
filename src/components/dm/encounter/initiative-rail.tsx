@@ -57,7 +57,7 @@ export function InitiativeRail({
                 <span className="grid min-w-0 grow gap-1">
                   <span className="flex min-w-0 items-baseline justify-between gap-2">
                     <span
-                      className={cn('truncate text-base', current ? 'font-bold' : 'font-medium')}
+                      className={cn('line-clamp-2 text-base leading-tight break-words', current ? 'font-bold' : 'font-medium')}
                     >
                       {row.name}
                     </span>
