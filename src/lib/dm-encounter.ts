@@ -7,6 +7,7 @@ import type { OwnOrSharedStatBlock, StatBlock } from '#/definitions/stat-block'
 import { effectsOn, type EntityOf } from '#/lib/campaign'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 import { resolveStatBlock } from '#/lib/dm-campaign'
+import { partyBudget, xpForCr, type DifficultyBudget } from '#/lib/encounter-difficulty'
 import { deriveStatBlock, type DerivedStats } from '#/lib/stat-block'
 
 import { stepsByAbility } from './ability-steps'
@@ -37,7 +38,14 @@ function pcRecord(source: EntityRef<'pc'>) {
         SOURCE_REGISTRIES.pc as Readonly<
           Record<
             string,
-            { name: string; slug: string; avatar: string; url: string; combat?: PcCombat }
+            {
+              name: string
+              slug: string
+              avatar: string
+              url: string
+              level?: number
+              combat?: PcCombat
+            }
           >
         >
       )[source.key]
@@ -219,4 +227,66 @@ export function sceneFights(scene: Scene): SceneFight[] {
         ]
       : [],
   )
+}
+
+const sourceId = ({ ref, key }: CreatureRef) => `${ref}:${key}`
+
+/**
+ * The enemies a scene brings, once each: those present from the start, then each fight's
+ * opponents in script order. Creatures that only ever fight beside the party are left out.
+ */
+export function sceneEnemies(scene: Scene): CreatureRef[] {
+  const seen = new Map<string, CreatureRef>()
+  for (const { creature } of [
+    ...scene.opponents,
+    ...scene.beats.flatMap((beat) => beat.fight?.opponents ?? []),
+  ])
+    if (!seen.has(sourceId(creature))) seen.set(sourceId(creature), creature)
+  return [...seen.values()]
+}
+
+/** Creatures a scene only ever puts on the party's side, which do not count toward difficulty. */
+export function sceneAllies(scene: Scene): ReadonlySet<string> {
+  const enemies = new Set(sceneEnemies(scene).map(sourceId))
+  return new Set(
+    scene.beats
+      .flatMap((beat) => beat.fight?.allies ?? [])
+      .map(({ creature }) => sourceId(creature))
+      .filter((id) => !enemies.has(id)),
+  )
+}
+
+/** An NPC or beast the DM can add as an enemy, with its portrait when it has a real one. */
+export type EnemyCandidate = EncounterCandidate & { source: CreatureRef; avatar?: string }
+
+/** The candidate entry for a creature, to list it beside the search results. */
+export function creatureCandidate(source: CreatureRef): EnemyCandidate {
+  const record = creatureRecord(source)
+  return {
+    source,
+    name: record?.name ?? source.key,
+    kind: source.ref === 'npc' ? 'NPC' : 'Beast',
+    cr: resolveStatBlock(record?.stats)?.cr,
+    avatar: realAvatar(record?.avatar),
+  }
+}
+
+/**
+ * How hard the fight is for the PCs in it: their combined XP budget, and the XP of the enemies
+ * still standing. Creatures the scene only puts on the party's side do not count.
+ */
+export function encounterDifficulty(
+  roster: readonly RosterEntry[],
+  isOut: (id: string) => boolean,
+  allies: ReadonlySet<string> = new Set(),
+): { budget: DifficultyBudget; standingXp: number } {
+  const budget = partyBudget(
+    roster.flatMap((entry) => (entry.kind === 'pc' ? [pcRecord(entry.source)?.level] : [])),
+  )
+  const standingXp = roster.reduce((sum, entry) => {
+    if (entry.kind !== 'creature' || isOut(entry.id) || allies.has(sourceId(entry.source)))
+      return sum
+    return sum + xpForCr(resolveStatBlock(creatureRecord(entry.source)?.stats)?.cr)
+  }, 0)
+  return { budget, standingXp }
 }

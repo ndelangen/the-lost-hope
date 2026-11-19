@@ -1,10 +1,11 @@
 import { Link, createFileRoute, useNavigate } from '@tanstack/react-router'
-import { Maximize2, RotateCcw } from 'lucide-react'
+import { Maximize2, RotateCcw, UserPlus } from 'lucide-react'
 import { useEffect, useMemo, useState } from 'react'
 import { z } from 'zod'
 
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
 import { AddCombatant } from '#/components/dm/encounter/add-combatant'
+import { AddEnemiesSheet } from '#/components/dm/encounter/add-enemies-sheet'
 import { AddParty } from '#/components/dm/encounter/add-party'
 import { CombatStatus, type CombatStatusActions } from '#/components/dm/encounter/combat-status'
 import { CombatTable, type CombatantControls } from '#/components/dm/encounter/combat-table'
@@ -24,7 +25,16 @@ import { ConcentrationPrompt, TurnCard } from '#/components/dm/encounter/turn-ca
 import { newEncounterId, useEncounterStore } from '#/components/dm/encounter/use-encounter-store'
 import { SceneShipDamage } from '#/components/dm/scene-ship-damage'
 import { resolveScene, resolveSourceRef, sceneShipUnderFire } from '#/lib/dm-campaign'
-import { combatantView, currentParty, encounterCandidates, sceneFights } from '#/lib/dm-encounter'
+import {
+  combatantView,
+  creatureCandidate,
+  currentParty,
+  encounterCandidates,
+  encounterDifficulty,
+  sceneAllies,
+  sceneEnemies,
+  sceneFights,
+} from '#/lib/dm-encounter'
 import {
   LEGENDARY_POOL,
   abilityKey,
@@ -34,6 +44,7 @@ import {
   addParty,
   addPlaceholder,
   adjustHp,
+  bringIn,
   advanceTurn,
   backUp,
   canStepBack,
@@ -108,9 +119,15 @@ function EncounterRoute() {
   const [openAbility, setOpenAbility] = useState<string>()
   const [openLegendary, setOpenLegendary] = useState<{ id: string; name: string }>()
   const candidates = useMemo(encounterCandidates, [])
+  const enemyCandidates = useMemo(
+    () =>
+      candidates.flatMap(({ source }) => (source.ref === 'pc' ? [] : [creatureCandidate(source)])),
+    [candidates],
+  )
   const party = useMemo(currentParty, [])
   const [expanded, setExpanded] = useState<string>()
   const [screenOpen, setScreenOpen] = useState(false)
+  const [addOpen, setAddOpen] = useState(false)
   // What just happened at the last turn boundary, and reminders the DM has answered.
   const [turnNotes, setTurnNotes] = useState<TurnNote[]>([])
   const [answered, setAnswered] = useState<ReadonlySet<string>>(new Set())
@@ -120,13 +137,19 @@ function EncounterRoute() {
     const onKeyDown = (event: KeyboardEvent) => {
       const target = event.target as HTMLElement | null
       const typing = Boolean(target?.closest('input, textarea, select, [contenteditable="true"]'))
-      const action = focusShortcut(event, { typing, focused, screenOpen })
+      const action = focusShortcut(event, { typing, focused, screenOpen: screenOpen || addOpen })
       if (!action) return
       event.preventDefault()
-      if (action === 'screen') setScreenOpen(true)
-      else if (action === 'close-screen') setScreenOpen(false)
-      else {
+      if (action === 'add') {
         setScreenOpen(false)
+        setAddOpen(true)
+      } else if (action === 'screen') setScreenOpen(true)
+      else if (action === 'close-screen') {
+        setScreenOpen(false)
+        setAddOpen(false)
+      } else {
+        setScreenOpen(false)
+        setAddOpen(false)
         setFocus(action === 'toggle' ? !focused : false)
       }
     }
@@ -199,6 +222,36 @@ function EncounterRoute() {
   })
   const nameOf = (rowId: string) => rows.find((row) => row.id === rowId)?.name ?? 'someone'
   const isOut = (rowId: string) => rows.find((row) => row.id === rowId)?.out ?? false
+  const difficulty = encounterDifficulty(
+    encounter.roster,
+    isOut,
+    scene ? sceneAllies(scene) : undefined,
+  )
+  const openAddEnemies = () => {
+    setScreenOpen(false)
+    setAddOpen(true)
+  }
+  const addEnemiesSheet = (
+    <AddEnemiesSheet
+      open={addOpen}
+      onClose={() => setAddOpen(false)}
+      sceneName={scene?.name}
+      sceneEnemies={scene ? sceneEnemies(scene).map(creatureCandidate) : []}
+      candidates={enemyCandidates}
+      budget={difficulty.budget}
+      standingXp={difficulty.standingXp}
+      activeName={rows.find((row) => row.id === encounter.active)?.name}
+      onAdd={(picks, arrival) =>
+        updateEncounter((current) =>
+          bringIn(
+            current,
+            picks.flatMap(({ source, count }) => Array.from({ length: count }, () => source)),
+            arrival,
+          ),
+        )
+      }
+    />
+  )
   const focusId =
     selected && combatants.some(({ id }) => id === selected) ? selected : encounter.active
   const focus = rows.find(({ id }) => id === focusId)
@@ -433,9 +486,14 @@ function EncounterRoute() {
             }
             onExit={() => setFocus(false)}
             screenOpen={screenOpen}
-            onToggleScreen={() => setScreenOpen((open) => !open)}
+            onToggleScreen={() => {
+              setAddOpen(false)
+              setScreenOpen((open) => !open)
+            }}
+            onAddEnemies={openAddEnemies}
           />
           <DmScreen open={screenOpen} onClose={() => setScreenOpen(false)} />
+          {addEnemiesSheet}
           {scene ? <EncounterNotes sceneName={scene.name} notes={scene.combat} /> : null}
           {fightsPanel}
           {shipDamage?.vesselName ? (
@@ -513,6 +571,9 @@ function EncounterRoute() {
               >
                 <RotateCcw aria-hidden /> Reset HP and uses
               </ActionButton>
+              <ActionButton onClick={openAddEnemies} title="Add enemies (A)">
+                <UserPlus aria-hidden /> Add enemies
+              </ActionButton>
               <ActionButton tone="primary" onClick={() => setFocus(true)} title="Combat focus (F)">
                 <Maximize2 aria-hidden /> Focus
               </ActionButton>
@@ -520,6 +581,7 @@ function EncounterRoute() {
           </div>
         </header>
 
+        {addEnemiesSheet}
         {fightsPanel}
 
         <InitiativeRow

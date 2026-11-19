@@ -109,14 +109,34 @@ export function addCreature(encounter: Encounter, source: CreatureRef): Encounte
   })
 }
 
+/** When creatures that join a running fight take their turns. */
+export type Arrival = 'next' | 'end'
+
+/**
+ * Creatures join a running fight together: at the end of the round, or right after the current
+ * turn. Before the fight has a current turn, they simply join the end of the order.
+ */
+export function bringIn(
+  encounter: Encounter,
+  creatures: readonly CreatureRef[],
+  arrival: Arrival = 'end',
+): Encounter {
+  const added = creatures.reduce<Encounter>(addCreature, encounter)
+  const at = encounter.roster.findIndex((entry) => entry.id === encounter.active) + 1
+  if (arrival === 'end' || at === 0) return added
+  const newcomers = added.roster.slice(encounter.roster.length)
+  return { ...added, roster: encounter.roster.toSpliced(at, 0, ...newcomers) }
+}
+
 /** Bring one of the scene's fights in: its creatures join the roster, and the fight counts as joined. */
 export function joinFight(
   encounter: Encounter,
   key: string,
   creatures: readonly CreatureRef[],
+  arrival: Arrival = 'end',
 ): Encounter {
   return {
-    ...creatures.reduce<Encounter>(addCreature, encounter),
+    ...bringIn(encounter, creatures, arrival),
     joined: { ...encounter.joined, [key]: (encounter.joined[key] ?? 0) + 1 },
   }
 }

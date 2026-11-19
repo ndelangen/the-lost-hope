@@ -1,11 +1,11 @@
-import { ArrowLeft, ArrowRight, BookOpen, Minimize2 } from 'lucide-react'
+import { ArrowLeft, ArrowRight, BookOpen, Minimize2, UserPlus } from 'lucide-react'
 
 import { FOCUS_LAYOUTS, type FocusLayout } from '#/lib/encounter-focus'
 import { cn } from '#/lib/utils'
 
 import { ActionButton } from './icon-button'
 
-/** The only chrome in combat focus: turn controls, the layout switcher, and the way out. */
+/** The only chrome in combat focus: turn controls, adding enemies, the layout switcher, and the way out. */
 export function FocusToolbar({
   name,
   round,
@@ -18,6 +18,7 @@ export function FocusToolbar({
   onExit,
   screenOpen,
   onToggleScreen,
+  onAddEnemies,
 }: {
   name: string
   round: number
@@ -30,9 +31,10 @@ export function FocusToolbar({
   onExit: () => void
   screenOpen: boolean
   onToggleScreen: () => void
+  onAddEnemies: () => void
 }) {
   return (
-    <div className="border-border bg-card flex flex-wrap items-center gap-x-6 gap-y-3 rounded-2xl border-2 px-4 py-3">
+    <div className="border-border bg-card flex flex-wrap items-center gap-x-4 gap-y-3 rounded-2xl border-2 px-4 py-3">
       <div className="min-w-0">
         <p className="text-muted-foreground truncate text-sm">{name}</p>
         <p className="text-xl font-bold tabular-nums" aria-live="polite">
@@ -57,6 +59,9 @@ export function FocusToolbar({
         </ActionButton>
       </div>
       <div className="ml-auto flex items-center gap-2">
+        <ActionButton onClick={onAddEnemies} title="Add enemies (A)">
+          <UserPlus aria-hidden /> Add enemies
+        </ActionButton>
         <fieldset className="border-border bg-muted/40 m-0 flex h-12 min-w-0 gap-1 rounded-xl border-2 p-1">
           <legend className="sr-only">Focus layout</legend>
           {(Object.keys(FOCUS_LAYOUTS) as FocusLayout[]).map((option) => (

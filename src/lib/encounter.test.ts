@@ -7,6 +7,7 @@ import {
   addParty,
   addPlaceholder,
   adjustHp,
+  bringIn,
   canStepBack,
   createEncounter,
   deleteEncounter,
@@ -258,6 +259,28 @@ describe('prepared encounters', () => {
     const twice = joinFight(joinFight(once, 'The bow', [wolf]), 'The helm', [knight])
     expect(twice.joined).toEqual({ 'The bow': 2, 'The helm': 1 })
     expect(twice.roster).toHaveLength(8)
+  })
+
+  it('brings enemies in at the end of the round, or right after the current turn', () => {
+    const start = { ...trial(), active: 'beast:wolf:1' }
+    expect(bringIn(start, [knight, knight]).roster.map(({ id }) => id)).toEqual([
+      'npc:knight:1',
+      'beast:wolf:1',
+      'beast:wolf:2',
+      'placeholder:1',
+      'npc:knight:2',
+      'npc:knight:3',
+    ])
+    const next = bringIn(start, [knight, wolf], 'next')
+    expect(next.roster.map(({ id }) => id)).toEqual([
+      'npc:knight:1',
+      'beast:wolf:1',
+      'npc:knight:2',
+      'beast:wolf:3',
+      'beast:wolf:2',
+      'placeholder:1',
+    ])
+    expect(next.active).toBe('beast:wolf:1')
   })
 
   it('reads an encounter saved before fights were counted', () => {

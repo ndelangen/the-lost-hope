@@ -20,6 +20,15 @@ describe('focus shortcuts', () => {
     expect(focusShortcut(key('Escape'), { typing: false, focused: true })).toBe('exit')
   })
 
+  it('opens the enemy sheet with A, unless a drawer is open', () => {
+    expect(focusShortcut(key('a'), { typing: false, focused: true })).toBe('add')
+    expect(focusShortcut(key('A'), { typing: false, focused: false })).toBe('add')
+    expect(focusShortcut(key('a'), { typing: true, focused: true })).toBeUndefined()
+    expect(
+      focusShortcut(key('a'), { typing: false, focused: true, screenOpen: true }),
+    ).toBeUndefined()
+  })
+
   it('opens and closes the DM screen in focus', () => {
     expect(focusShortcut(key('?'), { typing: false, focused: true })).toBe('screen')
     expect(focusShortcut(key('?'), { typing: false, focused: true, screenOpen: true })).toBe(

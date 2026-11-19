@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest'
 
 import { Scene, SceneBeatFight, type SceneBeat } from '#/definitions/scene'
 
-import { sceneFights } from './dm-encounter'
+import { encounterDifficulty, sceneAllies, sceneEnemies, sceneFights } from './dm-encounter'
 
 const guard = { ref: 'npc', key: 'no-such-guard' } as const
 const hound = { ref: 'beast', key: 'no-such-hound' } as const
@@ -57,6 +57,35 @@ describe('sceneFights', () => {
     ])
     expect(cells?.allies.map(({ count }) => count)).toEqual([3])
     expect(cells?.creatures).toHaveLength(3)
+  })
+
+  it("lists the enemies once each, and creatures only ever at the party's side as allies", () => {
+    expect(sceneEnemies(parsed.data!)).toEqual([guard, hound])
+    expect([...sceneAllies(parsed.data!)]).toEqual(['npc:no-such-captive'])
+  })
+})
+
+describe('encounterDifficulty', () => {
+  const snatcher = { ref: 'npc', key: 'cloaked_snatcher' } as const
+  const roster = [
+    { id: 'pc:devan', kind: 'pc', source: { ref: 'pc', key: 'devan' } },
+    { id: 'npc:cloaked_snatcher:1', kind: 'creature', source: snatcher, copy: 1 },
+    { id: 'npc:cloaked_snatcher:2', kind: 'creature', source: snatcher, copy: 2 },
+    { id: 'npc:cloaked_snatcher:3', kind: 'creature', source: snatcher, copy: 3 },
+  ] as const
+
+  it('weighs the enemies still standing against the PCs in the fight', () => {
+    const { budget, standingXp } = encounterDifficulty(
+      roster,
+      (id) => id === 'npc:cloaked_snatcher:1',
+    )
+    expect(budget).toEqual({ low: 500, moderate: 750, high: 1100 })
+    expect(standingXp).toBe(200)
+  })
+
+  it("leaves out the scene's allies", () => {
+    const allies = new Set(['npc:cloaked_snatcher'])
+    expect(encounterDifficulty(roster, () => false, allies).standingXp).toBe(0)
   })
 })
 

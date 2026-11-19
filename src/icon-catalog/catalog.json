@@ -296126,6 +296126,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/minus",
       "usedIn": [
+        "src/components/dm/encounter/add-enemies-sheet.tsx",
         "src/components/dm/encounter/hp-control.tsx",
         "src/components/dm/party-tokens.tsx",
         "src/components/dm/ship-damage-clock.tsx"
@@ -300330,6 +300331,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/paw-print",
       "usedIn": [
+        "src/components/dm/encounter/add-enemies-sheet.tsx",
         "src/components/dm/encounter/initiative-rail.tsx",
         "src/components/dm/encounter/initiative-row.tsx",
         "src/components/dm/encounter/stat-block-sections.tsx"
@@ -301957,6 +301959,7 @@
       "sourceUrl": "https://lucide.dev/icons/plus",
       "usedIn": [
         "src/components/dm/encounter/add-combatant.tsx",
+        "src/components/dm/encounter/add-enemies-sheet.tsx",
         "src/components/dm/encounter/combat-status.tsx",
         "src/components/dm/encounter/hp-control.tsx",
         "src/components/dm/party-tokens.tsx",
@@ -321317,7 +321320,10 @@
       "sourceUrl": "https://lucide.dev/icons/user-plus",
       "usedIn": [
         "src/components/dm/dm-quick-links.tsx",
-        "src/components/dm/encounter/add-combatant.tsx"
+        "src/components/dm/encounter/add-combatant.tsx",
+        "src/components/dm/encounter/add-enemies-sheet.tsx",
+        "src/components/dm/encounter/focus-toolbar.tsx",
+        "src/routes/dm/encounter/$id.tsx"
       ]
     },
     {
@@ -321362,6 +321368,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/user-round",
       "usedIn": [
+        "src/components/dm/encounter/add-enemies-sheet.tsx",
         "src/components/dm/encounter/initiative-rail.tsx",
         "src/components/dm/encounter/initiative-row.tsx"
       ]
@@ -324572,6 +324579,7 @@
       "usedIn": [
         "src/components/campaign-shell.tsx",
         "src/components/dm/dm-effects-panel.tsx",
+        "src/components/dm/encounter/add-enemies-sheet.tsx",
         "src/components/dm/encounter/combat-status.tsx",
         "src/components/dm/encounter/condition-markers.tsx",
         "src/components/dm/encounter/dm-screen.tsx",

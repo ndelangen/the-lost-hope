@@ -11,8 +11,8 @@ export type FocusLayout = keyof typeof FOCUS_LAYOUTS
 export const DEFAULT_FOCUS_LAYOUT: FocusLayout = 'turn'
 
 /**
- * Keyboard shortcuts while running an encounter: F toggles focus, ? opens the DM screen in focus,
- * and Escape closes the DM screen, or else leaves focus. Keys typed into a field, or pressed with
+ * Keyboard shortcuts while running an encounter: F toggles focus, A adds enemies, ? opens the DM
+ * screen in focus, and Escape closes the open drawer, or else leaves focus. Keys typed into a field, or pressed with
  * a modifier other than Shift, belong to that field or the browser.
  */
 export function focusShortcut(
@@ -22,9 +22,10 @@ export function focusShortcut(
     focused,
     screenOpen = false,
   }: { typing: boolean; focused: boolean; screenOpen?: boolean },
-): 'toggle' | 'exit' | 'screen' | 'close-screen' | undefined {
+): 'toggle' | 'exit' | 'screen' | 'close-screen' | 'add' | undefined {
   if (typing || event.altKey || event.ctrlKey || event.metaKey) return undefined
   if (event.key === 'f' || event.key === 'F') return 'toggle'
+  if ((event.key === 'a' || event.key === 'A') && !screenOpen) return 'add'
   if (event.key === '?' && focused) return screenOpen ? 'close-screen' : 'screen'
   if (event.key === 'Escape' && screenOpen) return 'close-screen'
   if (event.key === 'Escape' && focused) return 'exit'
