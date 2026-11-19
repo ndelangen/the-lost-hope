@@ -267263,7 +267263,8 @@
         "src/components/dm/scene-branches.tsx",
         "src/components/locations-index.tsx",
         "src/components/player-screen/player-screen-dock.tsx",
-        "src/components/questions-page.tsx"
+        "src/components/questions-page.tsx",
+        "src/routes/dm/scenes/$slug.tsx"
       ]
     },
     {

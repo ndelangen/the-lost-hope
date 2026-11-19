@@ -10,8 +10,8 @@ const followUpLabel = (count: number) => `${count} follow-up${count === 1 ? '' :
 
 /**
  * A scene's "if…" branches as a folding tree: follow-ups sit inside the branch they depend on,
- * and every NPC a branch names, and every item with a truth players cannot see, gets a brief
- * inside it, so the DM can play them without leaving.
+ * and every NPC a branch is the first to name, and every item with a truth players cannot see,
+ * gets a brief inside it, so the DM can play them without leaving. Later branches only link.
  */
 export function SceneBranches({ branches }: { branches: SceneBranch[] }) {
   return (

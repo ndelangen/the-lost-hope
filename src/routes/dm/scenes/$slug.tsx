@@ -1,5 +1,5 @@
 import { Link, createFileRoute, notFound, useNavigate } from '@tanstack/react-router'
-import { ChevronRight, Pin, Sword, X } from 'lucide-react'
+import { ArrowRight, ChevronRight, Pin, Sword, X } from 'lucide-react'
 import { useEffect, useRef, useState } from 'react'
 import { z } from 'zod'
 
@@ -21,7 +21,8 @@ import { plotsByScene } from '#/lib/dm-dashboard'
 import { resolvePlayerScreenImage } from '#/lib/player-screen'
 import type { PlayerScreenImage } from '#/lib/player-screen-state'
 import { buildSceneBranches } from '#/lib/scene-branches'
-import { buildSceneScript } from '#/lib/scene-script'
+import { nextScenes } from '#/lib/scene-flow'
+import { buildSceneScript, buildScriptBeat } from '#/lib/scene-script'
 import { cn } from '#/lib/utils'
 
 const npcRecords: Readonly<
@@ -63,8 +64,11 @@ function SceneRoute() {
   })
   const hasSecret = (item: EntityRef<'item'>) =>
     Object.hasOwn(itemRecords, item.key) && itemRecords[item.key]?.background !== undefined
-  const branches = buildSceneBranches(scene.outcomes, hasSecret)
-  const script = buildSceneScript(scene.beats, hasSecret)
+  // The script comes before the "at any time" branches on the page, and they share who and what
+  // has had its details, so each record is detailed once.
+  const briefed = new Set<string>()
+  const script = buildSceneScript(scene.beats, hasSecret, briefed)
+  const branches = buildSceneBranches(scene.outcomes, hasSecret, '', briefed)
   const sceneImage: PlayerScreenImage = { image: 'illustration', ref: { ref: 'scene', key } }
   // The player screen only runs in local dev, and only shows scenes that have a picture.
   const picture =
@@ -76,7 +80,10 @@ function SceneRoute() {
   const shipFirst = Boolean(ship && vessel) && search.layout !== 'full'
   // The room whose notes are open under the ship, by the title of its beat.
   const [room, setRoom] = useState<string>()
-  const roomBeat = script.find((beat) => beat.title === room)
+  // The sheet is read on its own, so it details everyone its beat names.
+  const roomAt = scene.beats.findIndex((beat) => beat.title === room)
+  const roomBeat =
+    roomAt >= 0 ? buildScriptBeat(scene.beats[roomAt]!, roomAt + 1, hasSecret) : undefined
   const roomSheet = useRef<HTMLElement>(null)
   useEffect(() => {
     if (room) roomSheet.current?.scrollIntoView({ block: 'nearest', behavior: 'smooth' })
@@ -195,6 +202,54 @@ function SceneRoute() {
   const scriptList =
     script.length > 0 ? <SceneScript sceneKey={key} script={script} picture={picture} /> : null
   const anyTime = scene.outcomes.length > 0 ? <SceneBranches branches={branches} /> : null
+
+  const next = nextScenes(key, { scenes, table })
+  const nextList =
+    next.length > 0 ? (
+      <section aria-labelledby="next-scenes" className="border-border grid gap-3 border-t-2 pt-5">
+        <h2 id="next-scenes" className="text-lg font-semibold">
+          Next likely {next.length === 1 ? 'scene' : 'scenes'}
+        </h2>
+        <ul className="grid gap-5">
+          {next.map(({ scene: ref, when, planned }) => {
+            const target = scenes[ref.key]
+            if (!target) return null
+            return (
+              <li key={ref.key} className="grid gap-1.5">
+                {planned || when.length > 0 ? (
+                  <div className="grid gap-1 px-1 text-sm">
+                    {planned ? (
+                      <p className="text-muted-foreground text-xs font-semibold tracking-wide uppercase">
+                        Next in your plan
+                      </p>
+                    ) : null}
+                    {when.map((reason, at) => (
+                      <div key={at} className="flex gap-2">
+                        <span className="text-muted-foreground shrink-0 font-semibold">If</span>
+                        <ContentRenderer content={reason} />
+                      </div>
+                    ))}
+                  </div>
+                ) : null}
+                <Link
+                  to="/dm/scenes/$slug"
+                  params={{ slug: target.slug }}
+                  className={cn(
+                    'focus-visible:ring-ring/50 flex min-h-14 items-center justify-between gap-3 rounded-xl border-2 px-5 py-2 text-lg leading-tight font-bold outline-none focus-visible:ring-3',
+                    planned
+                      ? 'bg-primary text-primary-foreground hover:bg-primary/90 border-transparent'
+                      : 'border-border hover:bg-muted',
+                  )}
+                >
+                  {target.name}
+                  <ArrowRight className="size-6 shrink-0" aria-hidden />
+                </Link>
+              </li>
+            )
+          })}
+        </ul>
+      </section>
+    ) : null
 
   return (
     <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_12rem]">
@@ -318,6 +373,7 @@ function SceneRoute() {
             {anyTime ? <Titled title="At any time, if…">{anyTime}</Titled> : null}
           </>
         )}
+        {nextList}
       </article>
       <aside className="min-w-0">
         <DmQuickLinks />
