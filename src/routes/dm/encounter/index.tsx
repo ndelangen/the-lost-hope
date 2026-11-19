@@ -1,5 +1,5 @@
 import { Link, createFileRoute, useNavigate } from '@tanstack/react-router'
-import { Eraser, Maximize2, RotateCcw, UserPlus } from 'lucide-react'
+import { Eraser, ListOrdered, Maximize2, RotateCcw, UserPlus } from 'lucide-react'
 import { useEffect, useMemo, useState } from 'react'
 import { z } from 'zod'
 
@@ -24,6 +24,7 @@ import { PartyStrip } from '#/components/dm/encounter/party-strip'
 import { ConcentrationPrompt, TurnCard } from '#/components/dm/encounter/turn-card'
 import { newConditionId, useEncounter } from '#/components/dm/encounter/use-encounter-store'
 import { SceneShipDamage } from '#/components/dm/scene-ship-damage'
+import { usePlayerScreen } from '#/components/player-screen/use-player-screen'
 import { resolveScene, resolveSourceRef, sceneShipUnderFire } from '#/lib/dm-campaign'
 import {
   combatantView,
@@ -86,6 +87,7 @@ import {
   focusShortcut,
   type FocusLayout,
 } from '#/lib/encounter-focus'
+import { cn } from '#/lib/utils'
 
 const Search = z.strictObject({
   /** Combat focus: hide everything but what runs the fight. */
@@ -116,6 +118,7 @@ function EncounterRoute() {
       resetScroll: false,
     })
   const [encounter, update] = useEncounter()
+  const [playerScreen, updatePlayerScreen] = usePlayerScreen()
   const [selected, setSelected] = useState<string>()
   const [openAbility, setOpenAbility] = useState<string>()
   const [openLegendary, setOpenLegendary] = useState<{ id: string; name: string }>()
@@ -493,6 +496,10 @@ function EncounterRoute() {
               setScreenOpen((open) => !open)
             }}
             onAddEnemies={openAddEnemies}
+            turnOrderShown={playerScreen.turnOrder}
+            onToggleTurnOrder={() =>
+              updatePlayerScreen((current) => ({ ...current, turnOrder: !current.turnOrder }))
+            }
           />
           <DmScreen open={screenOpen} onClose={() => setScreenOpen(false)} />
           {addEnemiesSheet}
@@ -572,6 +579,15 @@ function EncounterRoute() {
                 }}
               >
                 <RotateCcw aria-hidden /> Reset HP and uses
+              </ActionButton>
+              <ActionButton
+                aria-pressed={playerScreen.turnOrder}
+                onClick={() =>
+                  updatePlayerScreen((current) => ({ ...current, turnOrder: !current.turnOrder }))
+                }
+                className={cn(playerScreen.turnOrder && 'border-amber-500 bg-amber-500/15')}
+              >
+                <ListOrdered aria-hidden /> Turn order on player screen
               </ActionButton>
               <ActionButton onClick={openAddEnemies} title="Add to the fight (A)">
                 <UserPlus aria-hidden /> Add to fight

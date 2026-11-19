@@ -46,6 +46,8 @@ export const PlayerScreenState = z
     rotation: z.union([z.literal(0), z.literal(90), z.literal(-90)]).default(0),
     /** Each picture's battle grid, by picture id, so a map keeps its alignment between showings. */
     grids: z.record(z.string(), PlayerScreenGrid).default({}),
+    /** Show the running fight's turn order over whatever picture is up. */
+    turnOrder: z.boolean().default(false),
   })
   .refine((state) => state.index < state.history.length, { path: ['index'] })
 
@@ -57,6 +59,7 @@ export const EMPTY_PLAYER_SCREEN: PlayerScreenState = {
   captions: true,
   rotation: 0,
   grids: {},
+  turnOrder: false,
 }
 
 export type PlayerScreenRotation = PlayerScreenState['rotation']

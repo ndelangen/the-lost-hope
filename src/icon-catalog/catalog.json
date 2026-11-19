@@ -291443,7 +291443,10 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/list-ordered",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/encounter/focus-toolbar.tsx",
+        "src/routes/dm/encounter/index.tsx"
+      ]
     },
     {
       "id": "lucide/ListPlus",
@@ -308625,7 +308628,8 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/skull",
       "usedIn": [
-        "src/components/dm/encounter/combat-status.tsx"
+        "src/components/dm/encounter/combat-status.tsx",
+        "src/components/player-screen/turn-order-on-screen.tsx"
       ]
     },
     {
@@ -321371,7 +321375,8 @@
       "usedIn": [
         "src/components/dm/encounter/add-enemies-sheet.tsx",
         "src/components/dm/encounter/initiative-rail.tsx",
-        "src/components/dm/encounter/initiative-row.tsx"
+        "src/components/dm/encounter/initiative-row.tsx",
+        "src/components/player-screen/turn-order-on-screen.tsx"
       ]
     },
     {

@@ -1,9 +1,9 @@
-import { ArrowLeft, ArrowRight, BookOpen, Minimize2, UserPlus } from 'lucide-react'
+import { ArrowLeft, ArrowRight, BookOpen, ListOrdered, Minimize2, UserPlus } from 'lucide-react'
 
 import { FOCUS_LAYOUTS, type FocusLayout } from '#/lib/encounter-focus'
 import { cn } from '#/lib/utils'
 
-import { ActionButton } from './icon-button'
+import { ActionButton, IconButton } from './icon-button'
 
 /** The only chrome in combat focus: turn controls, adding enemies, the layout switcher, and the way out. */
 export function FocusToolbar({
@@ -19,6 +19,8 @@ export function FocusToolbar({
   screenOpen,
   onToggleScreen,
   onAddEnemies,
+  turnOrderShown,
+  onToggleTurnOrder,
 }: {
   name: string
   round: number
@@ -32,6 +34,9 @@ export function FocusToolbar({
   screenOpen: boolean
   onToggleScreen: () => void
   onAddEnemies: () => void
+  /** Whether the player screen shows the turn order. */
+  turnOrderShown: boolean
+  onToggleTurnOrder: () => void
 }) {
   return (
     <div className="border-border bg-card flex flex-wrap items-center gap-x-4 gap-y-3 rounded-2xl border-2 px-4 py-3">
@@ -59,6 +64,18 @@ export function FocusToolbar({
         </ActionButton>
       </div>
       <div className="ml-auto flex items-center gap-2">
+        <IconButton
+          label={
+            turnOrderShown
+              ? 'Hide the turn order on the player screen'
+              : 'Show the turn order on the player screen'
+          }
+          aria-pressed={turnOrderShown}
+          onClick={onToggleTurnOrder}
+          className={cn(turnOrderShown && 'border-amber-500 bg-amber-500/15')}
+        >
+          <ListOrdered aria-hidden />
+        </IconButton>
         <ActionButton onClick={onAddEnemies} title="Add to the fight (A)">
           <UserPlus aria-hidden /> Add to fight
         </ActionButton>

@@ -5,15 +5,18 @@ import type { PcCombat } from '#/definitions/pc'
 import type { FightPlace, Scene, SceneBeatFight, SceneOpponent } from '#/definitions/scene'
 import type { OwnOrSharedStatBlock, StatBlock } from '#/definitions/stat-block'
 import { effectsOn, type EntityOf } from '#/lib/campaign'
-import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
+import { PLAYER_VISIBLE_KEYS, SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 import { resolveStatBlock } from '#/lib/dm-campaign'
 import { partyBudget, xpForCr, type DifficultyBudget } from '#/lib/encounter-difficulty'
+import type { TurnOrderInput } from '#/lib/player-turn-order'
 import { deriveStatBlock, type DerivedStats } from '#/lib/stat-block'
 
 import { stepsByAbility } from './ability-steps'
 import {
   combatantName,
+  liveStats,
   type CreatureRef,
+  type Encounter,
   type Preset,
   type RosterEntry,
   type StartingStats,
@@ -292,4 +295,30 @@ export function encounterDifficulty(
     return sum + xpForCr(resolveStatBlock(creatureRecord(entry.source)?.stats)?.cr)
   }, 0)
   return { budget, standingXp }
+}
+
+/** The fight's combatants as the player screen may know them, in turn order. */
+export function turnOrderInputs(
+  encounter: Encounter,
+  allies: ReadonlySet<string> = new Set(),
+): TurnOrderInput[] {
+  return encounter.roster.map((entry) => {
+    const view = combatantView(entry, encounter.roster)
+    const saved = encounter.values[entry.id]
+    const live = liveStats(view.start, saved)
+    const enemy = entry.kind === 'creature' && !allies.has(sourceId(entry.source))
+    return {
+      id: entry.id,
+      side: enemy ? 'enemy' : 'party',
+      name: view.name,
+      avatar: view.avatar,
+      met:
+        entry.kind === 'creature'
+          ? PLAYER_VISIBLE_KEYS[entry.source.ref].has(entry.source.key)
+          : true,
+      hp: live.hp,
+      maxHp: live.maxHp,
+      out: Boolean(saved?.dead) || (entry.kind === 'creature' && live.hp === 0),
+    }
+  })
 }

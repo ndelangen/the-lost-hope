@@ -111,6 +111,7 @@ export function PlayerScreenDock() {
           onClear={() => update(clearPlayerScreenHistory)}
           onPoint={() => setPointing(true)}
           onCaptions={(value) => update((state) => ({ ...state, captions: value }))}
+          onTurnOrder={(value) => update((state) => ({ ...state, turnOrder: value }))}
           onRotate={(value) => update((state) => ({ ...state, rotation: value }))}
           onGrid={(change) =>
             update((state) => {
@@ -272,6 +273,7 @@ function PlayerScreenPanel({
   onClear,
   onPoint,
   onCaptions,
+  onTurnOrder,
   onRotate,
   onGrid,
   onClose,
@@ -283,6 +285,7 @@ function PlayerScreenPanel({
   onClear: () => void
   onPoint: () => void
   onCaptions: (value: boolean) => void
+  onTurnOrder: (value: boolean) => void
   onRotate: (value: PlayerScreenRotation) => void
   onGrid: (change: (grid: PlayerScreenGrid) => PlayerScreenGrid) => void
   onClose: () => void
@@ -356,6 +359,15 @@ function PlayerScreenPanel({
             className="size-4"
           />
           Show names
+        </label>
+        <label className="border-border flex h-9 flex-1 cursor-pointer items-center justify-center gap-2 rounded-lg border text-sm font-medium">
+          <input
+            type="checkbox"
+            checked={state.turnOrder}
+            onChange={(event) => onTurnOrder(event.target.checked)}
+            className="size-4"
+          />
+          Turn order
         </label>
       </div>
 

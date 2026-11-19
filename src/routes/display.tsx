@@ -5,6 +5,7 @@ import { lazy, Suspense, useEffect, useMemo, useState } from 'react'
 import { GridOverlay } from '#/components/player-screen/grid-overlay'
 import { GroupSaveOnScreen } from '#/components/player-screen/group-save-on-screen'
 import { PointerMarksOverlay } from '#/components/player-screen/pointer-marks'
+import { TurnOrderOnScreen } from '#/components/player-screen/turn-order-on-screen'
 import {
   useAnnouncePlayerScreen,
   usePlayerScreen,
@@ -132,6 +133,7 @@ function PlayerScreenPage() {
           ) : null}
         </figure>
       ) : null}
+      {state.turnOrder ? <TurnOrderOnScreen /> : null}
       {image
         ? groupSaves.map(({ storageKey, save }) => (
             <GroupSaveOnScreen key={storageKey} storageKey={storageKey} save={save} />
