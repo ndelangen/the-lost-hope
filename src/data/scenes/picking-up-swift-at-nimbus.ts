@@ -3,6 +3,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 
 export default createScene({
   name: 'Picking up Swift at Nimbus',
+  illustration: '/assets/scenes/picking-up-swift-at-nimbus.png',
   location: refs.locations.nimbus_harbour,
   alternateLocations: [refs.locations.nimbus_sky_bridge_landing],
   battleMaps: [refs.locations.master_of_puppets_main_deck, refs.locations.nimbus_harbour],
