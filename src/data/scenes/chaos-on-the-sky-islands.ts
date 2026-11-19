@@ -3,6 +3,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 
 export default createScene({
   name: 'Chaos on the sky islands',
+  illustration: '/assets/scenes/chaos-on-the-sky-islands.png',
   location: refs.locations.stables_at_skynet_s_second_best_inn,
   npcs: [refs.npcs.abraham, refs.npcs.crowy],
   setup: [

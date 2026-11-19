@@ -21,6 +21,30 @@ export type ResponsiveImageSource = {
 
 export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
   {
+    id: 'scenes-chaos-on-the-sky-islands',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/chaos-on-the-sky-islands.png',
+    repositoryPath: 'assets/images/content/scenes/chaos-on-the-sky-islands.png',
+  },
+  {
+    id: 'scenes-picking-up-swift-at-nimbus',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/picking-up-swift-at-nimbus.png',
+    repositoryPath: 'assets/images/content/scenes/picking-up-swift-at-nimbus.png',
+  },
+  {
+    id: 'scenes-the-party-reunites-on-the-docks',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/the-party-reunites-on-the-docks.png',
+    repositoryPath: 'assets/images/content/scenes/the-party-reunites-on-the-docks.png',
+  },
+  {
+    id: 'scenes-garran-comes-for-the-cruiser',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/garran-comes-for-the-cruiser.png',
+    repositoryPath: 'assets/images/content/scenes/garran-comes-for-the-cruiser.png',
+  },
+  {
     id: 'pcs-fix-portrait',
     role: 'avatar',
     logicalSource: '/assets/pcs/fix-portrait.png',
