@@ -80,13 +80,14 @@ export function LegendaryRow({
         <AbilityDetail
           title={`${openGroup.name} · ${openAction.name}`}
           ability={openAction}
-          count={openGroup.pool}
-          onUse={() => actionsFor(openGroup.id).use(LEGENDARY_POOL, openGroup.pool)}
-          onRecharge={() => actionsFor(openGroup.id).recharge(LEGENDARY_POOL, openGroup.pool)}
-          onSetUses={(value) => actionsFor(openGroup.id).setUses(LEGENDARY_POOL, 'uses', value)}
-          onSetMaxUses={(value) =>
-            actionsFor(openGroup.id).setUses(LEGENDARY_POOL, 'maxUses', value)
-          }
+          uses={{
+            count: openGroup.pool,
+            onUse: () => actionsFor(openGroup.id).use(LEGENDARY_POOL, openGroup.pool),
+            onRecharge: () => actionsFor(openGroup.id).recharge(LEGENDARY_POOL, openGroup.pool),
+            onSetUses: (value) => actionsFor(openGroup.id).setUses(LEGENDARY_POOL, 'uses', value),
+            onSetMaxUses: (value) =>
+              actionsFor(openGroup.id).setUses(LEGENDARY_POOL, 'maxUses', value),
+          }}
           block={openGroup.block}
           describe={describeReferences(openGroup.stats, openGroup.block, {}, () => undefined)}
         />

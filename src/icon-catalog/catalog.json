@@ -265691,6 +265691,7 @@
       "usedIn": [
         "src/components/dm/encounter/combat-status.tsx",
         "src/components/dm/encounter/turn-card.tsx",
+        "src/components/dm/stat-block-sheet.tsx",
         "src/lib/location-icons.tsx"
       ]
     },
@@ -274681,7 +274682,8 @@
       "sourceUrl": "https://lucide.dev/icons/crown",
       "usedIn": [
         "src/components/dm/encounter/legendary-row.tsx",
-        "src/components/dm/encounter/turn-card.tsx"
+        "src/components/dm/encounter/turn-card.tsx",
+        "src/components/dm/stat-block-sheet.tsx"
       ]
     },
     {
@@ -300328,9 +300330,9 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/paw-print",
       "usedIn": [
-        "src/components/dm/encounter/combatant-panel.tsx",
         "src/components/dm/encounter/initiative-rail.tsx",
-        "src/components/dm/encounter/initiative-row.tsx"
+        "src/components/dm/encounter/initiative-row.tsx",
+        "src/components/dm/encounter/stat-block-sections.tsx"
       ]
     },
     {
@@ -306762,6 +306764,7 @@
         "src/components/dm/encounter/combat-table.tsx",
         "src/components/dm/encounter/combatant-panel.tsx",
         "src/components/dm/encounter/party-strip.tsx",
+        "src/components/dm/encounter/stat-block-sections.tsx",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -309141,6 +309144,7 @@
         "src/components/dm/encounter/ability-controls.tsx",
         "src/components/dm/encounter/party-strip.tsx",
         "src/components/dm/npc-draft-editor.tsx",
+        "src/components/dm/stat-block-sheet.tsx",
         "src/components/foretold-list.tsx",
         "src/lib/condition-icons.tsx",
         "src/lib/entity-kind-visuals.ts",
@@ -317077,8 +317081,8 @@
       "usedIn": [
         "src/components/dm/dm-hidden-reference.tsx",
         "src/components/dm/dm-quick-links.tsx",
-        "src/components/dm/encounter/combatant-panel.tsx",
         "src/components/dm/encounter/encounter-fights.tsx",
+        "src/components/dm/encounter/stat-block-sections.tsx",
         "src/components/dm/scene-script.tsx",
         "src/components/dm/ship-room-fight.tsx",
         "src/routes/dm/encounter/index.tsx"
@@ -324624,7 +324628,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/zap",
       "usedIn": [
-        "src/components/dm/encounter/combatant-panel.tsx"
+        "src/components/dm/encounter/stat-block-sections.tsx"
       ]
     },
     {

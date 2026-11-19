@@ -1,13 +1,11 @@
-import { ExternalLink, PawPrint, RotateCcw, ScrollText, Shield, Swords, Zap } from 'lucide-react'
-import { Fragment, type ReactNode } from 'react'
+import { ExternalLink, RotateCcw, ScrollText, Shield } from 'lucide-react'
+import type { ReactNode } from 'react'
 
 import { RuleTerm } from '#/components/rule-term'
 import { refs } from '#/data/generated/refs'
-import { ABILITY_TIMINGS, type AbilityTiming } from '#/definitions/stat-block'
+import { ABILITY_TIMINGS } from '#/definitions/stat-block'
 import type { CombatantView } from '#/lib/dm-encounter'
 import { abilityKey, type LiveStats, type UseCount } from '#/lib/encounter'
-import { ABILITY_KEYS, ruleOf, ruleRef, type RuleRef } from '#/lib/rules'
-import { formatSpeed, signed, sourceName, sourceUrl } from '#/lib/stat-block'
 import { cn } from '#/lib/utils'
 
 import { AbilityButton, AbilityDetail } from './ability-controls'
@@ -15,15 +13,13 @@ import { describeReferences } from './ability-text'
 import { useDensity } from './density'
 import { EditableNumber, HpControl } from './hp-control'
 import { IconButton } from './icon-button'
-
-const TIMING = {
-  action: { label: 'Actions', Icon: Swords },
-  'bonus action': { label: 'Bonus actions', Icon: Zap },
-  reaction: { label: 'Reactions', Icon: Shield },
-  trait: { label: 'Traits', Icon: PawPrint },
-} satisfies Record<AbilityTiming, unknown>
-
-type Fact = { key: string; label: ReactNode; value: ReactNode }
+import {
+  SavingThrows,
+  StatBlockHeadline,
+  StatFacts,
+  StatSource,
+  TIMING,
+} from './stat-block-sections'
 
 export type UseActions = {
   use: (key: string, count: UseCount) => void
@@ -61,73 +57,6 @@ export function CombatantPanel({
   const { stats, derived: block } = combatant
   const abilities = stats?.abilities ?? []
   const open = abilities.find((ability) => abilityKey(ability.timing, ability.name) === openAbility)
-  const immune = [...(stats?.damageImmunities ?? []), ...(stats?.conditionImmunities ?? [])]
-  const facts: readonly Fact[] =
-    stats && block
-      ? [
-          {
-            key: 'hp',
-            label: <RuleTerm rule={refs.rules.hit_points}>Hit points</RuleTerm>,
-            value: block.hitPoints,
-          },
-          {
-            key: 'ac',
-            label: <RuleTerm rule={refs.rules.armor_class}>Armor</RuleTerm>,
-            value: stats.armor ? `${stats.ac}, ${stats.armor}` : String(stats.ac),
-          },
-          {
-            key: 'initiative',
-            label: <RuleTerm rule={refs.rules.initiative} />,
-            value: signed(block.initiative),
-          },
-          {
-            key: 'speed',
-            label: <RuleTerm rule={refs.rules.speed} />,
-            value: formatSpeed(stats.speed),
-          },
-          {
-            key: 'skills',
-            label: 'Skills',
-            value: joined(
-              block.skills.map(({ skill, bonus }) => (
-                <Fragment key={skill}>
-                  <RuleTerm rule={ruleRef(skill)} /> {signed(bonus)}
-                </Fragment>
-              )),
-            ),
-          },
-          {
-            key: 'senses',
-            label: 'Senses',
-            value: joined([
-              ...block.senses.map(({ sense, feet }) => (
-                <Fragment key={sense}>
-                  <RuleTerm rule={ruleRef(sense)} /> {feet} ft.
-                </Fragment>
-              )),
-              <Fragment key="passive">
-                <RuleTerm rule={refs.rules.passive_perception} /> {block.passivePerception}
-              </Fragment>,
-            ]),
-          },
-          {
-            key: 'vulnerable',
-            label: <RuleTerm rule={refs.rules.vulnerability}>Vulnerable</RuleTerm>,
-            value: termList(stats.damageVulnerabilities),
-          },
-          {
-            key: 'resistant',
-            label: <RuleTerm rule={refs.rules.resistance}>Resistant</RuleTerm>,
-            value: termList(stats.damageResistances),
-          },
-          {
-            key: 'immune',
-            label: <RuleTerm rule={refs.rules.immunity}>Immune</RuleTerm>,
-            value: termList(immune),
-          },
-        ]
-      : []
-
   return (
     <section
       aria-labelledby="combatant-heading"
@@ -142,16 +71,7 @@ export function CombatantPanel({
           >
             {combatant.name}
           </h2>
-          {stats && block ? (
-            <p className="text-muted-foreground text-sm">
-              <RuleTerm rule={ruleRef(stats.size)} />{' '}
-              <RuleTerm rule={ruleRef(stats.type)}>
-                {ruleOf(ruleRef(stats.type)).name.toLowerCase()}
-              </RuleTerm>{' '}
-              · <RuleTerm rule={refs.rules.challenge_rating} /> {stats.cr} ({block.experience} XP) ·{' '}
-              <RuleTerm rule={refs.rules.proficiency_bonus} /> {signed(block.proficiencyBonus)}
-            </p>
-          ) : null}
+          {stats && block ? <StatBlockHeadline stats={stats} block={block} /> : null}
         </div>
         <div className="flex items-center gap-2">
           {combatant.sheetUrl ? (
@@ -262,11 +182,15 @@ export function CombatantPanel({
                   <AbilityDetail
                     title={open.name}
                     ability={open}
-                    count={count}
-                    onUse={() => count && actions.use(key, count)}
-                    onRecharge={() => count && actions.recharge(key, count)}
-                    onSetUses={(value) => actions.setUses(key, 'uses', value)}
-                    onSetMaxUses={(value) => actions.setUses(key, 'maxUses', value)}
+                    uses={
+                      count && {
+                        count,
+                        onUse: () => actions.use(key, count),
+                        onRecharge: () => actions.recharge(key, count),
+                        onSetUses: (value) => actions.setUses(key, 'uses', value),
+                        onSetMaxUses: (value) => actions.setUses(key, 'maxUses', value),
+                      }
+                    }
                     block={block!}
                     describe={describeReferences(stats!, block!, counts, actions.use)}
                   />
@@ -277,95 +201,12 @@ export function CombatantPanel({
       ) : null}
 
       {stats && block ? (
-        <section aria-labelledby="saves-heading" className="grid gap-1">
-          <h3 id="saves-heading" className="text-muted-foreground text-xs font-semibold uppercase">
-            <RuleTerm rule={refs.rules.saving_throw}>Saving throws</RuleTerm>
-          </h3>
-          <dl className="grid grid-cols-3 gap-2">
-            {ABILITY_KEYS.map((ability) => (
-              <div
-                key={ability}
-                className={cn(
-                  'bg-muted/50 rounded-md px-2 py-1',
-                  stats.saves?.[ability] && 'ring-foreground/30 ring-1',
-                )}
-              >
-                <dt className="text-muted-foreground text-xs">
-                  <RuleTerm rule={ruleRef(ability)}>{ruleOf(ruleRef(ability)).name}</RuleTerm>
-                  {stats.saves?.[ability] ? ' · proficient' : ''}
-                </dt>
-                <dd className="font-semibold tabular-nums">d20 {signed(block.saves[ability])}</dd>
-                <dd className="text-muted-foreground text-xs tabular-nums">
-                  {stats.scores[ability]} ({signed(block.modifier[ability])})
-                </dd>
-              </div>
-            ))}
-          </dl>
-        </section>
-      ) : null}
-
-      {facts.some(({ value }) => value) ? (
-        <dl className="grid gap-1 text-sm">
-          {facts.map(({ key, label, value }) =>
-            value ? (
-              <div key={key} className="flex gap-2">
-                <dt className="text-muted-foreground w-20 shrink-0">{label}</dt>
-                <dd className="min-w-0">{value}</dd>
-              </div>
-            ) : null,
-          )}
-        </dl>
-      ) : null}
-
-      {stats ? (
-        <p className="text-muted-foreground border-border border-t pt-2 text-xs">
-          {stats.source.adaptedFrom.length > 0 ? (
-            <>
-              Adapted from SRD 5.2.1{' '}
-              {stats.source.adaptedFrom.map((key, index) => (
-                <span key={key}>
-                  {index > 0 ? ' + ' : ''}
-                  <a
-                    href={sourceUrl(key)}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="underline underline-offset-2"
-                  >
-                    {sourceName(key)}
-                  </a>
-                </span>
-              ))}
-              {stats.source.changes ? '. ' : '.'}
-            </>
-          ) : (
-            'Homebrew. '
-          )}
-          {stats.source.changes}
-        </p>
+        <>
+          <SavingThrows stats={stats} block={block} />
+          <StatFacts stats={stats} block={block} />
+          <StatSource stats={stats} />
+        </>
       ) : null}
     </section>
   )
-}
-
-/** Rules terms as a comma-separated list, each explained in place. */
-function termList(terms: readonly RuleRef[] | undefined) {
-  if (!terms?.length) return undefined
-  return terms.map((term, index) => (
-    <Fragment key={term.key}>
-      {index > 0 ? ', ' : ''}
-      <RuleTerm rule={term}>{ruleOf(term).name.toLowerCase()}</RuleTerm>
-    </Fragment>
-  ))
-}
-
-/** Items separated by commas. */
-function joined(items: readonly ReactNode[]) {
-  if (items.length === 0) return undefined
-  return items.map((item, index) => (
-    // oxlint-disable-next-line react/no-array-index-key -- separators follow their item
-    <Fragment key={index}>
-      {index > 0 ? ', ' : ''}
-      {item}
-    </Fragment>
-  ))
 }

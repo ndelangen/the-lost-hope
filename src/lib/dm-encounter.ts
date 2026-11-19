@@ -65,6 +65,11 @@ export type CombatantView = {
   tracked: boolean
 }
 
+/** A stat block's derived numbers plus the step-by-step rolls for each ability, as the DM plays it. */
+export function playableStats(stats: StatBlock): DerivedStats {
+  return { ...deriveStatBlock(stats), steps: stepsByAbility(stats) }
+}
+
 /** Resolve a roster entry against the full campaign source, including unmet NPCs and beasts. */
 export function combatantView(entry: RosterEntry, roster: readonly RosterEntry[]): CombatantView {
   if (entry.kind === 'placeholder')
@@ -85,7 +90,7 @@ export function combatantView(entry: RosterEntry, roster: readonly RosterEntry[]
   }
   const record = creatureRecord(entry.source)
   const stats = resolveStatBlock(record?.stats)
-  const derived = stats ? { ...deriveStatBlock(stats), steps: stepsByAbility(stats) } : undefined
+  const derived = stats ? playableStats(stats) : undefined
   return {
     id: entry.id,
     name: combatantName(entry, roster, record?.name ?? entry.source.key),

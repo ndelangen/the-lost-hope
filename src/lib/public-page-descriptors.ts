@@ -18,7 +18,7 @@ import {
   type EventMarkVisual,
 } from '#/lib/campaign'
 
-export const SOCIAL_PREVIEW_VERSION = 'world-window-v1'
+export const SOCIAL_PREVIEW_VERSION = 'world-window-v2'
 
 export type PublicPageKind = 'home' | 'intro' | 'questions' | 'collection' | 'locations' | 'detail'
 

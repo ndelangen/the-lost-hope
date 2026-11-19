@@ -39,7 +39,7 @@ const GENERATED_PUBLIC_ASSETS_MODULE = join(ROOT, 'src/generated/public-asset-pa
 const GENERATED_PUBLIC_PAGE_PATHS = join(ROOT, PUBLIC_PAGE_PATHS_FILE)
 const FONT_DIRECTORY = join(ROOT, 'assets/fonts/inter')
 const RENDERER_VERSIONS =
-  'satori@0.33.5|@resvg/resvg-js@2.6.2|sharp@0.35.3|jpeg-q85-v1|lucide-svg-v1'
+  'satori@0.63.2|@resvg/resvg-js@2.6.2|sharp@0.35.3|jpeg-q85-v1|lucide-svg-v1'
 
 type Font = {
   name: string
@@ -219,6 +219,7 @@ function card(page: PublicPageDescriptor, imageDataUrl: string | undefined): Rea
           width: '1200px',
           height: '630px',
           padding: '52px 62px 48px',
+          boxSizing: 'border-box',
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'space-between',
@@ -230,6 +231,7 @@ function card(page: PublicPageDescriptor, imageDataUrl: string | undefined): Rea
               style={{
                 width: '38px',
                 height: '38px',
+                boxSizing: 'border-box',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
@@ -313,6 +315,7 @@ function card(page: PublicPageDescriptor, imageDataUrl: string | undefined): Rea
             style={{
               width: '148px',
               height: '148px',
+              boxSizing: 'border-box',
               flexShrink: 0,
               display: 'flex',
               alignItems: 'center',
