@@ -42,43 +42,45 @@ const CombatantValues = z.strictObject({
 })
 
 const Encounter = z.strictObject({
-  id: z.string().min(1),
-  name: z.string().trim().min(1),
+  /** The scene the fight was loaded from, whose notes and fights the encounter shows. */
   scene: z.strictObject({ ref: z.literal('scene'), key: z.string().min(1) }).optional(),
   roster: z.array(RosterEntry),
   active: z.string().optional(),
   round: z.number().int().positive(),
   /** Live values per combatant in this encounter, keyed by roster entry id. */
   values: z.record(z.string(), CombatantValues),
-  /** How many times each of the scene's fights was brought in, by the title of its beat. */
-  joined: z.record(z.string(), z.number().int().positive()).default({}),
+  /** How many times each prepared group was brought in, by `fightKey`. */
+  joined: z.record(z.string(), z.number().int().positive()),
 })
-
-const EncounterStore = z.strictObject({ encounters: z.array(Encounter) })
 
 export type CreatureRef = EntityRef<'npc'> | EntityRef<'beast'>
 export type RosterEntry = z.infer<typeof RosterEntry>
 type CombatantValues = z.infer<typeof CombatantValues>
 export type Encounter = z.infer<typeof Encounter>
-export type EncounterStore = z.infer<typeof EncounterStore>
 
-export const ENCOUNTER_STORAGE_KEY = 'lost-hope:dm-encounters'
+export const ENCOUNTER_STORAGE_KEY = 'lost-hope:dm-encounter'
 
 export const LEGENDARY_POOL = 'legendary'
 
-export function emptyStore(): EncounterStore {
-  return { encounters: [] }
+/** The fight with nobody in it. */
+export function emptyEncounter(): Encounter {
+  return { roster: [], active: undefined, round: 1, values: {}, joined: {} }
 }
 
-/** Read saved state, discarding anything that no longer matches the current shape. */
-export function parseStore(raw: string | null): EncounterStore {
-  if (!raw) return emptyStore()
+/** Read the saved fight, discarding anything that no longer matches the current shape. */
+export function parseEncounter(raw: string | null): Encounter {
+  if (!raw) return emptyEncounter()
   try {
-    const parsed = EncounterStore.safeParse(JSON.parse(raw))
-    return parsed.success ? parsed.data : emptyStore()
+    const parsed = Encounter.safeParse(JSON.parse(raw))
+    return parsed.success ? parsed.data : emptyEncounter()
   } catch {
-    return emptyStore()
+    return emptyEncounter()
   }
+}
+
+/** Whether anyone is in the fight. */
+export function isRunning(encounter: Encounter) {
+  return encounter.roster.length > 0
 }
 
 // --- Roster -------------------------------------------------------------------------------------
@@ -129,16 +131,53 @@ export function bringIn(
   return { ...added, roster: encounter.roster.toSpliced(at, 0, ...newcomers) }
 }
 
-/** Bring one of the scene's fights in: its creatures join the roster, and the fight counts as joined. */
-export function joinFight(
+/** Tells a scene's prepared groups apart across scenes. */
+export function fightKey(scene: EntityRef<'scene'>, title: string) {
+  return `${scene.key}:${title}`
+}
+
+/** What a scene tells the encounter to load: its starting enemies, or one prepared group. */
+export type Preset = {
+  scene: EntityRef<'scene'>
+  /** The title of the prepared group's beat. None for the scene's starting enemies. */
+  fight?: string
+  creatures: readonly CreatureRef[]
+}
+
+/**
+ * Load a preset. Adding brings its creatures into the running fight. Replacing discards the
+ * running fight and starts this one fresh: the PCs stay, with their HP and conditions, and
+ * everyone else leaves.
+ */
+export function loadPreset(
   encounter: Encounter,
-  key: string,
-  creatures: readonly CreatureRef[],
+  preset: Preset,
+  mode: 'add' | 'replace',
   arrival: Arrival = 'end',
 ): Encounter {
+  const base =
+    mode === 'add'
+      ? { ...encounter, scene: encounter.scene ?? sceneRef(preset.scene) }
+      : replaceWith(encounter, preset.scene)
+  const loaded = bringIn(base, preset.creatures, mode === 'add' ? arrival : 'end')
+  if (!preset.fight) return loaded
+  const key = fightKey(preset.scene, preset.fight)
+  return { ...loaded, joined: { ...loaded.joined, [key]: (loaded.joined[key] ?? 0) + 1 } }
+}
+
+function sceneRef(scene: EntityRef<'scene'>) {
+  return { ref: 'scene' as const, key: scene.key }
+}
+
+function replaceWith(encounter: Encounter, scene: EntityRef<'scene'>): Encounter {
+  const roster = encounter.roster.filter((entry) => entry.kind !== 'creature')
+  const ids = new Set(roster.map(({ id }) => id))
   return {
-    ...bringIn(encounter, creatures, arrival),
-    joined: { ...encounter.joined, [key]: (encounter.joined[key] ?? 0) + 1 },
+    ...emptyEncounter(),
+    scene: sceneRef(scene),
+    roster,
+    active: roster[0]?.id,
+    values: Object.fromEntries(Object.entries(encounter.values).filter(([id]) => ids.has(id))),
   }
 }
 
@@ -247,85 +286,6 @@ export function canStepBack(encounter: Encounter) {
 /** Add each PC that is not already in the roster. */
 export function addParty(encounter: Encounter, pcs: readonly EntityRef<'pc'>[]): Encounter {
   return pcs.reduce(addPc, encounter)
-}
-
-// --- Prepared encounters ------------------------------------------------------------------------
-
-type NewEncounter = {
-  id: string
-  name: string
-  scene?: EntityRef<'scene'>
-  build?: (encounter: Encounter) => Encounter
-}
-
-/** Prepare a new encounter. Saved combatant values are kept. */
-export function createEncounter(
-  store: EncounterStore,
-  { id, name, scene, build = (encounter) => encounter }: NewEncounter,
-): EncounterStore {
-  const blank: Encounter = {
-    id,
-    name: name.trim() || 'Encounter',
-    ...(scene ? { scene: { ref: 'scene', key: scene.key } } : {}),
-    roster: [],
-    active: undefined,
-    round: 1,
-    values: {},
-    joined: {},
-  }
-  return { ...store, encounters: [...store.encounters, { ...build(blank), round: 1 }] }
-}
-
-export function findEncounter(store: EncounterStore, id: string) {
-  return store.encounters.find((encounter) => encounter.id === id)
-}
-
-/** The first encounter prepared for a scene, if any. */
-export function encounterForScene(store: EncounterStore, scene: EntityRef<'scene'>) {
-  return store.encounters.find((encounter) => encounter.scene?.key === scene.key)
-}
-
-export function updateEncounter(
-  store: EncounterStore,
-  id: string,
-  change: (encounter: Encounter) => Encounter,
-): EncounterStore {
-  return {
-    ...store,
-    encounters: store.encounters.map((encounter) =>
-      encounter.id === id ? change(encounter) : encounter,
-    ),
-  }
-}
-
-export function renameEncounter(store: EncounterStore, id: string, name: string): EncounterStore {
-  const trimmed = name.trim()
-  return trimmed
-    ? updateEncounter(store, id, (encounter) => ({ ...encounter, name: trimmed }))
-    : store
-}
-
-/** Copy an encounter's roster, order, and current HP and uses, starting again from the first turn. */
-export function duplicateEncounter(
-  store: EncounterStore,
-  id: string,
-  copyId: string,
-): EncounterStore {
-  const source = findEncounter(store, id)
-  if (!source) return store
-  const index = store.encounters.indexOf(source)
-  const copy: Encounter = {
-    ...source,
-    id: copyId,
-    name: `${source.name} (copy)`,
-    active: source.roster[0]?.id,
-    round: 1,
-  }
-  return { ...store, encounters: store.encounters.toSpliced(index + 1, 0, copy) }
-}
-
-export function deleteEncounter(store: EncounterStore, id: string): EncounterStore {
-  return { ...store, encounters: store.encounters.filter((encounter) => encounter.id !== id) }
 }
 
 // --- Live values --------------------------------------------------------------------------------

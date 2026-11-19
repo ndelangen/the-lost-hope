@@ -1,4 +1,4 @@
-import { ExternalLink, RotateCcw, ScrollText, Shield } from 'lucide-react'
+import { ExternalLink, RotateCcw, ScrollText, Shield, UserMinus } from 'lucide-react'
 import type { ReactNode } from 'react'
 
 import { RuleTerm } from '#/components/rule-term'
@@ -31,6 +31,8 @@ export type CombatantActions = UseActions & {
   setStat: (field: 'hp' | 'maxHp' | 'ac', value: number) => void
   adjustHp: (delta: number) => void
   reset: () => void
+  /** Take this combatant out of the fight altogether. */
+  remove: () => void
   toggleAbility: (key: string) => void
 }
 
@@ -96,6 +98,14 @@ export function CombatantPanel({
               <RotateCcw aria-hidden />
             </IconButton>
           ) : null}
+          <IconButton
+            label={`Remove ${combatant.name} from the fight`}
+            size="sm"
+            tone="ghost"
+            onClick={actions.remove}
+          >
+            <UserMinus aria-hidden />
+          </IconButton>
           {isActive ? (
             <span className="rounded-full bg-amber-500/15 px-2 py-0.5 text-xs font-semibold text-amber-700 dark:text-amber-400">
               Current turn

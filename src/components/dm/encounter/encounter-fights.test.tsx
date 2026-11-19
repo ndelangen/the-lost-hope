@@ -8,7 +8,6 @@ const fight = (key: string, extra: Partial<FightRow> = {}): FightRow => ({
   onlyIf: undefined,
   opponents: [{ creature: { ref: 'npc', key: 'no-such-guard' }, name: 'Guard', count: 2 }],
   allies: [],
-  repeats: false,
   tactics: undefined,
   creatures: [],
   where: [],
@@ -16,8 +15,10 @@ const fight = (key: string, extra: Partial<FightRow> = {}): FightRow => ({
   ...extra,
 })
 
-const render = (fights: FightRow[]) =>
-  renderToStaticMarkup(<EncounterFights sceneName="The keep" fights={fights} onJoin={() => {}} />)
+const render = (fights: FightRow[], running = true) =>
+  renderToStaticMarkup(
+    <EncounterFights sceneName="The keep" fights={fights} running={running} onLoad={() => {}} />,
+  )
 
 describe('EncounterFights', () => {
   it('lists every fight of the scene, open, and counts the ones that joined', () => {
@@ -41,19 +42,20 @@ describe('EncounterFights', () => {
     expect(markup).toContain('They go down.')
     expect(markup).toContain('They hold the stairs.')
     expect(markup).toContain('with the party')
-    expect(markup).toContain('Bring into the fight')
+    expect(markup).toContain('Add to the fight')
+    expect(markup).toContain('Replace')
   })
 
-  it('closes a fight that joined once, and keeps a repeating one open for another group', () => {
-    const done = render([fight('The gate', { joined: 1 })])
-    expect(done).toContain('In the fight')
-    expect(done).not.toContain('Bring in')
-
-    const again = render([fight('The patrols', { repeats: true, joined: 2 })])
+  it('keeps every group open to join again, and counts the groups so far', () => {
+    const again = render([fight('The gate', { joined: 2 })])
     expect(again).toContain('2 groups in the fight so far')
-    expect(again).toContain('Bring in another group')
-    expect(render([fight('The patrols', { repeats: true, joined: 1 })])).toContain(
-      '1 group in the fight so far',
-    )
+    expect(again).toContain('Add to the fight')
+    expect(render([fight('The gate', { joined: 1 })])).toContain('1 group in the fight so far')
+  })
+
+  it('starts the fight when nobody is fighting', () => {
+    const markup = render([fight('The gate')], false)
+    expect(markup).toContain('Start the fight')
+    expect(markup).not.toContain('Replace')
   })
 })

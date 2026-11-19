@@ -72,8 +72,9 @@ canon.
   `opponents`, which seeds the encounter. Do not restate those counts in prose.
 - When a fight comes in stages (room by room, or help that turns up), each stage belongs to the
   beat where it happens: the beat's `fight` lists the `opponents` who join, any `allies` who join
-  on the party's side, whether the group `repeats`, and the `tactics` for playing them. The
-  encounter lists those fights and brings one in on a click. Scene-level `opponents` are only
+  on the party's side, and the `tactics` for playing them. The encounter lists those groups and
+  the DM adds any of them to the running fight, as often as needed, or starts a fresh fight with
+  one. Scene-level `opponents` are only
   those present from the start. The counts and tactics live in the `fight`, not in the beat's
   lines or the scene's `combat` notes.
 - Aboard a vessel under fire, a fight's `where` places it on the ship: a `deck` (the deck map's

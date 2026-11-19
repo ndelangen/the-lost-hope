@@ -9,27 +9,27 @@ const fight = (extra: Partial<RoomFight> = {}): RoomFight => ({
   key: 'The bow',
   opponents: [{ creature: { ref: 'npc', key: 'no-such-guard' }, name: 'Guard', count: 4 }],
   allies: [],
-  repeats: false,
   joined: 0,
   ...extra,
 })
 
-const render = (room: RoomFight, layout: 'tile' | 'bar' = 'tile', notes = false) =>
+const render = (room: RoomFight, layout: 'tile' | 'bar' = 'tile', notes = false, running = false) =>
   renderToStaticMarkup(
     <ShipRoomFight
       fight={room}
       layout={layout}
-      onRun={() => {}}
+      running={running}
+      onLoad={() => {}}
       onNotes={notes ? () => {} : undefined}
     />,
   )
 
 describe('ShipRoomFight', () => {
-  it('names the fight, who is in it, and offers to run it', () => {
+  it('names the fight, who is in it, and offers to start it', () => {
     const markup = render(fight())
     expect(markup).toContain('The bow')
     expect(markup).toContain('4 × Guard')
-    expect(markup).toContain('Run the encounter here')
+    expect(markup).toContain('Start the fight')
     expect(markup).not.toContain('Notes')
   })
 
@@ -43,17 +43,12 @@ describe('ShipRoomFight', () => {
     expect(markup).toContain('2 × Captive, with the party')
   })
 
-  it('shows a fight that has joined as in the fight, with nothing left to run', () => {
-    const markup = render(fight({ joined: 1 }))
-    expect(markup).toContain('In the fight')
-    expect(markup).not.toContain('Run the encounter here')
-  })
-
-  it('offers another group of a fight that repeats, and counts the groups so far', () => {
-    const once = render(fight({ repeats: true, joined: 1 }), 'bar')
+  it('adds to or replaces a running fight, and counts the groups so far', () => {
+    const once = render(fight({ joined: 1 }), 'bar', false, true)
     expect(once).toContain('1 group in the fight so far')
-    expect(once).toContain('Bring in another group')
-    expect(render(fight({ repeats: true, joined: 3 }), 'bar')).toContain(
+    expect(once).toContain('Add to the fight')
+    expect(once).toContain('Replace')
+    expect(render(fight({ joined: 3 }), 'bar', false, true)).toContain(
       '3 groups in the fight so far',
     )
   })

@@ -25,7 +25,7 @@ export function SceneShipDamage({
   onNotes?: (fight: RoomFight) => void
 }) {
   const [pinned, setPinned] = usePinnedShipClock()
-  const { rooms, run } = useShipRooms(sceneKey, ship)
+  const { rooms, running, load } = useShipRooms(sceneKey, ship)
   if (pinned?.key === sceneKey) {
     return (
       <section
@@ -52,7 +52,7 @@ export function SceneShipDamage({
       ship={ship}
       pinned={false}
       onPinChange={(pin) => setPinned(pin ? { ref: 'scene', key: sceneKey } : undefined)}
-      roomControls={{ rooms, onRun: run, onNotes }}
+      roomControls={{ rooms, running, onLoad: load, onNotes }}
     />
   )
 }

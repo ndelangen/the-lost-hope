@@ -12,10 +12,9 @@ import { deriveStatBlock, type DerivedStats } from '#/lib/stat-block'
 
 import { stepsByAbility } from './ability-steps'
 import {
-  addCreature,
   combatantName,
   type CreatureRef,
-  type Encounter,
+  type Preset,
   type RosterEntry,
   type StartingStats,
 } from './encounter'
@@ -164,10 +163,16 @@ export function currentParty(): PartyMember[] {
     }))
 }
 
-/** A scene's opponents, each as many times as its count, are the starting roster. */
-export function sceneRoster(scene: Scene) {
-  return (encounter: Encounter) =>
-    creaturesOf(scene.opponents).reduce<Encounter>(addCreature, encounter)
+/** A scene's starting enemies, each as many times as its count, when it has any. */
+export function startPreset(sceneRef: EntityRef<'scene'>, scene: Scene): Preset | undefined {
+  return scene.opponents.length > 0
+    ? { scene: sceneRef, creatures: creaturesOf(scene.opponents) }
+    : undefined
+}
+
+/** One of a scene's prepared groups, as the encounter loads it. */
+export function fightPreset(sceneRef: EntityRef<'scene'>, fight: SceneFight): Preset {
+  return { scene: sceneRef, fight: fight.key, creatures: fight.creatures }
 }
 
 function creaturesOf(groups: readonly SceneOpponent[]): CreatureRef[] {
@@ -181,7 +186,6 @@ export type FightGroup = { creature: CreatureRef; name: string; count: number }
 export type FightLineUp = {
   opponents: FightGroup[]
   allies: FightGroup[]
-  repeats: boolean
   tactics: DmContent | undefined
 }
 
@@ -197,7 +201,6 @@ export function fightLineUp(fight: SceneBeatFight): FightLineUp {
   return {
     opponents: fightGroups(fight.opponents),
     allies: fightGroups(fight.allies),
-    repeats: fight.repeats,
     tactics: fight.tactics,
   }
 }

@@ -37,7 +37,7 @@ describe('sceneFights', () => {
     beat('The yard'),
     beat('The cells', {
       onlyIf: [['They go down.']],
-      fight: SceneBeatFight.parse({ allies: [{ creature: captive, count: 3 }], repeats: true }),
+      fight: SceneBeatFight.parse({ allies: [{ creature: captive, count: 3 }] }),
     }),
   ])
 
@@ -45,7 +45,7 @@ describe('sceneFights', () => {
     expect(parsed.success).toBe(true)
     const fights = sceneFights(parsed.data!)
     expect(fights.map(({ key }) => key)).toEqual(['The gate', 'The cells'])
-    expect(fights[1]).toMatchObject({ onlyIf: [['They go down.']], repeats: true })
+    expect(fights[1]).toMatchObject({ onlyIf: [['They go down.']] })
   })
 
   it('counts every creature that joins the roster, enemies first', () => {

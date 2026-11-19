@@ -1,5 +1,5 @@
 import { Link, createFileRoute, notFound, useNavigate } from '@tanstack/react-router'
-import { ArrowRight, ChevronRight, Pin, Sword, X } from 'lucide-react'
+import { ArrowRight, ChevronRight, Pin, X } from 'lucide-react'
 import { useEffect, useRef, useState } from 'react'
 import { z } from 'zod'
 
@@ -7,6 +7,7 @@ import { ContentRenderer } from '#/components/content-renderer'
 import { DmFaces } from '#/components/dm/dm-faces'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
 import { SceneBranches } from '#/components/dm/scene-branches'
+import { SceneEncounterStart } from '#/components/dm/scene-encounter-start'
 import { BeatBody, SceneScript } from '#/components/dm/scene-script'
 import { SceneShipDamage } from '#/components/dm/scene-ship-damage'
 import { StatBlockSummary } from '#/components/dm/stat-block-summary'
@@ -269,14 +270,7 @@ function SceneRoute() {
             {pinned ? <Pin aria-label="Pinned" className="size-5 text-amber-600" /> : null}
             {scene.name}
           </h1>
-          <Link
-            to="/dm/encounter"
-            search={{ scene: scene.slug }}
-            className="border-border hover:bg-muted flex w-fit items-center gap-2 rounded-md border px-3 py-1.5 text-sm"
-          >
-            <Sword className="size-4" /> Run encounter
-            {scene.opponents.length > 0 ? ' against this scene’s opponents' : ''}
-          </Link>
+          <SceneEncounterStart sceneKey={key} scene={scene} />
           <ContentRenderer
             content={[locations.flatMap((ref, index) => [index === 0 ? 'at ' : ' or ', ref])]}
           />

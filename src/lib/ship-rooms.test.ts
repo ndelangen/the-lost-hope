@@ -32,7 +32,6 @@ const fight = (key: string, where: FightPlace[], joined = 0): SceneFight & { joi
   onlyIf: undefined,
   opponents: [],
   allies: [],
-  repeats: false,
   tactics: undefined,
   creatures: [],
   where,

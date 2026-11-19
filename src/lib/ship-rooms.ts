@@ -9,7 +9,6 @@ export type RoomFight = {
   key: string
   opponents: FightGroup[]
   allies: FightGroup[]
-  repeats: boolean
   /** How many times it was brought into the encounter. */
   joined: number
 }
@@ -38,7 +37,6 @@ function roomFight(fight: SceneFight & { joined: number }): RoomFight {
     key: fight.key,
     opponents: fight.opponents,
     allies: fight.allies,
-    repeats: fight.repeats,
     joined: fight.joined,
   }
 }

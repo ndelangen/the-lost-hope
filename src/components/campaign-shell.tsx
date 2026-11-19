@@ -43,7 +43,7 @@ export function CampaignShell({ initialPreferences }: { initialPreferences: UiPr
   // A running encounter in combat focus takes the whole screen.
   const focused = useRouterState({
     select: (state) =>
-      state.location.pathname.startsWith('/dm/encounter/') &&
+      state.location.pathname.startsWith('/dm/encounter') &&
       (state.location.search as { combat?: unknown }).combat === true,
   })
   const [drawerOpen, setDrawerOpen] = useState(false)

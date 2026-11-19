@@ -1,4 +1,4 @@
-import { Check, ChevronDown, Swords } from 'lucide-react'
+import { ChevronDown, Swords } from 'lucide-react'
 import { useState } from 'react'
 
 import { ContentRenderer } from '#/components/content-renderer'
@@ -6,23 +6,26 @@ import { FightLineUp } from '#/components/dm/fight-line-up'
 import type { SceneFight } from '#/lib/dm-encounter'
 import { cn } from '#/lib/utils'
 
-import { ActionButton } from './icon-button'
+import { PresetButtons } from './preset-buttons'
 
 /** One of the scene's fights, and how many times it has joined this encounter. */
 export type FightRow = SceneFight & { joined: number }
 
 /**
- * The scene's fights, one per beat that brings one: who is in each, how to play them, and the
- * button that puts them in this encounter's roster.
+ * The scene's prepared groups, one per beat that brings one: who is in each, how to play them, and
+ * the buttons that add them to the fight or replace the fight with them.
  */
 export function EncounterFights({
   sceneName,
   fights,
-  onJoin,
+  running,
+  onLoad,
 }: {
   sceneName: string
   fights: readonly FightRow[]
-  onJoin: (fight: FightRow) => void
+  /** Whether anyone is in the fight, which a group can join or replace. */
+  running: boolean
+  onLoad: (fight: FightRow, mode: 'add' | 'replace') => void
 }) {
   const [open, setOpen] = useState(true)
   const joined = fights.filter((fight) => fight.joined > 0).length
@@ -65,25 +68,12 @@ export function EncounterFights({
             </div>
             <FightLineUp lineUp={fight} />
             <div className="mt-auto grid gap-2">
-              {fight.joined > 0 && fight.repeats ? (
+              {fight.joined > 0 ? (
                 <p className="text-sm font-semibold text-emerald-700 dark:text-emerald-400">
                   {fight.joined === 1 ? '1 group' : `${fight.joined} groups`} in the fight so far
                 </p>
               ) : null}
-              {fight.joined > 0 && !fight.repeats ? (
-                <p className="flex h-12 items-center justify-center gap-2 rounded-xl bg-emerald-500/10 font-semibold text-emerald-700 dark:text-emerald-400">
-                  <Check aria-hidden className="size-5" /> In the fight
-                </p>
-              ) : (
-                <ActionButton
-                  tone={fight.joined > 0 ? 'outline' : 'primary'}
-                  className="h-12 w-full rounded-xl text-base"
-                  onClick={() => onJoin(fight)}
-                >
-                  <Swords aria-hidden />
-                  {fight.joined > 0 ? 'Bring in another group' : 'Bring into the fight'}
-                </ActionButton>
-              )}
+              <PresetButtons running={running} onLoad={(mode) => onLoad(fight, mode)} />
             </div>
           </li>
         ))}

@@ -130,10 +130,6 @@ export const SceneBeatFight = z
       .array(SceneOpponent)
       .default([])
       .describe('Creatures who join on the side of the party'),
-    repeats: z
-      .boolean()
-      .default(false)
-      .describe('Whether the same group can join again, each time the DM brings it in'),
     tactics: DmContent.optional().describe('How to play them, shown where the fight is run'),
     where: z
       .array(FightPlace)

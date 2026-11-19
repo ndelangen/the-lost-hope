@@ -31,7 +31,7 @@ const mimic = { ref: 'beast', key: 'mimic' } as const
 
 /** Three combatants: wolf 1, wolf 2, mimic. */
 function fight(): Encounter {
-  const blank: Encounter = { id: 'f', name: 'Fight', roster: [], round: 1, values: {}, joined: {} }
+  const blank: Encounter = { roster: [], round: 1, values: {}, joined: {} }
   return addCreature(addCreature(addCreature(blank, wolf), wolf), mimic)
 }
 const [w1, w2, m] = ['beast:wolf:1', 'beast:wolf:2', 'beast:mimic:1']

@@ -9,19 +9,14 @@ import {
   adjustHp,
   bringIn,
   canStepBack,
-  createEncounter,
-  deleteEncounter,
-  duplicateEncounter,
-  encounterForScene,
-  findEncounter,
-  joinFight,
-  renameEncounter,
-  updateEncounter,
+  emptyEncounter,
+  fightKey,
+  isRunning,
+  loadPreset,
   combatantName,
-  emptyStore,
   liveStats,
   moveCombatant,
-  parseStore,
+  parseEncounter,
   recharge,
   removeCombatant,
   resetCombatant,
@@ -32,7 +27,6 @@ import {
   remainingUses,
   type Encounter,
   type StartingStats,
-  type EncounterStore,
 } from './encounter'
 
 const knight = { ref: 'npc', key: 'knight' } as const
@@ -44,19 +38,12 @@ const pounce = abilityKey('action', 'Pounce')
 /** One NPC, two copies of one beast, and a player placeholder: the agreed local trial. */
 function trial(): Encounter {
   const blank: Encounter = {
-    id: 'trial',
-    name: 'Trial',
     roster: [],
     round: 1,
     values: {},
     joined: {},
   }
   return addPlaceholder(addCreature(addCreature(addCreature(blank, knight), wolf), wolf), 'Devan')
-}
-
-/** A store holding the trial encounter. */
-function trialStore(): EncounterStore {
-  return { ...emptyStore(), encounters: [trial()] }
 }
 
 describe('encounter roster', () => {
@@ -194,16 +181,16 @@ describe('combatant values', () => {
 
 describe('saved state', () => {
   it('survives a reload', () => {
-    const store = updateEncounter(trialStore(), 'trial', (encounter) =>
-      adjustHp(stepTurn(encounter, 1), 'beast:wolf:1', wolfStats, -2),
-    )
-    expect(parseStore(JSON.stringify(store))).toEqual(store)
+    const encounter = adjustHp(stepTurn(trial(), 1), 'beast:wolf:1', wolfStats, -2)
+    expect(parseEncounter(JSON.stringify(encounter))).toEqual(encounter)
   })
 
   it('starts empty when nothing valid is saved', () => {
-    expect(parseStore(null)).toEqual(emptyStore())
-    expect(parseStore('{not json')).toEqual(emptyStore())
-    expect(parseStore('{"encounters":[],"values":{}}')).toEqual(emptyStore())
+    expect(parseEncounter(null)).toEqual(emptyEncounter())
+    expect(parseEncounter('{not json')).toEqual(emptyEncounter())
+    expect(parseEncounter('{"encounters":[]}')).toEqual(emptyEncounter())
+    expect(isRunning(emptyEncounter())).toBe(false)
+    expect(isRunning(trial())).toBe(true)
   })
 })
 
@@ -224,29 +211,16 @@ describe('the party', () => {
   })
 })
 
-describe('prepared encounters', () => {
+describe('presets', () => {
   const ambush = { ref: 'scene', key: 'ambush' } as const
+  const keep = { ref: 'scene', key: 'keep' } as const
 
-  it('keeps several encounters, each with its own roster and turn', () => {
-    let store = createEncounter(trialStore(), {
-      id: 'ambush',
-      name: 'Ambush',
-      scene: ambush,
-      build: (encounter) => addCreature(encounter, wolf),
-    })
-    store = updateEncounter(store, 'trial', (encounter) => stepTurn(encounter, 1))
-    expect(findEncounter(store, 'trial')?.active).toBe('beast:wolf:1')
-    expect(findEncounter(store, 'ambush')).toMatchObject({
-      name: 'Ambush',
-      active: 'beast:wolf:1',
-      round: 1,
-      roster: [{ id: 'beast:wolf:1' }],
-    })
-    expect(encounterForScene(store, ambush)?.id).toBe('ambush')
-  })
-
-  it('brings a fight of the scene in, counting each time it joins', () => {
-    const once = joinFight(trial(), 'The bow', [wolf, wolf])
+  it('adds a prepared group to the running fight, counting each time it joins', () => {
+    const once = loadPreset(
+      trial(),
+      { scene: ambush, fight: 'The bow', creatures: [wolf, wolf] },
+      'add',
+    )
     expect(once.roster.map(({ id }) => id)).toEqual([
       'npc:knight:1',
       'beast:wolf:1',
@@ -255,10 +229,38 @@ describe('prepared encounters', () => {
       'beast:wolf:3',
       'beast:wolf:4',
     ])
-    expect(once.joined).toEqual({ 'The bow': 1 })
-    const twice = joinFight(joinFight(once, 'The bow', [wolf]), 'The helm', [knight])
-    expect(twice.joined).toEqual({ 'The bow': 2, 'The helm': 1 })
-    expect(twice.roster).toHaveLength(8)
+    expect(once.scene).toEqual(ambush)
+    const twice = loadPreset(once, { scene: ambush, fight: 'The bow', creatures: [wolf] }, 'add')
+    expect(twice.joined).toEqual({ [fightKey(ambush, 'The bow')]: 2 })
+    expect(loadPreset(twice, { scene: keep, creatures: [knight] }, 'add').scene).toEqual(ambush)
+  })
+
+  it('replaces the fight, keeping the PCs and their HP, and starts from the first turn', () => {
+    const fought = adjustHp(
+      adjustHp(
+        addPc(stepTurn(trial(), 1), { ref: 'pc', key: 'devan' }),
+        'pc:devan',
+        { maxHp: 40 },
+        -5,
+      ),
+      'beast:wolf:1',
+      wolfStats,
+      -3,
+    )
+    const fresh = loadPreset(
+      fought,
+      { scene: keep, fight: 'The gate', creatures: [knight] },
+      'replace',
+    )
+    expect(fresh.roster.map(({ id }) => id)).toEqual(['placeholder:1', 'pc:devan', 'npc:knight:1'])
+    expect(fresh).toMatchObject({
+      scene: keep,
+      round: 1,
+      active: 'placeholder:1',
+      values: { 'pc:devan': { hp: 35 } },
+      joined: { [fightKey(keep, 'The gate')]: 1 },
+    })
+    expect(fresh.values['beast:wolf:1']).toBeUndefined()
   })
 
   it('brings enemies in at the end of the round, or right after the current turn', () => {
@@ -284,54 +286,5 @@ describe('prepared encounters', () => {
     expect(
       bringIn(start, [], 'next', [{ ref: 'pc', key: 'swift' }]).roster.map(({ id }) => id),
     ).toEqual(['npc:knight:1', 'beast:wolf:1', 'pc:swift', 'beast:wolf:2', 'placeholder:1'])
-  })
-
-  it('reads an encounter saved before fights were counted', () => {
-    const { joined: _joined, ...saved } = trial()
-    const store = parseStore(JSON.stringify({ encounters: [saved] }))
-    expect(findEncounter(store, 'trial')?.joined).toEqual({})
-  })
-
-  it('renames, ignoring blank names', () => {
-    const store = renameEncounter(trialStore(), 'trial', '  Bridge fight ')
-    expect(findEncounter(store, 'trial')?.name).toBe('Bridge fight')
-    expect(renameEncounter(store, 'trial', '  ')).toBe(store)
-  })
-
-  it('keeps HP separate per encounter', () => {
-    let store = createEncounter(trialStore(), {
-      id: 'other',
-      name: 'Other',
-      build: (encounter) => addCreature(encounter, wolf),
-    })
-    store = updateEncounter(store, 'trial', (encounter) =>
-      adjustHp(encounter, 'beast:wolf:1', wolfStats, -9),
-    )
-    expect(liveStats(wolfStats, findEncounter(store, 'trial')?.values['beast:wolf:1']).hp).toBe(15)
-    expect(liveStats(wolfStats, findEncounter(store, 'other')?.values['beast:wolf:1']).hp).toBe(24)
-  })
-
-  it('duplicates the roster and current HP, starting the copy from the first turn', () => {
-    const played = updateEncounter(trialStore(), 'trial', (encounter) =>
-      adjustHp(stepTurn(encounter, 1), 'beast:wolf:1', wolfStats, -4),
-    )
-    let store = duplicateEncounter(played, 'trial', 'copy')
-    expect(store.encounters.map((encounter) => encounter.id)).toEqual(['trial', 'copy'])
-    expect(findEncounter(store, 'copy')).toMatchObject({
-      name: 'Trial (copy)',
-      active: 'npc:knight:1',
-      round: 1,
-      values: { 'beast:wolf:1': { hp: 20 } },
-    })
-    expect(findEncounter(store, 'copy')?.roster).toEqual(findEncounter(store, 'trial')?.roster)
-
-    store = updateEncounter(store, 'copy', (encounter) =>
-      adjustHp(encounter, 'beast:wolf:1', wolfStats, -10),
-    )
-    expect(findEncounter(store, 'trial')?.values['beast:wolf:1']?.hp).toBe(20)
-  })
-
-  it('deletes an encounter', () => {
-    expect(deleteEncounter(trialStore(), 'trial').encounters).toEqual([])
   })
 })

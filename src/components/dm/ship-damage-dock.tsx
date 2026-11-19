@@ -17,7 +17,7 @@ function PinnedClock({
   ship: ShipUnderFire
   onUnpin: () => void
 }) {
-  const { rooms, run } = useShipRooms(sceneKey, ship)
+  const { rooms, running, load } = useShipRooms(sceneKey, ship)
   return (
     <ShipDamageClock
       sceneKey={sceneKey}
@@ -27,7 +27,7 @@ function PinnedClock({
       onPinChange={(pin) => {
         if (!pin) onUnpin()
       }}
-      roomControls={{ rooms, onRun: run }}
+      roomControls={{ rooms, running, onLoad: load }}
     />
   )
 }

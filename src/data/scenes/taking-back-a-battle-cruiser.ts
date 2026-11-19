@@ -217,7 +217,6 @@ export default createScene({
       fight: {
         where: [{ deck: refs.locations.ride_the_lightning_gun_deck }],
         opponents: [{ creature: refs.npcs.cloaked_snatcher, count: 4 }],
-        repeats: true,
         tactics: [
           [
             'Only one group at a time: the rest keep working the guns. A new group turns on the party only if the party attacks again. If the players walk through without engaging anyone, let them.',

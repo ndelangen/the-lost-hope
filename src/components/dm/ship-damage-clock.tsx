@@ -229,7 +229,9 @@ function SectorTile({
 /** The fights of a scene in the rooms of the ship, and what the DM can do with one. */
 export type ShipRoomControls = {
   rooms: ShipRooms
-  onRun: (fight: RoomFight) => void
+  /** Whether a fight is running, which a room's group can join or replace. */
+  running: boolean
+  onLoad: (fight: RoomFight, mode: 'add' | 'replace') => void
   /** Open the notes of a fight's beat, on pages that show them. */
   onNotes?: (fight: RoomFight) => void
 }
@@ -252,7 +254,7 @@ export function ShipDamageClock({
   ship: ShipUnderFire
   pinned: boolean
   onPinChange: (pinned: boolean) => void
-  /** The scene's fights by room, each with its button to run it. */
+  /** The scene's fights by room, each with its buttons to load it into the encounter. */
   roomControls?: ShipRoomControls
 }) {
   const audio = useRef<AudioContext | null>(null)
@@ -272,7 +274,8 @@ export function ShipDamageClock({
         key={fight.key}
         fight={fight}
         layout={layout}
-        onRun={() => roomControls.onRun(fight)}
+        running={roomControls.running}
+        onLoad={(mode) => roomControls.onLoad(fight, mode)}
         onNotes={roomControls.onNotes ? () => roomControls.onNotes?.(fight) : undefined}
       />
     ) : null

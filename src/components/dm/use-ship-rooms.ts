@@ -1,65 +1,51 @@
-import { useNavigate, useRouterState } from '@tanstack/react-router'
 import { useMemo } from 'react'
 
 import { resolveScene } from '#/lib/dm-campaign'
-import { sceneFights, sceneRoster } from '#/lib/dm-encounter'
-import { createEncounter, encounterForScene, joinFight, updateEncounter } from '#/lib/encounter'
+import { fightPreset, sceneFights } from '#/lib/dm-encounter'
+import { fightKey, isRunning } from '#/lib/encounter'
 import { initialHullDamage, shipSectors, type ShipUnderFire } from '#/lib/ship-damage'
 import { vesselDecks } from '#/lib/ship-decks'
 import { shipRooms, type RoomFight, type ShipRooms } from '#/lib/ship-rooms'
 
-import {
-  newEncounterId,
-  updateEncounterStore,
-  useEncounterStore,
-} from './encounter/use-encounter-store'
+import { useEncounter } from './encounter/use-encounter-store'
+import { useLoadPreset } from './use-load-preset'
 
 /**
- * A scene's fights placed in the rooms of its vessel, and the action that runs one: it joins the
- * scene's encounter, which is prepared on the spot when there is none yet, and the DM lands on
- * that encounter in combat focus.
+ * A scene's fights placed in the rooms of its vessel, and the action that loads one into the
+ * encounter: added to the running fight, or replacing it.
  */
 export function useShipRooms(
   sceneKey: string,
   ship: ShipUnderFire,
-): { rooms: ShipRooms; run: (fight: RoomFight) => void } {
-  const [store] = useEncounterStore()
-  const navigate = useNavigate()
-  const pathname = useRouterState({ select: (state) => state.location.pathname })
-  const scene = resolveScene({ ref: 'scene', key: sceneKey })
+): {
+  rooms: ShipRooms
+  running: boolean
+  load: (fight: RoomFight, mode: 'add' | 'replace') => void
+} {
+  const [encounter] = useEncounter()
+  const loadPreset = useLoadPreset()
+  const sceneRef = useMemo(() => ({ ref: 'scene' as const, key: sceneKey }), [sceneKey])
+  const scene = resolveScene(sceneRef)
   const fights = useMemo(() => (scene ? sceneFights(scene) : []), [scene])
-  const joined = store
-    ? encounterForScene(store, { ref: 'scene', key: sceneKey })?.joined
-    : undefined
+  const joined = encounter?.joined
 
   const rooms = useMemo(
     () =>
       shipRooms(
         shipSectors(ship, initialHullDamage(ship)),
         vesselDecks(ship.vessel.key),
-        fights.map((fight) => ({ ...fight, joined: joined?.[fight.key] ?? 0 })),
+        fights.map((fight) => ({
+          ...fight,
+          joined: joined?.[fightKey(sceneRef, fight.key)] ?? 0,
+        })),
       ),
-    [ship, fights, joined],
+    [ship, fights, joined, sceneRef],
   )
 
-  const run = (room: RoomFight) => {
+  const load = (room: RoomFight, mode: 'add' | 'replace') => {
     const fight = fights.find(({ key }) => key === room.key)
-    if (!scene || !fight) return
-    const ref = { ref: 'scene' as const, key: sceneKey }
-    const next = updateEncounterStore((current) => {
-      const existing = encounterForScene(current, ref)
-      const id = existing?.id ?? newEncounterId()
-      const prepared = existing
-        ? current
-        : createEncounter(current, { id, name: scene.name, scene: ref, build: sceneRoster(scene) })
-      return updateEncounter(prepared, id, (encounter) =>
-        joinFight(encounter, fight.key, fight.creatures),
-      )
-    })
-    const id = encounterForScene(next, ref)?.id
-    if (id && pathname !== `/dm/encounter/${id}`)
-      void navigate({ to: '/dm/encounter/$id', params: { id }, search: { combat: true } })
+    if (fight) loadPreset(fightPreset(sceneRef, fight), mode)
   }
 
-  return { rooms, run }
+  return { rooms, running: encounter ? isRunning(encounter) : false, load }
 }

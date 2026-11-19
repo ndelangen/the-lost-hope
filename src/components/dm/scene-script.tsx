@@ -200,7 +200,7 @@ export function BeatBody({
         <div className="border-border bg-muted/30 grid gap-2 rounded-lg border p-3">
           <p className="text-muted-foreground flex items-center gap-2 text-xs font-semibold uppercase">
             <Swords className="size-4" aria-hidden />
-            {beat.fight.repeats ? 'Joins the fight, one group each time' : 'Joins the fight'}
+            Joins the fight
           </p>
           <FightLineUp lineUp={beat.fight} />
         </div>
