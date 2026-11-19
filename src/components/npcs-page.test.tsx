@@ -6,7 +6,10 @@ import { hydrateRoot } from 'react-dom/client'
 import { renderToString } from 'react-dom/server'
 import { afterEach, describe, expect, it, vi } from 'vitest'
 
-import { NpcsPage, NPC_SORT_STORAGE_KEY } from '#/routes/npcs/index'
+import { NPC_SORT_STORAGE_KEY } from '#/lib/npc-collection-data'
+import { Route } from '#/routes/npcs/index'
+
+const NpcsPage = Route.options.component!
 
 vi.mock('#/components/entity-reference', () => ({
   EntityReference: ({ slug, children }: { slug: string; children: () => ReactNode }) => (

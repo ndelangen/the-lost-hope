@@ -5,6 +5,9 @@ import { eventProse } from '#/lib/foretold'
 
 export type NpcSortOrder = 'appearance' | 'name'
 
+/** Where the browser keeps the visitor's chosen NPC order between visits. */
+export const NPC_SORT_STORAGE_KEY = 'dag:npcs:sort'
+
 type NpcAppearanceEvent = {
   day: number
   npcSlugs: readonly string[]
