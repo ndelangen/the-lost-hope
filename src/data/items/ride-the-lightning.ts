@@ -9,17 +9,19 @@ export default createItem({
   craftedBy: null,
   hull: {
     sectorHitPoints: 5,
+    // Matches the deck maps, bow to the left: the helm's wheel is at the starboard stern, the
+    // bunks and the stern cargo are on the port side. The crystal room in the centre is never hit.
     port: [
       { name: 'Port bow', escapePods: true },
       { name: 'Port battery', escapePods: true },
-      { name: 'Crystal chamber', escapePods: false },
-      { name: 'Helm', escapePods: false },
+      { name: 'Barracks', escapePods: true },
+      { name: 'Stern hold', escapePods: true },
     ],
     starboard: [
       { name: 'Starboard bow', escapePods: true },
       { name: 'Starboard battery', escapePods: true },
-      { name: 'Barracks', escapePods: true },
-      { name: 'Stern hold', escapePods: true },
+      { name: 'Control room', escapePods: false },
+      { name: 'Helm', escapePods: false },
     ],
   },
   notes: [['A flying battle-cruiser of the ', refs.organizations.tempest_family, '.']],
@@ -30,5 +32,10 @@ export default createItem({
       '. It is the cruiser the party is asked to take back.',
     ],
     ['It is experimental. A new, unique type of crystal makes it the fastest ship that exists.'],
+    [
+      'Around that crystal, time runs much faster than in the rest of the world: a time warp. The closer to the crystal, the faster. Whoever spends time in the crystal room, even a ',
+      refs.rules.long_rest,
+      ', comes out to find that almost no time has passed outside.',
+    ],
   ],
 })

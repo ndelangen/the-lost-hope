@@ -5,7 +5,7 @@ export default createScene({
   name: 'The green beam over the sky islands',
   illustration: '/assets/scenes/the-green-beam-over-the-sky-islands.png',
   location: refs.locations.three_sky_kingdoms,
-  npcs: [refs.npcs.abraham, refs.npcs.crowy],
+  npcs: [refs.npcs.crowy],
   setup: [
     [
       refs.pcs.swift_starblade,
@@ -71,22 +71,30 @@ export default createScene({
         },
         {
           speaker: refs.pcs.jim,
-          say: [['I’m so sorry. I hope you all make it. Don’t trust Light.']],
+          say: [['I’m so sorry Swifty, you have to listen! Take the ship and…']],
         },
         {
-          note: [
-            ['“Light” in ', refs.pcs.jim, '’s last words is ', refs.npcs.light_13th_marshal, '.'],
+          do: [
+            [
+              'The beam cuts him off. His body just disappears, and all his gear drops to the ground, along with his tongue, still bearing his guild tattoo.',
+            ],
+            [
+              'The beam also hits ',
+              refs.npcs.crowy,
+              '. He drops to the planks in front of ',
+              refs.pcs.swift_starblade,
+              ': not dead, but dying.',
+            ],
           ],
         },
         {
           do: [
             [
-              'His body just disappears, and all his gear drops to the ground, along with his tongue, still bearing his guild tattoo.',
-            ],
-            [
-              'The beam also hits ',
+              'Tell ',
+              refs.pcs.swift_starblade,
+              '’s player plainly: the bird is bleeding out, he can still be saved, and it would not take much. Then ask what he does. Saving ',
               refs.npcs.crowy,
-              '. He drops to the planks, critically wounded and dying.',
+              ' or letting him die is his choice. Do not steer it.',
             ],
           ],
         },
@@ -119,11 +127,11 @@ export default createScene({
           when: [['', refs.pcs.swift_starblade, ' saves ', refs.npcs.crowy, '.']],
           response: [
             [
-              'Any healing does it, and so does a DC 10 ',
+              'Any healing does it, and so does a DC 5 ',
               refs.rules.wis,
               ' (',
               refs.rules.medicine,
-              ') check to stop the bleeding. ',
+              ') check to stop the bleeding: he is a small bird, and it takes little. A failed check can be tried again the next round. ',
               refs.npcs.crowy,
               ' comes to and will not forget who saved him. Once he can fly, he heads for ',
               refs.pcs.devan,
@@ -137,15 +145,17 @@ export default createScene({
           when: [['', refs.pcs.swift_starblade, ' leaves ', refs.npcs.crowy, ' where he fell.']],
           response: [
             [
-              'A bystander scoops him up and saves him. ',
               refs.npcs.crowy,
-              ' will not forget that ',
+              ' dies on the planks. Nobody else steps in: this is ',
               refs.pcs.swift_starblade,
-              ' walked away. Once he can fly, he heads for ',
-              refs.pcs.devan,
-              ' and ',
-              refs.pcs.cassian_veyl,
-              '.',
+              '’s choice, and it stands.',
+            ],
+            [
+              'He does not arrive on ',
+              refs.locations.skynet,
+              ', and the later scenes go on without him. The shared part of the letter from ',
+              refs.pcs.jim,
+              ' is then missing his word.',
             ],
           ],
         },
@@ -256,7 +266,21 @@ export default createScene({
             ],
           ],
         },
-        { do: [['Switch to ', refs.pcs.devan, ' and ', refs.pcs.cassian_veyl, '.']] },
+        {
+          do: [
+            [
+              'Cut here, with ',
+              refs.pcs.swift_starblade,
+              ' bent over the letter. Go on with ',
+              refs.pcs.devan,
+              ' and ',
+              refs.pcs.cassian_veyl,
+              ' in ',
+              refs.scenes.chaos_on_the_sky_islands,
+              '.',
+            ],
+          ],
+        },
       ],
       outcomes: [
         {
@@ -268,120 +292,11 @@ export default createScene({
             [
               'The whole letter at once is the fastest way out, but it leaves him waiting while you run ',
               refs.locations.skynet,
-              '. If you do it, give his other moments on the docks more room: saving ',
+              '. If you do it, give his other moments on the docks more room: what he does about ',
               refs.npcs.crowy,
               ', the tongue, and what he does with the gear.',
             ],
           ],
-        },
-      ],
-    },
-    {
-      title: 'Crowy arrives',
-      lines: [
-        {
-          do: [
-            [
-              refs.npcs.crowy,
-              ' was with ',
-              refs.pcs.swift_starblade,
-              ' and ',
-              refs.pcs.jim,
-              ' on ',
-              refs.locations.nimbus,
-              ', and the beam critically wounded him. Once he is revived there, he flies across to ',
-              refs.pcs.devan,
-              ' and ',
-              refs.pcs.cassian_veyl,
-              '. Bring him in a little after the beam, still singed. He remembers who saved him.',
-            ],
-          ],
-        },
-      ],
-    },
-    {
-      title: 'Chaos on the islands',
-      lines: [
-        {
-          do: [
-            [
-              'The populations of all three sky islands are in chaos. The normally calm streets are packed, and the usual links between the islands are clogged.',
-            ],
-            [
-              'On ',
-              refs.locations.skynet,
-              ', there are few civilians left on the streets. ',
-              refs.npcs.old_pell,
-              ' boards up his shop, and ',
-              refs.npcs.maren_of_fairhaven,
-              ' pushes towards the ferries with her child. ',
-              refs.npcs.sergeant_bruna_kell,
-              ' shouts for recruits from a crate while ',
-              refs.npcs.tempest_soldier,
-              's drill and load supplies for the rollout.',
-            ],
-          ],
-        },
-        {
-          note: [
-            [
-              refs.beasts.wolfie,
-              ' and ',
-              refs.npcs.abraham,
-              ' are at the stables. What happens to them is up to the party: ask before they leave.',
-            ],
-          ],
-        },
-      ],
-      outcomes: [
-        {
-          when: [
-            ['They head for ', refs.locations.tempest, ' to find ', refs.npcs.onana_tempest, '.'],
-          ],
-          response: [
-            [
-              'That way is a sky bridge too, and it is clogged just the same. Run ',
-              refs.scenes.the_clogged_ferry_landing,
-              '.',
-            ],
-          ],
-        },
-        {
-          when: [['They stay where they are.']],
-          response: [
-            [
-              refs.npcs.captain_garran,
-              ' and his soldiers come to collect them, as they did before (',
-              refs.events.n2_e168,
-              '). Run ',
-              refs.scenes.boarded_by_the_battle_cruiser,
-              ' from his questions on.',
-            ],
-          ],
-        },
-        {
-          when: [['They help ', refs.npcs.maren_of_fairhaven, ' or ', refs.npcs.old_pell, '.']],
-          response: [
-            ['A friendly face in the chaos, and someone who points them through the back streets.'],
-          ],
-        },
-        {
-          when: [['They talk to ', refs.npcs.sergeant_bruna_kell, '.']],
-          response: [
-            ['She tries to sign them up. Signing gets them a pass through the clogged links.'],
-          ],
-        },
-        {
-          when: [
-            ['They want to see where the beam hit, or to find ', refs.pcs.swift_starblade, '.'],
-          ],
-          response: [
-            ['The only way across is the ferry. Run ', refs.scenes.the_clogged_ferry_landing, '.'],
-          ],
-        },
-        {
-          when: [['They head to the shipyard for their airship.']],
-          response: [['Run ', refs.scenes.the_ents_hold_the_shipyard, '.']],
         },
       ],
     },

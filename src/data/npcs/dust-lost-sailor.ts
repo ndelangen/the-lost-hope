@@ -23,33 +23,23 @@ export default createNPC({
       refs.npcs.ilsa_corrow,
       ', and they are victims as much as enemies.',
     ],
+    [
+      'They are softer opponents than a ',
+      refs.npcs.tempest_soldier,
+      ': they are drugged up, and less emotionally invested in the fight.',
+    ],
   ],
   stats: {
     size: 'medium',
     type: 'humanoid',
-    cr: '2',
-    ac: 13,
-    armor: 'hide armor',
-    hitDice: '9d8',
+    cr: '1/8',
+    ac: 12,
+    armor: 'leather armor',
+    hitDice: '2d8',
     speed: { walk: 30 },
-    scores: { str: 16, dex: 12, con: 17, int: 9, wis: 11, cha: 9 },
+    scores: { str: 12, dex: 12, con: 12, int: 9, wis: 11, cha: 9 },
     skills: { perception: 'proficient' },
     abilities: [
-      {
-        key: 'dust-frenzy',
-        name: 'Dust Frenzy',
-        timing: 'trait',
-        icon: 'gi/GiBullHorns',
-        text: [
-          'While below half its ',
-          refs.rules.hit_points,
-          ', it has ',
-          refs.rules.advantage,
-          ' on attack rolls and ',
-          refs.rules.saving_throw,
-          's.',
-        ],
-      },
       {
         key: 'steered',
         name: 'Steered',
@@ -72,7 +62,7 @@ export default createNPC({
         attack: {
           kind: 'melee',
           ability: 'str',
-          damage: [{ dice: '1d12', type: refs.rules.slashing, addModifier: true }],
+          damage: [{ dice: '1d8', type: refs.rules.slashing, addModifier: true }],
         },
       },
       {
@@ -85,7 +75,7 @@ export default createNPC({
           kind: 'ranged',
           ability: 'con',
           range: [60, 60],
-          damage: [{ dice: '2d6', type: refs.rules.necrotic }],
+          damage: [{ dice: '1d6', type: refs.rules.necrotic }],
         },
         text: ['The dust gives it a scrap of borrowed magic.'],
         uses: 1,
@@ -93,9 +83,9 @@ export default createNPC({
       },
     ],
     source: {
-      adaptedFrom: ['srd-2024_berserker'],
+      adaptedFrom: ['srd-2024_bandit'],
       changes:
-        'A Tempest sailor on Arcane Dust: the berserker’s frenzy and greataxe, plus a shadow bolt the dust lends it, and it stops fighting when the Finger who steers it falls.',
+        'A Tempest sailor on Arcane Dust, as soft as a bandit: a boarding axe, a weak shadow bolt the dust lends it, and it stops fighting when the Finger who steers it falls.',
     },
   },
 })

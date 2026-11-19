@@ -5,8 +5,8 @@ import type { ShipDeckMap } from '#/lib/ship-decks'
 import { cn } from '#/lib/utils'
 
 const SIDES = [
-  { side: 'port', label: 'Port' },
   { side: 'starboard', label: 'Starboard' },
+  { side: 'port', label: 'Port' },
 ] as const
 
 /**

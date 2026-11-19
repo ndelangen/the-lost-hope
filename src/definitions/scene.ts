@@ -93,6 +93,61 @@ export const SceneGroupSave = z.strictObject({
 
 export type SceneGroupSave = z.infer<typeof SceneGroupSave>
 
+/** A creature that fights when the scene turns into a fight, and how many of it. */
+const SceneOpponent = z.strictObject({
+  creature: z.union([entityRefOf('npc'), entityRefOf('beast')]),
+  count: z.number().int().positive().default(1),
+})
+
+export type SceneOpponent = z.infer<typeof SceneOpponent>
+
+/**
+ * Where aboard a vessel a fight takes place: a deck, and on it one slice of the hull or one sector
+ * of that slice. The slice is counted from the bow, from 1, as the ship-damage die shows it.
+ * Without a slice the fight is anywhere on that deck.
+ */
+export const FightPlace = z
+  .strictObject({
+    deck: entityRefOf('location').describe('The deck map of the vessel the scene is fought aboard'),
+    slice: z.number().int().positive().optional().describe('Slice of the hull, from 1 at the bow'),
+    side: z.enum(['port', 'starboard']).optional().describe('One side of that slice only'),
+  })
+  .refine((place) => place.side === undefined || place.slice !== undefined, {
+    message: 'A side needs the slice it is a side of',
+  })
+
+export type FightPlace = z.infer<typeof FightPlace>
+
+/**
+ * Who joins the fight when a beat is played: the enemies of a room, or help that turns up for the
+ * party. The encounter run from the scene lists every beat's fight and brings one in on a click,
+ * so nobody is added by hand. How many there are is said here, not in the beat's lines.
+ */
+export const SceneBeatFight = z
+  .strictObject({
+    opponents: z.array(SceneOpponent).default([]).describe('Enemies who join the fight'),
+    allies: z
+      .array(SceneOpponent)
+      .default([])
+      .describe('Creatures who join on the side of the party'),
+    repeats: z
+      .boolean()
+      .default(false)
+      .describe('Whether the same group can join again, each time the DM brings it in'),
+    tactics: DmContent.optional().describe('How to play them, shown where the fight is run'),
+    where: z
+      .array(FightPlace)
+      .default([])
+      .describe(
+        'Aboard a vessel under fire: the rooms the fight is in, so it can be run from the ship. Leave empty for a fight that is not tied to a room',
+      ),
+  })
+  .refine((fight) => fight.opponents.length + fight.allies.length > 0, {
+    message: 'A fight needs someone in it',
+  })
+
+export type SceneBeatFight = z.infer<typeof SceneBeatFight>
+
 /**
  * One moment of a scene. A scene's beats are its script: the DM plays them top to bottom. A beat
  * with `onlyIf` is optional and is skipped when that does not hold. Its outcomes are the branches
@@ -105,6 +160,7 @@ export const SceneBeat = z.strictObject({
   ),
   lines: z.array(SceneLine).min(1),
   groupSave: SceneGroupSave.optional().describe('A save everyone listed makes during this beat'),
+  fight: SceneBeatFight.optional().describe('Who joins the fight when this beat is played'),
   outcomes: z.array(SceneOutcome).default([]),
 })
 
@@ -132,14 +188,6 @@ export const SceneShipDamage = z.strictObject({
 
 export type SceneShipDamage = z.infer<typeof SceneShipDamage>
 
-/** Who fights the party when the scene turns into a fight, and how many of them. */
-const SceneOpponent = z.strictObject({
-  creature: z.union([entityRefOf('npc'), entityRefOf('beast')]),
-  count: z.number().int().positive().default(1),
-})
-
-export type SceneOpponent = z.infer<typeof SceneOpponent>
-
 export const Scene = deriveSlug(
   z.strictObject({
     name: z.string().trim().min(1),
@@ -150,6 +198,16 @@ export const Scene = deriveSlug(
     setup: DmContent.describe('The situation the scene opens on, in a paragraph or two'),
     beats: z
       .array(SceneBeat)
+      .refine(
+        (beats) => {
+          const titles = beats.filter((beat) => beat.fight).map((beat) => beat.title)
+          return new Set(titles).size === titles.length
+        },
+        {
+          message:
+            'Beats that bring a fight need different titles: the encounter tells them apart by title',
+        },
+      )
       .default([])
       .describe('The script: the moments of the scene in the order they are played'),
     npcs: z.array(entityRefOf('npc')).default([]),
@@ -160,7 +218,9 @@ export const Scene = deriveSlug(
     opponents: z
       .array(SceneOpponent)
       .default([])
-      .describe('The starting roster of the encounter run from this scene'),
+      .describe(
+        'The starting roster of the encounter run from this scene. Whoever joins later belongs to the `fight` of a beat',
+      ),
     combat: SceneCombatNotes.optional(),
     shipDamage: SceneShipDamage.optional(),
   }),

@@ -99976,14 +99976,15 @@
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/broadsword.html",
       "usedIn": [
-        "src/data/creatures/guard.ts",
         "src/data/npcs/blackbeard.ts",
         "src/data/npcs/captain-garran.ts",
         "src/data/npcs/faceless-shadow.ts",
         "src/data/npcs/giggles.ts",
         "src/data/npcs/lord-malachar.ts",
         "src/data/npcs/ryan.ts",
+        "src/data/npcs/sergeant-bruna-kell.ts",
         "src/data/npcs/sylvia-s-brother.ts",
+        "src/data/npcs/tempest-soldier.ts",
         "src/data/npcs/the-fiddler-s-knight.ts",
         "src/lib/ability-icons.tsx"
       ]
@@ -101479,7 +101480,6 @@
       "usedIn": [
         "src/data/beasts/chimera.ts",
         "src/data/npcs/bessy.ts",
-        "src/data/npcs/dust-lost-sailor.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -154547,6 +154547,7 @@
         "src/data/npcs/korrag-stonevow.ts",
         "src/data/npcs/misha.ts",
         "src/data/npcs/silas-wren.ts",
+        "src/data/npcs/tempest-soldier.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -198067,6 +198068,7 @@
         "src/data/npcs/skynet-gang-leader.ts",
         "src/data/npcs/sylvia-s-brother.ts",
         "src/data/npcs/tempest-patriarch.ts",
+        "src/data/npcs/tempest-soldier.ts",
         "src/data/npcs/the-12th-marshal.ts",
         "src/data/npcs/the-father.ts",
         "src/data/npcs/the-fiddler-s-knight.ts",
@@ -266654,9 +266656,11 @@
       "sourceUrl": "https://lucide.dev/icons/check",
       "usedIn": [
         "src/components/dm/encounter/combat-status.tsx",
+        "src/components/dm/encounter/encounter-fights.tsx",
         "src/components/dm/encounter/turn-card.tsx",
         "src/components/dm/group-save-tracker.tsx",
         "src/components/dm/scene-script.tsx",
+        "src/components/dm/ship-room-fight.tsx",
         "src/components/player-screen/jims-letter-words-control.tsx"
       ]
     },
@@ -267091,6 +267095,7 @@
       "usedIn": [
         "src/components/campaign-shell/sidebar.tsx",
         "src/components/dm/encounter/combat-table.tsx",
+        "src/components/dm/encounter/encounter-fights.tsx",
         "src/components/dm/encounter/encounter-notes.tsx",
         "src/components/dm/ship-damage-clock.tsx"
       ]
@@ -267259,7 +267264,8 @@
         "src/components/dm/scene-branches.tsx",
         "src/components/locations-index.tsx",
         "src/components/player-screen/player-screen-dock.tsx",
-        "src/components/questions-page.tsx"
+        "src/components/questions-page.tsx",
+        "src/routes/dm/scenes/$slug.tsx"
       ]
     },
     {
@@ -298292,7 +298298,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/notebook-text",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/ship-room-fight.tsx"
+      ]
     },
     {
       "id": "lucide/NotepadText",
@@ -301480,6 +301488,8 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/pin",
       "usedIn": [
+        "src/components/dm/scene-ship-damage.tsx",
+        "src/components/dm/ship-damage-clock.tsx",
         "src/routes/dm/scenes/$slug.tsx"
       ]
     },
@@ -301519,7 +301529,10 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/pin-off",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/scene-ship-damage.tsx",
+        "src/components/dm/ship-damage-clock.tsx"
+      ]
     },
     {
       "id": "lucide/Pipette",
@@ -317068,7 +317081,10 @@
       "usedIn": [
         "src/components/dm/dm-hidden-reference.tsx",
         "src/components/dm/dm-quick-links.tsx",
+        "src/components/dm/encounter/encounter-fights.tsx",
         "src/components/dm/encounter/stat-block-sections.tsx",
+        "src/components/dm/scene-script.tsx",
+        "src/components/dm/ship-room-fight.tsx",
         "src/routes/dm/encounter/index.tsx"
       ]
     },
@@ -324563,7 +324579,8 @@
         "src/components/dm/encounter/turn-card.tsx",
         "src/components/image-viewer.tsx",
         "src/components/player-screen/player-screen-dock.tsx",
-        "src/components/player-screen/pointing-view.tsx"
+        "src/components/player-screen/pointing-view.tsx",
+        "src/routes/dm/scenes/$slug.tsx"
       ]
     },
     {

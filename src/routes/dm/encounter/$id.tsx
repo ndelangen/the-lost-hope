@@ -11,6 +11,7 @@ import { CombatTable, type CombatantControls } from '#/components/dm/encounter/c
 import { CombatantPanel, type UseActions } from '#/components/dm/encounter/combatant-panel'
 import { EncounterDensity } from '#/components/dm/encounter/density'
 import { DmScreen } from '#/components/dm/encounter/dm-screen'
+import { EncounterFights } from '#/components/dm/encounter/encounter-fights'
 import { EncounterNotes } from '#/components/dm/encounter/encounter-notes'
 import { EncounterRoster, type RosterRow } from '#/components/dm/encounter/encounter-roster'
 import { FocusToolbar } from '#/components/dm/encounter/focus-toolbar'
@@ -21,9 +22,9 @@ import { LegendaryRow, type LegendaryGroup } from '#/components/dm/encounter/leg
 import { PartyStrip } from '#/components/dm/encounter/party-strip'
 import { ConcentrationPrompt, TurnCard } from '#/components/dm/encounter/turn-card'
 import { newEncounterId, useEncounterStore } from '#/components/dm/encounter/use-encounter-store'
-import { ShipDamageClock } from '#/components/dm/ship-damage-clock'
+import { SceneShipDamage } from '#/components/dm/scene-ship-damage'
 import { resolveScene, resolveSourceRef, sceneShipUnderFire } from '#/lib/dm-campaign'
-import { combatantView, currentParty, encounterCandidates } from '#/lib/dm-encounter'
+import { combatantView, currentParty, encounterCandidates, sceneFights } from '#/lib/dm-encounter'
 import {
   LEGENDARY_POOL,
   abilityKey,
@@ -38,6 +39,7 @@ import {
   canStepBack,
   deathSave,
   findEncounter,
+  joinFight,
   liveStats,
   markDead,
   moveCombatant,
@@ -160,6 +162,20 @@ function EncounterRoute() {
           vesselName: resolveSourceRef(ship.vessel)?.name,
         }
       : undefined
+
+  const fights = scene
+    ? sceneFights(scene).map((fight) => ({ ...fight, joined: encounter.joined[fight.key] ?? 0 }))
+    : []
+  const fightsPanel =
+    scene && fights.length > 0 ? (
+      <EncounterFights
+        sceneName={scene.name}
+        fights={fights}
+        onJoin={({ key, creatures }) =>
+          updateEncounter((current) => joinFight(current, key, creatures))
+        }
+      />
+    ) : null
 
   const combatants = encounter.roster.map((entry) => combatantView(entry, encounter.roster))
   const rows: RosterRow[] = combatants.map((combatant) => {
@@ -421,8 +437,9 @@ function EncounterRoute() {
           />
           <DmScreen open={screenOpen} onClose={() => setScreenOpen(false)} />
           {scene ? <EncounterNotes sceneName={scene.name} notes={scene.combat} /> : null}
+          {fightsPanel}
           {shipDamage?.vesselName ? (
-            <ShipDamageClock
+            <SceneShipDamage
               sceneKey={shipDamage.sceneKey}
               vesselName={shipDamage.vesselName}
               ship={shipDamage.ship}
@@ -502,6 +519,8 @@ function EncounterRoute() {
             </div>
           </div>
         </header>
+
+        {fightsPanel}
 
         <InitiativeRow
           combatants={combatants}

@@ -61,6 +61,41 @@ describe('who and what a branch names', () => {
     )
 
     expect(only?.items).toEqual([item('draught')])
-    expect(only?.followUps[0]?.items).toEqual([item('draught')])
+    expect(only?.followUps[0]?.items).toEqual([])
+  })
+
+  it('details a record only in the first branch that names it, follow-ups before later branches', () => {
+    const names = (who: string) => ({ when: [['If ', npc(who), ' is there.']], response: [['…']] })
+    const [first, second] = buildSceneBranches(
+      [
+        { ...names('maren'), followUps: [{ ...names('pell'), followUps: [] }] },
+        { ...names('pell'), followUps: [{ ...names('maren'), followUps: [] }] },
+      ],
+      () => false,
+    )
+
+    expect(first?.npcs).toEqual([npc('maren')])
+    expect(first?.followUps[0]?.npcs).toEqual([npc('pell')])
+    expect(second?.npcs).toEqual([])
+    expect(second?.followUps[0]?.npcs).toEqual([])
+  })
+
+  it('leaves out whoever the page detailed before these branches, and adds its own to the list', () => {
+    const briefed = new Set(['npc:maren'])
+    const [only] = buildSceneBranches(
+      [
+        {
+          when: [['They help ', npc('maren'), ' or ', npc('pell'), '.']],
+          response: [['…']],
+          followUps: [],
+        },
+      ],
+      () => false,
+      '',
+      briefed,
+    )
+
+    expect(only?.npcs).toEqual([npc('pell')])
+    expect(briefed).toEqual(new Set(['npc:maren', 'npc:pell']))
   })
 })

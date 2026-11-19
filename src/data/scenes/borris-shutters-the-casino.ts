@@ -49,7 +49,46 @@ export default createScene({
             ['Keep this short. The goal of the session is to bring the party back together.'],
             [
               refs.pcs.jim,
-              ' barely speaks: the voices from his past are getting louder. Give him a muttered word or two at most.',
+              ' barely speaks after his moment with ',
+              refs.pcs.swift_starblade,
+              ' in the next beat: the voices from his past are getting louder. Give him a muttered word or two at most.',
+            ],
+          ],
+        },
+      ],
+    },
+    {
+      title: 'Jim inspires Swift',
+      lines: [
+        {
+          do: [
+            [
+              'As they walk, ',
+              refs.pcs.jim,
+              ' and ',
+              refs.pcs.swift_starblade,
+              ' are jovial about their adventure together. In that mood, ',
+              refs.pcs.jim,
+              ' gives ',
+              refs.pcs.swift_starblade,
+              ' a Bardic Inspiration: a d6. Tell his player to note it down.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              'Within the next hour, when ',
+              refs.pcs.swift_starblade,
+              ' fails an attack roll, an ability check or a ',
+              refs.rules.saving_throw,
+              ', he can roll the d6 once and add it. That hour runs past the moment ',
+              refs.pcs.jim,
+              ' is taken in ',
+              refs.scenes.the_green_beam_over_the_sky_islands,
+              ', so he still holds the die after ',
+              refs.pcs.jim,
+              ' is gone.',
             ],
           ],
         },

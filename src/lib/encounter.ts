@@ -50,6 +50,8 @@ const Encounter = z.strictObject({
   round: z.number().int().positive(),
   /** Live values per combatant in this encounter, keyed by roster entry id. */
   values: z.record(z.string(), CombatantValues),
+  /** How many times each of the scene's fights was brought in, by the title of its beat. */
+  joined: z.record(z.string(), z.number().int().positive()).default({}),
 })
 
 const EncounterStore = z.strictObject({ encounters: z.array(Encounter) })
@@ -105,6 +107,18 @@ export function addCreature(encounter: Encounter, source: CreatureRef): Encounte
     source: { ref: source.ref, key: source.key },
     copy,
   })
+}
+
+/** Bring one of the scene's fights in: its creatures join the roster, and the fight counts as joined. */
+export function joinFight(
+  encounter: Encounter,
+  key: string,
+  creatures: readonly CreatureRef[],
+): Encounter {
+  return {
+    ...creatures.reduce<Encounter>(addCreature, encounter),
+    joined: { ...encounter.joined, [key]: (encounter.joined[key] ?? 0) + 1 },
+  }
 }
 
 export function addPc(encounter: Encounter, source: EntityRef<'pc'>): Encounter {
@@ -236,6 +250,7 @@ export function createEncounter(
     active: undefined,
     round: 1,
     values: {},
+    joined: {},
   }
   return { ...store, encounters: [...store.encounters, { ...build(blank), round: 1 }] }
 }

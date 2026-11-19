@@ -13,6 +13,7 @@ import {
   duplicateEncounter,
   encounterForScene,
   findEncounter,
+  joinFight,
   renameEncounter,
   updateEncounter,
   combatantName,
@@ -41,7 +42,14 @@ const pounce = abilityKey('action', 'Pounce')
 
 /** One NPC, two copies of one beast, and a player placeholder: the agreed local trial. */
 function trial(): Encounter {
-  const blank: Encounter = { id: 'trial', name: 'Trial', roster: [], round: 1, values: {} }
+  const blank: Encounter = {
+    id: 'trial',
+    name: 'Trial',
+    roster: [],
+    round: 1,
+    values: {},
+    joined: {},
+  }
   return addPlaceholder(addCreature(addCreature(addCreature(blank, knight), wolf), wolf), 'Devan')
 }
 
@@ -234,6 +242,28 @@ describe('prepared encounters', () => {
       roster: [{ id: 'beast:wolf:1' }],
     })
     expect(encounterForScene(store, ambush)?.id).toBe('ambush')
+  })
+
+  it('brings a fight of the scene in, counting each time it joins', () => {
+    const once = joinFight(trial(), 'The bow', [wolf, wolf])
+    expect(once.roster.map(({ id }) => id)).toEqual([
+      'npc:knight:1',
+      'beast:wolf:1',
+      'beast:wolf:2',
+      'placeholder:1',
+      'beast:wolf:3',
+      'beast:wolf:4',
+    ])
+    expect(once.joined).toEqual({ 'The bow': 1 })
+    const twice = joinFight(joinFight(once, 'The bow', [wolf]), 'The helm', [knight])
+    expect(twice.joined).toEqual({ 'The bow': 2, 'The helm': 1 })
+    expect(twice.roster).toHaveLength(8)
+  })
+
+  it('reads an encounter saved before fights were counted', () => {
+    const { joined: _joined, ...saved } = trial()
+    const store = parseStore(JSON.stringify({ encounters: [saved] }))
+    expect(findEncounter(store, 'trial')?.joined).toEqual({})
   })
 
   it('renames, ignoring blank names', () => {

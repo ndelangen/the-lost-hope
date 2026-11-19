@@ -1,7 +1,8 @@
-import { Check, Info, MoveRight, RotateCcw, SkipForward, Undo2 } from 'lucide-react'
+import { Check, Info, MoveRight, RotateCcw, SkipForward, Swords, Undo2 } from 'lucide-react'
 import { useEffect, useRef } from 'react'
 
 import { ContentRenderer } from '#/components/content-renderer'
+import { FightLineUp } from '#/components/dm/fight-line-up'
 import { SceneBranches } from '#/components/dm/scene-branches'
 import type { SceneLine } from '#/definitions/scene'
 import { groupSaveStorageKey } from '#/lib/group-save'
@@ -149,23 +150,7 @@ function OpenBeat({
         ) : null}
       </header>
 
-      <ul className="grid gap-4">
-        {beat.lines.map((line, index) => (
-          // oxlint-disable-next-line react/no-array-index-key -- a beat's lines have no ids and never reorder
-          <li key={index}>
-            <ScriptLine line={line} />
-          </li>
-        ))}
-      </ul>
-
-      {groupSave}
-
-      {beat.branches.length > 0 ? (
-        <div className="grid gap-2">
-          <p className="text-muted-foreground text-xs font-semibold uppercase">If…</p>
-          <SceneBranches branches={beat.branches} />
-        </div>
-      ) : null}
+      <BeatBody beat={beat} groupSave={groupSave} />
 
       <footer className="flex flex-wrap gap-3">
         <button
@@ -186,6 +171,48 @@ function OpenBeat({
         ) : null}
       </footer>
     </article>
+  )
+}
+
+/** What a beat holds: its lines in order, a group save, who joins the fight, and its branches. */
+export function BeatBody({
+  beat,
+  groupSave = null,
+}: {
+  beat: ScriptBeat
+  /** The tracker of the beat's group save, when it has one and the page tracks it. */
+  groupSave?: React.ReactNode
+}) {
+  return (
+    <>
+      <ul className="grid gap-4">
+        {beat.lines.map((line, index) => (
+          // oxlint-disable-next-line react/no-array-index-key -- a beat's lines have no ids and never reorder
+          <li key={index}>
+            <ScriptLine line={line} />
+          </li>
+        ))}
+      </ul>
+
+      {groupSave}
+
+      {beat.fight ? (
+        <div className="border-border bg-muted/30 grid gap-2 rounded-lg border p-3">
+          <p className="text-muted-foreground flex items-center gap-2 text-xs font-semibold uppercase">
+            <Swords className="size-4" aria-hidden />
+            {beat.fight.repeats ? 'Joins the fight, one group each time' : 'Joins the fight'}
+          </p>
+          <FightLineUp lineUp={beat.fight} />
+        </div>
+      ) : null}
+
+      {beat.branches.length > 0 ? (
+        <div className="grid gap-2">
+          <p className="text-muted-foreground text-xs font-semibold uppercase">If…</p>
+          <SceneBranches branches={beat.branches} />
+        </div>
+      ) : null}
+    </>
   )
 }
 
