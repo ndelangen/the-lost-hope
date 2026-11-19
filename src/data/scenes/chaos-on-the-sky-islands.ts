@@ -48,7 +48,33 @@ export default createScene({
               refs.locations.skynet,
               '.',
             ],
-            ['Bring him in a little after the beam, still singed. He remembers who saved him.'],
+            [
+              'Bring him in a little after the beam, still singed. The flight takes everything he has left: he arrives at exhaustion level 5, and delivers a small speech:',
+            ],
+          ],
+        },
+        {
+          speaker: refs.npcs.crowy,
+          say: [['Get to the Nimbus docks, fast! Jim… Swifty they are in trouble!']],
+        },
+        { do: [['Then ', refs.npcs.crowy, ' collapses.']] },
+        {
+          note: [
+            [
+              'This is what sends ',
+              refs.pcs.devan,
+              ' and ',
+              refs.pcs.cassian_veyl,
+              ' to the docks of ',
+              refs.locations.nimbus,
+              '. The ways there are under Chaos on the islands, below.',
+            ],
+            [
+              'Exhaustion level 5 is one step from death: a sixth level kills him. A ',
+              refs.rules.long_rest,
+              ' takes one level off. What they do with him is up to them.',
+            ],
+            ['He remembers who saved him.'],
           ],
         },
       ],
