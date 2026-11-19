@@ -113,15 +113,16 @@ export function addCreature(encounter: Encounter, source: CreatureRef): Encounte
 export type Arrival = 'next' | 'end'
 
 /**
- * Creatures join a running fight together: at the end of the round, or right after the current
+ * Creatures and PCs join a running fight together: at the end of the round, or right after the current
  * turn. Before the fight has a current turn, they simply join the end of the order.
  */
 export function bringIn(
   encounter: Encounter,
   creatures: readonly CreatureRef[],
   arrival: Arrival = 'end',
+  pcs: readonly EntityRef<'pc'>[] = [],
 ): Encounter {
-  const added = creatures.reduce<Encounter>(addCreature, encounter)
+  const added = addParty(creatures.reduce<Encounter>(addCreature, encounter), pcs)
   const at = encounter.roster.findIndex((entry) => entry.id === encounter.active) + 1
   if (arrival === 'end' || at === 0) return added
   const newcomers = added.roster.slice(encounter.roster.length)

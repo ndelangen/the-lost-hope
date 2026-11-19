@@ -266655,6 +266655,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/check",
       "usedIn": [
+        "src/components/dm/encounter/add-enemies-sheet.tsx",
         "src/components/dm/encounter/combat-status.tsx",
         "src/components/dm/encounter/encounter-fights.tsx",
         "src/components/dm/encounter/turn-card.tsx",

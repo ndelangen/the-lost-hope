@@ -281,6 +281,9 @@ describe('prepared encounters', () => {
       'placeholder:1',
     ])
     expect(next.active).toBe('beast:wolf:1')
+    expect(
+      bringIn(start, [], 'next', [{ ref: 'pc', key: 'swift' }]).roster.map(({ id }) => id),
+    ).toEqual(['npc:knight:1', 'beast:wolf:1', 'pc:swift', 'beast:wolf:2', 'placeholder:1'])
   })
 
   it('reads an encounter saved before fights were counted', () => {

@@ -1,9 +1,10 @@
-import { Minus, PawPrint, Plus, UserPlus, UserRound, X } from 'lucide-react'
+import { Check, Minus, PawPrint, Plus, UserPlus, UserRound, X } from 'lucide-react'
 import { useEffect, useId, useRef, useState } from 'react'
 
 import { Avatar } from '#/components/ui/avatar'
 import { Input } from '#/components/ui/input'
-import type { EnemyCandidate as EnemyOption } from '#/lib/dm-encounter'
+import type { EntityRef } from '#/definitions/kind'
+import type { EnemyCandidate as EnemyOption, PartyMember } from '#/lib/dm-encounter'
 import type { Arrival, CreatureRef } from '#/lib/encounter'
 import {
   DIFFICULTY_LABEL,
@@ -21,8 +22,8 @@ export type EnemyPick = { source: CreatureRef; count: number }
 const idOf = ({ ref, key }: CreatureRef) => `${ref}:${key}`
 
 /**
- * Add enemies to a running fight in one go: how many of each of the scene's enemies, or anyone
- * found by search, when they act, and how hard the fight becomes for the party.
+ * Add to a running fight in one go: party members not in it yet, how many of each of the scene's
+ * enemies, or anyone found by search, when they act, and how hard the fight becomes for the party.
  */
 export function AddEnemiesSheet({
   open,
@@ -33,6 +34,7 @@ export function AddEnemiesSheet({
   budget,
   standingXp,
   activeName,
+  party,
   onAdd,
 }: {
   open: boolean
@@ -45,7 +47,9 @@ export function AddEnemiesSheet({
   standingXp: number
   /** Whose turn it is, when the fight has started. */
   activeName: string | undefined
-  onAdd: (picks: EnemyPick[], arrival: Arrival) => void
+  /** Party members who are not in the fight yet. */
+  party: readonly PartyMember[]
+  onAdd: (picks: EnemyPick[], pcs: EntityRef<'pc'>[], arrival: Arrival) => void
 }) {
   const headingRef = useRef<HTMLHeadingElement>(null)
   const inputId = useId()
@@ -53,6 +57,7 @@ export function AddEnemiesSheet({
   const [extra, setExtra] = useState<readonly EnemyOption[]>([])
   const [query, setQuery] = useState('')
   const [arrival, setArrival] = useState<Arrival>('end')
+  const [pcs, setPcs] = useState<ReadonlySet<string>>(new Set())
 
   useEffect(() => {
     if (!open) return
@@ -60,6 +65,7 @@ export function AddEnemiesSheet({
     setCounts(new Map())
     setExtra([])
     setQuery('')
+    setPcs(new Set())
   }, [open])
 
   if (!open) return null
@@ -83,6 +89,13 @@ export function AddEnemiesSheet({
     return count > 0 ? [{ option, count }] : []
   })
   const total = picks.reduce((sum, { count }) => sum + count, 0)
+  const pickedPcs = party.filter((member) => pcs.has(member.source.key))
+  const togglePc = (key: string) =>
+    setPcs((current) => {
+      const next = new Set(current)
+      if (!next.delete(key)) next.add(key)
+      return next
+    })
   const addedXp = picks.reduce((sum, { option, count }) => sum + xpForCr(option.cr) * count, 0)
 
   const needle = query.trim().toLocaleLowerCase()
@@ -102,7 +115,7 @@ export function AddEnemiesSheet({
           tabIndex={-1}
           className="flex items-center gap-2 text-xl font-bold outline-none"
         >
-          <UserPlus aria-hidden className="size-6" /> Add enemies
+          <UserPlus aria-hidden className="size-6" /> Add to the fight
         </h2>
         <IconButton label="Close (Esc)" onClick={onClose}>
           <X aria-hidden />
@@ -110,6 +123,59 @@ export function AddEnemiesSheet({
       </header>
 
       <div className="grid content-start gap-5 overflow-y-auto px-5 py-4">
+        {party.length > 0 ? (
+          <section aria-labelledby={`${inputId}-party`} className="grid gap-2">
+            <div className="flex items-baseline justify-between gap-2">
+              <h3 id={`${inputId}-party`} className="text-muted-foreground text-sm font-semibold">
+                The party
+              </h3>
+              <button
+                type="button"
+                className="text-sm font-medium hover:underline"
+                onClick={() =>
+                  setPcs(
+                    pickedPcs.length === party.length
+                      ? new Set()
+                      : new Set(party.map((member) => member.source.key)),
+                  )
+                }
+              >
+                {pickedPcs.length === party.length ? 'None' : 'Everyone'}
+              </button>
+            </div>
+            <ul className="grid grid-cols-2 gap-2">
+              {party.map((member) => {
+                const picked = pcs.has(member.source.key)
+                return (
+                  <li key={member.source.key}>
+                    <button
+                      type="button"
+                      aria-pressed={picked}
+                      onClick={() => togglePc(member.source.key)}
+                      className={cn(
+                        'flex min-h-14 w-full items-center gap-3 rounded-xl border-2 px-3 text-left',
+                        picked
+                          ? 'border-amber-500/60 bg-amber-500/10'
+                          : 'border-border hover:bg-muted',
+                      )}
+                    >
+                      {member.avatar ? (
+                        <Avatar src={member.avatar} sizes="36px" maxWidth={64} className="size-9" />
+                      ) : (
+                        <span className="bg-muted text-muted-foreground flex size-9 shrink-0 items-center justify-center rounded-full">
+                          <UserRound aria-hidden className="size-5" />
+                        </span>
+                      )}
+                      <span className="grow font-semibold">{member.name}</span>
+                      {picked ? <Check aria-hidden className="size-5 shrink-0" /> : null}
+                    </button>
+                  </li>
+                )
+              })}
+            </ul>
+          </section>
+        ) : null}
+
         <DifficultyMeter budget={budget} standingXp={standingXp} addedXp={addedXp} />
 
         <section aria-labelledby={`${inputId}-scene`} className="grid gap-2">
@@ -212,24 +278,32 @@ export function AddEnemiesSheet({
         <ActionButton
           tone="primary"
           size="lg"
-          disabled={total === 0}
+          disabled={total === 0 && pickedPcs.length === 0}
           className="w-full"
           onClick={() => {
             onAdd(
               picks.map(({ option, count }) => ({ source: option.source, count })),
+              pickedPcs.map((member) => member.source),
               arrival,
             )
             onClose()
           }}
         >
           <UserPlus aria-hidden />
-          {total === 0
-            ? 'Pick enemies to add'
-            : `Add ${total} ${total === 1 ? 'enemy' : 'enemies'}`}
+          {addLabel(pickedPcs.length, total)}
         </ActionButton>
       </footer>
     </aside>
   )
+}
+
+/** What the add button says: who joins, counted. */
+export function addLabel(pcs: number, enemies: number) {
+  const parts = [
+    pcs > 0 ? `${pcs} ${pcs === 1 ? 'PC' : 'PCs'}` : '',
+    enemies > 0 ? `${enemies} ${enemies === 1 ? 'enemy' : 'enemies'}` : '',
+  ].filter(Boolean)
+  return parts.length > 0 ? `Add ${parts.join(' and ')}` : 'Pick who joins'
 }
 
 function EnemyRow({

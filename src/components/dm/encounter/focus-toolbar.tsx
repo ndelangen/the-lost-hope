@@ -59,8 +59,8 @@ export function FocusToolbar({
         </ActionButton>
       </div>
       <div className="ml-auto flex items-center gap-2">
-        <ActionButton onClick={onAddEnemies} title="Add enemies (A)">
-          <UserPlus aria-hidden /> Add enemies
+        <ActionButton onClick={onAddEnemies} title="Add to the fight (A)">
+          <UserPlus aria-hidden /> Add to fight
         </ActionButton>
         <fieldset className="border-border bg-muted/40 m-0 flex h-12 min-w-0 gap-1 rounded-xl border-2 p-1">
           <legend className="sr-only">Focus layout</legend>

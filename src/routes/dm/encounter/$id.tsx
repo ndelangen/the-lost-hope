@@ -241,12 +241,16 @@ function EncounterRoute() {
       budget={difficulty.budget}
       standingXp={difficulty.standingXp}
       activeName={rows.find((row) => row.id === encounter.active)?.name}
-      onAdd={(picks, arrival) =>
+      party={party.filter(
+        (member) => !encounter.roster.some((entry) => entry.id === `pc:${member.source.key}`),
+      )}
+      onAdd={(picks, pcs, arrival) =>
         updateEncounter((current) =>
           bringIn(
             current,
             picks.flatMap(({ source, count }) => Array.from({ length: count }, () => source)),
             arrival,
+            pcs,
           ),
         )
       }
@@ -571,8 +575,8 @@ function EncounterRoute() {
               >
                 <RotateCcw aria-hidden /> Reset HP and uses
               </ActionButton>
-              <ActionButton onClick={openAddEnemies} title="Add enemies (A)">
-                <UserPlus aria-hidden /> Add enemies
+              <ActionButton onClick={openAddEnemies} title="Add to the fight (A)">
+                <UserPlus aria-hidden /> Add to fight
               </ActionButton>
               <ActionButton tone="primary" onClick={() => setFocus(true)} title="Combat focus (F)">
                 <Maximize2 aria-hidden /> Focus
