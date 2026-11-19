@@ -14,8 +14,8 @@ import type { Tokens } from '#/definitions/tokens'
 import { campaignSessions, resolveRef, sessionSlugForEvent } from '#/lib/campaign'
 import { collectReferences } from '#/lib/campaign-read-model'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
-import type { ShipUnderFire } from '#/lib/ship-damage'
 import { vesselHull } from '#/lib/ship-decks'
+import type { ShipAboard } from '#/lib/ship-rooms'
 
 export const arcs: Readonly<Record<string, Arc>> = arcRecords
 export const scenes: Readonly<Record<string, Scene>> = sceneRecords
@@ -52,7 +52,7 @@ export function sceneMentions(scene: Scene): EntityRef[] {
     scene.beats,
     scene.outcomes,
     scene.combat,
-    scene.shipDamage?.vessel,
+    scene.aboard,
   ])
   const seen = new Set<string>()
   return found.filter((ref) => {
@@ -70,11 +70,10 @@ export function plotCast(plot: Plot): EntityRef<'npc'>[] {
   return [...plot.npcs, ...(scene?.npcs ?? []).filter((npc) => !keys.has(npc.key))]
 }
 
-/** A scene's ship-damage pacing with its vessel's hull, when the vessel has one. */
-export function sceneShipUnderFire(scene: Scene): ShipUnderFire | undefined {
-  const damage = scene.shipDamage
-  const vessel = damage ? vesselHull(damage.vessel.key) : undefined
-  return damage && vessel ? { ...damage, ...vessel.hull } : undefined
+/** The vessel a scene is fought aboard, with its layout, when the vessel has one. */
+export function sceneShipAboard(scene: Scene): ShipAboard | undefined {
+  const vessel = scene.aboard ? vesselHull(scene.aboard.key) : undefined
+  return scene.aboard && vessel ? { vessel: scene.aboard, ...vessel } : undefined
 }
 
 export function npcMotivations(ref: EntityRef<'npc'>) {

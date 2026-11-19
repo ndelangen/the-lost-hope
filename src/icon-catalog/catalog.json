@@ -227167,9 +227167,7 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/stone-pile.html",
-      "usedIn": [
-        "src/components/ship/difficult-terrain-badge.tsx"
-      ]
+      "usedIn": []
     },
     {
       "id": "gi/GiStoneSpear",
@@ -259522,9 +259520,7 @@
       "classification": "questionable",
       "classificationReason": "Manually classified as questionable from the /_icons review page.",
       "sourceUrl": "https://lucide.dev/icons/bell",
-      "usedIn": [
-        "src/components/dm/ship-damage-clock.tsx"
-      ]
+      "usedIn": []
     },
     {
       "id": "lucide/BellCheck",
@@ -259728,9 +259724,7 @@
       "classification": "questionable",
       "classificationReason": "Manually classified as questionable from the /_icons review page.",
       "sourceUrl": "https://lucide.dev/icons/bell-off",
-      "usedIn": [
-        "src/components/dm/ship-damage-clock.tsx"
-      ]
+      "usedIn": []
     },
     {
       "id": "lucide/BellPlus",
@@ -267095,8 +267089,7 @@
         "src/components/campaign-shell/sidebar.tsx",
         "src/components/dm/encounter/combat-table.tsx",
         "src/components/dm/encounter/encounter-fights.tsx",
-        "src/components/dm/encounter/encounter-notes.tsx",
-        "src/components/dm/ship-damage-clock.tsx"
+        "src/components/dm/encounter/encounter-notes.tsx"
       ]
     },
     {
@@ -275900,8 +275893,7 @@
       "sourceUrl": "https://lucide.dev/icons/dices",
       "usedIn": [
         "src/components/dm/encounter/turn-card.tsx",
-        "src/components/dm/group-save-tracker.tsx",
-        "src/components/dm/ship-damage-clock.tsx"
+        "src/components/dm/group-save-tracker.tsx"
       ]
     },
     {
@@ -290422,7 +290414,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/life-buoy",
       "usedIn": [
-        "src/components/dm/ship-damage-clock.tsx"
+        "src/components/dm/ship-room-board.tsx"
       ]
     },
     {
@@ -296130,8 +296122,7 @@
       "usedIn": [
         "src/components/dm/encounter/add-enemies-sheet.tsx",
         "src/components/dm/encounter/hp-control.tsx",
-        "src/components/dm/party-tokens.tsx",
-        "src/components/dm/ship-damage-clock.tsx"
+        "src/components/dm/party-tokens.tsx"
       ]
     },
     {
@@ -300307,9 +300298,7 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/pause",
-      "usedIn": [
-        "src/components/dm/ship-damage-clock.tsx"
-      ]
+      "usedIn": []
     },
     {
       "id": "lucide/PawPrint",
@@ -301492,8 +301481,6 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/pin",
       "usedIn": [
-        "src/components/dm/scene-ship-damage.tsx",
-        "src/components/dm/ship-damage-clock.tsx",
         "src/routes/dm/scenes/$slug.tsx"
       ]
     },
@@ -301533,10 +301520,7 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/pin-off",
-      "usedIn": [
-        "src/components/dm/scene-ship-damage.tsx",
-        "src/components/dm/ship-damage-clock.tsx"
-      ]
+      "usedIn": []
     },
     {
       "id": "lucide/Pipette",
@@ -301725,8 +301709,7 @@
       "sourceUrl": "https://lucide.dev/icons/play",
       "usedIn": [
         "src/components/dm/encounter/ability-controls.tsx",
-        "src/components/dm/encounter/ability-text.tsx",
-        "src/components/dm/ship-damage-clock.tsx"
+        "src/components/dm/encounter/ability-text.tsx"
       ]
     },
     {
@@ -301965,8 +301948,7 @@
         "src/components/dm/encounter/combat-status.tsx",
         "src/components/dm/encounter/hp-control.tsx",
         "src/components/dm/encounter/preset-buttons.tsx",
-        "src/components/dm/party-tokens.tsx",
-        "src/components/dm/ship-damage-clock.tsx"
+        "src/components/dm/party-tokens.tsx"
       ]
     },
     {
@@ -304048,7 +304030,6 @@
         "src/components/dm/group-save-tracker.tsx",
         "src/components/dm/npc-portrait-status.tsx",
         "src/components/dm/scene-script.tsx",
-        "src/components/dm/ship-damage-clock.tsx",
         "src/components/player-screen/grid-controls.tsx",
         "src/components/player-screen/player-screen-dock.tsx",
         "src/routes/dm/encounter/index.tsx"

@@ -10,7 +10,7 @@ import {
   arcs,
   plotCast,
   sceneMentions,
-  sceneShipUnderFire,
+  sceneShipAboard,
   scenes,
   sessionsForArc,
   validateDmReferences,
@@ -81,9 +81,9 @@ describe('DM campaign model', () => {
     expect(withoutScript).toEqual([])
   })
 
-  it('gives every ship-damage scene a vessel with a hull', () => {
+  it('gives every scene fought aboard a vessel one with a hull', () => {
     const withoutHull = Object.entries(scenes)
-      .filter(([, entry]) => entry.shipDamage && !sceneShipUnderFire(entry))
+      .filter(([, entry]) => entry.aboard && !sceneShipAboard(entry))
       .map(([key]) => key)
     expect(withoutHull).toEqual([])
   })

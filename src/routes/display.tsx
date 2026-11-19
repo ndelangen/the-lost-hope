@@ -12,7 +12,6 @@ import {
   usePlayerScreenPointer,
 } from '#/components/player-screen/use-player-screen'
 import { ResponsiveImage } from '#/components/responsive-image'
-import { ShipDamageDecals } from '#/components/ship/ship-damage-decals'
 import { sceneGroupSaves } from '#/lib/group-save'
 import { resolvePlayerScreenImage } from '#/lib/player-screen'
 import { DEFAULT_PLAYER_SCREEN_GRID } from '#/lib/player-screen-grid'
@@ -22,7 +21,6 @@ import {
   playerScreenShowing,
 } from '#/lib/player-screen-state'
 import { responsiveImageFor } from '#/lib/public-media'
-import { shipDeckMap } from '#/lib/ship-decks'
 import { cn } from '#/lib/utils'
 
 const JimsLetterOnScreen = lazy(() =>
@@ -47,7 +45,6 @@ function PlayerScreenPage() {
   const image = showing ? resolvePlayerScreenImage(showing) : undefined
   const caption = captions ? image?.playerCaption : undefined
   const size = image?.src ? responsiveImageFor(image.src) : undefined
-  const deck = showing?.image === 'map' ? shipDeckMap(showing.ref.key) : undefined
   const sceneKey = showing?.ref.ref === 'scene' ? showing.ref.key : undefined
   const groupSaves = useMemo(() => (sceneKey ? sceneGroupSaves(sceneKey) : []), [sceneKey])
   const grid = showing ? playerScreenGridFor(state, showing) : DEFAULT_PLAYER_SCREEN_GRID
@@ -105,9 +102,6 @@ function PlayerScreenPage() {
                 loading="eager"
                 className="absolute inset-0 size-full"
               />
-              {deck ? (
-                <ShipDamageDecals deck={deck} width={size.width} height={size.height} />
-              ) : null}
               {grid.on ? <GridOverlay grid={grid} width={size.width} height={size.height} /> : null}
               <PointerMarksOverlay marks={marks} size="8vmin" />
             </div>

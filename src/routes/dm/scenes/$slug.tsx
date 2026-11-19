@@ -9,7 +9,7 @@ import { DmQuickLinks } from '#/components/dm/dm-quick-links'
 import { SceneBranches } from '#/components/dm/scene-branches'
 import { SceneEncounterStart } from '#/components/dm/scene-encounter-start'
 import { BeatBody, SceneScript } from '#/components/dm/scene-script'
-import { SceneShipDamage } from '#/components/dm/scene-ship-damage'
+import { ShipRoomBoard } from '#/components/dm/ship-room-board'
 import { StatBlockSummary } from '#/components/dm/stat-block-summary'
 import { ImageViewer } from '#/components/image-viewer'
 import { ShowToPlayersButton } from '#/components/player-screen/show-to-players-button'
@@ -17,7 +17,7 @@ import type { Item } from '#/definitions/item'
 import type { EntityRef } from '#/definitions/kind'
 import type { Location } from '#/definitions/location'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
-import { arcs, resolveSourceRef, sceneShipUnderFire, scenes, table } from '#/lib/dm-campaign'
+import { arcs, resolveSourceRef, sceneShipAboard, scenes, table } from '#/lib/dm-campaign'
 import { plotsByScene } from '#/lib/dm-dashboard'
 import { resolvePlayerScreenImage } from '#/lib/player-screen'
 import type { PlayerScreenImage } from '#/lib/player-screen-state'
@@ -74,11 +74,10 @@ function SceneRoute() {
   // The player screen only runs in local dev, and only shows scenes that have a picture.
   const picture =
     import.meta.env.DEV && resolvePlayerScreenImage(sceneImage) ? sceneImage : undefined
-  const ship = sceneShipUnderFire(scene)
-  const vessel = ship ? resolveSourceRef(ship.vessel) : undefined
+  const ship = sceneShipAboard(scene)
   const search = Route.useSearch()
   const navigate = useNavigate({ from: Route.fullPath })
-  const shipFirst = Boolean(ship && vessel) && search.layout !== 'full'
+  const shipFirst = Boolean(ship) && search.layout !== 'full'
   // The room whose notes are open under the ship, by the title of its beat.
   const [room, setRoom] = useState<string>()
   // The sheet is read on its own, so it details everyone its beat names.
@@ -191,15 +190,13 @@ function SceneRoute() {
       </ul>
     ) : null
   const setup = <ContentRenderer content={scene.setup} />
-  const shipBoard =
-    ship && vessel ? (
-      <SceneShipDamage
-        sceneKey={key}
-        vesselName={vessel.name}
-        ship={ship}
-        onNotes={shipFirst ? (fight) => setRoom(fight.key) : undefined}
-      />
-    ) : null
+  const shipBoard = ship ? (
+    <ShipRoomBoard
+      sceneKey={key}
+      ship={ship}
+      onNotes={shipFirst ? (fight) => setRoom(fight.key) : undefined}
+    />
+  ) : null
   const scriptList =
     script.length > 0 ? <SceneScript sceneKey={key} script={script} picture={picture} /> : null
   const anyTime = scene.outcomes.length > 0 ? <SceneBranches branches={branches} /> : null
@@ -274,7 +271,7 @@ function SceneRoute() {
           <ContentRenderer
             content={[locations.flatMap((ref, index) => [index === 0 ? 'at ' : ' or ', ref])]}
           />
-          {ship && vessel ? (
+          {ship ? (
             <fieldset className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-2">
               <legend className="sr-only">Page layout</legend>
               <span aria-hidden className="text-sm font-semibold">

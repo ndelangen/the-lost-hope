@@ -23,9 +23,9 @@ import { LegendaryRow, type LegendaryGroup } from '#/components/dm/encounter/leg
 import { PartyStrip } from '#/components/dm/encounter/party-strip'
 import { ConcentrationPrompt, TurnCard } from '#/components/dm/encounter/turn-card'
 import { newConditionId, useEncounter } from '#/components/dm/encounter/use-encounter-store'
-import { SceneShipDamage } from '#/components/dm/scene-ship-damage'
+import { ShipRoomBoard } from '#/components/dm/ship-room-board'
 import { usePlayerScreen } from '#/components/player-screen/use-player-screen'
-import { resolveScene, resolveSourceRef, sceneShipUnderFire } from '#/lib/dm-campaign'
+import { resolveScene, sceneShipAboard } from '#/lib/dm-campaign'
 import {
   combatantView,
   creatureCandidate,
@@ -172,15 +172,7 @@ function EncounterRoute() {
   const running = isRunning(encounter)
   const scene = encounter.scene ? resolveScene(encounter.scene) : undefined
   const title = scene?.name ?? 'Encounter'
-  const ship = scene ? sceneShipUnderFire(scene) : undefined
-  const shipDamage =
-    encounter.scene && ship
-      ? {
-          sceneKey: encounter.scene.key,
-          ship,
-          vesselName: resolveSourceRef(ship.vessel)?.name,
-        }
-      : undefined
+  const ship = scene ? sceneShipAboard(scene) : undefined
 
   const sceneRef = encounter.scene
   const fights =
@@ -506,12 +498,8 @@ function EncounterRoute() {
           {addEnemiesSheet}
           {scene ? <EncounterNotes sceneName={scene.name} notes={scene.combat} /> : null}
           {fightsPanel}
-          {shipDamage?.vesselName ? (
-            <SceneShipDamage
-              sceneKey={shipDamage.sceneKey}
-              vesselName={shipDamage.vesselName}
-              ship={shipDamage.ship}
-            />
+          {encounter.scene && ship ? (
+            <ShipRoomBoard sceneKey={encounter.scene.key} ship={ship} />
           ) : null}
           <PartyStrip
             party={rows.filter((row) => row.kind === 'PC')}

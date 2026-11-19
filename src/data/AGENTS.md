@@ -82,9 +82,9 @@ canon.
   slice it is anywhere on that deck. A fight with no `where` follows the party. The ship's
   schematic then shows the fight in its rooms, so the room is not repeated in the beat's lines.
 - A plot lists only NPCs its scene does not already cast. The plot's full cast is derived.
-- A vessel's layout (`hull` sectors, their hit points and escape pods) lives on its item. A deck
-  map's location says where each sector lies on that map (`deck`). A scene's `shipDamage` holds
-  only the pacing, and the clock shows the numbers, so the scene text does not repeat them.
+- A vessel's layout (`hull` sectors and their escape pods) lives on its item. A deck map's
+  location names its vessel (`deck`). A scene fought aboard a vessel names it in `aboard`, and the
+  room board shows the rooms, so the scene text does not repeat them.
 - A save that many characters make at the same moment is a beat's `groupSave`: who rolls, the
   ability, the DC and the bonus for a good reason. Someone whose outcome is fixed is listed as
   `{ who, always }`. The tracker and the player screen show the list and the numbers, so the

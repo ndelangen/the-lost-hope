@@ -3,9 +3,14 @@ import { useMemo } from 'react'
 import { resolveScene } from '#/lib/dm-campaign'
 import { fightPreset, sceneFights } from '#/lib/dm-encounter'
 import { fightKey, isRunning } from '#/lib/encounter'
-import { initialHullDamage, shipSectors, type ShipUnderFire } from '#/lib/ship-damage'
 import { vesselDecks } from '#/lib/ship-decks'
-import { shipRooms, type RoomFight, type ShipRooms } from '#/lib/ship-rooms'
+import {
+  shipRooms,
+  shipSectors,
+  type RoomFight,
+  type ShipAboard,
+  type ShipRooms,
+} from '#/lib/ship-rooms'
 
 import { useEncounter } from './encounter/use-encounter-store'
 import { useLoadPreset } from './use-load-preset'
@@ -16,7 +21,7 @@ import { useLoadPreset } from './use-load-preset'
  */
 export function useShipRooms(
   sceneKey: string,
-  ship: ShipUnderFire,
+  ship: ShipAboard,
 ): {
   rooms: ShipRooms
   running: boolean
@@ -32,7 +37,7 @@ export function useShipRooms(
   const rooms = useMemo(
     () =>
       shipRooms(
-        shipSectors(ship, initialHullDamage(ship)),
+        shipSectors(ship.hull),
         vesselDecks(ship.vessel.key),
         fights.map((fight) => ({
           ...fight,

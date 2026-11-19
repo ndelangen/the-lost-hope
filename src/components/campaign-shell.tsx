@@ -28,15 +28,6 @@ const PlayerScreenDock = import.meta.env.DEV
     )
   : undefined
 
-/** A pinned ship-damage clock is a DM table tool too, so it also ships in local dev only. */
-const ShipDamageDock = import.meta.env.DEV
-  ? lazy(() =>
-      import('#/components/dm/ship-damage-dock').then((module) => ({
-        default: module.ShipDamageDock,
-      })),
-    )
-  : undefined
-
 export function CampaignShell({ initialPreferences }: { initialPreferences: UiPreferences }) {
   const pathname = useRouterState({ select: (state) => state.location.pathname })
   const hasNavigation = pathname !== '/_icons'
@@ -154,12 +145,6 @@ export function CampaignShell({ initialPreferences }: { initialPreferences: UiPr
           </Suspense>
         ) : null}
       </CampaignShellLayout>
-      {/* Outside the layout, so entering combat focus does not restart the clock or its alarm. */}
-      {ShipDamageDock ? (
-        <Suspense fallback={null}>
-          <ShipDamageDock />
-        </Suspense>
-      ) : null}
     </>
   )
 }

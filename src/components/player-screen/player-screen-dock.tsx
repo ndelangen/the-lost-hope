@@ -44,14 +44,12 @@ import {
   type PlayerScreenState,
 } from '#/lib/player-screen-state'
 import { responsiveImageFor } from '#/lib/public-media'
-import { shipDeckMap } from '#/lib/ship-decks'
 import { cn } from '#/lib/utils'
 
 import { GridControls } from './grid-controls'
 import { JimsLetterWordsControl } from './jims-letter-words-control'
 import { PointerSurface } from './pointer-surface'
 import { PointingView } from './pointing-view'
-import { ShipDamageControl } from './ship-damage-control'
 import { openPlayerScreen, usePlayerScreen, usePlayerScreenPresent } from './use-player-screen'
 
 /** The DM's small control for choosing what the players' monitor shows, from any page. */
@@ -186,7 +184,6 @@ function pointablePicture(state: PlayerScreenState) {
     width: size.width,
     height: size.height,
     grid: playerScreenGridFor(state, showing),
-    deck: showing.image === 'map' ? shipDeckMap(showing.ref.key) : undefined,
   }
 }
 
@@ -302,7 +299,6 @@ function PlayerScreenPanel({
   const matches = useMemo(() => filterPlayerScreenOptions(options, query), [options, query])
   const src = showing ? resolvePlayerScreenImage(showing)?.src : undefined
   const size = src ? responsiveImageFor(src) : undefined
-  const deck = showing?.image === 'map' ? shipDeckMap(showing.ref.key) : undefined
   const pointable = pointablePicture(state)
 
   return (
@@ -399,7 +395,6 @@ function PlayerScreenPanel({
         {showing?.image === 'handout' && showing.ref.key === 'jims_letter' ? (
           <JimsLetterWordsControl />
         ) : null}
-        {deck ? <ShipDamageControl deck={deck} /> : null}
         {pointable ? <PointSection pointable={pointable} onPoint={onPoint} /> : null}
         <ShownHistory state={state} onJump={onJump} onClear={onClear} />
         {showing && src && size ? (

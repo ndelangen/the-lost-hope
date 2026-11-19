@@ -47,7 +47,7 @@ export default createScene({
               'The fight goes in steps, room by room. Every room is closed by default. You can have a door open at any time, by chance or because someone opens it on purpose.',
             ],
             [
-              'Run it as one encounter in the tracker, played as a string of short fights. The players keep the initiative they rolled for boarding for the whole ship. Between rooms, drop out of turns and let them move and talk freely: the clock keeps running.',
+              'Run it as one encounter in the tracker, played as a string of short fights. The players keep the initiative they rolled for boarding for the whole ship. Between rooms, drop out of turns and let them move and talk freely.',
             ],
             [
               'The encounter lists every room. When a door opens, bring that room in there, and its enemies join the roster. They roll initiative then, once for each group (the ',
@@ -63,7 +63,7 @@ export default createScene({
               '), so you only track a few turns.',
             ],
             [
-              'Start the clock the moment the first player hits. Put ',
+              'Put ',
               refs.npcs.ilsa_corrow,
               ' and her group on the map from the start, but they only move once someone reaches the helm or she is attacked.',
             ],
@@ -87,7 +87,7 @@ export default createScene({
               refs.npcs.ilsa_corrow,
               '’s Fireball can drop ',
               refs.pcs.swift_starblade,
-              ' in one go, so spread her attacks around. Easier: have her cast only one Fireball. Harder: a bigger damage die on the clock, or she joins the fight on round one.',
+              ' in one go, so spread her attacks around. Easier: have her cast only one Fireball. Harder: she joins the fight on round one.',
             ],
             [
               'The doors are the dial you can turn in the middle of the fight. Shut, each fight stays in its own room. Open one, and the next room joins in.',
@@ -113,61 +113,21 @@ export default createScene({
       ],
     },
     {
-      title: 'The ship-damage clock',
+      title: 'The cannons',
       lines: [
         {
           do: [
             [
-              'The ship-damage clock: the loyal cruisers keep firing back at ',
+              'The loyal cruisers keep firing at ',
               refs.items.ride_the_lightning,
-              ' while the party fights aboard it. The clock on this page times the hits and rolls the slice of the ship, counted from the bow. You choose whether the port or the starboard sector of that slice is hit.',
-            ],
-            [
-              'The clock runs in real time, and it does not stop while the players debate or take long over their actions. It is the ticking clock that puts the encounter under pressure.',
-            ],
-            [
-              'The choice of side is yours, to make it more or less dangerous. You can always hit the side the party is not in, unless that side is already destroyed: then the hit lands on the side that is left.',
-            ],
-            [
-              'If both sectors of one slice are destroyed, the ship is cut in two and lost. The clock shows which sectors have escape pods.',
-            ],
-            [
-              'Torpedoes hurt the ship too. The first torpedo to hit a sector deals 1 damage to that sector; later ones into the same sector do not. That goes for the boarding torpedoes and for a supply torpedo alike. Add it to that sector by hand.',
+              ' while the party fights aboard it. That is colour, not a rule: now and then, describe a cannonball slamming into the hull, the deck shuddering underfoot, smoke drifting through a hatch. Nobody is hurt by it and nothing is tracked.',
             ],
           ],
         },
         {
           note: [
             [
-              'For a faster clock, pick a bigger damage die in the tracker. You can change the die in the middle of the fight, for example when the scene drags.',
-            ],
-            [
-              'When a sector is destroyed, everyone in it makes a DC 13 ',
-              refs.rules.dex,
-              ' ',
-              refs.rules.saving_throw,
-              '. On a success they scramble into a neighbouring sector. On a failure they go down with the wreckage and are out of the fight: in an escape pod if the sector has them, otherwise in the sea, taking 6d6 bludgeoning damage before a skiff from ',
-              refs.items.master_of_puppets,
-              ' picks them up. Crew of ',
-              refs.organizations.the_eyeless_hand,
-              ' caught in a destroyed sector are gone.',
-            ],
-            [
-              'A destroyed sector stays on the map as difficult terrain: torn, burning deck. Track damage from the player-screen dock while a deck map is showing, and the map shows it to the players.',
-            ],
-            ['The DC of the save and the fall damage are first choices, so change them freely.'],
-            [
-              'No hits land while the party is in the crystal room: pause the clock for as long as you play out time in there. The beat of that room says why.',
-            ],
-          ],
-        },
-        {
-          note: [
-            [
-              'When the players see the cruiser is about to be destroyed, they should bail out in the escape pods. Make the warnings loud: describe every hit, and once a slice holds by one side only, let it groan and sag in plain sight.',
-            ],
-            [
-              'An escape pod: it costs an action to climb in and launch. That character is out of the fight.',
+              'Escape pods: the room board shows which rooms have them. Climbing in and launching costs an action, and that character is out of the fight.',
             ],
           ],
         },
@@ -360,7 +320,7 @@ export default createScene({
         {
           do: [
             [
-              'The crystal sits in a room of its own at the centre of the ship. It is cramped, there are no enemies in it, and the hits on the hull never reach it.',
+              'The crystal sits in a room of its own at the centre of the ship. It is cramped, there are no enemies in it, and the cannonballs never reach it.',
             ],
           ],
         },
@@ -376,7 +336,7 @@ export default createScene({
               'Then describe each crossing as the others see it from where they stand. The closer someone gets to the crystal, the faster they move, so the one who struggled longest was round it in a blink.',
             ],
             [
-              'While they are in here, no explosions shake the hull. Let that be noticeable: the hits that kept coming have simply stopped. Pause the clock while you play out what happens in this room.',
+              'While they are in here, the constant boom of the cannons outside slows down, then stops. Let that be noticeable.',
             ],
           ],
         },
@@ -404,7 +364,7 @@ export default createScene({
           when: [['They work it out and take a ', refs.rules.long_rest, ' in the room.']],
           response: [
             [
-              'They get the full rest, and outside it is as if no time has passed at all. When they come out, start the clock again from where it stood.',
+              'They get the full rest, and outside it is as if no time has passed at all. When they come out, the cannons boom at full pace again.',
             ],
           ],
         },
@@ -514,7 +474,7 @@ export default createScene({
           ],
           response: [
             [
-              'The guns fall silent and the loyal cruisers stop firing: stop the clock. The ',
+              'The guns fall silent and the loyal cruisers stop firing. The ',
               refs.npcs.dust_lost_sailor,
               's drop their weapons and stand there, lost.',
             ],
@@ -531,7 +491,7 @@ export default createScene({
         [
           'Supplies in the middle of the fight: ',
           refs.npcs.captain_garran,
-          ' can fire a boarding torpedo packed with supplies into whatever part of the ship the party holds. It opens like the others, with Potions of Healing inside. If it is the first torpedo into that sector, it damages the sector like any other. This is your call, not something they can count on: watch how they are doing, and send it when the fight is going badly and they would rather go on than bail out through the escape pods. A player can also think to signal for it. ',
+          ' can fire a boarding torpedo packed with supplies into whatever part of the ship the party holds. It opens like the others, with Potions of Healing inside. This is your call, not something they can count on: watch how they are doing, and send it when the fight is going badly and they would rather go on than bail out through the escape pods. A player can also think to signal for it. ',
           refs.npcs.crowy,
           ' can carry the request across.',
         ],
@@ -558,18 +518,6 @@ export default createScene({
           'The pods drift down to the sea, and ',
           refs.items.master_of_puppets,
           ' collects them. The cruiser keeps fighting until it breaks up.',
-        ],
-      ],
-    },
-    {
-      when: [['The ship is cut in two.']],
-      response: [
-        [
-          'Both halves go down. Everyone still aboard has one round to reach an escape pod. ',
-          refs.items.ride_the_lightning,
-          ' is lost, and ',
-          refs.npcs.onana_tempest,
-          ' is one cruiser short.',
         ],
       ],
     },
@@ -614,9 +562,5 @@ export default createScene({
       ],
     ],
   },
-  shipDamage: {
-    vessel: refs.items.ride_the_lightning,
-    everySeconds: 180,
-    damageDie: 1,
-  },
+  aboard: refs.items.ride_the_lightning,
 })

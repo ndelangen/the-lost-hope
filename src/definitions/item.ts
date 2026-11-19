@@ -11,13 +11,9 @@ const ShipSector = z.strictObject({
   escapePods: z.boolean().describe('Whether this sector has a way off the ship'),
 })
 
-/**
- * A vessel's layout, in slices from bow to stern, each with a port and a starboard sector, and the
- * damage that destroys a sector. A destroyed sector is difficult terrain.
- */
+/** A vessel's layout, in slices from bow to stern, each with a port and a starboard sector. */
 export const ShipHull = z
   .strictObject({
-    sectorHitPoints: z.number().int().positive().describe('Damage that destroys a sector'),
     port: z.array(ShipSector).min(1).describe('Port sectors, from bow to stern'),
     starboard: z.array(ShipSector).min(1).describe('Starboard sectors, from bow to stern'),
   })
