@@ -2,6 +2,7 @@ import { Link, createFileRoute } from '@tanstack/react-router'
 import { z } from 'zod'
 
 import { DmOverviewSceneRow, DmScenePlots } from '#/components/dm/dm-overview-scene-row'
+import { DmPastScenes } from '#/components/dm/dm-past-scenes'
 import { DmPlaceTrail } from '#/components/dm/dm-place-trail'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
 import { ArcIcon } from '#/lib/arc-icons'
@@ -31,7 +32,9 @@ export const Route = createFileRoute('/dm/scenes/')({
 
 function ScenesIndex() {
   const { layout = 'order' } = Route.useSearch()
-  const all = scenesInRunningOrder({ table, scenes, arcs, parentOf: sourceLocationParent })
+  const every = scenesInRunningOrder({ table, scenes, arcs, parentOf: sourceLocationParent })
+  const all = every.filter((item) => !item.past)
+  const past = every.filter((item) => item.past)
 
   return (
     <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_12rem]">
@@ -57,7 +60,9 @@ function ScenesIndex() {
           </nav>
         </div>
         {all.length === 0 ? (
-          <p className="text-muted-foreground">No scenes prepared yet.</p>
+          <p className="text-muted-foreground">
+            {past.length > 0 ? 'No scenes ahead yet.' : 'No scenes prepared yet.'}
+          </p>
         ) : layout === 'order' ? (
           <ol className="divide-border grid grid-cols-1 divide-y">
             {all.map((item) => (
@@ -167,6 +172,7 @@ function ScenesIndex() {
             ))}
           </div>
         )}
+        <DmPastScenes scenes={past} />
       </div>
       <aside className="min-w-0">
         <DmQuickLinks />

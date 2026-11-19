@@ -2,7 +2,7 @@ import { refs } from '#/data/generated/refs.ts'
 import { create as createTable } from '#/definitions/table.ts'
 
 export default createTable({
-  likely: [
+  past: [
     refs.scenes.borris_shutters_the_casino,
     refs.scenes.the_hand_comes_for_jim,
     refs.scenes.the_green_pulse_over_the_sky_islands,
@@ -16,7 +16,6 @@ export default createTable({
     refs.scenes.the_party_reunites_on_the_docks,
     refs.scenes.onana_calls_the_party_to_war,
     refs.scenes.boarding_ride_the_lightning,
-    refs.scenes.taking_back_a_battle_cruiser,
-    refs.scenes.garran_comes_for_the_cruiser,
   ],
+  likely: [refs.scenes.taking_back_a_battle_cruiser, refs.scenes.garran_comes_for_the_cruiser],
 })

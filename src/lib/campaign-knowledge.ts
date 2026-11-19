@@ -404,6 +404,9 @@ export function overview(): string {
     ...table.likely.map((ref) => `- likely: ${name(ref)}`),
     ...table.pinned.map((ref) => `- pinned: ${name(ref)}`),
     '',
+    ...(table.past.length > 0
+      ? [`## Past scenes (${table.past.length})`, ...table.past.map((ref) => `- ${name(ref)}`), '']
+      : []),
     `DM-only records the party has not met: ${unmet.join(', ')}. Use \`list\` with visibility "dm-only" to see them.`,
   ]
     .filter((line, index, all) => line !== '' || all[index - 1] !== '')

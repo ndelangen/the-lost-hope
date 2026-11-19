@@ -64,6 +64,11 @@ canon.
 
 - Arcs own their plots. A plot links to at most one prepared scene and may link to several played
   events. Use the same event reference wherever it advances another plot or arc.
+- The table (`dm/table.ts`) records where the DM is in the prepared scenes. `past` lists the scenes
+  the party has left behind, played or skipped, in the order they came up. `likely` lists the
+  scenes for the next session in running order. After a session, move the scenes now behind the
+  party from `likely` to `past`. A scene is in one of the two lists at most. Past scenes leave the
+  dashboard and stay reachable under "Past scenes".
 - Scenes own the location, setup, and possible outcomes. Events own what happened in play. Linking
   an event leaves the plot open until the DM closes it.
 - A scene has no list of related records: what it mentions is derived from its fields and the refs

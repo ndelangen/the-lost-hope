@@ -45,6 +45,21 @@ describe('DM scenes overview', () => {
     ])
   })
 
+  it('puts past scenes first, flagged and numbered apart from the scenes ahead', () => {
+    const played = createTable({ past: [sceneRef('stables')], likely: [sceneRef('game')] })
+    const order = scenesInRunningOrder({
+      table: played,
+      scenes,
+      arcs,
+      parentOf: sourceLocationParent,
+    })
+    expect(order.map((item) => [item.key, item.past, item.position])).toEqual([
+      ['stables', true, 1],
+      ['game', false, 1],
+      ['harbour', false, 2],
+    ])
+  })
+
   it('traces a place from its region down, leaving out the world', () => {
     expect(
       placeTrail(refs.locations.skynet_s_second_best_inn, sourceLocationParent).map((l) => l.key),

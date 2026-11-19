@@ -3,6 +3,7 @@ import { createFileRoute } from '@tanstack/react-router'
 import { DmEffectsPanel } from '#/components/dm/dm-effects-panel'
 import { DmForetoldPanel } from '#/components/dm/dm-foretold-panel'
 import { DmLocationBranch } from '#/components/dm/dm-location-branch'
+import { DmPastScenes } from '#/components/dm/dm-past-scenes'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
 import { DmSceneRow } from '#/components/dm/dm-scene-row'
 import { PartyTokens } from '#/components/dm/party-tokens'
@@ -11,6 +12,7 @@ import { useTokenCounts } from '#/components/dm/use-token-counts'
 import { campaignEvents, campaignToday, foretoldSources, liveEffects, pcs } from '#/lib/campaign'
 import { arcs, scenes, sourceLocationParent, table, tokens } from '#/lib/dm-campaign'
 import { buildDashboard, lastKnownLocations, playedEvent, runningOrder } from '#/lib/dm-dashboard'
+import { scenesInRunningOrder } from '#/lib/dm-scenes-overview'
 import {
   closeReminders,
   dismissReminder,
@@ -47,6 +49,12 @@ function DmDashboard() {
   )
   const tree = buildDashboard({ table, scenes, arcs, party, parentOf: sourceLocationParent })
   const order = runningOrder({ table, scenes, arcs })
+  const past = scenesInRunningOrder({
+    table,
+    scenes,
+    arcs,
+    parentOf: sourceLocationParent,
+  }).filter((item) => item.past)
   const live = useEffectLiveState(campaignToday())
   const candidates = liveEffects()
   const inPlay = live.state ? effectsInPlay(live.state, candidates) : []
@@ -91,6 +99,7 @@ function DmDashboard() {
         ) : (
           <p className="text-muted-foreground">No likely scenes selected yet.</p>
         )}
+        <DmPastScenes scenes={past} />
         <PartyTokens
           rows={tokenCounts.rows}
           onAdjust={import.meta.env.DEV ? (...step) => void tokenCounts.adjust(...step) : undefined}

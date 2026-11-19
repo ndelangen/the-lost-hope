@@ -3,7 +3,7 @@ import { describe, expect, it } from 'vitest'
 import { Scene } from '#/definitions/scene'
 import { Table } from '#/definitions/table'
 
-import { nextScenes } from './scene-flow'
+import { nextScenes, sceneRunningOrder } from './scene-flow'
 
 const ref = (key: string) => ({ ref: 'scene', key }) as const
 
@@ -65,5 +65,16 @@ describe('nextScenes', () => {
   it('knows no next scene after the last selected one, or for a scene that was not selected', () => {
     expect(nextScenes('cellar', { scenes, table })).toEqual([])
     expect(nextScenes('fight', { scenes, table })).toEqual([])
+  })
+
+  it('runs from the last past scene into the selection, and never points back at a past scene', () => {
+    const played = Table.parse({ past: [ref('road'), ref('yard')], likely: [ref('gate')] })
+    expect(sceneRunningOrder(played, scenes)).toEqual(['road', 'yard', 'gate', 'fight', 'cellar'])
+    expect(nextScenes('yard', { scenes, table: played })).toEqual([
+      { scene: ref('gate'), when: [], planned: true },
+    ])
+    expect(nextScenes('gate', { scenes, table: played })).toEqual([
+      { scene: ref('fight'), when: [], planned: false },
+    ])
   })
 })

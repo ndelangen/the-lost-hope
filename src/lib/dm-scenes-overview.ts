@@ -4,6 +4,7 @@ import type { Scene } from '#/definitions/scene'
 import type { Table } from '#/definitions/table'
 
 import { type ScenePlot, plotsByScene } from './dm-dashboard'
+import { sceneRunningOrder } from './scene-flow'
 
 type LocationRef = EntityRef<'location'>
 type ParentOf = (location: LocationRef) => LocationRef | undefined
@@ -11,8 +12,10 @@ type ParentOf = (location: LocationRef) => LocationRef | undefined
 export type OverviewScene = {
   key: string
   scene: Scene
-  /** Position in the running order, from 1. */
+  /** Position from 1: among the past scenes for a past one, in the running order ahead otherwise. */
   position: number
+  /** Whether the party has left this scene behind. */
+  past: boolean
   /** Whether the DM selected this scene for the next session. */
   likely: boolean
   pinned: boolean
@@ -22,8 +25,8 @@ export type OverviewScene = {
 }
 
 /**
- * Every scene once, in the order the DM plans to run them: the next session's selection first,
- * then the rest in the order they were written.
+ * Every scene once, in running order: the scenes the party has left behind, then the next
+ * session's selection, then the rest in the order they were written.
  */
 export function scenesInRunningOrder({
   table,
@@ -37,26 +40,24 @@ export function scenesInRunningOrder({
   parentOf: ParentOf
 }): OverviewScene[] {
   const plots = plotsByScene(arcs)
+  const past = new Set(table.past.map((ref) => ref.key))
   const likely = new Set(table.likely.map((ref) => ref.key))
   const pinned = new Set(table.pinned.map((ref) => ref.key))
-  const keys = [...new Set([...table.likely.map((ref) => ref.key), ...Object.keys(scenes)])]
-  return keys
-    .flatMap((key) => {
-      const scene = scenes[key]
-      if (!scene) return []
-      return [
-        {
-          key,
-          scene,
-          position: 0,
-          likely: likely.has(key),
-          pinned: pinned.has(key),
-          plots: plots.get(key) ?? [],
-          trail: placeTrail(scene.location, parentOf),
-        },
-      ]
-    })
-    .map((item, index) => ({ ...item, position: index + 1 }))
+  const count = { past: 0, ahead: 0 }
+  return sceneRunningOrder(table, scenes).map((key) => {
+    const scene = scenes[key]!
+    const isPast = past.has(key)
+    return {
+      key,
+      scene,
+      position: isPast ? ++count.past : ++count.ahead,
+      past: isPast,
+      likely: likely.has(key),
+      pinned: pinned.has(key),
+      plots: plots.get(key) ?? [],
+      trail: placeTrail(scene.location, parentOf),
+    }
+  })
 }
 
 /** The places that hold a location, outermost first, ending at the location itself. The world is left out. */

@@ -58,6 +58,7 @@ function SceneRoute() {
   const scene = scenes[key]!
   const plots = plotsByScene(arcs).get(key) ?? []
   const pinned = table.pinned.some((ref) => ref.key === key)
+  const past = table.past.some((ref) => ref.key === key)
   const locations = [scene.location, ...scene.alternateLocations]
   const battleMaps = scene.battleMaps.flatMap((ref) => {
     const place = Object.hasOwn(locationRecords, ref.key) ? locationRecords[ref.key] : undefined
@@ -266,6 +267,11 @@ function SceneRoute() {
           <h1 className="flex items-center gap-2 text-2xl font-bold">
             {pinned ? <Pin aria-label="Pinned" className="size-5 text-amber-600" /> : null}
             {scene.name}
+            {past ? (
+              <span className="border-border text-muted-foreground rounded-full border px-2.5 py-0.5 text-xs font-medium">
+                Past scene
+              </span>
+            ) : null}
           </h1>
           <SceneEncounterStart sceneKey={key} scene={scene} />
           <ContentRenderer

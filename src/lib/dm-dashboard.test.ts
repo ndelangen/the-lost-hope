@@ -120,4 +120,16 @@ describe('DM dashboard', () => {
     const table = createTable({ likely: [sceneRef('stables')] })
     expect(validateDmReferences({}, {}, table)).toEqual(['Table: unknown scene reference stables'])
   })
+
+  it('rejects a table that lists a scene as both past and likely', () => {
+    const table = createTable({ past: [sceneRef('stables')], likely: [sceneRef('stables')] })
+    expect(validateDmReferences({}, scenes, table)).toEqual([
+      'Table: scene stables is listed more than once across past and likely',
+    ])
+  })
+
+  it('keeps past scenes out of the running order', () => {
+    const table = createTable({ past: [sceneRef('harbour')], likely: [sceneRef('stables')] })
+    expect(runningOrder({ table, scenes, arcs }).map((s) => s.key)).toEqual(['stables'])
+  })
 })

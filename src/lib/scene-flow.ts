@@ -15,6 +15,20 @@ export type NextScene = {
   planned: boolean
 }
 
+/**
+ * Every scene once, in the order the party meets them: the scenes it has left behind, then the
+ * ones selected for the next session, then the rest as written.
+ */
+export function sceneRunningOrder(
+  table: Table,
+  scenes: Readonly<Record<string, unknown>>,
+): string[] {
+  const planned = [...table.past, ...table.likely].map((ref) => ref.key)
+  return [...new Set([...planned, ...Object.keys(scenes)])].filter((key) =>
+    Object.hasOwn(scenes, key),
+  )
+}
+
 function sceneRefs(...contents: DmContent[]): EntityRef<'scene'>[] {
   return contents.flat(2).filter(isSceneRef)
 }
@@ -22,8 +36,7 @@ function sceneRefs(...contents: DmContent[]): EntityRef<'scene'>[] {
 /**
  * The scenes that can follow a scene, most likely first: the one the DM selected to run right
  * after it, then the later scenes its script and branches point at, each with the "if"s that
- * lead there. "Later" follows the running order: the session's selection first, then the other
- * scenes as written.
+ * lead there. "Later" follows the running order, so a scene never points back at a past one.
  */
 export function nextScenes(
   key: string,
@@ -31,8 +44,7 @@ export function nextScenes(
 ): NextScene[] {
   const scene = scenes[key]
   if (!scene) return []
-  const likely = table.likely.map((ref) => ref.key)
-  const order = [...new Set([...likely, ...Object.keys(scenes)])]
+  const order = sceneRunningOrder(table, scenes)
   const here = order.indexOf(key)
 
   const found = new Map<string, NextScene>()
@@ -56,10 +68,11 @@ export function nextScenes(
   }
   scene.outcomes.forEach(branch)
 
-  const selected = likely.indexOf(key)
-  const after = selected >= 0 ? table.likely[selected + 1] : undefined
+  const planned = [...table.past, ...table.likely]
+  const selected = planned.findIndex((ref) => ref.key === key)
+  const after = selected >= 0 ? planned[selected + 1] : undefined
   if (!after) return [...found.values()]
-  const planned = { ...(found.get(after.key) ?? { scene: after, when: [] }), planned: true }
+  const first = { ...(found.get(after.key) ?? { scene: after, when: [] }), planned: true }
   found.delete(after.key)
-  return [planned, ...found.values()]
+  return [first, ...found.values()]
 }
