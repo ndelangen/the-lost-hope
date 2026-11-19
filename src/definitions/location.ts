@@ -55,18 +55,9 @@ const LocationIllustrationUrl = MediaUrl.refine(
   },
 )
 
-const MapPoint = z.tuple([z.number().nonnegative(), z.number().nonnegative()])
-
-const DeckArea = z.array(MapPoint).min(3)
-
-/**
- * A map that shows a deck of a vessel: where each sector of the vessel's hull lies on it, in the
- * order of the hull, from bow to stern. Each area is a polygon in map pixels.
- */
+/** A map that shows a deck of a vessel, so the vessel's room board can switch to it. */
 export const LocationDeck = z.strictObject({
   vessel: entityRefOf('item').describe('The vessel, whose record has a hull'),
-  port: z.array(DeckArea).min(1).describe('Outlines of the port sectors, bow to stern'),
-  starboard: z.array(DeckArea).min(1).describe('Outlines of the starboard sectors, bow to stern'),
 })
 
 export type LocationDeck = z.infer<typeof LocationDeck>
@@ -124,7 +115,7 @@ const locationFields = {
       height: 700,
     }),
   deck: LocationDeck.optional().describe(
-    'For a deck map of a vessel: where its sectors lie, for ship damage on the map',
+    'For a deck map of a vessel: which vessel, so its room board offers this deck',
   ),
 }
 
@@ -156,17 +147,6 @@ export const Location = deriveSlug(
         })
       }
     })
-    for (const side of ['port', 'starboard'] as const) {
-      location.deck?.[side].forEach((area, index) => {
-        if (area.some(([x, y]) => x > location.map.width || y > location.map.height)) {
-          context.addIssue({
-            code: 'custom',
-            path: ['deck', side, index],
-            message: 'Sector outlines must fit within the location map',
-          })
-        }
-      })
-    }
   }),
 )
 

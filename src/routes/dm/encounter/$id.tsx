@@ -22,8 +22,8 @@ import { LegendaryRow, type LegendaryGroup } from '#/components/dm/encounter/leg
 import { PartyStrip } from '#/components/dm/encounter/party-strip'
 import { ConcentrationPrompt, TurnCard } from '#/components/dm/encounter/turn-card'
 import { newEncounterId, useEncounterStore } from '#/components/dm/encounter/use-encounter-store'
-import { SceneShipDamage } from '#/components/dm/scene-ship-damage'
-import { resolveScene, resolveSourceRef, sceneShipUnderFire } from '#/lib/dm-campaign'
+import { ShipRoomBoard } from '#/components/dm/ship-room-board'
+import { resolveScene, sceneShipAboard } from '#/lib/dm-campaign'
 import { combatantView, currentParty, encounterCandidates, sceneFights } from '#/lib/dm-encounter'
 import {
   LEGENDARY_POOL,
@@ -153,15 +153,7 @@ function EncounterRoute() {
   const updateEncounter = (change: (current: Encounter) => Encounter) =>
     update((current) => updateEncounterIn(current, id, change))
   const scene = encounter.scene ? resolveScene(encounter.scene) : undefined
-  const ship = scene ? sceneShipUnderFire(scene) : undefined
-  const shipDamage =
-    encounter.scene && ship
-      ? {
-          sceneKey: encounter.scene.key,
-          ship,
-          vesselName: resolveSourceRef(ship.vessel)?.name,
-        }
-      : undefined
+  const ship = scene ? sceneShipAboard(scene) : undefined
 
   const fights = scene
     ? sceneFights(scene).map((fight) => ({ ...fight, joined: encounter.joined[fight.key] ?? 0 }))
@@ -438,12 +430,8 @@ function EncounterRoute() {
           <DmScreen open={screenOpen} onClose={() => setScreenOpen(false)} />
           {scene ? <EncounterNotes sceneName={scene.name} notes={scene.combat} /> : null}
           {fightsPanel}
-          {shipDamage?.vesselName ? (
-            <SceneShipDamage
-              sceneKey={shipDamage.sceneKey}
-              vesselName={shipDamage.vesselName}
-              ship={shipDamage.ship}
-            />
+          {encounter.scene && ship ? (
+            <ShipRoomBoard sceneKey={encounter.scene.key} ship={ship} />
           ) : null}
           <PartyStrip
             party={rows.filter((row) => row.kind === 'PC')}

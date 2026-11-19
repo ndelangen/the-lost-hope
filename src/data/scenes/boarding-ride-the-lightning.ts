@@ -75,7 +75,7 @@ export default createScene({
             [
               'The boarding is round one of the fight, so run it in the encounter of ',
               refs.scenes.taking_back_a_battle_cruiser,
-              ', not of this scene: open that one before the first launch and keep it for the rest of the fight. It has the enemies and the ship-damage clock.',
+              ', not of this scene: open that one before the first launch and keep it for the rest of the fight. It has the enemies and the ship’s rooms.',
             ],
             ['The enemies in the sectors about to be hit roll ', refs.rules.initiative, ' too.'],
             [
@@ -144,18 +144,6 @@ export default createScene({
               ' on everything. ',
               refs.pcs.devan,
               ' in his armour counts as Large here.',
-            ],
-          ],
-        },
-        {
-          note: [
-            [
-              'The ship-damage clock in ',
-              refs.scenes.taking_back_a_battle_cruiser,
-              ' starts the moment the first player hits.',
-            ],
-            [
-              'The first torpedo into each bow sector also damages that sector. The rule is with the clock.',
             ],
           ],
         },

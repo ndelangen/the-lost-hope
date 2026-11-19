@@ -8,9 +8,8 @@ export default createItem({
   carriedBy: null,
   craftedBy: null,
   hull: {
-    sectorHitPoints: 5,
     // Matches the deck maps, bow to the left: the helm's wheel is at the starboard stern, the
-    // bunks and the stern cargo are on the port side. The crystal room in the centre is never hit.
+    // bunks and the stern cargo are on the port side. The crystal room sits in the centre.
     port: [
       { name: 'Port bow', escapePods: true },
       { name: 'Port battery', escapePods: true },

@@ -7,7 +7,6 @@ import {
   usePlayerScreenPointerSender,
 } from '#/components/player-screen/use-player-screen'
 import { ResponsiveImage } from '#/components/responsive-image'
-import { ShipDamageDecals } from '#/components/ship/ship-damage-decals'
 import type { PlayerScreenGrid } from '#/lib/player-screen-grid'
 import {
   POINTER_CLICK_DISTANCE_PX,
@@ -15,7 +14,6 @@ import {
   spotOnPicture,
   type PictureSpot,
 } from '#/lib/player-screen-pointer'
-import type { ShipDeckMap } from '#/lib/ship-decks'
 import { cn } from '#/lib/utils'
 
 function spotFor(event: React.PointerEvent<HTMLDivElement>) {
@@ -32,7 +30,6 @@ export function PointerSurface({
   width,
   height,
   grid,
-  deck,
   markSize,
   className,
   style,
@@ -43,7 +40,6 @@ export function PointerSurface({
   width: number
   height: number
   grid: PlayerScreenGrid
-  deck: ShipDeckMap | undefined
   /** How big the DM's own echo of the marks is drawn. */
   markSize: string
   className?: string
@@ -113,7 +109,6 @@ export function PointerSurface({
         draggable={false}
         className="absolute inset-0 size-full"
       />
-      {deck ? <ShipDamageDecals deck={deck} width={width} height={height} /> : null}
       {grid.on ? <GridOverlay grid={grid} width={width} height={height} strokeWidth={1} /> : null}
       <PointerMarksOverlay marks={marks} size={markSize} />
     </div>

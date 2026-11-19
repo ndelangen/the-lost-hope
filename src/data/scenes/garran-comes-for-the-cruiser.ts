@@ -81,11 +81,9 @@ export default createScene({
               refs.items.ride_the_lightning,
               ' as their vessel and ',
               refs.items.master_of_puppets,
-              ' casting the hooks. Restart the ship-damage clock of ',
-              refs.scenes.taking_back_a_battle_cruiser,
-              ': now ',
+              ' casting the hooks. Now ',
               refs.items.master_of_puppets,
-              ' is the one firing.',
+              ' is the one firing at them.',
             ],
           ],
           followUps: [

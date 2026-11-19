@@ -1,7 +1,45 @@
+import type { ShipHull } from '#/definitions/item'
 import type { EntityRef } from '#/definitions/kind'
 
 import type { FightGroup, SceneFight } from './dm-encounter'
-import type { ShipSectorView } from './ship-damage'
+
+/** The vessel a scene is fought aboard, with its layout. */
+export type ShipAboard = {
+  vessel: EntityRef<'item'>
+  name: string
+  hull: ShipHull
+}
+
+export type ShipSide = 'port' | 'starboard'
+
+/** One room of the vessel's layout, where the board shows it. */
+export type ShipSectorView = {
+  /** Its place in the hull: port from bow to stern, then starboard. */
+  index: number
+  name: string
+  side: ShipSide
+  /** Position from bow to stern, from 0. */
+  slice: number
+  escapePods: boolean
+}
+
+/** How many slices the ship has from bow to stern. */
+export function sliceCount(hull: ShipHull) {
+  return hull.port.length
+}
+
+/** Every sector of the hull: port from bow to stern, then starboard. */
+export function shipSectors(hull: ShipHull): ShipSectorView[] {
+  return (['port', 'starboard'] as const).flatMap((side, row) =>
+    hull[side].map((sector, slice) => ({
+      index: row * hull.port.length + slice,
+      name: sector.name,
+      side,
+      slice,
+      escapePods: sector.escapePods,
+    })),
+  )
+}
 
 /** A fight as the ship shows it in its room: who is in it and whether it has joined the encounter. */
 export type RoomFight = {

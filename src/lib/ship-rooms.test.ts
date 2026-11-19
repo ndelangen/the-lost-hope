@@ -2,14 +2,12 @@ import { describe, expect, it } from 'vitest'
 
 import type { FightPlace } from '#/definitions/scene'
 
-import { scenes, sceneShipUnderFire } from './dm-campaign'
+import { scenes, sceneShipAboard } from './dm-campaign'
 import { sceneFights, type SceneFight } from './dm-encounter'
-import { initialHullDamage, shipSectors, sliceCount } from './ship-damage'
 import { vesselDecks } from './ship-decks'
-import { shipRooms } from './ship-rooms'
+import { shipRooms, shipSectors, sliceCount } from './ship-rooms'
 
 const hull = {
-  sectorHitPoints: 5,
   port: [
     { name: 'Port bow', escapePods: true },
     { name: 'Port stern', escapePods: true },
@@ -19,7 +17,7 @@ const hull = {
     { name: 'Starboard stern', escapePods: false },
   ],
 }
-const sectors = shipSectors(hull, initialHullDamage(hull))
+const sectors = shipSectors(hull)
 const main = { ref: 'location', key: 'main' } as const
 const hold = { ref: 'location', key: 'hold' } as const
 const decks = [
@@ -73,10 +71,21 @@ describe('shipRooms', () => {
   })
 })
 
-describe('fights aboard a ship under fire', () => {
+describe('shipSectors', () => {
+  it('lists the sectors port first, each in its slice from the bow', () => {
+    expect(sectors.map(({ index, side, slice }) => [index, side, slice])).toEqual([
+      [0, 'port', 0],
+      [1, 'port', 1],
+      [2, 'starboard', 0],
+      [3, 'starboard', 1],
+    ])
+  })
+})
+
+describe('fights aboard a vessel', () => {
   it('are placed on a deck of that ship, in a slice the hull has', () => {
     const misplaced = Object.entries(scenes).flatMap(([key, scene]) => {
-      const ship = sceneShipUnderFire(scene)
+      const ship = sceneShipAboard(scene)
       if (!ship) return []
       const deckKeys = new Set(vesselDecks(ship.vessel.key).map(({ deck }) => deck.key))
       return sceneFights(scene).flatMap((placed) =>
@@ -84,7 +93,7 @@ describe('fights aboard a ship under fire', () => {
           .filter(
             (place) =>
               !deckKeys.has(place.deck.key) ||
-              (place.slice !== undefined && place.slice > sliceCount(ship)),
+              (place.slice !== undefined && place.slice > sliceCount(ship.hull)),
           )
           .map(() => `${key}: ${placed.key}`),
       )

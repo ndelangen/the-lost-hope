@@ -103,7 +103,7 @@ export type SceneOpponent = z.infer<typeof SceneOpponent>
 
 /**
  * Where aboard a vessel a fight takes place: a deck, and on it one slice of the hull or one sector
- * of that slice. The slice is counted from the bow, from 1, as the ship-damage die shows it.
+ * of that slice. The slice is counted from the bow, from 1.
  * Without a slice the fight is anywhere on that deck.
  */
 export const FightPlace = z
@@ -166,28 +166,6 @@ export const SceneBeat = z.strictObject({
 
 export type SceneBeat = z.infer<typeof SceneBeat>
 
-/** The dice a hit's damage can be rolled on, by their number of sides. 1 is a fixed 1 damage. */
-export const SHIP_DAMAGE_DICE = [1, 2, 3, 4, 6] as const
-export type ShipDamageDie = (typeof SHIP_DAMAGE_DICE)[number]
-
-/**
- * How fast a vessel breaks up in real time while a scene is fought aboard it. The vessel's own
- * record owns its hull: the sectors, their hit points and where the escape pods are. Every interval a die picks one
- * slice of the hull, counted from the bow, and the DM chooses whether its port or its starboard
- * sector is hit. The hit's damage is rolled on the damage die. A sector that has taken all its hit
- * points is destroyed, and the vessel is lost once both sectors of one slice are destroyed,
- * because that cuts it in two.
- */
-export const SceneShipDamage = z.strictObject({
-  vessel: entityRefOf('item').describe('The vessel, whose record has a hull'),
-  everySeconds: z.number().int().positive().describe('Real-time seconds between hits'),
-  damageDie: z
-    .union(SHIP_DAMAGE_DICE.map((sides) => z.literal(sides)))
-    .describe('Sides of the die rolled for one hit. The DM can pick another at the table'),
-})
-
-export type SceneShipDamage = z.infer<typeof SceneShipDamage>
-
 export const Scene = deriveSlug(
   z.strictObject({
     name: z.string().trim().min(1),
@@ -222,7 +200,9 @@ export const Scene = deriveSlug(
         'The starting roster of the encounter run from this scene. Whoever joins later belongs to the `fight` of a beat',
       ),
     combat: SceneCombatNotes.optional(),
-    shipDamage: SceneShipDamage.optional(),
+    aboard: entityRefOf('item')
+      .optional()
+      .describe('The vessel the scene is fought aboard. Its room board places the fights'),
   }),
 )
 

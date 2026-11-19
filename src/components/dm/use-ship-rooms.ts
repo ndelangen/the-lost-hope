@@ -4,9 +4,14 @@ import { useMemo } from 'react'
 import { resolveScene } from '#/lib/dm-campaign'
 import { sceneFights, sceneRoster } from '#/lib/dm-encounter'
 import { createEncounter, encounterForScene, joinFight, updateEncounter } from '#/lib/encounter'
-import { initialHullDamage, shipSectors, type ShipUnderFire } from '#/lib/ship-damage'
 import { vesselDecks } from '#/lib/ship-decks'
-import { shipRooms, type RoomFight, type ShipRooms } from '#/lib/ship-rooms'
+import {
+  shipRooms,
+  shipSectors,
+  type RoomFight,
+  type ShipAboard,
+  type ShipRooms,
+} from '#/lib/ship-rooms'
 
 import {
   newEncounterId,
@@ -21,7 +26,7 @@ import {
  */
 export function useShipRooms(
   sceneKey: string,
-  ship: ShipUnderFire,
+  ship: ShipAboard,
 ): { rooms: ShipRooms; run: (fight: RoomFight) => void } {
   const [store] = useEncounterStore()
   const navigate = useNavigate()
@@ -35,7 +40,7 @@ export function useShipRooms(
   const rooms = useMemo(
     () =>
       shipRooms(
-        shipSectors(ship, initialHullDamage(ship)),
+        shipSectors(ship.hull),
         vesselDecks(ship.vessel.key),
         fights.map((fight) => ({ ...fight, joined: joined?.[fight.key] ?? 0 })),
       ),
