@@ -40,6 +40,19 @@ export default createArc({
       npcs: [refs.npcs.esia, refs.npcs.charles_tempest],
     },
     {
+      name: 'The islands in chaos',
+      hook: [
+        [
+          'The beams have struck, the streets are packed, and the army is rolling out. Where do ',
+          refs.pcs.devan,
+          ' and ',
+          refs.pcs.cassian_veyl,
+          ' go?',
+        ],
+      ],
+      scene: refs.scenes.chaos_on_the_sky_islands,
+    },
+    {
       name: 'The crossing is shut',
       hook: [['The beam took a ferry, and the army is taking the other. How do they get across?']],
       scene: refs.scenes.the_clogged_ferry_landing,

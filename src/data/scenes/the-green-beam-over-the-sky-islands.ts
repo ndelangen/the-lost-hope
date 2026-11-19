@@ -5,7 +5,7 @@ export default createScene({
   name: 'The green beam over the sky islands',
   illustration: '/assets/scenes/the-green-beam-over-the-sky-islands.png',
   location: refs.locations.three_sky_kingdoms,
-  npcs: [refs.npcs.abraham, refs.npcs.crowy],
+  npcs: [refs.npcs.crowy],
   setup: [
     [
       refs.pcs.swift_starblade,
@@ -274,7 +274,21 @@ export default createScene({
             ],
           ],
         },
-        { do: [['Switch to ', refs.pcs.devan, ' and ', refs.pcs.cassian_veyl, '.']] },
+        {
+          do: [
+            [
+              'Cut here, with ',
+              refs.pcs.swift_starblade,
+              ' bent over the letter. Go on with ',
+              refs.pcs.devan,
+              ' and ',
+              refs.pcs.cassian_veyl,
+              ' in ',
+              refs.scenes.chaos_on_the_sky_islands,
+              '.',
+            ],
+          ],
+        },
       ],
       outcomes: [
         {
@@ -291,121 +305,6 @@ export default createScene({
               ', the tongue, and what he does with the gear.',
             ],
           ],
-        },
-      ],
-    },
-    {
-      title: 'Crowy arrives',
-      onlyIf: [['', refs.pcs.swift_starblade, ' saved ', refs.npcs.crowy, ' on the docks.']],
-      lines: [
-        {
-          do: [
-            [
-              refs.npcs.crowy,
-              ' stood on the docks of ',
-              refs.locations.nimbus,
-              ' with ',
-              refs.pcs.swift_starblade,
-              ' and ',
-              refs.pcs.jim,
-              ' when the second beam struck, and it left him dying there (see The second beam). ',
-              refs.pcs.swift_starblade,
-              ' got him back on his feet, so now he flies across to ',
-              refs.pcs.devan,
-              ' and ',
-              refs.pcs.cassian_veyl,
-              ' on ',
-              refs.locations.skynet,
-              '.',
-            ],
-            ['Bring him in a little after the beam, still singed. He remembers who saved him.'],
-          ],
-        },
-      ],
-    },
-    {
-      title: 'Chaos on the islands',
-      lines: [
-        {
-          do: [
-            [
-              'The populations of all three sky islands are in chaos. The normally calm streets are packed, and the usual links between the islands are clogged.',
-            ],
-            [
-              'On ',
-              refs.locations.skynet,
-              ', there are few civilians left on the streets. ',
-              refs.npcs.old_pell,
-              ' boards up his shop, and ',
-              refs.npcs.maren_of_fairhaven,
-              ' pushes towards the ferries with her child. ',
-              refs.npcs.sergeant_bruna_kell,
-              ' shouts for recruits from a crate while ',
-              refs.npcs.tempest_soldier,
-              's drill and load supplies for the rollout.',
-            ],
-          ],
-        },
-        {
-          note: [
-            [
-              refs.beasts.wolfie,
-              ' and ',
-              refs.npcs.abraham,
-              ' are at the stables. What happens to them is up to the party: ask before they leave.',
-            ],
-          ],
-        },
-      ],
-      outcomes: [
-        {
-          when: [
-            ['They head for ', refs.locations.tempest, ' to find ', refs.npcs.onana_tempest, '.'],
-          ],
-          response: [
-            [
-              'That way is a sky bridge too, and it is clogged just the same. Run ',
-              refs.scenes.the_clogged_ferry_landing,
-              '.',
-            ],
-          ],
-        },
-        {
-          when: [['They stay where they are.']],
-          response: [
-            [
-              refs.npcs.captain_garran,
-              ' and his soldiers come to collect them, as they did before (',
-              refs.events.n2_e168,
-              '). Run ',
-              refs.scenes.boarded_by_the_battle_cruiser,
-              ' from his questions on.',
-            ],
-          ],
-        },
-        {
-          when: [['They help ', refs.npcs.maren_of_fairhaven, ' or ', refs.npcs.old_pell, '.']],
-          response: [
-            ['A friendly face in the chaos, and someone who points them through the back streets.'],
-          ],
-        },
-        {
-          when: [['They talk to ', refs.npcs.sergeant_bruna_kell, '.']],
-          response: [
-            ['She tries to sign them up. Signing gets them a pass through the clogged links.'],
-          ],
-        },
-        {
-          when: [
-            ['They want to see where the beam hit, or to find ', refs.pcs.swift_starblade, '.'],
-          ],
-          response: [
-            ['The only way across is the ferry. Run ', refs.scenes.the_clogged_ferry_landing, '.'],
-          ],
-        },
-        {
-          when: [['They head to the shipyard for their airship.']],
-          response: [['Run ', refs.scenes.the_ents_hold_the_shipyard, '.']],
         },
       ],
     },

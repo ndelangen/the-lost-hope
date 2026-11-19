@@ -605,6 +605,7 @@ export const refs = {
     the_hand_comes_for_jim: ref('scene', 'the_hand_comes_for_jim'),
     the_green_pulse_over_the_sky_islands: ref('scene', 'the_green_pulse_over_the_sky_islands'),
     the_green_beam_over_the_sky_islands: ref('scene', 'the_green_beam_over_the_sky_islands'),
+    chaos_on_the_sky_islands: ref('scene', 'chaos_on_the_sky_islands'),
     the_clogged_ferry_landing: ref('scene', 'the_clogged_ferry_landing'),
     the_ents_hold_the_shipyard: ref('scene', 'the_ents_hold_the_shipyard'),
     running_from_the_battle_cruiser: ref('scene', 'running_from_the_battle_cruiser'),
