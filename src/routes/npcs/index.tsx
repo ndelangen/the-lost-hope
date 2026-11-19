@@ -4,7 +4,12 @@ import { useEffect, useState } from 'react'
 import { EntityCollection } from '#/components/entity-page'
 import { Stack, SwitchLayout } from '#/components/ui/layout'
 import { COLLECTION_LABELS } from '#/lib/campaign'
-import { npcCollectionItems, parseNpcSortOrder, type NpcSortOrder } from '#/lib/npc-collection-data'
+import {
+  NPC_SORT_STORAGE_KEY,
+  npcCollectionItems,
+  parseNpcSortOrder,
+  type NpcSortOrder,
+} from '#/lib/npc-collection-data'
 import { publicPageHeadForPath } from '#/lib/public-page-metadata'
 
 export const Route = createFileRoute('/npcs/')({
@@ -12,9 +17,7 @@ export const Route = createFileRoute('/npcs/')({
   component: NpcsPage,
 })
 
-export const NPC_SORT_STORAGE_KEY = 'dag:npcs:sort'
-
-export function NpcsPage() {
+function NpcsPage() {
   const [order, setOrder] = useState<NpcSortOrder>('appearance')
 
   useEffect(() => {
