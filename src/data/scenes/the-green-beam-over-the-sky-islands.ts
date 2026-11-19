@@ -71,15 +71,7 @@ export default createScene({
         },
         {
           speaker: refs.pcs.jim,
-          say: [
-            ['I’m so sorry. I hope you all make it. Don’t trust Light.'],
-            ['Swifty, listen to me! Take the ship and run!'],
-          ],
-        },
-        {
-          note: [
-            ['“Light” in ', refs.pcs.jim, '’s last words is ', refs.npcs.light_13th_marshal, '.'],
-          ],
+          say: [['I’m so sorry Swifty, you have to listen! Take the ship and…']],
         },
         {
           do: [
