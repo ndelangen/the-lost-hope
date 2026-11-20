@@ -72,9 +72,11 @@ export type BattlePlan = {
   times: {
     /** The first ship leaves home. */
     launch: number
-    /** The leading ships are in range of the fortress and open fire. */
+    /** The whole fleet is in formation behind the fortress, waiting to attack. */
+    formed: number
+    /** The attack begins: the fleet opens fire and the fortress starts to run. */
     assault: number
-    /** The first ship turns. */
+    /** The first ship turns, as the chase begins. */
     advanceEnd: number
     /** The last ship has turned and the sides are even. */
     split: number
@@ -89,8 +91,8 @@ export const BATTLE_TIMING = {
   boot: 2.2,
   launchStagger: 0.2,
   launchFlight: 3.2,
-  assaultAfterLaunch: 2.6,
-  assaultHold: 3,
+  formHold: 2.6,
+  firstTurn: 0.8,
   turnStagger: 0.8,
   turnFlight: 2,
   formLines: 1.5,
@@ -117,8 +119,9 @@ export function battlePlan(roster: FleetRoster, geometry: BattleGeometry, seed =
   const entries = fleetShips(roster)
 
   const launch = t.boot
-  const assault = launch + t.assaultAfterLaunch
-  const advanceEnd = launch + entries.length * t.launchStagger + t.launchFlight + t.assaultHold
+  const formed = launch + entries.length * t.launchStagger + t.launchFlight
+  const assault = formed + t.formHold
+  const advanceEnd = assault + t.firstTurn
   const turning = entries.filter(({ side }) => side > 0)
   const split = advanceEnd + turning.length * t.turnStagger + t.turnFlight
   const battle = split + t.formLines
@@ -168,7 +171,7 @@ export function battlePlan(roster: FleetRoster, geometry: BattleGeometry, seed =
     volleys: [],
     crossings: [],
     captions: [],
-    times: { launch, assault, advanceEnd, split, battle, ceaseFire, end },
+    times: { launch, formed, assault, advanceEnd, split, battle, ceaseFire, end },
   }
   plan.volleys = planVolleys(plan, random)
   plan.crossings = planCrossings(plan)
@@ -211,25 +214,23 @@ function lineSlot(side: number, index: number, count: number, along: Vec, across
 }
 
 /**
- * Where the fortress is: it drifts away slowly while the fleet closes in and fires on it, then,
- * once its new escort is in place, it pulls away for good and is gone by the end.
+ * Where the fortress is: it holds still while the fleet forms up, starts to run when the attack
+ * begins, and, once its new escort is in place, pulls away for good and is gone by the end.
  */
 export function fortressAt(plan: BattlePlan, time: number): Vec {
   const { fortress, escape } = plan.geometry
-  const { split, end } = plan.times
-  const drift = 0.1 * clamp01(time / split)
-  const flight = 0.9 * easeIn(clamp01((time - split) / (end - split)))
-  return lerp(fortress, escape, drift + flight)
+  const { assault, split, end } = plan.times
+  const start = 0.15 * easeInOut(clamp01((time - assault) / (split - assault)))
+  const flight = 0.85 * easeIn(clamp01((time - split) / (end - split)))
+  return lerp(fortress, escape, start + flight)
 }
 
-/** Where the chasing formation is centred: it sails out from home and settles behind the fortress. */
+/** Where the formation is centred: it sails out from home and forms up behind the fortress. */
 export function formationAnchor(plan: BattlePlan, time: number): Vec {
   const { home } = plan.geometry
   const { along } = axes(plan.geometry)
   const behind = sub(fortressAt(plan, time), scale(along, STANDOFF))
-  const progress = clamp01(
-    (time - plan.times.launch) / (plan.times.assault + 1.5 - plan.times.launch),
-  )
+  const progress = clamp01((time - plan.times.launch) / (plan.times.formed - plan.times.launch))
   return lerp(add(home, scale(along, 120)), behind, easeInOut(progress))
 }
 
@@ -476,12 +477,12 @@ function planCaptions(plan: BattlePlan, roster: FleetRoster): BattleCaption[] {
   const captions: BattleCaption[] = [
     { at: 0.4, text: 'Contact: the flying fortress' },
     { at: launch, text: `${roster.owner.name} fleet launching: ${plan.ships.length} contacts` },
-    { at: assault, text: 'Fleet engaging the fortress' },
-    { at: assault + 3.5, text: 'The fortress is hit and breaking away' },
+    { at: plan.times.formed - 1.5, text: 'Forming up for the attack' },
+    { at: assault, text: 'Attack: the fortress is breaking away' },
   ]
   if (turned > 0) {
     captions.push({
-      at: advanceEnd,
+      at: advanceEnd + 0.4,
       text: `Contacts turning: ${rivals.map((side) => side.name).join(', ')}`,
     })
     captions.push({

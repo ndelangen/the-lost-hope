@@ -56,7 +56,7 @@ describe('battlePlan', () => {
   const { times } = plan
 
   it('launches the whole fleet under its owner', () => {
-    expect(battleCounts(plan, times.advanceEnd - 0.1, 2)).toEqual({ flying: [6, 0], lost: 0 })
+    expect(battleCounts(plan, times.assault, 2)).toEqual({ flying: [6, 0], lost: 0 })
   })
 
   it('turns the rival ships one at a time until the sides are even', () => {
@@ -82,8 +82,12 @@ describe('battlePlan', () => {
     expect(shipPose(plan, seized, times.end).side).toBe(1)
   })
 
-  it('opens fire on the fortress before the ships turn, and the fortress fires back', () => {
-    const early = plan.volleys.filter((volley) => volley.at < times.advanceEnd)
+  it('forms up quietly, then opens fire on the fortress as the chase begins', () => {
+    expect(plan.volleys.every((volley) => volley.at >= times.assault)).toBe(true)
+    const firstTurn = Math.min(...plan.ships.flatMap((entry) => entry.turnAt ?? []))
+    expect(firstTurn).toBeGreaterThan(times.assault)
+    expect(firstTurn - times.assault).toBeLessThan(1.5)
+    const early = plan.volleys.filter((volley) => volley.at < firstTurn + 0.25)
     expect(early.length).toBeGreaterThan(0)
     expect(early.every((volley) => volley.to === FORTRESS || volley.from === FORTRESS)).toBe(true)
     expect(plan.volleys.some((volley) => volley.from === FORTRESS && volley.kind === 'beam')).toBe(
@@ -105,13 +109,11 @@ describe('battlePlan', () => {
     }
   })
 
-  it('lets the fortress drift while it is under fire, then flee to the escape point', () => {
-    const sighted = fortressAt(plan, 0)
-    const split = fortressAt(plan, times.split)
-    const gone = fortressAt(plan, times.end)
-    expect(sighted).toEqual(geometry.fortress)
-    expect(Math.hypot(split.x - sighted.x, split.y - sighted.y)).toBeLessThan(120)
-    expect(gone).toEqual(geometry.escape)
+  it('holds the fortress still while the fleet forms up, then lets it flee', () => {
+    expect(fortressAt(plan, times.formed)).toEqual(geometry.fortress)
+    expect(fortressAt(plan, times.assault)).toEqual(geometry.fortress)
+    expect(fortressAt(plan, times.split)).not.toEqual(geometry.fortress)
+    expect(fortressAt(plan, times.end)).toEqual(geometry.escape)
   })
 
   it('sends the boarding party across from the flagship one by one', () => {
