@@ -21,7 +21,7 @@ export default createScene({
       refs.pcs.fix,
       ' finds them. Sent by ',
       refs.organizations.the_eyeless_hand,
-      ' against Fix’s will, with a small box and a warning. The inn is a stand-in: play it wherever they are.',
+      ' against her will, with a small box and a warning. The inn is a stand-in: play it wherever they are.',
     ],
     [
       'What the party does not know: when ',
@@ -91,9 +91,9 @@ export default createScene({
           response: [
             [
               refs.pcs.fix,
-              ' does not fight back. This was Fix’s last life, and this death is for good: ',
+              ' does not fight back. This was her last life, and this death is for good: ',
               refs.npcs.the_father,
-              ' has no more use for Fix and brings nobody back out of mercy.',
+              ' has no more use for her and brings nobody back out of mercy.',
             ],
           ],
         },
@@ -122,7 +122,9 @@ export default createScene({
       outcomes: [
         {
           when: [['The party says no.']],
-          response: [[refs.pcs.fix, ' walks into the bar alone and drinks to death there.']],
+          response: [
+            [refs.pcs.fix, ' walks into the bar alone and drinks herself to death there.'],
+          ],
         },
         {
           when: [['The party joins ', refs.pcs.fix, '.']],
@@ -277,9 +279,7 @@ export default createScene({
             [
               'After the last fact, or when the last of the party passes out, ',
               refs.pcs.fix,
-              '’s head sinks onto the table. ',
-              refs.pcs.fix,
-              ' has drunk to death, right there in the bar.',
+              '’s head sinks onto the table. She has drunk herself to death, right there in the bar.',
             ],
           ],
         },
