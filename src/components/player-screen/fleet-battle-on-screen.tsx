@@ -848,25 +848,24 @@ function drawMarkers(
     const screen = toScreen(view, at)
     drawPortrait(context, avatars.get(avatar), screen.x, screen.y, radius * 1.2)
   }
-  // The party is fired across as large glowing shots; their portraits appear when they land.
+  // The party is fired across as large shots, styled like the heavy shots but bigger: a white-hot
+  // ball with a fiery tail. Their portraits appear when they land.
   for (const { at, trail } of shots) {
     const head = toScreen(view, at)
-    const size = radius * 1.1
+    const size = Math.max(9, radius * 0.75)
     context.save()
     trail.forEach((point, index) => {
       const screen = toScreen(view, point)
-      context.fillStyle = `rgb(110 231 183 / ${0.4 * (1 - index / trail.length)})`
+      context.fillStyle = `rgb(251 146 60 / ${0.55 * (1 - index / trail.length)})`
       context.beginPath()
-      context.arc(screen.x, screen.y, size * (1 - index * 0.15), 0, Math.PI * 2)
+      context.arc(screen.x, screen.y, size * (0.9 - index * 0.13), 0, Math.PI * 2)
       context.fill()
     })
-    const glow = context.createRadialGradient(head.x, head.y, 0, head.x, head.y, size * 3.2)
-    glow.addColorStop(0, 'rgb(236 253 245 / 1)')
-    glow.addColorStop(0.25, 'rgb(110 231 183 / 0.9)')
-    glow.addColorStop(1, 'rgb(16 185 129 / 0)')
-    context.fillStyle = glow
+    context.shadowColor = 'rgb(251 191 36)'
+    context.shadowBlur = 40
+    context.fillStyle = 'rgb(255 247 220)'
     context.beginPath()
-    context.arc(head.x, head.y, size * 3.2, 0, Math.PI * 2)
+    context.arc(head.x, head.y, size, 0, Math.PI * 2)
     context.fill()
     context.restore()
   }
@@ -876,7 +875,7 @@ function drawMarkers(
     const since = time - shot.at - shot.duration
     if (since < 0 || since > 0.6) continue
     const landing = toScreen(view, hostAt(shot.to))
-    context.strokeStyle = `rgb(167 243 208 / ${1 - since / 0.6})`
+    context.strokeStyle = `rgb(253 230 138 / ${1 - since / 0.6})`
     context.lineWidth = 3
     context.beginPath()
     context.arc(landing.x, landing.y, radius * (1 + since * 5), 0, Math.PI * 2)
