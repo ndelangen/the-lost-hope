@@ -40,7 +40,7 @@ describe('AbilityQuickList', () => {
     expect(screen.getByRole('link', { name: /Silence/ }).getAttribute('href')).toBe(
       '#ability-silence',
     )
-    expect(screen.getByRole('link', { name: /Silence/ }).textContent).toContain('3×')
+    expect(screen.getByRole('link', { name: /Silence/ }).textContent).toContain('3 left')
     expect(screen.getByRole('link', { name: 'Rapier' })).toBeTruthy()
   })
 

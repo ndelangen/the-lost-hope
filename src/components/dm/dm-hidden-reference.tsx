@@ -35,8 +35,8 @@ export function DmHiddenReference({ reference }: { reference: HiddenReference })
   )
   return reference.ref === 'npc' ? (
     <Link
-      to="/dm/npcs/$key"
-      params={{ key: reference.key }}
+      to="/dm/npcs/$slug"
+      params={{ slug: record.slug }}
       title="Players have not met this NPC yet"
       className={linkClassName}
     >

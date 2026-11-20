@@ -84,13 +84,9 @@ function QuickEntry({
         <Icon />
       </span>
       {entry.name}
-      {left !== undefined ? (
+      {left !== undefined || entry.uses ? (
         <span className="text-muted-foreground text-xs font-normal tabular-nums no-underline">
-          {left} left
-        </span>
-      ) : entry.uses ? (
-        <span className="text-muted-foreground text-xs font-normal tabular-nums">
-          {entry.uses}×
+          {left ?? entry.uses} left
         </span>
       ) : null}
     </>

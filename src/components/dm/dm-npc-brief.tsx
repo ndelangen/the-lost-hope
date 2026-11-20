@@ -28,8 +28,8 @@ export function DmNpcBrief({ npc }: { npc: EntityRef<'npc'> }) {
         <Stack gap="2xs" className="min-w-0 flex-1">
           <Inline gap="sm" wrap>
             <Link
-              to="/dm/npcs/$key"
-              params={{ key: npc.key }}
+              to="/dm/npcs/$slug"
+              params={{ slug: record.slug }}
               className="text-primary font-semibold underline-offset-4 hover:underline"
             >
               {record.name}

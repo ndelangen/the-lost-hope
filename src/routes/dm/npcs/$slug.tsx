@@ -30,10 +30,12 @@ const PortraitStatus = import.meta.env.DEV
     )
   : undefined
 
-export const Route = createFileRoute('/dm/npcs/$key')({
+/** DM pages use the same slug as the NPC's player page, so the two addresses match. */
+export const Route = createFileRoute('/dm/npcs/$slug')({
   loader: ({ params }) => {
-    if (!Object.hasOwn(npcs, params.key)) throw notFound()
-    return { key: params.key }
+    const key = Object.keys(npcs).find((candidate) => npcs[candidate]?.slug === params.slug)
+    if (!key) throw notFound()
+    return { key }
   },
   head: ({ loaderData }) => ({
     meta: [

@@ -7,13 +7,20 @@ import { cn } from '#/lib/utils'
 const linkClass =
   'border-border hover:bg-muted flex items-center gap-2 rounded-md border px-3 py-1.5 text-sm'
 
-/** Shortcuts the DM keeps within reach on every DM page. */
-export function DmQuickLinks({ stackAt = 'lg' }: { stackAt?: 'lg' | 'xl' }) {
+/**
+ * Shortcuts the DM keeps within reach on every DM page. They stack into a side column from
+ * `stackAt`, or stay one wrapping row on pages that need the full width.
+ */
+export function DmQuickLinks({ stackAt = 'lg' }: { stackAt?: 'lg' | 'xl' | 'never' }) {
   const latestSession = sortedSessions()[0]
   return (
     <nav
       aria-label="DM shortcuts"
-      className={cn('flex flex-wrap gap-2', stackAt === 'lg' ? 'lg:flex-col' : 'xl:flex-col')}
+      className={cn(
+        'flex flex-wrap gap-2',
+        stackAt === 'lg' && 'lg:flex-col',
+        stackAt === 'xl' && 'xl:flex-col',
+      )}
     >
       <Link to="/dm" className={linkClass}>
         <LayoutDashboard className="size-4" /> Dashboard

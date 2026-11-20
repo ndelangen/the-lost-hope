@@ -426,11 +426,11 @@ export function dmAuthoringPlugin(): Plugin {
           }
 
           if (url.pathname === '/__dm/npc/saved' && request.method === 'GET') {
-            const { key } = npcIdentity(url.searchParams.get('name') ?? '')
+            const { key, slug } = npcIdentity(url.searchParams.get('name') ?? '')
             const settled =
               Date.now() - Math.max(startedAt, writes.theLostHopeDmLastWriteAt ?? 0) > SETTLE_MS
             return send(response, 200, {
-              key: settled && key && (await registered(key)) ? key : undefined,
+              slug: settled && key && (await registered(key)) ? slug : undefined,
             })
           }
 

@@ -174,11 +174,11 @@ export function NpcDraftEditor({ partyLocation }: { partyLocation?: string }) {
     for (let attempt = 0; attempt < 90; attempt++) {
       try {
         const response = await fetch(`/__dm/npc/saved?name=${encodeURIComponent(name)}`)
-        const { key } = (await response.json()) as { key?: string }
-        if (key) {
+        const { slug } = (await response.json()) as { slug?: string }
+        if (slug) {
           store(undefined)
           // A full navigation keeps this page in browser history.
-          window.location.assign(`/dm/npcs/${key}`)
+          window.location.assign(`/dm/npcs/${slug}`)
           return
         }
       } catch {

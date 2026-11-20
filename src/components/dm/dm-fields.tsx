@@ -64,8 +64,8 @@ export function DmFields({ kind, slug }: { kind: EntityKind; slug: string }) {
           </p>
           {kind === 'npc' ? (
             <Link
-              to="/dm/npcs/$key"
-              params={{ key: source.key }}
+              to="/dm/npcs/$slug"
+              params={{ slug }}
               className="text-primary text-sm font-medium underline-offset-4 hover:underline"
             >
               Open DM view →

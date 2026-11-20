@@ -157,13 +157,17 @@ function SceneRoute() {
               <div className="flex flex-wrap items-start gap-3">
                 <DmFaces people={[npc]} size="md" />
                 <div className="grid min-w-0 flex-1 basis-60 gap-1">
-                  <Link
-                    to="/dm/npcs/$key"
-                    params={{ key: npc.key }}
-                    className="w-fit font-medium hover:underline"
-                  >
-                    {record?.name ?? resolveSourceRef(npc)?.name}
-                  </Link>
+                  {record ? (
+                    <Link
+                      to="/dm/npcs/$slug"
+                      params={{ slug: record.slug }}
+                      className="w-fit font-medium hover:underline"
+                    >
+                      {record.name}
+                    </Link>
+                  ) : (
+                    <span className="font-medium">{resolveSourceRef(npc)?.name}</span>
+                  )}
                   {record?.motivations ? (
                     <ContentRenderer
                       content={record.motivations}
@@ -197,8 +201,8 @@ function SceneRoute() {
                       <StatBlockSummary stats={record.stats} />
                     </NpcDetail>
                     <Link
-                      to="/dm/npcs/$key"
-                      params={{ key: npc.key }}
+                      to="/dm/npcs/$slug"
+                      params={{ slug: record.slug }}
                       className="text-sm font-medium underline-offset-4 hover:underline"
                     >
                       Open {record.name}’s DM page
@@ -272,7 +276,9 @@ function SceneRoute() {
     ) : null
 
   return (
-    <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_12rem]">
+    // The ship board needs the width, so the shortcuts sit in a row above the scene.
+    <div className="grid grid-cols-[minmax(0,1fr)] gap-4">
+      <DmQuickLinks stackAt="never" />
       <article className="border-border bg-card grid min-w-0 content-start gap-5 rounded-xl border p-6">
         <header className="grid gap-1">
           <p className="text-muted-foreground text-xs">
@@ -393,9 +399,6 @@ function SceneRoute() {
         )}
         {nextList}
       </article>
-      <aside className="min-w-0">
-        <DmQuickLinks />
-      </aside>
     </div>
   )
 }
