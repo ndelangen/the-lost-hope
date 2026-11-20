@@ -9,6 +9,7 @@ import {
   battleCounts,
   battlePlan,
   captionAt,
+  legendAt,
   clamp01,
   curve,
   mulberry32,
@@ -17,10 +18,14 @@ import {
   sub,
   type BattlePlan,
   type BattleShip,
+  type LegendRow,
+  type LegendStatus,
   type Vec,
 } from '#/lib/fleet-battle'
 import type { FleetRoster } from '#/lib/fleet-roster'
-import { publicAssetUrl } from '#/lib/public-media'
+import { ItemIcon, resolveItemIcon } from '#/lib/item-icons'
+import { publicAssetUrl, responsiveImageFor } from '#/lib/public-media'
+import { cn } from '#/lib/utils'
 
 /**
  * The battle is drawn over the region map of the sky islands. The fleet launches from Tempest, the
@@ -30,9 +35,15 @@ import { publicAssetUrl } from '#/lib/public-media'
 const REGION = refs.locations.three_sky_kingdoms
 const HOME = refs.locations.tempest
 const CENTRE = refs.locations.skynet
-const FORTRESS: Vec = { x: -150, y: -95 }
-/** The part of the map the radar shows: the whole region with a margin of open sky around it. */
-const VIEW = { x: -330, y: -230, width: 2196, height: 1464 }
+const FORTRESS: Vec = { x: -360, y: -230 }
+/** How wide the fortress art is drawn, in map pixels. */
+const FORTRESS_SIZE = 460
+/** The part of the map the radar shows: the whole region with a wide margin of open sky. */
+const VIEW = { x: -640, y: -430, width: 2760, height: 1840 }
+const CLOUDS = '/assets/player-screen/fleet-battle-clouds.jpg'
+const FORTRESS_ART = '/assets/player-screen/flying-fortress.jpg'
+const RADAR_FILTER =
+  '[filter:grayscale(1)_sepia(1)_hue-rotate(125deg)_saturate(1.4)_brightness(0.42)_contrast(1.35)]'
 
 const SIDE_COLOURS = ['#38bdf8', '#f43f5e', '#f59e0b']
 const RADAR = 'rgb(94 234 212'
@@ -70,6 +81,7 @@ function FleetBattle({ roster }: { roster: FleetRoster }) {
   const size = useElementSize(frame)
   const clock = useBattleClock(plan.times.end)
   const images = useAvatarImages(plan)
+  const icons = useRef(new Map<string, HTMLImageElement>())
   const [hud, setHud] = useState(0)
 
   const view = useMemo(() => fitView(size), [size])
@@ -86,7 +98,7 @@ function FleetBattle({ roster }: { roster: FleetRoster }) {
     const draw = () => {
       const time = clock.now()
       context.setTransform(ratio, 0, 0, ratio, 0, 0)
-      drawBattle(context, plan, view, time, images.current, size)
+      drawBattle(context, plan, view, time, images.current, icons.current, size)
       if (time - lastHud > 0.1 || time >= plan.times.end) {
         lastHud = time
         setHud(time)
@@ -95,76 +107,213 @@ function FleetBattle({ roster }: { roster: FleetRoster }) {
     }
     handle = requestAnimationFrame(draw)
     return () => cancelAnimationFrame(handle)
-  }, [plan, view, size, clock, images])
+  }, [plan, view, size, clock, images, icons])
 
   const caption = captionAt(plan, hud)
   const counts = battleCounts(plan, hud, roster.sides.length)
+  const legend = legendAt(plan, hud)
+  const cloudsUrl = responsiveImageFor(CLOUDS)?.candidates.at(-1)?.src
 
   return (
-    <div ref={frame} className="absolute inset-0 overflow-hidden bg-[rgb(3_10_14)]">
-      <ResponsiveImage
-        src={map.url}
-        alt=""
-        sizes="100vw"
-        loading="eager"
-        className="absolute max-w-none opacity-80 [filter:grayscale(1)_sepia(1)_hue-rotate(125deg)_saturate(1.4)_brightness(0.42)_contrast(1.35)]"
-        style={{
-          left: view.offset.x,
-          top: view.offset.y,
-          width: map.width * view.scale,
-          height: map.height * view.scale,
-        }}
-      />
-      <canvas ref={canvas} className="absolute inset-0 size-full" />
-      <div
-        aria-hidden
-        className="pointer-events-none absolute inset-0 bg-[repeating-linear-gradient(to_bottom,rgb(0_0_0/0.18)_0px,rgb(0_0_0/0.18)_1px,transparent_1px,transparent_3px)] mix-blend-multiply"
-      />
-      <div
-        aria-hidden
-        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_55%,rgb(0_0_0/0.75)_100%)]"
-      />
+    <div className="absolute inset-0 flex overflow-hidden bg-[rgb(3_10_14)]">
+      <IconSprites icons={icons} plan={plan} />
+      <div ref={frame} className="relative min-w-0 flex-1 overflow-hidden">
+        {cloudsUrl ? (
+          <div
+            aria-hidden
+            className={`absolute inset-0 bg-cover bg-center opacity-45 ${RADAR_FILTER}`}
+            style={{ backgroundImage: `url(${cloudsUrl})` }}
+          />
+        ) : null}
+        <ResponsiveImage
+          src={map.url}
+          alt=""
+          sizes="70vw"
+          loading="eager"
+          className={`absolute max-w-none [mask-image:radial-gradient(ellipse_at_center,black_62%,transparent_76%)] opacity-90 ${RADAR_FILTER}`}
+          style={{
+            left: view.offset.x,
+            top: view.offset.y,
+            width: map.width * view.scale,
+            height: map.height * view.scale,
+          }}
+        />
+        <ResponsiveImage
+          src={FORTRESS_ART}
+          alt=""
+          sizes="30vw"
+          loading="eager"
+          className="absolute max-w-none mix-blend-lighten [filter:saturate(0.75)_brightness(0.9)]"
+          style={{
+            left: view.offset.x + (FORTRESS.x - FORTRESS_SIZE / 2) * view.scale,
+            top: view.offset.y + (FORTRESS.y - FORTRESS_SIZE / 2) * view.scale,
+            width: FORTRESS_SIZE * view.scale,
+            height: FORTRESS_SIZE * view.scale,
+          }}
+        />
+        <canvas ref={canvas} className="absolute inset-0 size-full" />
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-0 bg-[repeating-linear-gradient(to_bottom,rgb(0_0_0/0.18)_0px,rgb(0_0_0/0.18)_1px,transparent_1px,transparent_3px)] mix-blend-multiply"
+        />
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_60%,rgb(0_0_0/0.7)_100%)]"
+        />
 
-      <div className="absolute bottom-[4vh] left-[3vw] font-mono text-teal-200/90 uppercase">
-        <p className="text-[clamp(0.8rem,1.6vh,1.3rem)] tracking-[0.35em] text-teal-300/60">
-          Fleet track · live
-        </p>
-        <p className="mt-[0.6vh] text-[clamp(1.4rem,3.6vh,3rem)] font-semibold tracking-[0.12em] [text-shadow:0_0_24px_rgb(45_212_191/0.6)]">
-          {roster.owner.name}
-        </p>
-        <p className="mt-[0.4vh] text-[clamp(0.8rem,1.6vh,1.3rem)] tracking-[0.3em] text-teal-300/60 tabular-nums">
-          T+{formatClock(hud)}
-        </p>
+        <div className="absolute bottom-[4vh] left-[2.5vw] font-mono text-teal-200/90 uppercase">
+          <p className="text-[clamp(0.8rem,1.6vh,1.3rem)] tracking-[0.35em] text-teal-300/60">
+            Fleet track · live
+          </p>
+          <p className="mt-[0.6vh] text-[clamp(1.4rem,3.6vh,3rem)] font-semibold tracking-[0.12em] [text-shadow:0_0_24px_rgb(45_212_191/0.6)]">
+            {roster.owner.name}
+          </p>
+          <p className="mt-[0.4vh] text-[clamp(0.8rem,1.6vh,1.3rem)] tracking-[0.3em] text-teal-300/60 tabular-nums">
+            T+{formatClock(hud)}
+          </p>
+        </div>
+
+        {caption ? (
+          <p
+            key={caption.text}
+            className="fleet-caption absolute inset-x-0 top-[4vh] text-center font-mono text-[clamp(1.2rem,3.2vh,2.8rem)] font-semibold tracking-[0.18em] text-amber-200 uppercase [text-shadow:0_0_30px_rgb(251_191_36/0.55)]"
+          >
+            {caption.text}
+          </p>
+        ) : null}
       </div>
 
-      <ul className="absolute top-[4vh] right-[3vw] grid gap-[0.8vh] text-right font-mono text-[clamp(0.9rem,2vh,1.6rem)] tracking-[0.15em] uppercase tabular-nums">
-        {roster.sides.map((side, index) => (
-          <li key={side.key} className="flex items-center justify-end gap-[0.8vw]">
-            <span className="text-white/70">{side.name}</span>
-            <span
-              className="min-w-[2.5ch] text-[1.4em] font-bold"
-              style={{ color: SIDE_COLOURS[index], textShadow: `0 0 18px ${SIDE_COLOURS[index]}` }}
-            >
-              {counts.flying[index]}
-            </span>
-          </li>
-        ))}
-        <li className="flex items-center justify-end gap-[0.8vw] text-white/45">
-          <span>Lost</span>
-          <span className="min-w-[2.5ch] text-[1.4em] font-bold">{counts.lost}</span>
-        </li>
-      </ul>
-
-      {caption ? (
-        <p
-          key={caption.text}
-          className="fleet-caption absolute inset-x-0 top-[4vh] text-center font-mono text-[clamp(1.3rem,3.6vh,3.2rem)] font-semibold tracking-[0.18em] text-amber-200 uppercase [text-shadow:0_0_30px_rgb(251_191_36/0.55)]"
-        >
-          {caption.text}
-        </p>
-      ) : null}
+      <FleetLegend roster={roster} rows={legend} counts={counts} />
     </div>
   )
+}
+
+const STATUS_LABEL: Record<LegendStatus, string> = {
+  docked: 'Docked',
+  'in service': 'In service',
+  destroyed: 'Destroyed',
+}
+
+/** Every ship by name, grouped under the side it flies for now, with whether it still fights. */
+function FleetLegend({
+  roster,
+  rows,
+  counts,
+}: {
+  roster: FleetRoster
+  rows: readonly LegendRow[]
+  counts: { flying: number[]; lost: number }
+}) {
+  return (
+    <aside
+      aria-label="Legend"
+      className="relative z-10 flex w-[min(30vw,34rem)] shrink-0 flex-col gap-[1.6vh] overflow-hidden border-l border-teal-400/20 bg-[rgb(4_14_20/0.92)] px-[1.4vw] py-[3vh] font-mono uppercase"
+    >
+      <p className="text-[clamp(0.75rem,1.5vh,1.2rem)] tracking-[0.35em] text-teal-300/60">
+        Legend · lost {counts.lost}
+      </p>
+      {roster.sides.map((side, index) => {
+        const ships = rows.filter((row) => row.side === index)
+        const colour = SIDE_COLOURS[index]!
+        return (
+          <section key={side.key} className="flex min-h-0 flex-col gap-[0.5vh]">
+            <h2
+              className="flex items-baseline justify-between gap-[1vw] border-b pb-[0.4vh] text-[clamp(0.9rem,2vh,1.6rem)] font-semibold tracking-[0.14em]"
+              style={{ color: colour, borderColor: withAlpha(colour, 0.35) }}
+            >
+              <span className="truncate">{side.name}</span>
+              <span className="tabular-nums">{counts.flying[index]}</span>
+            </h2>
+            <ul className="grid gap-[0.25vh]">
+              {ships.map((row) => (
+                <li
+                  key={row.key}
+                  className={cn(
+                    'flex items-center gap-[0.6vw] text-[clamp(0.7rem,1.45vh,1.15rem)] tracking-[0.06em] transition-opacity duration-500',
+                    row.status === 'destroyed' && 'opacity-40',
+                    row.status === 'docked' && 'opacity-30',
+                  )}
+                >
+                  <span
+                    className="grid size-[1.7em] shrink-0 place-items-center rounded-full border"
+                    style={{ borderColor: colour, color: 'white' }}
+                  >
+                    <ItemIcon icon={row.icon} className="size-[1.05em]" />
+                  </span>
+                  <span
+                    className={cn(
+                      'min-w-0 flex-1 truncate text-white/90',
+                      row.status === 'destroyed' && 'line-through',
+                    )}
+                  >
+                    {row.name}
+                  </span>
+                  <span
+                    className="shrink-0 text-[0.85em] tracking-[0.12em]"
+                    style={{
+                      color:
+                        row.status === 'destroyed'
+                          ? 'rgb(255 255 255 / 0.6)'
+                          : row.status === 'docked'
+                            ? 'rgb(255 255 255 / 0.5)'
+                            : colour,
+                    }}
+                  >
+                    {row.turned && row.status !== 'destroyed' ? 'Turned · ' : ''}
+                    {STATUS_LABEL[row.status]}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )
+      })}
+    </aside>
+  )
+}
+
+/**
+ * The ships' icons, rendered once off screen so the radar can paint them: each icon's SVG is turned
+ * into an image the canvas can draw.
+ */
+function IconSprites({
+  icons,
+  plan,
+}: {
+  icons: React.RefObject<Map<string, HTMLImageElement>>
+  plan: BattlePlan
+}) {
+  const holder = useRef<HTMLDivElement>(null)
+  const unique = useMemo(() => [...new Set(plan.ships.map((ship) => ship.icon))], [plan])
+  useEffect(() => {
+    const element = holder.current
+    if (!element) return
+    for (const svg of element.querySelectorAll<SVGElement>('svg[data-icon]')) {
+      const id = svg.dataset.icon!
+      if (icons.current.has(id)) continue
+      const clone = svg.cloneNode(true) as SVGElement
+      clone.setAttribute('xmlns', 'http://www.w3.org/2000/svg')
+      clone.setAttribute('width', '96')
+      clone.setAttribute('height', '96')
+      clone.setAttribute('fill', 'white')
+      clone.setAttribute('color', 'white')
+      const image = new Image()
+      image.src = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(clone.outerHTML)}`
+      icons.current.set(id, image)
+    }
+  }, [unique, icons])
+  return (
+    <div ref={holder} aria-hidden className="pointer-events-none absolute size-0 overflow-hidden">
+      {unique.map((icon) => (
+        <SpriteIcon key={icon} icon={icon} />
+      ))}
+    </div>
+  )
+}
+
+function SpriteIcon({ icon }: { icon: string }) {
+  const Icon = resolveItemIcon(icon)
+  return <Icon data-icon={icon} />
 }
 
 type View = { scale: number; offset: Vec }
@@ -188,6 +337,7 @@ function drawBattle(
   view: View,
   time: number,
   avatars: ReadonlyMap<string, HTMLImageElement>,
+  icons: ReadonlyMap<string, HTMLImageElement>,
   size: { width: number; height: number },
 ) {
   context.clearRect(0, 0, size.width, size.height)
@@ -227,28 +377,28 @@ function drawBattle(
   context.restore()
 
   drawLandmark(context, toScreen(view, plan.geometry.home), 'Tempest', time, false)
-  drawFortress(context, toScreen(view, plan.geometry.target), unitPx, time)
+  drawLandmark(
+    context,
+    add(toScreen(view, plan.geometry.target), { x: 0, y: FORTRESS_SIZE * view.scale * 0.42 }),
+    'Flying fortress',
+    time * 0.5,
+    true,
+  )
 
   const poses = new Map(plan.ships.map((ship) => [ship.key, shipPose(plan, ship, time)]))
 
-  // Wakes behind the moving ships.
+  // The path each ship has sailed, fading with age.
   for (const ship of plan.ships) {
     const pose = poses.get(ship.key)!
-    if (pose.state !== 'sailing') continue
-    for (let step = 1; step <= 7; step += 1) {
-      const past = shipPose(plan, ship, time - step * 0.12)
-      if (past.state === 'hidden') break
-      const at = toScreen(view, past.pos)
-      context.fillStyle = withAlpha(SIDE_COLOURS[past.side]!, 0.28 * (1 - step / 8))
-      context.beginPath()
-      context.arc(at.x, at.y, Math.max(1.2, 2.2 * unitPx * 2), 0, Math.PI * 2)
-      context.fill()
-    }
+    if (pose.state === 'hidden') continue
+    drawTrail(context, plan, ship, view, time)
   }
 
   drawVolleys(context, plan, view, time)
 
-  for (const ship of plan.ships) drawShip(context, plan, ship, poses.get(ship.key)!, view, time)
+  for (const ship of plan.ships) {
+    drawShip(context, plan, ship, poses.get(ship.key)!, view, time, icons)
+  }
   for (const ship of plan.ships) drawExplosion(context, ship, poses.get(ship.key)!, view, time)
   drawMarkers(context, plan, poses, view, time, avatars)
 
@@ -285,43 +435,39 @@ function drawLandmark(
   context.restore()
 }
 
-function drawFortress(context: CanvasRenderingContext2D, at: Vec, unitPx: number, time: number) {
-  const size = Math.max(44, 110 * unitPx)
+function drawTrail(
+  context: CanvasRenderingContext2D,
+  plan: BattlePlan,
+  ship: BattleShip,
+  view: View,
+  time: number,
+) {
+  const step = 0.2
+  const start = ship.launchAt
+  const end = ship.lostAt === undefined ? time : Math.min(time, ship.lostAt)
+  // Wrecks' trails fade away after they go down.
+  const fade = ship.lostAt === undefined ? 1 : 1 - clamp01((time - ship.lostAt) / 3)
+  if (end - start < step || fade <= 0) return
   context.save()
-  context.translate(at.x, at.y)
-  context.shadowColor = 'rgb(190 242 100)'
-  context.shadowBlur = 24
-  context.fillStyle = 'rgb(190 242 100 / 0.12)'
-  context.strokeStyle = 'rgb(190 242 100 / 0.9)'
-  context.lineWidth = 2
-  // A rock with a walled keep on top.
-  context.beginPath()
-  context.moveTo(-size, 0)
-  context.lineTo(size, 0)
-  context.lineTo(size * 0.55, size * 0.55)
-  context.lineTo(0, size * 0.95)
-  context.lineTo(-size * 0.55, size * 0.55)
-  context.closePath()
-  context.fill()
-  context.stroke()
-  context.beginPath()
-  const towers = [-0.8, -0.35, 0.1, 0.55]
-  context.moveTo(-size * 0.85, 0)
-  for (const tower of towers) {
-    context.lineTo(size * tower, -size * 0.35)
-    context.lineTo(size * (tower + 0.2), -size * 0.35)
-    context.lineTo(size * (tower + 0.2), -size * 0.15)
-    context.lineTo(size * (tower + 0.45), -size * 0.15)
+  context.lineCap = 'round'
+  let previous = shipPose(plan, ship, start)
+  for (let at = start + step; at <= end; at += step) {
+    const pose = shipPose(plan, ship, at)
+    const age = (time - at) / 14
+    const alpha = 0.55 * (1 - clamp01(age)) * fade
+    if (alpha > 0.01) {
+      const from = toScreen(view, previous.pos)
+      const to = toScreen(view, pose.pos)
+      context.strokeStyle = withAlpha(SIDE_COLOURS[pose.side]!, alpha)
+      context.lineWidth = Math.max(1.5, 3 * view.scale * 2)
+      context.beginPath()
+      context.moveTo(from.x, from.y)
+      context.lineTo(to.x, to.y)
+      context.stroke()
+    }
+    previous = pose
   }
-  context.lineTo(size * 0.85, 0)
-  context.stroke()
-  context.beginPath()
-  context.moveTo(-size * 0.12, -size * 0.35)
-  context.lineTo(0, -size * 0.85)
-  context.lineTo(size * 0.12, -size * 0.35)
-  context.stroke()
   context.restore()
-  drawLandmark(context, { x: at.x, y: at.y + size * 0.5 }, 'Flying fortress', time * 0.5, true)
 }
 
 function drawShip(
@@ -331,47 +477,66 @@ function drawShip(
   pose: ReturnType<typeof shipPose>,
   view: View,
   time: number,
+  icons: ReadonlyMap<string, HTMLImageElement>,
 ) {
   if (pose.state === 'hidden') return
   const at = toScreen(view, pose.pos)
-  const size = Math.max(11, 20 * view.scale * 1.6)
+  const radius = Math.max(11, 22 * view.scale * 1.6)
   const colour = SIDE_COLOURS[pose.side]!
-  const turning = ship.turnAt !== undefined && time >= ship.turnAt && time < ship.turnAt + 0.5
+  const turning = ship.turnAt !== undefined && time >= ship.turnAt && time < ship.turnAt + 0.6
+  const icon = icons.get(ship.icon)
   context.save()
   context.translate(at.x, at.y)
-  context.rotate(Math.atan2(pose.heading.y, pose.heading.x))
   if (pose.state === 'wreck') {
-    context.globalAlpha = 1 - pose.sinking * 0.75
-    context.strokeStyle = 'rgb(255 255 255 / 0.5)'
+    context.globalAlpha = 1 - pose.sinking * 0.7
+    context.fillStyle = 'rgb(15 23 42 / 0.8)'
+    context.strokeStyle = 'rgb(255 255 255 / 0.35)'
     context.lineWidth = 1.5
     context.beginPath()
-    context.moveTo(-size * 0.6, -size * 0.6)
-    context.lineTo(size * 0.6, size * 0.6)
-    context.moveTo(size * 0.6, -size * 0.6)
-    context.lineTo(-size * 0.6, size * 0.6)
+    context.arc(0, 0, radius * 0.8, 0, Math.PI * 2)
+    context.fill()
     context.stroke()
+    if (icon?.complete) {
+      context.globalAlpha *= 0.35
+      context.drawImage(icon, -radius * 0.5, -radius * 0.5, radius, radius)
+    }
     context.restore()
     return
   }
-  context.shadowColor = colour
-  context.shadowBlur = turning ? 30 : 14
-  context.fillStyle = turning ? 'white' : colour
+  // Heading: a pointer on the rim of the badge.
+  const angle = Math.atan2(pose.heading.y, pose.heading.x)
+  context.save()
+  context.rotate(angle)
+  context.fillStyle = colour
   context.beginPath()
-  context.moveTo(size, 0)
-  context.lineTo(-size * 0.7, size * 0.62)
-  context.lineTo(-size * 0.35, 0)
-  context.lineTo(-size * 0.7, -size * 0.62)
+  context.moveTo(radius + 9, 0)
+  context.lineTo(radius - 1, -6)
+  context.lineTo(radius - 1, 6)
   context.closePath()
   context.fill()
+  context.restore()
+  context.shadowColor = turning ? 'white' : colour
+  context.shadowBlur = turning ? 34 : 16
+  context.fillStyle = 'rgb(8 15 28 / 0.92)'
+  context.strokeStyle = turning ? 'white' : colour
+  context.lineWidth = 2.5
+  context.beginPath()
+  context.arc(0, 0, radius, 0, Math.PI * 2)
+  context.fill()
+  context.stroke()
+  context.shadowBlur = 0
+  if (icon?.complete && icon.naturalWidth > 0) {
+    context.drawImage(icon, -radius * 0.62, -radius * 0.62, radius * 1.24, radius * 1.24)
+  }
   context.restore()
   // A muzzle flash as each volley leaves.
   for (const volley of plan.volleys) {
     if (volley.from !== ship.key) continue
     const since = time - volley.at
     if (since < 0 || since > 0.12) continue
-    context.fillStyle = `rgb(253 224 71 / ${0.85 * (1 - since / 0.12)})`
+    context.fillStyle = `rgb(253 224 71 / ${0.7 * (1 - since / 0.12)})`
     context.beginPath()
-    context.arc(at.x, at.y, size * 0.45, 0, Math.PI * 2)
+    context.arc(at.x, at.y, radius * 1.15, 0, Math.PI * 2)
     context.fill()
   }
 }

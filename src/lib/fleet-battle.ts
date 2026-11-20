@@ -15,6 +15,8 @@ export type BattleGeometry = {
 
 export type BattleShip = {
   key: string
+  name: string
+  icon: string
   /** 0 for the owner's side, then each rival side, at the end of the battle. */
   side: number
   lost: boolean
@@ -129,6 +131,8 @@ export function battlePlan(roster: FleetRoster, geometry: BattleGeometry, seed =
     const lineIndex = lines[side]!.indexOf(ship.key)
     return {
       key: ship.key,
+      name: ship.name,
+      icon: ship.icon,
       side,
       lost: ship.status === 'destroyed',
       launchAt: launch + index * t.launchStagger,
@@ -156,10 +160,10 @@ export function battlePlan(roster: FleetRoster, geometry: BattleGeometry, seed =
 }
 
 const FORMATION_COLUMNS = 4
-const FORMATION_SPACING = { along: 46, across: 54 }
-const LINE_SPACING = { along: 50, across: 86 }
+const FORMATION_SPACING = { along: 58, across: 66 }
+const LINE_SPACING = { along: 70, across: 112 }
 /** How far ahead of the centre the rival line forms, and how far back the owner's line forms. */
-const LINE_OFFSET = { rival: 210, owner: -60 }
+const LINE_OFFSET = { rival: 250, owner: -80 }
 
 function formationSlot(index: number, along: Vec, across: Vec): Vec {
   const row = Math.floor(index / FORMATION_COLUMNS)
@@ -281,6 +285,47 @@ export function battleCounts(
     else if (pose.state === 'sailing') flying[pose.side]! += 1
   }
   return { flying, lost }
+}
+
+export type LegendStatus = 'docked' | 'in service' | 'destroyed'
+
+export type LegendRow = {
+  key: string
+  name: string
+  icon: string
+  /** The side whose colours it flies now, or flew when it went down. */
+  side: number
+  /** Whether it has changed hands by now. */
+  turned: boolean
+  status: LegendStatus
+}
+
+/**
+ * The legend at a moment: every ship with the side it flies for and whether it is still in the
+ * fight. Each side's ships in service come first, then its losses, each in launch order.
+ */
+export function legendAt(plan: BattlePlan, time: number): LegendRow[] {
+  const rank: Record<LegendStatus, number> = { 'in service': 0, docked: 1, destroyed: 2 }
+  return plan.ships
+    .map((ship): LegendRow => {
+      const pose = shipPose(plan, ship, time)
+      const status: LegendStatus =
+        pose.state === 'hidden' ? 'docked' : pose.state === 'wreck' ? 'destroyed' : 'in service'
+      return {
+        key: ship.key,
+        name: ship.name,
+        icon: ship.icon,
+        side: pose.side,
+        turned: pose.side !== 0,
+        status,
+      }
+    })
+    .map((row, order) => ({ row, order }))
+    .toSorted(
+      (a, b) =>
+        a.row.side - b.row.side || rank[a.row.status] - rank[b.row.status] || a.order - b.order,
+    )
+    .map(({ row }) => row)
 }
 
 /** The caption on screen at a moment: the latest that has started. */

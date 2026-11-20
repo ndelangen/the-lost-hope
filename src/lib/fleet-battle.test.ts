@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 
-import { battleCounts, battlePlan, captionAt, shipPose } from './fleet-battle'
+import { battleCounts, battlePlan, captionAt, legendAt, shipPose } from './fleet-battle'
 import type { FleetRoster, FleetShip } from './fleet-roster'
 
 function ship(key: string, extra: Partial<FleetShip> = {}): FleetShip {
@@ -98,5 +98,19 @@ describe('battlePlan', () => {
     expect(captionAt(plan, times.launch + 0.1)?.text).toBe('Navy fleet launching: 6 contacts')
     expect(captionAt(plan, times.split + 0.1)?.text).toBe('The fleet is split: 3 against 3')
     expect(captionAt(plan, times.end)?.text).toBe('2 contacts remain')
+  })
+
+  it('lists every ship in the legend with its side and whether it is still fighting', () => {
+    expect(legendAt(plan, 0).every((row) => row.status === 'docked')).toBe(true)
+    const end = legendAt(plan, times.end)
+    expect(end.map((row) => [row.key, row.side, row.status])).toEqual([
+      ['flagship', 0, 'in service'],
+      ['wreck', 0, 'destroyed'],
+      ['sunk', 0, 'destroyed'],
+      ['seized', 1, 'in service'],
+      ['burnt', 1, 'destroyed'],
+      ['scuttled', 1, 'destroyed'],
+    ])
+    expect(end.find((row) => row.key === 'seized')?.turned).toBe(true)
   })
 })
