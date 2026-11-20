@@ -24,7 +24,7 @@ export default createItem({
       ' included.',
     ],
     [
-      'Attunement can only be attempted in absolute darkness, and only by a creature that has and owns its own soul. Attuning embeds the wielder’s soul into the blade.',
+      'Attunement can only be attempted in absolute darkness, and only by a creature that has and owns its own soul. Attuning embeds the wielder’s soul into the blade. If it is not dark enough, the sword tells the would-be wielder: “Not dark enough.”',
     ],
     [
       'A finesse shortsword that deals 1d6 ',
