@@ -1,6 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { Maximize } from 'lucide-react'
 import { lazy, Suspense, useEffect, useMemo, useState } from 'react'
+import { z } from 'zod'
 
 import { FleetBattleOnScreen } from '#/components/player-screen/fleet-battle-on-screen'
 import { FleetRosterOnScreen } from '#/components/player-screen/fleet-roster-on-screen'
@@ -21,6 +22,7 @@ import {
   playerScreenGridFor,
   playerScreenImageId,
   playerScreenShowing,
+  showOnPlayerScreen,
 } from '#/lib/player-screen-state'
 import { responsiveImageFor } from '#/lib/public-media'
 import { cn } from '#/lib/utils'
@@ -32,7 +34,17 @@ const JimsLetterOnScreen = lazy(() =>
 )
 
 /** The player-facing screen: a bare, full-window picture the DM picks from another window. */
+/**
+ * A link can open the player screen on a fleet: `/display?fleet=tempest_family&screen=battle`. The
+ * screen puts it up, then drops the query so a reload keeps whatever the DM shows next.
+ */
+const displaySearchSchema = z.object({
+  fleet: z.string().min(1).optional(),
+  screen: z.enum(['roster', 'battle']).optional(),
+})
+
 export const Route = createFileRoute('/display')({
+  validateSearch: displaySearchSchema,
   head: () => ({
     meta: [{ title: 'Player screen' }, { name: 'robots', content: 'noindex, nofollow' }],
   }),
@@ -40,7 +52,19 @@ export const Route = createFileRoute('/display')({
 })
 
 function PlayerScreenPage() {
-  const [state] = usePlayerScreen()
+  const [state, update] = usePlayerScreen()
+  const { fleet, screen } = Route.useSearch()
+  const navigate = Route.useNavigate()
+  useEffect(() => {
+    if (!fleet) return
+    update((current) =>
+      showOnPlayerScreen(current, {
+        image: screen === 'roster' ? 'fleet' : 'fleet-battle',
+        ref: { ref: 'organization', key: fleet },
+      }),
+    )
+    void navigate({ search: {}, replace: true })
+  }, [fleet, screen, update, navigate])
   const showing = playerScreenShowing(state)
   const captions = state.captions
   useAnnouncePlayerScreen()
