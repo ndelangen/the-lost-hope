@@ -1,6 +1,14 @@
 import { describe, expect, it } from 'vitest'
 
-import { battleCounts, battlePlan, captionAt, legendAt, shipPose } from './fleet-battle'
+import {
+  battleCounts,
+  battlePlan,
+  captionAt,
+  FORTRESS,
+  fortressAt,
+  legendAt,
+  shipPose,
+} from './fleet-battle'
 import type { FleetRoster, FleetShip } from './fleet-roster'
 
 function ship(key: string, extra: Partial<FleetShip> = {}): FleetShip {
@@ -36,7 +44,12 @@ const roster: FleetRoster = {
   ],
   building: [],
 }
-const geometry = { home: { x: 1000, y: 800 }, centre: { x: 600, y: 450 }, target: { x: 0, y: 0 } }
+const geometry = {
+  home: { x: 1000, y: 800 },
+  centre: { x: 600, y: 450 },
+  fortress: { x: 500, y: 300 },
+  escape: { x: -300, y: -250 },
+}
 
 describe('battlePlan', () => {
   const plan = battlePlan(roster, geometry)
@@ -69,16 +82,36 @@ describe('battlePlan', () => {
     expect(shipPose(plan, seized, times.end).side).toBe(1)
   })
 
-  it('fires only between the sides, and only from ships still afloat', () => {
+  it('opens fire on the fortress before the ships turn, and the fortress fires back', () => {
+    const early = plan.volleys.filter((volley) => volley.at < times.advanceEnd)
+    expect(early.length).toBeGreaterThan(0)
+    expect(early.every((volley) => volley.to === FORTRESS || volley.from === FORTRESS)).toBe(true)
+    expect(plan.volleys.some((volley) => volley.from === FORTRESS && volley.kind === 'beam')).toBe(
+      true,
+    )
+  })
+
+  it('has the turned ships fire on their old side, never on the fortress', () => {
     const byKey = new Map(plan.ships.map((entry) => [entry.key, entry]))
+    const fromTurned = plan.volleys.filter((volley) => {
+      const from = byKey.get(volley.from)
+      return from?.turnAt !== undefined && volley.at > from.turnAt + 0.25 && volley.kind !== 'beam'
+    })
+    expect(fromTurned.length).toBeGreaterThan(0)
+    expect(fromTurned.every((volley) => volley.to !== FORTRESS)).toBe(true)
     for (const volley of plan.volleys) {
-      const from = byKey.get(volley.from)!
-      expect(from.side).not.toBe(byKey.get(volley.to)!.side)
-      expect(volley.at).toBeGreaterThanOrEqual(times.battle - 2)
-      expect(volley.at).toBeLessThan(from.lostAt ?? Infinity)
+      const from = byKey.get(volley.from)
+      expect(volley.at).toBeLessThan(from?.lostAt ?? Infinity)
     }
-    expect(plan.volleys.some((volley) => volley.kind === 'heavy')).toBe(true)
-    expect(plan.volleys.some((volley) => volley.kind === 'hail')).toBe(true)
+  })
+
+  it('lets the fortress drift while it is under fire, then flee to the escape point', () => {
+    const sighted = fortressAt(plan, 0)
+    const split = fortressAt(plan, times.split)
+    const gone = fortressAt(plan, times.end)
+    expect(sighted).toEqual(geometry.fortress)
+    expect(Math.hypot(split.x - sighted.x, split.y - sighted.y)).toBeLessThan(120)
+    expect(gone).toEqual(geometry.escape)
   })
 
   it('sends the boarding party across from the flagship one by one', () => {
@@ -97,7 +130,7 @@ describe('battlePlan', () => {
   it('captions the battle from launch to the survivors', () => {
     expect(captionAt(plan, times.launch + 0.1)?.text).toBe('Navy fleet launching: 6 contacts')
     expect(captionAt(plan, times.split + 0.1)?.text).toBe('The fleet is split: 3 against 3')
-    expect(captionAt(plan, times.end)?.text).toBe('2 contacts remain')
+    expect(captionAt(plan, times.end)?.text).toBe('The fortress escaped · 2 contacts remain')
   })
 
   it('lists every ship in the legend with its side and whether it is still fighting', () => {

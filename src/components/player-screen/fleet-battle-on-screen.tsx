@@ -15,6 +15,9 @@ import {
   mulberry32,
   scale,
   shipPose,
+  pointOf,
+  fortressAt,
+  FORTRESS,
   sub,
   type BattlePlan,
   type BattleShip,
@@ -35,9 +38,11 @@ import { cn } from '#/lib/utils'
 const REGION = refs.locations.three_sky_kingdoms
 const HOME = refs.locations.tempest
 const CENTRE = refs.locations.skynet
-const FORTRESS: Vec = { x: -360, y: -230 }
+/** Where the fortress is sighted, close over the islands, and where it flees to, off the radar. */
+const FORTRESS_START: Vec = { x: 520, y: 260 }
+const FORTRESS_ESCAPE: Vec = { x: -1000, y: -700 }
 /** How wide the fortress art is drawn, in map pixels. */
-const FORTRESS_SIZE = 460
+const FORTRESS_SIZE = 400
 /** The part of the map the radar shows: the whole region with a wide margin of open sky. */
 const VIEW = { x: -640, y: -430, width: 2760, height: 1840 }
 const CLOUDS = '/assets/player-screen/fleet-battle-clouds.jpg'
@@ -72,7 +77,12 @@ export function FleetBattleOnScreen({ owner }: { owner: string }) {
 function FleetBattle({ roster }: { roster: FleetRoster }) {
   const plan = useMemo(
     () =>
-      battlePlan(roster, { home: point(HOME.key), centre: point(CENTRE.key), target: FORTRESS }),
+      battlePlan(roster, {
+        home: point(HOME.key),
+        centre: point(CENTRE.key),
+        fortress: FORTRESS_START,
+        escape: FORTRESS_ESCAPE,
+      }),
     [roster],
   )
   const map = located(REGION.key).map
@@ -82,6 +92,7 @@ function FleetBattle({ roster }: { roster: FleetRoster }) {
   const clock = useBattleClock(plan.times.end)
   const images = useAvatarImages(plan)
   const icons = useRef(new Map<string, HTMLImageElement>())
+  const fortress = useFortressSprite()
   const [hud, setHud] = useState(0)
 
   const view = useMemo(() => fitView(size), [size])
@@ -98,7 +109,7 @@ function FleetBattle({ roster }: { roster: FleetRoster }) {
     const draw = () => {
       const time = clock.now()
       context.setTransform(ratio, 0, 0, ratio, 0, 0)
-      drawBattle(context, plan, view, time, images.current, icons.current, size)
+      drawBattle(context, plan, view, time, images.current, icons.current, fortress.current, size)
       if (time - lastHud > 0.1 || time >= plan.times.end) {
         lastHud = time
         setHud(time)
@@ -107,7 +118,7 @@ function FleetBattle({ roster }: { roster: FleetRoster }) {
     }
     handle = requestAnimationFrame(draw)
     return () => cancelAnimationFrame(handle)
-  }, [plan, view, size, clock, images, icons])
+  }, [plan, view, size, clock, images, icons, fortress])
 
   const caption = captionAt(plan, hud)
   const counts = battleCounts(plan, hud, roster.sides.length)
@@ -136,19 +147,6 @@ function FleetBattle({ roster }: { roster: FleetRoster }) {
             top: view.offset.y,
             width: map.width * view.scale,
             height: map.height * view.scale,
-          }}
-        />
-        <ResponsiveImage
-          src={FORTRESS_ART}
-          alt=""
-          sizes="30vw"
-          loading="eager"
-          className="absolute max-w-none mix-blend-lighten [filter:saturate(0.75)_brightness(0.9)]"
-          style={{
-            left: view.offset.x + (FORTRESS.x - FORTRESS_SIZE / 2) * view.scale,
-            top: view.offset.y + (FORTRESS.y - FORTRESS_SIZE / 2) * view.scale,
-            width: FORTRESS_SIZE * view.scale,
-            height: FORTRESS_SIZE * view.scale,
           }}
         />
         <canvas ref={canvas} className="absolute inset-0 size-full" />
@@ -338,6 +336,7 @@ function drawBattle(
   time: number,
   avatars: ReadonlyMap<string, HTMLImageElement>,
   icons: ReadonlyMap<string, HTMLImageElement>,
+  fortress: HTMLCanvasElement | undefined,
   size: { width: number; height: number },
 ) {
   context.clearRect(0, 0, size.width, size.height)
@@ -377,13 +376,7 @@ function drawBattle(
   context.restore()
 
   drawLandmark(context, toScreen(view, plan.geometry.home), 'Tempest', time, false)
-  drawLandmark(
-    context,
-    add(toScreen(view, plan.geometry.target), { x: 0, y: FORTRESS_SIZE * view.scale * 0.42 }),
-    'Flying fortress',
-    time * 0.5,
-    true,
-  )
+  drawFortress(context, plan, view, time, fortress)
 
   const poses = new Map(plan.ships.map((ship) => [ship.key, shipPose(plan, ship, time)]))
 
@@ -547,13 +540,37 @@ function drawVolleys(
   view: View,
   time: number,
 ) {
-  const byKey = new Map(plan.ships.map((ship) => [ship.key, ship]))
   for (const volley of plan.volleys) {
     const since = time - volley.at
     if (since < 0 || since > volley.flight + 0.35) continue
-    const from = shipPose(plan, byKey.get(volley.from)!, volley.at).pos
-    const to = shipPose(plan, byKey.get(volley.to)!, volley.at + volley.flight).pos
     const random = mulberry32(volley.seed)
+    const from = pointOf(plan, volley.from, volley.at)
+    // Shots at the fortress land anywhere on its walls, not on one spot.
+    const spread =
+      volley.to === FORTRESS
+        ? { x: (random() - 0.5) * FORTRESS_SIZE * 0.5, y: (random() - 0.5) * FORTRESS_SIZE * 0.35 }
+        : { x: 0, y: 0 }
+    const to = add(pointOf(plan, volley.to, volley.at + volley.flight), spread)
+    if (volley.kind === 'beam') {
+      const fade = 1 - clamp01(since / (volley.flight + 0.35))
+      const a = toScreen(view, from)
+      const b = toScreen(view, to)
+      context.save()
+      context.strokeStyle = `rgb(190 242 100 / ${0.9 * fade})`
+      context.shadowColor = 'rgb(163 230 53)'
+      context.shadowBlur = 24
+      context.lineWidth = 5 * fade + 1
+      context.beginPath()
+      context.moveTo(a.x, a.y)
+      context.lineTo(b.x, b.y)
+      context.stroke()
+      context.fillStyle = `rgb(217 249 157 / ${fade})`
+      context.beginPath()
+      context.arc(b.x, b.y, 10 * fade + 2, 0, Math.PI * 2)
+      context.fill()
+      context.restore()
+      continue
+    }
     if (volley.kind === 'heavy') {
       const progress = since / volley.flight
       if (progress <= 1) {
@@ -715,6 +732,94 @@ function drawPortrait(
   context.clip()
   context.drawImage(image, x - radius, y - radius, radius * 2, radius * 2)
   context.restore()
+}
+
+function drawFortress(
+  context: CanvasRenderingContext2D,
+  plan: BattlePlan,
+  view: View,
+  time: number,
+  sprite: HTMLCanvasElement | undefined,
+) {
+  const at = toScreen(view, fortressAt(plan, time))
+  const size = FORTRESS_SIZE * view.scale
+  // Its wake as it pulls away.
+  context.save()
+  context.lineCap = 'round'
+  let previous = toScreen(view, fortressAt(plan, 0))
+  for (let step = 0.3; step <= time; step += 0.3) {
+    const next = toScreen(view, fortressAt(plan, step))
+    context.strokeStyle = `rgb(190 242 100 / ${0.35 * (1 - clamp01((time - step) / 20))})`
+    context.lineWidth = Math.max(2, size * 0.04)
+    context.beginPath()
+    context.moveTo(previous.x, previous.y)
+    context.lineTo(next.x, next.y)
+    context.stroke()
+    previous = next
+  }
+  context.restore()
+  if (sprite) {
+    context.save()
+    context.shadowColor = 'rgb(163 230 53 / 0.6)'
+    context.shadowBlur = 40
+    context.globalAlpha = clamp01(time / 1.2)
+    context.drawImage(sprite, at.x - size / 2, at.y - size / 2, size, size)
+    context.restore()
+  }
+  // It glows hot where shots have just landed.
+  const hits = plan.volleys.filter((volley) => {
+    if (volley.to !== FORTRESS) return false
+    const since = time - volley.at - volley.flight
+    return since >= 0 && since < 0.3
+  }).length
+  if (hits > 0) {
+    const glow = context.createRadialGradient(at.x, at.y, 0, at.x, at.y, size * 0.5)
+    glow.addColorStop(0, `rgb(251 146 60 / ${Math.min(0.35, hits * 0.06)})`)
+    glow.addColorStop(1, 'rgb(251 146 60 / 0)')
+    context.fillStyle = glow
+    context.beginPath()
+    context.arc(at.x, at.y, size * 0.5, 0, Math.PI * 2)
+    context.fill()
+  }
+  drawLandmark(context, { x: at.x, y: at.y + size * 0.42 }, 'Flying fortress', time * 0.5, true)
+}
+
+/**
+ * The fortress art, with the dark background the image pipeline flattens it onto keyed out, so it
+ * can be drawn over the radar.
+ */
+function useFortressSprite() {
+  const sprite = useRef<HTMLCanvasElement | undefined>(undefined)
+  useEffect(() => {
+    const source = responsiveImageFor(FORTRESS_ART)?.candidates.find(
+      (candidate) => candidate.width >= 640,
+    )?.src
+    if (!source) return
+    const image = new Image()
+    image.onload = () => {
+      const canvas = document.createElement('canvas')
+      canvas.width = image.naturalWidth
+      canvas.height = image.naturalHeight
+      const context = canvas.getContext('2d')
+      if (!context) return
+      context.drawImage(image, 0, 0)
+      const pixels = context.getImageData(0, 0, canvas.width, canvas.height)
+      const data = pixels.data
+      // APP_ICON_BACKGROUND, #07111f, and anything close to it becomes transparent.
+      for (let index = 0; index < data.length; index += 4) {
+        const distance =
+          Math.abs(data[index]! - 7) +
+          Math.abs(data[index + 1]! - 17) +
+          Math.abs(data[index + 2]! - 31)
+        if (distance < 24) data[index + 3] = 0
+        else if (distance < 48) data[index + 3] = Math.round(((distance - 24) / 24) * 255)
+      }
+      context.putImageData(pixels, 0, 0)
+      sprite.current = canvas
+    }
+    image.src = source
+  }, [])
+  return sprite
 }
 
 function withAlpha(hex: string, alpha: number): string {

@@ -7,11 +7,16 @@ export type Vec = { x: number; y: number }
 export type BattleGeometry = {
   /** Where the fleet launches from. */
   home: Vec
-  /** Where the two lines meet. */
+  /** Where the radar is centred. */
   centre: Vec
-  /** What the fleet sails out to engage. */
-  target: Vec
+  /** Where the flying fortress is when the fleet sights it. */
+  fortress: Vec
+  /** Where the fortress flees to; it is gone from the radar when it gets there. */
+  escape: Vec
 }
+
+/** The key volleys use for the flying fortress, as a shooter or a target. */
+export const FORTRESS = '@fortress'
 
 export type BattleShip = {
   key: string
@@ -24,21 +29,23 @@ export type BattleShip = {
   /** When it breaks formation to join the side that takes it; absent for ships that stay. */
   turnAt?: number
   lostAt?: number
-  /** Its place in the outbound formation, relative to the formation's anchor. */
+  /** Its place in the chasing formation, relative to the formation's anchor. */
   slot: Vec
-  /** Its place in its side's battle line. */
+  /** Its place in its side's line once the fleet has split, relative to the fortress. */
   line: Vec
   markers: FleetMarker[]
-  /** A small phase offset so the battle line does not bob in step. */
+  /** A small phase offset so the lines do not bob in step. */
   phase: number
 }
 
 export type Volley = {
+  /** A ship's key, or FORTRESS. */
   from: string
+  /** A ship's key, or FORTRESS. */
   to: string
   at: number
   flight: number
-  kind: 'hail' | 'heavy'
+  kind: 'hail' | 'heavy' | 'beam'
   /** How many shots a hail throws, spread around the target. */
   count: number
   seed: number
@@ -62,11 +69,16 @@ export type BattlePlan = {
   volleys: Volley[]
   crossings: Crossing[]
   captions: BattleCaption[]
-  /** When the fleet starts launching, the last ship has turned, the lines are formed, and so on. */
   times: {
+    /** The first ship leaves home. */
     launch: number
+    /** The leading ships are in range of the fortress and open fire. */
+    assault: number
+    /** The first ship turns. */
     advanceEnd: number
+    /** The last ship has turned and the sides are even. */
     split: number
+    /** The lines are formed and the fight between the ships begins. */
     battle: number
     ceaseFire: number
     end: number
@@ -77,32 +89,36 @@ export const BATTLE_TIMING = {
   boot: 2.2,
   launchStagger: 0.2,
   launchFlight: 3.2,
-  turnStagger: 0.7,
+  assaultAfterLaunch: 2.6,
+  assaultHold: 3,
+  turnStagger: 0.8,
   turnFlight: 2,
-  formLines: 2,
+  formLines: 1.5,
   lossStagger: 1.15,
-  firstLoss: 1.6,
+  firstLoss: 1.5,
   heavyFlight: 1.3,
   hailFlight: 0.55,
+  beamFlight: 0.35,
   boardingFlight: 2.2,
   boardingStagger: 1.1,
-  hold: 4,
+  hold: 5,
 } as const
 
 /**
- * The fleet battle as a timed plan: the fleet launches from home toward the target, the ships
- * that change hands turn one by one until the sides are even, the lines form, and the ships that
- * were lost go down, alternating sides. Everything after is drawn from the plan by time alone.
+ * The fleet battle as a chase: the fleet launches from home and opens fire on the flying fortress,
+ * which is hit and starts to break away. The ships that change hands turn one by one and fall back
+ * to cover its escape until the sides are even. The lines fight on as the fortress flees, and the
+ * lost ships go down, alternating sides, until the fortress is gone. Everything is drawn from the
+ * plan by time alone.
  */
 export function battlePlan(roster: FleetRoster, geometry: BattleGeometry, seed = 7): BattlePlan {
   const random = mulberry32(seed)
   const t = BATTLE_TIMING
   const entries = fleetShips(roster)
-  const along = unit(sub(geometry.target, geometry.home))
-  const across = { x: -along.y, y: along.x }
 
   const launch = t.boot
-  const advanceEnd = launch + entries.length * t.launchStagger + t.launchFlight + 0.6
+  const assault = launch + t.assaultAfterLaunch
+  const advanceEnd = launch + entries.length * t.launchStagger + t.launchFlight + t.assaultHold
   const turning = entries.filter(({ side }) => side > 0)
   const split = advanceEnd + turning.length * t.turnStagger + t.turnFlight
   const battle = split + t.formLines
@@ -126,6 +142,7 @@ export function battlePlan(roster: FleetRoster, geometry: BattleGeometry, seed =
   const ceaseFire = lastLoss + 1.2
   const end = ceaseFire + t.hold
 
+  const { along, across } = axes(geometry)
   const ships: BattleShip[] = entries.map(({ ship, side }, index) => {
     const turnIndex = turnOrder.indexOf(ship.key)
     const lineIndex = lines[side]!.indexOf(ship.key)
@@ -139,7 +156,7 @@ export function battlePlan(roster: FleetRoster, geometry: BattleGeometry, seed =
       turnAt: turnIndex < 0 ? undefined : advanceEnd + turnIndex * t.turnStagger,
       lostAt: lostAt.get(ship.key),
       slot: formationSlot(index, along, across),
-      line: lineSlot(geometry.centre, side, lineIndex, lines[side]!.length, along, across),
+      line: lineSlot(side, lineIndex, lines[side]!.length, along, across),
       markers: ship.aboard,
       phase: random() * Math.PI * 2,
     }
@@ -151,7 +168,7 @@ export function battlePlan(roster: FleetRoster, geometry: BattleGeometry, seed =
     volleys: [],
     crossings: [],
     captions: [],
-    times: { launch, advanceEnd, split, battle, ceaseFire, end },
+    times: { launch, assault, advanceEnd, split, battle, ceaseFire, end },
   }
   plan.volleys = planVolleys(plan, random)
   plan.crossings = planCrossings(plan)
@@ -159,11 +176,19 @@ export function battlePlan(roster: FleetRoster, geometry: BattleGeometry, seed =
   return plan
 }
 
+/** The chase runs from home toward the escape point; across is square to it. */
+function axes(geometry: BattleGeometry): { along: Vec; across: Vec } {
+  const along = unit(sub(geometry.escape, geometry.home))
+  return { along, across: { x: -along.y, y: along.x } }
+}
+
 const FORMATION_COLUMNS = 4
 const FORMATION_SPACING = { along: 58, across: 66 }
-const LINE_SPACING = { along: 70, across: 112 }
-/** How far ahead of the centre the rival line forms, and how far back the owner's line forms. */
-const LINE_OFFSET = { rival: 250, owner: -80 }
+const LINE_SPACING = { along: 70, across: 104 }
+/** How far behind the fortress each side's line holds: the Hand close in, the owner beyond. */
+const LINE_DEPTH = { rival: 170, owner: 400 }
+/** How far behind the fortress the chasing formation holds while it is under fire. */
+const STANDOFF = 300
 
 function formationSlot(index: number, along: Vec, across: Vec): Vec {
   const row = Math.floor(index / FORMATION_COLUMNS)
@@ -174,32 +199,38 @@ function formationSlot(index: number, along: Vec, across: Vec): Vec {
   )
 }
 
-function lineSlot(
-  centre: Vec,
-  side: number,
-  index: number,
-  count: number,
-  along: Vec,
-  across: Vec,
-): Vec {
+function lineSlot(side: number, index: number, count: number, along: Vec, across: Vec): Vec {
   const perRow = Math.ceil(count / 2)
   const row = Math.floor(index / perRow)
   const column = (index % perRow) - (perRow - 1) / 2 + (row === 1 ? 0.5 : 0)
   const depth =
     side === 0
-      ? LINE_OFFSET.owner - row * LINE_SPACING.along
-      : LINE_OFFSET.rival + row * LINE_SPACING.along
-  return add(centre, add(scale(along, depth), scale(across, column * LINE_SPACING.across)))
+      ? LINE_DEPTH.owner + row * LINE_SPACING.along
+      : LINE_DEPTH.rival - row * LINE_SPACING.along * 0.8
+  return add(scale(along, -depth), scale(across, column * LINE_SPACING.across))
 }
 
-/** Where the outbound formation is centred at a moment: it sails from home toward the target. */
+/**
+ * Where the fortress is: it drifts away slowly while the fleet closes in and fires on it, then,
+ * once its new escort is in place, it pulls away for good and is gone by the end.
+ */
+export function fortressAt(plan: BattlePlan, time: number): Vec {
+  const { fortress, escape } = plan.geometry
+  const { split, end } = plan.times
+  const drift = 0.1 * clamp01(time / split)
+  const flight = 0.9 * easeIn(clamp01((time - split) / (end - split)))
+  return lerp(fortress, escape, drift + flight)
+}
+
+/** Where the chasing formation is centred: it sails out from home and settles behind the fortress. */
 export function formationAnchor(plan: BattlePlan, time: number): Vec {
-  const { home, centre } = plan.geometry
-  const along = unit(sub(plan.geometry.target, home))
-  const start = add(home, scale(along, 150))
-  const finish = add(centre, scale(along, 90))
-  const progress = clamp01((time - plan.times.launch) / (plan.times.advanceEnd - plan.times.launch))
-  return lerp(start, finish, easeInOut(progress))
+  const { home } = plan.geometry
+  const { along } = axes(plan.geometry)
+  const behind = sub(fortressAt(plan, time), scale(along, STANDOFF))
+  const progress = clamp01(
+    (time - plan.times.launch) / (plan.times.assault + 1.5 - plan.times.launch),
+  )
+  return lerp(add(home, scale(along, 120)), behind, easeInOut(progress))
 }
 
 export type ShipPose = {
@@ -218,10 +249,11 @@ export function shipPose(plan: BattlePlan, ship: BattleShip, time: number): Ship
   const pos = shipPosition(plan, ship, time)
   const before = shipPosition(plan, ship, time - 0.08)
   const motion = sub(pos, before)
-  const along = unit(sub(plan.geometry.target, plan.geometry.home))
+  const { along } = axes(plan.geometry)
   const turned = ship.turnAt !== undefined && time >= ship.turnAt + 0.25
+  // The fleet chases toward the fortress; the turned ships face back at their pursuers.
   const facing = turned ? scale(along, -1) : along
-  const heading = length(motion) > 0.4 ? unit(motion) : facing
+  const heading = length(motion) > 0.6 && !turned ? unit(motion) : facing
   const side = ship.turnAt === undefined || turned ? ship.side : 0
   const state =
     time < ship.launchAt
@@ -234,34 +266,45 @@ export function shipPose(plan: BattlePlan, ship: BattleShip, time: number): Ship
 }
 
 function shipPosition(plan: BattlePlan, ship: BattleShip, time: number): Vec {
+  // A wreck stays where it went down, falling away below the chase.
+  if (ship.lostAt !== undefined && time > ship.lostAt) {
+    const fall = time - ship.lostAt
+    return add(shipPosition(plan, ship, ship.lostAt), { x: fall * 4, y: fall * fall * 6 })
+  }
   const t = BATTLE_TIMING
   const { times } = plan
   const inFormation = add(formationAnchor(plan, time), ship.slot)
-  let pos: Vec
-  if (time < ship.launchAt + t.launchFlight) {
-    const progress = easeOut(clamp01((time - ship.launchAt) / t.launchFlight))
-    pos = lerp(plan.geometry.home, inFormation, progress)
-  } else {
-    pos = inFormation
-  }
-  const formed = add(formationAnchor(plan, times.advanceEnd), ship.slot)
+  let pos =
+    time < ship.launchAt + t.launchFlight
+      ? lerp(
+          plan.geometry.home,
+          inFormation,
+          easeOut(clamp01((time - ship.launchAt) / t.launchFlight)),
+        )
+      : inFormation
+  // The owner's ships give up the chase when the shooting stops; the escort sails on with it.
+  const pursuit = ship.turnAt === undefined ? Math.min(time, times.ceaseFire - 0.5) : time
+  const inLine = add(fortressAt(plan, pursuit), ship.line)
   if (ship.turnAt !== undefined && time >= ship.turnAt) {
-    pos = curve(formed, ship.line, easeInOut(clamp01((time - ship.turnAt) / t.turnFlight)), 1)
+    pos = curve(pos, inLine, easeInOut(clamp01((time - ship.turnAt) / t.turnFlight)), 0.8)
   } else if (ship.turnAt === undefined && time >= times.split) {
-    pos = lerp(formed, ship.line, easeInOut(clamp01((time - times.split) / t.formLines)))
+    pos = lerp(pos, inLine, easeInOut(clamp01((time - times.split) / t.formLines)))
   }
-  if (time >= times.battle) {
-    const sway = Math.min(1, (time - times.battle) / 2)
+  if (time >= times.assault) {
+    const sway = Math.min(1, (time - times.assault) / 2)
     pos = add(pos, {
       x: Math.sin(time * 0.9 + ship.phase) * 7 * sway,
       y: Math.cos(time * 0.7 + ship.phase) * 5 * sway,
     })
   }
-  if (ship.lostAt !== undefined && time > ship.lostAt) {
-    const fall = time - ship.lostAt
-    pos = add(pos, { x: fall * 4, y: fall * fall * 6 })
-  }
   return pos
+}
+
+/** Where a volley's shooter or target is at a moment: a ship, or the fortress. */
+export function pointOf(plan: BattlePlan, key: string, time: number): Vec {
+  if (key === FORTRESS) return fortressAt(plan, time)
+  const ship = plan.ships.find((entry) => entry.key === key)
+  return ship ? shipPose(plan, ship, time).pos : fortressAt(plan, time)
 }
 
 /** Every ship still fighting at a moment. */
@@ -335,33 +378,59 @@ export function captionAt(plan: BattlePlan, time: number): BattleCaption | undef
 
 function planVolleys(plan: BattlePlan, random: () => number): Volley[] {
   const t = BATTLE_TIMING
-  const { battle, ceaseFire } = plan.times
+  const { assault, battle, ceaseFire } = plan.times
   const volleys: Volley[] = []
-  const enemiesOf = (ship: BattleShip, at: number) =>
-    aliveAt(plan, at + t.heavyFlight).filter((other) => other.side !== ship.side)
+  const sideAt = (ship: BattleShip, at: number) =>
+    ship.turnAt !== undefined && at >= ship.turnAt + 0.25 ? ship.side : 0
+  const fire = (from: string, to: string, at: number, heavy: boolean) =>
+    volleys.push({
+      from,
+      to,
+      at,
+      flight: heavy ? t.heavyFlight : t.hailFlight + random() * 0.2,
+      kind: heavy ? 'heavy' : 'hail',
+      count: heavy ? 1 : 7 + Math.floor(random() * 8),
+      seed: Math.floor(random() * 1e9),
+    })
 
   for (const ship of plan.ships) {
     const stop = Math.min(ceaseFire, ship.lostAt ?? Infinity)
-    for (let at = battle + random() * 1; at < stop; at += 0.6 + random() * 0.6) {
-      const targets = enemiesOf(ship, at)
-      if (targets.length === 0) break
-      const target = targets[Math.floor(random() * targets.length)]!
-      const heavy = random() < 0.2
-      volleys.push({
-        from: ship.key,
-        to: target.key,
-        at,
-        flight: heavy ? t.heavyFlight : t.hailFlight + random() * 0.2,
-        kind: heavy ? 'heavy' : 'hail',
-        count: heavy ? 1 : 7 + Math.floor(random() * 8),
-        seed: Math.floor(random() * 1e9),
-      })
+    const start = Math.max(assault, ship.launchAt + t.launchFlight) + random()
+    for (let at = start; at < stop; at += 0.6 + random() * 0.7) {
+      const side = sideAt(ship, at)
+      // Before the sides are formed, the fleet's guns are on the fortress; after, mostly on ships.
+      const enemies = aliveAt(plan, at + t.heavyFlight).filter(
+        (other) => sideAt(other, at) !== side && sideAt(other, at + t.heavyFlight) !== side,
+      )
+      const onFortress = side === 0 && (at < battle ? random() < 0.75 : random() < 0.3)
+      if (onFortress || enemies.length === 0) {
+        if (side === 0) fire(ship.key, FORTRESS, at, random() < 0.3)
+        continue
+      }
+      fire(ship.key, enemies[Math.floor(random() * enemies.length)]!.key, at, random() < 0.2)
     }
+  }
+  // The fortress answers with beams at the ships closing on it.
+  for (let at = assault + 1; at < ceaseFire; at += 1.4 + random() * 1.2) {
+    const targets = aliveAt(plan, at).filter((ship) => sideAt(ship, at) === 0)
+    const target = targets[Math.floor(random() * targets.length)]
+    if (!target) continue
+    volleys.push({
+      from: FORTRESS,
+      to: target.key,
+      at,
+      flight: t.beamFlight,
+      kind: 'beam',
+      count: 1,
+      seed: Math.floor(random() * 1e9),
+    })
   }
   // The killing blow: a heavy shot from the other side lands as each lost ship goes down.
   for (const ship of plan.ships) {
     if (ship.lostAt === undefined) continue
-    const shooters = aliveAt(plan, ship.lostAt).filter((other) => other.side !== ship.side)
+    const shooters = aliveAt(plan, ship.lostAt).filter(
+      (other) => sideAt(other, ship.lostAt!) !== ship.side,
+    )
     const shooter = shooters[Math.floor(random() * shooters.length)]
     if (!shooter) continue
     for (const offset of [0, 0.18]) {
@@ -400,14 +469,15 @@ function planCrossings(plan: BattlePlan): Crossing[] {
 }
 
 function planCaptions(plan: BattlePlan, roster: FleetRoster): BattleCaption[] {
-  const { launch, advanceEnd, split, battle, ceaseFire } = plan.times
+  const { launch, assault, advanceEnd, split, battle, ceaseFire } = plan.times
   const rivals = roster.sides.slice(1)
   const turned = plan.ships.filter((ship) => ship.turnAt !== undefined).length
   const remaining = plan.ships.filter((ship) => !ship.lost).length
   const captions: BattleCaption[] = [
-    { at: 0.4, text: 'Tracking' },
+    { at: 0.4, text: 'Contact: the flying fortress' },
     { at: launch, text: `${roster.owner.name} fleet launching: ${plan.ships.length} contacts` },
-    { at: advanceEnd - 1.5, text: 'Closing on the flying fortress' },
+    { at: assault, text: 'Fleet engaging the fortress' },
+    { at: assault + 3.5, text: 'The fortress is hit and breaking away' },
   ]
   if (turned > 0) {
     captions.push({
@@ -415,13 +485,26 @@ function planCaptions(plan: BattlePlan, roster: FleetRoster): BattleCaption[] {
       text: `Contacts turning: ${rivals.map((side) => side.name).join(', ')}`,
     })
     captions.push({
+      at: advanceEnd + (split - advanceEnd) / 2,
+      text: `${rivals.map((side) => side.name).join(', ')} covering the fortress`,
+    })
+    captions.push({
       at: split,
       text: `The fleet is split: ${roster.sides.map((side) => side.ships.length).join(' against ')}`,
     })
   }
   if (plan.crossings.length > 0) captions.push({ at: battle + 0.4, text: 'Boarding party away' })
-  captions.push({ at: battle + 3, text: 'Engaged' })
-  captions.push({ at: ceaseFire, text: `${remaining} contacts remain` })
+  captions.push({ at: battle + 4, text: 'The fortress is getting away' })
+  if (turned > 0) {
+    captions.push({
+      at: ceaseFire - 0.5,
+      text: `${rivals.map((side) => side.name).join(', ')} escorting the fortress away`,
+    })
+  }
+  captions.push({
+    at: ceaseFire + 2.5,
+    text: `The fortress escaped · ${remaining} contacts remain`,
+  })
   return captions.toSorted((a, b) => a.at - b.at)
 }
 
@@ -464,6 +547,7 @@ export const unit = (a: Vec): Vec => {
 export const lerp = (a: Vec, b: Vec, k: number): Vec => add(a, scale(sub(b, a), k))
 export const clamp01 = (value: number): number => Math.min(1, Math.max(0, value))
 export const easeOut = (k: number): number => 1 - (1 - k) ** 3
+export const easeIn = (k: number): number => k ** 2
 export const easeInOut = (k: number): number => (k < 0.5 ? 4 * k ** 3 : 1 - (-2 * k + 2) ** 3 / 2)
 
 /** A path from a to b that bows out sideways, for ships wheeling round and shots arcing. */
