@@ -38,7 +38,7 @@ export default createItem({
       refs.rules.undead,
       ' is a ',
       refs.rules.critical_hit,
-      ' against the wielder and releases one soul from the blade into the undead body.',
+      ' against the wielder. The sword resists giving up a soul: on a 50/50 chance it releases one into the undead body.',
     ],
   ],
 })
