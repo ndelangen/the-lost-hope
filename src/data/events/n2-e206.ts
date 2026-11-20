@@ -4,14 +4,17 @@ import { create as createEvent } from '#/definitions/event.ts'
 export default createEvent({
   name: 'Silas distracts Swift while the Hand tries to seize Jim',
   day: 24,
-  location: refs.locations.nimbus,
+  location: refs.locations.borris_s_gambling_den,
   mark: { type: 'icon', name: 'gi/GiPrisoner' },
+  illustrations: ['/assets/scenes/the-hand-comes-for-jim.png'],
   notes: [
     [
       refs.pcs.jim,
       ' and ',
       refs.pcs.swift_starblade,
-      ' headed through ',
+      ' passed ',
+      refs.locations.borris_s_gambling_den,
+      ' on their way through ',
       refs.locations.nimbus,
       ' toward ',
       refs.locations.nimbus_harbour,

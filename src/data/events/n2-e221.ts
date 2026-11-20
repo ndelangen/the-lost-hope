@@ -6,6 +6,11 @@ export default createEvent({
   day: 24,
   location: refs.locations.ride_the_lightning_main_deck,
   mark: { type: 'icon', name: 'gi/GiCargoShip' },
+  illustrations: [
+    '/assets/scenes/boarding-ride-the-lightning.png',
+    '/assets/scenes/boarding-ball-loading.png',
+    '/assets/scenes/boarding-ball-impact.png',
+  ],
   notes: [
     [
       'From the ',

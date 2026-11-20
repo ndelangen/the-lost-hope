@@ -6,6 +6,7 @@ export default createEvent({
   day: 24,
   location: refs.locations.master_of_puppets_commanders_office,
   mark: { type: 'icon', name: 'gi/GiScales' },
+  illustrations: ['/assets/scenes/onana-calls-the-party-to-war.png'],
   notes: [
     [
       refs.npcs.captain_garran,

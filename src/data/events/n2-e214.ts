@@ -6,6 +6,7 @@ export default createEvent({
   day: 24,
   location: refs.locations.skynet_nimbus_crossing,
   mark: { type: 'icon', name: 'gi/GiSailboat' },
+  illustrations: ['/assets/scenes/running-from-the-battle-cruiser.png'],
   notes: [
     [
       'Aboard ',

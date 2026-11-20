@@ -2,6 +2,7 @@ import { MapPin } from 'lucide-react'
 
 import { ContentRenderer } from '#/components/content-renderer'
 import { EntityReference } from '#/components/entity-reference'
+import { EventIllustrations } from '#/components/event-illustrations'
 import { EventReference } from '#/components/event-reference'
 import { ForetoldList } from '#/components/foretold-list'
 import { LocationReference } from '#/components/location-reference'
@@ -152,6 +153,11 @@ function JournalEvent({ event }: { event: SessionJournalEvent }) {
           </header>
 
           <div className="p-5 sm:p-6">
+            <EventIllustrations
+              illustrations={event.illustrations}
+              eventName={event.name}
+              className="mb-5"
+            />
             <ContentRenderer
               content={event.notes}
               className={cn(

@@ -126,6 +126,16 @@ from references in `notes`:
 - Otherwise: use a thematic icon already supported by `src/lib/event-icons.tsx`, or add the icon
   there in the same change.
 
+Give an event the most specific `location` where it happened: a room, street, building, harbour or
+deck. Use a whole island, city or region only when the event affected all of it (a pulse felt on
+every island, a beam that struck all over Nimbus).
+
+An event's `illustrations` are the pictures the players were shown during it. Promote them from the
+scene that was played: copy the scene's `illustrations` paths that match what happened onto the
+event. Only promote a picture the players actually saw, and never one that shows an outcome that has
+not happened yet (a scene still in progress, a battle not yet fought). The session page and the event
+page show event illustrations automatically.
+
 ## 6. Import a played session
 
 After play, the DM hands over a recording transcript or AI notes. Turn them into a session, its
@@ -148,21 +158,49 @@ ordered events, and links into the DM prep. Follow sections 2 to 5 for every rec
    `notes` hold only what happened at the table. What the DM revealed only to themselves, or what
    happens off-screen, goes into the owning record's `background` or the plot's `notes`. A
    discovery moves its paragraph from `background` into `notes` and is recorded as an event.
-5. **Link events to plots.** Add each new event to the `events` of every plot it advanced, in
+5. **Promote scene pictures** to the events they illustrate, as section 5 describes.
+6. **Link events to plots.** Add each new event to the `events` of every plot it advanced, in
    play order. One event can advance plots in several arcs; reference it from each. Leave
    `status` alone: the DM closes plots.
-6. **Update the DM notes on the plot.** Rewrite the plot's `notes` (and `hook` if the next step
+7. **Update the DM notes on the plot.** Rewrite the plot's `notes` (and `hook` if the next step
    changed) to say what changed, what was revealed and what is still open. Replace stale
    statements instead of appending a diary; the events already hold the history.
-7. **Handle new threads.** When play opened a thread no plot covers, add an open plot to the arc
+8. **Handle new threads.** When play opened a thread no plot covers, add an open plot to the arc
    it belongs to. Propose a new arc (with a unique `icon`, see `src/lib/arc-icons.tsx`) instead of
    creating it when no arc fits, and let the DM decide.
-8. **Keep unused prep.** Do not delete or rewrite scenes, plots or hooks that were not played.
+9. **Keep unused prep.** Do not delete or rewrite scenes, plots or hooks that were not played.
    Update `src/data/dm/table.ts` only when the DM asks.
-9. **Report back** to the DM in a few lines: the plots each event advanced, plots that look ready
-   to close, prep that went unused, new threads or proposed arcs, and open questions.
+10. **Run the leak check** in section 7 before reporting.
+11. **Report back** to the DM in a few lines: the plots each event advanced, plots that look ready
+    to close, prep that went unused, new threads or proposed arcs, and open questions.
 
 ## 7. Validate
+
+### DM-only leak check
+
+Events, sessions, quests, effects and the `notes` of every record are public: they are published on
+the player site. Before handoff, check every public field you added or changed:
+
+1. **Only what the table saw.** Each sentence is something the players witnessed, were told, or
+   rolled in the open. Nothing from a `background`, plot `notes`, scene prose, stat block, motive or
+   `foretold` entry the players have not heard. Prepared explanations (who fired a beam and why, what
+   an NPC secretly wants) stay out even when the event is about that moment.
+2. **No unmet records.** Every `refs.*` in public prose names a record the party met in this event or
+   earlier. Ask the campaign server: run `check_idea` on the new text, or `met` for the record, and
+   resolve each "the party has not met" warning. Meeting it in this very event is fine; mentioning
+   it before the party has met it is a leak.
+3. **No DM-only kinds.** Public content never references scenes, arcs, plots or the table. The
+   schema rejects most of these; do not work around it with quoted names.
+4. **Pictures.** Every promoted illustration was shown to the players and shows nothing still to
+   come. Look at the image before promoting it.
+5. **Attributed claims stay claims.** What an NPC or PC said is written as their account ("says",
+   "claims"), not as confirmed fact, unless the table confirmed it.
+6. **Quests.** Clues and conclusions follow the same rules: player knowledge only, and an open
+   question stays open.
+
+Report any line you removed or reworded for this check.
+
+### Checks
 
 - In plan/review mode, run only the non-mutating checks needed to support the result and state that
   no implementation validation was required.

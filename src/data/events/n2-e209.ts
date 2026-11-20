@@ -6,6 +6,7 @@ export default createEvent({
   day: 24,
   location: refs.locations.nimbus_harbour,
   mark: { type: 'icon', name: 'gi/GiBlast' },
+  illustrations: ['/assets/scenes/the-green-beam-over-the-sky-islands.png'],
   notes: [
     [
       'The flying fortress fired a beam of light and lightning directly toward ',

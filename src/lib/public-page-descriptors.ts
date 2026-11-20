@@ -164,7 +164,7 @@ function imageCandidate(entity: Entity): string | undefined {
     case 'beast':
       return entity.data.avatar
     case 'event':
-      return entity.data.image ?? avatarUrl(eventMarkVisual(entity.data))
+      return entity.data.illustrations[0] ?? avatarUrl(eventMarkVisual(entity.data))
     case 'location':
       return locationIllustrationImageCandidate(entity.data.illustration)
     default:

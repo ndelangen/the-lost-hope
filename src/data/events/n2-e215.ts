@@ -6,6 +6,10 @@ export default createEvent({
   day: 24,
   location: refs.locations.nimbus_harbour,
   mark: { type: 'icon', name: 'gi/GiLifeBuoy' },
+  illustrations: [
+    '/assets/scenes/picking-up-swift-at-nimbus.png',
+    '/assets/scenes/the-party-reunites-on-the-docks.png',
+  ],
   notes: [
     [
       refs.items.little_purple,

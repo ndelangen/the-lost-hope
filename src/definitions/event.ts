@@ -32,7 +32,12 @@ export const EventSchema = deriveSlug(
     day: z.number().int().positive(),
     location: EntityRefSchema,
     mark: EventMark,
-    image: MediaUrl.optional(),
+    illustrations: z
+      .array(MediaUrl)
+      .default([])
+      .describe(
+        'Pictures the players were shown during this event, such as the illustration of the scene played',
+      ),
     foretold: z
       .array(Foretold)
       .min(1)

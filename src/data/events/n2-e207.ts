@@ -4,8 +4,9 @@ import { create as createEvent } from '#/definitions/event.ts'
 export default createEvent({
   name: 'The fortress pulse breaks bonds with Jim',
   day: 24,
-  location: refs.locations.nimbus_harbour,
+  location: refs.locations.three_sky_kingdoms,
   mark: { type: 'icon', name: 'fa/FaUsersSlash' },
+  illustrations: ['/assets/scenes/the-green-pulse-over-the-sky-islands.png'],
   notes: [
     [
       'A visible pulse spread from the flying fortress across the islands. Everyone felt emotional pain as connections broke. It left people’s memories of ',

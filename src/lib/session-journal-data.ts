@@ -43,6 +43,7 @@ export type SessionJournalEvent = {
   notes: Content
   foretold: readonly Foretold[]
   mark: EventMarkVisual
+  illustrations: readonly string[]
   location?: SessionJournalLocation
   transition?: {
     slug: string
@@ -86,6 +87,7 @@ export function sessionJournalData(session: Session): SessionJournalDay[] {
         notes: event.notes,
         foretold: event.foretold ?? [],
         mark: eventMarkVisual(event),
+        illustrations: event.illustrations,
         location: location
           ? {
               slug: location.slug,
