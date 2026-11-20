@@ -1,7 +1,7 @@
 import { refs } from '#/data/generated/refs.ts'
 import { create as createScene } from '#/definitions/scene.ts'
 
-const rollers = [refs.pcs.cassian_veyl, refs.pcs.devan, refs.pcs.swift_starblade, refs.pcs.auren]
+const rollers = [refs.pcs.cassian_veyl, refs.pcs.devan, refs.pcs.swift_starblade]
 
 const round = (dc: number) => ({
   title: [['Round of drinks']],
@@ -22,6 +22,13 @@ export default createScene({
       ' finds them. Sent by ',
       refs.organizations.the_eyeless_hand,
       ' against her will, with a small box and a warning. The inn is a stand-in: play it wherever they are.',
+    ],
+    [
+      'Play it on an evening when ',
+      refs.pcs.auren,
+      ' is away on an errand of his own. He never met ',
+      refs.pcs.jim,
+      ', so the warning is not for him.',
     ],
     [
       'What the party does not know: when ',
