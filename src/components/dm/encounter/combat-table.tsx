@@ -8,6 +8,7 @@ import { CombatantPanel, type CombatantActions } from './combatant-panel'
 import { ConditionBadges } from './condition-markers'
 import type { RosterRow } from './encounter-roster'
 import { HpControl } from './hp-control'
+import { ScreenLetter } from './screen-letter'
 
 export type CombatantControls = {
   counts: Readonly<Record<string, UseCount | undefined>>
@@ -75,6 +76,7 @@ export function CombatTable({
                     open && 'rotate-180',
                   )}
                 />
+                <ScreenLetter letter={row.letter} />
                 <span
                   className={cn(
                     'line-clamp-2 text-lg leading-tight break-words',

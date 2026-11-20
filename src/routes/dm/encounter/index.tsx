@@ -36,6 +36,7 @@ import {
   sceneAllies,
   sceneEnemies,
   sceneFights,
+  turnOrderInputs,
 } from '#/lib/dm-encounter'
 import {
   LEGENDARY_POOL,
@@ -87,6 +88,7 @@ import {
   focusShortcut,
   type FocusLayout,
 } from '#/lib/encounter-focus'
+import { enemyLetters } from '#/lib/player-turn-order'
 import { cn } from '#/lib/utils'
 
 const Search = z.strictObject({
@@ -201,6 +203,8 @@ function EncounterRoute() {
     ) : null
 
   const combatants = encounter.roster.map((entry) => combatantView(entry, encounter.roster))
+  const allies = scene ? sceneAllies(scene) : undefined
+  const letters = enemyLetters(turnOrderInputs(encounter, allies))
   const rows: RosterRow[] = combatants.map((combatant) => {
     const saved = values[combatant.id]
     const live = liveStats(combatant.start, saved)
@@ -218,15 +222,12 @@ function EncounterRoute() {
         hp: live.hp,
       },
       out: Boolean(saved?.dead) || down,
+      letter: letters.get(combatant.id),
     }
   })
   const nameOf = (rowId: string) => rows.find((row) => row.id === rowId)?.name ?? 'someone'
   const isOut = (rowId: string) => rows.find((row) => row.id === rowId)?.out ?? false
-  const difficulty = encounterDifficulty(
-    encounter.roster,
-    isOut,
-    scene ? sceneAllies(scene) : undefined,
-  )
+  const difficulty = encounterDifficulty(encounter.roster, isOut, allies)
   const openAddEnemies = () => {
     setScreenOpen(false)
     setAddOpen(true)

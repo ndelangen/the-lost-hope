@@ -7,6 +7,7 @@ import { cn } from '#/lib/utils'
 import { ConditionBadges } from './condition-markers'
 import type { RosterRow } from './encounter-roster'
 import { HpBar } from './hp-bar'
+import { ScreenLetter } from './screen-letter'
 
 /** Turn order as a slim vertical rail with HP bars. Clicking inspects without changing the turn. */
 export function InitiativeRail({
@@ -56,13 +57,16 @@ export function InitiativeRail({
                 )}
                 <span className="grid min-w-0 grow gap-1">
                   <span className="flex min-w-0 items-baseline justify-between gap-2">
-                    <span
-                      className={cn(
-                        'line-clamp-2 text-base leading-tight break-words',
-                        current ? 'font-bold' : 'font-medium',
-                      )}
-                    >
-                      {row.name}
+                    <span className="flex min-w-0 items-baseline gap-1.5">
+                      <ScreenLetter letter={row.letter} />
+                      <span
+                        className={cn(
+                          'line-clamp-2 text-base leading-tight break-words',
+                          current ? 'font-bold' : 'font-medium',
+                        )}
+                      >
+                        {row.name}
+                      </span>
                     </span>
                     {row.tracked && row.live.hp !== undefined ? (
                       <span className="text-muted-foreground shrink-0 text-sm tabular-nums">

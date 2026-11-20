@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 
-import { playerTurnOrder, type TurnOrderInput } from './player-turn-order'
+import { enemyLetter, playerTurnOrder, type TurnOrderInput } from './player-turn-order'
 
 const row = (id: string, extra: Partial<TurnOrderInput> = {}): TurnOrderInput => ({
   id,
@@ -12,7 +12,11 @@ const row = (id: string, extra: Partial<TurnOrderInput> = {}): TurnOrderInput =>
 })
 
 describe('playerTurnOrder', () => {
-  it('names the party and met enemies, numbers the rest, and marks the current turn', () => {
+  it('letters past Z', () => {
+    expect([0, 25, 26, 27, 52].map(enemyLetter)).toEqual(['A', 'Z', 'AA', 'AB', 'BA'])
+  })
+
+  it('names the party and met enemies, letters the rest, and marks the current turn', () => {
     const rows = playerTurnOrder(
       [
         row('devan', { side: 'party', name: 'Devan', avatar: '/devan.png' }),
@@ -22,13 +26,13 @@ describe('playerTurnOrder', () => {
       ],
       'snatcher 1',
     )
-    expect(rows.map(({ label }) => label)).toEqual(['Devan', 'Enemy 1', 'Ilsa Corrow', 'Enemy 2'])
+    expect(rows.map(({ label }) => label)).toEqual(['Devan', 'A', 'Ilsa Corrow', 'B'])
     expect(rows[1]).toMatchObject({ current: true, avatar: undefined })
     expect(rows[2]?.avatar).toBe('/i.png')
     expect(rows.map(({ bloodied }) => bloodied)).toEqual([false, false, false, true])
   })
 
-  it('drops enemies out of the fight, keeping the numbers of the rest, and keeps a downed PC', () => {
+  it('drops enemies out of the fight, keeping the letters of the rest, and keeps a downed PC', () => {
     const rows = playerTurnOrder(
       [
         row('devan', { side: 'party', name: 'Devan', out: true }),
@@ -39,7 +43,7 @@ describe('playerTurnOrder', () => {
     )
     expect(rows.map(({ id, label }) => [id, label])).toEqual([
       ['devan', 'Devan'],
-      ['left', 'Enemy 2'],
+      ['left', 'B'],
     ])
   })
 })

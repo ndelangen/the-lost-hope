@@ -15,6 +15,8 @@ export type RosterRow = CombatantView & {
   combat: CombatState
   /** Down or dead: skipped in turn order. */
   out: boolean
+  /** The letter an unnamed enemy carries on the player screen. */
+  letter?: string
 }
 
 /** A compact table of every combatant with current HP and AC, sized for ten or more entries. */
