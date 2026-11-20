@@ -16,7 +16,7 @@ export default createNPC({
   stats: {
     size: 'medium',
     type: 'humanoid',
-    cr: '3',
+    cr: '5',
     ac: 15,
     armor: 'breastplate',
     hitDice: '9d8',
@@ -31,6 +31,7 @@ export default createNPC({
       wis: 12,
       cha: 17,
     },
+    saves: { dex: 'proficient', cha: 'proficient' },
     skills: {
       deception: 'proficient',
       insight: 'proficient',
@@ -50,6 +51,29 @@ export default createNPC({
           'Can hold his breath indefinitely and is resistant to ',
           refs.rules.lightning,
           ' damage.',
+        ],
+      },
+      {
+        key: 'spellcasting',
+        name: 'Spellcasting',
+        timing: 'trait',
+        icon: 'gi/GiConversation',
+        text: [
+          'A 9th-level bard who works with words and deals, not songs. Spell save ',
+          { dc: 'cha' },
+          '. His spell slots are 1st ×4, 2nd ×3, 3rd ×3, 4th ×3 and 5th ×1; the uses on his spells below are how those slots split in a day. ',
+          { ability: 'silence' },
+          ', ',
+          { ability: 'zone-of-truth' },
+          ' and ',
+          { ability: 'detect-thoughts' },
+          ' are 2nd-level spells, so a higher slot buys one more casting of any of them. Only one ',
+          refs.rules.concentration,
+          ' spell at a time: ',
+          { ability: 'silence' },
+          ' or ',
+          { ability: 'detect-thoughts' },
+          '. Also prepared, for outside a fight: Message, Minor Illusion, Vicious Mockery, Charm Person, Comprehend Languages, Identify, Sending, Tongues, Dispel Magic, Dimension Door and Mislead.',
         ],
       },
       {
@@ -153,6 +177,25 @@ export default createNPC({
         recharge: 'Long rest',
       },
       {
+        key: 'silence',
+        name: 'Silence',
+        timing: 'action',
+        icon: 'gi/GiSilence',
+        text: [
+          'For up to 10 minutes (',
+          refs.rules.concentration,
+          ') no sound can be made inside a 20 ft. ',
+          refs.rules.sphere,
+          ' centred on a point within 120 ft., and no sound passes through it. A creature fully inside is ',
+          refs.rules.deafened,
+          ', is immune to ',
+          refs.rules.thunder,
+          ' damage, and cannot cast a spell that needs spoken words.',
+        ],
+        uses: 3,
+        recharge: 'Long rest',
+      },
+      {
         key: 'parry',
         name: 'Parry',
         timing: 'reaction',
@@ -165,7 +208,7 @@ export default createNPC({
     source: {
       adaptedFrom: ['srd-2024_noble'],
       changes:
-        'An air genasi merchant and dungeon owner: a stronger noble with wind tricks, a small Zone of Truth and Detect Thoughts.',
+        'An air genasi merchant and dungeon owner: a noble raised to a 9th-level bard, with wind tricks and the bard spells Silence, Zone of Truth and Detect Thoughts. Challenge 5 for the higher spell slots.',
     },
   },
 })

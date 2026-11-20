@@ -116763,7 +116763,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/conversation.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/npcs/onana-tempest.ts",
+        "src/lib/ability-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiConverseShoe",
@@ -214355,7 +214358,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/silence.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/npcs/onana-tempest.ts",
+        "src/lib/ability-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiSilenced",
