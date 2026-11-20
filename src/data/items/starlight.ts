@@ -8,4 +8,13 @@ export default createItem({
   carriedBy: null,
   craftedBy: null,
   notes: [['A flying battle-cruiser of the ', refs.organizations.tempest_family, '.']],
+  background: [
+    [
+      'Destroyed off-screen in the fleet war between the ',
+      refs.organizations.tempest_family,
+      ' and ',
+      refs.organizations.the_eyeless_hand,
+      '.',
+    ],
+  ],
 })

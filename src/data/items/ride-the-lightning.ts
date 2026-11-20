@@ -7,6 +7,7 @@ export default createItem({
   currentOwner: refs.organizations.tempest_family,
   carriedBy: null,
   craftedBy: null,
+  controlledBy: refs.organizations.the_eyeless_hand,
   hull: {
     // Matches the deck maps, bow to the left: the helm's wheel is at the starboard stern, the
     // bunks and the stern cargo are on the port side. The crystal room sits in the centre.
@@ -25,11 +26,7 @@ export default createItem({
   },
   notes: [['A flying battle-cruiser of the ', refs.organizations.tempest_family, '.']],
   background: [
-    [
-      'Its crew answers to ',
-      refs.organizations.the_eyeless_hand,
-      '. It is the cruiser the party is asked to take back.',
-    ],
+    ['It is the cruiser the party is asked to take back.'],
     [
       'The vessel draws its exceptional speed from a unique propulsion crystal. Around it, time runs much faster than in the rest of the world: a time warp. The closer to the crystal, the faster. Whoever spends time in the crystal room, even a ',
       refs.rules.long_rest,

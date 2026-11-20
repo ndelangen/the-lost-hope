@@ -30,6 +30,7 @@ function ItemPage() {
   const owner = item.currentOwner ? refLink(item.currentOwner) : undefined
   const carrier = item.carriedBy ? refLink(item.carriedBy) : undefined
   const crafter = item.craftedBy ? refLink(item.craftedBy) : undefined
+  const controller = item.controlledBy ? refLink(item.controlledBy) : undefined
 
   return (
     <EntityDetail
@@ -47,6 +48,7 @@ function ItemPage() {
     >
       <Grid as="section" gap="lg" smTemplate={2}>
         <Relationship label="Current owner" relationship={owner} />
+        {controller ? <Relationship label="Controlled by" relationship={controller} /> : null}
         <Relationship label="Carried by" relationship={carrier} />
         {crafter ? <Relationship label="Crafted by" relationship={crafter} /> : null}
         {item.quantity ? <Attribute label="Quantity" value={String(item.quantity)} /> : null}

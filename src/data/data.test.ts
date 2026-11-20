@@ -264,6 +264,17 @@ describe('items', () => {
     expect(icons.every((icon) => icon in ITEM_ICONS)).toBe(true)
   })
 
+  it('splits the Tempest battle-cruisers evenly with the Eyeless Hand', () => {
+    const controlled = Object.values(SOURCE_REGISTRIES.item).filter(
+      (item) => item.controlledBy?.key === refs.organizations.the_eyeless_hand.key,
+    )
+
+    expect(controlled).toHaveLength(10)
+    expect(
+      controlled.every((item) => item.currentOwner?.key === refs.organizations.tempest_family.key),
+    ).toBe(true)
+  })
+
   it('derives owned and carried PC items from item relationships', () => {
     expect(itemsOwnedBy('pc', pcs.devan.slug).map((item) => item.slug)).toEqual([
       items.devan_s_corrected_holy_text.slug,

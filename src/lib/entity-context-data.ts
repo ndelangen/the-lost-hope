@@ -125,6 +125,7 @@ function structuredConnections(focus: ContextEntity): ContextConnection[] {
           add(source, source.data.currentOwner, 'Owned by', 'Owns')
           add(source, source.data.carriedBy, 'Carried by', 'Carries')
           add(source, source.data.craftedBy, 'Crafted by', 'Crafted')
+          add(source, source.data.controlledBy, 'Controlled by', 'Controls')
           break
         case 'location':
           if ('parent' in source.data) add(source, source.data.parent, 'Within', 'Contains')

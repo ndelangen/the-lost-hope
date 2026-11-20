@@ -40,6 +40,9 @@ const Item = deriveSlug(
     craftedBy: EntityRefSchema.nullable().describe(
       'The entity that crafted the item, or null when its maker is unknown',
     ),
+    controlledBy: EntityRefSchema.optional().describe(
+      'Who commands the item when that is not its owner, such as a crew that seized a vessel',
+    ),
     quantity: z
       .number()
       .int()

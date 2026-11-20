@@ -7,5 +7,6 @@ export default createItem({
   currentOwner: refs.organizations.tempest_family,
   carriedBy: null,
   craftedBy: null,
+  controlledBy: refs.organizations.the_eyeless_hand,
   notes: [['A flying battle-cruiser of the ', refs.organizations.tempest_family, '.']],
 })
