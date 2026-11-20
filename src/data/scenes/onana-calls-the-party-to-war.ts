@@ -231,6 +231,7 @@ export default createScene({
       ],
       outcomes: [
         {
+          icon: 'gi/GiPrisoner',
           when: [['A party member answers yes in the Zone of Truth.']],
           response: [
             [
@@ -281,6 +282,7 @@ export default createScene({
       ],
       outcomes: [
         {
+          icon: 'gi/GiShakingHands',
           when: [['They promise to help.']],
           response: [
             ['He gives ', refs.items.little_purple, ' back. Then play the next beat.'],
@@ -303,6 +305,7 @@ export default createScene({
           ],
           followUps: [
             {
+              icon: 'gi/GiStandingPotion',
               when: [
                 ['They ask what is in the ', refs.items.long_rest_in_a_bottle, ', now or later.'],
               ],
@@ -359,6 +362,7 @@ export default createScene({
   ],
   outcomes: [
     {
+      icon: 'gi/GiSecretBook',
       when: [['', refs.npcs.onana_tempest, ' learns they travelled with ', refs.pcs.jim, '.']],
       response: [
         [
@@ -374,6 +378,7 @@ export default createScene({
       ],
     },
     {
+      icon: 'gi/GiCrossedSwords',
       when: [['They fight.']],
       response: [
         ['They can, but more soldiers keep jumping in. They can see at least forty on deck.'],

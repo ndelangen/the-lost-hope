@@ -12,16 +12,15 @@ const beat = (title: string, extra: Partial<SceneBeat> = {}): SceneBeat => ({
   ...extra,
 })
 
-const script = buildSceneScript(
-  [
-    beat('Arrival'),
-    beat('The jukebox', { onlyIf: [['Someone looks at it.']] }),
-    beat('The offer', {
-      outcomes: [{ when: [['They accept.']], response: [['…']], followUps: [] }],
-    }),
-  ],
-  () => false,
-)
+const script = buildSceneScript([
+  beat('Arrival'),
+  beat('The jukebox', { onlyIf: [['Someone looks at it.']] }),
+  beat('The offer', {
+    outcomes: [
+      { icon: 'gi/GiConversation', when: [['They accept.']], response: [['…']], followUps: [] },
+    ],
+  }),
+])
 
 describe('buildSceneScript', () => {
   it('numbers the beats in playing order and keeps which ones are optional', () => {
@@ -36,18 +35,6 @@ describe('buildSceneScript', () => {
   it('gives each beat its own branches, with ids that cannot clash across beats', () => {
     expect(script[0]?.branches).toEqual([])
     expect(script[2]?.branches.map(({ id }) => id)).toEqual(['3.1'])
-  })
-
-  it('details someone in the first beat whose branches name them, and not in later beats', () => {
-    const guard = { ref: 'npc', key: 'no-such-guard' } as const
-    const meets = { when: [['They meet ', guard, '.']], response: [['…']], followUps: [] }
-    const [gate, yard] = buildSceneScript(
-      [beat('The gate', { outcomes: [meets] }), beat('The yard', { outcomes: [meets] })],
-      () => false,
-    )
-
-    expect(gate?.branches[0]?.npcs).toEqual([guard])
-    expect(yard?.branches[0]?.npcs).toEqual([])
   })
 })
 

@@ -206,12 +206,7 @@ export function BeatBody({
         </div>
       ) : null}
 
-      {beat.branches.length > 0 ? (
-        <div className="grid gap-2">
-          <p className="text-muted-foreground text-xs font-semibold uppercase">If…</p>
-          <SceneBranches branches={beat.branches} />
-        </div>
-      ) : null}
+      {beat.branches.length > 0 ? <SceneBranches branches={beat.branches} label="If…" /> : null}
     </>
   )
 }

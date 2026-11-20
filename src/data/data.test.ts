@@ -5,6 +5,7 @@ import creatures from '#/data/creatures/_index.ts'
 import { refs } from '#/data/generated/refs.ts'
 import { ENTITY_KINDS } from '#/definitions/kind.ts'
 import { QUEST_TYPES } from '#/definitions/quest.ts'
+import type { SceneOutcome } from '#/definitions/scene.ts'
 import catalog from '#/icon-catalog/catalog.json'
 import { ABILITY_ICONS } from '#/lib/ability-icons.tsx'
 import { ARC_ICONS } from '#/lib/arc-icons.tsx'
@@ -32,10 +33,12 @@ import {
   eventMarkVisual,
   itemsOwnedBy,
 } from '#/lib/campaign.ts'
+import { scenes } from '#/lib/dm-campaign.ts'
 import { EVENT_ICONS } from '#/lib/event-icons.tsx'
 import { ITEM_ICONS } from '#/lib/item-icons.tsx'
 import { LOCATION_ICONS } from '#/lib/location-icons.tsx'
 import { ORGANIZATION_ICONS } from '#/lib/organization-icons.tsx'
+import { OUTCOME_ICONS } from '#/lib/outcome-icons.tsx'
 import { QUEST_ICONS } from '#/lib/quest-icons.tsx'
 import { SESSION_ICONS } from '#/lib/session-icons.tsx'
 import { allAbilities } from '#/lib/stat-block'
@@ -400,6 +403,14 @@ const abilityIcons = [...statBlocks, ...Object.values(creatures).map(({ stats })
       .concat((stats.legendary?.actions ?? []).map((ability) => ability.icon)),
 )
 
+const outcomeIconsOf = (outcomes: readonly SceneOutcome[]): string[] =>
+  outcomes.flatMap((outcome) => [outcome.icon, ...outcomeIconsOf(outcome.followUps)])
+
+const outcomeIcons = Object.values(scenes).flatMap((scene) => [
+  ...outcomeIconsOf(scene.outcomes),
+  ...scene.beats.flatMap((beat) => outcomeIconsOf(beat.outcomes)),
+])
+
 describe('stat blocks', () => {
   const sharedRefs = [
     ...Object.values(SOURCE_REGISTRIES.npc),
@@ -446,6 +457,10 @@ describe('entity icons', () => {
     expect(abilityIcons.filter((icon) => !(icon in ABILITY_ICONS))).toEqual([])
   })
 
+  it('depicts every scene outcome with a supported icon', () => {
+    expect(outcomeIcons.filter((icon) => !(icon in OUTCOME_ICONS))).toEqual([])
+  })
+
   it('gives locations, organizations, and quests unique supported icons', () => {
     const iconGroups = [
       {
@@ -487,6 +502,7 @@ describe('entity icons', () => {
       ...Object.values(quests).map((quest) => quest.icon),
       ...Object.values(sessions).map((session) => session.icon),
       ...abilityIcons,
+      ...outcomeIcons,
     ]
 
     expect(

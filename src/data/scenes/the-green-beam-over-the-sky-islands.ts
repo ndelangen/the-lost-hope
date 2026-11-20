@@ -124,6 +124,7 @@ export default createScene({
       ],
       outcomes: [
         {
+          icon: 'gi/GiHealing',
           when: [['', refs.pcs.swift_starblade, ' saves ', refs.npcs.crowy, '.']],
           response: [
             [
@@ -142,6 +143,7 @@ export default createScene({
           ],
         },
         {
+          icon: 'gi/GiWalk',
           when: [['', refs.pcs.swift_starblade, ' leaves ', refs.npcs.crowy, ' where he fell.']],
           response: [
             [
@@ -160,6 +162,7 @@ export default createScene({
           ],
         },
         {
+          icon: 'gi/GiChainedHeart',
           when: [
             [
               '',
@@ -284,6 +287,7 @@ export default createScene({
       ],
       outcomes: [
         {
+          icon: 'gi/GiPuzzle',
           when: [['The player gets stuck, or would rather skip the puzzle.']],
           response: [
             [

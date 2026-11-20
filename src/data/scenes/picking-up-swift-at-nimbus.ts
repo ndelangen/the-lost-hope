@@ -111,6 +111,7 @@ export default createScene({
       ],
       outcomes: [
         {
+          icon: 'gi/GiShakingHands',
           when: [['The party is together again.']],
           response: [['Run ', refs.scenes.the_party_reunites_on_the_docks, '.']],
         },

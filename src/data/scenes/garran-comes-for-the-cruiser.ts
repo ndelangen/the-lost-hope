@@ -50,6 +50,7 @@ export default createScene({
       ],
       outcomes: [
         {
+          icon: 'gi/GiOpenGate',
           when: [['They let him board.']],
           response: [
             [
@@ -64,6 +65,7 @@ export default createScene({
           ],
         },
         {
+          icon: 'gi/GiCrossedSwords',
           when: [['They refuse and fight the boarders.']],
           response: [
             [
@@ -72,6 +74,7 @@ export default createScene({
           ],
         },
         {
+          icon: 'gi/GiRun',
           when: [['They run with the cruiser.']],
           response: [
             [
@@ -88,6 +91,7 @@ export default createScene({
           ],
           followUps: [
             {
+              icon: 'gi/GiAirZigzag',
               when: [['They break away.']],
               response: [
                 [
@@ -100,6 +104,7 @@ export default createScene({
               ],
             },
             {
+              icon: 'gi/GiRopeCoil',
               when: [['A line still holds.']],
               response: [
                 [

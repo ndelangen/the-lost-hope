@@ -17,23 +17,29 @@ import { usePlayerScreen } from './use-player-screen'
 export function ShowToPlayersButton({
   selection,
   tone = 'overlay',
+  compact = false,
   className,
 }: {
   selection: PlayerScreenImage
   /** `overlay` sits on top of artwork; `card` sits on a page or card background. */
   tone?: 'overlay' | 'card'
+  /** Only the icon, for narrow columns. The label stays for screen readers and as a tooltip. */
+  compact?: boolean
   className?: string
 }) {
   const [state, update] = usePlayerScreen()
   const onScreen = samePlayerScreenImage(selection, playerScreenShowing(state))
+  const label = onScreen ? 'On player screen' : 'Show to players'
   return (
     <button
       type="button"
       onClick={() => update((current) => togglePlayerScreen(current, selection))}
       aria-pressed={onScreen}
-      title={onScreen ? 'Put back what was showing before' : undefined}
+      aria-label={compact ? label : undefined}
+      title={onScreen ? 'Put back what was showing before' : compact ? label : undefined}
       className={cn(
-        'flex h-12 shrink-0 items-center gap-2 rounded-full px-4 text-sm font-semibold transition-colors',
+        'flex h-12 shrink-0 items-center gap-2 rounded-full text-sm font-semibold transition-colors',
+        compact ? 'w-12 justify-center' : 'px-4',
         onScreen
           ? 'bg-emerald-600 text-white ring-1 ring-emerald-300/40 hover:bg-emerald-700'
           : tone === 'overlay'
@@ -47,7 +53,7 @@ export function ShowToPlayersButton({
       ) : (
         <MonitorUp className="size-5" aria-hidden />
       )}
-      {onScreen ? 'On player screen' : 'Show to players'}
+      {compact ? null : label}
     </button>
   )
 }

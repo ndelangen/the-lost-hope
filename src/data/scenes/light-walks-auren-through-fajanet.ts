@@ -199,6 +199,7 @@ export default createScene({
       ],
       outcomes: [
         {
+          icon: 'gi/GiSurprised',
           when: [[refs.pcs.auren, ' reacts like a being that did not know.']],
           response: [
             [
@@ -212,6 +213,7 @@ export default createScene({
           ],
         },
         {
+          icon: 'gi/GiDoubleFaceMask',
           when: [
             [
               refs.pcs.auren,
@@ -232,6 +234,7 @@ export default createScene({
           ],
           followUps: [
             {
+              icon: 'gi/GiSunrise',
               when: [[refs.pcs.auren, ' holds out until dawn: fighting, hiding or resisting.']],
               response: [
                 [
@@ -241,6 +244,7 @@ export default createScene({
               ],
             },
             {
+              icon: 'gi/GiShadowGrasp',
               when: [['The shadow takes ', refs.pcs.auren, '.']],
               response: [
                 [

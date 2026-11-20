@@ -27,11 +27,18 @@ const scenes = {
         lines: [{ do: [['If it comes to blows, run ', ref('fight'), '.']] }],
         outcomes: [
           {
+            icon: 'gi/GiWalk',
             when: toTheYard,
             response: [['Run ', ref('yard'), '.']],
-            followUps: [{ when: alsoToTheYard, response: [['Run ', ref('yard'), '.']] }],
+            followUps: [
+              { icon: 'gi/GiWalk', when: alsoToTheYard, response: [['Run ', ref('yard'), '.']] },
+            ],
           },
-          { when: [['They turn back.']], response: [['Back to ', ref('road'), '.']] },
+          {
+            icon: 'gi/GiWalk',
+            when: [['They turn back.']],
+            response: [['Back to ', ref('road'), '.']],
+          },
         ],
       },
     ],

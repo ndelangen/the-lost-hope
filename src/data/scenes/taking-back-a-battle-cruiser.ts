@@ -396,6 +396,7 @@ export default createScene({
       ],
       outcomes: [
         {
+          icon: 'gi/GiHand',
           when: [[refs.pcs.devan, ' reaches ', refs.npcs.durgan_ashfang, '.']],
           response: [
             [
@@ -407,6 +408,7 @@ export default createScene({
           ],
         },
         {
+          icon: 'gi/GiDeathSkull',
           when: [['They kill ', refs.npcs.durgan_ashfang, '.']],
           response: [
             [
@@ -466,6 +468,7 @@ export default createScene({
       ],
       outcomes: [
         {
+          icon: 'gi/GiNightSleep',
           when: [['They work it out and take a ', refs.rules.long_rest, ' in the room.']],
           response: [
             [
@@ -576,6 +579,7 @@ export default createScene({
       ],
       outcomes: [
         {
+          icon: 'gi/GiShipWheel',
           when: [
             [
               'They take the helm: ',
@@ -599,6 +603,7 @@ export default createScene({
   ],
   outcomes: [
     {
+      icon: 'gi/GiHealthPotion',
       when: [['The fight goes badly, or a player signals for supplies.']],
       response: [
         [
@@ -611,6 +616,7 @@ export default createScene({
       ],
     },
     {
+      icon: 'gi/GiFalling',
       when: [['The crystal fails, by their hand or hers.']],
       response: [
         [
@@ -625,6 +631,7 @@ export default createScene({
       ],
     },
     {
+      icon: 'gi/GiParachute',
       when: [['They bail out in the escape pods.']],
       response: [
         [
@@ -635,6 +642,7 @@ export default createScene({
       ],
     },
     {
+      icon: 'gi/GiShipWreck',
       when: [['They all go down.']],
       response: [
         [

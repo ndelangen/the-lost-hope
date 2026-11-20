@@ -47,6 +47,7 @@ export default createScene({
       ],
       outcomes: [
         {
+          icon: 'gi/GiConversation',
           when: [['They ask what happened.']],
           response: [
             [
@@ -59,6 +60,7 @@ export default createScene({
           ],
         },
         {
+          icon: 'gi/GiLifeBuoy',
           when: [['They help ', refs.npcs.maren_of_fairhaven, '.']],
           response: [
             [
@@ -107,6 +109,7 @@ export default createScene({
       ],
       outcomes: [
         {
+          icon: 'gi/GiLaurels',
           when: [['Three successes.']],
           response: [
             [
@@ -119,6 +122,7 @@ export default createScene({
           ],
         },
         {
+          icon: 'gi/GiCrossMark',
           when: [['Three failures.']],
           response: [
             [

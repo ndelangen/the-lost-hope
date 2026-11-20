@@ -63,6 +63,37 @@ export function sceneMentions(scene: Scene): EntityRef[] {
   })
 }
 
+/** Who and what a scene's DM keeps at hand while running it. */
+export type SceneBriefs = {
+  /** The scene's cast, in its own order. */
+  cast: EntityRef<'npc'>[]
+  /** NPCs outside the cast that the scene names, in order of first mention. */
+  named: EntityRef<'npc'>[]
+  /** Items with a truth players cannot see that the scene names, in order of first mention. */
+  items: EntityRef<'item'>[]
+}
+
+/**
+ * The records the scene page details in one place, so the script and outcomes only link to them:
+ * the cast, the other NPCs it names, and the items whose truth `hasSecret` says players cannot see.
+ */
+export function sceneBriefs(
+  scene: Scene,
+  hasSecret: (item: EntityRef<'item'>) => boolean,
+): SceneBriefs {
+  const cast = new Set(scene.npcs.map((npc) => npc.key))
+  const mentions = sceneMentions(scene)
+  return {
+    cast: scene.npcs,
+    named: mentions.filter(
+      (ref): ref is EntityRef<'npc'> => ref.ref === 'npc' && !cast.has(ref.key),
+    ),
+    items: mentions.filter(
+      (ref): ref is EntityRef<'item'> => ref.ref === 'item' && hasSecret(ref as EntityRef<'item'>),
+    ),
+  }
+}
+
 /** A plot's NPCs: its own, then its scene's cast, which the plot does not repeat. */
 export function plotCast(plot: Plot): EntityRef<'npc'>[] {
   const scene = plot.scene ? resolveScene(plot.scene) : undefined

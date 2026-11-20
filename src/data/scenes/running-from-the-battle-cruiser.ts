@@ -115,6 +115,7 @@ export default createScene({
       ],
       outcomes: [
         {
+          icon: 'gi/GiAirZigzag',
           when: [['Round three, they break away.']],
           response: [
             [
@@ -123,6 +124,7 @@ export default createScene({
           ],
           followUps: [
             {
+              icon: 'gi/GiFeatheredWing',
               when: [['No line holds them.']],
               response: [
                 [
@@ -152,6 +154,7 @@ export default createScene({
               ],
             },
             {
+              icon: 'gi/GiRopeCoil',
               when: [['A line still holds.']],
               response: [
                 [
@@ -166,6 +169,7 @@ export default createScene({
           ],
         },
         {
+          icon: 'gi/GiCrossedSwords',
           when: [['Round three, they get ready to fight.']],
           response: [
             [
@@ -176,6 +180,7 @@ export default createScene({
           ],
         },
         {
+          icon: 'gi/GiDominoMask',
           when: [['Round three, they try something else.']],
           response: [
             [
@@ -192,6 +197,7 @@ export default createScene({
   ],
   outcomes: [
     {
+      icon: 'gi/GiAnchor',
       when: [['They heave to, in any round.']],
       response: [
         [
@@ -204,6 +210,7 @@ export default createScene({
       ],
     },
     {
+      icon: 'gi/GiFlyingFlag',
       when: [['They signal who they are.']],
       response: [
         [

@@ -4,20 +4,18 @@ import { useEffect, useRef, useState } from 'react'
 import { z } from 'zod'
 
 import { ContentRenderer } from '#/components/content-renderer'
-import { DmFaces } from '#/components/dm/dm-faces'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
 import { SceneBranches } from '#/components/dm/scene-branches'
+import { SceneBriefsPanel } from '#/components/dm/scene-briefs'
 import { SceneEncounterStart } from '#/components/dm/scene-encounter-start'
 import { BeatBody, SceneScript } from '#/components/dm/scene-script'
 import { ShipRoomBoard } from '#/components/dm/ship-room-board'
-import { StatBlockSummary } from '#/components/dm/stat-block-summary'
 import { ImageViewer } from '#/components/image-viewer'
-import { ShowToPlayersButton } from '#/components/player-screen/show-to-players-button'
 import type { Item } from '#/definitions/item'
 import type { EntityRef } from '#/definitions/kind'
 import type { Location } from '#/definitions/location'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
-import { arcs, resolveSourceRef, sceneShipAboard, scenes, table } from '#/lib/dm-campaign'
+import { arcs, sceneBriefs, sceneShipAboard, scenes, table } from '#/lib/dm-campaign'
 import { plotsByScene } from '#/lib/dm-dashboard'
 import { resolvePlayerScreenImage } from '#/lib/player-screen'
 import type { PlayerScreenImage } from '#/lib/player-screen-state'
@@ -26,9 +24,6 @@ import { nextScenes } from '#/lib/scene-flow'
 import { buildSceneScript, buildScriptBeat } from '#/lib/scene-script'
 import { cn } from '#/lib/utils'
 
-const npcRecords: Readonly<
-  Record<string, (typeof SOURCE_REGISTRIES.npc)[keyof typeof SOURCE_REGISTRIES.npc]>
-> = SOURCE_REGISTRIES.npc
 const locationRecords: Readonly<Partial<Record<string, Location>>> = SOURCE_REGISTRIES.location
 const itemRecords: Readonly<Partial<Record<string, Item>>> = SOURCE_REGISTRIES.item
 
@@ -66,11 +61,11 @@ function SceneRoute() {
   })
   const hasSecret = (item: EntityRef<'item'>) =>
     Object.hasOwn(itemRecords, item.key) && itemRecords[item.key]?.background !== undefined
-  // The script comes before the "at any time" branches on the page, and they share who and what
-  // has had its details, so each record is detailed once.
-  const briefed = new Set<string>()
-  const script = buildSceneScript(scene.beats, hasSecret, briefed)
-  const branches = buildSceneBranches(scene.outcomes, hasSecret, '', briefed)
+  const script = buildSceneScript(scene.beats)
+  const branches = buildSceneBranches(scene.outcomes)
+  // People and secret items are detailed once, in their own panel; the script only links to them.
+  const briefs = sceneBriefs(scene, hasSecret)
+  const briefCount = briefs.cast.length + briefs.named.length + briefs.items.length
   const sceneImage: PlayerScreenImage = {
     image: 'illustration',
     ref: { ref: 'scene', key },
@@ -85,10 +80,8 @@ function SceneRoute() {
   const shipFirst = Boolean(ship) && search.layout !== 'full'
   // The room whose notes are open under the ship, by the title of its beat.
   const [room, setRoom] = useState<string>()
-  // The sheet is read on its own, so it details everyone its beat names.
   const roomAt = scene.beats.findIndex((beat) => beat.title === room)
-  const roomBeat =
-    roomAt >= 0 ? buildScriptBeat(scene.beats[roomAt]!, roomAt + 1, hasSecret) : undefined
+  const roomBeat = roomAt >= 0 ? buildScriptBeat(scene.beats[roomAt]!, roomAt + 1) : undefined
   const roomSheet = useRef<HTMLElement>(null)
   useEffect(() => {
     if (room) roomSheet.current?.scrollIntoView({ block: 'nearest', behavior: 'smooth' })
@@ -145,76 +138,7 @@ function SceneRoute() {
         ))}
       </ul>
     ) : null
-  const cast =
-    scene.npcs.length > 0 ? (
-      <ul className="grid gap-3">
-        {scene.npcs.map((npc) => {
-          const record = Object.hasOwn(npcRecords, npc.key) ? npcRecords[npc.key] : undefined
-          const portrait: PlayerScreenImage = { image: 'avatar', ref: npc }
-          const canShow = import.meta.env.DEV && resolvePlayerScreenImage(portrait)
-          return (
-            <li key={npc.key} className="border-border grid gap-3 rounded-lg border p-3">
-              <div className="flex flex-wrap items-start gap-3">
-                <DmFaces people={[npc]} size="md" />
-                <div className="grid min-w-0 flex-1 basis-60 gap-1">
-                  {record ? (
-                    <Link
-                      to="/dm/npcs/$slug"
-                      params={{ slug: record.slug }}
-                      className="w-fit font-medium hover:underline"
-                    >
-                      {record.name}
-                    </Link>
-                  ) : (
-                    <span className="font-medium">{resolveSourceRef(npc)?.name}</span>
-                  )}
-                  {record?.motivations ? (
-                    <ContentRenderer
-                      content={record.motivations}
-                      className="text-muted-foreground"
-                    />
-                  ) : null}
-                </div>
-                {canShow ? <ShowToPlayersButton selection={portrait} tone="card" /> : null}
-              </div>
-              {record ? (
-                <details className="group">
-                  <summary className="text-muted-foreground hover:text-foreground flex h-12 w-fit cursor-pointer list-none items-center gap-2 text-sm font-medium">
-                    <ChevronRight
-                      className="size-4 transition-transform group-open:rotate-90"
-                      aria-hidden
-                    />
-                    Details on {record.name}
-                  </summary>
-                  <div className="grid gap-3 pt-1 pl-6">
-                    {record.notes ? (
-                      <NpcDetail title="What players can learn">
-                        <ContentRenderer content={record.notes} />
-                      </NpcDetail>
-                    ) : null}
-                    {record.background ? (
-                      <NpcDetail title="Background">
-                        <ContentRenderer content={record.background} />
-                      </NpcDetail>
-                    ) : null}
-                    <NpcDetail title="Stat block">
-                      <StatBlockSummary stats={record.stats} />
-                    </NpcDetail>
-                    <Link
-                      to="/dm/npcs/$slug"
-                      params={{ slug: record.slug }}
-                      className="text-sm font-medium underline-offset-4 hover:underline"
-                    >
-                      Open {record.name}’s DM page
-                    </Link>
-                  </div>
-                </details>
-              ) : null}
-            </li>
-          )
-        })}
-      </ul>
-    ) : null
+  const briefsPanel = briefCount > 0 ? <SceneBriefsPanel briefs={briefs} /> : null
   const setup = <ContentRenderer content={scene.setup} />
   const shipBoard = ship ? (
     <ShipRoomBoard
@@ -378,7 +302,9 @@ function SceneRoute() {
             {anyTime ? (
               <Fold title={`At any time, if… · ${scene.outcomes.length}`}>{anyTime}</Fold>
             ) : null}
-            {cast ? <Fold title={`Cast · ${scene.npcs.length}`}>{cast}</Fold> : null}
+            {briefsPanel ? (
+              <Fold title={`People and items · ${briefCount}`}>{briefsPanel}</Fold>
+            ) : null}
             {illustrations || battleMapList ? (
               <Fold title="Pictures and battlemaps">
                 {illustrations}
@@ -390,11 +316,24 @@ function SceneRoute() {
           <>
             {illustrations}
             {battleMapList ? <Titled title="Battlemaps">{battleMapList}</Titled> : null}
-            {cast ? <Titled title="NPCs">{cast}</Titled> : null}
-            <Titled title="Setup">{setup}</Titled>
+            {/* The ship board needs the full width, so it sits above the side column. */}
             {shipBoard}
-            {scriptList}
-            {anyTime ? <Titled title="At any time, if…">{anyTime}</Titled> : null}
+            {/* From lg up, the people stay in reach in a column that follows the script down. */}
+            <div className="grid gap-5 lg:grid-cols-[minmax(0,1fr)_20rem]">
+              {briefsPanel ? (
+                <aside
+                  aria-label="People and items"
+                  className="lg:sticky lg:top-20 lg:col-start-2 lg:row-start-1 lg:max-h-[calc(100vh-6rem)] lg:self-start lg:overflow-y-auto"
+                >
+                  {briefsPanel}
+                </aside>
+              ) : null}
+              <div className="grid min-w-0 content-start gap-5 lg:col-start-1 lg:row-start-1">
+                <Titled title="Setup">{setup}</Titled>
+                {scriptList}
+                {anyTime ? <Titled title="At any time, if…">{anyTime}</Titled> : null}
+              </div>
+            </div>
           </>
         )}
         {nextList}
@@ -421,15 +360,6 @@ function Titled({ title, children }: { title: string; children: React.ReactNode 
   return (
     <section className="grid gap-2">
       <h2 className="text-muted-foreground text-xs font-semibold uppercase">{title}</h2>
-      {children}
-    </section>
-  )
-}
-
-function NpcDetail({ title, children }: { title: string; children: React.ReactNode }) {
-  return (
-    <section className="grid gap-1">
-      <h3 className="text-muted-foreground text-xs font-semibold uppercase">{title}</h3>
       {children}
     </section>
   )

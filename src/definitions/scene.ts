@@ -23,11 +23,26 @@ export type SceneCombatNotes = z.infer<typeof SceneCombatNotes>
  * One "if" in a scene. Follow-ups only come into play when this branch happens, so
  * skipping a branch skips everything nested under it.
  */
-export type SceneOutcome = { when: DmContent; response: DmContent; followUps: SceneOutcome[] }
-type SceneOutcomeInput = { when: DmContent; response: DmContent; followUps?: SceneOutcomeInput[] }
+export type SceneOutcome = {
+  icon: string
+  when: DmContent
+  response: DmContent
+  followUps: SceneOutcome[]
+}
+type SceneOutcomeInput = {
+  icon: string
+  when: DmContent
+  response: DmContent
+  followUps?: SceneOutcomeInput[]
+}
 
 export const SceneOutcome: z.ZodType<SceneOutcome, SceneOutcomeInput> = z.lazy(() =>
   z.strictObject({
+    icon: z
+      .string()
+      .describe(
+        'Icon-catalog id depicting what the players do in this outcome, e.g. `gi/GiConversation` — see src/lib/outcome-icons.tsx.',
+      ),
     when: DmContent.describe('What the party does, or what happens'),
     response: DmContent.describe('How the world answers'),
     followUps: z

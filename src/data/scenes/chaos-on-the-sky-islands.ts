@@ -139,6 +139,7 @@ export default createScene({
       ],
       outcomes: [
         {
+          icon: 'gi/GiPathDistance',
           when: [
             ['They head for ', refs.locations.tempest, ' to find ', refs.npcs.onana_tempest, '.'],
           ],
@@ -151,6 +152,7 @@ export default createScene({
           ],
         },
         {
+          icon: 'gi/GiHourglass',
           when: [['They stay where they are.']],
           response: [
             [
@@ -164,18 +166,21 @@ export default createScene({
           ],
         },
         {
+          icon: 'gi/GiLifeBuoy',
           when: [['They help ', refs.npcs.maren_of_fairhaven, ' or ', refs.npcs.old_pell, '.']],
           response: [
             ['A friendly face in the chaos, and someone who points them through the back streets.'],
           ],
         },
         {
+          icon: 'gi/GiConversation',
           when: [['They talk to ', refs.npcs.sergeant_bruna_kell, '.']],
           response: [
             ['She tries to sign them up. Signing gets them a pass through the clogged links.'],
           ],
         },
         {
+          icon: 'gi/GiMagnifyingGlass',
           when: [
             ['They want to see where the beam hit, or to find ', refs.pcs.swift_starblade, '.'],
           ],
@@ -184,6 +189,7 @@ export default createScene({
           ],
         },
         {
+          icon: 'gi/GiShipBow',
           when: [['They head to the shipyard for their airship.']],
           response: [['Run ', refs.scenes.the_ents_hold_the_shipyard, '.']],
         },

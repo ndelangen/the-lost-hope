@@ -183,6 +183,7 @@ export default createScene({
   ],
   outcomes: [
     {
+      icon: 'gi/GiCancel',
       when: [['They refuse to go.']],
       response: [
         [

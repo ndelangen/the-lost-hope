@@ -30,12 +30,14 @@ export default createScene({
       ],
       outcomes: [
         {
+          icon: 'gi/GiTakeMyMoney',
           when: [['They say they are paying customers.']],
           response: [
             ['The ents part for them, and ', refs.npcs.esia, ' waves them through to the slip.'],
           ],
         },
         {
+          icon: 'gi/GiHoodedFigure',
           when: [['They sneak in.']],
           response: [
             [
@@ -48,6 +50,7 @@ export default createScene({
           ],
         },
         {
+          icon: 'gi/GiCrossedSwords',
           when: [['They fight the ents.']],
           response: [
             [
@@ -99,6 +102,7 @@ export default createScene({
       ],
       outcomes: [
         {
+          icon: 'gi/GiConversation',
           when: [['They ask ', refs.npcs.esia, ' for the ship early.']],
           response: [
             [
@@ -109,6 +113,7 @@ export default createScene({
           ],
         },
         {
+          icon: 'gi/GiShipWheel',
           when: [['They try to fly it themselves.']],
           response: [
             [
@@ -119,6 +124,7 @@ export default createScene({
           ],
         },
         {
+          icon: 'gi/GiLifeBuoy',
           when: [['They look for help, or the timer is nearly out.']],
           response: [
             [
@@ -144,6 +150,7 @@ export default createScene({
       ],
       outcomes: [
         {
+          icon: 'gi/GiShipBow',
           when: [['The ship takes off.']],
           response: [
             [
@@ -154,6 +161,7 @@ export default createScene({
           ],
         },
         {
+          icon: 'gi/GiHourglass',
           when: [['The timer runs out with the ship still on the slip.']],
           response: [
             [

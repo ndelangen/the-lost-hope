@@ -96,6 +96,7 @@ export default createScene({
       ],
       outcomes: [
         {
+          icon: 'gi/GiCrossedSwords',
           when: [['The party attacks ', refs.pcs.fix, '.']],
           response: [
             [
@@ -130,12 +131,14 @@ export default createScene({
       ],
       outcomes: [
         {
+          icon: 'gi/GiCancel',
           when: [['The party says no.']],
           response: [
             [refs.pcs.fix, ' walks into the bar alone and drinks herself to death there.'],
           ],
         },
         {
+          icon: 'gi/GiBeerStein',
           when: [['The party joins ', refs.pcs.fix, '.']],
           response: [['Play the drinking game below.']],
         },
@@ -298,10 +301,12 @@ export default createScene({
       ],
       outcomes: [
         {
+          icon: 'gi/GiWalk',
           when: [['Those still standing carry their passed-out friends home.']],
           response: [['Everyone wakes up hungover, with everything they own.']],
         },
         {
+          icon: 'gi/GiNightSleep',
           when: [['They leave the passed-out ones to sleep in the bar.']],
           response: [['Those left behind wake up robbed. The DM decides what is gone.']],
         },

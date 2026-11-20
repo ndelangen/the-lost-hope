@@ -168,6 +168,7 @@ export default createScene({
       ],
       outcomes: [
         {
+          icon: 'gi/GiConversation',
           when: [['They greet ', refs.npcs.borris, ' or ask how he is.']],
           response: [
             [
@@ -176,6 +177,7 @@ export default createScene({
           ],
           followUps: [
             {
+              icon: 'gi/GiMagnifyingGlass',
               when: [['They ask about the crate or the blood.']],
               response: [
                 [
@@ -184,6 +186,7 @@ export default createScene({
               ],
               followUps: [
                 {
+                  icon: 'gi/GiPointing',
                   when: [['They press him about the bounty hunter or the kenku.']],
                   response: [
                     [
@@ -196,6 +199,7 @@ export default createScene({
           ],
         },
         {
+          icon: 'gi/GiHourglass',
           when: [['They stand still long enough.']],
           response: [
             [
@@ -204,6 +208,7 @@ export default createScene({
           ],
           followUps: [
             {
+              icon: 'gi/GiWoodenCrate',
               when: [['They open the crate.']],
               response: [
                 [
@@ -253,6 +258,7 @@ export default createScene({
       ],
       outcomes: [
         {
+          icon: 'gi/GiWalk',
           when: [['They walk on.']],
           response: [
             [

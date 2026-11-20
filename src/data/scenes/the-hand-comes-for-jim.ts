@@ -81,6 +81,7 @@ export default createScene({
       ],
       outcomes: [
         {
+          icon: 'gi/GiWalk',
           when: [['', refs.pcs.swift_starblade, ' steps away.']],
           response: [
             [
@@ -91,6 +92,7 @@ export default createScene({
           ],
         },
         {
+          icon: 'gi/GiCrossedSwords',
           when: [['', refs.pcs.swift_starblade, ' fights.']],
           response: [
             [

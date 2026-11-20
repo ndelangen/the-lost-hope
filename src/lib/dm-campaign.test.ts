@@ -9,6 +9,7 @@ import { resolveRef, sessionEvents, sessions } from '#/lib/campaign'
 import {
   arcs,
   plotCast,
+  sceneBriefs,
   sceneMentions,
   sceneShipAboard,
   scenes,
@@ -33,8 +34,16 @@ const scene = createScene({
     },
   ],
   outcomes: [
-    { when: [['A player takes the wager.']], response: [['Agree on the stakes.']] },
-    { when: [['A player declines.']], response: [['Continue with the willing players.']] },
+    {
+      icon: 'gi/GiConversation',
+      when: [['A player takes the wager.']],
+      response: [['Agree on the stakes.']],
+    },
+    {
+      icon: 'gi/GiConversation',
+      when: [['A player declines.']],
+      response: [['Continue with the willing players.']],
+    },
   ],
 })
 
@@ -72,6 +81,28 @@ describe('DM campaign model', () => {
       refs.npcs.the_fiddler,
       refs.npcs.borris,
     ])
+  })
+
+  it('details the cast, then the other NPCs and the secret items a scene names', () => {
+    const offer = createScene({
+      name: 'The offer',
+      location: refs.locations.nimbus,
+      npcs: [refs.npcs.borris],
+      setup: [[refs.npcs.the_fiddler, ' deals.']],
+      outcomes: [
+        {
+          icon: 'gi/GiConversation',
+          when: [['They take the ', refs.items.long_rest_in_a_bottle, '.']],
+          response: [[refs.npcs.borris, ' and ', refs.npcs.onana_tempest, ' look on.']],
+        },
+      ],
+    })
+    expect(sceneBriefs(offer, () => true)).toEqual({
+      cast: [refs.npcs.borris],
+      named: [refs.npcs.the_fiddler, refs.npcs.onana_tempest],
+      items: [refs.items.long_rest_in_a_bottle],
+    })
+    expect(sceneBriefs(offer, () => false).items).toEqual([])
   })
 
   it('gives every prepared scene a script to play', () => {

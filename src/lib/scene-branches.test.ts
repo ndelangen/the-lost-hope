@@ -2,9 +2,10 @@ import { describe, expect, it } from 'vitest'
 
 import type { SceneOutcome } from '#/definitions/scene'
 
-import { buildSceneBranches } from './scene-branches'
+import { buildSceneBranches, pickBranch, walkBranchPath } from './scene-branches'
 
 const branch = (text: string, followUps: SceneOutcome[] = []): SceneOutcome => ({
+  icon: 'gi/GiConversation',
   when: [[text]],
   response: [['…']],
   followUps,
@@ -12,10 +13,10 @@ const branch = (text: string, followUps: SceneOutcome[] = []): SceneOutcome => (
 
 describe('buildSceneBranches', () => {
   it('gives nested branches outline ids and counts everything a skipped branch hides', () => {
-    const [a, e] = buildSceneBranches(
-      [branch('A', [branch('B', [branch('C')]), branch('D')]), branch('E')],
-      () => false,
-    )
+    const [a, e] = buildSceneBranches([
+      branch('A', [branch('B', [branch('C')]), branch('D')]),
+      branch('E'),
+    ])
 
     expect(a?.id).toBe('1')
     expect(a?.descendantCount).toBe(3)
@@ -27,75 +28,42 @@ describe('buildSceneBranches', () => {
   })
 })
 
-describe('who and what a branch names', () => {
-  const npc = (key: string) => ({ ref: 'npc', key }) as const
-  const item = (key: string) => ({ ref: 'item', key }) as const
+describe('walkBranchPath', () => {
+  const branches = buildSceneBranches([
+    branch('A', [branch('B', [branch('C')]), branch('D')]),
+    branch('E'),
+  ])
+  const ids = (picks: Record<string, string>) =>
+    walkBranchPath(branches, picks).map((fork) => [fork.key, fork.picked?.id])
 
-  it('lists the NPCs a branch names once each, in order of first mention', () => {
-    const [only] = buildSceneBranches(
-      [
-        {
-          when: [['They help ', npc('maren'), ' or ', npc('pell'), '.']],
-          response: [[npc('pell'), ' points them on, past ', { ref: 'location', key: 'docks' }]],
-          followUps: [],
-        },
-      ],
-      () => false,
-    )
-
-    expect(only?.npcs).toEqual([npc('maren'), npc('pell')])
+  it('stops at the first undecided fork', () => {
+    expect(ids({})).toEqual([['', undefined]])
+    expect(ids({ '': '1' })).toEqual([
+      ['', '1'],
+      ['1', undefined],
+    ])
   })
 
-  it('lists only the items that hold a secret, in follow-ups too', () => {
-    const [only] = buildSceneBranches(
-      [
-        {
-          when: [['They take the ', item('draught'), ' and the ', item('rope'), '.']],
-          response: [['The ', item('draught'), ' works.']],
-          followUps: [
-            { when: [['They drink the ', item('draught'), '.']], response: [['…']], followUps: [] },
-          ],
-        },
-      ],
-      (named) => named.key === 'draught',
-    )
-
-    expect(only?.items).toEqual([item('draught')])
-    expect(only?.followUps[0]?.items).toEqual([])
+  it('follows picks down to an outcome with no follow-ups', () => {
+    expect(ids({ '': '1', '1': '1.1', '1.1': '1.1.1' })).toEqual([
+      ['', '1'],
+      ['1', '1.1'],
+      ['1.1', '1.1.1'],
+    ])
+    expect(ids({ '': '2' })).toEqual([['', '2']])
   })
 
-  it('details a record only in the first branch that names it, follow-ups before later branches', () => {
-    const names = (who: string) => ({ when: [['If ', npc(who), ' is there.']], response: [['…']] })
-    const [first, second] = buildSceneBranches(
-      [
-        { ...names('maren'), followUps: [{ ...names('pell'), followUps: [] }] },
-        { ...names('pell'), followUps: [{ ...names('maren'), followUps: [] }] },
-      ],
-      () => false,
-    )
-
-    expect(first?.npcs).toEqual([npc('maren')])
-    expect(first?.followUps[0]?.npcs).toEqual([npc('pell')])
-    expect(second?.npcs).toEqual([])
-    expect(second?.followUps[0]?.npcs).toEqual([])
+  it('keeps picks off the path, so going back restores what was under an outcome', () => {
+    const deep = { '': '1', '1': '1.2' }
+    const away = pickBranch(deep, '', '2')
+    expect(walkBranchPath(branches, away)).toHaveLength(1)
+    expect(ids(pickBranch(away, '', '1'))).toEqual([
+      ['', '1'],
+      ['1', '1.2'],
+    ])
   })
 
-  it('leaves out whoever the page detailed before these branches, and adds its own to the list', () => {
-    const briefed = new Set(['npc:maren'])
-    const [only] = buildSceneBranches(
-      [
-        {
-          when: [['They help ', npc('maren'), ' or ', npc('pell'), '.']],
-          response: [['…']],
-          followUps: [],
-        },
-      ],
-      () => false,
-      '',
-      briefed,
-    )
-
-    expect(only?.npcs).toEqual([npc('pell')])
-    expect(briefed).toEqual(new Set(['npc:maren', 'npc:pell']))
+  it('leaves a fork undecided again', () => {
+    expect(pickBranch({ '': '1', '1': '1.2' }, '')).toEqual({ '1': '1.2' })
   })
 })

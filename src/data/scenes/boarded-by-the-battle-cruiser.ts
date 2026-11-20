@@ -80,6 +80,7 @@ export default createScene({
       ],
       outcomes: [
         {
+          icon: 'gi/GiConversation',
           when: [['They argue that the ship is theirs.']],
           response: [['“Orders of ', refs.npcs.onana_tempest, '.” He changes nothing.']],
         },
@@ -146,10 +147,12 @@ export default createScene({
       ],
       outcomes: [
         {
+          icon: 'gi/GiShrug',
           when: [['They hesitate.']],
           response: [['“Sorry, not a request, I’m afraid. Come with us now.”']],
         },
         {
+          icon: 'gi/GiWalk',
           when: [['They go along.']],
           response: [
             [
@@ -166,6 +169,7 @@ export default createScene({
   ],
   outcomes: [
     {
+      icon: 'gi/GiAirZigzag',
       when: [['They try to break away again.']],
       response: [
         [
@@ -174,6 +178,7 @@ export default createScene({
       ],
     },
     {
+      icon: 'gi/GiCrossedSwords',
       when: [['They fight.']],
       response: [
         [
