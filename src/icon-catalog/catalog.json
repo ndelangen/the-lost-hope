@@ -98827,7 +98827,10 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "duplicateOf": "lucide/Brain",
       "sourceUrl": "https://game-icons.net/1x1/lorc/brain.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/npcs/onana-tempest.ts",
+        "src/lib/ability-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiBrainDump",

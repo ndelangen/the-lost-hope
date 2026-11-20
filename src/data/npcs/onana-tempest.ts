@@ -169,7 +169,18 @@ export default createNPC({
         text: [
           'For 1 minute (',
           refs.rules.concentration,
-          ') he reads the surface thoughts of one creature within 30 ft., and it does not notice. As an action he can switch to another creature, or probe one deeper with the save below. A probed creature feels it whether it fails or not, and a success ends the spell.',
+          ') he reads the surface thoughts of one creature within 30 ft. No save, and it does not notice. As an action he can switch to another creature, or use Probe Mind on the one he is reading.',
+        ],
+        uses: 1,
+        recharge: 'Long rest',
+      },
+      {
+        key: 'probe-mind',
+        name: 'Probe Mind',
+        timing: 'action',
+        icon: 'gi/GiBrain',
+        text: [
+          'Only while Detect Thoughts is running. He pushes past the surface thoughts of the creature he is reading. It feels the probe whether it fails or not, and a success ends Detect Thoughts.',
         ],
         save: {
           ability: 'wis',
@@ -181,8 +192,6 @@ export default createNPC({
             ],
           },
         },
-        uses: 1,
-        recharge: 'Long rest',
       },
       {
         key: 'silence',
