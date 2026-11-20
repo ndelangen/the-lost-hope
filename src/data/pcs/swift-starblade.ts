@@ -21,9 +21,6 @@ export default createPC({
   ],
   notes: [
     ['A rogue who formerly went by the name Rhys Greenleaf.'],
-    [
-      'Session notes called him "a human-elf pirate" before his name was confirmed as Swift Starblade on D&D Beyond.',
-    ],
     ['Building a large fanbase is one of his primary ambitions.'],
     [
       'He comes from a multigenerational pirate family associated with the ',

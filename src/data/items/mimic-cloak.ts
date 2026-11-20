@@ -20,7 +20,7 @@ export default createItem({
       refs.rules.restrained,
       '. After each ',
       refs.rules.long_rest,
-      ', its wearer must feed it or gain one level of exhaustion. The exact feeding cost is unclear in the recording.',
+      ', its wearer must feed it or gain one level of exhaustion.',
     ],
   ],
 })

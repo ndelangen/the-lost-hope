@@ -164,7 +164,9 @@ export default createArc({
       events: [refs.events.n2_e219, refs.events.n2_e220],
       notes: [
         [
-          'The party accepted the recovery mission. The private interrogation answers are absent from the transcript. The promised return and repair of ',
+          'The party accepted the recovery mission. The party could not tell which of their thoughts ',
+          refs.npcs.onana_tempest,
+          ' had probed. The promised return and repair of ',
           refs.items.little_purple,
           ' and any further reward remain outstanding.',
         ],
@@ -208,7 +210,7 @@ export default createArc({
       events: [refs.events.n2_e220, refs.events.n2_e222],
       notes: [
         [
-          'Only the initial boarding rooms have been cleared. The bridge, crystal, lower deck, and all remaining prepared encounters are unplayed. The DM confirmed both bow rooms on the main deck were cleared.',
+          'Only the initial boarding rooms have been cleared. The bridge, crystal, lower deck, and all remaining prepared encounters are unplayed. Both bow rooms on the main deck were cleared.',
         ],
       ],
     },
