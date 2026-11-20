@@ -93,6 +93,8 @@ export default createScene({
           refs.npcs.gruumsh_high_priest,
           refs.npcs.sylvia,
           refs.npcs.bessy,
+          refs.npcs.penelope,
+          refs.npcs.bob_the_gate_troll,
           { who: refs.npcs.silas_wren, always: 'passed' },
           { who: refs.npcs.cloaked_snatcher, always: 'failed' },
           { who: refs.npcs.the_father, always: 'passed' },
