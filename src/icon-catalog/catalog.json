@@ -73599,7 +73599,11 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://fontawesome.com/v5/icons/users-slash",
       "usedIn": [
+        "src/data/effects/fix-s-severed-bond-with-jim.ts",
+        "src/data/effects/severed-bond-with-jim.ts",
         "src/data/events/n2-e036.ts",
+        "src/data/events/n2-e207.ts",
+        "src/lib/effect-icons.tsx",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -81246,7 +81250,10 @@
       "classification": "useful",
       "classificationReason": "Manually classified as useful from the /_icons review page.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/air-balloon.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/skynet-nimbus-crossing.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiAirForce",
@@ -94664,7 +94671,10 @@
       "usedIn": [
         "src/data/events/n2-e089.ts",
         "src/data/events/n2-e200.ts",
-        "src/lib/event-icons.tsx"
+        "src/data/events/n2-e209.ts",
+        "src/data/sessions/the-pulse-and-the-boarding.ts",
+        "src/lib/event-icons.tsx",
+        "src/lib/session-icons.tsx"
       ]
     },
     {
@@ -95552,7 +95562,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/boat-propeller.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/sky-bridge-ferry.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiBoba",
@@ -108305,6 +108318,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/cargo-ship.html",
       "usedIn": [
         "src/data/events/n2-e092.ts",
+        "src/data/events/n2-e221.ts",
         "src/data/locations/the-flying-whale.ts",
         "src/data/sessions/the-flying-bazaar.ts",
         "src/lib/event-icons.tsx",
@@ -111070,6 +111084,7 @@
         "src/data/events/n2-e043.ts",
         "src/data/events/n2-e124.ts",
         "src/data/events/n2-e183.ts",
+        "src/data/events/n2-e220.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -120641,7 +120656,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/cathelineau/cruiser.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/little-purple-decks.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiCrumblingBall",
@@ -122627,6 +122645,7 @@
       "usedIn": [
         "src/data/events/n2-e103.ts",
         "src/data/events/n2-e181.ts",
+        "src/data/events/n2-e216.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -126163,6 +126182,7 @@
       "usedIn": [
         "src/data/events/n2-e051.ts",
         "src/data/events/n2-e204.ts",
+        "src/data/events/n2-e212.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -137815,7 +137835,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/figurehead.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/ride-the-lightning-main-deck.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiFiles",
@@ -146510,7 +146533,9 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/galleon.html",
       "usedIn": [
         "src/data/items/ride-the-lightning.ts",
-        "src/lib/item-icons.tsx"
+        "src/data/quests/recover-ride-the-lightning.ts",
+        "src/lib/item-icons.tsx",
+        "src/lib/quest-icons.tsx"
       ]
     },
     {
@@ -159866,7 +159891,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/human-cannonball.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/master-of-puppets-gun-deck.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiHumanEar",
@@ -170041,6 +170069,7 @@
         "src/data/events/n2-e121.ts",
         "src/data/events/n2-e146.ts",
         "src/data/events/n2-e166.ts",
+        "src/data/events/n2-e215.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -171347,6 +171376,7 @@
         "src/data/effects/storm.ts",
         "src/data/events/n2-e106.ts",
         "src/data/events/n2-e196.ts",
+        "src/data/events/n2-e210.ts",
         "src/lib/effect-icons.tsx",
         "src/lib/event-icons.tsx"
       ]
@@ -190550,6 +190580,7 @@
       "usedIn": [
         "src/data/events/n2-e027.ts",
         "src/data/events/n2-e120.ts",
+        "src/data/events/n2-e218.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -198712,6 +198743,7 @@
         "src/data/events/n2-e061.ts",
         "src/data/events/n2-e112.ts",
         "src/data/events/n2-e168.ts",
+        "src/data/events/n2-e206.ts",
         "src/lib/effect-icons.tsx",
         "src/lib/event-icons.tsx"
       ]
@@ -198968,6 +199000,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/progression.html",
       "usedIn": [
         "src/data/events/n2-e110.ts",
+        "src/data/events/n2-e222.ts",
         "src/lib/event-icons.tsx"
       ]
     },
@@ -207135,6 +207168,7 @@
       "usedIn": [
         "src/data/events/n2-e001.ts",
         "src/data/events/n2-e185.ts",
+        "src/data/events/n2-e214.ts",
         "src/data/locations/the-boat-to-fairhaven.ts",
         "src/data/sessions/from-fajanet-to-fairhaven.ts",
         "src/lib/event-icons.tsx",
@@ -208627,6 +208661,7 @@
         "src/data/events/n2-e034.ts",
         "src/data/events/n2-e173.ts",
         "src/data/events/n2-e188.ts",
+        "src/data/events/n2-e219.ts",
         "src/data/items/rare-dragon-scales.ts",
         "src/lib/event-icons.tsx",
         "src/lib/item-icons.tsx"
@@ -210119,6 +210154,7 @@
         "src/data/events/n2-e075.ts",
         "src/data/events/n2-e099.ts",
         "src/data/events/n2-e156.ts",
+        "src/data/events/n2-e217.ts",
         "src/data/items/devan-s-corrected-holy-text.ts",
         "src/lib/event-icons.tsx",
         "src/lib/item-icons.tsx"
@@ -213150,7 +213186,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/ship-bow.html",
       "usedIn": [
-        "src/data/items/beasts-and-dwarf-s-airship.ts",
+        "src/data/items/little-purple.ts",
         "src/data/locations/tempest-sky-bridge-landing.ts",
         "src/lib/item-icons.tsx",
         "src/lib/location-icons.tsx"
@@ -213211,6 +213247,7 @@
       "usedIn": [
         "src/data/events/n2-e041.ts",
         "src/data/events/n2-e179.ts",
+        "src/data/events/n2-e213.ts",
         "src/data/locations/skynet-airship-shipyard.ts",
         "src/data/sessions/the-tempest-bargain.ts",
         "src/lib/event-icons.tsx",
@@ -223665,7 +223702,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/spyglass.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/master-of-puppets-commanders-office.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiSquare",

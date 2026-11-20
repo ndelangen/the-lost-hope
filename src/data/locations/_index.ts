@@ -1,6 +1,5 @@
 import badesh_forest from './badesh-forest.ts'
 import badesh from './badesh.ts'
-import beasts_and_dwarf_s_airship_decks from './beasts-and-dwarf-s-airship-decks.ts'
 import bessy_s_nimbus_stall from './bessy-s-nimbus-stall.ts'
 import blackstone_stables from './blackstone-stables.ts'
 import bob_s_stall from './bob-s-stall.ts'
@@ -39,6 +38,7 @@ import gruumsh_temple_ritual_room from './gruumsh-temple-ritual-room.ts'
 import gruumsh_war_temple from './gruumsh-war-temple.ts'
 import holy_site from './holy-site.ts'
 import jim_s_room_at_skynet_s_second_best_inn from './jim-s-room-at-skynet-s-second-best-inn.ts'
+import little_purple_decks from './little-purple-decks.ts'
 import lower_stables from './lower-stables.ts'
 import master_of_puppets_commanders_office from './master-of-puppets-commanders-office.ts'
 import master_of_puppets_gun_deck from './master-of-puppets-gun-deck.ts'
@@ -125,7 +125,7 @@ export default {
   master_of_puppets_commanders_office,
   master_of_puppets_gun_deck,
   sky_bridge_ferry,
-  beasts_and_dwarf_s_airship_decks,
+  little_purple_decks,
   serpent_eclipse_crystal_oasis,
   world,
   continent_of_the_dead,

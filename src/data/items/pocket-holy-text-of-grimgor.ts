@@ -5,7 +5,7 @@ export default createItem({
   name: 'Pocket Holy Text of Grimgor',
   icon: 'gi/GiBookmarklet',
   currentOwner: refs.pcs.jim,
-  carriedBy: refs.pcs.jim,
+  carriedBy: refs.pcs.swift_starblade,
   craftedBy: null,
   notes: [
     [

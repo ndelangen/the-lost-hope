@@ -204,6 +204,7 @@ describe('quest taxonomy', () => {
       "Find Grimgor's Bones",
       'Help the Rare-Animal Dealer',
       'Make Abraham Known Among His Peers',
+      'Recover Ride the Lightning',
       "Recover Swift's Flying Broom",
       "Settle the Shipwright's Favors",
     ])
@@ -273,25 +274,26 @@ describe('items', () => {
       items.steve_mace_of_returning.slug,
     ])
     expect(itemsOwnedBy('pc', pcs.swift_starblade.slug).map((item) => item.slug)).toEqual([
+      items.dagger_of_passive_aggression.slug,
       items.demon_possessed_flying_broom.slug,
       items.mimic_cloak.slug,
+      items.shadow_sword.slug,
       items.swifts_silver_container.slug,
     ])
     expect(itemsCarriedBy('pc', pcs.swift_starblade.slug).map((item) => item.slug)).toEqual([
+      items.dagger_of_passive_aggression.slug,
       items.mimic_cloak.slug,
+      items.pocket_holy_text_of_grimgor.slug,
+      items.robertos_map_pages.slug,
+      items.shadow_sword.slug,
       items.swifts_silver_container.slug,
     ])
     expect(itemsCarriedBy('pc', pcs.cassian_veyl.slug).map((item) => item.slug)).toEqual([
       items.cassian_s_replacement_bag_of_holding.slug,
     ])
-    expect(itemsCarriedBy('pc', pcs.jim.slug).map((item) => item.slug)).toEqual([
-      items.dagger_of_passive_aggression.slug,
+    expect(itemsCarriedBy('pc', pcs.jim.slug)).toEqual([])
+    expect(itemsCarriedBy('pc', pcs.auren.slug).map((item) => item.slug)).toEqual([
       items.dagger_of_the_zodiac_signs.slug,
-      items.nimbus_dungeon_stamp_card.slug,
-      items.obsidian_green_rod.slug,
-      items.pocket_holy_text_of_grimgor.slug,
-      items.robertos_map_pages.slug,
-      items.shadow_sword.slug,
     ])
     expect(itemsCarriedBy('pc', pcs.devan.slug).map((item) => item.slug)).toEqual([
       items.devan_s_corrected_holy_text.slug,
@@ -303,11 +305,11 @@ describe('items', () => {
     expect(
       itemsOwnedBy('organization', organizations.beasts_and_dwarf.slug).map((item) => item.slug),
     ).toEqual([
-      items.beasts_and_dwarf_s_airship.slug,
+      items.little_purple.slug,
       items.nimbus_dungeon_stamp_card.slug,
       items.serpent_eclipse_trial_disk.slug,
     ])
-    expect(items.nimbus_dungeon_stamp_card.carriedBy?.key).toBe(refs.pcs.jim.key)
+    expect(items.nimbus_dungeon_stamp_card.carriedBy).toBeNull()
     expect(items.nimbus_dungeon_stamp_card.quantity).toBe(1)
     expect(items.purple_dragon_horn.currentOwner).toBeNull()
     expect(items.purple_dragon_horn.carriedBy).toBeNull()
@@ -320,7 +322,7 @@ describe('items', () => {
     expect(items.cursed_shadow_sword.currentOwner).toBeNull()
     expect(items.cursed_shadow_sword.carriedBy).toBeNull()
     expect(items.cursed_shadow_sword.notes?.flat()).toContainEqual(refs.items.shadow_sword)
-    expect(items.shadow_sword.currentOwner).toEqual(refs.pcs.jim)
+    expect(items.shadow_sword.currentOwner).toEqual(refs.pcs.swift_starblade)
     expect(items.shadow_sword.notes?.flat()).toContainEqual(refs.items.cursed_shadow_sword)
     expect(events.n2_e162.notes.flat()).toContainEqual(refs.items.shadow_sword)
     expect(items.wolfie_tracking_ring.notes?.flat()).toContainEqual(
@@ -1021,6 +1023,6 @@ describe('campaign chronology', () => {
   })
 
   it('returns the latest event first', () => {
-    expect(sortedEvents()[0]?.data).toBe(events.n2_e204)
+    expect(sortedEvents()[0]?.data).toBe(events.n2_e222)
   })
 })

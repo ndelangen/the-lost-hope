@@ -4,8 +4,8 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: 'Shadow Sword',
   icon: 'gi/GiAncientSword',
-  currentOwner: refs.pcs.jim,
-  carriedBy: refs.pcs.jim,
+  currentOwner: refs.pcs.swift_starblade,
+  carriedBy: refs.pcs.swift_starblade,
   craftedBy: null,
   notes: [
     [

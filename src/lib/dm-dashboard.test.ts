@@ -82,7 +82,7 @@ describe('DM dashboard', () => {
 
   it('places boarding under both possible vessel decks', () => {
     const key = 'boarded_by_the_battle_cruiser'
-    const location = refs.locations.beasts_and_dwarf_s_airship_decks
+    const location = refs.locations.little_purple_decks
     const alternate = refs.locations.sky_bridge_ferry
     const boarding = createScene({
       name: 'Boarded by the battle-cruiser',

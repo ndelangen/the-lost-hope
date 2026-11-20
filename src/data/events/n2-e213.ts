@@ -1,0 +1,51 @@
+import { refs } from '#/data/generated/refs.ts'
+import { create as createEvent } from '#/definitions/event.ts'
+
+export default createEvent({
+  name: 'Auren delivers Little Purple and carries the party to Nimbus',
+  day: 24,
+  location: refs.locations.skynet_sky_bridge_landing,
+  mark: { type: 'icon', name: 'gi/GiShipWheel' },
+  notes: [
+    [
+      refs.pcs.auren,
+      ' arrived aboard ',
+      refs.items.little_purple,
+      ', the party’s commissioned airship, and said that ',
+      refs.npcs.esia,
+      ' had sent him to deliver it. He wanted passage and offered to pilot it. The vessel was unfinished and its crystal was not fully charged.',
+    ],
+    [
+      refs.npcs.crowy,
+      ' reached ',
+      refs.pcs.devan,
+      ' and ',
+      refs.pcs.cassian_veyl,
+      ' in a state of exhaustion. ',
+      refs.pcs.devan,
+      ' healed his injuries, but not the exhaustion. ',
+      refs.npcs.crowy,
+      ' told them that ',
+      refs.pcs.jim,
+      ' was gone and urged them to get to ',
+      refs.pcs.swift_starblade,
+      ', then lost consciousness.',
+    ],
+    [
+      refs.pcs.auren,
+      ' flew ',
+      refs.items.little_purple,
+      ' toward ',
+      refs.locations.nimbus,
+      ' with ',
+      refs.pcs.devan,
+      ', ',
+      refs.pcs.cassian_veyl,
+      ', ',
+      refs.beasts.wolfie,
+      ', and ',
+      refs.npcs.crowy,
+      ' aboard.',
+    ],
+  ],
+})

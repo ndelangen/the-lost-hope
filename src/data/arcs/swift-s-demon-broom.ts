@@ -41,5 +41,21 @@ export default createArc({
         ],
       ],
     },
+    {
+      name: 'The Hand’s offer',
+      hook: [
+        [
+          refs.npcs.silas_wren,
+          ' offered ',
+          refs.pcs.swift_starblade,
+          ' a route back to the ',
+          refs.items.demon_possessed_flying_broom,
+          ' in return for joining ',
+          refs.organizations.the_eyeless_hand,
+          '. He has not answered.',
+        ],
+      ],
+      events: [refs.events.n2_e208, refs.events.n2_e219],
+    },
   ],
 })

@@ -9,7 +9,7 @@ export default createEvent({
   notes: [
     [
       'While discussing the two favors owed for ',
-      refs.items.beasts_and_dwarf_s_airship,
+      refs.items.little_purple,
       ', ',
       refs.npcs.esia,
       ' raised grievances against ',

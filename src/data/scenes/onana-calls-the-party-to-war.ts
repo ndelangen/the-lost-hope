@@ -283,7 +283,7 @@ export default createScene({
         {
           when: [['They promise to help.']],
           response: [
-            ['He gives ', refs.items.beasts_and_dwarf_s_airship, ' back. Then play the next beat.'],
+            ['He gives ', refs.items.little_purple, ' back. Then play the next beat.'],
             [
               'He also has ',
               refs.npcs.captain_garran,
@@ -366,7 +366,7 @@ export default createScene({
           '’s presence and hiding brought this war to the sky islands. ',
           refs.npcs.onana_tempest,
           ' needs every blade today, so the offer stands. Once the war is over he sends them away with ',
-          refs.items.beasts_and_dwarf_s_airship,
+          refs.items.little_purple,
           ': ',
           refs.pcs.jim,
           '’s final departing gift.',

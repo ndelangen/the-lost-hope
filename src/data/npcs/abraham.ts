@@ -6,10 +6,7 @@ export default createNPC({
   avatar: '/assets/npcs/abraham-portrait.png',
   location: refs.locations.badesh_forest,
   species: 'Donkey',
-  notes: [
-    ['A donkey who now travels with ', refs.pcs.jim, '.'],
-    ['Age, appearance, and temperament are all unestablished.'],
-  ],
+  notes: [['Age, appearance, and temperament are all unestablished.']],
   stats: {
     size: 'medium',
     type: 'beast',

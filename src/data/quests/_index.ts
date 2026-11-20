@@ -10,6 +10,7 @@ import make_abraham_known_among_his_peers from './make-abraham-known-among-his-p
 import mountain_holy_site from './mountain-holy-site.ts'
 import mystery_girl from './mystery-girl.ts'
 import rare_animal_dealer from './rare-animal-dealer.ts'
+import recover_ride_the_lightning from './recover-ride-the-lightning.ts'
 import recover_swift_s_flying_broom from './recover-swift-s-flying-broom.ts'
 import settle_the_shipwright_s_favors from './settle-the-shipwright-s-favors.ts'
 import the_cursed_sword from './the-cursed-sword.ts'
@@ -23,6 +24,7 @@ import who_is_giggles from './who-is-giggles.ts'
 import who_is_light from './who-is-light.ts'
 
 export default {
+  recover_ride_the_lightning,
   find_the_fiddler,
   settle_the_shipwright_s_favors,
 

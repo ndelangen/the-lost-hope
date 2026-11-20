@@ -453,3 +453,41 @@ Every question must include **what we already know** — many sit unanswered acr
 - **Is Cassian a human or a sheep-like humanoid?**
   - _Context:_ The data records his species as "Sheep-like humanoid". His D&D Beyond sheet lists Human.
   - _Why asking:_ The `species` field owns this fact and one of the two sources is out of date.
+
+## Session 18, The Pulse and the Boarding
+
+- Where did Jim go, and why did the fortress fire twice?
+  - The pulse severed emotional bonds without erasing memories. The first beam was aimed at Jim but scattered over Nimbus for a reason explicitly unknown to the witnesses. The second made him disappear and left his belongings behind. Neither death nor a destination was established. His interrupted instruction to Swift only clearly includes taking the ship.
+  - Part 1, 00:15 through 00:35. The prepared captor and explanation remain DM information, not a discovery or a resolved mystery.
+
+- Which other bonds survived the pulse, and can broken bonds recover?
+  - Cassian, Devan, Crowy, and the Father still cared about Jim. Swift and Fix did not. The table rolled for other characters, but the unlabeled transcript does not reliably preserve every result. Memories and shared history remain intact. Duration and removal conditions were not given.
+  - Part 1, 00:18 through 00:29. Do not assign outcomes from the prepared save roster.
+
+- Who showed Captain Garran the military medic’s badge?
+  - A party member called themselves a lieutenant and tried to direct the soldiers into rescue work. Cassian supported the appeal with Suggestion. The first recording has no reliable speaker labels, so the badge-holder remains unidentified.
+  - Part 1, 01:23 through 01:29. No military rank has been added to a PC from this exchange.
+
+- Which boarding compartments did the party enter, and on which deck?
+  - Swift, Cassian, and Devan used the same entry compartment; Auren used the other. They fought around the rooms and connecting doorway, then stopped after clearing them. The existing Session 18 room-clearance annotation places both rooms at the bow of Ride the Lightning’s main deck. The transcript instead uses stern and middle-deck wording while discussing the map.
+  - Part 1, 02:32 through 02:37; Part 2, boarding and closing fight. Events use the existing main-deck placement provisionally. No lower-deck visit or further room traversal has been inferred.
+
+- What did the party write in response to Onana’s interrogation?
+  - He asked about working for the Eyeless Hand and being under the influence of Arcane Dust, using Zone of Truth and attempted mind-reading. Some answers were written privately and are not in the transcript. The questions alone do not prove that anyone was working for the Hand or affected by the dust.
+  - Part 1, 01:58 through 02:06.
+
+- What powers and limits does Auren’s fused Zodiac dagger have?
+  - He survived 73 damage when accepting it, and it fused into his arm. It cannot simply be removed or handed away. No further new powers or a way to separate it were established. The other twelve-dagger discussion does not establish that the party has encountered the others.
+  - Part 1, 01:27 through 01:31. The transfer is not evidence of a connection to the fortress attack.
+
+- What happened to the fallen ferry’s passengers and Jim’s uncollected possessions?
+  - A ferry with twelve people aboard fell toward the ocean after the first beam. Their fate was not established. Swift collected the named weapons, book, and pages, and Auren accepted the Zodiac dagger. No new carrier was confirmed for the obsidian rod or dungeon stamp card.
+  - Part 1, 00:30, 00:35 through 00:40, and the reunion. The uncollected items retain their ownership but have no confirmed carrier.
+
+- Are the shipwright’s favors still owed, and what will Onana pay?
+  - Little Purple was delivered unfinished. Onana offered its return and repair for the recovery mission and dismissed the favors during wartime, but Esia did not release the party. Further payment was deferred. Ride the Lightning was not yet recovered when play stopped.
+  - Part 1, 02:08 through 02:20. The instant-rest and healing supplies were discussed and consumed inconsistently, so exact remaining potion counts are not recorded.
+
+- What did Jim know about Light, and how did the Hand track the party?
+  - Jim’s decoded farewell warns that Light knows more than he tells them. Separately, Auren says he obtained Hand documents recording the party’s movements. Neither statement reveals Light’s hidden plan or confirms that Roberto’s pages themselves reveal a location.
+  - Part 1, 01:35 through 01:42. Both remain attributed accounts, with no DM explanation imported into player events.

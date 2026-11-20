@@ -5,7 +5,7 @@ export default createItem({
   name: 'Obsidian Green Rod',
   icon: 'gi/GiCrystalWand',
   currentOwner: refs.pcs.jim,
-  carriedBy: refs.pcs.jim,
+  carriedBy: null,
   craftedBy: null,
   notes: [
     [

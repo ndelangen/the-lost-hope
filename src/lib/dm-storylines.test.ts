@@ -120,7 +120,7 @@ describe('storyline filters', () => {
     expect(open.has('the_flying_fortress')).toBe(true)
 
     const recent = applyStorylineFilters(lines, allSessions, { recent: 3 })
-    expect(recent.sessions.map((s) => s.number)).toEqual([15, 16, 17])
+    expect(recent.sessions.map((s) => s.number)).toEqual([16, 17, 18])
     expect(recent.matching.has('the_shadowpeak_mine')).toBe(false)
     expect(recent.matching.has('the_tempest_family')).toBe(true)
   })

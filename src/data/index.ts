@@ -103,6 +103,7 @@ export default createCampaign({
     ['Both DM tokens and curse tokens are intended to create fun for different play styles.'],
   ],
   quests: [
+    quests.recover_ride_the_lightning,
     quests.find_the_fiddler,
     quests.settle_the_shipwright_s_favors,
     quests.recover_swift_s_flying_broom,
@@ -143,5 +144,6 @@ export default createCampaign({
     sessions.the_death_of_a_dungeon,
     sessions.the_tempest_bargain,
     sessions.the_ghost_and_the_gambler,
+    sessions.the_pulse_and_the_boarding,
   ],
 })

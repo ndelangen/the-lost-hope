@@ -138,7 +138,7 @@ export default createScene({
     exits: [
       [
         'The wheel: a ship under way is harder to board. Or ',
-        refs.items.beasts_and_dwarf_s_airship,
+        refs.items.little_purple,
         ', if it is still alongside.',
       ],
     ],

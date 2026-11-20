@@ -12,7 +12,7 @@ export default createScene({
   battleMaps: [
     refs.locations.master_of_puppets_gun_deck,
     refs.locations.master_of_puppets_main_deck,
-    refs.locations.beasts_and_dwarf_s_airship_decks,
+    refs.locations.little_purple_decks,
     refs.locations.ride_the_lightning_main_deck,
     refs.locations.ride_the_lightning_gun_deck,
   ],
@@ -161,7 +161,7 @@ export default createScene({
           do: [
             [
               'Another way in: ',
-              refs.items.beasts_and_dwarf_s_airship,
+              refs.items.little_purple,
               ' can run in under the guns to the bow. The pilot makes a DC 15 ',
               refs.rules.dex,
               ' check; on a failure the airship takes a hit on the way, but they still reach the bow. ',

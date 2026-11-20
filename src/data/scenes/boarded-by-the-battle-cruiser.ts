@@ -4,10 +4,10 @@ import { create as createScene } from '#/definitions/scene.ts'
 export default createScene({
   name: 'Boarded by the battle-cruiser',
   illustrations: ['/assets/scenes/boarded-by-the-battle-cruiser.png'],
-  location: refs.locations.beasts_and_dwarf_s_airship_decks,
+  location: refs.locations.little_purple_decks,
   alternateLocations: [refs.locations.sky_bridge_ferry],
   battleMaps: [
-    refs.locations.beasts_and_dwarf_s_airship_decks,
+    refs.locations.little_purple_decks,
     refs.locations.sky_bridge_ferry,
     refs.locations.master_of_puppets_main_deck,
     refs.locations.skynet_airship_shipyard,
@@ -35,7 +35,7 @@ export default createScene({
           do: [
             [
               'Wherever the chase ended, in the air on ',
-              refs.items.beasts_and_dwarf_s_airship,
+              refs.items.little_purple,
               ', on the ferry, or with the ship still on the slip at the shipyard, ',
               refs.items.master_of_puppets,
               ', a battle-cruiser of the ',

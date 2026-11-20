@@ -9,6 +9,26 @@ export default createQuest({
   status: 'open',
   clues: [
     [
+      refs.events.n2_e206,
+      ' records the attempt by ',
+      refs.npcs.silas_wren,
+      ' to bring ',
+      refs.pcs.jim,
+      ' home. ',
+      refs.events.n2_e210,
+      ' records his disappearance in a fortress beam, not a confirmed death.',
+    ],
+    [
+      refs.events.n2_e217,
+      ' records his farewell and warning about ',
+      refs.npcs.light_13th_marshal,
+      '. ',
+      refs.events.n2_e218,
+      ' records the claim by ',
+      refs.pcs.auren,
+      ' that Hand documents tracked the party. The tracking mechanism remains unknown.',
+    ],
+    [
       refs.events.n2_e153,
       ', the ',
       refs.npcs.throne_figure_in_jim_s_vision,

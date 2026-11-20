@@ -2,6 +2,7 @@ import { refs } from '#/data/generated/refs.ts'
 import { create as createLocation } from '#/definitions/location.ts'
 
 export default createLocation({
+  icon: 'gi/GiSpyglass',
   name: 'Master of Puppets Commander’s Office',
   map: { url: '/assets/maps/master-of-puppets-commanders-office.jpg', width: 1536, height: 1024 },
   illustration: '/assets/locations/master-of-puppets-commanders-office-illustration.png',

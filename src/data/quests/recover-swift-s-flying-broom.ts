@@ -16,6 +16,16 @@ export default createQuest({
   ],
   clues: [
     [
+      refs.events.n2_e208,
+      ': ',
+      refs.npcs.silas_wren,
+      ' offered help recovering the broom if ',
+      refs.pcs.swift_starblade,
+      ' joined ',
+      refs.organizations.the_eyeless_hand,
+      '. The offer is unanswered and the broom has not been recovered.',
+    ],
+    [
       refs.events.n2_e167,
       ' reveals the ritual requires the heart of an innocent. It has not been performed.',
     ],

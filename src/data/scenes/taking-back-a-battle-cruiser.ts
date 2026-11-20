@@ -146,11 +146,7 @@ export default createScene({
       lines: [
         {
           do: [
-            [
-              'Cleared in Session 18. The party took both bow sectors with ease: they killed six ',
-              refs.npcs.cloaked_snatcher,
-              's in the first and seven in the second.',
-            ],
+            ['Played in ', refs.events.n2_e222, '.'],
             [
               'If the party investigates the front compartments, they can find the passage to the lower deck.',
             ],
@@ -619,7 +615,7 @@ export default createScene({
       response: [
         [
           'The ship loses its lift and starts to fall. Everyone aboard has three rounds to reach an escape pod or ',
-          refs.items.beasts_and_dwarf_s_airship,
+          refs.items.little_purple,
           '. ',
           refs.items.ride_the_lightning,
           ' is lost, but ',
@@ -672,7 +668,7 @@ export default createScene({
     ],
     exits: [
       [
-        refs.items.beasts_and_dwarf_s_airship,
+        refs.items.little_purple,
         ' alongside, the escape pods in the sectors of ',
         refs.items.ride_the_lightning,
         ' that have them, or bringing the ship down by its crystal.',

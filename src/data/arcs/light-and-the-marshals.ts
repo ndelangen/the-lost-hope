@@ -56,6 +56,16 @@ export default createArc({
         ],
       ],
       npcs: [refs.npcs.light_13th_marshal],
+      events: [refs.events.n2_e217],
+      notes: [
+        [
+          'The farewell from ',
+          refs.pcs.jim,
+          ' warns the party not to trust ',
+          refs.npcs.light_13th_marshal,
+          '. It supplies no proof of the hidden plans in the DM background.',
+        ],
+      ],
     },
   ],
 })

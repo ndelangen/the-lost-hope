@@ -30,9 +30,8 @@ export default createItem({
       refs.organizations.the_eyeless_hand,
       '. It is the cruiser the party is asked to take back.',
     ],
-    ['It is experimental. A new, unique type of crystal makes it the fastest ship that exists.'],
     [
-      'Around that crystal, time runs much faster than in the rest of the world: a time warp. The closer to the crystal, the faster. Whoever spends time in the crystal room, even a ',
+      'The vessel draws its exceptional speed from a unique propulsion crystal. Around it, time runs much faster than in the rest of the world: a time warp. The closer to the crystal, the faster. Whoever spends time in the crystal room, even a ',
       refs.rules.long_rest,
       ', comes out to find that almost no time has passed outside.',
     ],

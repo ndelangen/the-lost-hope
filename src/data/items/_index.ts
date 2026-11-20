@@ -1,5 +1,4 @@
 import bag_of_holding from './bag-of-holding.ts'
-import beasts_and_dwarf_s_airship from './beasts-and-dwarf-s-airship.ts'
 import cassian_s_replacement_bag_of_holding from './cassian-s-replacement-bag-of-holding.ts'
 import cassian_s_treasure_chest from './cassian-s-treasure-chest.ts'
 import cloak_of_protection from './cloak-of-protection.ts'
@@ -19,6 +18,7 @@ import grimgor_s_skull_breaker from './grimgor-s-skull-breaker.ts'
 import jaded_amulet from './jaded-amulet.ts'
 import jim_s_kenku_suit from './jim-s-kenku-suit.ts'
 import lights_unidentified_drops from './lights-unidentified-drops.ts'
+import little_purple from './little-purple.ts'
 import long_rest_in_a_bottle from './long-rest-in-a-bottle.ts'
 import master_of_puppets from './master-of-puppets.ts'
 import mimic_cloak from './mimic-cloak.ts'
@@ -48,7 +48,7 @@ export default {
   mimic_cloak,
   cloak_of_protection,
   ring_of_spell_storing,
-  beasts_and_dwarf_s_airship,
+  little_purple,
   master_of_puppets,
   ride_the_lightning,
   long_rest_in_a_bottle,

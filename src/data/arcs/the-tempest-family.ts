@@ -5,7 +5,7 @@ export default createArc({
   name: 'The Tempest family',
   icon: 'gi/GiBoltEye',
   direction: [['Who rules Tempest, who owes them, and where does the party stand?']],
-  quests: [refs.quests.settle_the_shipwright_s_favors],
+  quests: [refs.quests.settle_the_shipwright_s_favors, refs.quests.recover_ride_the_lightning],
   plots: [
     {
       name: 'Summoned to Tempest',
@@ -51,16 +51,48 @@ export default createArc({
         ],
       ],
       scene: refs.scenes.chaos_on_the_sky_islands,
+      events: [refs.events.n2_e209, refs.events.n2_e212, refs.events.n2_e215],
+      notes: [
+        [
+          refs.pcs.devan,
+          ' and ',
+          refs.pcs.cassian_veyl,
+          ' crossed to ',
+          refs.locations.nimbus,
+          '; the party and the troops of ',
+          refs.npcs.captain_garran,
+          ' helped the residents. The fallen ferry passengers were not accounted for.',
+        ],
+      ],
     },
     {
       name: 'The crossing is shut',
       hook: [['The beam took a ferry, and the army is taking the other. How do they get across?']],
       scene: refs.scenes.the_clogged_ferry_landing,
+      events: [refs.events.n2_e212, refs.events.n2_e213],
+      notes: [
+        [
+          'The ferryman refused passage. ',
+          refs.pcs.auren,
+          ' arrived with ',
+          refs.items.little_purple,
+          ' and provided the crossing; the prepared military confrontation at the ferry was not played.',
+        ],
+      ],
     },
     {
       name: 'Taking the airship early',
-      hook: [['The airship is not finished, and nobody in the party can fly it.']],
+      hook: [[refs.items.little_purple, ' has been delivered and flown, but remains unfinished.']],
       scene: refs.scenes.the_ents_hold_the_shipyard,
+      events: [refs.events.n2_e213],
+      notes: [
+        [
+          refs.pcs.auren,
+          ' delivered ',
+          refs.items.little_purple,
+          ' before it was finished, with its crystal not fully charged. The party did not play through the prepared shipyard confrontation.',
+        ],
+      ],
     },
     {
       name: 'A shadow on the crossing',
@@ -70,11 +102,31 @@ export default createArc({
         ],
       ],
       scene: refs.scenes.running_from_the_battle_cruiser,
+      events: [refs.events.n2_e214],
+      notes: [
+        [
+          'The party cut the grappling hooks and reached ',
+          refs.locations.nimbus,
+          ' without being boarded. The cruiser followed them there.',
+        ],
+      ],
     },
     {
       name: 'Impounded',
       hook: [['', refs.npcs.onana_tempest, ' is seizing every vessel for the war, theirs too.']],
       scene: refs.scenes.boarded_by_the_battle_cruiser,
+      events: [refs.events.n2_e215, refs.events.n2_e219],
+      notes: [
+        [
+          'The party met ',
+          refs.npcs.captain_garran,
+          ' on the Nimbus docks, not through a completed boarding during the crossing. ',
+          refs.items.little_purple,
+          ' was subsequently held aboard ',
+          refs.items.master_of_puppets,
+          '.',
+        ],
+      ],
     },
     {
       name: 'Collecting the rest',
@@ -88,6 +140,16 @@ export default createArc({
         ],
       ],
       scene: refs.scenes.picking_up_swift_at_nimbus,
+      events: [refs.events.n2_e215],
+      notes: [
+        [
+          'The party reunited with ',
+          refs.pcs.swift_starblade,
+          ' at the Nimbus harbor and helped the civilians before reporting to ',
+          refs.npcs.onana_tempest,
+          '.',
+        ],
+      ],
     },
     {
       name: 'The Tempests go to war',
@@ -99,6 +161,14 @@ export default createArc({
       ],
       npcs: [refs.npcs.the_father],
       scene: refs.scenes.onana_calls_the_party_to_war,
+      events: [refs.events.n2_e219, refs.events.n2_e220],
+      notes: [
+        [
+          'The party accepted the recovery mission. The private interrogation answers are absent from the transcript. The promised return and repair of ',
+          refs.items.little_purple,
+          ' and any further reward remain outstanding.',
+        ],
+      ],
     },
     {
       name: 'Getting aboard',
@@ -110,6 +180,20 @@ export default createArc({
         ],
       ],
       scene: refs.scenes.boarding_ride_the_lightning,
+      events: [refs.events.n2_e221],
+      notes: [
+        [
+          'All four boarded by capsule. ',
+          refs.pcs.swift_starblade,
+          ', ',
+          refs.pcs.cassian_veyl,
+          ', and ',
+          refs.pcs.devan,
+          ' used one entry room; ',
+          refs.pcs.auren,
+          ' used the other.',
+        ],
+      ],
     },
     {
       name: 'A fleet at war with itself',
@@ -121,6 +205,12 @@ export default createArc({
         ],
       ],
       scene: refs.scenes.taking_back_a_battle_cruiser,
+      events: [refs.events.n2_e220, refs.events.n2_e222],
+      notes: [
+        [
+          'Only the initial boarding rooms have been cleared. The bridge, crystal, lower deck, and all remaining prepared encounters are unplayed. The transcript’s stern and middle-deck wording conflicts with the recorded bow placement; see QUESTIONS.md.',
+        ],
+      ],
     },
     {
       name: 'Whose cruiser now?',

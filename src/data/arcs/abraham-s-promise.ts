@@ -45,6 +45,17 @@ export default createArc({
         ],
       ],
       npcs: [refs.npcs.abraham],
+      events: [refs.events.n2_e212],
+      notes: [
+        [
+          refs.npcs.abraham,
+          ' wandered away on ',
+          refs.locations.skynet,
+          ' after the pulse. He did not board ',
+          refs.items.little_purple,
+          '; his exact whereabouts are unknown.',
+        ],
+      ],
     },
   ],
 })

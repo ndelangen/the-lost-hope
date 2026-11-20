@@ -1,4 +1,5 @@
 import type { IconType } from 'react-icons'
+import { FaUsersSlash } from 'react-icons/fa'
 import {
   GiBottledBolt,
   GiCage,
@@ -25,6 +26,7 @@ import {
 import { cn } from '#/lib/utils'
 
 export const EFFECT_ICONS = {
+  'fa/FaUsersSlash': FaUsersSlash,
   'gi/GiBottledBolt': GiBottledBolt,
   'gi/GiCage': GiCage,
   'gi/GiComa': GiComa,

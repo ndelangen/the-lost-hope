@@ -34,6 +34,12 @@ import {
 } from 'react-icons/fa'
 import {
   GiAncientRuins,
+  GiFigurehead,
+  GiSpyglass,
+  GiBoatPropeller,
+  GiAirBalloon,
+  GiHumanCannonball,
+  GiCruiser,
   GiAlienEgg,
   GiAllSeeingEye,
   GiAnvilImpact,
@@ -157,6 +163,13 @@ type LocationGlyph = ComponentType<{ className?: string; 'aria-hidden'?: boolean
  * `icon` field; unknown/omitted keys fall back to the placeholder.
  */
 export const LOCATION_ICONS: Record<string, LocationGlyph> = {
+  'gi/GiFigurehead': GiFigurehead,
+  'gi/GiSpyglass': GiSpyglass,
+  'gi/GiBoatPropeller': GiBoatPropeller,
+  'gi/GiAirBalloon': GiAirBalloon,
+  'gi/GiHumanCannonball': GiHumanCannonball,
+  'gi/GiCruiser': GiCruiser,
+
   'gi/GiOasis': GiOasis,
   'fa/FaHorseHead': FaHorseHead,
   'gi/GiAnvil': GiAnvil,

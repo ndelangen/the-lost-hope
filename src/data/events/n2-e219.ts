@@ -1,0 +1,46 @@
+import { refs } from '#/data/generated/refs.ts'
+import { create as createEvent } from '#/definitions/event.ts'
+
+export default createEvent({
+  name: 'Onana questions the party aboard Master of Puppets',
+  day: 24,
+  location: refs.locations.master_of_puppets_commanders_office,
+  mark: { type: 'icon', name: 'gi/GiScales' },
+  notes: [
+    [
+      refs.npcs.captain_garran,
+      ' insisted that ',
+      refs.organizations.beasts_and_dwarf,
+      ' come to ',
+      refs.npcs.onana_tempest,
+      '. ',
+      refs.pcs.auren,
+      ' accompanied ',
+      refs.pcs.swift_starblade,
+      ', ',
+      refs.pcs.cassian_veyl,
+      ', and ',
+      refs.pcs.devan,
+      ' aboard ',
+      refs.items.master_of_puppets,
+      ', where ',
+      refs.items.little_purple,
+      ' was held.',
+    ],
+    [
+      'In his office, ',
+      refs.npcs.onana_tempest,
+      ' used Zone of Truth and attempted to read their thoughts. He asked whether they worked with ',
+      refs.organizations.the_eyeless_hand,
+      ' and whether they were under the influence of Arcane Dust. The private written answers were not captured in the recording.',
+    ],
+    [
+      refs.pcs.swift_starblade,
+      ' told ',
+      refs.npcs.onana_tempest,
+      ' about the recruitment offer and said he was still considering it. ',
+      refs.npcs.onana_tempest,
+      ' warned him not to accept.',
+    ],
+  ],
+})

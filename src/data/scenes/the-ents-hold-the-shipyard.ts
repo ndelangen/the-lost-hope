@@ -5,7 +5,7 @@ export default createScene({
   name: 'The ents hold the shipyard',
   illustrations: ['/assets/scenes/the-ents-hold-the-shipyard.png'],
   location: refs.locations.skynet_airship_shipyard,
-  battleMaps: [refs.locations.beasts_and_dwarf_s_airship_decks],
+  battleMaps: [refs.locations.little_purple_decks],
   npcs: [refs.npcs.esia, refs.npcs.hollin_slowbough, refs.npcs.shipyard_ent],
   setup: [
     [
@@ -66,7 +66,7 @@ export default createScene({
           do: [
             [
               'On the slip sits ',
-              refs.items.beasts_and_dwarf_s_airship,
+              refs.items.little_purple,
               ', nearly finished. The crystal is not fully charged and the cannons are not installed.',
             ],
             [

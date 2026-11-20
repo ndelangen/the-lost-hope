@@ -11,7 +11,7 @@ export default createEvent({
       'At the shipyard, ',
       refs.npcs.esia,
       ' helped the party choose the design of ',
-      refs.items.beasts_and_dwarf_s_airship,
+      refs.items.little_purple,
       '. They chose crystal power over coal and requested a mast, discussing a place for the ',
       refs.items.obsidian_green_rod,
       ' at its highest point. Installation of the rod was not recorded.',
@@ -22,7 +22,7 @@ export default createEvent({
   ],
   foretold: [
     {
-      what: [[refs.items.beasts_and_dwarf_s_airship, ' is finished.']],
+      what: [[refs.items.little_purple, ' is finished.']],
       when: { type: 'within', span: { days: 3 } },
     },
   ],

@@ -27,18 +27,20 @@ export default createArc({
     {
       name: 'A pilot for the flying ship',
       hook: [
-        [
-          '',
-          refs.pcs.auren,
-          ' already works for ',
-          refs.npcs.esia,
-          '. Let him come with ',
-          refs.items.beasts_and_dwarf_s_airship,
-          ' when she hands it over, so he has a job aboard for the whole journey.',
-        ],
+        [refs.pcs.auren, ' has joined the party’s expedition. What help does he want from them?'],
       ],
       npcs: [refs.npcs.esia],
-      events: [refs.events.n2_e179],
+      events: [refs.events.n2_e179, refs.events.n2_e213, refs.events.n2_e214, refs.events.n2_e218],
+      notes: [
+        [
+          refs.pcs.auren,
+          ' delivered and piloted ',
+          refs.items.little_purple,
+          ', joined the expedition, and said he had followed stolen Hand records to ',
+          refs.pcs.jim,
+          '. His unrevealed backstory remains private.',
+        ],
+      ],
     },
     {
       name: 'The marks on his plating',

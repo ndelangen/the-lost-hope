@@ -34,9 +34,11 @@ describe('EntityContext', () => {
     expect(
       screen.getAllByRole('heading', { level: 4 }).map((heading) => heading.textContent),
     ).toEqual([
+      'Onana sends the party to recover Ride the Lightning',
+      'Auren delivers Little Purple and carries the party to Nimbus',
       'The shipwright describes grievances against the Tempests',
       'The party commissions an airship for gold and two favors',
     ])
-    expect(screen.getAllByText('Linked event')).toHaveLength(2)
+    expect(screen.getAllByText('Linked event')).toHaveLength(4)
   })
 })

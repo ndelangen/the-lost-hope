@@ -12,11 +12,13 @@ import the_fiddlers_game from './the-fiddlers-game.ts'
 import the_first_dungeon from './the-first-dungeon.ts'
 import the_flying_bazaar from './the-flying-bazaar.ts'
 import the_ghost_and_the_gambler from './the-ghost-and-the-gambler.ts'
+import the_pulse_and_the_boarding from './the-pulse-and-the-boarding.ts'
 import the_serpent_lake from './the-serpent-lake.ts'
 import the_tempest_bargain from './the-tempest-bargain.ts'
 import verdant_haven_to_shadowpeak from './verdant-haven-to-shadowpeak.ts'
 
 export default {
+  the_pulse_and_the_boarding,
   the_ghost_and_the_gambler,
   the_tempest_bargain,
 

@@ -5,7 +5,7 @@ export default createItem({
   name: 'Nimbus Dungeon Stamp Card',
   icon: 'gi/GiPassport',
   currentOwner: refs.organizations.beasts_and_dwarf,
-  carriedBy: refs.pcs.jim,
+  carriedBy: null,
   craftedBy: null,
   quantity: 1,
   notes: [

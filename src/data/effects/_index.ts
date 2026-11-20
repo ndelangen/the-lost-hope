@@ -4,6 +4,7 @@ import cage from './cage.ts'
 import cassian_s_unidentified_curse from './cassian-s-unidentified-curse.ts'
 import donjon from './donjon.ts'
 import excruciating_pain from './excruciating-pain.ts'
+import fix_s_severed_bond_with_jim from './fix-s-severed-bond-with-jim.ts'
 import flight from './flight.ts'
 import guardian from './guardian.ts'
 import hunger from './hunger.ts'
@@ -11,6 +12,7 @@ import mask from './mask.ts'
 import protection_against_death from './protection-against-death.ts'
 import rogue from './rogue.ts'
 import sealed_attunement_slot from './sealed-attunement-slot.ts'
+import severed_bond_with_jim from './severed-bond-with-jim.ts'
 import something_missing_or_dormant from './something-missing-or-dormant.ts'
 import storm from './storm.ts'
 import vessel from './vessel.ts'
@@ -20,6 +22,8 @@ import whip_taught_understanding from './whip-taught-understanding.ts'
 import whispers from './whispers.ts'
 
 export default {
+  fix_s_severed_bond_with_jim,
+  severed_bond_with_jim,
   blight,
   bob_s_divine_contract,
   cage,

@@ -5,7 +5,7 @@ export default createItem({
   name: 'Roberto’s Map Pages',
   icon: 'fa/FaAtlas',
   currentOwner: refs.pcs.jim,
-  carriedBy: refs.pcs.jim,
+  carriedBy: refs.pcs.swift_starblade,
   craftedBy: null,
   notes: [
     [

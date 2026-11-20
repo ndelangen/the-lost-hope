@@ -8,6 +8,14 @@ export default createQuest({
   notes: [['Who is Light, and what is his bidding?']],
   status: 'open',
   clues: [
+    [
+      refs.events.n2_e217,
+      ': the decoded farewell from ',
+      refs.pcs.jim,
+      ' warns that ',
+      refs.npcs.light_13th_marshal,
+      ' knows more than he tells the party. What he means remains unknown.',
+    ],
     [refs.npcs.light_13th_marshal, ' invited all three of us personally, with a letter.'],
     [
       refs.npcs.light_13th_marshal,

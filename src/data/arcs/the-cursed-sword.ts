@@ -45,6 +45,17 @@ export default createArc({
     {
       name: 'What the sword still holds',
       hook: [['The sword was cleansed, not destroyed. What wakes in it next?']],
+      events: [refs.events.n2_e211],
+      notes: [
+        [
+          refs.pcs.swift_starblade,
+          ' took the uncursed ',
+          refs.items.shadow_sword,
+          ' after ',
+          refs.pcs.jim,
+          ' disappeared. Its existing properties were not changed in this session.',
+        ],
+      ],
     },
   ],
 })

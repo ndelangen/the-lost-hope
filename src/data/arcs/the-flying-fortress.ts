@@ -19,7 +19,22 @@ export default createArc({
     },
     {
       name: 'Reaching the fortress',
-      hook: [['', refs.pcs.jim, ' cannot cross by ferry while he looks like a ghost.']],
+      hook: [
+        [
+          refs.pcs.jim,
+          ' has disappeared and the others now have ',
+          refs.items.little_purple,
+          '. Can they reach the flying fortress?',
+        ],
+      ],
+      events: [refs.events.n2_e206, refs.events.n2_e209, refs.events.n2_e210],
+      notes: [
+        [
+          'The party did not reach the fortress. The beams were visibly fired from it, but their purpose and the destination of ',
+          refs.pcs.jim,
+          ' remain unknown to the party.',
+        ],
+      ],
     },
     {
       name: 'Jim aboard the fortress',
@@ -33,6 +48,14 @@ export default createArc({
         ],
       ],
       npcs: [refs.npcs.the_father],
+      events: [refs.events.n2_e207, refs.events.n2_e210],
+      notes: [
+        [
+          'Session 18 establishes the pulse and disappearance, not the captor, destination, or survival of ',
+          refs.pcs.jim,
+          '. Keep the prepared explanation private until play reveals it.',
+        ],
+      ],
     },
   ],
 })
