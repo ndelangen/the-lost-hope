@@ -30,8 +30,10 @@ export default createItem({
     ['While attuned, delivering the killing blow embeds the slain creature’s soul into the blade.'],
     [
       'The sword hoards souls as collectables and does not want to release them, which is why it holds so many. It punishes the wielder for giving any up. Deliberately drawing souls out costs the wielder ',
-      refs.rules.hit_points,
-      ', and the cost grows each time it is done in a row, so emptying it is wildly impractical.',
+      { dice: '1d6', type: refs.rules.necrotic },
+      ' damage for the first soul, 2d6 for the next, and 1d6 more for each soul after that, until a ',
+      refs.rules.long_rest,
+      ' resets the cost. The high cost is why the blade is so full: emptying it is wildly impractical.',
     ],
     [
       'Striking ',
