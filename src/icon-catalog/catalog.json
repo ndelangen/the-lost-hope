@@ -118542,7 +118542,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/crane.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/tempest-secret-shipyard.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiCreditsCurrency",
@@ -209350,7 +209353,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/screaming.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/screaming-for-vengeance.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiScreenImpact",

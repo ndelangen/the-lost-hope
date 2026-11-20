@@ -96,6 +96,7 @@ import stables_at_skynet_s_second_best_inn from './stables-at-skynet-s-second-be
 import stefanio_s_magic_shop from './stefanio-s-magic-shop.ts'
 import swift_s_room_at_skynet_s_second_best_inn from './swift-s-room-at-skynet-s-second-best-inn.ts'
 import sylvia_s_quarters from './sylvia-s-quarters.ts'
+import tempest_secret_shipyard from './tempest-secret-shipyard.ts'
 import tempest_sky_bridge_landing from './tempest-sky-bridge-landing.ts'
 import tempest from './tempest.ts'
 import temple_of_the_serpent_eclipse from './temple-of-the-serpent-eclipse.ts'
@@ -223,6 +224,7 @@ export default {
   sylvia_s_quarters,
   tempest,
   tempest_sky_bridge_landing,
+  tempest_secret_shipyard,
   onana_tempest_s_estate,
   three_sky_kingdoms,
   temple_of_the_serpent_eclipse,

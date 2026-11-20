@@ -44,6 +44,7 @@ import rare_dragon_scales from './rare-dragon-scales.ts'
 import ride_the_lightning from './ride-the-lightning.ts'
 import ring_of_spell_storing from './ring-of-spell-storing.ts'
 import robertos_map_pages from './robertos-map-pages.ts'
+import screaming_for_vengeance from './screaming-for-vengeance.ts'
 import seek_and_destroy from './seek-and-destroy.ts'
 import serpent_eclipse_trial_disk from './serpent-eclipse-trial-disk.ts'
 import shadow_sword from './shadow-sword.ts'
@@ -87,6 +88,7 @@ export default {
   origin_of_symmetry,
   will_of_the_people,
   heaven_and_hell,
+  screaming_for_vengeance,
   long_rest_in_a_bottle,
 
   devan_s_wandering_priest_robe,

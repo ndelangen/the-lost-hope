@@ -57,6 +57,7 @@ import {
   GiYinYang,
   GiPublicSpeaker,
   GiHeavenGate,
+  GiScreaming,
 } from 'react-icons/gi'
 
 import { cn } from '#/lib/utils'
@@ -92,6 +93,7 @@ export const ITEM_ICONS = {
   'gi/GiYinYang': GiYinYang,
   'gi/GiPublicSpeaker': GiPublicSpeaker,
   'gi/GiHeavenGate': GiHeavenGate,
+  'gi/GiScreaming': GiScreaming,
   'gi/GiBroadDagger': GiBroadDagger,
   'gi/GiCrystalWand': GiCrystalWand,
   'gi/GiMagicAxe': GiMagicAxe,
