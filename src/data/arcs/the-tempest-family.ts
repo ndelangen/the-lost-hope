@@ -208,7 +208,7 @@ export default createArc({
       events: [refs.events.n2_e220, refs.events.n2_e222],
       notes: [
         [
-          'Only the initial boarding rooms have been cleared. The bridge, crystal, lower deck, and all remaining prepared encounters are unplayed. The transcript’s stern and middle-deck wording conflicts with the recorded bow placement; see QUESTIONS.md.',
+          'Only the initial boarding rooms have been cleared. The bridge, crystal, lower deck, and all remaining prepared encounters are unplayed. The DM confirmed both bow rooms on the main deck were cleared.',
         ],
       ],
     },

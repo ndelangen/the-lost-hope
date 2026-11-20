@@ -26,7 +26,7 @@ export default createEvent({
     ],
     [
       refs.pcs.swift_starblade,
-      ' chose one entry compartment. ',
+      ' chose one of the two bow compartments. ',
       refs.pcs.cassian_veyl,
       ' followed into the same room, while ',
       refs.pcs.auren,

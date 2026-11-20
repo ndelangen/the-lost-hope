@@ -15,7 +15,7 @@ export default createEvent({
       refs.pcs.auren,
       ', and ',
       refs.pcs.devan,
-      ' fought through the two boarding compartments of ',
+      ' fought through the two bow compartments of ',
       refs.items.ride_the_lightning,
       '. ',
       refs.pcs.devan,

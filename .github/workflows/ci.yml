@@ -83,7 +83,7 @@ jobs:
           retention-days: 14
 
       - name: Build
-        run: bunx vite build
+        run: bunx vite build && bun scripts/configure-netlify-server.ts
 
       - name: Delivery footprint audit
         run: bun run audit:delivery

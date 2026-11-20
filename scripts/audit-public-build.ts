@@ -31,6 +31,14 @@ function pageOutputPath(path: string): string {
 }
 
 async function audit(): Promise<void> {
+  const handler = await readFile(
+    join(OUTPUT_DIRECTORY, '../../.netlify/v1/functions/server.mjs'),
+    'utf8',
+  )
+  assert(
+    handler.includes('excludedPath: "/api/corrections/submit"'),
+    'The SSR catch-all must leave the correction endpoint to its own function',
+  )
   const errors = validatePublicPageDescriptors()
   assert(errors.length === 0, errors.join('\n'))
   assert(PUBLIC_PAGE_DESCRIPTORS.length === 553, 'The public-page contract must contain 553 pages')
