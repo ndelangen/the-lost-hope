@@ -271,9 +271,7 @@ export default createScene({
             '.',
           ],
           [
-            'Cutting one soldier loose takes an action, and they stay ',
-            refs.rules.unconscious,
-            ' until someone heals them: any healing, such as a Potion of Healing or Lay on Hands, gets one up with that many hit points. Roll initiative once for all who are up.',
+            'Cutting one soldier loose takes an action. They are too exhausted to fight until someone heals them: any healing, such as a Potion of Healing or Lay on Hands, gets one up with that many hit points. Roll initiative once for all who are up.',
           ],
         ],
       },
@@ -284,15 +282,34 @@ export default createScene({
             [
               'The Barracks are guarded. The ',
               refs.npcs.tempest_soldier,
-              's lie on the floor among the bunks, tied up and ',
+              's lie on the floor among the bunks, tied up. They look ',
               refs.rules.unconscious,
-              ', and they clearly look it: nobody would take them for dead. They wear the uniform of the ',
+              ', not dead, and they wear the uniform of the ',
               refs.organizations.tempest_family,
               ', so the party can work out that they are likely allies.',
             ],
             [
-              'Freeing them costs the party something: each soldier needs healing before they can fight, so it is the party’s own potions or Lay on Hands that get them up. The party may decide not to bother, and that is fine. Bring the ones they wake into the encounter then.',
+              'Whoever investigates sees them breathing. Spoken to, they stir and say they are too exhausted to fight. That is the lure: it tempts the party to spend potions or other resources on them.',
             ],
+            [
+              'If the party walks past, the soldiers stay where they are. No punishment, only a missed reward.',
+            ],
+          ],
+        },
+        {
+          note: [
+            ['What a woken soldier gives back:'],
+            [
+              'In the fight: they fight alongside the party, soak hits meant for them, and draw spells such as Hold Person away from them. Bring the ones they wake into the encounter.',
+            ],
+            [
+              'What they know: the way to the bridge, ',
+              refs.npcs.korrag_stonevow,
+              '’s habits, and that ',
+              refs.npcs.silas_wren,
+              ' keeps a window at the bridge as his way out.',
+            ],
+            [refs.npcs.captain_garran, ' hears who saved his crew.'],
           ],
         },
         {
