@@ -13,6 +13,8 @@ export default createScene({
     refs.npcs.ilsa_corrow,
     refs.npcs.silas_wren,
     refs.npcs.korrag_stonevow,
+    refs.npcs.durgan_ashfang,
+    refs.npcs.hand_breaker,
     refs.npcs.dust_lost_sailor,
     refs.npcs.cloaked_snatcher,
     refs.npcs.tempest_soldier,
@@ -78,9 +80,13 @@ export default createScene({
               ': they are drugged up, and less emotionally invested.',
             ],
             [
-              'The curve is deliberate. The bow and the batteries are easy slaughters: let the players enjoy them, and describe every kill big. The tension starts at ',
+              'The curve is deliberate. The bow and the batteries are easy slaughters: let the players enjoy them, and describe every kill big. After that every room hits hard: the ',
+              refs.npcs.hand_breaker,
+              's and ',
               refs.npcs.korrag_stonevow,
-              ' and peaks at the Helm.',
+              ' are there to drop ',
+              refs.pcs.devan,
+              ' at least once before the bridge, so that he and the party arrive there worn down.',
             ],
             [
               'This is meant to be a High-difficulty fight, close to deadly. ',
@@ -173,6 +179,45 @@ export default createScene({
       ],
     },
     {
+      title: 'The next door',
+      fight: {
+        opponents: [
+          { creature: refs.npcs.hand_breaker, count: 2 },
+          { creature: refs.npcs.cloaked_snatcher, count: 2 },
+        ],
+        tactics: [
+          [
+            'Both ',
+            refs.npcs.hand_breaker,
+            's go for ',
+            refs.pcs.devan,
+            ': one bashes him ',
+            refs.rules.prone,
+            ', the other hits him with ',
+            refs.rules.advantage,
+            '. They knock him out rather than kill him. The ',
+            refs.npcs.cloaked_snatcher,
+            's keep ',
+            refs.pcs.swift_starblade,
+            ' and ',
+            refs.pcs.cassian_veyl,
+            ' busy, and drag one of them through a door if they can.',
+          ],
+        ],
+      },
+      lines: [
+        {
+          do: [
+            [
+              'The first room they open after the batteries, on whichever side. The ',
+              refs.npcs.hand_breaker,
+              's were waiting for them: this is where the ship stops being easy.',
+            ],
+          ],
+        },
+      ],
+    },
+    {
       title: 'The lower deck',
       fight: {
         where: [{ deck: refs.locations.ride_the_lightning_gun_deck }],
@@ -211,8 +256,19 @@ export default createScene({
       title: 'The Barracks',
       fight: {
         where: [{ deck: refs.locations.ride_the_lightning_main_deck, slice: 3, side: 'port' }],
+        opponents: [
+          { creature: refs.npcs.hand_breaker, count: 1 },
+          { creature: refs.npcs.cloaked_snatcher, count: 2 },
+        ],
         allies: [{ creature: refs.npcs.tempest_soldier, count: 4 }],
         tactics: [
+          [
+            'The guards stand between the party and the prisoners. The ',
+            refs.npcs.hand_breaker,
+            ' goes for ',
+            refs.pcs.devan,
+            '.',
+          ],
           ['Cutting one soldier loose takes an action. Roll initiative once for all of them.'],
         ],
       },
@@ -223,7 +279,7 @@ export default createScene({
             [
               'In the Barracks the party finds ',
               refs.npcs.tempest_soldier,
-              's, tied up. There are no enemies in here. If the party releases them, they help in the fight. Bring them into the encounter then.',
+              's, tied up, and guards watching them. If the party releases the soldiers, they help in the fight. Bring them into the encounter then.',
             ],
           ],
         },
@@ -243,12 +299,36 @@ export default createScene({
     {
       title: 'Korrag, just before the bridge',
       fight: {
-        opponents: [{ creature: refs.npcs.korrag_stonevow, count: 1 }],
+        opponents: [
+          { creature: refs.npcs.korrag_stonevow, count: 1 },
+          { creature: refs.npcs.durgan_ashfang, count: 1 },
+          { creature: refs.npcs.cloaked_snatcher, count: 2 },
+        ],
         tactics: [
           [
-            'He fights as ',
+            refs.npcs.korrag_stonevow,
+            ' opens with Conquering Presence, then casts Hold Person on ',
+            refs.pcs.devan,
+            '. While ',
+            refs.pcs.devan,
+            ' is held, ',
+            refs.npcs.durgan_ashfang,
+            ' and ',
+            refs.npcs.korrag_stonevow,
+            ' hit him from 5 ft., where every hit is a critical hit. A held creature cannot drink a potion: his friends have to break it.',
+          ],
+          [
+            refs.npcs.durgan_ashfang,
+            ' fights as ',
             refs.pcs.devan,
             ' would: shield up, smiting, covering any ally beside him.',
+          ],
+          [
+            'Your dial: if ',
+            refs.pcs.devan,
+            ' already went down and drank his bottle in an earlier room, leave ',
+            refs.npcs.durgan_ashfang,
+            ' out.',
           ],
         ],
       },
@@ -257,15 +337,24 @@ export default createScene({
           do: [
             [
               refs.npcs.korrag_stonevow,
-              ' is not tied to a room. He meets the party wherever they are, just before they enter the bridge. For example, he comes down the stairs as they want to go up. He is alone, and this is where it gets tense.',
+              ' is not tied to a room. He meets the party wherever they are, just before they enter the bridge. For example, he comes down the stairs as they want to go up.',
             ],
           ],
         },
-        { do: [['When ', refs.pcs.devan, ' first sees ', refs.npcs.korrag_stonevow, ', read:']] },
+        { do: [['When ', refs.pcs.devan, ' first sees them, read:']] },
         {
           say: [
             [
-              'The orc at the Finger’s side wears a shield you painted yourself, a lifetime ago. Korrag. Your best mate in the old squad. His eyes are veined with grey, and they pass over you like you are a stranger.',
+              'The orc coming down the stairs is Korrag, your old commander, the one who taught you to fight. Behind him walks Durgan, your best mate in the old squad. Durgan’s eyes are veined with grey, and they pass over you like you are a stranger. Korrag’s do not. He knows you.',
+            ],
+          ],
+        },
+        { speaker: refs.npcs.korrag_stonevow, say: [['Stand down, soldier.']] },
+        {
+          do: [
+            [
+              refs.npcs.korrag_stonevow,
+              ' is sober and can talk. What drives him is in his motivations.',
             ],
           ],
         },
@@ -273,13 +362,13 @@ export default createScene({
           do: [
             [
               'Reaching ',
-              refs.npcs.korrag_stonevow,
+              refs.npcs.durgan_ashfang,
               ': on his turn, ',
               refs.pcs.devan,
               ' can spend his action on a shared memory, an old squad call, or his name. Roll ',
               refs.rules.persuasion,
               ', DC 15. Each success breaks through for a moment: ',
-              refs.npcs.korrag_stonevow,
+              refs.npcs.durgan_ashfang,
               ' loses his next turn. After three successes he remembers. Other characters can help with a good line, which gives ',
               refs.pcs.devan,
               ' ',
@@ -291,18 +380,18 @@ export default createScene({
       ],
       outcomes: [
         {
-          when: [[refs.pcs.devan, ' reaches ', refs.npcs.korrag_stonevow, '.']],
+          when: [[refs.pcs.devan, ' reaches ', refs.npcs.durgan_ashfang, '.']],
           response: [
             [
-              refs.npcs.korrag_stonevow,
+              refs.npcs.durgan_ashfang,
               ' remembers, in pieces. He drops his warhammer, or turns it on ',
-              refs.npcs.ilsa_corrow,
+              refs.npcs.korrag_stonevow,
               '. He still craves the dust, and he will need help.',
             ],
           ],
         },
         {
-          when: [['They kill ', refs.npcs.korrag_stonevow, '.']],
+          when: [['They kill ', refs.npcs.durgan_ashfang, '.']],
           response: [
             [
               'As he falls, the grey leaves his eyes for one breath, and he says ',
@@ -390,7 +479,15 @@ export default createScene({
             refs.npcs.silas_wren,
             ' takes people out of the fight without blood: Hold Person on whoever hits hardest, and his blade knocks out instead of killing. He keeps ',
             refs.npcs.ilsa_corrow,
-            ' on her feet with Healing Word. Spirit Guardians is your dial: leave it out unless the bridge is going too easily.',
+            ' on her feet with Healing Word. He has Spirit Guardians up by the time the party reaches the stairs.',
+          ],
+          [
+            refs.npcs.ilsa_corrow,
+            ' keeps Shield for a hit that would hurt, Counterspell for a heal or a big spell, and Misty Step to get away from melee.',
+          ],
+          [
+            refs.npcs.silas_wren,
+            ' leaving is your dial: once the fight starts to turn against them, he turns himself invisible with his Invisibility spell and bails.',
           ],
         ],
       },
@@ -418,7 +515,7 @@ export default createScene({
           do: [
             [
               refs.npcs.silas_wren,
-              ' does not stay to the end. He bails before he gets too far down, or when he is the only one of them left: he jumps out of a window. As he leaves, he says to ',
+              ' does not stay to the end. He bails the moment he thinks they might lose: not too early, but always before he is in serious danger of dying. He jumps out of a window. As he leaves, he says to ',
               refs.npcs.ilsa_corrow,
               ':',
             ],

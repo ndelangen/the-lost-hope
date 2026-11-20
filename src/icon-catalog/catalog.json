@@ -99984,6 +99984,7 @@
         "src/data/npcs/captain-garran.ts",
         "src/data/npcs/faceless-shadow.ts",
         "src/data/npcs/giggles.ts",
+        "src/data/npcs/hand-breaker.ts",
         "src/data/npcs/lord-malachar.ts",
         "src/data/npcs/ryan.ts",
         "src/data/npcs/sergeant-bruna-kell.ts",
@@ -140530,6 +140531,7 @@
       "usedIn": [
         "src/data/npcs/cloaked-snatcher.ts",
         "src/data/npcs/gruumsh-high-priest.ts",
+        "src/data/npcs/hand-breaker.ts",
         "src/data/npcs/knukkles.ts",
         "src/data/npcs/skynet-gang-leader.ts",
         "src/data/npcs/the-mountain.ts",
@@ -140802,6 +140804,7 @@
         "src/data/beasts/phoenix-chick.ts",
         "src/data/creatures/mage.ts",
         "src/data/npcs/bob-the-merchant.ts",
+        "src/data/npcs/ilsa-corrow.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -141470,6 +141473,7 @@
         "src/data/creatures/tough.ts",
         "src/data/npcs/cloaked-snatcher.ts",
         "src/data/npcs/gruumsh-high-priest.ts",
+        "src/data/npcs/hand-breaker.ts",
         "src/data/npcs/misha.ts",
         "src/lib/ability-icons.tsx"
       ]
@@ -154560,6 +154564,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/healing.html",
       "usedIn": [
         "src/data/npcs/captain-garran.ts",
+        "src/data/npcs/durgan-ashfang.ts",
         "src/data/npcs/korrag-stonevow.ts",
         "src/data/npcs/misha.ts",
         "src/data/npcs/silas-wren.ts",
@@ -160854,6 +160859,7 @@
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/ice-bolt.html",
       "usedIn": [
+        "src/data/npcs/ilsa-corrow.ts",
         "src/data/npcs/the-12th-marshal.ts",
         "src/lib/ability-icons.tsx"
       ]
@@ -166633,6 +166639,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/kneeling.html",
       "usedIn": [
+        "src/data/npcs/durgan-ashfang.ts",
         "src/data/npcs/korrag-stonevow.ts",
         "src/data/npcs/silas-wren.ts",
         "src/lib/ability-icons.tsx"
@@ -166834,6 +166841,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/knight-banner.html",
       "usedIn": [
         "src/data/npcs/captain-garran.ts",
+        "src/data/npcs/korrag-stonevow.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -174934,6 +174942,7 @@
         "src/data/locations/stefanio-s-magic-shop.ts",
         "src/data/npcs/bob-the-merchant.ts",
         "src/data/npcs/hex.ts",
+        "src/data/npcs/ilsa-corrow.ts",
         "src/data/npcs/sarogarth.ts",
         "src/lib/ability-icons.tsx",
         "src/lib/location-icons.tsx"
@@ -198079,11 +198088,14 @@
         "src/data/npcs/borris.ts",
         "src/data/npcs/captain-garran.ts",
         "src/data/npcs/dragon-of-the-mountain.ts",
+        "src/data/npcs/durgan-ashfang.ts",
         "src/data/npcs/faceless-shadow.ts",
         "src/data/npcs/giggles.ts",
         "src/data/npcs/grimgor-the-bloody.ts",
         "src/data/npcs/gruumsh-high-priest.ts",
+        "src/data/npcs/hand-breaker.ts",
         "src/data/npcs/hex.ts",
+        "src/data/npcs/ilsa-corrow.ts",
         "src/data/npcs/knukkles.ts",
         "src/data/npcs/korrag-stonevow.ts",
         "src/data/npcs/light-13th-marshal.ts",
@@ -211125,6 +211137,7 @@
         "src/data/events/n2-e078.ts",
         "src/data/events/n2-e127.ts",
         "src/data/locations/serpent-eclipse-shadow-arena.ts",
+        "src/data/npcs/durgan-ashfang.ts",
         "src/data/npcs/korrag-stonevow.ts",
         "src/data/npcs/silas-wren.ts",
         "src/lib/ability-icons.tsx",
@@ -214390,6 +214403,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/silence.html",
       "usedIn": [
         "src/components/dm/ability-quick-list.test.tsx",
+        "src/data/npcs/ilsa-corrow.ts",
         "src/data/npcs/onana-tempest.ts",
         "src/lib/ability-icons.tsx",
         "src/lib/ability-index.test.ts"
@@ -218906,6 +218920,7 @@
         "src/data/creatures/pirate-captain.ts",
         "src/data/npcs/barbara.ts",
         "src/data/npcs/dust-lost-sailor.ts",
+        "src/data/npcs/korrag-stonevow.ts",
         "src/data/npcs/lord-malachar.ts",
         "src/data/npcs/ryan.ts",
         "src/data/npcs/the-mountain.ts",
@@ -221342,6 +221357,7 @@
       "classification": "useful",
       "classificationReason": "Manually classified as useful from the /_icons review page.",
       "usedIn": [
+        "src/data/npcs/korrag-stonevow.ts",
         "src/data/npcs/silas-wren.ts",
         "src/lib/ability-icons.tsx"
       ]
@@ -233574,6 +233590,7 @@
       "usedIn": [
         "src/data/npcs/bob-the-merchant.ts",
         "src/data/npcs/giggles.ts",
+        "src/data/npcs/ilsa-corrow.ts",
         "src/data/npcs/onana-tempest.ts",
         "src/data/npcs/sarogarth.ts",
         "src/lib/ability-icons.tsx"
@@ -246931,6 +246948,7 @@
         "src/data/npcs/anton-tempest.ts",
         "src/data/npcs/bessy.ts",
         "src/data/npcs/borris.ts",
+        "src/data/npcs/durgan-ashfang.ts",
         "src/data/npcs/korrag-stonevow.ts",
         "src/data/rules/damage-types.ts",
         "src/lib/ability-icons.tsx",

@@ -23,6 +23,7 @@ import corwin_hale from './corwin-hale.ts'
 import crowy from './crowy.ts'
 import dax from './dax.ts'
 import dragon_of_the_mountain from './dragon-of-the-mountain.ts'
+import durgan_ashfang from './durgan-ashfang.ts'
 import dust_lost_sailor from './dust-lost-sailor.ts'
 import esia from './esia.ts'
 import faceless_shadow from './faceless-shadow.ts'
@@ -32,6 +33,7 @@ import goblin_grass_keepers from './goblin-grass-keepers.ts'
 import gridswald from './gridswald.ts'
 import grimgor_the_bloody from './grimgor-the-bloody.ts'
 import gruumsh_high_priest from './gruumsh-high-priest.ts'
+import hand_breaker from './hand-breaker.ts'
 import hex from './hex.ts'
 import hollin_slowbough from './hollin-slowbough.ts'
 import ilsa_corrow from './ilsa-corrow.ts'
@@ -96,6 +98,7 @@ export default {
   cloaked_snatcher,
   ilsa_corrow,
   korrag_stonevow,
+  durgan_ashfang,
   dust_lost_sailor,
   celeste_tempest,
   brend_tempest,
@@ -134,6 +137,7 @@ export default {
   goblin_grass_keepers,
   gridswald,
   gruumsh_high_priest,
+  hand_breaker,
   hex,
   knukkles,
   lord_malachar,
