@@ -47,6 +47,8 @@ const FORTRESS_START: Vec = { x: -60, y: -40 }
 const COURSE: Vec = unit({ x: -0.414, y: -1 })
 /** How wide the fortress glyph is drawn, in map pixels. */
 const FORTRESS_SIZE = 230
+/** How long a fired-across portrait takes to fade in on the ship it lands on, in battle seconds. */
+const PORTRAIT_FADE = 0.6
 const ISLAND_LABELS = [
   refs.locations.nimbus,
   refs.locations.skynet,
@@ -776,9 +778,9 @@ function drawMarkers(
   const radius = Math.max(12, 15 * view.scale * 1.6)
   const hostAt = (key: string) => pointOf(plan, key, time)
   // Each portrait sits on a ship, or is on its way: boarding the flagship, or fired across.
-  const aboard = new Map<string, string[]>()
+  const aboard = new Map<string, { avatar: string; alpha: number }[]>()
   const boarding: { avatar: string; at: Vec }[] = []
-  const shots: { avatar: string; at: Vec; trail: Vec[] }[] = []
+  const shots: { at: Vec; trail: Vec[] }[] = []
   for (const ship of plan.ships) {
     for (const marker of ship.markers) {
       for (const avatar of marker.avatars) {
@@ -797,7 +799,6 @@ function drawMarkers(
             )
           if (moving.kind === 'shot') {
             shots.push({
-              avatar,
               at: path(progress),
               trail: [0.04, 0.08, 0.12, 0.16, 0.2].map((lag) => path(Math.max(0, progress - lag))),
             })
@@ -807,43 +808,60 @@ function drawMarkers(
         const done = moves.filter((entry) => time >= entry.at + entry.duration)
         // Before its first move the portrait is not on the radar yet.
         if (moves.length > 0 && done.length === 0) continue
-        const host = done.at(-1)?.to ?? ship.key
+        const last = done.at(-1)
+        const host = last?.to ?? ship.key
         if (poses.get(host)?.state !== 'sailing') continue
-        aboard.set(host, [...(aboard.get(host) ?? []), avatar])
+        // A portrait fired across fades in where its shot lands.
+        const alpha =
+          last?.kind === 'shot' ? clamp01((time - last.at - last.duration) / PORTRAIT_FADE) : 1
+        aboard.set(host, [...(aboard.get(host) ?? []), { avatar, alpha }])
       }
     }
   }
   for (const [host, list] of aboard) {
     const screen = toScreen(view, hostAt(host))
-    list.forEach((avatar, index) => {
+    list.forEach(({ avatar, alpha }, index) => {
       const x = screen.x + (index - (list.length - 1) / 2) * radius * 0.85
-      drawPortrait(context, avatars.get(avatar), x, screen.y - radius * 2.3, radius)
+      drawPortrait(context, avatars.get(avatar), x, screen.y - radius * 2.3, radius, alpha)
     })
   }
   for (const { avatar, at } of boarding) {
     const screen = toScreen(view, at)
     drawPortrait(context, avatars.get(avatar), screen.x, screen.y, radius * 1.2)
   }
-  // The party is fired across as large glowing shots, each with its portrait at the head.
-  for (const { avatar, at, trail } of shots) {
+  // The party is fired across as large glowing shots; their portraits appear when they land.
+  for (const { at, trail } of shots) {
     const head = toScreen(view, at)
+    const size = radius * 1.1
     context.save()
     trail.forEach((point, index) => {
       const screen = toScreen(view, point)
-      context.fillStyle = `rgb(52 211 153 / ${0.35 * (1 - index / trail.length)})`
+      context.fillStyle = `rgb(110 231 183 / ${0.4 * (1 - index / trail.length)})`
       context.beginPath()
-      context.arc(screen.x, screen.y, radius * (1.9 - index * 0.25), 0, Math.PI * 2)
+      context.arc(screen.x, screen.y, size * (1 - index * 0.15), 0, Math.PI * 2)
       context.fill()
     })
-    const glow = context.createRadialGradient(head.x, head.y, radius, head.x, head.y, radius * 3)
-    glow.addColorStop(0, 'rgb(167 243 208 / 0.7)')
-    glow.addColorStop(1, 'rgb(52 211 153 / 0)')
+    const glow = context.createRadialGradient(head.x, head.y, 0, head.x, head.y, size * 3.2)
+    glow.addColorStop(0, 'rgb(236 253 245 / 1)')
+    glow.addColorStop(0.25, 'rgb(110 231 183 / 0.9)')
+    glow.addColorStop(1, 'rgb(16 185 129 / 0)')
     context.fillStyle = glow
     context.beginPath()
-    context.arc(head.x, head.y, radius * 3, 0, Math.PI * 2)
+    context.arc(head.x, head.y, size * 3.2, 0, Math.PI * 2)
     context.fill()
     context.restore()
-    drawPortrait(context, avatars.get(avatar), head.x, head.y, radius * 2)
+  }
+  // A burst where each shot lands.
+  for (const shot of plan.crossings) {
+    if (shot.kind !== 'shot') continue
+    const since = time - shot.at - shot.duration
+    if (since < 0 || since > 0.6) continue
+    const landing = toScreen(view, hostAt(shot.to))
+    context.strokeStyle = `rgb(167 243 208 / ${1 - since / 0.6})`
+    context.lineWidth = 3
+    context.beginPath()
+    context.arc(landing.x, landing.y, radius * (1 + since * 5), 0, Math.PI * 2)
+    context.stroke()
   }
 }
 
@@ -853,9 +871,11 @@ function drawPortrait(
   x: number,
   y: number,
   radius: number,
+  alpha = 1,
 ) {
-  if (!image?.complete || image.naturalWidth === 0) return
+  if (!image?.complete || image.naturalWidth === 0 || alpha <= 0) return
   context.save()
+  context.globalAlpha = alpha
   context.shadowColor = 'rgb(52 211 153)'
   context.shadowBlur = 16
   context.fillStyle = 'rgb(52 211 153)'
