@@ -50,7 +50,9 @@ export default createQuest({
       refs.locations.verdant_haven,
       ' broke its map-hiding ward. ',
       refs.npcs.bessy,
-      ' made a permanent sheath to contain it.',
+      ' made the ',
+      refs.items.shadow_sword_sheath,
+      ' to contain it.',
     ],
     [
       refs.events.n2_e078,

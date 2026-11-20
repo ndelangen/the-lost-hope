@@ -589,6 +589,7 @@ export const refs = {
     robertos_map_pages: ref('item', 'robertos_map_pages'),
     serpent_eclipse_trial_disk: ref('item', 'serpent_eclipse_trial_disk'),
     shadow_sword: ref('item', 'shadow_sword'),
+    shadow_sword_sheath: ref('item', 'shadow_sword_sheath'),
     steve_mace_of_returning: ref('item', 'steve_mace_of_returning'),
     steve_the_interrogation_rock: ref('item', 'steve_the_interrogation_rock'),
     swifts_silver_container: ref('item', 'swifts_silver_container'),

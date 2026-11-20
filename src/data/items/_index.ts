@@ -47,6 +47,7 @@ import robertos_map_pages from './robertos-map-pages.ts'
 import screaming_for_vengeance from './screaming-for-vengeance.ts'
 import seek_and_destroy from './seek-and-destroy.ts'
 import serpent_eclipse_trial_disk from './serpent-eclipse-trial-disk.ts'
+import shadow_sword_sheath from './shadow-sword-sheath.ts'
 import shadow_sword from './shadow-sword.ts'
 import starlight from './starlight.ts'
 import steambreather from './steambreather.ts'
@@ -117,6 +118,7 @@ export default {
   robertos_map_pages,
   serpent_eclipse_trial_disk,
   shadow_sword,
+  shadow_sword_sheath,
   steve_mace_of_returning,
   steve_the_interrogation_rock,
   swifts_silver_container,

@@ -29,9 +29,16 @@ export default createItem({
     ],
     ['While attuned, delivering the killing blow embeds the slain creature’s soul into the blade.'],
     [
+      'The sword hoards souls as collectables and does not want to release them, which is why it holds so many. It punishes the wielder for giving any up. Deliberately drawing souls out costs the wielder ',
+      refs.rules.hit_points,
+      ', and the cost grows each time it is done in a row, so emptying it is wildly impractical.',
+    ],
+    [
       'Striking ',
       refs.rules.undead,
-      ' can make the blade lose one of its souls into the undead body. The sword hates this and punishes the wielder.',
+      ' is a ',
+      refs.rules.critical_hit,
+      ' against the wielder and releases one soul from the blade into the undead body.',
     ],
   ],
 })

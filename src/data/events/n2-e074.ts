@@ -25,7 +25,9 @@ export default createEvent({
     [
       'The party also sought out ',
       refs.npcs.bessy,
-      ', who made a permanent sheath capable of containing ',
+      ', who made the ',
+      refs.items.shadow_sword_sheath,
+      ' to contain ',
       refs.items.cursed_shadow_sword,
       '.',
     ],
