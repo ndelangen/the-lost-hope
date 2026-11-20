@@ -4,6 +4,7 @@ import borris_shutters_the_casino from './borris-shutters-the-casino.ts'
 import chaos_on_the_sky_islands from './chaos-on-the-sky-islands.ts'
 import fix_s_last_delivery from './fix-s-last-delivery.ts'
 import garran_comes_for_the_cruiser from './garran-comes-for-the-cruiser.ts'
+import light_walks_auren_through_fajanet from './light-walks-auren-through-fajanet.ts'
 import onana_calls_the_party_to_war from './onana-calls-the-party-to-war.ts'
 import picking_up_swift_at_nimbus from './picking-up-swift-at-nimbus.ts'
 import running_from_the_battle_cruiser from './running-from-the-battle-cruiser.ts'
@@ -32,4 +33,5 @@ export default {
   taking_back_a_battle_cruiser,
   garran_comes_for_the_cruiser,
   fix_s_last_delivery,
+  light_walks_auren_through_fajanet,
 }

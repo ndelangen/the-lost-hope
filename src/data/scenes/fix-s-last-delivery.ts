@@ -26,7 +26,9 @@ export default createScene({
     [
       'Play it on an evening when ',
       refs.pcs.auren,
-      ' is away on an errand of his own. He never met ',
+      ' is away in ',
+      refs.scenes.light_walks_auren_through_fajanet,
+      ', and cut back and forth between the two. He never met ',
       refs.pcs.jim,
       ', so the warning is not for him.',
     ],

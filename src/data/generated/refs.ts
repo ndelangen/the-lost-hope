@@ -640,6 +640,7 @@ export const refs = {
     taking_back_a_battle_cruiser: ref('scene', 'taking_back_a_battle_cruiser'),
     garran_comes_for_the_cruiser: ref('scene', 'garran_comes_for_the_cruiser'),
     fix_s_last_delivery: ref('scene', 'fix_s_last_delivery'),
+    light_walks_auren_through_fajanet: ref('scene', 'light_walks_auren_through_fajanet'),
   },
   creatures: {
     alchemist: ref('creature', 'alchemist'),

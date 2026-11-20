@@ -18,5 +18,5 @@ export default createTable({
     refs.scenes.boarding_ride_the_lightning,
   ],
   likely: [refs.scenes.taking_back_a_battle_cruiser, refs.scenes.garran_comes_for_the_cruiser],
-  ready: [refs.scenes.fix_s_last_delivery],
+  ready: [refs.scenes.fix_s_last_delivery, refs.scenes.light_walks_auren_through_fajanet],
 })

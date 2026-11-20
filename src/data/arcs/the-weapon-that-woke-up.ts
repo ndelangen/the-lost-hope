@@ -100,5 +100,17 @@ export default createArc({
         ],
       ],
     },
+    {
+      name: 'A walk before sunset',
+      hook: [
+        [
+          refs.npcs.light_13th_marshal,
+          ' does not know what ',
+          refs.pcs.auren,
+          ' is, and means to find out before dark.',
+        ],
+      ],
+      scene: refs.scenes.light_walks_auren_through_fajanet,
+    },
   ],
 })
