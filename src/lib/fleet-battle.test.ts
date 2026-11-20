@@ -119,6 +119,17 @@ describe('battlePlan', () => {
     expect(fromTurned.every((volley) => volley.to !== FORTRESS)).toBe(true)
   })
 
+  it('makes the switched ships the priority targets over the fortress', () => {
+    const byKey = new Map(plan.ships.map((entry) => [entry.key, entry]))
+    const loyal = plan.volleys.filter((volley) => {
+      const from = byKey.get(volley.from)
+      return from?.side === 0 && volley.at > times.switchEnd && volley.at < times.slow.end
+    })
+    const onFortress = loyal.filter((volley) => volley.to === FORTRESS).length
+    expect(loyal.length).toBeGreaterThan(0)
+    expect(onFortress / loyal.length).toBeLessThan(0.2)
+  })
+
   it('fires the party across from the flagship to their ship in slow motion', () => {
     const shots = plan.crossings.filter((entry) => entry.kind === 'shot')
     expect(shots.map((entry) => [entry.avatar, entry.from, entry.to])).toEqual([

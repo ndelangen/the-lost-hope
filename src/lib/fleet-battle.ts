@@ -575,9 +575,10 @@ function planVolleys(plan: BattlePlan, random: () => number): Volley[] {
       const enemies = fighting(at + t.heavyFlight).filter(
         (other) => sideAt(other, at) !== side && sideAt(other, at + t.heavyFlight) !== side,
       )
-      // The fleet's guns are on the fortress until it slips away, with some turned on the
-      // ships screening it; the switched ships fire on the ships attacking the fortress.
-      const onFortress = side === 0 && at < slow.end && (enemies.length === 0 || random() < 0.65)
+      // The fleet fires on the fortress only while no ship has turned; once ships switch sides
+      // they are the priority, and the odd shot still goes at the fortress. The switched ships
+      // fire on the ships attacking the fortress.
+      const onFortress = side === 0 && at < slow.end && (enemies.length === 0 || random() < 0.08)
       if (onFortress) {
         shoot(ship.key, FORTRESS, at, random() < 0.3)
         continue
