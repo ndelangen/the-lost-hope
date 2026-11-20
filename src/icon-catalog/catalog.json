@@ -322235,6 +322235,7 @@
       "usedIn": [
         "src/components/campaign-shell/sidebar-data.ts",
         "src/components/dm/dm-quick-links.tsx",
+        "src/components/player-screen/fleet-roster-on-screen.tsx",
         "src/lib/entity-kind-visuals.ts",
         "src/routes/index.tsx"
       ]

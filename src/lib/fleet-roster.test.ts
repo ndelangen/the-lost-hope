@@ -3,7 +3,7 @@ import { describe, expect, it } from 'vitest'
 import type { Item } from '#/definitions/item'
 import type { EntityRef } from '#/definitions/kind'
 
-import { fleetOwners, fleetRoster } from './fleet-roster'
+import { fleetOwners, fleetRoster, lastSeenAt, markersAboard, vesselAt } from './fleet-roster'
 
 const navy: EntityRef = { ref: 'organization', key: 'navy' }
 const rebels: EntityRef = { ref: 'organization', key: 'rebels' }
@@ -48,6 +48,14 @@ describe('fleetRoster', () => {
     expect(roster?.sides[1]?.ships.map((entry) => entry.name)).toEqual(['Seized', 'Sunk'])
   })
 
+  it('pins tracked people to the ship they were last seen aboard', () => {
+    const aboard = new Map([['seized', [{ id: 'party', label: 'The party' }]]])
+    const roster = fleetRoster('navy', items, resolve, aboard)
+
+    expect(roster?.sides[1]?.ships[0]?.aboard).toEqual([{ id: 'party', label: 'The party' }])
+    expect(roster?.sides[0]?.ships[0]?.aboard).toEqual([])
+  })
+
   it('sets ships under construction apart and ignores items that are not vessels', () => {
     const roster = fleetRoster('navy', items, resolve)
 
@@ -60,5 +68,41 @@ describe('fleetRoster', () => {
   it('offers a roster only to organizations that own more than one vessel', () => {
     expect(fleetOwners(items)).toEqual(['navy'])
     expect(fleetOwners({ only: ship('Only') })).toEqual([])
+  })
+})
+
+describe('whereabouts', () => {
+  const seized = { ref: 'item', key: 'seized' } as const
+  const locations = {
+    deck: { deck: { vessel: seized } },
+    cabin: { parent: { ref: 'location', key: 'deck' } as EntityRef },
+    harbour: {},
+  }
+
+  it('finds the vessel of a deck, or of a room on it', () => {
+    expect(vesselAt('deck', locations)).toBe('seized')
+    expect(vesselAt('cabin', locations)).toBe('seized')
+    expect(vesselAt('harbour', locations)).toBeUndefined()
+  })
+
+  it('groups sightings by vessel and drops those ashore', () => {
+    const byShip = markersAboard(
+      [
+        { id: 'party', label: 'The party', location: 'cabin' },
+        { id: 'npc:admiral', label: 'Admiral', location: 'harbour' },
+      ],
+      locations,
+    )
+    expect([...byShip]).toEqual([['seized', [{ id: 'party', label: 'The party' }]]])
+  })
+
+  it('reads the last sighting from the newest event that names the record', () => {
+    const admiral: EntityRef = { ref: 'npc', key: 'admiral' }
+    const events = [
+      { location: { ref: 'location', key: 'harbour' } as EntityRef, notes: [['Rain.']] },
+      { location: { ref: 'location', key: 'deck' } as EntityRef, notes: [[admiral, ' waves.']] },
+    ]
+    expect(lastSeenAt(admiral, events)).toBe('deck')
+    expect(lastSeenAt({ ref: 'npc', key: 'nobody' }, events)).toBeUndefined()
   })
 })

@@ -1,10 +1,21 @@
-import { Construction, Skull } from 'lucide-react'
+import { Construction, Skull, Users } from 'lucide-react'
 import { useMemo } from 'react'
 
+import { Avatar } from '#/components/ui/avatar'
+import { refs } from '#/data/generated/refs'
 import { ITEM_STATUS_LABELS } from '#/definitions/item'
 import type { EntityRef } from '#/definitions/kind'
+import { sortedEvents } from '#/lib/campaign'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
-import { fleetRoster, type FleetShip, type FleetSide } from '#/lib/fleet-roster'
+import {
+  fleetRoster,
+  lastSeenAt,
+  markersAboard,
+  type FleetMarker,
+  type FleetShip,
+  type FleetSide,
+  type FleetSighting,
+} from '#/lib/fleet-roster'
 import { ItemIcon } from '#/lib/item-icons'
 import { OrganizationIcon } from '#/lib/organization-icons'
 import { cn } from '#/lib/utils'
@@ -28,17 +39,51 @@ const RIVAL_TONE: Tone = {
 function resolveNamed(ref: EntityRef) {
   const registry: Readonly<Record<string, object>> = SOURCE_REGISTRIES[ref.ref]
   const record = Object.hasOwn(registry, ref.key)
-    ? (registry[ref.key] as { name: string; icon?: string })
+    ? (registry[ref.key] as { name: string; icon?: string; avatar?: string })
     : undefined
-  return record ? { name: record.name, icon: record.icon } : undefined
+  return record ? { name: record.name, icon: record.icon, avatar: record.avatar } : undefined
 }
 
 /**
  * An organization's fleet on the player screen, readable from across the table: who controls each
  * ship, which ships were lost, and what is still being built.
  */
+/** Who the roster pins to a ship: the party, and the fleet's commander. */
+const TRACKED_NPCS = [refs.npcs.onana_tempest]
+
+function fleetSightings(): FleetSighting[] {
+  const events = sortedEvents().map((event) => event.data)
+  const sightings: FleetSighting[] = []
+  const partyAt = events[0]?.location
+  if (partyAt?.ref === 'location') {
+    sightings.push({ id: 'party', label: 'The party', location: partyAt.key })
+  }
+  for (const ref of TRACKED_NPCS) {
+    const npc = resolveNamed(ref) as { name: string; avatar?: string } | undefined
+    const location = lastSeenAt(ref, events)
+    if (npc && location) {
+      sightings.push({
+        id: `npc:${ref.key}`,
+        label: npc.name.split(' ')[0]!,
+        avatar: npc.avatar,
+        location,
+      })
+    }
+  }
+  return sightings
+}
+
 export function FleetRosterOnScreen({ owner }: { owner: string }) {
-  const roster = useMemo(() => fleetRoster(owner, SOURCE_REGISTRIES.item, resolveNamed), [owner])
+  const roster = useMemo(
+    () =>
+      fleetRoster(
+        owner,
+        SOURCE_REGISTRIES.item,
+        resolveNamed,
+        markersAboard(fleetSightings(), SOURCE_REGISTRIES.location),
+      ),
+    [owner],
+  )
   if (!roster) return null
 
   const fleet = roster.sides.flatMap((side, index) =>
@@ -161,6 +206,9 @@ function FleetShipRow({ ship, tone }: { ship: FleetShip; tone: Tone }) {
       <span className={cn('min-w-0 flex-1 truncate font-medium', lost && 'line-through')}>
         {ship.name}
       </span>
+      {ship.aboard.map((marker) => (
+        <AboardMarker key={marker.id} marker={marker} />
+      ))}
       {lost ? (
         <span className="flex shrink-0 items-center gap-[0.4vw] text-[0.7em] tracking-wider uppercase">
           <Skull className="size-[1.1em]" aria-hidden />
@@ -168,5 +216,27 @@ function FleetShipRow({ ship, tone }: { ship: FleetShip; tone: Tone }) {
         </span>
       ) : null}
     </li>
+  )
+}
+
+/** A pin on a ship row: who is aboard, as a portrait when there is one. */
+function AboardMarker({ marker }: { marker: FleetMarker }) {
+  return (
+    <span className="flex shrink-0 items-center gap-[0.5vw] rounded-full bg-emerald-400 py-[0.2vh] pr-[0.9vw] pl-[0.2vw] text-[0.75em] font-semibold text-black shadow-[0_0_30px_rgb(52_211_153/0.5)]">
+      {marker.avatar ? (
+        <Avatar
+          src={marker.avatar}
+          sizes="64px"
+          maxWidth={128}
+          loading="eager"
+          className="size-[1.6em]"
+        />
+      ) : (
+        <span className="grid size-[1.6em] place-items-center rounded-full bg-black/15">
+          <Users className="size-[1em]" aria-hidden />
+        </span>
+      )}
+      {marker.label}
+    </span>
   )
 }

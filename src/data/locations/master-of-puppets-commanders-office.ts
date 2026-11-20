@@ -6,6 +6,7 @@ export default createLocation({
   name: 'Master of Puppets Commander’s Office',
   map: { url: '/assets/maps/master-of-puppets-commanders-office.jpg', width: 1536, height: 1024 },
   illustration: '/assets/locations/master-of-puppets-commanders-office-illustration.png',
+  deck: { vessel: refs.items.master_of_puppets },
   notes: [
     ['The office of ', refs.npcs.onana_tempest, ' aboard ', refs.items.master_of_puppets, '.'],
     [

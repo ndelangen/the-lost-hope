@@ -1,11 +1,42 @@
 import type { Item, ItemStatus } from '#/definitions/item'
 import type { EntityRef } from '#/definitions/kind'
 
+import { collectReferences } from './campaign-read-model'
+
+/** Someone the roster tracks, pinned to the ship they were last seen aboard. */
+export type FleetMarker = {
+  id: string
+  label: string
+  avatar?: string
+}
+
 export type FleetShip = {
   key: string
   name: string
   icon: string
   status?: ItemStatus
+  aboard: FleetMarker[]
+}
+
+/** Where a tracked party or character was last seen, as a location key. */
+export type FleetSighting = FleetMarker & { location: string }
+
+type PlaceOnBoard = { deck?: { vessel: EntityRef }; parent?: EntityRef }
+
+/** The vessel a place is on: its own deck's vessel, or the nearest enclosing place's. */
+export function vesselAt(
+  locationKey: string,
+  locations: Readonly<Record<string, PlaceOnBoard>>,
+): string | undefined {
+  const seen = new Set<string>()
+  let key: string | undefined = locationKey
+  while (key && !seen.has(key) && Object.hasOwn(locations, key)) {
+    seen.add(key)
+    const place: PlaceOnBoard = locations[key]!
+    if (place.deck) return place.deck.vessel.key
+    key = place.parent?.ref === 'location' ? place.parent.key : undefined
+  }
+  return undefined
 }
 
 /** One side of a fleet: the ships a single commander controls, in service and lost. */
@@ -39,6 +70,7 @@ export function fleetRoster(
   ownerKey: string,
   items: Readonly<Record<string, Item>>,
   resolve: ResolveNamed,
+  aboard: ReadonlyMap<string, FleetMarker[]> = new Map(),
 ): FleetRoster | undefined {
   const owner = resolve({ ref: 'organization', key: ownerKey })
   if (!owner) return undefined
@@ -55,7 +87,13 @@ export function fleetRoster(
   sides.set(ownSideId, side(ownerKey, owner))
 
   for (const [key, item] of owned) {
-    const ship: FleetShip = { key, name: item.name, icon: item.icon, status: item.status }
+    const ship: FleetShip = {
+      key,
+      name: item.name,
+      icon: item.icon,
+      status: item.status,
+      aboard: aboard.get(key) ?? [],
+    }
     if (item.status === 'under-construction') {
       building.push(ship)
       continue
@@ -82,6 +120,33 @@ export function fleetRoster(
     })),
     building: building.toSorted(byServiceThenName),
   }
+}
+
+/** Groups each sighting under the vessel its place is on; sightings off any vessel are dropped. */
+export function markersAboard(
+  sightings: readonly FleetSighting[],
+  locations: Readonly<Record<string, PlaceOnBoard>>,
+): Map<string, FleetMarker[]> {
+  const byShip = new Map<string, FleetMarker[]>()
+  for (const { location, ...marker } of sightings) {
+    const ship = vesselAt(location, locations)
+    if (ship) byShip.set(ship, [...(byShip.get(ship) ?? []), marker])
+  }
+  return byShip
+}
+
+/**
+ * Where a record was last seen: the place of the newest event that names it. Events are given
+ * newest first. A mention is not proof of presence, so this is a last sighting, not a position.
+ */
+export function lastSeenAt(
+  ref: EntityRef,
+  eventsNewestFirst: readonly { location: EntityRef }[],
+): string | undefined {
+  const event = eventsNewestFirst.find((candidate) =>
+    collectReferences(candidate).some((found) => found.ref === ref.ref && found.key === ref.key),
+  )
+  return event?.location.ref === 'location' ? event.location.key : undefined
 }
 
 /** Organizations with a fleet worth a roster: they own more than one vessel. */
