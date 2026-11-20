@@ -4,7 +4,7 @@ import { create as createEffect } from '#/definitions/effect.ts'
 export default createEffect({
   name: 'Bob’s Divine Contract',
   icon: 'gi/GiScrollQuill',
-  on: refs.pcs.jim,
+  on: [refs.pcs.jim],
   cause: refs.npcs.bob_the_merchant,
   began: refs.events.n2_e095,
   ended: refs.events.n2_e115,

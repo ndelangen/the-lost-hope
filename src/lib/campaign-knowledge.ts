@@ -369,7 +369,7 @@ export function overview(): string {
   const effects = Object.entries(SOURCE_REGISTRIES.effect).flatMap(([key, effect]) => {
     const entity = getEntity('effect', effect.slug)
     return entity && effectEntry(entity).status === 'active'
-      ? [`- ${name({ ref: 'effect', key })} on ${name(effect.on)}`]
+      ? [`- ${name({ ref: 'effect', key })} on ${effect.on.map(name).join(', ')}`]
       : []
   })
   const unmet = (['npc', 'location', 'organization', 'item', 'beast'] as const).map(
@@ -844,7 +844,7 @@ function factSheet(ref: KnowledgeRef): string {
   }
 
   const effects = Object.entries(SOURCE_REGISTRIES.effect).flatMap(([key, effect]) => {
-    if (effect.on.ref !== ref.ref || effect.on.key !== ref.key) return []
+    if (!effect.on.some((bearer) => bearer.ref === ref.ref && bearer.key === ref.key)) return []
     const entity = getEntity('effect', effect.slug)
     const status = entity ? effectEntry(entity).status : 'unknown'
     return [`${name({ ref: 'effect', key })} (${status})`]

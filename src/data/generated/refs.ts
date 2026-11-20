@@ -575,17 +575,6 @@ export const refs = {
     wolfie_tracking_ring: ref('item', 'wolfie_tracking_ring'),
   },
   effects: {
-    bessy_s_severed_bond_with_jim: ref('effect', 'bessy_s_severed_bond_with_jim'),
-    bob_the_merchant_s_severed_bond_with_jim: ref(
-      'effect',
-      'bob_the_merchant_s_severed_bond_with_jim',
-    ),
-    phoenix_chick_s_severed_bond_with_jim: ref('effect', 'phoenix_chick_s_severed_bond_with_jim'),
-    the_fiddler_s_severed_bond_with_jim: ref('effect', 'the_fiddler_s_severed_bond_with_jim'),
-    sarogarth_s_severed_bond_with_jim: ref('effect', 'sarogarth_s_severed_bond_with_jim'),
-    wolfie_s_severed_bond_with_jim: ref('effect', 'wolfie_s_severed_bond_with_jim'),
-    abraham_s_severed_bond_with_jim: ref('effect', 'abraham_s_severed_bond_with_jim'),
-    fix_s_severed_bond_with_jim: ref('effect', 'fix_s_severed_bond_with_jim'),
     severed_bond_with_jim: ref('effect', 'severed_bond_with_jim'),
     blight: ref('effect', 'blight'),
     bob_s_divine_contract: ref('effect', 'bob_s_divine_contract'),

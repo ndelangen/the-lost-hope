@@ -27,30 +27,30 @@ export type EventMark = z.infer<typeof EventMark>
 
 const CharacterRef = z.union([entityRefOf('pc'), entityRefOf('npc'), entityRefOf('beast')])
 
-const BondOutcome = z.discriminatedUnion('state', [
-  z.strictObject({ who: CharacterRef, state: z.literal('retained') }),
-  z.strictObject({ who: CharacterRef, state: z.literal('severed'), effect: entityRefOf('effect') }),
-])
-
+/**
+ * Who kept an emotional bond with one character after an event. The effect owns who lost it: its
+ * bearers are the severed side, so the roster is never written twice.
+ */
 export const BondOutcomes = z
   .strictObject({
     toward: CharacterRef,
-    outcomes: z.array(BondOutcome).min(1),
+    retained: z.array(CharacterRef).describe('Characters who kept their bond'),
+    severed: entityRefOf('effect').describe('The effect every character who lost the bond bears'),
   })
-  .superRefine(({ toward, outcomes }, ctx) => {
+  .superRefine(({ toward, retained }, ctx) => {
     const seen = new Set<string>()
-    for (const [index, outcome] of outcomes.entries()) {
-      const id = `${outcome.who.ref}:${outcome.who.key}`
+    for (const [index, who] of retained.entries()) {
+      const id = `${who.ref}:${who.key}`
       if (seen.has(id))
         ctx.addIssue({
           code: 'custom',
-          path: ['outcomes', index, 'who'],
+          path: ['retained', index],
           message: 'A bond has one outcome per character',
         })
-      if (outcome.who.ref === toward.ref && outcome.who.key === toward.key)
+      if (who.ref === toward.ref && who.key === toward.key)
         ctx.addIssue({
           code: 'custom',
-          path: ['outcomes', index, 'who'],
+          path: ['retained', index],
           message: 'A bond outcome needs two different characters',
         })
       seen.add(id)

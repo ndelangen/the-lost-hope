@@ -4,7 +4,7 @@ import { create as createEffect } from '#/definitions/effect.ts'
 export default createEffect({
   name: 'Whip-Taught Understanding',
   icon: 'gi/GiWhiplash',
-  on: refs.beasts.wolfie,
+  on: [refs.beasts.wolfie],
   cause: refs.items.one_use_obedience_whip,
   began: refs.events.n2_e095,
   rules: [

@@ -21,8 +21,8 @@ export type EffectLiveState = {
 export type LiveEffect = {
   slug: string
   name: string
-  /** Name of the PC, NPC, or beast carrying it. */
-  carrier: string
+  /** Names of the PCs, NPCs, or beasts carrying it, e.g. `Swift Starblade and Fix`. */
+  bearers: string
   /** Campaign day of the event in which it began. */
   beganDay: number
   /** Campaign day it expires on, when it has a duration. */

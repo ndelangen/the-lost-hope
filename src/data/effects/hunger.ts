@@ -4,7 +4,7 @@ import { create as createEffect } from '#/definitions/effect.ts'
 export default createEffect({
   name: 'Hunger',
   icon: 'gi/GiPrettyFangs',
-  on: refs.pcs.cassian_veyl,
+  on: [refs.pcs.cassian_veyl],
   cause: refs.items.deck_of_many_more_things,
   began: refs.events.n2_e189,
   rules: [

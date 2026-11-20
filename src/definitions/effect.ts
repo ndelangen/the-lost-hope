@@ -63,7 +63,7 @@ const Reminder = z.strictObject({
 })
 
 /**
- * A lasting effect on a PC, NPC, or beast: a curse, a card's boon, a bargain, a transformation.
+ * A lasting effect on one or more PCs, NPCs, or beasts: a curse, a card's boon, a bargain, a transformation.
  * The effect owns its rules; events reference it instead of restating them. Whether it is active,
  * ended, or expired is derived from `began`, `ended`, and `duration`.
  */
@@ -72,8 +72,13 @@ export const Effect = deriveSlug(
     name: z.string().trim().min(1).describe('The canonical name, e.g. `Vessel`'),
     icon: z.string().describe('Icon-catalog id, e.g. `gi/GiLightningStorm`'),
     on: z
-      .union([entityRefOf('pc'), entityRefOf('npc'), entityRefOf('beast')])
-      .describe('Who carries the effect'),
+      .array(z.union([entityRefOf('pc'), entityRefOf('npc'), entityRefOf('beast')]))
+      .min(1)
+      .refine(
+        (bearers) => new Set(bearers.map((ref) => `${ref.ref}:${ref.key}`)).size === bearers.length,
+        'Each bearer is listed once',
+      )
+      .describe('Everyone who carries the effect'),
     cause: z
       .union([entityRefOf('item'), entityRefOf('npc'), entityRefOf('location')])
       .optional()

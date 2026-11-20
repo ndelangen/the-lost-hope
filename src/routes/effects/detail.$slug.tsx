@@ -30,7 +30,7 @@ function EffectPage() {
   const entity = Route.useLoaderData()
   const effect = entity.data
   const { status, began, ended, expiryDay } = effectEntry(entity)
-  const carrier = refLink(effect.on)
+  const bearers = effect.on.flatMap((ref) => refLink(ref) ?? [])
   const cause = effect.cause ? refLink(effect.cause) : undefined
 
   return (
@@ -48,7 +48,19 @@ function EffectPage() {
         <Fact label="Status">
           <EffectStatusPill status={status} />
         </Fact>
-        <Fact label="On">{carrier ? <Reference link={carrier} /> : 'Unknown'}</Fact>
+        <Fact label="On">
+          {bearers.length ? (
+            <ul className="flex flex-wrap gap-x-3 gap-y-1">
+              {bearers.map((link) => (
+                <li key={`${link.kind}:${link.slug}`}>
+                  <Reference link={link} />
+                </li>
+              ))}
+            </ul>
+          ) : (
+            'Unknown'
+          )}
+        </Fact>
         {cause ? (
           <Fact label="Caused by">
             <Reference link={cause} />

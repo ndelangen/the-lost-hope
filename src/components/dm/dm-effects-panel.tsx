@@ -129,7 +129,7 @@ export function DmEffectsPanel({
               <div className="grid min-w-0 flex-1 gap-0.5">
                 <p className="text-sm">
                   <EntityReference kind="effect" slug={effect.slug} label={effect.name} />
-                  <span className="text-muted-foreground"> · on {effect.carrier}</span>
+                  <span className="text-muted-foreground"> · on {effect.bearers}</span>
                 </p>
                 <p className="text-muted-foreground text-sm">{lastsLabel(effect, state.day)}</p>
               </div>
@@ -163,7 +163,7 @@ export function DmEffectsPanel({
                   <span className="font-semibold">{effect.name}</span>
                   <span className="text-muted-foreground">
                     {' '}
-                    · on {effect.carrier} · ended day {state.ended[effect.slug]}
+                    · on {effect.bearers} · ended day {state.ended[effect.slug]}
                   </span>
                 </p>
                 <button
@@ -192,7 +192,7 @@ export function DmEffectsPanel({
                   <span className="font-semibold">{obligation.label}</span>
                   {' · '}
                   <span className="text-muted-foreground">
-                    {obligation.effect.carrier}’s {obligation.effect.name}
+                    {obligation.effect.bearers}’s {obligation.effect.name}
                   </span>
                 </p>
                 <p

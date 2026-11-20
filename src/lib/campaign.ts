@@ -681,6 +681,13 @@ export function effectEntry(effect: EntityOf<'effect'>): EffectEntry {
   }
 }
 
+/** Names as prose: `A`, `A and B`, `A, B and C`. */
+export function joinNames(names: readonly string[]): string {
+  return names.length < 2
+    ? (names[0] ?? '')
+    : `${names.slice(0, -1).join(', ')} and ${names.at(-1)}`
+}
+
 /** Effects active on the latest recorded day, in the shape the DM's live reminders work with. */
 export function liveEffects(): LiveEffect[] {
   return allEntities('effect')
@@ -689,7 +696,7 @@ export function liveEffects(): LiveEffect[] {
     .map(({ effect, began, expiryDay }) => ({
       slug: effect.slug,
       name: effect.data.name,
-      carrier: resolveRef(effect.data.on)?.data.name ?? effect.data.on.key,
+      bearers: joinNames(effect.data.on.map((ref) => resolveRef(ref)?.data.name ?? ref.key)),
       beganDay: began?.data.day ?? campaignToday(),
       expiryDay,
       data: effect.data as Effect,
@@ -701,10 +708,12 @@ const EFFECT_STATUS_ORDER: Record<EffectStatus, number> = { active: 0, expired: 
 /** Effects carried by a record, active first, then newest first. */
 export function effectsOn(kind: EntityKind, slug: string): EffectEntry[] {
   return allEntities('effect')
-    .filter((effect) => {
-      const carrier = resolveRef(effect.data.on)
-      return carrier?.kind === kind && carrier.slug === slug
-    })
+    .filter((effect) =>
+      effect.data.on.some((ref) => {
+        const bearer = resolveRef(ref)
+        return bearer?.kind === kind && bearer.slug === slug
+      }),
+    )
     .map(effectEntry)
     .toSorted(
       (a, b) =>

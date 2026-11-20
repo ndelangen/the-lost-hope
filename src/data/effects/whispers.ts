@@ -4,7 +4,7 @@ import { create as createEffect } from '#/definitions/effect.ts'
 export default createEffect({
   name: 'Whispers',
   icon: 'gi/GiShadowFollower',
-  on: refs.pcs.jim,
+  on: [refs.pcs.jim],
   cause: refs.items.deck_of_many_more_things,
   began: refs.events.n2_e189,
   rules: [[refs.pcs.jim, ' hears voices only he can hear and suffers penalties involving Wisdom.']],

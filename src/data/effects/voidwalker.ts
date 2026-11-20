@@ -4,7 +4,7 @@ import { create as createEffect } from '#/definitions/effect.ts'
 export default createEffect({
   name: 'Voidwalker',
   icon: 'gi/GiFloatingGhost',
-  on: refs.pcs.jim,
+  on: [refs.pcs.jim],
   cause: refs.items.deck_of_many_more_things,
   began: refs.events.n2_e190,
   duration: { days: 28 },

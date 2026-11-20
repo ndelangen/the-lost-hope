@@ -2,8 +2,8 @@ import { describe, expect, it } from 'vitest'
 
 import { refs } from '#/data/generated/refs'
 import { BondOutcomes } from '#/definitions/event'
-import { bondConnections } from '#/lib/bond-outcomes'
-import { events, getEntity, resolveRef, reverseLinks } from '#/lib/campaign'
+import { bondConnections, severedBearers } from '#/lib/bond-outcomes'
+import { effects, events, getEntity, resolveRef, reverseLinks } from '#/lib/campaign'
 import { entityContextData } from '#/lib/entity-context-data'
 import { eventNarrative, eventProse } from '#/lib/foretold'
 import { sessionJournalData } from '#/lib/session-journal-data'
@@ -11,20 +11,11 @@ import { sessionJournalData } from '#/lib/session-journal-data'
 const pulse = events.n2_e207
 const bonds = pulse.bondOutcomes!
 const connections = () =>
-  bondConnections(
-    bonds,
-    (ref) => {
-      const entity = resolveRef(ref)
-      if (!entity || !('avatar' in entity.data)) throw new Error('Expected a character')
-      return { ref, name: entity.data.name, slug: entity.slug, avatar: entity.data.avatar }
-    },
-    (ref) => {
-      const entity = resolveRef(ref)
-      if (entity?.kind !== 'effect') throw new Error('Expected an effect')
-      expect(entity.data.began).toEqual(refs.events.n2_e207)
-      return entity.data.on
-    },
-  )
+  bondConnections(bonds, (ref) => {
+    const entity = resolveRef(ref)
+    if (!entity || !('avatar' in entity.data)) throw new Error('Expected a character')
+    return { ref, name: entity.data.name, slug: entity.slug, avatar: entity.data.avatar }
+  })
 
 describe('Jim’s confirmed bond outcomes', () => {
   it('shows the exact surviving and broken bonds, including the two different Bobs', () => {
@@ -61,45 +52,54 @@ describe('Jim’s confirmed bond outcomes', () => {
     expect(
       [...groups.retained, ...groups.severed].some((e) => e.ref.key === refs.pcs.auren.key),
     ).toBe(false)
+    expect(groups.effect).toEqual(refs.effects.severed_bond_with_jim)
+    expect(severedBearers(bonds)).toBe(effects.severed_bond_with_jim.on)
+    expect(effects.severed_bond_with_jim.began).toEqual(refs.events.n2_e207)
     expect(() =>
-      bondConnections(
-        bonds,
-        (ref) => ({ ref, name: ref.key, slug: ref.key, avatar: '' }),
-        () => refs.pcs.jim,
-      ),
-    ).toThrow('different character')
+      severedBearers({ ...bonds, retained: [...bonds.retained, refs.pcs.swift_starblade] }),
+    ).toThrow('both kept and lost')
   })
 
   it('rejects conflicting outcomes and self-bonds', () => {
     expect(
-      BondOutcomes.safeParse({ ...bonds, outcomes: [bonds.outcomes[0], bonds.outcomes[0]] })
+      BondOutcomes.safeParse({ ...bonds, retained: [bonds.retained[0], bonds.retained[0]] })
         .success,
     ).toBe(false)
     expect(
       BondOutcomes.safeParse({
         toward: refs.pcs.jim,
-        outcomes: [{ who: refs.pcs.jim, state: 'retained' }],
+        retained: [refs.pcs.jim],
+        severed: bonds.severed,
       }).success,
     ).toBe(false)
   })
 
   it('keeps the roster in event prose, the session journal and character backlinks', () => {
     const narrative = eventNarrative(pulse)
-    const references = [
-      bonds.toward,
-      ...bonds.outcomes.flatMap((outcome) =>
-        outcome.state === 'severed' ? [outcome.who, outcome.effect] : [outcome.who],
-      ),
-    ]
-    expect(new Set(references.map((ref) => `${ref.ref}:${ref.key}`)).size).toBe(29)
+    const bearers = severedBearers(bonds)
+    const references = [bonds.toward, ...bonds.retained, bonds.severed, ...bearers]
+    expect(new Set(references.map((ref) => `${ref.ref}:${ref.key}`)).size).toBe(21)
     for (const reference of references) {
       expect(narrative.flat()).toContainEqual(reference)
+    }
+    for (const reference of [bonds.toward, ...bonds.retained, bonds.severed]) {
       const entity = resolveRef(reference)!
       expect(
         reverseLinks(entity.kind, entity.slug).some(
           (link) => link.entity.kind === 'event' && link.entity.slug === pulse.slug,
         ),
       ).toBe(true)
+    }
+    for (const bearer of bearers) {
+      const entity = resolveRef(bearer)!
+      expect(
+        reverseLinks(entity.kind, entity.slug).some(
+          (link) => link.entity.kind === 'effect' && link.entity.slug === 'severed-bond-with-jim',
+        ),
+      ).toBe(true)
+      expect(entityContextData(entity).history.map((entry) => entry.event.slug)).toContain(
+        pulse.slug,
+      )
     }
     const pulseEntity = getEntity('event', pulse.slug)!
     const sourceRefs = entityContextData(pulseEntity).sources.map(

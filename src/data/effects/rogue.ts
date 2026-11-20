@@ -4,7 +4,7 @@ import { create as createEffect } from '#/definitions/effect.ts'
 export default createEffect({
   name: 'Rogue',
   icon: 'gi/GiHoodedAssassin',
-  on: refs.pcs.swift_starblade,
+  on: [refs.pcs.swift_starblade],
   cause: refs.items.deck_of_many_more_things,
   began: refs.events.n2_e105,
   rules: [

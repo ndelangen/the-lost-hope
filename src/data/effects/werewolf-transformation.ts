@@ -4,7 +4,7 @@ import { create as createEffect } from '#/definitions/effect.ts'
 export default createEffect({
   name: 'Werewolf Transformation',
   icon: 'gi/GiWerewolf',
-  on: refs.pcs.cassian_veyl,
+  on: [refs.pcs.cassian_veyl],
   cause: refs.items.wolfie_tracking_ring,
   began: refs.events.n2_e111,
   rules: [

@@ -18,6 +18,7 @@ import {
   pcStatLine,
   pcStatusLabel,
   questProgress,
+  joinNames,
   refLink,
   resolveRef,
   sessionNumber,
@@ -299,7 +300,9 @@ function referencePresentation(
     case 'effect': {
       const effect = getEntity('effect', slug)
       const name = label ?? effect?.data.name ?? slug
-      const carrier = effect ? refLink(effect.data.on) : undefined
+      const bearers = effect
+        ? joinNames(effect.data.on.map((ref) => refLink(ref)?.name ?? ref.key))
+        : undefined
       const status = effect ? EFFECT_STATUS_LABELS[effectEntry(effect).status] : undefined
       const icon = effect ? <EffectIcon icon={effect.data.icon} className="size-3.5" /> : null
       return {
@@ -307,9 +310,7 @@ function referencePresentation(
         icon,
         preview: (
           <ReferencePreviewHeader icon={icon} name={name}>
-            <span className="text-muted-foreground">
-              Effect{carrier ? ` on ${carrier.name}` : ''}
-            </span>
+            <span className="text-muted-foreground">Effect{bearers ? ` on ${bearers}` : ''}</span>
             {status ? <span className="text-muted-foreground">{status}</span> : null}
           </ReferencePreviewHeader>
         ),

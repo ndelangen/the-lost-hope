@@ -3,7 +3,7 @@ import { createFileRoute, Link, notFound } from '@tanstack/react-router'
 import { EntityReference } from '#/components/entity-reference'
 import { Avatar } from '#/components/ui/avatar'
 import { refs } from '#/data/generated/refs'
-import { bondConnections, type BondConnection } from '#/lib/bond-outcomes'
+import { bondConnections, type BondPerson } from '#/lib/bond-outcomes'
 import { resolveRef, sessionNumber, sessionSlugForEvent } from '#/lib/campaign'
 import { publicPageHeadForPath } from '#/lib/public-page-metadata'
 
@@ -17,20 +17,14 @@ function JimConnectionsPage() {
   const pulse = resolveRef(refs.events.n2_e207)
   if (jim?.kind !== 'pc' || pulse?.kind !== 'event' || !pulse.data.bondOutcomes) throw notFound()
   const bonds = pulse.data.bondOutcomes
-  const groups = bondConnections(
-    bonds,
-    (ref) => {
-      const entity = resolveRef(ref)
-      if (!entity || (entity.kind !== 'pc' && entity.kind !== 'npc' && entity.kind !== 'beast'))
-        throw notFound()
-      return { ref, name: entity.data.name, slug: entity.slug, avatar: entity.data.avatar }
-    },
-    (ref) => {
-      const effect = resolveRef(ref)
-      if (effect?.kind !== 'effect') throw notFound()
-      return effect.data.on
-    },
-  )
+  const groups = bondConnections(bonds, (ref) => {
+    const entity = resolveRef(ref)
+    if (!entity || (entity.kind !== 'pc' && entity.kind !== 'npc' && entity.kind !== 'beast'))
+      throw notFound()
+    return { ref, name: entity.data.name, slug: entity.slug, avatar: entity.data.avatar }
+  })
+  const effect = resolveRef(groups.effect)
+  if (effect?.kind !== 'effect') throw notFound()
   const sessionSlug = sessionSlugForEvent(pulse.slug)
 
   return (
@@ -77,13 +71,14 @@ function JimConnectionsPage() {
         <ConnectionGroup
           title="Still cares"
           description="Their emotional bond with Jim survived the pulse."
-          entries={groups.retained.map(withEffectLink)}
+          entries={groups.retained}
           retained
         />
         <ConnectionGroup
           title="Bond broken"
           description="They remember Jim, but the pulse severed their emotional bond."
-          entries={groups.severed.map(withEffectLink)}
+          entries={groups.severed}
+          effectSlug={effect.slug}
         />
       </div>
       <footer className="text-muted-foreground bg-card mt-8 space-y-3 rounded-xl border p-5 text-sm leading-relaxed">
@@ -104,11 +99,13 @@ function ConnectionGroup({
   title,
   description,
   entries,
+  effectSlug,
   retained = false,
 }: {
   title: string
   description: string
-  entries: (BondConnection & { effectSlug?: string })[]
+  entries: BondPerson[]
+  effectSlug?: string
   retained?: boolean
 }) {
   return (
@@ -123,6 +120,11 @@ function ConnectionGroup({
           </span>
         </h2>
         <p className="text-muted-foreground mt-2 text-sm leading-relaxed">{description}</p>
+        {effectSlug ? (
+          <p className="text-muted-foreground mt-2 text-xs">
+            <EntityReference kind="effect" slug={effectSlug} label="View bond effect" />
+          </p>
+        ) : null}
       </div>
       <ul className="divide-y">
         {entries.map((entry) => (
@@ -141,18 +143,9 @@ function ConnectionGroup({
                 </>
               )}
             </EntityReference>
-            {entry.effectSlug ? (
-              <div className="text-muted-foreground mt-1 pl-14 text-xs">
-                <EntityReference kind="effect" slug={entry.effectSlug} label="View bond effect" />
-              </div>
-            ) : null}
           </li>
         ))}
       </ul>
     </section>
   )
-}
-
-function withEffectLink(entry: BondConnection) {
-  return { ...entry, effectSlug: entry.effect ? resolveRef(entry.effect)?.slug : undefined }
 }

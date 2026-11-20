@@ -1,36 +1,46 @@
+import effectRecords from '#/data/effects/_index'
 import type { Content } from '#/definitions/content'
 import type { BondOutcomes } from '#/definitions/event'
-import type { EntityRef } from '#/definitions/kind'
 
 type ContentNode = Content[number][number]
 
 type CharacterRef = BondOutcomes['toward']
 
-function joinedReferences(refs: CharacterRef[]): ContentNode[] {
+const sameRef = (a: CharacterRef, b: CharacterRef) => a.ref === b.ref && a.key === b.key
+
+function joinedReferences(refs: readonly CharacterRef[]): ContentNode[] {
   return refs.flatMap((ref, index): ContentNode[] => [
     ...(index ? [index === refs.length - 1 ? ' and ' : ', '] : []),
     ref,
   ])
 }
 
-/** The event owns the outcomes; every narrative view derives the same account. */
+/** Who lost the bond: the bearers of the severing effect, its one canonical owner. */
+export function severedBearers(bonds: BondOutcomes): readonly CharacterRef[] {
+  const effect = effectRecords[bonds.severed.key as keyof typeof effectRecords]
+  if (!effect) throw new Error(`Unknown bond effect ${bonds.severed.key}`)
+  const kept = bonds.retained.find((who) => effect.on.some((bearer) => sameRef(bearer, who)))
+  if (kept) throw new Error(`${kept.key} both kept and lost the bond`)
+  if (effect.on.some((bearer) => sameRef(bearer, bonds.toward)))
+    throw new Error('A bond outcome needs two different characters')
+  return effect.on
+}
+
+/** The event owns who kept the bond and the effect owns who lost it; every view derives the same account. */
 export function bondOutcomeProse(bonds: BondOutcomes | undefined): Content {
   if (!bonds) return []
-  const retained = bonds.outcomes.filter((outcome) => outcome.state === 'retained')
   return [
-    ...(retained.length
+    ...(bonds.retained.length
       ? [
           [
-            ...joinedReferences(retained.map((outcome) => outcome.who)),
+            ...joinedReferences(bonds.retained),
             ' kept their emotional bond with ',
             bonds.toward,
             '.',
           ],
         ]
       : []),
-    ...bonds.outcomes.flatMap((outcome): Content =>
-      outcome.state === 'severed' ? [[outcome.who, ' acquired ', outcome.effect, '.']] : [],
-    ),
+    [...joinedReferences(severedBearers(bonds)), ' acquired ', bonds.severed, '.'],
   ]
 }
 
@@ -41,27 +51,12 @@ export type BondPerson = {
   avatar: string
 }
 
-export type BondConnection = BondPerson & { effect?: EntityRef<'effect'> }
-
 /** A snapshot of recorded outcomes, never inferred from co-mentions or affiliations. */
-export function bondConnections(
-  bonds: BondOutcomes,
-  person: (ref: CharacterRef) => BondPerson,
-  effectOwner: (ref: EntityRef<'effect'>) => CharacterRef,
-) {
-  const retained: BondConnection[] = []
-  const severed: BondConnection[] = []
-  for (const outcome of bonds.outcomes) {
-    const entry = person(outcome.who)
-    if (outcome.state === 'retained') retained.push(entry)
-    else {
-      const owner = effectOwner(outcome.effect)
-      if (owner.ref !== outcome.who.ref || owner.key !== outcome.who.key) {
-        throw new Error(`Bond effect ${outcome.effect.key} belongs to a different character`)
-      }
-      severed.push({ ...entry, effect: outcome.effect })
-    }
+export function bondConnections(bonds: BondOutcomes, person: (ref: CharacterRef) => BondPerson) {
+  const byName = (a: BondPerson, b: BondPerson) => a.name.localeCompare(b.name)
+  return {
+    retained: bonds.retained.map(person).toSorted(byName),
+    severed: severedBearers(bonds).map(person).toSorted(byName),
+    effect: bonds.severed,
   }
-  const byName = (a: BondConnection, b: BondConnection) => a.name.localeCompare(b.name)
-  return { retained: retained.toSorted(byName), severed: severed.toSorted(byName) }
 }

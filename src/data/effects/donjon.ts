@@ -4,7 +4,7 @@ import { create as createEffect } from '#/definitions/effect.ts'
 export default createEffect({
   name: 'Donjon',
   icon: 'gi/GiPrisoner',
-  on: refs.pcs.cassian_veyl,
+  on: [refs.pcs.cassian_veyl],
   cause: refs.items.deck_of_many_more_things,
   began: refs.events.n2_e105,
   ended: refs.events.n2_e112,

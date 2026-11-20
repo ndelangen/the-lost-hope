@@ -9,59 +9,19 @@ export default createEvent({
   illustrations: ['/assets/scenes/the-green-pulse-over-the-sky-islands.png'],
   bondOutcomes: {
     toward: refs.pcs.jim,
-    outcomes: [
-      { who: refs.pcs.cassian_veyl, state: 'retained' },
-      { who: refs.pcs.devan, state: 'retained' },
-      { who: refs.npcs.crowy, state: 'retained' },
-      { who: refs.npcs.borris, state: 'retained' },
-      { who: refs.npcs.gruumsh_high_priest, state: 'retained' },
-      { who: refs.npcs.sylvia, state: 'retained' },
-      { who: refs.npcs.penelope, state: 'retained' },
-      { who: refs.npcs.bob_the_gate_troll, state: 'retained' },
-      { who: refs.npcs.light_13th_marshal, state: 'retained' },
-      { who: refs.npcs.the_father, state: 'retained' },
-      {
-        who: refs.pcs.swift_starblade,
-        state: 'severed',
-        effect: refs.effects.severed_bond_with_jim,
-      },
-      { who: refs.pcs.fix, state: 'severed', effect: refs.effects.fix_s_severed_bond_with_jim },
-      {
-        who: refs.npcs.abraham,
-        state: 'severed',
-        effect: refs.effects.abraham_s_severed_bond_with_jim,
-      },
-      {
-        who: refs.beasts.wolfie,
-        state: 'severed',
-        effect: refs.effects.wolfie_s_severed_bond_with_jim,
-      },
-      {
-        who: refs.npcs.sarogarth,
-        state: 'severed',
-        effect: refs.effects.sarogarth_s_severed_bond_with_jim,
-      },
-      {
-        who: refs.npcs.the_fiddler,
-        state: 'severed',
-        effect: refs.effects.the_fiddler_s_severed_bond_with_jim,
-      },
-      {
-        who: refs.beasts.phoenix_chick,
-        state: 'severed',
-        effect: refs.effects.phoenix_chick_s_severed_bond_with_jim,
-      },
-      {
-        who: refs.npcs.bob_the_merchant,
-        state: 'severed',
-        effect: refs.effects.bob_the_merchant_s_severed_bond_with_jim,
-      },
-      {
-        who: refs.npcs.bessy,
-        state: 'severed',
-        effect: refs.effects.bessy_s_severed_bond_with_jim,
-      },
+    retained: [
+      refs.pcs.cassian_veyl,
+      refs.pcs.devan,
+      refs.npcs.crowy,
+      refs.npcs.borris,
+      refs.npcs.gruumsh_high_priest,
+      refs.npcs.sylvia,
+      refs.npcs.penelope,
+      refs.npcs.bob_the_gate_troll,
+      refs.npcs.light_13th_marshal,
+      refs.npcs.the_father,
     ],
+    severed: refs.effects.severed_bond_with_jim,
   },
   notes: [
     [

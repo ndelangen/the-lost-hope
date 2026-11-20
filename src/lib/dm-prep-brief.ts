@@ -117,7 +117,7 @@ function effectsSection(): string[] {
     if (!entity || effectEntry(entity).status !== 'active') return []
     const obligations = (effect.obligations ?? []).map((obligation) => obligation.label)
     return [
-      `- **${effect.name}** (refs.effects.${key}) on ${refText(effect.on)}${obligations.length > 0 ? `; must: ${obligations.join(', ')}` : ''}`,
+      `- **${effect.name}** (refs.effects.${key}) on ${effect.on.map(refText).join(', ')}${obligations.length > 0 ? `; must: ${obligations.join(', ')}` : ''}`,
     ]
   })
 }

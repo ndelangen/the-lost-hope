@@ -22,7 +22,7 @@ import {
 const vessel: LiveEffect = {
   slug: 'vessel',
   name: 'Vessel',
-  carrier: 'Jim',
+  bearers: 'Jim',
   beganDay: 10,
   expiryDay: undefined,
   data: {
@@ -78,7 +78,7 @@ describe('effect reminders', () => {
     const blessing: LiveEffect = {
       slug: 'blessing',
       name: 'Blessing',
-      carrier: 'Swift',
+      bearers: 'Swift',
       beganDay: 10,
       expiryDay: 12,
       data: { duration: { days: 2 } } as Effect,
