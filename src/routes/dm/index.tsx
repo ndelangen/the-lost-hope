@@ -81,7 +81,12 @@ function DmDashboard() {
             }}
           />
         ) : null}
-        <DmForetoldPanel pending={foretold.pending} cameTrue={foretold.cameTrue} today={today} />
+        <DmForetoldPanel
+          pending={foretold.pending}
+          cameTrue={foretold.cameTrue}
+          abandoned={foretold.abandoned}
+          today={today}
+        />
         <h1 className="text-3xl font-bold">Running order</h1>
         {order.length > 0 ? (
           <ol className="marker:text-muted-foreground grid list-decimal grid-cols-1 pl-6 marker:font-semibold">

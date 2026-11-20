@@ -2,10 +2,9 @@ import { Hourglass, Moon, Sparkles } from 'lucide-react'
 
 import { ContentRenderer } from '#/components/content-renderer'
 import { EventReference } from '#/components/event-reference'
-import type { Foretold, ForetoldWhen } from '#/definitions/foretold'
-import type { EntityRef } from '#/definitions/kind'
+import type { Foretold, ForetoldOutcome, ForetoldWhen } from '#/definitions/foretold'
 import { refLink } from '#/lib/campaign'
-import { formatForetoldWhen } from '#/lib/foretold'
+import { formatForetoldOutcome, formatForetoldWhen } from '#/lib/foretold'
 
 export function ForetoldWhenIcon({
   when,
@@ -19,7 +18,7 @@ export function ForetoldWhenIcon({
   return <Sparkles className={className} aria-hidden />
 }
 
-/** What a record promised or foretold, each with its timing and, once it happened, the event. */
+/** What a record promised or foretold, each with its timing or, once settled, how and where. */
 export function ForetoldList({ foretold }: { foretold: readonly Foretold[] }) {
   return (
     <ul className="grid gap-3">
@@ -28,8 +27,11 @@ export function ForetoldList({ foretold }: { foretold: readonly Foretold[] }) {
         <li key={index} className="border-border grid gap-1.5 rounded-lg border-l-4 py-1 pl-3">
           <p className="text-muted-foreground inline-flex items-center gap-1.5 text-xs font-semibold tracking-wider uppercase">
             <ForetoldWhenIcon when={entry.when} className="size-3.5" />
-            {entry.cameTrue ? 'Came true' : formatForetoldWhen(entry.when)}
-            {entry.cameTrue ? <CameTrueIn event={entry.cameTrue} /> : null}
+            {entry.outcome ? (
+              <ForetoldOutcomeLabel outcome={entry.outcome} />
+            ) : (
+              formatForetoldWhen(entry.when)
+            )}
           </p>
           <ContentRenderer content={entry.what} />
         </li>
@@ -38,14 +40,18 @@ export function ForetoldList({ foretold }: { foretold: readonly Foretold[] }) {
   )
 }
 
-/** The event in which a promise came true, as an inline link. */
-export function CameTrueIn({ event }: { event: EntityRef<'event'> }) {
-  const link = refLink(event)
-  if (!link) return null
+/** How a promise was settled, with the event in which it came true or was abandoned. */
+export function ForetoldOutcomeLabel({ outcome }: { outcome: ForetoldOutcome }) {
+  const link = refLink(outcome.event)
   return (
-    <span className="normal-case">
-      {' · '}
-      <EventReference slug={link.slug} label={link.name} />
-    </span>
+    <>
+      {formatForetoldOutcome(outcome)}
+      {link ? (
+        <span className="normal-case">
+          {' · '}
+          <EventReference slug={link.slug} label={link.name} />
+        </span>
+      ) : null}
+    </>
   )
 }

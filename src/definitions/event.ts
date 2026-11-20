@@ -79,7 +79,7 @@ export const EventSchema = deriveSlug(
       .array(Foretold)
       .min(1)
       .optional()
-      .describe('What was promised or foretold in this event, still to come or come true'),
+      .describe('What was promised or foretold in this event, still to come or settled'),
     background: Background,
   }),
 )

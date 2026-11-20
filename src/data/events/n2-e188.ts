@@ -52,7 +52,7 @@ export default createEvent({
           ' was already walking on two legs, then suggested he might be confusing timelines.',
         ],
       ],
-      cameTrue: refs.events.n2_e204,
+      outcome: { type: 'cameTrue', event: refs.events.n2_e204 },
     },
   ],
 })

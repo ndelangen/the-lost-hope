@@ -4,7 +4,7 @@ import { GiCrystalBall } from 'react-icons/gi'
 
 import { ContentRenderer } from '#/components/content-renderer'
 import { EntityReference } from '#/components/entity-reference'
-import { CameTrueIn } from '#/components/foretold-list'
+import { ForetoldOutcomeLabel } from '#/components/foretold-list'
 import { foretoldDueLabel, type ForetoldEntry, type ForetoldStatus } from '#/lib/foretold'
 import { cn } from '#/lib/utils'
 
@@ -35,10 +35,12 @@ const STATUS: Record<ForetoldStatus, { icon: ReactNode; tone: string }> = {
 export function DmForetoldPanel({
   pending,
   cameTrue,
+  abandoned,
   today,
 }: {
   pending: readonly ForetoldEntry[]
   cameTrue: readonly ForetoldEntry[]
+  abandoned: readonly ForetoldEntry[]
   today: number
 }) {
   return (
@@ -62,19 +64,34 @@ export function DmForetoldPanel({
           ))}
         </ul>
       )}
-      {cameTrue.length > 0 ? (
-        <details className="text-sm">
-          <summary className="text-muted-foreground cursor-pointer font-semibold">
-            Came true ({cameTrue.length})
-          </summary>
-          <ul className="mt-2 grid gap-2">
-            {cameTrue.map((entry) => (
-              <ForetoldRow key={entry.id} entry={entry} today={today} />
-            ))}
-          </ul>
-        </details>
-      ) : null}
+      <SettledForetold label="Came true" entries={cameTrue} today={today} />
+      <SettledForetold label="Abandoned" entries={abandoned} today={today} />
     </section>
+  )
+}
+
+/** A collapsed list of promises settled one way, hidden when there are none. */
+function SettledForetold({
+  label,
+  entries,
+  today,
+}: {
+  label: string
+  entries: readonly ForetoldEntry[]
+  today: number
+}) {
+  if (entries.length === 0) return null
+  return (
+    <details className="text-sm">
+      <summary className="text-muted-foreground cursor-pointer font-semibold">
+        {label} ({entries.length})
+      </summary>
+      <ul className="mt-2 grid gap-2">
+        {entries.map((entry) => (
+          <ForetoldRow key={entry.id} entry={entry} today={today} />
+        ))}
+      </ul>
+    </details>
   )
 }
 
@@ -83,7 +100,7 @@ function ForetoldRow({ entry, today }: { entry: ForetoldEntry; today: number }) 
   return (
     <li className="bg-card flex items-start gap-3 rounded-lg p-3">
       <span
-        className={cn('mt-0.5 shrink-0', entry.cameTrue ? 'text-muted-foreground' : status.tone)}
+        className={cn('mt-0.5 shrink-0', entry.outcome ? 'text-muted-foreground' : status.tone)}
       >
         {status.icon}
       </span>
@@ -91,14 +108,11 @@ function ForetoldRow({ entry, today }: { entry: ForetoldEntry; today: number }) 
         <p
           className={cn(
             'text-sm font-semibold',
-            entry.cameTrue ? 'text-muted-foreground' : status.tone,
+            entry.outcome ? 'text-muted-foreground' : status.tone,
           )}
         >
-          {entry.cameTrue ? (
-            <>
-              Came true
-              <CameTrueIn event={entry.cameTrue} />
-            </>
+          {entry.outcome ? (
+            <ForetoldOutcomeLabel outcome={entry.outcome} />
           ) : (
             foretoldDueLabel(entry, today)
           )}

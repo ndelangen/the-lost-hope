@@ -115,7 +115,9 @@ canon.
   is the item's own nature. The entry owns the text and the timing; do not repeat either in `notes`.
 - `when` is `within` or `after` a span counted from the event's day, or `fullMoon`. Omit it when no
   time was set. Write `what` without the timing: the pages and the DM dashboard show it.
-- Once it happens, set `cameTrue` to that event. Do not delete the entry.
+- Once it happens, set `outcome` to `{ type: 'cameTrue', event }`. When nobody will see it through
+  any more, set `{ type: 'abandoned', event }` with the event in which it was given up. Do not
+  delete the entry.
 - The DM dashboard derives the list of what is still to come. Only canon goes here: a hint or
   question counts when an NPC said it in play, never a guess about what it means.
 

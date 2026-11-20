@@ -1,12 +1,18 @@
 import { describe, expect, it } from 'vitest'
 
-import { eventProse, foretoldDueLabel, foretoldEntries, formatForetoldWhen } from './foretold'
+import {
+  eventProse,
+  foretoldDueLabel,
+  foretoldEntries,
+  formatForetoldOutcome,
+  formatForetoldWhen,
+} from './foretold'
 
 const bridge = [['The bridge opens.']]
 
 describe('foretoldEntries', () => {
   it('counts spans from the event day and orders the most pressing first', () => {
-    const { pending, cameTrue } = foretoldEntries(
+    const { pending, cameTrue, abandoned } = foretoldEntries(
       [
         {
           kind: 'item',
@@ -29,7 +35,14 @@ describe('foretoldEntries', () => {
           foretold: [
             { what: [['Finished.']], when: { type: 'within', span: { days: 3 } } },
             { what: bridge },
-            { what: [['Walks.']], cameTrue: { ref: 'event', key: 'n2_e204' } },
+            {
+              what: [['Walks.']],
+              outcome: { type: 'cameTrue', event: { ref: 'event', key: 'n2_e204' } },
+            },
+            {
+              what: [['Is famed.']],
+              outcome: { type: 'abandoned', event: { ref: 'event', key: 'n2_e212' } },
+            },
           ],
         },
       ],
@@ -42,6 +55,7 @@ describe('foretoldEntries', () => {
       ['yard', 'open', undefined],
     ])
     expect(cameTrue.map((entry) => entry.id)).toEqual(['event:yard:2'])
+    expect(abandoned.map((entry) => entry.id)).toEqual(['event:yard:3'])
   })
 
   it('marks a promise overdue once its day has passed', () => {
@@ -68,6 +82,8 @@ describe('labels', () => {
     expect(formatForetoldWhen({ type: 'after', span: { months: 4 } })).toBe('After 4 months')
     expect(formatForetoldWhen({ type: 'fullMoon' })).toBe('Next full moon')
     expect(formatForetoldWhen(undefined)).toBe('No set time')
+    expect(formatForetoldOutcome({ type: 'cameTrue' })).toBe('Came true')
+    expect(formatForetoldOutcome({ type: 'abandoned' })).toBe('Abandoned')
     expect(foretoldDueLabel({ when: { type: 'after', span: { days: 2 } }, dueDay: 26 }, 25)).toBe(
       'In 1 day · from day 26',
     )

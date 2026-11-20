@@ -44,7 +44,7 @@ export default createEvent({
         ],
       ],
       when: { type: 'after', span: { months: 4 } },
-      cameTrue: refs.events.n2_e115,
+      outcome: { type: 'cameTrue', event: refs.events.n2_e115 },
     },
   ],
 })

@@ -1,7 +1,6 @@
 import type { Content } from '#/definitions/content'
 import type { BondOutcomes } from '#/definitions/event'
-import type { Foretold, ForetoldWhen } from '#/definitions/foretold'
-import type { EntityRef } from '#/definitions/kind'
+import type { Foretold, ForetoldOutcome, ForetoldWhen } from '#/definitions/foretold'
 import { bondOutcomeProse } from '#/lib/bond-outcomes'
 import { formatSpan, spanDays } from '#/lib/effects'
 
@@ -21,7 +20,7 @@ export type ForetoldEntry = {
   /** The campaign day it is due, when `when` counts from a known day. */
   dueDay?: number
   status: ForetoldStatus
-  cameTrue?: EntityRef<'event'>
+  outcome?: ForetoldOutcome
 }
 
 /** What happened, without the separately rendered promises. */
@@ -41,6 +40,11 @@ export function eventProse(event: {
 export function foretoldDueDay(when: ForetoldWhen | undefined, fromDay: number | undefined) {
   if (!when || when.type === 'fullMoon' || fromDay === undefined) return undefined
   return fromDay + spanDays(when.span)
+}
+
+/** How a settled promise reads: `Came true` or `Abandoned`. */
+export function formatForetoldOutcome(outcome: Pick<ForetoldOutcome, 'type'>): string {
+  return outcome.type === 'cameTrue' ? 'Came true' : 'Abandoned'
 }
 
 /** How a promise's timing reads on a record page, e.g. `Within 3 days`. */
@@ -78,7 +82,8 @@ const STATUS_ORDER: Record<ForetoldStatus, number> = {
 
 /**
  * Every promise the records own, split into what is still to come (most pressing first: overdue,
- * due today, by due day, next full moon, then those with no set time) and what already came true.
+ * due today, by due day, next full moon, then those with no set time), what already came true, and
+ * what was abandoned.
  */
 export function foretoldEntries(sources: readonly ForetoldSource[], today: number) {
   const entries = sources.flatMap((source) =>
@@ -92,17 +97,21 @@ export function foretoldEntries(sources: readonly ForetoldSource[], today: numbe
         when: entry.when,
         dueDay,
         status: statusOf(entry.when, dueDay, today),
-        cameTrue: entry.cameTrue,
+        outcome: entry.outcome,
       }
     }),
   )
   const pending = entries
-    .filter((entry) => !entry.cameTrue)
+    .filter((entry) => !entry.outcome)
     .toSorted(
       (a, b) =>
         STATUS_ORDER[a.status] - STATUS_ORDER[b.status] ||
         (a.dueDay ?? 0) - (b.dueDay ?? 0) ||
         (b.source.day ?? 0) - (a.source.day ?? 0),
     )
-  return { pending, cameTrue: entries.filter((entry) => entry.cameTrue) }
+  return {
+    pending,
+    cameTrue: entries.filter((entry) => entry.outcome?.type === 'cameTrue'),
+    abandoned: entries.filter((entry) => entry.outcome?.type === 'abandoned'),
+  }
 }

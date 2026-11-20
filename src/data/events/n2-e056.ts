@@ -31,6 +31,7 @@ export default createEvent({
   foretold: [
     {
       what: [[refs.pcs.jim, ' helps ', refs.npcs.abraham, ' earn recognition from his peers.']],
+      outcome: { type: 'abandoned', event: refs.events.n2_e212 },
     },
   ],
 })

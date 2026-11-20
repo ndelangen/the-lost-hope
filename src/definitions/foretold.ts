@@ -27,12 +27,25 @@ export type ForetoldWhen = z.infer<typeof ForetoldWhen>
  * that opens under a full moon. The record that made the promise owns it; the DM dashboard derives
  * the list of what is still to come.
  */
+export const FORETOLD_OUTCOMES = ['cameTrue', 'abandoned'] as const
+
+/**
+ * How a promise was settled: it came true in an event, or it was abandoned in one, when nobody
+ * will see it through any more.
+ */
+export const ForetoldOutcome = z.strictObject({
+  type: z.enum(FORETOLD_OUTCOMES),
+  event: entityRefOf('event').describe('The event in which it came true or was given up'),
+})
+
 export const Foretold = z.strictObject({
   what: Content.describe('What will happen, without restating the timing in `when`'),
   when: ForetoldWhen.optional(),
-  cameTrue: entityRefOf('event')
-    .optional()
-    .describe('The event in which it happened. Omit while it is still to come.'),
+  outcome: ForetoldOutcome.optional().describe(
+    'How it was settled. Omit while it is still to come.',
+  ),
 })
 
+export type ForetoldOutcomeType = (typeof FORETOLD_OUTCOMES)[number]
+export type ForetoldOutcome = z.infer<typeof ForetoldOutcome>
 export type Foretold = z.infer<typeof Foretold>
