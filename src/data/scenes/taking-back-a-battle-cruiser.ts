@@ -286,14 +286,9 @@ export default createScene({
               refs.npcs.tempest_soldier,
               's lie on the floor among the bunks, tied up and ',
               refs.rules.unconscious,
-              '. They look like bodies, but they are not dead. They clearly wear the uniform of the ',
+              ', and they clearly look it: nobody would take them for dead. They wear the uniform of the ',
               refs.organizations.tempest_family,
               ', so the party can work out that they are likely allies.',
-            ],
-            [
-              'Anyone who takes a close look sees them breathing. From a distance, or in the middle of the fight, a DC 10 ',
-              refs.rules.medicine,
-              ' check tells.',
             ],
             [
               'Freeing them costs the party something: each soldier needs healing before they can fight, so it is the party’s own potions or Lay on Hands that get them up. The party may decide not to bother, and that is fine. Bring the ones they wake into the encounter then.',
