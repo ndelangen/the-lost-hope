@@ -205,7 +205,7 @@ the player site. Before handoff, check every public field you added or changed:
    question stays open.
 7. **No remarks about the source.** Public text describes the world, never the recording, transcript,
    notes or what they missed. Search the changed files for `recorded`, `transcript`, `recording`,
-   `unclear`, `inaudible`, `not established`, `not captured`, `Not stated`, `Open:` and `the user`;
+   `unclear`, `inaudible`, `not established`, `not captured`, `Not stated`, `Open:`, `author` and `the user`;
    rewrite each hit as what happened, or remove it and ask the DM. In-fiction uses, such as a scribe
    who recorded a meeting, are fine.
 

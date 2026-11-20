@@ -36,7 +36,7 @@ export default createEvent({
       refs.pcs.devan,
       ' discussed their surprise at the transformation and arranged for a tailor. The cause, timing, and connection to ',
       refs.pcs.cassian_veyl,
-      "'s own changes remained unresolved. The DM later confirmed that the ring still existed somewhere and remained bound to ",
+      "'s own changes remained unresolved. The ring still existed somewhere and remained bound to ",
       refs.pcs.cassian_veyl,
       '.',
     ],

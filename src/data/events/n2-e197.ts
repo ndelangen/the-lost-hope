@@ -13,7 +13,7 @@ export default createEvent({
       refs.npcs.sarogarth,
       ' lost ',
       refs.npcs.sylf,
-      ' in the final wager. The author confirmed which companion was lost; her destination and exact contractual fate are unknown.',
+      ' in the final wager. Where she went and what became of her contract are unknown.',
     ],
     [
       'Upset by the loss, ',
