@@ -21,7 +21,7 @@ export default createEvent({
       refs.pcs.devan,
       ' and ',
       refs.pcs.cassian_veyl,
-      ' in a state of exhaustion. ',
+      ' at exhaustion level 4. ',
       refs.pcs.devan,
       ' healed his injuries, but not the exhaustion. ',
       refs.npcs.crowy,

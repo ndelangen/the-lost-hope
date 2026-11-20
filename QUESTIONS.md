@@ -460,9 +460,9 @@ Every question must include **what we already know** — many sit unanswered acr
   - The pulse severed emotional bonds without erasing memories. The first beam was aimed at Jim but scattered over Nimbus for a reason explicitly unknown to the witnesses. The second made him disappear and left his belongings behind. Neither death nor a destination was established. His interrupted instruction to Swift only clearly includes taking the ship.
   - Part 1, 00:15 through 00:35. The prepared captor and explanation remain DM information, not a discovery or a resolved mystery.
 
-- Which other bonds survived the pulse, and can broken bonds recover?
-  - Cassian, Devan, Crowy, and the Father still cared about Jim. Swift and Fix did not. The table rolled for other characters, but the unlabeled transcript does not reliably preserve every result. Memories and shared history remain intact. Duration and removal conditions were not given.
-  - Part 1, 00:18 through 00:29. Do not assign outcomes from the prepared save roster.
+- Can broken bonds with Jim recover?
+  - Who kept and who lost the bond is recorded in the pulse event, from the DM's save tracker. Memories and shared history remain intact. While describing the pulse the DM said the field of connection is fragile but can slowly heal. No duration or removal condition was given.
+  - Part 1, 00:16 through 00:29.
 
 - Who showed Captain Garran the military medic’s badge?
   - A party member called themselves a lieutenant and tried to direct the soldiers into rescue work. Cassian supported the appeal with Suggestion. The first recording has no reliable speaker labels, so the badge-holder remains unidentified.

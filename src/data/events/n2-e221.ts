@@ -40,7 +40,7 @@ export default createEvent({
     ],
     [
       refs.beasts.captain_squawk,
-      ' had perched on the first capsule and was caught by the next impact. It was subsequently treated as lost. The route continued through the entry rooms and their connecting doorway.',
+      ' had perched on the first capsule and was killed when the next capsule struck it. The route continued through the entry rooms and their connecting doorway.',
     ],
   ],
 })
