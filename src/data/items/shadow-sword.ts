@@ -29,7 +29,7 @@ export default createItem({
     [
       'A finesse shortsword that deals 1d6 ',
       refs.rules.necrotic,
-      ' damage. Used in clear full moonlight, that weapon damage is quadrupled to 4d6, and so is the damage it turns back on an unattuned wielder.',
+      ' damage. Used in direct line of sight with the full moon, that weapon damage is quadrupled to 4d6, and so is the damage it turns back on an unattuned wielder.',
     ],
     [
       'Used unattuned, every hit deals the wielder the same ',
