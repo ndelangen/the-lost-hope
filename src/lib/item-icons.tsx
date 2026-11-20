@@ -7,6 +7,7 @@ import {
   GiBreastplate,
   GiToken,
   GiAncientSword,
+  GiScabbard,
   GiCloak,
   GiRing,
   GiShipBow,
@@ -70,6 +71,7 @@ export const ITEM_ICONS = {
   'gi/GiToken': GiToken,
 
   'gi/GiAncientSword': GiAncientSword,
+  'gi/GiScabbard': GiScabbard,
   'gi/GiCloak': GiCloak,
   'gi/GiRing': GiRing,
   'gi/GiShipBow': GiShipBow,

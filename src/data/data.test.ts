@@ -306,6 +306,7 @@ describe('items', () => {
       items.pocket_holy_text_of_grimgor.slug,
       items.robertos_map_pages.slug,
       items.shadow_sword.slug,
+      items.shadow_sword_sheath.slug,
       items.swifts_silver_container.slug,
     ])
     expect(itemsOwnedBy('pc', pcs.jim.slug)).toEqual([])
@@ -318,6 +319,7 @@ describe('items', () => {
       items.pocket_holy_text_of_grimgor.slug,
       items.robertos_map_pages.slug,
       items.shadow_sword.slug,
+      items.shadow_sword_sheath.slug,
       items.swifts_silver_container.slug,
     ])
     expect(itemsCarriedBy('pc', pcs.cassian_veyl.slug).map((item) => item.slug)).toEqual([

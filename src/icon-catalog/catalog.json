@@ -208708,7 +208708,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/scabbard.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/shadow-sword-sheath.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiScaleMail",
