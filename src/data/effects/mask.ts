@@ -12,10 +12,7 @@ export default createEffect({
     {
       label: 'Change appearance',
       within: { days: 1 },
-      otherwise: [
-        refs.rules.psychic,
-        ' damage as his true form tries to reassert itself. The amount is not recorded.',
-      ],
+      otherwise: [refs.rules.psychic, ' damage as his true form tries to reassert itself.'],
     },
   ],
 })

@@ -19,7 +19,7 @@ export default createEvent({
       refs.beasts.dragon_children,
       ').',
     ],
-    ['The dragon and the children remain unnamed. The exact number of children is not recorded.'],
+    ['The dragon and the children remain unnamed.'],
     [
       'Party: ',
       refs.pcs.jim,

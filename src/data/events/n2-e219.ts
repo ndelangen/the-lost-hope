@@ -44,7 +44,7 @@ export default createEvent({
       refs.npcs.onana_tempest,
       ' used Zone of Truth and attempted to read their thoughts. He asked whether they worked with ',
       refs.organizations.the_eyeless_hand,
-      ' and whether they were under the influence of Arcane Dust. The private written answers were not captured in the recording. His attempt to read ',
+      ' and whether they were under the influence of Arcane Dust. His attempt to read ',
       refs.pcs.cassian_veyl,
       '’s thoughts did not work on him.',
     ],

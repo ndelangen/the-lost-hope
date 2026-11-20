@@ -38,14 +38,14 @@ describe('entityContextData', () => {
     )
   })
 
-  it('preserves allegations and uncertainty verbatim from the event source', () => {
+  it('preserves allegations verbatim from the event source', () => {
     const allegation = celeste.history.find(
       (entry) => entry.event.name === 'The shipwright describes grievances against the Tempests',
     )
     expect(contentToText(allegation?.passages)).toContain(
       'She accused the former of owning slaves.',
     )
-    expect(contentToText(allegation?.passages)).toContain('too unclear to resolve')
+    expect(contentToText(allegation?.passages)).toContain('raised grievances against')
     expect(celeste.connections.map((connection) => connection.target.name)).toEqual([
       'Tempest Family',
     ])

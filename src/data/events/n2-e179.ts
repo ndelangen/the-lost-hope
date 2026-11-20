@@ -14,10 +14,10 @@ export default createEvent({
       refs.items.little_purple,
       '. They chose crystal power over coal and requested a mast, discussing a place for the ',
       refs.items.obsidian_green_rod,
-      ' at its highest point. Installation of the rod was not recorded.',
+      ' at its highest point.',
     ],
     [
-      'A roll selected a mermaid figurehead, but the party removed it while negotiating the price. The quote fell from 4,600 gold through several revisions to an agreement of 3,950 gold and two favors. The individual contributions are unclear. Construction began.',
+      'A roll selected a mermaid figurehead, but the party removed it while negotiating the price. The quote fell from 4,600 gold through several revisions to an agreement of 3,950 gold and two favors. Construction began.',
     ],
   ],
   foretold: [

@@ -30,14 +30,7 @@ export default createEvent({
   ],
   foretold: [
     {
-      what: [
-        [
-          refs.pcs.jim,
-          ' helps ',
-          refs.npcs.abraham,
-          ' earn recognition from his peers. Who those peers are remains unclear.',
-        ],
-      ],
+      what: [[refs.pcs.jim, ' helps ', refs.npcs.abraham, ' earn recognition from his peers.']],
     },
   ],
 })

@@ -15,12 +15,7 @@ export default createEvent({
       refs.effects.whispers,
       '.',
     ],
-    [
-      refs.pcs.cassian_veyl,
-      ' drew ',
-      refs.effects.hunger,
-      '. His later discussion with the DM confirms the recipient despite the missing announcement in the recording.',
-    ],
+    [refs.pcs.cassian_veyl, ' drew ', refs.effects.hunger, '.'],
     [
       refs.pcs.swift_starblade,
       ' initially drew an alignment change to lawful good. He spent two DM tokens and received a curse token to replace that draw with Sun. The DM substituted a magic item for the experience award because the campaign uses milestones. The ',

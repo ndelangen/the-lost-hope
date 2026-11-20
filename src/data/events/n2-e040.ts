@@ -16,11 +16,9 @@ export default createEvent({
     ],
     ['The dinos lost interest in chasing them here.'],
     [
-      'Open: it is unclear whether the dinos were even hostile — they rode toward ',
+      'The dinos had been riding toward ',
       refs.locations.fairhaven,
-      ' and gave chase when spotted, but the chase stopped on its own. Whether they were predators, scouts, or just curious is open. Why were the dinos headed to ',
-      refs.locations.fairhaven,
-      '? Not stated.',
+      ' and gave chase when they spotted the party, but the chase stopped on its own.',
     ],
     [
       'The party spent the night in ',
@@ -29,9 +27,7 @@ export default createEvent({
       refs.locations.fairhaven,
       '.',
     ],
-    [
-      'Where the dwarf and the pirate were remained open — they were last seen missing after the dragon flight.',
-    ],
+    ['The dwarf and the pirate had been missing since the dragon flight.'],
     [
       'Party: ',
       refs.pcs.jim,

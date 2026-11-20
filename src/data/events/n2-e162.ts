@@ -11,7 +11,7 @@ export default createEvent({
       refs.pcs.jim,
       ' returned to the ',
       refs.locations.gruumsh_war_temple,
-      ' and found only a dent where the building had stood. A remaining worshipper said the war party had shrunk the temple and was carrying it to the cathedral with the relics. Its present destination and location were not established.',
+      ' and found only a dent where the building had stood. A remaining worshipper said the war party had shrunk the temple and was carrying it to the cathedral with the relics.',
     ],
     [
       'The worshipper returned the ',

@@ -16,9 +16,6 @@ export default createEvent({
     ],
     ['On a natural 20, all party members got to fly a dragon down.'],
     [
-      'Note (improbable outcome): a natural-20 outcome for 5 PCs is strong DM fiat — recorded as stated.',
-    ],
-    [
       'Party: ',
       refs.pcs.jim,
       ', ',

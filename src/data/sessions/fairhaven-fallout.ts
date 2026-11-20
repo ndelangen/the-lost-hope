@@ -8,14 +8,7 @@ export default createSession({
   date: new Date('2026-04-30'),
   events: [refs.events.n2_e086, refs.events.n2_e087, refs.events.n2_e061, refs.events.n2_e062],
   notes: [
-    [
-      refs.pcs.jim,
-      ', ',
-      refs.pcs.devan,
-      ', and ',
-      refs.pcs.swift_starblade,
-      ' were confirmed present for the reconstructed alchemist investigation and court scenes.',
-    ],
+    [refs.pcs.jim, ', ', refs.pcs.devan, ', and ', refs.pcs.swift_starblade, ' were present.'],
     ['Ryan continued playing ', refs.pcs.victor_dranzig, '.'],
   ],
 })

@@ -16,7 +16,7 @@ export default createEvent({
       refs.locations.jim_s_room_at_skynet_s_second_best_inn,
       ' and started a fire, causing at least some ',
       refs.rules.fire,
-      ' damage. The fire was apparently put out and the room is assumed to have remained intact, but the exact damage was not established. ',
+      ' damage. ',
       refs.pcs.jim,
       ' was not wearing ',
       refs.items.jim_s_kenku_suit,

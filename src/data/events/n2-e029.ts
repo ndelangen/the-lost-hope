@@ -12,7 +12,6 @@ export default createEvent({
     [
       'The DM showed what official shadow monster (from the monster manual) they would have fought if the chase had failed.',
     ],
-    ['Open: is this the same phenomenon as session 1 tentacles at ', refs.locations.the_nest, '?'],
     [
       'Party: ',
       refs.pcs.jim,

@@ -11,7 +11,7 @@ export default createEvent({
       refs.pcs.jim,
       ' began an urgent warning to ',
       refs.pcs.swift_starblade,
-      ', telling him to take a ship, but a second beam from the flying fortress interrupted him. The rest of his instruction was not recorded clearly.',
+      ', telling him to take a ship, but a second beam from the flying fortress interrupted him.',
     ],
     [
       refs.pcs.jim,

@@ -11,7 +11,7 @@ export default createEvent({
       refs.pcs.william_greenhove,
       ' had a private experience in the ',
       refs.locations.fajanet_guildhall_bathroom,
-      '. Its details are not recorded.',
+      '.',
     ],
     [
       'This personal story will not continue because ',

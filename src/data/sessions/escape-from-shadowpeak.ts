@@ -33,7 +33,7 @@ export default createSession({
       refs.pcs.jim,
       ' for the party’s inventive escape. Johan received none because ',
       refs.pcs.swift_starblade,
-      ' was absent. Applying the awards remains an action item.',
+      ' was absent.',
     ],
     [
       refs.pcs.swift_starblade,

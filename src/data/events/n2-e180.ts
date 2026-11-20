@@ -15,7 +15,7 @@ export default createEvent({
       ', their bodies could return to nature; here, selected dead became ships for a final journey around the world.',
     ],
     [
-      "She described it as a funerary custom rather than abuse of the dead. The conversation also mentioned hostile ents from a destroyed whispering forest, but the forest's name and location are unclear.",
+      'She described it as a funerary custom rather than abuse of the dead. The conversation also mentioned hostile ents from a destroyed whispering forest.',
     ],
   ],
 })

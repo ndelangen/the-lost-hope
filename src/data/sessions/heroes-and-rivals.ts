@@ -14,14 +14,7 @@ export default createSession({
     refs.events.n2_e059,
   ],
   notes: [
-    [
-      refs.pcs.jim,
-      ', ',
-      refs.pcs.devan,
-      ', and ',
-      refs.pcs.swift_starblade,
-      ' were confirmed present for this session.',
-    ],
+    [refs.pcs.jim, ', ', refs.pcs.devan, ', and ', refs.pcs.swift_starblade, ' were present.'],
     [
       'Ryan played ',
       refs.pcs.victor_dranzig,

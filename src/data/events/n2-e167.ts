@@ -17,7 +17,7 @@ export default createEvent({
       '. Letters appeared in a demonic language, with a diagram of a magic circle for a crossroads.',
     ],
     [
-      'The instructions called for the heart of an innocent in the candlelit centre of the circle. The exact handling of the heart is unclear in the transcript. The party did not perform the ritual.',
+      'The instructions called for the heart of an innocent in the candlelit centre of the circle. The party did not perform the ritual.',
     ],
   ],
 })

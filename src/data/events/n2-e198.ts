@@ -14,7 +14,7 @@ export default createEvent({
       ' as Jimmy boy, said he looked forward to his new suit, and again suggested that becoming the Father would suit him. These were hints, not a confirmed future or a revealed identity.',
     ],
     [
-      "Other remarks about the party's prospects have unclear addressees in the transcript. His question about ",
+      'His question about ',
       refs.beasts.wolfie,
       ' walking on two legs remained unexplained. The party had found him, but still did not understand his knowledge of possible futures.',
     ],

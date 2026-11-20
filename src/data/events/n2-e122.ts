@@ -23,7 +23,7 @@ export default createEvent({
       refs.pcs.jim,
       ' was. It indicated that ',
       refs.organizations.the_eyeless_hand,
-      ' was backing off somewhat, but the reason and exact meaning were not established.',
+      ' was backing off somewhat, but it did not say why.',
     ],
     [
       'It remains unknown whether the pages disclosed ',

@@ -15,11 +15,6 @@ export default createEvent({
       ' bulletin-board quest.',
     ],
     [refs.npcs.rare_animal_dealer, ' is missing 3 animals. The party agreed to recover them.'],
-    [
-      'Originally filed as “rare-animal trainer”; per this session the in-fiction identity is ',
-      refs.npcs.rare_animal_dealer,
-      '.',
-    ],
     ['Party: ', refs.pcs.jim, ', ', refs.pcs.william_greenhove, ', ', refs.pcs.revin_grumblefist],
   ],
 })

@@ -60,7 +60,9 @@ describe('Session 17 transcript import', () => {
       expect.arrayContaining([refs.effects.voidwalker, refs.effects.whispers, refs.effects.vessel]),
     )
     expect(effects.voidwalker.ended).toBeUndefined()
-    expect(events.n2_e203.notes.flat().join(' ')).toContain('before a theft, departure, or arrival')
+    const shipTheftNotes = events.n2_e203.notes.flat().join(' ')
+    expect(shipTheftNotes).toContain('discussed stealing a ship from the harbour')
+    expect(shipTheftNotes).toContain('could not fly freely across the gap')
     expect(events.n2_e204.notes.flat()).toContainEqual(refs.pcs.devan)
     expect(items.devan_s_plate_armour.carriedBy).toBeNull()
     expect(quests.find_the_fiddler.status).toBe('open')

@@ -15,13 +15,11 @@ export default createEvent({
     ],
     [
       refs.npcs.abraham,
-      ' rescued the party for the second recorded time, after the first rescue during ',
+      ' rescued the party for the second time, after the first rescue during ',
       refs.events.n2_e039,
       ', but the rushed escape caused multiple innocent casualties. The consequences will weigh on ',
       refs.pcs.jim,
-      '; whether they affected ',
-      refs.npcs.abraham,
-      ' is unclear.',
+      '.',
     ],
   ],
 })

@@ -8,7 +8,7 @@ export default createEvent({
   mark: { type: 'icon', name: 'gi/GiMonsterGrasp' },
   notes: [
     [
-      'The festival activities recorded during ',
+      'The festival activities during ',
       refs.events.n2_e065,
       ' were interrupted by an invasion unrelated to the dinosaurs connected to ',
       refs.quests.dino_migration,

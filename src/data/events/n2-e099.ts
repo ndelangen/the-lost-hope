@@ -46,11 +46,7 @@ export default createEvent({
       refs.npcs.sylvia,
       ' said the marriage would settle the dispute between her family and the ',
       refs.organizations.starblade_family,
-      '. The exact identities and whereabouts of ',
-      refs.npcs.swift_starblade_s_younger_sister,
-      ' and ',
-      refs.npcs.sylvia_s_brother,
-      ' remain unconfirmed.',
+      '.',
     ],
     [
       refs.npcs.sylvia,

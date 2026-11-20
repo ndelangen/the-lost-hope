@@ -14,7 +14,7 @@ export default createEvent({
       refs.locations.nimbus,
       ' and travelled to ',
       refs.locations.skynet,
-      '. Their means of transport is not recorded.',
+      '.',
     ],
   ],
 })

@@ -10,7 +10,7 @@ export default createEvent({
     [
       'After deboarding, two zombies attacked the party at ',
       refs.locations.fajanet_docks,
-      '. The party fought them off. Injuries sustained: not recorded.',
+      '. The party fought them off.',
     ],
     ['Party: ', refs.pcs.jim, ', ', refs.pcs.william_greenhove, ', ', refs.pcs.revin_grumblefist],
   ],

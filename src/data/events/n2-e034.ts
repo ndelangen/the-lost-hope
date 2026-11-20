@@ -20,11 +20,6 @@ export default createEvent({
       ' was his real name.',
     ],
     [
-      'Open: what did the other PCs say? Not stated. ',
-      refs.npcs.misha,
-      ' burned the letter — what did that mean? Not stated.',
-    ],
-    [
       'Party: ',
       refs.pcs.jim,
       ', ',

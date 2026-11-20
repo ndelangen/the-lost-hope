@@ -16,7 +16,7 @@ export default createEvent({
       refs.npcs.celeste_tempest,
       ' and ',
       refs.npcs.brend_tempest,
-      '. She accused the former of owning slaves. Her explanation involving a fiancée or former partner is too unclear to resolve.',
+      '. She accused the former of owning slaves.',
     ],
     [
       'She accused ',

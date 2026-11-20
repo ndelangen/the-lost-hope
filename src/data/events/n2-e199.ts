@@ -6,11 +6,9 @@ export default createEvent({
   notes: [
     [
       refs.pcs.devan,
-      ' attempted to locate something the transcript calls Carl. The DM ruled that it was not on ',
+      ' tried to locate something. The DM ruled that it was not on ',
       refs.locations.nimbus,
-      ' and gave a direction to the south. The target and means of locating it are unclear, so this is not identified as ',
-      refs.npcs.grimgor_the_bloody,
-      "'s tomb or bones.",
+      ' and gave a direction to the south.',
     ],
   ],
   day: 24,

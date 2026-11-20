@@ -25,7 +25,7 @@ export default createEvent({
       refs.pcs.jim,
       ' has met ',
       refs.npcs.light_13th_marshal,
-      ' one-on-one, separate from the rest of the party. The content of their conversation is not recorded.',
+      ' one-on-one, separate from the rest of the party.',
     ],
   ],
 })

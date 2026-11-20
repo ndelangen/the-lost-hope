@@ -16,7 +16,7 @@ export default createEffect({
           refs.pcs.jim,
           ' must succeed on a ',
           refs.rules.saving_throw,
-          ' to benefit from the long rest. The exact roll is not recorded.',
+          ' to benefit from the long rest.',
         ],
       ],
     },

@@ -146,9 +146,15 @@ ordered events, and links into the DM prep. Follow sections 2 to 5 for every rec
    force, and the ref to write for each. Read the full `src/data/arcs/<slug>.ts`, scene and NPC files for any thread the notes touch.
 2. **Let the notes decide what happened.** Prep only helps you recognise a thread. Never record a
    prepared scene, outcome or hook as an event unless the source says it happened. When play went
-   somewhere prep did not expect, record what happened; do not bend it toward the prep. Keep the
-   source's uncertainty: say "seems", "claims" or "may" where the notes do, and add a
-   `QUESTIONS.md` entry when an open fact matters.
+   somewhere prep did not expect, record what happened; do not bend it toward the prep. Keep
+   in-fiction uncertainty: say "seems", "claims" or "may" where the characters were unsure, and add
+   a `QUESTIONS.md` entry when an open story fact matters.
+   **Ask the DM, never note the gap.** When the transcript or notes are unclear, inaudible or
+   incomplete about what happened at the table, collect every such gap and ask the DM as one short
+   numbered list before writing it. Never write a placeholder or a remark about the source in the
+   data: no "not recorded", "unclear in the transcript", "the recording ended", "not established",
+   "Open: ... Not stated", "the user does not remember" or editing notes such as "originally filed
+   as". Write only what happened; until the DM answers, leave the gap out.
 3. **Create the session and its events** as section 5 describes: next `n2-e###` ids, campaign
    `day`, ordered references in the session, `mark`, and refs for every named record. New NPCs,
    places and items follow sections 3 to 5. When the notes show an effect taking hold, create an
@@ -197,6 +203,11 @@ the player site. Before handoff, check every public field you added or changed:
    "claims"), not as confirmed fact, unless the table confirmed it.
 6. **Quests.** Clues and conclusions follow the same rules: player knowledge only, and an open
    question stays open.
+7. **No remarks about the source.** Public text describes the world, never the recording, transcript,
+   notes or what they missed. Search the changed files for `recorded`, `transcript`, `recording`,
+   `unclear`, `inaudible`, `not established`, `not captured`, `Not stated`, `Open:` and `the user`;
+   rewrite each hit as what happened, or remove it and ask the DM. In-fiction uses, such as a scribe
+   who recorded a meeting, are fine.
 
 Report any line you removed or reworded for this check.
 

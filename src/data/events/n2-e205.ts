@@ -12,7 +12,7 @@ export default createEvent({
       refs.pcs.jim,
       ' spoke with ',
       refs.npcs.hollin_slowbough,
-      ', one of the ents who work the yard. What they talked about was not recorded.',
+      ', one of the ents who work the yard.',
     ],
   ],
 })

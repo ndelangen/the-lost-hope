@@ -11,10 +11,6 @@ export default createEvent({
       'The party reached a puzzle room with 5 elements chasing each other. The party solved the puzzle.',
     ],
     [
-      'Open: what 5 elements? Not stated. (Likely a classical element set: water, fire, earth, air, aether — but the user did not name them.)',
-    ],
-    ['Open: how was it solved? Not stated.'],
-    [
       'Party: ',
       refs.pcs.jim,
       ', ',

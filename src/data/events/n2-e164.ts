@@ -11,7 +11,7 @@ export default createEvent({
       refs.npcs.sarogarth,
       ' agreed to accompany the party to ',
       refs.locations.tempest,
-      ', despite wanting to reach solid ground. They discussed the noble rulers and colosseum on the third island. The session ended before travel was recorded.',
+      ', despite wanting to reach solid ground. They discussed the noble rulers and colosseum on the third island.',
     ],
     [
       'Because ',

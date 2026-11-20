@@ -86,9 +86,7 @@ export default createEvent({
     ],
     [
       refs.npcs.the_fiddler,
-      ' also warned the party not to enter the third dungeon on their second day there. The island meant by this warning is not established. The transcript preserves no distinct post-game question addressed specifically to ',
-      refs.pcs.cassian_veyl,
-      '.',
+      ' also warned the party not to enter the third dungeon on their second day there.',
     ],
   ],
   foretold: [

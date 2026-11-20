@@ -15,7 +15,7 @@ export default createEvent({
     [
       'The party returned to asking about weaknesses or possessions of ',
       refs.npcs.anton_tempest,
-      '. A statue was mentioned, but its description and whether anyone accepted a task involving it were not preserved clearly before the recording ended.',
+      '.',
     ],
   ],
 })

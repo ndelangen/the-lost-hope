@@ -13,13 +13,6 @@ export default createEffect({
       refs.npcs.sarogarth,
       ' wither and die. Animals and beasts become hostile and attack him on sight.',
     ],
-    [
-      'How it affects ',
-      refs.npcs.dax,
-      ' and ',
-      refs.npcs.sylf,
-      ', who are not animals, is not established.',
-    ],
   ],
   removal: [['Nothing: the DM ruled that neither a Wish nor divine intervention can remove it.']],
 })
