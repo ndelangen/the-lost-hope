@@ -28,9 +28,9 @@ export function DmOverviewSceneRow({
         className="hover:bg-muted/50 flex items-center gap-3 rounded-md px-2 py-1.5"
       >
         {leading}
-        {scene.illustration ? (
+        {scene.illustrations[0] ? (
           <ResponsiveImage
-            src={scene.illustration}
+            src={scene.illustrations[0]}
             alt=""
             sizes="48px"
             maxWidth={160}

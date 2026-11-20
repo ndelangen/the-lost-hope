@@ -3,7 +3,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 
 export default createScene({
   name: 'Boarded by the battle-cruiser',
-  illustration: '/assets/scenes/boarded-by-the-battle-cruiser.png',
+  illustrations: ['/assets/scenes/boarded-by-the-battle-cruiser.png'],
   location: refs.locations.beasts_and_dwarf_s_airship_decks,
   alternateLocations: [refs.locations.sky_bridge_ferry],
   battleMaps: [

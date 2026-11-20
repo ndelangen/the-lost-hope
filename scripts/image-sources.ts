@@ -21,6 +21,18 @@ export type ResponsiveImageSource = {
 
 export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
   {
+    id: 'scenes-boarding-ball-loading',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/boarding-ball-loading.png',
+    repositoryPath: 'assets/images/content/scenes/boarding-ball-loading.png',
+  },
+  {
+    id: 'scenes-boarding-ball-impact',
+    role: 'illustration',
+    logicalSource: '/assets/scenes/boarding-ball-impact.png',
+    repositoryPath: 'assets/images/content/scenes/boarding-ball-impact.png',
+  },
+  {
     id: 'scenes-chaos-on-the-sky-islands',
     role: 'illustration',
     logicalSource: '/assets/scenes/chaos-on-the-sky-islands.png',

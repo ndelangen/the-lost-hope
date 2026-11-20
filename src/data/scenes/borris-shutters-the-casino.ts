@@ -3,7 +3,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 
 export default createScene({
   name: 'Borris shutters the casino',
-  illustration: '/assets/scenes/borris-shutters-the-casino.png',
+  illustrations: ['/assets/scenes/borris-shutters-the-casino.png'],
   location: refs.locations.borris_s_gambling_den,
   battleMaps: [refs.locations.borris_s_gambling_den],
   npcs: [refs.npcs.borris, refs.npcs.crowy],

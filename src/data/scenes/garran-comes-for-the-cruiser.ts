@@ -3,7 +3,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 
 export default createScene({
   name: 'Garran comes for the cruiser',
-  illustration: '/assets/scenes/garran-comes-for-the-cruiser.png',
+  illustrations: ['/assets/scenes/garran-comes-for-the-cruiser.png'],
   location: refs.locations.ride_the_lightning_main_deck,
   battleMaps: [
     refs.locations.ride_the_lightning_main_deck,

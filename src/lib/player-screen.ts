@@ -56,12 +56,21 @@ export function resolvePlayerScreenImage(
     // Handouts are props the players hold; their names stay off the screen.
     return { src, name: handout.name, slug: selection.ref.key, group: 'Handouts', met: true }
   }
-  if (selection.ref.ref === 'scene') {
-    const scene = record<Named & { illustration?: string }>(scenes, selection.ref.key)
-    const src = realImage(scene?.illustration)
+  if ('index' in selection) {
+    const scene = record<Named & { illustrations: string[] }>(scenes, selection.ref.key)
+    const src = realImage(scene?.illustrations[selection.index])
     // Scenes are DM prep: their names are never shown to players.
     return scene && src
-      ? { src, name: scene.name, slug: scene.slug, group: 'Scenes', met: false }
+      ? {
+          src,
+          name:
+            scene.illustrations.length > 1
+              ? `${scene.name} · ${selection.index + 1} of ${scene.illustrations.length}`
+              : scene.name,
+          slug: scene.slug,
+          group: 'Scenes',
+          met: false,
+        }
       : undefined
   }
 
@@ -115,10 +124,13 @@ export function playerScreenOptions(): PlayerScreenOption[] {
       image: 'handout',
       ref: { ref: 'handout', key },
     })),
-    ...Object.keys(scenes).map((key): PlayerScreenImage => ({
-      image: 'illustration',
-      ref: { ref: 'scene', key },
-    })),
+    ...Object.entries(scenes).flatMap(([key, scene]) =>
+      scene.illustrations.map((_, index): PlayerScreenImage => ({
+        image: 'illustration',
+        ref: { ref: 'scene', key },
+        index,
+      })),
+    ),
     ...Object.keys(SOURCE_REGISTRIES.location).flatMap((key): PlayerScreenImage[] => [
       { image: 'map', ref: { ref: 'location', key } },
       { image: 'illustration', ref: { ref: 'location', key } },

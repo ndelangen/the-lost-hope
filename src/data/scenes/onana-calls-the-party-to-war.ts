@@ -3,7 +3,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 
 export default createScene({
   name: 'Onana calls the party to war',
-  illustration: '/assets/scenes/onana-calls-the-party-to-war.png',
+  illustrations: ['/assets/scenes/onana-calls-the-party-to-war.png'],
   location: refs.locations.master_of_puppets_commanders_office,
   battleMaps: [
     refs.locations.master_of_puppets_main_deck,
