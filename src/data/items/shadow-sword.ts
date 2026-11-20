@@ -18,7 +18,11 @@ export default createItem({
     ],
   ],
   background: [
-    ['The party has not learned these rules yet.'],
+    [
+      'The party has not learned these rules yet. No one has ever been attuned to it, ',
+      refs.pcs.jim,
+      ' included.',
+    ],
     [
       'Attunement can only be attempted in absolute darkness, and only by a creature that has and owns its own soul. Attuning embeds the wielder’s soul into the blade.',
     ],

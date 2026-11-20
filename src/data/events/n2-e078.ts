@@ -22,7 +22,7 @@ export default createEvent({
       refs.items.cursed_shadow_sword,
       '. A shadow flew from it, strangled a wolf to death in one strike, then struck ',
       refs.pcs.jim,
-      ' and left him near death. ',
+      ' and left him near death. It was a full moon, and the blow dealt 4d6 to both the wolf and him. ',
       refs.pcs.cassian_veyl,
       ' revived him.',
     ],
