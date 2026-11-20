@@ -8,19 +8,29 @@ import {
   contentToText,
   entityHref,
   entityTeaser,
+  events,
   eventLocation,
+  getEntity,
   eventMarkVisual,
   locationParent,
   npcLocation,
   pcStatLine,
   sessionNumber,
+  sessionSlugForEvent,
   type Entity,
   type EventMarkVisual,
 } from '#/lib/campaign'
 
 export const SOCIAL_PREVIEW_VERSION = 'world-window-v2'
 
-export type PublicPageKind = 'home' | 'intro' | 'questions' | 'collection' | 'locations' | 'detail'
+export type PublicPageKind =
+  | 'home'
+  | 'intro'
+  | 'questions'
+  | 'collection'
+  | 'locations'
+  | 'detail'
+  | 'connections'
 
 export type PublicPageDescriptor = {
   path: string
@@ -76,6 +86,17 @@ const COLLECTION_DESCRIPTIONS: Record<EntityKind, string> = {
 }
 
 const STATIC_PAGES: readonly PublicPageDescriptor[] = [
+  {
+    path: '/pcs/detail/jim/connections',
+    pageKind: 'connections',
+    title: "Jim's connections",
+    description: 'Who kept their emotional bond with Jim, and whose bond the fortress pulse broke.',
+    eyebrow: 'Bonds after the pulse',
+    context: `Session ${sessionNumber(sessionSlugForEvent(events.n2_e207.slug)!)} · Day ${events.n2_e207.day}`,
+    footnote: 'Explore the campaign',
+    imageCandidate: getEntity('pc', 'jim')!.data.avatar,
+    ...KIND_COLORS.pc,
+  },
   {
     path: '/',
     pageKind: 'home',
@@ -274,8 +295,8 @@ export function validatePublicPageDescriptors(): string[] {
     if (!page.title.trim()) errors.push(`Missing title: ${page.path}`)
     if (!page.description.trim()) errors.push(`Missing description: ${page.path}`)
   }
-  if (PUBLIC_PAGE_DESCRIPTORS.length !== 553) {
-    errors.push(`Expected 553 public pages, found ${PUBLIC_PAGE_DESCRIPTORS.length}`)
+  if (PUBLIC_PAGE_DESCRIPTORS.length !== 554) {
+    errors.push(`Expected 554 public pages, found ${PUBLIC_PAGE_DESCRIPTORS.length}`)
   }
   return errors
 }

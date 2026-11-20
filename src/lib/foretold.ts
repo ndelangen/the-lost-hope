@@ -1,6 +1,8 @@
 import type { Content } from '#/definitions/content'
+import type { BondOutcomes } from '#/definitions/event'
 import type { Foretold, ForetoldWhen } from '#/definitions/foretold'
 import type { EntityRef } from '#/definitions/kind'
+import { bondOutcomeProse } from '#/lib/bond-outcomes'
 import { formatSpan, spanDays } from '#/lib/effects'
 
 /** A record that can own promises: the event that made them, or an item bound to act later. */
@@ -22,9 +24,18 @@ export type ForetoldEntry = {
   cameTrue?: EntityRef<'event'>
 }
 
+/** What happened, without the separately rendered promises. */
+export function eventNarrative(event: { notes: Content; bondOutcomes?: BondOutcomes }): Content {
+  return [...event.notes, ...bondOutcomeProse(event.bondOutcomes)]
+}
+
 /** An event's full account: what happened, then what was promised or foretold in it. */
-export function eventProse(event: { notes: Content; foretold?: readonly Foretold[] }): Content {
-  return [...event.notes, ...(event.foretold ?? []).flatMap((entry) => entry.what)]
+export function eventProse(event: {
+  notes: Content
+  bondOutcomes?: BondOutcomes
+  foretold?: readonly Foretold[]
+}): Content {
+  return [...eventNarrative(event), ...(event.foretold ?? []).flatMap((entry) => entry.what)]
 }
 
 export function foretoldDueDay(when: ForetoldWhen | undefined, fromDay: number | undefined) {

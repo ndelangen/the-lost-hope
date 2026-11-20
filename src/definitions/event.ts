@@ -25,10 +25,47 @@ const EventMark = z.discriminatedUnion('type', [
 
 export type EventMark = z.infer<typeof EventMark>
 
+const CharacterRef = z.union([entityRefOf('pc'), entityRefOf('npc'), entityRefOf('beast')])
+
+const BondOutcome = z.discriminatedUnion('state', [
+  z.strictObject({ who: CharacterRef, state: z.literal('retained') }),
+  z.strictObject({ who: CharacterRef, state: z.literal('severed'), effect: entityRefOf('effect') }),
+])
+
+export const BondOutcomes = z
+  .strictObject({
+    toward: CharacterRef,
+    outcomes: z.array(BondOutcome).min(1),
+  })
+  .superRefine(({ toward, outcomes }, ctx) => {
+    const seen = new Set<string>()
+    for (const [index, outcome] of outcomes.entries()) {
+      const id = `${outcome.who.ref}:${outcome.who.key}`
+      if (seen.has(id))
+        ctx.addIssue({
+          code: 'custom',
+          path: ['outcomes', index, 'who'],
+          message: 'A bond has one outcome per character',
+        })
+      if (outcome.who.ref === toward.ref && outcome.who.key === toward.key)
+        ctx.addIssue({
+          code: 'custom',
+          path: ['outcomes', index, 'who'],
+          message: 'A bond outcome needs two different characters',
+        })
+      seen.add(id)
+    }
+  })
+
+export type BondOutcomes = z.infer<typeof BondOutcomes>
+
 export const EventSchema = deriveSlug(
   z.strictObject({
     name: z.string(),
     notes: Content,
+    bondOutcomes: BondOutcomes.optional().describe(
+      'Recorded emotional bonds after an event; directed toward one character',
+    ),
     day: z.number().int().positive(),
     location: EntityRefSchema,
     mark: EventMark,

@@ -13,7 +13,7 @@ import { PLAYER_VISIBLE_KEYS, SOURCE_REGISTRIES } from '#/lib/campaign-registrie
 import { arcs, creatures, plotCast, scenes, table } from '#/lib/dm-campaign'
 import { refText, sourceText } from '#/lib/dm-prep-brief'
 import { buildStorylines, campaignSessionsInOrder } from '#/lib/dm-storylines'
-import { eventProse } from '#/lib/foretold'
+import { eventNarrative, eventProse } from '#/lib/foretold'
 import { DM_FIELDS, stripDmFields } from '#/lib/player-visibility'
 import { splitQuestionsMarkdown } from '#/lib/questions'
 
@@ -818,7 +818,10 @@ function factSheet(ref: KnowledgeRef): string {
   if (ref.ref === 'npc') {
     out.push(npcMotiveSheet(ref).split('\n').slice(2).join('\n'))
   } else {
-    if (record.notes) out.push(`known to players: ${sourceText(record.notes)}`)
+    if (record.notes)
+      out.push(
+        `known to players: ${sourceText(ref.ref === 'event' ? eventNarrative(record as Event) : record.notes)}`,
+      )
     if (record.background) out.push(`background [DM-only]: ${sourceText(record.background)}`)
     if (ref.ref === 'arc' || ref.ref === 'scene') out.push(renderRecord(ref, record, true))
   }

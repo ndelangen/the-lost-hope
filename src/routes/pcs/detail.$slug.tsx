@@ -1,4 +1,4 @@
-import { createFileRoute, notFound } from '@tanstack/react-router'
+import { createFileRoute, Link, notFound } from '@tanstack/react-router'
 
 import { CharacterItems } from '#/components/character-items'
 import { CharacterMemberships } from '#/components/character-memberships'
@@ -75,6 +75,14 @@ function PcPage() {
             <p className="text-muted-foreground text-sm">
               <span className="font-medium">Languages:</span> {pc.languages.join(', ')}
             </p>
+          ) : null}
+          {slug === 'jim' ? (
+            <Link
+              to="/pcs/detail/jim/connections"
+              className="text-primary text-sm font-medium hover:underline"
+            >
+              Jim's connections →
+            </Link>
           ) : null}
           {pc.url ? (
             <a

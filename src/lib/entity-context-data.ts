@@ -12,7 +12,7 @@ import {
   type EntityKind,
 } from '#/lib/campaign'
 import { collectReferences } from '#/lib/campaign-read-model'
-import { eventProse } from '#/lib/foretold'
+import { eventNarrative, eventProse } from '#/lib/foretold'
 
 export type ContextEntity = { kind: EntityKind; slug: string; name: string }
 export type ContextConnection = {
@@ -61,6 +61,7 @@ function references(value: unknown, target: ContextEntity): boolean {
 }
 
 function prose(entity: Entity): Content {
+  if (entity.kind === 'event') return eventNarrative(entity.data)
   const notes = 'notes' in entity.data ? (entity.data.notes ?? []) : []
   return entity.kind === 'quest'
     ? [...notes, ...entity.data.clues, ...entity.data.conclusion]

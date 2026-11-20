@@ -12,7 +12,7 @@ import {
   sessionDays,
   type EventMarkVisual,
 } from '#/lib/campaign'
-import { eventProse } from '#/lib/foretold'
+import { eventNarrative, eventProse } from '#/lib/foretold'
 
 export type SessionJournalReference = {
   kind: 'pc' | 'npc' | 'beast'
@@ -84,7 +84,7 @@ export function sessionJournalData(session: Session): SessionJournalDay[] {
         index: eventIndex,
         slug: event.slug,
         name: event.name,
-        notes: event.notes,
+        notes: eventNarrative(event),
         foretold: event.foretold ?? [],
         mark: eventMarkVisual(event),
         illustrations: event.illustrations,

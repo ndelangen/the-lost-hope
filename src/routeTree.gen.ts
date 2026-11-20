@@ -47,6 +47,7 @@ import { Route as OrganizationsDetailSlugRouteImport } from './routes/organizati
 import { Route as PcsDetailSlugRouteImport } from './routes/pcs/detail.$slug'
 import { Route as QuestsDetailSlugRouteImport } from './routes/quests/detail.$slug'
 import { Route as SessionsDetailSlugRouteImport } from './routes/sessions/detail.$slug'
+import { Route as PcsDetailJimConnectionsRouteImport } from './routes/pcs/detail.jim.connections'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -238,6 +239,11 @@ const SessionsDetailSlugRoute = SessionsDetailSlugRouteImport.update({
   path: '/sessions/detail/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const PcsDetailJimConnectionsRoute = PcsDetailJimConnectionsRouteImport.update({
+  id: '/pcs/detail/jim/connections',
+  path: '/pcs/detail/jim/connections',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -278,6 +284,7 @@ export interface FileRoutesByFullPath {
   '/dm/arcs/': typeof DmArcsIndexRoute
   '/dm/encounter/': typeof DmEncounterIndexRoute
   '/dm/scenes/': typeof DmScenesIndexRoute
+  '/pcs/detail/jim/connections': typeof PcsDetailJimConnectionsRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -317,6 +324,7 @@ export interface FileRoutesByTo {
   '/dm/arcs': typeof DmArcsIndexRoute
   '/dm/encounter': typeof DmEncounterIndexRoute
   '/dm/scenes': typeof DmScenesIndexRoute
+  '/pcs/detail/jim/connections': typeof PcsDetailJimConnectionsRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -358,6 +366,7 @@ export interface FileRoutesById {
   '/dm/arcs/': typeof DmArcsIndexRoute
   '/dm/encounter/': typeof DmEncounterIndexRoute
   '/dm/scenes/': typeof DmScenesIndexRoute
+  '/pcs/detail/jim/connections': typeof PcsDetailJimConnectionsRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -400,6 +409,7 @@ export interface FileRouteTypes {
     | '/dm/arcs/'
     | '/dm/encounter/'
     | '/dm/scenes/'
+    | '/pcs/detail/jim/connections'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -439,6 +449,7 @@ export interface FileRouteTypes {
     | '/dm/arcs'
     | '/dm/encounter'
     | '/dm/scenes'
+    | '/pcs/detail/jim/connections'
   id:
     | '__root__'
     | '/'
@@ -479,6 +490,7 @@ export interface FileRouteTypes {
     | '/dm/arcs/'
     | '/dm/encounter/'
     | '/dm/scenes/'
+    | '/pcs/detail/jim/connections'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -512,6 +524,7 @@ export interface RootRouteChildren {
   PcsDetailSlugRoute: typeof PcsDetailSlugRoute
   QuestsDetailSlugRoute: typeof QuestsDetailSlugRoute
   SessionsDetailSlugRoute: typeof SessionsDetailSlugRoute
+  PcsDetailJimConnectionsRoute: typeof PcsDetailJimConnectionsRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -782,6 +795,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SessionsDetailSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/pcs/detail/jim/connections': {
+      id: '/pcs/detail/jim/connections'
+      path: '/pcs/detail/jim/connections'
+      fullPath: '/pcs/detail/jim/connections'
+      preLoaderRoute: typeof PcsDetailJimConnectionsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -841,6 +861,7 @@ const rootRouteChildren: RootRouteChildren = {
   PcsDetailSlugRoute: PcsDetailSlugRoute,
   QuestsDetailSlugRoute: QuestsDetailSlugRoute,
   SessionsDetailSlugRoute: SessionsDetailSlugRoute,
+  PcsDetailJimConnectionsRoute: PcsDetailJimConnectionsRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

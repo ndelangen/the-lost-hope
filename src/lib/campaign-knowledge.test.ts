@@ -98,6 +98,14 @@ describe('campaign knowledge', () => {
     expect(text).toContain('is retired, not an active PC')
   })
 
+  it('includes structured bond outcomes in player knowledge for planning', () => {
+    const text = checkIdea('A discussion after the pulse', ['refs.events.n2_e207'])
+    expect(text).toContain('kept their emotional bond with Jim')
+    expect(text).toContain('Bob the gate troll (refs.npcs.bob_the_gate_troll)')
+    expect(text).toContain('Bob the Merchant (refs.npcs.bob_the_merchant)')
+    expect(text).toContain('(refs.effects.severed_bond_with_jim)')
+  })
+
   it('lists who has met a character from shared played events', () => {
     const text = met('refs.npcs.roberto')
     expect(text).toContain('Devan (refs.pcs.devan) [pc, active]')

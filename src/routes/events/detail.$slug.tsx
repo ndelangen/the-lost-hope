@@ -16,6 +16,7 @@ import { DEFAULT_AVATAR } from '#/definitions/media'
 import { eventLocation, eventMarkVisual, getEntity } from '#/lib/campaign'
 import { entityContextData } from '#/lib/entity-context-data'
 import { EventMarkIcon } from '#/lib/event-icons'
+import { eventNarrative } from '#/lib/foretold'
 import { publicEntityPageHead } from '#/lib/public-page-metadata'
 
 export const Route = createFileRoute('/events/detail/$slug')({
@@ -81,7 +82,7 @@ function EventPage() {
       <Stack as="section" gap="lg">
         <h2 className="text-lg font-semibold">What happened</h2>
         <EventIllustrations illustrations={event.illustrations} eventName={event.name} />
-        <ContentRenderer content={event.notes} />
+        <ContentRenderer content={eventNarrative(event)} />
       </Stack>
       {event.foretold ? (
         <Stack as="section" gap="md">
