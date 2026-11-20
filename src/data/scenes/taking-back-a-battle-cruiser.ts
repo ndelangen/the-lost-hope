@@ -264,7 +264,7 @@ export default createScene({
         allies: [{ creature: refs.npcs.tempest_soldier, count: 4 }],
         tactics: [
           [
-            'The guards hold the Barracks. They do not point the party to the prisoners. The ',
+            'The guards hold the Barracks. The ',
             refs.npcs.hand_breaker,
             ' goes for ',
             refs.pcs.devan,
@@ -284,11 +284,16 @@ export default createScene({
             [
               'The Barracks are guarded. The ',
               refs.npcs.tempest_soldier,
-              's lie tied up and ',
+              's lie on the floor among the bunks, tied up and ',
               refs.rules.unconscious,
-              ', stuffed under the bunks and covered with tarps. Nothing gives them away: the party only finds them if they search the room. A DC 13 ',
-              refs.rules.investigation,
-              ' check finds them, one search for the whole room.',
+              '. They look like bodies, but they are not dead. They clearly wear the uniform of the ',
+              refs.organizations.tempest_family,
+              ', so the party can work out that they are likely allies.',
+            ],
+            [
+              'Anyone who takes a close look sees them breathing. From a distance, or in the middle of the fight, a DC 10 ',
+              refs.rules.medicine,
+              ' check tells.',
             ],
             [
               'Freeing them costs the party something: each soldier needs healing before they can fight, so it is the party’s own potions or Lay on Hands that get them up. The party may decide not to bother, and that is fine. Bring the ones they wake into the encounter then.',
