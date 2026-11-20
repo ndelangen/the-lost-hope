@@ -11,7 +11,6 @@ import {
   fortressAt,
   legendAt,
   playbackLength,
-  PICKUP,
   shipPose,
 } from './fleet-battle'
 import type { FleetRoster, FleetShip } from './fleet-roster'
@@ -53,7 +52,6 @@ const roster: FleetRoster = {
 const geometry = {
   home: { x: 1200, y: 800 },
   hold: { x: 600, y: 330 },
-  pickup: { x: 340, y: 170 },
   fortress: { x: -60, y: -40 },
   course: { x: -0.38, y: -0.92 },
 }
@@ -62,12 +60,18 @@ describe('battlePlan', () => {
   const plan = battlePlan(roster, geometry)
   const { times } = plan
 
-  it('deploys the whole fleet under its owner and holds it over the hold point', () => {
+  it('deploys the whole fleet under its owner, never faster than the speed cap', () => {
     expect(battleCounts(plan, times.arrive, 2)).toEqual({ flying: [6, 0], lost: 0 })
+    const dt = 0.05
+    let fastest = 0
     for (const entry of plan.ships) {
-      const { pos } = shipPose(plan, entry, times.boardStart)
-      expect(Math.hypot(pos.x - geometry.hold.x, pos.y - geometry.hold.y)).toBeLessThan(260)
+      for (let at = entry.launchAt; at < times.chase; at += dt) {
+        const a = shipPose(plan, entry, at).pos
+        const b = shipPose(plan, entry, at + dt).pos
+        fastest = Math.max(fastest, Math.hypot(b.x - a.x, b.y - a.y) / dt)
+      }
     }
+    expect(fastest).toBeLessThan(BATTLE_TIMING.maxSpeed * 1.15)
   })
 
   it('keeps the fortress on a steady course throughout', () => {
@@ -79,14 +83,20 @@ describe('battlePlan', () => {
     expect(b.y).toBeLessThan(a.y)
   })
 
-  it('boards the party onto the flagship in order while the fleet holds', () => {
-    const boards = plan.crossings.filter((entry) => entry.kind === 'board')
-    expect(boards.map((entry) => [entry.avatar, entry.from, entry.to])).toEqual([
-      ['/a.png', PICKUP, 'flagship'],
-      ['/b.png', PICKUP, 'flagship'],
+  it('keeps the flagship over the hold while the party fades in, then has it join the fight', () => {
+    const appear = plan.crossings.filter((entry) => entry.kind === 'appear')
+    expect(appear.map((entry) => [entry.avatar, entry.to])).toEqual([
+      ['/a.png', 'flagship'],
+      ['/b.png', 'flagship'],
     ])
-    expect(boards[1]!.at).toBeGreaterThan(boards[0]!.at)
-    expect(boards.at(-1)!.at + boards.at(-1)!.duration).toBeLessThanOrEqual(times.chase)
+    const flagship = plan.ships.find((entry) => entry.key === 'flagship')!
+    const held = shipPose(plan, flagship, times.boardEnd).pos
+    expect(Math.hypot(held.x - geometry.hold.x, held.y - geometry.hold.y)).toBeLessThan(15)
+    expect(times.join!.start).toBeGreaterThanOrEqual(times.boardEnd)
+    expect(times.chase).toBeLessThan(times.join!.start)
+    expect(times.slow.start).toBeGreaterThan(times.join!.end)
+    const firing = plan.volleys.filter((volley) => volley.from === 'flagship')
+    expect(firing.every((volley) => volley.at >= times.join!.end)).toBe(true)
   })
 
   it('opens fire on the fortress once the chase is on, before any ship switches', () => {
@@ -166,7 +176,7 @@ describe('battlePlan', () => {
     expect(captionAt(plan, 0.5)?.text).toBe(
       'Contact: the flying fortress, heading north-north-west',
     )
-    expect(captionAt(plan, times.boardStart)?.text).toBe('The party boards flagship')
+    expect(captionAt(plan, times.boardStart)?.text).toBe('flagship picks up the party over Nimbus')
     expect(captionAt(plan, times.slow.start)?.text).toBe('The party crosses to seized')
     expect(captionAt(plan, times.end)?.text).toBe('2 contacts remain')
   })

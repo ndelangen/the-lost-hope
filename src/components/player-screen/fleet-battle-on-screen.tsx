@@ -41,7 +41,6 @@ import { cn } from '#/lib/utils'
  * deploys from Tempest and holds over Nimbus's bottom-right, where the party comes aboard.
  */
 const HOME = refs.locations.tempest
-const PICKUP_AT = refs.locations.nimbus
 const HOLD: Vec = { x: 640, y: 340 }
 const FORTRESS_START: Vec = { x: -60, y: -40 }
 const COURSE: Vec = unit({ x: -0.414, y: -1 })
@@ -85,7 +84,6 @@ function FleetBattle({ roster }: { roster: FleetRoster }) {
       battlePlan(roster, {
         home: point(HOME.key),
         hold: HOLD,
-        pickup: point(PICKUP_AT.key),
         fortress: FORTRESS_START,
         course: COURSE,
       }),
@@ -796,9 +794,8 @@ function drawMarkers(
 ) {
   const radius = Math.max(12, 15 * view.scale * 1.6)
   const hostAt = (key: string) => pointOf(plan, key, time)
-  // Each portrait sits on a ship, or is on its way: boarding the flagship, or fired across.
+  // Each portrait sits on a ship, or is being fired across as a shot.
   const aboard = new Map<string, { avatar: string; alpha: number }[]>()
-  const boarding: { avatar: string; at: Vec }[] = []
   const shots: { at: Vec; trail: Vec[] }[] = []
   for (const ship of plan.ships) {
     for (const marker of ship.markers) {
@@ -806,33 +803,32 @@ function drawMarkers(
         const moves = plan.crossings.filter(
           (entry) => entry.marker === marker.id && entry.avatar === avatar,
         )
-        const moving = moves.find((entry) => time >= entry.at && time < entry.at + entry.duration)
+        const moving = moves.find(
+          (entry) => entry.kind === 'shot' && time >= entry.at && time < entry.at + entry.duration,
+        )
         if (moving) {
           const progress = (time - moving.at) / moving.duration
           const path = (k: number) =>
-            curve(
-              hostAt(moving.from),
-              hostAt(moving.to),
-              easeInOutQuad(k),
-              moving.kind === 'shot' ? -0.5 : 0.2,
-            )
-          if (moving.kind === 'shot') {
-            shots.push({
-              at: path(progress),
-              trail: [0.04, 0.08, 0.12, 0.16, 0.2].map((lag) => path(Math.max(0, progress - lag))),
-            })
-          } else boarding.push({ avatar, at: path(progress) })
+            curve(hostAt(moving.from), hostAt(moving.to), easeInOutQuad(k), -0.5)
+          shots.push({
+            at: path(progress),
+            trail: [0.04, 0.08, 0.12, 0.16, 0.2].map((lag) => path(Math.max(0, progress - lag))),
+          })
           continue
         }
-        const done = moves.filter((entry) => time >= entry.at + entry.duration)
-        // Before its first move the portrait is not on the radar yet.
-        if (moves.length > 0 && done.length === 0) continue
-        const last = done.at(-1)
+        // Before its first moment the portrait is not on the radar yet.
+        if (moves.length > 0 && !moves.some((entry) => time >= entry.at)) continue
+        const started = moves.filter((entry) => time >= entry.at)
+        const last = started.at(-1)
         const host = last?.to ?? ship.key
         if (poses.get(host)?.state !== 'sailing') continue
-        // A portrait fired across fades in where its shot lands.
+        // A portrait fades in aboard the flagship, and again where its shot lands.
         const alpha =
-          last?.kind === 'shot' ? clamp01((time - last.at - last.duration) / PORTRAIT_FADE) : 1
+          last?.kind === 'shot'
+            ? clamp01((time - last.at - last.duration) / PORTRAIT_FADE)
+            : last
+              ? clamp01((time - last.at) / last.duration)
+              : 1
         aboard.set(host, [...(aboard.get(host) ?? []), { avatar, alpha }])
       }
     }
@@ -843,10 +839,6 @@ function drawMarkers(
       const x = screen.x + (index - (list.length - 1) / 2) * radius * 0.85
       drawPortrait(context, avatars.get(avatar), x, screen.y - radius * 2.3, radius, alpha)
     })
-  }
-  for (const { avatar, at } of boarding) {
-    const screen = toScreen(view, at)
-    drawPortrait(context, avatars.get(avatar), screen.x, screen.y, radius * 1.2)
   }
   // The party is fired across as large shots, styled like the heavy shots but bigger: a white-hot
   // ball with a fiery tail. Their portraits appear when they land.

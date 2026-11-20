@@ -9,8 +9,6 @@ export type BattleGeometry = {
   home: Vec
   /** Where the fleet holds and the party comes aboard. */
   hold: Vec
-  /** Where the party boards from. */
-  pickup: Vec
   /** Where the flying fortress is when the battle opens. */
   fortress: Vec
   /** The fortress's course, as a unit vector; it holds it at a steady pace throughout. */
@@ -19,8 +17,6 @@ export type BattleGeometry = {
 
 /** The key volleys use for the flying fortress, as a shooter or a target. */
 export const FORTRESS = '@fortress'
-/** The key crossings use for the place the party boards from. */
-export const PICKUP = '@pickup'
 
 export type BattleShip = {
   key: string
@@ -30,6 +26,10 @@ export type BattleShip = {
   side: number
   lost: boolean
   launchAt: number
+  /** How long its run out from home takes; longer runs take longer, so no ship outruns the cap. */
+  flight: number
+  /** For the flagship: when it leaves the hold to join the fight, and how long that takes. */
+  join?: { at: number; flight: number }
   /** When it switches to the side that takes it; absent for ships that stay. */
   turnAt?: number
   lostAt?: number
@@ -56,13 +56,13 @@ export type Volley = {
 }
 
 /**
- * One portrait moving during the battle: boarding the flagship from the pickup point, or fired
- * from ship to ship as a large shot.
+ * One portrait's moment in the battle: fading in aboard the flagship, or fired from ship to ship
+ * as a large shot.
  */
 export type Crossing = {
   marker: string
   avatar: string
-  kind: 'board' | 'shot'
+  kind: 'appear' | 'shot'
   from: string
   to: string
   at: number
@@ -82,10 +82,13 @@ export type BattlePlan = {
   partyShip?: string
   times: {
     launch: number
-    /** The fleet is holding over the pickup point. */
+    /** The fleet, less the flagship, has arrived and is ready to engage. */
     arrive: number
+    /** The party fades in aboard the flagship, which is holding over the pickup point. */
     boardStart: number
     boardEnd: number
+    /** The flagship leaves the hold and joins the fight. */
+    join: { start: number; end: number } | undefined
     /** The fleet sets off after the fortress. */
     chase: number
     /** The fleet opens fire on the fortress. */
@@ -102,11 +105,14 @@ export type BattlePlan = {
 export const BATTLE_TIMING = {
   launch: 2,
   launchStagger: 0.15,
-  launchFlight: 3.6,
-  boardDelay: 0.6,
-  boardStagger: 0.6,
-  boardFlight: 1.4,
-  chaseDelay: 0.8,
+  launchFlight: 3,
+  /** The fastest any ship flies, in map pixels a second. */
+  maxSpeed: 140,
+  boardDelay: 0.8,
+  boardStagger: 0.5,
+  boardFade: 0.8,
+  joinDelay: 0.8,
+  chaseDelay: 0.6,
   fireDelay: 1.4,
   switchDelay: 3,
   switchStagger: 0.35,
@@ -129,6 +135,8 @@ export const BATTLE_TIMING = {
   sink: 2.2,
   /** How long the fleet takes to coast to a halt once the chase gives way to the fight. */
   coast: 2.5,
+  /** How long the fleet takes to close from the hold to its chasing distance. */
+  chaseRamp: 9,
   /** How long the ships take to settle into circling each other. */
   circleIn: 6,
 } as const
@@ -153,18 +161,41 @@ export function battlePlan(roster: FleetRoster, geometry: BattleGeometry, seed =
   const boarders = party?.avatars ?? []
 
   const launch = t.launch
-  const arrive = launch + entries.length * t.launchStagger + t.launchFlight
-  const boardStart = arrive + t.boardDelay
-  const boardEnd =
-    boarders.length > 0
-      ? boardStart + (boarders.length - 1) * t.boardStagger + t.boardFlight
-      : boardStart
-  const chase = boardEnd + t.chaseDelay
+  const flagshipKey = flagshipEntry?.ship.key
+  const slots = entries.map(({ ship }) =>
+    ship.key === flagshipKey ? { x: 0, y: 0 } : looseSlot(random),
+  )
+  // Each run is eased in and out along a sine, which peaks at about 1.6 times its average speed,
+  // so each takes long enough that the peak (with the path's bow) stays under the cap.
+  const runTime = (from: Vec, to: Vec) =>
+    Math.max(t.launchFlight, (1.75 * length(sub(to, from))) / t.maxSpeed)
+  const flights = entries.map((_, index) =>
+    runTime(geometry.home, add(geometry.hold, slots[index]!)),
+  )
+  const launchAts = entries.map((_, index) => launch + index * t.launchStagger)
+  const landed = entries.map((_, index) => launchAts[index]! + flights[index]!)
+  const flagshipIndex = entries.findIndex(({ ship }) => ship.key === flagshipKey)
+  const arrive = Math.max(launch, ...landed.filter((_, index) => index !== flagshipIndex))
+  const chase = arrive + t.chaseDelay
   const fire = chase + t.fireDelay
   const switchStart = chase + t.switchDelay
   const turning = entries.filter(({ side }) => side > 0)
   const switchEnd = switchStart + Math.max(0, turning.length - 1) * t.switchStagger + t.switchFlight
-  const slowStart = switchEnd + t.screenHold
+
+  // The flagship holds over the pickup point while the party comes aboard, then joins the fight.
+  const flagshipLanded = flagshipIndex < 0 ? arrive : landed[flagshipIndex]!
+  const boardStart = flagshipLanded + t.boardDelay
+  const boardEnd =
+    boarders.length > 0
+      ? boardStart + (boarders.length - 1) * t.boardStagger + t.boardFade
+      : boardStart
+  const joinStart = Math.max(boardEnd + t.joinDelay, switchStart)
+  const joinFlight = runTime(
+    geometry.hold,
+    chaseCentre(geometry, chase, joinStart + t.launchFlight),
+  )
+  const join = flagshipIndex < 0 ? undefined : { start: joinStart, end: joinStart + joinFlight }
+  const slowStart = Math.max(switchEnd + t.screenHold, (join?.end ?? 0) + 0.8)
   const slowEnd =
     slowStart +
     t.shotDelay +
@@ -197,10 +228,12 @@ export function battlePlan(roster: FleetRoster, geometry: BattleGeometry, seed =
       icon: ship.icon,
       side,
       lost: ship.status === 'destroyed',
-      launchAt: launch + index * t.launchStagger,
+      launchAt: launchAts[index]!,
+      flight: flights[index]!,
+      join: index === flagshipIndex && join ? { at: join.start, flight: joinFlight } : undefined,
       turnAt: turnIndex < 0 ? undefined : switchStart + turnIndex * t.switchStagger,
       lostAt: lostAt.get(ship.key),
-      slot: looseSlot(random),
+      slot: slots[index]!,
       screen: screenSlot(geometry.course, turnIndex, turnedCount, random),
       markers: ship.aboard,
       phase: random() * Math.PI * 2,
@@ -220,6 +253,7 @@ export function battlePlan(roster: FleetRoster, geometry: BattleGeometry, seed =
       arrive,
       boardStart,
       boardEnd,
+      join,
       chase,
       fire,
       switchStart,
@@ -256,10 +290,11 @@ function screenSlot(course: Vec, index: number, count: number, random: () => num
 
 /** Where the fortress is: on a steady course from where it is sighted. */
 export function fortressAt(plan: BattlePlan, time: number): Vec {
-  return add(
-    plan.geometry.fortress,
-    scale(plan.geometry.course, BATTLE_TIMING.fortressSpeed * time),
-  )
+  return fortressCourse(plan.geometry, time)
+}
+
+function fortressCourse(geometry: BattleGeometry, time: number): Vec {
+  return add(geometry.fortress, scale(geometry.course, BATTLE_TIMING.fortressSpeed * time))
 }
 
 /**
@@ -268,20 +303,22 @@ export function fortressAt(plan: BattlePlan, time: number): Vec {
  */
 export function formationCentre(plan: BattlePlan, time: number): Vec {
   const stop = plan.times.slow.start
-  if (time <= stop) return chaseCentre(plan, time)
+  if (time <= stop) return chaseCentre(plan.geometry, plan.times.chase, time)
   // The fleet does not stop dead when the fight turns inward: it coasts to a halt.
-  const at = chaseCentre(plan, stop)
-  const velocity = scale(sub(at, chaseCentre(plan, stop - 0.05)), 1 / 0.05)
+  const at = chaseCentre(plan.geometry, plan.times.chase, stop)
+  const velocity = scale(
+    sub(at, chaseCentre(plan.geometry, plan.times.chase, stop - 0.05)),
+    1 / 0.05,
+  )
   const coast = BATTLE_TIMING.coast * (1 - Math.exp(-(time - stop) / BATTLE_TIMING.coast))
   return add(at, scale(velocity, coast))
 }
 
-function chaseCentre(plan: BattlePlan, time: number): Vec {
-  const { chase, slow } = plan.times
-  if (time <= chase) return plan.geometry.hold
-  const progress = easeInOut(clamp01((time - chase) / (slow.start - chase)))
-  const behind = sub(fortressAt(plan, time), scale(plan.geometry.course, 380))
-  return lerp(plan.geometry.hold, behind, progress * 0.85)
+function chaseCentre(geometry: BattleGeometry, chase: number, time: number): Vec {
+  if (time <= chase) return geometry.hold
+  const progress = easeInOut(clamp01((time - chase) / BATTLE_TIMING.chaseRamp))
+  const behind = sub(fortressCourse(geometry, time), scale(geometry.course, 380))
+  return lerp(geometry.hold, behind, progress * 0.85)
 }
 
 /**
@@ -385,22 +422,28 @@ function shipPosition(plan: BattlePlan, ship: BattleShip, time: number): Vec {
   const t = BATTLE_TIMING
   const { slow } = plan.times
   const inFormation = add(formationCentre(plan, time), ship.slot)
+  // The flagship's place is the hold over the pickup point until it leaves to join the fight.
+  const join = ship.join
+  const station = join && time < join.at + join.flight ? plan.geometry.hold : inFormation
   let pos =
-    time < ship.launchAt + t.launchFlight
+    time < ship.launchAt + ship.flight
       ? curve(
           plan.geometry.home,
-          inFormation,
-          easeInOut(clamp01((time - ship.launchAt) / t.launchFlight)),
+          station,
+          easeSine(clamp01((time - ship.launchAt) / ship.flight)),
           Math.sin(ship.phase) * 0.6,
         )
-      : inFormation
+      : station
+  if (join && time >= join.at && time < join.at + join.flight) {
+    pos = curve(plan.geometry.hold, inFormation, easeSine((time - join.at) / join.flight), 0.25)
+  }
   if (ship.turnAt !== undefined && time >= ship.turnAt) {
     const screening = add(formationCentre(plan, time), ship.screen)
     pos = curve(pos, screening, easeInOut(clamp01((time - ship.turnAt) / t.switchFlight)), 0.35)
   }
   // Once the party is across, the ships ease into slow loops round each other where they are.
   if (time >= slow.end) pos = add(pos, circling(plan, ship, time))
-  const sway = Math.min(1, Math.max(0, time - ship.launchAt - t.launchFlight) / 2)
+  const sway = Math.min(1, Math.max(0, time - ship.launchAt - ship.flight) / 2)
   return add(pos, {
     x: Math.sin(time * 0.9 + ship.phase) * 7 * sway,
     y: Math.cos(time * 0.7 + ship.phase) * 5 * sway,
@@ -427,10 +470,9 @@ function circling(plan: BattlePlan, ship: BattleShip, time: number): Vec {
   )
 }
 
-/** Where a volley's or crossing's end is at a moment: a ship, the fortress, or the pickup point. */
+/** Where a volley's or crossing's end is at a moment: a ship or the fortress. */
 export function pointOf(plan: BattlePlan, key: string, time: number): Vec {
   if (key === FORTRESS) return fortressAt(plan, time)
-  if (key === PICKUP) return plan.geometry.pickup
   const ship = plan.ships.find((entry) => entry.key === key)
   return ship ? shipPose(plan, ship, time).pos : plan.geometry.hold
 }
@@ -508,6 +550,10 @@ function planVolleys(plan: BattlePlan, random: () => number): Volley[] {
   const t = BATTLE_TIMING
   const { fire: opening, slow, ceaseFire } = plan.times
   const volleys: Volley[] = []
+  // The flagship is out of the fight until it has joined it.
+  const inFight = (ship: BattleShip, at: number) =>
+    !ship.join || at >= ship.join.at + ship.join.flight
+  const fighting = (at: number) => aliveAt(plan, at).filter((ship) => inFight(ship, at))
   const sideAt = (ship: BattleShip, at: number) =>
     ship.turnAt !== undefined && at >= ship.turnAt + 0.2 ? ship.side : 0
   const shoot = (from: string, to: string, at: number, heavy: boolean) =>
@@ -524,8 +570,9 @@ function planVolleys(plan: BattlePlan, random: () => number): Volley[] {
   for (const ship of plan.ships) {
     const stop = Math.min(ceaseFire, ship.lostAt ?? Infinity)
     for (let at = opening + random() * 1.2; at < stop; at += 0.6 + random() * 0.7) {
+      if (!inFight(ship, at)) continue
       const side = sideAt(ship, at)
-      const enemies = aliveAt(plan, at + t.heavyFlight).filter(
+      const enemies = fighting(at + t.heavyFlight).filter(
         (other) => sideAt(other, at) !== side && sideAt(other, at + t.heavyFlight) !== side,
       )
       // The fleet's guns are on the fortress until it slips away, with some turned on the
@@ -541,7 +588,7 @@ function planVolleys(plan: BattlePlan, random: () => number): Volley[] {
   }
   // The fortress answers with beams at the ships chasing it.
   for (let at = opening + 1; at < slow.end; at += 1.6 + random() * 1.4) {
-    const targets = aliveAt(plan, at).filter((ship) => sideAt(ship, at) === 0)
+    const targets = fighting(at).filter((ship) => sideAt(ship, at) === 0)
     const target = targets[Math.floor(random() * targets.length)]
     if (!target) continue
     volleys.push({
@@ -578,8 +625,8 @@ function planVolleys(plan: BattlePlan, random: () => number): Volley[] {
 }
 
 /**
- * The party's movements, in initiative order: each boards the flagship from the pickup point
- * while the fleet holds, then, in slow motion, is fired across to the ship they take.
+ * The party's moments, in initiative order: each fades in aboard the flagship while it holds over
+ * the pickup point, then, in slow motion, is fired across to the ship they take.
  */
 function planCrossings(plan: BattlePlan, party: FleetMarker | undefined): Crossing[] {
   const t = BATTLE_TIMING
@@ -589,11 +636,11 @@ function planCrossings(plan: BattlePlan, party: FleetMarker | undefined): Crossi
     const board: Crossing = {
       marker: party.id,
       avatar,
-      kind: 'board',
-      from: PICKUP,
+      kind: 'appear',
+      from: flagship,
       to: flagship,
       at: plan.times.boardStart + index * t.boardStagger,
-      duration: t.boardFlight,
+      duration: t.boardFade,
     }
     if (!partyShip) return [board]
     return [
@@ -612,8 +659,7 @@ function planCrossings(plan: BattlePlan, party: FleetMarker | undefined): Crossi
 }
 
 function planCaptions(plan: BattlePlan, roster: FleetRoster): BattleCaption[] {
-  const { launch, arrive, boardStart, chase, fire, switchStart, switchEnd, slow, ceaseFire } =
-    plan.times
+  const { launch, boardStart, chase, fire, switchStart, switchEnd, slow, ceaseFire } = plan.times
   const rivals = roster.sides
     .slice(1)
     .map((side) => side.name)
@@ -626,13 +672,15 @@ function planCaptions(plan: BattlePlan, roster: FleetRoster): BattleCaption[] {
   const captions: BattleCaption[] = [
     { at: 0.4, text: 'Contact: the flying fortress, heading north-north-west' },
     { at: launch, text: `${roster.owner.name} fleet deploying: ${plan.ships.length} contacts` },
-    { at: arrive - 1, text: 'Fleet holding over Nimbus' },
+    { at: chase, text: 'The fleet gives chase' },
+    { at: fire, text: 'Firing on the fortress' },
   ]
   if (flagship && plan.crossings.length > 0) {
-    captions.push({ at: boardStart, text: `The party boards ${flagship.name}` })
+    captions.push({ at: boardStart, text: `${flagship.name} picks up the party over Nimbus` })
   }
-  captions.push({ at: chase, text: 'Fleet giving chase' })
-  captions.push({ at: fire, text: 'Firing on the fortress' })
+  if (flagship && plan.times.join) {
+    captions.push({ at: plan.times.join.start + 2.5, text: `${flagship.name} joins the fight` })
+  }
   if (turned) {
     captions.push({ at: switchStart, text: `Contacts switching sides: ${rivals}` })
     captions.push({ at: switchEnd, text: `${rivals} screening the fortress` })
@@ -689,6 +737,8 @@ export const lerp = (a: Vec, b: Vec, k: number): Vec => add(a, scale(sub(b, a), 
 export const clamp01 = (value: number): number => Math.min(1, Math.max(0, value))
 export const easeOut = (k: number): number => 1 - (1 - k) ** 3
 export const easeIn = (k: number): number => k ** 2
+/** Eases in and out along a half sine: gentler at its peak than the cubic. */
+export const easeSine = (k: number): number => (1 - Math.cos(Math.PI * k)) / 2
 export const easeInOut = (k: number): number => (k < 0.5 ? 4 * k ** 3 : 1 - (-2 * k + 2) ** 3 / 2)
 
 /** A path from a to b that bows out sideways, for ships wheeling round and shots arcing. */
