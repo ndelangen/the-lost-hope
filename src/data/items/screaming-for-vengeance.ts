@@ -7,13 +7,7 @@ export default createItem({
   currentOwner: refs.organizations.tempest_family,
   carriedBy: null,
   craftedBy: null,
-  notes: [
-    [
-      'A flying battle-cruiser of the ',
-      refs.organizations.tempest_family,
-      ', still under construction in the ',
-      refs.locations.tempest_secret_shipyard,
-      '.',
-    ],
-  ],
+  vessel: 'battle-cruiser',
+  status: 'under-construction',
+  notes: [['Kept in the ', refs.locations.tempest_secret_shipyard, '.']],
 })

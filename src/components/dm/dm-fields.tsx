@@ -11,6 +11,7 @@ import { RuleTerm } from '#/components/rule-term'
 import { Pill } from '#/components/ui/pill'
 import { refs } from '#/data/generated/refs'
 import type { Content } from '#/definitions/content'
+import { ITEM_STATUS_LABELS, type ItemStatus } from '#/definitions/item'
 import type { EntityKind } from '#/definitions/kind'
 import type { Membership } from '#/definitions/organization'
 import type { PcCombat } from '#/definitions/pc'
@@ -26,6 +27,7 @@ type DmFieldValues = {
   stats?: OwnOrSharedStatBlock
   combat?: PcCombat
   secretMemberships?: Membership[]
+  status?: ItemStatus
 }
 
 type DmFieldName = keyof DmFieldValues
@@ -36,6 +38,7 @@ const FIELD_TITLES: Record<DmFieldName, string> = {
   stats: 'Stat block',
   combat: 'Combat numbers',
   secretMemberships: 'Secret memberships',
+  status: 'Status',
 }
 
 /**
@@ -103,6 +106,10 @@ function DmFieldValue({ field, values }: { field: DmFieldName; values: DmFieldVa
     case 'secretMemberships':
       return values.secretMemberships ? (
         <SecretMemberships memberships={values.secretMemberships} />
+      ) : null
+    case 'status':
+      return values.status ? (
+        <p className="font-medium">{ITEM_STATUS_LABELS[values.status]}</p>
       ) : null
   }
 }

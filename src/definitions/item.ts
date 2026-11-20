@@ -6,6 +6,23 @@ import { Foretold } from './foretold'
 import { EntityRefSchema } from './kind'
 import { deriveSlug } from './slug'
 
+export const ITEM_STATUSES = ['under-construction', 'destroyed'] as const
+
+export type ItemStatus = (typeof ITEM_STATUSES)[number]
+
+export const ITEM_STATUS_LABELS: Record<ItemStatus, string> = {
+  'under-construction': 'Under construction',
+  destroyed: 'Destroyed',
+}
+
+export const VESSEL_CLASSES = ['battle-cruiser'] as const
+
+export type VesselClass = (typeof VESSEL_CLASSES)[number]
+
+export const VESSEL_CLASS_LABELS: Record<VesselClass, string> = {
+  'battle-cruiser': 'Battle-cruiser',
+}
+
 const ShipSector = z.strictObject({
   name: z.string().trim().min(1),
   escapePods: z.boolean().describe('Whether this sector has a way off the ship'),
@@ -43,12 +60,17 @@ const Item = deriveSlug(
     controlledBy: EntityRefSchema.optional().describe(
       'Who commands the item when that is not its owner, such as a crew that seized a vessel',
     ),
+    status: z
+      .enum(ITEM_STATUSES)
+      .optional()
+      .describe('Whether the item is not in use yet or no longer exists; absent when it is in use'),
     quantity: z
       .number()
       .int()
       .positive()
       .optional()
       .describe('The number represented when this item is a stack rather than a unique object'),
+    vessel: z.enum(VESSEL_CLASSES).optional().describe('The class of ship, for a vessel'),
     hull: ShipHull.optional().describe('A vessel’s sectors, for fights aboard it'),
     notes: Content.optional().describe('Identity or flavor not represented by structured fields'),
     foretold: z

@@ -275,6 +275,17 @@ describe('items', () => {
     ).toBe(true)
   })
 
+  it('records six cruisers lost on each side of the fleet war', () => {
+    const cruisers = Object.values(SOURCE_REGISTRIES.item).filter(
+      (item) => item.vessel === 'battle-cruiser',
+    )
+    const lost = cruisers.filter((item) => item.status === 'destroyed')
+
+    expect(cruisers).toHaveLength(21)
+    expect(lost.filter((item) => item.controlledBy)).toHaveLength(6)
+    expect(lost.filter((item) => !item.controlledBy)).toHaveLength(6)
+  })
+
   it('derives owned and carried PC items from item relationships', () => {
     expect(itemsOwnedBy('pc', pcs.devan.slug).map((item) => item.slug)).toEqual([
       items.devan_s_corrected_holy_text.slug,

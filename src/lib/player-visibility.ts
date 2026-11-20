@@ -15,7 +15,7 @@ export const DM_FIELDS = {
   session: [],
   quest: ['background'],
   organization: ['background'],
-  item: ['background'],
+  item: ['status', 'background'],
   effect: ['background'],
 } as const satisfies Record<EntityKind, readonly string[]>
 

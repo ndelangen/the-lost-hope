@@ -45,7 +45,8 @@ describe('player screen', () => {
 
   it('offers only real artwork, never placeholders or missing files', () => {
     const pictures = options.flatMap((option) => (option.src ? [option.src] : []))
-    expect(pictures.length).toBe(options.length - 1) // Jim's letter is drawn, not a picture.
+    // Jim's letter and the Tempest fleet roster are drawn, not pictures.
+    expect(pictures.length).toBe(options.length - 2)
     for (const src of pictures) {
       expect(src).not.toContain('placeholder')
       expect(src).not.toContain('placehold.co')
@@ -53,6 +54,16 @@ describe('player screen', () => {
     expect(
       resolvePlayerScreenImage({ image: 'avatar', ref: { ref: 'npc', key: 'no_such_npc' } }),
     ).toBeUndefined()
+  })
+
+  it('offers the Tempest fleet roster without naming it as met', () => {
+    const fleet = options.find((option) => option.group === 'Fleets')
+    expect(fleet?.selection).toEqual({
+      image: 'fleet',
+      ref: { ref: 'organization', key: 'tempest_family' },
+    })
+    expect(fleet?.met).toBe(false)
+    expect(fleet?.playerCaption).toBeUndefined()
   })
 
   it('offers every portrait that has art', () => {

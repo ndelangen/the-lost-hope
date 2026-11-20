@@ -2,6 +2,7 @@ import { createFileRoute } from '@tanstack/react-router'
 import { Maximize } from 'lucide-react'
 import { lazy, Suspense, useEffect, useMemo, useState } from 'react'
 
+import { FleetRosterOnScreen } from '#/components/player-screen/fleet-roster-on-screen'
 import { GridOverlay } from '#/components/player-screen/grid-overlay'
 import { GroupSaveOnScreen } from '#/components/player-screen/group-save-on-screen'
 import { PointerMarksOverlay } from '#/components/player-screen/pointer-marks'
@@ -113,6 +114,8 @@ function PlayerScreenPage() {
               loading="eager"
               className="absolute inset-0 size-full object-contain"
             />
+          ) : showing.image === 'fleet' ? (
+            <FleetRosterOnScreen owner={showing.ref.key} />
           ) : (
             <Suspense fallback={null}>
               <JimsLetterOnScreen />

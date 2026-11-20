@@ -12,6 +12,7 @@ import {
   RotateCcw,
   RotateCw,
   ScrollText,
+  Ship,
   Trash2,
   X,
 } from 'lucide-react'
@@ -144,6 +145,7 @@ export function PlayerScreenDock() {
             {current ? (
               <PlayerScreenThumb
                 src={current.src}
+                group={current.group}
                 alt=""
                 sizes="64px"
                 maxWidth={128}
@@ -232,6 +234,7 @@ const ROTATIONS: ReadonlyArray<{
 
 const GROUP_LABEL: Record<PlayerScreenGroup, string> = {
   Handouts: 'Handout',
+  Fleets: 'Fleet roster',
   Scenes: 'Scene',
   Maps: 'Map',
   Places: 'Place',
@@ -241,6 +244,7 @@ const GROUP_LABEL: Record<PlayerScreenGroup, string> = {
 
 const GROUPS: readonly PlayerScreenGroup[] = [
   'Handouts',
+  'Fleets',
   'Scenes',
   'Maps',
   'Places',
@@ -248,13 +252,27 @@ const GROUPS: readonly PlayerScreenGroup[] = [
   'Creatures',
 ]
 
-/** A small preview of a picture; handouts the screen draws itself show as a sheet of paper. */
+/**
+ * A small preview of a picture; what the screen draws itself shows as a sheet of paper, or a ship
+ * for a fleet roster.
+ */
 function PlayerScreenThumb({
   src,
+  group,
   className,
   ...props
-}: Omit<ComponentProps<typeof ResponsiveImage>, 'src'> & { src: string | undefined }) {
+}: Omit<ComponentProps<typeof ResponsiveImage>, 'src'> & {
+  src: string | undefined
+  group: PlayerScreenGroup
+}) {
   if (src) return <ResponsiveImage src={src} className={className} {...props} />
+  if (group === 'Fleets') {
+    return (
+      <span className={cn('grid place-items-center bg-slate-800 text-sky-200', className)}>
+        <Ship className="size-1/2 max-h-8 max-w-8" aria-hidden />
+      </span>
+    )
+  }
   return (
     <span className={cn('grid place-items-center bg-amber-100 text-amber-900', className)}>
       <ScrollText className="size-1/2 max-h-8 max-w-8" aria-hidden />
@@ -538,6 +556,7 @@ function ShownHistory({
                     {resolved ? (
                       <PlayerScreenThumb
                         src={resolved.src}
+                        group={resolved.group}
                         alt=""
                         sizes="48px"
                         maxWidth={128}
@@ -602,6 +621,7 @@ function OptionGroup({
                 <span className="relative block aspect-[3/2] w-full overflow-hidden rounded-md bg-black">
                   <PlayerScreenThumb
                     src={option.src}
+                    group={option.group}
                     alt=""
                     sizes="144px"
                     maxWidth={384}

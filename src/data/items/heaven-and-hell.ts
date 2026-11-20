@@ -7,5 +7,5 @@ export default createItem({
   currentOwner: refs.organizations.tempest_family,
   carriedBy: null,
   craftedBy: null,
-  notes: [['A flying battle-cruiser of the ', refs.organizations.tempest_family, '.']],
+  vessel: 'battle-cruiser',
 })

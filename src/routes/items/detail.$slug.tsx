@@ -8,6 +8,7 @@ import { EntityDetail } from '#/components/entity-page'
 import { EntityReference } from '#/components/entity-reference'
 import { ForetoldList } from '#/components/foretold-list'
 import { Grid, Stack } from '#/components/ui/layout'
+import { VESSEL_CLASS_LABELS } from '#/definitions/item'
 import { getEntity, refLink } from '#/lib/campaign'
 import { entityContextData } from '#/lib/entity-context-data'
 import { ItemIcon } from '#/lib/item-icons'
@@ -51,6 +52,7 @@ function ItemPage() {
         {controller ? <Relationship label="Controlled by" relationship={controller} /> : null}
         <Relationship label="Carried by" relationship={carrier} />
         {crafter ? <Relationship label="Crafted by" relationship={crafter} /> : null}
+        {item.vessel ? <Attribute label="Vessel" value={VESSEL_CLASS_LABELS[item.vessel]} /> : null}
         {item.quantity ? <Attribute label="Quantity" value={String(item.quantity)} /> : null}
       </Grid>
 

@@ -2,12 +2,14 @@ import type { AnyKind, EntityRef } from '#/definitions/kind'
 import { DEFAULT_AVATAR, DEFAULT_LOCATION_ILLUSTRATION } from '#/definitions/media'
 import { PLAYER_VISIBLE_KEYS, SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 import { sceneMentions, scenes } from '#/lib/dm-campaign'
+import { fleetOwners } from '#/lib/fleet-roster'
 import { HANDOUTS, type HandoutKey } from '#/lib/handouts'
 import { playerScreenImageId, type PlayerScreenImage } from '#/lib/player-screen-state'
 import { hasPublicAsset } from '#/lib/public-media'
 
 export type PlayerScreenGroup =
   | 'Handouts'
+  | 'Fleets'
   | 'Scenes'
   | 'Maps'
   | 'Places'
@@ -55,6 +57,13 @@ export function resolvePlayerScreenImage(
     if ('image' in handout && !src) return undefined
     // Handouts are props the players hold; their names stay off the screen.
     return { src, name: handout.name, slug: selection.ref.key, group: 'Handouts', met: true }
+  }
+  if (selection.image === 'fleet') {
+    const owner = record<Named>(SOURCE_REGISTRIES.organization, selection.ref.key)
+    // The roster names ships the party may not have met, so it is never marked as met.
+    return owner
+      ? { name: `${owner.name} fleet`, slug: owner.slug, group: 'Fleets', met: false }
+      : undefined
   }
   if ('index' in selection) {
     const scene = record<Named & { illustrations: string[] }>(scenes, selection.ref.key)
@@ -110,6 +119,7 @@ export type PlayerScreenOption = ResolvedPlayerScreenImage & {
 
 const GROUP_ORDER: readonly PlayerScreenGroup[] = [
   'Handouts',
+  'Fleets',
   'Scenes',
   'Maps',
   'Places',
@@ -123,6 +133,10 @@ export function playerScreenOptions(): PlayerScreenOption[] {
     ...(Object.keys(HANDOUTS) as HandoutKey[]).map((key): PlayerScreenImage => ({
       image: 'handout',
       ref: { ref: 'handout', key },
+    })),
+    ...fleetOwners(SOURCE_REGISTRIES.item).map((key): PlayerScreenImage => ({
+      image: 'fleet',
+      ref: { ref: 'organization', key },
     })),
     ...Object.entries(scenes).flatMap(([key, scene]) =>
       scene.illustrations.map((_, index): PlayerScreenImage => ({

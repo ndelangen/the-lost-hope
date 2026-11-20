@@ -82947,7 +82947,9 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "duplicateOf": "lucide/Anchor",
       "sourceUrl": "https://game-icons.net/1x1/lorc/anchor.html",
-      "usedIn": []
+      "usedIn": [
+        "src/lib/fleet-roster.test.ts"
+      ]
     },
     {
       "id": "gi/GiAncientColumns",
@@ -273754,7 +273756,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/construction",
-      "usedIn": []
+      "usedIn": [
+        "src/components/player-screen/fleet-roster-on-screen.tsx"
+      ]
     },
     {
       "id": "lucide/Contact",
@@ -307832,6 +307836,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/ship",
       "usedIn": [
+        "src/components/player-screen/player-screen-dock.tsx",
         "src/lib/location-icons.tsx"
       ]
     },
@@ -308769,6 +308774,7 @@
       "sourceUrl": "https://lucide.dev/icons/skull",
       "usedIn": [
         "src/components/dm/encounter/combat-status.tsx",
+        "src/components/player-screen/fleet-roster-on-screen.tsx",
         "src/components/player-screen/turn-order-on-screen.tsx"
       ]
     },

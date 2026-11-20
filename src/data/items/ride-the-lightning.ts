@@ -7,6 +7,7 @@ export default createItem({
   currentOwner: refs.organizations.tempest_family,
   carriedBy: null,
   craftedBy: null,
+  vessel: 'battle-cruiser',
   controlledBy: refs.organizations.the_eyeless_hand,
   hull: {
     // Matches the deck maps, bow to the left: the helm's wheel is at the starboard stern, the
@@ -24,7 +25,6 @@ export default createItem({
       { name: 'Helm', escapePods: false },
     ],
   },
-  notes: [['A flying battle-cruiser of the ', refs.organizations.tempest_family, '.']],
   background: [
     ['It is the cruiser the party is asked to take back.'],
     [
