@@ -26,7 +26,11 @@ export default createItem({
     [
       'Attunement can only be attempted in absolute darkness, and only by a creature that has and owns its own soul. Attuning embeds the wielder’s soul into the blade.',
     ],
-    ['A finesse shortsword that deals 1d6 ', refs.rules.necrotic, ' damage.'],
+    [
+      'A finesse shortsword that deals 1d6 ',
+      refs.rules.necrotic,
+      ' damage. Used in clear full moonlight, that weapon damage is quadrupled to 4d6, and so is the damage it turns back on an unattuned wielder.',
+    ],
     [
       'Used unattuned, every hit deals the wielder the same ',
       refs.rules.necrotic,
