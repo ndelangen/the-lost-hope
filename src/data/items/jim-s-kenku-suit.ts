@@ -4,7 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: 'Jim’s Kenku Suit',
   icon: 'gi/GiClothes',
-  currentOwner: refs.pcs.jim,
+  currentOwner: refs.pcs.swift_starblade,
   carriedBy: null,
   craftedBy: null,
   notes: [['The physical kenku disguise formerly worn by ', refs.pcs.jim, '.']],

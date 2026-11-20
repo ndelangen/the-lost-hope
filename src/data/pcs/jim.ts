@@ -27,7 +27,7 @@ export default createPC({
   memberships: [
     {
       organization: refs.organizations.adventurers_guild,
-      status: 'active',
+      status: 'former',
       rank: 'Member',
     },
     {
@@ -37,7 +37,7 @@ export default createPC({
     },
     {
       organization: refs.organizations.beasts_and_dwarf,
-      status: 'active',
+      status: 'former',
       rank: 'Founder',
     },
   ],

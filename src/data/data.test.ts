@@ -276,9 +276,16 @@ describe('items', () => {
     expect(itemsOwnedBy('pc', pcs.swift_starblade.slug).map((item) => item.slug)).toEqual([
       items.dagger_of_passive_aggression.slug,
       items.demon_possessed_flying_broom.slug,
+      items.jim_s_kenku_suit.slug,
       items.mimic_cloak.slug,
+      items.pocket_holy_text_of_grimgor.slug,
+      items.robertos_map_pages.slug,
       items.shadow_sword.slug,
       items.swifts_silver_container.slug,
+    ])
+    expect(itemsOwnedBy('pc', pcs.jim.slug)).toEqual([])
+    expect(itemsOwnedBy('item', items.little_purple.slug).map((item) => item.slug)).toEqual([
+      items.obsidian_green_rod.slug,
     ])
     expect(itemsCarriedBy('pc', pcs.swift_starblade.slug).map((item) => item.slug)).toEqual([
       items.dagger_of_passive_aggression.slug,
@@ -490,7 +497,6 @@ describe('adventuring parties', () => {
     const members = groups.flatMap((group) => group.ranks.flatMap((rank) => rank.members))
 
     expect(groups[0]?.ranks).toEqual([
-      { rank: 'Founder', members: [{ kind: 'pc', slug: 'jim' }] },
       {
         rank: 'Member',
         members: [
@@ -501,10 +507,10 @@ describe('adventuring parties', () => {
       },
     ])
     expect(members).toEqual([
-      { kind: 'pc', slug: 'jim' },
       { kind: 'pc', slug: 'cassian-veyl' },
       { kind: 'pc', slug: 'devan' },
       { kind: 'pc', slug: 'swift-starblade' },
+      { kind: 'pc', slug: 'jim' },
       { kind: 'pc', slug: 'revin-klapper-grumblefist' },
       { kind: 'pc', slug: 'william-greenhoove' },
       { kind: 'pc', slug: 'victor-dranzig' },

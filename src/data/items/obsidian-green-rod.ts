@@ -4,7 +4,7 @@ import { create as createItem } from '#/definitions/item.ts'
 export default createItem({
   name: 'Obsidian Green Rod',
   icon: 'gi/GiCrystalWand',
-  currentOwner: refs.pcs.jim,
+  currentOwner: refs.items.little_purple,
   carriedBy: null,
   craftedBy: null,
   notes: [

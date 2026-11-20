@@ -27,5 +27,6 @@ export default createEvent({
       refs.items.dagger_of_the_zodiac_signs,
       ', he felt that touching it would kill him and left it on the ground.',
     ],
+    [refs.pcs.swift_starblade, ' also gathered ', refs.pcs.jim, '’s ordinary bard’s equipment.'],
   ],
 })
