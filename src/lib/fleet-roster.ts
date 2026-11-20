@@ -6,8 +6,9 @@ import { collectReferences } from './campaign-read-model'
 /** Someone the roster tracks, pinned to the ship they were last seen aboard. */
 export type FleetMarker = {
   id: string
+  /** Read out by screen readers and used in captions; the screen itself shows only portraits. */
   label: string
-  avatar?: string
+  avatars: string[]
 }
 
 export type FleetShip = {

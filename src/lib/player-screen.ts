@@ -58,11 +58,12 @@ export function resolvePlayerScreenImage(
     // Handouts are props the players hold; their names stay off the screen.
     return { src, name: handout.name, slug: selection.ref.key, group: 'Handouts', met: true }
   }
-  if (selection.image === 'fleet') {
+  if (selection.image === 'fleet' || selection.image === 'fleet-battle') {
     const owner = record<Named>(SOURCE_REGISTRIES.organization, selection.ref.key)
-    // The roster names ships the party may not have met, so it is never marked as met.
+    const view = selection.image === 'fleet' ? 'fleet' : 'fleet battle'
+    // These screens show ships the party may not have met, so they are never marked as met.
     return owner
-      ? { name: `${owner.name} fleet`, slug: owner.slug, group: 'Fleets', met: false }
+      ? { name: `${owner.name} ${view}`, slug: owner.slug, group: 'Fleets', met: false }
       : undefined
   }
   if ('index' in selection) {
@@ -134,10 +135,10 @@ export function playerScreenOptions(): PlayerScreenOption[] {
       image: 'handout',
       ref: { ref: 'handout', key },
     })),
-    ...fleetOwners(SOURCE_REGISTRIES.item).map((key): PlayerScreenImage => ({
-      image: 'fleet',
-      ref: { ref: 'organization', key },
-    })),
+    ...fleetOwners(SOURCE_REGISTRIES.item).flatMap((key): PlayerScreenImage[] => [
+      { image: 'fleet', ref: { ref: 'organization', key } },
+      { image: 'fleet-battle', ref: { ref: 'organization', key } },
+    ]),
     ...Object.entries(scenes).flatMap(([key, scene]) =>
       scene.illustrations.map((_, index): PlayerScreenImage => ({
         image: 'illustration',

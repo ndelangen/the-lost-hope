@@ -14,7 +14,7 @@ const roster: FleetRoster = {
       key: 'navy',
       name: 'Navy',
       ships: [
-        ship('flagship', { aboard: [{ id: 'npc:admiral', label: 'Admiral' }] }),
+        ship('flagship', { aboard: [{ id: 'npc:admiral', label: 'Admiral', avatars: [] }] }),
         ship('wreck', { status: 'destroyed' }),
       ],
       inService: 1,
@@ -24,7 +24,7 @@ const roster: FleetRoster = {
       key: 'rebels',
       name: 'The Rebels',
       ships: [
-        ship('seized', { aboard: [{ id: 'party', label: 'The party' }] }),
+        ship('seized', { aboard: [{ id: 'party', label: 'The party', avatars: [] }] }),
         ship('sunk', { status: 'destroyed' }),
       ],
       inService: 1,

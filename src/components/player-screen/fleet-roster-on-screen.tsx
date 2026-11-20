@@ -2,20 +2,10 @@ import { Construction, Skull, Users } from 'lucide-react'
 import { type CSSProperties, useEffect, useMemo, useState } from 'react'
 import { flushSync } from 'react-dom'
 
+import { useFleetRoster } from '#/components/player-screen/use-fleet-roster'
 import { Avatar } from '#/components/ui/avatar'
-import { refs } from '#/data/generated/refs'
 import { ITEM_STATUS_LABELS } from '#/definitions/item'
-import type { EntityRef } from '#/definitions/kind'
-import { sortedEvents } from '#/lib/campaign'
-import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
-import {
-  fleetRoster,
-  lastSeenAt,
-  markersAboard,
-  type FleetMarker,
-  type FleetRoster,
-  type FleetSighting,
-} from '#/lib/fleet-roster'
+import { type FleetMarker, type FleetRoster } from '#/lib/fleet-roster'
 import {
   FLEET_TIMING,
   fleetSequence,
@@ -45,55 +35,13 @@ const RIVAL_TONE: Tone = {
 
 const toneOf = (side: number) => (side === 0 ? OWNER_TONE : RIVAL_TONE)
 
-/** Who the roster pins to a ship: the party, and the fleet's commander. */
-const TRACKED_NPCS = [refs.npcs.onana_tempest]
-
-function resolveNamed(ref: EntityRef) {
-  const registry: Readonly<Record<string, object>> = SOURCE_REGISTRIES[ref.ref]
-  const record = Object.hasOwn(registry, ref.key)
-    ? (registry[ref.key] as { name: string; icon?: string; avatar?: string })
-    : undefined
-  return record ? { name: record.name, icon: record.icon, avatar: record.avatar } : undefined
-}
-
-function fleetSightings(): FleetSighting[] {
-  const events = sortedEvents().map((event) => event.data)
-  const sightings: FleetSighting[] = []
-  const partyAt = events[0]?.location
-  if (partyAt?.ref === 'location') {
-    sightings.push({ id: 'party', label: 'The party', location: partyAt.key })
-  }
-  for (const ref of TRACKED_NPCS) {
-    const npc = resolveNamed(ref)
-    const location = lastSeenAt(ref, events)
-    if (npc && location) {
-      sightings.push({
-        id: `npc:${ref.key}`,
-        label: npc.name.split(' ')[0]!,
-        avatar: npc.avatar,
-        location,
-      })
-    }
-  }
-  return sightings
-}
-
 /**
  * An organization's fleet on the player screen, readable from across the table. It opens with a
  * sequence: the fleet builds up, rival sides seize their ships, the party boards, and the lost
  * ships go down one by one. Press R on the player screen to play it again.
  */
 export function FleetRosterOnScreen({ owner }: { owner: string }) {
-  const roster = useMemo(
-    () =>
-      fleetRoster(
-        owner,
-        SOURCE_REGISTRIES.item,
-        resolveNamed,
-        markersAboard(fleetSightings(), SOURCE_REGISTRIES.location),
-      ),
-    [owner],
-  )
+  const roster = useFleetRoster(owner)
   return roster ? <FleetRosterSequence roster={roster} /> : null
 }
 
@@ -307,32 +255,36 @@ function FleetShipRow({
   )
 }
 
-/** A pin on a ship row: who is aboard, as a portrait when there is one. */
+/** A pin on a ship row: the portraits of whoever is aboard, named only for screen readers. */
 function AboardMarker({ marker }: { marker: FleetMarker }) {
   return (
     <span
+      title={marker.label}
       style={
         {
           viewTransitionName: `fleet-marker-${marker.id.replace(':', '-')}`,
           viewTransitionClass: 'fleet-ship',
         } as CSSProperties
       }
-      className="flex shrink-0 items-center gap-[0.5vw] rounded-full bg-emerald-400 py-[0.2vh] pr-[0.9vw] pl-[0.2vw] text-[0.75em] font-semibold text-black shadow-[0_0_30px_rgb(52_211_153/0.5)]"
+      className="flex shrink-0 items-center rounded-full bg-emerald-400 p-[0.15em] shadow-[0_0_30px_rgb(52_211_153/0.6)]"
     >
-      {marker.avatar ? (
-        <Avatar
-          src={marker.avatar}
-          sizes="64px"
-          maxWidth={128}
-          loading="eager"
-          className="size-[1.6em]"
-        />
+      <span className="sr-only">{marker.label}</span>
+      {marker.avatars.length > 0 ? (
+        marker.avatars.map((avatar, index) => (
+          <Avatar
+            key={avatar}
+            src={avatar}
+            sizes="64px"
+            maxWidth={128}
+            loading="eager"
+            className={cn('size-[1.5em] ring-2 ring-emerald-400', index > 0 && '-ml-[0.45em]')}
+          />
+        ))
       ) : (
-        <span className="grid size-[1.6em] place-items-center rounded-full bg-black/15">
-          <Users className="size-[1em]" aria-hidden />
+        <span className="grid size-[1.5em] place-items-center rounded-full bg-black/15 text-black">
+          <Users className="size-[0.9em]" aria-hidden />
         </span>
       )}
-      {marker.label}
     </span>
   )
 }

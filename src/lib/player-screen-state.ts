@@ -25,7 +25,7 @@ export const PlayerScreenImage = z.union([
     index: z.number().int().nonnegative(),
   }),
   z.strictObject({
-    image: z.literal('fleet'),
+    image: z.enum(['fleet', 'fleet-battle']),
     ref: z.strictObject({ ref: z.literal('organization'), key: z.string().min(1) }),
   }),
   z.strictObject({

@@ -49,10 +49,12 @@ describe('fleetRoster', () => {
   })
 
   it('pins tracked people to the ship they were last seen aboard', () => {
-    const aboard = new Map([['seized', [{ id: 'party', label: 'The party' }]]])
+    const aboard = new Map([['seized', [{ id: 'party', label: 'The party', avatars: [] }]]])
     const roster = fleetRoster('navy', items, resolve, aboard)
 
-    expect(roster?.sides[1]?.ships[0]?.aboard).toEqual([{ id: 'party', label: 'The party' }])
+    expect(roster?.sides[1]?.ships[0]?.aboard).toEqual([
+      { id: 'party', label: 'The party', avatars: [] },
+    ])
     expect(roster?.sides[0]?.ships[0]?.aboard).toEqual([])
   })
 
@@ -88,12 +90,12 @@ describe('whereabouts', () => {
   it('groups sightings by vessel and drops those ashore', () => {
     const byShip = markersAboard(
       [
-        { id: 'party', label: 'The party', location: 'cabin' },
-        { id: 'npc:admiral', label: 'Admiral', location: 'harbour' },
+        { id: 'party', label: 'The party', avatars: [], location: 'cabin' },
+        { id: 'npc:admiral', label: 'Admiral', avatars: [], location: 'harbour' },
       ],
       locations,
     )
-    expect([...byShip]).toEqual([['seized', [{ id: 'party', label: 'The party' }]]])
+    expect([...byShip]).toEqual([['seized', [{ id: 'party', label: 'The party', avatars: [] }]]])
   })
 
   it('reads the last sighting from the newest event that names the record', () => {

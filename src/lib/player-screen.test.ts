@@ -45,8 +45,8 @@ describe('player screen', () => {
 
   it('offers only real artwork, never placeholders or missing files', () => {
     const pictures = options.flatMap((option) => (option.src ? [option.src] : []))
-    // Jim's letter and the Tempest fleet roster are drawn, not pictures.
-    expect(pictures.length).toBe(options.length - 2)
+    // Jim's letter and the Tempest fleet roster and battle are drawn, not pictures.
+    expect(pictures.length).toBe(options.length - 3)
     for (const src of pictures) {
       expect(src).not.toContain('placeholder')
       expect(src).not.toContain('placehold.co')
@@ -56,14 +56,13 @@ describe('player screen', () => {
     ).toBeUndefined()
   })
 
-  it('offers the Tempest fleet roster without naming it as met', () => {
-    const fleet = options.find((option) => option.group === 'Fleets')
-    expect(fleet?.selection).toEqual({
-      image: 'fleet',
-      ref: { ref: 'organization', key: 'tempest_family' },
-    })
-    expect(fleet?.met).toBe(false)
-    expect(fleet?.playerCaption).toBeUndefined()
+  it('offers the Tempest fleet roster and battle without naming them as met', () => {
+    const fleets = options.filter((option) => option.group === 'Fleets')
+    expect(fleets.map((option) => option.selection)).toEqual([
+      { image: 'fleet', ref: { ref: 'organization', key: 'tempest_family' } },
+      { image: 'fleet-battle', ref: { ref: 'organization', key: 'tempest_family' } },
+    ])
+    expect(fleets.every((option) => !option.met && !option.playerCaption)).toBe(true)
   })
 
   it('offers every portrait that has art', () => {
