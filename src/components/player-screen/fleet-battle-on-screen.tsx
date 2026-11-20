@@ -627,7 +627,7 @@ function drawShip(
     if (volley.from !== ship.key) continue
     const since = time - volley.at
     if (since < 0 || since > 0.12) continue
-    context.fillStyle = `rgb(253 224 71 / ${0.7 * (1 - since / 0.12)})`
+    context.fillStyle = `rgb(253 224 71 / ${0.7 * (1 - since / 0.12) * (1 - 0.88 * quietAt(plan, time))})`
     context.beginPath()
     context.arc(at.x, at.y, radius * 1.15, 0, Math.PI * 2)
     context.fill()
@@ -635,6 +635,25 @@ function drawShip(
 }
 
 function drawVolleys(
+  context: CanvasRenderingContext2D,
+  plan: BattlePlan,
+  view: View,
+  time: number,
+) {
+  // While the party is fired across, every other shot fades right down.
+  context.save()
+  context.globalAlpha = 1 - 0.88 * quietAt(plan, time)
+  drawVolleysAt(context, plan, view, time)
+  context.restore()
+}
+
+/** How far the rest of the battle is hushed for the crossing: 0 normally, 1 during it. */
+function quietAt(plan: BattlePlan, time: number): number {
+  const { start, end } = plan.times.slow
+  return clamp01((time - (start - 0.4)) / 0.4) * (1 - clamp01((time - end) / 0.6))
+}
+
+function drawVolleysAt(
   context: CanvasRenderingContext2D,
   plan: BattlePlan,
   view: View,
