@@ -28,11 +28,11 @@ export default createEvent({
       '.',
     ],
     [
-      'The party urged the troops to help the civilians. A party member showed a military medic’s badge, and ',
+      'The party urged the troops to help the civilians, and ',
       refs.pcs.cassian_veyl,
       ' supported the appeal with Suggestion. ',
       refs.npcs.captain_garran,
-      ' and his soldiers joined the rescue effort. The transcript does not reliably identify who held the badge.',
+      ' and his soldiers joined the rescue effort.',
     ],
   ],
 })

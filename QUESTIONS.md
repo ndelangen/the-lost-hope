@@ -464,14 +464,6 @@ Every question must include **what we already know** — many sit unanswered acr
   - Who kept and who lost the bond is recorded in the pulse event, from the DM's save tracker. Memories and shared history remain intact. While describing the pulse the DM said the field of connection is fragile but can slowly heal. No duration or removal condition was given.
   - Part 1, 00:16 through 00:29.
 
-- Who showed Captain Garran the military medic’s badge?
-  - A party member called themselves a lieutenant and tried to direct the soldiers into rescue work. Cassian supported the appeal with Suggestion. The first recording has no reliable speaker labels, so the badge-holder remains unidentified.
-  - Part 1, 01:23 through 01:29. No military rank has been added to a PC from this exchange.
-
-- Which boarding compartments did the party enter, and on which deck?
-  - Swift, Cassian, and Devan used the same entry compartment; Auren used the other. They fought around the rooms and connecting doorway, then stopped after clearing them. The existing Session 18 room-clearance annotation places both rooms at the bow of Ride the Lightning’s main deck. The transcript instead uses stern and middle-deck wording while discussing the map.
-  - Part 1, 02:32 through 02:37; Part 2, boarding and closing fight. Events use the existing main-deck placement provisionally. No lower-deck visit or further room traversal has been inferred.
-
 - What did the party write in response to Onana’s interrogation?
   - He asked about working for the Eyeless Hand and being under the influence of Arcane Dust, using Zone of Truth and attempted mind-reading. Some answers were written privately and are not in the transcript. The questions alone do not prove that anyone was working for the Hand or affected by the dust.
   - Part 1, 01:58 through 02:06.

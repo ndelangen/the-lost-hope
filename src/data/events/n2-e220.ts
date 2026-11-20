@@ -39,6 +39,13 @@ export default createEvent({
       refs.beasts.sir_fabulous_divine_steed,
       ' watching over them.',
     ],
+    [
+      'Before boarding, ',
+      refs.pcs.cassian_veyl,
+      ' cast Armor of Agathys and Mage Armor, then drank his ',
+      refs.items.long_rest_in_a_bottle,
+      ' to recover his spell slots.',
+    ],
   ],
   foretold: [
     {
