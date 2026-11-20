@@ -37,13 +37,15 @@ export default createScene({
       ' does not know what he is, and he is willing to let the shadow take him to find out.',
     ],
     [
-      'The hidden rule, never told to the table: if ',
+      'The hidden rule, never told to the table: ',
+      refs.npcs.light_13th_marshal,
+      ' is looking for fear that comes too early or too big. If ',
       refs.pcs.auren,
-      ' shows real fear when night comes, ',
+      ' grows afraid before anything is truly dangerous, or overdoes his fear once the voices come, he knows more than he lets on, and ',
       refs.npcs.light_13th_marshal,
-      ' saves him. Real fear proves he does not know what is coming. Calm composure is what looks suspicious, and then ',
+      ' lets the shadow have him. If he reacts like a being that did not know, ',
       refs.npcs.light_13th_marshal,
-      ' lets the shadow have him.',
+      ' pulls him in.',
     ],
   ],
   beats: [
@@ -142,15 +144,35 @@ export default createScene({
       title: 'Such a beautiful sunset',
       lines: [
         {
+          note: [
+            [
+              refs.npcs.light_13th_marshal,
+              ' never hints at danger. He stays super casual and friendly to the end.',
+            ],
+          ],
+        },
+        {
           speaker: refs.npcs.light_13th_marshal,
           say: [['How beautiful a sunset it will soon be.']],
         },
         {
           do: [
             [
-              'All around them people board up their homes and close their shutters, staring at ',
               refs.npcs.light_13th_marshal,
-              ' and ',
+              ' excuses himself: he has to get back to important work. He urges ',
+              refs.pcs.auren,
+              ' to stay and enjoy the sunset for a while.',
+            ],
+          ],
+        },
+        {
+          speaker: refs.npcs.light_13th_marshal,
+          say: [['Have a nice night-time walk in the park, Auren.']],
+        },
+        {
+          do: [
+            [
+              'All around, people board up their homes and close their shutters, staring at ',
               refs.pcs.auren,
               ' in great fear and confusion. The street empties.',
             ],
@@ -160,7 +182,7 @@ export default createScene({
           note: [
             [
               refs.npcs.light_13th_marshal,
-              ' does not hurry, and does not explain. The deadline is the dark.',
+              ' is out of sight but watching. Nothing is dangerous yet: fear setting in now is the first tell.',
             ],
           ],
         },
@@ -179,29 +201,38 @@ export default createScene({
           ],
         },
         {
-          note: [['Watch for fear. Do not ask for it and do not hint at it.']],
+          note: [
+            [
+              'Watch how big his fear is. Surprise and fear that fit the danger are what a being that did not know would show; fear far beyond it is the second tell.',
+            ],
+          ],
         },
       ],
       outcomes: [
         {
-          when: [[refs.pcs.auren, ' shows real fear.']],
+          when: [[refs.pcs.auren, ' reacts like a being that did not know.']],
           response: [
             [
               refs.npcs.light_13th_marshal,
-              ' steps in and the shadows draw back. He has his answer, and walks ',
+              ' is suddenly there, pulls ',
               refs.pcs.auren,
-              ' to the ',
+              ' in, and the shadows draw back. He walks him to the ',
               refs.locations.fajanet_guildhall,
               ' for the rest of the night, still answering nothing.',
             ],
           ],
         },
         {
-          when: [[refs.pcs.auren, ' stays calm and composed.']],
+          when: [
+            [
+              refs.pcs.auren,
+              ' was afraid before the danger was real, or overdoes his fear once it comes.',
+            ],
+          ],
           response: [
             [
               refs.npcs.light_13th_marshal,
-              ' wishes him a pleasant evening and walks away, leaving him alone in the street. ',
+              ' stays out of sight. ',
               refs.pcs.auren,
               ' makes a ',
               refs.rules.wis,
@@ -215,9 +246,8 @@ export default createScene({
               when: [[refs.pcs.auren, ' holds out until dawn: fighting, hiding or resisting.']],
               response: [
                 [
-                  'Surviving the night is proof enough. ',
                   refs.npcs.light_13th_marshal,
-                  ' finds him at sunrise as if nothing happened.',
+                  ' finds him at sunrise as if nothing happened, and asks how the walk was.',
                 ],
               ],
             },
