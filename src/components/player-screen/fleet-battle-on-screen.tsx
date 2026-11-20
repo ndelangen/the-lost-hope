@@ -8,7 +8,9 @@ import {
   add,
   battleCounts,
   battlePlan,
+  battleTimeAt,
   cameraAt,
+  playbackLength,
   captionAt,
   legendAt,
   clamp01,
@@ -94,7 +96,7 @@ function FleetBattle({ roster }: { roster: FleetRoster }) {
   const canvas = useRef<HTMLCanvasElement>(null)
   const frame = useRef<HTMLDivElement>(null)
   const size = useElementSize(frame)
-  const clock = useBattleClock(plan.times.end)
+  const clock = useBattleClock(plan)
   const images = useAvatarImages(plan)
   const icons = useRef(new Map<string, HTMLImageElement>())
   const fortress = useFortressSprite()
@@ -488,7 +490,9 @@ function drawShip(
 ) {
   if (pose.state === 'hidden') return
   const at = toScreen(view, pose.pos)
-  const radius = Math.min(26, Math.max(13, 22 * view.scale * 1.4))
+  // The ships that carry the party and the commander stand out: larger, ringed in gold, named.
+  const notable = ship.markers.length > 0
+  const radius = Math.min(26, Math.max(13, 22 * view.scale * 1.4)) * (notable ? 1.45 : 1)
   const colour = SIDE_COLOURS[pose.side]!
   const turning = ship.turnAt !== undefined && time >= ship.turnAt && time < ship.turnAt + 0.6
   const icon = icons.get(ship.icon)
@@ -534,6 +538,24 @@ function drawShip(
   context.shadowBlur = 0
   if (icon?.complete && icon.naturalWidth > 0) {
     context.drawImage(icon, -radius * 0.62, -radius * 0.62, radius * 1.24, radius * 1.24)
+  }
+  if (notable) {
+    context.strokeStyle = 'rgb(252 211 77 / 0.9)'
+    context.shadowColor = 'rgb(252 211 77)'
+    context.shadowBlur = 18
+    context.lineWidth = 2
+    context.beginPath()
+    context.arc(0, 0, radius + 6, 0, Math.PI * 2)
+    context.stroke()
+    context.shadowBlur = 0
+    context.font = '700 14px ui-monospace, SFMono-Regular, Menlo, monospace'
+    context.textAlign = 'center'
+    context.lineWidth = 4
+    context.strokeStyle = 'rgb(3 10 14 / 0.85)'
+    const label = ship.name.toUpperCase()
+    context.strokeText(label, 0, radius + 24)
+    context.fillStyle = 'rgb(254 243 199)'
+    context.fillText(label, 0, radius + 24)
   }
   context.restore()
   // A muzzle flash as each volley leaves.
@@ -719,9 +741,29 @@ function drawMarkers(
       drawPortrait(context, avatars.get(avatar), x, screen.y - radius * 1.9, radius)
     })
   }
+  // While the party crosses, a line marks the way from ship to ship.
+  const boarding = plan.times.boarding
+  const first = plan.crossings[0]
+  if (boarding && first && time >= boarding.start - 0.3 && time <= boarding.end + 0.3) {
+    const from = toScreen(view, poses.get(first.from)!.pos)
+    const to = toScreen(view, poses.get(first.to)!.pos)
+    context.save()
+    context.setLineDash([10, 8])
+    context.lineDashOffset = -time * 40
+    context.strokeStyle = 'rgb(52 211 153 / 0.75)'
+    context.shadowColor = 'rgb(52 211 153)'
+    context.shadowBlur = 14
+    context.lineWidth = 3
+    context.beginPath()
+    context.moveTo(from.x, from.y)
+    context.lineTo(to.x, to.y)
+    context.stroke()
+    context.restore()
+  }
+  // Crossing portraits are drawn large, so each boarder is clear as they go over.
   for (const { avatar, at } of flying) {
     const screen = toScreen(view, at)
-    drawPortrait(context, avatars.get(avatar), screen.x, screen.y - radius * 1.2, radius)
+    drawPortrait(context, avatars.get(avatar), screen.x, screen.y, radius * 1.8)
   }
 }
 
@@ -863,18 +905,25 @@ function useElementSize(ref: React.RefObject<HTMLElement | null>) {
   return size
 }
 
-/** The battle's clock in seconds. R restarts it; reduced motion jumps to the end. */
-function useBattleClock(end: number) {
-  const [clock] = useState(() => {
+/**
+ * The battle's clock in battle seconds, slow motion included. R restarts it; reduced motion jumps
+ * to the end.
+ */
+function useBattleClock(plan: BattlePlan) {
+  const clock = useMemo(() => {
     let start = performance.now()
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
     return {
-      now: () => (reduced ? end : Math.min(end, (performance.now() - start) / 1000)),
+      now: () => {
+        if (reduced) return plan.times.end
+        const real = Math.min(playbackLength(plan), (performance.now() - start) / 1000)
+        return battleTimeAt(plan, real)
+      },
       restart: () => {
         start = performance.now()
       },
     }
-  })
+  }, [plan])
   useEffect(() => {
     const onKey = (event: KeyboardEvent) => {
       if (event.key === 'r' || event.key === 'R') clock.restart()

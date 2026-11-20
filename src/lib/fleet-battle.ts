@@ -86,6 +86,8 @@ export type BattlePlan = {
     battle: number
     /** The fortress is out of sight. */
     fortressGone: number
+    /** When the boarding party starts and finishes crossing, played in slow motion. */
+    boarding: { start: number; end: number } | undefined
     ceaseFire: number
     end: number
   }
@@ -107,8 +109,11 @@ export const BATTLE_TIMING = {
   heavyFlight: 1.3,
   hailFlight: 0.55,
   beamFlight: 0.35,
-  boardingFlight: 2.2,
-  boardingStagger: 1.1,
+  boardingFlight: 1.8,
+  boardingStagger: 0.9,
+  boardingDelay: 0.5,
+  /** How fast battle time runs while the boarding party crosses. */
+  slowMotion: 0.3,
   hold: 5,
 } as const
 
@@ -131,7 +136,15 @@ export function battlePlan(roster: FleetRoster, geometry: BattleGeometry, seed =
   const turning = entries.filter(({ side }) => side > 0)
   const split = advanceEnd + turning.length * t.turnStagger + t.turnFlight
   const battle = split + t.formLines
-  const fortressGone = battle + t.fortressLead
+  // The party boards as the fortress slips out of view; it is gone as the last boarder lands.
+  const boarders = entries
+    .filter(({ side }) => side > 0)
+    .reduce((count, { ship }) => count + ship.aboard.reduce((n, m) => n + m.avatars.length, 0), 0)
+  const boardingEnd =
+    boarders > 0
+      ? battle + t.boardingDelay + (boarders - 1) * t.boardingStagger + t.boardingFlight
+      : battle
+  const fortressGone = Math.max(battle + t.fortressLead, boardingEnd)
 
   const turnOrder = shuffle(turning, random).map(({ ship }) => ship.key)
   const lines = roster.sides.map((_, side) =>
@@ -178,7 +191,18 @@ export function battlePlan(roster: FleetRoster, geometry: BattleGeometry, seed =
     volleys: [],
     crossings: [],
     captions: [],
-    times: { launch, formed, assault, advanceEnd, split, battle, fortressGone, ceaseFire, end },
+    times: {
+      launch,
+      formed,
+      assault,
+      advanceEnd,
+      split,
+      battle,
+      fortressGone,
+      boarding: boarders > 0 ? { start: battle + t.boardingDelay, end: boardingEnd } : undefined,
+      ceaseFire,
+      end,
+    },
   }
   plan.volleys = planVolleys(plan, random)
   plan.crossings = planCrossings(plan)
@@ -238,9 +262,31 @@ export function fortressAt(plan: BattlePlan, time: number): Vec {
  * sky once the cruisers break away to fight each other.
  */
 export function fightAnchor(plan: BattlePlan, time: number): Vec {
-  const { split } = plan.times
-  const progress = easeInOut(clamp01((time - split) / BATTLE_TIMING.formLines))
+  const { split, fortressGone } = plan.times
+  const progress = easeInOut(clamp01((time - fortressGone) / BATTLE_TIMING.formLines))
   return lerp(fortressAt(plan, Math.min(time, split)), plan.geometry.arena, progress)
+}
+
+/**
+ * Battle time for a moment of real playback: the clock runs at full speed, except while the
+ * boarding party crosses, which plays in slow motion. Easing in and out of it keeps it smooth.
+ */
+export function battleTimeAt(plan: BattlePlan, real: number): number {
+  const boarding = plan.times.boarding
+  if (!boarding) return Math.min(real, plan.times.end)
+  const slow = BATTLE_TIMING.slowMotion
+  const span = boarding.end - boarding.start
+  if (real <= boarding.start) return real
+  if (real <= boarding.start + span / slow) return boarding.start + (real - boarding.start) * slow
+  return Math.min(plan.times.end, boarding.end + (real - boarding.start - span / slow))
+}
+
+/** How long the whole battle takes to play, slow motion included, in real seconds. */
+export function playbackLength(plan: BattlePlan): number {
+  const boarding = plan.times.boarding
+  if (!boarding) return plan.times.end
+  const span = boarding.end - boarding.start
+  return plan.times.end + span / BATTLE_TIMING.slowMotion - span
 }
 
 /** Where the camera looks and how much of the map it takes in, in map pixels across. */
@@ -251,13 +297,25 @@ export const CAMERA = { wide: { x: 740, y: 490, span: 2760 }, close: { span: 125
 
 /** The camera starts wide on the islands, then closes in on the fight as the fortress leaves. */
 export function cameraAt(plan: BattlePlan, time: number): Camera {
-  const { split, fortressGone } = plan.times
-  const progress = easeInOut(clamp01((time - split) / (fortressGone + 1 - split)))
-  const wide = { x: CAMERA.wide.x, y: CAMERA.wide.y }
-  return {
-    centre: lerp(wide, plan.geometry.arena, progress),
-    span: CAMERA.wide.span + (CAMERA.close.span - CAMERA.wide.span) * progress,
+  const { fortressGone, boarding } = plan.times
+  const wide: Camera = { centre: { x: CAMERA.wide.x, y: CAMERA.wide.y }, span: CAMERA.wide.span }
+  const close: Camera = { centre: plan.geometry.arena, span: CAMERA.close.span }
+  const toClose = easeInOut(clamp01((time - fortressGone) / (BATTLE_TIMING.formLines + 1)))
+  const first = plan.crossings[0]
+  if (!boarding || !first) return blendCamera(wide, close, toClose)
+  // During the boarding the camera closes in on the two ships, so each crossing is easy to follow.
+  const from = pointOf(plan, first.from, time)
+  const to = pointOf(plan, first.to, time)
+  const board: Camera = {
+    centre: lerp(from, to, 0.5),
+    span: Math.min(1400, Math.max(760, length(sub(to, from)) * 2.6)),
   }
+  const toBoard = easeInOut(clamp01((time - (boarding.start - 1.2)) / 1.2))
+  return blendCamera(blendCamera(wide, board, toBoard), close, toClose)
+}
+
+function blendCamera(a: Camera, b: Camera, k: number): Camera {
+  return { centre: lerp(a.centre, b.centre, k), span: a.span + (b.span - a.span) * k }
 }
 
 /** Where the formation is centred: it sails out from home and forms up behind the fortress. */
@@ -289,7 +347,7 @@ export function shipPose(plan: BattlePlan, ship: BattleShip, time: number): Ship
   const turned = ship.turnAt !== undefined && time >= ship.turnAt + 0.25
   // The fleet chases toward the fortress; the turned ships face back at their pursuers.
   const facing = turned ? scale(along, -1) : along
-  const circling = time >= plan.times.battle + 0.5
+  const circling = time >= plan.times.fortressGone + 0.5
   const heading = length(motion) > 0.6 && (!turned || circling) ? unit(motion) : facing
   const side = ship.turnAt === undefined || turned ? ship.side : 0
   const state =
@@ -328,11 +386,11 @@ function shipPosition(plan: BattlePlan, ship: BattleShip, time: number): Vec {
   } else if (ship.turnAt === undefined && time >= times.split) {
     pos = lerp(pos, inLine, easeInOut(clamp01((time - times.split) / t.formLines)))
   }
-  if (time >= times.battle) {
+  if (time >= times.fortressGone) {
     pos = lerp(
       pos,
       orbitPosition(plan, ship, time),
-      easeInOut(clamp01((time - times.battle) / t.orbitBlend)),
+      easeInOut(clamp01((time - times.fortressGone) / t.orbitBlend)),
     )
   }
   if (time >= times.assault) {
@@ -360,7 +418,7 @@ function orbitPosition(plan: BattlePlan, ship: BattleShip, time: number): Vec {
   const radius = 90 + (index % 6) * 34
   const direction = ship.side === 0 ? 1 : -1
   const speed = direction * (0.38 + (index % 4) * 0.06)
-  const angle = ship.phase + speed * (time - plan.times.battle)
+  const angle = ship.phase + speed * (time - plan.times.fortressGone)
   const wobble = 1 + 0.18 * Math.sin(angle * 2.3 + index)
   return add(centre, {
     x: Math.cos(angle) * radius * wobble,
@@ -533,7 +591,7 @@ function planCrossings(plan: BattlePlan): Crossing[] {
   return boarders.map((boarder, index) => ({
     ...boarder,
     from: flagship.key,
-    at: plan.times.fortressGone + 3 + index * BATTLE_TIMING.boardingStagger,
+    at: plan.times.battle + BATTLE_TIMING.boardingDelay + index * BATTLE_TIMING.boardingStagger,
     duration: BATTLE_TIMING.boardingFlight,
   }))
 }
@@ -563,11 +621,16 @@ function planCaptions(plan: BattlePlan, roster: FleetRoster): BattleCaption[] {
       text: `The fleet is split: ${roster.sides.map((side) => side.ships.length).join(' against ')}`,
     })
   }
-  captions.push({ at: plan.times.fortressGone - 2.5, text: 'The fortress is getting away' })
+  if (!plan.times.boarding) {
+    captions.push({ at: plan.times.fortressGone - 2.5, text: 'The fortress is getting away' })
+  }
   captions.push({ at: plan.times.fortressGone, text: 'Contact lost: the flying fortress' })
   captions.push({ at: plan.times.fortressGone + 1.5, text: 'The cruisers fight on over open sky' })
-  if (plan.crossings.length > 0) {
-    captions.push({ at: plan.times.fortressGone + 3, text: 'Boarding party away' })
+  if (plan.times.boarding) {
+    captions.push({
+      at: plan.times.boarding.start,
+      text: 'Boarding party away',
+    })
   }
   captions.push({ at: ceaseFire + 1, text: `${remaining} contacts remain` })
   return captions.toSorted((a, b) => a.at - b.at)

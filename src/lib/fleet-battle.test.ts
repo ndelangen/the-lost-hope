@@ -3,6 +3,9 @@ import { describe, expect, it } from 'vitest'
 import {
   battleCounts,
   battlePlan,
+  battleTimeAt,
+  BATTLE_TIMING,
+  playbackLength,
   cameraAt,
   CAMERA,
   captionAt,
@@ -167,5 +170,18 @@ describe('battlePlan', () => {
     const end = cameraAt(plan, times.end)
     expect(end.span).toBe(CAMERA.close.span)
     expect(end.centre).toEqual(geometry.arena)
+  })
+
+  it('plays the boarding in slow motion, one boarder after another, as the fortress leaves', () => {
+    const boarding = times.boarding!
+    expect(boarding.end).toBe(times.fortressGone)
+    const [first, second] = plan.crossings
+    expect(first!.at).toBe(boarding.start)
+    expect(second!.at).toBeGreaterThan(first!.at)
+    expect(battleTimeAt(plan, boarding.start)).toBe(boarding.start)
+    expect(battleTimeAt(plan, boarding.start + 1)).toBeCloseTo(
+      boarding.start + BATTLE_TIMING.slowMotion,
+    )
+    expect(battleTimeAt(plan, playbackLength(plan))).toBeCloseTo(times.end)
   })
 })
