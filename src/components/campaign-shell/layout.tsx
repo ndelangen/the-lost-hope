@@ -31,7 +31,7 @@ export function CampaignShellLayout({
   if (focused) {
     return (
       <div className="bg-background text-foreground min-h-screen">
-        <main className="min-w-0 px-3 py-3 sm:px-4">{children}</main>
+        <main className="min-w-0 px-3 pt-3 pb-24 sm:px-4">{children}</main>
       </div>
     )
   }
@@ -74,7 +74,16 @@ export function CampaignShellLayout({
             </aside>
           ) : null}
 
-          <main className={cn('min-w-0 py-8 pl-0', hasNavigation && 'lg:pl-8')}>{children}</main>
+          <main
+            className={cn(
+              'min-w-0 pt-8 pl-0',
+              // Local dev floats the player-screen dock over the page bottom; leave room for it.
+              import.meta.env.DEV ? 'pb-24' : 'pb-8',
+              hasNavigation && 'lg:pl-8',
+            )}
+          >
+            {children}
+          </main>
         </Grid>
       </Center>
     </div>

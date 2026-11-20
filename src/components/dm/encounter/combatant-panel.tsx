@@ -67,7 +67,7 @@ export function CombatantPanel({
   return (
     <section
       aria-labelledby="combatant-heading"
-      className="border-border bg-card grid content-start gap-4 rounded-xl border p-4"
+      className="border-border bg-card grid min-w-0 grid-cols-[minmax(0,1fr)] content-start gap-4 rounded-xl border p-4"
     >
       <header className="flex items-start justify-between gap-2">
         <div>

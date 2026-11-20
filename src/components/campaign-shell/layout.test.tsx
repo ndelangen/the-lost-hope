@@ -31,7 +31,8 @@ describe('CampaignShellLayout', () => {
 
     expect(markup).toContain('grid-cols-[auto_minmax(0,1fr)]')
     expect(markup).toContain('w-72 pr-4')
-    expect(markup).toContain('py-8 pl-0 lg:pl-8')
+    expect(markup).toContain('min-w-0 pt-8 pl-0')
+    expect(markup).toContain('lg:pl-8')
     expect(markup).not.toContain('Close navigation')
   })
 

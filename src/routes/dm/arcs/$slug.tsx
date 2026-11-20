@@ -59,7 +59,7 @@ function ArcRoute() {
                   key={plot.slug}
                   className="border-border bg-card grid gap-2 rounded-xl border p-4"
                 >
-                  <div className="flex items-center justify-between gap-3">
+                  <div className="flex flex-wrap items-center justify-between gap-3">
                     <h3 className="font-semibold">{plot.name}</h3>
                     <div className="flex items-center gap-3">
                       <DmFaces people={plotCast(plot)} />

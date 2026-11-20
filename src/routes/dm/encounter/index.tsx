@@ -448,7 +448,7 @@ function EncounterRoute() {
         ) : null}
         {addEnemiesSheet}
         {running ? (
-          <div className="grid items-start gap-3 md:grid-cols-[17rem_minmax(0,1fr)] xl:grid-cols-[20rem_minmax(0,1fr)]">
+          <div className="grid grid-cols-[minmax(0,1fr)] items-start gap-3 md:grid-cols-[17rem_minmax(0,1fr)] xl:grid-cols-[20rem_minmax(0,1fr)]">
             <InitiativeRail
               rows={rows}
               active={encounter.active}

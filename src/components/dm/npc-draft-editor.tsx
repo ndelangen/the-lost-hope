@@ -210,7 +210,7 @@ export function NpcDraftEditor({ partyLocation }: { partyLocation?: string }) {
         <div className="flex flex-wrap items-end gap-3">
           <Field label="Where">
             <select
-              className={`${fieldClass} min-h-12`}
+              className={`${fieldClass} min-h-12 w-full`}
               value={location}
               onChange={(event) => setLocation(event.target.value)}
             >
@@ -356,7 +356,7 @@ export function NpcDraftEditor({ partyLocation }: { partyLocation?: string }) {
 
 function Field({ label, children }: { label: string; children: ReactNode }) {
   return (
-    <label className="grid gap-1">
+    <label className="grid min-w-0 gap-1">
       <span className="text-sm font-medium">{label}</span>
       {children}
     </label>

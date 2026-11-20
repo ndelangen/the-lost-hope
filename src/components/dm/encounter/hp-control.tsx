@@ -144,7 +144,7 @@ export function HpControl({
 
       {quickEntry ? (
         <form
-          className="flex items-center gap-2 self-start"
+          className="flex flex-wrap items-center gap-2 self-start"
           onSubmit={(event) => {
             event.preventDefault()
             apply(-1)

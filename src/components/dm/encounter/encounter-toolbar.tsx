@@ -73,7 +73,7 @@ export function EncounterToolbar({
           )}
         </p>
       </div>
-      <div className="flex items-center gap-3">
+      <div className="flex flex-wrap items-center gap-3">
         <ActionButton size="lg" disabled={!canStepBack} onClick={() => onStep(-1)}>
           <ArrowLeft aria-hidden /> Previous
         </ActionButton>
@@ -82,12 +82,12 @@ export function EncounterToolbar({
           tone="primary"
           disabled={!running}
           onClick={() => onStep(1)}
-          className="px-8"
+          className="px-5 sm:px-8"
         >
           Next turn <ArrowRight aria-hidden />
         </ActionButton>
       </div>
-      <div className="ml-auto flex items-center gap-2">
+      <div className="ml-auto flex flex-wrap items-center gap-2">
         <ActionButton onClick={onAdd} title="Add to the fight (A)">
           <UserPlus aria-hidden /> Add to fight
         </ActionButton>
