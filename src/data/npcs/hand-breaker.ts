@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Hand Breaker',
+  avatar: '/assets/npcs/hand-breaker-portrait.png',
   notes: [['A heavy in a riveted iron mask, with a chain flail and a shield the size of a door.']],
   secretMemberships: [
     { organization: refs.organizations.the_eyeless_hand, status: 'active', rank: 'Member' },

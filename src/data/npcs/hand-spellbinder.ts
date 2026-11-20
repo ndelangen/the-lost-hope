@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Hand Spellbinder',
+  avatar: '/assets/npcs/hand-spellbinder-portrait.png',
   notes: [['A thin figure in a grey cloak who stays behind the fighters, fingers moving.']],
   secretMemberships: [
     { organization: refs.organizations.the_eyeless_hand, status: 'active', rank: 'Member' },

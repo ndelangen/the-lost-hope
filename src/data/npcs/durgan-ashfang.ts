@@ -3,6 +3,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 
 export default createNPC({
   name: 'Durgan Ashfang',
+  avatar: '/assets/npcs/durgan-ashfang-portrait.png',
   species: 'Orc',
   secretMemberships: [
     { organization: refs.organizations.the_eyeless_hand, status: 'active', rank: 'Dust-Lost' },

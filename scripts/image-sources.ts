@@ -21,6 +21,24 @@ export type ResponsiveImageSource = {
 
 export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
   {
+    id: 'npcs-durgan-ashfang-portrait',
+    role: 'avatar',
+    logicalSource: '/assets/npcs/durgan-ashfang-portrait.png',
+    repositoryPath: 'assets/images/content/npcs/durgan-ashfang-portrait.png',
+  },
+  {
+    id: 'npcs-hand-breaker-portrait',
+    role: 'avatar',
+    logicalSource: '/assets/npcs/hand-breaker-portrait.png',
+    repositoryPath: 'assets/images/content/npcs/hand-breaker-portrait.png',
+  },
+  {
+    id: 'npcs-hand-spellbinder-portrait',
+    role: 'avatar',
+    logicalSource: '/assets/npcs/hand-spellbinder-portrait.png',
+    repositoryPath: 'assets/images/content/npcs/hand-spellbinder-portrait.png',
+  },
+  {
     id: 'scenes-chaos-on-the-sky-islands',
     role: 'illustration',
     logicalSource: '/assets/scenes/chaos-on-the-sky-islands.png',
