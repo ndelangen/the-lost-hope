@@ -11,6 +11,7 @@ export default createEvent({
     '/assets/scenes/boarding-ball-loading.png',
     '/assets/scenes/boarding-ball-impact.png',
   ],
+  visualizations: [{ kind: 'fleet-battle', fleet: refs.organizations.tempest_family }],
   notes: [
     [
       'From the ',

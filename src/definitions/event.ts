@@ -59,6 +59,16 @@ export const BondOutcomes = z
 
 export type BondOutcomes = z.infer<typeof BondOutcomes>
 
+/** An animated replay of what happened, played full screen from the event and its session. */
+export const EventVisualization = z.discriminatedUnion('kind', [
+  z.strictObject({
+    kind: z.literal('fleet-battle'),
+    fleet: entityRefOf('organization').describe('The organization whose fleet fought'),
+  }),
+])
+
+export type EventVisualization = z.infer<typeof EventVisualization>
+
 export const EventSchema = deriveSlug(
   z.strictObject({
     name: z.string(),
@@ -75,6 +85,10 @@ export const EventSchema = deriveSlug(
       .describe(
         'Pictures the players were shown during this event, such as the illustration of the scene played',
       ),
+    visualizations: z
+      .array(EventVisualization)
+      .default([])
+      .describe('Animated replays of this event, such as a fleet battle on the radar'),
     foretold: z
       .array(Foretold)
       .min(1)

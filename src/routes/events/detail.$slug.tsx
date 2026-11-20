@@ -8,6 +8,7 @@ import { EntityCorrectionSubmission } from '#/components/entity-correction-submi
 import { EntityKindPill } from '#/components/entity-kind-pill'
 import { EntityDetail } from '#/components/entity-page'
 import { EventIllustrations } from '#/components/event-illustrations'
+import { EventVisualizations } from '#/components/event-visualizations'
 import { ForetoldList } from '#/components/foretold-list'
 import { ImageViewer } from '#/components/image-viewer'
 import { LocationReference } from '#/components/location-reference'
@@ -82,6 +83,7 @@ function EventPage() {
       <Stack as="section" gap="lg">
         <h2 className="text-lg font-semibold">What happened</h2>
         <EventIllustrations illustrations={event.illustrations} eventName={event.name} />
+        <EventVisualizations visualizations={event.visualizations} />
         <ContentRenderer content={eventNarrative(event)} />
       </Stack>
       {event.foretold ? (

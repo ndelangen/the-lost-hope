@@ -4,6 +4,7 @@ import { ContentRenderer } from '#/components/content-renderer'
 import { EntityReference } from '#/components/entity-reference'
 import { EventIllustrations } from '#/components/event-illustrations'
 import { EventReference } from '#/components/event-reference'
+import { EventVisualizations } from '#/components/event-visualizations'
 import { ForetoldList } from '#/components/foretold-list'
 import { LocationReference } from '#/components/location-reference'
 import { Avatar } from '#/components/ui/avatar'
@@ -158,6 +159,7 @@ function JournalEvent({ event }: { event: SessionJournalEvent }) {
               eventName={event.name}
               className="mb-5"
             />
+            <EventVisualizations visualizations={event.visualizations} className="mb-5" />
             <ContentRenderer
               content={event.notes}
               className={cn(

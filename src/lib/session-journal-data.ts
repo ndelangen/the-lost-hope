@@ -1,4 +1,5 @@
 import type { Content } from '#/definitions/content'
+import type { EventVisualization } from '#/definitions/event'
 import type { Foretold } from '#/definitions/foretold'
 import { isEntityRef, type EntityRef } from '#/definitions/kind'
 import type { QuestType } from '#/definitions/quest'
@@ -44,6 +45,7 @@ export type SessionJournalEvent = {
   foretold: readonly Foretold[]
   mark: EventMarkVisual
   illustrations: readonly string[]
+  visualizations: readonly EventVisualization[]
   location?: SessionJournalLocation
   transition?: {
     slug: string
@@ -88,6 +90,7 @@ export function sessionJournalData(session: Session): SessionJournalDay[] {
         foretold: event.foretold ?? [],
         mark: eventMarkVisual(event),
         illustrations: event.illustrations,
+        visualizations: event.visualizations,
         location: location
           ? {
               slug: location.slug,

@@ -302013,7 +302013,8 @@
       "sourceUrl": "https://lucide.dev/icons/play",
       "usedIn": [
         "src/components/dm/encounter/ability-controls.tsx",
-        "src/components/dm/encounter/ability-text.tsx"
+        "src/components/dm/encounter/ability-text.tsx",
+        "src/components/event-visualizations.tsx"
       ]
     },
     {
@@ -302825,7 +302826,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/radar",
-      "usedIn": []
+      "usedIn": [
+        "src/components/event-visualizations.tsx"
+      ]
     },
     {
       "id": "lucide/Radiation",
@@ -324877,6 +324880,7 @@
         "src/components/dm/encounter/encounter-notes.tsx",
         "src/components/dm/encounter/preset-buttons.tsx",
         "src/components/dm/encounter/turn-card.tsx",
+        "src/components/event-visualizations.tsx",
         "src/components/image-viewer.tsx",
         "src/components/player-screen/player-screen-dock.tsx",
         "src/components/player-screen/pointing-view.tsx",
