@@ -10,18 +10,19 @@ const HANDOUT_KEYS = Object.keys(HANDOUTS) as [HandoutKey, ...HandoutKey[]]
  * What the DM puts on the player-facing screen: a record and which of its images to show. The
  * screen resolves the picture from the record, so a selection never carries an image URL.
  */
-export const PlayerScreenImage = z.discriminatedUnion('image', [
+export const PlayerScreenImage = z.union([
   z.strictObject({
     image: z.literal('avatar'),
     ref: z.strictObject({ ref: z.enum(['pc', 'npc', 'beast']), key: z.string().min(1) }),
   }),
   z.strictObject({
-    image: z.literal('map'),
+    image: z.enum(['map', 'illustration']),
     ref: z.strictObject({ ref: z.literal('location'), key: z.string().min(1) }),
   }),
   z.strictObject({
     image: z.literal('illustration'),
-    ref: z.strictObject({ ref: z.enum(['location', 'scene']), key: z.string().min(1) }),
+    ref: z.strictObject({ ref: z.literal('scene'), key: z.string().min(1) }),
+    index: z.number().int().nonnegative(),
   }),
   z.strictObject({
     image: z.literal('handout'),
@@ -119,7 +120,8 @@ export function togglePlayerScreen(
 }
 
 export function playerScreenImageId(selection: PlayerScreenImage): string {
-  return `${selection.image}:${selection.ref.ref}:${selection.ref.key}`
+  const record = `${selection.image}:${selection.ref.ref}:${selection.ref.key}`
+  return 'index' in selection ? `${record}:${selection.index}` : record
 }
 
 export function samePlayerScreenImage(

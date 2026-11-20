@@ -3,7 +3,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 
 export default createScene({
   name: 'The party reunites on the docks',
-  illustration: '/assets/scenes/the-party-reunites-on-the-docks.png',
+  illustrations: ['/assets/scenes/the-party-reunites-on-the-docks.png'],
   location: refs.locations.nimbus_harbour,
   alternateLocations: [refs.locations.nimbus_sky_bridge_landing],
   battleMaps: [refs.locations.nimbus_harbour],

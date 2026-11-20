@@ -3,7 +3,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 
 export default createScene({
   name: 'The clogged ferry landing',
-  illustration: '/assets/scenes/the-clogged-ferry-landing.png',
+  illustrations: ['/assets/scenes/the-clogged-ferry-landing.png'],
   location: refs.locations.skynet_sky_bridge_landing,
   battleMaps: [refs.locations.skynet_sky_bridge_landing, refs.locations.sky_bridge_ferry],
   npcs: [

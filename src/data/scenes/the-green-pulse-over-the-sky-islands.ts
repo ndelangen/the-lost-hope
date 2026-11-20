@@ -3,7 +3,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 
 export default createScene({
   name: 'The green pulse over the sky islands',
-  illustration: '/assets/scenes/the-green-pulse-over-the-sky-islands.png',
+  illustrations: ['/assets/scenes/the-green-pulse-over-the-sky-islands.png'],
   location: refs.locations.three_sky_kingdoms,
   setup: [
     [
