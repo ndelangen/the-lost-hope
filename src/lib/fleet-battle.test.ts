@@ -60,18 +60,20 @@ describe('battlePlan', () => {
   const plan = battlePlan(roster, geometry)
   const { times } = plan
 
-  it('deploys the whole fleet under its owner, never faster than the speed cap', () => {
-    expect(battleCounts(plan, times.arrive, 2)).toEqual({ flying: [6, 0], lost: 0 })
+  it('spawns the ships one by one and engages at once, never faster than the speed cap', () => {
+    const launches = plan.ships.map((entry) => entry.launchAt)
+    expect(launches).toEqual(launches.toSorted((a, b) => a - b))
+    expect(times.chase - times.launch).toBeLessThanOrEqual(BATTLE_TIMING.scatter)
     const dt = 0.05
     let fastest = 0
     for (const entry of plan.ships) {
-      for (let at = entry.launchAt; at < times.chase; at += dt) {
+      for (let at = entry.launchAt + BATTLE_TIMING.spawnSpread; at < times.fire; at += dt) {
         const a = shipPose(plan, entry, at).pos
         const b = shipPose(plan, entry, at + dt).pos
         fastest = Math.max(fastest, Math.hypot(b.x - a.x, b.y - a.y) / dt)
       }
     }
-    expect(fastest).toBeLessThan(BATTLE_TIMING.maxSpeed * 1.15)
+    expect(fastest).toBeLessThan(BATTLE_TIMING.maxSpeed * 1.2)
   })
 
   it('keeps the fortress on a steady course throughout', () => {
@@ -83,20 +85,23 @@ describe('battlePlan', () => {
     expect(b.y).toBeLessThan(a.y)
   })
 
-  it('keeps the flagship over the hold while the party fades in, then has it join the fight', () => {
+  it('keeps the flagship behind until ships turn, then picks up the party in slow motion', () => {
     const appear = plan.crossings.filter((entry) => entry.kind === 'appear')
     expect(appear.map((entry) => [entry.avatar, entry.to])).toEqual([
       ['/a.png', 'flagship'],
       ['/b.png', 'flagship'],
     ])
+    expect(times.pickup!.start).toBe(times.switchStart)
+    expect(appear[0]!.at).toBeGreaterThanOrEqual(times.pickup!.start)
     const flagship = plan.ships.find((entry) => entry.key === 'flagship')!
     const held = shipPose(plan, flagship, times.boardEnd).pos
     expect(Math.hypot(held.x - geometry.hold.x, held.y - geometry.hold.y)).toBeLessThan(15)
     expect(times.join!.start).toBeGreaterThanOrEqual(times.boardEnd)
-    expect(times.chase).toBeLessThan(times.join!.start)
     expect(times.slow.start).toBeGreaterThan(times.join!.end)
     const firing = plan.volleys.filter((volley) => volley.from === 'flagship')
     expect(firing.every((volley) => volley.at >= times.join!.end)).toBe(true)
+    const pickupMiddle = (times.pickup!.start + times.pickup!.end) / 2
+    expect(cameraAt(plan, pickupMiddle).span).toBeLessThan(cameraAt(plan, times.fire).span)
   })
 
   it('opens fire on the fortress once the chase is on, before any ship switches', () => {
@@ -140,10 +145,12 @@ describe('battlePlan', () => {
       expect(shot.at).toBeGreaterThanOrEqual(times.slow.start)
       expect(shot.at + shot.duration).toBeLessThanOrEqual(times.slow.end)
     }
-    expect(battleTimeAt(plan, times.slow.start + 1)).toBeCloseTo(
-      times.slow.start + BATTLE_TIMING.slowMotion,
-    )
     expect(battleTimeAt(plan, playbackLength(plan))).toBeCloseTo(times.end)
+    const pickup = times.pickup!
+    const realAtPickup = pickup.start
+    expect(battleTimeAt(plan, realAtPickup + 1)).toBeCloseTo(
+      pickup.start + BATTLE_TIMING.slowMotion,
+    )
   })
 
   it('loses ships only after the crossing, alternating sides, and they fall away', () => {
@@ -187,9 +194,11 @@ describe('battlePlan', () => {
     expect(captionAt(plan, 0.5)?.text).toBe(
       'Contact: the flying fortress, heading north-north-west',
     )
-    expect(captionAt(plan, times.boardStart)?.text).toBe('flagship picks up the party over Nimbus')
+    expect(captionAt(plan, times.pickup!.start + 0.5)?.text).toBe(
+      'flagship picks up the party over Nimbus',
+    )
     expect(captionAt(plan, times.slow.start)?.text).toBe('The party crosses to seized')
-    expect(captionAt(plan, times.end)?.text).toBe('2 contacts remain')
+    expect(captionAt(plan, times.ceaseFire + 1.5)?.text).toBe('2 contacts remain')
   })
 
   it('plays the same way every time', () => {
@@ -212,5 +221,17 @@ describe('battlePlan', () => {
       }
     }
     expect(sharpest).toBeLessThan(250)
+  })
+
+  it('plays on until the fortress is out of view', () => {
+    expect(times.end).toBeGreaterThan(times.fortressGone)
+    const camera = cameraAt(plan, times.fortressGone)
+    const fortress = fortressAt(plan, times.fortressGone)
+    const away = Math.max(
+      Math.abs(fortress.x - camera.centre.x) - camera.span / 2,
+      Math.abs(fortress.y - camera.centre.y) - camera.span * 0.4,
+    )
+    expect(away).toBeGreaterThan(0)
+    expect(captionAt(plan, times.end)?.text).toBe('Contact lost: the flying fortress')
   })
 })

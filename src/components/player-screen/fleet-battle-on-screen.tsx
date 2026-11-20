@@ -12,6 +12,7 @@ import {
   cameraAt,
   playbackLength,
   captionAt,
+  slowWindows,
   legendAt,
   clamp01,
   curve,
@@ -384,8 +385,13 @@ function drawBattle(
     context.fillRect(0, 0, size.width, size.height)
   }
   // Bars close in from the top and bottom while time runs slow.
-  const { slow } = plan.times
-  const bars = clamp01((time - (slow.start - 0.6)) / 0.6) * (1 - clamp01((time - slow.end) / 0.6))
+  const bars = Math.max(
+    0,
+    ...slowWindows(plan).map(
+      (window) =>
+        clamp01((time - (window.start - 0.6)) / 0.6) * (1 - clamp01((time - window.end) / 0.6)),
+    ),
+  )
   if (bars > 0) {
     context.fillStyle = 'rgb(0 0 0 / 0.85)'
     const height = size.height * 0.07 * bars
