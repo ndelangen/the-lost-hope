@@ -139033,6 +139033,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/fire-ring.html",
       "usedIn": [
         "src/data/beasts/phoenix-chick.ts",
+        "src/data/npcs/hand-spellbinder.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -140807,6 +140808,7 @@
         "src/data/beasts/phoenix-chick.ts",
         "src/data/creatures/mage.ts",
         "src/data/npcs/bob-the-merchant.ts",
+        "src/data/npcs/hand-spellbinder.ts",
         "src/data/npcs/ilsa-corrow.ts",
         "src/lib/ability-icons.tsx"
       ]
@@ -166643,6 +166645,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/kneeling.html",
       "usedIn": [
         "src/data/npcs/durgan-ashfang.ts",
+        "src/data/npcs/hand-spellbinder.ts",
         "src/data/npcs/korrag-stonevow.ts",
         "src/data/npcs/silas-wren.ts",
         "src/lib/ability-icons.tsx"
@@ -211141,6 +211144,7 @@
         "src/data/events/n2-e127.ts",
         "src/data/locations/serpent-eclipse-shadow-arena.ts",
         "src/data/npcs/durgan-ashfang.ts",
+        "src/data/npcs/hand-spellbinder.ts",
         "src/data/npcs/korrag-stonevow.ts",
         "src/data/npcs/silas-wren.ts",
         "src/lib/ability-icons.tsx",
@@ -233593,6 +233597,7 @@
       "usedIn": [
         "src/data/npcs/bob-the-merchant.ts",
         "src/data/npcs/giggles.ts",
+        "src/data/npcs/hand-spellbinder.ts",
         "src/data/npcs/ilsa-corrow.ts",
         "src/data/npcs/onana-tempest.ts",
         "src/data/npcs/sarogarth.ts",

@@ -286,6 +286,7 @@ export const refs = {
     gridswald: ref('npc', 'gridswald'),
     gruumsh_high_priest: ref('npc', 'gruumsh_high_priest'),
     hand_breaker: ref('npc', 'hand_breaker'),
+    hand_spellbinder: ref('npc', 'hand_spellbinder'),
     hex: ref('npc', 'hex'),
     knukkles: ref('npc', 'knukkles'),
     lord_malachar: ref('npc', 'lord_malachar'),

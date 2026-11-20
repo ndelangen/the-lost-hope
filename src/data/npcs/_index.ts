@@ -34,6 +34,7 @@ import gridswald from './gridswald.ts'
 import grimgor_the_bloody from './grimgor-the-bloody.ts'
 import gruumsh_high_priest from './gruumsh-high-priest.ts'
 import hand_breaker from './hand-breaker.ts'
+import hand_spellbinder from './hand-spellbinder.ts'
 import hex from './hex.ts'
 import hollin_slowbough from './hollin-slowbough.ts'
 import ilsa_corrow from './ilsa-corrow.ts'
@@ -138,6 +139,7 @@ export default {
   gridswald,
   gruumsh_high_priest,
   hand_breaker,
+  hand_spellbinder,
   hex,
   knukkles,
   lord_malachar,

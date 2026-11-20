@@ -15,6 +15,7 @@ export default createScene({
     refs.npcs.korrag_stonevow,
     refs.npcs.durgan_ashfang,
     refs.npcs.hand_breaker,
+    refs.npcs.hand_spellbinder,
     refs.npcs.dust_lost_sailor,
     refs.npcs.cloaked_snatcher,
     refs.npcs.tempest_soldier,
@@ -302,7 +303,7 @@ export default createScene({
         opponents: [
           { creature: refs.npcs.korrag_stonevow, count: 1 },
           { creature: refs.npcs.durgan_ashfang, count: 1 },
-          { creature: refs.npcs.cloaked_snatcher, count: 2 },
+          { creature: refs.npcs.hand_spellbinder, count: 1 },
         ],
         tactics: [
           [
@@ -316,6 +317,17 @@ export default createScene({
             ' and ',
             refs.npcs.korrag_stonevow,
             ' hit him from 5 ft., where every hit is a critical hit. A held creature cannot drink a potion: his friends have to break it.',
+          ],
+          [
+            'The ',
+            refs.npcs.hand_spellbinder,
+            ' stays behind the orcs and goes around ',
+            refs.pcs.auren,
+            '’s armour: Hold Person on him first, then Command if that fails. Fireball only when ',
+            refs.pcs.swift_starblade,
+            ' and ',
+            refs.pcs.cassian_veyl,
+            ' stand together. Misty Step away from anyone who reaches it.',
           ],
           [
             refs.npcs.durgan_ashfang,
