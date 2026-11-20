@@ -174,7 +174,7 @@ export const Scene = deriveSlug(
     location: entityRefOf('location'),
     alternateLocations: z.array(entityRefOf('location')).default([]),
     battleMaps: z.array(entityRefOf('location')).default([]),
-    illustration: MediaUrl.optional(),
+    illustrations: z.array(MediaUrl).default([]),
     setup: DmContent.describe('The situation the scene opens on, in a paragraph or two'),
     beats: z
       .array(SceneBeat)

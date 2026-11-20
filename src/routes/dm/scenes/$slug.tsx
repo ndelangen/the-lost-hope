@@ -71,7 +71,11 @@ function SceneRoute() {
   const briefed = new Set<string>()
   const script = buildSceneScript(scene.beats, hasSecret, briefed)
   const branches = buildSceneBranches(scene.outcomes, hasSecret, '', briefed)
-  const sceneImage: PlayerScreenImage = { image: 'illustration', ref: { ref: 'scene', key } }
+  const sceneImage: PlayerScreenImage = {
+    image: 'illustration',
+    ref: { ref: 'scene', key },
+    index: 0,
+  }
   // The player screen only runs in local dev, and only shows scenes that have a picture.
   const picture =
     import.meta.env.DEV && resolvePlayerScreenImage(sceneImage) ? sceneImage : undefined
@@ -90,19 +94,36 @@ function SceneRoute() {
     if (room) roomSheet.current?.scrollIntoView({ block: 'nearest', behavior: 'smooth' })
   }, [room])
 
-  const illustration = scene.illustration ? (
-    <ImageViewer
-      src={scene.illustration}
-      alt={scene.name}
-      title={scene.name}
-      eyebrow="Scene illustration"
-      accessibleLabel={`illustration of ${scene.name}`}
-      previewSizes="(min-width: 1024px) 800px, calc(100vw - 4rem)"
-      previewMaxWidth={960}
-      className="aspect-[3/2] w-full overflow-hidden rounded-lg"
-      playerScreen={{ image: 'illustration', ref: { ref: 'scene', key } }}
-    />
-  ) : null
+  const illustrations =
+    scene.illustrations.length > 0 ? (
+      <div className={cn('grid gap-3', scene.illustrations.length > 1 && 'sm:grid-cols-2')}>
+        {scene.illustrations.map((src, index) => {
+          const title =
+            scene.illustrations.length > 1
+              ? `${scene.name}, image ${index + 1} of ${scene.illustrations.length}`
+              : scene.name
+          return (
+            <ImageViewer
+              key={src}
+              src={src}
+              alt={title}
+              title={title}
+              eyebrow="Scene illustration"
+              accessibleLabel={`illustration of ${title}`}
+              previewSizes={
+                scene.illustrations.length > 1
+                  ? '(min-width: 640px) 400px, calc(100vw - 4rem)'
+                  : '(min-width: 1024px) 800px, calc(100vw - 4rem)'
+              }
+              previewMaxWidth={960}
+              className="aspect-[3/2] w-full overflow-hidden rounded-lg"
+              playerScreen={{ image: 'illustration', ref: { ref: 'scene', key }, index }}
+            />
+          )
+        })}
+      </div>
+    ) : null
+
   const battleMapList =
     battleMaps.length > 0 ? (
       <ul className="grid gap-3 sm:grid-cols-2">
@@ -352,16 +373,16 @@ function SceneRoute() {
               <Fold title={`At any time, if… · ${scene.outcomes.length}`}>{anyTime}</Fold>
             ) : null}
             {cast ? <Fold title={`Cast · ${scene.npcs.length}`}>{cast}</Fold> : null}
-            {illustration || battleMapList ? (
+            {illustrations || battleMapList ? (
               <Fold title="Pictures and battlemaps">
-                {illustration}
+                {illustrations}
                 {battleMapList ? <Titled title="Battlemaps">{battleMapList}</Titled> : null}
               </Fold>
             ) : null}
           </>
         ) : (
           <>
-            {illustration}
+            {illustrations}
             {battleMapList ? <Titled title="Battlemaps">{battleMapList}</Titled> : null}
             {cast ? <Titled title="NPCs">{cast}</Titled> : null}
             <Titled title="Setup">{setup}</Titled>

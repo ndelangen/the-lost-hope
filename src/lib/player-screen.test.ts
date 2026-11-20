@@ -17,6 +17,7 @@ import {
   jumpPlayerScreen,
   parsePlayerScreenState,
   playerScreenShowing,
+  playerScreenImageId,
   showOnPlayerScreen,
   stepPlayerScreen,
   togglePlayerScreen,
@@ -64,10 +65,14 @@ describe('player screen', () => {
 
   it('offers a scene with its location and NPCs on the scene page', () => {
     const [key, scene] = Object.entries(scenes).find(
-      ([, candidate]) => candidate.npcs.length > 0 && candidate.illustration,
+      ([, candidate]) => candidate.npcs.length > 0 && candidate.illustrations.length > 0,
     )!
     const onPage = playerScreenOptionsForPage(options, `/dm/scenes/${scene.slug}`)
-    expect(onPage[0]?.selection).toEqual({ image: 'illustration', ref: { ref: 'scene', key } })
+    expect(onPage[0]?.selection).toEqual({
+      image: 'illustration',
+      ref: { ref: 'scene', key },
+      index: 0,
+    })
     const keys = new Set(onPage.map((option) => option.selection.ref.key))
     const npcsWithArt = scene.npcs.filter((npc) =>
       npcOptions.some((option) => option.selection.ref.key === npc.key),
@@ -88,6 +93,41 @@ describe('player screen', () => {
     ])
     expect(new Set(keys).size).toBe(keys.length)
     expect(maps.slice(0, 2).every((option) => option.playerCaption === undefined)).toBe(true)
+  })
+
+  it('offers and resolves every scene image independently, including history and grids', () => {
+    const key = 'boarding_ride_the_lightning'
+    const scene = scenes[key]!
+    const onPage = playerScreenOptionsForPage(options, `/dm/scenes/${scene.slug}`).filter(
+      (option) => option.selection.ref.ref === 'scene',
+    )
+    expect(onPage.map((option) => option.src)).toEqual(scene.illustrations)
+    expect(new Set(onPage.map((option) => option.id)).size).toBe(3)
+    const selections = scene.illustrations.map((_, index): PlayerScreenImage => ({
+      image: 'illustration',
+      ref: { ref: 'scene', key },
+      index,
+    }))
+    let state = EMPTY_PLAYER_SCREEN
+    for (const selection of selections) {
+      expect(resolvePlayerScreenImage(selection)?.src).toBe(
+        scene.illustrations['index' in selection ? selection.index : -1],
+      )
+      expect(resolvePlayerScreenImage(selection)?.playerCaption).toBeUndefined()
+      state = showOnPlayerScreen(state, selection)
+    }
+    expect(state.history).toEqual([null, ...selections])
+    expect(new Set(selections.map(playerScreenImageId)).size).toBe(3)
+    expect(playerScreenShowing(stepPlayerScreen(state, -1))).toEqual(selections[1])
+    expect(parsePlayerScreenState(JSON.stringify(state))).toEqual(state)
+    expect(
+      resolvePlayerScreenImage({ image: 'illustration', ref: { ref: 'scene', key }, index: 99 }),
+    ).toBeUndefined()
+    expect(
+      parsePlayerScreenState(
+        JSON.stringify({ ...state, history: [{ ...selections[0], index: -1 }], index: 0 }),
+      ),
+    ).toEqual(EMPTY_PLAYER_SCREEN)
   })
 
   it('finds pictures by name', () => {
@@ -111,6 +151,7 @@ const map: PlayerScreenImage = { image: 'map', ref: { ref: 'location', key: 'nim
 const scene: PlayerScreenImage = {
   image: 'illustration',
   ref: { ref: 'scene', key: 'borris_shutters_the_casino' },
+  index: 0,
 }
 
 describe('player screen history', () => {

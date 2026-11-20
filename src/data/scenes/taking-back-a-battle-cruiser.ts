@@ -3,7 +3,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 
 export default createScene({
   name: 'Taking back a battle-cruiser',
-  illustration: '/assets/scenes/taking-back-a-battle-cruiser.png',
+  illustrations: ['/assets/scenes/taking-back-a-battle-cruiser.png'],
   location: refs.locations.ride_the_lightning_main_deck,
   battleMaps: [
     refs.locations.ride_the_lightning_main_deck,
