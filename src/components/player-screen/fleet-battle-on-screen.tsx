@@ -8,6 +8,7 @@ import {
   add,
   battleCounts,
   battlePlan,
+  cameraAt,
   captionAt,
   legendAt,
   clamp01,
@@ -21,6 +22,7 @@ import {
   sub,
   type BattlePlan,
   type BattleShip,
+  type Camera,
   type LegendRow,
   type LegendStatus,
   type Vec,
@@ -43,8 +45,10 @@ const FORTRESS_START: Vec = { x: 520, y: 260 }
 const FORTRESS_ESCAPE: Vec = { x: -1000, y: -700 }
 /** How wide the fortress art is drawn, in map pixels. */
 const FORTRESS_SIZE = 400
-/** The part of the map the radar shows: the whole region with a wide margin of open sky. */
-const VIEW = { x: -640, y: -430, width: 2760, height: 1840 }
+/** Open sky west of Skynet, off the map's edge, where the cruisers fight once the fortress is gone. */
+const ARENA: Vec = { x: -460, y: 560 }
+/** The cloud backdrop is laid over this much of the sky around the map, in map pixels. */
+const SKY = { x: -2800, y: -1900, width: 7200, height: 4800 }
 const CLOUDS = '/assets/player-screen/fleet-battle-clouds.jpg'
 const FORTRESS_ART = '/assets/player-screen/flying-fortress.jpg'
 const RADAR_FILTER =
@@ -82,6 +86,7 @@ function FleetBattle({ roster }: { roster: FleetRoster }) {
         centre: point(CENTRE.key),
         fortress: FORTRESS_START,
         escape: FORTRESS_ESCAPE,
+        arena: ARENA,
       }),
     [roster],
   )
@@ -95,7 +100,7 @@ function FleetBattle({ roster }: { roster: FleetRoster }) {
   const fortress = useFortressSprite()
   const [hud, setHud] = useState(0)
 
-  const view = useMemo(() => fitView(size), [size])
+  const world = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     const element = canvas.current
@@ -108,6 +113,10 @@ function FleetBattle({ roster }: { roster: FleetRoster }) {
     let lastHud = 0
     const draw = () => {
       const time = clock.now()
+      const view = fitCamera(size, cameraAt(plan, time))
+      if (world.current) {
+        world.current.style.transform = `translate(${view.offset.x}px, ${view.offset.y}px) scale(${view.scale})`
+      }
       context.setTransform(ratio, 0, 0, ratio, 0, 0)
       drawBattle(context, plan, view, time, images.current, icons.current, fortress.current, size)
       if (time - lastHud > 0.1 || time >= plan.times.end) {
@@ -118,7 +127,7 @@ function FleetBattle({ roster }: { roster: FleetRoster }) {
     }
     handle = requestAnimationFrame(draw)
     return () => cancelAnimationFrame(handle)
-  }, [plan, view, size, clock, images, icons, fortress])
+  }, [plan, size, clock, images, icons, fortress])
 
   const caption = captionAt(plan, hud)
   const counts = battleCounts(plan, hud, roster.sides.length)
@@ -129,26 +138,30 @@ function FleetBattle({ roster }: { roster: FleetRoster }) {
     <div className="absolute inset-0 flex overflow-hidden bg-[rgb(3_10_14)]">
       <IconSprites icons={icons} plan={plan} />
       <div ref={frame} className="relative min-w-0 flex-1 overflow-hidden">
-        {cloudsUrl ? (
-          <div
-            aria-hidden
-            className={`absolute inset-0 bg-cover bg-center opacity-45 ${RADAR_FILTER}`}
-            style={{ backgroundImage: `url(${cloudsUrl})` }}
+        {/* The sky and the map, in map pixels; the camera moves and scales this layer each frame. */}
+        <div ref={world} aria-hidden className="absolute top-0 left-0 origin-top-left">
+          {cloudsUrl ? (
+            <div
+              className={`absolute opacity-45 ${RADAR_FILTER}`}
+              style={{
+                left: SKY.x,
+                top: SKY.y,
+                width: SKY.width,
+                height: SKY.height,
+                backgroundImage: `url(${cloudsUrl})`,
+                backgroundSize: '100% 100%',
+              }}
+            />
+          ) : null}
+          <ResponsiveImage
+            src={map.url}
+            alt=""
+            sizes="100vw"
+            loading="eager"
+            className={`absolute max-w-none [mask-image:radial-gradient(ellipse_at_center,black_45%,transparent_70%)] opacity-90 ${RADAR_FILTER}`}
+            style={{ left: 0, top: 0, width: map.width, height: map.height }}
           />
-        ) : null}
-        <ResponsiveImage
-          src={map.url}
-          alt=""
-          sizes="70vw"
-          loading="eager"
-          className={`absolute max-w-none [mask-image:radial-gradient(ellipse_at_center,black_62%,transparent_76%)] opacity-90 ${RADAR_FILTER}`}
-          style={{
-            left: view.offset.x,
-            top: view.offset.y,
-            width: map.width * view.scale,
-            height: map.height * view.scale,
-          }}
-        />
+        </div>
         <canvas ref={canvas} className="absolute inset-0 size-full" />
         <div
           aria-hidden
@@ -316,13 +329,14 @@ function SpriteIcon({ icon }: { icon: string }) {
 
 type View = { scale: number; offset: Vec }
 
-function fitView(size: { width: number; height: number }): View {
-  const factor = Math.min(size.width / VIEW.width, size.height / VIEW.height) || 0
+/** The screen transform for a camera: its span of the map fills the radar, centred on its point. */
+function fitCamera(size: { width: number; height: number }, camera: Camera): View {
+  const factor = Math.min(size.width / camera.span, size.height / (camera.span * (2 / 3))) || 0
   return {
     scale: factor,
     offset: {
-      x: (size.width - VIEW.width * factor) / 2 - VIEW.x * factor,
-      y: (size.height - VIEW.height * factor) / 2 - VIEW.y * factor,
+      x: size.width / 2 - camera.centre.x * factor,
+      y: size.height / 2 - camera.centre.y * factor,
     },
   }
 }
@@ -341,7 +355,7 @@ function drawBattle(
 ) {
   context.clearRect(0, 0, size.width, size.height)
   const unitPx = view.scale
-  const centre = toScreen(view, plan.geometry.centre)
+  const centre = toScreen(view, cameraAt(plan, time).centre)
   const boot = clamp01(time / 1.6)
 
   // Range rings, bearings and the sweep.
@@ -446,7 +460,7 @@ function drawTrail(
   let previous = shipPose(plan, ship, start)
   for (let at = start + step; at <= end; at += step) {
     const pose = shipPose(plan, ship, at)
-    const age = (time - at) / 14
+    const age = (time - at) / 9
     const alpha = 0.55 * (1 - clamp01(age)) * fade
     if (alpha > 0.01) {
       const from = toScreen(view, previous.pos)
@@ -474,7 +488,7 @@ function drawShip(
 ) {
   if (pose.state === 'hidden') return
   const at = toScreen(view, pose.pos)
-  const radius = Math.max(11, 22 * view.scale * 1.6)
+  const radius = Math.min(26, Math.max(13, 22 * view.scale * 1.4))
   const colour = SIDE_COLOURS[pose.side]!
   const turning = ship.turnAt !== undefined && time >= ship.turnAt && time < ship.turnAt + 0.6
   const icon = icons.get(ship.icon)

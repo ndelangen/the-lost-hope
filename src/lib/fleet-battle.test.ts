@@ -3,6 +3,8 @@ import { describe, expect, it } from 'vitest'
 import {
   battleCounts,
   battlePlan,
+  cameraAt,
+  CAMERA,
   captionAt,
   FORTRESS,
   fortressAt,
@@ -49,6 +51,7 @@ const geometry = {
   centre: { x: 600, y: 450 },
   fortress: { x: 500, y: 300 },
   escape: { x: -300, y: -250 },
+  arena: { x: 100, y: 200 },
 }
 
 describe('battlePlan', () => {
@@ -132,7 +135,7 @@ describe('battlePlan', () => {
   it('captions the battle from launch to the survivors', () => {
     expect(captionAt(plan, times.launch + 0.1)?.text).toBe('Navy fleet launching: 6 contacts')
     expect(captionAt(plan, times.split + 0.1)?.text).toBe('The fleet is split: 3 against 3')
-    expect(captionAt(plan, times.end)?.text).toBe('The fortress escaped · 2 contacts remain')
+    expect(captionAt(plan, times.end)?.text).toBe('2 contacts remain')
   })
 
   it('lists every ship in the legend with its side and whether it is still fighting', () => {
@@ -147,5 +150,22 @@ describe('battlePlan', () => {
       ['scuttled', 1, 'destroyed'],
     ])
     expect(end.find((row) => row.key === 'seized')?.turned).toBe(true)
+  })
+
+  it('loses the fortress from sight before the cruisers fight it out over open sky', () => {
+    expect(fortressAt(plan, times.fortressGone)).toEqual(geometry.escape)
+    const losses = plan.ships.flatMap((entry) => entry.lostAt ?? [])
+    expect(Math.min(...losses)).toBeGreaterThan(times.fortressGone)
+    for (const entry of plan.ships.filter((ship) => !ship.lost)) {
+      const { pos } = shipPose(plan, entry, times.end)
+      expect(Math.hypot(pos.x - geometry.arena.x, pos.y - geometry.arena.y)).toBeLessThan(400)
+    }
+  })
+
+  it('starts the camera wide and closes in on the fight', () => {
+    expect(cameraAt(plan, 0).span).toBe(CAMERA.wide.span)
+    const end = cameraAt(plan, times.end)
+    expect(end.span).toBe(CAMERA.close.span)
+    expect(end.centre).toEqual(geometry.arena)
   })
 })
