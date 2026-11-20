@@ -16,7 +16,7 @@ export default createScene({
       refs.pcs.auren,
       ' to come to ',
       refs.locations.fajanet,
-      ' in person, by teleport if needed. He does not receive him in his paper-filled office. Instead they stroll through the city on a long, beautiful afternoon.',
+      ' in person, by teleport if needed, and meets him in the city instead of his paper-filled office.',
     ],
     [
       'Run it on the same evening as ',
@@ -35,17 +35,6 @@ export default createScene({
       ') and attached himself to his adventurers. ',
       refs.npcs.light_13th_marshal,
       ' does not know what he is, and he is willing to let the shadow take him to find out.',
-    ],
-    [
-      'The hidden rule, never told to the table: ',
-      refs.npcs.light_13th_marshal,
-      ' is looking for fear that comes too early or too big. If ',
-      refs.pcs.auren,
-      ' grows afraid before anything is truly dangerous, or overdoes his fear once the voices come, he knows more than he lets on, and ',
-      refs.npcs.light_13th_marshal,
-      ' lets the shadow have him. If he reacts like a being that did not know, ',
-      refs.npcs.light_13th_marshal,
-      ' pulls him in.',
     ],
   ],
   beats: [

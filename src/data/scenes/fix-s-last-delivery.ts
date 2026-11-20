@@ -18,10 +18,10 @@ export default createScene({
   setup: [
     [
       'The next time the party stops in a town, ',
-      refs.pcs.fix,
-      ' finds them. Sent by ',
       refs.organizations.the_eyeless_hand,
-      ' against her will, with a small box and a warning. The inn is a stand-in: play it wherever they are.',
+      ' sends ',
+      refs.pcs.fix,
+      ' to find them, against her will. The inn is a stand-in: play it wherever they are.',
     ],
     [
       'Play it on an evening when ',
