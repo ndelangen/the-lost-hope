@@ -238,3 +238,126 @@
     opacity: 0;
   }
 }
+
+/* The fleet roster's opening sequence on the player screen. */
+.fleet-title {
+  animation: fleet-title 1100ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+@keyframes fleet-title {
+  from {
+    opacity: 0;
+    letter-spacing: 0.4em;
+    filter: blur(12px);
+  }
+}
+
+.fleet-caption {
+  animation: fleet-caption 700ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+@keyframes fleet-caption {
+  from {
+    opacity: 0;
+    translate: 0 0.6em;
+    filter: blur(8px);
+  }
+}
+
+.fleet-build {
+  animation: fleet-build 750ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+@keyframes fleet-build {
+  from {
+    opacity: 0;
+    translate: -3vw 0;
+    clip-path: inset(0 100% 0 0);
+    filter: brightness(3);
+  }
+  60% {
+    filter: brightness(1.6);
+  }
+  to {
+    opacity: 1;
+    clip-path: inset(0);
+  }
+}
+
+.fleet-bar-build {
+  transform-origin: left;
+  animation: fleet-bar-build 600ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+@keyframes fleet-bar-build {
+  from {
+    scale: 0 1;
+    opacity: 0;
+  }
+}
+
+.fleet-explode {
+  animation: fleet-explode 450ms ease-out both;
+}
+
+@keyframes fleet-explode {
+  0% {
+    background: rgb(255 255 255 / 0.95);
+    color: black;
+    scale: 1.05;
+    box-shadow: 0 0 80px rgb(251 146 60);
+  }
+  20% {
+    translate: -10px 0;
+    background: rgb(251 146 60 / 0.9);
+  }
+  40% {
+    translate: 10px 0;
+    background: rgb(239 68 68 / 0.8);
+  }
+  60% {
+    translate: -6px 0;
+    box-shadow: 0 0 40px rgb(239 68 68 / 0.6);
+  }
+  100% {
+    translate: 0;
+    scale: 1;
+    background: rgb(255 255 255 / 0.03);
+    box-shadow: none;
+  }
+}
+
+.fleet-lost {
+  animation: fleet-caption 400ms ease-out both;
+}
+
+.fleet-flash {
+  background: radial-gradient(ellipse at center, rgb(251 146 60 / 0.25), transparent 70%);
+  animation: fleet-flash 450ms ease-out both;
+}
+
+@keyframes fleet-flash {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+::view-transition-group(.fleet-ship) {
+  animation-duration: 900ms;
+  animation-timing-function: cubic-bezier(0.65, 0, 0.2, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fleet-title,
+  .fleet-caption,
+  .fleet-build,
+  .fleet-bar-build,
+  .fleet-explode,
+  .fleet-lost,
+  .fleet-flash {
+    animation: none;
+  }
+}
