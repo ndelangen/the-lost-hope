@@ -384,6 +384,8 @@ function drawBattle(
     context.fillStyle = `rgb(255 170 80 / ${0.16 * (1 - since / 0.5)})`
     context.fillRect(0, 0, size.width, size.height)
   }
+  drawNames(context, plan, poses, view)
+
   // Bars close in from the top and bottom while time runs slow.
   const bars = Math.max(
     0,
@@ -476,6 +478,38 @@ function traceSmooth(context: CanvasRenderingContext2D, points: readonly Vec[]) 
   context.closePath()
 }
 
+/** The notable ships' names, drawn last so nothing on the radar covers them. */
+function drawNames(
+  context: CanvasRenderingContext2D,
+  plan: BattlePlan,
+  poses: ReadonlyMap<string, ReturnType<typeof shipPose>>,
+  view: View,
+) {
+  context.save()
+  context.font = '700 14px ui-monospace, SFMono-Regular, Menlo, monospace'
+  context.textAlign = 'center'
+  context.lineJoin = 'round'
+  for (const ship of plan.ships) {
+    if (ship.markers.length === 0) continue
+    const pose = poses.get(ship.key)!
+    if (pose.state !== 'sailing') continue
+    const at = toScreen(view, pose.pos)
+    const radius = shipRadius(view, true)
+    const label = ship.name.toUpperCase()
+    context.lineWidth = 5
+    context.strokeStyle = 'rgb(3 10 14 / 0.9)'
+    context.strokeText(label, at.x, at.y + radius + 24)
+    context.fillStyle = 'rgb(254 243 199)'
+    context.fillText(label, at.x, at.y + radius + 24)
+  }
+  context.restore()
+}
+
+/** A ship badge's radius on screen; the ships carrying the party and the commander are larger. */
+function shipRadius(view: View, notable: boolean): number {
+  return Math.min(26, Math.max(13, 22 * view.scale * 1.4)) * (notable ? 1.45 : 1)
+}
+
 function drawLandmark(
   context: CanvasRenderingContext2D,
   at: Vec,
@@ -499,6 +533,28 @@ function drawLandmark(
   context.restore()
 }
 
+/** How long a ship's trail stays visible, in battle seconds. */
+const TRAIL_LENGTH = 9
+const TRAIL_STEP = 0.2
+
+/** Poses on the trail grid, kept per plan: positions are fixed by time, so each is worked out once. */
+const trailPoses = new WeakMap<BattlePlan, Map<string, ReturnType<typeof shipPose>>>()
+
+function trailPose(plan: BattlePlan, ship: BattleShip, step: number) {
+  let poses = trailPoses.get(plan)
+  if (!poses) {
+    poses = new Map()
+    trailPoses.set(plan, poses)
+  }
+  const key = `${ship.key}:${step}`
+  let pose = poses.get(key)
+  if (!pose) {
+    pose = shipPose(plan, ship, step * TRAIL_STEP)
+    poses.set(key, pose)
+  }
+  return pose
+}
+
 function drawTrail(
   context: CanvasRenderingContext2D,
   plan: BattlePlan,
@@ -506,24 +562,23 @@ function drawTrail(
   view: View,
   time: number,
 ) {
-  const step = 0.2
-  const start = ship.launchAt
   const end = ship.lostAt === undefined ? time : Math.min(time, ship.lostAt)
   // Wrecks' trails fade away after they go down.
   const fade = ship.lostAt === undefined ? 1 : 1 - clamp01((time - ship.lostAt) / 3)
-  if (end - start < step || fade <= 0) return
+  const first = Math.ceil(Math.max(ship.launchAt, time - TRAIL_LENGTH) / TRAIL_STEP)
+  const last = Math.floor(end / TRAIL_STEP)
+  if (last <= first || fade <= 0) return
   context.save()
   context.lineCap = 'round'
-  let previous = shipPose(plan, ship, start)
-  for (let at = start + step; at <= end; at += step) {
-    const pose = shipPose(plan, ship, at)
-    const age = (time - at) / 9
-    const alpha = 0.55 * (1 - clamp01(age)) * fade
+  context.lineWidth = Math.max(1.5, 3 * view.scale * 2)
+  let previous = trailPose(plan, ship, first)
+  for (let step = first + 1; step <= last; step += 1) {
+    const pose = trailPose(plan, ship, step)
+    const alpha = 0.55 * (1 - clamp01((time - step * TRAIL_STEP) / TRAIL_LENGTH)) * fade
     if (alpha > 0.01) {
       const from = toScreen(view, previous.pos)
       const to = toScreen(view, pose.pos)
       context.strokeStyle = withAlpha(SIDE_COLOURS[pose.side]!, alpha)
-      context.lineWidth = Math.max(1.5, 3 * view.scale * 2)
       context.beginPath()
       context.moveTo(from.x, from.y)
       context.lineTo(to.x, to.y)
@@ -547,7 +602,7 @@ function drawShip(
   const at = toScreen(view, pose.pos)
   // The ships that carry the party and the commander stand out: larger, ringed in gold, named.
   const notable = ship.markers.length > 0
-  const radius = Math.min(26, Math.max(13, 22 * view.scale * 1.4)) * (notable ? 1.45 : 1)
+  const radius = shipRadius(view, notable)
   const colour = SIDE_COLOURS[pose.side]!
   const turning = ship.turnAt !== undefined && time >= ship.turnAt && time < ship.turnAt + 0.6
   const icon = icons.get(ship.icon)
@@ -616,14 +671,6 @@ function drawShip(
     context.arc(0, 0, radius + 6, 0, Math.PI * 2)
     context.stroke()
     context.shadowBlur = 0
-    context.font = '700 14px ui-monospace, SFMono-Regular, Menlo, monospace'
-    context.textAlign = 'center'
-    context.lineWidth = 4
-    context.strokeStyle = 'rgb(3 10 14 / 0.85)'
-    const label = ship.name.toUpperCase()
-    context.strokeText(label, 0, radius + 24)
-    context.fillStyle = 'rgb(254 243 199)'
-    context.fillText(label, 0, radius + 24)
   }
   context.restore()
   // A muzzle flash as each volley leaves.

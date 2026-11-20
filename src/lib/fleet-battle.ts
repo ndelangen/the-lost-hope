@@ -492,6 +492,98 @@ function shipPosition(plan: BattlePlan, ship: BattleShip, time: number): Vec {
       y: fall * 20 + fall * fall * 30,
     })
   }
+  return separated(plan, ship, time)
+}
+
+/** How close two ships may come before they ease apart, in map pixels. */
+const SEPARATION = 70
+
+/**
+ * A ship's place with its neighbours kept at arm's length: each ship that comes closer than the
+ * separation distance pushes it away by half the overlap. A ship just spawned, or just lost,
+ * pushes only lightly, so ships never jump when one appears or goes down.
+ */
+function separated(plan: BattlePlan, ship: BattleShip, time: number): Vec {
+  const own = presentAt(plan, time).get(ship.key)?.pos ?? rawPosition(plan, ship, time)
+  // The push is averaged over the last moment, so ships ease apart rather than being shoved.
+  let push: Vec = { x: 0, y: 0 }
+  let total = 0
+  for (let step = 0; step < PUSH_SAMPLES; step += 1) {
+    const weight = PUSH_SAMPLES - step
+    push = add(push, scale(pushAt(plan, ship, time - step * PUSH_STEP), weight))
+    total += weight
+  }
+  return add(own, scale(push, 1 / total))
+}
+
+const PUSH_SAMPLES = 8
+const PUSH_STEP = 0.1
+
+/** How far a ship's neighbours push it at one moment. */
+function pushAt(plan: BattlePlan, ship: BattleShip, time: number): Vec {
+  const others = presentAt(plan, time)
+  const own = others.get(ship.key)?.pos
+  if (!own) return { x: 0, y: 0 }
+  let push: Vec = { x: 0, y: 0 }
+  for (const [key, other] of others) {
+    if (key === ship.key) continue
+    const apart = sub(own, other.pos)
+    const distance = length(apart)
+    if (distance >= SEPARATION) continue
+    // Close in, each pair parts along its own fixed line, so the push never flips sides as two
+    // ships' paths cross; further out it simply points away from the other ship. Blended, not
+    // renormalised, so the push changes smoothly even where the two disagree.
+    const fixed = pairDirection(ship.key, key)
+    const closeness = easeInOut(clamp01(1 - distance / SEPARATION))
+    const outward = distance > 0.01 ? unit(apart) : fixed
+    const away = lerp(outward, fixed, closeness)
+    push = add(push, scale(away, ((SEPARATION - distance) / 2) * other.weight))
+  }
+  return push
+}
+
+/** A fixed direction for a pair of ships to part along: opposite for each of the two. */
+function pairDirection(a: string, b: string): Vec {
+  const [first, second] = a < b ? [a, b] : [b, a]
+  let hash = 0
+  for (const char of `${first}|${second}`) hash = (hash * 31 + char.charCodeAt(0)) >>> 0
+  const angle = (hash % 360) * (Math.PI / 180)
+  const direction = { x: Math.cos(angle), y: Math.sin(angle) }
+  return a < b ? direction : scale(direction, -1)
+}
+
+const presence = new WeakMap<BattlePlan, Map<number, Map<string, { pos: Vec; weight: number }>>>()
+
+/** Every ship afloat at a moment, unseparated, with how strongly it pushes its neighbours. */
+function presentAt(plan: BattlePlan, time: number): Map<string, { pos: Vec; weight: number }> {
+  let byTime = presence.get(plan)
+  if (!byTime) {
+    byTime = new Map()
+    presence.set(plan, byTime)
+  }
+  const key = Math.round(time * 1000)
+  const cached = byTime.get(key)
+  if (cached) return cached
+  if (byTime.size > 6000) byTime.clear()
+  const present = new Map<string, { pos: Vec; weight: number }>()
+  for (const other of plan.ships) {
+    if (time < other.launchAt) continue
+    const spawned = clamp01((time - other.launchAt) / 0.6)
+    if (other.lostAt !== undefined && time >= other.lostAt) {
+      const fading = 1 - clamp01((time - other.lostAt) / 1.2)
+      if (fading > 0) {
+        present.set(other.key, { pos: rawPosition(plan, other, other.lostAt), weight: fading })
+      }
+      continue
+    }
+    present.set(other.key, { pos: rawPosition(plan, other, time), weight: spawned })
+  }
+  byTime.set(key, present)
+  return present
+}
+
+/** Where a ship is before it is kept clear of its neighbours. */
+function rawPosition(plan: BattlePlan, ship: BattleShip, time: number): Vec {
   const t = BATTLE_TIMING
   const { slow } = plan.times
   const inFormation = add(formationCentre(plan, time), ship.slot)
@@ -627,7 +719,7 @@ export function captionAt(plan: BattlePlan, time: number): BattleCaption | undef
 
 function planVolleys(plan: BattlePlan, random: () => number): Volley[] {
   const t = BATTLE_TIMING
-  const { fire: opening, slow, ceaseFire } = plan.times
+  const { fire: opening, slow } = plan.times
   const volleys: Volley[] = []
   // The flagship is out of the fight until it has joined it.
   const inFight = (ship: BattleShip, at: number) =>
@@ -647,7 +739,8 @@ function planVolleys(plan: BattlePlan, random: () => number): Volley[] {
     })
 
   for (const ship of plan.ships) {
-    const stop = Math.min(ceaseFire, ship.lostAt ?? Infinity)
+    // The survivors keep fighting to the very end.
+    const stop = Math.min(plan.times.end, ship.lostAt ?? Infinity)
     for (let at = opening + random() * 1.2; at < stop; at += 0.6 + random() * 0.7) {
       if (!inFight(ship, at)) continue
       const side = sideAt(ship, at)

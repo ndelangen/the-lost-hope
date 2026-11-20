@@ -234,4 +234,26 @@ describe('battlePlan', () => {
     expect(away).toBeGreaterThan(0)
     expect(captionAt(plan, times.end)?.text).toBe('Contact lost: the flying fortress')
   })
+
+  it('keeps the ships from overlapping one another', () => {
+    let close = 0
+    let pairs = 0
+    for (let at = times.launch + 3; at < times.end; at += 0.25) {
+      const afloat = plan.ships
+        .map((entry) => shipPose(plan, entry, at))
+        .filter((pose) => pose.state === 'sailing')
+      afloat.forEach((a, index) => {
+        for (const b of afloat.slice(index + 1)) {
+          pairs += 1
+          if (Math.hypot(a.pos.x - b.pos.x, a.pos.y - b.pos.y) < 40) close += 1
+        }
+      })
+    }
+    expect(close / pairs).toBeLessThan(0.02)
+  })
+
+  it('keeps the survivors firing to the very end', () => {
+    const lastShot = Math.max(...plan.volleys.map((volley) => volley.at))
+    expect(lastShot).toBeGreaterThan(times.end - 2)
+  })
 })
