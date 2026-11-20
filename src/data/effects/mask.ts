@@ -10,9 +10,12 @@ export default createEffect({
   rules: [[refs.pcs.swift_starblade, ' can change his appearance as with Alter Self.']],
   obligations: [
     {
-      label: 'Change appearance',
+      label: 'Wear another face for 4 hours, starting before 20:00',
       within: { days: 1 },
-      otherwise: [refs.rules.psychic, ' damage as his true form tries to reassert itself.'],
+      otherwise: [
+        { dice: '1d6', type: refs.rules.psychic },
+        ' damage for each day in a row he has missed, as his true form tries to reassert itself. Refusing and forgetting count the same.',
+      ],
     },
   ],
 })
