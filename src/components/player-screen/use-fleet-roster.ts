@@ -1,6 +1,5 @@
 import { useMemo } from 'react'
 
-import { useEncounter } from '#/components/dm/encounter/use-encounter-store'
 import { refs } from '#/data/generated/refs'
 import type { EntityRef } from '#/definitions/kind'
 import { activePcs, entityRefForSlug, sortedEvents } from '#/lib/campaign'
@@ -26,13 +25,21 @@ export function resolveNamed(ref: EntityRef) {
 }
 
 /**
- * The party in initiative order: the order of the PCs in the last fight's turn order, then any
- * PC who was not in it.
+ * The party's initiative order for the boarding, as rolled at the table. Party members not listed
+ * board after them.
  */
-function partyInInitiativeOrder(turnOrder: readonly string[]): string[] {
+const BOARDING_INITIATIVE = [
+  refs.pcs.swift_starblade,
+  refs.pcs.cassian_veyl,
+  refs.pcs.devan,
+  refs.pcs.auren,
+]
+
+/** The party's portraits in initiative order. */
+function partyInInitiativeOrder(): string[] {
   const rank = (key: string | undefined) => {
-    const index = key ? turnOrder.indexOf(key) : -1
-    return index < 0 ? turnOrder.length : index
+    const index = BOARDING_INITIATIVE.findIndex((ref) => ref.key === key)
+    return index < 0 ? BOARDING_INITIATIVE.length : index
   }
   return activePcs()
     .map((pc) => ({ key: entityRefForSlug('pc', pc.slug)?.key, avatar: pc.data.avatar }))
@@ -40,7 +47,7 @@ function partyInInitiativeOrder(turnOrder: readonly string[]): string[] {
     .map(({ avatar }) => avatar)
 }
 
-function fleetSightings(turnOrder: readonly string[]): FleetSighting[] {
+function fleetSightings(): FleetSighting[] {
   const events = sortedEvents().map((event) => event.data)
   const sightings: FleetSighting[] = []
   const partyAt = events[0]?.location
@@ -48,7 +55,7 @@ function fleetSightings(turnOrder: readonly string[]): FleetSighting[] {
     sightings.push({
       id: 'party',
       label: 'The party',
-      avatars: partyInInitiativeOrder(turnOrder),
+      avatars: partyInInitiativeOrder(),
       location: partyAt.key,
     })
   }
@@ -69,21 +76,14 @@ function fleetSightings(turnOrder: readonly string[]): FleetSighting[] {
 
 /** An organization's fleet, with the party and the commander pinned to the ships they are on. */
 export function useFleetRoster(owner: string): FleetRoster | undefined {
-  const [encounter] = useEncounter()
-  const turnOrder = useMemo(
-    () =>
-      (encounter?.roster ?? []).flatMap((entry) => (entry.kind === 'pc' ? [entry.source.key] : [])),
-    [encounter],
-  )
-  const order = turnOrder.join(',')
   return useMemo(
     () =>
       fleetRoster(
         owner,
         SOURCE_REGISTRIES.item,
         resolveNamed,
-        markersAboard(fleetSightings(order.split(',')), SOURCE_REGISTRIES.location),
+        markersAboard(fleetSightings(), SOURCE_REGISTRIES.location),
       ),
-    [owner, order],
+    [owner],
   )
 }
