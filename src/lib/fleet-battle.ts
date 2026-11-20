@@ -42,8 +42,15 @@ export type Volley = {
   seed: number
 }
 
-/** A marker that crosses from one ship to another during the battle, such as a boarding party. */
-export type Crossing = { marker: string; from: string; to: string; at: number; duration: number }
+/** One portrait crossing from one ship to another during the battle, such as a boarder. */
+export type Crossing = {
+  marker: string
+  avatar: string
+  from: string
+  to: string
+  at: number
+  duration: number
+}
 
 export type BattleCaption = { at: number; text: string }
 
@@ -75,7 +82,8 @@ export const BATTLE_TIMING = {
   firstLoss: 1.6,
   heavyFlight: 1.3,
   hailFlight: 0.55,
-  boardingFlight: 2.4,
+  boardingFlight: 2.2,
+  boardingStagger: 1.1,
   hold: 4,
 } as const
 
@@ -330,17 +338,20 @@ function planCrossings(plan: BattlePlan): Crossing[] {
   const owners = plan.ships.filter((ship) => ship.side === 0)
   const flagship = owners.find((ship) => ship.markers.length > 0) ?? owners[0]
   if (!flagship) return []
-  return plan.ships.flatMap((ship) =>
+  // Boarders cross one at a time, each leaving as the one before is halfway over.
+  const boarders = plan.ships.flatMap((ship) =>
     ship.side === 0
       ? []
-      : ship.markers.map((marker) => ({
-          marker: marker.id,
-          from: flagship.key,
-          to: ship.key,
-          at: plan.times.battle + 0.4,
-          duration: BATTLE_TIMING.boardingFlight,
-        })),
+      : ship.markers.flatMap((marker) =>
+          marker.avatars.map((avatar) => ({ marker: marker.id, avatar, to: ship.key })),
+        ),
   )
+  return boarders.map((boarder, index) => ({
+    ...boarder,
+    from: flagship.key,
+    at: plan.times.battle + 0.4 + index * BATTLE_TIMING.boardingStagger,
+    duration: BATTLE_TIMING.boardingFlight,
+  }))
 }
 
 function planCaptions(plan: BattlePlan, roster: FleetRoster): BattleCaption[] {

@@ -493,51 +493,63 @@ function drawMarkers(
   time: number,
   avatars: ReadonlyMap<string, HTMLImageElement>,
 ) {
+  const radius = Math.max(12, 15 * view.scale * 1.6)
+  // Each portrait sits on a ship, or is somewhere between two ships while it crosses.
+  const aboard = new Map<string, string[]>()
+  const flying: { avatar: string; at: Vec }[] = []
   for (const ship of plan.ships) {
     for (const marker of ship.markers) {
-      const crossing = plan.crossings.find((entry) => entry.marker === marker.id)
-      let host = ship.key
-      let at: Vec | undefined
-      if (crossing) {
-        const progress = (time - crossing.at) / crossing.duration
-        if (progress < 0) host = crossing.from
-        else if (progress < 1) {
+      for (const avatar of marker.avatars) {
+        const crossing = plan.crossings.find(
+          (entry) => entry.marker === marker.id && entry.avatar === avatar,
+        )
+        const progress = crossing ? (time - crossing.at) / crossing.duration : 1
+        if (crossing && progress > 0 && progress < 1) {
           const from = poses.get(crossing.from)!.pos
           const to = poses.get(crossing.to)!.pos
-          at = curve(from, to, easeInOutQuad(progress), -0.4)
+          flying.push({ avatar, at: curve(from, to, easeInOutQuad(progress), -0.4) })
+          continue
         }
+        const host = crossing && progress <= 0 ? crossing.from : ship.key
+        if (poses.get(host)!.state !== 'sailing') continue
+        aboard.set(host, [...(aboard.get(host) ?? []), avatar])
       }
-      const pose = poses.get(host)!
-      if (!at) {
-        if (pose.state !== 'sailing') continue
-        at = pose.pos
-      }
-      const screen = toScreen(view, at)
-      const radius = Math.max(12, 15 * view.scale * 1.6)
-      const images = marker.avatars.flatMap((src) => {
-        const image = avatars.get(src)
-        return image?.complete && image.naturalWidth > 0 ? [image] : []
-      })
-      const offset = host === crossing?.from && time < (crossing?.at ?? 0) ? 1 : 0
-      images.forEach((image, index) => {
-        const x = screen.x + (index - (images.length - 1) / 2) * radius * 0.85
-        const y = screen.y - radius * (1.9 + offset * 2.2)
-        context.save()
-        context.shadowColor = 'rgb(52 211 153)'
-        context.shadowBlur = 16
-        context.fillStyle = 'rgb(52 211 153)'
-        context.beginPath()
-        context.arc(x, y, radius + 2.5, 0, Math.PI * 2)
-        context.fill()
-        context.shadowBlur = 0
-        context.beginPath()
-        context.arc(x, y, radius, 0, Math.PI * 2)
-        context.clip()
-        context.drawImage(image, x - radius, y - radius, radius * 2, radius * 2)
-        context.restore()
-      })
     }
   }
+  for (const [host, list] of aboard) {
+    const screen = toScreen(view, poses.get(host)!.pos)
+    list.forEach((avatar, index) => {
+      const x = screen.x + (index - (list.length - 1) / 2) * radius * 0.85
+      drawPortrait(context, avatars.get(avatar), x, screen.y - radius * 1.9, radius)
+    })
+  }
+  for (const { avatar, at } of flying) {
+    const screen = toScreen(view, at)
+    drawPortrait(context, avatars.get(avatar), screen.x, screen.y - radius * 1.2, radius)
+  }
+}
+
+function drawPortrait(
+  context: CanvasRenderingContext2D,
+  image: HTMLImageElement | undefined,
+  x: number,
+  y: number,
+  radius: number,
+) {
+  if (!image?.complete || image.naturalWidth === 0) return
+  context.save()
+  context.shadowColor = 'rgb(52 211 153)'
+  context.shadowBlur = 16
+  context.fillStyle = 'rgb(52 211 153)'
+  context.beginPath()
+  context.arc(x, y, radius + 2.5, 0, Math.PI * 2)
+  context.fill()
+  context.shadowBlur = 0
+  context.beginPath()
+  context.arc(x, y, radius, 0, Math.PI * 2)
+  context.clip()
+  context.drawImage(image, x - radius, y - radius, radius * 2, radius * 2)
+  context.restore()
 }
 
 function withAlpha(hex: string, alpha: number): string {

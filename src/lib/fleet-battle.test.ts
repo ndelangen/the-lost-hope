@@ -7,7 +7,7 @@ function ship(key: string, extra: Partial<FleetShip> = {}): FleetShip {
   return { key, name: key, icon: `gi/${key}`, aboard: [], ...extra }
 }
 
-const party = { id: 'party', label: 'The party', avatars: ['/party.png'] }
+const party = { id: 'party', label: 'The party', avatars: ['/a.png', '/b.png'] }
 const roster: FleetRoster = {
   owner: { key: 'navy', name: 'Navy' },
   sides: [
@@ -81,10 +81,13 @@ describe('battlePlan', () => {
     expect(plan.volleys.some((volley) => volley.kind === 'hail')).toBe(true)
   })
 
-  it('sends the boarding party across from the flagship', () => {
+  it('sends the boarding party across from the flagship one by one', () => {
     expect(plan.crossings).toEqual([
-      expect.objectContaining({ marker: 'party', from: 'flagship', to: 'seized' }),
+      expect.objectContaining({ avatar: '/a.png', from: 'flagship', to: 'seized' }),
+      expect.objectContaining({ avatar: '/b.png', from: 'flagship', to: 'seized' }),
     ])
+    const [first, second] = plan.crossings
+    expect(second!.at).toBeGreaterThan(first!.at)
   })
 
   it('plays the same way every time', () => {
