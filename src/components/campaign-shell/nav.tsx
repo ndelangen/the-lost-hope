@@ -15,26 +15,15 @@ import type { SidebarCollection } from './sidebar-data'
 type NavLinkProps = {
   to: string
   active: boolean
-  title?: string
-  collapsed?: boolean
   onNavigate?: () => void
   className?: string
   children: ReactNode
 }
 
-export function NavLink({
-  to,
-  active,
-  title,
-  collapsed,
-  onNavigate,
-  className,
-  children,
-}: NavLinkProps) {
+export function NavLink({ to, active, onNavigate, className, children }: NavLinkProps) {
   return (
     <Link
       to={to}
-      title={title}
       onClick={onNavigate}
       className={cn(
         'block rounded-md px-2 py-1.5 text-sm font-medium transition-colors',
@@ -44,7 +33,7 @@ export function NavLink({
         className,
       )}
     >
-      <Inline as="span" inline gap="sm" justify={collapsed ? 'center' : 'start'}>
+      <Inline as="span" inline gap="sm">
         {children}
       </Inline>
     </Link>
@@ -216,7 +205,6 @@ type SectionHeaderProps = {
   sticky?: boolean
   expanded?: boolean
   onToggle?: () => void
-  collapsed?: boolean
   onNavigate?: () => void
 }
 
@@ -227,25 +215,9 @@ export function SectionHeader({
   sticky,
   expanded,
   onToggle,
-  collapsed,
   onNavigate,
 }: SectionHeaderProps) {
   const label = COLLECTION_LABELS[kind]
-
-  if (collapsed) {
-    return (
-      <Link
-        to={collectionTo(kind)}
-        onClick={onNavigate}
-        className="text-muted-foreground hover:text-foreground hover:bg-muted block rounded-md py-2 transition-colors"
-        title={label}
-      >
-        <Inline as="span" inline gap="none" justify="center">
-          <Icon className="text-muted-foreground size-4" />
-        </Inline>
-      </Link>
-    )
-  }
 
   return (
     <Inline

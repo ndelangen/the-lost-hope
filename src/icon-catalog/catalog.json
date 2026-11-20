@@ -271250,7 +271250,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/clock",
-      "usedIn": []
+      "usedIn": [
+        "src/components/campaign-shell/sidebar-rail.tsx"
+      ]
     },
     {
       "id": "lucide/Clock1",
@@ -305866,6 +305868,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/scroll-text",
       "usedIn": [
+        "src/components/campaign-shell/sidebar-rail.tsx",
         "src/components/campaign-shell/sidebar.tsx",
         "src/components/dm/dm-quick-links.tsx",
         "src/components/dm/encounter/combatant-panel.tsx",

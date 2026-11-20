@@ -66,7 +66,8 @@ export function CampaignShellLayout({
                 navigationOpen
                   ? 'bg-background fixed inset-y-14 left-0 z-50 block w-72 px-4 shadow-xl lg:static lg:px-0 lg:shadow-none'
                   : 'hidden lg:block',
-                !navigationOpen && (navigationCollapsed ? 'w-14 pr-1' : 'w-72 pr-4'),
+                // Folded, the rail's 48px squares sit in the middle of the strip left of the border.
+                !navigationOpen && (navigationCollapsed ? '-ml-2 w-16 pr-4' : 'w-72 pr-4'),
               )}
             >
               <div className="pt-6">{navigation}</div>

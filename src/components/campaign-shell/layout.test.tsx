@@ -35,6 +35,13 @@ describe('CampaignShellLayout', () => {
     expect(markup).not.toContain('Close navigation')
   })
 
+  it('narrows the sidebar to a rail of icons when collapsed', () => {
+    const markup = renderLayout({ collapsed: true })
+
+    expect(markup).toContain('-ml-2 w-16 pr-4')
+    expect(markup).not.toContain('w-72 pr-4')
+  })
+
   it('turns the navigation into a modal drawer when open', () => {
     const markup = renderLayout({ open: true, collapsed: true })
 
@@ -42,7 +49,7 @@ describe('CampaignShellLayout', () => {
     expect(markup).toContain('role="dialog"')
     expect(markup).toContain('aria-modal="true"')
     expect(markup).toContain('fixed inset-y-14 left-0')
-    expect(markup).not.toContain('w-14 pr-1')
+    expect(markup).not.toContain('-ml-2 w-16 pr-4')
   })
 
   it('gives custom pages the full content width when navigation is disabled', () => {

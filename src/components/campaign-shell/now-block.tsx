@@ -1,5 +1,4 @@
 import { Link } from '@tanstack/react-router'
-import { ScrollText } from 'lucide-react'
 
 import { LocationReference } from '#/components/location-reference'
 import { SessionReference } from '#/components/session-reference'
@@ -15,46 +14,15 @@ import {
 } from '#/lib/campaign'
 
 type NowBlockProps = {
-  collapsed?: boolean
   onNavigate?: () => void
 }
 
-export function NowBlock({ collapsed, onNavigate }: NowBlockProps) {
+export function NowBlock({ onNavigate }: NowBlockProps) {
   const currentSession = sortedSessions()[0]
   const partyCount = activePcs().length
   const questCount = openQuests().length
   const latestEvent = sortedEvents()[0]
   const currentLocation = latestEvent ? eventLocation(latestEvent.data) : undefined
-
-  if (collapsed) {
-    return currentSession ? (
-      <SessionReference
-        slug={currentSession.slug}
-        previewSide="right"
-        wrapperClassName="block"
-        unstyled
-        className="text-muted-foreground hover:text-foreground hover:bg-muted block rounded-md p-2"
-        onNavigate={onNavigate}
-      >
-        {() => (
-          <Inline as="span" inline gap="none" justify="center">
-            <ScrollText className="size-4" />
-          </Inline>
-        )}
-      </SessionReference>
-    ) : (
-      <Link
-        to="/"
-        className="text-muted-foreground hover:text-foreground hover:bg-muted block rounded-md p-2"
-        title="Current session"
-        onClick={onNavigate}
-      >
-        <Inline as="span" inline gap="none" justify="center">
-          <ScrollText className="size-4" />
-        </Inline>
-      </Link>
-    )
-  }
 
   return (
     <Card className="shadow-none">
