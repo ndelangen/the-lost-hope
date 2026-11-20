@@ -92150,7 +92150,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/beast-eye.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/wild-eyes.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiBeaver",
@@ -94860,7 +94863,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/bleeding-wound.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/raining-blood.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiBlender",
@@ -101257,8 +101263,10 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/bull.html",
       "usedIn": [
+        "src/data/items/bulls-on-parade.ts",
         "src/data/npcs/bessy.ts",
-        "src/lib/ability-icons.tsx"
+        "src/lib/ability-icons.tsx",
+        "src/lib/item-icons.tsx"
       ]
     },
     {
@@ -101564,7 +101572,10 @@
       "classification": "useful",
       "classificationReason": "Manually classified as useful from the /_icons review page.",
       "sourceUrl": "https://game-icons.net/1x1/skoll/bullseye.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/seek-and-destroy.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiBullyMinion",
@@ -131348,7 +131359,10 @@
       "classificationReason": "Manually classified as useful from the /_icons review page.",
       "duplicateOf": "lucide/Eclipse",
       "sourceUrl": "https://game-icons.net/1x1/lorc/eclipse.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/fade-to-black.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiEclipseFlare",
@@ -135169,7 +135183,10 @@
       "classification": "useful",
       "classificationReason": "Manually classified as useful from the /_icons review page.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/exploding-planet.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/apocalypse-please.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiExplosionRays",
@@ -136562,7 +136579,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/falling-star.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/starlight.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiFalloutShelter",
@@ -151364,7 +151384,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/grim-reaper.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/creeping-death.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiGroundbreaker",
@@ -156002,7 +156025,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/heaven-gate.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/heaven-and-hell.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiHeavyArrow",
@@ -167688,7 +167714,10 @@
       "classification": "useful",
       "classificationReason": "Manually classified as useful from the /_icons review page.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/lantern-flame.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/rainbow-in-the-dark.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiLaptop",
@@ -171376,8 +171405,10 @@
         "src/data/events/n2-e106.ts",
         "src/data/events/n2-e196.ts",
         "src/data/events/n2-e210.ts",
+        "src/data/items/blood-and-thunder.ts",
         "src/lib/effect-icons.tsx",
-        "src/lib/event-icons.tsx"
+        "src/lib/event-icons.tsx",
+        "src/lib/item-icons.tsx"
       ]
     },
     {
@@ -183211,7 +183242,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/musical-score.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/symphony-of-destruction.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiMusicSpell",
@@ -199282,7 +199316,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/public-speaker.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/will-of-the-people.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiPull",
@@ -215544,10 +215581,12 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/skull-crossed-bones.html",
       "usedIn": [
+        "src/data/items/kill-em-all.ts",
         "src/data/npcs/blackbeard.ts",
         "src/data/npcs/grimgor-the-bloody.ts",
         "src/data/npcs/lord-malachar.ts",
-        "src/lib/ability-icons.tsx"
+        "src/lib/ability-icons.tsx",
+        "src/lib/item-icons.tsx"
       ]
     },
     {
@@ -225979,7 +226018,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/steam-blast.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/steambreather.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiSteamLocomotive",
@@ -237758,9 +237800,11 @@
       "duplicateOf": "lucide/Tornado",
       "sourceUrl": "https://game-icons.net/1x1/lorc/tornado.html",
       "usedIn": [
+        "src/data/items/butterflies-and-hurricanes.ts",
         "src/data/npcs/onana-tempest.ts",
         "src/data/npcs/tempest-patriarch.ts",
-        "src/lib/ability-icons.tsx"
+        "src/lib/ability-icons.tsx",
+        "src/lib/item-icons.tsx"
       ]
     },
     {
@@ -243909,7 +243953,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/uprising.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/uprising.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiUrsaMajor",
@@ -252920,7 +252967,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/yin-yang.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/origin-of-symmetry.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiYunluo",
@@ -267356,7 +267406,6 @@
         "src/components/campaign-shell/nav.tsx",
         "src/components/campaign-shell/sidebar.tsx",
         "src/components/dm/dm-past-scenes.tsx",
-        "src/components/dm/scene-branches.tsx",
         "src/components/locations-index.tsx",
         "src/components/player-screen/player-screen-dock.tsx",
         "src/components/questions-page.tsx",
