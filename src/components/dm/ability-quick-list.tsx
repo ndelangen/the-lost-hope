@@ -14,12 +14,15 @@ import { ABILITY_KIND } from './ability-kind'
 export function AbilityQuickList({
   groups,
   current,
+  usesLeft,
   onSelect,
   className,
 }: {
   groups: readonly AbilityIndexGroup[]
   /** The key of the ability that is open now, if any. */
   current?: string
+  /** Uses left in a running fight, by ability key, in place of the most it can be used. */
+  usesLeft?: Readonly<Record<string, number | undefined>>
   onSelect?: (entry: AbilityIndexEntry) => void
   className?: string
 }) {
@@ -37,7 +40,12 @@ export function AbilityQuickList({
           <ul className="flex flex-wrap gap-2">
             {group.entries.map((entry) => (
               <li key={entry.key}>
-                <QuickEntry entry={entry} current={entry.key === current} onSelect={onSelect} />
+                <QuickEntry
+                  entry={entry}
+                  current={entry.key === current}
+                  left={usesLeft?.[entry.key]}
+                  onSelect={onSelect}
+                />
               </li>
             ))}
           </ul>
@@ -50,16 +58,19 @@ export function AbilityQuickList({
 function QuickEntry({
   entry,
   current,
+  left,
   onSelect,
 }: {
   entry: AbilityIndexEntry
   current: boolean
+  left?: number
   onSelect?: (entry: AbilityIndexEntry) => void
 }) {
   const Icon = ABILITY_ICONS[entry.icon] ?? Sparkles
   const className = cn(
     'border-border bg-card hover:bg-muted focus-visible:ring-ring/50 flex min-h-12 items-center gap-2 rounded-xl border py-1 pr-3 pl-2 text-left text-sm font-semibold outline-none focus-visible:ring-3',
     current && 'ring-ring/60 ring-4',
+    left === 0 && 'text-muted-foreground line-through decoration-2',
   )
   const content = (
     <>
@@ -73,7 +84,11 @@ function QuickEntry({
         <Icon />
       </span>
       {entry.name}
-      {entry.uses ? (
+      {left !== undefined ? (
+        <span className="text-muted-foreground text-xs font-normal tabular-nums no-underline">
+          {left} left
+        </span>
+      ) : entry.uses ? (
         <span className="text-muted-foreground text-xs font-normal tabular-nums">
           {entry.uses}×
         </span>

@@ -3,23 +3,18 @@ import type { ReactNode } from 'react'
 
 import { RuleTerm } from '#/components/rule-term'
 import { refs } from '#/data/generated/refs'
-import { ABILITY_TIMINGS } from '#/definitions/stat-block'
+import { abilityIndex } from '#/lib/ability-index'
 import type { CombatantView } from '#/lib/dm-encounter'
 import { abilityKey, type LiveStats, type UseCount } from '#/lib/encounter'
 import { cn } from '#/lib/utils'
 
-import { AbilityButton, AbilityDetail } from './ability-controls'
+import { AbilityQuickList } from '../ability-quick-list'
+import { AbilityDetail } from './ability-controls'
 import { describeReferences } from './ability-text'
 import { useDensity } from './density'
 import { EditableNumber, HpControl } from './hp-control'
 import { IconButton } from './icon-button'
-import {
-  SavingThrows,
-  StatBlockHeadline,
-  StatFacts,
-  StatSource,
-  TIMING,
-} from './stat-block-sections'
+import { SavingThrows, StatBlockHeadline, StatFacts, StatSource } from './stat-block-sections'
 
 export type UseActions = {
   use: (key: string, count: UseCount) => void
@@ -59,6 +54,16 @@ export function CombatantPanel({
   const { stats, derived: block } = combatant
   const abilities = stats?.abilities ?? []
   const open = abilities.find((ability) => abilityKey(ability.timing, ability.name) === openAbility)
+  // Legendary and lair actions have a row of their own above the roster.
+  const quickGroups = stats
+    ? abilityIndex(stats).filter((group) => group.key !== 'legendary' && group.key !== 'lair')
+    : []
+  const usesLeft = Object.fromEntries(
+    abilities.map((ability) => [
+      ability.key,
+      counts[abilityKey(ability.timing, ability.name)]?.uses,
+    ]),
+  )
   return (
     <section
       aria-labelledby="combatant-heading"
@@ -152,38 +157,15 @@ export function CombatantPanel({
 
       {abilities.length > 0 ? (
         <div className="grid gap-3">
-          <div className="flex flex-wrap gap-x-8 gap-y-4" aria-label="Abilities">
-            {ABILITY_TIMINGS.map((timing) => {
-              const members = abilities.filter((ability) => ability.timing === timing)
-              if (members.length === 0) return null
-              const { label, Icon } = TIMING[timing]
-              return (
-                <fieldset
-                  key={timing}
-                  aria-label={label}
-                  className="m-0 flex min-w-0 flex-wrap items-center gap-2 border-0 p-0"
-                >
-                  <span className="text-muted-foreground flex w-full items-center gap-1.5 text-xs font-semibold tracking-wide uppercase">
-                    <Icon aria-hidden className="size-4" /> {label}
-                  </span>
-                  {members.map((ability) => {
-                    const key = abilityKey(timing, ability.name)
-                    return (
-                      <AbilityButton
-                        key={key}
-                        ability={ability}
-                        context={label}
-                        count={counts[key]}
-                        expanded={openAbility === key}
-                        onToggle={() => actions.toggleAbility(key)}
-                        block={block!}
-                      />
-                    )
-                  })}
-                </fieldset>
-              )
-            })}
-          </div>
+          <AbilityQuickList
+            groups={quickGroups}
+            current={open?.key}
+            usesLeft={usesLeft}
+            onSelect={(entry) => {
+              const ability = abilities.find((candidate) => candidate.key === entry.key)
+              if (ability) actions.toggleAbility(abilityKey(ability.timing, ability.name))
+            }}
+          />
           {open
             ? (() => {
                 const key = abilityKey(open.timing, open.name)
