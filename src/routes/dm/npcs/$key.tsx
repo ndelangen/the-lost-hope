@@ -2,6 +2,7 @@ import { createFileRoute, notFound } from '@tanstack/react-router'
 import { lazy, Suspense } from 'react'
 
 import { ContentRenderer } from '#/components/content-renderer'
+import { AbilityQuickList } from '#/components/dm/ability-quick-list'
 import { DmFaces } from '#/components/dm/dm-faces'
 import { DmHiddenReference } from '#/components/dm/dm-hidden-reference'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
@@ -9,6 +10,7 @@ import { StatBlockSheet } from '#/components/dm/stat-block-sheet'
 import { EntityReference } from '#/components/entity-reference'
 import { ShowToPlayersButton } from '#/components/player-screen/show-to-players-button'
 import { PortraitGallery } from '#/components/portrait-gallery'
+import { abilityIndex } from '#/lib/ability-index'
 import { refLink } from '#/lib/campaign'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 import { creatures, resolveSourceRef, resolveStatBlock } from '#/lib/dm-campaign'
@@ -79,6 +81,12 @@ function DmNpcRoute() {
             />
           ) : null}
         </header>
+
+        {stats ? (
+          <Section title="Abilities and spells · jump to one">
+            <AbilityQuickList groups={abilityIndex(stats)} />
+          </Section>
+        ) : null}
 
         {PortraitStatus ? (
           <Suspense fallback={null}>

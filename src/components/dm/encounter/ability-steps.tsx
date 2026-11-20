@@ -6,6 +6,15 @@ import { AbilityTextView, type ReferencedAbility } from './ability-text'
 import { useDensity } from './density'
 import { DamageType, StatParts } from './stat-parts'
 
+/** Who acts in a step: the DM, playing the creature, or whoever it targets. */
+const WHO = {
+  dm: { label: 'You', tone: 'border-border bg-card text-muted-foreground' },
+  target: {
+    label: 'Target',
+    tone: 'border-amber-500/40 bg-amber-500/10 text-amber-700 dark:text-amber-400',
+  },
+} as const
+
 /**
  * What the DM does with an ability, as numbered steps. Rules words explain themselves on hover,
  * damage types show their icon and colour, and attacks a step uses (a Multiattack's) unfold
@@ -40,6 +49,16 @@ export function AbilitySteps({
           </span>
           <div className="grid gap-2">
             <div className="leading-relaxed">
+              {step.who ? (
+                <span
+                  className={cn(
+                    'mr-1.5 inline-block rounded-md border px-1.5 align-baseline text-[0.7em] font-bold tracking-wide uppercase',
+                    WHO[step.who].tone,
+                  )}
+                >
+                  {WHO[step.who].label}
+                </span>
+              ) : null}
               {step.parts.map((part, partIndex) => {
                 // oxlint-disable-next-line react/no-array-index-key -- parts are positional
                 const key = partIndex

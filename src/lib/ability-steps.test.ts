@@ -3,7 +3,7 @@ import { describe, expect, it } from 'vitest'
 import dragon from '#/data/npcs/dragon-of-the-mountain'
 import type { StatBlock } from '#/definitions/stat-block'
 
-import { abilitySources, abilitySteps, plainSteps } from './ability-steps'
+import { abilitySources, abilitySteps, plainSteps, sentences } from './ability-steps'
 import { resolveStatBlock } from './dm-campaign'
 
 const stats = resolveStatBlock(dragon.stats) as StatBlock
@@ -81,5 +81,46 @@ describe('ability steps', () => {
       'attack_roll',
       'armor_class',
     ])
+  })
+})
+
+describe('sentences', () => {
+  it('cuts rules text into one step per sentence, keeping references in place', () => {
+    const rule = { ref: 'rule', key: 'deafened' } as const
+    expect(
+      sentences([
+        'Chooses a point up to 120 ft. away. For 10 minutes no sound is made within 20 ft. of it. A creature inside is ',
+        rule,
+        '. ',
+        { ability: 'mislead' },
+        ' still works.',
+      ]),
+    ).toEqual([
+      ['Chooses a point up to 120 ft. away.'],
+      ['For 10 minutes no sound is made within 20 ft. of it.'],
+      ['A creature inside is ', rule, '. '],
+      [{ ability: 'mislead' }, ' still works.'],
+    ])
+  })
+
+  it('does not cut at an abbreviation', () => {
+    expect(sentences(['Mr. Peace stands within 5 ft. ', { dc: 'cha' }])).toEqual([
+      ['Mr. Peace stands within 5 ft. ', { dc: 'cha' }],
+    ])
+  })
+})
+
+describe('who acts', () => {
+  it('marks what the DM does and what the targets roll', () => {
+    expect(steps('fire-breath').map((step) => step.who)).toEqual([
+      'dm',
+      'dm',
+      'target',
+      undefined,
+      undefined,
+      undefined,
+    ])
+    expect(steps('rend').map((step) => step.who)).toEqual(['dm', 'dm', 'dm', undefined, undefined])
+    expect(steps('legendary-resistance')[0]?.who).toBeUndefined()
   })
 })

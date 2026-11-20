@@ -99594,7 +99594,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/skoll/breaking-chain.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/npcs/onana-tempest.ts",
+        "src/lib/ability-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiBreastplate",
@@ -159887,7 +159890,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/human-ear.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/npcs/onana-tempest.ts",
+        "src/lib/ability-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiHumanPyramid",
@@ -164421,7 +164427,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/jester-hat.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/npcs/onana-tempest.ts",
+        "src/lib/ability-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiJetFighter",
@@ -175158,7 +175167,9 @@
       "classificationReason": "Manually classified as useful from the /_icons review page.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/magnifying-glass.html",
       "usedIn": [
+        "src/data/npcs/onana-tempest.ts",
         "src/data/quests/find-the-fiddler.ts",
+        "src/lib/ability-icons.tsx",
         "src/lib/quest-icons.tsx"
       ]
     },
@@ -180056,6 +180067,7 @@
       "usedIn": [
         "src/data/beasts/displacer-beast.ts",
         "src/data/npcs/misha.ts",
+        "src/data/npcs/onana-tempest.ts",
         "src/data/npcs/silas-wren.ts",
         "src/data/npcs/throne-figure-in-jim-s-vision.ts",
         "src/lib/ability-icons.tsx"
@@ -201867,6 +201879,7 @@
         "src/data/events/n2-e048.ts",
         "src/data/events/n2-e178.ts",
         "src/data/npcs/crowy.ts",
+        "src/data/npcs/onana-tempest.ts",
         "src/lib/ability-icons.tsx",
         "src/lib/event-icons.tsx"
       ]
@@ -209473,6 +209486,7 @@
       "usedIn": [
         "src/data/npcs/anton-tempest.ts",
         "src/data/npcs/light-13th-marshal.ts",
+        "src/data/npcs/onana-tempest.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -214359,8 +214373,10 @@
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/silence.html",
       "usedIn": [
+        "src/components/dm/ability-quick-list.test.tsx",
         "src/data/npcs/onana-tempest.ts",
-        "src/lib/ability-icons.tsx"
+        "src/lib/ability-icons.tsx",
+        "src/lib/ability-index.test.ts"
       ]
     },
     {
@@ -233542,6 +233558,7 @@
       "usedIn": [
         "src/data/npcs/bob-the-merchant.ts",
         "src/data/npcs/giggles.ts",
+        "src/data/npcs/onana-tempest.ts",
         "src/data/npcs/sarogarth.ts",
         "src/lib/ability-icons.tsx"
       ]
@@ -237306,7 +237323,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/tongue.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/npcs/onana-tempest.ts",
+        "src/lib/ability-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiToolbox",
@@ -242681,6 +242701,8 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/two-shadows.html",
       "usedIn": [
         "src/data/locations/serpent-eclipse-left-door-passage.ts",
+        "src/data/npcs/onana-tempest.ts",
+        "src/lib/ability-icons.tsx",
         "src/lib/location-icons.tsx"
       ]
     },
@@ -309136,6 +309158,7 @@
       "sourceUrl": "https://lucide.dev/icons/sparkles",
       "usedIn": [
         "src/components/campaign-shell/sidebar-data.ts",
+        "src/components/dm/ability-quick-list.tsx",
         "src/components/dm/dm-foretold-panel.tsx",
         "src/components/dm/encounter/ability-controls.tsx",
         "src/components/dm/encounter/party-strip.tsx",

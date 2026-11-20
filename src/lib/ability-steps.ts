@@ -23,6 +23,11 @@ export type StepPart = StatPart | { kind: 'tokens'; tokens: readonly AbilityText
 
 export type DmStep = {
   parts: StepPart[]
+  /**
+   * Who acts in this step: the DM for the creature, or the creatures it targets. Absent for a step
+   * that only says what is true, such as an effect or an outcome.
+   */
+  who?: 'dm' | 'target'
   /** Sibling abilities this step uses, such as a Multiattack's attacks, shown expanded. */
   expand?: string[]
 }
@@ -41,13 +46,15 @@ const term = (key: RuleKey, label: string): StepPart => ({
 function timingStep(source: AbilitySource, stats: StatBlock): DmStep {
   switch (source) {
     case 'action':
-      return { parts: [text('Uses its action on its turn.')] }
+      return { who: 'dm', parts: [text('Uses its action on its turn.')] }
     case 'bonus action':
       return {
+        who: 'dm',
         parts: [text('Uses its '), term('bonus_action', 'bonus action'), text(' on its turn.')],
       }
     case 'reaction':
       return {
+        who: 'dm',
         parts: [
           text('Uses its '),
           term('reaction', 'reaction'),
@@ -58,6 +65,7 @@ function timingStep(source: AbilitySource, stats: StatBlock): DmStep {
       return { parts: [text('Always on. It doesn’t take an action.')] }
     case 'legendary':
       return {
+        who: 'dm',
         parts: [
           text('At the end of another creature’s turn, spend 1 of its '),
           value(String(stats.legendary?.uses ?? 1)),
@@ -68,6 +76,7 @@ function timingStep(source: AbilitySource, stats: StatBlock): DmStep {
       }
     case 'lair':
       return {
+        who: 'dm',
         parts: [
           text('A '),
           term('lair_action', 'lair action'),
@@ -84,6 +93,7 @@ function attackSteps(attack: Attack, stats: StatBlock): DmStep[] {
   const target: DmStep =
     attack.kind === 'melee'
       ? {
+          who: 'dm',
           parts: [
             text('Pick one target within '),
             value(`${attack.reach} ft.`),
@@ -93,6 +103,7 @@ function attackSteps(attack: Attack, stats: StatBlock): DmStep[] {
           ],
         }
       : {
+          who: 'dm',
           parts: [
             text('Pick one target within '),
             value(`${attack.range[0]} ft.`),
@@ -108,6 +119,7 @@ function attackSteps(attack: Attack, stats: StatBlock): DmStep[] {
   return [
     target,
     {
+      who: 'dm',
       parts: [
         text('Make an '),
         term('attack_roll', 'attack roll'),
@@ -139,7 +151,7 @@ function attackSteps(attack: Attack, stats: StatBlock): DmStep[] {
 
 const COUNT = ['zero', 'one', 'two', 'three', 'four', 'five', 'six']
 
-function targetStep(save: Save): DmStep {
+function targetParts(save: Save): DmStep {
   const { target } = save
   if ('creatures' in target) {
     const count = COUNT[target.creatures] ?? String(target.creatures)
@@ -214,6 +226,10 @@ function targetStep(save: Save): DmStep {
   }
 }
 
+function targetStep(save: Save): DmStep {
+  return { who: 'dm', ...targetParts(save) }
+}
+
 function saveSteps(save: Save, stats: StatBlock): DmStep[] {
   const dc = 8 + proficiencyBonus(stats.cr) + modifier(stats.scores[save.dc])
   const ability = rules[save.ability].name
@@ -251,6 +267,7 @@ function saveSteps(save: Save, stats: StatBlock): DmStep[] {
   return [
     targetStep(save),
     {
+      who: 'target',
       parts: [
         text(`${who} a `),
         term('difficulty_class', 'DC'),
@@ -277,25 +294,47 @@ function saveSteps(save: Save, stats: StatBlock): DmStep[] {
   ]
 }
 
+/** A full stop that ends a sentence, not an abbreviation such as "ft." or "Mr.". */
+const SENTENCE_END = String.raw`(?<!\b(?:ft|Mr|Mrs|Dr|St|vs))[.!?][”’)]*`
+const INSIDE = new RegExp(String.raw`(?<=${SENTENCE_END})\s+(?=[A-Z“‘(])`)
+const AT_END = new RegExp(String.raw`${SENTENCE_END}\s+$`)
+
+/** Rules text cut into its sentences, so each one reads as a step of its own. */
+export function sentences(tokens: readonly AbilityTextToken[]): AbilityTextToken[][] {
+  const out: AbilityTextToken[][] = [[]]
+  tokens.forEach((token, index) => {
+    if (typeof token !== 'string') {
+      out.at(-1)!.push(token)
+      return
+    }
+    token.split(INSIDE).forEach((piece, pieceIndex) => {
+      if (pieceIndex > 0) out.push([])
+      if (piece) out.at(-1)!.push(piece)
+    })
+    if (index < tokens.length - 1 && AT_END.test(token)) out.push([])
+  })
+  return out.filter((sentence) => sentence.length > 0)
+}
+
 function textSteps(ability: Ability, attackKeys: ReadonlySet<string>): DmStep[] {
-  if (ability.text.length === 0) return []
-  const expand = ability.text.flatMap((token) =>
-    typeof token === 'object' && 'ability' in token && attackKeys.has(token.ability)
-      ? [token.ability]
-      : [],
-  )
   const multiattack = ability.key === 'multiattack' || ability.name === 'Multiattack'
-  const tokens: DmStep = {
-    parts: [
-      ...(ability.attack ? [text('Also: ')] : []),
-      ...(multiattack
-        ? [term('multiattack', 'Multiattack'), text(': roll each attack on its own. ')]
-        : []),
-      { kind: 'tokens', tokens: ability.text },
-    ],
-    ...(expand.length > 0 ? { expand: [...new Set(expand)] } : {}),
-  }
-  return [tokens]
+  return sentences(ability.text).map((tokens, index) => {
+    const expand = tokens.flatMap((token) =>
+      typeof token === 'object' && 'ability' in token && attackKeys.has(token.ability)
+        ? [token.ability]
+        : [],
+    )
+    return {
+      parts: [
+        ...(index === 0 && ability.attack ? [text('Also: ')] : []),
+        ...(index === 0 && multiattack
+          ? [term('multiattack', 'Multiattack'), text(': roll each attack on its own. ')]
+          : []),
+        { kind: 'tokens', tokens },
+      ],
+      ...(expand.length > 0 ? { expand: [...new Set(expand)] } : {}),
+    }
+  })
 }
 
 function usesStep(ability: Ability): DmStep | undefined {

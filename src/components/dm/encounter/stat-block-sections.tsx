@@ -4,16 +4,17 @@ import { Fragment, type ReactNode } from 'react'
 import { RuleTerm } from '#/components/rule-term'
 import { refs } from '#/data/generated/refs'
 import type { AbilityTiming, StatBlock } from '#/definitions/stat-block'
+import { ABILITY_GROUP_LABEL } from '#/lib/ability-index'
 import { ABILITY_KEYS, ruleOf, ruleRef, type RuleRef } from '#/lib/rules'
 import { formatSpeed, signed, sourceName, sourceUrl, type DerivedStats } from '#/lib/stat-block'
 import { cn } from '#/lib/utils'
 
 /** How each ability timing is labelled and drawn. */
 export const TIMING = {
-  action: { label: 'Actions', Icon: Swords },
-  'bonus action': { label: 'Bonus actions', Icon: Zap },
-  reaction: { label: 'Reactions', Icon: Shield },
-  trait: { label: 'Traits', Icon: PawPrint },
+  action: { label: ABILITY_GROUP_LABEL.action, Icon: Swords },
+  'bonus action': { label: ABILITY_GROUP_LABEL['bonus action'], Icon: Zap },
+  reaction: { label: ABILITY_GROUP_LABEL.reaction, Icon: Shield },
+  trait: { label: ABILITY_GROUP_LABEL.trait, Icon: PawPrint },
 } satisfies Record<AbilityTiming, unknown>
 
 /** Size, creature type, challenge with its experience, and proficiency bonus on one line. */
