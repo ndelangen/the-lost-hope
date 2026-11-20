@@ -81,7 +81,7 @@ export default createScene({
               ': they are drugged up, and less emotionally invested.',
             ],
             [
-              'The curve is deliberate. The bow and the batteries are easy slaughters: let the players enjoy them, and describe every kill big. After that every room hits hard: the ',
+              'The curve is deliberate. The bow is the easy slaughter: let the players enjoy it, and describe every kill big. After that every room hits hard: the ',
               refs.npcs.hand_breaker,
               's and ',
               refs.npcs.korrag_stonevow,
@@ -142,18 +142,13 @@ export default createScene({
     },
     {
       title: 'The bow',
-      fight: {
-        where: [{ deck: refs.locations.ride_the_lightning_main_deck, slice: 1 }],
-        opponents: [{ creature: refs.npcs.cloaked_snatcher, count: 4 }],
-        tactics: [['They work in pairs and gang up on whoever stands alone.']],
-      },
       lines: [
         {
           do: [
             [
-              'The bow: the ',
+              'Cleared in Session 18. The party took both bow sectors with ease: they killed six ',
               refs.npcs.cloaked_snatcher,
-              's here come forward to meet them, and go down fast. Half of them stand in each bow sector.',
+              's in the first and seven in the second. No fight is left here.',
             ],
             [
               'If the party investigates the front compartments, they can find the passage to the lower deck.',
@@ -166,22 +161,6 @@ export default createScene({
       title: 'The batteries',
       fight: {
         where: [{ deck: refs.locations.ride_the_lightning_main_deck, slice: 2 }],
-        opponents: [{ creature: refs.npcs.cloaked_snatcher, count: 4 }],
-        tactics: [['They fight like the ones at the bow.']],
-      },
-      lines: [
-        {
-          do: [
-            [
-              'The batteries: more of them guard the guns, another quick win. Half of them stand on each side.',
-            ],
-          ],
-        },
-      ],
-    },
-    {
-      title: 'The next door',
-      fight: {
         opponents: [
           { creature: refs.npcs.hand_breaker, count: 2 },
           { creature: refs.npcs.cloaked_snatcher, count: 2 },
@@ -210,9 +189,9 @@ export default createScene({
         {
           do: [
             [
-              'The first room they open after the batteries, on whichever side. The ',
+              'The batteries, whichever side the party opens first. The ',
               refs.npcs.hand_breaker,
-              's were waiting for them: this is where the ship stops being easy.',
+              's were waiting for them after the bow: this is where the ship stops being easy.',
             ],
           ],
         },
