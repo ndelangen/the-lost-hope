@@ -35,6 +35,7 @@ export default createArc({
     },
     {
       name: 'Abraham among his peers',
+      status: 'closed',
       hook: [
         [
           '',

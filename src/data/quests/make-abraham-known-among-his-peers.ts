@@ -6,7 +6,7 @@ export default createQuest({
   icon: 'gi/GiLaurels',
   type: 'mission',
   notes: [[refs.pcs.jim, ' must help ', refs.npcs.abraham, ' gain recognition from his peers.']],
-  status: 'open',
+  status: 'resolved',
   clues: [
     [
       refs.events.n2_e056,
@@ -40,5 +40,5 @@ export default createQuest({
       ' has threatened to stampede him or bite off one of his fingers.',
     ],
   ],
-  conclusion: [],
+  conclusion: [[refs.npcs.abraham, ' left the party.']],
 })

@@ -7,6 +7,7 @@ export default createNPC({
   location: refs.locations.badesh_forest,
   species: 'Donkey',
   notes: [['Age, appearance, and temperament are all unestablished.']],
+  background: [[refs.npcs.abraham, ' left the party, but may return later.']],
   stats: {
     size: 'medium',
     type: 'beast',
