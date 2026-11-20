@@ -14,7 +14,7 @@ export default createItem({
       '. The blade remains shadowy. The identity and fate of the shadow once bound to it remain unknown.',
     ],
     [
-      'The blade stores about 68,000 souls. It needs moonlight to replenish its charges and gains more power under a full moon. Using it on undead can bestow a soul on them; the consequences are unknown and were described as potentially catastrophic.',
+      'The blade stores about 68,000 souls. It gains more power under a full moon. Using it on undead can bestow a soul on them; the consequences are unknown and were described as potentially catastrophic.',
     ],
   ],
   background: [
@@ -44,7 +44,7 @@ export default createItem({
     [
       'Unless it is in its ',
       refs.items.shadow_sword_sheath,
-      ', the blade registers as evil, and anything that cares about collecting souls senses it burning almost painfully bright. Simply showing it to such a creature can overwhelm it like a flashbang.',
+      ', the blade registers as evil, and anything that cares about collecting souls senses it burning almost painfully bright. That is not a rule, but a wielder could use it as a tactic: simply showing the blade might overwhelm such a creature like a flashbang.',
     ],
     [
       'The sword hoards souls as collectables and does not want to release them, which is why it holds so many. It punishes the wielder for giving any up. Deliberately drawing souls out costs the wielder 1d6 ',
