@@ -16,14 +16,14 @@ export type NextScene = {
 }
 
 /**
- * Every scene once, in the order the party meets them: the scenes it has left behind, then the
- * ones selected for the next session, then the rest as written.
+ * Every scene once, in the order the party meets them: the scenes it has left behind, the ones
+ * selected for the next session, the ones ready for a later session, then the rest as written.
  */
 export function sceneRunningOrder(
   table: Table,
   scenes: Readonly<Record<string, unknown>>,
 ): string[] {
-  const planned = [...table.past, ...table.likely].map((ref) => ref.key)
+  const planned = [...table.past, ...table.likely, ...table.ready].map((ref) => ref.key)
   return [...new Set([...planned, ...Object.keys(scenes)])].filter((key) =>
     Object.hasOwn(scenes, key),
   )

@@ -402,6 +402,7 @@ export function overview(): string {
     '',
     '## Prepared for next session',
     ...table.likely.map((ref) => `- likely: ${name(ref)}`),
+    ...table.ready.map((ref) => `- ready for a later session: ${name(ref)}`),
     ...table.pinned.map((ref) => `- pinned: ${name(ref)}`),
     '',
     ...(table.past.length > 0

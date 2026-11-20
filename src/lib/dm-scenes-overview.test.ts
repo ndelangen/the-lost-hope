@@ -60,6 +60,21 @@ describe('DM scenes overview', () => {
     ])
   })
 
+  it('flags scenes ready for a later session and runs them after the selection', () => {
+    const waiting = createTable({ likely: [sceneRef('game')], ready: [sceneRef('harbour')] })
+    const order = scenesInRunningOrder({
+      table: waiting,
+      scenes,
+      arcs,
+      parentOf: sourceLocationParent,
+    })
+    expect(order.map((item) => [item.key, item.likely, item.ready])).toEqual([
+      ['game', true, false],
+      ['harbour', false, true],
+      ['stables', false, false],
+    ])
+  })
+
   it('traces a place from its region down, leaving out the world', () => {
     expect(
       placeTrail(refs.locations.skynet_s_second_best_inn, sourceLocationParent).map((l) => l.key),

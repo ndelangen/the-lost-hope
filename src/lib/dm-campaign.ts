@@ -159,13 +159,18 @@ export function validateDmReferences(
     }
   }
 
-  for (const ref of [...selection.past, ...selection.likely, ...selection.pinned]) {
+  for (const ref of [
+    ...selection.past,
+    ...selection.likely,
+    ...selection.ready,
+    ...selection.pinned,
+  ]) {
     if (!Object.hasOwn(sceneRegistry, ref.key))
       problems.push(`Table: unknown scene reference ${ref.key}`)
   }
-  const placed = [...selection.past, ...selection.likely].map((ref) => ref.key)
+  const placed = [...selection.past, ...selection.likely, ...selection.ready].map((ref) => ref.key)
   for (const key of new Set(placed.filter((key, index) => placed.indexOf(key) !== index))) {
-    problems.push(`Table: scene ${key} is listed more than once across past and likely`)
+    problems.push(`Table: scene ${key} is listed more than once across past, likely and ready`)
   }
 
   // DM fields such as `background` and `motivations` only exist in the source, so check every

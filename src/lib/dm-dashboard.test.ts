@@ -124,7 +124,7 @@ describe('DM dashboard', () => {
   it('rejects a table that lists a scene as both past and likely', () => {
     const table = createTable({ past: [sceneRef('stables')], likely: [sceneRef('stables')] })
     expect(validateDmReferences({}, scenes, table)).toEqual([
-      'Table: scene stables is listed more than once across past and likely',
+      'Table: scene stables is listed more than once across past, likely and ready',
     ])
   })
 

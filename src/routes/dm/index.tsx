@@ -5,6 +5,7 @@ import { DmForetoldPanel } from '#/components/dm/dm-foretold-panel'
 import { DmLocationBranch } from '#/components/dm/dm-location-branch'
 import { DmPastScenes } from '#/components/dm/dm-past-scenes'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
+import { DmReadyScenes } from '#/components/dm/dm-ready-scenes'
 import { DmSceneRow } from '#/components/dm/dm-scene-row'
 import { PartyTokens } from '#/components/dm/party-tokens'
 import { useEffectLiveState } from '#/components/dm/use-effect-live-state'
@@ -49,12 +50,9 @@ function DmDashboard() {
   )
   const tree = buildDashboard({ table, scenes, arcs, party, parentOf: sourceLocationParent })
   const order = runningOrder({ table, scenes, arcs })
-  const past = scenesInRunningOrder({
-    table,
-    scenes,
-    arcs,
-    parentOf: sourceLocationParent,
-  }).filter((item) => item.past)
+  const overview = scenesInRunningOrder({ table, scenes, arcs, parentOf: sourceLocationParent })
+  const past = overview.filter((item) => item.past)
+  const ready = overview.filter((item) => item.ready)
   const live = useEffectLiveState(campaignToday())
   const candidates = liveEffects()
   const inPlay = live.state ? effectsInPlay(live.state, candidates) : []
@@ -99,6 +97,7 @@ function DmDashboard() {
         ) : (
           <p className="text-muted-foreground">No likely scenes selected yet.</p>
         )}
+        <DmReadyScenes scenes={ready} />
         <DmPastScenes scenes={past} />
         <PartyTokens
           rows={tokenCounts.rows}

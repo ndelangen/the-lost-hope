@@ -5,6 +5,7 @@ import { DmOverviewSceneRow, DmScenePlots } from '#/components/dm/dm-overview-sc
 import { DmPastScenes } from '#/components/dm/dm-past-scenes'
 import { DmPlaceTrail } from '#/components/dm/dm-place-trail'
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
+import { DmReadyScenes } from '#/components/dm/dm-ready-scenes'
 import { ArcIcon } from '#/lib/arc-icons'
 import { arcs, scenes, sourceLocationParent, table } from '#/lib/dm-campaign'
 import {
@@ -33,7 +34,8 @@ export const Route = createFileRoute('/dm/scenes/')({
 function ScenesIndex() {
   const { layout = 'order' } = Route.useSearch()
   const every = scenesInRunningOrder({ table, scenes, arcs, parentOf: sourceLocationParent })
-  const all = every.filter((item) => !item.past)
+  const all = every.filter((item) => !item.past && !item.ready)
+  const ready = every.filter((item) => item.ready)
   const past = every.filter((item) => item.past)
 
   return (
@@ -61,7 +63,7 @@ function ScenesIndex() {
         </div>
         {all.length === 0 ? (
           <p className="text-muted-foreground">
-            {past.length > 0 ? 'No scenes ahead yet.' : 'No scenes prepared yet.'}
+            {past.length + ready.length > 0 ? 'No scenes ahead yet.' : 'No scenes prepared yet.'}
           </p>
         ) : layout === 'order' ? (
           <ol className="divide-border grid grid-cols-1 divide-y">
@@ -172,6 +174,7 @@ function ScenesIndex() {
             ))}
           </div>
         )}
+        <DmReadyScenes scenes={ready} />
         <DmPastScenes scenes={past} />
       </div>
       <aside className="min-w-0">

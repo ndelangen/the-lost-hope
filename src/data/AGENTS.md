@@ -66,9 +66,11 @@ canon.
   events. Use the same event reference wherever it advances another plot or arc.
 - The table (`dm/table.ts`) records where the DM is in the prepared scenes. `past` lists the scenes
   the party has left behind, played or skipped, in the order they came up. `likely` lists the
-  scenes for the next session in running order. After a session, move the scenes now behind the
-  party from `likely` to `past`. A scene is in one of the two lists at most. Past scenes leave the
-  dashboard and stay reachable under "Past scenes".
+  scenes for the next session in running order. `ready` lists scenes that are written and ready to
+  run but not yet given a session; move one into `likely` when its session is chosen. After a
+  session, move the scenes now behind the party from `likely` to `past`. A scene is in one of the
+  three lists at most. Ready scenes show under "Ready for session"; past scenes leave the dashboard
+  and stay reachable under "Past scenes".
 - Scenes own the location, setup, and possible outcomes. Events own what happened in play. Linking
   an event leaves the plot open until the DM closes it.
 - A scene has no list of related records: what it mentions is derived from its fields and the refs

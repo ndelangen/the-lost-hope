@@ -18,6 +18,8 @@ export type OverviewScene = {
   past: boolean
   /** Whether the DM selected this scene for the next session. */
   likely: boolean
+  /** Whether the scene is written and ready, waiting for a session. */
+  ready: boolean
   pinned: boolean
   plots: readonly ScenePlot[]
   /** Where the scene happens, from the region down, without the world at the top. */
@@ -26,7 +28,8 @@ export type OverviewScene = {
 
 /**
  * Every scene once, in running order: the scenes the party has left behind, then the next
- * session's selection, then the rest in the order they were written.
+ * session's selection, then the scenes ready for a later session, then the rest in the order they
+ * were written.
  */
 export function scenesInRunningOrder({
   table,
@@ -42,6 +45,7 @@ export function scenesInRunningOrder({
   const plots = plotsByScene(arcs)
   const past = new Set(table.past.map((ref) => ref.key))
   const likely = new Set(table.likely.map((ref) => ref.key))
+  const ready = new Set(table.ready.map((ref) => ref.key))
   const pinned = new Set(table.pinned.map((ref) => ref.key))
   const count = { past: 0, ahead: 0 }
   return sceneRunningOrder(table, scenes).map((key) => {
@@ -53,6 +57,7 @@ export function scenesInRunningOrder({
       position: isPast ? ++count.past : ++count.ahead,
       past: isPast,
       likely: likely.has(key),
+      ready: ready.has(key),
       pinned: pinned.has(key),
       plots: plots.get(key) ?? [],
       trail: placeTrail(scene.location, parentOf),

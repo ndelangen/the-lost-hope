@@ -2,6 +2,7 @@ import boarded_by_the_battle_cruiser from './boarded-by-the-battle-cruiser.ts'
 import boarding_ride_the_lightning from './boarding-ride-the-lightning.ts'
 import borris_shutters_the_casino from './borris-shutters-the-casino.ts'
 import chaos_on_the_sky_islands from './chaos-on-the-sky-islands.ts'
+import fix_s_last_delivery from './fix-s-last-delivery.ts'
 import garran_comes_for_the_cruiser from './garran-comes-for-the-cruiser.ts'
 import onana_calls_the_party_to_war from './onana-calls-the-party-to-war.ts'
 import picking_up_swift_at_nimbus from './picking-up-swift-at-nimbus.ts'
@@ -30,4 +31,5 @@ export default {
   boarding_ride_the_lightning,
   taking_back_a_battle_cruiser,
   garran_comes_for_the_cruiser,
+  fix_s_last_delivery,
 }

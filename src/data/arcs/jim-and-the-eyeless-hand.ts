@@ -149,5 +149,20 @@ export default createArc({
         ],
       ],
     },
+    {
+      name: 'A box from home',
+      hook: [
+        [
+          refs.pcs.fix,
+          ' brings the party a box from ',
+          refs.organizations.the_eyeless_hand,
+          ' and a warning: stop caring about ',
+          refs.pcs.jim,
+          ', or be hunted for it. Will they?',
+        ],
+      ],
+      npcs: [refs.npcs.the_father],
+      scene: refs.scenes.fix_s_last_delivery,
+    },
   ],
 })
