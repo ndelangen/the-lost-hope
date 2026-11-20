@@ -4,7 +4,7 @@ import { create as createEvent } from '#/definitions/event.ts'
 export default createEvent({
   name: 'The first fortress beam scatters across Nimbus',
   day: 24,
-  location: refs.locations.nimbus_harbour,
+  location: refs.locations.nimbus,
   mark: { type: 'icon', name: 'gi/GiBlast' },
   illustrations: ['/assets/scenes/the-green-beam-over-the-sky-islands.png'],
   notes: [
