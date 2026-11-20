@@ -264,13 +264,17 @@ export default createScene({
         allies: [{ creature: refs.npcs.tempest_soldier, count: 4 }],
         tactics: [
           [
-            'The guards stand between the party and the prisoners. The ',
+            'The guards hold the Barracks. They do not point the party to the prisoners. The ',
             refs.npcs.hand_breaker,
             ' goes for ',
             refs.pcs.devan,
             '.',
           ],
-          ['Cutting one soldier loose takes an action. Roll initiative once for all of them.'],
+          [
+            'Cutting one soldier loose takes an action, and they stay ',
+            refs.rules.unconscious,
+            ' until someone heals them: any healing, such as a Potion of Healing or Lay on Hands, gets one up with that many hit points. Roll initiative once for all who are up.',
+          ],
         ],
       },
       onlyIf: [['They go into the Barracks.']],
@@ -278,9 +282,16 @@ export default createScene({
         {
           do: [
             [
-              'In the Barracks the party finds ',
+              'The Barracks are guarded. The ',
               refs.npcs.tempest_soldier,
-              's, tied up, and guards watching them. If the party releases the soldiers, they help in the fight. Bring them into the encounter then.',
+              's lie tied up and ',
+              refs.rules.unconscious,
+              ', stuffed under the bunks and covered with tarps. Nothing gives them away: the party only finds them if they search the room. A DC 13 ',
+              refs.rules.investigation,
+              ' check finds them, one search for the whole room.',
+            ],
+            [
+              'Freeing them costs the party something: each soldier needs healing before they can fight, so it is the party’s own potions or Lay on Hands that get them up. The party may decide not to bother, and that is fine. Bring the ones they wake into the encounter then.',
             ],
           ],
         },
