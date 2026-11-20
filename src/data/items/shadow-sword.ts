@@ -22,12 +22,22 @@ export default createItem({
     [
       'Attunement can only be attempted in absolute darkness, and only by a creature that has and owns its own soul. Attuning embeds the wielder’s soul into the blade.',
     ],
+    ['A finesse shortsword that deals 1d6 ', refs.rules.necrotic, ' damage.'],
     [
-      'Used unattuned, the sword deals the wielder as much damage as it deals the target. Striking something that is already dead is a ',
+      'Used unattuned, every hit deals the wielder the same ',
+      refs.rules.necrotic,
+      ' damage it deals the target, including extra damage such as Sneak Attack. A miss costs nothing, and resistance to necrotic damage protects the wielder. Striking something that is already dead is a ',
       refs.rules.critical_hit,
       ' against the wielder.',
     ],
-    ['While attuned, delivering the killing blow embeds the slain creature’s soul into the blade.'],
+    [
+      'Only while attuned does delivering the killing blow embed the slain creature’s soul into the blade. Unattuned, it takes no souls.',
+    ],
+    [
+      'Unless it is in its ',
+      refs.items.shadow_sword_sheath,
+      ', the blade registers as evil, and anything that cares about collecting souls senses it burning almost painfully bright. Simply showing it to such a creature can overwhelm it like a flashbang.',
+    ],
     [
       'The sword hoards souls as collectables and does not want to release them, which is why it holds so many. It punishes the wielder for giving any up. Deliberately drawing souls out costs the wielder 1d6 ',
       refs.rules.necrotic,
