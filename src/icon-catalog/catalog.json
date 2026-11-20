@@ -99596,6 +99596,7 @@
       "sourceUrl": "https://game-icons.net/1x1/skoll/breaking-chain.html",
       "usedIn": [
         "src/data/npcs/onana-tempest.ts",
+        "src/data/npcs/silas-wren.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -127829,7 +127830,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/double-face-mask.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/npcs/silas-wren.ts",
+        "src/lib/ability-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiDoubleFish",
@@ -131263,7 +131267,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/echo-ripples.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/npcs/silas-wren.ts",
+        "src/lib/ability-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiEclipse",
@@ -143860,7 +143867,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/footprint.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/npcs/silas-wren.ts",
+        "src/lib/ability-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiFootsteps",
@@ -155926,7 +155936,11 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/heat-haze.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/npcs/onana-tempest.ts",
+        "src/data/npcs/silas-wren.ts",
+        "src/lib/ability-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiHeavenGate",
@@ -163307,6 +163321,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/invisible.html",
       "usedIn": [
         "src/data/npcs/faceless-shadow.ts",
+        "src/data/npcs/silas-wren.ts",
         "src/data/npcs/the-father.ts",
         "src/lib/ability-icons.tsx"
       ]
@@ -180067,7 +180082,6 @@
       "usedIn": [
         "src/data/beasts/displacer-beast.ts",
         "src/data/npcs/misha.ts",
-        "src/data/npcs/onana-tempest.ts",
         "src/data/npcs/silas-wren.ts",
         "src/data/npcs/throne-figure-in-jim-s-vision.ts",
         "src/lib/ability-icons.tsx"
@@ -198194,6 +198208,8 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/prayer.html",
       "usedIn": [
         "src/data/locations/gruumsh-temple-ritual-room.ts",
+        "src/data/npcs/silas-wren.ts",
+        "src/lib/ability-icons.tsx",
         "src/lib/location-icons.tsx"
       ]
     },

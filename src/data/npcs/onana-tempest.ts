@@ -279,7 +279,7 @@ export default createNPC({
         key: 'minor-illusion',
         name: 'Minor Illusion',
         timing: 'action',
-        icon: 'gi/GiMirrorMirror',
+        icon: 'gi/GiHeatHaze',
         text: [
           'Makes a sound, or a still image of an object, appear up to 30 ft. away for 1 minute. The image is no larger than 5 ft. on a side and has no sound, light or smell; the sound can be anything from a whisper to a scream. Anything that touches the image passes through it, which gives it away. A creature that uses its action to ',
           refs.rules.study,
