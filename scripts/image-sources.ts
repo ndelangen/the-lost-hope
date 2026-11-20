@@ -263,18 +263,6 @@ export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
     repositoryPath: 'assets/images/maps/nimbus-harbour-ferry-quay.png',
   },
   {
-    id: 'player-screen-fleet-battle-clouds',
-    role: 'illustration',
-    logicalSource: '/assets/player-screen/fleet-battle-clouds.jpg',
-    repositoryPath: 'assets/images/player-screen/fleet-battle-clouds.png',
-  },
-  {
-    id: 'player-screen-flying-fortress',
-    role: 'illustration',
-    logicalSource: '/assets/player-screen/flying-fortress.jpg',
-    repositoryPath: 'assets/images/player-screen/flying-fortress.png',
-  },
-  {
     id: 'location-map-three-sky-kingdoms',
     role: 'map',
     logicalSource: '/assets/maps/three-sky-kingdoms.jpg',

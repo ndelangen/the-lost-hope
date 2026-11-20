@@ -5,13 +5,13 @@ import {
   battlePlan,
   battleTimeAt,
   BATTLE_TIMING,
-  playbackLength,
   cameraAt,
-  CAMERA,
   captionAt,
   FORTRESS,
   fortressAt,
   legendAt,
+  playbackLength,
+  PICKUP,
   shipPose,
 } from './fleet-battle'
 import type { FleetRoster, FleetShip } from './fleet-roster'
@@ -21,6 +21,7 @@ function ship(key: string, extra: Partial<FleetShip> = {}): FleetShip {
 }
 
 const party = { id: 'party', label: 'The party', avatars: ['/a.png', '/b.png'] }
+const admiral = { id: 'npc:admiral', label: 'Admiral', avatars: ['/admiral.png'] }
 const roster: FleetRoster = {
   owner: { key: 'navy', name: 'Navy' },
   sides: [
@@ -28,7 +29,7 @@ const roster: FleetRoster = {
       key: 'navy',
       name: 'Navy',
       ships: [
-        ship('flagship'),
+        ship('flagship', { aboard: [admiral] }),
         ship('wreck', { status: 'destroyed' }),
         ship('sunk', { status: 'destroyed' }),
       ],
@@ -50,95 +51,97 @@ const roster: FleetRoster = {
   building: [],
 }
 const geometry = {
-  home: { x: 1000, y: 800 },
-  centre: { x: 600, y: 450 },
-  fortress: { x: 500, y: 300 },
-  escape: { x: -300, y: -250 },
-  arena: { x: 100, y: 200 },
+  home: { x: 1200, y: 800 },
+  hold: { x: 600, y: 330 },
+  pickup: { x: 340, y: 170 },
+  fortress: { x: -60, y: -40 },
+  course: { x: -0.38, y: -0.92 },
 }
 
 describe('battlePlan', () => {
   const plan = battlePlan(roster, geometry)
   const { times } = plan
 
-  it('launches the whole fleet under its owner', () => {
-    expect(battleCounts(plan, times.assault, 2)).toEqual({ flying: [6, 0], lost: 0 })
-  })
-
-  it('turns the rival ships one at a time until the sides are even', () => {
-    const turns = plan.ships.flatMap((entry) => (entry.turnAt === undefined ? [] : [entry.turnAt]))
-    expect(turns).toHaveLength(3)
-    expect(new Set(turns).size).toBe(3)
-    const halfway = turns.toSorted((a, b) => a - b)[1]! + 0.5
-    expect(battleCounts(plan, halfway, 2).flying).toEqual([4, 2])
-    expect(battleCounts(plan, times.split, 2).flying).toEqual([3, 3])
-  })
-
-  it('loses ships alternating between the sides', () => {
-    const losses = plan.ships
-      .filter((entry) => entry.lostAt !== undefined)
-      .toSorted((a, b) => a.lostAt! - b.lostAt!)
-      .map((entry) => entry.side)
-    expect(losses).toEqual([0, 1, 0, 1])
-  })
-
-  it('ends in the roster: every lost ship wrecked, the survivors on their side', () => {
-    expect(battleCounts(plan, times.end, 2)).toEqual({ flying: [1, 1], lost: 4 })
-    const seized = plan.ships.find((entry) => entry.key === 'seized')!
-    expect(shipPose(plan, seized, times.end).side).toBe(1)
-  })
-
-  it('forms up quietly, then opens fire on the fortress as the chase begins', () => {
-    expect(plan.volleys.every((volley) => volley.at >= times.assault)).toBe(true)
-    const firstTurn = Math.min(...plan.ships.flatMap((entry) => entry.turnAt ?? []))
-    expect(firstTurn).toBeGreaterThan(times.assault)
-    expect(firstTurn - times.assault).toBeLessThan(1.5)
-    const early = plan.volleys.filter((volley) => volley.at < firstTurn + 0.25)
-    expect(early.length).toBeGreaterThan(0)
-    expect(early.every((volley) => volley.to === FORTRESS || volley.from === FORTRESS)).toBe(true)
-    expect(plan.volleys.some((volley) => volley.from === FORTRESS && volley.kind === 'beam')).toBe(
-      true,
-    )
-  })
-
-  it('has the turned ships fire on their old side, never on the fortress', () => {
-    const byKey = new Map(plan.ships.map((entry) => [entry.key, entry]))
-    const fromTurned = plan.volleys.filter((volley) => {
-      const from = byKey.get(volley.from)
-      return from?.turnAt !== undefined && volley.at > from.turnAt + 0.25 && volley.kind !== 'beam'
-    })
-    expect(fromTurned.length).toBeGreaterThan(0)
-    expect(fromTurned.every((volley) => volley.to !== FORTRESS)).toBe(true)
-    for (const volley of plan.volleys) {
-      const from = byKey.get(volley.from)
-      expect(volley.at).toBeLessThan(from?.lostAt ?? Infinity)
+  it('deploys the whole fleet under its owner and holds it over the hold point', () => {
+    expect(battleCounts(plan, times.arrive, 2)).toEqual({ flying: [6, 0], lost: 0 })
+    for (const entry of plan.ships) {
+      const { pos } = shipPose(plan, entry, times.boardStart)
+      expect(Math.hypot(pos.x - geometry.hold.x, pos.y - geometry.hold.y)).toBeLessThan(260)
     }
   })
 
-  it('holds the fortress still while the fleet forms up, then lets it flee', () => {
-    expect(fortressAt(plan, times.formed)).toEqual(geometry.fortress)
-    expect(fortressAt(plan, times.assault)).toEqual(geometry.fortress)
-    expect(fortressAt(plan, times.split)).not.toEqual(geometry.fortress)
-    expect(fortressAt(plan, times.end)).toEqual(geometry.escape)
+  it('keeps the fortress on a steady course throughout', () => {
+    const a = fortressAt(plan, 10)
+    const b = fortressAt(plan, 20)
+    const c = fortressAt(plan, 30)
+    expect(b.x - a.x).toBeCloseTo(c.x - b.x)
+    expect(b.y - a.y).toBeCloseTo(c.y - b.y)
+    expect(b.y).toBeLessThan(a.y)
   })
 
-  it('sends the boarding party across from the flagship one by one', () => {
-    expect(plan.crossings).toEqual([
-      expect.objectContaining({ avatar: '/a.png', from: 'flagship', to: 'seized' }),
-      expect.objectContaining({ avatar: '/b.png', from: 'flagship', to: 'seized' }),
+  it('boards the party onto the flagship in order while the fleet holds', () => {
+    const boards = plan.crossings.filter((entry) => entry.kind === 'board')
+    expect(boards.map((entry) => [entry.avatar, entry.from, entry.to])).toEqual([
+      ['/a.png', PICKUP, 'flagship'],
+      ['/b.png', PICKUP, 'flagship'],
     ])
-    const [first, second] = plan.crossings
-    expect(second!.at).toBeGreaterThan(first!.at)
+    expect(boards[1]!.at).toBeGreaterThan(boards[0]!.at)
+    expect(boards.at(-1)!.at + boards.at(-1)!.duration).toBeLessThanOrEqual(times.chase)
   })
 
-  it('plays the same way every time', () => {
-    expect(battlePlan(roster, geometry)).toEqual(plan)
+  it('opens fire on the fortress once the chase is on, before any ship switches', () => {
+    expect(plan.volleys.every((volley) => volley.at >= times.fire)).toBe(true)
+    const early = plan.volleys.filter((volley) => volley.at < times.switchStart)
+    expect(early.length).toBeGreaterThan(0)
+    expect(early.every((volley) => volley.to === FORTRESS || volley.from === FORTRESS)).toBe(true)
   })
 
-  it('captions the battle from launch to the survivors', () => {
-    expect(captionAt(plan, times.launch + 0.1)?.text).toBe('Navy fleet launching: 6 contacts')
-    expect(captionAt(plan, times.split + 0.1)?.text).toBe('The fleet is split: 3 against 3')
-    expect(captionAt(plan, times.end)?.text).toBe('2 contacts remain')
+  it('switches ships in quick succession, and has them fire on their old side', () => {
+    const turns = plan.ships.flatMap((entry) => entry.turnAt ?? []).toSorted((a, b) => a - b)
+    expect(turns).toHaveLength(3)
+    expect(turns.at(-1)! - turns[0]!).toBeLessThan(1)
+    const byKey = new Map(plan.ships.map((entry) => [entry.key, entry]))
+    const fromTurned = plan.volleys.filter((volley) => {
+      const from = byKey.get(volley.from)
+      return from?.turnAt !== undefined && volley.at > from.turnAt + 0.2
+    })
+    expect(fromTurned.length).toBeGreaterThan(0)
+    expect(fromTurned.every((volley) => volley.to !== FORTRESS)).toBe(true)
+  })
+
+  it('fires the party across from the flagship to their ship in slow motion', () => {
+    const shots = plan.crossings.filter((entry) => entry.kind === 'shot')
+    expect(shots.map((entry) => [entry.avatar, entry.from, entry.to])).toEqual([
+      ['/a.png', 'flagship', 'seized'],
+      ['/b.png', 'flagship', 'seized'],
+    ])
+    for (const shot of shots) {
+      expect(shot.at).toBeGreaterThanOrEqual(times.slow.start)
+      expect(shot.at + shot.duration).toBeLessThanOrEqual(times.slow.end)
+    }
+    expect(battleTimeAt(plan, times.slow.start + 1)).toBeCloseTo(
+      times.slow.start + BATTLE_TIMING.slowMotion,
+    )
+    expect(battleTimeAt(plan, playbackLength(plan))).toBeCloseTo(times.end)
+  })
+
+  it('loses ships only after the crossing, alternating sides, and they fall away', () => {
+    const losses = plan.ships
+      .filter((entry) => entry.lostAt !== undefined)
+      .toSorted((a, b) => a.lostAt! - b.lostAt!)
+    expect(losses.map((entry) => entry.side)).toEqual([0, 1, 0, 1])
+    expect(losses[0]!.lostAt).toBeGreaterThan(times.slow.end)
+    const first = losses[0]!
+    const down = shipPose(plan, first, first.lostAt!)
+    const later = shipPose(plan, first, first.lostAt! + 1)
+    expect(later.pos.y).toBeGreaterThan(down.pos.y)
+    expect(shipPose(plan, first, first.lostAt! + BATTLE_TIMING.sink + 0.01).sinking).toBe(1)
+  })
+
+  it('ends in the roster: every lost ship gone, the survivors on their side', () => {
+    expect(battleCounts(plan, times.end, 2)).toEqual({ flying: [1, 1], lost: 4 })
+    const seized = plan.ships.find((entry) => entry.key === 'seized')!
+    expect(shipPose(plan, seized, times.end).side).toBe(1)
   })
 
   it('lists every ship in the legend with its side and whether it is still fighting', () => {
@@ -152,36 +155,23 @@ describe('battlePlan', () => {
       ['burnt', 1, 'destroyed'],
       ['scuttled', 1, 'destroyed'],
     ])
-    expect(end.find((row) => row.key === 'seized')?.turned).toBe(true)
   })
 
-  it('loses the fortress from sight before the cruisers fight it out over open sky', () => {
-    expect(fortressAt(plan, times.fortressGone)).toEqual(geometry.escape)
-    const losses = plan.ships.flatMap((entry) => entry.lostAt ?? [])
-    expect(Math.min(...losses)).toBeGreaterThan(times.fortressGone)
-    for (const entry of plan.ships.filter((ship) => !ship.lost)) {
-      const { pos } = shipPose(plan, entry, times.end)
-      expect(Math.hypot(pos.x - geometry.arena.x, pos.y - geometry.arena.y)).toBeLessThan(400)
-    }
+  it('closes the camera in for the crossing', () => {
+    const middle = (times.slow.start + times.slow.end) / 2
+    expect(cameraAt(plan, middle).span).toBeLessThan(cameraAt(plan, times.fire).span)
   })
 
-  it('starts the camera wide and closes in on the fight', () => {
-    expect(cameraAt(plan, 0).span).toBe(CAMERA.wide.span)
-    const end = cameraAt(plan, times.end)
-    expect(end.span).toBe(CAMERA.close.span)
-    expect(end.centre).toEqual(geometry.arena)
-  })
-
-  it('plays the boarding in slow motion, one boarder after another, as the fortress leaves', () => {
-    const boarding = times.boarding!
-    expect(boarding.end).toBe(times.fortressGone)
-    const [first, second] = plan.crossings
-    expect(first!.at).toBe(boarding.start)
-    expect(second!.at).toBeGreaterThan(first!.at)
-    expect(battleTimeAt(plan, boarding.start)).toBe(boarding.start)
-    expect(battleTimeAt(plan, boarding.start + 1)).toBeCloseTo(
-      boarding.start + BATTLE_TIMING.slowMotion,
+  it('captions the battle from first contact to the survivors', () => {
+    expect(captionAt(plan, 0.5)?.text).toBe(
+      'Contact: the flying fortress, heading north-north-west',
     )
-    expect(battleTimeAt(plan, playbackLength(plan))).toBeCloseTo(times.end)
+    expect(captionAt(plan, times.boardStart)?.text).toBe('The party boards flagship')
+    expect(captionAt(plan, times.slow.start)?.text).toBe('The party crosses to seized')
+    expect(captionAt(plan, times.end)?.text).toBe('2 contacts remain')
+  })
+
+  it('plays the same way every time', () => {
+    expect(battlePlan(roster, geometry)).toEqual(plan)
   })
 })

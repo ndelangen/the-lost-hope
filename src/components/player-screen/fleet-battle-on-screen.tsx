@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 
+import { SKY_ISLAND_OUTLINES } from '#/components/player-screen/sky-island-outlines'
 import { useFleetRoster } from '#/components/player-screen/use-fleet-roster'
-import { ResponsiveImage } from '#/components/responsive-image'
 import { refs } from '#/data/generated/refs'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 import {
@@ -15,13 +15,14 @@ import {
   legendAt,
   clamp01,
   curve,
+  lerp,
+  unit,
   mulberry32,
   scale,
   shipPose,
   pointOf,
   fortressAt,
   FORTRESS,
-  sub,
   type BattlePlan,
   type BattleShip,
   type Camera,
@@ -31,35 +32,31 @@ import {
 } from '#/lib/fleet-battle'
 import type { FleetRoster } from '#/lib/fleet-roster'
 import { ItemIcon, resolveItemIcon } from '#/lib/item-icons'
-import { publicAssetUrl, responsiveImageFor } from '#/lib/public-media'
+import { publicAssetUrl } from '#/lib/public-media'
 import { cn } from '#/lib/utils'
 
 /**
- * The battle is drawn over the region map of the sky islands. The fleet launches from Tempest, the
- * lines meet over Skynet, and the flying fortress waits off the map's top-left corner, where the
- * battle view is zoomed out far enough to show it. Positions are in the region map's pixels.
+ * The battle is drawn as a schematic radar over the sky islands, in the pixels of the Three Sky
+ * Kingdoms map. The fortress is sighted off Nimbus's top-left heading north-north-west; the fleet
+ * deploys from Tempest and holds over Nimbus's bottom-right, where the party comes aboard.
  */
-const REGION = refs.locations.three_sky_kingdoms
 const HOME = refs.locations.tempest
-const CENTRE = refs.locations.skynet
-/** Where the fortress is sighted, close over the islands, and where it flees to, off the radar. */
-const FORTRESS_START: Vec = { x: 520, y: 260 }
-const FORTRESS_ESCAPE: Vec = { x: -1000, y: -700 }
-/** How wide the fortress art is drawn, in map pixels. */
-const FORTRESS_SIZE = 400
-/** Open sky west of Skynet, off the map's edge, where the cruisers fight once the fortress is gone. */
-const ARENA: Vec = { x: -460, y: 560 }
-/** The cloud backdrop is laid over this much of the sky around the map, in map pixels. */
-const SKY = { x: -2800, y: -1900, width: 7200, height: 4800 }
-const CLOUDS = '/assets/player-screen/fleet-battle-clouds.jpg'
-const FORTRESS_ART = '/assets/player-screen/flying-fortress.jpg'
-const RADAR_FILTER =
-  '[filter:grayscale(1)_sepia(1)_hue-rotate(125deg)_saturate(1.4)_brightness(0.42)_contrast(1.35)]'
+const PICKUP_AT = refs.locations.nimbus
+const HOLD: Vec = { x: 640, y: 340 }
+const FORTRESS_START: Vec = { x: -60, y: -40 }
+const COURSE: Vec = unit({ x: -0.414, y: -1 })
+/** How wide the fortress glyph is drawn, in map pixels. */
+const FORTRESS_SIZE = 230
+const ISLAND_LABELS = [
+  refs.locations.nimbus,
+  refs.locations.skynet,
+  refs.locations.tempest,
+] as const
 
 const SIDE_COLOURS = ['#38bdf8', '#f43f5e', '#f59e0b']
 const RADAR = 'rgb(94 234 212'
 
-type Located = { at?: [number, number]; map: { url: string; width: number; height: number } }
+type Located = { name: string; at?: [number, number] }
 
 function located(key: string): Located {
   return SOURCE_REGISTRIES.location[key as keyof typeof SOURCE_REGISTRIES.location] as Located
@@ -85,24 +82,20 @@ function FleetBattle({ roster }: { roster: FleetRoster }) {
     () =>
       battlePlan(roster, {
         home: point(HOME.key),
-        centre: point(CENTRE.key),
+        hold: HOLD,
+        pickup: point(PICKUP_AT.key),
         fortress: FORTRESS_START,
-        escape: FORTRESS_ESCAPE,
-        arena: ARENA,
+        course: COURSE,
       }),
     [roster],
   )
-  const map = located(REGION.key).map
   const canvas = useRef<HTMLCanvasElement>(null)
   const frame = useRef<HTMLDivElement>(null)
   const size = useElementSize(frame)
   const clock = useBattleClock(plan)
   const images = useAvatarImages(plan)
   const icons = useRef(new Map<string, HTMLImageElement>())
-  const fortress = useFortressSprite()
   const [hud, setHud] = useState(0)
-
-  const world = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     const element = canvas.current
@@ -116,11 +109,8 @@ function FleetBattle({ roster }: { roster: FleetRoster }) {
     const draw = () => {
       const time = clock.now()
       const view = fitCamera(size, cameraAt(plan, time))
-      if (world.current) {
-        world.current.style.transform = `translate(${view.offset.x}px, ${view.offset.y}px) scale(${view.scale})`
-      }
       context.setTransform(ratio, 0, 0, ratio, 0, 0)
-      drawBattle(context, plan, view, time, images.current, icons.current, fortress.current, size)
+      drawBattle(context, plan, view, time, images.current, icons.current, size)
       if (time - lastHud > 0.1 || time >= plan.times.end) {
         lastHud = time
         setHud(time)
@@ -129,41 +119,16 @@ function FleetBattle({ roster }: { roster: FleetRoster }) {
     }
     handle = requestAnimationFrame(draw)
     return () => cancelAnimationFrame(handle)
-  }, [plan, size, clock, images, icons, fortress])
+  }, [plan, size, clock, images, icons])
 
   const caption = captionAt(plan, hud)
   const counts = battleCounts(plan, hud, roster.sides.length)
   const legend = legendAt(plan, hud)
-  const cloudsUrl = responsiveImageFor(CLOUDS)?.candidates.at(-1)?.src
 
   return (
     <div className="absolute inset-0 flex overflow-hidden bg-[rgb(3_10_14)]">
       <IconSprites icons={icons} plan={plan} />
       <div ref={frame} className="relative min-w-0 flex-1 overflow-hidden">
-        {/* The sky and the map, in map pixels; the camera moves and scales this layer each frame. */}
-        <div ref={world} aria-hidden className="absolute top-0 left-0 origin-top-left">
-          {cloudsUrl ? (
-            <div
-              className={`absolute opacity-45 ${RADAR_FILTER}`}
-              style={{
-                left: SKY.x,
-                top: SKY.y,
-                width: SKY.width,
-                height: SKY.height,
-                backgroundImage: `url(${cloudsUrl})`,
-                backgroundSize: '100% 100%',
-              }}
-            />
-          ) : null}
-          <ResponsiveImage
-            src={map.url}
-            alt=""
-            sizes="100vw"
-            loading="eager"
-            className={`absolute max-w-none [mask-image:radial-gradient(ellipse_at_center,black_45%,transparent_70%)] opacity-90 ${RADAR_FILTER}`}
-            style={{ left: 0, top: 0, width: map.width, height: map.height }}
-          />
-        </div>
         <canvas ref={canvas} className="absolute inset-0 size-full" />
         <div
           aria-hidden
@@ -352,11 +317,11 @@ function drawBattle(
   time: number,
   avatars: ReadonlyMap<string, HTMLImageElement>,
   icons: ReadonlyMap<string, HTMLImageElement>,
-  fortress: HTMLCanvasElement | undefined,
   size: { width: number; height: number },
 ) {
   context.clearRect(0, 0, size.width, size.height)
   const unitPx = view.scale
+  drawSchematic(context, view, size, clamp01(time / 1.2))
   const centre = toScreen(view, cameraAt(plan, time).centre)
   const boot = clamp01(time / 1.6)
 
@@ -391,8 +356,7 @@ function drawBattle(
   context.fill()
   context.restore()
 
-  drawLandmark(context, toScreen(view, plan.geometry.home), 'Tempest', time, false)
-  drawFortress(context, plan, view, time, fortress)
+  drawFortress(context, plan, view, time)
 
   const poses = new Map(plan.ships.map((ship) => [ship.key, shipPose(plan, ship, time)]))
 
@@ -419,6 +383,91 @@ function drawBattle(
     context.fillStyle = `rgb(255 170 80 / ${0.16 * (1 - since / 0.5)})`
     context.fillRect(0, 0, size.width, size.height)
   }
+  // Bars close in from the top and bottom while time runs slow.
+  const { slow } = plan.times
+  const bars = clamp01((time - (slow.start - 0.6)) / 0.6) * (1 - clamp01((time - slow.end) / 0.6))
+  if (bars > 0) {
+    context.fillStyle = 'rgb(0 0 0 / 0.85)'
+    const height = size.height * 0.07 * bars
+    context.fillRect(0, 0, size.width, height)
+    context.fillRect(0, size.height - height, size.width, height)
+  }
+}
+
+/**
+ * The sky islands as a schematic: a faint grid, then each island's traced outline with a second,
+ * inset line and its name.
+ */
+function drawSchematic(
+  context: CanvasRenderingContext2D,
+  view: View,
+  size: { width: number; height: number },
+  fade: number,
+) {
+  context.save()
+  context.globalAlpha = fade
+  // Grid every 100 map pixels.
+  const step = 100 * view.scale
+  context.strokeStyle = `${RADAR} / 0.06)`
+  context.lineWidth = 1
+  context.beginPath()
+  for (let x = view.offset.x % step; x < size.width; x += step) {
+    context.moveTo(x, 0)
+    context.lineTo(x, size.height)
+  }
+  for (let y = view.offset.y % step; y < size.height; y += step) {
+    context.moveTo(0, y)
+    context.lineTo(size.width, y)
+  }
+  context.stroke()
+  for (const outline of Object.values(SKY_ISLAND_OUTLINES)) {
+    const points = outline.map(([x, y]) => toScreen(view, { x, y }))
+    const centre = scale(
+      points.reduce((sum, point) => add(sum, point), { x: 0, y: 0 }),
+      1 / points.length,
+    )
+    traceSmooth(context, points)
+    context.fillStyle = `${RADAR} / 0.07)`
+    context.fill()
+    context.strokeStyle = `${RADAR} / 0.75)`
+    context.lineWidth = 2
+    context.shadowColor = `${RADAR} / 0.6)`
+    context.shadowBlur = 10
+    context.stroke()
+    context.shadowBlur = 0
+    traceSmooth(
+      context,
+      points.map((point) => lerp(point, centre, 0.08)),
+    )
+    context.strokeStyle = `${RADAR} / 0.25)`
+    context.lineWidth = 1
+    context.setLineDash([4, 6])
+    context.stroke()
+    context.setLineDash([])
+  }
+  context.font = '600 13px ui-monospace, SFMono-Regular, Menlo, monospace'
+  context.textAlign = 'center'
+  context.fillStyle = `${RADAR} / 0.75)`
+  for (const ref of ISLAND_LABELS) {
+    const at = toScreen(view, point(ref.key))
+    context.fillText(located(ref.key).name.toUpperCase().split('').join(' '), at.x, at.y)
+  }
+  context.restore()
+}
+
+/** A closed path through the points, rounded off through each segment's midpoint. */
+function traceSmooth(context: CanvasRenderingContext2D, points: readonly Vec[]) {
+  const mid = (a: Vec, b: Vec) => lerp(a, b, 0.5)
+  const last = points[points.length - 1]!
+  const start = mid(last, points[0]!)
+  context.beginPath()
+  context.moveTo(start.x, start.y)
+  points.forEach((corner, index) => {
+    const next = points[(index + 1) % points.length]!
+    const to = mid(corner, next)
+    context.quadraticCurveTo(corner.x, corner.y, to.x, to.y)
+  })
+  context.closePath()
 }
 
 function drawLandmark(
@@ -499,17 +548,30 @@ function drawShip(
   context.save()
   context.translate(at.x, at.y)
   if (pose.state === 'wreck') {
-    context.globalAlpha = 1 - pose.sinking * 0.7
-    context.fillStyle = 'rgb(15 23 42 / 0.8)'
-    context.strokeStyle = 'rgb(255 255 255 / 0.35)'
-    context.lineWidth = 1.5
+    // A lost ship drops away, shrinking and fading until it is gone.
+    if (pose.sinking >= 1) {
+      context.restore()
+      return
+    }
+    const shrink = 1 - pose.sinking * 0.8
+    context.globalAlpha = 1 - pose.sinking
+    context.rotate(pose.sinking * 1.4)
+    context.fillStyle = 'rgb(15 23 42 / 0.9)'
+    context.strokeStyle = 'rgb(251 146 60 / 0.8)'
+    context.lineWidth = 2
     context.beginPath()
-    context.arc(0, 0, radius * 0.8, 0, Math.PI * 2)
+    context.arc(0, 0, radius * shrink, 0, Math.PI * 2)
     context.fill()
     context.stroke()
     if (icon?.complete) {
-      context.globalAlpha *= 0.35
-      context.drawImage(icon, -radius * 0.5, -radius * 0.5, radius, radius)
+      context.globalAlpha *= 0.6
+      context.drawImage(
+        icon,
+        -radius * 0.6 * shrink,
+        -radius * 0.6 * shrink,
+        radius * 1.2 * shrink,
+        radius * 1.2 * shrink,
+      )
     }
     context.restore()
     return
@@ -674,7 +736,7 @@ function drawExplosion(
   if (ship.lostAt === undefined) return
   const since = time - ship.lostAt
   if (since < 0 || since > 1.6) return
-  const at = toScreen(view, sub(pose.pos, { x: since * 4, y: since * since * 6 }))
+  const at = toScreen(view, pose.pos)
   const grow = Math.max(1, view.scale * 1.5)
   const k = since / 1.6
   const fireball = context.createRadialGradient(at.x, at.y, 0, at.x, at.y, (14 + 40 * k) * grow)
@@ -712,58 +774,76 @@ function drawMarkers(
   avatars: ReadonlyMap<string, HTMLImageElement>,
 ) {
   const radius = Math.max(12, 15 * view.scale * 1.6)
-  // Each portrait sits on a ship, or is somewhere between two ships while it crosses.
+  const hostAt = (key: string) => pointOf(plan, key, time)
+  // Each portrait sits on a ship, or is on its way: boarding the flagship, or fired across.
   const aboard = new Map<string, string[]>()
-  const flying: { avatar: string; at: Vec }[] = []
+  const boarding: { avatar: string; at: Vec }[] = []
+  const shots: { avatar: string; at: Vec; trail: Vec[] }[] = []
   for (const ship of plan.ships) {
     for (const marker of ship.markers) {
       for (const avatar of marker.avatars) {
-        const crossing = plan.crossings.find(
+        const moves = plan.crossings.filter(
           (entry) => entry.marker === marker.id && entry.avatar === avatar,
         )
-        const progress = crossing ? (time - crossing.at) / crossing.duration : 1
-        if (crossing && progress > 0 && progress < 1) {
-          const from = poses.get(crossing.from)!.pos
-          const to = poses.get(crossing.to)!.pos
-          flying.push({ avatar, at: curve(from, to, easeInOutQuad(progress), -0.4) })
+        const moving = moves.find((entry) => time >= entry.at && time < entry.at + entry.duration)
+        if (moving) {
+          const progress = (time - moving.at) / moving.duration
+          const path = (k: number) =>
+            curve(
+              hostAt(moving.from),
+              hostAt(moving.to),
+              easeInOutQuad(k),
+              moving.kind === 'shot' ? -0.5 : 0.2,
+            )
+          if (moving.kind === 'shot') {
+            shots.push({
+              avatar,
+              at: path(progress),
+              trail: [0.04, 0.08, 0.12, 0.16, 0.2].map((lag) => path(Math.max(0, progress - lag))),
+            })
+          } else boarding.push({ avatar, at: path(progress) })
           continue
         }
-        const host = crossing && progress <= 0 ? crossing.from : ship.key
-        if (poses.get(host)!.state !== 'sailing') continue
+        const done = moves.filter((entry) => time >= entry.at + entry.duration)
+        // Before its first move the portrait is not on the radar yet.
+        if (moves.length > 0 && done.length === 0) continue
+        const host = done.at(-1)?.to ?? ship.key
+        if (poses.get(host)?.state !== 'sailing') continue
         aboard.set(host, [...(aboard.get(host) ?? []), avatar])
       }
     }
   }
   for (const [host, list] of aboard) {
-    const screen = toScreen(view, poses.get(host)!.pos)
+    const screen = toScreen(view, hostAt(host))
     list.forEach((avatar, index) => {
       const x = screen.x + (index - (list.length - 1) / 2) * radius * 0.85
-      drawPortrait(context, avatars.get(avatar), x, screen.y - radius * 1.9, radius)
+      drawPortrait(context, avatars.get(avatar), x, screen.y - radius * 2.3, radius)
     })
   }
-  // While the party crosses, a line marks the way from ship to ship.
-  const boarding = plan.times.boarding
-  const first = plan.crossings[0]
-  if (boarding && first && time >= boarding.start - 0.3 && time <= boarding.end + 0.3) {
-    const from = toScreen(view, poses.get(first.from)!.pos)
-    const to = toScreen(view, poses.get(first.to)!.pos)
-    context.save()
-    context.setLineDash([10, 8])
-    context.lineDashOffset = -time * 40
-    context.strokeStyle = 'rgb(52 211 153 / 0.75)'
-    context.shadowColor = 'rgb(52 211 153)'
-    context.shadowBlur = 14
-    context.lineWidth = 3
-    context.beginPath()
-    context.moveTo(from.x, from.y)
-    context.lineTo(to.x, to.y)
-    context.stroke()
-    context.restore()
-  }
-  // Crossing portraits are drawn large, so each boarder is clear as they go over.
-  for (const { avatar, at } of flying) {
+  for (const { avatar, at } of boarding) {
     const screen = toScreen(view, at)
-    drawPortrait(context, avatars.get(avatar), screen.x, screen.y, radius * 1.8)
+    drawPortrait(context, avatars.get(avatar), screen.x, screen.y, radius * 1.2)
+  }
+  // The party is fired across as large glowing shots, each with its portrait at the head.
+  for (const { avatar, at, trail } of shots) {
+    const head = toScreen(view, at)
+    context.save()
+    trail.forEach((point, index) => {
+      const screen = toScreen(view, point)
+      context.fillStyle = `rgb(52 211 153 / ${0.35 * (1 - index / trail.length)})`
+      context.beginPath()
+      context.arc(screen.x, screen.y, radius * (1.9 - index * 0.25), 0, Math.PI * 2)
+      context.fill()
+    })
+    const glow = context.createRadialGradient(head.x, head.y, radius, head.x, head.y, radius * 3)
+    glow.addColorStop(0, 'rgb(167 243 208 / 0.7)')
+    glow.addColorStop(1, 'rgb(52 211 153 / 0)')
+    context.fillStyle = glow
+    context.beginPath()
+    context.arc(head.x, head.y, radius * 3, 0, Math.PI * 2)
+    context.fill()
+    context.restore()
+    drawPortrait(context, avatars.get(avatar), head.x, head.y, radius * 2)
   }
 }
 
@@ -795,33 +875,52 @@ function drawFortress(
   plan: BattlePlan,
   view: View,
   time: number,
-  sprite: HTMLCanvasElement | undefined,
 ) {
   const at = toScreen(view, fortressAt(plan, time))
   const size = FORTRESS_SIZE * view.scale
-  // Its wake as it pulls away.
+  const lime = 'rgb(190 242 100'
+  // Its wake along its course.
   context.save()
-  context.lineCap = 'round'
-  let previous = toScreen(view, fortressAt(plan, 0))
-  for (let step = 0.3; step <= time; step += 0.3) {
-    const next = toScreen(view, fortressAt(plan, step))
-    context.strokeStyle = `rgb(190 242 100 / ${0.35 * (1 - clamp01((time - step) / 20))})`
-    context.lineWidth = Math.max(2, size * 0.04)
-    context.beginPath()
-    context.moveTo(previous.x, previous.y)
-    context.lineTo(next.x, next.y)
-    context.stroke()
-    previous = next
+  context.setLineDash([6, 8])
+  context.strokeStyle = `${lime} / 0.35)`
+  context.lineWidth = 2
+  const start = toScreen(view, fortressAt(plan, 0))
+  context.beginPath()
+  context.moveTo(start.x, start.y)
+  context.lineTo(at.x, at.y)
+  context.stroke()
+  context.setLineDash([])
+  // A floating rock with a walled keep and spires, as a schematic glyph.
+  context.translate(at.x, at.y)
+  const half = size / 2
+  context.shadowColor = `${lime} / 0.8)`
+  context.shadowBlur = 16
+  context.strokeStyle = `${lime} / 0.95)`
+  context.fillStyle = `${lime} / 0.1)`
+  context.lineWidth = 2
+  context.beginPath()
+  context.moveTo(-half, 0)
+  context.lineTo(half, 0)
+  context.lineTo(half * 0.55, half * 0.45)
+  context.lineTo(half * 0.15, half * 0.95)
+  context.lineTo(-half * 0.2, half * 0.6)
+  context.lineTo(-half * 0.6, half * 0.5)
+  context.closePath()
+  context.fill()
+  context.stroke()
+  context.beginPath()
+  context.moveTo(-half * 0.8, 0)
+  context.lineTo(-half * 0.8, -half * 0.25)
+  for (const x of [-0.6, -0.4, -0.2, 0, 0.2, 0.4, 0.6]) {
+    const top = Math.abs(x) < 0.25 ? -0.75 : -0.35
+    context.lineTo(half * (x - 0.1), -half * 0.25)
+    context.lineTo(half * x, half * top)
+    context.lineTo(half * (x + 0.1), -half * 0.25)
   }
+  context.lineTo(half * 0.8, -half * 0.25)
+  context.lineTo(half * 0.8, 0)
+  context.stroke()
   context.restore()
-  if (sprite) {
-    context.save()
-    context.shadowColor = 'rgb(163 230 53 / 0.6)'
-    context.shadowBlur = 40
-    context.globalAlpha = clamp01(time / 1.2)
-    context.drawImage(sprite, at.x - size / 2, at.y - size / 2, size, size)
-    context.restore()
-  }
   // It glows hot where shots have just landed.
   const hits = plan.volleys.filter((volley) => {
     if (volley.to !== FORTRESS) return false
@@ -829,53 +928,15 @@ function drawFortress(
     return since >= 0 && since < 0.3
   }).length
   if (hits > 0) {
-    const glow = context.createRadialGradient(at.x, at.y, 0, at.x, at.y, size * 0.5)
-    glow.addColorStop(0, `rgb(251 146 60 / ${Math.min(0.35, hits * 0.06)})`)
+    const glow = context.createRadialGradient(at.x, at.y, 0, at.x, at.y, size * 0.6)
+    glow.addColorStop(0, `rgb(251 146 60 / ${Math.min(0.45, hits * 0.08)})`)
     glow.addColorStop(1, 'rgb(251 146 60 / 0)')
     context.fillStyle = glow
     context.beginPath()
-    context.arc(at.x, at.y, size * 0.5, 0, Math.PI * 2)
+    context.arc(at.x, at.y, size * 0.6, 0, Math.PI * 2)
     context.fill()
   }
-  drawLandmark(context, { x: at.x, y: at.y + size * 0.42 }, 'Flying fortress', time * 0.5, true)
-}
-
-/**
- * The fortress art, with the dark background the image pipeline flattens it onto keyed out, so it
- * can be drawn over the radar.
- */
-function useFortressSprite() {
-  const sprite = useRef<HTMLCanvasElement | undefined>(undefined)
-  useEffect(() => {
-    const source = responsiveImageFor(FORTRESS_ART)?.candidates.find(
-      (candidate) => candidate.width >= 640,
-    )?.src
-    if (!source) return
-    const image = new Image()
-    image.onload = () => {
-      const canvas = document.createElement('canvas')
-      canvas.width = image.naturalWidth
-      canvas.height = image.naturalHeight
-      const context = canvas.getContext('2d')
-      if (!context) return
-      context.drawImage(image, 0, 0)
-      const pixels = context.getImageData(0, 0, canvas.width, canvas.height)
-      const data = pixels.data
-      // APP_ICON_BACKGROUND, #07111f, and anything close to it becomes transparent.
-      for (let index = 0; index < data.length; index += 4) {
-        const distance =
-          Math.abs(data[index]! - 7) +
-          Math.abs(data[index + 1]! - 17) +
-          Math.abs(data[index + 2]! - 31)
-        if (distance < 24) data[index + 3] = 0
-        else if (distance < 48) data[index + 3] = Math.round(((distance - 24) / 24) * 255)
-      }
-      context.putImageData(pixels, 0, 0)
-      sprite.current = canvas
-    }
-    image.src = source
-  }, [])
-  return sprite
+  drawLandmark(context, { x: at.x, y: at.y + size * 0.55 }, 'Flying fortress', time * 0.5, true)
 }
 
 function withAlpha(hex: string, alpha: number): string {
