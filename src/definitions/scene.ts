@@ -157,6 +157,12 @@ export const SceneBeat = z.strictObject({
   lines: z.array(SceneLine).min(1),
   groupSave: SceneGroupSave.optional().describe('A save everyone listed makes during this beat'),
   fight: SceneBeatFight.optional().describe('Who joins the fight when this beat is played'),
+  cleared: z
+    .array(FightPlace)
+    .default([])
+    .describe(
+      'Aboard a vessel: the rooms the party has already fought through in this beat. The ship shows them as cleared',
+    ),
   outcomes: z.array(SceneOutcome).default([]),
 })
 

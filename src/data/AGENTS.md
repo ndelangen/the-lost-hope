@@ -86,6 +86,8 @@ canon.
   location), a `slice` counted from the bow, and a `side` when it is in one room only. Without a
   slice it is anywhere on that deck. A fight with no `where` follows the party. The ship's
   schematic then shows the fight in its rooms, so the room is not repeated in the beat's lines.
+- Once the party has fought through rooms in play, the beat lists them in `cleared` (same places
+  as `where`) and drops its `fight`. The schematic marks those rooms cleared.
 - A plot lists only NPCs its scene does not already cast. The plot's full cast is derived.
 - A vessel's layout (`hull` sectors and their escape pods) lives on its item. A deck map's
   location names its vessel (`deck`). A scene fought aboard a vessel names it in `aboard`, and the

@@ -218,6 +218,11 @@ export type SceneFight = FightLineUp & {
   where: FightPlace[]
 }
 
+/** The rooms of its vessel that the party has already fought through, from every beat. */
+export function sceneCleared(scene: Scene): FightPlace[] {
+  return scene.beats.flatMap((beat) => beat.cleared)
+}
+
 /** The fights of a scene, in the order of its script. */
 export function sceneFights(scene: Scene): SceneFight[] {
   return scene.beats.flatMap((beat) =>

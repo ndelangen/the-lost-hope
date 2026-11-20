@@ -12,6 +12,7 @@ const beat = (title: string, extra: Partial<SceneBeat> = {}): SceneBeat => ({
   title,
   lines: [{ do: [[title]] }],
   outcomes: [],
+  cleared: [],
   ...extra,
 })
 

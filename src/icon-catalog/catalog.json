@@ -268407,7 +268407,9 @@
       "classification": "marked-for-deletion",
       "classificationReason": "Manually marked for deletion from the /_icons review page.",
       "sourceUrl": "https://lucide.dev/icons/circle-check",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/ship-room-board.tsx"
+      ]
     },
     {
       "id": "lucide/CircleCheckBig",

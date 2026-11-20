@@ -3,7 +3,7 @@ import { describe, expect, it } from 'vitest'
 import type { FightPlace } from '#/definitions/scene'
 
 import { scenes, sceneShipAboard } from './dm-campaign'
-import { sceneFights, type SceneFight } from './dm-encounter'
+import { sceneCleared, sceneFights, type SceneFight } from './dm-encounter'
 import { vesselDecks } from './ship-decks'
 import { shipRooms, shipSectors, sliceCount } from './ship-rooms'
 
@@ -70,6 +70,27 @@ describe('shipRooms', () => {
   })
 })
 
+describe('cleared rooms', () => {
+  const rooms = shipRooms(
+    sectors,
+    decks,
+    [],
+    [
+      { deck: main, slice: 1 },
+      { deck: hold, slice: 2, side: 'port' },
+    ],
+  )
+  const [mainDeck, holdDeck] = rooms.decks
+
+  it('marks both sides of a cleared slice when no side is given', () => {
+    expect([...mainDeck!.cleared]).toEqual([0, 2])
+  })
+
+  it('marks one side only on its own deck when the place names it', () => {
+    expect([...holdDeck!.cleared]).toEqual([1])
+  })
+})
+
 describe('shipSectors', () => {
   it('lists the sectors port first, each in its slice from the bow', () => {
     expect(sectors.map(({ index, side, slice }) => [index, side, slice])).toEqual([
@@ -96,6 +117,23 @@ describe('fights aboard a vessel', () => {
           )
           .map(() => `${key}: ${placed.key}`),
       )
+    })
+    expect(misplaced).toEqual([])
+  })
+
+  it('mark cleared rooms on a deck of that ship, in a slice the hull has', () => {
+    const misplaced = Object.entries(scenes).flatMap(([key, scene]) => {
+      const ship = sceneShipAboard(scene)
+      const places = sceneCleared(scene)
+      if (!ship) return places.map(() => `${key}: not aboard a vessel`)
+      const deckKeys = new Set(vesselDecks(ship.vessel.key).map(({ deck }) => deck.key))
+      return places
+        .filter(
+          (place) =>
+            !deckKeys.has(place.deck.key) ||
+            (place.slice !== undefined && place.slice > sliceCount(ship.hull)),
+        )
+        .map((place) => `${key}: ${place.deck.key}`)
     })
     expect(misplaced).toEqual([])
   })

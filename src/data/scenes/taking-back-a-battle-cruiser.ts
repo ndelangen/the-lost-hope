@@ -142,13 +142,14 @@ export default createScene({
     },
     {
       title: 'The bow',
+      cleared: [{ deck: refs.locations.ride_the_lightning_main_deck, slice: 1 }],
       lines: [
         {
           do: [
             [
               'Cleared in Session 18. The party took both bow sectors with ease: they killed six ',
               refs.npcs.cloaked_snatcher,
-              's in the first and seven in the second. No fight is left here.',
+              's in the first and seven in the second.',
             ],
             [
               'If the party investigates the front compartments, they can find the passage to the lower deck.',

@@ -1,4 +1,4 @@
-import { LifeBuoy } from 'lucide-react'
+import { CircleCheck, LifeBuoy } from 'lucide-react'
 import { useState, type ReactNode } from 'react'
 
 import {
@@ -15,8 +15,16 @@ import { useShipRooms } from './use-ship-rooms'
 
 const SIDE_LABEL = { port: 'Port', starboard: 'Starboard' } as const
 
-/** One room of the vessel with the fights that happen in it. */
-function RoomTile({ sector, children }: { sector: ShipSectorView; children?: ReactNode }) {
+/** One room of the vessel with the fights that happen in it, or marked cleared once fought through. */
+function RoomTile({
+  sector,
+  cleared,
+  children,
+}: {
+  sector: ShipSectorView
+  cleared: boolean
+  children?: ReactNode
+}) {
   return (
     <div className="bg-card border-border grid min-w-0 content-start gap-2 overflow-hidden rounded-xl border-2 p-3">
       <span className="min-w-0 leading-tight font-semibold break-words">{sector.name}</span>
@@ -29,6 +37,11 @@ function RoomTile({ sector, children }: { sector: ShipSectorView; children?: Rea
           'No escape pods'
         )}
       </span>
+      {cleared ? (
+        <span className="text-muted-foreground flex items-center gap-1.5 text-sm font-semibold">
+          <CircleCheck aria-hidden className="size-4" /> Cleared
+        </span>
+      ) : null}
       {children ? <div className="grid content-start gap-3">{children}</div> : null}
     </div>
   )
@@ -124,7 +137,11 @@ export function ShipRoomBoard({
           ...sectors
             .filter((sector) => sector.side === side)
             .map((sector) => (
-              <RoomTile key={sector.index} sector={sector}>
+              <RoomTile
+                key={sector.index}
+                sector={sector}
+                cleared={deck?.cleared.has(sector.index) ?? false}
+              >
                 {deck?.bySector.get(sector.index)?.map((fight) => roomFight(fight, 'tile'))}
               </RoomTile>
             )),

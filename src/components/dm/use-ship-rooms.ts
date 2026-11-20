@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 
 import { resolveScene } from '#/lib/dm-campaign'
-import { fightPreset, sceneFights } from '#/lib/dm-encounter'
+import { fightPreset, sceneCleared, sceneFights } from '#/lib/dm-encounter'
 import { fightKey, isRunning } from '#/lib/encounter'
 import { vesselDecks } from '#/lib/ship-decks'
 import {
@@ -32,6 +32,7 @@ export function useShipRooms(
   const sceneRef = useMemo(() => ({ ref: 'scene' as const, key: sceneKey }), [sceneKey])
   const scene = resolveScene(sceneRef)
   const fights = useMemo(() => (scene ? sceneFights(scene) : []), [scene])
+  const cleared = useMemo(() => (scene ? sceneCleared(scene) : []), [scene])
   const joined = encounter?.joined
 
   const rooms = useMemo(
@@ -43,8 +44,9 @@ export function useShipRooms(
           ...fight,
           joined: joined?.[fightKey(sceneRef, fight.key)] ?? 0,
         })),
+        cleared,
       ),
-    [ship, fights, joined, sceneRef],
+    [ship, fights, joined, sceneRef, cleared],
   )
 
   const load = (room: RoomFight, mode: 'add' | 'replace') => {

@@ -1,5 +1,6 @@
 import type { ShipHull } from '#/definitions/item'
 import type { EntityRef } from '#/definitions/kind'
+import type { FightPlace } from '#/definitions/scene'
 
 import type { FightGroup, SceneFight } from './dm-encounter'
 
@@ -59,6 +60,8 @@ export type DeckRooms = {
   bySector: ReadonlyMap<number, RoomFight[]>
   /** Fights that can happen anywhere on this deck. */
   deckWide: RoomFight[]
+  /** The sectors the party has already fought through, by their index in the hull. */
+  cleared: ReadonlySet<number>
 }
 
 /** A vessel's decks with the scene's fights placed in their rooms. */
@@ -79,6 +82,13 @@ function roomFight(fight: SceneFight & { joined: number }): RoomFight {
   }
 }
 
+/** Whether a place on a deck takes in a sector: its slice, on one side or both. */
+function placeHolds(place: FightPlace, sector: ShipSectorView) {
+  return (
+    place.slice === sector.slice + 1 && (place.side === undefined || place.side === sector.side)
+  )
+}
+
 /**
  * Place a scene's fights on the decks of its vessel. A fight goes into every sector its places
  * name: one side of a slice, both sides when no side is given, or the whole deck without a slice.
@@ -88,6 +98,7 @@ export function shipRooms(
   sectors: readonly ShipSectorView[],
   decks: readonly Deck[],
   fights: readonly (SceneFight & { joined: number })[],
+  cleared: readonly FightPlace[] = [],
 ): ShipRooms {
   const known = (key: string) => decks.some(({ deck }) => deck.key === key)
   return {
@@ -101,16 +112,19 @@ export function shipRooms(
           continue
         }
         for (const sector of sectors) {
-          const here = places.some(
-            (place) =>
-              place.slice === sector.slice + 1 &&
-              (place.side === undefined || place.side === sector.side),
-          )
-          if (here)
+          if (places.some((place) => placeHolds(place, sector)))
             bySector.set(sector.index, [...(bySector.get(sector.index) ?? []), roomFight(fight)])
         }
       }
-      return { deck, name, bySector, deckWide }
+      const clearedHere = cleared.filter((place) => place.deck.key === deck.key)
+      const clearedSectors = new Set(
+        sectors
+          .filter((sector) =>
+            clearedHere.some((place) => place.slice === undefined || placeHolds(place, sector)),
+          )
+          .map((sector) => sector.index),
+      )
+      return { deck, name, bySector, deckWide, cleared: clearedSectors }
     }),
     anywhere: fights
       .filter((fight) => !fight.where.some((place) => known(place.deck.key)))
