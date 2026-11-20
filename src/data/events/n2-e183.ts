@@ -16,7 +16,7 @@ export default createEvent({
       refs.npcs.brodus,
       ' and ',
       refs.npcs.bart,
-      '. They offered Arcane Dust and claimed it could grant temporary magical abilities.',
+      '. They offered Arcane Dust and claimed it could grant temporary magical abilities. Nobody bought any.',
     ],
     [
       'They described ',

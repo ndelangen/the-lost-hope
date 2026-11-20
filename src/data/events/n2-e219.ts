@@ -46,7 +46,9 @@ export default createEvent({
       refs.organizations.the_eyeless_hand,
       ' and whether they were under the influence of Arcane Dust. His attempt to read ',
       refs.pcs.cassian_veyl,
-      '’s thoughts did not work on him.',
+      '’s thoughts did not work on him. The party could not tell which of their thoughts ',
+      refs.npcs.onana_tempest,
+      ' had probed.',
     ],
     [
       refs.pcs.swift_starblade,

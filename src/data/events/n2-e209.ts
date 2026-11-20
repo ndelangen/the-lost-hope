@@ -18,7 +18,7 @@ export default createEvent({
     [
       'A ',
       refs.locations.sky_bridge_ferry,
-      ' carrying twelve people was struck and fell toward the ocean.',
+      ' carrying twelve people was struck. It fell about 3 km into the ocean and the wreckage sank. All twelve people aboard died.',
     ],
     [
       refs.npcs.crowy,

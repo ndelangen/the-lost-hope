@@ -14,6 +14,8 @@ export default createEvent({
       refs.locations.nimbus,
       ' and travelled to ',
       refs.locations.skynet,
+      ' by ',
+      refs.locations.sky_bridge_ferry,
       '.',
     ],
   ],

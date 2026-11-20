@@ -14,5 +14,9 @@ export default createEvent({
       refs.npcs.hollin_slowbough,
       ', one of the ents who work the yard.',
     ],
+    [
+      refs.pcs.jim,
+      ' asked how the ents feel about their dead friends’ bodies being turned into people’s boats, and was surprised to learn that it is a great honour. The dead want to roam the world as a tribute, a voyage the ents call “the great journey beyond”.',
+    ],
   ],
 })

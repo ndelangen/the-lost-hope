@@ -27,5 +27,13 @@ export default createEvent({
       refs.npcs.light_13th_marshal,
       ' one-on-one, separate from the rest of the party.',
     ],
+    [
+      refs.pcs.jim,
+      ' told ',
+      refs.npcs.light_13th_marshal,
+      ' that he does not like wearing ',
+      refs.items.jim_s_kenku_suit,
+      ', that it smells, and that he does not wear it because he wants to. He wants his past to let him go.',
+    ],
   ],
 })

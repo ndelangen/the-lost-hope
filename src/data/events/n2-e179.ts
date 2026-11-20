@@ -19,6 +19,14 @@ export default createEvent({
     [
       'A roll selected a mermaid figurehead, but the party removed it while negotiating the price. The quote fell from 4,600 gold through several revisions to an agreement of 3,950 gold and two favors. Construction began.',
     ],
+    [
+      refs.pcs.cassian_veyl,
+      ' paid the 3,950 gold. ',
+      refs.items.little_purple,
+      ' was built with the mast, and the ',
+      refs.items.obsidian_green_rod,
+      ' was installed at its top.',
+    ],
   ],
   foretold: [
     {

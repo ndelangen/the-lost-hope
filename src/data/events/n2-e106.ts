@@ -24,7 +24,7 @@ export default createEvent({
       refs.items.jaded_amulet,
       ' initially prevented the others from recognizing the human leaving ',
       refs.locations.jim_s_room_at_skynet_s_second_best_inn,
-      '.',
+      '. The inn staff put the fire out, and housekeeping repaired the damage.',
     ],
     [
       refs.pcs.devan,
