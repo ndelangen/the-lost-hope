@@ -1,35 +1,28 @@
 import type { LiveStats } from './encounter'
 
-/** Two ways to run a fight in combat focus, kept side by side so the DM can compare them. */
-export const FOCUS_LAYOUTS = {
-  turn: { label: 'Turn view', hint: 'Initiative rail and a large panel for the current turn' },
-  table: { label: 'Table view', hint: 'Every combatant as a row with inline HP and abilities' },
-} as const
-
-export type FocusLayout = keyof typeof FOCUS_LAYOUTS
-
-export const DEFAULT_FOCUS_LAYOUT: FocusLayout = 'turn'
+/** A drawer beside the fight: adding to it, the prep notes, or the DM screen. */
+export type EncounterDrawer = 'add' | 'notes' | 'screen'
 
 /**
- * Keyboard shortcuts while running an encounter: F toggles focus, A adds enemies, ? opens the DM
- * screen in focus, and Escape closes the open drawer, or else leaves focus. Keys typed into a field, or pressed with
- * a modifier other than Shift, belong to that field or the browser.
+ * Keyboard shortcuts while running an encounter: A adds to the fight, N opens the prep notes, ?
+ * opens the DM screen, the same key again closes its drawer, and Escape closes whichever is open.
+ * Keys typed into a field, or pressed with a modifier other than Shift, belong to that field or the
+ * browser.
  */
 export function focusShortcut(
   event: { key: string; altKey: boolean; ctrlKey: boolean; metaKey: boolean },
-  {
-    typing,
-    focused,
-    screenOpen = false,
-  }: { typing: boolean; focused: boolean; screenOpen?: boolean },
-): 'toggle' | 'exit' | 'screen' | 'close-screen' | 'add' | undefined {
+  { typing, open }: { typing: boolean; open: EncounterDrawer | undefined },
+): EncounterDrawer | 'close' | undefined {
   if (typing || event.altKey || event.ctrlKey || event.metaKey) return undefined
-  if (event.key === 'f' || event.key === 'F') return 'toggle'
-  if ((event.key === 'a' || event.key === 'A') && !screenOpen) return 'add'
-  if (event.key === '?' && focused) return screenOpen ? 'close-screen' : 'screen'
-  if (event.key === 'Escape' && screenOpen) return 'close-screen'
-  if (event.key === 'Escape' && focused) return 'exit'
-  return undefined
+  if (event.key === 'Escape') return open ? 'close' : undefined
+  const drawer = (
+    { a: 'add', A: 'add', n: 'notes', N: 'notes', '?': 'screen' } as const satisfies Record<
+      string,
+      EncounterDrawer
+    >
+  )[event.key as 'a']
+  if (!drawer) return undefined
+  return drawer === open ? 'close' : drawer
 }
 
 /** Share of maximum HP left, from 0 to 1, for HP bars. Unknown HP has no bar. */

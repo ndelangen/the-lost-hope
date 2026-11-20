@@ -1,9 +1,12 @@
-import { ChevronDown, NotebookPen } from 'lucide-react'
-import { useState } from 'react'
+import { NotebookPen, X } from 'lucide-react'
+import { useEffect, useRef } from 'react'
 
 import { ContentRenderer } from '#/components/content-renderer'
+import { FightLineUp } from '#/components/dm/fight-line-up'
 import type { SceneCombatNotes } from '#/definitions/scene'
-import { cn } from '#/lib/utils'
+import type { SceneFight } from '#/lib/dm-encounter'
+
+import { IconButton } from './icon-button'
 
 const FIELDS = [
   ['tactics', 'Tactics'],
@@ -13,48 +16,79 @@ const FIELDS = [
   ['exits', 'Ways out'],
 ] as const satisfies readonly (readonly [keyof SceneCombatNotes, string])[]
 
-/** The scene's fight prep, pinned at the top of combat focus and collapsible. */
+/** The scene's fight prep fields that have something written in them. */
+export function notedFields(notes: SceneCombatNotes | undefined) {
+  return FIELDS.filter(([field]) => notes?.[field]?.length)
+}
+
+/**
+ * The scene's fight prep in a drawer beside the fight: tactics, morale, terrain and ways out, and
+ * how to play each prepared group that has joined.
+ */
 export function EncounterNotes({
+  open,
+  onClose,
   sceneName,
   notes,
+  fights,
 }: {
+  open: boolean
+  onClose: () => void
   sceneName: string
   notes: SceneCombatNotes | undefined
+  /** The prepared groups in the fight now. */
+  fights: readonly SceneFight[]
 }) {
-  const [open, setOpen] = useState(true)
-  const present = FIELDS.filter(([field]) => notes?.[field]?.length)
-  if (!notes || present.length === 0) return null
+  const headingRef = useRef<HTMLHeadingElement>(null)
+  useEffect(() => {
+    if (open) headingRef.current?.focus()
+  }, [open])
+  if (!open) return null
+  const present = notedFields(notes)
 
   return (
-    <details
-      open={open}
-      onToggle={(event) => setOpen(event.currentTarget.open)}
-      className="border-border bg-card rounded-2xl border-2 px-4 py-2 [&_summary::-webkit-details-marker]:hidden"
+    <aside
+      aria-labelledby="encounter-notes-heading"
+      className="border-border bg-background fixed inset-y-0 right-0 z-40 flex w-[min(30rem,100vw)] flex-col border-l-2 shadow-2xl"
     >
-      <summary className="flex h-10 cursor-pointer list-none items-center gap-2 font-semibold">
-        <NotebookPen aria-hidden className="text-muted-foreground size-5" />
-        Prep notes
-        <span className="text-muted-foreground font-normal">· {sceneName}</span>
-        <ChevronDown
-          aria-hidden
-          className={cn(
-            'text-muted-foreground ml-auto size-5 transition-transform',
-            open && 'rotate-180',
-          )}
-        />
-      </summary>
-      <dl className="grid gap-x-6 gap-y-2 pb-2 sm:grid-cols-2 xl:grid-cols-3">
-        {present.map(([field, label]) => (
-          <div key={field} className="grid gap-0.5">
-            <dt className="text-muted-foreground text-xs font-semibold tracking-wide uppercase">
-              {label}
-            </dt>
-            <dd>
-              <ContentRenderer content={notes[field]!} className="text-base" />
-            </dd>
-          </div>
+      <header className="border-border flex items-center justify-between gap-3 border-b px-5 py-3">
+        <h2
+          id="encounter-notes-heading"
+          ref={headingRef}
+          tabIndex={-1}
+          className="grid outline-none"
+        >
+          <span className="flex items-center gap-2 text-xl font-bold">
+            <NotebookPen aria-hidden className="size-6" /> Prep notes
+          </span>
+          <span className="text-muted-foreground text-sm font-normal">{sceneName}</span>
+        </h2>
+        <IconButton label="Close the notes (Esc)" onClick={onClose}>
+          <X aria-hidden />
+        </IconButton>
+      </header>
+      <div className="grid content-start gap-5 overflow-y-auto px-5 py-4">
+        {present.length > 0 ? (
+          <dl className="grid gap-3">
+            {present.map(([field, label]) => (
+              <div key={field} className="grid gap-0.5">
+                <dt className="text-muted-foreground text-xs font-semibold tracking-wide uppercase">
+                  {label}
+                </dt>
+                <dd>
+                  <ContentRenderer content={notes![field]!} className="text-base" />
+                </dd>
+              </div>
+            ))}
+          </dl>
+        ) : null}
+        {fights.map((fight) => (
+          <section key={fight.key} className="grid gap-2">
+            <h3 className="font-semibold">{fight.key}</h3>
+            <FightLineUp lineUp={fight} />
+          </section>
         ))}
-      </dl>
-    </details>
+      </div>
+    </aside>
   )
 }

@@ -13,48 +13,26 @@ const key = (
   ...modifiers,
 })
 
-describe('focus shortcuts', () => {
-  it('toggles focus with F and leaves it with Escape', () => {
-    expect(focusShortcut(key('f'), { typing: false, focused: false })).toBe('toggle')
-    expect(focusShortcut(key('F'), { typing: false, focused: true })).toBe('toggle')
-    expect(focusShortcut(key('Escape'), { typing: false, focused: true })).toBe('exit')
+describe('encounter shortcuts', () => {
+  it('opens each drawer with its key', () => {
+    expect(focusShortcut(key('a'), { typing: false, open: undefined })).toBe('add')
+    expect(focusShortcut(key('A'), { typing: false, open: 'screen' })).toBe('add')
+    expect(focusShortcut(key('n'), { typing: false, open: undefined })).toBe('notes')
+    expect(focusShortcut(key('?'), { typing: false, open: undefined })).toBe('screen')
   })
 
-  it('opens the enemy sheet with A, unless a drawer is open', () => {
-    expect(focusShortcut(key('a'), { typing: false, focused: true })).toBe('add')
-    expect(focusShortcut(key('A'), { typing: false, focused: false })).toBe('add')
-    expect(focusShortcut(key('a'), { typing: true, focused: true })).toBeUndefined()
+  it('closes a drawer with its own key or Escape', () => {
+    expect(focusShortcut(key('?'), { typing: false, open: 'screen' })).toBe('close')
+    expect(focusShortcut(key('Escape'), { typing: false, open: 'add' })).toBe('close')
+    expect(focusShortcut(key('Escape'), { typing: false, open: undefined })).toBeUndefined()
+  })
+
+  it('leaves typing and browser shortcuts alone', () => {
+    expect(focusShortcut(key('a'), { typing: true, open: undefined })).toBeUndefined()
     expect(
-      focusShortcut(key('a'), { typing: false, focused: true, screenOpen: true }),
+      focusShortcut(key('a', { metaKey: true }), { typing: false, open: undefined }),
     ).toBeUndefined()
-  })
-
-  it('opens and closes the DM screen in focus', () => {
-    expect(focusShortcut(key('?'), { typing: false, focused: true })).toBe('screen')
-    expect(focusShortcut(key('?'), { typing: false, focused: true, screenOpen: true })).toBe(
-      'close-screen',
-    )
-    expect(focusShortcut(key('?'), { typing: false, focused: false })).toBeUndefined()
-  })
-
-  it('closes the DM screen before leaving focus', () => {
-    expect(focusShortcut(key('Escape'), { typing: false, focused: true, screenOpen: true })).toBe(
-      'close-screen',
-    )
-  })
-
-  it('leaves Escape alone outside focus', () => {
-    expect(focusShortcut(key('Escape'), { typing: false, focused: false })).toBeUndefined()
-  })
-
-  it('ignores keys typed into fields or pressed with modifiers', () => {
-    expect(focusShortcut(key('f'), { typing: true, focused: false })).toBeUndefined()
-    expect(
-      focusShortcut(key('f', { metaKey: true }), { typing: false, focused: false }),
-    ).toBeUndefined()
-    expect(
-      focusShortcut(key('f', { ctrlKey: true }), { typing: false, focused: false }),
-    ).toBeUndefined()
+    expect(focusShortcut(key('f'), { typing: false, open: undefined })).toBeUndefined()
   })
 })
 

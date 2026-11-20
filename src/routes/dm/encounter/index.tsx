@@ -1,38 +1,32 @@
-import { Link, createFileRoute, useNavigate } from '@tanstack/react-router'
-import { Eraser, ListOrdered, Maximize2, RotateCcw, UserPlus } from 'lucide-react'
+import { createFileRoute } from '@tanstack/react-router'
+import { UserPlus } from 'lucide-react'
 import { useEffect, useMemo, useState } from 'react'
-import { z } from 'zod'
 
-import { DmQuickLinks } from '#/components/dm/dm-quick-links'
-import { AddCombatant } from '#/components/dm/encounter/add-combatant'
 import { AddEnemiesSheet } from '#/components/dm/encounter/add-enemies-sheet'
-import { AddParty } from '#/components/dm/encounter/add-party'
 import { CombatStatus, type CombatStatusActions } from '#/components/dm/encounter/combat-status'
-import { CombatTable, type CombatantControls } from '#/components/dm/encounter/combat-table'
-import { CombatantPanel, type UseActions } from '#/components/dm/encounter/combatant-panel'
+import {
+  CombatantPanel,
+  type CombatantActions,
+  type UseActions,
+} from '#/components/dm/encounter/combatant-panel'
 import { EncounterDensity } from '#/components/dm/encounter/density'
 import { DmScreen } from '#/components/dm/encounter/dm-screen'
-import { EncounterFights } from '#/components/dm/encounter/encounter-fights'
-import { EncounterNotes } from '#/components/dm/encounter/encounter-notes'
-import { EncounterRoster, type RosterRow } from '#/components/dm/encounter/encounter-roster'
-import { FocusToolbar } from '#/components/dm/encounter/focus-toolbar'
+import { EncounterNotes, notedFields } from '#/components/dm/encounter/encounter-notes'
+import { EncounterToolbar } from '#/components/dm/encounter/encounter-toolbar'
 import { ActionButton } from '#/components/dm/encounter/icon-button'
-import { InitiativeRail } from '#/components/dm/encounter/initiative-rail'
-import { InitiativeRow } from '#/components/dm/encounter/initiative-row'
+import { InitiativeRail, type RosterRow } from '#/components/dm/encounter/initiative-rail'
 import { LegendaryRow, type LegendaryGroup } from '#/components/dm/encounter/legendary-row'
-import { PartyStrip } from '#/components/dm/encounter/party-strip'
+import { PresetPicker } from '#/components/dm/encounter/preset-picker'
 import { ConcentrationPrompt, TurnCard } from '#/components/dm/encounter/turn-card'
 import { newConditionId, useEncounter } from '#/components/dm/encounter/use-encounter-store'
-import { ShipRoomBoard } from '#/components/dm/ship-room-board'
-import { usePlayerScreen } from '#/components/player-screen/use-player-screen'
-import { resolveScene, sceneShipAboard } from '#/lib/dm-campaign'
+import { resolveScene } from '#/lib/dm-campaign'
 import {
   combatantView,
   creatureCandidate,
   currentParty,
   encounterCandidates,
   encounterDifficulty,
-  fightPreset,
+  presetScenes,
   sceneAllies,
   sceneEnemies,
   sceneFights,
@@ -42,10 +36,6 @@ import {
   LEGENDARY_POOL,
   abilityKey,
   addCondition,
-  addCreature,
-  addPc,
-  addParty,
-  addPlaceholder,
   adjustHp,
   bringIn,
   advanceTurn,
@@ -74,6 +64,7 @@ import {
   stepTurn,
   remainingUses,
   type Encounter,
+  type UseCount,
 } from '#/lib/encounter'
 import {
   concentrationDc,
@@ -82,26 +73,10 @@ import {
   startOfTurnReminders,
   type TurnNote,
 } from '#/lib/encounter-combat'
-import {
-  DEFAULT_FOCUS_LAYOUT,
-  FOCUS_LAYOUTS,
-  focusShortcut,
-  type FocusLayout,
-} from '#/lib/encounter-focus'
+import { focusShortcut, type EncounterDrawer } from '#/lib/encounter-focus'
 import { enemyLetters } from '#/lib/player-turn-order'
-import { cn } from '#/lib/utils'
-
-const Search = z.strictObject({
-  /** Combat focus: hide everything but what runs the fight. */
-  combat: z.boolean().optional().catch(undefined),
-  layout: z
-    .enum(Object.keys(FOCUS_LAYOUTS) as [FocusLayout, ...FocusLayout[]])
-    .optional()
-    .catch(undefined),
-})
 
 export const Route = createFileRoute('/dm/encounter/')({
-  validateSearch: Search,
   head: () => ({
     meta: [{ title: 'Encounter | DM' }, { name: 'robots', content: 'noindex, nofollow' }],
   }),
@@ -109,18 +84,7 @@ export const Route = createFileRoute('/dm/encounter/')({
 })
 
 function EncounterRoute() {
-  const search = Route.useSearch()
-  const navigate = useNavigate({ from: Route.fullPath })
-  const focused = search.combat === true
-  const layout = search.layout ?? DEFAULT_FOCUS_LAYOUT
-  const setFocus = (next: boolean) =>
-    void navigate({
-      search: (prev) => ({ ...prev, combat: next ? true : undefined }),
-      replace: true,
-      resetScroll: false,
-    })
   const [encounter, update] = useEncounter()
-  const [playerScreen, updatePlayerScreen] = usePlayerScreen()
   const [selected, setSelected] = useState<string>()
   const [openAbility, setOpenAbility] = useState<string>()
   const [openLegendary, setOpenLegendary] = useState<{ id: string; name: string }>()
@@ -131,9 +95,7 @@ function EncounterRoute() {
     [candidates],
   )
   const party = useMemo(currentParty, [])
-  const [expanded, setExpanded] = useState<string>()
-  const [screenOpen, setScreenOpen] = useState(false)
-  const [addOpen, setAddOpen] = useState(false)
+  const [drawer, setDrawer] = useState<EncounterDrawer>()
   // What just happened at the last turn boundary, and reminders the DM has answered.
   const [turnNotes, setTurnNotes] = useState<TurnNote[]>([])
   const [answered, setAnswered] = useState<ReadonlySet<string>>(new Set())
@@ -143,21 +105,10 @@ function EncounterRoute() {
     const onKeyDown = (event: KeyboardEvent) => {
       const target = event.target as HTMLElement | null
       const typing = Boolean(target?.closest('input, textarea, select, [contenteditable="true"]'))
-      const action = focusShortcut(event, { typing, focused, screenOpen: screenOpen || addOpen })
+      const action = focusShortcut(event, { typing, open: drawer })
       if (!action) return
       event.preventDefault()
-      if (action === 'add') {
-        setScreenOpen(false)
-        setAddOpen(true)
-      } else if (action === 'screen') setScreenOpen(true)
-      else if (action === 'close-screen') {
-        setScreenOpen(false)
-        setAddOpen(false)
-      } else {
-        setScreenOpen(false)
-        setAddOpen(false)
-        setFocus(action === 'toggle' ? !focused : false)
-      }
+      setDrawer(action === 'close' ? undefined : action)
     }
     window.addEventListener('keydown', onKeyDown)
     return () => window.removeEventListener('keydown', onKeyDown)
@@ -172,27 +123,14 @@ function EncounterRoute() {
   const running = isRunning(encounter)
   const scene = encounter.scene ? resolveScene(encounter.scene) : undefined
   const title = scene?.name ?? 'Encounter'
-  const ship = scene ? sceneShipAboard(scene) : undefined
-
   const sceneRef = encounter.scene
-  const fights =
+  const joinedFights =
     scene && sceneRef
-      ? sceneFights(scene).map((fight) => ({
-          ...fight,
-          joined: encounter.joined[fightKey(sceneRef, fight.key)] ?? 0,
-        }))
+      ? sceneFights(scene).filter((fight) => encounter.joined[fightKey(sceneRef, fight.key)])
       : []
-  const fightsPanel =
-    scene && sceneRef && fights.length > 0 ? (
-      <EncounterFights
-        sceneName={scene.name}
-        fights={fights}
-        running={running}
-        onLoad={(fight, mode) =>
-          updateEncounter((current) => loadPreset(current, fightPreset(sceneRef, fight), mode))
-        }
-      />
-    ) : null
+  const hasNotes = Boolean(
+    scene && (notedFields(scene.combat).length > 0 || joinedFights.length > 0),
+  )
 
   const combatants = encounter.roster.map((entry) => combatantView(entry, encounter.roster))
   const allies = scene ? sceneAllies(scene) : undefined
@@ -220,14 +158,10 @@ function EncounterRoute() {
   const nameOf = (rowId: string) => rows.find((row) => row.id === rowId)?.name ?? 'someone'
   const isOut = (rowId: string) => rows.find((row) => row.id === rowId)?.out ?? false
   const difficulty = encounterDifficulty(encounter.roster, isOut, allies)
-  const openAddEnemies = () => {
-    setScreenOpen(false)
-    setAddOpen(true)
-  }
   const addEnemiesSheet = (
     <AddEnemiesSheet
-      open={addOpen}
-      onClose={() => setAddOpen(false)}
+      open={drawer === 'add'}
+      onClose={() => setDrawer(undefined)}
       sceneName={scene?.name}
       sceneEnemies={scene ? sceneEnemies(scene).map(creatureCandidate) : []}
       candidates={enemyCandidates}
@@ -237,6 +171,19 @@ function EncounterRoute() {
       party={party.filter(
         (member) => !encounter.roster.some((entry) => entry.id === `pc:${member.source.key}`),
       )}
+      presets={
+        <PresetPicker
+          scenes={presetScenes(encounter.scene)}
+          running={running}
+          joinedOf={({ preset }) =>
+            preset.fight ? (encounter.joined[fightKey(preset.scene, preset.fight)] ?? 0) : 0
+          }
+          onLoad={({ preset }, mode) => {
+            updateEncounter((current) => loadPreset(current, preset, mode))
+            setDrawer(undefined)
+          }}
+        />
+      }
       onAdd={(picks, pcs, arrival) =>
         updateEncounter((current) =>
           bringIn(
@@ -281,7 +228,9 @@ function EncounterRoute() {
     setOpenAbility(undefined)
   }
 
-  const controlsFor = (row: RosterRow): CombatantControls => ({
+  const controlsFor = (
+    row: RosterRow,
+  ): { counts: Record<string, UseCount | undefined>; actions: CombatantActions } => ({
     counts: Object.fromEntries(
       (row.stats?.abilities ?? []).map((ability) => {
         const key = abilityKey(ability.timing, ability.name)
@@ -356,7 +305,6 @@ function EncounterRoute() {
     setAnswered(new Set())
     setSelected(undefined)
     setOpenAbility(undefined)
-    setExpanded(undefined)
   }
 
   const legendaryRow = (
@@ -462,198 +410,73 @@ function EncounterRoute() {
       />
     ) : null
 
-  if (focused) {
-    return (
-      <EncounterDensity value="focus">
-        <div className="grid gap-3">
-          <h1 className="sr-only">{title}, combat focus</h1>
-          <FocusToolbar
-            name={title}
-            round={encounter.round}
-            activeName={activeRow?.name}
-            canStepBack={canStepBack(encounter)}
-            canStep={rows.length > 0}
-            layout={layout}
-            onStep={step}
-            onLayout={(next) =>
-              void navigate({
-                search: (prev) => ({ ...prev, layout: next }),
-                replace: true,
-                resetScroll: false,
-              })
-            }
-            onExit={() => setFocus(false)}
-            screenOpen={screenOpen}
-            onToggleScreen={() => {
-              setAddOpen(false)
-              setScreenOpen((open) => !open)
-            }}
-            onAddEnemies={openAddEnemies}
-            turnOrderShown={playerScreen.turnOrder}
-            onToggleTurnOrder={() =>
-              updatePlayerScreen((current) => ({ ...current, turnOrder: !current.turnOrder }))
-            }
-          />
-          <DmScreen open={screenOpen} onClose={() => setScreenOpen(false)} />
-          {addEnemiesSheet}
-          {scene ? <EncounterNotes sceneName={scene.name} notes={scene.combat} /> : null}
-          {fightsPanel}
-          {encounter.scene && ship ? (
-            <ShipRoomBoard sceneKey={encounter.scene.key} ship={ship} />
-          ) : null}
-          <PartyStrip
-            party={rows.filter((row) => row.kind === 'PC')}
-            active={encounter.active}
-            onInspect={inspect}
-          />
-          {concentrationPrompt}
-          {turnCard}
-          {legendaryRow}
-          {layout === 'turn' ? (
-            <div className="grid items-start gap-3 md:grid-cols-[15rem_minmax(0,1fr)] xl:grid-cols-[18rem_minmax(0,1fr)]">
-              <InitiativeRail
-                rows={rows}
-                active={encounter.active}
-                selected={focusId}
-                onInspect={inspect}
-              />
-              {focus ? panelFor(focus) : null}
-            </div>
-          ) : (
-            <CombatTable
-              rows={rows}
-              active={encounter.active}
-              expanded={expanded}
-              openAbility={openAbility}
-              controlsFor={controlsFor}
-              onExpand={(rowId, ability) => {
-                setExpanded(rowId)
-                setOpenAbility(ability)
-              }}
-            />
-          )}
-        </div>
-      </EncounterDensity>
-    )
-  }
-
   return (
-    <div className="grid gap-6 xl:grid-cols-[minmax(0,1fr)_12rem]">
-      <div className="grid min-w-0 grid-cols-1 content-start gap-3">
-        <header className="grid gap-1">
-          {scene ? (
-            <p className="text-muted-foreground text-xs">
-              From{' '}
-              <Link to="/dm/scenes/$slug" params={{ slug: scene.slug }} className="hover:underline">
-                {scene.name}
-              </Link>
-            </p>
-          ) : null}
-          <div className="flex flex-wrap items-center justify-between gap-2">
-            <h1 className="text-3xl font-bold">{title}</h1>
-            <div className="flex flex-wrap gap-3">
-              <ActionButton
-                disabled={!running}
-                onClick={() => {
-                  if (window.confirm('End this fight and clear everyone from it?'))
-                    updateEncounter(emptyEncounter)
-                }}
-              >
-                <Eraser aria-hidden /> Clear the fight
-              </ActionButton>
-              <ActionButton
-                onClick={() => {
-                  if (window.confirm('Restore every combatant to full HP and uses?'))
-                    updateEncounter(resetEncounter)
-                }}
-              >
-                <RotateCcw aria-hidden /> Reset HP and uses
-              </ActionButton>
-              <ActionButton
-                aria-pressed={playerScreen.turnOrder}
-                onClick={() =>
-                  updatePlayerScreen((current) => ({ ...current, turnOrder: !current.turnOrder }))
-                }
-                className={cn(playerScreen.turnOrder && 'border-amber-500 bg-amber-500/15')}
-              >
-                <ListOrdered aria-hidden /> Turn order on player screen
-              </ActionButton>
-              <ActionButton onClick={openAddEnemies} title="Add to the fight (A)">
-                <UserPlus aria-hidden /> Add to fight
-              </ActionButton>
-              <ActionButton tone="primary" onClick={() => setFocus(true)} title="Combat focus (F)">
-                <Maximize2 aria-hidden /> Focus
-              </ActionButton>
-            </div>
-          </div>
-        </header>
-
-        {addEnemiesSheet}
-        {fightsPanel}
-
-        <InitiativeRow
-          combatants={combatants}
-          active={encounter.active}
-          selected={focusId}
+    <EncounterDensity value="focus">
+      <div className="grid gap-3">
+        <h1 className="sr-only">{title}, encounter</h1>
+        <EncounterToolbar
+          name={title}
+          sceneSlug={scene?.slug}
           round={encounter.round}
+          activeName={activeRow?.name}
+          running={running}
           canStepBack={canStepBack(encounter)}
-          onInspect={inspect}
-          onMove={(id, toIndex) =>
-            updateEncounter((current) => moveCombatant(current, id, toIndex))
-          }
           onStep={step}
+          onAdd={() => setDrawer('add')}
+          notesOpen={hasNotes ? drawer === 'notes' : undefined}
+          onToggleNotes={() => setDrawer(drawer === 'notes' ? undefined : 'notes')}
+          screenOpen={drawer === 'screen'}
+          onToggleScreen={() => setDrawer(drawer === 'screen' ? undefined : 'screen')}
+          onReset={() => {
+            if (window.confirm('Restore every combatant to full HP and uses?'))
+              updateEncounter(resetEncounter)
+          }}
+          onClear={() => {
+            if (window.confirm('End this fight and clear everyone from it?'))
+              updateEncounter(emptyEncounter)
+          }}
         />
-
-        {concentrationPrompt}
-        {turnCard}
-        {legendaryRow}
-
-        <div className="grid gap-3 lg:grid-cols-[minmax(16rem,22rem)_minmax(0,1fr)]">
-          <div className="grid content-start gap-3">
-            <EncounterRoster
+        <DmScreen open={drawer === 'screen'} onClose={() => setDrawer(undefined)} />
+        {scene ? (
+          <EncounterNotes
+            open={drawer === 'notes'}
+            onClose={() => setDrawer(undefined)}
+            sceneName={scene.name}
+            notes={scene.combat}
+            fights={joinedFights}
+          />
+        ) : null}
+        {addEnemiesSheet}
+        {running ? (
+          <div className="grid items-start gap-3 md:grid-cols-[17rem_minmax(0,1fr)] xl:grid-cols-[20rem_minmax(0,1fr)]">
+            <InitiativeRail
               rows={rows}
               active={encounter.active}
               selected={focusId}
               onInspect={inspect}
-              onRemove={(id) => updateEncounter((current) => removeCombatant(current, id))}
-            />
-            <AddParty
-              party={party}
-              inRoster={
-                new Set(
-                  encounter.roster.flatMap((entry) =>
-                    entry.kind === 'pc' ? [entry.source.key] : [],
-                  ),
-                )
-              }
-              onAdd={(pcs) => updateEncounter((current) => addParty(current, pcs))}
-            />
-            <AddCombatant
-              candidates={candidates}
-              onAdd={({ source }) =>
-                updateEncounter((current) =>
-                  source.ref === 'pc'
-                    ? addPc(current, { ref: 'pc', key: source.key })
-                    : addCreature(current, source),
-                )
-              }
-              onAddPlaceholder={(label) =>
-                updateEncounter((current) => addPlaceholder(current, label))
+              onMove={(id, toIndex) =>
+                updateEncounter((current) => moveCombatant(current, id, toIndex))
               }
             />
+            <div className="grid min-w-0 content-start gap-3">
+              {concentrationPrompt}
+              {turnCard}
+              {legendaryRow}
+              {focus ? panelFor(focus) : null}
+            </div>
           </div>
-          {focus ? (
-            panelFor(focus)
-          ) : (
-            <p className="text-muted-foreground border-border rounded-xl border border-dashed p-6 text-sm">
-              Add the party and combatants to start the encounter.
+        ) : (
+          <div className="border-border grid justify-items-center gap-4 rounded-2xl border-2 border-dashed p-12 text-center">
+            <p className="text-xl font-semibold">Nobody is in the fight yet.</p>
+            <p className="text-muted-foreground max-w-md">
+              Load a prepared group from a scene, or pick the party and enemies yourself.
             </p>
-          )}
-        </div>
+            <ActionButton size="lg" tone="primary" onClick={() => setDrawer('add')}>
+              <UserPlus aria-hidden /> Add to the fight
+            </ActionButton>
+          </div>
+        )}
       </div>
-      <aside className="min-w-0">
-        <DmQuickLinks stackAt="xl" />
-      </aside>
-    </div>
+    </EncounterDensity>
   )
 }

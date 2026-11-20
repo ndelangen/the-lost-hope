@@ -256275,10 +256275,7 @@
       "classification": "questionable",
       "classificationReason": "Manually classified as questionable from the /_icons review page.",
       "sourceUrl": "https://lucide.dev/icons/arrow-left",
-      "usedIn": [
-        "src/components/dm/encounter/focus-toolbar.tsx",
-        "src/components/dm/encounter/initiative-row.tsx"
-      ]
+      "usedIn": []
     },
     {
       "id": "lucide/ArrowLeftFromLine",
@@ -256452,8 +256449,7 @@
       "classificationReason": "Manually classified as questionable from the /_icons review page.",
       "sourceUrl": "https://lucide.dev/icons/arrow-right",
       "usedIn": [
-        "src/components/dm/encounter/focus-toolbar.tsx",
-        "src/components/dm/encounter/initiative-row.tsx"
+        "src/components/dm/encounter/encounter-toolbar.tsx"
       ]
     },
     {
@@ -261628,7 +261624,7 @@
       "sourceUrl": "https://lucide.dev/icons/book-open",
       "usedIn": [
         "src/components/dm/encounter/dm-screen.tsx",
-        "src/components/dm/encounter/focus-toolbar.tsx",
+        "src/components/dm/encounter/encounter-toolbar.tsx",
         "src/components/home-action-card.test.tsx",
         "src/routes/index.tsx"
       ]
@@ -267156,10 +267152,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/chevron-down",
       "usedIn": [
-        "src/components/campaign-shell/sidebar.tsx",
-        "src/components/dm/encounter/combat-table.tsx",
-        "src/components/dm/encounter/encounter-fights.tsx",
-        "src/components/dm/encounter/encounter-notes.tsx"
+        "src/components/campaign-shell/sidebar.tsx"
       ]
     },
     {
@@ -277217,7 +277210,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/ellipsis",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/encounter/encounter-toolbar.tsx"
+      ]
     },
     {
       "id": "lucide/EllipsisVertical",
@@ -277421,7 +277416,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/eraser",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/encounter/encounter-toolbar.tsx"
+      ]
     },
     {
       "id": "lucide/EthernetPort",
@@ -277628,7 +277625,6 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/eye",
       "usedIn": [
-        "src/components/dm/encounter/party-strip.tsx",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -286151,7 +286147,6 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/heart",
       "usedIn": [
-        "src/components/dm/encounter/party-strip.tsx",
         "src/lib/condition-icons.tsx"
       ]
     },
@@ -286859,6 +286854,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/house",
       "usedIn": [
+        "src/components/dm/encounter/encounter-toolbar.tsx",
         "src/lib/location-icons.tsx"
       ]
     },
@@ -290787,7 +290783,6 @@
         "src/lib/ability-icons.tsx",
         "src/lib/condition-icons.tsx",
         "src/routes/dm/arcs/index.tsx",
-        "src/routes/dm/encounter/index.tsx",
         "src/routes/dm/scenes/$slug.tsx",
         "src/routes/index.tsx"
       ]
@@ -291508,10 +291503,7 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/list-ordered",
-      "usedIn": [
-        "src/components/dm/encounter/focus-toolbar.tsx",
-        "src/routes/dm/encounter/index.tsx"
-      ]
+      "usedIn": []
     },
     {
       "id": "lucide/ListPlus",
@@ -293958,8 +293950,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/maximize-2",
       "usedIn": [
-        "src/components/player-screen/player-screen-dock.tsx",
-        "src/routes/dm/encounter/index.tsx"
+        "src/components/player-screen/player-screen-dock.tsx"
       ]
     },
     {
@@ -296153,9 +296144,7 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/minimize-2",
-      "usedIn": [
-        "src/components/dm/encounter/focus-toolbar.tsx"
-      ]
+      "usedIn": []
     },
     {
       "id": "lucide/Minus",
@@ -298305,7 +298294,8 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/notebook-pen",
       "usedIn": [
-        "src/components/dm/encounter/encounter-notes.tsx"
+        "src/components/dm/encounter/encounter-notes.tsx",
+        "src/components/dm/encounter/encounter-toolbar.tsx"
       ]
     },
     {
@@ -300397,7 +300387,6 @@
       "usedIn": [
         "src/components/dm/encounter/add-enemies-sheet.tsx",
         "src/components/dm/encounter/initiative-rail.tsx",
-        "src/components/dm/encounter/initiative-row.tsx",
         "src/components/dm/encounter/stat-block-sections.tsx"
       ]
     },
@@ -302016,11 +302005,11 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/plus",
       "usedIn": [
-        "src/components/dm/encounter/add-combatant.tsx",
         "src/components/dm/encounter/add-enemies-sheet.tsx",
         "src/components/dm/encounter/combat-status.tsx",
         "src/components/dm/encounter/hp-control.tsx",
         "src/components/dm/encounter/preset-buttons.tsx",
+        "src/components/dm/encounter/preset-picker.tsx",
         "src/components/dm/party-tokens.tsx"
       ]
     },
@@ -303704,7 +303693,8 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/replace",
       "usedIn": [
-        "src/components/dm/encounter/preset-buttons.tsx"
+        "src/components/dm/encounter/preset-buttons.tsx",
+        "src/components/dm/encounter/preset-picker.tsx"
       ]
     },
     {
@@ -304100,12 +304090,12 @@
         "src/components/dm/dm-effects-panel.tsx",
         "src/components/dm/encounter/ability-controls.tsx",
         "src/components/dm/encounter/combatant-panel.tsx",
+        "src/components/dm/encounter/encounter-toolbar.tsx",
         "src/components/dm/group-save-tracker.tsx",
         "src/components/dm/npc-portrait-status.tsx",
         "src/components/dm/scene-script.tsx",
         "src/components/player-screen/grid-controls.tsx",
-        "src/components/player-screen/player-screen-dock.tsx",
-        "src/routes/dm/encounter/index.tsx"
+        "src/components/player-screen/player-screen-dock.tsx"
       ]
     },
     {
@@ -306822,9 +306812,8 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/shield",
       "usedIn": [
-        "src/components/dm/encounter/combat-table.tsx",
         "src/components/dm/encounter/combatant-panel.tsx",
-        "src/components/dm/encounter/party-strip.tsx",
+        "src/components/dm/encounter/initiative-rail.tsx",
         "src/components/dm/encounter/stat-block-sections.tsx",
         "src/lib/ability-icons.tsx"
       ]
@@ -309205,7 +309194,6 @@
         "src/components/dm/ability-quick-list.tsx",
         "src/components/dm/dm-foretold-panel.tsx",
         "src/components/dm/encounter/ability-controls.tsx",
-        "src/components/dm/encounter/party-strip.tsx",
         "src/components/dm/npc-draft-editor.tsx",
         "src/components/dm/stat-block-sheet.tsx",
         "src/components/foretold-list.tsx",
@@ -317143,8 +317131,8 @@
       "usedIn": [
         "src/components/dm/dm-hidden-reference.tsx",
         "src/components/dm/dm-quick-links.tsx",
-        "src/components/dm/encounter/encounter-fights.tsx",
         "src/components/dm/encounter/preset-buttons.tsx",
+        "src/components/dm/encounter/preset-picker.tsx",
         "src/components/dm/encounter/stat-block-sections.tsx",
         "src/components/dm/scene-script.tsx"
       ]
@@ -321380,10 +321368,8 @@
       "sourceUrl": "https://lucide.dev/icons/user-plus",
       "usedIn": [
         "src/components/dm/dm-quick-links.tsx",
-        "src/components/dm/encounter/add-combatant.tsx",
         "src/components/dm/encounter/add-enemies-sheet.tsx",
-        "src/components/dm/encounter/focus-toolbar.tsx",
-        "src/routes/dm/encounter/index.tsx"
+        "src/components/dm/encounter/encounter-toolbar.tsx"
       ]
     },
     {
@@ -321430,7 +321416,6 @@
       "usedIn": [
         "src/components/dm/encounter/add-enemies-sheet.tsx",
         "src/components/dm/encounter/initiative-rail.tsx",
-        "src/components/dm/encounter/initiative-row.tsx",
         "src/components/player-screen/turn-order-on-screen.tsx"
       ]
     },
@@ -322339,7 +322324,6 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/users-round",
       "usedIn": [
-        "src/components/dm/encounter/add-party.tsx",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -324644,7 +324628,7 @@
         "src/components/dm/encounter/combat-status.tsx",
         "src/components/dm/encounter/condition-markers.tsx",
         "src/components/dm/encounter/dm-screen.tsx",
-        "src/components/dm/encounter/encounter-roster.tsx",
+        "src/components/dm/encounter/encounter-notes.tsx",
         "src/components/dm/encounter/preset-buttons.tsx",
         "src/components/dm/encounter/turn-card.tsx",
         "src/components/image-viewer.tsx",

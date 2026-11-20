@@ -6,7 +6,7 @@ import type { FightPlace, Scene, SceneBeatFight, SceneOpponent } from '#/definit
 import type { OwnOrSharedStatBlock, StatBlock } from '#/definitions/stat-block'
 import { effectsOn, type EntityOf } from '#/lib/campaign'
 import { PLAYER_VISIBLE_KEYS, SOURCE_REGISTRIES } from '#/lib/campaign-registries'
-import { resolveStatBlock } from '#/lib/dm-campaign'
+import { resolveScene, resolveStatBlock, table } from '#/lib/dm-campaign'
 import { partyBudget, xpForCr, type DifficultyBudget } from '#/lib/encounter-difficulty'
 import type { TurnOrderInput } from '#/lib/player-turn-order'
 import { deriveStatBlock, type DerivedStats } from '#/lib/stat-block'
@@ -325,5 +325,66 @@ export function turnOrderInputs(
       maxHp: live.maxHp,
       out: Boolean(saved?.dead) || (entry.kind === 'creature' && live.hp === 0),
     }
+  })
+}
+
+/** One prepared group the encounter can load, named and summed up for a short list. */
+export type PresetOption = {
+  key: string
+  title: string
+  /** Who comes with it, e.g. "2 × Hand Breaker, 2 × Cloaked Snatcher". */
+  summary: string
+  onlyIf: DmContent | undefined
+  preset: Preset
+}
+
+/** A scene and the prepared groups it brings, for picking one to load into the encounter. */
+export type PresetScene = { ref: EntityRef<'scene'>; name: string; presets: PresetOption[] }
+
+function summarize(groups: readonly FightGroup[]) {
+  return groups.map(({ name, count }) => `${count} × ${name}`).join(', ')
+}
+
+/** A scene's prepared groups: its starting enemies first, then each fight in script order. */
+export function scenePresets(sceneRef: EntityRef<'scene'>, scene: Scene): PresetOption[] {
+  const start = startPreset(sceneRef, scene)
+  return [
+    ...(start
+      ? [
+          {
+            key: 'start',
+            title: 'Starting enemies',
+            summary: summarize(fightGroups(scene.opponents)),
+            onlyIf: undefined,
+            preset: start,
+          },
+        ]
+      : []),
+    ...sceneFights(scene).map((fight) => ({
+      key: `fight:${fight.key}`,
+      title: fight.key,
+      summary: summarize([...fight.opponents, ...fight.allies]),
+      onlyIf: fight.onlyIf,
+      preset: fightPreset(sceneRef, fight),
+    })),
+  ]
+}
+
+/**
+ * The scenes to pick prepared groups from: the fight's own scene, then the scenes the party is
+ * likely to reach and the pinned ones, each once and only when it brings a group.
+ */
+export function presetScenes(current: EntityRef<'scene'> | undefined): PresetScene[] {
+  const refs = [...(current ? [current] : []), ...table.likely, ...table.pinned]
+  const seen = new Set<string>()
+  return refs.flatMap((ref) => {
+    if (seen.has(ref.key)) return []
+    seen.add(ref.key)
+    const scene = resolveScene(ref)
+    if (!scene) return []
+    const presets = scenePresets({ ref: 'scene', key: ref.key }, scene)
+    return presets.length > 0
+      ? [{ ref: { ref: 'scene' as const, key: ref.key }, name: scene.name, presets }]
+      : []
   })
 }

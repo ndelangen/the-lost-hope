@@ -1,5 +1,5 @@
 import { Check, Minus, PawPrint, Plus, UserPlus, UserRound, X } from 'lucide-react'
-import { useEffect, useId, useRef, useState } from 'react'
+import { useEffect, useId, useRef, useState, type ReactNode } from 'react'
 
 import { Avatar } from '#/components/ui/avatar'
 import { Input } from '#/components/ui/input'
@@ -21,9 +21,12 @@ export type EnemyPick = { source: CreatureRef; count: number }
 
 const idOf = ({ ref, key }: CreatureRef) => `${ref}:${key}`
 
+type Tab = 'groups' | 'pick'
+
 /**
- * Add to a running fight in one go: party members not in it yet, how many of each of the scene's
- * enemies, or anyone found by search, when they act, and how hard the fight becomes for the party.
+ * Everything that joins a fight, in one drawer: a prepared group of a scene, or a pick of party
+ * members not in it yet, how many of each of the scene's enemies, or anyone found by search, when
+ * they act, and how hard the fight becomes for the party.
  */
 export function AddEnemiesSheet({
   open,
@@ -35,6 +38,7 @@ export function AddEnemiesSheet({
   standingXp,
   activeName,
   party,
+  presets,
   onAdd,
 }: {
   open: boolean
@@ -49,8 +53,11 @@ export function AddEnemiesSheet({
   activeName: string | undefined
   /** Party members who are not in the fight yet. */
   party: readonly PartyMember[]
+  /** The prepared groups to load, shown on a tab of their own. */
+  presets?: ReactNode
   onAdd: (picks: EnemyPick[], pcs: EntityRef<'pc'>[], arrival: Arrival) => void
 }) {
+  const [tab, setTab] = useState<Tab>('groups')
   const headingRef = useRef<HTMLHeadingElement>(null)
   const inputId = useId()
   const [counts, setCounts] = useState<ReadonlyMap<string, number>>(new Map())
@@ -66,6 +73,7 @@ export function AddEnemiesSheet({
     setExtra([])
     setQuery('')
     setPcs(new Set())
+    setTab('groups')
   }, [open])
 
   if (!open) return null
@@ -122,177 +130,215 @@ export function AddEnemiesSheet({
         </IconButton>
       </header>
 
-      <div className="grid content-start gap-5 overflow-y-auto px-5 py-4">
-        {party.length > 0 ? (
-          <section aria-labelledby={`${inputId}-party`} className="grid gap-2">
-            <div className="flex items-baseline justify-between gap-2">
-              <h3 id={`${inputId}-party`} className="text-muted-foreground text-sm font-semibold">
-                The party
-              </h3>
-              <button
-                type="button"
-                className="text-sm font-medium hover:underline"
-                onClick={() =>
-                  setPcs(
-                    pickedPcs.length === party.length
-                      ? new Set()
-                      : new Set(party.map((member) => member.source.key)),
-                  )
-                }
-              >
-                {pickedPcs.length === party.length ? 'None' : 'Everyone'}
-              </button>
-            </div>
-            <ul className="grid grid-cols-2 gap-2">
-              {party.map((member) => {
-                const picked = pcs.has(member.source.key)
-                return (
-                  <li key={member.source.key}>
-                    <button
-                      type="button"
-                      aria-pressed={picked}
-                      onClick={() => togglePc(member.source.key)}
-                      className={cn(
-                        'flex min-h-14 w-full items-center gap-3 rounded-xl border-2 px-3 text-left',
-                        picked
-                          ? 'border-amber-500/60 bg-amber-500/10'
-                          : 'border-border hover:bg-muted',
-                      )}
-                    >
-                      {member.avatar ? (
-                        <Avatar src={member.avatar} sizes="36px" maxWidth={64} className="size-9" />
-                      ) : (
-                        <span className="bg-muted text-muted-foreground flex size-9 shrink-0 items-center justify-center rounded-full">
-                          <UserRound aria-hidden className="size-5" />
-                        </span>
-                      )}
-                      <span className="grow font-semibold">{member.name}</span>
-                      {picked ? <Check aria-hidden className="size-5 shrink-0" /> : null}
-                    </button>
-                  </li>
-                )
-              })}
-            </ul>
-          </section>
-        ) : null}
+      {presets ? (
+        <div className="border-border bg-muted/40 mx-5 mt-4 grid grid-cols-2 gap-1 rounded-xl border-2 p-1">
+          {(
+            [
+              ['groups', 'Prepared groups'],
+              ['pick', 'Pick who joins'],
+            ] as const
+          ).map(([value, label]) => (
+            <button
+              key={value}
+              type="button"
+              aria-pressed={tab === value}
+              onClick={() => setTab(value)}
+              className={cn(
+                'min-h-11 rounded-lg px-3 text-sm font-medium',
+                tab === value ? 'bg-background font-semibold shadow-sm' : 'hover:bg-background/60',
+              )}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+      ) : null}
 
-        <DifficultyMeter budget={budget} standingXp={standingXp} addedXp={addedXp} />
-
-        <section aria-labelledby={`${inputId}-scene`} className="grid gap-2">
-          <h3 id={`${inputId}-scene`} className="text-muted-foreground text-sm font-semibold">
-            {sceneName ? `In ${sceneName}` : 'Picked'}
-          </h3>
-          {listed.length === 0 ? (
-            <p className="text-muted-foreground text-sm">Search below for anyone to add.</p>
-          ) : (
-            <ul className="grid gap-2">
-              {listed.map((option) => (
-                <EnemyRow
-                  key={idOf(option.source)}
-                  option={option}
-                  count={counts.get(idOf(option.source)) ?? 0}
-                  onCount={(count) => setCount(option, count)}
-                />
-              ))}
-            </ul>
-          )}
-        </section>
-
-        <section className="grid gap-2">
-          <label htmlFor={inputId} className="text-muted-foreground text-sm font-semibold">
-            Anyone else
-          </label>
-          <Input
-            id={inputId}
-            type="search"
-            placeholder="Search NPCs and beasts…"
-            value={query}
-            className="h-12 text-base"
-            onChange={(event) => setQuery(event.currentTarget.value)}
-            onKeyDown={(event) => {
-              if (event.key !== 'Enter' || !matches[0]) return
-              event.preventDefault()
-              pick(matches[0])
-            }}
-          />
-          {matches.length > 0 ? (
-            <ul className="grid max-h-64 gap-1 overflow-y-auto">
-              {matches.slice(0, 30).map((option) => (
-                <li key={idOf(option.source)}>
+      {presets && tab === 'groups' ? (
+        <div className="grid content-start gap-5 overflow-y-auto px-5 py-4">{presets}</div>
+      ) : (
+        <>
+          <div className="grid content-start gap-5 overflow-y-auto px-5 py-4">
+            {party.length > 0 ? (
+              <section aria-labelledby={`${inputId}-party`} className="grid gap-2">
+                <div className="flex items-baseline justify-between gap-2">
+                  <h3
+                    id={`${inputId}-party`}
+                    className="text-muted-foreground text-sm font-semibold"
+                  >
+                    The party
+                  </h3>
                   <button
                     type="button"
-                    onClick={() => pick(option)}
-                    className="hover:bg-muted flex min-h-12 w-full items-center gap-3 rounded-xl px-3 text-left"
+                    className="text-sm font-medium hover:underline"
+                    onClick={() =>
+                      setPcs(
+                        pickedPcs.length === party.length
+                          ? new Set()
+                          : new Set(party.map((member) => member.source.key)),
+                      )
+                    }
                   >
-                    <Plus aria-hidden className="text-muted-foreground size-5 shrink-0" />
-                    <span className="grow font-medium">{option.name}</span>
-                    <span className="text-muted-foreground text-sm">
-                      {option.kind}
-                      {option.cr ? ` · CR ${option.cr}` : ''}
-                    </span>
+                    {pickedPcs.length === party.length ? 'None' : 'Everyone'}
                   </button>
-                </li>
-              ))}
-            </ul>
-          ) : needle ? (
-            <p className="text-muted-foreground text-sm">No NPC or beast by that name.</p>
-          ) : null}
-        </section>
+                </div>
+                <ul className="grid grid-cols-2 gap-2">
+                  {party.map((member) => {
+                    const picked = pcs.has(member.source.key)
+                    return (
+                      <li key={member.source.key}>
+                        <button
+                          type="button"
+                          aria-pressed={picked}
+                          onClick={() => togglePc(member.source.key)}
+                          className={cn(
+                            'flex min-h-14 w-full items-center gap-3 rounded-xl border-2 px-3 text-left',
+                            picked
+                              ? 'border-amber-500/60 bg-amber-500/10'
+                              : 'border-border hover:bg-muted',
+                          )}
+                        >
+                          {member.avatar ? (
+                            <Avatar
+                              src={member.avatar}
+                              sizes="36px"
+                              maxWidth={64}
+                              className="size-9"
+                            />
+                          ) : (
+                            <span className="bg-muted text-muted-foreground flex size-9 shrink-0 items-center justify-center rounded-full">
+                              <UserRound aria-hidden className="size-5" />
+                            </span>
+                          )}
+                          <span className="grow font-semibold">{member.name}</span>
+                          {picked ? <Check aria-hidden className="size-5 shrink-0" /> : null}
+                        </button>
+                      </li>
+                    )
+                  })}
+                </ul>
+              </section>
+            ) : null}
 
-        <fieldset className="grid gap-2">
-          <legend className="text-muted-foreground mb-2 text-sm font-semibold">
-            When do they act?
-          </legend>
-          <div className="border-border bg-muted/40 grid grid-cols-2 gap-1 rounded-xl border-2 p-1">
-            {(
-              [
-                ['next', activeName ? `Right after ${activeName}` : 'Right after this turn'],
-                ['end', 'At the end of the round'],
-              ] as const
-            ).map(([value, label]) => (
-              <button
-                key={value}
-                type="button"
-                aria-pressed={arrival === value}
-                disabled={value === 'next' && !activeName}
-                onClick={() => setArrival(value)}
-                className={cn(
-                  'min-h-12 rounded-lg px-3 text-sm font-medium disabled:opacity-35',
-                  arrival === value
-                    ? 'bg-background font-semibold shadow-sm'
-                    : 'hover:bg-background/60',
-                )}
-              >
-                {label}
-              </button>
-            ))}
+            <DifficultyMeter budget={budget} standingXp={standingXp} addedXp={addedXp} />
+
+            <section aria-labelledby={`${inputId}-scene`} className="grid gap-2">
+              <h3 id={`${inputId}-scene`} className="text-muted-foreground text-sm font-semibold">
+                {sceneName ? `In ${sceneName}` : 'Picked'}
+              </h3>
+              {listed.length === 0 ? (
+                <p className="text-muted-foreground text-sm">Search below for anyone to add.</p>
+              ) : (
+                <ul className="grid gap-2">
+                  {listed.map((option) => (
+                    <EnemyRow
+                      key={idOf(option.source)}
+                      option={option}
+                      count={counts.get(idOf(option.source)) ?? 0}
+                      onCount={(count) => setCount(option, count)}
+                    />
+                  ))}
+                </ul>
+              )}
+            </section>
+
+            <section className="grid gap-2">
+              <label htmlFor={inputId} className="text-muted-foreground text-sm font-semibold">
+                Anyone else
+              </label>
+              <Input
+                id={inputId}
+                type="search"
+                placeholder="Search NPCs and beasts…"
+                value={query}
+                className="h-12 text-base"
+                onChange={(event) => setQuery(event.currentTarget.value)}
+                onKeyDown={(event) => {
+                  if (event.key !== 'Enter' || !matches[0]) return
+                  event.preventDefault()
+                  pick(matches[0])
+                }}
+              />
+              {matches.length > 0 ? (
+                <ul className="grid max-h-64 gap-1 overflow-y-auto">
+                  {matches.slice(0, 30).map((option) => (
+                    <li key={idOf(option.source)}>
+                      <button
+                        type="button"
+                        onClick={() => pick(option)}
+                        className="hover:bg-muted flex min-h-12 w-full items-center gap-3 rounded-xl px-3 text-left"
+                      >
+                        <Plus aria-hidden className="text-muted-foreground size-5 shrink-0" />
+                        <span className="grow font-medium">{option.name}</span>
+                        <span className="text-muted-foreground text-sm">
+                          {option.kind}
+                          {option.cr ? ` · CR ${option.cr}` : ''}
+                        </span>
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              ) : needle ? (
+                <p className="text-muted-foreground text-sm">No NPC or beast by that name.</p>
+              ) : null}
+            </section>
+
+            <fieldset className="grid gap-2">
+              <legend className="text-muted-foreground mb-2 text-sm font-semibold">
+                When do they act?
+              </legend>
+              <div className="border-border bg-muted/40 grid grid-cols-2 gap-1 rounded-xl border-2 p-1">
+                {(
+                  [
+                    ['next', activeName ? `Right after ${activeName}` : 'Right after this turn'],
+                    ['end', 'At the end of the round'],
+                  ] as const
+                ).map(([value, label]) => (
+                  <button
+                    key={value}
+                    type="button"
+                    aria-pressed={arrival === value}
+                    disabled={value === 'next' && !activeName}
+                    onClick={() => setArrival(value)}
+                    className={cn(
+                      'min-h-12 rounded-lg px-3 text-sm font-medium disabled:opacity-35',
+                      arrival === value
+                        ? 'bg-background font-semibold shadow-sm'
+                        : 'hover:bg-background/60',
+                    )}
+                  >
+                    {label}
+                  </button>
+                ))}
+              </div>
+              <p className="text-muted-foreground text-sm">
+                By the rules, newcomers roll one initiative for the group. Pick whichever is closer,
+                or drag them in the turn order afterwards.
+              </p>
+            </fieldset>
           </div>
-          <p className="text-muted-foreground text-sm">
-            By the rules, newcomers roll one initiative for the group. Pick whichever is closer, or
-            drag them in the turn order afterwards.
-          </p>
-        </fieldset>
-      </div>
 
-      <footer className="border-border border-t px-5 py-3">
-        <ActionButton
-          tone="primary"
-          size="lg"
-          disabled={total === 0 && pickedPcs.length === 0}
-          className="w-full"
-          onClick={() => {
-            onAdd(
-              picks.map(({ option, count }) => ({ source: option.source, count })),
-              pickedPcs.map((member) => member.source),
-              arrival,
-            )
-            onClose()
-          }}
-        >
-          <UserPlus aria-hidden />
-          {addLabel(pickedPcs.length, total)}
-        </ActionButton>
-      </footer>
+          <footer className="border-border border-t px-5 py-3">
+            <ActionButton
+              tone="primary"
+              size="lg"
+              disabled={total === 0 && pickedPcs.length === 0}
+              className="w-full"
+              onClick={() => {
+                onAdd(
+                  picks.map(({ option, count }) => ({ source: option.source, count })),
+                  pickedPcs.map((member) => member.source),
+                  arrival,
+                )
+                onClose()
+              }}
+            >
+              <UserPlus aria-hidden />
+              {addLabel(pickedPcs.length, total)}
+            </ActionButton>
+          </footer>
+        </>
+      )}
     </aside>
   )
 }

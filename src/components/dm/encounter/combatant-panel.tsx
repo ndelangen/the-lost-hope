@@ -120,7 +120,7 @@ export function CombatantPanel({
       </header>
 
       {combatant.tracked ? (
-        <div className="grid gap-3">
+        <div className="flex flex-wrap items-start gap-3">
           <HpControl
             name={combatant.name}
             live={live}
