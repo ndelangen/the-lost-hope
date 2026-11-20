@@ -174,4 +174,22 @@ describe('battlePlan', () => {
   it('plays the same way every time', () => {
     expect(battlePlan(roster, geometry)).toEqual(plan)
   })
+
+  it('never jolts the ships as the chase gives way to the fight', () => {
+    const dt = 0.05
+    let sharpest = 0
+    for (const entry of plan.ships.filter((ship) => !ship.lost)) {
+      const velocity = (at: number) => {
+        const a = shipPose(plan, entry, at).pos
+        const b = shipPose(plan, entry, at + dt).pos
+        return { x: (b.x - a.x) / dt, y: (b.y - a.y) / dt }
+      }
+      for (let at = times.switchEnd; at < times.end; at += dt) {
+        const now = velocity(at)
+        const next = velocity(at + dt)
+        sharpest = Math.max(sharpest, Math.hypot(next.x - now.x, next.y - now.y) / dt)
+      }
+    }
+    expect(sharpest).toBeLessThan(250)
+  })
 })

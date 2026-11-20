@@ -110,7 +110,7 @@ export const BATTLE_TIMING = {
   fireDelay: 1.4,
   switchDelay: 3,
   switchStagger: 0.35,
-  switchFlight: 1.6,
+  switchFlight: 4,
   screenHold: 3,
   shotDelay: 0.6,
   shotStagger: 0.9,
@@ -127,6 +127,10 @@ export const BATTLE_TIMING = {
   /** The fortress's steady speed, in map pixels a second. */
   fortressSpeed: 22,
   sink: 2.2,
+  /** How long the fleet takes to coast to a halt once the chase gives way to the fight. */
+  coast: 2.5,
+  /** How long the ships take to settle into circling each other. */
+  circleIn: 6,
 } as const
 
 /**
@@ -263,11 +267,20 @@ export function fortressAt(plan: BattlePlan, time: number): Vec {
  * fortress, until the ships turn on each other in slow motion and the fight stays where it is.
  */
 export function formationCentre(plan: BattlePlan, time: number): Vec {
+  const stop = plan.times.slow.start
+  if (time <= stop) return chaseCentre(plan, time)
+  // The fleet does not stop dead when the fight turns inward: it coasts to a halt.
+  const at = chaseCentre(plan, stop)
+  const velocity = scale(sub(at, chaseCentre(plan, stop - 0.05)), 1 / 0.05)
+  const coast = BATTLE_TIMING.coast * (1 - Math.exp(-(time - stop) / BATTLE_TIMING.coast))
+  return add(at, scale(velocity, coast))
+}
+
+function chaseCentre(plan: BattlePlan, time: number): Vec {
   const { chase, slow } = plan.times
-  const until = Math.min(time, slow.start)
-  if (until <= chase) return plan.geometry.hold
-  const progress = easeInOut(clamp01((until - chase) / (slow.start - chase)))
-  const behind = sub(fortressAt(plan, until), scale(plan.geometry.course, 380))
+  if (time <= chase) return plan.geometry.hold
+  const progress = easeInOut(clamp01((time - chase) / (slow.start - chase)))
+  const behind = sub(fortressAt(plan, time), scale(plan.geometry.course, 380))
   return lerp(plan.geometry.hold, behind, progress * 0.85)
 }
 
@@ -322,8 +335,8 @@ export function cameraAt(plan: BattlePlan, time: number): Camera {
     }
     camera = blendCamera(camera, close, easeInOut(clamp01((time - (slow.start - 1)) / 1)))
   }
-  const fight: Camera = { centre: formationCentre(plan, slow.end), span: CAMERA.fight }
-  return blendCamera(camera, fight, easeInOut(clamp01((time - slow.end) / 2.5)))
+  const fight: Camera = { centre: formationCentre(plan, time), span: CAMERA.fight }
+  return blendCamera(camera, fight, easeInOut(clamp01((time - slow.end) / 4)))
 }
 
 function blendCamera(a: Camera, b: Camera, k: number): Camera {
@@ -377,18 +390,16 @@ function shipPosition(plan: BattlePlan, ship: BattleShip, time: number): Vec {
       ? curve(
           plan.geometry.home,
           inFormation,
-          easeOut(clamp01((time - ship.launchAt) / t.launchFlight)),
+          easeInOut(clamp01((time - ship.launchAt) / t.launchFlight)),
           Math.sin(ship.phase) * 0.6,
         )
       : inFormation
   if (ship.turnAt !== undefined && time >= ship.turnAt) {
     const screening = add(formationCentre(plan, time), ship.screen)
-    pos = curve(pos, screening, easeInOut(clamp01((time - ship.turnAt) / t.switchFlight)), 0.7)
+    pos = curve(pos, screening, easeInOut(clamp01((time - ship.turnAt) / t.switchFlight)), 0.35)
   }
-  // Once the party is across, the ships wheel round each other where the fight is.
-  if (time >= slow.end) {
-    pos = lerp(pos, orbitPosition(plan, ship, time), easeInOut(clamp01((time - slow.end) / 3)))
-  }
+  // Once the party is across, the ships ease into slow loops round each other where they are.
+  if (time >= slow.end) pos = add(pos, circling(plan, ship, time))
   const sway = Math.min(1, Math.max(0, time - ship.launchAt - t.launchFlight) / 2)
   return add(pos, {
     x: Math.sin(time * 0.9 + ship.phase) * 7 * sway,
@@ -396,22 +407,24 @@ function shipPosition(plan: BattlePlan, ship: BattleShip, time: number): Vec {
   })
 }
 
-/** Where a ship circles in the fight after the crossing: ragged loops round its own point. */
-function orbitPosition(plan: BattlePlan, ship: BattleShip, time: number): Vec {
+/**
+ * How far a ship has wandered from its place while circling: a loop that starts at zero and
+ * grows in gently, so the ships carry on from how they were moving instead of jumping to it.
+ */
+function circling(plan: BattlePlan, ship: BattleShip, time: number): Vec {
   const index = plan.ships.indexOf(ship)
-  const centre = add(formationCentre(plan, plan.times.slow.end), {
-    x: Math.cos(ship.phase * 2) * 120,
-    y: Math.sin(ship.phase * 3) * 80,
-  })
-  const radius = 90 + (index % 6) * 32
+  const since = time - plan.times.slow.end
+  const radius = 70 + (index % 5) * 18
   const direction = ship.side === 0 ? 1 : -1
-  const speed = direction * (0.36 + (index % 4) * 0.06)
-  const angle = ship.phase + speed * (time - plan.times.slow.end)
-  const wobble = 1 + 0.18 * Math.sin(angle * 2.3 + index)
-  return add(centre, {
-    x: Math.cos(angle) * radius * wobble,
-    y: Math.sin(angle) * radius * 0.75 * wobble,
-  })
+  const angle = ship.phase + direction * (0.22 + (index % 3) * 0.04) * since
+  const grow = easeInOut(clamp01(since / BATTLE_TIMING.circleIn))
+  return scale(
+    {
+      x: (Math.cos(angle) - Math.cos(ship.phase)) * radius,
+      y: (Math.sin(angle) - Math.sin(ship.phase)) * radius * 0.75,
+    },
+    grow,
+  )
 }
 
 /** Where a volley's or crossing's end is at a moment: a ship, the fortress, or the pickup point. */
