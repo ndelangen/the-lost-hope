@@ -682,7 +682,16 @@ export type LegendRow = {
   /** Whether it has changed hands by now. */
   turned: boolean
   status: LegendStatus
+  /** It is switching sides: flashing between the colours before it moves to its new group. */
+  switching: boolean
+  /** It is going down: blowing up in place before it drops to the foot of its group. */
+  exploding: boolean
 }
+
+/** How long a legend row flashes before it moves to its new side, in battle seconds. */
+export const LEGEND_SWITCH_FLASH = 1.4
+/** How long a legend row burns before it drops to the destroyed ships, in battle seconds. */
+export const LEGEND_EXPLOSION = 1.6
 
 /**
  * The legend at a moment: every ship with the side it flies for and whether it is still in the
@@ -693,15 +702,29 @@ export function legendAt(plan: BattlePlan, time: number): LegendRow[] {
   return plan.ships
     .map((ship): LegendRow => {
       const pose = shipPose(plan, ship, time)
+      // A switching ship flashes in its old group first, and moves when the flashing stops; a
+      // lost ship burns where it is first, and drops to the destroyed ships after.
+      const switching =
+        ship.turnAt !== undefined && time >= ship.turnAt && time < ship.turnAt + LEGEND_SWITCH_FLASH
+      const exploding =
+        ship.lostAt !== undefined && time >= ship.lostAt && time < ship.lostAt + LEGEND_EXPLOSION
+      const side =
+        ship.turnAt !== undefined && time < ship.turnAt + LEGEND_SWITCH_FLASH ? 0 : pose.side
       const status: LegendStatus =
-        pose.state === 'hidden' ? 'docked' : pose.state === 'wreck' ? 'destroyed' : 'in service'
+        pose.state === 'hidden'
+          ? 'docked'
+          : pose.state === 'wreck' && !exploding
+            ? 'destroyed'
+            : 'in service'
       return {
         key: ship.key,
         name: ship.name,
         icon: ship.icon,
-        side: pose.side,
-        turned: pose.side !== 0,
+        side,
+        turned: side !== 0,
         status,
+        switching,
+        exploding,
       }
     })
     .map((row, order) => ({ row, order }))

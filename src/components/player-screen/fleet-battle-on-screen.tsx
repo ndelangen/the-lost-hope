@@ -1,4 +1,5 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { Skull } from 'lucide-react'
+import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 
 import { SKY_ISLAND_OUTLINES } from '#/components/player-screen/sky-island-outlines'
 import { useFleetRoster } from '#/components/player-screen/use-fleet-roster'
@@ -183,6 +184,7 @@ function FleetLegend({
   rows: readonly LegendRow[]
   counts: { flying: number[]; lost: number }
 }) {
+  const place = useSlidingRows()
   return (
     <aside
       aria-label="Legend"
@@ -205,49 +207,111 @@ function FleetLegend({
             </h2>
             <ul className="grid gap-[0.25vh]">
               {ships.map((row) => (
-                <li
-                  key={row.key}
-                  className={cn(
-                    'flex items-center gap-[0.6vw] text-[clamp(0.7rem,1.45vh,1.15rem)] tracking-[0.06em] transition-opacity duration-500',
-                    row.status === 'destroyed' && 'opacity-40',
-                    row.status === 'docked' && 'opacity-30',
-                  )}
-                >
-                  <span
-                    className="grid size-[1.7em] shrink-0 place-items-center rounded-full border"
-                    style={{ borderColor: colour, color: 'white' }}
-                  >
-                    <ItemIcon icon={row.icon} className="size-[1.05em]" />
-                  </span>
-                  <span
-                    className={cn(
-                      'min-w-0 flex-1 truncate text-white/90',
-                      row.status === 'destroyed' && 'line-through',
-                    )}
-                  >
-                    {row.name}
-                  </span>
-                  <span
-                    className="shrink-0 text-[0.85em] tracking-[0.12em]"
-                    style={{
-                      color:
-                        row.status === 'destroyed'
-                          ? 'rgb(255 255 255 / 0.6)'
-                          : row.status === 'docked'
-                            ? 'rgb(255 255 255 / 0.5)'
-                            : colour,
-                    }}
-                  >
-                    {row.turned && row.status !== 'destroyed' ? 'Turned · ' : ''}
-                    {STATUS_LABEL[row.status]}
-                  </span>
-                </li>
+                <LegendShip key={row.key} row={row} colour={colour} place={place} />
               ))}
             </ul>
           </section>
         )
       })}
     </aside>
+  )
+}
+
+/**
+ * One ship in the legend. A ship switching sides flashes between the two sides' colours before
+ * it slides across to its new group; a ship going down blows up in place, then drops, burnt out,
+ * to the foot of its group.
+ */
+function LegendShip({
+  row,
+  colour,
+  place,
+}: {
+  row: LegendRow
+  colour: string
+  place: (key: string) => (element: HTMLLIElement | null) => void
+}) {
+  return (
+    <li
+      ref={place(row.key)}
+      className={cn(
+        'relative flex items-center gap-[0.6vw] rounded-md px-[0.3vw] text-[clamp(0.7rem,1.45vh,1.15rem)] tracking-[0.06em] transition-opacity duration-700',
+        row.status === 'destroyed' && 'opacity-40',
+        row.status === 'docked' && 'opacity-30',
+        row.switching && 'fleet-legend-switch',
+        row.exploding && 'fleet-legend-explode',
+      )}
+    >
+      {row.exploding ? <span aria-hidden className="fleet-legend-burst" /> : null}
+      <span
+        className="relative grid size-[1.7em] shrink-0 place-items-center rounded-full border"
+        style={{ borderColor: row.exploding ? 'rgb(251 146 60)' : colour, color: 'white' }}
+      >
+        {row.exploding ? (
+          <Skull className="fleet-legend-skull size-[1.05em]" aria-hidden />
+        ) : (
+          <ItemIcon icon={row.icon} className="size-[1.05em]" />
+        )}
+      </span>
+      <span
+        className={cn(
+          'relative min-w-0 flex-1 truncate text-white/90',
+          row.status === 'destroyed' && 'line-through',
+        )}
+      >
+        {row.name}
+      </span>
+      <span
+        className="relative shrink-0 text-[0.85em] tracking-[0.12em]"
+        style={{
+          color: row.exploding
+            ? 'rgb(254 215 170)'
+            : row.status === 'destroyed'
+              ? 'rgb(255 255 255 / 0.6)'
+              : row.status === 'docked'
+                ? 'rgb(255 255 255 / 0.5)'
+                : colour,
+        }}
+      >
+        {row.exploding
+          ? 'Hit · going down'
+          : row.switching
+            ? 'Switching sides'
+            : `${row.turned && row.status !== 'destroyed' ? 'Turned · ' : ''}${STATUS_LABEL[row.status]}`}
+      </span>
+    </li>
+  )
+}
+
+/**
+ * Slides legend rows to their new places instead of letting them jump: each row's position is
+ * remembered, and when a row moves it starts from where it was and glides to where it is now.
+ */
+function useSlidingRows() {
+  const elements = useRef(new Map<string, HTMLLIElement>())
+  // Layout positions, unaffected by the rows' own flashing and shaking.
+  const positions = useRef(new Map<string, { left: number; top: number }>())
+  useLayoutEffect(() => {
+    for (const [key, element] of elements.current) {
+      const now = { left: element.offsetLeft, top: element.offsetTop }
+      const before = positions.current.get(key)
+      positions.current.set(key, now)
+      if (!before) continue
+      const dx = before.left - now.left
+      const dy = before.top - now.top
+      if (Math.abs(dx) < 1 && Math.abs(dy) < 1) continue
+      element.animate(
+        [{ transform: `translate(${dx}px, ${dy}px)` }, { transform: 'translate(0, 0)' }],
+        { duration: 900, easing: 'cubic-bezier(0.2, 0.8, 0.2, 1)' },
+      )
+    }
+  })
+  return useCallback(
+    (key: string) => (element: HTMLLIElement | null) => {
+      if (element) elements.current.set(key, element)
+      else elements.current.delete(key)
+    },
+    [],
   )
 }
 

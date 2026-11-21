@@ -9,6 +9,8 @@ import {
   captionAt,
   FORTRESS,
   fortressAt,
+  LEGEND_EXPLOSION,
+  LEGEND_SWITCH_FLASH,
   legendAt,
   playbackLength,
   shipPose,
@@ -255,5 +257,26 @@ describe('battlePlan', () => {
   it('keeps the survivors firing to the very end', () => {
     const lastShot = Math.max(...plan.volleys.map((volley) => volley.at))
     expect(lastShot).toBeGreaterThan(times.end - 2)
+  })
+
+  it('flashes a switching ship in its old group before moving it to the new one', () => {
+    const seized = plan.ships.find((entry) => entry.key === 'seized')!
+    const row = (at: number) => legendAt(plan, at).find((entry) => entry.key === 'seized')!
+    expect(row(seized.turnAt! + 0.5)).toMatchObject({ switching: true, side: 0 })
+    expect(row(seized.turnAt! + LEGEND_SWITCH_FLASH + 0.1)).toMatchObject({
+      switching: false,
+      side: 1,
+      turned: true,
+    })
+  })
+
+  it('blows up a lost ship in place before it drops to the destroyed ships', () => {
+    const wreck = plan.ships.find((entry) => entry.key === 'wreck')!
+    const row = (at: number) => legendAt(plan, at).find((entry) => entry.key === 'wreck')!
+    expect(row(wreck.lostAt! + 0.2)).toMatchObject({ exploding: true, status: 'in service' })
+    expect(row(wreck.lostAt! + LEGEND_EXPLOSION + 0.1)).toMatchObject({
+      exploding: false,
+      status: 'destroyed',
+    })
   })
 })

@@ -40,6 +40,7 @@ import { Route as DmScenesIndexRouteImport } from './routes/dm/scenes/index'
 import { Route as DmScenesSlugRouteImport } from './routes/dm/scenes/$slug'
 import { Route as EffectsDetailSlugRouteImport } from './routes/effects/detail.$slug'
 import { Route as EventsDetailSlugRouteImport } from './routes/events/detail.$slug'
+import { Route as EventsReplaySlugRouteImport } from './routes/events/replay.$slug'
 import { Route as ItemsDetailSlugRouteImport } from './routes/items/detail.$slug'
 import { Route as LocationsDetailSlugRouteImport } from './routes/locations/detail.$slug'
 import { Route as NpcsDetailSlugRouteImport } from './routes/npcs/detail.$slug'
@@ -204,6 +205,11 @@ const EventsDetailSlugRoute = EventsDetailSlugRouteImport.update({
   path: '/events/detail/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const EventsReplaySlugRoute = EventsReplaySlugRouteImport.update({
+  id: '/events/replay/$slug',
+  path: '/events/replay/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ItemsDetailSlugRoute = ItemsDetailSlugRouteImport.update({
   id: '/items/detail/$slug',
   path: '/items/detail/$slug',
@@ -274,6 +280,7 @@ export interface FileRoutesByFullPath {
   '/dm/scenes/$slug': typeof DmScenesSlugRoute
   '/effects/detail/$slug': typeof EffectsDetailSlugRoute
   '/events/detail/$slug': typeof EventsDetailSlugRoute
+  '/events/replay/$slug': typeof EventsReplaySlugRoute
   '/items/detail/$slug': typeof ItemsDetailSlugRoute
   '/locations/detail/$slug': typeof LocationsDetailSlugRoute
   '/npcs/detail/$slug': typeof NpcsDetailSlugRoute
@@ -314,6 +321,7 @@ export interface FileRoutesByTo {
   '/dm/scenes/$slug': typeof DmScenesSlugRoute
   '/effects/detail/$slug': typeof EffectsDetailSlugRoute
   '/events/detail/$slug': typeof EventsDetailSlugRoute
+  '/events/replay/$slug': typeof EventsReplaySlugRoute
   '/items/detail/$slug': typeof ItemsDetailSlugRoute
   '/locations/detail/$slug': typeof LocationsDetailSlugRoute
   '/npcs/detail/$slug': typeof NpcsDetailSlugRoute
@@ -356,6 +364,7 @@ export interface FileRoutesById {
   '/dm/scenes/$slug': typeof DmScenesSlugRoute
   '/effects/detail/$slug': typeof EffectsDetailSlugRoute
   '/events/detail/$slug': typeof EventsDetailSlugRoute
+  '/events/replay/$slug': typeof EventsReplaySlugRoute
   '/items/detail/$slug': typeof ItemsDetailSlugRoute
   '/locations/detail/$slug': typeof LocationsDetailSlugRoute
   '/npcs/detail/$slug': typeof NpcsDetailSlugRoute
@@ -399,6 +408,7 @@ export interface FileRouteTypes {
     | '/dm/scenes/$slug'
     | '/effects/detail/$slug'
     | '/events/detail/$slug'
+    | '/events/replay/$slug'
     | '/items/detail/$slug'
     | '/locations/detail/$slug'
     | '/npcs/detail/$slug'
@@ -439,6 +449,7 @@ export interface FileRouteTypes {
     | '/dm/scenes/$slug'
     | '/effects/detail/$slug'
     | '/events/detail/$slug'
+    | '/events/replay/$slug'
     | '/items/detail/$slug'
     | '/locations/detail/$slug'
     | '/npcs/detail/$slug'
@@ -480,6 +491,7 @@ export interface FileRouteTypes {
     | '/dm/scenes/$slug'
     | '/effects/detail/$slug'
     | '/events/detail/$slug'
+    | '/events/replay/$slug'
     | '/items/detail/$slug'
     | '/locations/detail/$slug'
     | '/npcs/detail/$slug'
@@ -517,6 +529,7 @@ export interface RootRouteChildren {
   BeastsDetailSlugRoute: typeof BeastsDetailSlugRoute
   EffectsDetailSlugRoute: typeof EffectsDetailSlugRoute
   EventsDetailSlugRoute: typeof EventsDetailSlugRoute
+  EventsReplaySlugRoute: typeof EventsReplaySlugRoute
   ItemsDetailSlugRoute: typeof ItemsDetailSlugRoute
   LocationsDetailSlugRoute: typeof LocationsDetailSlugRoute
   NpcsDetailSlugRoute: typeof NpcsDetailSlugRoute
@@ -746,6 +759,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof EventsDetailSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/events/replay/$slug': {
+      id: '/events/replay/$slug'
+      path: '/events/replay/$slug'
+      fullPath: '/events/replay/$slug'
+      preLoaderRoute: typeof EventsReplaySlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/items/detail/$slug': {
       id: '/items/detail/$slug'
       path: '/items/detail/$slug'
@@ -854,6 +874,7 @@ const rootRouteChildren: RootRouteChildren = {
   BeastsDetailSlugRoute: BeastsDetailSlugRoute,
   EffectsDetailSlugRoute: EffectsDetailSlugRoute,
   EventsDetailSlugRoute: EventsDetailSlugRoute,
+  EventsReplaySlugRoute: EventsReplaySlugRoute,
   ItemsDetailSlugRoute: ItemsDetailSlugRoute,
   LocationsDetailSlugRoute: LocationsDetailSlugRoute,
   NpcsDetailSlugRoute: NpcsDetailSlugRoute,

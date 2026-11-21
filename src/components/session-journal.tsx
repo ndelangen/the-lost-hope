@@ -159,7 +159,11 @@ function JournalEvent({ event }: { event: SessionJournalEvent }) {
               eventName={event.name}
               className="mb-5"
             />
-            <EventVisualizations visualizations={event.visualizations} className="mb-5" />
+            <EventVisualizations
+              eventSlug={event.slug}
+              visualizations={event.visualizations}
+              className="mb-5"
+            />
             <ContentRenderer
               content={event.notes}
               className={cn(

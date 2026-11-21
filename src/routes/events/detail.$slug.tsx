@@ -83,7 +83,7 @@ function EventPage() {
       <Stack as="section" gap="lg">
         <h2 className="text-lg font-semibold">What happened</h2>
         <EventIllustrations illustrations={event.illustrations} eventName={event.name} />
-        <EventVisualizations visualizations={event.visualizations} />
+        <EventVisualizations eventSlug={entity.slug} visualizations={event.visualizations} />
         <ContentRenderer content={eventNarrative(event)} />
       </Stack>
       {event.foretold ? (

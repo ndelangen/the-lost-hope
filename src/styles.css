@@ -361,3 +361,104 @@
     animation: none;
   }
 }
+
+/* The fleet battle's legend: a ship switching sides flashes between the two sides' colours. */
+.fleet-legend-switch {
+  animation: fleet-legend-switch 0.35s steps(1, end) infinite;
+}
+
+@keyframes fleet-legend-switch {
+  0% {
+    background: rgb(56 189 248 / 0.45);
+    box-shadow: 0 0 18px rgb(56 189 248 / 0.8);
+  }
+  50% {
+    background: rgb(244 63 94 / 0.5);
+    box-shadow: 0 0 18px rgb(244 63 94 / 0.8);
+  }
+}
+
+/* A ship going down burns white-hot, shakes, and smoulders out. */
+.fleet-legend-explode {
+  animation: fleet-legend-explode 1.6s ease-out both;
+}
+
+@keyframes fleet-legend-explode {
+  0% {
+    background: rgb(255 255 255 / 0.95);
+    color: black;
+    scale: 1.08;
+    box-shadow: 0 0 40px rgb(255 237 213);
+  }
+  10% {
+    translate: -6px 0;
+    background: rgb(253 186 116 / 0.95);
+  }
+  20% {
+    translate: 6px 0;
+    background: rgb(249 115 22 / 0.85);
+    box-shadow: 0 0 34px rgb(249 115 22 / 0.9);
+  }
+  30% {
+    translate: -4px 0;
+    scale: 1.04;
+  }
+  40% {
+    translate: 3px 0;
+    background: rgb(220 38 38 / 0.7);
+  }
+  55% {
+    translate: 0;
+    scale: 1;
+    box-shadow: 0 0 22px rgb(220 38 38 / 0.6);
+  }
+  100% {
+    background: rgb(68 20 10 / 0.5);
+    box-shadow: none;
+  }
+}
+
+.fleet-legend-burst {
+  position: absolute;
+  inset: -40% -10%;
+  border-radius: 9999px;
+  background: radial-gradient(
+    ellipse at 1.2em 50%,
+    rgb(255 247 237 / 0.9),
+    rgb(251 146 60 / 0.5) 30%,
+    transparent 65%
+  );
+  pointer-events: none;
+  animation: fleet-legend-burst 0.9s ease-out both;
+}
+
+@keyframes fleet-legend-burst {
+  from {
+    opacity: 1;
+    scale: 0.4 0.6;
+  }
+  to {
+    opacity: 0;
+    scale: 1.6 1.8;
+  }
+}
+
+.fleet-legend-skull {
+  animation: fleet-legend-skull 0.6s cubic-bezier(0.3, 1.6, 0.4, 1) both;
+}
+
+@keyframes fleet-legend-skull {
+  from {
+    scale: 0;
+    rotate: -40deg;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fleet-legend-switch,
+  .fleet-legend-explode,
+  .fleet-legend-burst,
+  .fleet-legend-skull {
+    animation: none;
+  }
+}

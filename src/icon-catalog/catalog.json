@@ -291029,6 +291029,7 @@
         "src/lib/condition-icons.tsx",
         "src/routes/dm/arcs/index.tsx",
         "src/routes/dm/scenes/$slug.tsx",
+        "src/routes/events/replay.$slug.tsx",
         "src/routes/index.tsx"
       ]
     },
@@ -302016,8 +302017,7 @@
       "sourceUrl": "https://lucide.dev/icons/play",
       "usedIn": [
         "src/components/dm/encounter/ability-controls.tsx",
-        "src/components/dm/encounter/ability-text.tsx",
-        "src/components/event-visualizations.tsx"
+        "src/components/dm/encounter/ability-text.tsx"
       ]
     },
     {
@@ -308922,6 +308922,7 @@
       "sourceUrl": "https://lucide.dev/icons/skull",
       "usedIn": [
         "src/components/dm/encounter/combat-status.tsx",
+        "src/components/player-screen/fleet-battle-on-screen.tsx",
         "src/components/player-screen/fleet-roster-on-screen.tsx",
         "src/components/player-screen/turn-order-on-screen.tsx"
       ]
@@ -324883,7 +324884,6 @@
         "src/components/dm/encounter/encounter-notes.tsx",
         "src/components/dm/encounter/preset-buttons.tsx",
         "src/components/dm/encounter/turn-card.tsx",
-        "src/components/event-visualizations.tsx",
         "src/components/image-viewer.tsx",
         "src/components/player-screen/player-screen-dock.tsx",
         "src/components/player-screen/pointing-view.tsx",
