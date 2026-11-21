@@ -12,22 +12,29 @@ export default createArc({
     ],
   ],
   notes: [
-    ['Working ideas from brainstorming. Not settled, and the players know none of it.'],
+    ['The players know none of this.'],
     [
       'Shadow leaks out of the ',
       refs.locations.shadow_realm,
-      ' into the world. Collected shadow can be converted into two things: a fuel for dwarven machines, and the drug Arcane Dust.',
+      ' into the world at a leak, or barrier, near ',
+      refs.locations.fajanet,
+      '. Arcane Dust is the substance that comes of it. The same Dust can be burned as fuel or taken as a drug. Who makes it and who receives it is recorded on ',
+      refs.npcs.light_13th_marshal,
+      '.',
     ],
     [
-      'The dwarves and the elves fought the Second Great War, machine against magic, and it ended within living memory. The elves lost, and the shadow fuel is part of why the machines won. Nothing records a first great war yet.',
+      'As night falls, minds get lost unless someone writes. Thoughts and dreams that are not recorded are taken. At the leak itself the shadow can come in the night and take a mind, and even a body.',
     ],
     [
-      'Arcane Dust is as strong and as addictive as the worst drugs there are. It makes its users lost: they lose memories, then their sense of self, then control.',
+      'As a drug, Arcane Dust is as strong and as addictive as the worst there are. It makes its users lost: they lose memories, then their sense of self, then control.',
     ],
     [
-      'Still open: what ',
+      'The dwarves and the elves fought the Second Great War, machine against magic, and it ended within living memory. The elves lost. Nothing records a first great war yet.',
+    ],
+    [
+      'Working ideas, not settled: the fuel is part of why the machines won that war. Still open: what ',
       refs.npcs.the_12th_marshal,
-      ' does with the fuel, and whether anything the players have not seen yet changes this picture.',
+      ' does with the fuel, and how the war of dwarves and elves relates to the fighting between the marshals.',
     ],
   ],
   plots: [

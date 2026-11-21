@@ -29,11 +29,22 @@ export default createNPC({
       refs.pcs.fix,
       '.',
     ],
+    [
+      'He worked out how to take advantage of the way people are kept by being written down. By writing conflicting or subverted thoughts and dreams for a person he can alter their behaviour. If what he writes is too different from who they are, their mind is lost.',
+    ],
+    [
+      'This is extremely difficult. Knowing how to make which change to a memory, dream or thought so that it causes exactly the intended behaviour, and is accepted by the mind, takes great skill. He has that skill and is actively perfecting it.',
+    ],
+    [
+      '',
+      refs.pcs.jim,
+      ' was his ghostwriter: the storyteller who knew how to wrap a change in a dream or memory that a mind accepts as its own. That is why the order was to bring him back alive. Being raised from the dead is traumatic and might have altered Jim, and with him the gift.',
+    ],
     ['Everything below is working ideas from brainstorming. Not settled.'],
     [
       'He may be a past adventurer who learned the secret of ',
       refs.npcs.light_13th_marshal,
-      ' and the shadow. He takes the memories that Arcane Dust users lose, so he pushes more drug use to learn more, and in that way rivals Light.',
+      ' and the shadow. He pushes more drug use to learn more, and in that way rivals Light.',
     ],
     [
       '',
@@ -43,9 +54,13 @@ export default createNPC({
     [
       'He is out to control the whole world. ',
       refs.pcs.jim,
-      ' was meant to be his protégé and replacement, which would explain why he wants him found alive.',
+      ' was meant to be his protégé and replacement.',
     ],
-    ['Still open: how far the Hand reaches into the ', refs.organizations.marshals_court, '.'],
+    [
+      'Exactly how the rewriting works is not worked out yet. Still open: how far the Hand reaches into the ',
+      refs.organizations.marshals_court,
+      '.',
+    ],
   ],
   memberships: [
     {
