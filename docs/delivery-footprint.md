@@ -39,8 +39,8 @@ The four 20 px navigation portrait originals total 1,407,244 bytes. Their 64 px 
 their largest generated candidates total 1,323,923 bytes, an 81.5% reduction even when each is
 displayed at its maximum published size.
 
-Social previews are a separate deployment-only pipeline. Netlify runs `bun run build:deploy`,
-which creates all 374 previews as 1200 by 630 progressive q85 JPEGs and validates them. Local
+Social previews are a separate deployment-only pipeline. GitHub Actions runs `bun run build:deploy`,
+which creates and validates the previews as 1200 by 630 progressive q85 JPEGs. Local
 development, tests, and ordinary builds generate paths only and cannot render the full social set.
 Opaque PNG and ICO files remain for app icons; the unused TanStack PNG is not published.
 
@@ -53,5 +53,16 @@ bun run verify
 That command regenerates responsive images, checks refs and the icon catalogue, type-checks,
 lints, checks formatting, runs the test suite, builds and prerenders the site, and audits the
 delivery graph and image encodings. It writes the build-comparable route measurements to
-`dist/delivery-footprint-report.json`. The Netlify-only build additionally generates and audits all
-social previews.
+`dist/delivery-footprint-report.json`. The production deployment build also generates and audits every social preview before uploading
+the site to Netlify.
+
+## Publish and recover
+
+The CI workflow publishes pushes to `main` after verification. To retry a release, run CI
+manually on `main`. The production job uses the `NETLIFY_SITE_ID` environment variable in GitHub
+Actions and the `NETLIFY_AUTH_TOKEN` and `CORRECTIONS_ACCESS_CODE_SHA256` environment secrets.
+Restrict the GitHub production environment to `main` and keep Git-triggered builds stopped in
+Netlify. The correction function still reads its runtime settings from Netlify.
+
+To roll back a bad release, republish the last healthy deploy in Netlify. Fix or revert the commit
+on `main` before the next production run.
