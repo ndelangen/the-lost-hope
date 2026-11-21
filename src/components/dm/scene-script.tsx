@@ -48,7 +48,7 @@ export function SceneScript({
   }
 
   return (
-    <section className="grid gap-3">
+    <section className="grid grid-cols-[minmax(0,1fr)] gap-3">
       <div className="flex flex-wrap items-center justify-between gap-x-4">
         <h2 className="text-muted-foreground text-xs font-semibold uppercase">
           Script · {played} of {script.length} beats played
@@ -62,7 +62,7 @@ export function SceneScript({
           <RotateCcw className="size-4" aria-hidden /> Start over
         </button>
       </div>
-      <ol ref={list} className="grid gap-3">
+      <ol ref={list} className="grid grid-cols-[minmax(0,1fr)] gap-3">
         {script.map((beat) => {
           const status = progress[beat.number]
           return (

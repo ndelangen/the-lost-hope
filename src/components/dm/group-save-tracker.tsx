@@ -167,61 +167,71 @@ export function GroupSaveTracker({
         </button>
       </div>
 
-      <div
-        aria-hidden
-        className={cn(ROW_GRID, 'text-muted-foreground px-2 text-[11px] font-semibold uppercase')}
-      >
-        <span className="col-span-2">Who</span>
-        <span className="text-center">{save.reasonBonus ? 'Reason' : ''}</span>
-        <span className="text-center">Roll</span>
-        <span />
-        <span className="text-right">Total</span>
-        <span />
-      </div>
+      {/* The sheet's columns need about 32rem; narrower screens scroll it sideways. */}
+      <div className="-mx-1 overflow-x-auto px-1">
+        <div className="grid min-w-[32rem] gap-3">
+          <div
+            aria-hidden
+            className={cn(
+              ROW_GRID,
+              'text-muted-foreground px-2 text-[11px] font-semibold uppercase',
+            )}
+          >
+            <span className="col-span-2">Who</span>
+            <span className="text-center">{save.reasonBonus ? 'Reason' : ''}</span>
+            <span className="text-center">Roll</span>
+            <span />
+            <span className="text-right">Total</span>
+            <span />
+          </div>
 
-      {Array.from({ length: pages }, (_, page) => (
-        // oxlint-disable-next-line react/no-array-index-key -- pages are positions in a fixed list
-        <div key={page} className="grid gap-1">
-          {pages > 1 ? (
-            <button
-              type="button"
-              onClick={() => update((current) => setGroupSavePage(current, save, page))}
-              aria-pressed={state.page === page}
-              className={cn(
-                'flex h-12 items-center gap-2 rounded-lg px-3 text-left text-sm font-semibold',
-                state.page === page
-                  ? 'bg-primary/10 text-foreground'
-                  : 'text-muted-foreground hover:bg-muted',
-              )}
-            >
-              <MonitorPlay className="size-5 shrink-0" aria-hidden />
-              <span className="flex-1">
-                Page {page + 1} of {pages}
-              </span>
-              <span className="font-medium">
-                {state.page === page ? 'On the player screen' : 'Reveal this page to players'}
-              </span>
-            </button>
-          ) : null}
-          <ul className="grid gap-1">
-            {rows
-              .filter((row) => row.page === page)
-              .map((row) => (
-                <li key={row.id}>
-                  <TrackerRow
-                    row={row}
-                    save={save}
-                    onRoll={(roll) => update((current) => setGroupSaveRoll(current, row.id, roll))}
-                    onReason={(reason) =>
-                      update((current) => setGroupSaveReason(current, row.id, reason))
-                    }
-                    onAutoRoll={() => update((current) => rollGroupSaveFor(current, row.id))}
-                  />
-                </li>
-              ))}
-          </ul>
+          {Array.from({ length: pages }, (_, page) => (
+            // oxlint-disable-next-line react/no-array-index-key -- pages are positions in a fixed list
+            <div key={page} className="grid gap-1">
+              {pages > 1 ? (
+                <button
+                  type="button"
+                  onClick={() => update((current) => setGroupSavePage(current, save, page))}
+                  aria-pressed={state.page === page}
+                  className={cn(
+                    'flex h-12 items-center gap-2 rounded-lg px-3 text-left text-sm font-semibold',
+                    state.page === page
+                      ? 'bg-primary/10 text-foreground'
+                      : 'text-muted-foreground hover:bg-muted',
+                  )}
+                >
+                  <MonitorPlay className="size-5 shrink-0" aria-hidden />
+                  <span className="flex-1">
+                    Page {page + 1} of {pages}
+                  </span>
+                  <span className="font-medium">
+                    {state.page === page ? 'On the player screen' : 'Reveal this page to players'}
+                  </span>
+                </button>
+              ) : null}
+              <ul className="grid gap-1">
+                {rows
+                  .filter((row) => row.page === page)
+                  .map((row) => (
+                    <li key={row.id}>
+                      <TrackerRow
+                        row={row}
+                        save={save}
+                        onRoll={(roll) =>
+                          update((current) => setGroupSaveRoll(current, row.id, roll))
+                        }
+                        onReason={(reason) =>
+                          update((current) => setGroupSaveReason(current, row.id, reason))
+                        }
+                        onAutoRoll={() => update((current) => rollGroupSaveFor(current, row.id))}
+                      />
+                    </li>
+                  ))}
+              </ul>
+            </div>
+          ))}
         </div>
-      ))}
+      </div>
     </section>
   )
 }

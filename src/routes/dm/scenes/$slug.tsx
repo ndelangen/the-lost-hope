@@ -328,7 +328,7 @@ function SceneRoute() {
                   {briefsPanel}
                 </aside>
               ) : null}
-              <div className="grid min-w-0 content-start gap-5 lg:col-start-1 lg:row-start-1">
+              <div className="grid min-w-0 grid-cols-[minmax(0,1fr)] content-start gap-5 lg:col-start-1 lg:row-start-1">
                 <Titled title="Setup">{setup}</Titled>
                 {scriptList}
                 {anyTime ? <Titled title="At any time, if…">{anyTime}</Titled> : null}
