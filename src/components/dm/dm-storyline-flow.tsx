@@ -44,7 +44,7 @@ export function DmStorylineFlow({ storylines, sessions, focus, dimmed, onFocus, 
   }
 
   return (
-    <div className="relative flex gap-3">
+    <div className="relative flex gap-3 max-sm:overflow-x-auto">
       <svg
         width={width}
         height={rows.length * ROW}
@@ -154,7 +154,7 @@ export function DmStorylineFlow({ storylines, sessions, focus, dimmed, onFocus, 
             <span className="shrink-0 font-mono text-xs">
               {row.session ? `S${row.session.number}` : 'Next'}
             </span>
-            <span className="text-muted-foreground shrink-0 truncate text-xs">
+            <span className="text-muted-foreground min-w-0 truncate text-xs">
               {row.session?.name}
             </span>
             <span className="flex min-w-0 gap-0.5 overflow-hidden">

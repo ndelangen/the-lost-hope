@@ -19,7 +19,7 @@ export function DmCastChart({
 }) {
   const most = Math.max(1, ...cast.flatMap((m) => m.appearances.map((a) => a.events.length)))
   return (
-    <div className="overflow-x-auto">
+    <div className="relative overflow-x-auto">
       <table className="text-sm">
         <thead>
           <tr className="text-muted-foreground text-xs">

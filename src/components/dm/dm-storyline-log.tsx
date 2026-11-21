@@ -83,7 +83,7 @@ export function DmStorylineLog({
   const oldest = sessions[0]?.number ?? 0
 
   return (
-    <div className="relative flex gap-3">
+    <div className="relative flex gap-3 max-sm:overflow-x-auto">
       <svg width={width} height={height} className="shrink-0 overflow-visible" aria-hidden>
         {storylines.map((line) => {
           const top = rows.findIndex((row) => row.lines.includes(line))
@@ -199,7 +199,7 @@ export function DmStorylineLog({
             <span className="shrink-0 font-mono text-xs">
               {row.session ? `S${row.session.number}` : 'Next'}
             </span>
-            <span className="text-muted-foreground shrink-0 truncate text-xs">
+            <span className="text-muted-foreground min-w-0 truncate text-xs">
               {row.session?.name}
             </span>
             <span className="flex min-w-0 gap-1 overflow-hidden">
