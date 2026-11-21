@@ -40,7 +40,7 @@ export function DmSceneRow({
               : 'Not linked to a plot'}
           </p>
         </div>
-        <DmFaces people={[...(present ?? []), ...scene.npcs]} />
+        <DmFaces people={[...(present ?? []), ...scene.npcs]} max={5} />
       </Link>
     </li>
   )

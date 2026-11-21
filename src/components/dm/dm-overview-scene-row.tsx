@@ -50,7 +50,7 @@ export function DmOverviewSceneRow({
             {detail}
           </div>
         </div>
-        <DmFaces people={scene.npcs} />
+        <DmFaces people={scene.npcs} max={5} />
       </Link>
     </li>
   )

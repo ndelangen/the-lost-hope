@@ -62,7 +62,7 @@ function ArcRoute() {
                   <div className="flex flex-wrap items-center justify-between gap-3">
                     <h3 className="font-semibold">{plot.name}</h3>
                     <div className="flex items-center gap-3">
-                      <DmFaces people={plotCast(plot)} />
+                      <DmFaces people={plotCast(plot)} max={5} />
                       <Pill variant={plot.status === 'open' ? 'warning' : 'secondary'}>
                         {plot.status}
                       </Pill>

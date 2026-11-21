@@ -52,7 +52,7 @@ export function DmLocationBranch({
             <DmHiddenReference reference={node.location} />
           )}
         </p>
-        <DmFaces people={node.party} />
+        <DmFaces people={node.party} max={5} />
       </div>
       {node.scenes.length > 0 ? (
         <ul className="grid grid-cols-1">
