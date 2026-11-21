@@ -1,17 +1,11 @@
 [build]
 command = "bun run build:deploy"
 publish = "dist/client"
+# GitHub Actions builds and uploads prebuilt files. Skip Git-triggered Netlify builds.
+ignore = "exit 0"
 
 [build.environment]
 BUN_VERSION = "1.4.4"
 
 [build.processing.html]
 pretty_urls = false
-
-# Pull requests are checked by GitHub Actions (.github/workflows/ci.yml). Skip Netlify deploy
-# previews and branch deploys so they don't spend build minutes; only main deploys to production.
-[context.deploy-preview]
-ignore = "exit 0"
-
-[context.branch-deploy]
-ignore = "exit 0"
