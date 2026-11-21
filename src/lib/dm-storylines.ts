@@ -122,11 +122,12 @@ export function buildStorylines(
         const session = sessionOfEvent.get(event.key)
         if (session === undefined) continue
         const stop = bySession.get(session) ?? { events: [], plots: new Set(), places: [] }
-        stop.events.push(event.key)
         stop.plots.add(plot.name)
+        bySession.set(session, stop)
+        if (stop.events.includes(event.key)) continue
+        stop.events.push(event.key)
         const location = locationOf(event.key)
         if (location) stop.places.push(placeOf(location))
-        bySession.set(session, stop)
       }
     }
     const stops: Stop[] = [...bySession.entries()]

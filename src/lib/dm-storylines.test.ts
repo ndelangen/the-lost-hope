@@ -66,6 +66,31 @@ describe('storyline map', () => {
     expect(new Set([early!.color, late!.color, closedLate!.color]).size).toBe(3)
   })
 
+  it('lists an event once per stop when two plots of an arc share it', () => {
+    const shared = {
+      twice: createArc({
+        name: 'Twice',
+        icon: 'gi/GiViolin',
+        direction: [['Two plots meet at one event.']],
+        plots: [
+          { name: 'First', status: 'closed', events: [refs.events.n2_e003] },
+          { name: 'Second', status: 'closed', events: [refs.events.n2_e003] },
+        ],
+      }),
+      other: createArc({
+        name: 'Other',
+        icon: 'gi/GiViolin',
+        direction: [['Shares the event.']],
+        plots: [{ name: 'Once', status: 'closed', events: [refs.events.n2_e003] }],
+      }),
+    }
+    const [twice] = buildStorylines(shared, sessions, locationOf)
+    expect(twice!.stops).toHaveLength(1)
+    expect(twice!.stops[0]!.events).toEqual(['n2_e003'])
+    expect(twice!.stops[0]!.plots).toEqual(['First', 'Second'])
+    expect(twice!.crossings).toEqual([{ arcKey: 'other', events: ['n2_e003'] }])
+  })
+
   it('gives open arcs the first columns and lets older arcs reuse a column below its arc', () => {
     const lines = buildStorylines(arcs, sessions, locationOf)
     const columns = assignColumns(lines)
