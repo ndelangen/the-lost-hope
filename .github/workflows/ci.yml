@@ -249,7 +249,7 @@ jobs:
           done
           origin=https://the-lost-hope.netlify.app
           curl --fail --silent --show-error --retry 5 "$origin/" --output "$RUNNER_TEMP/home.html"
-          social_image=$(rg --only-matching 'property="og:image" content="[^"]+"' "$RUNNER_TEMP/home.html" |
+          social_image=$(grep -oE 'property="og:image" content="[^"]+"' "$RUNNER_TEMP/home.html" |
             sed -n '1s/.*content="\([^"]*\)"/\1/p')
           [[ "$social_image" == "$origin/social-previews/"* ]]
           curl --fail --silent --show-error --retry 5 "$social_image" --output /dev/null
