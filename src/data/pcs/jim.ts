@@ -94,6 +94,13 @@ export default createPC({
       '. The worst card in the deck would have been the best outcome for him.',
     ],
     [
+      'What he did inside ',
+      refs.organizations.the_eyeless_hand,
+      ', and why the order was to bring him back alive, is recorded on ',
+      refs.npcs.the_father,
+      '.',
+    ],
+    [
       'Jim’s human identity remains secret outside Devan, Cassian, and Swift unless the player says otherwise.',
     ],
   ],

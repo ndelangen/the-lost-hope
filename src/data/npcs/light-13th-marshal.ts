@@ -28,6 +28,14 @@ export default createNPC({
       '. When he stops, its members are meant to be the hope that is still standing.',
     ],
     [
+      'Until then he spreads his influence slowly and carefully, and he keeps the other twelve marshals fighting each other just enough. None of them may win outright. If too many unite, or too many are destroyed, their attention falls on him again. The infighting drives up the use of Arcane Dust, so his workload only ever grows.',
+    ],
+    [
+      'At the end of it he wants the world rid of the Dust that feeds war and mind control, the leak near ',
+      refs.locations.fajanet,
+      ' closed so it stops taking people, and then, finally, rest, and to enjoy the world again.',
+    ],
+    [
       'He cannot tell adventurers to stay away from the fuel and the drug, because the warning would raise suspicion. He accepts that some of them will be lost too.',
     ],
   ],
@@ -36,7 +44,18 @@ export default createNPC({
       'Writing is remembering. He records every use of shadow fuel and Arcane Dust. If he remembers, the users remember, and what he has written down is not lost. That is the paperwork, and it is why he never sleeps.',
     ],
     [
-      'The other twelve marshals see him as a thing that has to go on but must never grow too strong. They forced him into a kind of exile: he is not supposed to hold land and may not go wherever he wants. They use the fuel and the drug on purpose to flood him with more records than he can keep.',
+      'He produces Arcane Dust and supplies it to the other twelve marshals, and to no one else. That is the deal. Stopping at once is impossible. He tried to stop production before: enough marshals united against him that his land and people were invaded, and he had to concede. Now he supplies it as they demand.',
+    ],
+    [
+      'The twelve fuel their war machines with it and fight each other. They see him as a thing that has to go on but must never grow too strong. They keep him to his own land, he may not go wherever he wants, and their use of the Dust floods him with more records than he can keep.',
+    ],
+    [
+      'Corruption among the marshals is rampant and open. A secondary market in Dust exists, and there is nothing he can do about it.',
+    ],
+    [
+      'It never occurred to him that writing could be used to change a person until ',
+      refs.npcs.the_father,
+      ' worked it out. He has neither the skill nor the wish to practise it, and he does not want it to be how this ends. Under his workload he does make the occasional mistake in what he writes.',
     ],
     [
       'He is not really powerful enough for this. He no longer has the power to keep even the promises he makes to his adventurers.',
@@ -60,11 +79,7 @@ export default createNPC({
       refs.npcs.the_father,
       '. One of his earlier attempts taught a recruit his secret, and the recruit turned it into a weapon.',
     ],
-    [
-      'Still open: why the twelve cannot simply kill him, and whether the tentacles in ',
-      refs.locations.fajanet,
-      ' are what takes the people he lets go.',
-    ],
+    ['Still open: why the twelve cannot simply kill him.'],
   ],
   memberships: [
     {
