@@ -128,7 +128,7 @@ function FleetBattle({ roster }: { roster: FleetRoster }) {
   const legend = legendAt(plan, hud)
 
   return (
-    <div className="absolute inset-0 flex overflow-hidden bg-[rgb(3_10_14)]">
+    <div className="absolute inset-0 flex overflow-hidden bg-[rgb(3_10_14)] portrait:flex-col">
       <IconSprites icons={icons} plan={plan} />
       <div ref={frame} className="relative min-w-0 flex-1 overflow-hidden">
         <canvas ref={canvas} className="absolute inset-0 size-full" />
@@ -141,7 +141,7 @@ function FleetBattle({ roster }: { roster: FleetRoster }) {
           className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_60%,rgb(0_0_0/0.7)_100%)]"
         />
 
-        <div className="absolute bottom-[4vh] left-[2.5vw] font-mono text-teal-200/90 uppercase">
+        <div className="absolute bottom-[4vh] left-[2.5vw] font-mono text-teal-200/90 uppercase portrait:hidden">
           <p className="text-[clamp(0.8rem,1.6vh,1.3rem)] tracking-[0.35em] text-teal-300/60">
             Fleet track · live
           </p>
@@ -156,7 +156,7 @@ function FleetBattle({ roster }: { roster: FleetRoster }) {
         {caption ? (
           <p
             key={caption.text}
-            className="fleet-caption absolute inset-x-0 top-[4vh] text-center font-mono text-[clamp(1.2rem,3.2vh,2.8rem)] font-semibold tracking-[0.18em] text-amber-200 uppercase [text-shadow:0_0_30px_rgb(251_191_36/0.55)]"
+            className="fleet-caption absolute inset-x-0 top-[4vh] px-4 text-center font-mono text-[clamp(1.2rem,3.2vh,2.8rem)] font-semibold tracking-[0.18em] text-amber-200 uppercase [text-shadow:0_0_30px_rgb(251_191_36/0.55)] portrait:top-16"
           >
             {caption.text}
           </p>
@@ -188,7 +188,7 @@ function FleetLegend({
   return (
     <aside
       aria-label="Legend"
-      className="relative z-10 flex w-[min(30vw,34rem)] shrink-0 flex-col gap-[1.6vh] overflow-hidden border-l border-teal-400/20 bg-[rgb(4_14_20/0.92)] px-[1.4vw] py-[3vh] font-mono uppercase"
+      className="relative z-10 flex w-[min(30vw,34rem)] shrink-0 flex-col gap-[1.6vh] overflow-hidden border-l border-teal-400/20 bg-[rgb(4_14_20/0.92)] px-[1.4vw] py-[3vh] font-mono uppercase portrait:max-h-[42dvh] portrait:w-full portrait:overflow-y-auto portrait:border-t portrait:border-l-0 portrait:px-4 portrait:py-3"
     >
       <p className="text-[clamp(0.75rem,1.5vh,1.2rem)] tracking-[0.35em] text-teal-300/60">
         Legend · lost {counts.lost}
@@ -197,7 +197,7 @@ function FleetLegend({
         const ships = rows.filter((row) => row.side === index)
         const colour = SIDE_COLOURS[index]!
         return (
-          <section key={side.key} className="flex min-h-0 flex-col gap-[0.5vh]">
+          <section key={side.key} className="flex min-h-0 flex-col gap-[0.5vh] portrait:shrink-0">
             <h2
               className="flex items-baseline justify-between gap-[1vw] border-b pb-[0.4vh] text-[clamp(0.9rem,2vh,1.6rem)] font-semibold tracking-[0.14em]"
               style={{ color: colour, borderColor: withAlpha(colour, 0.35) }}
@@ -410,15 +410,18 @@ function drawBattle(
     )
     context.stroke()
   }
-  const sweep = context.createConicGradient(time * 1.4, centre.x, centre.y)
-  sweep.addColorStop(0, `${RADAR} / 0.22)`)
-  sweep.addColorStop(0.07, `${RADAR} / 0.04)`)
-  sweep.addColorStop(0.12, `${RADAR} / 0)`)
-  sweep.addColorStop(1, `${RADAR} / 0)`)
-  context.fillStyle = sweep
-  context.beginPath()
-  context.arc(centre.x, centre.y, 1100 * unitPx, 0, Math.PI * 2)
-  context.fill()
+  // The sweep needs conic gradients, which older Safari lacks; the radar plays without it there.
+  if ('createConicGradient' in context) {
+    const sweep = context.createConicGradient(time * 1.4, centre.x, centre.y)
+    sweep.addColorStop(0, `${RADAR} / 0.22)`)
+    sweep.addColorStop(0.07, `${RADAR} / 0.04)`)
+    sweep.addColorStop(0.12, `${RADAR} / 0)`)
+    sweep.addColorStop(1, `${RADAR} / 0)`)
+    context.fillStyle = sweep
+    context.beginPath()
+    context.arc(centre.x, centre.y, 1100 * unitPx, 0, Math.PI * 2)
+    context.fill()
+  }
   context.restore()
 
   drawFortress(context, plan, view, time)
@@ -1114,16 +1117,15 @@ function useElementSize(ref: React.RefObject<HTMLElement | null>) {
 }
 
 /**
- * The battle's clock in battle seconds, slow motion included. R restarts it; reduced motion jumps
- * to the end.
+ * The battle's clock in battle seconds, slow motion included. R restarts it. The replay is
+ * something the viewer chose to watch, so it plays even with reduced motion turned on; iPhones
+ * with Reduce Motion would otherwise only ever show the final frame.
  */
 function useBattleClock(plan: BattlePlan) {
   const clock = useMemo(() => {
     let start = performance.now()
-    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
     return {
       now: () => {
-        if (reduced) return plan.times.end
         const real = Math.min(playbackLength(plan), (performance.now() - start) / 1000)
         return battleTimeAt(plan, real)
       },
