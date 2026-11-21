@@ -186,13 +186,6 @@
   }
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .ink-glyph[data-state='settled'],
-  .ink-shake {
-    animation: none;
-  }
-}
-
 /* The DM's ping on the player screen: rings that grow from the spot and fade. */
 .player-screen-ping {
   translate: -50% -50%;
@@ -350,18 +343,6 @@
   animation-timing-function: cubic-bezier(0.65, 0, 0.2, 1);
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .fleet-title,
-  .fleet-caption,
-  .fleet-build,
-  .fleet-bar-build,
-  .fleet-explode,
-  .fleet-lost,
-  .fleet-flash {
-    animation: none;
-  }
-}
-
 /* The fleet battle's legend: a ship switching sides flashes between the two sides' colours. */
 .fleet-legend-switch {
   animation: fleet-legend-switch 0.35s steps(1, end) infinite;
@@ -454,11 +435,12 @@
   }
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .fleet-legend-switch,
-  .fleet-legend-explode,
-  .fleet-legend-burst,
-  .fleet-legend-skull {
-    animation: none;
-  }
+/* The novel: comic lettering and printed halftone dots. */
+.novel-lettering {
+  font-family: 'Chalkboard SE', 'Comic Neue', 'Comic Sans MS', 'Marker Felt', cursive;
+}
+
+.novel-halftone {
+  background-image: radial-gradient(rgb(0 0 0 / 0.14) 1px, transparent 1.4px);
+  background-size: 7px 7px;
 }

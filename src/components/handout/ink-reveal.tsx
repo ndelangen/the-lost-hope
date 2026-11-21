@@ -3,14 +3,11 @@ import { useEffect, useState } from 'react'
 import { INK_TIMING, inkDuration, inkFrame } from '#/lib/ink-reveal'
 import { cn } from '#/lib/utils'
 
-function prefersReducedMotion(): boolean {
-  return typeof matchMedia === 'function' && matchMedia('(prefers-reduced-motion: reduce)').matches
-}
-
 /** Writes handwritten text onto the page letter by letter, as if the ink were coming back. */
 export function InkReveal({ text, className }: { text: string; className?: string }) {
   const duration = inkDuration(text, INK_TIMING)
-  const [elapsed, setElapsed] = useState(() => (prefersReducedMotion() ? duration : 0))
+  // A story reveal: it plays even with reduced motion turned on.
+  const [elapsed, setElapsed] = useState(0)
 
   useEffect(() => {
     if (elapsed >= duration) return

@@ -326,19 +326,15 @@ function allMarkers(entries: readonly FleetShipEntry[]) {
 
 /**
  * Steps through the frames on their schedule. A frame that moves ships is applied inside a view
- * transition, so each ship slides from its old place to its new one. Reduced motion shows the
- * final frame straight away. R replays the sequence.
+ * transition, so each ship slides from its old place to its new one. It plays even with reduced
+ * motion turned on, as a story moment. R replays the sequence.
  */
 function useFramePlayback(frames: readonly FleetFrame[]): { frame: FleetFrame; index: number } {
   const last = frames.length - 1
-  const [index, setIndex] = useState(() => (prefersReducedMotion() ? last : 0))
+  const [index, setIndex] = useState(0)
   const [run, setRun] = useState(0)
 
   useEffect(() => {
-    if (prefersReducedMotion()) {
-      setIndex(last)
-      return
-    }
     setIndex(0)
     const timers = frames.slice(1).map((frame, offset) =>
       window.setTimeout(() => {
@@ -359,10 +355,4 @@ function useFramePlayback(frames: readonly FleetFrame[]): { frame: FleetFrame; i
   }, [])
 
   return { frame: frames[Math.min(index, last)]!, index: Math.min(index, last) }
-}
-
-function prefersReducedMotion(): boolean {
-  return (
-    typeof window !== 'undefined' && window.matchMedia('(prefers-reduced-motion: reduce)').matches
-  )
 }

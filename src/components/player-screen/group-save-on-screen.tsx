@@ -87,10 +87,6 @@ export function GroupSaveOnScreen({ storageKey, save }: { storageKey: string; sa
 
 type Reveal = { phase: 'waiting' | 'tumbling' | 'landed'; face: number }
 
-function prefersReducedMotion(): boolean {
-  return window.matchMedia('(prefers-reduced-motion: reduce)').matches
-}
-
 /**
  * Plays one line's result in: the die tumbles through random faces, then lands. A result that is
  * already there when the line appears waits its turn, so a whole page lands as one ripple.
@@ -106,11 +102,6 @@ function useReveal(row: GroupSaveRow, order: number): Reveal {
       setReveal((current) => ({ ...current, phase: 'waiting' }))
       return
     }
-    if (prefersReducedMotion()) {
-      setReveal((current) => ({ ...current, phase: 'landed' }))
-      return
-    }
-
     const withThePage = performance.now() - appearedAt.current < 300
     const lead = withThePage ? PAGE_IN_MS + order * RIPPLE_MS : 0
     setReveal((current) => ({ ...current, phase: 'tumbling' }))
@@ -140,7 +131,7 @@ function ScreenRow({ row, save, order }: { row: GroupSaveRow; save: GroupSave; o
 
   // The moment it lands: a bond that holds swells and glows, one that snaps jolts and flashes.
   useEffect(() => {
-    if (!card.current || (!passed && !failed) || prefersReducedMotion()) return
+    if (!card.current || (!passed && !failed)) return
     const glow = passed ? '110 231 183' : '248 113 113'
     card.current.animate(
       passed
