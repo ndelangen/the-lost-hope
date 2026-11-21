@@ -188,7 +188,7 @@ function FleetLegend({
   return (
     <aside
       aria-label="Legend"
-      className="relative z-10 flex w-[min(30vw,34rem)] shrink-0 flex-col gap-[1.6vh] overflow-hidden border-l border-teal-400/20 bg-[rgb(4_14_20/0.92)] px-[1.4vw] py-[3vh] font-mono uppercase portrait:max-h-[42dvh] portrait:w-full portrait:overflow-y-auto portrait:border-t portrait:border-l-0 portrait:px-4 portrait:py-3"
+      className="relative z-10 flex w-[min(30vw,34rem)] shrink-0 flex-col gap-[1.6vh] overflow-y-auto border-l border-teal-400/20 bg-[rgb(4_14_20/0.92)] px-[1.4vw] py-[3vh] font-mono uppercase [scrollbar-width:none] portrait:max-h-[42dvh] portrait:w-full portrait:border-t portrait:border-l-0 portrait:px-4 portrait:py-3"
     >
       <p className="text-[clamp(0.75rem,1.5vh,1.2rem)] tracking-[0.35em] text-teal-300/60">
         Legend · lost {counts.lost}
@@ -197,7 +197,7 @@ function FleetLegend({
         const ships = rows.filter((row) => row.side === index)
         const colour = SIDE_COLOURS[index]!
         return (
-          <section key={side.key} className="flex min-h-0 flex-col gap-[0.5vh] portrait:shrink-0">
+          <section key={side.key} className="flex shrink-0 flex-col gap-[0.5vh]">
             <h2
               className="flex items-baseline justify-between gap-[1vw] border-b pb-[0.4vh] text-[clamp(0.9rem,2vh,1.6rem)] font-semibold tracking-[0.14em]"
               style={{ color: colour, borderColor: withAlpha(colour, 0.35) }}
@@ -205,7 +205,7 @@ function FleetLegend({
               <span className="truncate">{side.name}</span>
               <span className="tabular-nums">{counts.flying[index]}</span>
             </h2>
-            <ul className="grid gap-[0.25vh]">
+            <ul className="grid grid-cols-[minmax(0,1fr)] gap-[0.25vh]">
               {ships.map((row) => (
                 <LegendShip key={row.key} row={row} colour={colour} place={place} />
               ))}

@@ -43,10 +43,11 @@ function ReplayPage() {
       <Link
         to="/events/detail/$slug"
         params={{ slug: entity.slug }}
-        className="absolute right-[calc(min(30vw,34rem)+1rem)] bottom-4 z-10 flex max-w-[40vw] items-center gap-2 truncate rounded-full bg-white/10 px-4 py-2 text-sm font-medium ring-1 ring-white/20 backdrop-blur hover:bg-white/20 portrait:top-3 portrait:right-auto portrait:bottom-auto portrait:left-3"
+        className="absolute right-[calc(min(30vw,34rem)+1rem)] bottom-4 z-10 flex max-w-[40vw] items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-sm font-medium ring-1 ring-white/20 backdrop-blur hover:bg-white/20 portrait:top-3 portrait:right-auto portrait:bottom-auto portrait:left-3 portrait:max-w-[calc(100vw-1.5rem)] [@media(max-height:30rem)]:px-2.5"
+        aria-label={`Back to ${entity.data.name}`}
       >
-        <ArrowLeft className="size-4" aria-hidden />
-        {entity.data.name}
+        <ArrowLeft className="size-4 shrink-0" aria-hidden />
+        <span className="truncate [@media(max-height:30rem)]:hidden">{entity.data.name}</span>
       </Link>
     </div>
   )
