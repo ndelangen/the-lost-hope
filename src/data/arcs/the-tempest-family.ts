@@ -237,7 +237,7 @@ export default createArc({
           refs.npcs.onana_tempest,
           ' gives ',
           refs.items.little_purple,
-          ' back, readied for combat as far as his crew got, and sends them away with one piece of advice: go to a guildhall. Do they take it?',
+          ' back with two more cannons and a boarding torpedo tube, and sends them away with one piece of advice: go to a guildhall. Do they take it?',
         ],
       ],
       scene: refs.scenes.onana_sends_the_party_on,

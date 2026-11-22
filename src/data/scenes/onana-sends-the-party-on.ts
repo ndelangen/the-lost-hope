@@ -70,7 +70,13 @@ export default createScene({
           ],
         },
         {
-          note: [['What his crew had already fitted when the work stopped is not worked out yet.']],
+          note: [
+            [
+              'His crew got as far as two more cannons, four in all, and one boarding torpedo tube like the one the party rode in ',
+              refs.scenes.boarding_ride_the_lightning,
+              '. She has no extra armour.',
+            ],
+          ],
         },
       ],
     },
