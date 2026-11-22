@@ -67,5 +67,26 @@ export default createArc({
         ],
       ],
     },
+    {
+      name: 'Why is nobody asking?',
+      hook: [
+        [
+          refs.npcs.hex,
+          ' cannot watch the party go on simple adventures any longer. Do they hear the question inside the taunt?',
+        ],
+      ],
+      npcs: [refs.npcs.light_13th_marshal],
+      scene: refs.scenes.hex_loses_patience,
+    },
+    {
+      name: 'The first part of the test',
+      hook: [
+        [
+          refs.npcs.light_13th_marshal,
+          ' explains nothing until he is asked. What does the party ask him, and what do they do with the answers?',
+        ],
+      ],
+      scene: refs.scenes.questions_for_light,
+    },
   ],
 })

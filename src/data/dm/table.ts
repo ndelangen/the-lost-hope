@@ -22,5 +22,7 @@ export default createTable({
     refs.scenes.fix_s_last_delivery,
     refs.scenes.light_walks_auren_through_fajanet,
     refs.scenes.the_bard_s_new_song,
+    refs.scenes.hex_loses_patience,
+    refs.scenes.questions_for_light,
   ],
 })

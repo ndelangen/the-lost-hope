@@ -664,6 +664,8 @@ export const refs = {
     fix_s_last_delivery: ref('scene', 'fix_s_last_delivery'),
     light_walks_auren_through_fajanet: ref('scene', 'light_walks_auren_through_fajanet'),
     the_bard_s_new_song: ref('scene', 'the_bard_s_new_song'),
+    hex_loses_patience: ref('scene', 'hex_loses_patience'),
+    questions_for_light: ref('scene', 'questions_for_light'),
   },
   creatures: {
     alchemist: ref('creature', 'alchemist'),
