@@ -79,7 +79,7 @@ data changes.
   `assets/images.lock.json` records each registered original by SHA-256 and is derived: never edit
   it by hand. `bun run media:sync` fetches missing art, uploads new or edited art with the Mac's
   `wrangler` login, and rewrites the lock; commit the lock it writes. `generate:images` (and so dev,
-  tests and builds) fetches missing originals automatically, from a store shared by all worktrees,
+  tests and builds) fetches missing originals automatically, from one store shared by every clone and worktree on the machine (`~/.cache/the-lost-hope/media-originals`),
   and refuses to run while a file differs from the lock. A lock conflict is resolved by running
   `media:sync`.
 - Without the Mac's `wrangler` login (cloud sessions), commit new originals with

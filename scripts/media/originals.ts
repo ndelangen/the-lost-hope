@@ -1,13 +1,13 @@
 /**
  * Original artwork lives in Cloudflare R2, not git. `assets/images.lock.json` records each
  * registered original by content, and every checkout materialises the files from a store shared
- * by all worktrees of the repository. See AGENTS.md, "Original artwork".
+ * by every clone and worktree on this machine. See AGENTS.md and the campaign-images skill.
  */
 import { execFileSync } from 'node:child_process'
 import { createHash, randomUUID } from 'node:crypto'
 import { constants, existsSync } from 'node:fs'
 import { copyFile, mkdir, readFile, rename, stat, writeFile } from 'node:fs/promises'
-import { availableParallelism } from 'node:os'
+import { availableParallelism, homedir } from 'node:os'
 import { dirname, extname, join } from 'node:path'
 
 import { RESPONSIVE_IMAGE_SOURCES } from '../image-sources.ts'
@@ -121,7 +121,7 @@ export async function resolveConflictedLock(): Promise<boolean> {
   return true
 }
 
-function gitPath(flag: '--git-common-dir' | '--git-dir'): string | undefined {
+function gitPath(flag: '--git-dir'): string | undefined {
   try {
     return git('rev-parse', '--path-format=absolute', flag).trim()
   } catch {
@@ -129,11 +129,13 @@ function gitPath(flag: '--git-common-dir' | '--git-dir'): string | undefined {
   }
 }
 
-/** One content-addressed copy of every original, shared by all worktrees of this repository. */
-const STORE = join(
-  gitPath('--git-common-dir') ?? join(ROOT, 'node_modules/.cache'),
-  'media-originals',
-)
+/**
+ * One content-addressed copy of every original in a single folder on this machine, shared by every
+ * clone and worktree, so a new checkout downloads only art this machine has never seen.
+ * `MEDIA_STORE` overrides it.
+ */
+export const STORE =
+  process.env.MEDIA_STORE ?? join(homedir(), '.cache', 'the-lost-hope', 'media-originals')
 
 /** What this checkout last synced, to tell a stale file from one edited locally. */
 const SYNCED_PATH = join(

@@ -59,7 +59,7 @@ delete the file, then `bun run media:sync` (it drops the lock entry). R2 keeps t
 ## Getting a checkout's images
 
 `generate:images`, and so `dev`, `test`, `build` and `verify`, fetches any missing original by
-itself. Every worktree of the repository shares one store in the git folder, so only art this Mac
+itself. Every clone and worktree on the Mac shares one store, `~/.cache/the-lost-hope/media-originals`, so only art this Mac
 has never seen is downloaded. After that it works offline.
 
 ## Errors
