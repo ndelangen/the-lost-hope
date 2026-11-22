@@ -175,6 +175,30 @@ export default createArc({
       ],
       npcs: [refs.npcs.the_father],
       scene: refs.scenes.the_bard_s_new_song,
+      notes: [
+        [
+          'The plan is for bards to become the way ',
+          refs.pcs.jim,
+          ' reaches the party over the whole campaign, so that the party starts seeking them out. The DM decides when a bard has a new song; most only sing ordinary ones.',
+        ],
+        [
+          'A second bard with a song that came in the night confirms the pattern. Each song carries one thing: a direction, a warning, or a name, hidden the same way.',
+        ],
+        [
+          'Later, a song may answer something the party had a bard sing, which tells them ',
+          refs.pcs.jim,
+          ' can hear what is sung back. Hold that for when the hunt should speed up.',
+        ],
+        [
+          'One day a song may be a fake written by ',
+          refs.npcs.the_father,
+          ': it rhymes perfectly, with no key word where the rhyme should be. The missing key word is how the party can tell.',
+        ],
+        [
+          refs.npcs.onana_tempest,
+          ' is a bard and can tell the party that a song arriving whole in the night is not normal.',
+        ],
+      ],
     },
   ],
 })
