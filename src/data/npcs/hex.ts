@@ -20,7 +20,7 @@ export default createNPC({
     [
       'Truly loyal to ',
       refs.npcs.light_13th_marshal,
-      '. Hex has passed his test and been accepted into the lower ranks of what the ',
+      '. Hex has passed the test and been accepted into the lower ranks of what the ',
       refs.organizations.adventurers_guild,
       ' really is.',
     ],
