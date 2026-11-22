@@ -8,6 +8,7 @@ import hex_loses_patience from './hex-loses-patience.ts'
 import light_reads_onana_s_letter from './light-reads-onana-s-letter.ts'
 import light_walks_auren_through_fajanet from './light-walks-auren-through-fajanet.ts'
 import onana_calls_the_party_to_war from './onana-calls-the-party-to-war.ts'
+import onana_sends_the_party_on from './onana-sends-the-party-on.ts'
 import picking_up_swift_at_nimbus from './picking-up-swift-at-nimbus.ts'
 import questions_for_light from './questions-for-light.ts'
 import running_from_the_battle_cruiser from './running-from-the-battle-cruiser.ts'
@@ -36,6 +37,7 @@ export default {
   boarding_ride_the_lightning,
   taking_back_a_battle_cruiser,
   garran_comes_for_the_cruiser,
+  onana_sends_the_party_on,
   fix_s_last_delivery,
   light_walks_auren_through_fajanet,
   the_bard_s_new_song,

@@ -14,9 +14,13 @@ export default createScene({
       '.',
     ],
     [
-      'It mirrors ',
+      'It comes after ',
       refs.scenes.light_walks_auren_through_fajanet,
-      ', where he only asked. Here he only answers: exactly what he is asked, truthfully, and nothing more. A vague question gets a small answer and a sharp one gets a lot. A question they have not earned yet he meets with a question of his own.',
+      ', where he spoke to ',
+      refs.pcs.auren,
+      ' alone and only asked. Once ',
+      refs.pcs.auren,
+      ' has passed, he only answers: exactly what he is asked, truthfully, and nothing more. A vague question gets a small answer and a sharp one gets a lot. A question they have not earned yet he meets with a question of his own.',
     ],
     [
       'There is no order to this scene. Let the players lead, and play whichever answer below fits what they ask. The second part of the test is not worked out yet.',

@@ -17,13 +17,17 @@ export default createTable({
     refs.scenes.onana_calls_the_party_to_war,
     refs.scenes.boarding_ride_the_lightning,
   ],
-  likely: [refs.scenes.taking_back_a_battle_cruiser, refs.scenes.garran_comes_for_the_cruiser],
+  likely: [
+    refs.scenes.taking_back_a_battle_cruiser,
+    refs.scenes.garran_comes_for_the_cruiser,
+    refs.scenes.onana_sends_the_party_on,
+  ],
   ready: [
-    refs.scenes.fix_s_last_delivery,
-    refs.scenes.light_walks_auren_through_fajanet,
-    refs.scenes.the_bard_s_new_song,
     refs.scenes.hex_loses_patience,
+    refs.scenes.light_walks_auren_through_fajanet,
+    refs.scenes.fix_s_last_delivery,
     refs.scenes.questions_for_light,
+    refs.scenes.the_bard_s_new_song,
     refs.scenes.light_reads_onana_s_letter,
   ],
 })

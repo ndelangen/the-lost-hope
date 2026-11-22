@@ -230,6 +230,19 @@ export default createArc({
       scene: refs.scenes.garran_comes_for_the_cruiser,
     },
     {
+      name: 'A debt and a word of advice',
+      hook: [
+        [
+          'If the party hands the cruiser over, ',
+          refs.npcs.onana_tempest,
+          ' gives ',
+          refs.items.little_purple,
+          ' back, readied for combat as far as his crew got, and sends them away with one piece of advice: go to a guildhall. Do they take it?',
+        ],
+      ],
+      scene: refs.scenes.onana_sends_the_party_on,
+    },
+    {
       name: 'A letter instead of a fleet',
       hook: [
         [

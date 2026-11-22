@@ -7,9 +7,12 @@ export default createScene({
   npcs: [refs.npcs.hex],
   setup: [
     [
-      'The guildhall is a stand-in: play it wherever the party next runs into ',
       refs.npcs.hex,
-      ', once they have been members for a while and still have not asked ',
+      ' is waiting in the guildhall the party goes to on the advice of ',
+      refs.npcs.onana_tempest,
+      ' in ',
+      refs.scenes.onana_sends_the_party_on,
+      '. They have been members for a while and still have not asked ',
       refs.npcs.light_13th_marshal,
       ' a single hard question.',
     ],
@@ -73,7 +76,20 @@ export default createScene({
         {
           icon: 'gi/GiPathDistance',
           when: [['They decide to go and ask.']],
-          response: [['Run ', refs.scenes.questions_for_light, ' when they reach him.']],
+          response: [
+            [
+              refs.npcs.light_13th_marshal,
+              ' first wishes to speak to ',
+              refs.pcs.auren,
+              ' alone: run ',
+              refs.scenes.light_walks_auren_through_fajanet,
+              '. Once ',
+              refs.pcs.auren,
+              ' passes, run ',
+              refs.scenes.questions_for_light,
+              '.',
+            ],
+          ],
         },
         {
           icon: 'gi/GiShrug',

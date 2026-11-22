@@ -661,6 +661,7 @@ export const refs = {
     boarding_ride_the_lightning: ref('scene', 'boarding_ride_the_lightning'),
     taking_back_a_battle_cruiser: ref('scene', 'taking_back_a_battle_cruiser'),
     garran_comes_for_the_cruiser: ref('scene', 'garran_comes_for_the_cruiser'),
+    onana_sends_the_party_on: ref('scene', 'onana_sends_the_party_on'),
     fix_s_last_delivery: ref('scene', 'fix_s_last_delivery'),
     light_walks_auren_through_fajanet: ref('scene', 'light_walks_auren_through_fajanet'),
     the_bard_s_new_song: ref('scene', 'the_bard_s_new_song'),
