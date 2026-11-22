@@ -70,5 +70,7 @@ has never seen is downloaded. After that it works offline.
   Find the file (often on another branch or in `output/`) and add it, or remove the registration.
 - "could not fetch": offline, or the object is missing. Reconnect and retry.
 - `media:gate` "committed to git": run `bun run media:sync --adopt` on the Mac and commit.
+- `media:gate` "not in R2": the lock was committed without uploading. Run `bun run media:sync`
+  on the Mac.
 - A conflict in `assets/images.lock.json` after a merge: run `bun run media:sync`. It keeps both
   sides and stops only if the same path has two different images.
