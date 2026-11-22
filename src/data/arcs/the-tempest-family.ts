@@ -98,6 +98,7 @@ export default createArc({
     },
     {
       name: 'A shadow on the crossing',
+      status: 'closed',
       hook: [
         [
           'A battle-cruiser orders them to heave to and casts its hooks. Do they run, cut loose, talk, or stop?',
