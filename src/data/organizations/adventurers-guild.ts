@@ -27,5 +27,10 @@ export default createOrganization({
       refs.npcs.the_father,
       ' cannot write in a tattooed member or bring one under his control.',
     ],
+    [
+      'The protection lasts only as long as the tattoo does. Once the tattooed flesh is cut away, the member can be written in like anyone else. That is the one way past it, and it gives ',
+      refs.organizations.the_eyeless_hand,
+      ' a reason to take members alive.',
+    ],
   ],
 })
