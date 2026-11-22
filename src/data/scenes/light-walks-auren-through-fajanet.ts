@@ -58,6 +58,15 @@ export default createScene({
         {
           note: [
             [
+              'Not passing the walk is the death of ',
+              refs.pcs.auren,
+              '. Consider briefing his player beforehand that this scene can kill his character, without saying how.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
               refs.pcs.auren,
               '’s player is the campaign’s previous DM, who created ',
               refs.locations.fajanet,
@@ -267,18 +276,11 @@ export default createScene({
               icon: 'gi/GiShadowGrasp',
               when: [['The shadow takes ', refs.pcs.auren, '.']],
               response: [
+                [refs.pcs.auren, ' has not passed the walk, and he dies.'],
                 [
                   'Writing is remembering: what the shadow strips from him ends up in the records of ',
                   refs.npcs.light_13th_marshal,
-                  ', who reads him that way. At dawn he pulls ',
-                  refs.pcs.auren,
-                  ' back out by the fountain, missing one memory. ',
-                  refs.pcs.auren,
-                  '’s player chooses which. Now ',
-                  refs.npcs.light_13th_marshal,
-                  ' knows him, and ',
-                  refs.pcs.auren,
-                  ' knows that he knows.',
+                  ', who reads him that way.',
                 ],
               ],
             },
