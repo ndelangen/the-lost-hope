@@ -67,6 +67,7 @@ export default createArc({
     },
     {
       name: 'The crossing is shut',
+      status: 'closed',
       hook: [['The beam took a ferry, and the army is taking the other. How do they get across?']],
       scene: refs.scenes.the_clogged_ferry_landing,
       events: [refs.events.n2_e212, refs.events.n2_e213],
