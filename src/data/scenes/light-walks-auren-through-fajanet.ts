@@ -116,6 +116,9 @@ export default createScene({
               refs.npcs.light_13th_marshal,
               ' asks and never answers. He turns every question back, or lets it hang. He watches for anything that sounds too informed or too rehearsed.',
             ],
+            [
+              'Keep to the rhythm: a serious question, then a casual one, then a serious one, then a casual one. The casual ones keep him friendly and hard to read.',
+            ],
           ],
         },
         {
@@ -125,6 +128,10 @@ export default createScene({
             ['This ballet of balance: the good and the evil clashing, shifting.'],
             ['And the poison infesting the world. What do you make of it?'],
           ],
+        },
+        {
+          speaker: refs.npcs.light_13th_marshal,
+          say: [['Do you sleep? I never got the hang of it myself.']],
         },
         {
           speaker: refs.npcs.light_13th_marshal,
@@ -141,19 +148,19 @@ export default createScene({
         },
         {
           speaker: refs.npcs.light_13th_marshal,
-          say: [
-            ['You must understand, ', refs.pcs.auren, '.'],
+          say: [['Which do you like better here: the fountain or the mountains?']],
+        },
+        {
+          speaker: refs.npcs.light_13th_marshal,
+          say: [['Do you have a perfect memory?']],
+        },
+        {
+          note: [
             [
-              'I spend every hour of every day, that I can, recording in an attempt to save what would otherwise be lost.',
+              'If he answers no, the test is reduced to one thing: is the level of fear he shows tonight correct? If it is, ',
+              refs.npcs.light_13th_marshal,
+              ' saves him.',
             ],
-            ['If you have the ability of perfect memory, you must disable it.'],
-            [
-              'For if that were to fall in the wrong hands, there would be no end to the suffering.',
-            ],
-            ['Even I am very tempted to put it to use, even against your will, you see.'],
-            ['Surely you’ve been here long enough to see the patterns.'],
-            ['So this cannot come as a surprise to you.'],
-            ['I cannot permit you to exist as such.'],
           ],
         },
       ],
@@ -164,8 +171,9 @@ export default createScene({
         {
           note: [
             [
+              'Until he says he is leaving, ',
               refs.npcs.light_13th_marshal,
-              ' never hints at danger. He stays super casual and friendly to the end.',
+              ' never hints at danger. He stays super casual and friendly.',
             ],
           ],
         },
@@ -189,6 +197,30 @@ export default createScene({
               'The excuse is true, and it is a hint: time he spends talking is time he is not writing. What that costs is in the background of ',
               refs.npcs.light_13th_marshal,
               '. Do not explain it here.',
+            ],
+          ],
+        },
+        {
+          speaker: refs.npcs.light_13th_marshal,
+          say: [
+            ['You must understand, ', refs.pcs.auren, '.'],
+            [
+              'I spend every hour of every day, that I can, recording in an attempt to save what would otherwise be lost.',
+            ],
+            ['If you have the ability of perfect memory, you must disable it.'],
+            [
+              'For if that were to fall in the wrong hands, there would be no end to the suffering.',
+            ],
+            ['Even I am very tempted to put it to use, even against your will, you see.'],
+            ['Surely you’ve been here long enough to see the patterns.'],
+            ['So this cannot come as a surprise to you.'],
+            ['I cannot permit you to exist as such.'],
+          ],
+        },
+        {
+          note: [
+            [
+              'He says this once he has said he is leaving. The wording is a draft: it gives the vibe and is not finished yet.',
             ],
           ],
         },
