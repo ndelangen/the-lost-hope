@@ -131,6 +131,11 @@ export default createScene({
         [
           'They also need to get their bearings first: they spent some time aboard the ship, and it moved and turned a lot.',
         ],
+        [
+          'The smoke tracks ',
+          refs.npcs.the_fiddler,
+          ', and he is no longer aboard the fortress. The trail does not lead there any more.',
+        ],
       ],
     },
   ],

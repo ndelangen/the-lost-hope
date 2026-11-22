@@ -114,6 +114,11 @@ export default createScene({
                   refs.organizations.tempest_family,
                   '.',
                 ],
+                [
+                  'The smoke tracks ',
+                  refs.npcs.the_fiddler,
+                  ', and he is no longer aboard the fortress. The trail does not lead there any more.',
+                ],
               ],
             },
             {
