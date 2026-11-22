@@ -178,6 +178,7 @@ export default createArc({
     },
     {
       name: 'Getting aboard',
+      status: 'closed',
       hook: [
         [
           'A boarding torpedo that holds one person at a time, or a way of their own. How does the party get onto ',
