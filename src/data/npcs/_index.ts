@@ -80,6 +80,7 @@ import the_fiddler from './the-fiddler.ts'
 import the_merchant_skipper from './the-merchant-skipper.ts'
 import the_mountain from './the-mountain.ts'
 import throne_figure_in_jim_s_vision from './throne-figure-in-jim-s-vision.ts'
+import tobin_reedwhistle from './tobin-reedwhistle.ts'
 import verdant_haven_rangers from './verdant-haven-rangers.ts'
 
 export default {
@@ -167,4 +168,5 @@ export default {
   captain_blackthorn,
   the_merchant_skipper,
   rhys_s_parents,
+  tobin_reedwhistle,
 }

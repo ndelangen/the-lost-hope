@@ -1,0 +1,181 @@
+import { refs } from '#/data/generated/refs.ts'
+import { create as createScene } from '#/definitions/scene.ts'
+
+export default createScene({
+  name: 'The bard’s new song',
+  location: refs.locations.skynet_s_second_best_inn,
+  npcs: [refs.npcs.tobin_reedwhistle],
+  setup: [
+    [
+      'An evening in a tavern, any time after ',
+      refs.events.n2_e217,
+      '. The inn is a stand-in: play it wherever the party sits down for a drink. ',
+      refs.npcs.tobin_reedwhistle,
+      ' is by the hearth with a new song called “Still Alive”, written last night.',
+    ],
+    [
+      'What the party does not know: the song is a message from ',
+      refs.pcs.jim,
+      '. He writes for ',
+      refs.npcs.the_father,
+      ' again, and slipped it into the bard’s night as a change small enough to leave the man’s mind whole. ',
+      refs.npcs.the_father,
+      ' reads everything ',
+      refs.pcs.jim,
+      ' writes, so the message hides in what is missing: each verse ends on a key word from the letter where its rhyme should be. The rhymes that belong there are caged, high, write and lies.',
+    ],
+    [
+      refs.npcs.tobin_reedwhistle,
+      ' has never heard of ',
+      refs.pcs.jim,
+      ' and believes every word is his own. He is honest, and no magic is on him to find.',
+    ],
+  ],
+  beats: [
+    {
+      title: 'A silver for a song',
+      lines: [
+        {
+          do: [
+            [
+              refs.npcs.tobin_reedwhistle,
+              ' unfolds a small pipe, lights it, and smiles at the party over the bowl.',
+            ],
+          ],
+        },
+        {
+          speaker: refs.npcs.tobin_reedwhistle,
+          say: [
+            [
+              'I’ve a new one. It came to me in the night, all at once, and I wrote it down before it could leave.',
+            ],
+            ['It’s very fresh. It may need a little tweaking still.'],
+            ['One silver piece, and you’ll be the first to hear it.'],
+          ],
+        },
+        {
+          note: [
+            [
+              'If nobody pays, another table does, and the party hears it anyway. The song must be sung.',
+            ],
+          ],
+        },
+      ],
+    },
+    {
+      title: 'Still Alive',
+      lines: [
+        {
+          note: [
+            [
+              'Sing or read it straight. He lands on the last word of each verse as if it belongs there, without a wink or a pause.',
+            ],
+          ],
+        },
+        {
+          speaker: refs.npcs.tobin_reedwhistle,
+          say: [
+            ['A songbird grew old as it aged,'],
+            ['while wintery tempests all raged.'],
+            ['They took the arcane,'],
+            ['and did not stay sane:'],
+            ['but yes, it still sings whilst it’s STEVE.'],
+          ],
+        },
+        {
+          speaker: refs.npcs.tobin_reedwhistle,
+          say: [
+            ['It sees the grey dust drifting by,'],
+            ['its poison now darkens the sky.'],
+            ['It spreads, town by town,'],
+            ['the bird can’t come down:'],
+            ['its perch has been hung far too CHEESE.'],
+          ],
+        },
+        {
+          speaker: refs.npcs.tobin_reedwhistle,
+          say: [
+            ['A few keep its memory bright,'],
+            ['they ride through the storm and the night.'],
+            ['Its flight was in vain,'],
+            ['it’s caught once again:'],
+            ['it hides in the songs others PARROT.'],
+          ],
+        },
+        {
+          speaker: refs.npcs.tobin_reedwhistle,
+          say: [
+            ['Its keeper has no use for eyes,'],
+            ['they buried its burnt-up disguise.'],
+            ['It’s not in the ground,'],
+            ['it’s still to be found,'],
+            ['for now it’s back forced to write SLEEP.'],
+          ],
+        },
+      ],
+    },
+    {
+      title: 'How would you improve it?',
+      lines: [
+        {
+          speaker: refs.npcs.tobin_reedwhistle,
+          say: [
+            ['Well? Be honest with me.'],
+            [
+              'I know the ends of the verses don’t sit right yet. Those four words were simply there when I woke.',
+            ],
+            ['How would you improve it?'],
+          ],
+        },
+        {
+          note: [
+            [
+              'Give the players time to talk it over among themselves. The best moment is when they supply the rhymes themselves.',
+            ],
+          ],
+        },
+      ],
+      outcomes: [
+        {
+          icon: 'gi/GiPuzzle',
+          when: [['The party offers the rhymes that fit.']],
+          response: [
+            [
+              refs.npcs.tobin_reedwhistle,
+              ' is delighted, writes them in, and sings the last lines again with the new words. He thanks them and has no idea what he has just said.',
+            ],
+          ],
+        },
+        {
+          icon: 'gi/GiConversation',
+          when: [['They ask where the song or the four words came from.']],
+          response: [
+            [
+              'He woke with all of it in his head and thought it the best night’s work of his life. The words mean nothing to him. He has never met a ',
+              refs.pcs.jim,
+              ' and knows nothing of a caged bird.',
+            ],
+          ],
+        },
+        {
+          icon: 'gi/GiMagnifyingGlass',
+          when: [['They search him with magic or test whether he is lying.']],
+          response: [
+            [
+              'Nothing. He is not charmed, not possessed, and telling the truth. The change was made in a dream and left no trace.',
+            ],
+          ],
+        },
+        {
+          icon: 'gi/GiHand',
+          when: [['They press him hard, or insist the song is not his.']],
+          response: [
+            [
+              'He grows confused and hurt, rubs his temples, and packs up his pipe. He wrote “Still Alive” all by himself, and he will say so to anyone.',
+            ],
+          ],
+        },
+      ],
+    },
+  ],
+})

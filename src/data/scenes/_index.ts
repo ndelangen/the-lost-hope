@@ -9,6 +9,7 @@ import onana_calls_the_party_to_war from './onana-calls-the-party-to-war.ts'
 import picking_up_swift_at_nimbus from './picking-up-swift-at-nimbus.ts'
 import running_from_the_battle_cruiser from './running-from-the-battle-cruiser.ts'
 import taking_back_a_battle_cruiser from './taking-back-a-battle-cruiser.ts'
+import the_bard_s_new_song from './the-bard-s-new-song.ts'
 import the_clogged_ferry_landing from './the-clogged-ferry-landing.ts'
 import the_ents_hold_the_shipyard from './the-ents-hold-the-shipyard.ts'
 import the_green_beam_over_the_sky_islands from './the-green-beam-over-the-sky-islands.ts'
@@ -34,4 +35,5 @@ export default {
   garran_comes_for_the_cruiser,
   fix_s_last_delivery,
   light_walks_auren_through_fajanet,
+  the_bard_s_new_song,
 }

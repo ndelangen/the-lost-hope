@@ -164,5 +164,17 @@ export default createArc({
       npcs: [refs.npcs.the_father],
       scene: refs.scenes.fix_s_last_delivery,
     },
+    {
+      name: 'Still alive',
+      hook: [
+        [
+          'A tavern bard sings a new song whose verses end on the key words of the letter ',
+          refs.pcs.jim,
+          ' left behind. Does the party hear who is singing through him?',
+        ],
+      ],
+      npcs: [refs.npcs.the_father],
+      scene: refs.scenes.the_bard_s_new_song,
+    },
   ],
 })

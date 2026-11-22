@@ -331,6 +331,7 @@ export const refs = {
     captain_blackthorn: ref('npc', 'captain_blackthorn'),
     the_merchant_skipper: ref('npc', 'the_merchant_skipper'),
     rhys_s_parents: ref('npc', 'rhys_s_parents'),
+    tobin_reedwhistle: ref('npc', 'tobin_reedwhistle'),
   },
   pcs: {
     cassian_veyl: ref('pc', 'cassian_veyl'),
@@ -662,6 +663,7 @@ export const refs = {
     garran_comes_for_the_cruiser: ref('scene', 'garran_comes_for_the_cruiser'),
     fix_s_last_delivery: ref('scene', 'fix_s_last_delivery'),
     light_walks_auren_through_fajanet: ref('scene', 'light_walks_auren_through_fajanet'),
+    the_bard_s_new_song: ref('scene', 'the_bard_s_new_song'),
   },
   creatures: {
     alchemist: ref('creature', 'alchemist'),
