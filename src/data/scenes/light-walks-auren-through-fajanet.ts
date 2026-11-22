@@ -148,7 +148,20 @@ export default createScene({
         },
         {
           speaker: refs.npcs.light_13th_marshal,
-          say: [['Which do you like better here: the fountain or the mountains?']],
+          say: [
+            ['How much do you remember of yesterday?'],
+            ['How about last month?'],
+            ['How about last year?'],
+            ['How about last decade?'],
+            ['How about... last century?'],
+          ],
+        },
+        {
+          note: [
+            [
+              'Casual and indirect. Ask them one at a time and let each answer land: they lead up to the next question.',
+            ],
+          ],
         },
         {
           speaker: refs.npcs.light_13th_marshal,
