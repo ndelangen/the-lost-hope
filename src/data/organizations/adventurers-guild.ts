@@ -23,6 +23,9 @@ export default createOrganization({
       'Through the guild Light looks for people who can align with him: people willing to do a temporary evil, working against peace, so that he can then do a very great evil and end Arcane Dust for good. He needs them in the right places, to help keep the world balanced at the moment he stops writing and to make sure no united front forms against him.',
     ],
     [
+      'The first part of the test is whether a recruited party starts asking questions. Light explains nothing on his own. He waits for each party to find enough clues to doubt the front and to come to him, and what he tells them depends on what they ask.',
+    ],
+    [
       'The guild tattoo is how Light makes sure that only he writes a member’s thoughts and dreams. It is a record of the member written on the body, so it resists getting lost, and ',
       refs.npcs.the_father,
       ' cannot write in a tattooed member or bring one under his control.',
