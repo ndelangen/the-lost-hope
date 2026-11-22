@@ -55,5 +55,17 @@ export default createArc({
       npcs: [refs.npcs.bob_the_merchant],
       events: [refs.events.n2_e115],
     },
+    {
+      name: 'Bob’s next visit',
+      status: 'open',
+      hook: [
+        [
+          refs.npcs.bob_the_merchant,
+          ' turns up when he likes, and always has something the party wants. Whatever good his next deal does, someone else pays for it.',
+        ],
+      ],
+      npcs: [refs.npcs.bob_the_merchant],
+      events: [],
+    },
   ],
 })

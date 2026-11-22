@@ -6,7 +6,7 @@ export default createQuest({
   icon: 'gi/GiRollingDiceCup',
   type: 'mystery',
   notes: [[refs.items.bag_of_holding, ' has an additional random effect that remains unrevealed.']],
-  status: 'open',
+  status: 'resolved',
   clues: [
     [
       refs.events.n2_e115,
@@ -29,5 +29,13 @@ export default createQuest({
       ' is a different item and has no confirmed connection to that effect.',
     ],
   ],
-  conclusion: [],
+  conclusion: [
+    [
+      'The ',
+      refs.items.bag_of_holding,
+      ' was lost in ',
+      refs.events.n2_e192,
+      ' before its extra effect was revealed. The effect stays unknown.',
+    ],
+  ],
 })

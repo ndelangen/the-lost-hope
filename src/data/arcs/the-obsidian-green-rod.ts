@@ -25,5 +25,21 @@ export default createArc({
       npcs: [refs.npcs.esia],
       events: [refs.events.n2_e179],
     },
+    {
+      name: 'What the rod can do',
+      status: 'open',
+      hook: [
+        [
+          'The ',
+          refs.items.obsidian_green_rod,
+          ' kept the lightning off ',
+          refs.pcs.jim,
+          ' once. It now belongs to ',
+          refs.items.little_purple,
+          '. What else does it protect against, and where are its limits?',
+        ],
+      ],
+      events: [],
+    },
   ],
 })
