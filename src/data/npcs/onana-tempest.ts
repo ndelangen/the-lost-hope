@@ -4,6 +4,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 export default createNPC({
   name: 'Onana Tempest',
   avatar: '/assets/npcs/onana-tempest-portrait.png',
+  location: refs.locations.onana_tempest_s_estate,
   species: 'Air Genasi',
   memberships: [
     { organization: refs.organizations.tempest_family, status: 'active', rank: 'Family member' },
