@@ -31,3 +31,10 @@ src/generated/public-page-paths.json
 
 # Local drafts, prompts, and review artifacts
 /output/
+
+# Original artwork lives in Cloudflare R2, recorded in assets/images.lock.json (bun run media:sync)
+/assets/images/**/*.png
+/assets/images/**/*.jpg
+/assets/images/**/*.jpeg
+/assets/images/**/*.webp
+!/assets/images/app/**
