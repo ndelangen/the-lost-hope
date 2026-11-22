@@ -60,5 +60,12 @@ export default createPC({
     [
       'Enemies: former victims of his false medium act, occult scholars who suspect his visions are real, and anyone who knows one of his old aliases.',
     ],
+    [
+      'Not from the player: Cassian has the same raw gift for writing a change into a mind that ',
+      refs.npcs.the_father,
+      ' has trained into a craft. It is untrained and he does not know he has it. ',
+      refs.npcs.light_13th_marshal,
+      ' may have noticed.',
+    ],
   ],
 })
