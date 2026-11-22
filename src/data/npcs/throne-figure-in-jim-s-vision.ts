@@ -13,6 +13,27 @@ export default createNPC({
       ' remain unknown.',
     ],
   ],
+  motivations: [
+    [
+      'Wants a willing body to walk the world in. A body taken by force lasts it only a hundred years, so it courts ',
+      refs.pcs.jim,
+      ' instead of seizing him.',
+    ],
+    [
+      'An enemy of ',
+      refs.npcs.the_father,
+      ', and a third power beside him and ',
+      refs.npcs.light_13th_marshal,
+      '.',
+    ],
+  ],
+  background: [
+    [
+      'It is the Shadow itself: the will behind the shadow that leaks into the world near ',
+      refs.locations.fajanet,
+      '.',
+    ],
+  ],
   stats: {
     size: 'medium',
     type: 'fiend',
