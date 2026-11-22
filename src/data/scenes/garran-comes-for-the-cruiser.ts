@@ -107,6 +107,13 @@ export default createScene({
                   refs.scenes.light_reads_onana_s_letter,
                   '.',
                 ],
+                [
+                  'They need to find their bearings: they spent some time aboard the ship, and it moved and turned a lot. They will likely not spot the smoke trail from ',
+                  refs.events.n2_e203,
+                  ', because they have to make a run from the forces of the ',
+                  refs.organizations.tempest_family,
+                  '.',
+                ],
               ],
             },
             {

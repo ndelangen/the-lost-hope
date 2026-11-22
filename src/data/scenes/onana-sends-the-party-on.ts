@@ -124,7 +124,14 @@ export default createScene({
       when: [
         ['They want to follow the smoke trail from ', refs.events.n2_e203, ' after the fortress.'],
       ],
-      response: [['The sun is setting. It is getting too dark to follow trails of smoke.']],
+      response: [
+        [
+          'Significant time has passed since they gave up the cruiser. The sun is setting, and it is getting too dark to follow trails of smoke.',
+        ],
+        [
+          'They also need to get their bearings first: they spent some time aboard the ship, and it moved and turned a lot.',
+        ],
+      ],
     },
   ],
 })
