@@ -118,4 +118,13 @@ export default createScene({
       ],
     },
   ],
+  outcomes: [
+    {
+      icon: 'gi/GiSunset',
+      when: [
+        ['They want to follow the smoke trail from ', refs.events.n2_e203, ' after the fortress.'],
+      ],
+      response: [['The sun is setting. It is getting too dark to follow trails of smoke.']],
+    },
+  ],
 })
