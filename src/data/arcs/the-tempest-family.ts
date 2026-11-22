@@ -224,5 +224,19 @@ export default createArc({
       ],
       scene: refs.scenes.garran_comes_for_the_cruiser,
     },
+    {
+      name: 'A letter instead of a fleet',
+      hook: [
+        [
+          'If the party runs with the cruiser, ',
+          refs.npcs.onana_tempest,
+          ' writes to ',
+          refs.npcs.light_13th_marshal,
+          ' about them. Do they bring her home?',
+        ],
+      ],
+      npcs: [refs.npcs.onana_tempest],
+      scene: refs.scenes.light_reads_onana_s_letter,
+    },
   ],
 })

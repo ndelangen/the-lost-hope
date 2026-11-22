@@ -5,6 +5,7 @@ import chaos_on_the_sky_islands from './chaos-on-the-sky-islands.ts'
 import fix_s_last_delivery from './fix-s-last-delivery.ts'
 import garran_comes_for_the_cruiser from './garran-comes-for-the-cruiser.ts'
 import hex_loses_patience from './hex-loses-patience.ts'
+import light_reads_onana_s_letter from './light-reads-onana-s-letter.ts'
 import light_walks_auren_through_fajanet from './light-walks-auren-through-fajanet.ts'
 import onana_calls_the_party_to_war from './onana-calls-the-party-to-war.ts'
 import picking_up_swift_at_nimbus from './picking-up-swift-at-nimbus.ts'
@@ -40,4 +41,5 @@ export default {
   the_bard_s_new_song,
   hex_loses_patience,
   questions_for_light,
+  light_reads_onana_s_letter,
 }

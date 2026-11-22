@@ -666,6 +666,7 @@ export const refs = {
     the_bard_s_new_song: ref('scene', 'the_bard_s_new_song'),
     hex_loses_patience: ref('scene', 'hex_loses_patience'),
     questions_for_light: ref('scene', 'questions_for_light'),
+    light_reads_onana_s_letter: ref('scene', 'light_reads_onana_s_letter'),
   },
   creatures: {
     alchemist: ref('creature', 'alchemist'),

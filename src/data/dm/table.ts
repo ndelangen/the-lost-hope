@@ -24,5 +24,6 @@ export default createTable({
     refs.scenes.the_bard_s_new_song,
     refs.scenes.hex_loses_patience,
     refs.scenes.questions_for_light,
+    refs.scenes.light_reads_onana_s_letter,
   ],
 })

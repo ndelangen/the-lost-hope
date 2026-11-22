@@ -13,6 +13,16 @@ export default createNPC({
       'A merchant and dungeon owner who introduces himself as the youngest of his siblings. He prefers conducting business openly.',
     ],
   ],
+  motivations: [
+    [
+      'A true ally of ',
+      refs.npcs.light_13th_marshal,
+      ', all the more since the raid on his fleet.',
+    ],
+    [
+      'He sees potential in the party: they defeated a very strong foe, and their own will is very much intact. That matters more to him than a stolen ship, though he does want the ship back.',
+    ],
+  ],
   stats: {
     size: 'medium',
     type: 'humanoid',
