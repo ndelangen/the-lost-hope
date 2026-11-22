@@ -222,6 +222,13 @@ export default createScene({
             [
               'He says this once he has said he is leaving. The wording is a draft: it gives the vibe and is not finished yet.',
             ],
+            [
+              'If ',
+              refs.pcs.auren,
+              ' said he has a perfect memory, he has to agree to disable it. If he agrees, tonight is the same test of fear. If he refuses, ',
+              refs.npcs.light_13th_marshal,
+              ' does not save him, whatever fear he shows.',
+            ],
           ],
         },
         {
