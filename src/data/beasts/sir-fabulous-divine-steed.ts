@@ -7,7 +7,6 @@ export default createBeast({
   previousPortraits: [
     { url: '/assets/npcs/sir-fabulous-divine-steed.png', description: 'Previous beast portrait' },
   ],
-  location: refs.locations.the_blackstone,
   species: 'Dire wolf',
   notes: [
     [
@@ -16,6 +15,11 @@ export default createBeast({
       ', now an enlarged and divinely altered dire wolf bonded to ',
       refs.pcs.devan,
       ' as his magical steed.',
+    ],
+    [
+      'He has no home of his own: wherever ',
+      refs.pcs.devan,
+      ' is, Sir Fabulous tends to be with him, unless he is stationed somewhere for a while.',
     ],
     ['His additional abilities and trained skill remain undecided.'],
   ],
