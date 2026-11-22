@@ -7,10 +7,14 @@ export default createBeast({
     { url: '/assets/beasts/wolfie-upright.png', description: 'Wolfie in his upright form' },
   ],
   avatar: '/assets/npcs/wolfie.png',
-  location: refs.locations.skynet_s_second_best_inn,
   species: 'Dire wolf in a humanoid form',
   notes: [
     ['One of two pups taken from the stables of ', refs.npcs.lord_malachar, ' by the party.'],
+    [
+      'The companion of ',
+      refs.pcs.cassian_veyl,
+      '. He has no home of his own: wherever Cassian is, Wolfie tends to be with him, unless he is stationed somewhere for a while.',
+    ],
   ],
   stats: {
     size: 'medium',
