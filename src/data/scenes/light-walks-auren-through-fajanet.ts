@@ -139,6 +139,17 @@ export default createScene({
             ],
           ],
         },
+        {
+          speaker: refs.npcs.light_13th_marshal,
+          say: [
+            ['You must understand, ', refs.pcs.auren, '.'],
+            ['If you have the ability of perfect memory, you must disable it.'],
+            [
+              'For if that were to fall in the wrong hands, there would be no end to the suffering.',
+            ],
+            ['Even I am very tempted to put it to use, even against your will, you see.'],
+          ],
+        },
       ],
     },
     {
