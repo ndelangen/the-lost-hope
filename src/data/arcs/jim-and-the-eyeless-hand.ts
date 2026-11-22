@@ -105,6 +105,7 @@ export default createArc({
     },
     {
       name: 'Taken',
+      status: 'closed',
       hook: [
         [
           'Two beams from the flying fortress, and ',
@@ -129,6 +130,7 @@ export default createArc({
     },
     {
       name: 'What Jim left behind',
+      status: 'closed',
       hook: [
         [
           'His swords and a coded letter are what is left of ',
