@@ -5,7 +5,7 @@ export default createArc({
   name: 'The Starblade family',
   icon: 'gi/GiGriffinShield',
   direction: [
-    ['What is ', refs.pcs.swift_starblade, '’s family history, and who became her enemy?'],
+    ['What is ', refs.pcs.swift_starblade, '’s family history, and who became his enemy?'],
   ],
   quests: [
     refs.quests.bring_swift_s_sister_to_sylvia,
