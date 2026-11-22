@@ -6,11 +6,9 @@ export default createArc({
   icon: 'gi/GiRelicBlade',
   direction: [
     [
-      'What is bound to the ',
-      refs.items.cursed_shadow_sword,
-      ', and what does it want from ',
-      refs.pcs.jim,
-      '?',
+      'The ',
+      refs.items.shadow_sword,
+      ' hoards souls and punishes anyone who takes them out. What will it cost whoever carries it?',
     ],
   ],
   quests: [refs.quests.the_cursed_sword],
