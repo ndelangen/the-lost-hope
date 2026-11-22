@@ -22,6 +22,8 @@
     "generate:refs": "bun scripts/generate-refs.ts",
     "generate:refs:check": "bun scripts/generate-refs.ts --check",
     "generate:images": "bun scripts/generate-responsive-images.ts",
+    "media:gate": "bun scripts/media-gate.ts",
+    "media:sync": "bun scripts/media-sync.ts",
     "generate:social-images": "bun scripts/generate-social-images.tsx",
     "generate:social-paths": "bun scripts/generate-social-images.tsx --paths-only",
     "audit:public-build": "bun scripts/audit-public-build.ts",

@@ -13,6 +13,7 @@ import {
   RESPONSIVE_IMAGE_SOURCES,
   RESPONSIVE_IMAGE_WIDTHS,
 } from './image-sources'
+import { requireOriginals } from './media/originals.ts'
 
 const ROOT = process.cwd()
 const OUTPUT_DIRECTORY = join(ROOT, 'public/assets/generated-images')
@@ -190,6 +191,7 @@ async function generateOpaqueAppIcons(): Promise<void> {
 
 async function generate(): Promise<void> {
   const startedAt = performance.now()
+  await requireOriginals()
   const generated = await generateContentImages()
   await generateOpaqueAppIcons()
   await mkdir(dirname(GENERATED_MODULE), { recursive: true })

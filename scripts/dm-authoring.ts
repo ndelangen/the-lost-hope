@@ -212,6 +212,11 @@ async function installPortrait(slug: string, png: string) {
   }
   await run('bunx', ['oxfmt', sourcesPath, recordPath])
   await run('bun', ['scripts/generate-responsive-images.ts'])
+  await run('bun', ['scripts/media-sync.ts']).catch(() => {
+    throw new Error(
+      'The portrait is installed, but uploading it failed. Run `bun run media:sync` on the Mac to retry.',
+    )
+  })
 }
 
 /**

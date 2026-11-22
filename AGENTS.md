@@ -72,10 +72,24 @@ data changes.
   stretch images or blindly centre-crop them. Register avatar sources with `role: 'avatar'` so
   image generation rejects non-square sources. Keep uncropped backups locally under `output/`.
 
-- Commit approved artwork under `assets/images/` and the pipeline code. Do not commit responsive
-  JPEG derivatives or generated app icons. The image pipeline recreates those during development,
-  tests, and builds. The entire `output/` directory is local and ignored, including drafts, prompts,
-  and browser screenshots. Put useful generation context and review evidence in the pull request.
+- To add, revise, remove or use artwork, use the `campaign-images` skill.
+- Original artwork lives in Cloudflare R2 (bucket `thelosthope-media-src`), not git. Place
+  approved art under `assets/images/` and register it in `scripts/image-sources.ts` as before; git
+  ignores those rasters (only the small `assets/images/app/` icons stay committed).
+  `assets/images.lock.json` records each registered original by SHA-256 and is derived: never edit
+  it by hand. `bun run media:sync` fetches missing art, uploads new or edited art with the Mac's
+  `wrangler` login, and rewrites the lock; commit the lock it writes. `generate:images` (and so dev,
+  tests and builds) fetches missing originals automatically, from a store shared by all worktrees,
+  and refuses to run while a file differs from the lock. A lock conflict is resolved by running
+  `media:sync`.
+- Without the Mac's `wrangler` login (cloud sessions), commit new originals with
+  `git add -f assets/images/...` and expect the `media:gate` check to fail. Before merge, the Mac
+  runs `bun run media:sync --adopt` on that branch, which uploads them, locks them and takes them
+  back out of git.
+- Do not commit responsive JPEG derivatives or generated app icons. The image pipeline recreates
+  those during development, tests, and builds. The entire `output/` directory is local and ignored,
+  including drafts, prompts, and browser screenshots. Put useful generation context and review
+  evidence in the pull request.
 
 - Every location map uses a 3:2 landscape canvas, including schematic maps. Generate new artwork at
   1536 by 1024 pixels unless a larger 3:2 source is needed.

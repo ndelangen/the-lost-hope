@@ -41,11 +41,15 @@ jobs:
           path: |
             public/assets/generated-images
             node_modules/.cache/responsive-images.json
-          key: responsive-images-${{ hashFiles('assets/images/**', 'scripts/image-sources.ts', 'scripts/generate-responsive-images.ts') }}
+          key: responsive-images-${{ hashFiles('assets/images.lock.json', 'scripts/image-sources.ts', 'scripts/generate-responsive-images.ts') }}
           restore-keys: responsive-images-
 
       # Same checks as `bun run verify`, split into steps so a failure is easy to spot.
       # Responsive images are generated once (by typecheck) and reused by the steps after it.
+      # Originals live in R2; generate:images fetches them on first use.
+      - name: Original artwork is uploaded and out of git
+        run: bun run media:gate
+
       - name: Generated refs are current
         run: bun run generate:refs:check
 

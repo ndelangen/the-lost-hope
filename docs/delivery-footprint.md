@@ -29,10 +29,11 @@ chroma subsampling. Every responsive image receives:
 - lazy loading except for the four portraits in the navigation.
 
 The generated JPEG directory, responsive-image manifest, and app icons are ignored by Git.
-Development, tests, and builds regenerate them from the committed originals. Keep browser proof
+Development, tests, and builds regenerate them from the locked originals. Keep browser proof
 under `output/verification/` and attach screenshots to the pull request. The entire `output/`
-directory is ignored, including generation prompts and draft artwork. Only approved artwork under
-`assets/images/` belongs in Git; useful generation context belongs in the pull request.
+directory is ignored, including generation prompts and draft artwork. Approved originals under
+`assets/images/` are stored in Cloudflare R2 and recorded in `assets/images.lock.json` (see
+`AGENTS.md`); useful generation context belongs in the pull request.
 
 The four 20 px navigation portrait originals total 1,407,244 bytes. Their 64 px derivatives total
 8,255 bytes, a 99.4% reduction. The eight original local content rasters total 7,175,674 bytes;
