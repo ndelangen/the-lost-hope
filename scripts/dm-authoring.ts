@@ -211,6 +211,12 @@ async function installPortrait(slug: string, png: string) {
     await writeFile(recordPath, withAvatar)
   }
   await run('bunx', ['oxfmt', sourcesPath, recordPath])
+  // Upload first: a repainted portrait differs from the lock, and generation refuses that.
+  await run('bun', ['scripts/media-sync.ts']).catch(() => {
+    throw new Error(
+      'The portrait is saved, but uploading it failed. Run `bun run media:sync` on the Mac to retry.',
+    )
+  })
   await run('bun', ['scripts/generate-responsive-images.ts'])
 }
 
