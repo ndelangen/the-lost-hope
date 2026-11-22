@@ -21,7 +21,14 @@ export default createNPC({
       'Other observers have perceived Bob as a normal, exceptionally handsome human man with black hair. His actual nature and the reason for these conflicting appearances remain unknown.',
     ],
   ],
-  background: [['Confirmed to be true neutral.']],
+  motivations: [
+    [
+      'Bob is not concerned with anything happening in the world. He is true neutral and cannot be moved from that alignment.',
+    ],
+    [
+      'Every good thing he does is balanced by something insidious: when he helps one person, he causes pain to another.',
+    ],
+  ],
   stats: {
     size: 'medium',
     type: 'humanoid',
