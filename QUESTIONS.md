@@ -102,11 +102,11 @@ Every question must include **what we already know** — many sit unanswered acr
 
 ---
 
-## Session 5 — Dinos and Fairhaven arrival
+## Session 4 — Dinos and Fairhaven arrival
 
 - **Dinosaur migration: what species, and who were the riders?**
   - _Context:_ The dinosaurs sensed danger and were migrating to a safer place. Their species and the riders' identities remain unrecorded. A smaller group chased the party, who escaped with Abraham's help.
-  - _Session:_ 5 ([n2-e038](/events/dinos-ridden-toward-fairhaven))
+  - _Session:_ 4 ([n2-e038](/events/dinos-ridden-toward-fairhaven))
 
 ---
 
@@ -124,7 +124,7 @@ Every question must include **what we already know** — many sit unanswered acr
 
 - **What guildmaster favor did Victor ask Light to grant?**
   - _Context:_ Victor entered a booth at the Fairhaven guildhall, met Light, received his Adventurers’ Guild tattoo, and requested his favor. The party does not know what he asked for.
-  - _Session:_ 5 ([n2-e071](/events/victor-receives-his-guild-tattoo-and-asks-a-favor))
+  - _Session:_ 4 ([n2-e071](/events/victor-receives-his-guild-tattoo-and-asks-a-favor))
 
 ---
 
@@ -133,7 +133,7 @@ Every question must include **what we already know** — many sit unanswered acr
 - **Who is Giggles, and why did nobody in Fairhaven seem to know him?**
   - _Context:_ Giggles posted the alchemist job and delivered most of its briefing from Mortimer’s shop. When the party asked around town, nobody recognized Giggles; people instead became confused about Giggles and Gadgets. Giggles may also have known about Penelope’s supposedly unique laughing-potion formula.
   - _Why asking:_ Giggles’ identity, relationship with Mortimer, and knowledge of the stolen formula remain unexplained.
-  - _Session:_ 6 ([n2-e044](/events/giggles-hires-the-party-against-a-rival-alchemist))
+  - _Session:_ 5 ([n2-e044](/events/giggles-hires-the-party-against-a-rival-alchemist))
 
 - **What is the personal name of the Mayor of Fairhaven?**
   - _Context:_ The mayor made the major Festival of the Heroes announcement at Fairhaven Town Square and became upset when Swift repeatedly tried to join the list of heroes.
