@@ -4,14 +4,14 @@ import { create as createNPC } from '#/definitions/npc.ts'
 export default createNPC({
   name: 'The Fiddler',
   avatar: '/assets/npcs/the-fiddler-portrait.png',
-  location: refs.locations.gambling_deck,
+  location: refs.locations.borris_s_gambling_den,
   notes: [
     [
-      'A relaxed casino dealer on ',
+      'A relaxed, travelling casino dealer, first met on ',
       refs.locations.gambling_deck,
       ' aboard ',
       refs.locations.the_flying_whale,
-      ' who seemed to know the party before meeting them and to know parts of their future. He appears to perceive multiple possible timelines and sometimes confuses visitors with alternate versions of themselves.',
+      ', who rarely turns up in the same place twice. He seemed to know the party before meeting them and to know parts of their future. He appears to perceive multiple possible timelines and sometimes confuses visitors with alternate versions of themselves.',
     ],
     [
       refs.npcs.the_fiddler,

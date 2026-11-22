@@ -20,6 +20,7 @@ export default createNPC({
     [
       'Other observers have perceived Bob as a normal, exceptionally handsome human man with black hair. His actual nature and the reason for these conflicting appearances remain unknown.',
     ],
+    ['He travels and rarely turns up in the same place twice.'],
   ],
   motivations: [
     [
