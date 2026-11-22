@@ -155,6 +155,15 @@ export default createScene({
           ],
         },
         {
+          note: [
+            [
+              'The excuse is true, and it is a hint: time he spends talking is time he is not writing. What that costs is in the background of ',
+              refs.npcs.light_13th_marshal,
+              '. Do not explain it here.',
+            ],
+          ],
+        },
+        {
           speaker: refs.npcs.light_13th_marshal,
           say: [['Have a nice night-time walk in the park, Auren.']],
         },
