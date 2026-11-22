@@ -83,6 +83,7 @@ export default createArc({
     },
     {
       name: 'Taking the airship early',
+      status: 'closed',
       hook: [[refs.items.little_purple, ' has been delivered and flown, but remains unfinished.']],
       scene: refs.scenes.the_ents_hold_the_shipyard,
       events: [refs.events.n2_e213],
