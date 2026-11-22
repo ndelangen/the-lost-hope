@@ -170,6 +170,11 @@ export default createScene({
         {
           note: [
             [
+              'By now his answers to the casual questions have shown how far back he remembers. A “no” after a detailed answer about last century is a tell ',
+              refs.npcs.light_13th_marshal,
+              ' can act on.',
+            ],
+            [
               'If he answers no, the test is reduced to one thing: is the level of fear he shows tonight correct? If it is, ',
               refs.npcs.light_13th_marshal,
               ' saves him.',
