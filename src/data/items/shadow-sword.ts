@@ -18,6 +18,7 @@ export default createItem({
     ],
   ],
   background: [
+    ['The sword feels greed for souls. Nothing is currently bound to it.'],
     [
       'The party has not learned these rules yet. No one has ever been attuned to it, ',
       refs.pcs.jim,
