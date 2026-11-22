@@ -336,17 +336,6 @@ Every question must include **what we already know** — many sit unanswered acr
 
 ---
 
-## Quests (open)
-
-- **The Tentacle Night** — what did tentacles want? (Rest of night 1 resolved.)
-- **Jim's Warning Letter** — sender identity.
-- **Help the Rare-Animal Dealer** — third animal.
-- **The Cursed Sword**: origin of the former curse, fate of its shadow, and connection to the Faceless Shadow.
-- **The Fairhaven Invasion** — attackers, motive, special wizard, and summoned monsters.
-- **Through the Shadow Realm** — relation to tentacle night.
-- **The Dinosaur Migration**: riders and species.
-- **Abraham’s Recognition** — who are his peers, and what will earn their recognition?
-
 ## Session 15, The Death of a Dungeon
 
 - Which deity is connected to the Zodiac Dagger, and how did its role as the dungeon's core work?
