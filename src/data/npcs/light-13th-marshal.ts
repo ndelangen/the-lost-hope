@@ -44,6 +44,11 @@ export default createNPC({
       'Writing is remembering. He records every use of shadow fuel and Arcane Dust. If he remembers, the users remember, and what he has written down is not lost. That is the paperwork, and it is why he never sleeps.',
     ],
     [
+      'Every moment he is not writing is lost for good. Each meeting where he has to talk is paid for by someone else, with their memories and their sense of self, and it makes the work of ',
+      refs.npcs.the_father,
+      ' easier. He will reveal this to a party eventually.',
+    ],
+    [
       'He produces Arcane Dust and supplies it to the other twelve marshals, and to no one else. That is the deal. Stopping at once is impossible. He tried to stop production before: enough marshals united against him that his land and people were invaded, and he had to concede. Now he supplies it as they demand.',
     ],
     [
