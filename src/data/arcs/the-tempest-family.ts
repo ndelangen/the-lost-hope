@@ -133,6 +133,7 @@ export default createArc({
     },
     {
       name: 'Collecting the rest',
+      status: 'closed',
       hook: [
         [
           'The cruiser puts in at the docks of ',
