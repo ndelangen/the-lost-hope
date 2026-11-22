@@ -20,6 +20,13 @@ export default createNPC({
       ', all the more since the raid on his fleet.',
     ],
     [
+      'He observed the party because ',
+      refs.npcs.light_13th_marshal,
+      ' asked him to, and what he asked them in ',
+      refs.events.n2_e219,
+      ' was asked on Light’s behalf. He reports their answers back and thinks they may be ready for Light’s test.',
+    ],
+    [
       'He sees potential in the party: they defeated a very strong foe, and their own will is very much intact. That matters more to him than a stolen ship, though he does want the ship back.',
     ],
   ],

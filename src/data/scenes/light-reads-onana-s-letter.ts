@@ -47,20 +47,19 @@ export default createScene({
         {
           speaker: refs.npcs.light_13th_marshal,
           say: [
-            ['“To Light, with my regards.'],
+            ['“To the 13th Marshal Light, from Onana Tempest.'],
+            ['Dear ally,'],
             [
-              'You will have heard that your adventurers left with one of my ships. I am told I should be furious. I find that I am not.',
+              'I regret to inform you our nation has suffered a defeat against ',
+              refs.organizations.the_eyeless_hand,
+              '. And that during this attack one of your guild’s members has been lost.',
             ],
             [
-              'I asked them to take a cruiser back from an enemy that had just broken my fleet in a single raid. They did. Then they looked my captain in the eye, weighed his order, and decided for themselves.',
+              'I have observed the party as requested, and they have shown courage, strength and a strong mind. Attached you will see their answers to the question you wished me to ask. It is my humble opinion they might be ready to endure your test.',
             ],
-            ['Their will is their own. You and I both know how rare that has become.'],
-            ['I do want my ship back. She is one of the few I have left, and she was not a gift.'],
             [
-              'So tell them this from me, word for word: bring her home, and you are welcome at my table again. No debt, and no grudge.',
+              'Would you be so kind to tell them I expect my ship returned to me, and that once so, they are welcome again.”',
             ],
-            ['They have promise, old friend. Do not waste them on errands.'],
-            ['Onana Tempest.”'],
           ],
         },
         {
@@ -76,12 +75,7 @@ export default createScene({
         {
           icon: 'gi/GiShipWheel',
           when: [['They decide to bring ', refs.items.ride_the_lightning, ' back.']],
-          response: [
-            [
-              refs.npcs.onana_tempest,
-              ' keeps his word: they are welcome again, with no debt and no grudge.',
-            ],
-          ],
+          response: [[refs.npcs.onana_tempest, ' keeps his word: they are welcome again.']],
         },
         {
           icon: 'gi/GiFlyingFlag',
