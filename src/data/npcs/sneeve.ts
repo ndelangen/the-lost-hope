@@ -16,5 +16,12 @@ export default createNPC({
       rank: 'Member',
     },
   ],
+  motivations: [
+    [
+      'Loyal to ',
+      refs.npcs.light_13th_marshal,
+      ', but could waver: he has things of his own going on. What those are is not worked out yet.',
+    ],
+  ],
   stats: refs.creatures.spy,
 })

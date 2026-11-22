@@ -16,6 +16,15 @@ export default createNPC({
       rank: 'Member',
     },
   ],
+  motivations: [
+    [
+      'Truly loyal to ',
+      refs.npcs.light_13th_marshal,
+      '. Hex has passed his test and been accepted into the lower ranks of what the ',
+      refs.organizations.adventurers_guild,
+      ' really is.',
+    ],
+  ],
   stats: {
     size: 'medium',
     type: 'humanoid',
@@ -83,7 +92,7 @@ export default createNPC({
         timing: 'bonus action',
         icon: 'gi/GiCharm',
         text: [
-          'Curses one creature within 90 ft. for 1 minute. Her attacks deal it an extra 1d6 ',
+          'Curses one creature within 90 ft. for 1 minute. Hex’s attacks deal it an extra 1d6 ',
           refs.rules.necrotic,
           ' damage, and it has ',
           refs.rules.disadvantage,
@@ -95,7 +104,7 @@ export default createNPC({
         name: 'Lucky Palm',
         timing: 'reaction',
         icon: 'gi/GiDiceSixFacesSix',
-        text: ['When she or an ally within 30 ft. fails a d20 test, the roll gains a 1d6 bonus.'],
+        text: ['When Hex or an ally within 30 ft. fails a d20 test, the roll gains a 1d6 bonus.'],
         uses: 3,
         recharge: 'Long rest',
       },
