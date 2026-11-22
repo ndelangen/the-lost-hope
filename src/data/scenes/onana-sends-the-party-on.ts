@@ -74,7 +74,7 @@ export default createScene({
             [
               'His crew got as far as two more cannons, four in all, and one boarding torpedo tube like the one the party rode in ',
               refs.scenes.boarding_ride_the_lightning,
-              '. She has no extra armour.',
+              '. The tube came at the cost of cabin space and storage. She has no extra armour.',
             ],
           ],
         },
