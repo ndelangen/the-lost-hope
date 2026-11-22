@@ -57,6 +57,7 @@ export default createScene({
             [
               'I have observed the party as requested, and they have shown courage, strength and a strong mind. Attached you will see their answers to the question you wished me to ask. It is my humble opinion they might be ready to endure your test.',
             ],
+            ['Whilst we rebuild, perhaps we could renegotiate having a guildhall here, again.'],
             [
               'Would you be so kind to tell them I expect my ship returned to me, and that once so, they are welcome again.”',
             ],

@@ -107,6 +107,7 @@ export default createScene({
         },
         {
           note: [
+            ['There is no guildhall on the sky islands, so this sends them off the islands.'],
             [
               refs.npcs.hex,
               ' is waiting in that guildhall: run ',
