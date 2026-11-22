@@ -35,5 +35,9 @@ export default createQuest({
     ],
     ['Animal #3: unidentified. The party ran out of time and did NOT bring back the third animal.'],
   ],
-  conclusion: [],
+  conclusion: [
+    [
+      'The party returned two of the three missing animals. The third was never identified or recovered.',
+    ],
+  ],
 })
