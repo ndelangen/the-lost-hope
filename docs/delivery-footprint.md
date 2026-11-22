@@ -1,8 +1,9 @@
 # Delivery-footprint contract
 
-This site keeps all 374 public routes prerendered while reducing the bytes sent to a visitor. The
-repository size is deliberately not a constraint. Commit approved source rasters and
-pipeline code. Keep reproducible image derivatives out of Git so reviews show source changes.
+This site keeps all 374 public routes prerendered while reducing the bytes sent to a visitor.
+Approved source rasters are uploaded to Cloudflare R2 with `bun run media:sync`, which records them
+in the committed `assets/images.lock.json`; commit the lock and pipeline code. Keep reproducible
+image derivatives out of Git so reviews show source changes.
 The build generates delivery assets locally without a paid image service.
 
 ## JavaScript

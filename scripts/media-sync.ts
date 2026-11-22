@@ -133,7 +133,7 @@ if (failed.length > 0) {
 }
 
 await writeLock(lock)
-await recordSynced(pending)
+await recordSynced(Object.fromEntries(pending.map((path) => [path, lock[path]])))
 
 if (adopt) {
   const tracked = execFileSync('git', ['ls-files', '-z', 'assets/images'], {

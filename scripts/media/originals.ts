@@ -4,7 +4,7 @@
  * by all worktrees of the repository. See AGENTS.md, "Original artwork".
  */
 import { execFileSync } from 'node:child_process'
-import { createHash } from 'node:crypto'
+import { createHash, randomUUID } from 'node:crypto'
 import { constants, existsSync } from 'node:fs'
 import { copyFile, mkdir, readFile, rename, stat, writeFile } from 'node:fs/promises'
 import { availableParallelism } from 'node:os'
@@ -58,10 +58,30 @@ function parseLock(text: string, source: string): Lock {
   }
 }
 
+const HASH = /^[0-9a-f]{64}$/
+
+/**
+ * Reads the lock, accepting only content hashes and artwork paths, so a crafted lock can never read
+ * from outside the store or write outside `assets/images/`.
+ */
 export async function readLock(): Promise<Lock> {
   const path = join(ROOT, LOCK_PATH)
   if (!existsSync(path)) return {}
-  return parseLock(await readFile(path, 'utf8'), LOCK_PATH)
+  const lock = parseLock(await readFile(path, 'utf8'), LOCK_PATH)
+  const invalid = Object.entries(lock).filter(
+    ([key, entry]) =>
+      !isOriginalRaster(key) ||
+      key.split('/').includes('..') ||
+      typeof entry?.sha256 !== 'string' ||
+      !HASH.test(entry.sha256) ||
+      !Number.isInteger(entry.bytes),
+  )
+  if (invalid.length > 0) {
+    throw new Error(
+      `${LOCK_PATH} has invalid entries:\n${invalid.map(([key]) => `  ${key}`).join('\n')}`,
+    )
+  }
+  return lock
 }
 
 /** One sorted entry per line, so branches that add different images merge cleanly. */
@@ -138,10 +158,13 @@ async function writeSynced(record: SyncedRecord): Promise<void> {
 
 const storePath = (hash: string): string => join(STORE, hash)
 
+/** A unique temporary name, so concurrent writes of the same file never collide. */
+const temporaryFor = (to: string): string => `${to}.${randomUUID()}.partial`
+
 /** Writes through a temporary name so an interrupted run never leaves a partial file. */
 async function atomicCopy(from: string, to: string): Promise<void> {
   await mkdir(dirname(to), { recursive: true })
-  const temporary = `${to}.${process.pid}.partial`
+  const temporary = temporaryFor(to)
   // An APFS clone where the filesystem supports it, so each checkout's copy costs no disk space.
   await copyFile(from, temporary, constants.COPYFILE_FICLONE)
   await rename(temporary, to)
@@ -149,15 +172,21 @@ async function atomicCopy(from: string, to: string): Promise<void> {
 
 async function atomicWrite(to: string, bytes: Uint8Array): Promise<void> {
   await mkdir(dirname(to), { recursive: true })
-  const temporary = `${to}.${process.pid}.partial`
+  const temporary = temporaryFor(to)
   await writeFile(temporary, bytes)
   await rename(temporary, to)
 }
 
-/** Adds a file already on disk to the shared store. */
+/**
+ * Adds a file already on disk to the shared store, checking the copied bytes still match the hash
+ * so a file edited in the meantime never lands under the wrong name.
+ */
 export async function storeFile(path: string, hash: string): Promise<string> {
   const stored = storePath(hash)
-  if (!existsSync(stored)) await atomicCopy(join(ROOT, path), stored)
+  if (existsSync(stored)) return stored
+  const bytes = await readFile(join(ROOT, path))
+  if (sha256(bytes) !== hash) throw new Error(`${path} changed while it was being stored`)
+  await atomicWrite(stored, bytes)
   return stored
 }
 
@@ -216,39 +245,48 @@ export async function pullOriginals(): Promise<PullResult> {
   const synced = await readSynced()
   const result: PullResult = { restored: [], edited: [], failed: [] }
 
-  await eachLimited(Object.keys(lock), async (path) => {
-    const entry = lock[path]
-    try {
-      const current = await fileState(path, synced)
-      if (current?.sha256 === entry.sha256) {
-        synced[path] = current
-        await storeFile(path, entry.sha256)
-        return
+  const registered = new Set(registeredPaths())
+  await eachLimited(
+    Object.keys(lock).filter((path) => registered.has(path)),
+    async (path) => {
+      const entry = lock[path]
+      try {
+        const current = await fileState(path, synced)
+        if (current?.sha256 === entry.sha256) {
+          synced[path] = current
+          await storeFile(path, entry.sha256)
+          return
+        }
+        if (current && synced[path]?.sha256 !== current.sha256) {
+          result.edited.push(path)
+          return
+        }
+        await atomicCopy(await ensureStored(path, entry), join(ROOT, path))
+        const info = await stat(join(ROOT, path))
+        synced[path] = { ...entry, mtimeMs: info.mtimeMs }
+        result.restored.push(path)
+      } catch (error) {
+        result.failed.push(`${path}: ${(error as Error).message}`)
       }
-      if (current && synced[path]?.sha256 !== current.sha256) {
-        result.edited.push(path)
-        return
-      }
-      await atomicCopy(await ensureStored(path, entry), join(ROOT, path))
-      const info = await stat(join(ROOT, path))
-      synced[path] = { ...entry, mtimeMs: info.mtimeMs }
-      result.restored.push(path)
-    } catch (error) {
-      result.failed.push(`${path}: ${(error as Error).message}`)
-    }
-  })
+    },
+  )
 
   await writeSynced(synced)
   return result
 }
 
-/** Records files this checkout just uploaded, so a later pull treats them as synced. */
-export async function recordSynced(paths: readonly string[]): Promise<void> {
+/**
+ * Records the versions this checkout just uploaded, so a later pull treats them as synced. A file
+ * edited again since its upload is left unrecorded, so the next sync uploads that edit instead of
+ * a pull replacing it.
+ */
+export async function recordSynced(uploaded: Lock): Promise<void> {
   const synced = await readSynced()
-  await eachLimited(paths, async (path) => {
+  await eachLimited(Object.keys(uploaded), async (path) => {
     const info = await stat(join(ROOT, path))
     const { sha256: hash, bytes } = await hashFile(path)
-    synced[path] = { sha256: hash, bytes, mtimeMs: info.mtimeMs }
+    if (hash === uploaded[path].sha256)
+      synced[path] = { sha256: hash, bytes, mtimeMs: info.mtimeMs }
   })
   await writeSynced(synced)
 }
