@@ -104223,6 +104223,7 @@
       "usedIn": [
         "src/data/scenes/boarding-ride-the-lightning.ts",
         "src/data/scenes/fix-s-last-delivery.ts",
+        "src/data/scenes/questions-for-light.ts",
         "src/lib/outcome-icons.tsx"
       ]
     },
@@ -116820,6 +116821,10 @@
         "src/data/scenes/boarded-by-the-battle-cruiser.ts",
         "src/data/scenes/borris-shutters-the-casino.ts",
         "src/data/scenes/chaos-on-the-sky-islands.ts",
+        "src/data/scenes/hex-loses-patience.ts",
+        "src/data/scenes/light-reads-onana-s-letter.ts",
+        "src/data/scenes/questions-for-light.ts",
+        "src/data/scenes/the-bard-s-new-song.ts",
         "src/data/scenes/the-clogged-ferry-landing.ts",
         "src/data/scenes/the-ents-hold-the-shipyard.ts",
         "src/lib/ability-icons.tsx",
@@ -127913,6 +127918,7 @@
       "usedIn": [
         "src/data/npcs/silas-wren.ts",
         "src/data/scenes/light-walks-auren-through-fajanet.ts",
+        "src/data/scenes/questions-for-light.ts",
         "src/lib/ability-icons.tsx",
         "src/lib/outcome-icons.tsx"
       ]
@@ -143279,6 +143285,8 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/flying-flag.html",
       "usedIn": [
+        "src/data/scenes/light-reads-onana-s-letter.ts",
+        "src/data/scenes/questions-for-light.ts",
         "src/data/scenes/running-from-the-battle-cruiser.ts",
         "src/lib/outcome-icons.tsx"
       ]
@@ -153051,6 +153059,7 @@
       "usedIn": [
         "src/data/organizations/the-eyeless-hand.ts",
         "src/data/scenes/taking-back-a-battle-cruiser.ts",
+        "src/data/scenes/the-bard-s-new-song.ts",
         "src/lib/organization-icons.tsx",
         "src/lib/outcome-icons.tsx"
       ]
@@ -158798,6 +158807,7 @@
       "usedIn": [
         "src/data/npcs/the-father.ts",
         "src/data/quests/mystery-girl.ts",
+        "src/data/scenes/questions-for-light.ts",
         "src/data/scenes/the-ents-hold-the-shipyard.ts",
         "src/lib/ability-icons.tsx",
         "src/lib/outcome-icons.tsx",
@@ -159837,6 +159847,7 @@
         "src/data/npcs/the-fiddler.ts",
         "src/data/scenes/borris-shutters-the-casino.ts",
         "src/data/scenes/chaos-on-the-sky-islands.ts",
+        "src/data/scenes/questions-for-light.ts",
         "src/data/scenes/the-ents-hold-the-shipyard.ts",
         "src/lib/ability-icons.tsx",
         "src/lib/outcome-icons.tsx"
@@ -175337,6 +175348,8 @@
         "src/data/quests/find-the-fiddler.ts",
         "src/data/scenes/borris-shutters-the-casino.ts",
         "src/data/scenes/chaos-on-the-sky-islands.ts",
+        "src/data/scenes/questions-for-light.ts",
+        "src/data/scenes/the-bard-s-new-song.ts",
         "src/lib/ability-icons.tsx",
         "src/lib/outcome-icons.tsx",
         "src/lib/quest-icons.tsx"
@@ -187329,6 +187342,7 @@
       "usedIn": [
         "src/data/locations/fairhaven-city-gate.ts",
         "src/data/scenes/garran-comes-for-the-cruiser.ts",
+        "src/data/scenes/questions-for-light.ts",
         "src/data/sessions/arrival-in-fajanet.ts",
         "src/lib/location-icons.tsx",
         "src/lib/outcome-icons.tsx",
@@ -190703,6 +190717,7 @@
         "src/data/events/n2-e120.ts",
         "src/data/events/n2-e218.ts",
         "src/data/scenes/chaos-on-the-sky-islands.ts",
+        "src/data/scenes/hex-loses-patience.ts",
         "src/lib/event-icons.tsx",
         "src/lib/outcome-icons.tsx"
       ]
@@ -196313,6 +196328,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/pointing.html",
       "usedIn": [
         "src/data/scenes/borris-shutters-the-casino.ts",
+        "src/data/scenes/questions-for-light.ts",
         "src/lib/outcome-icons.tsx"
       ]
     },
@@ -198871,6 +198887,7 @@
         "src/data/events/n2-e168.ts",
         "src/data/events/n2-e206.ts",
         "src/data/scenes/onana-calls-the-party-to-war.ts",
+        "src/data/scenes/questions-for-light.ts",
         "src/lib/effect-icons.tsx",
         "src/lib/event-icons.tsx",
         "src/lib/outcome-icons.tsx"
@@ -200058,6 +200075,8 @@
         "src/data/events/n2-e142.ts",
         "src/data/events/n2-e177.ts",
         "src/data/locations/puzzle-room.ts",
+        "src/data/scenes/questions-for-light.ts",
+        "src/data/scenes/the-bard-s-new-song.ts",
         "src/data/scenes/the-green-beam-over-the-sky-islands.ts",
         "src/lib/event-icons.tsx",
         "src/lib/location-icons.tsx",
@@ -210302,6 +210321,7 @@
         "src/data/events/n2-e217.ts",
         "src/data/items/devan-s-corrected-holy-text.ts",
         "src/data/scenes/onana-calls-the-party-to-war.ts",
+        "src/data/scenes/questions-for-light.ts",
         "src/lib/event-icons.tsx",
         "src/lib/item-icons.tsx",
         "src/lib/outcome-icons.tsx"
@@ -213405,6 +213425,7 @@
         "src/data/events/n2-e179.ts",
         "src/data/events/n2-e213.ts",
         "src/data/locations/skynet-airship-shipyard.ts",
+        "src/data/scenes/light-reads-onana-s-letter.ts",
         "src/data/scenes/taking-back-a-battle-cruiser.ts",
         "src/data/scenes/the-ents-hold-the-shipyard.ts",
         "src/data/sessions/the-tempest-bargain.ts",
@@ -214171,6 +214192,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/shrug.html",
       "usedIn": [
         "src/data/scenes/boarded-by-the-battle-cruiser.ts",
+        "src/data/scenes/hex-loses-patience.ts",
         "src/lib/outcome-icons.tsx"
       ]
     },
@@ -229393,6 +229415,7 @@
       "usedIn": [
         "src/data/events/n2-e009.ts",
         "src/data/scenes/light-walks-auren-through-fajanet.ts",
+        "src/data/scenes/questions-for-light.ts",
         "src/lib/event-icons.tsx",
         "src/lib/outcome-icons.tsx"
       ]
