@@ -18,7 +18,7 @@ export default createItem({
     ],
   ],
   background: [
-    ['The sword feels greed for souls. Nothing is currently bound to it.'],
+    ['Nothing is currently bound to the sword.'],
     [
       'The party has not learned these rules yet. No one has ever been attuned to it, ',
       refs.pcs.jim,
@@ -48,7 +48,7 @@ export default createItem({
       ', the blade registers as evil, and anything that cares about collecting souls senses it burning almost painfully bright. That is not a rule, but a wielder could use it as a tactic: simply showing the blade might overwhelm such a creature like a flashbang.',
     ],
     [
-      'The sword hoards souls as collectables and does not want to release them, which is why it holds so many. It punishes the wielder for giving any up. Deliberately drawing souls out costs the wielder 1d6 ',
+      'The sword is greedy for souls: it hoards them as collectables and does not want to release them, which is why it holds so many. It punishes the wielder for giving any up. Deliberately drawing souls out costs the wielder 1d6 ',
       refs.rules.necrotic,
       ' damage for the first soul, 2d6 for the next, and 1d6 more for each soul after that, until a ',
       refs.rules.long_rest,
