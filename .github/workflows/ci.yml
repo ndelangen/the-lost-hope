@@ -2,6 +2,7 @@ name: CI
 
 on:
   pull_request:
+  workflow_dispatch:
   push:
     branches: [main]
   schedule:
@@ -11,8 +12,8 @@ permissions:
   contents: read
 
 concurrency:
-  group: ci-${{ github.event_name }}-${{ github.ref }}
-  cancel-in-progress: true
+  group: ci-${{ github.event_name != 'schedule' && github.ref == 'refs/heads/main' && 'release-main' || format('{0}-{1}', github.event_name, github.ref) }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
   verify:
@@ -157,6 +158,106 @@ jobs:
           files: output/coverage/lcov.info
           disable_search: true
           fail_ci_if_error: true
+
+  deploy:
+    name: Deploy to Netlify
+    needs: [verify, workflow-lint, codecov, dependency-audit]
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: production
+      url: https://the-lost-hope.netlify.app
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6 # v2.2.0
+        with:
+          bun-version: 1.4.4
+
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6.5.0
+        with:
+          node-version: '22'
+          package-manager-cache: false
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Install Netlify CLI
+        run: npm install --prefix "$RUNNER_TEMP/netlify-cli" --no-audit --no-fund netlify-cli@27.20.1
+
+      - name: Build and audit production files
+        env:
+          CORRECTIONS_ACCESS_CODE_SHA256: ${{ secrets.CORRECTIONS_ACCESS_CODE_SHA256 }}
+          NETLIFY: 'true'
+          DEPLOY_ID: github-production-${{ github.run_id }}-${{ github.run_attempt }}
+        run: |
+          if ! [[ "$CORRECTIONS_ACCESS_CODE_SHA256" =~ ^[0-9a-fA-F]{64}$ ]]; then
+            echo 'A production correction-access digest is required.' >&2
+            exit 1
+          fi
+          bun run build:deploy
+
+      - name: Check that this commit is still on top of main
+        id: current
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          latest=$(gh api "repos/$GITHUB_REPOSITORY/git/ref/heads/main" --jq '.object.sha')
+          if [[ "$latest" == "$GITHUB_SHA" ]]; then
+            echo 'publish=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'Skipped deployment because main advanced.' >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Publish on Netlify
+        id: publish
+        if: steps.current.outputs.publish == 'true'
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ vars.NETLIFY_SITE_ID }}
+        run: |
+          : "${NETLIFY_AUTH_TOKEN:?Set the production Netlify deploy token}"
+          : "${NETLIFY_SITE_ID:?Set the production Netlify site ID}"
+          "$RUNNER_TEMP/netlify-cli/node_modules/.bin/netlify" deploy \
+            --no-build --prod --dir dist/client --message "GitHub Actions: $GITHUB_SHA" \
+            --json > "$RUNNER_TEMP/netlify-deploy.json"
+          deploy_id=$(jq -er --arg site "$NETLIFY_SITE_ID" \
+            'select(.site_id == $site) | .deploy_id | select(type == "string" and length > 0)' \
+            "$RUNNER_TEMP/netlify-deploy.json")
+          echo "deploy_id=$deploy_id" >> "$GITHUB_OUTPUT"
+          echo "Netlify deployment: $deploy_id" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Check the live site
+        if: steps.current.outputs.publish == 'true'
+        env:
+          NETLIFY_SITE_ID: ${{ vars.NETLIFY_SITE_ID }}
+          EXPECTED_DEPLOY_ID: ${{ steps.publish.outputs.deploy_id }}
+        run: |
+          for attempt in {1..12}; do
+            if curl --fail --silent --show-error "https://api.netlify.com/api/v1/sites/$NETLIFY_SITE_ID" |
+              jq --exit-status --arg id "$EXPECTED_DEPLOY_ID" '.published_deploy.id == $id' > /dev/null; then
+              break
+            fi
+            if [[ "$attempt" == 12 ]]; then
+              echo 'Netlify did not publish the deployment returned by the CLI.' >&2
+              exit 1
+            fi
+            sleep 5
+          done
+          origin=https://the-lost-hope.netlify.app
+          curl --fail --silent --show-error --retry 5 "$origin/" --output "$RUNNER_TEMP/home.html"
+          social_image=$(grep -oE 'property="og:image" content="[^"]+"' "$RUNNER_TEMP/home.html" |
+            sed -n '1s/.*content="\([^"]*\)"/\1/p')
+          [[ "$social_image" == "$origin/social-previews/"* ]]
+          curl --fail --silent --show-error --retry 5 "$social_image" --output /dev/null
+          curl --fail --silent --show-error --retry 5 "$origin/dm" --output /dev/null
+          status=$(curl --silent --show-error --retry 5 --write-out '%{http_code}' \
+            "$origin/api/corrections/submit" --output "$RUNNER_TEMP/corrections.json")
+          [[ "$status" == 405 ]]
+          jq --exit-status '.code == "method_not_allowed"' "$RUNNER_TEMP/corrections.json"
 
   dependency-audit:
     name: Dependency audit
