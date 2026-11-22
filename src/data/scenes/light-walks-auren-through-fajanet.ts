@@ -17,9 +17,11 @@ export default createScene({
       refs.pcs.auren,
       ' alone, and he does the asking. He has ',
       refs.pcs.auren,
-      ' come to ',
+      ' step through the guildhall booth alone in ',
+      refs.scenes.hex_loses_patience,
+      ', which puts him in ',
       refs.locations.fajanet,
-      ' in person, by teleport if needed, and meets him in the city instead of his paper-filled office.',
+      ' in person and cuts him off from the party for the night. He takes him out into the city instead of staying in his paper-filled office.',
     ],
     [
       'Run it on the same evening as ',

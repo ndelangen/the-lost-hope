@@ -35,5 +35,16 @@ export default createOrganization({
       refs.organizations.the_eyeless_hand,
       ' a reason to take members alive.',
     ],
+    [
+      'A booth in any guildhall can carry one person to the office of ',
+      refs.npcs.light_13th_marshal,
+      ' in the ',
+      refs.locations.fajanet_guildhall,
+      '. He may not leave ',
+      refs.locations.fajanet,
+      ', so this is how he meets a recruit elsewhere in person, as he did in ',
+      refs.events.n2_e071,
+      '.',
+    ],
   ],
 })

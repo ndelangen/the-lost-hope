@@ -4,7 +4,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 export default createScene({
   name: 'Hex loses patience',
   location: refs.locations.fajanet_guildhall,
-  npcs: [refs.npcs.hex],
+  npcs: [refs.npcs.hex, refs.npcs.light_13th_marshal],
   setup: [
     [
       refs.npcs.hex,
@@ -76,20 +76,7 @@ export default createScene({
         {
           icon: 'gi/GiPathDistance',
           when: [['They decide to go and ask.']],
-          response: [
-            [
-              refs.npcs.light_13th_marshal,
-              ' first wishes to speak to ',
-              refs.pcs.auren,
-              ' alone: run ',
-              refs.scenes.light_walks_auren_through_fajanet,
-              '. Once ',
-              refs.pcs.auren,
-              ' passes, run ',
-              refs.scenes.questions_for_light,
-              '.',
-            ],
-          ],
+          response: [['From this guildhall the way to ask is the booth: play “At the booth”.']],
         },
         {
           icon: 'gi/GiShrug',
@@ -100,6 +87,68 @@ export default createScene({
               ' shrugs and lets it go. The questions stay with the party, and ',
               refs.npcs.light_13th_marshal,
               ' keeps waiting.',
+            ],
+          ],
+        },
+      ],
+    },
+    {
+      title: 'At the booth',
+      onlyIf: [['They decide to go and ask.']],
+      lines: [
+        {
+          do: [
+            [
+              'The party steps up to the booth of the guildhall. On the other side ',
+              refs.npcs.light_13th_marshal,
+              ' sits behind stacks of paper, writing.',
+            ],
+          ],
+        },
+        {
+          speaker: refs.npcs.light_13th_marshal,
+          say: [
+            ['You have come to ask me something. Good.'],
+            ['But you have brought someone I have not met.'],
+            [refs.pcs.auren, ', step in. Alone, please.'],
+            ['The rest of you, keep your questions until he and I are done.'],
+          ],
+        },
+        {
+          note: [
+            [
+              'These lines are a draft. To the party this looks like the induction every recruit gets: a tattoo and a favor.',
+            ],
+            [
+              'The booth carries one person. ',
+              refs.pcs.auren,
+              ' arrives in the office of ',
+              refs.npcs.light_13th_marshal,
+              ' in ',
+              refs.locations.fajanet,
+              ', in person and cut off from the party for the night. Nobody can follow him.',
+            ],
+          ],
+        },
+      ],
+      outcomes: [
+        {
+          icon: 'gi/GiPathDistance',
+          when: [[refs.pcs.auren, ' steps in.']],
+          response: [
+            [
+              'Run ',
+              refs.scenes.light_walks_auren_through_fajanet,
+              '. The others stay behind in the guildhall: that evening, run ',
+              refs.scenes.fix_s_last_delivery,
+              ' for them and cut between the two.',
+            ],
+            [
+              'The next morning the booth opens again. Once ',
+              refs.pcs.auren,
+              ' has passed, run ',
+              refs.scenes.questions_for_light,
+              '.',
             ],
           ],
         },

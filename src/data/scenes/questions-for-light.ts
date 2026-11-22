@@ -14,9 +14,9 @@ export default createScene({
       '.',
     ],
     [
-      'It comes after ',
+      'It comes the morning after ',
       refs.scenes.light_walks_auren_through_fajanet,
-      ', where he spoke to ',
+      ', when the booth opens again. On the walk he spoke to ',
       refs.pcs.auren,
       ' alone and only asked. Once ',
       refs.pcs.auren,
