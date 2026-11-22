@@ -16,6 +16,27 @@ concurrency:
   cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
+  # A quick, separate check so main can require it: original artwork lives in R2, not git.
+  media-gate:
+    name: Original artwork
+    if: github.event_name != 'schedule'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6 # v2.2.0
+        with:
+          bun-version: 1.4.4
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Original artwork is uploaded and out of git
+        run: bun run media:gate
+
   verify:
     name: Verify
     if: github.event_name != 'schedule'
@@ -46,10 +67,6 @@ jobs:
 
       # Same checks as `bun run verify`, split into steps so a failure is easy to spot.
       # Responsive images are generated once (by typecheck) and reused by the steps after it.
-      # Originals live in R2; generate:images fetches them on first use.
-      - name: Original artwork is uploaded and out of git
-        run: bun run media:gate
-
       - name: Generated refs are current
         run: bun run generate:refs:check
 
