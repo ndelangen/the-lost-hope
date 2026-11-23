@@ -7,6 +7,7 @@ import { cn } from '#/lib/utils'
 
 /** One printed comic page, drawn as a single picture so panels can take any shape. */
 export function NovelPageSheet({ page, className }: { page: NovelPage; className?: string }) {
+  const missingPatternId = `novel-missing-${page.number}`
   const panels = page.panels.map((panel) => ({ panel, shape: panel.shape }))
   // Insets are drawn after the panels they sit on.
   const drawOrder = [
@@ -27,7 +28,7 @@ export function NovelPageSheet({ page, className }: { page: NovelPage; className
           </clipPath>
         ))}
         <pattern
-          id="novel-missing"
+          id={missingPatternId}
           width="28"
           height="28"
           patternUnits="userSpaceOnUse"
@@ -39,7 +40,12 @@ export function NovelPageSheet({ page, className }: { page: NovelPage; className
       </defs>
       <rect width={PAGE.width} height={PAGE.height} fill="white" />
       {drawOrder.map(({ panel, shape }) => (
-        <ComicPanel key={panel.id} panel={panel} shape={shape} />
+        <ComicPanel
+          key={panel.id}
+          panel={panel}
+          shape={shape}
+          missingPatternId={missingPatternId}
+        />
       ))}
     </svg>
   )
@@ -47,7 +53,15 @@ export function NovelPageSheet({ page, className }: { page: NovelPage; className
 
 const clipId = (panel: NovelPanel) => `novel-panel-${panel.id}`
 
-function ComicPanel({ panel, shape }: { panel: NovelPanel; shape: PanelShape }) {
+function ComicPanel({
+  panel,
+  shape,
+  missingPatternId,
+}: {
+  panel: NovelPanel
+  shape: PanelShape
+  missingPatternId: string
+}) {
   const { box } = shape
   const { status } = panel
   const corner = shape.inner.reduce((best, point) =>
@@ -70,7 +84,7 @@ function ComicPanel({ panel, shape }: { panel: NovelPanel; shape: PanelShape }) 
             preserveAspectRatio="xMidYMid slice"
           />
         ) : (
-          <MissingArt panel={panel} shape={shape} />
+          <MissingArt panel={panel} shape={shape} patternId={missingPatternId} />
         )}
         <rect
           x={box.x}
@@ -139,12 +153,20 @@ function pictureFor(src: string, width: number): string {
   return (sharp ?? candidates.at(-1))?.src ?? publicAssetUrl(src, src)
 }
 
-function MissingArt({ panel, shape }: { panel: NovelPanel; shape: PanelShape }) {
+function MissingArt({
+  panel,
+  shape,
+  patternId,
+}: {
+  panel: NovelPanel
+  shape: PanelShape
+  patternId: string
+}) {
   const { box } = shape
   const size = artTargetSize(panel.aspect)
   return (
     <>
-      <rect x={box.x} y={box.y} width={box.width} height={box.height} fill="url(#novel-missing)" />
+      <rect x={box.x} y={box.y} width={box.width} height={box.height} fill={`url(#${patternId})`} />
       <foreignObject x={box.x} y={box.y} width={box.width} height={box.height}>
         <div className="flex h-full flex-col items-center justify-center gap-1.5 px-[12%] text-center text-[17px] text-red-900">
           <p className="text-[14px] font-black tracking-[0.2em] uppercase">Missing art</p>
