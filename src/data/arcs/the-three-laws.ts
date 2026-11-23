@@ -26,6 +26,12 @@ export default createArc({
       refs.organizations.marshals_court,
       '. If the party convinces the people that the Marshal is someone else, they take their ships at once and flee, presumably to wherever the new Marshal is. After Asimov’s …That Thou Art Mindful of Him, where robots redefine who counts as human.',
     ],
+    ['The rest is left to the party to find.'],
+    [
+      'The dark way out: the party could try to destroy ',
+      refs.locations.the_caves_of_steel,
+      ' outright, collapsing it or making it leak and fill with water, and drown everyone inside.',
+    ],
     [
       'The laws hold while the Marshal rests, and nobody watches the gaps. It would never know its people had been turned until it called them to war and nobody came.',
     ],

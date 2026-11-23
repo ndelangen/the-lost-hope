@@ -18,6 +18,7 @@ export default createLocation({
     ],
   ],
   background: [
+    ['About 500,000 people live here.'],
     [
       'Everyone born here is bound by the three laws of ',
       refs.npcs.the_11th_marshal,
