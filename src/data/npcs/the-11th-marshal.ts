@@ -30,7 +30,7 @@ export default createNPC({
       'It does not care what they love, hate or dream of. To it they are less than insects, meatballs that roll around until it needs them to roll into battle.',
     ],
     [
-      'It prefers thinking food. The fleet fishes for the people’s own meals, and also hunts sentient sea creatures for the Marshal’s table.',
+      'It prefers thinking food, because it enjoys the taste of their pain. The fleet fishes for the people’s own meals, and also hunts sentient sea creatures for the Marshal’s table.',
     ],
   ],
   background: [
@@ -50,6 +50,11 @@ export default createNPC({
     ],
     [
       'The laws rule in its place, so it does not have to govern. It rests on the seabed and can go years without speaking to its people. It never goes anywhere itself: it always sends a mind-controlled minion.',
+    ],
+    [
+      'It is the marshal least affected if ',
+      refs.npcs.light_13th_marshal,
+      ' suddenly stops writing. Its people have never taken Arcane Dust as a drug, so the loss does not fall on them. The power imbalance could let it take huge stretches of ocean and land. It would be a worthy enemy even if Light’s plan works exactly as intended, and it is among the most evil of the marshals.',
     ],
     [
       'The laws are a deliberate echo of Asimov’s Three Laws of Robotics, turned around: the people must protect their master. As in Asimov’s stories, the puzzle is what the laws actually say, which one takes precedence, and the gap between that and what the Marshal meant.',

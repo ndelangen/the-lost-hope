@@ -102,5 +102,17 @@ export default createArc({
       ],
       scene: refs.scenes.questions_for_light,
     },
+    {
+      name: 'A war for the 11th',
+      hook: [
+        [
+          refs.npcs.the_11th_marshal,
+          ' would come out of the end of the writing stronger than anyone. Does ',
+          refs.npcs.light_13th_marshal,
+          ' start a war between it and another marshal first?',
+        ],
+      ],
+      notes: [['One option for Light, not settled.']],
+    },
   ],
 })
