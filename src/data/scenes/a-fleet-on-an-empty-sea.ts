@@ -130,7 +130,7 @@ export default createScene({
         {
           note: [
             [
-              'The people have no contact with the outside and know nothing of it. They cannot get enough of stories about anything at all, and they pay in valuables for every one, including the characters’ own backgrounds.',
+              'The people have no contact with the outside and know nothing of it. They cannot get enough of stories about anything at all, and they pay in valuables for every one, including the characters’ own backgrounds. They want to buy books too, any books the party will sell.',
             ],
             [
               'This is the point of the scene: invite each player to tell where their character comes from, and pay them for it. A character who tells their background gains a level. What the party tells them is all the people will ever have of the outside.',
