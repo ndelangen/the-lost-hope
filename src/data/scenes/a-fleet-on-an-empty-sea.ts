@@ -14,6 +14,9 @@ export default createScene({
       refs.npcs.the_11th_marshal,
       '.',
     ],
+    [
+      'Its real job is to get the players telling their characters’ stories, backgrounds included: the people pay for every story they hear.',
+    ],
     ['A rough draft: what brings the party here, and when, is still open.'],
   ],
   beats: [
@@ -48,6 +51,44 @@ export default createScene({
             ],
           ],
         },
+        {
+          do: [
+            [
+              'Among the fish in the nets is something that is not a fish: a sentient sea creature, alive, bound, and looking straight at the party.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              'Besides their own food, the fleet hunts sentient creatures to feed to ',
+              refs.npcs.the_11th_marshal,
+              '. They cannot help it: it is an order.',
+            ],
+          ],
+        },
+      ],
+      outcomes: [
+        {
+          icon: 'gi/GiOpenGate',
+          when: [['They set the catch free.']],
+          response: [
+            [
+              'The fishers are annoyed, but they do not fight the party over it. They know it is only for now.',
+            ],
+          ],
+          followUps: [
+            {
+              icon: 'gi/GiConversation',
+              when: [['Someone asks why they let it happen.']],
+              response: [
+                [
+                  'They shrug: “You will leave, and we will catch them again. Or you will stay, and then you are the snack.”',
+                ],
+              ],
+            },
+          ],
+        },
       ],
     },
     {
@@ -64,7 +105,10 @@ export default createScene({
         {
           note: [
             [
-              'Let the players tell their stories and reward them for it. The people have no contact with the outside and know nothing of it. What the party tells them is all they will ever have.',
+              'The people have no contact with the outside and know nothing of it. They cannot get enough of stories about anything at all, and they pay in valuables for every one, including the characters’ own backgrounds.',
+            ],
+            [
+              'This is the point of the scene: invite each player to tell where their character comes from, and pay them for it. What the party tells them is all the people will ever have of the outside.',
             ],
           ],
         },
