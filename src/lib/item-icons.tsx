@@ -28,6 +28,8 @@ import {
   GiLockedChest,
   GiPassport,
   GiPotionBall,
+  GiTiedScroll,
+  GiWaxSeal,
   GiRoundBottomFlask,
   GiScales,
   GiSlaveryWhip,
@@ -126,6 +128,8 @@ export const ITEM_ICONS = {
   'gi/GiRoundBottomFlask': GiRoundBottomFlask,
   'gi/GiScales': GiScales,
   'gi/GiSlaveryWhip': GiSlaveryWhip,
+  'gi/GiTiedScroll': GiTiedScroll,
+  'gi/GiWaxSeal': GiWaxSeal,
 } as const satisfies Record<string, IconType>
 
 export function resolveItemIcon(icon: string): IconType {

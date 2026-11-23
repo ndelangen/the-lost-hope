@@ -33,11 +33,22 @@ export function DmHiddenReference({ reference }: { reference: HiddenReference })
       <span className="sr-only"> (players have not met yet)</span>
     </>
   )
-  return reference.ref === 'npc' ? (
+  if (reference.ref === 'npc')
+    return (
+      <Link
+        to="/dm/npcs/$slug"
+        params={{ slug: record.slug }}
+        title="Players have not met this NPC yet"
+        className={linkClassName}
+      >
+        {content}
+      </Link>
+    )
+  return reference.ref === 'item' ? (
     <Link
-      to="/dm/npcs/$slug"
+      to="/dm/items/$slug"
       params={{ slug: record.slug }}
-      title="Players have not met this NPC yet"
+      title="Players have not found this item yet"
       className={linkClassName}
     >
       {content}

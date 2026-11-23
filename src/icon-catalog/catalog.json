@@ -58056,7 +58056,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://fontawesome.com/v5/icons/ring",
       "usedIn": [
-        "src/data/items/wolfie-tracking-ring.ts",
+        "src/data/items/ring-of-hunger.ts",
         "src/lib/item-icons.tsx"
       ]
     },
@@ -83870,6 +83870,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/anthem.html",
       "usedIn": [
         "src/data/npcs/captain-garran.ts",
+        "src/data/pcs/jim.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -91381,7 +91382,10 @@
       "classification": "useful",
       "classificationReason": "Manually classified as useful from the /_icons review page.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/battle-mech.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/the-old-battlefield.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiBattleship",
@@ -98858,6 +98862,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/brain.html",
       "usedIn": [
         "src/data/npcs/onana-tempest.ts",
+        "src/data/pcs/cassian-veyl.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -99629,6 +99634,7 @@
       "usedIn": [
         "src/data/npcs/onana-tempest.ts",
         "src/data/npcs/silas-wren.ts",
+        "src/data/pcs/devan.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -100023,6 +100029,8 @@
         "src/data/npcs/sylvia-s-brother.ts",
         "src/data/npcs/tempest-soldier.ts",
         "src/data/npcs/the-fiddler-s-knight.ts",
+        "src/data/pcs/devan.ts",
+        "src/data/pcs/swift-starblade.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -108229,6 +108237,9 @@
         "src/data/events/n2-e189.ts",
         "src/data/npcs/madame-esmeralda.ts",
         "src/data/npcs/the-fiddler.ts",
+        "src/data/pcs/cassian-veyl.ts",
+        "src/data/pcs/jim.ts",
+        "src/data/pcs/swift-starblade.ts",
         "src/data/sessions/the-fiddlers-game.ts",
         "src/lib/ability-icons.tsx",
         "src/lib/event-icons.tsx",
@@ -110795,6 +110806,8 @@
       "usedIn": [
         "src/data/npcs/hex.ts",
         "src/data/npcs/sylf.ts",
+        "src/data/pcs/jim.ts",
+        "src/data/pcs/swift-starblade.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -116818,9 +116831,11 @@
       "usedIn": [
         "src/components/dm/scene-branches.test.tsx",
         "src/data/npcs/onana-tempest.ts",
+        "src/data/pcs/cassian-veyl.ts",
         "src/data/scenes/boarded-by-the-battle-cruiser.ts",
         "src/data/scenes/borris-shutters-the-casino.ts",
         "src/data/scenes/chaos-on-the-sky-islands.ts",
+        "src/data/scenes/down-through-the-rubble.ts",
         "src/data/scenes/hex-loses-patience.ts",
         "src/data/scenes/light-reads-onana-s-letter.ts",
         "src/data/scenes/questions-for-light.ts",
@@ -119277,6 +119292,7 @@
         "src/data/npcs/borris.ts",
         "src/data/npcs/rare-animal-dealer.ts",
         "src/data/npcs/verdant-haven-rangers.ts",
+        "src/data/pcs/auren.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -119776,6 +119792,7 @@
       "usedIn": [
         "src/data/organizations/adventurers-guild.ts",
         "src/data/scenes/boarded-by-the-battle-cruiser.ts",
+        "src/data/scenes/down-through-the-rubble.ts",
         "src/data/scenes/fix-s-last-delivery.ts",
         "src/data/scenes/garran-comes-for-the-cruiser.ts",
         "src/data/scenes/onana-calls-the-party-to-war.ts",
@@ -120937,6 +120954,7 @@
         "src/data/npcs/madame-esmeralda.ts",
         "src/data/npcs/onana-tempest.ts",
         "src/data/npcs/throne-figure-in-jim-s-vision.ts",
+        "src/data/pcs/cassian-veyl.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -122670,6 +122688,7 @@
         "src/data/npcs/stefanio.ts",
         "src/data/npcs/the-father.ts",
         "src/data/npcs/verdant-haven-rangers.ts",
+        "src/data/pcs/swift-starblade.ts",
         "src/lib/ability-icons.tsx",
         "src/lib/item-icons.tsx"
       ]
@@ -123530,6 +123549,8 @@
       "sourceUrl": "https://game-icons.net/1x1/sbed/death-skull.html",
       "usedIn": [
         "src/data/npcs/celeste.ts",
+        "src/data/pcs/cassian-veyl.ts",
+        "src/data/pcs/jim.ts",
         "src/data/rules/damage-types.ts",
         "src/data/scenes/taking-back-a-battle-cruiser.ts",
         "src/lib/ability-icons.tsx",
@@ -127917,6 +127938,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/double-face-mask.html",
       "usedIn": [
         "src/data/npcs/silas-wren.ts",
+        "src/data/pcs/jim.ts",
         "src/data/scenes/light-walks-auren-through-fajanet.ts",
         "src/data/scenes/questions-for-light.ts",
         "src/lib/ability-icons.tsx",
@@ -133456,7 +133478,9 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/energy-shield.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/pcs/auren.ts"
+      ]
     },
     {
       "id": "gi/GiEnergySword",
@@ -136076,6 +136100,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/fairy-wand.html",
       "usedIn": [
         "src/data/locations/feywild.ts",
+        "src/data/pcs/auren.ts",
         "src/lib/location-icons.tsx"
       ]
     },
@@ -136935,6 +136960,7 @@
         "src/data/beasts/wolfie.ts",
         "src/data/npcs/dax.ts",
         "src/data/npcs/sylf.ts",
+        "src/data/pcs/devan.ts",
         "src/definitions/stat-block.test.ts",
         "src/lib/ability-icons.tsx",
         "src/lib/stat-block.test.ts"
@@ -137324,6 +137350,7 @@
         "src/data/events/n2-e015.ts",
         "src/data/events/n2-e081.ts",
         "src/data/items/phoenix-feather.ts",
+        "src/data/pcs/jim.ts",
         "src/lib/ability-icons.tsx",
         "src/lib/event-icons.tsx",
         "src/lib/item-icons.tsx"
@@ -139136,6 +139163,7 @@
       "usedIn": [
         "src/data/beasts/phoenix-chick.ts",
         "src/data/npcs/hand-spellbinder.ts",
+        "src/data/pcs/swift-starblade.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -140635,6 +140663,7 @@
       "classificationReason": "Manually classified as useful from the /_icons review page.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/fist.html",
       "usedIn": [
+        "src/data/npcs/buried-war-machine.ts",
         "src/data/npcs/cloaked-snatcher.ts",
         "src/data/npcs/gruumsh-high-priest.ts",
         "src/data/npcs/hand-breaker.ts",
@@ -144049,6 +144078,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/foot-trip.html",
       "usedIn": [
         "src/data/npcs/captain-garran.ts",
+        "src/data/pcs/swift-starblade.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -147280,7 +147310,9 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/gauntlet.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/pcs/auren.ts"
+      ]
     },
     {
       "id": "gi/GiGavel",
@@ -147451,6 +147483,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/gear-hammer.html",
       "usedIn": [
         "src/data/locations/giggles-and-gadgets.ts",
+        "src/data/npcs/buried-war-machine.ts",
         "src/data/npcs/mr-bumblefoot.ts",
         "src/data/npcs/rudolf-tempest.ts",
         "src/lib/ability-icons.tsx",
@@ -153058,6 +153091,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/hand.html",
       "usedIn": [
         "src/data/organizations/the-eyeless-hand.ts",
+        "src/data/scenes/down-through-the-rubble.ts",
         "src/data/scenes/taking-back-a-battle-cruiser.ts",
         "src/data/scenes/the-bard-s-new-song.ts",
         "src/lib/organization-icons.tsx",
@@ -154689,6 +154723,8 @@
         "src/data/npcs/misha.ts",
         "src/data/npcs/silas-wren.ts",
         "src/data/npcs/tempest-soldier.ts",
+        "src/data/pcs/auren.ts",
+        "src/data/pcs/devan.ts",
         "src/data/scenes/the-green-beam-over-the-sky-islands.ts",
         "src/lib/ability-icons.tsx",
         "src/lib/outcome-icons.tsx"
@@ -154745,6 +154781,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/healing-shield.html",
       "usedIn": [
         "src/data/npcs/silas-wren.ts",
+        "src/data/pcs/jim.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -156067,6 +156104,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/heat-haze.html",
       "usedIn": [
+        "src/data/npcs/buried-war-machine.ts",
         "src/data/npcs/onana-tempest.ts",
         "src/data/npcs/silas-wren.ts",
         "src/lib/ability-icons.tsx"
@@ -158368,6 +158406,7 @@
         "src/data/npcs/light-13th-marshal.ts",
         "src/data/npcs/silas-wren.ts",
         "src/data/npcs/the-12th-marshal.ts",
+        "src/data/pcs/devan.ts",
         "src/data/quests/mountain-holy-site.ts",
         "src/lib/ability-icons.tsx",
         "src/lib/quest-icons.tsx"
@@ -159845,8 +159884,10 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/hourglass.html",
       "usedIn": [
         "src/data/npcs/the-fiddler.ts",
+        "src/data/pcs/jim.ts",
         "src/data/scenes/borris-shutters-the-casino.ts",
         "src/data/scenes/chaos-on-the-sky-islands.ts",
+        "src/data/scenes/down-through-the-rubble.ts",
         "src/data/scenes/questions-for-light.ts",
         "src/data/scenes/the-ents-hold-the-shipyard.ts",
         "src/lib/ability-icons.tsx",
@@ -160050,6 +160091,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/human-ear.html",
       "usedIn": [
         "src/data/npcs/onana-tempest.ts",
+        "src/data/pcs/cassian-veyl.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -161000,6 +161042,8 @@
       "usedIn": [
         "src/data/npcs/ilsa-corrow.ts",
         "src/data/npcs/the-12th-marshal.ts",
+        "src/data/pcs/auren.ts",
+        "src/data/pcs/cassian-veyl.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -163468,6 +163512,7 @@
         "src/data/npcs/faceless-shadow.ts",
         "src/data/npcs/silas-wren.ts",
         "src/data/npcs/the-father.ts",
+        "src/data/pcs/cassian-veyl.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -164589,6 +164634,8 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/jester-hat.html",
       "usedIn": [
         "src/data/npcs/onana-tempest.ts",
+        "src/data/pcs/auren.ts",
+        "src/data/pcs/cassian-veyl.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -166982,6 +167029,7 @@
       "usedIn": [
         "src/data/npcs/captain-garran.ts",
         "src/data/npcs/korrag-stonevow.ts",
+        "src/data/pcs/jim.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -170742,7 +170790,9 @@
       "classification": "questionable",
       "classificationReason": "Upstream tags indicate an abstract, modern, technical, or setting-specific visual.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/lightning-arc.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/pcs/auren.ts"
+      ]
     },
     {
       "id": "gi/GiLightningBow",
@@ -174245,7 +174295,9 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/mace-head.html",
       "usedIn": [
         "src/data/items/steve-mace-of-returning.ts",
-        "src/lib/item-icons.tsx"
+        "src/data/pcs/devan.ts",
+        "src/lib/item-icons.tsx",
+        "src/lib/stat-block.test.ts"
       ]
     },
     {
@@ -174835,6 +174887,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/magic-palm.html",
       "usedIn": [
         "src/data/organizations/lucky-palm.ts",
+        "src/data/pcs/auren.ts",
         "src/lib/organization-icons.tsx"
       ]
     },
@@ -175097,6 +175150,9 @@
         "src/data/npcs/hex.ts",
         "src/data/npcs/ilsa-corrow.ts",
         "src/data/npcs/sarogarth.ts",
+        "src/data/pcs/auren.ts",
+        "src/data/pcs/jim.ts",
+        "src/data/pcs/swift-starblade.ts",
         "src/lib/ability-icons.tsx",
         "src/lib/location-icons.tsx"
       ]
@@ -180251,6 +180307,8 @@
         "src/data/npcs/misha.ts",
         "src/data/npcs/silas-wren.ts",
         "src/data/npcs/throne-figure-in-jim-s-vision.ts",
+        "src/data/pcs/cassian-veyl.ts",
+        "src/data/pcs/swift-starblade.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -183291,6 +183349,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/musical-notes.html",
       "usedIn": [
         "src/data/npcs/the-fiddler.ts",
+        "src/data/pcs/jim.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -196328,6 +196387,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/pointing.html",
       "usedIn": [
         "src/data/scenes/borris-shutters-the-casino.ts",
+        "src/data/scenes/down-through-the-rubble.ts",
         "src/data/scenes/questions-for-light.ts",
         "src/lib/outcome-icons.tsx"
       ]
@@ -198265,6 +198325,7 @@
         "src/data/npcs/bob-the-gate-troll.ts",
         "src/data/npcs/bob-the-merchant.ts",
         "src/data/npcs/borris.ts",
+        "src/data/npcs/buried-war-machine.ts",
         "src/data/npcs/captain-garran.ts",
         "src/data/npcs/dragon-of-the-mountain.ts",
         "src/data/npcs/durgan-ashfang.ts",
@@ -198296,6 +198357,8 @@
         "src/data/npcs/the-mountain.ts",
         "src/data/npcs/throne-figure-in-jim-s-vision.ts",
         "src/data/npcs/verdant-haven-rangers.ts",
+        "src/data/pcs/cassian-veyl.ts",
+        "src/data/pcs/devan.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -200075,6 +200138,7 @@
         "src/data/events/n2-e142.ts",
         "src/data/events/n2-e177.ts",
         "src/data/locations/puzzle-room.ts",
+        "src/data/scenes/down-through-the-rubble.ts",
         "src/data/scenes/questions-for-light.ts",
         "src/data/scenes/the-bard-s-new-song.ts",
         "src/data/scenes/the-green-beam-over-the-sky-islands.ts",
@@ -202099,6 +202163,7 @@
         "src/data/events/n2-e178.ts",
         "src/data/npcs/crowy.ts",
         "src/data/npcs/onana-tempest.ts",
+        "src/data/pcs/swift-starblade.ts",
         "src/lib/ability-icons.tsx",
         "src/lib/event-icons.tsx"
       ]
@@ -204497,7 +204562,9 @@
       "classification": "questionable",
       "classificationReason": "Upstream tags indicate an abstract, modern, technical, or setting-specific visual.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/robot-golem.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/pcs/auren.ts"
+      ]
     },
     {
       "id": "gi/GiRobotGrab",
@@ -206427,6 +206494,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/run.html",
       "usedIn": [
+        "src/data/scenes/down-through-the-rubble.ts",
         "src/data/scenes/garran-comes-for-the-cruiser.ts",
         "src/lib/outcome-icons.tsx"
       ]
@@ -209720,6 +209788,7 @@
         "src/data/npcs/anton-tempest.ts",
         "src/data/npcs/light-13th-marshal.ts",
         "src/data/npcs/onana-tempest.ts",
+        "src/data/pcs/cassian-veyl.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -212899,7 +212968,9 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/shield-reflect.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/pcs/auren.ts"
+      ]
     },
     {
       "id": "gi/GiShiningClaw",
@@ -214636,6 +214707,7 @@
         "src/components/dm/ability-quick-list.test.tsx",
         "src/data/npcs/ilsa-corrow.ts",
         "src/data/npcs/onana-tempest.ts",
+        "src/data/pcs/cassian-veyl.ts",
         "src/lib/ability-icons.tsx",
         "src/lib/ability-index.test.ts"
       ]
@@ -216817,7 +216889,9 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/slime.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/pcs/auren.ts"
+      ]
     },
     {
       "id": "gi/GiSling",
@@ -216918,6 +216992,7 @@
         "src/data/creatures/commoner.ts",
         "src/data/npcs/goblin-grass-keepers.ts",
         "src/data/npcs/mr-bumblefoot.ts",
+        "src/data/pcs/swift-starblade.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -220764,6 +220839,7 @@
       "usedIn": [
         "src/data/locations/shadow-realm.ts",
         "src/data/npcs/celeste.ts",
+        "src/data/pcs/cassian-veyl.ts",
         "src/lib/ability-icons.tsx",
         "src/lib/location-icons.tsx"
       ]
@@ -229008,6 +229084,7 @@
       "usedIn": [
         "src/data/beasts/sir-fabulous-divine-steed.ts",
         "src/data/npcs/light-13th-marshal.ts",
+        "src/data/pcs/devan.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -229466,7 +229543,10 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "duplicateOf": "lucide/Sunset",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/sunset.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/scenes/onana-sends-the-party-on.ts",
+        "src/lib/outcome-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiSunSpear",
@@ -232186,6 +232266,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/take-my-money.html",
       "usedIn": [
+        "src/data/scenes/down-through-the-rubble.ts",
         "src/data/scenes/the-ents-hold-the-shipyard.ts",
         "src/lib/outcome-icons.tsx"
       ]
@@ -233793,6 +233874,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/telepathy.html",
       "usedIn": [
         "src/data/npcs/onana-tempest.ts",
+        "src/data/pcs/cassian-veyl.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -233845,6 +233927,7 @@
         "src/data/npcs/ilsa-corrow.ts",
         "src/data/npcs/onana-tempest.ts",
         "src/data/npcs/sarogarth.ts",
+        "src/data/pcs/cassian-veyl.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -234643,6 +234726,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/tentacle-strike.html",
       "usedIn": [
         "src/data/beasts/displacer-beast.ts",
+        "src/data/pcs/cassian-veyl.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -235934,6 +236018,9 @@
         "src/data/npcs/grimgor-the-bloody.ts",
         "src/data/npcs/ryan.ts",
         "src/data/npcs/the-father.ts",
+        "src/data/pcs/devan.ts",
+        "src/data/pcs/jim.ts",
+        "src/data/pcs/swift-starblade.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -236305,7 +236392,9 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/thunder-blade.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/pcs/auren.ts"
+      ]
     },
     {
       "id": "gi/GiThunderSkull",
@@ -236411,7 +236500,9 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/thunder-struck.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/pcs/auren.ts"
+      ]
     },
     {
       "id": "gi/GiThwomp",
@@ -236722,7 +236813,8 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/tied-scroll.html",
       "usedIn": [
-        "src/data/items/the-hand-s-directive-on-jim.ts"
+        "src/data/items/the-hand-s-directive-on-jim.ts",
+        "src/lib/item-icons.tsx"
       ]
     },
     {
@@ -237612,6 +237704,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/tongue.html",
       "usedIn": [
         "src/data/npcs/onana-tempest.ts",
+        "src/data/pcs/jim.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -245967,7 +246060,9 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/vine-whip.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/pcs/auren.ts"
+      ]
     },
     {
       "id": "gi/GiVintageRobot",
@@ -247217,9 +247312,11 @@
         "src/data/npcs/borris.ts",
         "src/data/npcs/durgan-ashfang.ts",
         "src/data/npcs/korrag-stonevow.ts",
+        "src/data/pcs/devan.ts",
         "src/data/rules/damage-types.ts",
         "src/lib/ability-icons.tsx",
-        "src/lib/rule-icons.tsx"
+        "src/lib/rule-icons.tsx",
+        "src/lib/stat-block.test.ts"
       ]
     },
     {
@@ -248835,7 +248932,8 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/wax-seal.html",
       "usedIn": [
-        "src/data/items/letter-from-the-father.ts"
+        "src/data/items/letter-from-the-father.ts",
+        "src/lib/item-icons.tsx"
       ]
     },
     {
@@ -250221,6 +250319,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/wind-hole.html",
       "usedIn": [
         "src/data/npcs/onana-tempest.ts",
+        "src/data/pcs/swift-starblade.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -251112,6 +251211,8 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/wingfoot.html",
       "usedIn": [
         "src/data/npcs/mr-bumblefoot.ts",
+        "src/data/pcs/devan.ts",
+        "src/data/pcs/swift-starblade.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -251570,6 +251671,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/wizard-staff.html",
       "usedIn": [
         "src/data/npcs/frog-medicine-man-of-verdant-haven.ts",
+        "src/data/pcs/swift-starblade.ts",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -252943,7 +253045,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/wrecking-ball.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/rustmoor.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiWrench",
