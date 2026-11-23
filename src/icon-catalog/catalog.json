@@ -116835,9 +116835,9 @@
         "src/data/scenes/boarded-by-the-battle-cruiser.ts",
         "src/data/scenes/borris-shutters-the-casino.ts",
         "src/data/scenes/chaos-on-the-sky-islands.ts",
+        "src/data/scenes/crowy-brings-up-onana-s-letter.ts",
         "src/data/scenes/down-through-the-rubble.ts",
         "src/data/scenes/hex-loses-patience.ts",
-        "src/data/scenes/light-reads-onana-s-letter.ts",
         "src/data/scenes/questions-for-light.ts",
         "src/data/scenes/the-bard-s-new-song.ts",
         "src/data/scenes/the-clogged-ferry-landing.ts",
@@ -143315,7 +143315,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/flying-flag.html",
       "usedIn": [
-        "src/data/scenes/light-reads-onana-s-letter.ts",
+        "src/data/scenes/crowy-brings-up-onana-s-letter.ts",
         "src/data/scenes/questions-for-light.ts",
         "src/data/scenes/running-from-the-battle-cruiser.ts",
         "src/lib/outcome-icons.tsx"
@@ -213504,7 +213504,7 @@
         "src/data/events/n2-e179.ts",
         "src/data/events/n2-e213.ts",
         "src/data/locations/skynet-airship-shipyard.ts",
-        "src/data/scenes/light-reads-onana-s-letter.ts",
+        "src/data/scenes/crowy-brings-up-onana-s-letter.ts",
         "src/data/scenes/taking-back-a-battle-cruiser.ts",
         "src/data/scenes/the-ents-hold-the-shipyard.ts",
         "src/data/sessions/the-tempest-bargain.ts",
@@ -259754,7 +259754,8 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/bed-double",
       "usedIn": [
-        "src/lib/location-icons.tsx"
+        "src/lib/location-icons.tsx",
+        "src/routes/pcs/detail.$slug_.play.tsx"
       ]
     },
     {
@@ -263092,7 +263093,8 @@
       "usedIn": [
         "src/components/dm/encounter/combat-status.tsx",
         "src/components/dm/encounter/condition-markers.tsx",
-        "src/components/dm/encounter/turn-card.tsx"
+        "src/components/dm/encounter/turn-card.tsx",
+        "src/routes/pcs/detail.$slug_.play.tsx"
       ]
     },
     {
@@ -267100,7 +267102,8 @@
         "src/components/dm/encounter/turn-card.tsx",
         "src/components/dm/group-save-tracker.tsx",
         "src/components/dm/scene-script.tsx",
-        "src/components/player-screen/jims-letter-words-control.tsx"
+        "src/components/player-screen/jims-letter-words-control.tsx",
+        "src/routes/pcs/detail.$slug_.play.tsx"
       ]
     },
     {
@@ -267532,7 +267535,8 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/chevron-down",
       "usedIn": [
-        "src/components/campaign-shell/sidebar.tsx"
+        "src/components/campaign-shell/sidebar.tsx",
+        "src/routes/pcs/detail.$slug_.play.tsx"
       ]
     },
     {
@@ -273623,7 +273627,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/coffee",
-      "usedIn": []
+      "usedIn": [
+        "src/routes/pcs/detail.$slug_.play.tsx"
+      ]
     },
     {
       "id": "lucide/Cog",
@@ -275876,7 +275882,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/delete",
-      "usedIn": []
+      "usedIn": [
+        "src/components/play/hp-pad.tsx"
+      ]
     },
     {
       "id": "lucide/Dessert",
@@ -276344,7 +276352,8 @@
       "sourceUrl": "https://lucide.dev/icons/dices",
       "usedIn": [
         "src/components/dm/encounter/turn-card.tsx",
-        "src/components/dm/group-save-tracker.tsx"
+        "src/components/dm/group-save-tracker.tsx",
+        "src/routes/pcs/detail.$slug_.play.tsx"
       ]
     },
     {
@@ -286575,7 +286584,8 @@
       "sourceUrl": "https://lucide.dev/icons/heart-crack",
       "usedIn": [
         "src/components/dm/encounter/combat-status.tsx",
-        "src/components/dm/encounter/turn-card.tsx"
+        "src/components/dm/encounter/turn-card.tsx",
+        "src/components/play/dying-banner.tsx"
       ]
     },
     {
@@ -286783,7 +286793,9 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/heart-plus",
       "usedIn": [
-        "src/components/dm/encounter/hp-control.tsx"
+        "src/components/dm/encounter/hp-control.tsx",
+        "src/components/play/hp-pad.tsx",
+        "src/routes/pcs/detail.$slug_.play.tsx"
       ]
     },
     {
@@ -286826,6 +286838,7 @@
       "sourceUrl": "https://lucide.dev/icons/heart-pulse",
       "usedIn": [
         "src/components/dm/encounter/combat-status.tsx",
+        "src/components/play/dying-banner.tsx",
         "src/lib/ability-icons.tsx"
       ]
     },
@@ -288284,7 +288297,8 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/info",
       "usedIn": [
-        "src/components/dm/scene-script.tsx"
+        "src/components/dm/scene-script.tsx",
+        "src/components/play/condition-panel.tsx"
       ]
     },
     {
@@ -291172,7 +291186,8 @@
         "src/routes/dm/arcs/index.tsx",
         "src/routes/dm/scenes/$slug.tsx",
         "src/routes/events/replay.$slug.tsx",
-        "src/routes/index.tsx"
+        "src/routes/index.tsx",
+        "src/routes/pcs/detail.$slug_.play.tsx"
       ]
     },
     {
@@ -291975,7 +291990,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/list-restart",
-      "usedIn": []
+      "usedIn": [
+        "src/routes/pcs/detail.$slug_.play.tsx"
+      ]
     },
     {
       "id": "lucide/ListSortAscending",
@@ -296572,7 +296589,8 @@
       "usedIn": [
         "src/components/dm/encounter/add-enemies-sheet.tsx",
         "src/components/dm/encounter/hp-control.tsx",
-        "src/components/dm/party-tokens.tsx"
+        "src/components/dm/party-tokens.tsx",
+        "src/components/play/condition-panel.tsx"
       ]
     },
     {
@@ -302399,7 +302417,9 @@
         "src/components/dm/encounter/preset-buttons.tsx",
         "src/components/dm/encounter/preset-picker.tsx",
         "src/components/dm/party-tokens.tsx",
-        "src/routes/dm/tools/deck-of-many-things.tsx"
+        "src/components/play/condition-panel.tsx",
+        "src/routes/dm/tools/deck-of-many-things.tsx",
+        "src/routes/pcs/detail.$slug_.play.tsx"
       ]
     },
     {
@@ -307208,7 +307228,8 @@
         "src/components/dm/encounter/combatant-panel.tsx",
         "src/components/dm/encounter/initiative-rail.tsx",
         "src/components/dm/encounter/stat-block-sections.tsx",
-        "src/lib/ability-icons.tsx"
+        "src/lib/ability-icons.tsx",
+        "src/routes/pcs/detail.$slug_.play.tsx"
       ]
     },
     {
@@ -307904,7 +307925,10 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/shield-plus",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/encounter/hp-control.tsx",
+        "src/components/play/hp-pad.tsx"
+      ]
     },
     {
       "id": "lucide/ShieldQuestionMark",
@@ -309066,6 +309090,7 @@
       "sourceUrl": "https://lucide.dev/icons/skull",
       "usedIn": [
         "src/components/dm/encounter/combat-status.tsx",
+        "src/components/play/dying-banner.tsx",
         "src/components/player-screen/fleet-battle-on-screen.tsx",
         "src/components/player-screen/fleet-roster-on-screen.tsx",
         "src/components/player-screen/turn-order-on-screen.tsx"
@@ -309595,7 +309620,8 @@
         "src/components/foretold-list.tsx",
         "src/lib/condition-icons.tsx",
         "src/lib/entity-kind-visuals.ts",
-        "src/lib/location-icons.tsx"
+        "src/lib/location-icons.tsx",
+        "src/routes/pcs/detail.$slug_.play.tsx"
       ]
     },
     {
@@ -316075,7 +316101,8 @@
       "sourceUrl": "https://lucide.dev/icons/star",
       "usedIn": [
         "src/components/deck-card-face.tsx",
-        "src/lib/card-icons.tsx"
+        "src/lib/card-icons.tsx",
+        "src/routes/pcs/detail.$slug_.play.tsx"
       ]
     },
     {
@@ -317507,7 +317534,9 @@
       "sourceUrl": "https://lucide.dev/icons/sword",
       "usedIn": [
         "src/components/dm/dm-quick-links.tsx",
-        "src/components/dm/encounter/hp-control.tsx"
+        "src/components/dm/encounter/hp-control.tsx",
+        "src/components/play/hp-pad.tsx",
+        "src/routes/pcs/detail.$slug_.play.tsx"
       ]
     },
     {
@@ -321033,7 +321062,8 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/undo-2",
       "usedIn": [
-        "src/components/dm/scene-script.tsx"
+        "src/components/dm/scene-script.tsx",
+        "src/routes/pcs/detail.$slug_.play.tsx"
       ]
     },
     {
@@ -325039,10 +325069,12 @@
         "src/components/dm/encounter/preset-buttons.tsx",
         "src/components/dm/encounter/turn-card.tsx",
         "src/components/image-viewer.tsx",
+        "src/components/play/hp-pad.tsx",
         "src/components/player-screen/player-screen-dock.tsx",
         "src/components/player-screen/pointing-view.tsx",
         "src/routes/dm/scenes/$slug.tsx",
-        "src/routes/dm/tools/deck-of-many-things.tsx"
+        "src/routes/dm/tools/deck-of-many-things.tsx",
+        "src/routes/pcs/detail.$slug_.play.tsx"
       ]
     },
     {

@@ -52,6 +52,7 @@ import { Route as OrganizationsDetailSlugRouteImport } from './routes/organizati
 import { Route as PcsDetailSlugRouteImport } from './routes/pcs/detail.$slug'
 import { Route as QuestsDetailSlugRouteImport } from './routes/quests/detail.$slug'
 import { Route as SessionsDetailSlugRouteImport } from './routes/sessions/detail.$slug'
+import { Route as PcsDetailSlugPlayRouteImport } from './routes/pcs/detail.$slug_.play'
 import { Route as PcsDetailJimConnectionsRouteImport } from './routes/pcs/detail.jim.connections'
 
 const IndexRoute = IndexRouteImport.update({
@@ -269,6 +270,11 @@ const SessionsDetailSlugRoute = SessionsDetailSlugRouteImport.update({
   path: '/sessions/detail/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const PcsDetailSlugPlayRoute = PcsDetailSlugPlayRouteImport.update({
+  id: '/pcs/detail/$slug_/play',
+  path: '/pcs/detail/$slug/play',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const PcsDetailJimConnectionsRoute = PcsDetailJimConnectionsRouteImport.update({
   id: '/pcs/detail/jim/connections',
   path: '/pcs/detail/jim/connections',
@@ -319,6 +325,7 @@ export interface FileRoutesByFullPath {
   '/dm/arcs/': typeof DmArcsIndexRoute
   '/dm/encounter/': typeof DmEncounterIndexRoute
   '/dm/scenes/': typeof DmScenesIndexRoute
+  '/pcs/detail/$slug/play': typeof PcsDetailSlugPlayRoute
   '/pcs/detail/jim/connections': typeof PcsDetailJimConnectionsRoute
 }
 export interface FileRoutesByTo {
@@ -364,6 +371,7 @@ export interface FileRoutesByTo {
   '/dm/arcs': typeof DmArcsIndexRoute
   '/dm/encounter': typeof DmEncounterIndexRoute
   '/dm/scenes': typeof DmScenesIndexRoute
+  '/pcs/detail/$slug/play': typeof PcsDetailSlugPlayRoute
   '/pcs/detail/jim/connections': typeof PcsDetailJimConnectionsRoute
 }
 export interface FileRoutesById {
@@ -411,6 +419,7 @@ export interface FileRoutesById {
   '/dm/arcs/': typeof DmArcsIndexRoute
   '/dm/encounter/': typeof DmEncounterIndexRoute
   '/dm/scenes/': typeof DmScenesIndexRoute
+  '/pcs/detail/$slug_/play': typeof PcsDetailSlugPlayRoute
   '/pcs/detail/jim/connections': typeof PcsDetailJimConnectionsRoute
 }
 export interface FileRouteTypes {
@@ -459,6 +468,7 @@ export interface FileRouteTypes {
     | '/dm/arcs/'
     | '/dm/encounter/'
     | '/dm/scenes/'
+    | '/pcs/detail/$slug/play'
     | '/pcs/detail/jim/connections'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -504,6 +514,7 @@ export interface FileRouteTypes {
     | '/dm/arcs'
     | '/dm/encounter'
     | '/dm/scenes'
+    | '/pcs/detail/$slug/play'
     | '/pcs/detail/jim/connections'
   id:
     | '__root__'
@@ -550,6 +561,7 @@ export interface FileRouteTypes {
     | '/dm/arcs/'
     | '/dm/encounter/'
     | '/dm/scenes/'
+    | '/pcs/detail/$slug_/play'
     | '/pcs/detail/jim/connections'
   fileRoutesById: FileRoutesById
 }
@@ -587,6 +599,7 @@ export interface RootRouteChildren {
   PcsDetailSlugRoute: typeof PcsDetailSlugRoute
   QuestsDetailSlugRoute: typeof QuestsDetailSlugRoute
   SessionsDetailSlugRoute: typeof SessionsDetailSlugRoute
+  PcsDetailSlugPlayRoute: typeof PcsDetailSlugPlayRoute
   PcsDetailJimConnectionsRoute: typeof PcsDetailJimConnectionsRoute
 }
 
@@ -893,6 +906,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SessionsDetailSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/pcs/detail/$slug_/play': {
+      id: '/pcs/detail/$slug_/play'
+      path: '/pcs/detail/$slug/play'
+      fullPath: '/pcs/detail/$slug/play'
+      preLoaderRoute: typeof PcsDetailSlugPlayRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/pcs/detail/jim/connections': {
       id: '/pcs/detail/jim/connections'
       path: '/pcs/detail/jim/connections'
@@ -966,6 +986,7 @@ const rootRouteChildren: RootRouteChildren = {
   PcsDetailSlugRoute: PcsDetailSlugRoute,
   QuestsDetailSlugRoute: QuestsDetailSlugRoute,
   SessionsDetailSlugRoute: SessionsDetailSlugRoute,
+  PcsDetailSlugPlayRoute: PcsDetailSlugPlayRoute,
   PcsDetailJimConnectionsRoute: PcsDetailJimConnectionsRoute,
 }
 export const routeTree = rootRouteImport
