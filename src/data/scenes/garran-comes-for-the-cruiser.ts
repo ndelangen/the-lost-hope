@@ -103,6 +103,8 @@ export default createScene({
                   refs.organizations.tempest_family,
                   '. The whole fleet will remember it. Once they are clear, run ',
                   refs.scenes.crowy_brings_up_onana_s_letter,
+                  ', then ',
+                  refs.scenes.a_fleet_on_an_empty_sea,
                   '.',
                 ],
                 [
