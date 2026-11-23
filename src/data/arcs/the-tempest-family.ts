@@ -246,15 +246,17 @@ export default createArc({
       name: 'A letter instead of a fleet',
       hook: [
         [
-          'If the party runs with the cruiser, ',
+          'Either way, ',
           refs.npcs.onana_tempest,
           ' writes to ',
           refs.npcs.light_13th_marshal,
-          ' about them. Do they bring her home?',
+          ' about the party, and ',
+          refs.npcs.crowy,
+          ' brings the letter up in front of them. What do they make of being observed? And if they ran with the cruiser, do they bring her home?',
         ],
       ],
-      npcs: [refs.npcs.onana_tempest],
-      scene: refs.scenes.light_reads_onana_s_letter,
+      npcs: [refs.npcs.onana_tempest, refs.npcs.crowy],
+      scene: refs.scenes.crowy_brings_up_onana_s_letter,
     },
   ],
 })

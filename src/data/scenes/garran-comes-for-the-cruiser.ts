@@ -101,10 +101,8 @@ export default createScene({
                   refs.npcs.onana_tempest,
                   ' and stolen a warship of the ',
                   refs.organizations.tempest_family,
-                  '. The whole fleet will remember it. When they next stand before ',
-                  refs.npcs.light_13th_marshal,
-                  ', run ',
-                  refs.scenes.light_reads_onana_s_letter,
+                  '. The whole fleet will remember it. Once they are clear, run ',
+                  refs.scenes.crowy_brings_up_onana_s_letter,
                   '.',
                 ],
                 [

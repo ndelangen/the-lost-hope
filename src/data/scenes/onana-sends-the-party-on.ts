@@ -59,13 +59,21 @@ export default createScene({
           do: [
             [
               refs.beasts.wolfie,
-              ', ',
-              refs.npcs.crowy,
               ' and ',
               refs.beasts.sir_fabulous,
               ' are aboard ',
               refs.items.little_purple,
               ', where the party left them.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              refs.npcs.crowy,
+              ' is not aboard. He returns once they are under way: run ',
+              refs.scenes.crowy_brings_up_onana_s_letter,
+              '.',
             ],
           ],
         },
