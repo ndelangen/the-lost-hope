@@ -255,7 +255,7 @@ export default createArc({
           ' brings the letter up in front of them. What do they make of being observed? And if they ran with the cruiser, do they bring her home?',
         ],
       ],
-      npcs: [refs.npcs.onana_tempest, refs.npcs.crowy],
+      npcs: [refs.npcs.onana_tempest],
       scene: refs.scenes.crowy_brings_up_onana_s_letter,
     },
   ],

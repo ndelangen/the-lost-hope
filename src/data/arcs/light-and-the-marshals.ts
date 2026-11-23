@@ -75,7 +75,6 @@ export default createArc({
           ' cannot watch the party go on simple adventures any longer. Do they hear the question inside the taunt?',
         ],
       ],
-      npcs: [refs.npcs.light_13th_marshal],
       scene: refs.scenes.hex_loses_patience,
     },
     {
