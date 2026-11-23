@@ -486,6 +486,7 @@ export const refs = {
     the_marshal_s_waters: ref('location', 'the_marshal_s_waters'),
     the_caves_of_steel: ref('location', 'the_caves_of_steel'),
     the_marshal_s_deep: ref('location', 'the_marshal_s_deep'),
+    the_caves_of_steel_holding_area: ref('location', 'the_caves_of_steel_holding_area'),
   },
   quests: {
     recover_ride_the_lightning: ref('quest', 'recover_ride_the_lightning'),

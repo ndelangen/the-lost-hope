@@ -84472,7 +84472,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/aquarium.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/the-caves-of-steel-holding-area.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiAquarius",
@@ -175423,6 +175426,7 @@
       "usedIn": [
         "src/data/npcs/onana-tempest.ts",
         "src/data/quests/find-the-fiddler.ts",
+        "src/data/scenes/a-fleet-on-an-empty-sea.ts",
         "src/data/scenes/borris-shutters-the-casino.ts",
         "src/data/scenes/chaos-on-the-sky-islands.ts",
         "src/data/scenes/questions-for-light.ts",
@@ -187421,6 +187425,7 @@
       "sourceUrl": "https://game-icons.net/1x1/delapouite/open-gate.html",
       "usedIn": [
         "src/data/locations/fairhaven-city-gate.ts",
+        "src/data/scenes/a-fleet-on-an-empty-sea.ts",
         "src/data/scenes/garran-comes-for-the-cruiser.ts",
         "src/data/scenes/questions-for-light.ts",
         "src/data/sessions/arrival-in-fajanet.ts",

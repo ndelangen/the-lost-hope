@@ -104,6 +104,19 @@ export default createScene({
       ],
       outcomes: [
         {
+          icon: 'gi/GiMagnifyingGlass',
+          when: [
+            ['They find, or ask about, the ', refs.locations.the_caves_of_steel_holding_area, '.'],
+          ],
+          response: [
+            [
+              'More sentient catch is held there, waiting for ',
+              refs.npcs.the_11th_marshal,
+              '. Freeing it gets the same answer as at the fleet: annoyance, never a fight.',
+            ],
+          ],
+        },
+        {
           icon: 'gi/GiPrisoner',
           when: [['Someone asks whether they would wish to leave.']],
           response: [

@@ -53,6 +53,8 @@ export default createArc({
         [
           'Besides their own food, the fleet hunts sentient sea creatures for ',
           refs.npcs.the_11th_marshal,
+          ' and keeps them alive in the ',
+          refs.locations.the_caves_of_steel_holding_area,
           '. Does the party see what is in the nets?',
         ],
       ],
