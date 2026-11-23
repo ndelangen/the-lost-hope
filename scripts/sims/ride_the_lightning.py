@@ -154,6 +154,11 @@ class Fight:
     def attack(s, a, t, bonus, dmg, *, melee=True, adv=False, dis=False, note='', can_parry=True):
         if t is None or not t.up: return 0
         label = note.strip(' ()')
+        if melee and int(opt('FLANK', '0')) and t.up:
+            # optional flanking rule: two melee fighters on opposite sides give advantage
+            mates = [c for c in (s.foes if a.side == 'foe' else s.party()) if c.up and c is not a and c.slug in MELEE_SLUGS
+                     and not c.cond & {'held', 'restrained', 'out', 'down'}]
+            if mates: adv = True
         if t.cond & {'prone'}: adv, dis = (adv or melee), (dis or not melee)
         if t.cond & {'held', 'restrained'}: adv = True
         if a.cond & {'restrained', 'frightened', 'prone'}: dis = True
@@ -263,6 +268,7 @@ def foes_near(f, prefer):
     return min(vis, key=lambda x: x.hp) if vis else None
 
 
+MELEE_SLUGS = {'hand-breaker', 'korrag-stonevow', 'durgan-ashfang', 'cloaked-snatcher', 'dust-lost-sailor', 'tempest-soldier', 'devan', 'auren', 'swift-starblade'}
 MELEE_ORDER = ('Spellbinder', 'Breaker', 'Korrag', 'Durgan', 'Silas', 'Ilsa', 'Snatcher', 'Sailor')
 RANGED_ORDER = ('Spellbinder', 'Ilsa', 'Silas', 'Breaker', 'Korrag', 'Durgan', 'Snatcher', 'Sailor')
 
@@ -520,6 +526,7 @@ def foe_turn(f, e):
         losing = {'early': e.hp < e.maxhp * 0.85 or any(not c.up for c in others),
                   'normal': e.hp <= e.maxhp * 0.5 or (ilsa and not ilsa.up),
                   'late': e.hp <= e.maxhp * 0.25 or not any(c.up for c in others),
+                  'ilsa20': e.hp < e.maxhp * 0.6 or bool(ilsa and ilsa.hp < ilsa.maxhp * 0.2),
                   'never': False}[bail]
         if losing:
             if e.conc: f.end_conc(e)
