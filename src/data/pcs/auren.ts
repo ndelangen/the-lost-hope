@@ -18,7 +18,7 @@ export default createPC({
     type: 'humanoid',
     ac: 20,
     armor: 'arcane armor (scale mail), shield',
-    maxHp: 79,
+    maxHp: 51,
     speed: { walk: 30 },
     scores: { str: 8, dex: 14, con: 16, int: 16, wis: 12, cha: 10 },
     saves: { con: 'proficient', int: 'proficient' },
@@ -73,7 +73,7 @@ export default createPC({
         text: [
           'A creature he hits has ',
           refs.rules.disadvantage,
-          ' on attack rolls against anyone but him until the start of his next turn. The sheet shows +7 to hit, one more than the tracker works out.',
+          ' on attack rolls against anyone but him until the start of his next turn.',
         ],
       },
       {
