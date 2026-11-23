@@ -12,7 +12,7 @@ export default createNPC({
   ],
   background: [
     [
-      'It dates from the war of the marshals against the elves and was built to fight elves. It still obeys its last order: hold this ground.',
+      'It dates from the Second Great War, the war of the marshals against the elves, and was built to fight elves. It still obeys its last order: hold this ground.',
     ],
     ['It burns Arcane Dust, and it is running on the last of it.'],
   ],

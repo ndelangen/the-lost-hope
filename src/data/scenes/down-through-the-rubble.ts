@@ -20,7 +20,7 @@ export default createScene({
     ],
     [
       refs.locations.the_old_battlefield,
-      ' lies in layers on top of layers of destruction. On top is what the marshals left when they fought each other. Under it lies the war of the marshals against the elves. Going down is going back in time.',
+      ' lies in layers on top of layers of destruction. On top is what the marshals left when they fought each other. Under it lies the Second Great War, the war of the marshals against the elves. Going down is going back in time.',
     ],
     [
       'This crawl is a draft: the missing part, the layers and every number are proposals to change.',
@@ -223,6 +223,13 @@ export default createScene({
           note: [
             [
               'It still obeys its last order: hold this ground. It does nothing while nobody attacks it or takes what lies within its reach.',
+            ],
+            [
+              'This layer is the war ',
+              refs.pcs.auren,
+              ' was built for. Describe the machine to his player first, and let him say what ',
+              refs.pcs.auren,
+              ' recognises.',
             ],
           ],
         },
