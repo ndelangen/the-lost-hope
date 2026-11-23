@@ -19,6 +19,7 @@ export default createLocation({
   ],
   background: [
     ['About 500,000 people live here.'],
+    ['Giant chains hold it to the seabed. Without them it would float away.'],
     [
       'Everyone born here is bound by the three laws of ',
       refs.npcs.the_11th_marshal,

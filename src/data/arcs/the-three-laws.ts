@@ -28,6 +28,11 @@ export default createArc({
     ],
     ['The rest is left to the party to find.'],
     [
+      'Cutting it loose: the party could break the chains that hold ',
+      refs.locations.the_caves_of_steel,
+      ' to the seabed and let it float away. The people would use their ships to hold the floating Caves in place.',
+    ],
+    [
       'The dark way out: the party could try to destroy ',
       refs.locations.the_caves_of_steel,
       ' outright, collapsing it or making it leak and fill with water, and drown everyone inside.',
