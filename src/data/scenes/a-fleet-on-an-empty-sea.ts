@@ -54,7 +54,9 @@ export default createScene({
         {
           note: [
             [
-              'Their welcome is sincere. The ships are subships, and the only way into the Caves is underwater, so the airship has to stay behind.',
+              'Their welcome is sincere. Every ship here is a ',
+              refs.items.caves_of_steel_subship,
+              ', and the only way into the Caves is underwater, so the airship has to stay behind.',
             ],
           ],
         },

@@ -228688,7 +228688,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/submarine.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/caves-of-steel-subship.ts",
+        "src/lib/item-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiSubmarineMissile",

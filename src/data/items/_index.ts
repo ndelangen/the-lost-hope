@@ -5,6 +5,7 @@ import bulls_on_parade from './bulls-on-parade.ts'
 import butterflies_and_hurricanes from './butterflies-and-hurricanes.ts'
 import cassian_s_replacement_bag_of_holding from './cassian-s-replacement-bag-of-holding.ts'
 import cassian_s_treasure_chest from './cassian-s-treasure-chest.ts'
+import caves_of_steel_subship from './caves-of-steel-subship.ts'
 import cloak_of_protection from './cloak-of-protection.ts'
 import creeping_death from './creeping-death.ts'
 import cursed_shadow_sword from './cursed-shadow-sword.ts'
@@ -127,4 +128,5 @@ export default {
   steve_the_interrogation_rock,
   swifts_silver_container,
   ring_of_hunger,
+  caves_of_steel_subship,
 }

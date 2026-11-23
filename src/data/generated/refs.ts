@@ -608,6 +608,7 @@ export const refs = {
     steve_the_interrogation_rock: ref('item', 'steve_the_interrogation_rock'),
     swifts_silver_container: ref('item', 'swifts_silver_container'),
     ring_of_hunger: ref('item', 'ring_of_hunger'),
+    caves_of_steel_subship: ref('item', 'caves_of_steel_subship'),
   },
   effects: {
     severed_bond_with_jim: ref('effect', 'severed_bond_with_jim'),

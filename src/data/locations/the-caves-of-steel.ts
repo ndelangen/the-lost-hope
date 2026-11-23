@@ -24,6 +24,11 @@ export default createLocation({
       '. Visitors are free to leave; the people are not.',
     ],
     [
+      'Its ',
+      refs.items.caves_of_steel_subship,
+      ' fleet and plenty of its machines and works run on Arcane Dust, so the Caves take deliveries of it regularly.',
+    ],
+    [
       'The name is a nod to Asimov’s novel The Caves of Steel, as the laws are to his Three Laws of Robotics.',
     ],
   ],
