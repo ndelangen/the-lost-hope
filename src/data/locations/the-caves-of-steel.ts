@@ -36,7 +36,7 @@ export default createLocation({
     [
       'Its ',
       refs.items.caves_of_steel_subship,
-      ' fleet and plenty of its machines and works run on Arcane Dust, so the Caves take deliveries of it regularly. Nobody here has ever taken it as a drug: ',
+      ' fleet and plenty of its machines and works run on Arcane Dust, so the Caves take deliveries of it regularly. It arrives in barrels dropped into the sea, and the fishers bring them inside. Nobody here has ever taken it as a drug: ',
       refs.npcs.the_11th_marshal,
       ' forbids it. They say so if the party asks.',
     ],
