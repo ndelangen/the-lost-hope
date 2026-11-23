@@ -78,4 +78,5 @@ if __name__ == '__main__':
     out = {'runs': RUNS, 'routes': strip(ROUTES), 'crystal': CRYSTAL, 'foes': strip(FOES), 'mistakes': [float(m) for m in MISTAKES],
            'scenarios': [s for s, _ in res], 'replays': [r for _, rs in res for r in rs]}
     with open(OUT, 'w') as fh: json.dump(out, fh, separators=(',', ':'))
+    subprocess.run(['bunx', 'oxfmt', OUT], cwd=ROOT, check=True, stdout=subprocess.DEVNULL)
     print(f'{len(res)} scenarios, {len(out["replays"])} replays -> {os.path.relpath(OUT, ROOT)}')
