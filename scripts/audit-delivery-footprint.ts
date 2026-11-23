@@ -7,7 +7,7 @@ import { JSDOM } from 'jsdom'
 import sharp from 'sharp'
 
 import { GENERATED_RESPONSIVE_IMAGES } from '../src/generated/responsive-images'
-import { PUBLIC_PAGE_DESCRIPTORS } from '../src/lib/public-page-descriptors'
+import { PRERENDERED_PUBLIC_PAGE_DESCRIPTORS } from '../src/lib/public-page-descriptors'
 import { RESPONSIVE_IMAGE_SOURCES } from './image-sources'
 import { jpegFrame } from './jpeg'
 /* oxlint-disable no-await-in-loop -- the audit reports the precise route or asset that fails */
@@ -204,7 +204,7 @@ async function auditHtmlAndReport(): Promise<void> {
     'Large portrait viewer image was prerendered before interaction',
   )
   assert(
-    PUBLIC_PAGE_DESCRIPTORS.every(({ path }) => existsSync(outputPath(path))),
+    PRERENDERED_PUBLIC_PAGE_DESCRIPTORS.every(({ path }) => existsSync(outputPath(path))),
     'At least one public route was not prerendered',
   )
 
