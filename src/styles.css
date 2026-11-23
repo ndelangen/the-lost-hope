@@ -434,13 +434,3 @@
     rotate: -40deg;
   }
 }
-
-/* The novel: comic lettering and printed halftone dots. */
-.novel-lettering {
-  font-family: 'Chalkboard SE', 'Comic Neue', 'Comic Sans MS', 'Marker Felt', cursive;
-}
-
-.novel-halftone {
-  background-image: radial-gradient(rgb(0 0 0 / 0.14) 1px, transparent 1.4px);
-  background-size: 7px 7px;
-}

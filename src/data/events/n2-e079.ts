@@ -24,4 +24,5 @@ export default createEvent({
       ' first. He felt that having a short life was not the problem he needed to solve.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-meets-worshippers-of-the-12th-marshal.png'],
 })

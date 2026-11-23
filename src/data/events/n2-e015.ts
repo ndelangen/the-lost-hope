@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Find a phoenix feather in an offshoot',
   day: 2,
   location: refs.locations.fajanet_tunnel_phoenix_offshoot,
+  illustrations: ['/assets/scenes/find-a-phoenix-feather-in-an-offshoot.png'],
   mark: { type: 'icon', name: 'gi/GiFeather' },
   notes: [
     ['Following the tunnel, the party found an offshoot and explored it.'],

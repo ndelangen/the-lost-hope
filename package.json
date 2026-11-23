@@ -19,6 +19,7 @@
     "generate:icons:check": "bun scripts/generate-icon-catalog.ts --check",
     "icons:classify": "bun scripts/classify-icons.ts",
     "icons:search": "bun scripts/search-icons.ts",
+    "novel:art": "bun scripts/novel-art.ts",
     "generate:refs": "bun scripts/generate-refs.ts",
     "generate:refs:check": "bun scripts/generate-refs.ts --check",
     "generate:images": "bun scripts/generate-responsive-images.ts",

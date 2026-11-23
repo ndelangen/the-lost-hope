@@ -14,4 +14,5 @@ export default createEvent({
       '’s table.',
     ],
   ],
+  illustrations: ['/assets/scenes/cassian-reclaims-his-possessions-from-the-fiddler-s-table.png'],
 })

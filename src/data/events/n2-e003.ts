@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Two zombies attack at the docks',
   day: 1,
   location: refs.locations.fajanet_docks,
+  illustrations: ['/assets/scenes/two-zombies-attack-at-the-docks.png'],
   mark: { type: 'icon', name: 'gi/GiShamblingZombie' },
   notes: [
     [

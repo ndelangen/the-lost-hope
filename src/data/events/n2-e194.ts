@@ -28,4 +28,7 @@ export default createEvent({
   day: 24,
   location: refs.locations.borris_s_gambling_den,
   mark: { type: 'icon', name: 'gi/GiPlantsAndAnimals' },
+  illustrations: [
+    '/assets/scenes/sarogarth-draws-permanent-blight-and-loses-an-attunement-slot.png',
+  ],
 })

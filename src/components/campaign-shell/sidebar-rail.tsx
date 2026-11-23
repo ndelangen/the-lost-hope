@@ -1,5 +1,5 @@
 import { Link } from '@tanstack/react-router'
-import { BookOpen, Clock, Home, ScrollText } from 'lucide-react'
+import { BookOpen, BookOpenText, Clock, Home, ScrollText } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import type { ReactNode } from 'react'
 
@@ -52,6 +52,13 @@ export function SidebarRail({
         label="Campaign intro"
         icon={BookOpen}
         active={pathname === '/intro'}
+        onNavigate={onNavigate}
+      />
+      <RailLink
+        to="/novel"
+        label="Novel"
+        icon={BookOpenText}
+        active={pathname === '/novel'}
         onNavigate={onNavigate}
       />
       {currentSession ? (

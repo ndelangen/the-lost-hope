@@ -14,4 +14,5 @@ export default createEvent({
   day: 24,
   location: refs.locations.nimbus,
   mark: { type: 'avatar', of: refs.pcs.devan },
+  illustrations: ['/assets/scenes/devan-reports-a-southern-direction-beyond-nimbus.png'],
 })

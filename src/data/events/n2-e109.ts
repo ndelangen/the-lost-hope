@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Jim wakes William with Light’s unidentified drops',
   day: 13,
   location: refs.locations.fairhaven,
+  illustrations: ['/assets/scenes/jim-wakes-william-with-light-s-unidentified-drops.png'],
   mark: { type: 'icon', name: 'fa/FaPrescriptionBottleAlt' },
   notes: [
     [

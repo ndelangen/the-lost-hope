@@ -25,4 +25,5 @@ export default createEvent({
       ' awoke with one level of exhaustion under the table’s death rules.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-survives-the-serpent-eclipse-shadow-arena.png'],
 })

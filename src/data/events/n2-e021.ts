@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Jim speaks with Light 1:1',
   day: 2,
   location: refs.locations.fajanet_guildhall,
+  illustrations: ['/assets/scenes/jim-speaks-with-light-1-1.png'],
   mark: { type: 'avatar', of: refs.pcs.jim },
   notes: [
     [

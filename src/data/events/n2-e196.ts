@@ -32,4 +32,7 @@ export default createEvent({
   day: 24,
   location: refs.locations.borris_s_gambling_den,
   mark: { type: 'icon', name: 'gi/GiLightningStorm' },
+  illustrations: [
+    '/assets/scenes/cassian-pays-to-remove-jim-s-confinement-and-lightning-storm.png',
+  ],
 })

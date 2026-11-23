@@ -15,4 +15,5 @@ export default createEvent({
       '. The familiar appeared smaller and frightened after its death, snuggled against him, and fell asleep.',
     ],
   ],
+  illustrations: ['/assets/scenes/swift-resummons-captain-squawk-after-the-dungeon.png'],
 })

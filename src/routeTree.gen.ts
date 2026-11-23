@@ -14,6 +14,7 @@ import { Route as IconsRouteImport } from './routes/[_]icons'
 import { Route as DisplayRouteImport } from './routes/display'
 import { Route as DmRouteRouteImport } from './routes/dm/route'
 import { Route as IntroRouteImport } from './routes/intro'
+import { Route as NovelRouteImport } from './routes/novel'
 import { Route as QuestionsRouteImport } from './routes/questions'
 import { Route as BeastsIndexRouteImport } from './routes/beasts/index'
 import { Route as DmIndexRouteImport } from './routes/dm/index'
@@ -73,6 +74,11 @@ const DmRouteRoute = DmRouteRouteImport.update({
 const IntroRoute = IntroRouteImport.update({
   id: '/intro',
   path: '/intro',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NovelRoute = NovelRouteImport.update({
+  id: '/novel',
+  path: '/novel',
   getParentRoute: () => rootRouteImport,
 } as any)
 const QuestionsRoute = QuestionsRouteImport.update({
@@ -257,6 +263,7 @@ export interface FileRoutesByFullPath {
   '/_icons': typeof IconsRoute
   '/display': typeof DisplayRoute
   '/intro': typeof IntroRoute
+  '/novel': typeof NovelRoute
   '/questions': typeof QuestionsRoute
   '/letters/book-of-gruumsh': typeof LettersBookOfGruumshRoute
   '/letters/jim': typeof LettersJimRoute
@@ -298,6 +305,7 @@ export interface FileRoutesByTo {
   '/_icons': typeof IconsRoute
   '/display': typeof DisplayRoute
   '/intro': typeof IntroRoute
+  '/novel': typeof NovelRoute
   '/questions': typeof QuestionsRoute
   '/letters/book-of-gruumsh': typeof LettersBookOfGruumshRoute
   '/letters/jim': typeof LettersJimRoute
@@ -341,6 +349,7 @@ export interface FileRoutesById {
   '/_icons': typeof IconsRoute
   '/display': typeof DisplayRoute
   '/intro': typeof IntroRoute
+  '/novel': typeof NovelRoute
   '/questions': typeof QuestionsRoute
   '/letters/book-of-gruumsh': typeof LettersBookOfGruumshRoute
   '/letters/jim': typeof LettersJimRoute
@@ -385,6 +394,7 @@ export interface FileRouteTypes {
     | '/_icons'
     | '/display'
     | '/intro'
+    | '/novel'
     | '/questions'
     | '/letters/book-of-gruumsh'
     | '/letters/jim'
@@ -426,6 +436,7 @@ export interface FileRouteTypes {
     | '/_icons'
     | '/display'
     | '/intro'
+    | '/novel'
     | '/questions'
     | '/letters/book-of-gruumsh'
     | '/letters/jim'
@@ -468,6 +479,7 @@ export interface FileRouteTypes {
     | '/_icons'
     | '/display'
     | '/intro'
+    | '/novel'
     | '/questions'
     | '/letters/book-of-gruumsh'
     | '/letters/jim'
@@ -511,6 +523,7 @@ export interface RootRouteChildren {
   IconsRoute: typeof IconsRoute
   DisplayRoute: typeof DisplayRoute
   IntroRoute: typeof IntroRoute
+  NovelRoute: typeof NovelRoute
   QuestionsRoute: typeof QuestionsRoute
   LettersBookOfGruumshRoute: typeof LettersBookOfGruumshRoute
   LettersJimRoute: typeof LettersJimRoute
@@ -575,6 +588,13 @@ declare module '@tanstack/react-router' {
       path: '/intro'
       fullPath: '/intro'
       preLoaderRoute: typeof IntroRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/novel': {
+      id: '/novel'
+      path: '/novel'
+      fullPath: '/novel'
+      preLoaderRoute: typeof NovelRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/questions': {
@@ -856,6 +876,7 @@ const rootRouteChildren: RootRouteChildren = {
   IconsRoute: IconsRoute,
   DisplayRoute: DisplayRoute,
   IntroRoute: IntroRoute,
+  NovelRoute: NovelRoute,
   QuestionsRoute: QuestionsRoute,
   LettersBookOfGruumshRoute: LettersBookOfGruumshRoute,
   LettersJimRoute: LettersJimRoute,

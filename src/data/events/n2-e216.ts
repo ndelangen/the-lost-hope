@@ -22,4 +22,5 @@ export default createEvent({
       ' fused into his arm rather than remaining a loose weapon.',
     ],
   ],
+  illustrations: ['/assets/scenes/auren-accepts-the-zodiac-dagger.png'],
 })

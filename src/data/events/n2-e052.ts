@@ -16,4 +16,5 @@ export default createEvent({
       ' then punched the foreman and triggered a large fight.',
     ],
   ],
+  illustrations: ['/assets/scenes/devan-punches-the-foreman-and-starts-a-mine-fight.png'],
 })

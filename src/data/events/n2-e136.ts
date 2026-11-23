@@ -14,4 +14,5 @@ export default createEvent({
       ' appeared, greeted him with "Oi, captain," and perched on his shoulder for the trip downstairs.',
     ],
   ],
+  illustrations: ['/assets/scenes/swift-summons-a-rainbow-parrot.png'],
 })

@@ -24,4 +24,5 @@ export default createEvent({
       ' on his first day, refused to pay him, and returned him to the status of an ordinary passenger.',
     ],
   ],
+  illustrations: ['/assets/scenes/jim-poisons-forty-one-guests-and-is-fired-as-ship-s-cook.png'],
 })

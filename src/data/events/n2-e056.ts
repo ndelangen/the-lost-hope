@@ -34,4 +34,5 @@ export default createEvent({
       outcome: { type: 'abandoned', event: refs.events.n2_e212 },
     },
   ],
+  illustrations: ['/assets/scenes/jim-buys-abraham-and-makes-him-a-promise.png'],
 })

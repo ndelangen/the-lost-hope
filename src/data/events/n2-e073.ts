@@ -28,4 +28,5 @@ export default createEvent({
       '.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-rescues-roberto-from-a-faceless-shadow.png'],
 })

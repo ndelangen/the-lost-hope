@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Mr. Peace joins for one session',
   day: 3,
   location: refs.locations.fajanet,
+  illustrations: ['/assets/scenes/mr-peace-joins-for-one-session.png'],
   mark: { type: 'avatar', of: refs.pcs.mr_peace },
   notes: [
     [

@@ -27,4 +27,5 @@ export default createEvent({
       ' up on the dungeon and temple events he had missed. He remembered the serpent encounter and the rest afterward, followed by darkness inside the bag.',
     ],
   ],
+  illustrations: ['/assets/scenes/cassian-returns-from-the-bag-of-holding.png'],
 })

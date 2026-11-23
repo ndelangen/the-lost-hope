@@ -12,4 +12,5 @@ export default createEvent({
       ' tried a small portion of cheesecake with breakfast to test whether he could tolerate dairy. The resulting digestive accident answered that question, and he used Prestidigitation to clean up and conceal the smell.',
     ],
   ],
+  illustrations: ['/assets/scenes/cassian-tests-his-luck-with-cheesecake.png'],
 })

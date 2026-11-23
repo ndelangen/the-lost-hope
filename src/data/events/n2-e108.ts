@@ -30,4 +30,5 @@ export default createEvent({
       ' as a normal, exceptionally handsome human man with black hair rather than as a skeleton.',
     ],
   ],
+  illustrations: ['/assets/scenes/jim-finds-the-jaded-amulet-in-a-pie.png'],
 })

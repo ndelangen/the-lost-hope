@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Puzzle room with 5 elements chasing each other',
   day: 9,
   location: refs.locations.puzzle_room,
+  illustrations: ['/assets/scenes/puzzle-room-with-5-elements-chasing-each-other.png'],
   mark: { type: 'icon', name: 'gi/GiPuzzle' },
   notes: [
     [

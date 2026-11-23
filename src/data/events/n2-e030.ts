@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Reach a cliff with a sign',
   day: 9,
   location: refs.locations.mountain_cliff,
+  illustrations: ['/assets/scenes/reach-a-cliff-with-a-sign.png'],
   mark: { type: 'icon', name: 'gi/GiWoodenSign' },
   notes: [
     ['The party reached a cliff. There was a sign.'],

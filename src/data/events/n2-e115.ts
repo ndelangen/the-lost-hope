@@ -30,4 +30,5 @@ export default createEvent({
       '.',
     ],
   ],
+  illustrations: ['/assets/scenes/cassian-buys-the-bag-of-holding-from-bob.png'],
 })

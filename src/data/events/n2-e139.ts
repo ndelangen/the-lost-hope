@@ -12,4 +12,5 @@ export default createEvent({
       ' returned to the dungeon and passed a memorial for twenty-three adventurers who had died there the previous week. Six more had already died that week.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-passes-the-dungeon-memorial.png'],
 })

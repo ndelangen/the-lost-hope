@@ -31,4 +31,5 @@ export default createEvent({
       '. They were liable for any damage caused by the animals.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-boards-the-flying-whale.png'],
 })

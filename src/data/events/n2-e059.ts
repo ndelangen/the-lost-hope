@@ -5,6 +5,7 @@ export default createEvent({
   name: "Devan drunkenly reveals Jim's name to Fix",
   day: 13,
   location: refs.locations.fairhaven_guildhall,
+  illustrations: ['/assets/scenes/devan-drunkenly-reveals-jim-s-name-to-fix.png'],
   mark: { type: 'icon', name: 'gi/GiDrinking' },
   notes: [
     [

@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Return phoenix to the dealer (animal 1/3)',
   day: 2,
   location: refs.locations.rare_animal_dealer_s_premises,
+  illustrations: ['/assets/scenes/return-phoenix-to-the-dealer-animal-1-3.png'],
   mark: { type: 'icon', name: 'gi/GiNestBirds' },
   notes: [
     [

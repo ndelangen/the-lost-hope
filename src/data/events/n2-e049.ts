@@ -25,4 +25,5 @@ export default createEvent({
       ' cast Sleep on it and everyone retired to separate rooms.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-examines-crowy-s-contract.png'],
 })

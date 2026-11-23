@@ -45,4 +45,5 @@ export default createEvent({
       ' recovered it, attempted to heal it, and then buried it.',
     ],
   ],
+  illustrations: ['/assets/scenes/jim-s-lightning-curse-reveals-his-human-identity.png'],
 })

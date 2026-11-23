@@ -35,4 +35,5 @@ export default createEvent({
       ' is not a curse.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-high-priest-removes-cassian-s-curse.png'],
 })

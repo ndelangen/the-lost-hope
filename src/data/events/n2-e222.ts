@@ -31,4 +31,5 @@ export default createEvent({
       'The defenders, six in one room and seven in the other, were described as mentally altered and not fully themselves. None of the thirteen survived. The initial rooms were cleared, but the party had not reached the bridge, taken control of the vessel, or explored the remaining rooms when the session ended.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-clears-ride-the-lightning-s-boarding-rooms.png'],
 })

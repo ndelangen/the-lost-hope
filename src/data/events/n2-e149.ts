@@ -16,4 +16,7 @@ export default createEvent({
       ' and carried him with them.',
     ],
   ],
+  illustrations: [
+    '/assets/scenes/the-party-carries-the-sleeping-cassian-in-the-bag-of-holding.png',
+  ],
 })

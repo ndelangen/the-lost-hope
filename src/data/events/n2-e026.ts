@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Devan joins while Swift continues with the party',
   day: 8,
   location: refs.locations.fajanet,
+  illustrations: ['/assets/scenes/devan-joins-while-swift-continues-with-the-party.png'],
   mark: { type: 'icon', name: 'gi/GiTeamUpgrade' },
   notes: [
     [

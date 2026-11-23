@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Devan drinks with Borris and receives the endless flask',
   day: 13,
   location: refs.locations.fairhaven,
+  illustrations: ['/assets/scenes/devan-drinks-with-borris-and-receives-the-endless-flask.png'],
   mark: { type: 'avatar', of: refs.pcs.devan },
   notes: [
     [

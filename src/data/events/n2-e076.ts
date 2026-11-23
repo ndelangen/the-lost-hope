@@ -43,4 +43,5 @@ export default createEvent({
       '.',
     ],
   ],
+  illustrations: ['/assets/scenes/devan-interrogates-and-kills-roberto.png'],
 })

@@ -40,4 +40,7 @@ export default createEvent({
   day: 24,
   location: refs.locations.nimbus_sky_bridge_landing,
   mark: { type: 'icon', name: 'gi/GiFloatingPlatforms' },
+  illustrations: [
+    '/assets/scenes/the-second-smoke-trail-points-to-the-flying-fortress-and-the-party-splits.png',
+  ],
 })

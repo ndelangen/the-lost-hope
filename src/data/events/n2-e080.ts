@@ -13,4 +13,5 @@ export default createEvent({
       ', they asked whether another route existed. The worshippers revealed an elevator that travelled both up and down, and the party took it downward.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-takes-the-mountain-elevator-down.png'],
 })

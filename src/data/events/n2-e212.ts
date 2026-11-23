@@ -7,7 +7,7 @@ export default createEvent({
   location: refs.locations.skynet_sky_bridge_landing,
   mark: { type: 'icon', name: 'gi/GiDirewolf' },
   illustrations: [
-    '/assets/scenes/chaos-on-the-sky-islands.png',
+    '/assets/scenes/devan-and-cassian-ride-to-the-crowded-ferry-landing-novel.png',
     '/assets/scenes/the-clogged-ferry-landing.png',
   ],
   notes: [

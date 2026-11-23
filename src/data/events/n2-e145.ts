@@ -25,4 +25,5 @@ export default createEvent({
       ' then taunted it with Vicious Mockery, and it rose from the water in anger.',
     ],
   ],
+  illustrations: ['/assets/scenes/jim-briefly-incapacitates-the-serpent.png'],
 })

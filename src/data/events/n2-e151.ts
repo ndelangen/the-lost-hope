@@ -24,4 +24,5 @@ export default createEvent({
       ' tried a ritual to keep the dungeon from consuming him, and the dungeon answered by imprisoning him in crystal. The tortoises had been unable to break him free.',
     ],
   ],
+  illustrations: ['/assets/scenes/dax-explains-how-the-dungeon-feeds-on-souls.png'],
 })

@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Hunted by a small group of dinos',
   day: 10,
   location: refs.locations.badesh_forest,
+  illustrations: ['/assets/scenes/hunted-by-a-small-group-of-dinos.png'],
   mark: { type: 'icon', name: 'gi/GiVelociraptorTracks' },
   notes: [
     ['A small group of dinos spotted the party, and the party was hunted and chased.'],

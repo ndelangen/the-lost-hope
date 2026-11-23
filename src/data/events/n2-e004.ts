@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Meet Bob the gate troll',
   day: 1,
   location: refs.locations.fajanet_city_gate,
+  illustrations: ['/assets/scenes/meet-bob-the-gate-troll.png'],
   mark: { type: 'icon', name: 'gi/GiTroll' },
   notes: [
     [

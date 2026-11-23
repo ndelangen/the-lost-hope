@@ -7,7 +7,7 @@ export default createEvent({
   location: refs.locations.ride_the_lightning_main_deck,
   mark: { type: 'icon', name: 'gi/GiCargoShip' },
   illustrations: [
-    '/assets/scenes/boarding-ride-the-lightning.png',
+    '/assets/scenes/the-party-boards-ride-the-lightning-through-two-entry-rooms-novel.png',
     '/assets/scenes/boarding-ball-loading.png',
     '/assets/scenes/boarding-ball-impact.png',
   ],

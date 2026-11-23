@@ -16,4 +16,5 @@ export default createEvent({
       'The party also learned that the dungeon’s operators retained ten percent of recovered treasure and that anyone who died inside could have their essence claimed and returned as one of the dungeon’s assassins.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-serpent-eclipse-attendants-brief-the-party.png'],
 })

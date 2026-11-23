@@ -18,4 +18,5 @@ export default createEvent({
       ' during the night.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-returns-to-the-serpent-eclipse-reception-hall.png'],
 })

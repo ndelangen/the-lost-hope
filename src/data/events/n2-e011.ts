@@ -5,9 +5,14 @@ export default createEvent({
   name: 'The guild tattoo ritual',
   day: 2,
   location: refs.locations.fajanet_guildhall,
+  illustrations: ['/assets/scenes/the-guild-tattoo-ritual.png'],
   mark: { type: 'icon', name: 'gi/GiNeedleDrill' },
   notes: [
-    ['Each PC asked a favor. The ritual was performed by ', refs.npcs.light_13th_marshal, '.'],
+    [
+      'Each PC asked a favor. ',
+      refs.npcs.light_13th_marshal,
+      ' applied each tattoo with magic in his office.',
+    ],
     [
       refs.pcs.jim,
       ' — asked to be left alone by his past (',

@@ -17,4 +17,5 @@ export default createEvent({
       '. Having worn it for a full day, he became attuned to it.',
     ],
   ],
+  illustrations: ['/assets/scenes/cassian-discovers-his-ring-s-hunger.png'],
 })

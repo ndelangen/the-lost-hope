@@ -22,4 +22,5 @@ export default createEvent({
       ' without touching it.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-cursed-sword-decays-verdant-haven-forest.png'],
 })

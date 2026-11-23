@@ -29,4 +29,5 @@ export default createEvent({
       "'s observation of the dealer changing after a card draw. They could not agree on the exact change or what they themselves had perceived.",
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-connects-the-fiddler-s-questions-to-their-future.png'],
 })

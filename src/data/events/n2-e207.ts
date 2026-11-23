@@ -6,7 +6,7 @@ export default createEvent({
   day: 24,
   location: refs.locations.three_sky_kingdoms,
   mark: { type: 'icon', name: 'fa/FaUsersSlash' },
-  illustrations: ['/assets/scenes/the-green-pulse-over-the-sky-islands.png'],
+  illustrations: ['/assets/scenes/the-fortress-pulse-breaks-bonds-with-jim-novel.png'],
   bondOutcomes: {
     toward: refs.pcs.jim,
     retained: [

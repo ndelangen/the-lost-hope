@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Zone of truth — each PC questioned',
   day: 9,
   location: refs.locations.mountain_top,
+  illustrations: ['/assets/scenes/zone-of-truth-each-pc-questioned.png'],
   mark: { type: 'icon', name: 'gi/GiScales' },
   notes: [
     ['Each character individually entered a zone of truth.'],

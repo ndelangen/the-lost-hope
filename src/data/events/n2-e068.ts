@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Jim and Victor rescue Abraham from the guildhall stables',
   day: 14,
   location: refs.locations.fairhaven_guildhall_stables,
+  illustrations: ['/assets/scenes/jim-and-victor-rescue-abraham-from-the-guildhall-stables.png'],
   mark: { type: 'icon', name: 'gi/GiStable' },
   notes: [
     [

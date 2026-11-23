@@ -23,4 +23,5 @@ export default createEvent({
       ' ended during the fighting, exposing the theft in public.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-controlling-crystal-is-shattered.png'],
 })

@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Consult the Fairhaven guildhall quest board',
   day: 12,
   location: refs.locations.fairhaven_guildhall,
+  illustrations: ['/assets/scenes/consult-the-fairhaven-guildhall-quest-board.png'],
   mark: { type: 'icon', name: 'gi/GiChecklist' },
   notes: [
     [

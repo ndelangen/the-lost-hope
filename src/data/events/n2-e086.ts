@@ -5,6 +5,7 @@ export default createEvent({
   name: 'The party breaks into Mortimer’s shop',
   day: 13,
   location: refs.locations.mortimer_s_shop,
+  illustrations: ['/assets/scenes/the-party-breaks-into-mortimer-s-shop.png'],
   mark: { type: 'icon', name: 'gi/GiLockpicks' },
   notes: [
     [

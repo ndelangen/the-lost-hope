@@ -24,4 +24,5 @@ export default createEvent({
       ' did not accept or reject the offer.',
     ],
   ],
+  illustrations: ['/assets/scenes/silas-offers-swift-a-place-in-the-eyeless-hand.png'],
 })

@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Bulletin board — pick a quest',
   day: 2,
   location: refs.locations.fajanet_guildhall,
+  illustrations: ['/assets/scenes/bulletin-board-pick-a-quest.png'],
   mark: { type: 'icon', name: 'gi/GiChecklist' },
   notes: [
     [

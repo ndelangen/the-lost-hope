@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Three adventurers win a cage fight to the death',
   day: 14,
   location: refs.locations.fairhaven_town_square,
+  illustrations: ['/assets/scenes/three-adventurers-win-a-cage-fight-to-the-death.png'],
   mark: { type: 'icon', name: 'gi/GiCage' },
   notes: [
     [

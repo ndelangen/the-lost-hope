@@ -21,4 +21,5 @@ export default createEvent({
       '.',
     ],
   ],
+  illustrations: ['/assets/scenes/sylvia-sponsors-the-party-s-first-dungeon.png'],
 })

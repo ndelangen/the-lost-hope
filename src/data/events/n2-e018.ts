@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Recover a displacer beast (animal 2/3)',
   day: 2,
   location: refs.locations.fajanet,
+  illustrations: ['/assets/scenes/recover-a-displacer-beast-animal-2-3.png'],
   mark: { type: 'icon', name: 'gi/GiSaberToothedCatHead' },
   notes: [
     [

@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Victor receives his guild tattoo and asks a favor',
   day: 12,
   location: refs.locations.fairhaven_guildhall,
+  illustrations: ['/assets/scenes/victor-receives-his-guild-tattoo-and-asks-a-favor.png'],
   mark: { type: 'avatar', of: refs.pcs.victor_dranzig },
   notes: [
     [

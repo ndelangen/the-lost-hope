@@ -5,6 +5,7 @@ export default createEvent({
   name: 'The party escapes Mortimer’s chimera and time bomb',
   day: 13,
   location: refs.locations.mortimer_s_underground_workshop,
+  illustrations: ['/assets/scenes/the-party-escapes-mortimer-s-chimera-and-time-bomb.png'],
   mark: { type: 'icon', name: 'gi/GiTimeBomb' },
   notes: [
     [

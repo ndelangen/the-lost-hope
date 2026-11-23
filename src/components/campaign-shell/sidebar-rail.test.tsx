@@ -33,6 +33,7 @@ describe('SidebarRail', () => {
     for (const label of [
       'Overview',
       'Campaign intro',
+      'Novel',
       COLLECTION_LABELS.session,
       ...sidebarCollections.map(({ kind }) => COLLECTION_LABELS[kind]),
     ])
@@ -44,7 +45,7 @@ describe('SidebarRail', () => {
     const markup = renderToStaticMarkup(<SidebarRail pathname="/" />)
     const links = markup.match(/<a [^>]*>/g) ?? []
 
-    expect(links).toHaveLength(4 + sidebarCollections.length)
+    expect(links).toHaveLength(5 + sidebarCollections.length)
     expect(links.every((link) => link.includes('size-12'))).toBe(true)
   })
 

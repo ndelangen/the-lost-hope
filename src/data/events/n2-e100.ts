@@ -24,4 +24,5 @@ export default createEvent({
       ' was nevertheless paid for the assignment.',
     ],
   ],
+  illustrations: ['/assets/scenes/cassian-ruins-sylvia-s-caviar-and-works-off-the-damage.png'],
 })

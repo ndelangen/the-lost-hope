@@ -15,4 +15,5 @@ export default createEvent({
       ', taking nine damage. The party prepared to return to the dungeon after breakfast.',
     ],
   ],
+  illustrations: ['/assets/scenes/jim-wakes-to-another-lightning-strike.png'],
 })

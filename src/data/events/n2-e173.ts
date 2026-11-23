@@ -39,4 +39,5 @@ export default createEvent({
       ],
     },
   ],
+  illustrations: ['/assets/scenes/onana-describes-the-tempest-family-and-debt-slavery.png'],
 })

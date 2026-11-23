@@ -83,7 +83,7 @@ export const EventSchema = deriveSlug(
       .array(MediaUrl)
       .default([])
       .describe(
-        'Pictures the players were shown during this event, such as the illustration of the scene played',
+        'Pictures of this event: the illustrations shown at the table, and art made later to tell it, such as the Novel’s panels',
       ),
     visualizations: z
       .array(EventVisualization)

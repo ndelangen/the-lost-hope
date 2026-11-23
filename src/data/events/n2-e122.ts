@@ -31,4 +31,5 @@ export default createEvent({
       '’s location or whether the organization found him by another method.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-eyeless-hand-reveals-it-can-still-find-jim.png'],
 })

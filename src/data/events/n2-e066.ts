@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Monster-summoning wizards destroy Fairhaven',
   day: 14,
   location: refs.locations.fairhaven,
+  illustrations: ['/assets/scenes/monster-summoning-wizards-destroy-fairhaven.png'],
   mark: { type: 'icon', name: 'gi/GiMonsterGrasp' },
   notes: [
     [
