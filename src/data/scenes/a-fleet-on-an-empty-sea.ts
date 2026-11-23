@@ -74,19 +74,8 @@ export default createScene({
           when: [['They set the catch free.']],
           response: [
             [
-              'The fishers are annoyed, but they do not fight the party over it. They know it is only for now.',
+              'The fishers are annoyed, but they do not fight the party over it, and they still invite them down. They know it is only a setback: once the party is gone, they will catch more.',
             ],
-          ],
-          followUps: [
-            {
-              icon: 'gi/GiConversation',
-              when: [['Someone asks why they let it happen.']],
-              response: [
-                [
-                  'They shrug: “You will leave, and we will catch them again. Or you will stay, and then you are the snack.”',
-                ],
-              ],
-            },
           ],
         },
       ],
