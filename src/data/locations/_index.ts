@@ -61,6 +61,8 @@ import rare_animal_dealer_s_premises from './rare-animal-dealer-s-premises.ts'
 import reve from './reve.ts'
 import ride_the_lightning_gun_deck from './ride-the-lightning-gun-deck.ts'
 import ride_the_lightning_main_deck from './ride-the-lightning-main-deck.ts'
+import rustmoor_guildhall from './rustmoor-guildhall.ts'
+import rustmoor from './rustmoor.ts'
 import saltmere from './saltmere.ts'
 import sea_of_unknown from './sea-of-unknown.ts'
 import serpent_eclipse_crystal_oasis from './serpent-eclipse-crystal-oasis.ts'
@@ -109,6 +111,7 @@ import the_crater_bridge from './the-crater-bridge.ts'
 import the_flying_whale from './the-flying-whale.ts'
 import the_green_light from './the-green-light.ts'
 import the_nest from './the-nest.ts'
+import the_old_battlefield from './the-old-battlefield.ts'
 import the_patient_heron from './the-patient-heron.ts'
 import the_sullen_monk from './the-sullen-monk.ts'
 import three_sky_kingdoms from './three-sky-kingdoms.ts'
@@ -163,6 +166,9 @@ export default {
   flying_bazaar_crafting_area,
   flying_bazaar_kitchen,
   foundry_nine,
+  rustmoor,
+  rustmoor_guildhall,
+  the_old_battlefield,
   holy_site,
   lower_stables,
   jim_s_room_at_skynet_s_second_best_inn,

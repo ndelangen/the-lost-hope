@@ -390,6 +390,9 @@ export const refs = {
     flying_bazaar_crafting_area: ref('location', 'flying_bazaar_crafting_area'),
     flying_bazaar_kitchen: ref('location', 'flying_bazaar_kitchen'),
     foundry_nine: ref('location', 'foundry_nine'),
+    rustmoor: ref('location', 'rustmoor'),
+    rustmoor_guildhall: ref('location', 'rustmoor_guildhall'),
+    the_old_battlefield: ref('location', 'the_old_battlefield'),
     holy_site: ref('location', 'holy_site'),
     lower_stables: ref('location', 'lower_stables'),
     jim_s_room_at_skynet_s_second_best_inn: ref(

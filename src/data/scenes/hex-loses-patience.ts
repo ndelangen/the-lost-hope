@@ -3,7 +3,7 @@ import { create as createScene } from '#/definitions/scene.ts'
 
 export default createScene({
   name: 'Hex loses patience',
-  location: refs.locations.fajanet_guildhall,
+  location: refs.locations.rustmoor_guildhall,
   npcs: [refs.npcs.hex, refs.npcs.light_13th_marshal],
   setup: [
     [
@@ -15,6 +15,17 @@ export default createScene({
       '. They have been members for a while and still have not asked ',
       refs.npcs.light_13th_marshal,
       ' a single hard question.',
+    ],
+    [
+      'The guildhall is not fully operational yet. Its booth has no connection to ',
+      refs.locations.fajanet,
+      ': that is perhaps a few days away. ',
+      refs.locations.the_flying_whale,
+      ', the ship of ',
+      refs.npcs.sylvia,
+      ', is in ',
+      refs.locations.rustmoor,
+      ' too.',
     ],
     [
       'What the party does not know is in the motivations of ',
@@ -76,7 +87,16 @@ export default createScene({
         {
           icon: 'gi/GiPathDistance',
           when: [['They decide to go and ask.']],
-          response: [['From this guildhall the way to ask is the booth: play “At the booth”.']],
+          response: [
+            [
+              'From this guildhall the way to ask is the booth, and it is not connected yet: perhaps in a few days.',
+            ],
+            [
+              'Let the party find creative ways to speed this up, such as a dungeon crawl among the rubble of ',
+              refs.locations.the_old_battlefield,
+              '. Once the booth works, play “At the booth”.',
+            ],
+          ],
         },
         {
           icon: 'gi/GiShrug',
@@ -94,7 +114,7 @@ export default createScene({
     },
     {
       title: 'At the booth',
-      onlyIf: [['They decide to go and ask.']],
+      onlyIf: [['They decide to go and ask, and the booth is connected.']],
       lines: [
         {
           do: [

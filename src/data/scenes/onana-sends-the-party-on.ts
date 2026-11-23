@@ -107,7 +107,11 @@ export default createScene({
         },
         {
           note: [
-            ['There is no guildhall on the sky islands, so this sends them off the islands.'],
+            [
+              'There is no guildhall on the sky islands, so this sends them off the islands. If they ask where: one is being established in ',
+              refs.locations.rustmoor,
+              '.',
+            ],
             [
               refs.npcs.hex,
               ' is waiting in that guildhall: run ',
