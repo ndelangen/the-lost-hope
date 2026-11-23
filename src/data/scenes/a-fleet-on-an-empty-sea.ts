@@ -28,7 +28,14 @@ export default createScene({
             [
               'Nothing but water, for hours. Then a fishing fleet on the surface: riveted iron hulls, working decks, no masts. Some of them sit low in the water, as if they could go under.',
             ],
+            [
+              'The crews have seen the airship. They wave flags and their arms, and shout up at it.',
+            ],
           ],
+        },
+        {
+          speaker: refs.npcs.caves_of_steel_fisher,
+          say: [['Come down! Come meet us! We’re friendly!']],
         },
       ],
     },
@@ -40,7 +47,7 @@ export default createScene({
           say: [
             ['Visitors! From the outside?'],
             [
-              'You can come down with us, if you want. We would be glad of it. But honestly, it is not a good idea.',
+              'Come down with us, come home with us! There will be a feast. We want to hear everything.',
             ],
           ],
         },
