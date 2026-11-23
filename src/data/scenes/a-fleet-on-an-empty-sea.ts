@@ -183,6 +183,25 @@ export default createScene({
         },
       ],
     },
+    {
+      title: 'We hope you’ll be back',
+      lines: [
+        {
+          do: [
+            [
+              'When the party leaves for the first time, barrels are floating in the sea: a Dust delivery. The fishers reel them in.',
+            ],
+          ],
+        },
+        {
+          speaker: refs.npcs.caves_of_steel_fisher,
+          say: [['We hope you’ll be back!']],
+        },
+        {
+          do: [['They wave the party goodbye and disappear beneath the surface.']],
+        },
+      ],
+    },
   ],
   outcomes: [
     {
