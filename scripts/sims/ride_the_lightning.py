@@ -429,17 +429,21 @@ def hold(f, e, t, key, slug):
 
 
 UNNAMED = {'hand-breaker', 'cloaked-snatcher', 'hand-spellbinder', 'dust-lost-sailor'}
+EVAC = {'cloaked-snatcher', 'dust-lost-sailor'}
 POD_ROOMS = {'Batteries', 'Barracks', 'Lower deck'}  # the Control room and the Helm have no pods
 
 
 def wants_pod(f, e):
     """Norbert 2026-11-24: once only unnamed enemies are left in a room with a pod, they Disengage and
-    run for it. POD=race: from the start; POD=losing: once half their number is down or this one is
+    run for it. POD=alone (his rule): sailors and snatchers, once only they are left; POD=race: from the start; POD=losing: once half their number is down or this one is
     below half its HP. One of them reaching it ends the fight: all of them are pulled in and ejected."""
     mode = opt('POD', 'off')
     # Breakers never surrender: they fight on and answer No when the pod asks
     if mode == 'off' or f.name not in POD_ROOMS or e.slug not in UNNAMED or e.slug == 'hand-breaker': return False
     if any(c.up and c.slug not in UNNAMED for c in f.foes): return False
+    if mode == 'alone':
+        # Norbert's rule: sailors and snatchers evacuate once nobody else is left standing with them
+        return e.slug in EVAC and all(c.slug in EVAC for c in f.foes if c.up)
     if mode == 'race': return True
     down = sum(1 for c in f.foes if not c.up)
     return down * 2 >= len(f.foes) or e.hp < e.maxhp / 2
