@@ -593,6 +593,8 @@ export const refs = {
     purple_dragon_horn: ref('item', 'purple_dragon_horn'),
     rare_dragon_scales: ref('item', 'rare_dragon_scales'),
     robertos_map_pages: ref('item', 'robertos_map_pages'),
+    letter_from_the_father: ref('item', 'letter_from_the_father'),
+    the_hand_s_directive_on_jim: ref('item', 'the_hand_s_directive_on_jim'),
     serpent_eclipse_trial_disk: ref('item', 'serpent_eclipse_trial_disk'),
     shadow_sword: ref('item', 'shadow_sword'),
     shadow_sword_sheath: ref('item', 'shadow_sword_sheath'),

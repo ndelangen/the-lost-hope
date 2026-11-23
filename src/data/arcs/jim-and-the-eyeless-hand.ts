@@ -76,6 +76,15 @@ export default createArc({
           refs.pcs.auren,
           ' says stolen Hand records let him follow the party. The tracking mechanism is still unknown.',
         ],
+        [
+          'The Hand’s standing order on ',
+          refs.pcs.jim,
+          ' is ',
+          refs.items.the_hand_s_directive_on_jim,
+          ', and ',
+          refs.items.letter_from_the_father,
+          ' gives the reasoning behind it.',
+        ],
       ],
     },
     {

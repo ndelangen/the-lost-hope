@@ -25,6 +25,7 @@ import heaven_and_hell from './heaven-and-hell.ts'
 import jaded_amulet from './jaded-amulet.ts'
 import jim_s_kenku_suit from './jim-s-kenku-suit.ts'
 import kill_em_all from './kill-em-all.ts'
+import letter_from_the_father from './letter-from-the-father.ts'
 import lights_unidentified_drops from './lights-unidentified-drops.ts'
 import little_purple from './little-purple.ts'
 import long_rest_in_a_bottle from './long-rest-in-a-bottle.ts'
@@ -56,6 +57,7 @@ import steve_mace_of_returning from './steve-mace-of-returning.ts'
 import steve_the_interrogation_rock from './steve-the-interrogation-rock.ts'
 import swifts_silver_container from './swifts-silver-container.ts'
 import symphony_of_destruction from './symphony-of-destruction.ts'
+import the_hand_s_directive_on_jim from './the-hand-s-directive-on-jim.ts'
 import uprising from './uprising.ts'
 import wild_eyes from './wild-eyes.ts'
 import will_of_the_people from './will-of-the-people.ts'
@@ -116,6 +118,8 @@ export default {
   purple_dragon_horn,
   rare_dragon_scales,
   robertos_map_pages,
+  letter_from_the_father,
+  the_hand_s_directive_on_jim,
   serpent_eclipse_trial_disk,
   shadow_sword,
   shadow_sword_sheath,

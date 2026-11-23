@@ -96,6 +96,11 @@ Every question must include **what we already know** — many sit unanswered acr
   - _Context:_ Each PC was questioned individually. Jim truthfully identified himself, and Devan noticed that Jim was his real name, but Devan's and Swift's own answers remain unrecorded. William and Revin were also present; William later left, and Revin's player left the group.
   - _Session:_ 4 ([n2-e034](/events/zone-of-truth-each-pc-questioned))
 
+- **When was the Father's recovery letter written, and have the players seen it?**
+  - _Context:_ Handover from the previous DM: [Letter from the Father](/items/detail/letter-from-the-father) and [the Hand's directive on Jim](/items/detail/the-hand-s-directive-on-jim) (live recovery only). The players read an earlier order to find Jim alive in Session 9, through Roberto's map pages, and a message in Session 12 said the Hand was backing off. The new letter escalates: Jim is "no longer a traveling asset", and "other powers, both mortal and otherwise" are trying to reach him. Prep says the Father has held Jim on the flying fortress since Session 18, and cut out his tongue.
+  - _Why asking:_ The date decides whether the directive is still in force or ended with the fortress beam, and whether the letter is the Session 9 order or a later one. Who the "other powers" are is not recorded.
+  - _Session:_ 9–18
+
 - **Why did the angel burn Jim's letter of passage?**
   - _Context:_ Jim presented the letter from Light during his zone-of-truth questioning; the angel burned it without explaining why. The party suspects Light’s favor or feud with the dragons made it worthless or insulting. Another theory is that the letter belonged at the cliff and the party failed to use it correctly.
   - _Session:_ 4 ([n2-e034](/events/zone-of-truth-each-pc-questioned))

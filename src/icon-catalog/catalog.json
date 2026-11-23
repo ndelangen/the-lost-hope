@@ -236721,7 +236721,9 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/tied-scroll.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/the-hand-s-directive-on-jim.ts"
+      ]
     },
     {
       "id": "gi/GiTiger",
@@ -248832,7 +248834,9 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/wax-seal.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/items/letter-from-the-father.ts"
+      ]
     },
     {
       "id": "gi/GiWaxTablet",
