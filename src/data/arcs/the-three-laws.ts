@@ -25,7 +25,7 @@ export default createArc({
       'Staying is harm (protect beats stay, after Liar!): if the people become convinced that the Caves themselves put the Marshal in danger, they must leave. They believe every story they hear.',
     ],
     [
-      'War is always its death (protect beats obey, after The Evitable Conflict): convince them that every war ends in the Marshal’s demise and they refuse every call to arms, forever. The army is neutralised, but nobody is freed. They must truly believe it, and the Marshal’s minion will argue back.',
+      'War is always its death (protect beats obey, after The Evitable Conflict): convince them that every war ends in the Marshal’s demise and they refuse every call to arms, forever. The army is neutralised, but nobody is freed. They must truly believe it. The Marshal would never know its people had been turned until it called them to war.',
     ],
     [
       'Who is the Marshal? (after …That Thou Art Mindful of Him): the laws never name the aboleth, only the Marshal, and 11th Marshal is a seat on ',
