@@ -12,6 +12,7 @@
     "output/**",
     "src/routeTree.gen.ts",
     "src/icon-catalog/catalog.json",
+    "src/lib/sims/ride-the-lightning.json",
     "src/icon-catalog/upstream/*.json",
     "bun.lock",
     "assets/images.lock.json"

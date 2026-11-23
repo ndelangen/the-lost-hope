@@ -22,6 +22,17 @@ R = random.Random(1)
 LOG = []
 VERBOSE = False
 OPT = {}
+ACTOR = None  # whose turn it is: the source of damage that names no other
+EV = []  # this round's structured events, kept for replays only
+
+
+def ev(**kw):
+    if VERBOSE: EV.append(kw)
+
+
+def group(c):
+    """The kind of combatant, for damage flow totals: Breaker1 and Breaker2 are both Breaker."""
+    return c.name.rstrip('0123456789')
 
 
 def opt(k, d):
@@ -94,8 +105,16 @@ class Fight:
     def livepcs(s): return [c for c in s.pcs if c.up]
     def get(s, n): return next((c for c in s.all() if c.name == n), None)
 
-    def damage(s, t, d, src=None):
+    def damage(s, t, d, src=None, what='', crit=False, saved=None):
         if d <= 0: return
+        by = src or ACTOR
+        ev(k='dmg', by=by.name if by else None, to=t.name, what=what, dmg=d, crit=crit, saved=saved)
+        if by:
+            s.stats['dmg_' + by.side] += d
+            if by.side == 'pc': s.stats['by_' + by.name] += d
+            s.stats[f'flow|{group(by)}|{group(t)}'] += d
+        if t.side == 'pc': s.stats['taken_' + t.name] += d
+        was_up = t.up
         if t.temp:
             soak = min(t.temp, d); t.temp -= soak; d -= soak
         if t.conc and d > 0 and t.hp - d > 0:
@@ -106,15 +125,16 @@ class Fight:
         t.hp = max(0, t.hp - d)
         if t.hp == 0:
             if t.res.get('relentless', 0) > 0:
-                t.res['relentless'] -= 1; t.hp = 1
+                t.res['relentless'] -= 1; t.hp = 1; ev(k='endure', who=t.name)
                 say(f'      {t.name} hits 0 but Relentless Endurance keeps them up at 1 HP'); return
             t.cond.add('down'); t.cond -= {'held', 'prone', 'frightened', 'restrained', 'invisible'}; t.downs += 1
-            say(f'      ** {t.name} goes DOWN **')
+            say(f'      ** {t.name} goes DOWN **'); ev(k='down', who=t.name, by=by.name if by else None)
+            if was_up and by and by.side == 'pc': s.stats['kill_' + by.name] += 1
             if t.conc: s.end_conc(t)
             if t.name == 'Ilsa':
                 for c in s.foes:
                     if c.slug == 'dust-lost-sailor' and c.up:
-                        c.cond.add('out'); say(f'      {c.name} drops its weapon: nobody steers it any more')
+                        c.cond.add('out'); ev(k='cond', who=c.name, what='out'); say(f'      {c.name} drops its weapon: nobody steers it any more')
 
     def end_conc(s, c):
         what = c.conc; c.conc = None
@@ -126,11 +146,14 @@ class Fight:
             for t in s.all(): t.cond.discard('restrained')
 
     def heal(s, t, amt, what):
-        was = t.hp; t.hp = min(t.maxhp, t.hp + amt); t.cond.discard('down')
+        if 'dead' in t.cond: return
+        was = t.hp; t.hp = min(t.maxhp, t.hp + amt); t.cond -= {'down', 'stable'}; t.res['saves'] = [0, 0]
+        ev(k='heal', by=ACTOR.name if ACTOR else None, to=t.name, what=what, amt=t.hp - was)
         say(f'    {t.name} {what}: +{amt} ({was} -> {t.hp}/{t.maxhp})')
 
     def attack(s, a, t, bonus, dmg, *, melee=True, adv=False, dis=False, note='', can_parry=True):
         if t is None or not t.up: return 0
+        label = note.strip(' ()')
         if t.cond & {'prone'}: adv, dis = (adv or melee), (dis or not melee)
         if t.cond & {'held', 'restrained'}: adv = True
         if a.cond & {'restrained', 'frightened', 'prone'}: dis = True
@@ -155,19 +178,19 @@ class Fight:
             elif t.res.get('parry') and melee and tot < ac + 3 and can_parry:
                 t.react = False; hit = False; note += ' (parried)'
         if not hit:
+            how = 'shield' if 'Shield spell' in note else 'parry' if 'parried' in note else 'miss'
+            ev(k='miss', by=a.name, to=t.name, what=label, how=how)
             say(f'    {a.name} -> {t.name}: {r}+{bonus}={tot} vs AC {ac}: miss{note}'); return 0
         d = roll(dbl(dmg) if crit else dmg)
         if t.res.get('uncanny') and t.react and d >= 8:
             t.react = False; d //= 2; note += ' (Uncanny Dodge halves it)'
         say(f'    {a.name} -> {t.name}: {r}+{bonus}={tot} vs AC {ac}: {"CRIT " if crit else ""}{d} dmg{note}')
         aga = melee and t.res.get('aga_on') and t.temp > 0
-        was_up = t.up
-        s.damage(t, d); s.stats['dmg_' + a.side] += d
-        if a.side == 'pc': s.stats['by_' + a.name] += d
-        if was_up and not t.up and a.side == 'pc': s.stats['kill_' + a.name] += 1
+        if crit: s.stats['crit_' + ('pc' if a.side != 'foe' else 'foe')] += 1
+        s.damage(t, d, src=a, what=label, crit=crit)
         say(f'      {t.tag()}')
         if aga and a.up:
-            say(f'      Armor of Agathys bites {a.name} for {t.res["aga_on"]} cold'); s.damage(a, t.res['aga_on'])
+            say(f'      Armor of Agathys bites {a.name} for {t.res["aga_on"]} cold'); s.damage(a, t.res['aga_on'], src=t, what='Armor of Agathys')
         if t.temp == 0: t.res['aga_on'] = 0
         return (d + 1000) if crit else max(d, 1)
 
@@ -181,8 +204,8 @@ class Fight:
         say(f'    {t.name} {abil.upper()} save {r}+{t.saves.get(abil, 0)}={tot} vs DC {dc}: {"saved" if ok else "FAILED"}')
         return ok
 
-    def frame(s, events):
-        s.frames.append({'round': s.rnd, 'combatants': [
+    def frame(s, events, acts=()):
+        s.frames.append({'round': s.rnd, 'acts': list(acts), 'combatants': [
             {'name': c.name, 'slug': c.slug, 'side': 'pc' if c in s.pcs else ('ally' if c in s.allies else 'foe'),
              'hp': c.hp, 'max': c.maxhp, 'temp': c.temp,
              'cond': sorted(x for x in c.cond if x != 'shielded')} for c in s.all()], 'events': events})
@@ -191,7 +214,7 @@ class Fight:
 def mistake(f, p, kind):
     m = float(opt('MISTAKE', '0.1'))
     if p.side == 'pc' and m and R.random() < m:
-        f.stats['mistakes'] += 1; say(f'    MISTAKE: {p.name} {kind}'); return True
+        f.stats['mistakes'] += 1; ev(k='mistake', who=p.name, what=kind); say(f'    MISTAKE: {p.name} {kind}'); return True
     return False
 
 
@@ -212,7 +235,8 @@ def make_pcs():
 
 def long_rest(p, why):
     keep = {k: p.res[k] for k in ('bottle', 'potion')}
-    p.res.update(p.full); p.res.update(keep); p.hp = p.maxhp; p.cond.discard('down')
+    if 'dead' in p.cond: return
+    p.res.update(p.full); p.res.update(keep); p.hp = p.maxhp; p.cond -= {'down', 'stable'}; p.res['saves'] = [0, 0]
     say(f'  {p.name}: {why}, full HP and everything back')
 
 
@@ -251,6 +275,7 @@ def pc_turn(f, p):
     m = float(opt('MISTAKE', '0.1'))
     if m and R.random() < m:
         blunder = R.choice(['no bonus action', 'bad target', 'provokes', 'wastes action']); f.stats['mistakes'] += 1
+        ev(k='mistake', who=p.name, what=blunder)
         say(f'    MISTAKE: {p.name}: {blunder}')
     if blunder == 'provokes':
         e = R.choice([x for x in f.live('foe') if x.slug != 'hand-spellbinder'] or f.live('foe'))
@@ -259,14 +284,28 @@ def pc_turn(f, p):
             e.react = False; f.attack(e, p, *k, note=' (opportunity attack)')
         if not p.up: return
     bonus_used = blunder == 'no bonus action' or drink(f, p)
-    # a downed friend who can drink gets a potion poured in (action)
-    downed = [c for c in f.pcs if 'down' in c.cond and c.name != 'Auren']
-    if downed and p.res.get('potion', 0) > 0 and blunder != 'wastes action':
-        t = downed[0]; p.res['potion'] -= 1; f.stats['potions'] += 1
-        f.heal(t, roll('2d4+2'), f'gets a potion poured down the throat by {p.name} (action)'); return
+    # a downed friend who can drink gets a potion poured in (action); with no potions left, a
+    # Long Rest in a Bottle. The one closest to dying goes first.
+    downed = sorted([c for c in f.pcs if 'down' in c.cond and 'dead' not in c.cond and c.name != 'Auren'],
+                    key=lambda c: ('stable' in c.cond, -c.res.get('saves', [0, 0])[1]))
+    if downed and blunder != 'wastes action':
+        t = downed[0]
+        if p.res.get('potion', 0) > 0:
+            p.res['potion'] -= 1; f.stats['potions'] += 1
+            f.heal(t, roll('2d4+2'), f'gets a potion poured down the throat by {p.name} (action)'); return
+        if p.res.get('bottle', 0) > 0:
+            p.res['bottle'] -= 1; f.stats['bottles'] += 1; f.stats['bottle_poured'] += 1
+            ev(k='heal', by=p.name, to=t.name, what='Long Rest in a Bottle poured down the throat (action)', amt=t.maxhp)
+            long_rest(t, f'gets a Long Rest in a Bottle poured down the throat by {p.name} (action)'); return
     if blunder == 'wastes action': return
     bad = blunder == 'bad target'
-    pick = (lambda order: max(f.live("foe"), key=lambda x: x.hp, default=None)) if bad else (lambda order: foes_near(f, order))
+    focus = opt('PARTY', 'scene')
+    def first(order):
+        # PARTY=ilsa: they take the hint and go for Ilsa; PARTY=silas: Silas draws them in
+        if focus == 'ilsa': return ('Ilsa',) + tuple(x for x in order if x != 'Ilsa')
+        if focus == 'silas': return ('Silas',) + tuple(x for x in order if x != 'Silas')
+        return order
+    pick = (lambda order: max(f.live("foe"), key=lambda x: x.hp, default=None)) if bad else (lambda order: foes_near(f, first(order)))
     if p.name == 'Devan':
         dv_down = [c for c in f.pcs if 'down' in c.cond]
         if not bonus_used and p.res['loh'] > 0 and dv_down:
@@ -290,11 +329,10 @@ def pc_turn(f, p):
                     if lvl == 2 and il and il.up and il.react and il.res.get('counter') and not il.cond & {'held', 'out'}:
                         il.res['counter'] -= 1; il.react = False
                         say('      Ilsa Counterspells the Divine Smite (Con DC 14)')
-                        if not f.save(p, 'con', 14): say('      ...the smite fizzles'); continue
+                        if not f.save(p, 'con', 14): ev(k='countered', who='Devan', what='Divine Smite', by='Ilsa'); say('      ...the smite fizzles'); continue
                     sd = roll(dbl(f'{lvl + 1}d8') if crit else f'{lvl + 1}d8')
                     if crit: sd += roll('1d10')  # Savage Attacks
-                    say(f'      Devan smites (bonus action): +{sd} radiant'); was = t.up; f.damage(t, sd); f.stats['dmg_pc'] += sd; f.stats['by_Devan'] += sd
-                    if was and not t.up: f.stats['kill_Devan'] += 1
+                    say(f'      Devan smites (bonus action): +{sd} radiant'); f.damage(t, sd, what='Divine Smite', crit=crit)
                     say(f'      {t.tag()}')
         return
     if p.name == 'Auren':
@@ -311,7 +349,7 @@ def pc_turn(f, p):
             p.res['entangle'] = 0; p.conc = 'Entangle'; tg = big[:3]
             say('    Auren invokes his rune: Entangle on ' + ', '.join(x.name for x in tg) + f' (Str DC {sdc("auren", "entangle")})')
             for x in tg:
-                if not f.save(x, 'str', sdc('auren', 'entangle')): x.cond.add('restrained'); say(f'      {x.name} is RESTRAINED')
+                if not f.save(x, 'str', sdc('auren', 'entangle')): x.cond.add('restrained'); ev(k='cond', who=x.name, what='restrained', by='Auren'); say(f'      {x.name} is RESTRAINED')
             return
         small = [x for x in foes if x.slug in ('cloaked-snatcher', 'dust-lost-sailor') and not x.cond & {'out'}]
         bigs = [x for x in foes if x.slug not in ('cloaked-snatcher', 'dust-lost-sailor')]
@@ -319,7 +357,7 @@ def pc_turn(f, p):
             p.res['slot1'] -= 1; tg = small[:3]; dmg = roll('2d8')
             say('    Auren: Thunderwave on ' + ', '.join(x.name for x in tg) + f' (Con DC {sdc("auren", "thunderwave")})')
             for x in tg:
-                ok = f.save(x, 'con', sdc('auren', 'thunderwave')); f.damage(x, dmg // 2 if ok else dmg); say(f'      {x.tag()}')
+                ok = f.save(x, 'con', sdc('auren', 'thunderwave')); f.damage(x, dmg // 2 if ok else dmg, what='Thunderwave', saved=ok); say(f'      {x.tag()}')
             return
         t = pick(('Korrag', 'Breaker', 'Durgan', 'Silas', 'Ilsa', 'Spellbinder', 'Snatcher', 'Sailor'))
         if t:
@@ -375,11 +413,11 @@ def aim(f, default):
 def hold(f, e, t, key, slug):
     dc = sdc(slug, key)
     say(f'    {e.name} casts Hold Person on {t.name} (Wis DC {dc})')
-    if counter(f, e, 'Hold Person'): return
+    if counter(f, e, 'Hold Person'): ev(k='countered', who=e.name, what='Hold Person', by='Cassian'); return
     if e.conc: f.end_conc(e)
     e.conc = 'Hold Person'
     if not f.save(t, 'wis', dc):
-        t.cond.add('held'); t.res['held_by'] = e; t.res['held_dc'] = dc; f.stats['held_' + t.name] += 1; say(f'      {t.name} is PARALYSED')
+        t.cond.add('held'); ev(k='cond', who=t.name, what='paralysed', by=e.name); t.res['held_by'] = e; t.res['held_dc'] = dc; f.stats['held_' + t.name] += 1; say(f'      {t.name} is PARALYSED')
     else:
         e.conc = None
 
@@ -395,7 +433,7 @@ def foe_turn(f, e):
         if opt('FOCUS', 'scene') == 'scene' and e.mark is not None and e.mark.up and t is not e.mark and R.random() < 0.5: t = e.mark
         b, d = atk('hand-breaker', 'shield-bash')
         if f.attack(e, t, b, d, note=' (Shield Bash)') and t.up and 'held' not in t.cond:
-            t.cond.add('prone'); say(f'      {t.name} is knocked prone')
+            t.cond.add('prone'); ev(k='cond', who=t.name, what='prone', by=e.name); say(f'      {t.name} is knocked prone')
         b, d = atk('hand-breaker', 'chain-flail')
         for _ in range(2):
             if not t or not t.up: t = aim(f, None)
@@ -424,7 +462,7 @@ def foe_turn(f, e):
             e.res['presence'] = 0; dc = sdc('korrag-stonevow', 'conquering-presence')
             say(f'    Korrag roars: Conquering Presence (Wis DC {dc}, 30 ft)')
             for c in pcs:
-                if not f.save(c, 'wis', dc): c.cond.add('frightened')
+                if not f.save(c, 'wis', dc): c.cond.add('frightened'); ev(k='cond', who=c.name, what='frightened', by=e.name)
             return
         if e.hp <= 40 and e.res['loh']:
             amt = e.res['loh']; e.res['loh'] = 0; f.heal(e, amt, 'Lay on Hands on himself (bonus action)')
@@ -437,7 +475,7 @@ def foe_turn(f, e):
             if not t: break
             r = f.attack(e, t, b, d, note=' (Warhammer)')
             if r and e.res['smite'] and t.up:
-                e.res['smite'] -= 1; sd = roll('4d8' if r >= 1000 else '2d8'); say(f'      Korrag smites: +{sd} radiant'); f.damage(t, sd); say(f'      {t.tag()}')
+                e.res['smite'] -= 1; sd = roll('4d8' if r >= 1000 else '2d8'); say(f'      Korrag smites: +{sd} radiant'); f.damage(t, sd, what='Divine Smite', crit=r >= 1000); say(f'      {t.tag()}')
         return
     if e.slug == 'durgan-ashfang':
         if e.hp <= 25 and e.res['loh']:
@@ -449,7 +487,7 @@ def foe_turn(f, e):
             if not t: break
             r = f.attack(e, t, b, d, note=' (Warhammer)')
             if r and e.res['smite'] and t.up:
-                e.res['smite'] -= 1; sd = roll('4d8' if r >= 1000 else '2d8'); say(f'      Durgan Dust Smite: +{sd} necrotic'); f.damage(t, sd); say(f'      {t.tag()}')
+                e.res['smite'] -= 1; sd = roll('4d8' if r >= 1000 else '2d8'); say(f'      Durgan Dust Smite: +{sd} necrotic'); f.damage(t, sd, what='Dust Smite', crit=r >= 1000); say(f'      {t.tag()}')
         return
     if e.slug == 'hand-spellbinder':
         near = [c for c in pcs if c.name in ('Devan', 'Auren') and c.up]
@@ -461,18 +499,18 @@ def foe_turn(f, e):
         if e.res['fireball'] and len(cluster) == 2:
             e.res['fireball'] = 0; dc = sdc('hand-spellbinder', 'fireball')
             say(f'    Spellbinder: Fireball on Swift and Cassian (Dex DC {dc})')
-            if counter(f, e, 'Fireball'): return
+            if counter(f, e, 'Fireball'): ev(k='countered', who=e.name, what='Fireball', by='Cassian'); return
             dmg = roll('8d6')
             for c in cluster:
                 ok = f.save(c, 'dex', dc); dd = dmg // 2 if ok else dmg
                 if ok and c.res.get('uncanny') is not None: dd = 0  # Evasion is level 7: no; keep half
-                f.damage(c, dmg // 2 if ok else dmg); say(f'      {c.tag()}')
+                f.damage(c, dmg // 2 if ok else dmg, what='Fireball', saved=ok); say(f'      {c.tag()}')
             return
         if e.res['hold'] and devan.up and 'held' not in devan.cond and not e.conc:
             e.res['hold'] -= 1; hold(f, e, devan, 'hold-person', 'hand-spellbinder'); return
         if e.res['command'] and devan.up and 'prone' not in devan.cond:
             e.res['command'] -= 1; dc = sdc('hand-spellbinder', 'command'); say(f'    Spellbinder: Command "Grovel!" on Devan (Wis DC {dc})')
-            if not f.save(devan, 'wis', dc): devan.cond.add('prone'); say('      Devan drops prone')
+            if not f.save(devan, 'wis', dc): devan.cond.add('prone'); ev(k='cond', who='Devan', what='prone', by=e.name); say('      Devan drops prone')
             return
         b, d = atk('hand-spellbinder', 'fire-bolt'); f.attack(e, aim(f, min(pcs, key=lambda c: c.ac)), b, d, melee=False, note=' (Fire Bolt)'); return
     if e.slug == 'silas-wren':
@@ -485,7 +523,7 @@ def foe_turn(f, e):
                   'never': False}[bail]
         if losing:
             if e.conc: f.end_conc(e)
-            e.cond.add('gone'); f.stats['silas_fled'] += 1
+            e.cond.add('gone'); f.stats['silas_fled'] += 1; ev(k='cond', who=e.name, what='fled')
             say('    Silas: "See you on the other side, my dear!" Invisibility, out of the window. He is gone.'); return
         if e.conc != 'Spirit Guardians' and e.res['sg']:
             e.res['sg'] = 0; e.conc = 'Spirit Guardians'; say(f'    Silas raises Spirit Guardians again (Wis DC {sdc("silas-wren", "spirit-guardians")})'); return
@@ -498,11 +536,11 @@ def foe_turn(f, e):
             e.res['hw'] -= 1; f.heal(ilsa, roll('2d4+4'), 'Healing Word from Silas (bonus action)')
         if e.res['command'] and devan.up and 'prone' not in devan.cond and 'held' not in devan.cond:
             e.res['command'] -= 1; dc = sdc('silas-wren', 'command'); say(f'    Silas: Command "Grovel!" on Devan (Wis DC {dc})')
-            if not f.save(devan, 'wis', dc): devan.cond.add('prone'); say('      Devan drops prone')
+            if not f.save(devan, 'wis', dc): devan.cond.add('prone'); ev(k='cond', who='Devan', what='prone', by=e.name); say('      Devan drops prone')
             return
         t = min(pcs, key=lambda c: c.saves.get('dex', 0)); dc = sdc('silas-wren', 'sacred-flame')
         say(f'    Silas: Sacred Flame on {t.name} (Dex DC {dc})')
-        if not f.save(t, 'dex', dc): dd = roll('2d8'); f.damage(t, dd); say(f'      {t.name} takes {dd}: {t.tag()}')
+        if not f.save(t, 'dex', dc): dd = roll('2d8'); f.damage(t, dd, what='Sacred Flame', saved=False); say(f'      {t.name} takes {dd}: {t.tag()}')
         return
     if e.slug == 'ilsa-corrow':
         cluster = [c for c in pcs if 'down' not in c.cond]
@@ -510,18 +548,18 @@ def foe_turn(f, e):
         if e.res['fireball'] and len(cluster) >= 3:
             e.res['fireball'] -= 1; tg = cluster[:3] if R.random() < 0.5 else cluster
             dc = sdc('ilsa-corrow', 'fireball'); say('    Ilsa: Fireball on ' + ', '.join(c.name for c in tg) + f' (Dex DC {dc})')
-            if counter(f, e, 'Fireball'): return
+            if counter(f, e, 'Fireball'): ev(k='countered', who=e.name, what='Fireball', by='Cassian'); return
             dmg = roll('8d6')
             for c in tg:
-                ok = f.save(c, 'dex', dc); f.damage(c, dmg // 2 if ok else dmg); say(f'      {c.tag()}')
+                ok = f.save(c, 'dex', dc); f.damage(c, dmg // 2 if ok else dmg, what='Fireball', saved=ok); say(f'      {c.tag()}')
             return
         if e.res['cone'] and len(cluster) >= 2:
             e.res['cone'] = 0; tg = cluster[:2]; dc = sdc('ilsa-corrow', 'cone-of-cold')
             say('    Ilsa: Cone of Cold on ' + ', '.join(c.name for c in tg) + f' (Con DC {dc})')
-            if counter(f, e, 'Cone of Cold'): return
+            if counter(f, e, 'Cone of Cold'): ev(k='countered', who=e.name, what='Cone of Cold', by='Cassian'); return
             dmg = roll('8d8')
             for c in tg:
-                ok = f.save(c, 'con', dc); f.damage(c, dmg // 2 if ok else dmg); say(f'      {c.tag()}')
+                ok = f.save(c, 'con', dc); f.damage(c, dmg // 2 if ok else dmg, what='Cone of Cold', saved=ok); say(f'      {c.tag()}')
             return
         t = aim(f, min(pcs, key=lambda c: (c.hp, c.ac)))
         b, d = atk('ilsa-corrow', 'arcane-burst')
@@ -548,10 +586,10 @@ def start_of_turn(f, c):
     sil = f.get('Silas')
     if c.side == 'pc' and c in f.pcs and sil and sil.up and sil.conc == 'Spirit Guardians' and c.name in ('Devan', 'Auren') and c.up:
         dc = sdc('silas-wren', 'spirit-guardians'); ok = f.save(c, 'wis', dc); d = roll('3d8'); d = d // 2 if ok else d
-        say(f'    Spirit Guardians burn {c.name} for {d}'); f.damage(c, d); say(f'      {c.tag()}')
+        say(f'    Spirit Guardians burn {c.name} for {d}'); f.damage(c, d, src=sil, what='Spirit Guardians', saved=ok); say(f'      {c.tag()}')
     k = f.get('Korrag')
     if c.side == 'pc' and k and k.up and 'frightened' in c.cond and c.name in ('Devan', 'Auren') and c.up:
-        say(f'    Aura of Conquest: {c.name} is frightened, held in place, takes 4 psychic'); f.damage(c, 4); say(f'      {c.tag()}')
+        say(f'    Aura of Conquest: {c.name} is frightened, held in place, takes 4 psychic'); f.damage(c, 4, src=k, what='Aura of Conquest'); say(f'      {c.tag()}')
 
 
 def end_of_turn(f, c):
@@ -563,7 +601,25 @@ def end_of_turn(f, c):
         if R.randint(1, 20) + c.saves.get('str', 0) >= sdc('auren', 'entangle'): c.cond.discard('restrained'); say(f'    {c.name} tears free of the Entangle')
 
 
+def death_save(f, c):
+    """A downed PC's death saving throw at the start of their turn: 10+ succeeds, a 1 counts twice,
+    a 20 brings them back with 1 HP. Three successes: stable. Three failures: dead."""
+    r = R.randint(1, 20); sv = c.res.setdefault('saves', [0, 0])
+    if r == 20:
+        c.hp = 1; c.cond -= {'down', 'stable'}; c.res['saves'] = [0, 0]; f.stats['nat20_' + c.name] += 1
+        ev(k='death', who=c.name, roll=r, ok=sv[0], fail=sv[1], result='up')
+        say(f'    {c.name} death save: 20! Back up with 1 HP'); return
+    if r >= 10: sv[0] += 1
+    else: sv[1] += 2 if r == 1 else 1
+    result = 'stable' if sv[0] >= 3 else 'dead' if sv[1] >= 3 else 'pass' if r >= 10 else 'fail'
+    if result == 'stable': c.cond.add('stable')
+    if result == 'dead': c.cond.add('dead'); f.stats['dead_' + c.name] += 1
+    ev(k='death', who=c.name, roll=r, ok=sv[0], fail=min(sv[1], 3), result=result)
+    say(f'    {c.name} death save: {r} ({sv[0]} successes, {min(sv[1], 3)} failures){" - STABLE" if result == "stable" else " - DEAD" if result == "dead" else ""}')
+
+
 def run_fight(pcs, foes, allies, name, max_rounds=20):
+    global ACTOR
     f = Fight(pcs, foes, allies, name)
     for c in f.all(): c.res['_init'] = R.randint(1, 20) + c.init
     order = sorted(f.all(), key=lambda c: -c.res['_init'])
@@ -572,17 +628,22 @@ def run_fight(pcs, foes, allies, name, max_rounds=20):
     say(f'\n### {name}\nInitiative: ' + ', '.join(c.name for c in order))
     f.frame([f'{name} starts. Initiative: ' + ', '.join(c.name for c in order)])
     for rnd in range(1, max_rounds + 1):
-        f.rnd = rnd; mark = len(LOG); say(f'\nRound {rnd}')
+        f.rnd = rnd; mark = len(LOG); say(f'\nRound {rnd}'); EV.clear()
         for c in order: c.react = True; c.cond.discard('shielded')
         for c in order:
             if not f.livepcs() or not f.live('foe'): break
-            if not c.up: continue
-            say(f'  {c.name} ({c.hp}/{c.maxhp}):')
+            if c in f.pcs and 'down' in c.cond and not c.cond & {'dead', 'stable'}:
+                say(f'  {c.name} (down):'); ACTOR = c; ev(k='turn', who=c.name); death_save(f, c)
+                if not c.up: continue
+            elif not c.up: continue
+            else:
+                say(f'  {c.name} ({c.hp}/{c.maxhp}):'); ACTOR = c; ev(k='turn', who=c.name)
             start_of_turn(f, c)
             if not c.up: continue
             (pc_turn if c in f.pcs else foe_turn if c.side == 'foe' else foe_turn_ally)(f, c)
             end_of_turn(f, c)
-        f.frame(LOG[mark + 1:] if VERBOSE else [])
+        ACTOR = None
+        f.frame(LOG[mark + 1:] if VERBOSE else [], EV)
         if not f.livepcs(): return 'party knocked out', f
         if not f.live('foe'): return 'party wins', f
     return 'still fighting after 20 rounds', f
@@ -599,7 +660,9 @@ def foe_turn_ally(f, c):
 def between(pcs, stats, next_room):
     dv = next(p for p in pcs if p.name == 'Devan'); au = next(p for p in pcs if p.name == 'Auren')
     for p in pcs:
-        p.cond.clear(); p.temp = 0; p.conc = None; p.res['vex'] = None; p.res['aga_on'] = 0
+        dead = 'dead' in p.cond
+        p.cond.clear(); p.temp = 0; p.conc = None; p.res['vex'] = None; p.res['aga_on'] = 0; p.res['saves'] = [0, 0]
+        if dead: p.cond.add('dead'); continue
         if p.hp == 0: p.hp = 1
     while au.hp <= au.maxhp * 0.6 and au.res.get('slot1', 0) > 2:
         au.res['slot1'] -= 1; au.hp = min(au.maxhp, au.hp + roll('2d8+3')); say(f'  Auren casts Cure Wounds on himself: {au.hp}/{au.maxhp}')
@@ -692,7 +755,7 @@ def run_route():
 
 def stats(n, keep=0):
     outs = Counter(); where = Counter(); downs = Counter(); dmg = Counter(); kills = Counter()
-    pot = []; bot = []; fled = 0; rounds = Counter(); held = Counter(); samples = {}
+    pot = []; bot = []; fled = 0; rounds = Counter(); held = Counter(); samples = {}; flow = Counter(); crit = Counter(); taken = Counter(); dead = Counter(); anydead = 0; poured = 0
     global VERBOSE
     for i in range(n):
         R.seed(1000 + i); VERBOSE = False
@@ -707,6 +770,12 @@ def stats(n, keep=0):
             if p.downs: downs[p.name] += 1
         for k in ('Devan', 'Auren', 'Cassian', 'Swift'):
             dmg[k] += total['by_' + k]; kills[k] += total['kill_' + k]; held[k] += bool(total['held_' + k])
+        anydead += any(total['dead_' + k] for k in ('Devan', 'Auren', 'Cassian', 'Swift')); poured += total['bottle_poured']
+        for k, v in total.items():
+            if k.startswith('dead_'): dead[k[5:]] += v
+            if k.startswith('flow|'): flow[k[5:]] += v
+            elif k.startswith('crit_'): crit[k[5:]] += v
+            elif k.startswith('taken_'): taken[k[6:]] += v
         pot.append(total['potions']); bot.append(total['bottles']); fled += bool(total['silas_fled'])
         if keep and kind not in samples: samples[kind] = 1000 + i
     tot = sum(dmg.values()) or 1
@@ -718,6 +787,11 @@ def stats(n, keep=0):
         'damageShare': {k: dmg[k] / tot for k in ('Devan', 'Auren', 'Cassian', 'Swift')},
         'kills': {k: kills[k] / n for k in ('Devan', 'Auren', 'Cassian', 'Swift')},
         'potions': statistics.mean(pot), 'bottles': statistics.mean(bot), 'silasFled': fled / n,
+        'dead': {k: dead[k] / n for k in ('Devan', 'Auren', 'Cassian', 'Swift')},
+        'anyDead': anydead / n, 'bottlesPoured': poured / n,
+        'crits': {k: crit[k] / n for k in ('pc', 'foe')},
+        'taken': {k: taken[k] / n for k in ('Devan', 'Auren', 'Cassian', 'Swift')},
+        'flow': [[a, b, round(v / n, 1)] for (a, b), v in ((tuple(k.split('|')), v) for k, v in flow.items()) if v / n >= 0.5],
         'samples': samples,
     }
 

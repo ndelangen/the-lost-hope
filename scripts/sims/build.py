@@ -28,6 +28,11 @@ FOES = [
     {'key': 'soft-targets', 'label': 'Soft targets', 'detail': 'They go for Swift and Cassian first.', 'opt': {'FOCUS': 'soft', 'BAIL': 'normal'}},
     {'key': 'ruthless', 'label': 'Ruthless', 'detail': 'Soft targets first, and Silas never leaves.', 'opt': {'FOCUS': 'soft', 'BAIL': 'never'}},
 ]
+PARTY = [
+    {'key': 'scene', 'label': 'Whoever is closest', 'detail': 'Devan and Auren hit what stands next to them, Silas included; Swift and Cassian go for the casters.', 'opt': {'PARTY': 'scene'}},
+    {'key': 'ilsa', 'label': 'They focus Ilsa', 'detail': 'They take the hint ("Here\'s your chance, Ilsa, show me you can take them") and everyone goes for Ilsa first.', 'opt': {'PARTY': 'ilsa'}},
+    {'key': 'silas', 'label': 'Silas draws them in', 'detail': 'Everyone goes for Silas first.', 'opt': {'PARTY': 'silas'}},
+]
 MISTAKES = ['0', '0.1', '0.2']
 ROOM_LABEL = {'Batteries': 'The batteries', 'Barracks': 'The Barracks', 'Lower deck': 'The lower deck',
               'Korrag': 'Korrag, just before the bridge', 'Helm': 'The Helm'}
@@ -44,26 +49,27 @@ def compact(rp):
         first = fight['frames'][0]['combatants']
         roster = [{'name': c['name'], 'side': c['side'], 'who': ref_of(c['slug'])} for c in first]
         frames = [{'round': fr['round'], 'hp': [[c['hp'], c['max'], c['temp'], c['cond']] for c in fr['combatants']],
-                   'events': [e for e in fr['events'] if e.strip()]} for fr in fight['frames']]
+                   'acts': [{k: v for k, v in a.items() if v not in (None, False, '')} for a in fr['acts']], 'events': [e for e in fr['events'] if e.strip()]} for fr in fight['frames']]
         rooms.append({'room': ROOM_LABEL[fight['room']], 'outcome': fight['outcome'], 'roster': roster, 'frames': frames})
     return {'seed': rp['seed'], 'rooms': rooms}
 
 
 def one(key):
     import ride_the_lightning as E
-    r, c, fo, m = key
+    r, c, fo, pa, m = key
     E.OPT.clear(); E.OPT.update(next(x for x in ROUTES if x['key'] == r)['opt'])
     E.OPT.update(next(x for x in FOES if x['key'] == fo)['opt']); E.OPT['CRYSTAL'] = c; E.OPT['MISTAKE'] = m
+    E.OPT.update(next(x for x in PARTY if x['key'] == pa)['opt'])
     E.setup_oa()
     st = E.stats(RUNS, keep=1)
     samples = st.pop('samples')
     st['lostAt'] = {ROOM_LABEL[k]: v for k, v in st['lostAt'].items() if v > 0}
-    scen = {'route': r, 'crystal': c, 'foes': fo, 'mistakes': float(m), **st}
+    scen = {'route': r, 'crystal': c, 'foes': fo, 'party': pa, 'mistakes': float(m), **st}
     reps = []
-    if fo == 'as-written' and m == '0.1':
+    if fo == 'as-written' and m == '0.1' and (pa == 'scene' or c == 'never'):
         for kind in ('win', 'tpk'):
             if kind in samples:
-                reps.append({'route': r, 'crystal': c, 'kind': kind, **compact(E.replay(samples[kind]))})
+                reps.append({'route': r, 'crystal': c, 'party': pa, 'kind': kind, **compact(E.replay(samples[kind]))})
     return scen, reps
 
 
@@ -72,11 +78,10 @@ if __name__ == '__main__':
         subprocess.run(['bun', os.path.join(HERE, 'export-stats.ts')], cwd=ROOT, stdout=fh, check=True)
     os.environ['SIM_STATS'] = STATS
     sys.path.insert(0, HERE)
-    keys = list(itertools.product([x['key'] for x in ROUTES], [x['key'] for x in CRYSTAL], [x['key'] for x in FOES], MISTAKES))
+    keys = list(itertools.product([x['key'] for x in ROUTES], [x['key'] for x in CRYSTAL], [x['key'] for x in FOES], [x['key'] for x in PARTY], MISTAKES))
     with Pool() as pool: res = pool.map(one, keys)
     strip = lambda xs: [{k: v for k, v in x.items() if k != 'opt'} for x in xs]
-    out = {'runs': RUNS, 'routes': strip(ROUTES), 'crystal': CRYSTAL, 'foes': strip(FOES), 'mistakes': [float(m) for m in MISTAKES],
+    out = {'runs': RUNS, 'routes': strip(ROUTES), 'crystal': CRYSTAL, 'foes': strip(FOES), 'party': strip(PARTY), 'mistakes': [float(m) for m in MISTAKES],
            'scenarios': [s for s, _ in res], 'replays': [r for _, rs in res for r in rs]}
     with open(OUT, 'w') as fh: json.dump(out, fh, separators=(',', ':'))
-    subprocess.run(['bunx', 'oxfmt', OUT], cwd=ROOT, check=True, stdout=subprocess.DEVNULL)
     print(f'{len(res)} scenarios, {len(out["replays"])} replays -> {os.path.relpath(OUT, ROOT)}')

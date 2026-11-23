@@ -259130,6 +259130,7 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/ban",
       "usedIn": [
+        "src/components/dm/fight-sim-replay.tsx",
         "src/lib/condition-icons.tsx"
       ]
     },
@@ -276392,6 +276393,7 @@
       "sourceUrl": "https://lucide.dev/icons/dices",
       "usedIn": [
         "src/components/dm/encounter/turn-card.tsx",
+        "src/components/dm/fight-sim-replay.tsx",
         "src/components/dm/group-save-tracker.tsx",
         "src/routes/pcs/detail.$slug_.play.tsx"
       ]
@@ -286878,6 +286880,7 @@
       "sourceUrl": "https://lucide.dev/icons/heart-pulse",
       "usedIn": [
         "src/components/dm/encounter/combat-status.tsx",
+        "src/components/dm/fight-sim-replay.tsx",
         "src/components/play/dying-banner.tsx",
         "src/lib/ability-icons.tsx"
       ]
@@ -309133,6 +309136,7 @@
       "sourceUrl": "https://lucide.dev/icons/skull",
       "usedIn": [
         "src/components/dm/encounter/combat-status.tsx",
+        "src/components/dm/fight-sim-replay.tsx",
         "src/components/play/dying-banner.tsx",
         "src/components/player-screen/fleet-battle-on-screen.tsx",
         "src/components/player-screen/fleet-roster-on-screen.tsx",
@@ -309658,6 +309662,7 @@
         "src/components/dm/ability-quick-list.tsx",
         "src/components/dm/dm-foretold-panel.tsx",
         "src/components/dm/encounter/ability-controls.tsx",
+        "src/components/dm/fight-sim-replay.tsx",
         "src/components/dm/npc-draft-editor.tsx",
         "src/components/dm/stat-block-sheet.tsx",
         "src/components/foretold-list.tsx",
@@ -320630,7 +320635,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/triangle-exclamation-point",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/fight-sim-replay.tsx"
+      ]
     },
     {
       "id": "lucide/TriangleRight",

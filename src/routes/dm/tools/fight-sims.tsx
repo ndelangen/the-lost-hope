@@ -3,6 +3,7 @@ import { useState } from 'react'
 
 import { DmQuickLinks } from '#/components/dm/dm-quick-links'
 import { FightSimReplay } from '#/components/dm/fight-sim-replay'
+import { FlowDiagram } from '#/components/dm/flow-diagram'
 import { EntityReference } from '#/components/entity-reference'
 import { refs } from '#/data/generated/refs'
 import { refLink } from '#/lib/campaign'
@@ -17,6 +18,7 @@ import {
   outcomeMatrix,
   percent,
   rideTheLightningSims as sims,
+  scenarioFlow,
 } from '#/lib/sims/fight-sims'
 import { cn } from '#/lib/utils'
 
@@ -69,17 +71,20 @@ function OutcomeBar({ scenario, className }: { scenario: SimScenario; className?
 function FightSimsPage() {
   const [foes, setFoes] = useState('as-written')
   const [mistakes, setMistakes] = useState(0.1)
+  const [party, setParty] = useState('scene')
   const [route, setRoute] = useState(sims.routes[0].key)
   const [crystal, setCrystal] = useState(sims.crystal[0].key)
   const [replayKind, setReplayKind] = useState<'win' | 'tpk'>('tpk')
 
-  const matrix = outcomeMatrix(sims, foes, mistakes)
-  const scenario = findScenario(sims, { route, crystal, foes, mistakes })
-  const replays = findReplays(sims, route, crystal)
+  const matrix = outcomeMatrix(sims, { foes, party, mistakes })
+  const scenario = findScenario(sims, { route, crystal, foes, party, mistakes })
+  const replays = findReplays(sims, route, crystal, party)
   const replay = replays.find((r) => r.kind === replayKind) ?? replays[0]
   const routeOption = sims.routes.find((r) => r.key === route)
   const crystalOption = sims.crystal.find((c) => c.key === crystal)
   const foesOption = sims.foes.find((f) => f.key === foes)
+  const partyOption = sims.party.find((p) => p.key === party)
+  const replayParty = sims.party.find((p) => p.key === replay?.party)
 
   return (
     <div className="grid gap-6 xl:grid-cols-[minmax(0,1fr)_12rem]">
@@ -113,6 +118,23 @@ function FightSimsPage() {
               ))}
             </div>
             <p className="text-muted-foreground">{foesOption?.detail}</p>
+          </div>
+          <div className="grid gap-1.5">
+            <h2 className="font-semibold">Who the party goes for at the Helm</h2>
+            <div className="flex flex-wrap gap-1.5">
+              {sims.party.map((option) => (
+                <button
+                  key={option.key}
+                  type="button"
+                  aria-pressed={party === option.key}
+                  className={chipClass(party === option.key)}
+                  onClick={() => setParty(option.key)}
+                >
+                  {option.label}
+                </button>
+              ))}
+            </div>
+            <p className="text-muted-foreground">{partyOption?.detail}</p>
           </div>
           <div className="grid gap-1.5">
             <h2 className="font-semibold">Player mistakes</h2>
@@ -228,7 +250,7 @@ function FightSimsPage() {
                 {routeOption?.label} · {crystalOption?.label}
               </h2>
               <p className="text-muted-foreground text-sm">
-                {foesOption?.label} enemies,{' '}
+                {foesOption?.label} enemies, {partyOption?.label.toLowerCase()} at the Helm,{' '}
                 {mistakes === 0 ? 'no mistakes' : `${Math.round(mistakes * 100)}% mistakes`}.
               </p>
             </div>
@@ -260,9 +282,12 @@ function FightSimsPage() {
                 </ul>
               )}
               <p className="text-muted-foreground">
-                Per run they drink {scenario.potions.toFixed(1)} potions and{' '}
-                {scenario.bottles.toFixed(1)} Long Rest bottles. Silas escapes in{' '}
-                {percent(scenario.silasFled)} of runs.
+                Per run they use {scenario.potions.toFixed(1)} potions and{' '}
+                {scenario.bottles.toFixed(1)} Long Rest bottles ({scenario.bottlesPoured.toFixed(2)}{' '}
+                of them poured into a friend who is down). The party lands{' '}
+                {scenario.crits.pc.toFixed(1)} crits and takes {scenario.crits.foe.toFixed(1)}.
+                Silas escapes in {percent(scenario.silasFled)} of runs. Someone dies in{' '}
+                {percent(scenario.anyDead)} of runs.
               </p>
             </div>
             <div className="overflow-x-auto">
@@ -271,8 +296,10 @@ function FightSimsPage() {
                   <tr>
                     <th className="py-1 font-medium">Character</th>
                     <th className="py-1 font-medium">Goes down</th>
+                    <th className="py-1 font-medium">Dies</th>
                     <th className="py-1 font-medium">Paralysed</th>
                     <th className="py-1 font-medium">Kills per run</th>
+                    <th className="py-1 font-medium">Damage taken</th>
                     <th className="w-2/5 py-1 font-medium">Share of the damage</th>
                   </tr>
                 </thead>
@@ -286,8 +313,10 @@ function FightSimsPage() {
                         </span>
                       </td>
                       <td className="tabular-nums">{percent(scenario.down[pc])}</td>
+                      <td className="tabular-nums">{percent(scenario.dead[pc])}</td>
                       <td className="tabular-nums">{percent(scenario.held[pc])}</td>
                       <td className="tabular-nums">{scenario.kills[pc].toFixed(1)}</td>
+                      <td className="tabular-nums">{Math.round(scenario.taken[pc])}</td>
                       <td aria-label={`${percent(scenario.damageShare[pc])} of the damage`}>
                         <span className="flex items-center gap-2">
                           <span
@@ -309,6 +338,16 @@ function FightSimsPage() {
                 </tbody>
               </table>
             </div>
+            <div className="grid gap-1">
+              <h3 className="text-sm font-semibold">Who hits whom, per run on average</h3>
+              <p className="text-muted-foreground text-xs">
+                All rooms together. Hover a band for its number.
+              </p>
+              <FlowDiagram
+                links={scenarioFlow(scenario)}
+                label="Damage per run on average, from each kind of combatant to each other"
+              />
+            </div>
           </section>
         ) : null}
 
@@ -318,9 +357,11 @@ function FightSimsPage() {
               <div className="grid gap-0.5">
                 <h2 className="text-xl font-semibold">Watch one run</h2>
                 <p className="text-muted-foreground text-sm">
-                  {routeOption?.label} · {crystalOption?.label}, with the enemies as written and
-                  {` ${Math.round(REPLAY_MISTAKES * 100)}%`} mistakes
-                  {foes !== REPLAY_FOES || mistakes !== REPLAY_MISTAKES
+                  {routeOption?.label} · {crystalOption?.label} · {replayParty?.label}, with the
+                  enemies as written and {Math.round(REPLAY_MISTAKES * 100)}% mistakes
+                  {foes !== REPLAY_FOES ||
+                  mistakes !== REPLAY_MISTAKES ||
+                  replayParty?.key !== party
                     ? ' (runs are kept for those settings only)'
                     : ''}
                   .
