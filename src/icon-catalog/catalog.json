@@ -136344,6 +136344,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/sbed/falling.html",
       "usedIn": [
+        "src/data/scenes/a-fleet-on-an-empty-sea.ts",
         "src/data/scenes/taking-back-a-battle-cruiser.ts",
         "src/lib/outcome-icons.tsx"
       ]
@@ -137411,6 +137412,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/feathered-wing.html",
       "usedIn": [
+        "src/data/scenes/a-fleet-on-an-empty-sea.ts",
         "src/data/scenes/running-from-the-battle-cruiser.ts",
         "src/lib/outcome-icons.tsx"
       ]
@@ -213463,6 +213465,7 @@
       "usedIn": [
         "src/data/items/little-purple.ts",
         "src/data/locations/tempest-sky-bridge-landing.ts",
+        "src/data/scenes/a-fleet-on-an-empty-sea.ts",
         "src/data/scenes/chaos-on-the-sky-islands.ts",
         "src/data/scenes/the-ents-hold-the-shipyard.ts",
         "src/lib/item-icons.tsx",
@@ -229580,6 +229583,7 @@
       "duplicateOf": "lucide/Sunset",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/sunset.html",
       "usedIn": [
+        "src/data/scenes/crowy-brings-up-onana-s-letter.ts",
         "src/data/scenes/onana-sends-the-party-on.ts",
         "src/lib/outcome-icons.tsx"
       ]
@@ -266325,7 +266329,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/chart-bar",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/dm-quick-links.tsx"
+      ]
     },
     {
       "id": "lucide/ChartBarBig",
@@ -267688,7 +267694,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/chevron-left",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/fight-sim-replay.tsx"
+      ]
     },
     {
       "id": "lucide/ChevronRight",
@@ -267732,6 +267740,7 @@
         "src/components/campaign-shell/nav.tsx",
         "src/components/campaign-shell/sidebar.tsx",
         "src/components/dm/dm-past-scenes.tsx",
+        "src/components/dm/fight-sim-replay.tsx",
         "src/components/locations-index.tsx",
         "src/components/player-screen/player-screen-dock.tsx",
         "src/components/questions-page.tsx",
@@ -300798,7 +300807,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/pause",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/fight-sim-replay.tsx"
+      ]
     },
     {
       "id": "lucide/PawPrint",
@@ -302208,7 +302219,8 @@
       "sourceUrl": "https://lucide.dev/icons/play",
       "usedIn": [
         "src/components/dm/encounter/ability-controls.tsx",
-        "src/components/dm/encounter/ability-text.tsx"
+        "src/components/dm/encounter/ability-text.tsx",
+        "src/components/dm/fight-sim-replay.tsx"
       ]
     },
     {

@@ -1,6 +1,7 @@
 import { Link } from '@tanstack/react-router'
 import {
   BookOpen,
+  ChartBar,
   Layers,
   LayoutDashboard,
   ScrollText,
@@ -45,6 +46,9 @@ export function DmQuickLinks({ stackAt = 'lg' }: { stackAt?: 'lg' | 'xl' | 'neve
       </Link>
       <Link to="/dm/tools/deck-of-many-things" className={linkClass}>
         <Layers className="size-4" /> Deck
+      </Link>
+      <Link to="/dm/tools/fight-sims" className={linkClass}>
+        <ChartBar className="size-4" /> Fight sims
       </Link>
       {import.meta.env.DEV ? (
         <Link to="/dm/npcs/new" className={linkClass}>

@@ -28,6 +28,7 @@
     "generate:social-paths": "bun scripts/generate-social-images.tsx --paths-only",
     "audit:public-build": "bun scripts/audit-public-build.ts",
     "dm:brief": "bun scripts/dm-prep-brief.ts",
+    "sims:rtl": "python3 scripts/sims/build.py",
     "mcp": "bun scripts/campaign-mcp/server.ts",
     "audit:delivery": "bun scripts/audit-delivery-footprint.ts",
     "typecheck": "bun run generate:images && bun run generate:social-paths && node node_modules/typescript-7/bin/tsc --noEmit",

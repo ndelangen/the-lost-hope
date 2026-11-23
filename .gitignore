@@ -38,3 +38,7 @@ src/generated/public-page-paths.json
 /assets/images/**/*.jpeg
 /assets/images/**/*.webp
 !/assets/images/app/**
+
+# Fight sim stat export, rebuilt by bun run sims:rtl
+scripts/sims/stats.json
+scripts/sims/__pycache__/

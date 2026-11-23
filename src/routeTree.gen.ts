@@ -42,6 +42,7 @@ import { Route as DmNpcsNewRouteImport } from './routes/dm/npcs/new'
 import { Route as DmScenesIndexRouteImport } from './routes/dm/scenes/index'
 import { Route as DmScenesSlugRouteImport } from './routes/dm/scenes/$slug'
 import { Route as DmToolsDeckOfManyThingsRouteImport } from './routes/dm/tools/deck-of-many-things'
+import { Route as DmToolsFightSimsRouteImport } from './routes/dm/tools/fight-sims'
 import { Route as EffectsDetailSlugRouteImport } from './routes/effects/detail.$slug'
 import { Route as EventsDetailSlugRouteImport } from './routes/events/detail.$slug'
 import { Route as EventsReplaySlugRouteImport } from './routes/events/replay.$slug'
@@ -220,6 +221,11 @@ const DmToolsDeckOfManyThingsRoute = DmToolsDeckOfManyThingsRouteImport.update({
   path: '/tools/deck-of-many-things',
   getParentRoute: () => DmRouteRoute,
 } as any)
+const DmToolsFightSimsRoute = DmToolsFightSimsRouteImport.update({
+  id: '/tools/fight-sims',
+  path: '/tools/fight-sims',
+  getParentRoute: () => DmRouteRoute,
+} as any)
 const EffectsDetailSlugRoute = EffectsDetailSlugRouteImport.update({
   id: '/effects/detail/$slug',
   path: '/effects/detail/$slug',
@@ -312,6 +318,7 @@ export interface FileRoutesByFullPath {
   '/dm/npcs/new': typeof DmNpcsNewRoute
   '/dm/scenes/$slug': typeof DmScenesSlugRoute
   '/dm/tools/deck-of-many-things': typeof DmToolsDeckOfManyThingsRoute
+  '/dm/tools/fight-sims': typeof DmToolsFightSimsRoute
   '/effects/detail/$slug': typeof EffectsDetailSlugRoute
   '/events/detail/$slug': typeof EventsDetailSlugRoute
   '/events/replay/$slug': typeof EventsReplaySlugRoute
@@ -358,6 +365,7 @@ export interface FileRoutesByTo {
   '/dm/npcs/new': typeof DmNpcsNewRoute
   '/dm/scenes/$slug': typeof DmScenesSlugRoute
   '/dm/tools/deck-of-many-things': typeof DmToolsDeckOfManyThingsRoute
+  '/dm/tools/fight-sims': typeof DmToolsFightSimsRoute
   '/effects/detail/$slug': typeof EffectsDetailSlugRoute
   '/events/detail/$slug': typeof EventsDetailSlugRoute
   '/events/replay/$slug': typeof EventsReplaySlugRoute
@@ -406,6 +414,7 @@ export interface FileRoutesById {
   '/dm/npcs/new': typeof DmNpcsNewRoute
   '/dm/scenes/$slug': typeof DmScenesSlugRoute
   '/dm/tools/deck-of-many-things': typeof DmToolsDeckOfManyThingsRoute
+  '/dm/tools/fight-sims': typeof DmToolsFightSimsRoute
   '/effects/detail/$slug': typeof EffectsDetailSlugRoute
   '/events/detail/$slug': typeof EventsDetailSlugRoute
   '/events/replay/$slug': typeof EventsReplaySlugRoute
@@ -455,6 +464,7 @@ export interface FileRouteTypes {
     | '/dm/npcs/new'
     | '/dm/scenes/$slug'
     | '/dm/tools/deck-of-many-things'
+    | '/dm/tools/fight-sims'
     | '/effects/detail/$slug'
     | '/events/detail/$slug'
     | '/events/replay/$slug'
@@ -501,6 +511,7 @@ export interface FileRouteTypes {
     | '/dm/npcs/new'
     | '/dm/scenes/$slug'
     | '/dm/tools/deck-of-many-things'
+    | '/dm/tools/fight-sims'
     | '/effects/detail/$slug'
     | '/events/detail/$slug'
     | '/events/replay/$slug'
@@ -548,6 +559,7 @@ export interface FileRouteTypes {
     | '/dm/npcs/new'
     | '/dm/scenes/$slug'
     | '/dm/tools/deck-of-many-things'
+    | '/dm/tools/fight-sims'
     | '/effects/detail/$slug'
     | '/events/detail/$slug'
     | '/events/replay/$slug'
@@ -836,6 +848,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DmToolsDeckOfManyThingsRouteImport
       parentRoute: typeof DmRouteRoute
     }
+    '/dm/tools/fight-sims': {
+      id: '/dm/tools/fight-sims'
+      path: '/tools/fight-sims'
+      fullPath: '/dm/tools/fight-sims'
+      preLoaderRoute: typeof DmToolsFightSimsRouteImport
+      parentRoute: typeof DmRouteRoute
+    }
     '/effects/detail/$slug': {
       id: '/effects/detail/$slug'
       path: '/effects/detail/$slug'
@@ -931,6 +950,7 @@ interface DmRouteRouteChildren {
   DmNpcsNewRoute: typeof DmNpcsNewRoute
   DmScenesSlugRoute: typeof DmScenesSlugRoute
   DmToolsDeckOfManyThingsRoute: typeof DmToolsDeckOfManyThingsRoute
+  DmToolsFightSimsRoute: typeof DmToolsFightSimsRoute
   DmArcsIndexRoute: typeof DmArcsIndexRoute
   DmEncounterIndexRoute: typeof DmEncounterIndexRoute
   DmScenesIndexRoute: typeof DmScenesIndexRoute
@@ -944,6 +964,7 @@ const DmRouteRouteChildren: DmRouteRouteChildren = {
   DmNpcsNewRoute: DmNpcsNewRoute,
   DmScenesSlugRoute: DmScenesSlugRoute,
   DmToolsDeckOfManyThingsRoute: DmToolsDeckOfManyThingsRoute,
+  DmToolsFightSimsRoute: DmToolsFightSimsRoute,
   DmArcsIndexRoute: DmArcsIndexRoute,
   DmEncounterIndexRoute: DmEncounterIndexRoute,
   DmScenesIndexRoute: DmScenesIndexRoute,
