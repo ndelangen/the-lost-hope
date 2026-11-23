@@ -159,10 +159,11 @@ function flatBonus(bonus: number) {
 
 export function deriveAttack(attack: Attack, stats: AnyStatBlock): DerivedAttack {
   const mod = modifier(stats.scores[attack.ability])
+  const magic = attack.magic ?? 0
   return {
-    bonus: mod + proficiencyOf(stats),
+    bonus: mod + proficiencyOf(stats) + magic,
     damage: attack.damage.map((roll) => {
-      const extra = roll.addModifier ? mod : 0
+      const extra = roll.addModifier ? mod + magic : 0
       return {
         kind: 'damage',
         amount: average(roll.dice, extra),

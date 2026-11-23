@@ -66,8 +66,28 @@ export default createPC({
         intent: 'damage',
         text: [
           'He attacks twice when he takes the Attack action: two ',
-          { ability: 'warhammer' },
+          { ability: 'mace-of-returning' },
           ' attacks.',
+        ],
+      },
+      {
+        key: 'mace-of-returning',
+        name: 'Steve, Mace of Returning',
+        timing: 'action',
+        icon: 'gi/GiMaceHead',
+        intent: 'damage',
+        attack: {
+          kind: 'melee',
+          ability: 'str',
+          magic: 1,
+          damage: [{ dice: '1d10', type: refs.rules.bludgeoning, addModifier: true }],
+        },
+        text: [
+          'Magical against ',
+          refs.rules.resistance,
+          ' and ',
+          refs.rules.immunity,
+          ' to nonmagical attacks. He can throw it instead (range 20/60 ft., same bonus and damage); it returns to his hand right after, hit or miss, and he can’t throw it again until the start of his next turn.',
         ],
       },
       {

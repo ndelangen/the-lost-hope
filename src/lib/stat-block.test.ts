@@ -207,6 +207,18 @@ describe('a PC stat block', () => {
             damage: [{ dice: '1d8', type: refs.rules.bludgeoning, addModifier: true }],
           },
         },
+        {
+          key: 'mace',
+          name: 'Mace of Returning',
+          timing: 'action',
+          icon: 'gi/GiMaceHead',
+          attack: {
+            kind: 'melee',
+            ability: 'str',
+            magic: 1,
+            damage: [{ dice: '1d10', type: refs.rules.bludgeoning, addModifier: true }],
+          },
+        },
       ],
     }),
     level: 5,
@@ -225,6 +237,12 @@ describe('a PC stat block', () => {
     expect(block.passivePerception).toBe(15)
     expect(plainStatParts(abilitySummary(devan.abilities[0]!, devan)!)).toBe(
       '+7, 8 (1d8 + 4) bludgeoning',
+    )
+  })
+
+  it('adds a magic weapon bonus to the attack roll and its damage', () => {
+    expect(plainStatParts(abilitySummary(devan.abilities[1]!, devan)!)).toBe(
+      '+8, 10 (1d10 + 5) bludgeoning',
     )
   })
 })

@@ -53,18 +53,29 @@ const Damage = z.strictObject({
     .describe('Add the attack ability modifier, as weapon and natural attacks usually do'),
 })
 
+/** A magic weapon's bonus: added to the attack roll and to each damage roll that adds the modifier. */
+const MagicBonus = z
+  .number()
+  .int()
+  .min(1)
+  .max(3)
+  .optional()
+  .describe('A +1, +2 or +3 weapon: added to the attack roll and to damage that adds the modifier')
+
 /** An attack roll. The to-hit bonus and damage averages are derived from the scores and CR. */
 const Attack = z.discriminatedUnion('kind', [
   z.strictObject({
     kind: z.literal('melee'),
     ability: AbilityId,
     reach: z.number().int().positive().default(5).describe('Feet'),
+    magic: MagicBonus,
     damage: z.array(Damage).min(1),
   }),
   z.strictObject({
     kind: z.literal('ranged'),
     ability: AbilityId,
     range: z.tuple([z.number().int().positive(), z.number().int().positive()]).describe('Feet'),
+    magic: MagicBonus,
     damage: z.array(Damage).min(1),
   }),
 ])

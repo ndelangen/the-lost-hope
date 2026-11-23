@@ -13,17 +13,21 @@ export default createItem({
       refs.items.steve_the_interrogation_rock,
       ', now a magical returning weapon with a polished obsidian head, an ancient-bark haft, and faint crimson veins.',
     ],
+    ['Uncommon weapon (mace), requires attunement.'],
     [
       'It deals 1d10 ',
       refs.rules.bludgeoning,
-      ' damage, can be thrown up to 60 feet, returns to a free hand immediately after the attack, and counts as magical against ',
+      ' damage one-handed, with a +1 bonus to attack and damage rolls, and counts as magical for overcoming ',
       refs.rules.resistance,
-      ' or ',
+      ' and ',
       refs.rules.immunity,
-      '. Throwing it reduces its wielder’s speed by 5 feet until the next turn.',
+      ' to nonmagical attacks.',
     ],
     [
-      'On a natural 1, its obsidian head is drawn to the ground after the attack and creatures within 10 feet take 1d10 damage.',
+      'Returning: it can be thrown (range 20/60 ft.), and immediately after the attack, hit or miss, it returns to its wielder’s free hand.',
+    ],
+    [
+      'Heavy Momentum: after using Returning, its wielder can’t use it again until the start of their next turn.',
     ],
   ],
 })
