@@ -431,7 +431,7 @@
   "assets/images/maps/nimbus.png": {"sha256":"f077da94b3f86ee06b0ba8d58c22085149b77e4acdb789f2d6791548505fff86","bytes":3648604},
   "assets/images/maps/onana-tempest-s-estate.png": {"sha256":"b3ba8cfb8b2e1371a9a1e65ec6199d60e5ec2d6bd0c7901be5bcd8ba1f1d0fd7","bytes":3851763},
   "assets/images/maps/ride-the-lightning-gun-deck.png": {"sha256":"585a0874d079b1b7f754503d5c65054abf133ddb5a9f454c83a1c9ca7174159d","bytes":5256985},
-  "assets/images/maps/ride-the-lightning-main-deck.png": {"sha256":"983cbb08596d5dfaa550c1b576d9db42bf2180be84b2f44d335a84fbdfc4f334","bytes":5516923},
+  "assets/images/maps/ride-the-lightning-main-deck.png": {"sha256":"9005d5f4e9aabcdd95cc0fddb034d55f1bbc982501ea1e87307dffc6f7784baf","bytes":2147358},
   "assets/images/maps/serpent-eclipse-crystal-oasis.png": {"sha256":"028edb9fbe7e3a3e7622d86d37c7f8d5ae6cb015f66e2c6eb01caf06d13ee59e","bytes":3098804},
   "assets/images/maps/serpent-eclipse-dungeon-entrance.png": {"sha256":"b5ab2e1751b6bec3b781c9ec4e470a07f757c79540c14d1050013e7ff996d531","bytes":2784389},
   "assets/images/maps/serpent-eclipse-far-landing.png": {"sha256":"1a442342d9e602265d193fece5f7351a452b1e5e4fad99b5fc6202c239e1b461","bytes":2296668},
