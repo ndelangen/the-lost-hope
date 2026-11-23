@@ -47,6 +47,24 @@ export default createScene({
           say: [['Come down! Come meet us! We’re friendly!']],
         },
       ],
+      outcomes: [
+        {
+          icon: 'gi/GiShipBow',
+          when: [['They choose to land.']],
+          response: [['Play on.']],
+        },
+        {
+          icon: 'gi/GiFalling',
+          when: [['They fly on past the fleet.']],
+          response: [
+            [
+              'The magical crystal of ',
+              refs.items.little_purple,
+              ' overheats. They have to set down on the water to let it cool, right beside the fleet.',
+            ],
+          ],
+        },
+      ],
     },
     {
       title: 'Alongside the fleet',
