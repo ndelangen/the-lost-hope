@@ -113,13 +113,14 @@ describe('storyline map', () => {
     expect(parents.has('early')).toBe(false)
   })
 
-  it('places events in their settlement and maps every campaign arc', () => {
+  it('places events in their settlement and maps every played campaign arc', () => {
     expect(placeOf('skynet_s_second_best_inn')).toBe('skynet')
     expect(placeOf('serpent_eclipse_flooded_cavern')).toBe('skynet')
     expect(placeOf('badesh_forest')).toBe('badesh_forest')
     const lines = buildStorylines(campaignArcs)
     expect(lines).toHaveLength(Object.keys(campaignArcs).length)
-    expect(lines.every((line) => line.stops.length > 0)).toBe(true)
+    const played = lines.filter((line) => line.arc.plots.some((plot) => plot.events.length > 0))
+    expect(played.every((line) => line.stops.length > 0)).toBe(true)
   })
 })
 

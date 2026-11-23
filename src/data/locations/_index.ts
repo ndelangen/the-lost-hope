@@ -107,9 +107,12 @@ import the_blackstone from './the-blackstone.ts'
 import the_boat_to_fairhaven from './the-boat-to-fairhaven.ts'
 import the_boat_to_fajanet_celesta from './the-boat-to-fajanet-celesta.ts'
 import the_briar_queen from './the-briar-queen.ts'
+import the_caves_of_steel from './the-caves-of-steel.ts'
 import the_crater_bridge from './the-crater-bridge.ts'
 import the_flying_whale from './the-flying-whale.ts'
 import the_green_light from './the-green-light.ts'
+import the_marshal_s_deep from './the-marshal-s-deep.ts'
+import the_marshal_s_waters from './the-marshal-s-waters.ts'
 import the_nest from './the-nest.ts'
 import the_old_battlefield from './the-old-battlefield.ts'
 import the_patient_heron from './the-patient-heron.ts'
@@ -246,4 +249,7 @@ export default {
   the_patient_heron,
   the_briar_queen,
   saltmere,
+  the_marshal_s_waters,
+  the_caves_of_steel,
+  the_marshal_s_deep,
 }

@@ -15,6 +15,7 @@ import brodus from './brodus.ts'
 import buried_war_machine from './buried-war-machine.ts'
 import captain_blackthorn from './captain-blackthorn.ts'
 import captain_garran from './captain-garran.ts'
+import caves_of_steel_fisher from './caves-of-steel-fisher.ts'
 import celeste_s_mother from './celeste-s-mother.ts'
 import celeste_tempest from './celeste-tempest.ts'
 import celeste from './celeste.ts'
@@ -75,6 +76,7 @@ import sylvia_s_brother from './sylvia-s-brother.ts'
 import sylvia from './sylvia.ts'
 import tempest_patriarch from './tempest-patriarch.ts'
 import tempest_soldier from './tempest-soldier.ts'
+import the_11th_marshal from './the-11th-marshal.ts'
 import the_12th_marshal from './the-12th-marshal.ts'
 import the_father from './the-father.ts'
 import the_fiddler_s_knight from './the-fiddler-s-knight.ts'
@@ -173,4 +175,6 @@ export default {
   the_merchant_skipper,
   rhys_s_parents,
   tobin_reedwhistle,
+  the_11th_marshal,
+  caves_of_steel_fisher,
 }

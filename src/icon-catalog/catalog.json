@@ -86910,7 +86910,10 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/at-sea.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/the-marshal-s-waters.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiAttachedShield",
@@ -90398,7 +90401,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/base-dome.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/the-caves-of-steel.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiBasket",
@@ -98862,6 +98868,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/brain.html",
       "usedIn": [
         "src/data/npcs/onana-tempest.ts",
+        "src/data/npcs/the-11th-marshal.ts",
         "src/data/pcs/cassian-veyl.ts",
         "src/lib/ability-icons.tsx"
       ]
@@ -110806,6 +110813,7 @@
       "usedIn": [
         "src/data/npcs/hex.ts",
         "src/data/npcs/sylf.ts",
+        "src/data/npcs/the-11th-marshal.ts",
         "src/data/pcs/jim.ts",
         "src/data/pcs/swift-starblade.ts",
         "src/lib/ability-icons.tsx"
@@ -116832,6 +116840,7 @@
         "src/components/dm/scene-branches.test.tsx",
         "src/data/npcs/onana-tempest.ts",
         "src/data/pcs/cassian-veyl.ts",
+        "src/data/scenes/a-fleet-on-an-empty-sea.ts",
         "src/data/scenes/boarded-by-the-battle-cruiser.ts",
         "src/data/scenes/borris-shutters-the-casino.ts",
         "src/data/scenes/chaos-on-the-sky-islands.ts",
@@ -162223,7 +162232,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/imprisoned.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/arcs/the-three-laws.ts",
+        "src/lib/arc-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiInauguration",
@@ -167333,7 +167345,10 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/kraken-tentacle.html",
-      "usedIn": []
+      "usedIn": [
+        "src/data/locations/the-marshal-s-deep.ts",
+        "src/lib/location-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiKusarigama",
@@ -198356,6 +198371,7 @@
         "src/data/npcs/sylvia-s-brother.ts",
         "src/data/npcs/tempest-patriarch.ts",
         "src/data/npcs/tempest-soldier.ts",
+        "src/data/npcs/the-11th-marshal.ts",
         "src/data/npcs/the-12th-marshal.ts",
         "src/data/npcs/the-father.ts",
         "src/data/npcs/the-fiddler-s-knight.ts",
@@ -198955,6 +198971,7 @@
         "src/data/events/n2-e112.ts",
         "src/data/events/n2-e168.ts",
         "src/data/events/n2-e206.ts",
+        "src/data/scenes/a-fleet-on-an-empty-sea.ts",
         "src/data/scenes/onana-calls-the-party-to-war.ts",
         "src/data/scenes/questions-for-light.ts",
         "src/lib/effect-icons.tsx",
@@ -200144,6 +200161,7 @@
         "src/data/events/n2-e142.ts",
         "src/data/events/n2-e177.ts",
         "src/data/locations/puzzle-room.ts",
+        "src/data/scenes/a-fleet-on-an-empty-sea.ts",
         "src/data/scenes/down-through-the-rubble.ts",
         "src/data/scenes/questions-for-light.ts",
         "src/data/scenes/the-bard-s-new-song.ts",
@@ -216898,7 +216916,9 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/slime.html",
       "usedIn": [
-        "src/data/pcs/auren.ts"
+        "src/data/npcs/the-11th-marshal.ts",
+        "src/data/pcs/auren.ts",
+        "src/lib/ability-icons.tsx"
       ]
     },
     {
@@ -233882,6 +233902,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/telepathy.html",
       "usedIn": [
         "src/data/npcs/onana-tempest.ts",
+        "src/data/npcs/the-11th-marshal.ts",
         "src/data/pcs/cassian-veyl.ts",
         "src/lib/ability-icons.tsx"
       ]
@@ -234734,6 +234755,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/tentacle-strike.html",
       "usedIn": [
         "src/data/beasts/displacer-beast.ts",
+        "src/data/npcs/the-11th-marshal.ts",
         "src/data/pcs/cassian-veyl.ts",
         "src/lib/ability-icons.tsx"
       ]
@@ -248515,6 +248537,7 @@
         "src/data/creatures/pirate-captain.ts",
         "src/data/npcs/dax.ts",
         "src/data/npcs/sylf.ts",
+        "src/data/npcs/the-11th-marshal.ts",
         "src/lib/ability-icons.tsx"
       ]
     },

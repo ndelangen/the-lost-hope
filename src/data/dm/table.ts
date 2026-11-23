@@ -30,5 +30,6 @@ export default createTable({
     refs.scenes.fix_s_last_delivery,
     refs.scenes.questions_for_light,
     refs.scenes.the_bard_s_new_song,
+    refs.scenes.a_fleet_on_an_empty_sea,
   ],
 })

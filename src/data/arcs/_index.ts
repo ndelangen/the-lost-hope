@@ -17,6 +17,7 @@ import the_serpent_eclipse from './the-serpent-eclipse.ts'
 import the_shadowpeak_mine from './the-shadowpeak-mine.ts'
 import the_starblade_family from './the-starblade-family.ts'
 import the_tempest_family from './the-tempest-family.ts'
+import the_three_laws from './the-three-laws.ts'
 import the_weapon_that_woke_up from './the-weapon-that-woke-up.ts'
 import wolfie_after_the_ring from './wolfie-after-the-ring.ts'
 
@@ -42,4 +43,5 @@ export default {
   the_tempest_family,
   the_weapon_that_woke_up,
   wolfie_after_the_ring,
+  the_three_laws,
 }

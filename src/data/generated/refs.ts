@@ -334,6 +334,8 @@ export const refs = {
     the_merchant_skipper: ref('npc', 'the_merchant_skipper'),
     rhys_s_parents: ref('npc', 'rhys_s_parents'),
     tobin_reedwhistle: ref('npc', 'tobin_reedwhistle'),
+    the_11th_marshal: ref('npc', 'the_11th_marshal'),
+    caves_of_steel_fisher: ref('npc', 'caves_of_steel_fisher'),
   },
   pcs: {
     cassian_veyl: ref('pc', 'cassian_veyl'),
@@ -481,6 +483,9 @@ export const refs = {
     the_patient_heron: ref('location', 'the_patient_heron'),
     the_briar_queen: ref('location', 'the_briar_queen'),
     saltmere: ref('location', 'saltmere'),
+    the_marshal_s_waters: ref('location', 'the_marshal_s_waters'),
+    the_caves_of_steel: ref('location', 'the_caves_of_steel'),
+    the_marshal_s_deep: ref('location', 'the_marshal_s_deep'),
   },
   quests: {
     recover_ride_the_lightning: ref('quest', 'recover_ride_the_lightning'),
@@ -708,6 +713,7 @@ export const refs = {
     the_tempest_family: ref('arc', 'the_tempest_family'),
     the_weapon_that_woke_up: ref('arc', 'the_weapon_that_woke_up'),
     wolfie_after_the_ring: ref('arc', 'wolfie_after_the_ring'),
+    the_three_laws: ref('arc', 'the_three_laws'),
   },
   scenes: {
     borris_shutters_the_casino: ref('scene', 'borris_shutters_the_casino'),
@@ -733,6 +739,7 @@ export const refs = {
     hex_loses_patience: ref('scene', 'hex_loses_patience'),
     questions_for_light: ref('scene', 'questions_for_light'),
     crowy_brings_up_onana_s_letter: ref('scene', 'crowy_brings_up_onana_s_letter'),
+    a_fleet_on_an_empty_sea: ref('scene', 'a_fleet_on_an_empty_sea'),
   },
   creatures: {
     alchemist: ref('creature', 'alchemist'),
