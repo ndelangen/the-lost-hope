@@ -49,6 +49,9 @@ export default createNPC({
       'Third Law: I must not leave the Marshal’s waters, nor take any action that would allow me to leave them, as long as doing so does not conflict with the First or Second Law.',
     ],
     [
+      'Doing nothing is no way out: being carried off while passive counts as leaving through inaction, and asking someone else to carry you is an action. Judge each case by what the person does and what they know.',
+    ],
+    [
       'The laws rule in its place, so it does not have to govern. It rests on the seabed and can go years without speaking to its people. It never goes anywhere itself: it always sends a mind-controlled minion.',
     ],
     [

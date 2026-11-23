@@ -13,10 +13,33 @@ export default createArc({
   ],
   notes: [
     [
-      'Loopholes the players might find, among others. A person carried out asleep took no action to leave. A soldier the Marshal orders out to war may go, and no law says they must come back. Saving the Marshal from harm outside its waters puts the First Law above the Third.',
+      'The order of the laws is the puzzle, as in Asimov’s robot stories. Protect beats obey, obey beats stay, protect beats stay. Each pair opens a gap.',
     ],
     [
-      'Where do the Marshal’s waters end? Is an airship above them still inside? Judge each case by what the person does and what they know.',
+      'The Marshal chose this order. It ranked obey above stay so that it could send its army out to war. With stay second, its army could never leave its waters at all. Its need for a mobile army is the crack.',
+    ],
+    [
+      'Ordered to war (obey beats stay): an order to go out overrides staying, and nothing orders them back.',
+    ],
+    [
+      'Staying is harm (protect beats stay, after Liar!): if the people become convinced that the Caves themselves put the Marshal in danger, they must leave. They believe every story they hear.',
+    ],
+    [
+      'War is always its death (protect beats obey, after The Evitable Conflict): convince them that every war ends in the Marshal’s demise and they refuse every call to arms, forever. The army is neutralised, but nobody is freed. They must truly believe it, and the Marshal’s minion will argue back.',
+    ],
+    [
+      'Who is the Marshal? (after …That Thou Art Mindful of Him): the laws never name the aboleth, only the Marshal, and 11th Marshal is a seat on ',
+      refs.organizations.marshals_court,
+      '. Whoever holds that title is protected and obeyed, and the waters are theirs. The big finale.',
+    ],
+    [
+      'Seize the voice: its orders reach the people through its minion. Whoever controls or fakes the minion gives the Marshal’s orders.',
+    ],
+    [
+      'The one born different (after Little Lost Robot): somewhere in the Caves lives one person whose laws took hold incompletely. Finding them among thousands is the puzzle, and they become the party’s ally inside.',
+    ],
+    [
+      'Stuck at the edge (after Runaround): a clue, not an escape. Someone sent on a casual errand just past the border circles at the edge, unable to go on or turn back, until a stronger law breaks the balance.',
     ],
     [
       'The laws hold while the Marshal rests, and nobody watches the gaps. It may only find out when it calls its army and hears how few answer.',
