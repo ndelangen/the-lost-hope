@@ -114,6 +114,21 @@ export default createScene({
   ],
   outcomes: [
     {
+      icon: 'gi/GiSunset',
+      when: [['They fly on, off the sky islands.']],
+      response: [
+        [
+          'Run ',
+          refs.scenes.a_fleet_on_an_empty_sea,
+          ' on the flight. ',
+          refs.scenes.hex_loses_patience,
+          ' in ',
+          refs.locations.rustmoor,
+          ' comes after it.',
+        ],
+      ],
+    },
+    {
       icon: 'gi/GiConversation',
       when: [
         [

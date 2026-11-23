@@ -24,12 +24,12 @@ export default createTable({
     refs.scenes.crowy_brings_up_onana_s_letter,
   ],
   ready: [
+    refs.scenes.a_fleet_on_an_empty_sea,
     refs.scenes.hex_loses_patience,
     refs.scenes.down_through_the_rubble,
     refs.scenes.light_walks_auren_through_fajanet,
     refs.scenes.fix_s_last_delivery,
     refs.scenes.questions_for_light,
     refs.scenes.the_bard_s_new_song,
-    refs.scenes.a_fleet_on_an_empty_sea,
   ],
 })
