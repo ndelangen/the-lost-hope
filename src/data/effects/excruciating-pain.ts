@@ -5,7 +5,7 @@ export default createEffect({
   name: 'Excruciating Pain',
   icon: 'gi/GiHeartBeats',
   on: [refs.pcs.jim],
-  cause: refs.items.deck_of_many_more_things,
+  cause: refs.cards.the_pain,
   began: refs.events.n2_e105,
   ended: refs.events.n2_e132,
   rules: [

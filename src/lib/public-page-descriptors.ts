@@ -57,6 +57,7 @@ const KIND_COLORS: Record<EntityKind, { accent: string; softAccent: string }> = 
   organization: { accent: '#0d9488', softAccent: '#ccfbf1' },
   item: { accent: '#c026d3', softAccent: '#fae8ff' },
   effect: { accent: '#4f46e5', softAccent: '#e0e7ff' },
+  card: { accent: '#b45309', softAccent: '#fef3c7' },
 }
 
 const KIND_LABELS: Record<EntityKind, string> = {
@@ -70,6 +71,7 @@ const KIND_LABELS: Record<EntityKind, string> = {
   organization: 'Organization',
   item: 'Notable item',
   effect: 'Lasting effect',
+  card: 'Card',
 }
 
 const COLLECTION_DESCRIPTIONS: Record<EntityKind, string> = {
@@ -83,6 +85,7 @@ const COLLECTION_DESCRIPTIONS: Record<EntityKind, string> = {
   organization: 'Explore the groups, guilds, and allegiances shaping the campaign.',
   item: 'Browse notable equipment, artifacts, and possessions from the campaign.',
   effect: 'Check the curses, boons, and bargains that shape the party.',
+  card: 'Read every card in the Deck of Many Things and who drew it.',
 }
 
 const STATIC_PAGES: readonly PublicPageDescriptor[] = [
@@ -231,6 +234,8 @@ function entityDescription(entity: Entity): string {
       return `${entity.data.name}, a notable item in The Lost Hope campaign.`
     case 'effect':
       return `${entity.data.name}, a lasting effect in The Lost Hope campaign.`
+    case 'card':
+      return `${entity.data.name}, a card of the Deck of Many Things in The Lost Hope campaign.`
   }
 }
 
@@ -295,8 +300,8 @@ export function validatePublicPageDescriptors(): string[] {
     if (!page.title.trim()) errors.push(`Missing title: ${page.path}`)
     if (!page.description.trim()) errors.push(`Missing description: ${page.path}`)
   }
-  if (PUBLIC_PAGE_DESCRIPTORS.length !== 547) {
-    errors.push(`Expected 547 public pages, found ${PUBLIC_PAGE_DESCRIPTORS.length}`)
+  if (PUBLIC_PAGE_DESCRIPTORS.length !== 574) {
+    errors.push(`Expected 574 public pages, found ${PUBLIC_PAGE_DESCRIPTORS.length}`)
   }
   return errors
 }

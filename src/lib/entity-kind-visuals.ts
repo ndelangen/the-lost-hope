@@ -6,6 +6,7 @@ import {
   Package,
   Scroll,
   Sparkles,
+  SquareStack,
   ScrollText,
   User,
   Users,
@@ -25,6 +26,7 @@ export type EntityKindColor =
   | 'teal'
   | 'fuchsia'
   | 'indigo'
+  | 'yellow'
 
 export type EntityKindVisual = {
   color: EntityKindColor
@@ -147,5 +149,16 @@ export const ENTITY_KIND_VISUALS: Record<EntityKind, EntityKindVisual> = {
     ringClassName: 'ring-indigo-500/40',
     hoverClassName:
       'hover:border-indigo-300 hover:bg-indigo-50/70 focus-visible:ring-indigo-500/40 dark:hover:border-indigo-800 dark:hover:bg-indigo-950/20',
+  },
+  card: {
+    color: 'yellow',
+    icon: SquareStack,
+    accentClassName: 'text-yellow-600 dark:text-yellow-300',
+    pillClassName: 'bg-yellow-100 text-yellow-800 dark:bg-yellow-950/50 dark:text-yellow-300',
+    borderClassName: 'border-yellow-300/80 dark:border-yellow-800',
+    surfaceClassName: 'bg-yellow-50/60 dark:bg-yellow-950/20',
+    ringClassName: 'ring-yellow-500/40',
+    hoverClassName:
+      'hover:border-yellow-300 hover:bg-yellow-50/70 focus-visible:ring-yellow-500/40 dark:hover:border-yellow-800 dark:hover:bg-yellow-950/20',
   },
 }

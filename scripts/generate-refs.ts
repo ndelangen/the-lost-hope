@@ -18,6 +18,7 @@ const COLLECTIONS = [
   { kind: 'organization', plural: 'organizations', typeName: 'OrganizationKey' },
   { kind: 'item', plural: 'items', typeName: 'ItemKey' },
   { kind: 'effect', plural: 'effects', typeName: 'EffectKey' },
+  { kind: 'card', plural: 'cards', typeName: 'CardKey' },
   { kind: 'arc', plural: 'arcs', typeName: 'ArcKey' },
   { kind: 'scene', plural: 'scenes', typeName: 'SceneKey' },
   { kind: 'creature', plural: 'creatures', typeName: 'CreatureKey' },

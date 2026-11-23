@@ -5,7 +5,7 @@ export default createEffect({
   name: 'Blight',
   icon: 'gi/GiDeadWood',
   on: [refs.npcs.sarogarth],
-  cause: refs.items.deck_of_many_more_things,
+  cause: refs.cards.the_blight,
   began: refs.events.n2_e194,
   rules: [
     [

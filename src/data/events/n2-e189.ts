@@ -28,4 +28,11 @@ export default createEvent({
   day: 24,
   location: refs.locations.borris_s_gambling_den,
   mark: { type: 'icon', name: 'gi/GiCardRandom' },
+  draws: [
+    { by: refs.npcs.sarogarth, card: refs.cards.the_wind },
+    { by: refs.pcs.jim, card: refs.cards.the_whispers },
+    { by: refs.pcs.cassian_veyl, card: refs.cards.the_hunger },
+    { by: refs.pcs.swift_starblade, card: refs.cards.balance },
+    { by: refs.pcs.swift_starblade, card: refs.cards.the_sun },
+  ],
 })

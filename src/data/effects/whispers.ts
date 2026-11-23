@@ -5,7 +5,7 @@ export default createEffect({
   name: 'Whispers',
   icon: 'gi/GiShadowFollower',
   on: [refs.pcs.jim],
-  cause: refs.items.deck_of_many_more_things,
+  cause: refs.cards.the_whispers,
   began: refs.events.n2_e189,
   rules: [[refs.pcs.jim, ' hears voices only he can hear and suffers penalties involving Wisdom.']],
   triggers: [

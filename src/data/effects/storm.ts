@@ -5,7 +5,7 @@ export default createEffect({
   name: 'Storm',
   icon: 'gi/GiLightningStorm',
   on: [refs.pcs.jim],
-  cause: refs.items.deck_of_many_more_things,
+  cause: refs.cards.the_storm,
   began: refs.events.n2_e105,
   ended: refs.events.n2_e196,
   duration: { days: 30 },

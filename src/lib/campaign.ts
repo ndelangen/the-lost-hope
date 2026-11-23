@@ -20,6 +20,7 @@ import {
 } from './campaign-read-model'
 import {
   beasts,
+  cards,
   effects,
   events,
   items,
@@ -52,6 +53,7 @@ export const COLLECTIONS: readonly EntityKind[] = [
   'organization',
   'item',
   'effect',
+  'card',
 ]
 
 export const COLLECTION_LABELS: Record<EntityKind, string> = {
@@ -65,6 +67,7 @@ export const COLLECTION_LABELS: Record<EntityKind, string> = {
   organization: 'Organizations',
   item: 'Items',
   effect: 'Effects',
+  card: 'Cards',
 }
 
 const COLLECTION_PATH: Record<EntityKind, string> = {
@@ -78,6 +81,7 @@ const COLLECTION_PATH: Record<EntityKind, string> = {
   organization: 'organizations',
   item: 'items',
   effect: 'effects',
+  card: 'cards',
 }
 
 const campaignModel = createCampaignReadModel({
@@ -89,6 +93,7 @@ const campaignModel = createCampaignReadModel({
 export {
   beasts,
   campaign,
+  cards,
   effects,
   events,
   items,
@@ -251,6 +256,7 @@ type EntityTo =
   | '/organizations/detail/$slug'
   | '/items/detail/$slug'
   | '/effects/detail/$slug'
+  | '/cards/detail/$slug'
 
 /** Route pattern for an entity kind's collection/index page. */
 type CollectionTo =
@@ -264,6 +270,7 @@ type CollectionTo =
   | '/organizations'
   | '/items'
   | '/effects'
+  | '/cards'
 
 const ENTITY_TO: Record<EntityKind, EntityTo> = {
   pc: '/pcs/detail/$slug',
@@ -276,6 +283,7 @@ const ENTITY_TO: Record<EntityKind, EntityTo> = {
   organization: '/organizations/detail/$slug',
   item: '/items/detail/$slug',
   effect: '/effects/detail/$slug',
+  card: '/cards/detail/$slug',
 }
 
 const COLLECTION_TO: Record<EntityKind, CollectionTo> = {
@@ -289,6 +297,7 @@ const COLLECTION_TO: Record<EntityKind, CollectionTo> = {
   organization: '/organizations',
   item: '/items',
   effect: '/effects',
+  card: '/cards',
 }
 
 /** Typed router props (`to` + `params`) for an entity's detail page. */

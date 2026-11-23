@@ -444,3 +444,54 @@
   background-image: radial-gradient(rgb(0 0 0 / 0.14) 1px, transparent 1.4px);
   background-size: 7px 7px;
 }
+
+/* Deck of Many Things: a drawn card turns over from its back, then its text is read out. */
+.deck-flip {
+  perspective: 1200px;
+}
+
+.deck-flip-inner {
+  position: relative;
+  transform-style: preserve-3d;
+  animation: deck-flip 950ms cubic-bezier(0.25, 0.8, 0.25, 1) both;
+  animation-delay: var(--deck-flip-delay, 0ms);
+}
+
+.deck-flip-face {
+  backface-visibility: hidden;
+}
+
+.deck-flip-back {
+  transform: rotateY(180deg);
+}
+
+@keyframes deck-flip {
+  from {
+    opacity: 0;
+    transform: translateY(-18%) rotateY(180deg) scale(0.8);
+  }
+  35% {
+    opacity: 1;
+    transform: translateY(0) rotateY(180deg) scale(1.04);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) rotateY(0deg) scale(1);
+  }
+}
+
+.deck-reading {
+  animation: deck-reading 500ms ease-out both;
+  animation-delay: calc(var(--deck-flip-delay, 0ms) + 750ms);
+}
+
+@keyframes deck-reading {
+  from {
+    opacity: 0;
+    transform: translateY(0.5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -155,6 +155,7 @@ const ENTITY_DETAIL_LABELS: Record<EntityKind, string> = {
   organization: 'Organization',
   item: 'Item',
   effect: 'Effect',
+  card: 'Card',
 }
 
 export function EntityDetailHeader({

@@ -18,4 +18,9 @@ export default createEvent({
   day: 24,
   location: refs.locations.borris_s_gambling_den,
   mark: { type: 'avatar', of: refs.pcs.jim },
+  draws: [
+    { by: refs.pcs.jim, card: refs.cards.the_cage },
+    { by: refs.pcs.jim, card: refs.cards.the_vessel },
+    { by: refs.pcs.jim, card: refs.cards.the_void_walker },
+  ],
 })

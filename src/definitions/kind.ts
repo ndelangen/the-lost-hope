@@ -11,6 +11,7 @@ export const ENTITY_KINDS = [
   'organization',
   'item',
   'effect',
+  'card',
 ] as const
 
 export type EntityKind = (typeof ENTITY_KINDS)[number]

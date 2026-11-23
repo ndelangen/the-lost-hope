@@ -18,6 +18,7 @@ const EMPTY = {
   organization: {},
   item: {},
   effect: {},
+  card: {},
 } satisfies Record<EntityKind, Record<string, object>>
 
 const ref = <K extends EntityKind>(kind: K, key: string) => ({ ref: kind, key })

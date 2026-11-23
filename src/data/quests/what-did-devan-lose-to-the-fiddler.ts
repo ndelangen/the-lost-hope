@@ -15,7 +15,7 @@ export default createQuest({
       '’s three-round game, ',
       refs.pcs.devan,
       ' gained ',
-      refs.effects.protection_against_death,
+      refs.effects.omen,
       ' but was left with ',
       refs.effects.something_missing_or_dormant,
       '.',

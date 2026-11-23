@@ -5,6 +5,7 @@ import { Avatar } from '#/components/ui/avatar'
 import { EntityReference as EntityReferenceLink } from '#/components/ui/entity-reference'
 import type { PreviewSide } from '#/components/ui/hover-preview'
 import { Inline } from '#/components/ui/layout'
+import { CARD_TONE_LABELS } from '#/definitions/card'
 import { DEFAULT_AVATAR } from '#/definitions/media'
 import {
   contentToText,
@@ -26,6 +27,7 @@ import {
   type EntityKind,
   type EventMarkVisual,
 } from '#/lib/campaign'
+import { CardSuitIcon } from '#/lib/card-icons'
 import { EffectIcon } from '#/lib/effect-icons'
 import { EFFECT_STATUS_LABELS } from '#/lib/effects'
 import { EventMarkIcon } from '#/lib/event-icons'
@@ -312,6 +314,28 @@ function referencePresentation(
           <ReferencePreviewHeader icon={icon} name={name}>
             <span className="text-muted-foreground">Effect{bearers ? ` on ${bearers}` : ''}</span>
             {status ? <span className="text-muted-foreground">{status}</span> : null}
+          </ReferencePreviewHeader>
+        ),
+      }
+    }
+    case 'card': {
+      const card = getEntity('card', slug)
+      const name = label ?? card?.data.name ?? slug
+      const icon = card ? <CardSuitIcon suit={card.data.suit} className="size-3.5" /> : null
+      return {
+        label: name,
+        icon,
+        preview: (
+          <ReferencePreviewHeader icon={icon} name={name}>
+            <span className="text-muted-foreground">
+              Card{card ? ` · ${CARD_TONE_LABELS[card.data.tone]}` : ''}
+            </span>
+            {card?.data.benefit ? (
+              <span className="text-muted-foreground">Benefit: {card.data.benefit}</span>
+            ) : null}
+            {card?.data.drawback ? (
+              <span className="text-muted-foreground">Drawback: {card.data.drawback}</span>
+            ) : null}
           </ReferencePreviewHeader>
         ),
       }

@@ -14,6 +14,7 @@ import type { Tokens } from '#/definitions/tokens'
 import { campaignSessions, resolveRef, sessionSlugForEvent } from '#/lib/campaign'
 import { collectReferences } from '#/lib/campaign-read-model'
 import { SOURCE_REGISTRIES } from '#/lib/campaign-registries'
+import { buildDeckCards } from '#/lib/deck'
 import { vesselHull } from '#/lib/ship-decks'
 import type { ShipAboard } from '#/lib/ship-rooms'
 
@@ -240,3 +241,10 @@ function collectSceneReferences(value: unknown, out: EntityRef<'scene'>[] = []) 
   for (const item of Object.values(value)) collectSceneReferences(item, out)
   return out
 }
+
+/** Every card of the Deck of Many Things, with its campaign draws, for the DM's draw tool. */
+export const deckCards = buildDeckCards(
+  SOURCE_REGISTRIES.card,
+  SOURCE_REGISTRIES.event,
+  SOURCE_REGISTRIES.effect,
+)

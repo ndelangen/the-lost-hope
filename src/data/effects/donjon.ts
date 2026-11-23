@@ -5,7 +5,7 @@ export default createEffect({
   name: 'Donjon',
   icon: 'gi/GiPrisoner',
   on: [refs.pcs.cassian_veyl],
-  cause: refs.items.deck_of_many_more_things,
+  cause: refs.cards.the_donjon,
   began: refs.events.n2_e105,
   ended: refs.events.n2_e112,
   rules: [

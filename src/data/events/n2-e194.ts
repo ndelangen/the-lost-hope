@@ -28,4 +28,9 @@ export default createEvent({
   day: 24,
   location: refs.locations.borris_s_gambling_den,
   mark: { type: 'icon', name: 'gi/GiPlantsAndAnimals' },
+  draws: [
+    { by: refs.npcs.sarogarth, card: refs.cards.the_seal },
+    { by: refs.npcs.sarogarth, card: refs.cards.the_blight },
+    { by: refs.npcs.sarogarth, card: refs.cards.the_guardian },
+  ],
 })

@@ -56,6 +56,7 @@ const collectionDescriptions = {
   organization: 'Understand groups and allegiances',
   item: 'Browse notable equipment and artifacts',
   effect: 'Check curses, boons, and bargains',
+  card: 'Read the Deck of Many Things',
 } as const
 
 function HomePage() {

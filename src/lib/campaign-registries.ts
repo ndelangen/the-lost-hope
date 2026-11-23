@@ -1,4 +1,5 @@
 import beastRecords from '#/data/beasts/_index'
+import cardRecords from '#/data/cards/_index'
 import effectRecords from '#/data/effects/_index'
 import eventRecords from '#/data/events/_index'
 import itemRecords from '#/data/items/_index'
@@ -34,6 +35,7 @@ export const SOURCE_REGISTRIES = {
   organization: organizationRecords,
   item: itemRecords,
   effect: effectRecords,
+  card: cardRecords,
 } as const satisfies Record<EntityKind, RegistryRecord>
 
 type SourceRegistries = typeof SOURCE_REGISTRIES
@@ -69,6 +71,7 @@ export const REGISTRIES = {
   organization: player('organization'),
   item: player('item'),
   effect: player('effect'),
+  card: player('card'),
 } as const satisfies Record<EntityKind, RegistryRecord>
 
 type Registries = typeof REGISTRIES
@@ -91,6 +94,7 @@ export type DataOf<K extends EntityKind> = EntityOf<K>['data']
 
 export const {
   beast: beasts,
+  card: cards,
   effect: effects,
   event: events,
   item: items,

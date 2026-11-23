@@ -5,7 +5,7 @@ export default createEffect({
   name: 'Vessel',
   icon: 'gi/GiBottledBolt',
   on: [refs.pcs.jim],
-  cause: refs.items.deck_of_many_more_things,
+  cause: refs.cards.the_vessel,
   began: refs.events.n2_e190,
   rules: [
     [

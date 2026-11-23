@@ -19,6 +19,7 @@ const EXPECTED_ENTITY_COLORS = {
   organization: 'teal',
   item: 'fuchsia',
   effect: 'indigo',
+  card: 'yellow',
 } as const satisfies Record<EntityKind, EntityKindColor>
 
 const COLOR_CLASS_PROPERTIES = [

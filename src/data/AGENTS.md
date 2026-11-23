@@ -108,6 +108,16 @@ canon.
 - When importing a played session, read `bun run dm:brief` first, link each new event to the plots
   it advanced, and update those plots' `notes`. The `$plan-campaign-entity` skill has the steps.
 
+## Cards
+
+- Each card of a card-drawing item (the Deck of Many Things) is a `card` record that names its
+  `deck` and owns its wording as read at the table. The Fiddler's deck holds the 55 cards of
+  Minva's full deck (minvarpg.com/tools/deck-of-many-things), Minva's wording included.
+- The event in which someone drew owns the draw: list it in the event's `draws` (`by`, `card`) in
+  the order drawn. Do not restate draws in card notes; the deck tool and card pages derive them.
+- An effect a card left behind names the card as its `cause`, and begins in the event that lists
+  the draw. When the DM ruled differently from the card, the effect's `rules` hold the ruling.
+
 ## Promises and foretellings
 
 - Something promised, foretold, or bound to happen later (a delivery, a vow, a prophecy, a lock that

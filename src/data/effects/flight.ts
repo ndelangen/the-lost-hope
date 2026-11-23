@@ -5,7 +5,7 @@ export default createEffect({
   name: 'Flight',
   icon: 'gi/GiFairyWings',
   on: [refs.npcs.sarogarth],
-  cause: refs.items.deck_of_many_more_things,
+  cause: refs.cards.the_wind,
   began: refs.events.n2_e189,
   duration: { years: 1 },
   rules: [[refs.npcs.sarogarth, ' has a flying speed equal to his walking speed.']],

@@ -17,6 +17,7 @@ export const DM_FIELDS = {
   organization: ['background'],
   item: ['status', 'background'],
   effect: ['background'],
+  card: ['background'],
 } as const satisfies Record<EntityKind, readonly string[]>
 
 export type DmField<K extends EntityKind> = (typeof DM_FIELDS)[K][number]

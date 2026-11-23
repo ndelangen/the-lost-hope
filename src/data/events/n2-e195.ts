@@ -17,4 +17,11 @@ export default createEvent({
   day: 24,
   location: refs.locations.borris_s_gambling_den,
   mark: { type: 'icon', name: 'gi/GiShadowFollower' },
+  draws: [
+    { by: refs.npcs.the_fiddler, card: refs.cards.the_fool },
+    { by: refs.npcs.the_fiddler, card: refs.cards.the_knight },
+    { by: refs.npcs.the_fiddler, card: refs.cards.the_library },
+    { by: refs.npcs.the_fiddler, card: refs.cards.the_key },
+    { by: refs.npcs.the_fiddler, card: refs.cards.the_skull },
+  ],
 })

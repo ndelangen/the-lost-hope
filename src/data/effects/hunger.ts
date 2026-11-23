@@ -5,7 +5,7 @@ export default createEffect({
   name: 'Hunger',
   icon: 'gi/GiPrettyFangs',
   on: [refs.pcs.cassian_veyl],
-  cause: refs.items.deck_of_many_more_things,
+  cause: refs.cards.the_hunger,
   began: refs.events.n2_e189,
   rules: [
     [

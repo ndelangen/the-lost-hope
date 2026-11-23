@@ -80,7 +80,12 @@ export const Effect = deriveSlug(
       )
       .describe('Everyone who carries the effect'),
     cause: z
-      .union([entityRefOf('item'), entityRefOf('npc'), entityRefOf('location')])
+      .union([
+        entityRefOf('item'),
+        entityRefOf('npc'),
+        entityRefOf('location'),
+        entityRefOf('card'),
+      ])
       .optional()
       .describe('The thing that caused it, when one is known'),
     began: entityRefOf('event').describe('The event in which the effect took hold'),

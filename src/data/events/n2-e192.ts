@@ -32,4 +32,8 @@ export default createEvent({
   day: 24,
   location: refs.locations.borris_s_gambling_den,
   mark: { type: 'avatar', of: refs.pcs.cassian_veyl },
+  draws: [
+    { by: refs.pcs.cassian_veyl, card: refs.cards.the_talons },
+    { by: refs.pcs.cassian_veyl, card: refs.cards.the_treasure },
+  ],
 })

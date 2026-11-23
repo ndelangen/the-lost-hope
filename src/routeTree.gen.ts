@@ -16,6 +16,7 @@ import { Route as DmRouteRouteImport } from './routes/dm/route'
 import { Route as IntroRouteImport } from './routes/intro'
 import { Route as QuestionsRouteImport } from './routes/questions'
 import { Route as BeastsIndexRouteImport } from './routes/beasts/index'
+import { Route as CardsIndexRouteImport } from './routes/cards/index'
 import { Route as DmIndexRouteImport } from './routes/dm/index'
 import { Route as EffectsIndexRouteImport } from './routes/effects/index'
 import { Route as EventsIndexRouteImport } from './routes/events/index'
@@ -31,6 +32,7 @@ import { Route as PcsIndexRouteImport } from './routes/pcs/index'
 import { Route as QuestsIndexRouteImport } from './routes/quests/index'
 import { Route as SessionsIndexRouteImport } from './routes/sessions/index'
 import { Route as BeastsDetailSlugRouteImport } from './routes/beasts/detail.$slug'
+import { Route as CardsDetailSlugRouteImport } from './routes/cards/detail.$slug'
 import { Route as DmArcsIndexRouteImport } from './routes/dm/arcs/index'
 import { Route as DmArcsSlugRouteImport } from './routes/dm/arcs/$slug'
 import { Route as DmEncounterIndexRouteImport } from './routes/dm/encounter/index'
@@ -39,6 +41,7 @@ import { Route as DmNpcsSlugRouteImport } from './routes/dm/npcs/$slug'
 import { Route as DmNpcsNewRouteImport } from './routes/dm/npcs/new'
 import { Route as DmScenesIndexRouteImport } from './routes/dm/scenes/index'
 import { Route as DmScenesSlugRouteImport } from './routes/dm/scenes/$slug'
+import { Route as DmToolsDeckOfManyThingsRouteImport } from './routes/dm/tools/deck-of-many-things'
 import { Route as EffectsDetailSlugRouteImport } from './routes/effects/detail.$slug'
 import { Route as EventsDetailSlugRouteImport } from './routes/events/detail.$slug'
 import { Route as EventsReplaySlugRouteImport } from './routes/events/replay.$slug'
@@ -84,6 +87,11 @@ const QuestionsRoute = QuestionsRouteImport.update({
 const BeastsIndexRoute = BeastsIndexRouteImport.update({
   id: '/beasts/',
   path: '/beasts/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CardsIndexRoute = CardsIndexRouteImport.update({
+  id: '/cards/',
+  path: '/cards/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const DmIndexRoute = DmIndexRouteImport.update({
@@ -161,6 +169,11 @@ const BeastsDetailSlugRoute = BeastsDetailSlugRouteImport.update({
   path: '/beasts/detail/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CardsDetailSlugRoute = CardsDetailSlugRouteImport.update({
+  id: '/cards/detail/$slug',
+  path: '/cards/detail/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const DmArcsIndexRoute = DmArcsIndexRouteImport.update({
   id: '/arcs/',
   path: '/arcs/',
@@ -199,6 +212,11 @@ const DmScenesIndexRoute = DmScenesIndexRouteImport.update({
 const DmScenesSlugRoute = DmScenesSlugRouteImport.update({
   id: '/scenes/$slug',
   path: '/scenes/$slug',
+  getParentRoute: () => DmRouteRoute,
+} as any)
+const DmToolsDeckOfManyThingsRoute = DmToolsDeckOfManyThingsRouteImport.update({
+  id: '/tools/deck-of-many-things',
+  path: '/tools/deck-of-many-things',
   getParentRoute: () => DmRouteRoute,
 } as any)
 const EffectsDetailSlugRoute = EffectsDetailSlugRouteImport.update({
@@ -269,6 +287,7 @@ export interface FileRoutesByFullPath {
   '/locations/list': typeof LocationsListRoute
   '/locations/map': typeof LocationsMapRoute
   '/beasts/': typeof BeastsIndexRoute
+  '/cards/': typeof CardsIndexRoute
   '/dm/': typeof DmIndexRoute
   '/effects/': typeof EffectsIndexRoute
   '/events/': typeof EventsIndexRoute
@@ -280,11 +299,13 @@ export interface FileRoutesByFullPath {
   '/quests/': typeof QuestsIndexRoute
   '/sessions/': typeof SessionsIndexRoute
   '/beasts/detail/$slug': typeof BeastsDetailSlugRoute
+  '/cards/detail/$slug': typeof CardsDetailSlugRoute
   '/dm/arcs/$slug': typeof DmArcsSlugRoute
   '/dm/items/$slug': typeof DmItemsSlugRoute
   '/dm/npcs/$slug': typeof DmNpcsSlugRoute
   '/dm/npcs/new': typeof DmNpcsNewRoute
   '/dm/scenes/$slug': typeof DmScenesSlugRoute
+  '/dm/tools/deck-of-many-things': typeof DmToolsDeckOfManyThingsRoute
   '/effects/detail/$slug': typeof EffectsDetailSlugRoute
   '/events/detail/$slug': typeof EventsDetailSlugRoute
   '/events/replay/$slug': typeof EventsReplaySlugRoute
@@ -311,6 +332,7 @@ export interface FileRoutesByTo {
   '/locations/list': typeof LocationsListRoute
   '/locations/map': typeof LocationsMapRoute
   '/beasts': typeof BeastsIndexRoute
+  '/cards': typeof CardsIndexRoute
   '/dm': typeof DmIndexRoute
   '/effects': typeof EffectsIndexRoute
   '/events': typeof EventsIndexRoute
@@ -322,11 +344,13 @@ export interface FileRoutesByTo {
   '/quests': typeof QuestsIndexRoute
   '/sessions': typeof SessionsIndexRoute
   '/beasts/detail/$slug': typeof BeastsDetailSlugRoute
+  '/cards/detail/$slug': typeof CardsDetailSlugRoute
   '/dm/arcs/$slug': typeof DmArcsSlugRoute
   '/dm/items/$slug': typeof DmItemsSlugRoute
   '/dm/npcs/$slug': typeof DmNpcsSlugRoute
   '/dm/npcs/new': typeof DmNpcsNewRoute
   '/dm/scenes/$slug': typeof DmScenesSlugRoute
+  '/dm/tools/deck-of-many-things': typeof DmToolsDeckOfManyThingsRoute
   '/effects/detail/$slug': typeof EffectsDetailSlugRoute
   '/events/detail/$slug': typeof EventsDetailSlugRoute
   '/events/replay/$slug': typeof EventsReplaySlugRoute
@@ -355,6 +379,7 @@ export interface FileRoutesById {
   '/locations/list': typeof LocationsListRoute
   '/locations/map': typeof LocationsMapRoute
   '/beasts/': typeof BeastsIndexRoute
+  '/cards/': typeof CardsIndexRoute
   '/dm/': typeof DmIndexRoute
   '/effects/': typeof EffectsIndexRoute
   '/events/': typeof EventsIndexRoute
@@ -366,11 +391,13 @@ export interface FileRoutesById {
   '/quests/': typeof QuestsIndexRoute
   '/sessions/': typeof SessionsIndexRoute
   '/beasts/detail/$slug': typeof BeastsDetailSlugRoute
+  '/cards/detail/$slug': typeof CardsDetailSlugRoute
   '/dm/arcs/$slug': typeof DmArcsSlugRoute
   '/dm/items/$slug': typeof DmItemsSlugRoute
   '/dm/npcs/$slug': typeof DmNpcsSlugRoute
   '/dm/npcs/new': typeof DmNpcsNewRoute
   '/dm/scenes/$slug': typeof DmScenesSlugRoute
+  '/dm/tools/deck-of-many-things': typeof DmToolsDeckOfManyThingsRoute
   '/effects/detail/$slug': typeof EffectsDetailSlugRoute
   '/events/detail/$slug': typeof EventsDetailSlugRoute
   '/events/replay/$slug': typeof EventsReplaySlugRoute
@@ -400,6 +427,7 @@ export interface FileRouteTypes {
     | '/locations/list'
     | '/locations/map'
     | '/beasts/'
+    | '/cards/'
     | '/dm/'
     | '/effects/'
     | '/events/'
@@ -411,11 +439,13 @@ export interface FileRouteTypes {
     | '/quests/'
     | '/sessions/'
     | '/beasts/detail/$slug'
+    | '/cards/detail/$slug'
     | '/dm/arcs/$slug'
     | '/dm/items/$slug'
     | '/dm/npcs/$slug'
     | '/dm/npcs/new'
     | '/dm/scenes/$slug'
+    | '/dm/tools/deck-of-many-things'
     | '/effects/detail/$slug'
     | '/events/detail/$slug'
     | '/events/replay/$slug'
@@ -442,6 +472,7 @@ export interface FileRouteTypes {
     | '/locations/list'
     | '/locations/map'
     | '/beasts'
+    | '/cards'
     | '/dm'
     | '/effects'
     | '/events'
@@ -453,11 +484,13 @@ export interface FileRouteTypes {
     | '/quests'
     | '/sessions'
     | '/beasts/detail/$slug'
+    | '/cards/detail/$slug'
     | '/dm/arcs/$slug'
     | '/dm/items/$slug'
     | '/dm/npcs/$slug'
     | '/dm/npcs/new'
     | '/dm/scenes/$slug'
+    | '/dm/tools/deck-of-many-things'
     | '/effects/detail/$slug'
     | '/events/detail/$slug'
     | '/events/replay/$slug'
@@ -485,6 +518,7 @@ export interface FileRouteTypes {
     | '/locations/list'
     | '/locations/map'
     | '/beasts/'
+    | '/cards/'
     | '/dm/'
     | '/effects/'
     | '/events/'
@@ -496,11 +530,13 @@ export interface FileRouteTypes {
     | '/quests/'
     | '/sessions/'
     | '/beasts/detail/$slug'
+    | '/cards/detail/$slug'
     | '/dm/arcs/$slug'
     | '/dm/items/$slug'
     | '/dm/npcs/$slug'
     | '/dm/npcs/new'
     | '/dm/scenes/$slug'
+    | '/dm/tools/deck-of-many-things'
     | '/effects/detail/$slug'
     | '/events/detail/$slug'
     | '/events/replay/$slug'
@@ -529,6 +565,7 @@ export interface RootRouteChildren {
   LocationsListRoute: typeof LocationsListRoute
   LocationsMapRoute: typeof LocationsMapRoute
   BeastsIndexRoute: typeof BeastsIndexRoute
+  CardsIndexRoute: typeof CardsIndexRoute
   EffectsIndexRoute: typeof EffectsIndexRoute
   EventsIndexRoute: typeof EventsIndexRoute
   ItemsIndexRoute: typeof ItemsIndexRoute
@@ -539,6 +576,7 @@ export interface RootRouteChildren {
   QuestsIndexRoute: typeof QuestsIndexRoute
   SessionsIndexRoute: typeof SessionsIndexRoute
   BeastsDetailSlugRoute: typeof BeastsDetailSlugRoute
+  CardsDetailSlugRoute: typeof CardsDetailSlugRoute
   EffectsDetailSlugRoute: typeof EffectsDetailSlugRoute
   EventsDetailSlugRoute: typeof EventsDetailSlugRoute
   EventsReplaySlugRoute: typeof EventsReplaySlugRoute
@@ -601,6 +639,13 @@ declare module '@tanstack/react-router' {
       path: '/beasts'
       fullPath: '/beasts/'
       preLoaderRoute: typeof BeastsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/cards/': {
+      id: '/cards/'
+      path: '/cards'
+      fullPath: '/cards/'
+      preLoaderRoute: typeof CardsIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/dm/': {
@@ -708,6 +753,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BeastsDetailSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/cards/detail/$slug': {
+      id: '/cards/detail/$slug'
+      path: '/cards/detail/$slug'
+      fullPath: '/cards/detail/$slug'
+      preLoaderRoute: typeof CardsDetailSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/dm/arcs/': {
       id: '/dm/arcs/'
       path: '/arcs'
@@ -762,6 +814,13 @@ declare module '@tanstack/react-router' {
       path: '/scenes/$slug'
       fullPath: '/dm/scenes/$slug'
       preLoaderRoute: typeof DmScenesSlugRouteImport
+      parentRoute: typeof DmRouteRoute
+    }
+    '/dm/tools/deck-of-many-things': {
+      id: '/dm/tools/deck-of-many-things'
+      path: '/tools/deck-of-many-things'
+      fullPath: '/dm/tools/deck-of-many-things'
+      preLoaderRoute: typeof DmToolsDeckOfManyThingsRouteImport
       parentRoute: typeof DmRouteRoute
     }
     '/effects/detail/$slug': {
@@ -851,6 +910,7 @@ interface DmRouteRouteChildren {
   DmNpcsSlugRoute: typeof DmNpcsSlugRoute
   DmNpcsNewRoute: typeof DmNpcsNewRoute
   DmScenesSlugRoute: typeof DmScenesSlugRoute
+  DmToolsDeckOfManyThingsRoute: typeof DmToolsDeckOfManyThingsRoute
   DmArcsIndexRoute: typeof DmArcsIndexRoute
   DmEncounterIndexRoute: typeof DmEncounterIndexRoute
   DmScenesIndexRoute: typeof DmScenesIndexRoute
@@ -863,6 +923,7 @@ const DmRouteRouteChildren: DmRouteRouteChildren = {
   DmNpcsSlugRoute: DmNpcsSlugRoute,
   DmNpcsNewRoute: DmNpcsNewRoute,
   DmScenesSlugRoute: DmScenesSlugRoute,
+  DmToolsDeckOfManyThingsRoute: DmToolsDeckOfManyThingsRoute,
   DmArcsIndexRoute: DmArcsIndexRoute,
   DmEncounterIndexRoute: DmEncounterIndexRoute,
   DmScenesIndexRoute: DmScenesIndexRoute,
@@ -883,6 +944,7 @@ const rootRouteChildren: RootRouteChildren = {
   LocationsListRoute: LocationsListRoute,
   LocationsMapRoute: LocationsMapRoute,
   BeastsIndexRoute: BeastsIndexRoute,
+  CardsIndexRoute: CardsIndexRoute,
   EffectsIndexRoute: EffectsIndexRoute,
   EventsIndexRoute: EventsIndexRoute,
   ItemsIndexRoute: ItemsIndexRoute,
@@ -893,6 +955,7 @@ const rootRouteChildren: RootRouteChildren = {
   QuestsIndexRoute: QuestsIndexRoute,
   SessionsIndexRoute: SessionsIndexRoute,
   BeastsDetailSlugRoute: BeastsDetailSlugRoute,
+  CardsDetailSlugRoute: CardsDetailSlugRoute,
   EffectsDetailSlugRoute: EffectsDetailSlugRoute,
   EventsDetailSlugRoute: EventsDetailSlugRoute,
   EventsReplaySlugRoute: EventsReplaySlugRoute,

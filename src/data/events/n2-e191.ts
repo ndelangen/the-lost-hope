@@ -14,4 +14,5 @@ export default createEvent({
   day: 24,
   location: refs.locations.borris_s_gambling_den,
   mark: { type: 'avatar', of: refs.pcs.swift_starblade },
+  draws: [{ by: refs.pcs.swift_starblade, card: refs.cards.the_mask }],
 })

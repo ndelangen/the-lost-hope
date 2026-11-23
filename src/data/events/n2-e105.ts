@@ -40,7 +40,7 @@ export default createEvent({
     [
       refs.pcs.devan,
       ' drew Prisoner and was temporarily bound by ghostly chains. He also gained ',
-      refs.effects.protection_against_death,
+      refs.effects.omen,
       ' and felt ',
       refs.effects.something_missing_or_dormant,
       ' in himself.',
@@ -128,5 +128,17 @@ export default createEvent({
         ],
       ],
     },
+  ],
+  draws: [
+    { by: refs.pcs.cassian_veyl, card: refs.cards.the_fool },
+    { by: refs.pcs.cassian_veyl, card: refs.cards.the_bargain },
+    { by: refs.pcs.cassian_veyl, card: refs.cards.the_library },
+    { by: refs.pcs.cassian_veyl, card: refs.cards.the_donjon },
+    { by: refs.pcs.devan, card: refs.cards.the_shackles },
+    { by: refs.pcs.devan, card: refs.cards.the_omen },
+    { by: refs.pcs.jim, card: refs.cards.the_pain },
+    { by: refs.pcs.jim, card: refs.cards.the_storm },
+    { by: refs.pcs.swift_starblade, card: refs.cards.the_talons },
+    { by: refs.pcs.swift_starblade, card: refs.cards.the_rogue },
   ],
 })

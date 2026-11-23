@@ -8,7 +8,7 @@ import flight from './flight.ts'
 import guardian from './guardian.ts'
 import hunger from './hunger.ts'
 import mask from './mask.ts'
-import protection_against_death from './protection-against-death.ts'
+import omen from './omen.ts'
 import rogue from './rogue.ts'
 import sealed_attunement_slot from './sealed-attunement-slot.ts'
 import severed_bond_with_jim from './severed-bond-with-jim.ts'
@@ -32,7 +32,7 @@ export default {
   guardian,
   hunger,
   mask,
-  protection_against_death,
+  omen,
   rogue,
   sealed_attunement_slot,
   something_missing_or_dormant,

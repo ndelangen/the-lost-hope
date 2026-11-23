@@ -69,6 +69,14 @@ export const EventVisualization = z.discriminatedUnion('kind', [
 
 export type EventVisualization = z.infer<typeof EventVisualization>
 
+/** A card someone drew from a card-drawing item such as the Deck of Many Things. */
+export const CardDraw = z.strictObject({
+  by: z.union([entityRefOf('pc'), entityRefOf('npc')]).describe('Who drew the card'),
+  card: entityRefOf('card'),
+})
+
+export type CardDraw = z.infer<typeof CardDraw>
+
 export const EventSchema = deriveSlug(
   z.strictObject({
     name: z.string(),
@@ -89,6 +97,11 @@ export const EventSchema = deriveSlug(
       .array(EventVisualization)
       .default([])
       .describe('Animated replays of this event, such as a fleet battle on the radar'),
+    draws: z
+      .array(CardDraw)
+      .min(1)
+      .optional()
+      .describe('Cards drawn in this event, in the order they were drawn'),
     foretold: z
       .array(Foretold)
       .min(1)
