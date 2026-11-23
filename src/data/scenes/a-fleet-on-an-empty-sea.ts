@@ -17,7 +17,16 @@ export default createScene({
     [
       'Its real job is to get the players telling their characters’ stories, backgrounds included: the people pay for every story they hear.',
     ],
-    ['A rough draft: what brings the party here, and when, is still open.'],
+    [
+      'It comes right after ',
+      refs.scenes.crowy_brings_up_onana_s_letter,
+      ', on the flight off the sky islands: dusk, bearings lost, and ',
+      refs.items.little_purple,
+      ' drifts out over open sea.',
+    ],
+    [
+      'Play it as a short visit, about one session: the welcome, the feast, the stories and the catch. The party leaves with the puzzle of the laws unsolved and a reason to come back.',
+    ],
   ],
   beats: [
     {
@@ -106,7 +115,7 @@ export default createScene({
               'The people have no contact with the outside and know nothing of it. They cannot get enough of stories about anything at all, and they pay in valuables for every one, including the characters’ own backgrounds.',
             ],
             [
-              'This is the point of the scene: invite each player to tell where their character comes from, and pay them for it. What the party tells them is all the people will ever have of the outside.',
+              'This is the point of the scene: invite each player to tell where their character comes from, and pay them for it. A character who tells their background gains a level. What the party tells them is all the people will ever have of the outside.',
             ],
           ],
         },
