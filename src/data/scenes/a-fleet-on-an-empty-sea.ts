@@ -18,11 +18,11 @@ export default createScene({
       'Its real job is to get the players telling their characters’ stories, backgrounds included: the people pay for every story they hear.',
     ],
     [
-      'It comes right after ',
-      refs.scenes.crowy_brings_up_onana_s_letter,
-      ', on the flight off the sky islands: dusk, bearings lost, and ',
+      'This is what happens next once the party leaves the sky islands, however they leave. Usually that is aboard ',
       refs.items.little_purple,
-      ' drifts out over open sea.',
+      ' right after ',
+      refs.scenes.crowy_brings_up_onana_s_letter,
+      ': dusk, bearings lost, and the ship drifts out over open sea. If they leave some other way, they still end up flying over this ocean.',
     ],
     [
       'Play it as a short visit, about one session: the welcome, the feast, the stories and the catch. The party leaves with the puzzle of the laws unsolved and a reason to come back.',
@@ -60,7 +60,7 @@ export default createScene({
             [
               'The magical crystal of ',
               refs.items.little_purple,
-              ' overheats. They have to set down on the water to let it cool, right beside the fleet.',
+              ' overheats, or whatever drives the ship they are on breaks down. They have to set down on the water to let it cool, right beside the fleet.',
             ],
           ],
         },
