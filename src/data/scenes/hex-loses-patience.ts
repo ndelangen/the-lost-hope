@@ -92,8 +92,8 @@ export default createScene({
               'From this guildhall the way to ask is the booth, and it is not connected yet: perhaps in a few days.',
             ],
             [
-              'Let the party find creative ways to speed this up, such as a dungeon crawl among the rubble of ',
-              refs.locations.the_old_battlefield,
+              'Let the party find creative ways to speed this up. The crawl among the rubble is ',
+              refs.scenes.down_through_the_rubble,
               '. Once the booth works, play “At the booth”.',
             ],
           ],

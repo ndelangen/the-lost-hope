@@ -79,6 +79,21 @@ export default createArc({
       scene: refs.scenes.hex_loses_patience,
     },
     {
+      name: 'A booth that does not answer',
+      hook: [
+        [
+          'The booth of the ',
+          refs.locations.rustmoor_guildhall,
+          ' has no connection to ',
+          refs.locations.fajanet,
+          ' yet. How far down into ',
+          refs.locations.the_old_battlefield,
+          ' does the party go to speed it up?',
+        ],
+      ],
+      scene: refs.scenes.down_through_the_rubble,
+    },
+    {
       name: 'The first part of the test',
       hook: [
         [

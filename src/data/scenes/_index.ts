@@ -2,6 +2,7 @@ import boarded_by_the_battle_cruiser from './boarded-by-the-battle-cruiser.ts'
 import boarding_ride_the_lightning from './boarding-ride-the-lightning.ts'
 import borris_shutters_the_casino from './borris-shutters-the-casino.ts'
 import chaos_on_the_sky_islands from './chaos-on-the-sky-islands.ts'
+import down_through_the_rubble from './down-through-the-rubble.ts'
 import fix_s_last_delivery from './fix-s-last-delivery.ts'
 import garran_comes_for_the_cruiser from './garran-comes-for-the-cruiser.ts'
 import hex_loses_patience from './hex-loses-patience.ts'
@@ -38,6 +39,7 @@ export default {
   taking_back_a_battle_cruiser,
   garran_comes_for_the_cruiser,
   onana_sends_the_party_on,
+  down_through_the_rubble,
   fix_s_last_delivery,
   light_walks_auren_through_fajanet,
   the_bard_s_new_song,

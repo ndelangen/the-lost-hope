@@ -12,6 +12,7 @@ import bob_the_merchant from './bob-the-merchant.ts'
 import borris from './borris.ts'
 import brend_tempest from './brend-tempest.ts'
 import brodus from './brodus.ts'
+import buried_war_machine from './buried-war-machine.ts'
 import captain_blackthorn from './captain-blackthorn.ts'
 import captain_garran from './captain-garran.ts'
 import celeste_s_mother from './celeste-s-mother.ts'
@@ -56,6 +57,7 @@ import rare_animal_dealer from './rare-animal-dealer.ts'
 import rhys_s_parents from './rhys-s-parents.ts'
 import roberto from './roberto.ts'
 import rudolf_tempest from './rudolf-tempest.ts'
+import rustmoor_scavenger from './rustmoor-scavenger.ts'
 import ryan from './ryan.ts'
 import samantha from './samantha.ts'
 import sarogarth from './sarogarth.ts'
@@ -102,6 +104,8 @@ export default {
   korrag_stonevow,
   durgan_ashfang,
   dust_lost_sailor,
+  rustmoor_scavenger,
+  buried_war_machine,
   celeste_tempest,
   brend_tempest,
   selene_tempest,

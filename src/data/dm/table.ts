@@ -24,6 +24,7 @@ export default createTable({
   ],
   ready: [
     refs.scenes.hex_loses_patience,
+    refs.scenes.down_through_the_rubble,
     refs.scenes.light_walks_auren_through_fajanet,
     refs.scenes.fix_s_last_delivery,
     refs.scenes.questions_for_light,

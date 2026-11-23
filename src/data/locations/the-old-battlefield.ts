@@ -9,10 +9,17 @@ export default createLocation({
   at: [1085, 610],
   notes: [
     [
-      'A giant old battlefield, strewn with giant machines, mines and crashed flying ships. ',
+      'A giant old battlefield, strewn with giant machines, mines and crashed flying ships, in layers on top of layers of destruction. ',
       refs.locations.rustmoor,
       ' stands at its edge.',
     ],
   ],
-  background: [['Which war was fought here is not settled. Its map position is a guess.']],
+  background: [
+    [
+      'More than one war was fought here: the war of the marshals against the elves, and the fighting between the marshals themselves.',
+    ],
+    [
+      'Open: whether the war of the marshals against the elves is the Second Great War of the dwarves and the elves. Its map position is a guess.',
+    ],
+  ],
 })
