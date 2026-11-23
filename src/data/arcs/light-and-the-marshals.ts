@@ -112,7 +112,14 @@ export default createArc({
           ' start a war between it and another marshal first?',
         ],
       ],
-      notes: [['One option for Light, not settled.']],
+      notes: [
+        ['One option for Light, not settled.'],
+        [
+          'Another way: the party finds a way for the people of ',
+          refs.locations.the_caves_of_steel,
+          ' to leave without breaking the three laws. Every one who leaves is a soldier the Marshal loses.',
+        ],
+      ],
     },
   ],
 })

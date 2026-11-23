@@ -46,6 +46,15 @@ export default createArc({
     {
       name: 'Loopholes in the laws',
       hook: [['The laws are exact words. Can the party get someone out without breaking them?']],
+      notes: [
+        [
+          'Emptying the Caves this way also weakens ',
+          refs.npcs.the_11th_marshal,
+          ' before ',
+          refs.npcs.light_13th_marshal,
+          ' puts down the pen.',
+        ],
+      ],
     },
     {
       name: 'The Marshal’s table',
