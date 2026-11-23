@@ -1,4 +1,4 @@
-import type { Ability, AbilityTextToken, Attack, Save, StatBlock } from '#/definitions/stat-block'
+import type { Ability, AbilityTextToken, Attack, Save } from '#/definitions/stat-block'
 
 import { ruleOf, ruleRef, rules, type RuleKey } from './rules'
 import {
@@ -7,7 +7,9 @@ import {
   deriveSaveDamage,
   modifier,
   plainStatParts,
-  proficiencyBonus,
+  allAbilities,
+  proficiencyOf,
+  type AnyStatBlock,
   signed,
   type StatPart,
 } from './stat-block'
@@ -43,7 +45,7 @@ const term = (key: RuleKey, label: string): StepPart => ({
   label,
 })
 
-function timingStep(source: AbilitySource, stats: StatBlock): DmStep {
+function timingStep(source: AbilitySource, stats: AnyStatBlock): DmStep {
   switch (source) {
     case 'action':
       return { who: 'dm', parts: [text('Uses its action on its turn.')] }
@@ -68,7 +70,7 @@ function timingStep(source: AbilitySource, stats: StatBlock): DmStep {
         who: 'dm',
         parts: [
           text('At the end of another creature’s turn, spend 1 of its '),
-          value(String(stats.legendary?.uses ?? 1)),
+          value(String(('cr' in stats ? stats.legendary?.uses : undefined) ?? 1)),
           text(' '),
           term('legendary_action', 'legendary actions'),
           text('. They refill at the start of its own turn.'),
@@ -88,7 +90,7 @@ function timingStep(source: AbilitySource, stats: StatBlock): DmStep {
   }
 }
 
-function attackSteps(attack: Attack, stats: StatBlock): DmStep[] {
+function attackSteps(attack: Attack, stats: AnyStatBlock): DmStep[] {
   const derived = deriveAttack(attack, stats)
   const target: DmStep =
     attack.kind === 'melee'
@@ -230,8 +232,8 @@ function targetStep(save: Save): DmStep {
   return { who: 'dm', ...targetParts(save) }
 }
 
-function saveSteps(save: Save, stats: StatBlock): DmStep[] {
-  const dc = 8 + proficiencyBonus(stats.cr) + modifier(stats.scores[save.dc])
+function saveSteps(save: Save, stats: AnyStatBlock): DmStep[] {
+  const dc = 8 + proficiencyOf(stats) + modifier(stats.scores[save.dc])
   const ability = rules[save.ability].name
   const who =
     'creatures' in save.target && save.target.creatures === 1
@@ -368,9 +370,13 @@ function usesStep(ability: Ability): DmStep | undefined {
 }
 
 /** Plain steps for one ability of a stat block. */
-export function abilitySteps(ability: Ability, stats: StatBlock, source: AbilitySource): DmStep[] {
+export function abilitySteps(
+  ability: Ability,
+  stats: AnyStatBlock,
+  source: AbilitySource,
+): DmStep[] {
   const attackKeys = new Set(
-    [...stats.abilities, ...(stats.legendary?.actions ?? [])]
+    [...stats.abilities, ...('cr' in stats ? (stats.legendary?.actions ?? []) : [])]
       .filter((candidate) => candidate.attack)
       .map((candidate) => candidate.key),
   )
@@ -402,11 +408,15 @@ function tidy(step: DmStep): DmStep {
 }
 
 /** Every ability's source, so steps know when each one can be used. */
-export function abilitySources(stats: StatBlock): ReadonlyMap<string, AbilitySource> {
+export function abilitySources(stats: AnyStatBlock): ReadonlyMap<string, AbilitySource> {
   return new Map<string, AbilitySource>([
     ...stats.abilities.map((ability) => [ability.key, ability.timing] as const),
-    ...(stats.legendary?.actions ?? []).map((ability) => [ability.key, 'legendary'] as const),
-    ...(stats.lairActions ?? []).map((ability) => [ability.key, 'lair'] as const),
+    ...('cr' in stats ? (stats.legendary?.actions ?? []) : []).map(
+      (ability) => [ability.key, 'legendary'] as const,
+    ),
+    ...('cr' in stats ? (stats.lairActions ?? []) : []).map(
+      (ability) => [ability.key, 'lair'] as const,
+    ),
   ])
 }
 
@@ -434,14 +444,12 @@ export function plainSteps(steps: readonly DmStep[]) {
 }
 
 /** Steps for every ability in a stat block, keyed by ability key. */
-export function stepsByAbility(stats: StatBlock): Readonly<Record<string, readonly DmStep[]>> {
+export function stepsByAbility(stats: AnyStatBlock): Readonly<Record<string, readonly DmStep[]>> {
   const sources = abilitySources(stats)
   return Object.fromEntries(
-    [...stats.abilities, ...(stats.legendary?.actions ?? []), ...(stats.lairActions ?? [])].map(
-      (ability) => [
-        ability.key,
-        abilitySteps(ability, stats, sources.get(ability.key) ?? 'action'),
-      ],
-    ),
+    allAbilities(stats).map((ability) => [
+      ability.key,
+      abilitySteps(ability, stats, sources.get(ability.key) ?? 'action'),
+    ]),
   )
 }

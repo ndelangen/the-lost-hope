@@ -2,6 +2,7 @@ import {
   type Ability,
   type Attack,
   type ChallengeRating,
+  type PcStatBlock,
   type Save,
   type StatBlock,
 } from '#/definitions/stat-block'
@@ -44,6 +45,24 @@ function crValue(cr: ChallengeRating) {
 /** Proficiency bonus by challenge rating (SRD 5.2.1). */
 export function proficiencyBonus(cr: ChallengeRating) {
   return Math.max(2, Math.ceil(crValue(cr) / 4) + 1)
+}
+
+/**
+ * A PC's stat block with the character level that sets its proficiency bonus. PCs have no
+ * legendary or lair actions; the `never` fields let code read those of any stat block.
+ */
+export type PlayablePcStats = PcStatBlock & {
+  level: number
+  legendary?: never
+  lairActions?: never
+}
+
+/** A creature's stat block or a PC's: everything the encounter can run. */
+export type AnyStatBlock = StatBlock | PlayablePcStats
+
+/** Proficiency bonus from a creature's challenge rating or a PC's level. */
+export function proficiencyOf(stats: AnyStatBlock) {
+  return 'cr' in stats ? proficiencyBonus(stats.cr) : Math.ceil(stats.level / 4) + 1
 }
 
 const XP: Record<string, number> = {
@@ -106,7 +125,8 @@ function rollText(notation: string, bonus: number) {
 }
 
 /** Every ability in the block, including legendary and lair actions. */
-export function allAbilities(stats: StatBlock): readonly Ability[] {
+export function allAbilities(stats: AnyStatBlock): readonly Ability[] {
+  if (!('cr' in stats)) return stats.abilities
   return [...stats.abilities, ...(stats.legendary?.actions ?? []), ...(stats.lairActions ?? [])]
 }
 
@@ -137,10 +157,10 @@ function flatBonus(bonus: number) {
   return bonus === 0 ? '' : ` ${bonus > 0 ? '+' : '−'} ${Math.abs(bonus)}`
 }
 
-export function deriveAttack(attack: Attack, stats: StatBlock): DerivedAttack {
+export function deriveAttack(attack: Attack, stats: AnyStatBlock): DerivedAttack {
   const mod = modifier(stats.scores[attack.ability])
   return {
-    bonus: mod + proficiencyBonus(stats.cr),
+    bonus: mod + proficiencyOf(stats),
     damage: attack.damage.map((roll) => {
       const extra = roll.addModifier ? mod : 0
       return {
@@ -168,7 +188,7 @@ const SHORT = {
 } as const
 
 /** Damage a failed save deals, with averages; `addModifier` uses the DC's ability. */
-export function deriveSaveDamage(save: Save, stats: StatBlock): DerivedDamage[] {
+export function deriveSaveDamage(save: Save, stats: AnyStatBlock): DerivedDamage[] {
   const mod = modifier(stats.scores[save.dc])
   return (save.onFail.damage ?? []).map((roll) => {
     const extra = roll.addModifier ? mod : 0
@@ -182,7 +202,7 @@ export function deriveSaveDamage(save: Save, stats: StatBlock): DerivedDamage[] 
 }
 
 /** "+5, 8 (1d10 + 3) piercing" for attacks, or "DC 21 Dex save, 60 (11d10) fire" for saves. */
-export function abilitySummary(ability: Ability, stats: StatBlock): StatPart[] | undefined {
+export function abilitySummary(ability: Ability, stats: AnyStatBlock): StatPart[] | undefined {
   if (ability.attack) {
     const derived = deriveAttack(ability.attack, stats)
     return [
@@ -227,8 +247,8 @@ export function plainStatParts(parts: readonly StatPart[]) {
     .join('')
 }
 
-function saveDc(stats: StatBlock, ability: AbilityId) {
-  return 8 + proficiencyBonus(stats.cr) + modifier(stats.scores[ability])
+function saveDc(stats: AnyStatBlock, ability: AbilityId) {
+  return 8 + proficiencyOf(stats) + modifier(stats.scores[ability])
 }
 
 /** "50 ft., climb 30 ft." */
@@ -263,12 +283,11 @@ export type DerivedStats = DerivedStatBlock & {
 }
 
 /** The numbers a stat block implies: HP, bonuses, DCs, and what ability text refers to. */
-export function deriveStatBlock(stats: StatBlock): DerivedStats {
-  const pb = proficiencyBonus(stats.cr)
+export function deriveStatBlock(stats: AnyStatBlock): DerivedStats {
+  const pb = proficiencyOf(stats)
   const modifiers = Object.fromEntries(
     ABILITY_KEYS.map((id) => [id, modifier(stats.scores[id])]),
   ) as Record<AbilityId, number>
-  const { count } = dice(stats.hitDice)
   const skills = SKILL_KEYS.filter((skill) => stats.skills?.[skill]).map((skill) => ({
     skill,
     label: rules[skill].name,
@@ -294,11 +313,17 @@ export function deriveStatBlock(stats: StatBlock): DerivedStats {
     >,
     modifier: modifiers,
     proficiencyBonus: pb,
-    maxHp: average(stats.hitDice, count * modifiers.con),
-    hitPoints: rollText(stats.hitDice, count * modifiers.con),
+    maxHp:
+      'cr' in stats
+        ? average(stats.hitDice, dice(stats.hitDice).count * modifiers.con)
+        : stats.maxHp,
+    hitPoints:
+      'cr' in stats
+        ? rollText(stats.hitDice, dice(stats.hitDice).count * modifiers.con)
+        : String(stats.maxHp),
     ac: stats.ac,
     initiative: modifiers.dex,
-    experience: experience(stats.cr),
+    experience: 'cr' in stats ? experience(stats.cr) : 0,
     saves: Object.fromEntries(
       ABILITY_KEYS.map((id) => [id, modifiers[id] + pb * proficiencyMultiplier(stats.saves?.[id])]),
     ) as Record<AbilityId, number>,

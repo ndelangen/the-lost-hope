@@ -119,9 +119,9 @@ describe('player campaign', () => {
   })
 })
 
-describe('PC combat numbers', () => {
+describe('PC stat blocks', () => {
   it('stay out of the player view', () => {
-    const pc = { name: 'Devan', combat: { ac: 16, passivePerception: 13 } }
+    const pc = { name: 'Devan', stats: { ac: 21, maxHp: 60 } }
     expect(stripDmFields('pc', pc)).toEqual({ name: 'Devan' })
   })
 })

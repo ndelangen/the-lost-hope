@@ -1,15 +1,14 @@
 import type { DmContent } from '#/definitions/content'
 import type { EntityRef } from '#/definitions/kind'
 import { DEFAULT_AVATAR } from '#/definitions/media'
-import type { PcCombat } from '#/definitions/pc'
 import type { FightPlace, Scene, SceneBeatFight, SceneOpponent } from '#/definitions/scene'
-import type { OwnOrSharedStatBlock, StatBlock } from '#/definitions/stat-block'
+import type { OwnOrSharedStatBlock, PcStatBlock } from '#/definitions/stat-block'
 import { effectsOn, type EntityOf } from '#/lib/campaign'
 import { PLAYER_VISIBLE_KEYS, SOURCE_REGISTRIES } from '#/lib/campaign-registries'
 import { resolveScene, resolveStatBlock, table } from '#/lib/dm-campaign'
 import { partyBudget, xpForCr, type DifficultyBudget } from '#/lib/encounter-difficulty'
 import type { TurnOrderInput } from '#/lib/player-turn-order'
-import { deriveStatBlock, type DerivedStats } from '#/lib/stat-block'
+import { deriveStatBlock, type AnyStatBlock, type DerivedStats } from '#/lib/stat-block'
 
 import { stepsByAbility } from './ability-steps'
 import {
@@ -46,7 +45,7 @@ function pcRecord(source: EntityRef<'pc'>) {
               avatar: string
               url: string
               level?: number
-              combat?: PcCombat
+              stats?: PcStatBlock
             }
           >
         >
@@ -60,13 +59,11 @@ export type CombatantView = {
   kind: 'NPC' | 'Beast' | 'PC' | 'Player'
   /** Portrait, when the campaign record has a real one. */
   avatar?: string
-  stats?: StatBlock
+  stats?: AnyStatBlock
   /** Numbers derived from the stat block, which ability text refers to. */
   derived?: DerivedStats
-  /** Starting HP and AC: from the stat block, or the numbers a PC's player shared. */
+  /** Starting HP and AC, from the stat block. */
   start?: StartingStats
-  /** A PC's quick facts for the party strip. */
-  party?: PcCombat
   /** A PC's online character sheet, for anything the quick facts don't cover. */
   sheetUrl?: string
   /** Campaign effects active on this PC, NPC, or beast, read-only in the fight. */
@@ -76,7 +73,7 @@ export type CombatantView = {
 }
 
 /** A stat block's derived numbers plus the step-by-step rolls for each ability, as the DM plays it. */
-export function playableStats(stats: StatBlock): DerivedStats {
+export function playableStats(stats: AnyStatBlock): DerivedStats {
   return { ...deriveStatBlock(stats), steps: stepsByAbility(stats) }
 }
 
@@ -86,13 +83,18 @@ export function combatantView(entry: RosterEntry, roster: readonly RosterEntry[]
     return { id: entry.id, name: entry.label, kind: 'Player', tracked: false, effects: [] }
   if (entry.kind === 'pc') {
     const record = pcRecord(entry.source)
+    // A PC's stat block needs the character level for its proficiency bonus.
+    const stats =
+      record?.stats && record.level ? { ...record.stats, level: record.level } : undefined
+    const derived = stats ? playableStats(stats) : undefined
     return {
       id: entry.id,
       name: record?.name ?? entry.source.key,
       kind: 'PC',
       avatar: realAvatar(record?.avatar),
-      start: { maxHp: record?.combat?.maxHp, ac: record?.combat?.ac },
-      party: record?.combat ?? {},
+      stats,
+      derived,
+      start: derived ? { maxHp: derived.maxHp, ac: derived.ac } : undefined,
       sheetUrl: record?.url || undefined,
       effects: record ? activeEffects('pc', record.slug) : [],
       tracked: true,

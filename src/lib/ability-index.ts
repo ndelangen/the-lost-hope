@@ -1,11 +1,6 @@
-import {
-  ABILITY_TIMINGS,
-  type Ability,
-  type AbilityTiming,
-  type StatBlock,
-} from '#/definitions/stat-block'
+import { ABILITY_TIMINGS, type Ability, type AbilityTiming } from '#/definitions/stat-block'
 
-import { abilityKind, type AbilityKind } from './stat-block'
+import { abilityKind, type AbilityKind, type AnyStatBlock } from './stat-block'
 
 /** Where an ability sits in a stat block: its timing, or the legendary or lair pool. */
 export type AbilityGroupKey = AbilityTiming | 'legendary' | 'lair'
@@ -31,7 +26,7 @@ export type AbilityGroup = {
 const ORDER = ['trait', ...ABILITY_TIMINGS.filter((timing) => timing !== 'trait')] as const
 
 /** A stat block's abilities in reading order, without the empty groups. */
-export function abilityGroups(stats: StatBlock): AbilityGroup[] {
+export function abilityGroups(stats: AnyStatBlock): AbilityGroup[] {
   const groups: AbilityGroup[] = ORDER.map((timing) => ({
     key: timing,
     label: ABILITY_GROUP_LABEL[timing],
@@ -80,7 +75,7 @@ export function abilityAnchor(key: string) {
 }
 
 /** Every ability and spell of a stat block as a short list to find one in, in reading order. */
-export function abilityIndex(stats: StatBlock): AbilityIndexGroup[] {
+export function abilityIndex(stats: AnyStatBlock): AbilityIndexGroup[] {
   return abilityGroups(stats).map(({ key, label, abilities }) => ({
     key,
     label,

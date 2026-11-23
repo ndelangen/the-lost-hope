@@ -3,7 +3,6 @@ import { useId, useRef, useState, type ReactNode } from 'react'
 
 import { RuleTerm } from '#/components/rule-term'
 import { HoverPreview } from '#/components/ui/hover-preview'
-import type { StatBlock } from '#/definitions/stat-block'
 import {
   abilityTextSegments,
   plainAbilityText,
@@ -12,6 +11,7 @@ import {
   type DerivedStatBlock,
 } from '#/lib/dm-ability-text'
 import { abilityKey, type UseCount } from '#/lib/encounter'
+import type { AnyStatBlock } from '#/lib/stat-block'
 import { allAbilities } from '#/lib/stat-block'
 import { cn } from '#/lib/utils'
 
@@ -163,7 +163,7 @@ function AbilityChip({
  * here, their remaining uses and a Use action.
  */
 export function describeReferences(
-  stats: StatBlock,
+  stats: AnyStatBlock,
   block: DerivedStatBlock,
   counts: Readonly<Record<string, UseCount | undefined>>,
   use: (key: string, count: UseCount) => void,

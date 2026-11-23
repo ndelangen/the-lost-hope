@@ -193,6 +193,91 @@ const Source = z
     message: 'A homebrew stat block must describe itself in `changes`',
   })
 
+/** What every stat block has, a creature's or a PC's. */
+const statCore = {
+  size: z.enum(SIZE_KEYS),
+  type: z.enum(CREATURE_TYPE_KEYS),
+  ac: z.number().int().nonnegative(),
+  armor: z.string().optional().describe('What gives the AC, e.g. `chain mail, shield`'),
+  speed: z
+    .partialRecord(SpeedMode, z.number().nonnegative())
+    .refine((speed) => speed.walk !== undefined, 'Every creature needs a walk speed (0 if none)')
+    .describe('Feet'),
+  scores: z.record(AbilityId, Score).describe('Every ability, Strength to Charisma'),
+  saves: z.partialRecord(AbilityId, Proficiency).optional(),
+  skills: z.partialRecord(z.enum(SKILL_KEYS), Proficiency).optional(),
+  senses: z
+    .partialRecord(z.enum(SENSE_KEYS), z.number().int().positive())
+    .optional()
+    .describe('Feet'),
+  damageVulnerabilities: z.array(RuleRef).optional().describe('Damage types'),
+  damageResistances: z.array(RuleRef).optional().describe('Damage types'),
+  damageImmunities: z.array(RuleRef).optional().describe('Damage types'),
+  conditionImmunities: z.array(RuleRef).optional().describe('Conditions'),
+  abilities: z.array(Ability.extend({ timing: z.enum(ABILITY_TIMINGS) })).default([]),
+}
+
+type AbilityBlock = {
+  speed: Partial<Record<z.infer<typeof SpeedMode>, number>>
+  abilities: readonly Ability[]
+  legendary?: { actions: readonly Ability[] }
+  lairActions?: readonly Ability[]
+}
+
+/** Ability keys are unique, saves are complete, and text only points at what the block has. */
+function checkAbilities(block: AbilityBlock, context: z.RefinementCtx) {
+  const all = [
+    ...block.abilities,
+    ...(block.legendary?.actions ?? []),
+    ...(block.lairActions ?? []),
+  ]
+  const keys = new Set<string>()
+  for (const ability of all) {
+    if (keys.has(ability.key))
+      context.addIssue({ code: 'custom', message: `Duplicate ability key: ${ability.key}` })
+    keys.add(ability.key)
+  }
+  for (const ability of all) {
+    const save = ability.save
+    if (save && 'area' in save.target) {
+      const { shape, width } = save.target.area
+      if (!(AREA_SHAPES as readonly string[]).includes(shape.key))
+        context.addIssue({
+          code: 'custom',
+          message: `${ability.name}: area shape must be one of ${AREA_SHAPES.join(', ')}`,
+        })
+      if ((shape.key === 'line') !== (width !== undefined))
+        context.addIssue({
+          code: 'custom',
+          message: `${ability.name}: a line needs a width, and only a line has one`,
+        })
+    }
+    if (save && !save.onFail.damage && !save.onFail.conditions && !save.onFail.also)
+      context.addIssue({
+        code: 'custom',
+        message: `${ability.name}: say what a failed save does`,
+      })
+    if (save?.onSuccess === 'half' && !save.onFail.damage)
+      context.addIssue({
+        code: 'custom',
+        message: `${ability.name}: half on a success needs damage on a failure`,
+      })
+    for (const token of [...ability.text, ...(save?.onFail.also ?? [])]) {
+      if (typeof token === 'string') continue
+      if ('ability' in token && !keys.has(token.ability))
+        context.addIssue({
+          code: 'custom',
+          message: `${ability.name} refers to a missing ability: ${token.ability}`,
+        })
+      if ('speed' in token && block.speed[token.speed] === undefined)
+        context.addIssue({
+          code: 'custom',
+          message: `${ability.name} refers to a missing ${token.speed} speed`,
+        })
+    }
+  }
+}
+
 /**
  * DM-only 5e statistics for an NPC, beast, or shared creature. Only base facts are stored:
  * proficiency bonus, hit points, save and skill bonuses, passive Perception, to-hit bonuses,
@@ -200,28 +285,9 @@ const Source = z
  */
 export const StatBlock = z
   .strictObject({
-    size: z.enum(SIZE_KEYS),
-    type: z.enum(CREATURE_TYPE_KEYS),
+    ...statCore,
     cr: z.enum(CHALLENGE_RATINGS),
-    ac: z.number().int().nonnegative(),
-    armor: z.string().optional().describe('What gives the AC, e.g. `chain mail, shield`'),
     hitDice: z.string().regex(/^\d+d(4|6|8|10|12|20)$/, 'Use hit dice like `3d10`'),
-    speed: z
-      .partialRecord(SpeedMode, z.number().nonnegative())
-      .refine((speed) => speed.walk !== undefined, 'Every creature needs a walk speed (0 if none)')
-      .describe('Feet'),
-    scores: z.record(AbilityId, Score).describe('Every ability, Strength to Charisma'),
-    saves: z.partialRecord(AbilityId, Proficiency).optional(),
-    skills: z.partialRecord(z.enum(SKILL_KEYS), Proficiency).optional(),
-    senses: z
-      .partialRecord(z.enum(SENSE_KEYS), z.number().int().positive())
-      .optional()
-      .describe('Feet'),
-    damageVulnerabilities: z.array(RuleRef).optional().describe('Damage types'),
-    damageResistances: z.array(RuleRef).optional().describe('Damage types'),
-    damageImmunities: z.array(RuleRef).optional().describe('Damage types'),
-    conditionImmunities: z.array(RuleRef).optional().describe('Conditions'),
-    abilities: z.array(Ability.extend({ timing: z.enum(ABILITY_TIMINGS) })).default([]),
     legendary: z
       .strictObject({
         uses: z
@@ -241,58 +307,21 @@ export const StatBlock = z
       ),
     source: Source,
   })
-  .superRefine((block, context) => {
-    const all = [
-      ...block.abilities,
-      ...(block.legendary?.actions ?? []),
-      ...(block.lairActions ?? []),
-    ]
-    const keys = new Set<string>()
-    for (const ability of all) {
-      if (keys.has(ability.key))
-        context.addIssue({ code: 'custom', message: `Duplicate ability key: ${ability.key}` })
-      keys.add(ability.key)
-    }
-    for (const ability of all) {
-      const save = ability.save
-      if (save && 'area' in save.target) {
-        const { shape, width } = save.target.area
-        if (!(AREA_SHAPES as readonly string[]).includes(shape.key))
-          context.addIssue({
-            code: 'custom',
-            message: `${ability.name}: area shape must be one of ${AREA_SHAPES.join(', ')}`,
-          })
-        if ((shape.key === 'line') !== (width !== undefined))
-          context.addIssue({
-            code: 'custom',
-            message: `${ability.name}: a line needs a width, and only a line has one`,
-          })
-      }
-      if (save && !save.onFail.damage && !save.onFail.conditions && !save.onFail.also)
-        context.addIssue({
-          code: 'custom',
-          message: `${ability.name}: say what a failed save does`,
-        })
-      if (save?.onSuccess === 'half' && !save.onFail.damage)
-        context.addIssue({
-          code: 'custom',
-          message: `${ability.name}: half on a success needs damage on a failure`,
-        })
-      for (const token of [...ability.text, ...(save?.onFail.also ?? [])]) {
-        if (typeof token === 'string') continue
-        if ('ability' in token && !keys.has(token.ability))
-          context.addIssue({
-            code: 'custom',
-            message: `${ability.name} refers to a missing ability: ${token.ability}`,
-          })
-        if ('speed' in token && block.speed[token.speed] === undefined)
-          context.addIssue({
-            code: 'custom',
-            message: `${ability.name} refers to a missing ${token.speed} speed`,
-          })
-      }
-    }
+  .superRefine(checkAbilities)
+
+/**
+ * DM-only statistics for a PC, copied from the player's character sheet: every attack, spell,
+ * feature and trait written out as an ability, so the encounter runs a PC like any creature. The
+ * PC's level sets the proficiency bonus; bonuses, DCs and passive Perception are derived.
+ */
+export const PcStatBlock = z
+  .strictObject({
+    ...statCore,
+    maxHp: z.number().int().positive().describe('Hit point maximum from the character sheet'),
   })
+  .superRefine(checkAbilities)
+
+export type PcStatBlock = z.infer<typeof PcStatBlock>
 
 export type StatBlock = z.infer<typeof StatBlock>
 

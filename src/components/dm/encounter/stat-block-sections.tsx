@@ -3,10 +3,17 @@ import { Fragment, type ReactNode } from 'react'
 
 import { RuleTerm } from '#/components/rule-term'
 import { refs } from '#/data/generated/refs'
-import type { AbilityTiming, StatBlock } from '#/definitions/stat-block'
+import type { AbilityTiming } from '#/definitions/stat-block'
 import { ABILITY_GROUP_LABEL } from '#/lib/ability-index'
 import { ABILITY_KEYS, ruleOf, ruleRef, type RuleRef } from '#/lib/rules'
-import { formatSpeed, signed, sourceName, sourceUrl, type DerivedStats } from '#/lib/stat-block'
+import {
+  formatSpeed,
+  signed,
+  sourceName,
+  sourceUrl,
+  type AnyStatBlock,
+  type DerivedStats,
+} from '#/lib/stat-block'
 import { cn } from '#/lib/utils'
 
 /** How each ability timing is labelled and drawn. */
@@ -17,22 +24,29 @@ export const TIMING = {
   trait: { label: ABILITY_GROUP_LABEL.trait, Icon: PawPrint },
 } satisfies Record<AbilityTiming, unknown>
 
-/** Size, creature type, challenge with its experience, and proficiency bonus on one line. */
-export function StatBlockHeadline({ stats, block }: { stats: StatBlock; block: DerivedStats }) {
+/** Size, creature type, challenge with its experience (a PC's level), and proficiency bonus. */
+export function StatBlockHeadline({ stats, block }: { stats: AnyStatBlock; block: DerivedStats }) {
   return (
     <p className="text-muted-foreground text-sm">
       <RuleTerm rule={ruleRef(stats.size)} />{' '}
       <RuleTerm rule={ruleRef(stats.type)}>
         {ruleOf(ruleRef(stats.type)).name.toLowerCase()}
       </RuleTerm>{' '}
-      · <RuleTerm rule={refs.rules.challenge_rating} /> {stats.cr} ({block.experience} XP) ·{' '}
-      <RuleTerm rule={refs.rules.proficiency_bonus} /> {signed(block.proficiencyBonus)}
+      ·{' '}
+      {'cr' in stats ? (
+        <>
+          <RuleTerm rule={refs.rules.challenge_rating} /> {stats.cr} ({block.experience} XP)
+        </>
+      ) : (
+        <>level {stats.level}</>
+      )}{' '}
+      · <RuleTerm rule={refs.rules.proficiency_bonus} /> {signed(block.proficiencyBonus)}
     </p>
   )
 }
 
 /** Every saving throw with its ability score, proficient saves outlined. */
-export function SavingThrows({ stats, block }: { stats: StatBlock; block: DerivedStats }) {
+export function SavingThrows({ stats, block }: { stats: AnyStatBlock; block: DerivedStats }) {
   return (
     <section aria-labelledby="saves-heading" className="grid gap-1">
       <h3 id="saves-heading" className="text-muted-foreground text-xs font-semibold uppercase">
@@ -65,7 +79,7 @@ export function SavingThrows({ stats, block }: { stats: StatBlock; block: Derive
 type Fact = { key: string; label: ReactNode; value: ReactNode }
 
 /** Hit points, armor, initiative, speed, skills, senses, and damage defences as a short list. */
-export function StatFacts({ stats, block }: { stats: StatBlock; block: DerivedStats }) {
+export function StatFacts({ stats, block }: { stats: AnyStatBlock; block: DerivedStats }) {
   const immune = [...(stats.damageImmunities ?? []), ...(stats.conditionImmunities ?? [])]
   const facts: readonly Fact[] = [
     {
@@ -145,7 +159,13 @@ export function StatFacts({ stats, block }: { stats: StatBlock; block: DerivedSt
 }
 
 /** Which SRD creatures the block adapts, and what changed, or that it is homebrew. */
-export function StatSource({ stats }: { stats: StatBlock }) {
+export function StatSource({ stats }: { stats: AnyStatBlock }) {
+  if (!('cr' in stats))
+    return (
+      <p className="text-muted-foreground border-border border-t pt-2 text-xs">
+        From the player’s character sheet.
+      </p>
+    )
   return (
     <p className="text-muted-foreground border-border border-t pt-2 text-xs">
       {stats.source.adaptedFrom.length > 0 ? (

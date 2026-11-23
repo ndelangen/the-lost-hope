@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 
 import { refs } from '#/data/generated/refs'
-import { StatBlock } from '#/definitions/stat-block'
+import { PcStatBlock, StatBlock } from '#/definitions/stat-block'
 
 import {
   abilityKind,
@@ -10,6 +10,7 @@ import {
   deriveStatBlock,
   formatSpeed,
   proficiencyBonus,
+  proficiencyOf,
 } from './stat-block'
 
 /** SRD 5.2.1 Dire Wolf: the derived numbers must match the printed stat block. */
@@ -180,5 +181,50 @@ describe('ability kind', () => {
     expect(abilityKind({ ...base, intent: 'damage' as const })).toBe('attack')
     expect(abilityKind({ ...base, intent: 'healing' as const })).toBe('healing')
     expect(abilityKind({ ...base, intent: 'support' as const })).toBe('other')
+  })
+})
+
+describe('a PC stat block', () => {
+  const devan = {
+    ...PcStatBlock.parse({
+      size: 'medium',
+      type: 'humanoid',
+      ac: 21,
+      maxHp: 60,
+      speed: { walk: 30 },
+      scores: { str: 18, dex: 14, con: 14, int: 12, wis: 14, cha: 15 },
+      saves: { wis: 'proficient', cha: 'proficient' },
+      skills: { perception: 'proficient' },
+      abilities: [
+        {
+          key: 'warhammer',
+          name: 'Warhammer',
+          timing: 'action',
+          icon: 'gi/GiWarhammer',
+          attack: {
+            kind: 'melee',
+            ability: 'str',
+            damage: [{ dice: '1d8', type: refs.rules.bludgeoning, addModifier: true }],
+          },
+        },
+      ],
+    }),
+    level: 5,
+  }
+
+  it('takes its proficiency bonus from the character level', () => {
+    expect(proficiencyOf(devan)).toBe(3)
+    expect(proficiencyOf({ ...devan, level: 9 })).toBe(4)
+  })
+
+  it('keeps the hit points from the sheet and derives the rest like a creature', () => {
+    const block = deriveStatBlock(devan)
+    expect(block.maxHp).toBe(60)
+    expect(block.experience).toBe(0)
+    expect(block.saves.wis).toBe(5)
+    expect(block.passivePerception).toBe(15)
+    expect(plainStatParts(abilitySummary(devan.abilities[0]!, devan)!)).toBe(
+      '+7, 8 (1d8 + 4) bludgeoning',
+    )
   })
 })

@@ -5,6 +5,7 @@ import { makeCreate } from './create'
 import { DEFAULT_AVATAR, MediaUrl, Portrait } from './media'
 import { Membership } from './organization'
 import { deriveSlug } from './slug'
+import { PcStatBlock } from './stat-block'
 
 const PC_STATUSES = ['active', 'retired', 'occasional'] as const
 
@@ -20,19 +21,6 @@ const PreviousPortrait = Portrait.extend({
 })
 
 export type PreviousPortrait = z.infer<typeof PreviousPortrait>
-
-/**
- * DM-only numbers the player shares for running combat. Leave a value out until the player has
- * given it; the tracker shows a gap rather than a guess.
- */
-export const PcCombat = z.strictObject({
-  ac: z.number().int().nonnegative().optional(),
-  maxHp: z.number().int().positive().optional(),
-  passivePerception: z.number().int().positive().optional(),
-  spellSaveDc: z.number().int().positive().optional(),
-})
-
-export type PcCombat = z.infer<typeof PcCombat>
 
 export const PC = deriveSlug(
   z.strictObject({
@@ -60,7 +48,9 @@ export const PC = deriveSlug(
       .array(Membership)
       .optional()
       .describe('DM only: memberships the party has not discovered'),
-    combat: PcCombat.optional().describe('DM only: AC, max HP, and other numbers for combat'),
+    stats: PcStatBlock.optional().describe(
+      'DM only: the character sheet as a stat block, so the encounter runs the PC like any creature',
+    ),
     background: Background,
   }),
 )

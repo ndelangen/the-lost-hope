@@ -11,7 +11,6 @@ export default createPC({
   class: 'Artificer / Wizard',
   subclass: 'Armorer',
   level: 5,
-  combat: { ac: 20, maxHp: 79, passivePerception: 14, spellSaveDc: 14 },
   languages: ['Common', 'Draconic', 'Giant'],
   notes: [['A rune carver who has studied the magic of giant runes.']],
   background: [

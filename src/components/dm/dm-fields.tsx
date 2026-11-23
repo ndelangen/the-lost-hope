@@ -14,18 +14,18 @@ import type { Content } from '#/definitions/content'
 import { ITEM_STATUS_LABELS, type ItemStatus } from '#/definitions/item'
 import type { EntityKind } from '#/definitions/kind'
 import type { Membership } from '#/definitions/organization'
-import type { PcCombat } from '#/definitions/pc'
-import type { OwnOrSharedStatBlock } from '#/definitions/stat-block'
+import type { OwnOrSharedStatBlock, PcStatBlock } from '#/definitions/stat-block'
 import { refLink } from '#/lib/campaign'
 import { sourceRecordBySlug } from '#/lib/dm-campaign'
 import { DM_FIELDS } from '#/lib/player-visibility'
+import { allAbilities, deriveStatBlock } from '#/lib/stat-block'
 
 /** The values of every field `DM_FIELDS` lists, across all kinds. */
 type DmFieldValues = {
   background?: Content
   motivations?: Content
-  stats?: OwnOrSharedStatBlock
-  combat?: PcCombat
+  stats?: OwnOrSharedStatBlock | PcStatBlock
+  level?: number
   secretMemberships?: Membership[]
   status?: ItemStatus
 }
@@ -36,7 +36,7 @@ const FIELD_TITLES: Record<DmFieldName, string> = {
   motivations: 'Motivations',
   background: 'Background',
   stats: 'Stat block',
-  combat: 'Combat numbers',
+  level: 'Level',
   secretMemberships: 'Secret memberships',
   status: 'Status',
 }
@@ -100,9 +100,14 @@ function DmFieldValue({ field, values }: { field: DmFieldName; values: DmFieldVa
       return content ? <ContentRenderer content={content} /> : null
     }
     case 'stats':
-      return values.stats ? <StatBlockSummary stats={values.stats} /> : null
-    case 'combat':
-      return values.combat ? <CombatNumbers combat={values.combat} /> : null
+      if (!values.stats) return null
+      return 'maxHp' in values.stats ? (
+        <PcStatSummary stats={values.stats} level={values.level} />
+      ) : (
+        <StatBlockSummary stats={values.stats} />
+      )
+    case 'level':
+      return null
     case 'secretMemberships':
       return values.secretMemberships ? (
         <SecretMemberships memberships={values.secretMemberships} />
@@ -114,31 +119,34 @@ function DmFieldValue({ field, values }: { field: DmFieldName; values: DmFieldVa
   }
 }
 
-function CombatNumbers({ combat }: { combat: PcCombat }) {
-  const parts: ReactNode[] = [
-    combat.ac === undefined ? null : (
-      <span key="ac">
-        <RuleTerm rule={refs.rules.armor_class} /> {combat.ac}
+/** A PC's armor class, hit points, passive Perception and save DCs, derived from the sheet. */
+function PcStatSummary({ stats, level }: { stats: PcStatBlock; level: number | undefined }) {
+  if (!level) return null
+  const block = deriveStatBlock({ ...stats, level })
+  const dcs = [
+    ...new Set(allAbilities({ ...stats, level }).flatMap((a) => (a.save ? [a.save.dc] : []))),
+  ]
+  return (
+    <p className="flex flex-wrap gap-x-4 gap-y-1 text-sm">
+      <span>
+        <RuleTerm rule={refs.rules.armor_class} /> {block.ac}
       </span>
-    ),
-    combat.maxHp === undefined ? null : (
-      <span key="hp">
-        {combat.maxHp} <RuleTerm rule={refs.rules.hit_points} />
+      <span>
+        {block.maxHp} <RuleTerm rule={refs.rules.hit_points} />
       </span>
-    ),
-    combat.passivePerception === undefined ? null : (
-      <span key="pp">
-        <RuleTerm rule={refs.rules.passive_perception} /> {combat.passivePerception}
+      <span>
+        <RuleTerm rule={refs.rules.passive_perception} /> {block.passivePerception}
       </span>
-    ),
-    combat.spellSaveDc === undefined ? null : (
-      <span key="dc">
-        Spell save <RuleTerm rule={refs.rules.difficulty_class} /> {combat.spellSaveDc}
+      {dcs.map((ability) => (
+        <span key={ability}>
+          Spell save <RuleTerm rule={refs.rules.difficulty_class} /> {block.saveDc[ability]}
+        </span>
+      ))}
+      <span className="text-muted-foreground">
+        {stats.abilities.length} abilities, spells and features in the encounter
       </span>
-    ),
-  ].filter(Boolean)
-  if (parts.length === 0) return <p className="text-muted-foreground text-sm">Nothing recorded.</p>
-  return <p className="flex flex-wrap gap-x-4 gap-y-1 text-sm">{parts}</p>
+    </p>
+  )
 }
 
 function SecretMemberships({ memberships }: { memberships: Membership[] }) {
