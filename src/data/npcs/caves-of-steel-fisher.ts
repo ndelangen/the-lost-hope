@@ -4,6 +4,7 @@ import { create as createNPC } from '#/definitions/npc.ts'
 export default createNPC({
   name: 'Caves of Steel Fisher',
   location: refs.locations.the_caves_of_steel,
+  species: 'Human, changed by the aboleth',
   notes: [
     [
       'One of the subship crews of ',

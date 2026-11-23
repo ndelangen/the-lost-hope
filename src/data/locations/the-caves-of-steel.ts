@@ -14,11 +14,19 @@ export default createLocation({
       '. The only way in is underwater, aboard its subships. An airship cannot follow.',
     ],
     [
+      'Its people look human, but not quite: pale skin, large dark eyes, faint gill slits at the neck and webbing between the fingers.',
+    ],
+    [
       'Visitors are welcomed like royalty and asked to tell their stories and everything that is happening in the world. The people have no contact with the outside and know nothing of it.',
     ],
   ],
   background: [
     ['About 500,000 people live here.'],
+    [
+      'They are humans changed by generations under ',
+      refs.npcs.the_11th_marshal,
+      ', on their way to becoming skum, the fish-like servants aboleths make of humanoids. The look is a deliberate hint at the aboleth.',
+    ],
     ['Giant chains hold it to the seabed. Without them it would float away.'],
     [
       'Everyone born here is bound by the three laws of ',
