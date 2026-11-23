@@ -22,6 +22,11 @@ export default createArc({
       'Protect beats stay: if the people believe their staying puts the Marshal in danger, leaving is protecting it, and through inaction they would allow it harm. They must leave, and nothing calls them back. It frees only those who truly believe it, so people leave in waves. One possible argument: the Caves, full of Dust-burning ships and machines, are a beacon that leads the Marshal’s enemies to it.',
     ],
     [
+      'Who is the Marshal? The laws never name the aboleth, only the Marshal, and 11th Marshal is a seat on ',
+      refs.organizations.marshals_court,
+      '. If the party convinces the people that the Marshal is someone else, they take their ships at once and flee, presumably to wherever the new Marshal is. After Asimov’s …That Thou Art Mindful of Him, where robots redefine who counts as human.',
+    ],
+    [
       'The laws hold while the Marshal rests, and nobody watches the gaps. It would never know its people had been turned until it called them to war and nobody came.',
     ],
   ],
