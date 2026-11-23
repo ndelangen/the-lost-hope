@@ -45,4 +45,13 @@ export default createEvent({
       ' provided two-way communication with the organization.',
     ],
   ],
+  background: [
+    [
+      'The letter was ',
+      refs.items.letter_from_the_father,
+      '. Only ',
+      refs.pcs.jim,
+      ' read it, and he did not share it with the party, so they know its contents only from what this event records.',
+    ],
+  ],
 })
