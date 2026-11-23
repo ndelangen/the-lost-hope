@@ -42,4 +42,5 @@ export default createEvent({
       '.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-reunites-with-bessy-and-trades-equipment.png'],
 })

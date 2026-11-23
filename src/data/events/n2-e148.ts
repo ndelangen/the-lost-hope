@@ -17,4 +17,5 @@ export default createEvent({
       '. The flag remained unfound and the maze trial unfinished.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-takes-a-short-rest-beyond-the-serpent-pool.png'],
 })

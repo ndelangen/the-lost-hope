@@ -28,4 +28,5 @@ export default createEvent({
   day: 24,
   location: refs.locations.borris_s_gambling_den,
   mark: { type: 'icon', name: 'gi/GiCardRandom' },
+  illustrations: ['/assets/scenes/the-first-draws-bring-flight-hunger-whispers-and-a-cloak.png'],
 })

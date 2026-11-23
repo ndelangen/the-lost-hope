@@ -118,8 +118,9 @@ export function CampaignShell({ initialPreferences }: { initialPreferences: UiPr
   )
 
   // The player screen is a bare picture on the players' monitor.
-  // Full-window screens: the player screen and event replays.
-  if (pathname === '/display' || pathname.startsWith('/events/replay/')) return <Outlet />
+  // Full-window screens: the player screen, event replays and the novel reader.
+  if (pathname === '/display' || pathname === '/novel' || pathname.startsWith('/events/replay/'))
+    return <Outlet />
 
   return (
     <>

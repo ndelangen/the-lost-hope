@@ -29,4 +29,5 @@ export default createEvent({
       ', though the shipwright said he was not her problem. No attack, killing, or completed favor occurred.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-shipwright-describes-grievances-against-the-tempests.png'],
 })

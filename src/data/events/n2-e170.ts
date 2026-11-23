@@ -20,4 +20,5 @@ export default createEvent({
       ' on skill checks for two days, but not attacks.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-breakfasts-at-onana-tempest-s-estate.png'],
 })

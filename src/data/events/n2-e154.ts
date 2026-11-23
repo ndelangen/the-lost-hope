@@ -26,4 +26,5 @@ export default createEvent({
       " being attacked and killed by the oasis birds. Their feeding on life force was revealed through the familiar's death.",
     ],
   ],
+  illustrations: ['/assets/scenes/sarogarth-opens-a-portal-back-to-the-altar.png'],
 })

@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Light instructs the party to use the trapdoor',
   day: 9,
   location: refs.locations.fajanet,
+  illustrations: ['/assets/scenes/light-instructs-the-party-to-use-the-trapdoor.png'],
   mark: { type: 'icon', name: 'gi/GiFloorHatch' },
   notes: [
     [

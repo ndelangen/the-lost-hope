@@ -7,7 +7,7 @@ export default createEvent({
   location: refs.locations.nimbus_harbour,
   mark: { type: 'icon', name: 'gi/GiLifeBuoy' },
   illustrations: [
-    '/assets/scenes/picking-up-swift-at-nimbus.png',
+    '/assets/scenes/the-party-reunites-and-helps-rescue-nimbus-residents-novel.png',
     '/assets/scenes/the-party-reunites-on-the-docks.png',
   ],
   notes: [

@@ -26,4 +26,5 @@ export default createEvent({
       ". Thunder flashed in the wizard's eyes before he thanked the party.",
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-breaks-the-crystal-and-wakes-sarogarth.png'],
 })

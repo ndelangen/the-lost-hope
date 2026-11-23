@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Swift disrupts the Festival of the Heroes announcement',
   day: 13,
   location: refs.locations.fairhaven_town_square,
+  illustrations: ['/assets/scenes/swift-disrupts-the-festival-of-the-heroes-announcement.png'],
   mark: { type: 'avatar', of: refs.pcs.swift_starblade },
   notes: [
     [

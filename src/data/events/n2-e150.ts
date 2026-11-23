@@ -21,4 +21,5 @@ export default createEvent({
       ' carved his signature into the crystal with his rapier, cracking its surface. The crystal drew magic from visitors, and attempts to turn it upside down failed.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-chooses-the-anti-magic-passage.png'],
 })

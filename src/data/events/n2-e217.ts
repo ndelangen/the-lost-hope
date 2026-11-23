@@ -41,4 +41,5 @@ export default createEvent({
       ' was now dead.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-decodes-jim-s-farewell-and-warning-about-light.png'],
 })

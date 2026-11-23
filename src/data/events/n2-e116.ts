@@ -16,4 +16,5 @@ export default createEvent({
       '.',
     ],
   ],
+  illustrations: ['/assets/scenes/sir-fabulous-becomes-devan-s-divine-steed.png'],
 })

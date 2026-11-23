@@ -28,4 +28,5 @@ export default createEvent({
       ' accepted the purple potions, which the party suspected were demon blood, and left the party unattended.',
     ],
   ],
+  illustrations: ['/assets/scenes/fix-delivers-potions-to-lord-malachar.png'],
 })

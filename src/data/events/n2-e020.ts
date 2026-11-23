@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Jim receives a final-warning letter',
   day: 2,
   location: refs.locations.fajanet_guildhall,
+  illustrations: ['/assets/scenes/jim-receives-a-final-warning-letter.png'],
   mark: { type: 'icon', name: 'lucide/MailExclamationPoint' },
   notes: [
     [

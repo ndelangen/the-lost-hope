@@ -30,4 +30,5 @@ export default createEvent({
       "'s skeletal appearance and the danger of acknowledging it. He was interested in meeting him, but warned that tracing a magical item could lead to its maker rather than its seller.",
     ],
   ],
+  illustrations: ['/assets/scenes/sarogarth-s-tracking-ritual-produces-two-smoke-trails.png'],
 })

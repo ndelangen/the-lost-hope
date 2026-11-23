@@ -32,4 +32,5 @@ export default createEvent({
   day: 24,
   location: refs.locations.borris_s_gambling_den,
   mark: { type: 'avatar', of: refs.pcs.cassian_veyl },
+  illustrations: ['/assets/scenes/cassian-loses-his-magic-items-and-wins-a-treasure-chest.png'],
 })

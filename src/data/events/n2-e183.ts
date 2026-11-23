@@ -42,4 +42,5 @@ export default createEvent({
       ", who had tried to buy them out of crime, but were reluctant to act against their patron's family without his approval.",
     ],
   ],
+  illustrations: ['/assets/scenes/a-local-gang-describes-the-tempest-siblings.png'],
 })

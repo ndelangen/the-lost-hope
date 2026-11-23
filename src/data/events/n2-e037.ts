@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Meet Victor the lumberjack and Abraham the donkey',
   day: 10,
   location: refs.locations.badesh_forest,
+  illustrations: ['/assets/scenes/meet-victor-the-lumberjack-and-abraham-the-donkey.png'],
   mark: { type: 'icon', name: 'gi/GiWoodAxe' },
   notes: [
     [

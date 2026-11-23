@@ -5,6 +5,7 @@ export default createEvent({
   name: 'The party takes Celeste from a shore-side fight',
   day: 12,
   location: refs.locations.the_boat_to_fairhaven,
+  illustrations: ['/assets/scenes/the-party-takes-celeste-from-a-shore-side-fight.png'],
   mark: { type: 'icon', name: 'gi/GiLifeBuoy' },
   notes: [
     [

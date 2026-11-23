@@ -31,4 +31,5 @@ export default createEvent({
       '.',
     ],
   ],
+  illustrations: ['/assets/scenes/bob-s-skeletal-appearance-triggers-a-final-warning.png'],
 })

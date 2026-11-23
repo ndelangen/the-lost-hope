@@ -5,6 +5,7 @@ export default createEvent({
   name: "Fajanet's 5-day festival — no tentacles at night",
   day: 4,
   location: refs.locations.fajanet,
+  illustrations: ['/assets/scenes/fajanet-s-5-day-festival-no-tentacles-at-night.png'],
   mark: { type: 'icon', name: 'gi/GiPartyFlags' },
   notes: [
     ['A 5-day festival was happening in ', refs.locations.fajanet, '.'],

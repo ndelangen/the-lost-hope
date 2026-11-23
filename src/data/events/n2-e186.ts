@@ -16,4 +16,5 @@ export default createEvent({
   day: 24,
   location: refs.locations.borris_s_gambling_den,
   mark: { type: 'avatar', of: refs.npcs.borris },
+  illustrations: ['/assets/scenes/borris-welcomes-the-party-to-his-nimbus-casino.png'],
 })

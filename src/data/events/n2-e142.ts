@@ -17,4 +17,5 @@ export default createEvent({
       ', and used wind on the winding-symbol pillar at the same time. The brazier lit in response and a passage opened.',
     ],
   ],
+  illustrations: ['/assets/scenes/fire-earth-and-wind-open-the-maze-passage.png'],
 })

@@ -21,4 +21,5 @@ export default createEvent({
       ' stayed in the stables because he was too large for the dungeon.',
     ],
   ],
+  illustrations: ['/assets/scenes/cassian-understands-wolfie.png'],
 })

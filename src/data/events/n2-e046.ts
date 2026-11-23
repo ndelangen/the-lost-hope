@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Swift tames a demon-possessed flying broom',
   day: 13,
   location: refs.locations.giggles_and_gadgets,
+  illustrations: ['/assets/scenes/swift-tames-a-demon-possessed-flying-broom.png'],
   mark: { type: 'avatar', of: refs.pcs.swift_starblade },
   notes: [
     [

@@ -16,4 +16,5 @@ export default createEvent({
       '.',
     ],
   ],
+  illustrations: ['/assets/scenes/devan-buys-an-enslaved-child-s-freedom.png'],
 })

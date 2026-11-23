@@ -17,4 +17,5 @@ export default createEvent({
       'After bargaining, the coin sold for about 250 gold. A five-gold commission was discussed. They talked about selling the remaining coins at different places to avoid flooding the market.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-helps-sarogarth-sell-an-ancient-coin.png'],
 })

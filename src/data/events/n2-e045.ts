@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Green-cloaked shadows lead to a gambling den',
   day: 13,
   location: refs.locations.fairhaven_gambling_den,
+  illustrations: ['/assets/scenes/green-cloaked-shadows-lead-to-a-gambling-den.png'],
   mark: { type: 'icon', name: 'gi/GiCardRandom' },
   notes: [
     [

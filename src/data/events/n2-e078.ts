@@ -35,4 +35,5 @@ export default createEvent({
       ' likely would have survived, but recovering from the fall would have caused a major delay.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-cursed-sword-s-shadow-nearly-kills-jim.png'],
 })

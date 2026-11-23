@@ -17,4 +17,5 @@ export default createEvent({
   day: 24,
   location: refs.locations.borris_s_gambling_den,
   mark: { type: 'icon', name: 'gi/GiShadowFollower' },
+  illustrations: ['/assets/scenes/the-fiddler-gains-a-knight-and-survives-the-avatar-of-death.png'],
 })

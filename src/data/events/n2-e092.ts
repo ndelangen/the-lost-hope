@@ -34,4 +34,5 @@ export default createEvent({
       ' and said he possessed her father’s ship. She allowed him aboard but charged him more than the others and forbade him from gambling.',
     ],
   ],
+  illustrations: ['/assets/scenes/sylvia-offers-the-party-passage-toward-the-feywild.png'],
 })

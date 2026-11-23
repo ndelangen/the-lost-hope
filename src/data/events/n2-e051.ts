@@ -24,4 +24,5 @@ export default createEvent({
       ' while the party left the estate.',
     ],
   ],
+  illustrations: ['/assets/scenes/two-dire-wolf-pups-are-stolen-from-the-stables.png'],
 })

@@ -45,4 +45,5 @@ export default createEvent({
       ', who was moved by hearing from his old friend.',
     ],
   ],
+  illustrations: ['/assets/scenes/devan-becomes-a-wandering-priest-and-meets-grimgor.png'],
 })

@@ -19,4 +19,5 @@ export default createEvent({
       '.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-travels-from-nimbus-to-skynet.png'],
 })

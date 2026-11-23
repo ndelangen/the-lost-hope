@@ -20,4 +20,5 @@ export default createEvent({
       '.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-gives-sarogarth-a-room-at-the-inn.png'],
 })

@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Giggles hires the party against a rival alchemist',
   day: 13,
   location: refs.locations.mortimer_s_shop,
+  illustrations: ['/assets/scenes/giggles-hires-the-party-against-a-rival-alchemist.png'],
   mark: { type: 'icon', name: 'gi/GiFizzingFlask' },
   notes: [
     [

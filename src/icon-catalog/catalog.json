@@ -262017,7 +262017,10 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/book-open-text",
-      "usedIn": []
+      "usedIn": [
+        "src/components/campaign-shell/sidebar-rail.tsx",
+        "src/components/campaign-shell/sidebar.tsx"
+      ]
     },
     {
       "id": "lucide/BookPlus",
@@ -267536,7 +267539,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/chevron-left",
-      "usedIn": []
+      "usedIn": [
+        "src/components/novel/novel-reader.tsx"
+      ]
     },
     {
       "id": "lucide/ChevronRight",
@@ -267581,6 +267586,7 @@
         "src/components/campaign-shell/sidebar.tsx",
         "src/components/dm/dm-past-scenes.tsx",
         "src/components/locations-index.tsx",
+        "src/components/novel/novel-reader.tsx",
         "src/components/player-screen/player-screen-dock.tsx",
         "src/components/questions-page.tsx",
         "src/routes/dm/scenes/$slug.tsx"
@@ -306081,6 +306087,7 @@
       "usedIn": [
         "src/components/campaign-shell.tsx",
         "src/components/campaign-shell/sidebar-data.ts",
+        "src/components/novel/novel-reader.tsx",
         "src/lib/entity-kind-visuals.ts"
       ]
     },

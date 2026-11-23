@@ -17,4 +17,5 @@ export default createEvent({
       " in bed. His bed still caught fire. The observation suggested protection from lightning without establishing the rod's full powers.",
     ],
   ],
+  illustrations: ['/assets/scenes/the-green-rod-protects-jim-from-the-morning-lightning.png'],
 })

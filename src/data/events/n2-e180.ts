@@ -18,4 +18,5 @@ export default createEvent({
       'She described it as a funerary custom rather than abuse of the dead. The conversation also mentioned hostile ents from a destroyed whispering forest.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-shipwright-explains-the-ents-final-voyages.png'],
 })

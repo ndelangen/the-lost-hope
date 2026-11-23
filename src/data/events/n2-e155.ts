@@ -37,4 +37,5 @@ export default createEvent({
       ' into bracelets on his wrist, giving them access to his pocket dimension.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-kills-the-dungeon-and-escapes-with-the-green-rod.png'],
 })

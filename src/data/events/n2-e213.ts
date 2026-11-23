@@ -6,6 +6,7 @@ export default createEvent({
   day: 24,
   location: refs.locations.skynet_sky_bridge_landing,
   mark: { type: 'icon', name: 'gi/GiShipWheel' },
+  illustrations: ['/assets/scenes/the-ents-hold-the-shipyard.png'],
   notes: [
     [
       refs.pcs.auren,

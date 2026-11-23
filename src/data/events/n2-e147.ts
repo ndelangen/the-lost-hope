@@ -24,4 +24,5 @@ export default createEvent({
       'The collapse also cut off the way back, leaving the party to continue farther into the maze.',
     ],
   ],
+  illustrations: ['/assets/scenes/devan-seals-the-serpent-behind-a-rockfall.png'],
 })

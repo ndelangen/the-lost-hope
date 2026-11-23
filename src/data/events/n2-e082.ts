@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Meet the Lucky Palm at the Fairhaven guildhall',
   day: 12,
   location: refs.locations.fairhaven_guildhall,
+  illustrations: ['/assets/scenes/meet-the-lucky-palm-at-the-fairhaven-guildhall.png'],
   mark: { type: 'icon', name: 'gi/GiRank3' },
   notes: [
     ['Inside the city, the party made their way to the ', refs.locations.fairhaven_guildhall, '.'],

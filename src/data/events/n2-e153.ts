@@ -28,4 +28,5 @@ export default createEvent({
       ' rejected the offer. The being showed him his ruined body, stopped the fatal moment, and saved him anyway so it could keep pursuing the bargain. To the rest of the party, he simply survived the blast. He remained standing with the dagger and one hit point.',
     ],
   ],
+  illustrations: ['/assets/scenes/jim-survives-the-zodiac-dagger-and-rejects-a-soul-bargain.png'],
 })

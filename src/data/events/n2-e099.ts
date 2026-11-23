@@ -72,4 +72,5 @@ export default createEvent({
       '.',
     ],
   ],
+  illustrations: ['/assets/scenes/sylvia-reveals-the-starblade-family-s-bloody-history.png'],
 })

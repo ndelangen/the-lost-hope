@@ -12,4 +12,5 @@ export default createEvent({
       'A shadow performed a necromantic ritual and pushed her soul back into her body, reviving her.',
     ],
   ],
+  illustrations: ['/assets/scenes/fix-dies-and-a-shadow-revives-her.png'],
 })

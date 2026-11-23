@@ -61,4 +61,5 @@ export default createEvent({
       ],
     },
   ],
+  illustrations: ['/assets/scenes/onana-sends-the-party-to-recover-ride-the-lightning.png'],
 })

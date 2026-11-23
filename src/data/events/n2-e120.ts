@@ -13,4 +13,5 @@ export default createEvent({
       ' in their possession, the party selected a dungeon option and agreed to set out. They had not yet entered the dungeon when the session ended.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-prepares-for-its-first-dungeon.png'],
 })

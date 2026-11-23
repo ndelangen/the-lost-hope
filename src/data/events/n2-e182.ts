@@ -20,4 +20,5 @@ export default createEvent({
       'The party debated how to phrase the approach without insulting or threatening the family. They had not returned to the estate or obtained a commission when the session ended.',
     ],
   ],
+  illustrations: ['/assets/scenes/cassian-proposes-seeking-onana-s-backing.png'],
 })

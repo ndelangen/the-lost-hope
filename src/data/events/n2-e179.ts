@@ -34,4 +34,5 @@ export default createEvent({
       when: { type: 'within', span: { days: 3 } },
     },
   ],
+  illustrations: ['/assets/scenes/the-party-commissions-an-airship-for-gold-and-two-favors.png'],
 })

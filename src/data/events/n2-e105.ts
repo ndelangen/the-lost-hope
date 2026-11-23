@@ -129,4 +129,5 @@ export default createEvent({
       ],
     },
   ],
+  illustrations: ['/assets/scenes/the-party-plays-three-rounds-with-the-fiddler.png'],
 })

@@ -45,4 +45,5 @@ export default createEvent({
       ' provided two-way communication with the organization.',
     ],
   ],
+  illustrations: ['/assets/scenes/roberto-s-maps-reveal-the-father-s-order-to-find-jim-alive.png'],
 })

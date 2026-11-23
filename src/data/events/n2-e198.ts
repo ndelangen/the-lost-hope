@@ -22,4 +22,5 @@ export default createEvent({
   day: 24,
   location: refs.locations.borris_s_gambling_den,
   mark: { type: 'avatar', of: refs.pcs.jim },
+  illustrations: ['/assets/scenes/the-fiddler-leaves-more-hints-about-jim-s-future.png'],
 })

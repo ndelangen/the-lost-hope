@@ -33,4 +33,5 @@ export default createEvent({
       ],
     },
   ],
+  illustrations: ['/assets/scenes/onana-offers-cheaper-lodging-and-pays-the-inn-bill.png'],
 })

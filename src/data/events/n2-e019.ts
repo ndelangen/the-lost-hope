@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Return to the guildhall with 2 of 3 animals',
   day: 2,
   location: refs.locations.fajanet_guildhall,
+  illustrations: ['/assets/scenes/return-to-the-guildhall-with-2-of-3-animals.png'],
   mark: { type: 'icon', name: 'gi/GiRank2' },
   notes: [
     [

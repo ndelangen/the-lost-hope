@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Bob gives the party special daggers',
   day: 4,
   location: refs.locations.fajanet,
+  illustrations: ['/assets/scenes/bob-gives-the-party-special-daggers.png'],
   mark: { type: 'icon', name: 'gi/GiDaggers' },
   notes: [
     [

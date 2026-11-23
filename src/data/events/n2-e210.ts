@@ -18,4 +18,5 @@ export default createEvent({
       ' disappeared and his possessions became material on the ground. The witnesses did not establish whether he had died or been taken somewhere.',
     ],
   ],
+  illustrations: ['/assets/scenes/jim-disappears-in-the-second-fortress-beam.png'],
 })

@@ -24,4 +24,5 @@ export default createEvent({
       ', buying him another chance to escape. The bird survived the distraction, and the party eventually got everyone out of the water.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-birds-help-the-party-escape-the-serpent.png'],
 })

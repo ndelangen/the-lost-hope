@@ -5,6 +5,7 @@ export default createEvent({
   name: 'Month-long boat journey',
   day: 1,
   location: refs.locations.the_boat_to_fajanet_celesta,
+  illustrations: ['/assets/scenes/month-long-boat-journey.png'],
   mark: { type: 'icon', name: 'gi/GiSailboat' },
   notes: [
     [

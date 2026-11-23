@@ -5,6 +5,7 @@ export default createEvent({
   name: 'The survivors sail for Verdant Haven',
   day: 14,
   location: refs.locations.fairhaven_evacuation_ship,
+  illustrations: ['/assets/scenes/the-survivors-sail-for-verdant-haven.png'],
   mark: { type: 'avatar', of: refs.pcs.theron },
   notes: [
     [

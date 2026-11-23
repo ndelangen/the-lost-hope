@@ -32,4 +32,5 @@ export default createEvent({
       '.',
     ],
   ],
+  illustrations: ['/assets/scenes/the-cursed-sword-breaks-verdant-haven-s-ward.png'],
 })

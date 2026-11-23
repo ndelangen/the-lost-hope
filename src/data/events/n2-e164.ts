@@ -21,4 +21,5 @@ export default createEvent({
       " would disguise him as a famous pirate from two thousand years ago. The pirate's identity was not chosen in the surviving record. They told him to use a new name on any business cards he handed out. The transformation was still a plan.",
     ],
   ],
+  illustrations: ['/assets/scenes/the-party-prepares-to-travel-to-tempest-with-sarogarth.png'],
 })
