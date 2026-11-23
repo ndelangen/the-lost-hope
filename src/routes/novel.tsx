@@ -3,11 +3,11 @@ import { useCallback } from 'react'
 import { z } from 'zod'
 
 import { NovelReader } from '#/components/novel/novel-reader'
-import { campaign } from '#/lib/campaign'
 import { buildNovel, novelArtCoverage, novelUnplacedEvents } from '#/lib/novel-data'
+import { publicPageHeadForPath } from '#/lib/public-page-metadata'
 
 export const Route = createFileRoute('/novel')({
-  head: () => ({ meta: [{ title: `Novel · ${campaign.name}` }] }),
+  head: () => publicPageHeadForPath('/novel'),
   validateSearch: z.object({ page: z.coerce.number().int().positive().optional() }),
   component: NovelRoute,
 })
