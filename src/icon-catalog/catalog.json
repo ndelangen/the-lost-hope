@@ -121961,6 +121961,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/cursed-star.html",
       "usedIn": [
+        "src/components/deck-card-face.tsx",
         "src/data/effects/cassian-s-unidentified-curse.ts",
         "src/lib/effect-icons.tsx",
         "src/lib/encounter-combat.test.ts"
@@ -155894,7 +155895,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/heart-shield.html",
       "usedIn": [
-        "src/data/effects/protection-against-death.ts",
+        "src/data/effects/omen.ts",
         "src/lib/effect-icons.tsx"
       ]
     },
@@ -164633,10 +164634,12 @@
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/jester-hat.html",
       "usedIn": [
+        "src/components/deck-card-face.tsx",
         "src/data/npcs/onana-tempest.ts",
         "src/data/pcs/auren.ts",
         "src/data/pcs/cassian-veyl.ts",
-        "src/lib/ability-icons.tsx"
+        "src/lib/ability-icons.tsx",
+        "src/lib/card-icons.tsx"
       ]
     },
     {
@@ -165928,7 +165931,10 @@
       "classificationReason": "Manually classified as useful from the /_icons review page.",
       "duplicateOf": "lucide/Key",
       "sourceUrl": "https://game-icons.net/1x1/lorc/key.html",
-      "usedIn": []
+      "usedIn": [
+        "src/components/deck-card-face.tsx",
+        "src/lib/card-icons.tsx"
+      ]
     },
     {
       "id": "gi/GiKeyboard",
@@ -208887,11 +208893,13 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/scales.html",
       "usedIn": [
+        "src/components/deck-card-face.tsx",
         "src/data/events/n2-e034.ts",
         "src/data/events/n2-e173.ts",
         "src/data/events/n2-e188.ts",
         "src/data/events/n2-e219.ts",
         "src/data/items/rare-dragon-scales.ts",
+        "src/lib/card-icons.tsx",
         "src/lib/event-icons.tsx",
         "src/lib/item-icons.tsx"
       ]
@@ -289303,7 +289311,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/layers",
-      "usedIn": []
+      "usedIn": [
+        "src/components/dm/dm-quick-links.tsx"
+      ]
     },
     {
       "id": "lucide/Layers2",
@@ -302388,7 +302398,8 @@
         "src/components/dm/encounter/hp-control.tsx",
         "src/components/dm/encounter/preset-buttons.tsx",
         "src/components/dm/encounter/preset-picker.tsx",
-        "src/components/dm/party-tokens.tsx"
+        "src/components/dm/party-tokens.tsx",
+        "src/routes/dm/tools/deck-of-many-things.tsx"
       ]
     },
     {
@@ -304475,7 +304486,8 @@
         "src/components/dm/npc-portrait-status.tsx",
         "src/components/dm/scene-script.tsx",
         "src/components/player-screen/grid-controls.tsx",
-        "src/components/player-screen/player-screen-dock.tsx"
+        "src/components/player-screen/player-screen-dock.tsx",
+        "src/routes/dm/tools/deck-of-many-things.tsx"
       ]
     },
     {
@@ -315568,7 +315580,10 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/square-stack",
-      "usedIn": []
+      "usedIn": [
+        "src/components/campaign-shell/sidebar-data.ts",
+        "src/lib/entity-kind-visuals.ts"
+      ]
     },
     {
       "id": "lucide/SquareStar",
@@ -316058,7 +316073,10 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/star",
-      "usedIn": []
+      "usedIn": [
+        "src/components/deck-card-face.tsx",
+        "src/lib/card-icons.tsx"
+      ]
     },
     {
       "id": "lucide/StarCheck",
@@ -319194,7 +319212,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/thumbs-down",
-      "usedIn": []
+      "usedIn": [
+        "src/routes/dm/tools/deck-of-many-things.tsx"
+      ]
     },
     {
       "id": "lucide/ThumbsUp",
@@ -319217,7 +319237,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/thumbs-up",
-      "usedIn": []
+      "usedIn": [
+        "src/routes/dm/tools/deck-of-many-things.tsx"
+      ]
     },
     {
       "id": "lucide/Ticket",
@@ -325019,7 +325041,8 @@
         "src/components/image-viewer.tsx",
         "src/components/player-screen/player-screen-dock.tsx",
         "src/components/player-screen/pointing-view.tsx",
-        "src/routes/dm/scenes/$slug.tsx"
+        "src/routes/dm/scenes/$slug.tsx",
+        "src/routes/dm/tools/deck-of-many-things.tsx"
       ]
     },
     {
