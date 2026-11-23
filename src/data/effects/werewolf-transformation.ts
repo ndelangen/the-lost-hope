@@ -5,7 +5,7 @@ export default createEffect({
   name: 'Werewolf Transformation',
   icon: 'gi/GiWerewolf',
   on: [refs.pcs.cassian_veyl],
-  cause: refs.items.wolfie_tracking_ring,
+  cause: refs.items.ring_of_hunger,
   began: refs.events.n2_e111,
   rules: [
     [

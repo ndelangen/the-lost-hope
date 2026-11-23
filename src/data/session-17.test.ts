@@ -39,10 +39,10 @@ describe('Session 17 transcript import', () => {
   })
 
   it('keeps the artifact ring bound but no longer carried', () => {
-    expect(items.wolfie_tracking_ring.currentOwner).toEqual(refs.pcs.cassian_veyl)
-    expect(items.wolfie_tracking_ring.carriedBy).toBeNull()
-    expect(events.n2_e192.notes.flat()).toContainEqual(refs.items.wolfie_tracking_ring)
-    expect(events.n2_e204.notes.flat()).toContainEqual(refs.items.wolfie_tracking_ring)
+    expect(items.ring_of_hunger.currentOwner).toEqual(refs.pcs.cassian_veyl)
+    expect(items.ring_of_hunger.carriedBy).toBeNull()
+    expect(events.n2_e192.notes.flat()).toContainEqual(refs.items.ring_of_hunger)
+    expect(events.n2_e204.notes.flat()).toContainEqual(refs.items.ring_of_hunger)
   })
 
   it("credits the roulette trick to Cassian and Swift, and removes Jim's lost amulet", () => {

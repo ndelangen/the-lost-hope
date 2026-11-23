@@ -16,7 +16,7 @@ export default createEvent({
       ' could converse with him too. ',
       refs.beasts.wolfie,
       ' had not simply vanished or reverted after the ',
-      refs.items.wolfie_tracking_ring,
+      refs.items.ring_of_hunger,
       ' disappeared.',
     ],
     [

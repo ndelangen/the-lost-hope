@@ -29,7 +29,7 @@ export default createEvent({
       ' also gave ',
       refs.pcs.cassian_veyl,
       ' the ',
-      refs.items.wolfie_tracking_ring,
+      refs.items.ring_of_hunger,
       '.',
     ],
   ],

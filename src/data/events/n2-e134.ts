@@ -11,7 +11,7 @@ export default createEvent({
       'Research in the ',
       refs.locations.gruumsh_temple_library,
       ' made clear that the ',
-      refs.items.wolfie_tracking_ring,
+      refs.items.ring_of_hunger,
       ' was causing ',
       refs.pcs.cassian_veyl,
       '’s ',

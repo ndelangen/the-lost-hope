@@ -22,7 +22,7 @@ export default createEvent({
       ', where the feast in progress left the room covered in blood and entrails.',
     ],
     [
-      refs.items.wolfie_tracking_ring,
+      refs.items.ring_of_hunger,
       ' left ',
       refs.pcs.cassian_veyl,
       ' intensely hungry despite having eaten heavily earlier. He preferred raw meat and could identify different animals by the scent of their blood.',

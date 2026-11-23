@@ -359,7 +359,7 @@ describe('items', () => {
     expect(items.shadow_sword.currentOwner).toEqual(refs.pcs.swift_starblade)
     expect(items.shadow_sword.notes?.flat()).toContainEqual(refs.items.cursed_shadow_sword)
     expect(events.n2_e162.notes.flat()).toContainEqual(refs.items.shadow_sword)
-    expect(items.wolfie_tracking_ring.notes?.flat()).toContainEqual(
+    expect(items.ring_of_hunger.notes?.flat()).toContainEqual(
       refs.effects.werewolf_transformation,
     )
     expect(quests.the_cursed_sword.clues.flat()).toContainEqual(refs.events.n2_e132)
@@ -1050,17 +1050,17 @@ describe('campaign chronology', () => {
       [events.n2_e131, refs.events.n2_e105],
       [events.n2_e131, refs.pcs.cassian_veyl],
       [events.n2_e131, refs.npcs.gruumsh_high_priest],
-      [events.n2_e131, refs.items.wolfie_tracking_ring],
+      [events.n2_e131, refs.items.ring_of_hunger],
       [events.n2_e132, refs.events.n2_e105],
       [events.n2_e132, refs.pcs.jim],
       [events.n2_e132, refs.npcs.gruumsh_high_priest],
       [events.n2_e132, refs.items.cursed_shadow_sword],
       [events.n2_e133, refs.pcs.cassian_veyl],
       [events.n2_e133, refs.npcs.gruumsh_high_priest],
-      [events.n2_e133, refs.items.wolfie_tracking_ring],
+      [events.n2_e133, refs.items.ring_of_hunger],
       [events.n2_e134, refs.pcs.cassian_veyl],
       [events.n2_e134, refs.beasts.wolfie],
-      [events.n2_e134, refs.items.wolfie_tracking_ring],
+      [events.n2_e134, refs.items.ring_of_hunger],
     ] as const
 
     for (const [event, reference] of expectedReferences) {

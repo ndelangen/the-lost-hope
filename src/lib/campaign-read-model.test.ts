@@ -92,7 +92,7 @@ describe('campaign read model', () => {
     const visibleResults = searchEntities('ring', 20)
 
     expect(visibleResults.map((entity) => `${entity.kind}:${entity.slug}`)).toContain(
-      'item:wolfie-tracking-ring',
+      'item:ring-of-hunger',
     )
   })
 })

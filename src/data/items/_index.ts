@@ -42,6 +42,7 @@ import rainbow_in_the_dark from './rainbow-in-the-dark.ts'
 import raining_blood from './raining-blood.ts'
 import rare_dragon_scales from './rare-dragon-scales.ts'
 import ride_the_lightning from './ride-the-lightning.ts'
+import ring_of_hunger from './ring-of-hunger.ts'
 import ring_of_spell_storing from './ring-of-spell-storing.ts'
 import robertos_map_pages from './robertos-map-pages.ts'
 import screaming_for_vengeance from './screaming-for-vengeance.ts'
@@ -58,7 +59,6 @@ import symphony_of_destruction from './symphony-of-destruction.ts'
 import uprising from './uprising.ts'
 import wild_eyes from './wild-eyes.ts'
 import will_of_the_people from './will-of-the-people.ts'
-import wolfie_tracking_ring from './wolfie-tracking-ring.ts'
 
 export default {
   nimbus_casino_vip_card,
@@ -122,5 +122,5 @@ export default {
   steve_mace_of_returning,
   steve_the_interrogation_rock,
   swifts_silver_container,
-  wolfie_tracking_ring,
+  ring_of_hunger,
 }

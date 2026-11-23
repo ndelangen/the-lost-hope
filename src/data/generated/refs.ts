@@ -599,7 +599,7 @@ export const refs = {
     steve_mace_of_returning: ref('item', 'steve_mace_of_returning'),
     steve_the_interrogation_rock: ref('item', 'steve_the_interrogation_rock'),
     swifts_silver_container: ref('item', 'swifts_silver_container'),
-    wolfie_tracking_ring: ref('item', 'wolfie_tracking_ring'),
+    ring_of_hunger: ref('item', 'ring_of_hunger'),
   },
   effects: {
     severed_bond_with_jim: ref('effect', 'severed_bond_with_jim'),

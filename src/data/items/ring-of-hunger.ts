@@ -2,14 +2,14 @@ import { refs } from '#/data/generated/refs.ts'
 import { create as createItem } from '#/definitions/item.ts'
 
 export default createItem({
-  name: 'Wolfie-Tracking Ring',
+  name: 'Ring of Hunger',
   icon: 'fa/FaRing',
   currentOwner: refs.pcs.cassian_veyl,
   carriedBy: null,
   craftedBy: null,
   notes: [
     [
-      'An otherwise unnamed ring from ',
+      'A ring from ',
       refs.npcs.bob_the_merchant,
       ' that lets its wearer locate ',
       refs.beasts.wolfie,
@@ -18,7 +18,7 @@ export default createItem({
       '.',
     ],
     [
-      'Its card calls it the Ring of Hunger: rare, cursed, requires attunement. Once attuned it sinks into the wearer’s flesh and cannot be removed normally; Remove Curse suppresses it for 24 hours but does not destroy it. The wearer always feels hungry, which is roleplay only.',
+      'Rare, cursed, requires attunement. Once attuned it sinks into the wearer’s flesh and cannot be removed normally; Remove Curse suppresses it for 24 hours but does not destroy it. The wearer always feels hungry, which is roleplay only.',
     ],
     [
       'Feeding the Wolf: once per turn, when the wearer reduces a creature to 0 ',

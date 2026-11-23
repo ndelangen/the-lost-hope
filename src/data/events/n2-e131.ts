@@ -29,7 +29,7 @@ export default createEvent({
     [
       refs.npcs.gruumsh_high_priest,
       ' could not remove the hunger caused by the ',
-      refs.items.wolfie_tracking_ring,
+      refs.items.ring_of_hunger,
       ', because his ',
       refs.effects.werewolf_transformation,
       ' is not a curse.',

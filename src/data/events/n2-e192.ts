@@ -16,7 +16,7 @@ export default createEvent({
     ],
     [
       'The ',
-      refs.items.wolfie_tracking_ring,
+      refs.items.ring_of_hunger,
       ' vanished too. The DM later confirmed it still existed somewhere in the world and remained bound to ',
       refs.pcs.cassian_veyl,
       '. Its disappearance did not establish a cure for his transformation or hunger.',
