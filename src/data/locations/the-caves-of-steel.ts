@@ -26,7 +26,9 @@ export default createLocation({
     [
       'Its ',
       refs.items.caves_of_steel_subship,
-      ' fleet and plenty of its machines and works run on Arcane Dust, so the Caves take deliveries of it regularly.',
+      ' fleet and plenty of its machines and works run on Arcane Dust, so the Caves take deliveries of it regularly. Nobody here has ever taken it as a drug: ',
+      refs.npcs.the_11th_marshal,
+      ' forbids it. They say so if the party asks.',
     ],
     [
       'The name is a nod to Asimov’s novel The Caves of Steel, as the laws are to his Three Laws of Robotics.',
