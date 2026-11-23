@@ -132,6 +132,7 @@ describe('concentration', () => {
   it('sets the save DC to 10 or half the damage', () => {
     expect(concentrationDc(7)).toBe(10)
     expect(concentrationDc(30)).toBe(15)
+    expect(concentrationDc(999)).toBe(30)
   })
 
   it('marks and clears concentration', () => {

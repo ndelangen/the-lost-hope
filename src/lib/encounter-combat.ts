@@ -201,9 +201,9 @@ export function applyTurnBoundary<V extends Values>(
 
 // --- Concentration ------------------------------------------------------------------------------
 
-/** Concentration save DC after taking damage: 10 or half the damage, whichever is higher. */
+/** Concentration save DC after taking damage: 10 or half the damage, whichever is higher, up to 30. */
 export function concentrationDc(damage: number) {
-  return Math.max(10, Math.floor(damage / 2))
+  return Math.min(30, Math.max(10, Math.floor(damage / 2)))
 }
 
 // --- Death saves --------------------------------------------------------------------------------

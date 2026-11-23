@@ -64,6 +64,26 @@ export function CombatantPanel({
       counts[abilityKey(ability.timing, ability.name)]?.uses,
     ]),
   )
+  const openKey = open ? abilityKey(open.timing, open.name) : undefined
+  const openCount = openKey ? counts[openKey] : undefined
+  const detail =
+    open && openKey ? (
+      <AbilityDetail
+        title={open.name}
+        ability={open}
+        uses={
+          openCount && {
+            count: openCount,
+            onUse: () => actions.use(openKey, openCount),
+            onRecharge: () => actions.recharge(openKey, openCount),
+            onSetUses: (value) => actions.setUses(openKey, 'uses', value),
+            onSetMaxUses: (value) => actions.setUses(openKey, 'maxUses', value),
+          }
+        }
+        block={block!}
+        describe={describeReferences(stats!, block!, counts, actions.use)}
+      />
+    ) : null
   return (
     <section
       aria-labelledby="combatant-heading"
@@ -165,30 +185,8 @@ export function CombatantPanel({
               const ability = abilities.find((candidate) => candidate.key === entry.key)
               if (ability) actions.toggleAbility(abilityKey(ability.timing, ability.name))
             }}
+            detail={detail}
           />
-          {open
-            ? (() => {
-                const key = abilityKey(open.timing, open.name)
-                const count = counts[key]
-                return (
-                  <AbilityDetail
-                    title={open.name}
-                    ability={open}
-                    uses={
-                      count && {
-                        count,
-                        onUse: () => actions.use(key, count),
-                        onRecharge: () => actions.recharge(key, count),
-                        onSetUses: (value) => actions.setUses(key, 'uses', value),
-                        onSetMaxUses: (value) => actions.setUses(key, 'maxUses', value),
-                      }
-                    }
-                    block={block!}
-                    describe={describeReferences(stats!, block!, counts, actions.use)}
-                  />
-                )
-              })()
-            : null}
         </div>
       ) : null}
 

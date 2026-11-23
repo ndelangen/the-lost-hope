@@ -18,6 +18,16 @@ import {
 } from './actions.ts'
 import { cone, cube, emanation, half_damage, line, sphere } from './areas.ts'
 import {
+  exhaustion,
+  expertise,
+  heroic_inspiration,
+  hit_point_dice,
+  pact_magic,
+  spell_slot,
+  stable,
+  temporary_hit_points,
+} from './characters.ts'
+import {
   advantage,
   armor_class,
   attack_roll,
@@ -251,4 +261,12 @@ export default {
   radiant,
   slashing,
   thunder,
+  temporary_hit_points,
+  exhaustion,
+  heroic_inspiration,
+  spell_slot,
+  pact_magic,
+  hit_point_dice,
+  expertise,
+  stable,
 }

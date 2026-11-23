@@ -870,6 +870,14 @@ export const refs = {
     radiant: ref('rule', 'radiant'),
     slashing: ref('rule', 'slashing'),
     thunder: ref('rule', 'thunder'),
+    temporary_hit_points: ref('rule', 'temporary_hit_points'),
+    exhaustion: ref('rule', 'exhaustion'),
+    heroic_inspiration: ref('rule', 'heroic_inspiration'),
+    spell_slot: ref('rule', 'spell_slot'),
+    pact_magic: ref('rule', 'pact_magic'),
+    hit_point_dice: ref('rule', 'hit_point_dice'),
+    expertise: ref('rule', 'expertise'),
+    stable: ref('rule', 'stable'),
   },
 } as const
 

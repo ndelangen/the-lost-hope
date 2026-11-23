@@ -22,6 +22,8 @@ export default createPC({
     ac: 21,
     armor: 'plate +1, shield',
     maxHp: 60,
+    hitDice: ['5d10'],
+    spellSlots: [4, 2],
     speed: { walk: 30 },
     scores: { str: 18, dex: 14, con: 14, int: 12, wis: 14, cha: 15 },
     saves: { wis: 'proficient', cha: 'proficient' },
@@ -40,9 +42,9 @@ export default createPC({
         timing: 'trait',
         icon: 'gi/GiBreakingChain',
         text: [
-          'When he drops to 0 ',
+          'When you drop to 0 ',
           refs.rules.hit_points,
-          ' but is not killed, he drops to 1 instead.',
+          ' but are not killed, you drop to 1 instead.',
         ],
         uses: 1,
         recharge: 'Long rest',
@@ -55,7 +57,7 @@ export default createPC({
         text: [
           'On a ',
           refs.rules.critical_hit,
-          ' with a weapon, he rolls one of its damage dice one more time and adds it.',
+          ' with a weapon, you roll one of its damage dice one more time and add it.',
         ],
       },
       {
@@ -65,7 +67,7 @@ export default createPC({
         icon: 'gi/GiPowerLightning',
         intent: 'damage',
         text: [
-          'He attacks twice when he takes the Attack action: two ',
+          'You attack twice when you take the Attack action: two ',
           { ability: 'mace-of-returning' },
           ' attacks.',
         ],
@@ -87,7 +89,7 @@ export default createPC({
           refs.rules.resistance,
           ' and ',
           refs.rules.immunity,
-          ' to nonmagical attacks. He can throw it instead (range 20/60 ft., same bonus and damage); it returns to his hand right after, hit or miss, and he can’t throw it again until the start of his next turn.',
+          ' to nonmagical attacks. You can throw it instead (range 20/60 ft., same bonus and damage); it returns to your hand right after, hit or miss, and you can’t throw it again until the start of your next turn.',
         ],
       },
       {
@@ -102,7 +104,7 @@ export default createPC({
           damage: [{ dice: '1d8', type: refs.rules.bludgeoning, addModifier: true }],
         },
         text: [
-          'Push: he can push a Large or smaller target up to 10 ft. straight away from him. Two-handed it deals 1d10 instead.',
+          'Push: you can push a Large or smaller target up to 10 ft. straight away from you. Two-handed it deals 1d10 instead.',
         ],
       },
       {
@@ -119,7 +121,7 @@ export default createPC({
         text: [
           'Sap: the target has ',
           refs.rules.disadvantage,
-          ' on its next attack roll before the start of his next turn.',
+          ' on its next attack roll before the start of your next turn.',
         ],
       },
       {
@@ -134,7 +136,7 @@ export default createPC({
           range: [30, 120],
           damage: [{ dice: '1d6', type: refs.rules.piercing, addModifier: true }],
         },
-        text: ['He carries seven.'],
+        text: ['You carry seven.'],
       },
       {
         key: 'spellcasting',
@@ -142,9 +144,9 @@ export default createPC({
         timing: 'trait',
         icon: 'gi/GiHolySymbol',
         text: [
-          'He casts paladin spells with Charisma (save ',
+          'You cast paladin spells with Charisma (save ',
           { dc: 'cha' },
-          '). Spell slots: 1st ×4, 2nd ×2. No oath chosen yet, so he has no oath spells.',
+          '). No oath chosen yet, so you have no oath spells.',
         ],
       },
       {
@@ -154,9 +156,9 @@ export default createPC({
         icon: 'gi/GiSunbeams',
         intent: 'damage',
         text: [
-          'Right after he hits with a melee weapon, he spends a spell slot: the target takes an extra 2d8 ',
+          'Right after you hit with a melee weapon, you spend a spell slot: the target takes an extra 2d8 ',
           refs.rules.radiant,
-          ' damage, 3d8 with a 2nd-level slot, plus 1d8 against a Fiend or Undead. Once per long rest he can do it without a slot.',
+          ' damage, 3d8 with a 2nd-level slot, plus 1d8 against a Fiend or Undead. Once per long rest you can do it without a slot.',
         ],
       },
       {
@@ -166,12 +168,14 @@ export default createPC({
         icon: 'gi/GiHealing',
         intent: 'healing',
         text: [
-          'He touches a creature, himself included, and restores ',
+          'You touch a creature, yourself included, and restore ',
           refs.rules.hit_points,
-          ' from a pool of 25 that refills on a long rest. Spending 5 from the pool ends the ',
+          ' from your pool. Spending 5 from the pool ends the ',
           refs.rules.poisoned,
           ' condition instead.',
         ],
+        pool: 25,
+        recharge: 'Long rest',
       },
       {
         key: 'divine-sense',
@@ -179,7 +183,7 @@ export default createPC({
         timing: 'bonus action',
         icon: 'lucide/Eye',
         text: [
-          'For 10 minutes he knows where every Celestial, Fiend and Undead within 60 ft. is, and any consecrated or desecrated place.',
+          'For 10 minutes you know where every Celestial, Fiend and Undead within 60 ft. is, and any consecrated or desecrated place.',
         ],
         uses: 2,
         recharge: 'Long rest; one comes back on a short rest',
@@ -189,7 +193,7 @@ export default createPC({
         name: 'Find Steed',
         timing: 'action',
         icon: 'gi/GiWingfoot',
-        text: ['He summons his otherworldly steed. Once per long rest without a slot.'],
+        text: ['You summon your otherworldly steed. Once per long rest without a slot.'],
       },
     ],
   },

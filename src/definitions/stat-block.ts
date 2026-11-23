@@ -182,6 +182,12 @@ const Ability = z.strictObject({
     .positive()
     .optional()
     .describe('Uses before the ability needs recharging. Omit for unlimited use.'),
+  pool: z
+    .number()
+    .int()
+    .positive()
+    .optional()
+    .describe('Points spent a few at a time instead of whole uses, e.g. Lay on Hands’ 25'),
   recharge: z
     .string()
     .optional()
@@ -320,6 +326,9 @@ export const StatBlock = z
   })
   .superRefine(checkAbilities)
 
+/** How a PC's limited abilities say which rest refills them. */
+export const REST_RECHARGE = /^(Short rest|Long rest(; one comes back on a short rest)?)$/
+
 /**
  * DM-only statistics for a PC, copied from the player's character sheet: every attack, spell,
  * feature and trait written out as an ability, so the encounter runs a PC like any creature. The
@@ -329,8 +338,36 @@ export const PcStatBlock = z
   .strictObject({
     ...statCore,
     maxHp: z.number().int().positive().describe('Hit point maximum from the character sheet'),
+    hitDice: z
+      .array(z.string().regex(/^\d+d(6|8|10|12)$/, 'Use hit dice like `5d10`'))
+      .min(1)
+      .optional()
+      .describe("Hit Point Dice, one entry per die size: `['3d8', '2d6']` for a multiclass"),
+    spellSlots: z
+      .array(z.number().int().nonnegative())
+      .min(1)
+      .max(9)
+      .optional()
+      .describe('Spell slots by level, 1st first: `[4, 2]` is four 1st-level and two 2nd-level'),
+    pactSlots: z
+      .strictObject({
+        level: z.number().int().min(1).max(5),
+        count: z.number().int().positive(),
+      })
+      .optional()
+      .describe('Pact Magic slots, all of one level, back on a short rest'),
   })
   .superRefine(checkAbilities)
+  .superRefine((block, context) => {
+    // A player's rests refill these, so the sheet must say which rest brings each one back.
+    for (const ability of block.abilities) {
+      if ((ability.uses || ability.pool) && !REST_RECHARGE.test(ability.recharge ?? ''))
+        context.addIssue({
+          code: 'custom',
+          message: `${ability.name}: a PC's limited ability recharges on \`Short rest\`, \`Long rest\`, or \`Long rest; one comes back on a short rest\``,
+        })
+    }
+  })
 
 export type PcStatBlock = z.infer<typeof PcStatBlock>
 

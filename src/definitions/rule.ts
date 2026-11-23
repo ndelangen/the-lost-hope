@@ -10,6 +10,7 @@ export const RULE_CATEGORIES = {
   area: 'Area of effect',
   statBlock: 'Stat block',
   rest: 'Rest',
+  character: 'Character',
   ability: 'Ability',
   skill: 'Skill',
   sense: 'Sense',

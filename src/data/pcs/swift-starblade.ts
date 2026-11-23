@@ -17,6 +17,8 @@ export default createPC({
     ac: 17,
     armor: 'studded leather',
     maxHp: 28,
+    hitDice: ['5d8'],
+    spellSlots: [3],
     speed: { walk: 30 },
     scores: { str: 12, dex: 16, con: 10, int: 10, wis: 12, cha: 16 },
     saves: { dex: 'proficient', int: 'proficient' },
@@ -39,11 +41,11 @@ export default createPC({
         icon: 'gi/GiDaggerRose',
         intent: 'damage',
         text: [
-          'Once per turn, an extra 3d6 damage when he hits with a finesse or ranged weapon and has ',
+          'Once per turn, an extra 3d6 damage when you hit with a finesse or ranged weapon and have ',
           refs.rules.advantage,
           ', or when an ally who is not ',
           refs.rules.incapacitated,
-          ' is within 5 ft. of the target and he has no ',
+          ' is within 5 ft. of the target and you have no ',
           refs.rules.disadvantage,
           '.',
         ],
@@ -54,9 +56,9 @@ export default createPC({
         timing: 'trait',
         icon: 'gi/GiFootTrip',
         text: [
-          'When he deals Sneak Attack damage he can give up 1d6 of it for one effect: Trip (a Large or smaller target makes a Dexterity save against DC 14 or falls ',
+          'When you deal Sneak Attack damage you can give up 1d6 of it for one effect: Trip (a Large or smaller target makes a Dexterity save against DC 14 or falls ',
           refs.rules.prone,
-          '), Withdraw (he moves half his speed without provoking), or Poison (needs a poisoner’s kit).',
+          '), Withdraw (you move half your speed without provoking), or Poison (needs a poisoner’s kit).',
         ],
       },
       {
@@ -65,11 +67,11 @@ export default createPC({
         timing: 'trait',
         icon: 'gi/GiCharm',
         text: [
-          'He has ',
+          'You have ',
           refs.rules.advantage,
           ' on saves against being ',
           refs.rules.charmed,
-          ', and magic can’t put him to sleep.',
+          ', and magic can’t put you to sleep.',
         ],
       },
       {
@@ -78,11 +80,11 @@ export default createPC({
         timing: 'trait',
         icon: 'gi/GiCardRandom',
         text: [
-          'He spends a Luck Point to give himself ',
+          'You spend a Luck Point to give yourself ',
           refs.rules.advantage,
           ' on a d20 test, or to give an attacker ',
           refs.rules.disadvantage,
-          ' on an attack roll against him.',
+          ' on an attack roll against you.',
         ],
         uses: 3,
         recharge: 'Long rest',
@@ -92,11 +94,7 @@ export default createPC({
         name: 'Spellcasting',
         timing: 'trait',
         icon: 'gi/GiWizardStaff',
-        text: [
-          'Arcane Trickster: he casts with Intelligence (save ',
-          { dc: 'int' },
-          '). Spell slots: 1st ×3.',
-        ],
+        text: ['Arcane Trickster: you cast with Intelligence (save ', { dc: 'int' }, ').'],
       },
       {
         key: 'rapier',
@@ -110,9 +108,9 @@ export default createPC({
           damage: [{ dice: '1d8', type: refs.rules.piercing, addModifier: true }],
         },
         text: [
-          'Vex: after a hit he has ',
+          'Vex: after a hit you have ',
           refs.rules.advantage,
-          ' on his next attack against that target before the end of his next turn.',
+          ' on your next attack against that target before the end of your next turn.',
         ],
       },
       {
@@ -127,7 +125,9 @@ export default createPC({
           range: [20, 60],
           damage: [{ dice: '1d4', type: refs.rules.piercing, addModifier: true }],
         },
-        text: ['He carries two. His longbow is not a weapon he is trained with (+3 on his sheet).'],
+        text: [
+          'You carry two. Your longbow is not a weapon you are trained with (+3 on your sheet).',
+        ],
       },
       {
         key: 'catapult',
@@ -141,7 +141,7 @@ export default createPC({
           target: { creatures: 1, range: 60 },
           onFail: { damage: [{ dice: '3d8', type: refs.rules.bludgeoning }] },
         },
-        text: ['He hurls an object of up to 5 lb. Uses a 1st-level slot.'],
+        text: ['You hurl an object of up to 5 lb. Uses a 1st-level slot.'],
       },
       {
         key: 'magic-missile',
@@ -187,7 +187,7 @@ export default createPC({
         name: 'Cunning Action',
         timing: 'bonus action',
         icon: 'gi/GiWingfoot',
-        text: ['He takes the Dash, Disengage or Hide action.'],
+        text: ['You take the Dash, Disengage or Hide action.'],
       },
       {
         key: 'steady-aim',
@@ -195,9 +195,9 @@ export default createPC({
         timing: 'bonus action',
         icon: 'lucide/Target',
         text: [
-          'If he hasn’t moved this turn, he has ',
+          'If you haven’t moved this turn, you have ',
           refs.rules.advantage,
-          ' on his next attack this turn; his speed is then 0 until the end of the turn.',
+          ' on your next attack this turn; your speed is then 0 until the end of the turn.',
         ],
       },
       {
@@ -206,7 +206,7 @@ export default createPC({
         timing: 'bonus action',
         icon: 'lucide/Grip',
         text: [
-          'An invisible spectral hand within 30 ft. that he controls with a bonus action, also for Sleight of Hand.',
+          'An invisible spectral hand within 30 ft. that you control with a bonus action, also for Sleight of Hand.',
         ],
       },
       {
@@ -214,7 +214,7 @@ export default createPC({
         name: 'Uncanny Dodge',
         timing: 'reaction',
         icon: 'gi/GiWindHole',
-        text: ['When an attacker he can see hits him, he halves the damage.'],
+        text: ['When an attacker you can see hits you, you halve the damage.'],
       },
       {
         key: 'shield',
@@ -222,7 +222,7 @@ export default createPC({
         timing: 'reaction',
         icon: 'lucide/Shield',
         text: [
-          'When he is hit or targeted by Magic Missile, +5 AC until the start of his next turn, and Magic Missile does nothing to him. Uses a 1st-level slot.',
+          'When you are hit or targeted by Magic Missile, +5 AC until the start of your next turn, and Magic Missile does nothing to you. Uses a 1st-level slot.',
         ],
       },
     ],

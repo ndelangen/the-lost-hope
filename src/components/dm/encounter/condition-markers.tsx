@@ -42,6 +42,7 @@ export function ConditionMarkers({
     <span className="flex flex-wrap items-center gap-1">
       {concentration ? (
         <HoverPreview
+          interactive
           content={
             <>
               <strong>Concentrating{concentration.on ? ` on ${concentration.on}` : ''}</strong>
@@ -151,7 +152,7 @@ export function ConditionBadges({
         <span
           key={effect.name}
           title={effect.name}
-          className={cn(badge, 'bg-sky-500/15 text-sky-800 dark:text-sky-300')}
+          className={cn(badge, 'bg-teal-500/15 text-teal-800 dark:text-teal-300')}
         >
           <EffectIcon icon={effect.icon} />
           <span className="sr-only">{effect.name}</span>
@@ -196,6 +197,7 @@ export function EffectMarkers({
       {effects.map((effect) => (
         <HoverPreview
           key={effect.name}
+          interactive
           content={
             <>
               <strong>{effect.name}</strong>
@@ -206,7 +208,7 @@ export function EffectMarkers({
           <button
             type="button"
             className={cn(
-              'inline-flex items-center gap-1 rounded-md border border-sky-500/40 bg-sky-500/10 font-medium text-sky-800 outline-none focus-visible:ring-3 focus-visible:ring-ring/50 dark:text-sky-300',
+              'inline-flex items-center gap-1 rounded-md border border-teal-500/40 bg-teal-500/10 font-medium text-teal-800 outline-none focus-visible:ring-3 focus-visible:ring-ring/50 dark:text-teal-300',
               focus ? 'h-8 px-2 text-sm [&_svg]:size-4' : 'h-6 px-1.5 text-xs [&_svg]:size-3.5',
             )}
           >

@@ -29,6 +29,7 @@ export default createPC({
     ac: 14,
     armor: 'leather',
     maxHp: 32,
+    spellSlots: [4, 3, 2],
     speed: { walk: 30 },
     scores: { str: 10, dex: 16, con: 12, int: 12, wis: 10, cha: 16 },
     saves: { dex: 'proficient', cha: 'proficient' },
@@ -47,9 +48,9 @@ export default createPC({
         timing: 'trait',
         icon: 'gi/GiMusicalNotes',
         text: [
-          'He casts bard and sorcerer spells with Charisma (save ',
+          'You cast bard and sorcerer spells with Charisma (save ',
           { dc: 'cha' },
-          '). Spell slots: 1st ×4, 2nd ×3, 3rd ×2. Disguise Self once per long rest without a slot (Magic Initiate).',
+          '). Disguise Self once per long rest without a slot (Magic Initiate).',
         ],
       },
       {
@@ -58,7 +59,7 @@ export default createPC({
         timing: 'trait',
         icon: 'gi/GiHourglass',
         text: [
-          'He adds his proficiency bonus to initiative, and right after rolling he can swap initiative with a willing ally.',
+          'You add your proficiency bonus to initiative, and right after rolling you can swap initiative with a willing ally.',
         ],
       },
       {
@@ -66,7 +67,7 @@ export default createPC({
         name: 'Jack of All Trades',
         timing: 'trait',
         icon: 'gi/GiCardRandom',
-        text: ['He adds 1 to ability checks with skills he is not proficient in.'],
+        text: ['You add 1 to ability checks with skills you are not proficient in.'],
       },
       {
         key: 'dagger',
@@ -79,7 +80,7 @@ export default createPC({
           ability: 'dex',
           damage: [{ dice: '1d4', type: refs.rules.piercing, addModifier: true }],
         },
-        text: ['Thrown 20/60 ft. He carries four, and the Dagger of Passive Aggression.'],
+        text: ['Thrown 20/60 ft. You carry four, and the Dagger of Passive Aggression.'],
       },
       {
         key: 'vicious-mockery',
@@ -128,7 +129,7 @@ export default createPC({
         icon: 'gi/GiKnightBanner',
         intent: 'support',
         text: [
-          'A creature he touches can’t be ',
+          'A creature you touch can’t be ',
           refs.rules.frightened,
           ' and gains 3 temporary ',
           refs.rules.hit_points,
@@ -144,7 +145,7 @@ export default createPC({
         icon: 'gi/GiHealingShield',
         intent: 'healing',
         text: [
-          'He gains 2d4 + 4 temporary ',
+          'You gain 2d4 + 4 temporary ',
           refs.rules.hit_points,
           ', 5 more per slot level above 1st.',
         ],
@@ -154,7 +155,7 @@ export default createPC({
         name: 'Disguise Self',
         timing: 'action',
         icon: 'gi/GiDoubleFaceMask',
-        text: ['For 1 hour he and his gear look different, within the same kind of body.'],
+        text: ['For 1 hour you and your gear look different, within the same kind of body.'],
       },
       {
         key: 'friends',
@@ -164,13 +165,13 @@ export default createPC({
         save: {
           ability: 'wis',
           dc: 'cha',
-          target: { creatures: 1, range: 10, which: 'creature that isn’t fighting him' },
+          target: { creatures: 1, range: 10, which: 'creature that isn’t fighting you' },
           onFail: {
             conditions: [refs.rules.charmed],
             also: [
               'For 1 minute (',
               refs.rules.concentration,
-              '), or until he or his allies harm it.',
+              '), or until you or your allies harm it.',
             ],
           },
         },
@@ -189,7 +190,7 @@ export default createPC({
         icon: 'gi/GiAnthem',
         intent: 'support',
         text: [
-          'A creature within 60 ft. that can see or hear him gets a d6. Within the next hour, when it fails a d20 test, it can roll the die and add it.',
+          'A creature within 60 ft. that can see or hear you gets a d6. Within the next hour, when it fails a d20 test, it can roll the die and add it.',
         ],
         uses: 3,
         recharge: 'Long rest',
@@ -200,7 +201,7 @@ export default createPC({
         timing: 'bonus action',
         icon: 'gi/GiMagicSwirl',
         text: [
-          'For 1 minute his sorcerer spells’ save DC is 1 higher and he has ',
+          'For 1 minute your sorcerer spells’ save DC is 1 higher and you have ',
           refs.rules.advantage,
           ' on sorcerer spell attacks.',
         ],
@@ -213,7 +214,7 @@ export default createPC({
         timing: 'reaction',
         icon: 'gi/GiFeather',
         text: [
-          'When he or an ally within 30 ft. rolls a 1 on a d20, he regains one ',
+          'When you or an ally within 30 ft. rolls a 1 on a d20, you regain one ',
           { ability: 'bardic-inspiration' },
           '.',
         ],
@@ -224,7 +225,7 @@ export default createPC({
         timing: 'trait',
         icon: 'gi/GiDeathSkull',
         text: [
-          'Once per short rest, when he or an ally he sees forces a save, he spends a ',
+          'Once per short rest, when you or an ally you see forces a save, you spend a ',
           { ability: 'bardic-inspiration' },
           ' to make it a Charisma save. On a failure the target also takes 1d6 ',
           refs.rules.psychic,

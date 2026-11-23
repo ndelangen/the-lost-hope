@@ -19,6 +19,8 @@ export default createPC({
     ac: 20,
     armor: 'arcane armor (scale mail), shield',
     maxHp: 51,
+    hitDice: ['3d8', '2d6'],
+    spellSlots: [4],
     speed: { walk: 30 },
     scores: { str: 8, dex: 14, con: 16, int: 16, wis: 12, cha: 10 },
     saves: { con: 'proficient', int: 'proficient' },
@@ -37,11 +39,11 @@ export default createPC({
         timing: 'trait',
         icon: 'gi/GiRobotGolem',
         text: [
-          'He has ',
+          'You have ',
           refs.rules.advantage,
           ' on saves against being ',
           refs.rules.poisoned,
-          ', is immune to disease, and magic can’t put him to sleep. He doesn’t eat, drink, breathe or sleep.',
+          ', are immune to disease, and magic can’t put you to sleep. You don’t eat, drink, breathe or sleep.',
         ],
       },
       {
@@ -50,9 +52,9 @@ export default createPC({
         timing: 'trait',
         icon: 'gi/GiMagicPalm',
         text: [
-          'He casts artificer and wizard spells with Intelligence (save ',
+          'You cast artificer and wizard spells with Intelligence (save ',
           { dc: 'int' },
-          '). Spell slots: 1st ×4. Magic Missile and Thunderwave are always prepared; the sheet doesn’t say which others he has ready. Cantrips: Mending, Guidance, Mage Hand, ',
+          '). Magic Missile and Thunderwave are always prepared; the sheet doesn’t say which others you have ready. Cantrips: Mending, Guidance, Mage Hand, ',
           { ability: 'shocking-grasp' },
           ', ',
           { ability: 'booming-blade' },
@@ -71,9 +73,9 @@ export default createPC({
           damage: [{ dice: '1d8', type: refs.rules.thunder, addModifier: true }],
         },
         text: [
-          'A creature he hits has ',
+          'A creature you hit has ',
           refs.rules.disadvantage,
-          ' on attack rolls against anyone but him until the start of his next turn.',
+          ' on attack rolls against anyone but you until the start of your next turn.',
         ],
       },
       {
@@ -88,7 +90,7 @@ export default createPC({
           range: [80, 320],
           damage: [{ dice: '1d8', type: refs.rules.piercing, addModifier: true }],
         },
-        text: ['He carries 20 bolts.'],
+        text: ['You carry 20 bolts.'],
       },
       {
         key: 'shocking-grasp',
@@ -110,11 +112,11 @@ export default createPC({
         icon: 'gi/GiThunderBlade',
         intent: 'damage',
         text: [
-          'He makes a melee weapon attack, such as ',
+          'You make a melee weapon attack, such as ',
           { ability: 'thunder-gauntlets' },
           '. On a hit it takes an extra 1d8 ',
           refs.rules.thunder,
-          ', and if it willingly moves before his next turn it takes 2d8 ',
+          ', and if it willingly moves before your next turn it takes 2d8 ',
           refs.rules.thunder,
           '.',
         ],
@@ -143,7 +145,7 @@ export default createPC({
           target: { area: { shape: refs.rules.cube, size: 15 } },
           onFail: {
             damage: [{ dice: '2d8', type: refs.rules.thunder }],
-            also: ['It is pushed 10 ft. away from him.'],
+            also: ['It is pushed 10 ft. away from you.'],
           },
           onSuccess: 'half',
         },
@@ -215,11 +217,11 @@ export default createPC({
           target: { area: { shape: refs.rules.cube, size: 20 }, range: 90 },
           onFail: {
             conditions: [refs.rules.restrained],
-            also: ['It can spend its action on a Strength check against his DC to break free.'],
+            also: ['It can spend its action on a Strength check against your DC to break free.'],
           },
         },
         text: [
-          'Once per long rest from his runes without a slot, otherwise a 1st-level slot. ',
+          'Once per long rest from your runes without a slot, otherwise a 1st-level slot. ',
           refs.rules.concentration,
           ', up to 1 minute.',
         ],
@@ -231,7 +233,7 @@ export default createPC({
         icon: 'gi/GiHealing',
         intent: 'healing',
         text: [
-          'A creature he touches regains 2d8 + ',
+          'A creature you touch regains 2d8 + ',
           { mod: 'int' },
           ' ',
           refs.rules.hit_points,
@@ -244,9 +246,9 @@ export default createPC({
         timing: 'bonus action',
         icon: 'gi/GiEnergyShield',
         text: [
-          'He gains 3 temporary ',
+          'You gain 3 temporary ',
           refs.rules.hit_points,
-          ', replacing any he has. He loses them if he takes off the armor.',
+          ', replacing any you have. You lose them if you take off the armor.',
         ],
         uses: 3,
         recharge: 'Long rest',
@@ -257,11 +259,11 @@ export default createPC({
         timing: 'bonus action',
         icon: 'gi/GiIceBolt',
         text: [
-          'For 1 hour he has 5 temporary ',
+          'For 1 hour you have 5 temporary ',
           refs.rules.hit_points,
-          '. While they last, a creature that hits him in melee takes 5 ',
+          '. While they last, a creature that hits you in melee takes 5 ',
           refs.rules.cold,
-          ' damage. Once per long rest from his runes without a slot, otherwise a 1st-level slot.',
+          ' damage. Once per long rest from your runes without a slot, otherwise a 1st-level slot.',
         ],
       },
       {
@@ -270,7 +272,7 @@ export default createPC({
         timing: 'reaction',
         icon: 'lucide/Shield',
         text: [
-          'When he is hit or targeted by Magic Missile, +5 AC until the start of his next turn, and Magic Missile does nothing to him. Uses a 1st-level slot.',
+          'When you are hit or targeted by Magic Missile, +5 AC until the start of your next turn, and Magic Missile does nothing to you. Uses a 1st-level slot.',
         ],
       },
       {
@@ -279,7 +281,7 @@ export default createPC({
         timing: 'reaction',
         icon: 'gi/GiShieldReflect',
         text: [
-          'When he takes ',
+          'When you take ',
           refs.rules.acid,
           ', ',
           refs.rules.cold,
@@ -289,7 +291,7 @@ export default createPC({
           refs.rules.lightning,
           ' or ',
           refs.rules.thunder,
-          ' damage, he has resistance to it until the start of his next turn, and his next melee hit deals an extra 1d6 of that type. Uses a 1st-level slot.',
+          ' damage, you have resistance to it until the start of your next turn, and your next melee hit deals an extra 1d6 of that type. Uses a 1st-level slot.',
         ],
       },
     ],

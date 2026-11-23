@@ -36,6 +36,12 @@ const CombatantValues = z.strictObject({
   hp: z.number().int().nonnegative().optional(),
   maxHp: z.number().int().positive().optional(),
   ac: z.number().int().nonnegative().optional(),
+  /** Temporary hit points, which damage uses up first. */
+  temp: z.number().int().positive().optional(),
+  /** Exhaustion level, 1 to 6. Absent when not exhausted. */
+  exhaustion: z.number().int().min(1).max(6).optional(),
+  /** Heroic Inspiration, held until spent. */
+  inspiration: z.boolean().optional(),
   uses: z.record(z.string(), z.number().int().nonnegative()).optional(),
   maxUses: z.record(z.string(), z.number().int().nonnegative()).optional(),
   ...CombatFields,
@@ -55,7 +61,7 @@ const Encounter = z.strictObject({
 
 export type CreatureRef = EntityRef<'npc'> | EntityRef<'beast'>
 export type RosterEntry = z.infer<typeof RosterEntry>
-type CombatantValues = z.infer<typeof CombatantValues>
+export type CombatantValues = z.infer<typeof CombatantValues>
 export type Encounter = z.infer<typeof Encounter>
 
 export const ENCOUNTER_STORAGE_KEY = 'lost-hope:dm-encounter'
@@ -290,14 +296,19 @@ export function addParty(encounter: Encounter, pcs: readonly EntityRef<'pc'>[]):
 
 // --- Live values --------------------------------------------------------------------------------
 
-export type LiveStats = { hp?: number; maxHp?: number; ac?: number }
+export type LiveStats = { hp?: number; maxHp?: number; ac?: number; temp?: number }
 
 /** Starting values from the creature's derived stat block. */
 export type StartingStats = { maxHp?: number; ac?: number }
 
 export function liveStats(start: StartingStats | undefined, saved: CombatantValues | undefined) {
   const maxHp = saved?.maxHp ?? start?.maxHp
-  return { maxHp, hp: saved?.hp ?? maxHp, ac: saved?.ac ?? start?.ac } satisfies LiveStats
+  return {
+    maxHp,
+    hp: saved?.hp ?? maxHp,
+    ac: saved?.ac ?? start?.ac,
+    temp: saved?.temp,
+  } satisfies LiveStats
 }
 
 export function abilityKey(timing: string, name: string) {
@@ -335,17 +346,30 @@ export function setStat(
   return updateValues(encounter, id, (values) => ({ ...values, [field]: value }))
 }
 
-/** Apply damage (negative) or healing (positive). Healing stops at maximum HP. */
+/**
+ * Apply damage (negative) or healing (positive). Damage uses up temporary hit points first;
+ * healing stops at maximum HP.
+ */
 export function adjustHp(
   encounter: Encounter,
   id: string,
   start: StartingStats | undefined,
   delta: number,
 ): Encounter {
-  const { hp, maxHp } = liveStats(start, encounter.values[id])
+  const { hp, maxHp, temp = 0 } = liveStats(start, encounter.values[id])
   if (hp === undefined) return encounter
+  const absorbed = delta < 0 ? Math.min(temp, -delta) : 0
   const ceiling = delta > 0 && maxHp !== undefined ? Math.max(hp, maxHp) : Infinity
-  return setStat(encounter, id, 'hp', Math.max(0, Math.min(ceiling, hp + delta)))
+  const shielded = absorbed ? setTemp(encounter, id, temp - absorbed) : encounter
+  return setStat(shielded, id, 'hp', Math.max(0, Math.min(ceiling, hp + delta + absorbed)))
+}
+
+/** Set temporary hit points. They don't stack: a new amount replaces the old one. */
+export function setTemp(encounter: Encounter, id: string, temp: number): Encounter {
+  if (!Number.isInteger(temp) || temp < 0) return encounter
+  return updateValues(encounter, id, ({ temp: _previous, ...values }) =>
+    temp > 0 ? { ...values, temp } : values,
+  )
 }
 
 export function setUses(
@@ -379,6 +403,19 @@ export function recharge(
   count: UseCount,
 ): Encounter {
   return setUses(encounter, id, key, 'uses', count.maxUses)
+}
+
+export function setExhaustion(encounter: Encounter, id: string, level: number): Encounter {
+  const exhaustion = Math.max(0, Math.min(6, Math.trunc(level)))
+  return updateValues(encounter, id, ({ exhaustion: _previous, ...values }) =>
+    exhaustion > 0 ? { ...values, exhaustion } : values,
+  )
+}
+
+export function setInspiration(encounter: Encounter, id: string, held: boolean): Encounter {
+  return updateValues(encounter, id, ({ inspiration: _previous, ...values }) =>
+    held ? { ...values, inspiration: true } : values,
+  )
 }
 
 // --- Conditions, concentration, and 0 HP ---------------------------------------------------------

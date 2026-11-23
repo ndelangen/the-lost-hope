@@ -17,6 +17,8 @@ export default createPC({
     ac: 16,
     armor: 'mage armor',
     maxHp: 43,
+    hitDice: ['5d8'],
+    pactSlots: { level: 3, count: 2 },
     speed: { walk: 30 },
     scores: { str: 8, dex: 15, con: 16, int: 11, wis: 10, cha: 18 },
     saves: { wis: 'proficient', cha: 'proficient' },
@@ -37,9 +39,9 @@ export default createPC({
         timing: 'trait',
         icon: 'gi/GiScrollUnfurled',
         text: [
-          'He casts warlock spells with Charisma (save ',
+          'You cast warlock spells with Charisma (save ',
           { dc: 'cha' },
-          '). Two spell slots, both 3rd level, back on a short rest. Magical Cunning: once per long rest a 1-minute rite brings one slot back. His Book of Shadows (Pact of the Tome) holds Guidance, Mage Hand, Prestidigitation, Comprehend Languages and Detect Magic.',
+          '). Magical Cunning: once per long rest a 1-minute rite brings one pact slot back. Your Book of Shadows (Pact of the Tome) holds Guidance, Mage Hand, Prestidigitation, Comprehend Languages and Detect Magic.',
         ],
       },
       {
@@ -48,7 +50,7 @@ export default createPC({
         timing: 'trait',
         icon: 'gi/GiBrain',
         text: [
-          'He has ',
+          'You have ',
           refs.rules.advantage,
           ' on Constitution saves to keep ',
           refs.rules.concentration,
@@ -61,11 +63,11 @@ export default createPC({
         timing: 'trait',
         icon: 'gi/GiCardRandom',
         text: [
-          'He spends a Luck Point to give himself ',
+          'You spend a Luck Point to give yourself ',
           refs.rules.advantage,
           ' on a d20 test, or to give an attacker ',
           refs.rules.disadvantage,
-          ' on an attack roll against him.',
+          ' on an attack roll against you.',
         ],
         uses: 3,
         recharge: 'Long rest',
@@ -76,7 +78,7 @@ export default createPC({
         timing: 'trait',
         icon: 'lucide/Target',
         text: [
-          'His spell attacks ignore half and three-quarters cover, he has no ',
+          'Your spell attacks ignore half and three-quarters cover, you have no ',
           refs.rules.disadvantage,
           ' casting them next to an enemy, and their range is 60 ft. longer.',
         ],
@@ -109,7 +111,7 @@ export default createPC({
           target: { creatures: 1, range: 60 },
           onFail: {
             damage: [{ dice: '2d6', type: refs.rules.psychic }],
-            also: ['It subtracts 1d4 from its next saving throw before the end of his next turn.'],
+            also: ['It subtracts 1d4 from its next saving throw before the end of your next turn.'],
           },
         },
       },
@@ -121,7 +123,7 @@ export default createPC({
         save: {
           ability: 'con',
           dc: 'cha',
-          target: { creatures: 1, range: 60, which: 'creature he sees casting a spell' },
+          target: { creatures: 1, range: 60, which: 'creature you see casting a spell' },
           onFail: { also: ['The spell fails and the caster keeps its slot.'] },
         },
         text: ['Uses a pact slot.'],
@@ -161,7 +163,7 @@ export default createPC({
           target: { creatures: 1, range: 60 },
           onFail: {
             damage: [{ dice: '5d6', type: refs.rules.psychic }],
-            also: ['It must use its reaction to move as far away from him as it can.'],
+            also: ['It must use its reaction to move as far away from you as it can.'],
           },
           onSuccess: 'half',
         },
@@ -200,7 +202,7 @@ export default createPC({
           target: { creatures: 1, range: 60 },
           onFail: {
             also: [
-              'It believes in an illusion he makes, up to a 10-ft. cube, for up to 1 minute (',
+              'It believes in an illusion you make, up to a 10-ft. cube, for up to 1 minute (',
               refs.rules.concentration,
               '). A harmful one deals 2d8 ',
               refs.rules.psychic,
@@ -222,7 +224,7 @@ export default createPC({
           onFail: {
             conditions: [refs.rules.charmed],
             also: [
-              'It follows one reasonable-sounding course of action he suggests, for up to 8 hours (',
+              'It follows one reasonable-sounding course of action you suggest, for up to 8 hours (',
               refs.rules.concentration,
               ').',
             ],
@@ -238,7 +240,7 @@ export default createPC({
         text: [
           'For up to 1 minute (',
           refs.rules.concentration,
-          ') he reads surface thoughts within 30 ft.; probing deeper takes a Wisdom save against his ',
+          ') you read surface thoughts within 30 ft.; probing deeper takes a Wisdom save against your ',
           { dc: 'cha' },
           '. Uses a pact slot.',
         ],
@@ -249,9 +251,9 @@ export default createPC({
         timing: 'bonus action',
         icon: 'gi/GiIceBolt',
         text: [
-          'For 1 hour he has 15 temporary ',
+          'For 1 hour you have 15 temporary ',
           refs.rules.hit_points,
-          '. While they last, a creature that hits him in melee takes 15 ',
+          '. While they last, a creature that hits you in melee takes 15 ',
           refs.rules.cold,
           ' damage. Uses a pact slot.',
         ],
@@ -266,9 +268,9 @@ export default createPC({
           refs.rules.concentration,
           ') one creature within 90 ft. takes an extra 1d6 ',
           refs.rules.necrotic,
-          ' damage whenever he hits it, and has ',
+          ' damage whenever you hit it, and has ',
           refs.rules.disadvantage,
-          ' on checks with one ability he picks. He can move it to a new target when it drops. Uses a pact slot.',
+          ' on checks with one ability you pick. You can move it to a new target when it drops. Uses a pact slot.',
         ],
       },
       {
@@ -276,7 +278,7 @@ export default createPC({
         name: 'Misty Step',
         timing: 'bonus action',
         icon: 'gi/GiTeleport',
-        text: ['He teleports up to 30 ft. to a space he can see. Uses a pact slot.'],
+        text: ['You teleport up to 30 ft. to a space you can see. Uses a pact slot.'],
       },
       {
         key: 'invisibility',
@@ -284,7 +286,7 @@ export default createPC({
         timing: 'action',
         icon: 'gi/GiInvisible',
         text: [
-          'He and one more creature he touches become ',
+          'You and one more creature you touch become ',
           refs.rules.invisible,
           ' for up to 1 hour (',
           refs.rules.concentration,
@@ -297,7 +299,7 @@ export default createPC({
         timing: 'bonus action',
         icon: 'gi/GiTelepathy',
         text: [
-          'He links minds with one creature he sees within 30 ft.: they can talk telepathically up to 4 miles apart for 5 minutes.',
+          'You link minds with one creature you see within 30 ft.: they can talk telepathically up to 4 miles apart for 5 minutes.',
         ],
       },
       {
@@ -313,7 +315,7 @@ export default createPC({
         timing: 'action',
         icon: 'gi/GiCrystalBall',
         text: [
-          'A 10-minute casting: an invisible sensor up to 1 mile away lets him see or hear there for 10 minutes (',
+          'A 10-minute casting: an invisible sensor up to 1 mile away lets you see or hear there for 10 minutes (',
           refs.rules.concentration,
           '). Uses a pact slot.',
         ],

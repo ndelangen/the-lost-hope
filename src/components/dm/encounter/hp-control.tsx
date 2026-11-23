@@ -1,4 +1,4 @@
-import { HeartPlus, Minus, Plus, Sword } from 'lucide-react'
+import { HeartPlus, Minus, Plus, ShieldPlus, Sword } from 'lucide-react'
 import { useId, useState } from 'react'
 
 import type { LiveStats } from '#/lib/encounter'
@@ -15,12 +15,14 @@ const segment =
 /**
  * Hit points as one unit: a joined [ − | current / max | + ] stepper with an HP bar, plus a quick
  * entry to type an amount and apply it as damage or healing. Current and maximum HP are editable.
+ * With `onTemp`, the typed amount can also become temporary hit points, shown beside the bar.
  */
 export function HpControl({
   name,
   live,
   onAdjust,
   onSet,
+  onTemp,
   quickEntry = true,
   size = 'lg',
 }: {
@@ -28,6 +30,8 @@ export function HpControl({
   live: LiveStats
   onAdjust: (delta: number) => void
   onSet: (field: 'hp' | 'maxHp', value: number) => void
+  /** Set temporary hit points to the typed amount; 0 drops them. */
+  onTemp?: (value: number) => void
   quickEntry?: boolean
   size?: 'md' | 'lg'
 }) {
@@ -140,6 +144,16 @@ export function HpControl({
         ) : (
           <HpBar fraction={fraction} className={density === 'normal' ? 'h-1.5' : 'h-2'} />
         )}
+        {live.temp && onTemp ? (
+          <button
+            type="button"
+            onClick={() => onTemp(0)}
+            aria-label={`Drop the ${live.temp} temporary hit points of ${name}`}
+            className="w-fit rounded-md bg-sky-500/15 px-2 py-0.5 text-sm font-semibold text-sky-700 tabular-nums dark:text-sky-300"
+          >
+            +{live.temp} temporary · drop
+          </button>
+        ) : null}
       </div>
 
       {quickEntry ? (
@@ -176,6 +190,20 @@ export function HpControl({
           >
             <HeartPlus aria-hidden /> Heal
           </ActionButton>
+          {onTemp ? (
+            <ActionButton
+              size={size}
+              disabled={live.hp === undefined}
+              className="border-sky-500/40 bg-sky-500/10 text-sky-700 hover:bg-sky-500/20 dark:text-sky-300"
+              onClick={() => {
+                if (parsed === undefined) return document.getElementById(id)?.focus()
+                onTemp(parsed)
+                setAmount('')
+              }}
+            >
+              <ShieldPlus aria-hidden /> Temp
+            </ActionButton>
+          ) : null}
         </form>
       ) : null}
     </div>

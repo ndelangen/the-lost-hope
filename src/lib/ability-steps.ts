@@ -45,7 +45,33 @@ const term = (key: RuleKey, label: string): StepPart => ({
   label,
 })
 
+/** A PC's block is read by its own player, so its steps say "you" where a creature's say "it". */
+function isPc(stats: AnyStatBlock) {
+  return !('cr' in stats)
+}
+
+/** What using an ability costs the player: nothing to pick or roll yet, so no one is named. */
+function playerTimingStep(source: AbilitySource): DmStep {
+  switch (source) {
+    case 'bonus action':
+      return { parts: [text('Costs your '), term('bonus_action', 'Bonus Action'), text('.')] }
+    case 'reaction':
+      return {
+        parts: [
+          text('Costs your '),
+          term('reaction', 'Reaction'),
+          text(', when the trigger below happens.'),
+        ],
+      }
+    case 'trait':
+      return { parts: [text('Always on. No action needed.')] }
+    default:
+      return { parts: [text('Costs your action this turn.')] }
+  }
+}
+
 function timingStep(source: AbilitySource, stats: AnyStatBlock): DmStep {
+  if (isPc(stats)) return playerTimingStep(source)
   switch (source) {
     case 'action':
       return { who: 'dm', parts: [text('Uses its action on its turn.')] }
@@ -92,6 +118,7 @@ function timingStep(source: AbilitySource, stats: AnyStatBlock): DmStep {
 
 function attackSteps(attack: Attack, stats: AnyStatBlock): DmStep[] {
   const derived = deriveAttack(attack, stats)
+  const you = isPc(stats)
   const target: DmStep =
     attack.kind === 'melee'
       ? {
@@ -99,7 +126,7 @@ function attackSteps(attack: Attack, stats: AnyStatBlock): DmStep[] {
           parts: [
             text('Pick one target within '),
             value(`${attack.reach} ft.`),
-            text(' (its '),
+            text(you ? ' (your ' : ' (its '),
             term('reach', 'reach'),
             text(').'),
           ],
@@ -109,11 +136,11 @@ function attackSteps(attack: Attack, stats: AnyStatBlock): DmStep[] {
           parts: [
             text('Pick one target within '),
             value(`${attack.range[0]} ft.`),
-            text(' (its '),
+            text(you ? ' (your ' : ' (its '),
             term('range', 'range'),
             text('). Out to '),
             value(`${attack.range[1]} ft.`),
-            text(' it can still shoot, with '),
+            text(you ? ' you can still shoot, with ' : ' it can still shoot, with '),
             term('disadvantage', 'disadvantage'),
             text('.'),
           ],
@@ -129,7 +156,7 @@ function attackSteps(attack: Attack, stats: AnyStatBlock): DmStep[] {
         value(`d20 ${signed(derived.bonus).replace(/^([+−])/, '$1 ')}`),
         text('. If the total equals or beats the target’s '),
         term('armor_class', 'AC'),
-        text(', it hits.'),
+        text(you ? ', you hit.' : ', it hits.'),
       ],
     },
     {
@@ -153,7 +180,7 @@ function attackSteps(attack: Attack, stats: AnyStatBlock): DmStep[] {
 
 const COUNT = ['zero', 'one', 'two', 'three', 'four', 'five', 'six']
 
-function targetParts(save: Save): DmStep {
+function targetParts(save: Save, you: boolean): DmStep {
   const { target } = save
   if ('creatures' in target) {
     const count = COUNT[target.creatures] ?? String(target.creatures)
@@ -171,9 +198,13 @@ function targetParts(save: Save): DmStep {
   const { shape, size, width } = target.area
   const where = target.range
     ? [text(' anywhere within '), value(`${target.range} ft.`)]
-    : [text(' starting from it')]
+    : [text(you ? ' starting from you' : ' starting from it')]
   const chosen = target.chosen
-    ? [text(' It picks which creatures in it are affected; the rest are safe.')]
+    ? [
+        text(
+          ` ${you ? 'You pick' : 'It picks'} which creatures in it are affected; the rest are safe.`,
+        ),
+      ]
     : []
   const name = (label: string) => term(shape.key as RuleKey, label)
   switch (shape.key) {
@@ -182,7 +213,7 @@ function targetParts(save: Save): DmStep {
         parts: [
           text('Everything within '),
           value(`${size} ft.`),
-          text(' of it is caught (an '),
+          text(you ? ' of you is caught (an ' : ' of it is caught (an '),
           name('emanation'),
           text(').'),
           ...chosen,
@@ -228,8 +259,8 @@ function targetParts(save: Save): DmStep {
   }
 }
 
-function targetStep(save: Save): DmStep {
-  return { who: 'dm', ...targetParts(save) }
+function targetStep(save: Save, you: boolean): DmStep {
+  return { who: 'dm', ...targetParts(save, you) }
 }
 
 function saveSteps(save: Save, stats: AnyStatBlock): DmStep[] {
@@ -267,7 +298,7 @@ function saveSteps(save: Save, stats: AnyStatBlock): DmStep[] {
   ]
   const half = damage.map((part) => Math.floor(part.amount / 2))
   return [
-    targetStep(save),
+    targetStep(save, isPc(stats)),
     {
       who: 'target',
       parts: [
@@ -339,7 +370,7 @@ function textSteps(ability: Ability, attackKeys: ReadonlySet<string>): DmStep[] 
   })
 }
 
-function usesStep(ability: Ability): DmStep | undefined {
+function usesStep(ability: Ability, you: boolean): DmStep | undefined {
   const dice = ability.recharge ? /^Recharge (\d)(?:[–-](\d))?$/.exec(ability.recharge) : null
   if (dice) {
     const range = dice[2] ? `${dice[1]}–${dice[2]}` : dice[1]!
@@ -353,6 +384,7 @@ function usesStep(ability: Ability): DmStep | undefined {
       ],
     }
   }
+  if (you) return undefined
   if (ability.uses === undefined) return undefined
   const times = ability.uses === 1 ? 'once' : `${ability.uses} times`
   const rest = ability.recharge?.toLowerCase()
@@ -380,7 +412,8 @@ export function abilitySteps(
       .filter((candidate) => candidate.attack)
       .map((candidate) => candidate.key),
   )
-  const uses = usesStep(ability)
+  // A player's sheet counts uses beside the ability and says which rest brings them back.
+  const uses = usesStep(ability, isPc(stats))
   const steps = [
     timingStep(source, stats),
     ...(ability.attack ? attackSteps(ability.attack, stats) : []),

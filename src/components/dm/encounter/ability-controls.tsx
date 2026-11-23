@@ -107,6 +107,7 @@ export function AbilityDetail({
   block,
   describe,
   className,
+  children,
 }: {
   title: ReactNode
   ability: Ability
@@ -116,6 +117,8 @@ export function AbilityDetail({
   /** Full text and Use for abilities this text refers to. */
   describe?: (key: string) => ReferencedAbility | undefined
   className?: string
+  /** Controls of the page's own for this ability, shown under its rules. */
+  children?: ReactNode
 }) {
   const focus = useDensity() === 'focus'
   const summary = block.abilities[ability.key]?.summary
@@ -190,6 +193,7 @@ export function AbilityDetail({
           </ActionButton>
         </div>
       ) : null}
+      {children}
     </div>
   )
 }

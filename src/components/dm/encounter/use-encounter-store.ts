@@ -7,12 +7,21 @@ const CHANGE_EVENT = 'lost-hope:dm-encounter'
 /** What the server and the first client frame see, before the browser's storage is read. */
 const NOT_LOADED = Symbol('not loaded')
 
-function readRaw(): string | null {
+function readRaw(key = ENCOUNTER_STORAGE_KEY): string | null {
   try {
-    return localStorage.getItem(ENCOUNTER_STORAGE_KEY)
+    return localStorage.getItem(key)
   } catch {
     return null
   }
+}
+
+function writeRaw(key: string, encounter: Encounter) {
+  try {
+    localStorage.setItem(key, JSON.stringify(encounter))
+  } catch {
+    // Private windows or blocked storage: nothing is kept.
+  }
+  dispatchEvent(new Event(CHANGE_EVENT))
 }
 
 function subscribe(onChange: () => void) {
@@ -27,12 +36,7 @@ function subscribe(onChange: () => void) {
 /** Change the fight from anywhere in this window. Every reader follows. */
 export function updateEncounter(change: (current: Encounter) => Encounter) {
   const next = change(parseEncounter(readRaw()))
-  try {
-    localStorage.setItem(ENCOUNTER_STORAGE_KEY, JSON.stringify(next))
-  } catch {
-    // Private windows or blocked storage: nothing is kept.
-  }
-  dispatchEvent(new Event(CHANGE_EVENT))
+  writeRaw(ENCOUNTER_STORAGE_KEY, next)
   return next
 }
 
@@ -51,6 +55,25 @@ export function useEncounter() {
   const update = useCallback(
     (change: (current: Encounter) => Encounter) => void updateEncounter(change),
     [],
+  )
+  return [encounter, update] as const
+}
+
+/**
+ * A fight kept under its own key in this browser, apart from the DM's: a player's play sheet is
+ * the encounter of one character. Undefined until the browser's storage is read.
+ */
+export function useEncounterAt(storageKey: string) {
+  const raw = useSyncExternalStore<string | null | typeof NOT_LOADED>(
+    subscribe,
+    () => readRaw(storageKey),
+    () => NOT_LOADED,
+  )
+  const encounter = useMemo(() => (raw === NOT_LOADED ? undefined : parseEncounter(raw)), [raw])
+  const update = useCallback(
+    (change: (current: Encounter) => Encounter) =>
+      writeRaw(storageKey, change(parseEncounter(readRaw(storageKey)))),
+    [storageKey],
   )
   return [encounter, update] as const
 }
