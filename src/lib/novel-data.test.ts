@@ -54,7 +54,9 @@ describe('novel data', () => {
         if (!art) return false
         if (art.from === 'novel') return !hasPublicAsset(art.url)
         const entity = resolveRef(event)
-        return entity?.kind !== 'event' || entity.data.illustrations[art.index] === undefined
+        if (entity?.kind !== 'event') return true
+        const src = entity.data.illustrations[art.index]
+        return src === undefined || !hasPublicAsset(src)
       })
       .map((panel) => panel.event.key)
     expect(broken).toEqual([])
