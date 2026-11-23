@@ -29,7 +29,7 @@ export default createArc({
       'As a drug, Arcane Dust is as strong and as addictive as the worst there are. It makes its users lost: they lose memories, then their sense of self, then control.',
     ],
     [
-      'The dwarves and the elves fought the Second Great War, machine against magic, and it ended within living memory. The elves lost. It is the same war as the war of the marshals against the elves. Nothing records a first great war yet.',
+      'The dwarves and the elves fought the Second Great War, machine against magic, and it ended within living memory. The elves lost. It is the same war as the war of the marshals against the elves: the marshals ordered it, and the dwarves built the machines and marched. Nothing records a first great war yet.',
     ],
     [
       'Working ideas, not settled: the fuel is part of why the machines won that war. Still open: what ',

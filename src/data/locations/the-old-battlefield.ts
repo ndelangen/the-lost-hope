@@ -19,7 +19,7 @@ export default createLocation({
       'More than one war was fought here: the war of the marshals against the elves, and the fighting between the marshals themselves.',
     ],
     [
-      'The war of the marshals against the elves is the Second Great War. Open: how the dwarves stand to the marshals in it.',
+      'The war of the marshals against the elves is the Second Great War. The marshals ordered it, and the dwarves built the machines and marched.',
     ],
     ['Its map position is a guess.'],
   ],

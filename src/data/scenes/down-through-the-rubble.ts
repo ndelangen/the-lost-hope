@@ -227,7 +227,7 @@ export default createScene({
             [
               'This layer is the war ',
               refs.pcs.auren,
-              ' was built for. Describe the machine to his player first, and let him say what ',
+              ' was built for, and the machine is dwarven work like him. Describe it to his player first, and let him say what ',
               refs.pcs.auren,
               ' recognises.',
             ],
