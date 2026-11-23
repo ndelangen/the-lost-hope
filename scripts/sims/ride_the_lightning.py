@@ -97,7 +97,7 @@ class C:
 class Fight:
     def __init__(s, pcs, foes, allies, name):
         s.pcs, s.foes, s.allies, s.name = pcs, foes, allies, name
-        s.rnd = 0; s.stats = Counter(); s.frames = []
+        s.rnd = 0; s.stats = Counter(); s.frames = []; s.ejected = False
 
     def party(s): return s.pcs + s.allies
     def all(s): return s.pcs + s.allies + s.foes
@@ -428,9 +428,42 @@ def hold(f, e, t, key, slug):
         e.conc = None
 
 
+UNNAMED = {'hand-breaker', 'cloaked-snatcher', 'hand-spellbinder', 'dust-lost-sailor'}
+POD_ROOMS = {'Batteries', 'Barracks', 'Lower deck'}  # the Control room and the Helm have no pods
+
+
+def wants_pod(f, e):
+    """Norbert 2026-11-24: once only unnamed enemies are left in a room with a pod, they Disengage and
+    run for it. POD=race: from the start; POD=losing: once half their number is down or this one is
+    below half its HP. One of them reaching it ends the fight: all of them are pulled in and ejected."""
+    mode = opt('POD', 'off')
+    # Breakers never surrender: they fight on and answer No when the pod asks
+    if mode == 'off' or f.name not in POD_ROOMS or e.slug not in UNNAMED or e.slug == 'hand-breaker': return False
+    if any(c.up and c.slug not in UNNAMED for c in f.foes): return False
+    if mode == 'race': return True
+    down = sum(1 for c in f.foes if not c.up)
+    return down * 2 >= len(f.foes) or e.hp < e.maxhp / 2
+
+
 def foe_turn(f, e):
     pcs = f.live('pc')
     if not pcs or e.cond & {'held', 'out'}: say(f'  {e.name} does nothing.') if e.cond & {'held'} else None; return
+    if wants_pod(f, e):
+        if e.cond & {'restrained', 'prone'}:
+            e.cond.discard('prone'); ev(k='cond', who=e.name, what='held back from the escape pod')
+            say(f'    {e.name} tries for the escape pod but is held back'); return
+        e.res['pod'] = e.res.get('pod', 0) + 1
+        if e.res['pod'] >= int(opt('POD_TURNS', '1')):
+            f.stats['ejected'] += 1; ev(k='cond', who=e.name, what='in the escape pod: it ejects')
+            say(f'    {e.name} Disengages and dives into the escape pod: everyone who answers Yes is pulled in, the pod ejects')
+            for c in f.foes:
+                if c.up and c.slug != 'hand-breaker':
+                    c.cond.add('gone')
+                    if c is not e: ev(k='cond', who=c.name, what='pulled into the escape pod')
+            if not any(c.up for c in f.foes): f.ejected = True
+        else:
+            say(f'    {e.name} Disengages and runs for the escape pod')
+        return
     if 'prone' in e.cond: e.cond.discard('prone')
     devan = f.get('Devan'); auren = f.get('Auren')
     lowest = min(pcs, key=lambda c: c.hp)
@@ -638,7 +671,7 @@ def run_fight(pcs, foes, allies, name, max_rounds=20):
         f.rnd = rnd; mark = len(LOG); say(f'\nRound {rnd}'); EV.clear()
         for c in order: c.react = True; c.cond.discard('shielded')
         for c in order:
-            if not f.livepcs() or not f.live('foe'): break
+            if not f.livepcs() or not f.live('foe') or f.ejected: break
             if c in f.pcs and 'down' in c.cond and not c.cond & {'dead', 'stable'}:
                 say(f'  {c.name} (down):'); ACTOR = c; ev(k='turn', who=c.name); death_save(f, c)
                 if not c.up: continue
@@ -653,6 +686,7 @@ def run_fight(pcs, foes, allies, name, max_rounds=20):
         f.frame(LOG[mark + 1:] if VERBOSE else [], EV)
         if not f.livepcs(): return 'party knocked out', f
         if not f.live('foe'): return 'party wins', f
+        if f.ejected: return 'party wins', f  # the room is theirs; the enemies left in the pod
     return 'still fighting after 20 rounds', f
 
 
