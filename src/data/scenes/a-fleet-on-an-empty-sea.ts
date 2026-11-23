@@ -166,4 +166,19 @@ export default createScene({
       ],
     },
   ],
+  outcomes: [
+    {
+      icon: 'gi/GiFeatheredWing',
+      when: [['They leave the Caves and fly on.']],
+      response: [
+        [
+          'With their bearings back, they reach ',
+          refs.locations.rustmoor,
+          ' and its unfinished guildhall. Run ',
+          refs.scenes.hex_loses_patience,
+          '.',
+        ],
+      ],
+    },
+  ],
 })
