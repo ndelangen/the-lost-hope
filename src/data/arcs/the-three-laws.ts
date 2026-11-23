@@ -19,6 +19,9 @@ export default createArc({
       'Protect beats obey: the people refuse any order they believe would endanger the Marshal. Convince them that every war ends in the Marshal’s demise and they refuse every call to arms, forever. The army is neutralised, though nobody is freed. They must truly believe it.',
     ],
     [
+      'Protect beats stay: if the people believe their staying puts the Marshal in danger, leaving is protecting it, and through inaction they would allow it harm. They must leave, and nothing calls them back. It frees only those who truly believe it, so people leave in waves. One possible argument: the Caves, full of Dust-burning ships and machines, are a beacon that leads the Marshal’s enemies to it.',
+    ],
+    [
       'The laws hold while the Marshal rests, and nobody watches the gaps. It would never know its people had been turned until it called them to war and nobody came.',
     ],
   ],
