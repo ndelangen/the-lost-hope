@@ -14,4 +14,13 @@ export default createItem({
       '’s carried magical items because it is an artifact, but it disappeared to an unknown location and may be recoverable.',
     ],
   ],
+  background: [
+    [
+      'It stands in the broom closet that the key inside ',
+      refs.items.swifts_silver_container,
+      ' opens. To get it back, ',
+      refs.pcs.swift_starblade,
+      ' has to lock someone into the closet in its place.',
+    ],
+  ],
 })
