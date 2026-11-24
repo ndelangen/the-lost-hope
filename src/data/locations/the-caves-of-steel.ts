@@ -14,7 +14,7 @@ export default createLocation({
       '. The only way in is underwater, aboard its subships. An airship cannot follow.',
     ],
     [
-      'Its people look human, but not quite: pale skin, large dark eyes, faint gill slits at the neck and webbing between the fingers.',
+      'Its people look human, but not quite: pale skin, large dark eyes, faint gill slits at the neck and webbing between the fingers. They call the Marshal their master.',
     ],
     [
       'Visitors are welcomed like royalty and asked to tell their stories and everything that is happening in the world. The people have no contact with the outside and know nothing of it.',

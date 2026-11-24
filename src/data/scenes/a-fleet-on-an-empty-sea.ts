@@ -170,6 +170,13 @@ export default createScene({
               refs.npcs.the_11th_marshal,
               ' word for word, in the first person, like children reciting a lesson. They strongly advise the party never to go looking for the Marshal.',
             ],
+            [
+              'They call it “master”, out loud and often. Make sure ',
+              refs.pcs.auren,
+              '’s player hears it: his backstory calls his maker his master, and it sets up Light’s question in ',
+              refs.scenes.light_walks_auren_through_fajanet,
+              ' about freeing those who serve evil masters unwillingly.',
+            ],
           ],
         },
         {
