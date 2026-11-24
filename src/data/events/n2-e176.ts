@@ -19,7 +19,7 @@ export default createEvent({
     [
       'The party also discussed an Amulet of Health, a Wand of the War Mage, a Pact Keeper focus, and armour for ',
       refs.beasts.wolfie,
-      '.',
+      '. Nobody bought any of them.',
     ],
   ],
 })

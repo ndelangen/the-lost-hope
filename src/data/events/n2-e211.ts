@@ -30,5 +30,6 @@ export default createEvent({
       ', he felt that touching it would kill him and left it on the ground.',
     ],
     [refs.pcs.swift_starblade, ' also gathered ', refs.pcs.jim, '’s ordinary bard’s equipment.'],
+    [refs.pcs.swift_starblade, ' picked up two suits he did not recognise as well.'],
   ],
 })
