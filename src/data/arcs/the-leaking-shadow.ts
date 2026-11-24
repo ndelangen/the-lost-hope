@@ -18,7 +18,7 @@ export default createArc({
       refs.locations.shadow_realm,
       ' into the world at a leak, or barrier, near ',
       refs.locations.fajanet,
-      '. Arcane Dust is the substance that comes of it. The same Dust can be burned as fuel or taken as a drug. Who makes it and who receives it is recorded on ',
+      '. Arcane Dust is the substance that comes of it. It looks like silver glitter. The same Dust can be burned as fuel or taken as a drug. As fuel it is like gasoline or propane: it is burned. Crystals are the older way of powering large machinery, and are more like batteries and solar cells. Who makes it and who receives it is recorded on ',
       refs.npcs.light_13th_marshal,
       '.',
     ],

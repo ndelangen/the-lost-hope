@@ -32,5 +32,8 @@ export default createItem({
       refs.rules.long_rest,
       ', comes out to find that almost no time has passed outside.',
     ],
+    [
+      'Whoever looks at the crystal very carefully can see that it is infused with Arcane Dust. The ship is a hybrid of the two ways of powering large machinery, and crystals are the more antiquated of the two.',
+    ],
   ],
 })

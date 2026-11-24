@@ -66,6 +66,13 @@ export default createArc({
         ],
       ],
       npcs: [refs.npcs.giggles],
+      notes: [
+        [
+          'Who led the attack, and on what order, is in the background of ',
+          refs.npcs.silas_wren,
+          '.',
+        ],
+      ],
     },
   ],
 })

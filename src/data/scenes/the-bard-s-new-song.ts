@@ -85,7 +85,7 @@ export default createScene({
         {
           speaker: refs.npcs.tobin_reedwhistle,
           say: [
-            ['It sees the grey dust drifting by,'],
+            ['It sees the silver dust drift by,'],
             ['its poison now darkens the sky.'],
             ['It spreads, town by town,'],
             ['the bird can’t come down:'],
