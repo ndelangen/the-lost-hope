@@ -55,6 +55,11 @@ export default createNPC({
       'The laws rule in its place, so it does not have to govern. It rests on the seabed and can go years without speaking to its people. It never goes anywhere itself: it always sends a mind-controlled minion.',
     ],
     [
+      'Every full moon the master pays the Caves a visit, and the people try to have as many different kinds of sentient sea creature as they can waiting in the ',
+      refs.locations.the_caves_of_steel_holding_area,
+      '.',
+    ],
+    [
       'It is the marshal least affected if ',
       refs.npcs.light_13th_marshal,
       ' suddenly stops writing. Its people have never taken Arcane Dust as a drug, so the loss does not fall on them. The power imbalance could let it take huge stretches of ocean and land. It would be a worthy enemy even if Light’s plan works exactly as intended, and it is among the most evil of the marshals.',

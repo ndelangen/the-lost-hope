@@ -180,6 +180,17 @@ export default createScene({
             ],
           ],
         },
+        {
+          speaker: refs.npcs.caves_of_steel_fisher,
+          say: [
+            [
+              'Every full moon the master visits us! We catch as many different kinds as we can for it. We try to catch ’em all!',
+            ],
+          ],
+        },
+        {
+          note: [['They tell this with great pride. The last line is a Pokémon nod, for fun.']],
+        },
       ],
       outcomes: [
         {
