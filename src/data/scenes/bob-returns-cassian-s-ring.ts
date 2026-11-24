@@ -101,6 +101,43 @@ export default createScene({
       ],
     },
     {
+      title: 'Not for sale',
+      lines: [
+        {
+          note: [
+            [
+              'Play this when someone offers ',
+              refs.npcs.bob_the_merchant,
+              ' the ',
+              refs.items.shadow_sword,
+              ', which ',
+              refs.pcs.swift_starblade,
+              ' carries.',
+            ],
+          ],
+        },
+        {
+          say: [
+            [
+              'That one I cannot buy. Be careful with it: demons and hags will come looking for whoever is waving that flag of fortune. Are you attuned to it yet?',
+            ],
+          ],
+          speaker: refs.npcs.bob_the_merchant,
+        },
+        {
+          note: [
+            [
+              'Nobody is attuned to it yet. Its attunement rules are in the background of ',
+              refs.items.shadow_sword,
+              '. ',
+              refs.npcs.bob_the_merchant,
+              ' does not explain them.',
+            ],
+          ],
+        },
+      ],
+    },
+    {
       title: 'How neutrality works',
       lines: [
         {
