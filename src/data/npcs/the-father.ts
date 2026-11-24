@@ -25,7 +25,9 @@ export default createNPC({
     [
       'He cares little about the world. What he cannot afford is for ',
       refs.organizations.the_eyeless_hand,
-      ' to be seen as too great a threat to the world order.',
+      ' to be seen as too great a threat to the world order. Enough witnesses clearly saw its symbol at ',
+      refs.events.n2_e066,
+      ', so that attack is trouble for him, and quite undesirable.',
     ],
   ],
   background: [
