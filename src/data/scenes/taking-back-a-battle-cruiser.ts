@@ -159,27 +159,34 @@ export default createScene({
       fight: {
         where: [{ deck: refs.locations.ride_the_lightning_main_deck, slice: 2 }],
         opponents: [
-          { creature: refs.npcs.hand_breaker, count: 2 },
-          { creature: refs.npcs.cloaked_snatcher, count: 2 },
-        ],
-        tactics: [
-          [
-            'Both ',
-            refs.npcs.hand_breaker,
-            's go for ',
-            refs.pcs.devan,
-            ': one bashes him ',
-            refs.rules.prone,
-            ', the other hits him with ',
-            refs.rules.advantage,
-            '. They knock him out rather than kill him. The ',
-            refs.npcs.cloaked_snatcher,
-            's keep ',
-            refs.pcs.swift_starblade,
-            ' and ',
-            refs.pcs.cassian_veyl,
-            ' busy, and drag one of them through a door if they can.',
-          ],
+          {
+            creature: refs.npcs.hand_breaker,
+            count: 2,
+            plan: [
+              [
+                'Both go for ',
+                refs.pcs.devan,
+                ': one bashes him ',
+                refs.rules.prone,
+                ', the other hits him with ',
+                refs.rules.advantage,
+                '. Knock him out, don’t kill him. They never run.',
+              ],
+            ],
+          },
+          {
+            creature: refs.npcs.cloaked_snatcher,
+            count: 2,
+            plan: [
+              [
+                'Keep ',
+                refs.pcs.swift_starblade,
+                ' and ',
+                refs.pcs.cassian_veyl,
+                ' busy, and drag one of them through a door if they can. Once the Breakers are down, they run for the escape pod.',
+              ],
+            ],
+          },
         ],
       },
       lines: [
@@ -198,11 +205,16 @@ export default createScene({
       title: 'The lower deck',
       fight: {
         where: [{ deck: refs.locations.ride_the_lightning_gun_deck }],
-        opponents: [{ creature: refs.npcs.cloaked_snatcher, count: 4 }],
-        tactics: [
-          [
-            'Only one group at a time: the rest keep working the guns. A new group turns on the party only if the party attacks again. If the players walk through without engaging anyone, let them.',
-          ],
+        opponents: [
+          {
+            creature: refs.npcs.cloaked_snatcher,
+            count: 4,
+            plan: [
+              [
+                'Keep working the guns. One group at a time turns on the party, and only if the party attacks. If the players walk through without engaging anyone, let them. They run for the escape pod as soon as it goes badly.',
+              ],
+            ],
+          },
         ],
       },
       onlyIf: [
@@ -234,18 +246,25 @@ export default createScene({
       fight: {
         where: [{ deck: refs.locations.ride_the_lightning_main_deck, slice: 3, side: 'port' }],
         opponents: [
-          { creature: refs.npcs.hand_breaker, count: 1 },
-          { creature: refs.npcs.cloaked_snatcher, count: 2 },
+          {
+            creature: refs.npcs.hand_breaker,
+            count: 1,
+            plan: [['Goes for ', refs.pcs.devan, '. Never runs.']],
+          },
+          {
+            creature: refs.npcs.cloaked_snatcher,
+            count: 2,
+            plan: [['Hold the Barracks. Once the Breaker is down, they run for the escape pod.']],
+          },
         ],
-        allies: [{ creature: refs.npcs.tempest_soldier, count: 4 }],
+        allies: [
+          {
+            creature: refs.npcs.tempest_soldier,
+            count: 4,
+            plan: [['Once healed, fight beside the party and soak hits meant for them.']],
+          },
+        ],
         tactics: [
-          [
-            'The guards hold the Barracks. The ',
-            refs.npcs.hand_breaker,
-            ' goes for ',
-            refs.pcs.devan,
-            '.',
-          ],
           [
             'Cutting one soldier loose takes an action. They are too exhausted to fight until someone heals them: any healing, such as a Potion of Healing or Lay on Hands, gets one up with that many hit points. Roll initiative once for all who are up.',
           ],
@@ -305,39 +324,51 @@ export default createScene({
       title: 'Korrag, just before the bridge',
       fight: {
         opponents: [
-          { creature: refs.npcs.korrag_stonevow, count: 1 },
-          { creature: refs.npcs.durgan_ashfang, count: 1 },
-          { creature: refs.npcs.hand_spellbinder, count: 1 },
+          {
+            creature: refs.npcs.korrag_stonevow,
+            count: 1,
+            plan: [
+              [
+                'Conquering Presence first, then Hold Person on ',
+                refs.pcs.devan,
+                '. While he is held, hit him from 5 ft.: every hit is a critical hit.',
+              ],
+            ],
+          },
+          {
+            creature: refs.npcs.durgan_ashfang,
+            count: 1,
+            plan: [
+              [
+                'Hits ',
+                refs.pcs.devan,
+                ' while he is held. Fights as ',
+                refs.pcs.devan,
+                ' would: shield up, smiting, covering any ally beside him.',
+              ],
+            ],
+          },
+          {
+            creature: refs.npcs.hand_spellbinder,
+            count: 1,
+            plan: [
+              [
+                'Stays behind the orcs. Hold Person on ',
+                refs.pcs.auren,
+                ', then Command if that fails. Fireball only when ',
+                refs.pcs.swift_starblade,
+                ' and ',
+                refs.pcs.cassian_veyl,
+                ' stand together. Misty Step away from anyone who reaches it.',
+              ],
+            ],
+          },
         ],
         tactics: [
           [
-            refs.npcs.korrag_stonevow,
-            ' opens with Conquering Presence, then casts Hold Person on ',
+            'A held creature cannot drink a potion: ',
             refs.pcs.devan,
-            '. While ',
-            refs.pcs.devan,
-            ' is held, ',
-            refs.npcs.durgan_ashfang,
-            ' and ',
-            refs.npcs.korrag_stonevow,
-            ' hit him from 5 ft., where every hit is a critical hit. A held creature cannot drink a potion: his friends have to break it.',
-          ],
-          [
-            'The ',
-            refs.npcs.hand_spellbinder,
-            ' stays behind the orcs and goes around ',
-            refs.pcs.auren,
-            '’s armour: Hold Person on him first, then Command if that fails. Fireball only when ',
-            refs.pcs.swift_starblade,
-            ' and ',
-            refs.pcs.cassian_veyl,
-            ' stand together. Misty Step away from anyone who reaches it.',
-          ],
-          [
-            refs.npcs.durgan_ashfang,
-            ' fights as ',
-            refs.pcs.devan,
-            ' would: shield up, smiting, covering any ally beside him.',
+            '’s friends have to break the hold.',
           ],
           [
             'Your dial: if ',
@@ -483,27 +514,39 @@ export default createScene({
       fight: {
         where: [{ deck: refs.locations.ride_the_lightning_main_deck, slice: 4, side: 'starboard' }],
         opponents: [
-          { creature: refs.npcs.ilsa_corrow, count: 1 },
-          { creature: refs.npcs.silas_wren, count: 1 },
-          { creature: refs.npcs.dust_lost_sailor, count: 2 },
+          {
+            creature: refs.npcs.ilsa_corrow,
+            count: 1,
+            plan: [
+              [
+                'Stays at the wheel, at range. Fireball on a cluster, then Arcane Burst on whoever is hurt. Shield for a hit that would hurt, Counterspell for a heal or a big spell, Misty Step away from melee.',
+              ],
+            ],
+          },
+          {
+            creature: refs.npcs.silas_wren,
+            count: 1,
+            plan: [
+              [
+                'Spirit Guardians up before the party reaches the stairs. Hold Person on whoever hits hardest; his blade knocks out instead of killing. Healing Word keeps ',
+                refs.npcs.ilsa_corrow,
+                ' on her feet.',
+              ],
+            ],
+          },
+          {
+            creature: refs.npcs.dust_lost_sailor,
+            count: 2,
+            plan: [
+              [
+                'Hold the stairs as a wall for ',
+                refs.npcs.ilsa_corrow,
+                '. Charge the nearest target and never take cover.',
+              ],
+            ],
+          },
         ],
         tactics: [
-          [
-            refs.npcs.ilsa_corrow,
-            ' fights from the wheel at range, with her sailors as a wall: Fireball on a cluster, then Arcane Burst on whoever is hurt. The ',
-            refs.npcs.dust_lost_sailor,
-            's charge the nearest target and never take cover.',
-          ],
-          [
-            refs.npcs.silas_wren,
-            ' takes people out of the fight without blood: Hold Person on whoever hits hardest, and his blade knocks out instead of killing. He keeps ',
-            refs.npcs.ilsa_corrow,
-            ' on her feet with Healing Word. He has Spirit Guardians up by the time the party reaches the stairs.',
-          ],
-          [
-            refs.npcs.ilsa_corrow,
-            ' keeps Shield for a hit that would hurt, Counterspell for a heal or a big spell, and Misty Step to get away from melee.',
-          ],
           [
             refs.npcs.silas_wren,
             ' leaving is your dial: once the fight starts to turn against them, he turns himself invisible with his Invisibility spell and bails.',

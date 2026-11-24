@@ -112,6 +112,9 @@ export type SceneGroupSave = z.infer<typeof SceneGroupSave>
 const SceneOpponent = z.strictObject({
   creature: z.union([entityRefOf('npc'), entityRefOf('beast')]),
   count: z.number().int().positive().default(1),
+  plan: DmContent.optional().describe(
+    'Who this group goes for and how, shown next to them where the fight is run',
+  ),
 })
 
 export type SceneOpponent = z.infer<typeof SceneOpponent>

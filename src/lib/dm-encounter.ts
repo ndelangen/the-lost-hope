@@ -184,8 +184,8 @@ function creaturesOf(groups: readonly SceneOpponent[]): CreatureRef[] {
   return groups.flatMap(({ creature, count }) => Array.from({ length: count }, () => creature))
 }
 
-/** One kind of creature in a fight, named and counted for display. */
-export type FightGroup = { creature: CreatureRef; name: string; count: number }
+/** One kind of creature in a fight, named and counted for display, with who it goes for. */
+export type FightGroup = { creature: CreatureRef; name: string; count: number; plan?: DmContent }
 
 /** A beat's fight ready to display: who is in it, on which side, and how to play them. */
 export type FightLineUp = {
@@ -195,10 +195,11 @@ export type FightLineUp = {
 }
 
 function fightGroups(groups: readonly SceneOpponent[]): FightGroup[] {
-  return groups.map(({ creature, count }) => ({
+  return groups.map(({ creature, count, plan }) => ({
     creature,
     name: creatureRecord(creature)?.name ?? creature.key,
     count,
+    plan,
   }))
 }
 

@@ -2,18 +2,36 @@ import { ContentRenderer } from '#/components/content-renderer'
 import type { FightGroup, FightLineUp as LineUp } from '#/lib/dm-encounter'
 import { cn } from '#/lib/utils'
 
-/** Who is in one fight, on which side, and how to play them. */
+/** Who is in one fight, on which side, who each group goes for, and how to play them. */
 export function FightLineUp({ lineUp, className }: { lineUp: LineUp; className?: string }) {
+  const groups = [
+    ...lineUp.opponents.map((group) => ({ group, ally: false })),
+    ...lineUp.allies.map((group) => ({ group, ally: true })),
+  ]
+  const planned = groups.some(({ group }) => group.plan)
   return (
     <div className={cn('grid gap-2', className)}>
-      <ul className="flex flex-wrap gap-2">
-        {lineUp.opponents.map((group) => (
-          <Group key={groupKey(group)} group={group} />
-        ))}
-        {lineUp.allies.map((group) => (
-          <Group key={groupKey(group)} group={group} ally />
-        ))}
-      </ul>
+      {planned ? (
+        <ul className="grid gap-2">
+          {groups.map(({ group, ally }) => (
+            <li
+              key={groupKey(group)}
+              className="grid items-start gap-x-3 gap-y-1 sm:grid-cols-[minmax(0,14rem)_minmax(0,1fr)]"
+            >
+              <Group group={group} ally={ally} />
+              {group.plan ? <ContentRenderer content={group.plan} className="pt-1.5" /> : null}
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <ul className="flex flex-wrap gap-2">
+          {groups.map(({ group, ally }) => (
+            <li key={groupKey(group)}>
+              <Group group={group} ally={ally} />
+            </li>
+          ))}
+        </ul>
+      )}
       {lineUp.tactics ? (
         <ContentRenderer content={lineUp.tactics} className="text-muted-foreground" />
       ) : null}
@@ -25,11 +43,11 @@ function groupKey({ creature }: FightGroup) {
   return `${creature.ref}:${creature.key}`
 }
 
-function Group({ group, ally = false }: { group: FightGroup; ally?: boolean }) {
+function Group({ group, ally }: { group: FightGroup; ally: boolean }) {
   return (
-    <li
+    <div
       className={cn(
-        'flex min-h-9 flex-wrap items-center gap-x-1.5 rounded-lg border px-2.5 py-1 font-medium',
+        'flex min-h-9 w-fit flex-wrap items-center gap-x-1.5 rounded-lg border px-2.5 py-1 font-medium',
         ally ? 'border-emerald-500/40 bg-emerald-500/10' : 'border-border bg-muted/60',
       )}
     >
@@ -42,6 +60,6 @@ function Group({ group, ally = false }: { group: FightGroup; ally?: boolean }) {
           with the party
         </span>
       ) : null}
-    </li>
+    </div>
   )
 }
