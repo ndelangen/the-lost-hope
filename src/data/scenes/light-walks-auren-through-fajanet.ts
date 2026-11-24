@@ -339,6 +339,16 @@ export default createScene({
           ],
         },
         {
+          speaker: refs.npcs.light_13th_marshal,
+          say: [
+            [
+              'How much torture and suffering enacted upon you and the rest of the world would it take for you to once again succumb to a master?',
+            ],
+            ['There’s a price for everything, Auren, even freedom, even life.'],
+            ['You may not believe me now, I simply cannot leave this to chance.'],
+          ],
+        },
+        {
           note: [
             [
               'He says this once he has said he is leaving. The wording is a draft: it gives the vibe and is not finished yet.',
