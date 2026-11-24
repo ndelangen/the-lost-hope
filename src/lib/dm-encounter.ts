@@ -13,6 +13,7 @@ import { deriveStatBlock, type AnyStatBlock, type DerivedStats } from '#/lib/sta
 import { stepsByAbility } from './ability-steps'
 import {
   combatantName,
+  fightKey,
   liveStats,
   type CreatureRef,
   type Encounter,
@@ -70,6 +71,8 @@ export type CombatantView = {
   effects: readonly EntityOf<'effect'>['data'][]
   /** Whether the tracker follows HP and abilities for this entry. */
   tracked: boolean
+  /** The NPC or beast record, for anything looked up per creature. None for PCs and players. */
+  source?: CreatureRef
 }
 
 /** A stat block's derived numbers plus the step-by-step rolls for each ability, as the DM plays it. */
@@ -113,7 +116,39 @@ export function combatantView(entry: RosterEntry, roster: readonly RosterEntry[]
     start: derived ? { maxHp: derived.maxHp, ac: derived.ac } : undefined,
     effects: record ? activeEffects(entry.source.ref, record.slug) : [],
     tracked: true,
+    source: entry.source,
   }
+}
+
+/** One plan for a creature: who it goes for, from the prepared fight it came in with. */
+export type CombatantPlan = { fight: string; plan: DmContent }
+
+/**
+ * How to play a creature in the running fight: the plans its group carries in the fights of the
+ * encounter's scene. The fights already brought in come first; without any, every fight of the
+ * scene it is in.
+ */
+export function combatantPlans(encounter: Encounter, source: CreatureRef): CombatantPlan[] {
+  const scene = encounter.scene ? resolveScene(encounter.scene) : undefined
+  if (!scene || !encounter.scene) return []
+  const sceneRef = encounter.scene
+  const plans = sceneFights(scene).flatMap((fight) =>
+    [...fight.opponents, ...fight.allies]
+      .filter((group) => group.creature.ref === source.ref && group.creature.key === source.key)
+      .flatMap((group) =>
+        group.plan
+          ? [
+              {
+                fight: fight.key,
+                plan: group.plan,
+                joined: fightKey(sceneRef, fight.key) in encounter.joined,
+              },
+            ]
+          : [],
+      ),
+  )
+  const joined = plans.filter((plan) => plan.joined)
+  return (joined.length > 0 ? joined : plans).map(({ fight, plan }) => ({ fight, plan }))
 }
 
 /** The campaign effects in force on a record now. */

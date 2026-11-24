@@ -11,6 +11,7 @@ import { cn } from '#/lib/utils'
 import { AbilityQuickList } from '../ability-quick-list'
 import { AbilityDetail } from './ability-controls'
 import { describeReferences } from './ability-text'
+import { CombatantPlan } from './combatant-plan'
 import { useDensity } from './density'
 import { EditableNumber, HpControl } from './hp-control'
 import { IconButton } from './icon-button'
@@ -138,6 +139,8 @@ export function CombatantPanel({
           ) : null}
         </div>
       </header>
+
+      {combatant.source ? <CombatantPlan source={combatant.source} /> : null}
 
       {combatant.tracked ? (
         <div className="flex flex-wrap items-start gap-3">

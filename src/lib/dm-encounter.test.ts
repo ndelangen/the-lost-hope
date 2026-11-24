@@ -2,7 +2,14 @@ import { describe, expect, it } from 'vitest'
 
 import { Scene, SceneBeatFight, type SceneBeat } from '#/definitions/scene'
 
-import { encounterDifficulty, sceneAllies, sceneEnemies, sceneFights } from './dm-encounter'
+import {
+  combatantPlans,
+  encounterDifficulty,
+  sceneAllies,
+  sceneEnemies,
+  sceneFights,
+} from './dm-encounter'
+import { emptyEncounter, fightKey } from './encounter'
 
 const guard = { ref: 'npc', key: 'no-such-guard' } as const
 const hound = { ref: 'beast', key: 'no-such-hound' } as const
@@ -99,5 +106,24 @@ describe('a beat’s fight', () => {
     const fight = SceneBeatFight.parse({ opponents: [{ creature: guard }] })
     expect(scene([beat('The gate', { fight }), beat('The gate', { fight })]).success).toBe(false)
     expect(scene([beat('The gate', { fight }), beat('The gate')]).success).toBe(true)
+  })
+})
+
+describe('combatantPlans', () => {
+  const cruiser = { ref: 'scene', key: 'taking_back_a_battle_cruiser' } as const
+  const breaker = { ref: 'npc', key: 'hand_breaker' } as const
+
+  it('shows the plan of every fight a creature is in until one is brought in', () => {
+    const encounter = { ...emptyEncounter(), scene: cruiser }
+    expect(combatantPlans(encounter, breaker).map((p) => p.fight)).toEqual([
+      'The batteries',
+      'The Barracks',
+    ])
+    const inBarracks = { ...encounter, joined: { [fightKey(cruiser, 'The Barracks')]: 1 } }
+    expect(combatantPlans(inBarracks, breaker).map((p) => p.fight)).toEqual(['The Barracks'])
+  })
+
+  it('has nothing without a scene', () => {
+    expect(combatantPlans(emptyEncounter(), breaker)).toEqual([])
   })
 })
