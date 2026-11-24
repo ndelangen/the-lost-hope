@@ -344,6 +344,15 @@ export default createScene({
               'He says this once he has said he is leaving. The wording is a draft: it gives the vibe and is not finished yet.',
             ],
             [
+              'His reason, which he does not give: a perfect memory could do the work of ',
+              refs.pcs.jim,
+              ' for ',
+              refs.npcs.the_father,
+              ', and a ',
+              refs.pcs.jim,
+              ' who can be replaced is killed.',
+            ],
+            [
               'If ',
               refs.pcs.auren,
               ' said he has a perfect memory, he has to agree to disable it. If he agrees, tonight is the same test of fear. If he refuses, ',

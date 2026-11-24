@@ -47,6 +47,13 @@ export default createNPC({
       refs.pcs.jim,
       ' was his ghostwriter: the storyteller who knew how to wrap a change in a dream or memory that a mind accepts as its own. That is why the order was to bring him back alive. Being raised from the dead is traumatic and might have altered Jim, and with him the gift.',
     ],
+    [
+      'He keeps ',
+      refs.pcs.jim,
+      ' alive only for that unique skill. The moment ',
+      refs.pcs.jim,
+      ' can be replaced, he has him killed.',
+    ],
     ['Everything below is working ideas from brainstorming. Not settled.'],
     [
       'He may be a past adventurer who learned the secret of ',
