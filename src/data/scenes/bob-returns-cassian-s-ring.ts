@@ -42,6 +42,38 @@ export default createScene({
       ],
     },
     {
+      title: 'A fine piece of scrap',
+      lines: [
+        {
+          do: [
+            [
+              refs.npcs.bob_the_merchant,
+              ' looks ',
+              refs.pcs.auren,
+              ' over like salvage and talks to the party about him, not to him.',
+            ],
+          ],
+        },
+        {
+          say: [
+            [
+              'I’ll give you 10,000 gold pieces for it. It seems to be in working condition! Does it obey commands well?',
+            ],
+          ],
+          speaker: refs.npcs.bob_the_merchant,
+        },
+        {
+          note: [
+            [
+              'Played for laughs, but the question cuts close to ',
+              refs.pcs.auren,
+              '’s backstory: he was built to obey. The other players do not know that, so leave the answer to his player.',
+            ],
+          ],
+        },
+      ],
+    },
+    {
       title: 'How neutrality works',
       lines: [
         {
