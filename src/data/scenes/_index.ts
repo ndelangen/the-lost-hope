@@ -14,6 +14,7 @@ import onana_sends_the_party_on from './onana-sends-the-party-on.ts'
 import picking_up_swift_at_nimbus from './picking-up-swift-at-nimbus.ts'
 import questions_for_light from './questions-for-light.ts'
 import running_from_the_battle_cruiser from './running-from-the-battle-cruiser.ts'
+import swift_s_silver_container_opens from './swift-s-silver-container-opens.ts'
 import taking_back_a_battle_cruiser from './taking-back-a-battle-cruiser.ts'
 import the_bard_s_new_song from './the-bard-s-new-song.ts'
 import the_clogged_ferry_landing from './the-clogged-ferry-landing.ts'
@@ -43,6 +44,7 @@ export default {
   down_through_the_rubble,
   fix_s_last_delivery,
   light_walks_auren_through_fajanet,
+  swift_s_silver_container_opens,
   the_bard_s_new_song,
   hex_loses_patience,
   questions_for_light,

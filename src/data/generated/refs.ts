@@ -737,6 +737,7 @@ export const refs = {
     down_through_the_rubble: ref('scene', 'down_through_the_rubble'),
     fix_s_last_delivery: ref('scene', 'fix_s_last_delivery'),
     light_walks_auren_through_fajanet: ref('scene', 'light_walks_auren_through_fajanet'),
+    swift_s_silver_container_opens: ref('scene', 'swift_s_silver_container_opens'),
     the_bard_s_new_song: ref('scene', 'the_bard_s_new_song'),
     hex_loses_patience: ref('scene', 'hex_loses_patience'),
     questions_for_light: ref('scene', 'questions_for_light'),

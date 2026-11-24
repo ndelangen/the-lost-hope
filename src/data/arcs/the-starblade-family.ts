@@ -32,5 +32,18 @@ export default createArc({
       ],
       npcs: [refs.npcs.swift_starblade_s_younger_sister, refs.npcs.sylvia],
     },
+    {
+      name: 'What the silver container holds',
+      hook: [
+        [
+          'Under the full moon in ',
+          refs.locations.rustmoor,
+          ' the container opens. What does ',
+          refs.pcs.swift_starblade,
+          ' do with a key nobody explains?',
+        ],
+      ],
+      scene: refs.scenes.swift_s_silver_container_opens,
+    },
   ],
 })

@@ -26,6 +26,7 @@ export default createTable({
   ready: [
     refs.scenes.a_fleet_on_an_empty_sea,
     refs.scenes.hex_loses_patience,
+    refs.scenes.swift_s_silver_container_opens,
     refs.scenes.down_through_the_rubble,
     refs.scenes.light_walks_auren_through_fajanet,
     refs.scenes.fix_s_last_delivery,

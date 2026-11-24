@@ -36,6 +36,8 @@ export default createScene({
       refs.items.swifts_silver_container,
       ' of ',
       refs.pcs.swift_starblade,
+      ': ',
+      refs.scenes.swift_s_silver_container_opens,
       '.',
     ],
     [
