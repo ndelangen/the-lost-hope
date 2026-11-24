@@ -22,6 +22,11 @@ export default createNPC({
       refs.pcs.jim,
       ' and holds him there. The damage it does is an accident of the power needed to take a ghost who carries a guild tattoo.',
     ],
+    [
+      'He cares little about the world. What he cannot afford is for ',
+      refs.organizations.the_eyeless_hand,
+      ' to be seen as too great a threat to the world order.',
+    ],
   ],
   background: [
     [

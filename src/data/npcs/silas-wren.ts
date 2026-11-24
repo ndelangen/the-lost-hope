@@ -19,7 +19,7 @@ export default createNPC({
       refs.pcs.jim,
       ' home to ',
       refs.npcs.the_father,
-      ' without a drop of blood. He knew ',
+      ' without a drop of his blood being spilled. Anyone else’s does not count. He knew ',
       refs.pcs.jim,
       ' as a boy and still thinks of him fondly. To him this is a rescue, not an arrest.',
     ],
@@ -62,7 +62,7 @@ export default createNPC({
       refs.pcs.jim,
       ' that his path would leave a wake of destruction. He had grown impatient with ',
       refs.pcs.jim,
-      ' and decided to make a point, so he made the destruction complete. He had the help of multiple abominations to level the city.',
+      ' and decided to make a point, so he made the destruction complete. He had the help of multiple abominations to level the city. In doing so he overstepped.',
     ],
     [
       'He takes joy in reading the commands of ',
