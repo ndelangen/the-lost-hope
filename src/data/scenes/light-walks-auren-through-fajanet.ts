@@ -349,6 +349,39 @@ export default createScene({
           ],
         },
         {
+          speaker: refs.npcs.light_13th_marshal,
+          say: [['Everything I tell you is a lie.']],
+        },
+        {
+          do: [
+            [
+              'The statement catches the mind of ',
+              refs.pcs.auren,
+              ' in a loop and holds him for a moment. ',
+              refs.npcs.light_13th_marshal,
+              ' uses it to reach into his mind and bring in just enough chaos that the perfect memory starts to degrade, until it is of no use to ',
+              refs.npcs.the_father,
+              ', nor to himself.',
+            ],
+          ],
+        },
+        {
+          note: [
+            [
+              'It is smoke and mirrors too: ',
+              refs.npcs.light_13th_marshal,
+              ' has been accused of not telling the whole truth.',
+            ],
+            [
+              'Not worked out yet: whether he does this only when ',
+              refs.pcs.auren,
+              ' refuses, whether ',
+              refs.pcs.auren,
+              ' can resist it, and how it sits with the rule below that a refusal means he is not saved.',
+            ],
+          ],
+        },
+        {
           note: [
             [
               'He says this once he has said he is leaving. The wording is a draft: it gives the vibe and is not finished yet.',
