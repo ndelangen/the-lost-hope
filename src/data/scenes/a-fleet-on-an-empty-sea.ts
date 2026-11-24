@@ -27,6 +27,11 @@ export default createScene({
     [
       'Play it as a short visit, about one session: the welcome, the feast, the stories and the catch. The party leaves with the puzzle of the laws unsolved and a reason to come back.',
     ],
+    [
+      'The party stays about two days, just before the full moon. The full moon falls around the time they reach ',
+      refs.locations.rustmoor,
+      ', so they miss the master’s visit.',
+    ],
   ],
   beats: [
     {
