@@ -47,6 +47,7 @@ export default createArc({
           ' first?',
         ],
       ],
+      scene: refs.scenes.bob_returns_cassian_s_ring,
       events: [refs.events.n2_e204],
     },
   ],

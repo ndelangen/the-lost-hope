@@ -743,6 +743,7 @@ export const refs = {
     questions_for_light: ref('scene', 'questions_for_light'),
     crowy_brings_up_onana_s_letter: ref('scene', 'crowy_brings_up_onana_s_letter'),
     a_fleet_on_an_empty_sea: ref('scene', 'a_fleet_on_an_empty_sea'),
+    bob_returns_cassian_s_ring: ref('scene', 'bob_returns_cassian_s_ring'),
   },
   creatures: {
     alchemist: ref('creature', 'alchemist'),
