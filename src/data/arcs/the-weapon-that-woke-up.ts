@@ -116,6 +116,11 @@ export default createArc({
           refs.pcs.auren,
           ' a way to reclaim his humanity.',
         ],
+        [
+          'Becoming more human again is an arc to offer the player, who may refuse it. Refusing brings conflict with ',
+          refs.npcs.light_13th_marshal,
+          '. The first thing that has to go is the perfect memory.',
+        ],
       ],
       npcs: [refs.npcs.magister_orrin_valdrek],
       scene: refs.scenes.light_walks_auren_through_fajanet,

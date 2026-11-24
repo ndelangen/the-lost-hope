@@ -314,7 +314,11 @@ export default createScene({
             [
               'At the table: this is the moment to hand the player a physical copy of The Bicentennial Man by Isaac Asimov.',
             ],
-            ['What the offer is has not been worked out yet.'],
+            [
+              'The offer is the arc he holds out to ',
+              refs.pcs.auren,
+              ': to become more human again. The player may turn it down, and if he does, that is the conflict. The first thing that has to go is the perfect memory, which is what he demands next.',
+            ],
           ],
         },
         {
