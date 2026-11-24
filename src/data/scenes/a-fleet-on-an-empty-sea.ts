@@ -271,6 +271,15 @@ export default createScene({
   ],
   outcomes: [
     {
+      icon: 'gi/GiWalk',
+      when: [['The party stays too long, toward the full moon.']],
+      response: [
+        [
+          'The people usher them away and make them leave: “We want more storytellers to come, please send more storytellers! But not during full moons, then the master comes to eat!”',
+        ],
+      ],
+    },
+    {
       icon: 'gi/GiFeatheredWing',
       when: [['They leave the Caves and fly on.']],
       response: [
