@@ -62,7 +62,7 @@ export default createNPC({
       refs.pcs.jim,
       ' that his path would leave a wake of destruction. He had grown impatient with ',
       refs.pcs.jim,
-      ' and decided to make a point, so he made the destruction complete. He may have used the help of aberrations to do it.',
+      ' and decided to make a point, so he made the destruction complete. He had the help of multiple abominations to level the city.',
     ],
     [
       'He takes joy in reading the commands of ',
