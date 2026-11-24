@@ -23,6 +23,11 @@ export default createScene({
       ' lies in layers on top of layers of destruction. On top is what the marshals left when they fought each other. Under it lies the Second Great War, the war of the marshals against the elves. Going down is going back in time.',
     ],
     [
+      'If they go down on the night of ',
+      refs.scenes.hex_loses_patience,
+      ', the full moon is still up over the top layer.',
+    ],
+    [
       'This crawl is a draft: the missing part, the layers and every number are proposals to change.',
     ],
   ],

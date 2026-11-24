@@ -28,6 +28,17 @@ export default createScene({
       ' too.',
     ],
     [
+      'It is full moon when the party arrives in ',
+      refs.locations.rustmoor,
+      '. That matters for ',
+      refs.items.shadow_sword,
+      ' and ',
+      refs.items.swifts_silver_container,
+      ' of ',
+      refs.pcs.swift_starblade,
+      '.',
+    ],
+    [
       'What the party does not know is in the motivations of ',
       refs.npcs.hex,
       ' and the background of the ',
