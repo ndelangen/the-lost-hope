@@ -26,6 +26,13 @@ export default createItem({
       'The key works on some doors with the right type of lock. It opens the locked door, but not onto the room behind it: it opens onto a broom closet. Whoever steps into the closet and uses the key from the inside can open it onto any door they have previously opened.',
     ],
     [
+      'The hint comes on its own. Sooner or later ',
+      refs.pcs.swift_starblade,
+      ' steps into the closet and closes the door behind him. The door is then locked and he has to use the key. At that point the demon voice he knows well from ',
+      refs.items.demon_possessed_flying_broom,
+      ' asks: “WHERE TO, MASTER?”',
+    ],
+    [
       'The inspiration is the television series The Lost Room, and the broom closet is a nod to The Stanley Parable.',
     ],
     [
