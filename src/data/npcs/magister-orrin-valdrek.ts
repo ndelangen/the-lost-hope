@@ -9,7 +9,7 @@ export default createNPC({
     [
       'His name was invented by the DM; the backstory of ',
       refs.pcs.auren,
-      ' leaves him unnamed. Whether he is still alive is open.',
+      ' leaves him unnamed. He is dead: the best anyone can do is step on his grave.',
     ],
   ],
 })

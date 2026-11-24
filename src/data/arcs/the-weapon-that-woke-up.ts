@@ -112,5 +112,19 @@ export default createArc({
       ],
       scene: refs.scenes.light_walks_auren_through_fajanet,
     },
+    {
+      name: 'Who will you choose to be?',
+      hook: [
+        [
+          'An avenger, a liberator, an adventurer, or a man again? ',
+          refs.npcs.light_13th_marshal,
+          ' asks, and offers ',
+          refs.pcs.auren,
+          ' a way to reclaim his humanity.',
+        ],
+      ],
+      npcs: [refs.npcs.magister_orrin_valdrek],
+      scene: refs.scenes.who_will_you_choose_to_be,
+    },
   ],
 })
