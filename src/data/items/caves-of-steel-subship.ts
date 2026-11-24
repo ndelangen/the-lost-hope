@@ -20,6 +20,12 @@ export default createItem({
     [
       'The machine turns a person’s consciousness into a projectile. A skipper puts his head into it and projects his pain and suffering at the enemy, and then he dies. A hatch underneath drops the body into the fish hold, which can be emptied into the sea.',
     ],
-    [refs.pcs.auren, ' will find the machine fascinating. Let his player look at it first.'],
+    [
+      refs.pcs.auren,
+      ' will find the machine fascinating, but he cannot work out how it functions. Let his player look at it first.',
+    ],
+    [
+      'The crews find the very idea of demonstrating the machine preposterous. They are glad to show anyone how the harpoons work.',
+    ],
   ],
 })

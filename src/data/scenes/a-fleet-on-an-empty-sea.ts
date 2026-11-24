@@ -117,6 +117,49 @@ export default createScene({
       ],
     },
     {
+      title: 'Harpoon fishing',
+      lines: [
+        {
+          do: [
+            [
+              'The crew gladly shows the party how the harpoons of their ',
+              refs.items.caves_of_steel_subship,
+              ' work, and lets anyone who wants have a go.',
+            ],
+          ],
+        },
+        {
+          note: [
+            ['Each player who wants to takes a turn, in three checks. The DCs are proposals.'],
+            [
+              'First a Wisdom (',
+              refs.rules.perception,
+              ') check, DC 12, to recognise that the target is a sentient creature. On a success they may switch to something that is not.',
+            ],
+            [
+              'Then a Strength (',
+              refs.rules.athletics,
+              ') check, DC 13, to hit it, and a Strength check, DC 12, to reel it in.',
+            ],
+            ['Everything caught goes into the hold. Sentient catch pleads for its life.'],
+          ],
+        },
+      ],
+      outcomes: [
+        {
+          icon: 'gi/GiMagnifyingGlass',
+          when: [['Someone asks to see the other machine fired.']],
+          response: [
+            [
+              'The crew finds the very idea of a demonstration preposterous. ',
+              refs.pcs.auren,
+              ' can study it all he likes, but he cannot work out how it functions.',
+            ],
+          ],
+        },
+      ],
+    },
+    {
       title: 'Welcomed like royalty',
       onlyIf: [['The party goes down with the fleet.']],
       lines: [
