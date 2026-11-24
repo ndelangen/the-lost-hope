@@ -31,6 +31,5 @@ export default createTable({
     refs.scenes.fix_s_last_delivery,
     refs.scenes.questions_for_light,
     refs.scenes.the_bard_s_new_song,
-    refs.scenes.who_will_you_choose_to_be,
   ],
 })

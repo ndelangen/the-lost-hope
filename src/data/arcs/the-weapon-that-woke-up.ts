@@ -105,16 +105,10 @@ export default createArc({
       hook: [
         [
           refs.npcs.light_13th_marshal,
-          ' does not know what ',
+          ' knows what ',
           refs.pcs.auren,
-          ' is, and means to find out before dark.',
+          ' once was. He does not know what he is now, and means to find out before dark.',
         ],
-      ],
-      scene: refs.scenes.light_walks_auren_through_fajanet,
-    },
-    {
-      name: 'Who will you choose to be?',
-      hook: [
         [
           'An avenger, a liberator, an adventurer, or a man again? ',
           refs.npcs.light_13th_marshal,
@@ -124,7 +118,7 @@ export default createArc({
         ],
       ],
       npcs: [refs.npcs.magister_orrin_valdrek],
-      scene: refs.scenes.who_will_you_choose_to_be,
+      scene: refs.scenes.light_walks_auren_through_fajanet,
     },
   ],
 })

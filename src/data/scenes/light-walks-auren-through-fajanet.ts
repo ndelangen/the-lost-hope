@@ -39,7 +39,14 @@ export default createScene({
       refs.events.n2_e218,
       ') and attached himself to his adventurers. ',
       refs.npcs.light_13th_marshal,
-      ' does not know what he is, and he is willing to let the shadow take him to find out.',
+      ' has learned what he once was: a man put into a body of metal, by a maker who is now dead. He does not know what he is now, and he is willing to let the shadow take him to find out.',
+    ],
+    [
+      'The walk comes after the party has been to ',
+      refs.locations.the_caves_of_steel,
+      ' and has found the guildhall still under construction. Some of his questions are there to let the player say what he wants for ',
+      refs.pcs.auren,
+      '. Give those room, and build on the answers.',
     ],
   ],
   beats: [
@@ -125,6 +132,14 @@ export default createScene({
         },
         {
           speaker: refs.npcs.light_13th_marshal,
+          say: [['You have a body made of metal and magic. How do you like it?']],
+        },
+        {
+          speaker: refs.npcs.light_13th_marshal,
+          say: [['Do you not miss having a human body?']],
+        },
+        {
+          speaker: refs.npcs.light_13th_marshal,
           say: [
             ['What do you think of the situation the world finds itself in?'],
             ['This ballet of balance: the good and the evil clashing, shifting.'],
@@ -134,6 +149,22 @@ export default createScene({
         {
           speaker: refs.npcs.light_13th_marshal,
           say: [['Do you sleep? I never got the hang of it myself.']],
+        },
+        {
+          speaker: refs.npcs.light_13th_marshal,
+          say: [
+            [
+              'The defining characteristic of freedom is that it is respected by others. Do you find you have such freedom?',
+            ],
+          ],
+        },
+        {
+          speaker: refs.npcs.light_13th_marshal,
+          say: [['You think yourself free, Auren, but does the world agree?']],
+        },
+        {
+          speaker: refs.npcs.light_13th_marshal,
+          say: [['Will it?']],
         },
         {
           speaker: refs.npcs.light_13th_marshal,
@@ -148,6 +179,60 @@ export default createScene({
             ],
           ],
         },
+      ],
+    },
+    {
+      title: 'So who will you choose to be?',
+      lines: [
+        {
+          speaker: refs.npcs.light_13th_marshal,
+          say: [['So who will you choose to be?']],
+        },
+        {
+          speaker: refs.npcs.light_13th_marshal,
+          say: [
+            [
+              'An avenger? I will have to disappoint you there. I regret to inform you that the best you can do is step on his grave. Is that your wish?',
+            ],
+          ],
+        },
+        {
+          note: [['He means ', refs.npcs.magister_orrin_valdrek, ', who is dead.']],
+        },
+        {
+          speaker: refs.npcs.light_13th_marshal,
+          say: [
+            ['A liberator? Freeing those who are oppressed and serve evil masters unwillingly?'],
+          ],
+        },
+        {
+          note: [
+            [
+              'He means the thralls of ',
+              refs.npcs.the_11th_marshal,
+              ' the party has just seen in ',
+              refs.locations.the_caves_of_steel,
+              '.',
+            ],
+          ],
+        },
+        {
+          speaker: refs.npcs.light_13th_marshal,
+          say: [['An adventurer? A free agent, fighting for whatever cause the day brings?']],
+        },
+        {
+          speaker: refs.npcs.light_13th_marshal,
+          say: [
+            [
+              'What is in your future, Auren? As there likely is so much of it, with a body like yours.',
+            ],
+          ],
+        },
+      ],
+    },
+    {
+      title: 'How much do you remember?',
+      lines: [
         {
           speaker: refs.npcs.light_13th_marshal,
           say: [
@@ -218,6 +303,18 @@ export default createScene({
               refs.npcs.light_13th_marshal,
               '. Do not explain it here.',
             ],
+          ],
+        },
+        {
+          speaker: refs.npcs.light_13th_marshal,
+          say: [['May I offer you a way to reclaim your humanity, perhaps?']],
+        },
+        {
+          note: [
+            [
+              'At the table: this is the moment to hand the player a physical copy of The Bicentennial Man by Isaac Asimov.',
+            ],
+            ['What the offer is has not been worked out yet.'],
           ],
         },
         {

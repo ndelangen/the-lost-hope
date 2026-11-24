@@ -22,7 +22,6 @@ import the_green_beam_over_the_sky_islands from './the-green-beam-over-the-sky-i
 import the_green_pulse_over_the_sky_islands from './the-green-pulse-over-the-sky-islands.ts'
 import the_hand_comes_for_jim from './the-hand-comes-for-jim.ts'
 import the_party_reunites_on_the_docks from './the-party-reunites-on-the-docks.ts'
-import who_will_you_choose_to_be from './who-will-you-choose-to-be.ts'
 
 export default {
   borris_shutters_the_casino,
@@ -49,5 +48,4 @@ export default {
   questions_for_light,
   crowy_brings_up_onana_s_letter,
   a_fleet_on_an_empty_sea,
-  who_will_you_choose_to_be,
 }
