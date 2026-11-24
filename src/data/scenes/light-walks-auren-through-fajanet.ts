@@ -355,9 +355,12 @@ export default createScene({
         {
           do: [
             [
-              'The statement catches the mind of ',
               refs.pcs.auren,
-              ' in a loop and holds him for a moment. ',
+              ' makes a DC 18 ',
+              refs.rules.cha,
+              ' ',
+              refs.rules.saving_throw,
+              '. If he fails, the statement catches his mind in a loop and holds him for a moment. ',
               refs.npcs.light_13th_marshal,
               ' uses it to reach into his mind and bring in just enough chaos that the perfect memory starts to degrade, until it is of no use to ',
               refs.npcs.the_father,
@@ -375,9 +378,7 @@ export default createScene({
             [
               'Not worked out yet: whether he does this only when ',
               refs.pcs.auren,
-              ' refuses, whether ',
-              refs.pcs.auren,
-              ' can resist it, and how it sits with the rule below that a refusal means he is not saved.',
+              ' refuses, what a successful save gives him, and how it sits with the rule below that a refusal means he is not saved.',
             ],
           ],
         },
