@@ -15,6 +15,13 @@ export default createEvent({
       ' again.',
     ],
     [
+      'Meeting him for the first time, ',
+      refs.pcs.devan,
+      ' saw a skeleton and cast Detect Evil and Good on him. ',
+      refs.npcs.bob_the_merchant,
+      ' registered as nothing at all, not even as undead.',
+    ],
+    [
       refs.pcs.jim,
       ' used the ',
       refs.items.dagger_of_passive_aggression,
