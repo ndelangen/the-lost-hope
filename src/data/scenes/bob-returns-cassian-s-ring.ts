@@ -71,6 +71,33 @@ export default createScene({
             ],
           ],
         },
+        {
+          do: [
+            [
+              refs.npcs.bob_the_merchant,
+              ' spots ',
+              refs.items.dagger_of_the_zodiac_signs,
+              ' fused into ',
+              refs.pcs.auren,
+              '’s arm.',
+            ],
+          ],
+        },
+        {
+          say: [
+            [
+              'I see you have chosen to attach the heart of a dungeon to an ancient war machine. Interesting choices.',
+            ],
+          ],
+          speaker: refs.npcs.bob_the_merchant,
+        },
+        {
+          note: [
+            [
+              'He knows what the dagger is. Its powers are not decided yet, so he says nothing more about them.',
+            ],
+          ],
+        },
       ],
     },
     {
