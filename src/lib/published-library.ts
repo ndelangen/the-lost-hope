@@ -1,6 +1,6 @@
 import { libraryTypes, publishedLibrary, type LibraryType } from './published-library-data'
 
-export { libraryTypes, type SrdVersion } from './published-library-data'
+export { libraryTypes, type LibraryType, type SrdVersion } from './published-library-data'
 
 function libraryEntryKey(type: string, slug: string) {
   return type + '/' + slug
@@ -19,7 +19,6 @@ export function isLibraryType(value: unknown): value is LibraryType {
 type LibrarySearch = {
   dm?: true
   q?: string
-  type?: LibraryType
   version?: string
 }
 
@@ -27,9 +26,12 @@ export function librarySearch(input: Record<string, unknown>): LibrarySearch {
   return {
     dm: input.dm === '' || input.dm === true ? (true as const) : undefined,
     q: typeof input.q === 'string' ? input.q.slice(0, 200) || undefined : undefined,
-    type: isLibraryType(input.type) ? input.type : undefined,
     version: typeof input.version === 'string' ? input.version.slice(0, 80) : undefined,
   }
+}
+
+export function libraryBrowseTypes(dm: boolean) {
+  return new Set(publishedLibrary.filter((entry) => dm || !entry.gmOnly).map((entry) => entry.type))
 }
 
 export function browseLibrary(dm: boolean, query?: string, type?: LibraryType) {

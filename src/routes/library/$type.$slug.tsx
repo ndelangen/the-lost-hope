@@ -41,8 +41,9 @@ function LibraryEntryPage() {
     <main className="mx-auto grid w-full max-w-3xl gap-6 px-5 py-10 sm:px-8">
       <div className="flex flex-wrap justify-between gap-3 text-sm">
         <Link
-          to="/library"
-          search={{ dm: search.dm, type }}
+          to="/library/$type"
+          params={{ type }}
+          search={{ dm: search.dm, q: search.q }}
           className="inline-flex items-center gap-2 underline"
         >
           <ArrowLeft aria-hidden="true" className="size-4" />
@@ -50,7 +51,7 @@ function LibraryEntryPage() {
         </Link>
         {search.dm &&
           (entry.gmOnly ? (
-            <Link to="/library" search={{}} className="underline">
+            <Link to="/library" search={{ q: search.q }} className="underline">
               Return to player view
             </Link>
           ) : (
