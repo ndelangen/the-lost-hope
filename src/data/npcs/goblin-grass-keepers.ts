@@ -13,6 +13,13 @@ export default createNPC({
       ' who keep a patch of grass in absolutely perfect condition. Friendly to the city and to strangers, but fiercely protective of their turf. The location of their turf and whether they have a leader are unestablished.',
     ],
   ],
+  background: [
+    [
+      'They are the Dust collectors of ',
+      refs.locations.fajanet,
+      '. In the morning the shadow condenses on their grass, and they gather the Dust it leaves.',
+    ],
+  ],
   stats: {
     size: 'small',
     type: 'fey',
