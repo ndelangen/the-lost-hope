@@ -23,6 +23,11 @@ export default createArc({
       '.',
     ],
     [
+      'In the morning the shadow condenses into tiny droplets, which solidify into the silvery Dust. It likes to collect on living things with a lot of surface area. Grass is superbly good at collecting it, which is why the grass is an important part of ',
+      refs.locations.fajanet,
+      '.',
+    ],
+    [
       'As night falls, minds get lost unless someone writes. Thoughts and dreams that are not recorded are taken. At the leak itself the shadow can come in the night and take a mind, and even a body.',
     ],
     [
