@@ -1,5 +1,7 @@
 import { join } from 'node:path'
 
+import libraryImageSources from './library-image-sources.json'
+
 export const RESPONSIVE_IMAGE_WIDTHS = [
   32, 64, 128, 192, 256, 384, 512, 640, 768, 960, 1024, 1280, 1536,
 ] as const
@@ -17,9 +19,15 @@ export type ResponsiveImageSource = {
   role: 'avatar' | 'map' | 'illustration'
   logicalSource: string
   repositoryPath: string
+  maxWidth?: number
 }
 
 export const RESPONSIVE_IMAGE_SOURCES: readonly ResponsiveImageSource[] = [
+  ...libraryImageSources.map((source) => ({
+    ...source,
+    role: 'illustration' as const,
+    maxWidth: 768,
+  })),
   {
     id: 'npcs-durgan-ashfang-portrait',
     role: 'avatar',

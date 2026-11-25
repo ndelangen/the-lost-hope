@@ -1,10 +1,11 @@
+import { DamageType } from '#/components/damage-type'
 import type { DmStep } from '#/lib/ability-steps'
 import type { DerivedStatBlock } from '#/lib/dm-ability-text'
 import { cn } from '#/lib/utils'
 
 import { AbilityTextView, type ReferencedAbility } from './ability-text'
 import { useDensity } from './density'
-import { DamageType, StatParts } from './stat-parts'
+import { StatParts } from './stat-parts'
 
 /** Who acts in a step: the DM, playing the creature, or whoever it targets. */
 const WHO = {

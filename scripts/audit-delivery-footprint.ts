@@ -6,6 +6,7 @@ import { gzipSync } from 'node:zlib'
 import { JSDOM } from 'jsdom'
 import sharp from 'sharp'
 
+import { GENERATED_LIBRARY_RESPONSIVE_IMAGES } from '../src/generated/library-responsive-images'
 import { GENERATED_RESPONSIVE_IMAGES } from '../src/generated/responsive-images'
 import { PRERENDERED_PUBLIC_PAGE_DESCRIPTORS } from '../src/lib/public-page-descriptors'
 import { RESPONSIVE_IMAGE_SOURCES } from './image-sources'
@@ -100,7 +101,8 @@ async function assertOpaqueIco(path: string): Promise<void> {
 
 async function auditGeneratedImages(): Promise<void> {
   const expectedFiles = new Set<string>()
-  for (const [logicalSource, image] of Object.entries(GENERATED_RESPONSIVE_IMAGES)) {
+  const images = { ...GENERATED_RESPONSIVE_IMAGES, ...GENERATED_LIBRARY_RESPONSIVE_IMAGES }
+  for (const [logicalSource, image] of Object.entries(images)) {
     assert(image.quality === 80, `${logicalSource} is not configured for q80`)
     assert(image.progressive, `${logicalSource} is not configured as progressive`)
     assert(image.chromaSubsampling === '4:2:0', `${logicalSource} is not configured as 4:2:0`)
@@ -165,6 +167,12 @@ async function auditHtmlAndReport(): Promise<void> {
     assert(
       javascript.files.every((file) => !file.startsWith('___icons-') && !file.startsWith('icons-')),
       `${route} initial graph includes an icon catalogue chunk`,
+    )
+    assert(
+      javascript.files.every(
+        (file) => !file.startsWith('published-library-') && !file.startsWith('library-image-'),
+      ),
+      `${route} initial graph includes library data or artwork metadata`,
     )
     for (const image of document.querySelectorAll<HTMLImageElement>('img')) {
       const source = image.getAttribute('src') ?? ''

@@ -2,9 +2,8 @@ import { Sparkles } from 'lucide-react'
 
 import { ABILITY_ICONS } from '#/lib/ability-icons'
 import type { AbilityIndexEntry, AbilityIndexGroup } from '#/lib/ability-index'
+import { ABILITY_KIND } from '#/lib/ability-kind-presentation'
 import { cn } from '#/lib/utils'
-
-import { ABILITY_KIND } from './ability-kind'
 
 /**
  * Every ability and spell of one creature as named buttons, grouped by when it can use them, to
