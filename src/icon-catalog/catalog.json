@@ -85105,7 +85105,9 @@
       "classification": "useful",
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/arm.html",
-      "usedIn": []
+      "usedIn": [
+        "src/components/library/library-creature-statistics.tsx"
+      ]
     },
     {
       "id": "gi/GiArmadillo",
@@ -98857,6 +98859,7 @@
       "duplicateOf": "lucide/Brain",
       "sourceUrl": "https://game-icons.net/1x1/lorc/brain.html",
       "usedIn": [
+        "src/components/library/library-creature-statistics.tsx",
         "src/data/npcs/onana-tempest.ts",
         "src/lib/ability-icons.tsx"
       ]
@@ -100012,6 +100015,7 @@
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/broadsword.html",
       "usedIn": [
+        "src/components/library/library-ability-card.tsx",
         "src/data/npcs/blackbeard.ts",
         "src/data/npcs/captain-garran.ts",
         "src/data/npcs/faceless-shadow.ts",
@@ -116817,6 +116821,7 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/conversation.html",
       "usedIn": [
         "src/components/dm/scene-branches.test.tsx",
+        "src/components/library/library-creature-statistics.tsx",
         "src/data/npcs/onana-tempest.ts",
         "src/data/scenes/boarded-by-the-battle-cruiser.ts",
         "src/data/scenes/borris-shutters-the-casino.ts",
@@ -131356,6 +131361,7 @@
       "classificationReason": "Game-oriented visual that may provide useful campaign flavor.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/echo-ripples.html",
       "usedIn": [
+        "src/components/library/library-ability-card.tsx",
         "src/data/npcs/silas-wren.ts",
         "src/lib/ability-icons.tsx"
       ]
@@ -155238,6 +155244,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/delapouite/heart-beats.html",
       "usedIn": [
+        "src/components/library/library-creature-statistics.tsx",
         "src/data/effects/excruciating-pain.ts",
         "src/lib/effect-icons.tsx"
       ]
@@ -188593,7 +188600,9 @@
       "classification": "useful",
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/owl.html",
-      "usedIn": []
+      "usedIn": [
+        "src/components/library/library-creature-statistics.tsx"
+      ]
     },
     {
       "id": "gi/GiOyster",
@@ -190878,6 +190887,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/paw.html",
       "usedIn": [
+        "src/components/library/library-ability-card.tsx",
         "src/data/beasts/displacer-beast.ts",
         "src/data/beasts/wolfie.ts",
         "src/data/npcs/lord-malachar.ts",
@@ -217449,7 +217459,8 @@
         "src/data/npcs/giggles.ts",
         "src/data/npcs/goblin-grass-keepers.ts",
         "src/data/npcs/the-father.ts",
-        "src/lib/ability-icons.tsx"
+        "src/lib/ability-icons.tsx",
+        "src/lib/published-creature-sheet.test.ts"
       ]
     },
     {
@@ -221590,6 +221601,7 @@
       "classification": "useful",
       "classificationReason": "Manually classified as useful from the /_icons review page.",
       "usedIn": [
+        "src/components/library/library-ability-card.tsx",
         "src/data/npcs/korrag-stonevow.ts",
         "src/data/npcs/silas-wren.ts",
         "src/lib/ability-icons.tsx"
@@ -234643,7 +234655,8 @@
       "sourceUrl": "https://game-icons.net/1x1/lorc/tentacle-strike.html",
       "usedIn": [
         "src/data/beasts/displacer-beast.ts",
-        "src/lib/ability-icons.tsx"
+        "src/lib/ability-icons.tsx",
+        "src/lib/published-creature-sheet.test.ts"
       ]
     },
     {
@@ -248403,6 +248416,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/water-splash.html",
       "usedIn": [
+        "src/components/library/library-ability-card.tsx",
         "src/data/beasts/dragon-children.ts",
         "src/data/beasts/serpent-eclipse-lake-serpent.ts",
         "src/data/creatures/pirate-captain.ts",
@@ -251565,6 +251579,7 @@
       "classificationReason": "Strong match for fantasy campaign entities, events, items, or game mechanics.",
       "sourceUrl": "https://game-icons.net/1x1/lorc/wizard-staff.html",
       "usedIn": [
+        "src/components/library/library-ability-card.tsx",
         "src/data/npcs/frog-medicine-man-of-verdant-haven.ts",
         "src/lib/ability-icons.tsx"
       ]
@@ -261889,6 +261904,7 @@
         "src/components/dm/encounter/dm-screen.tsx",
         "src/components/dm/encounter/encounter-toolbar.tsx",
         "src/components/home-action-card.test.tsx",
+        "src/components/library/library-browse.tsx",
         "src/routes/index.tsx"
       ]
     },
@@ -287818,7 +287834,9 @@
       "classification": "useful",
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/image-off",
-      "usedIn": []
+      "usedIn": [
+        "src/components/library/library-browse.tsx"
+      ]
     },
     {
       "id": "lucide/ImagePlay",
@@ -306192,7 +306210,6 @@
       "classificationReason": "Canonical generic UI icon or a broadly reusable campaign concept.",
       "sourceUrl": "https://lucide.dev/icons/search",
       "usedIn": [
-        "src/components/library/library-browse.tsx",
         "src/components/ui/search-input.tsx"
       ]
     },

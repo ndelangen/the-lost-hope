@@ -1,17 +1,13 @@
 import { createFileRoute, notFound, stripSearchParams } from '@tanstack/react-router'
 
 import { LibraryBrowse } from '#/components/library/library-browse'
-import {
-  isLibraryType,
-  libraryBrowseTypes,
-  librarySearch,
-  libraryTypes,
-} from '#/lib/published-library'
+import { isLibraryType, librarySearch, libraryTypes } from '#/lib/published-library-routing'
 
 export const Route = createFileRoute('/library/$type/')({
   validateSearch: librarySearch,
   search: { middlewares: [stripSearchParams(librarySearch({}))] },
-  beforeLoad: ({ params: { type }, search }) => {
+  beforeLoad: async ({ params: { type }, search }) => {
+    const { libraryBrowseTypes } = await import('#/lib/published-library')
     if (!isLibraryType(type) || !libraryBrowseTypes(Boolean(search.dm)).has(type)) throw notFound()
     return { libraryType: type }
   },
@@ -30,14 +26,19 @@ export const Route = createFileRoute('/library/$type/')({
 
 function LibraryTypePage() {
   const { libraryType } = Route.useRouteContext()
-  const { dm, q } = Route.useSearch()
+  const { dm, q, group, page } = Route.useSearch()
   const navigate = Route.useNavigate()
   return (
     <LibraryBrowse
       type={libraryType}
       dm={dm}
       q={q}
-      onSearch={(query) => void navigate({ search: { dm, q: query } })}
+      group={group}
+      page={page}
+      onSearch={(query, nextGroup) => void navigate({ search: { dm, q: query, group: nextGroup } })}
+      onPage={(nextPage) =>
+        void navigate({ search: { dm, q, group, page: nextPage === 1 ? undefined : nextPage } })
+      }
     />
   )
 }

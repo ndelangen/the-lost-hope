@@ -27,6 +27,7 @@ public/robots.txt
 src/generated/social-image-paths.ts
 src/generated/public-asset-paths.ts
 src/generated/responsive-images.ts
+src/generated/library-responsive-images.ts
 src/generated/public-page-paths.json
 
 # Local drafts, prompts, and review artifacts

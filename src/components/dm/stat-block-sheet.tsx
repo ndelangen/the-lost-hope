@@ -12,10 +12,9 @@ import {
 import type { Ability, StatBlock } from '#/definitions/stat-block'
 import { ABILITY_ICONS } from '#/lib/ability-icons'
 import { abilityAnchor, abilityGroups, type AbilityGroupKey } from '#/lib/ability-index'
+import { ABILITY_KIND } from '#/lib/ability-kind-presentation'
 import { abilityKind, type DerivedStats } from '#/lib/stat-block'
 import { cn } from '#/lib/utils'
-
-import { ABILITY_KIND } from './ability-kind'
 
 const GROUP_ICON = {
   action: TIMING.action.Icon,
