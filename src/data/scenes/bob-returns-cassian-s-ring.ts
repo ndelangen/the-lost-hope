@@ -260,7 +260,19 @@ export default createScene({
             [
               'The place is out on ',
               refs.locations.the_old_battlefield,
-              '. The monster and the reward are not decided yet.',
+              '. The monster and the legendary reward are not decided yet.',
+            ],
+          ],
+        },
+      ],
+      outcomes: [
+        {
+          icon: 'gi/GiPuzzle',
+          when: [['The party wants a different reward, or haggles over it.']],
+          response: [
+            [
+              refs.npcs.bob_the_merchant,
+              ' offers his help with a problem the party will face, as payment instead. He has never seen a puzzle he could not solve: it is his greatest passion in life.',
             ],
           ],
         },
