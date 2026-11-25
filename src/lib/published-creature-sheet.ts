@@ -73,15 +73,24 @@ const sectionOrder = (title: string) => {
 }
 
 export function publishedCreatureSheet(sections: readonly LibrarySection[]) {
-  const rawStats = sections.find(({ title }) => title === 'Statistics')
   const classification = sections.find(({ title }) => title === 'Classification')
   const initiative = sections.find(
     ({ title, lines }) => title.toLowerCase() === 'initiative' && lines.length === 1,
   )
-  const stats = (rawStats?.lines ?? []).map((line): [string, string] => {
-    const [name, ...value] = line.split(' · ')
-    return [name, value.join(' · ')]
-  })
+  const statValues = new Map<string, string>()
+  const statNotes = new Set<string>()
+  for (const { title, lines } of sections) {
+    if (title !== 'Statistics') continue
+    for (const line of lines) {
+      const separator = line.indexOf(' · ')
+      const name = line.slice(0, separator)
+      const value = line.slice(separator + 3)
+      const prior = statValues.get(name)
+      if (separator < 1 || (prior !== undefined && prior !== value)) statNotes.add(line)
+      else statValues.set(name, value)
+    }
+  }
+  const stats = [...statValues]
   const vitals = vitalOrder.flatMap((name): [string, string][] =>
     name === 'Initiative' && initiative
       ? [[name, initiative.lines[0]]]
@@ -92,13 +101,15 @@ export function publishedCreatureSheet(sections: readonly LibrarySection[]) {
     ([name]) => !vitalOrder.includes(name) && !abilityNames.has(name.toLowerCase()),
   )
   const detail = sections.filter(
-    (section) => section !== classification && section !== rawStats && section !== initiative,
+    (section) =>
+      section !== classification && section.title !== 'Statistics' && section !== initiative,
   )
   const facts = detail
     .filter(({ title }) => factTitles.has(title.toLowerCase()))
     .flatMap((section) =>
       section.title === 'Other statistics' ? splitStatisticSections(section) : [section],
     )
+  if (statNotes.size) facts.unshift({ title: 'Additional statistics', lines: [...statNotes] })
   const savingThrowSection = facts.find(({ title }) => title.toLowerCase() === 'saving throws')
   const savingThrows = savingThrowSection ? printedSaves([...savingThrowSection.lines]) : undefined
   const senses = facts.find(({ title }) => title === 'Senses')

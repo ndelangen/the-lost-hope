@@ -99,7 +99,8 @@ export function getLibraryEntry(type: string, slug: string, dm: boolean, version
     ...alternates.filter((image) => !primary.some(({ file }) => file === image.file)),
   ]
   const glossary =
-    selected.edition === '2014 fifth edition'
+    selected.edition === '2014 fifth edition' ||
+    selected.edition === '2014 fifth edition compatible'
       ? 'srd-5-1'
       : selected.edition === '2024 fifth edition'
         ? 'srd-5-2-1'

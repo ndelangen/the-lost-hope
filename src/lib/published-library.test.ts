@@ -95,3 +95,9 @@ test('keeps an existing default portrait ahead of its staged alternates', () => 
   expect(result?.art?.file).toBe(wolf.art[0]?.file)
   expect(new Set(wolf.art.map(({ file }) => file)).size).toBe(wolf.art.length)
 })
+
+test('uses the existing fifth-edition glossary for compatible staged printings', () => {
+  const bear = getLibraryEntry('beasts', 'bear-mcdm', true)!
+  expect(bear.selected.edition).toBe('2014 fifth edition compatible')
+  expect(bear.selected.glossary).toBe('srd-5-1')
+})

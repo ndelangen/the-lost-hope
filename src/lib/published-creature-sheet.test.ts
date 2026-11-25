@@ -101,3 +101,15 @@ test('preserves prose before a saving throw in a named action', () => {
     .find(({ title }) => title === 'Boulder Toss (Recharge 6).')
   expect(toss?.text).toMatch(/^The ape hurls.*Dexterity Saving Throw:/u)
 })
+
+test('keeps both the structured and prose statistics of a staged scalable printing', () => {
+  const land = getLibraryEntry('beasts', 'beast-of-the-land', true)!
+  const id = land.printings.find(({ label }) => label === 'Player’s Handbook')?.id
+  expect(id).toBeDefined()
+  const profile = getLibraryEntry('beasts', 'beast-of-the-land', true, id)!
+  const sheet = publishedCreatureSheet(profile.sections)
+  expect(sheet.abilities).toContainEqual(['Strength', '14'])
+  expect(
+    sheet.defenses.find(({ title }) => title === 'Additional statistics')?.lines.join(' '),
+  ).toContain('Base save modifiers')
+})
