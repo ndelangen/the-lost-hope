@@ -9,7 +9,7 @@ import {
   StatSource,
   TIMING,
 } from '#/components/dm/encounter/stat-block-sections'
-import type { Ability, StatBlock } from '#/definitions/stat-block'
+import type { Ability, PrintedStatBlock, StatBlock } from '#/definitions/stat-block'
 import { ABILITY_ICONS } from '#/lib/ability-icons'
 import { abilityAnchor, abilityGroups, type AbilityGroupKey } from '#/lib/ability-index'
 import { ABILITY_KIND } from '#/lib/ability-kind-presentation'
@@ -26,7 +26,13 @@ const GROUP_ICON = {
 } satisfies Record<AbilityGroupKey, typeof Crown>
 
 /** A creature's full stat block for reading outside a fight: numbers, saves, and every ability written out. */
-export function StatBlockSheet({ stats, block }: { stats: StatBlock; block: DerivedStats }) {
+export function StatBlockSheet({
+  stats,
+  block,
+}: {
+  stats: StatBlock | PrintedStatBlock
+  block: DerivedStats
+}) {
   const describe = describeReferences(stats, block, {}, () => undefined)
 
   return (

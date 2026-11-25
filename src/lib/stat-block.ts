@@ -3,6 +3,7 @@ import {
   type Attack,
   type ChallengeRating,
   type PcStatBlock,
+  type PrintedStatBlock,
   type Save,
   type StatBlock,
 } from '#/definitions/stat-block'
@@ -58,7 +59,7 @@ export type PlayablePcStats = PcStatBlock & {
 }
 
 /** A creature's stat block or a PC's: everything the encounter can run. */
-export type AnyStatBlock = StatBlock | PlayablePcStats
+export type AnyStatBlock = StatBlock | PrintedStatBlock | PlayablePcStats
 
 /** Proficiency bonus from a creature's challenge rating or a PC's level. */
 export function proficiencyOf(stats: AnyStatBlock) {

@@ -5,6 +5,7 @@ import { LibraryAttribution } from '#/components/library/library-attribution'
 import { LibraryCreatureSheet } from '#/components/library/library-creature-sheet'
 import { LibraryGallery } from '#/components/library/library-gallery'
 import { LibraryRuleText } from '#/components/library/library-rule-text'
+import { LibraryTypedCreature } from '#/components/library/library-typed-creature'
 import { isLibraryType, librarySearch, libraryTypes } from '#/lib/published-library-routing'
 
 export const Route = createFileRoute('/library/$type/$slug')({
@@ -16,7 +17,11 @@ export const Route = createFileRoute('/library/$type/$slug')({
     const { getLibraryEntry } = await import('#/lib/published-library')
     const entry = getLibraryEntry(type, slug, Boolean(search.dm), search.version)
     if (!entry) throw notFound()
-    return { entry, type }
+    const typed =
+      type === 'beasts' || type === 'monsters'
+        ? (await import('#/lib/library-monsters')).typedLibraryPrinting(slug, entry.selected.label)
+        : undefined
+    return { entry, type, typed }
   },
   head: ({ match }) => ({
     meta: [
@@ -32,7 +37,7 @@ export const Route = createFileRoute('/library/$type/$slug')({
 })
 
 function LibraryEntryPage() {
-  const { entry, type } = Route.useRouteContext()
+  const { entry, type, typed } = Route.useRouteContext()
   const search = Route.useSearch()
   const params = Route.useParams()
 
@@ -129,7 +134,15 @@ function LibraryEntryPage() {
             </Link>
           ))}
       </div>
-      {type === 'beasts' || type === 'monsters' ? (
+      {typed ? (
+        <LibraryTypedCreature
+          entry={entry}
+          typed={typed}
+          category={libraryTypes[type]}
+          dm={Boolean(search.dm)}
+          printings={printings}
+        />
+      ) : type === 'beasts' || type === 'monsters' ? (
         <LibraryCreatureSheet
           entry={entry}
           category={libraryTypes[type]}

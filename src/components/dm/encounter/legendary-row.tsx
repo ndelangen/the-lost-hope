@@ -1,6 +1,6 @@
 import { Crown } from 'lucide-react'
 
-import type { Ability, StatBlock } from '#/definitions/stat-block'
+import type { Ability, PrintedStatBlock, StatBlock } from '#/definitions/stat-block'
 import type { DerivedStatBlock } from '#/lib/dm-ability-text'
 import { LEGENDARY_POOL, type UseCount } from '#/lib/encounter'
 import { cn } from '#/lib/utils'
@@ -15,7 +15,7 @@ export type LegendaryGroup = {
   name: string
   actions: readonly Ability[]
   pool: UseCount
-  stats: StatBlock
+  stats: StatBlock | PrintedStatBlock
   block: DerivedStatBlock
 }
 

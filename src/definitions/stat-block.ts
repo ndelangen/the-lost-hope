@@ -295,36 +295,42 @@ function checkAbilities(block: AbilityBlock, context: z.RefinementCtx) {
   }
 }
 
+const creatureShape = {
+  ...statCore,
+  cr: z.enum(CHALLENGE_RATINGS),
+  hitDice: z.string().regex(/^\d+d(4|6|8|10|12|20)$/, 'Use hit dice like `3d10`'),
+  legendary: z
+    .strictObject({
+      uses: z.number().int().positive().describe('Shared pool, refilled at the start of its turn'),
+      actions: z.array(Ability).min(1),
+    })
+    .optional(),
+  lairActions: z
+    .array(Ability)
+    .min(1)
+    .optional()
+    .describe(
+      'In its lair, one of these on initiative 20 each round; not the same one twice in a row',
+    ),
+}
+
 /**
  * DM-only 5e statistics for an NPC, beast, or shared creature. Only base facts are stored:
  * proficiency bonus, hit points, save and skill bonuses, passive Perception, to-hit bonuses,
  * damage averages and save DCs are derived in `src/lib/stat-block.ts`.
  */
 export const StatBlock = z
-  .strictObject({
-    ...statCore,
-    cr: z.enum(CHALLENGE_RATINGS),
-    hitDice: z.string().regex(/^\d+d(4|6|8|10|12|20)$/, 'Use hit dice like `3d10`'),
-    legendary: z
-      .strictObject({
-        uses: z
-          .number()
-          .int()
-          .positive()
-          .describe('Shared pool, refilled at the start of its turn'),
-        actions: z.array(Ability).min(1),
-      })
-      .optional(),
-    lairActions: z
-      .array(Ability)
-      .min(1)
-      .optional()
-      .describe(
-        'In its lair, one of these on initiative 20 each round; not the same one twice in a row',
-      ),
-    source: Source,
-  })
+  .strictObject({ ...creatureShape, source: Source })
   .superRefine(checkAbilities)
+
+/**
+ * A creature's statistics exactly as one publication prints them, for the library. The printing
+ * that holds it owns where it comes from, so it has no `source`. Derived numbers follow the same
+ * rules as `StatBlock`, so the library and the encounter tracker read it the same way.
+ */
+export const PrintedStatBlock = z.strictObject(creatureShape).superRefine(checkAbilities)
+
+export type PrintedStatBlock = z.infer<typeof PrintedStatBlock>
 
 /** How a PC's limited abilities say which rest refills them. */
 export const REST_RECHARGE = /^(Short rest|Long rest(; one comes back on a short rest)?)$/

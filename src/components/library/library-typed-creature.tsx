@@ -1,0 +1,101 @@
+import type { ReactNode } from 'react'
+
+import { StatBlockSheet } from '#/components/dm/stat-block-sheet'
+import type { typedLibraryPrinting } from '#/lib/library-monsters'
+import type { getLibraryEntry } from '#/lib/published-library'
+
+import { LibraryGallery } from './library-gallery'
+
+type Typed = NonNullable<ReturnType<typeof typedLibraryPrinting>>
+
+/** A library monster whose printing is typed data: the same stat block the encounter runs. */
+export function LibraryTypedCreature({
+  entry,
+  typed,
+  category,
+  dm,
+  printings,
+}: {
+  entry: NonNullable<ReturnType<typeof getLibraryEntry>>
+  typed: Typed
+  category: string
+  dm: boolean
+  printings: ReactNode
+}) {
+  const { printing, heldBy, reprints, derived } = typed
+  const { stats } = printing
+  const gallery = entry.art?.length ? entry.art : undefined
+  const classification = [
+    `${cap(stats.size)} ${cap(stats.type)}${printing.tags ? ` (${printing.tags.join(', ')})` : ''}`,
+    printing.alignment,
+  ]
+    .filter(Boolean)
+    .join(', ')
+
+  return (
+    <article className="grid min-w-0 gap-5 break-words">
+      <header className="bg-card overflow-hidden rounded-xl border border-teal-950/20 shadow-sm dark:border-teal-100/20">
+        <div
+          className={`grid items-start gap-4 p-4 sm:gap-6 sm:p-6 ${gallery ? 'grid-cols-[minmax(0,1fr)_minmax(6.5rem,34%)]' : ''}`}
+        >
+          <div className="grid min-w-0 content-start gap-3">
+            <div className="flex flex-wrap items-center gap-2 text-xs font-semibold tracking-wide">
+              <span className="text-teal-800 uppercase dark:text-teal-300">{category}</span>
+              <span className="text-muted-foreground">
+                {heldBy.name} ({heldBy.year})
+              </span>
+            </div>
+            <h1 className="font-serif text-4xl font-semibold tracking-tight sm:text-5xl">
+              {printing.name}
+            </h1>
+            <p className="text-sm font-medium">{classification}</p>
+            {reprints.length > 0 && (
+              <p className="text-muted-foreground text-xs">
+                Also printed unchanged in{' '}
+                {reprints.map(({ name, year }) => `${name} (${year})`).join(', ')}.
+              </p>
+            )}
+            {printing.appearance?.map((paragraph) => (
+              <p key={paragraph.join('')} className="max-w-prose text-sm leading-relaxed">
+                {paragraph.map((part) => (typeof part === 'string' ? part : '')).join('')}
+              </p>
+            ))}
+          </div>
+          {gallery && (
+            <div className="col-start-2 row-start-1 sm:row-span-2">
+              <LibraryGallery key={gallery[0].file} images={gallery} name={entry.name} />
+            </div>
+          )}
+          {printings && (
+            <div className="col-span-full sm:col-span-1 sm:col-start-1">{printings}</div>
+          )}
+        </div>
+      </header>
+      <dl className="grid gap-x-6 gap-y-2 text-sm sm:grid-cols-[auto_1fr]">
+        {printing.habitats && (
+          <>
+            <dt className="font-semibold">Habitats</dt>
+            <dd>{printing.habitats.join(', ')}</dd>
+          </>
+        )}
+        <dt className="font-semibold">Languages</dt>
+        <dd>{printing.languages.length ? printing.languages.join(', ') : 'None'}</dd>
+        {printing.page && (
+          <>
+            <dt className="font-semibold">Page</dt>
+            <dd>{printing.page}</dd>
+          </>
+        )}
+      </dl>
+      {dm ? (
+        <section className="bg-card rounded-xl border p-4 sm:p-6">
+          <StatBlockSheet stats={stats} block={derived} />
+        </section>
+      ) : null}
+    </article>
+  )
+}
+
+function cap(text: string) {
+  return text.charAt(0).toUpperCase() + text.slice(1)
+}

@@ -166,6 +166,8 @@ export function StatSource({ stats }: { stats: AnyStatBlock }) {
         From the player’s character sheet.
       </p>
     )
+  // A library printing names its publication itself.
+  if (!('source' in stats)) return null
   return (
     <p className="text-muted-foreground border-border border-t pt-2 text-xs">
       {stats.source.adaptedFrom.length > 0 ? (

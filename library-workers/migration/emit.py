@@ -1,0 +1,120 @@
+"""Emit typed library TS modules from parse5e output for chosen publications."""
+import json,re,os,sys,collections
+H=os.path.dirname(__file__)
+REPO='/Users/me/Projects/DND/TheLostHope'
+PUBS={
+ 'SRD 5.1':('srd_5_1','System Reference Document 5.1','Wizards of the Coast',2016,'5e-2014','D&D - 5th Edition (2014)/Rules/System Reference Document 5.1 (CC BY).pdf'),
+ 'Basic Rules (2018)':('basic_rules_2018','Basic Rules','Wizards of the Coast',2018,'5e-2014','D&D - 5th Edition (2014)/Rules/Basic Rules (2018).pdf'),
+ 'Monster Manual (2014)':('monster_manual_2014','Monster Manual','Wizards of the Coast',2014,'5e-2014','D&D - 5th Edition (2014)/Rules/Monster Manual.pdf'),
+ 'SRD 5.2.1':('srd_5_2_1','System Reference Document 5.2.1','Wizards of the Coast',2025,'5e-2024','D&D - 5th Edition (2024)/System Reference Document 5.2.1 (CC BY).pdf'),
+ 'Monster Manual (2024)':('monster_manual_2024','Monster Manual','Wizards of the Coast',2024,'5e-2024',None),
+}
+# Older reprints point at the book they reprint; that book holds the stat block.
+REPRINT_OF={'basic_rules_2018':'monster_manual_2014','srd_5_1':'monster_manual_2014','srd_5_2_1':'monster_manual_2024'}
+CONDS=['blinded','charmed','deafened','frightened','grappled','incapacitated','invisible','paralyzed','petrified','poisoned','prone','restrained','stunned','unconscious']
+ICONS=[('bite','gi/GiFangs'),('fang','gi/GiFangs'),('claw','gi/GiClaws'),('talon','gi/GiClaws'),('tusk','gi/GiBullHorns'),('horn','gi/GiBullHorns'),('gore','gi/GiBullHorns'),('ram','gi/GiBull'),('hoof','gi/GiStomp'),('hooves','gi/GiStomp'),('stomp','gi/GiStomp'),('trampl','gi/GiStomp'),('sting','gi/GiPoisonBottle'),('poison','gi/GiPoisonBottle'),('tentacle','gi/GiTentacleStrike'),('constrict','gi/GiTentacleStrike'),('web','gi/GiSpiderWeb'),('spider','lucide/MoveUp'),('climb','lucide/MoveUp'),('fist','gi/GiFist'),('slam','gi/GiFist'),('rock','gi/GiSlingshot'),('beak','gi/GiRaven'),('peck','gi/GiRaven'),('fly','gi/GiFeather'),('flyby','gi/GiFeather'),('wing','gi/GiBatWing'),('echolocation','gi/GiEchoRipples'),('hearing','gi/GiHumanEar'),('smell','gi/GiNoseSide'),('scent','gi/GiNoseSide'),('sight','lucide/Eye'),('pack','lucide/UsersRound'),('swarm','lucide/UsersRound'),('breath','gi/GiDragonBreath'),('hold breath','gi/GiWaterSplash'),('amphibious','gi/GiWaterSplash'),('water','gi/GiWaterSplash'),('charge','gi/GiBull'),('pounce','gi/GiPaw'),('leap','gi/GiFrogFoot'),('jump','gi/GiFrogFoot'),('multiattack','gi/GiPaw'),('tail','gi/GiWhiplash'),('tongue','gi/GiTongue'),('camouflage','gi/GiInvisible'),('spit','gi/GiPoisonBottle'),('frightful','gi/GiDeathSkull'),('rampage','gi/GiDeathSkull'),('relentless','lucide/HeartPulse'),('swallow','gi/GiSlime'),('engulf','gi/GiSlime')]
+def icon(name,ab):
+  n=name.lower()
+  for k,v in ICONS:
+    if k in n: return v
+  if 'attack' in ab: return 'lucide/Target'
+  return 'gi/GiPaw' if ab['timing']=='trait' else 'gi/GiMagicSwirl'
+def keyify(s): return re.sub(r'[^a-z0-9]+','_',s.lower()).strip('_')
+def kebab(s): return re.sub(r'[^a-z0-9]+','-',s.lower()).strip('-')
+def js(v): return json.dumps(v,ensure_ascii=False)
+def tokens(text):
+  # Condition names become rules references the UI explains in place.
+  pat=re.compile(r'\b('+'|'.join(CONDS)+r')\b',re.I)
+  out=[]; last=0
+  for m in pat.finditer(text):
+    if m.start()>last: out.append(js(text[last:m.start()]))
+    out.append('refs.rules.'+m.group(1).lower()); last=m.end()
+  if last<len(text): out.append(js(text[last:]))
+  return '['+', '.join(out)+']'
+def ability_ts(ab,keys,ind):
+  i=' '*ind
+  key=kebab(ab['name']); base=key; n=2
+  while key in keys: key=f'{base}-{n}'; n+=1
+  keys.add(key)
+  L=[f'{i}{{',f'{i}  key: {js(key)},',f'{i}  name: {js(ab["name"])},',f'{i}  timing: {js(ab["timing"])},',f'{i}  icon: {js(icon(ab["name"],ab))},']
+  if 'intent' in ab: L.append(f'{i}  intent: {js(ab["intent"])},')
+  if 'attack' in ab:
+    a=ab['attack']
+    L.append(f'{i}  attack: {{'); L.append(f'{i}    kind: {js(a["kind"])},'); L.append(f'{i}    ability: {js(a["ability"])},')
+    if a['kind']=='melee': L.append(f'{i}    reach: {a["reach"]},')
+    else: L.append(f'{i}    range: [{a["range"][0]}, {a["range"][1]}],')
+    L.append(f'{i}    damage: [')
+    for d in a['damage']:
+      add=', addModifier: true' if d.get('addModifier') else ''
+      L.append(f'{i}      {{ dice: {js(d["dice"])}, type: refs.rules.{d["type"]}{add} }},')
+    L.append(f'{i}    ],'); L.append(f'{i}  }},')
+  if ab.get('text'): L.append(f'{i}  text: {tokens(" ".join(ab["text"]))},')
+  if 'uses' in ab: L.append(f'{i}  uses: {ab["uses"]},')
+  if 'recharge' in ab: L.append(f'{i}  recharge: {js(ab["recharge"])},')
+  L.append(f'{i}}},')
+  return L
+def same_block(a,b):
+  strip=lambda x: json.dumps({k:v for k,v in x.items() if k!='abilities'},sort_keys=True)+json.dumps([(y['name'],y.get('attack')) for y in x['abilities']],sort_keys=True)
+  return strip(a)==strip(b)
+def main():
+  types=sys.argv[1]
+  rows=json.load(open(os.path.join(H,'out-'+types+'.json')))
+  rows=[r for r in rows if not r['issues'] and r['label'] in PUBS]
+  # appearance/habitats from the source records
+  recs={}
+  for f in ['entries','monsters-a-f','monsters-g-p','monsters-q-z']:
+    for r in json.load(open(os.path.join(os.environ.get('LIBRARY_JSON_DIR',os.path.join(REPO,'src/lib/published-library-catalog')),f+'.json'))):
+      for p in r['printings']: recs[p['id']]=p
+  bypub=collections.defaultdict(dict); reprints=collections.defaultdict(list)
+  bykey=collections.defaultdict(dict)
+  for r in rows: bykey[keyify(r['slug'])][PUBS[r['label']][0]]=r
+  for key,pubs in bykey.items():
+    for pk,r in pubs.items():
+      target=REPRINT_OF.get(pk)
+      if target and target in pubs and same_block(pubs[target]['block'],r['block']):
+        reprints[(target,key)].append(pk); continue
+      bypub[pk][key]=r
+  outdir=os.path.join(REPO,'src/data/library/monsters'); os.makedirs(outdir,exist_ok=True)
+  for pk,mons in bypub.items():
+    L=["import { refs } from '#/data/generated/library-refs.ts'","import { refs as rules } from '#/data/generated/refs.ts'","import { createPublicationMonsters } from '#/definitions/library.ts'","","const refsRules = rules.rules","",
+       "export default createPublicationMonsters({",f"  publication: refs.publications.{pk},","  monsters: {"]
+    for key in sorted(mons):
+      r=mons[key]; b=r['block']; m=r['meta']; src=recs[r['printing']]
+      L.append(f'    {key}: {{'); L.append(f'      name: {js(r["name"])},')
+      rp=reprints.get((pk,key))
+      if rp: L.append('      reprintedIn: ['+', '.join(f'refs.publications.{x}' for x in sorted(rp))+'],')
+      if m['tags']: L.append(f'      tags: {js([t.strip() for t in m["tags"].split(",")])},')
+      if m['alignment']: L.append(f'      alignment: {js(m["alignment"])},')
+      langs=m['languages']
+      if langs and langs.lower() not in ('none','—','-','—'): L.append(f'      languages: {js([x.strip() for x in langs.split(",")])},')
+      hab=next((s['lines'] for s in src['gm'] if s['title']=='Habitats'),None)
+      if hab: L.append(f'      habitats: {js(hab)},')
+      app=next((s['lines'] for s in src['gm'] if s['title']=='Appearance'),None)
+      if app: L.append(f'      appearance: [{js(app)}],')
+      L.append('      stats: {')
+      for k in ['size','type','cr','ac']: L.append(f'        {k}: {js(b[k])},')
+      L.append(f'        hitDice: {js(b["hitDice"])},')
+      L.append('        speed: {'+', '.join(f'{k}: {v}' for k,v in b['speed'].items())+'},')
+      L.append('        scores: {'+', '.join(f'{k}: {v}' for k,v in b['scores'].items())+'},')
+      for k in ['saves','skills','senses']:
+        if k in b: L.append(f'        {k}: {{'+', '.join(f'{kk.replace("-","_")}: {js(v)}' for kk,v in b[k].items())+'},')
+      for k in ['damageResistances','damageImmunities','damageVulnerabilities','conditionImmunities']:
+        if b.get(k): L.append(f'        {k}: ['+', '.join('refs.rules.'+x for x in b[k])+'],')
+      L.append('        abilities: [')
+      keys=set()
+      for ab in b['abilities']: L+=ability_ts(ab,keys,10)
+      L.append('        ],'); L.append('      },'); L.append('    },')
+    L+=['  },','})','']
+    txt='\n'.join(L).replace("refs.rules.","rules.").replace("import { refs as rules } from '#/data/generated/refs.ts'","import { refs as campaignRefs } from '#/data/generated/refs.ts'").replace("const refsRules = rules.rules","const { rules } = campaignRefs")
+    open(os.path.join(outdir,pk.replace('_','-')+'.ts'),'w').write(txt)
+    print(pk,len(mons))
+  # publications
+  L=["import { createPublications } from '#/definitions/library.ts'","","export default createPublications({"]
+  for label,(pk,name,pub,year,rs,pdf) in PUBS.items():
+    L.append(f'  {pk}: {{'); L.append(f'    name: {js(name)},'); L.append(f'    publisher: {js(pub)},'); L.append(f'    year: {year},'); L.append(f'    ruleset: {js(rs)},')
+    if pdf: L.append(f'    pdf: {js(pdf)},')
+    L.append('  },')
+  L+=['})','']
+  open(os.path.join(REPO,'src/data/library/publications.ts'),'w').write('\n'.join(L))
+  print('reprints',sum(len(v) for v in reprints.values()))
+main()

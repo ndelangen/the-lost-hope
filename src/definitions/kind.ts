@@ -25,7 +25,12 @@ export const GLOSSARY_KINDS = ['rule'] as const
 
 export type GlossaryKind = (typeof GLOSSARY_KINDS)[number]
 
-export type AnyKind = EntityKind | DmEntityKind | GlossaryKind
+/** The published library: books and what they print, apart from campaign canon. */
+export const LIBRARY_KINDS = ['publication', 'monster'] as const
+
+export type LibraryKind = (typeof LIBRARY_KINDS)[number]
+
+export type AnyKind = EntityKind | DmEntityKind | GlossaryKind | LibraryKind
 
 export type EntityRef<K extends AnyKind = EntityKind> = {
   ref: K
