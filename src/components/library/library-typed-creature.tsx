@@ -87,6 +87,17 @@ export function LibraryTypedCreature({
           </>
         )}
       </dl>
+      {dm && printing.tableNotes ? (
+        <section aria-label="At the table" className="grid gap-2">
+          <h2 className="text-sm font-semibold">At the table</h2>
+          {printing.tableNotes.map((paragraph) => (
+            <p key={paragraph.join('')} className="text-muted-foreground max-w-prose text-sm">
+              {paragraph.map((part) => (typeof part === 'string' ? part : '')).join('')}
+            </p>
+          ))}
+          <p className="text-muted-foreground text-xs">Library rulings, not printed in the book.</p>
+        </section>
+      ) : null}
       {dm ? (
         <section className="bg-card rounded-xl border p-4 sm:p-6">
           <StatBlockSheet stats={stats} block={derived} />

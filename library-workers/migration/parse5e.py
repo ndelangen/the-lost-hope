@@ -72,8 +72,19 @@ def lenient(text):
     g[8]=flat.group(1); g[9]=flat.group(1); g[12]=flat.group(2)
     g[13]=text[flat.end():]
   return M(g)
+# What a converted printing reads, and the worker notes and lore it may safely leave behind.
+READ={'statistics','classification','other statistics','skills','senses','saving throws','languages',
+  'damage resistances','damage immunities','condition immunities','damage vulnerabilities','defenses',
+  'traits','actions','bonus actions','reactions','armor','initiative','proficiency bonus'}
+NOTES={'at the table','table notes'}
+LORE={'description','habitats','habitat','appearance','printed source','references','lore topics in the source',
+  'treasure','adapted from','source notes','printing note','encounter ecology'}
 def convert(r,p):
   issues=[]
+  for s_ in p['gm']+(p.get('player') or []):
+    t=s_['title'].lower()
+    if t not in READ and t not in LORE and t not in NOTES and s_['lines']:
+      issues.append(f'section not converted: {s_["title"]}')
   g=lambda k: stat(p,k)
   ac=g('Armor class'); hp=g('Hit points'); hd=g('Hit dice'); cr=g('Challenge')
   if not (ac and hp and hd and cr): raise Fail('missing core')
@@ -89,6 +100,10 @@ def convert(r,p):
   if bonus!=n*mod(scores['con']): issues.append(f'hit dice bonus {bonus} != {n}x con mod')
   if avg(dice,n*mod(scores['con']))!=int(hp): issues.append(f'HP {hp} != derived {avg(dice,n*mod(scores["con"]))}')
   cls=' '.join(sec(p,'Classification') or [])
+  if not cls and g('Size') and g('Type'):
+    # Encounter-reference printings keep size, type and alignment as separate statistics.
+    t=g('Type'); tm=re.match(r'([A-Za-z]+)(?: \(([^)]*)\))?',t)
+    cls=f"{g('Size').split(' ')[0]} {t}"+(f", {g('Alignment')}" if g('Alignment') else '')
   swarm=re.match(r'(Tiny|Small|Medium|Large|Huge|Gargantuan) swarm of (Tiny|Small|Medium|Large|Huge|Gargantuan) ([A-Za-z]+)(?: \(([^)]*)\))?,? ?(.*)$',cls,re.I)
   if swarm:
     t=swarm.group(3).lower()
@@ -138,7 +153,8 @@ def convert(r,p):
   if saves: block['saves']=saves
   # Defenses, however the worker phrased them: each clause runs to the next defense keyword.
   KW=r'(?:Damage |Condition )?(?:Resistant to|Resistances?|Resists?|Immunities|Immune to|Vulnerabilit(?:y|ies)|Vulnerable to)'
-  defense_text=' '.join((sec(p,'Other statistics') or [])+(sec(p,'Defenses') or []))
+  defense_text=' '.join((sec(p,'Other statistics') or [])+(sec(p,'Defenses') or [])
+    +[t+' '+'; '.join(sec(p,t) or []) for t in ['Damage resistances','Damage immunities','Condition immunities','Damage vulnerabilities'] if sec(p,t)])
   for m in re.finditer('('+KW+r')\s*:?\s*(.*?)(?=\s'+KW+r'|\sSenses|\sLanguages|\. |\.$|;\s*(?:Senses|Languages)|$)',defense_text,re.I):
     head=m.group(1).lower(); body=m.group(2).lower()
     if 'nonmagical' in body or 'silvered' in body or 'adamantine' in body or 'magic' in body:
@@ -158,6 +174,12 @@ def convert(r,p):
     if re.search(word,defense_text,re.I) and field not in block and not (word=='immun' and 'conditionImmunities' in block) and not any('defense' in i for i in issues):
       issues.append(f'{word} mentioned but not captured')
   langs=re.search(r'Languages ([^.]*?)(?:\.|$)',other)
+  if sec(p,'Languages'):
+    langs=re.match(r'(.*)$','; '.join(sec(p,'Languages')))
+  armor=re.search(r'\(([^)]*armor[^)]*|[^)]*mail[^)]*|[^)]*shield[^)]*)\)',ac or '')
+  armor_text=armor.group(1) if armor else None
+  if not armor_text and re.search(r'natural armor',' '.join(sec(p,'Armor') or [])+' '+other,re.I): armor_text='natural armor'
+  if armor_text: block['armor']=armor_text.strip()
   abilities=[]
   for timing,title in [('trait','Traits'),('action','Actions'),('bonus action','Bonus actions'),('reaction','Reactions')]:
     lines=sec(p,title)

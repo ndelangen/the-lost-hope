@@ -93,9 +93,12 @@ def main():
       if hab: L.append(f'      habitats: {js(hab)},')
       app=next((s['lines'] for s in src['gm'] if s['title']=='Appearance'),None)
       if app: L.append(f'      appearance: [{js(app)}],')
+      notes=[l for s in src['gm'] if s['title'].lower() in ('at the table','table notes') for l in s['lines']]
+      if notes: L.append(f'      tableNotes: [{", ".join("["+js(n)+"]" for n in notes)}],')
       L.append('      stats: {')
       if 'swarmOf' in b: L.append(f'        swarmOf: {js(b["swarmOf"])},')
       for k in ['size','type','cr','ac']: L.append(f'        {k}: {js(b[k])},')
+      if 'armor' in b: L.append(f'        armor: {js(b["armor"])},')
       L.append(f'        hitDice: {js(b["hitDice"])},')
       L.append('        speed: {'+', '.join(f'{k}: {v}' for k,v in b['speed'].items())+'},')
       L.append('        scores: {'+', '.join(f'{k}: {v}' for k,v in b['scores'].items())+'},')

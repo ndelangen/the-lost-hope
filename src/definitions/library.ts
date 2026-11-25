@@ -46,6 +46,9 @@ export const MonsterPrinting = z.strictObject({
     .describe('Empty when it has none; a rule such as telepathy is written out'),
   habitats: z.array(z.string().trim().min(1)).min(1).optional(),
   appearance: Content.optional().describe('What the party sees, for describing it at the table'),
+  tableNotes: Content.optional().describe(
+    'Rulings and running advice the library adds; not printed in the publication',
+  ),
   stats: PrintedStatBlock,
 })
 

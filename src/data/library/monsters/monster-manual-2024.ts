@@ -111,6 +111,11 @@ export default createPublicationMonsters({
       appearance: [
         ['A broad-shouldered ape with a gray mantle, long forearms, dark fur and a bare face.'],
       ],
+      tableNotes: [
+        [
+          'After using Rock, roll 1d6 at the start of each of the ape’s turns. Rock is available again on a 6 or after a short or long rest.',
+        ],
+      ],
       stats: {
         size: 'medium',
         type: 'beast',
@@ -598,6 +603,11 @@ export default createPublicationMonsters({
       appearance: [
         [
           'A huge gorilla-like ape with charcoal fur, a broad chest and muscular knuckle-walking arms.',
+        ],
+      ],
+      tableNotes: [
+        [
+          'Once Boulder Toss is used, it becomes available again on a 6 on 1d6 at the start of a turn, or after a Short or Long Rest.',
         ],
       ],
       stats: {
@@ -1271,6 +1281,7 @@ export default createPublicationMonsters({
           'A long rust-brown squid with a pointed mantle, curling arms and two longer, paddle-tipped tentacles.',
         ],
       ],
+      tableNotes: [['The once-per-day Ink Cloud use returns when the squid finishes a Long Rest.']],
       stats: {
         size: 'huge',
         type: 'beast',
